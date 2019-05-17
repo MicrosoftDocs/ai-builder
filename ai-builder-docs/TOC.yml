@@ -1,7 +1,7 @@
 - name: AI Builder
   items:
   - name: What is AI Builder?
-    href: index.md
+    href: what-is-ai-builder.md
   - name: Browse AI model types
     href: browse-ai-model-types.md
   - name: Build a model
@@ -30,5 +30,81 @@
     href: binary-classification-train-model.md
   - name: Understand the training report
     href: binary-classification-training-report.md
-  - name: Understand model performance (topic)
+  - name: Understand binary classification model performance
     href: binary-classification-performance.md
+- name: Text classification AI model
+  items:
+  - name: Overview
+    href: text-classification-overview.md
+  - name: Before you build a text classification model
+    href: before-you-build-text-classification-model.md
+  - name: Create a text classification model
+    href: create-text-classification-model.md
+  - name: Train your text classification model
+    href: train-text-classification-model.md
+  - name: Understand text classification model performance
+    href: text-classification-performance.md
+  - name: Improve text classification model performance
+    href: improve-text-classification-performance.md
+  - name: Publish your text classification model
+    href: publish-text-classification-model.md
+  - name: View generated predictions
+    href: text-classification-view-predictions.md
+  - name: Use generated tags
+    href: text-classification-model-use-tags.md
+- name: Object detection AI model
+  items: 
+  - name: Overview
+    href: object-detection-overview.md
+  - name: Collect images
+    href: collect-images.md
+  - name: Get started with object detection
+    href: get-started-with-object-detection.md
+  - name: Tag images
+    href: tag-images.md
+  - name: Train your object detection model
+    href: object-detection-train-model.md
+  - name: Quickly test your model
+    href: object-detection-quick-test.md
+- name: Form processing AI model
+  items:
+  - name: Overview
+    href: form-processing-model-overview.md
+  - name: Requirements and limitations
+    href: form-processing-model-requirements.md
+  - name: Create a form processing model
+    href: create-form-processing-model.md
+  - name: Test your form-processing model
+    href: form-processing-test.md
+- name: Use AI Builder in Microsoft Flow
+  items:
+  - name: Overview
+    href: ai-builder-in-flow-overview.md
+  - name: Prerequisites (topic)
+    href: ai-builder-in-flow-prereq.md
+  - name: Use text classification model in Microsoft Flow
+    href: text-classification-model-in-flow.md
+  - name: Use form processing model in Microsoft Flow
+    href: form-processing-model-model-in-flow.md
+  - name: Use object detection model in Microsoft Flow
+    href: object-detection-model-in-flow.md
+- name: Use AI Builder in PowerApps
+  items:
+  - name: Overview
+    href: ai-builder-in-powerapps-overview.md
+  - name: Use form processor component in PowerApps
+    href: form-processor-component-in-powerapps.md
+  - name: Use Object detector component in PowerApps
+    href: object-detector-component-in-powerapps.md
+  - name: Use Business card reader component in PowerApps
+    href: business-card-reader-component-in-powerapps.md
+- name: Administration
+  items:
+  - name: Supported regions
+    href: supported-regions.md
+  - name: Onboarding/opt in and opt out
+    href: onboarding.md
+  - name: Security
+    href: security.md
+  - name: Backup and restore
+    href: backup-restore.md
