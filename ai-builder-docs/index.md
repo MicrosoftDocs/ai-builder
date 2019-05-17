@@ -21,7 +21,7 @@ AI Builder is a new Power Platform capability that allows you to easily automate
 > - AI Builder is a a preview feature.
 > - [!INCLUDE[cc_preview_features_definition](./includes/cc-preview-features-definition.md)] 
 
-Using AI is easy thanks to integration into PowerApps and Flow. Follow these steps: 
+Using AI is easy thanks to integration with PowerApps and Microsoft Flow. Follow these steps: 
 1. **Choose AI model type**: Select your business problem from a growing set of AI turnkey solutions. 
 1. **Connect data**: Select your business-specific data from Common Data Service. AI Builder (preview) does the hard work for you thanks to Common Data Model. 
 1. **Tailor your AI model**: Filter your data, set scheduling, and tweak the AI model with business decisions that affect how AI performs. 
