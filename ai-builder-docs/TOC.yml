@@ -26,7 +26,7 @@
     href: binary-classification-data-prep.md
   - name: Create a binary classification model
     href: create-binary-classification-model.md
-  - name: Train your model
+  - name: Train your binary classification model
     href: binary-classification-train-model.md
   - name: Understand the training report
     href: binary-classification-training-report.md
