@@ -2,3 +2,5 @@
   items:
   - name: What is AI Builder?
     href: index.md
+  - name: Browse AI model types
+    href: browse-ai-model-types.md
