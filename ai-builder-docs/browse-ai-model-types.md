@@ -13,6 +13,8 @@ ms.reviewer: kvivek
 
 # Browse AI model types
 
+[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
+
 Build a model based on an AI model type for a specific scenario, such as recognizing your products on an image, and then train and publish the model for use in your business. 
 To create a model, sign in to [PowerApps](https://powerapps.microsoft.com). In the left navigation bar, select **AI Builder (preview)** > **Build**, and then choose the model type that matches what you want to do.
 

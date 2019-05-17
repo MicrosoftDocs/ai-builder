@@ -13,7 +13,13 @@ ms.reviewer: kvivek
 
 # What is AI Builder?
 
-AI Builder is a new Power Platform capability that allows you to easily automate processes and predict outcomes to improve business performance. AI Builder is a turnkey solution that brings the power of Microsoft Artificial Intelligence (AI) through a point and click experience. Using AI Builder, you can build AI without having coding or data science skills.  
+[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
+
+AI Builder is a new Power Platform capability that allows you to easily automate processes and predict outcomes to improve business performance. AI Builder is a turnkey solution that brings the power of Microsoft Artificial Intelligence (AI) through a point and click experience. Using AI Builder, you can build AI without having coding or data science skills. 
+
+> [!IMPORTANT]
+> - AI Builder is a a preview feature.
+> - [!INCLUDE[cc_preview_features_definition](./includes/cc-preview-features-definition.md)] 
 
 Using AI is easy thanks to integration into PowerApps and Flow. Follow these steps: 
 1. Choose AI model type: Select your business problem from a growing set of AI turnkey solutions. 
@@ -27,3 +33,8 @@ We  cover each of these steps in the individual AI model type sections.
 
 ### Next steps
 [Build a model]() 
+
+### See also
+[AI Builder Release Notes](/power-platform-release-notes/october19/ai-builder)<br/>
+[PowerApps docs](https://docs.microsoft.com/powerapps/)<br/>
+[Microsoft Flow docs](https://docs.microsoft.com/flow/getting-started)
