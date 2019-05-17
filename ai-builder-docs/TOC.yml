@@ -80,7 +80,7 @@
   items:
   - name: Overview
     href: ai-builder-in-flow-overview.md
-  - name: Prerequisites (topic)
+  - name: Prerequisites
     href: ai-builder-in-flow-prereq.md
   - name: Use text classification model in Microsoft Flow
     href: text-classification-model-in-flow.md
@@ -92,7 +92,7 @@
   items:
   - name: Overview
     href: ai-builder-in-powerapps-overview.md
-  - name: Use form processor component in PowerApps
+  - name: Use Form processor component in PowerApps
     href: form-processor-component-in-powerapps.md
   - name: Use Object detector component in PowerApps
     href: object-detector-component-in-powerapps.md

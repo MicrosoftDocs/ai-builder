@@ -32,7 +32,7 @@ We  cover each of these steps in the individual AI model type sections.
 
 
 ### Next steps
-[Build a model]() 
+[Browse AI model types](browse-ai-model-types) 
 
 ### See also
 [AI Builder Release Notes](/power-platform-release-notes/october19/ai-builder)<br/>
