@@ -4,3 +4,31 @@
     href: index.md
   - name: Browse AI model types
     href: browse-ai-model-types.md
+  - name: Build a model
+    href: build-model.md
+  - name: Share your experience 
+    href: share-your-experience.md
+- name: AI Models
+  items:
+  - name: Train a model in AI Builder
+    href: train-model-ai-builder.md
+  - name: Manage a model in AI Builder
+    href: manage-model-ai-builder.md
+  - name: Publish a model in AI Builder
+    href: publish-model-ai-builder.md
+- name: Binary classification AI model
+  items:
+  - name: Overview 
+    href: binary-classification-overview.md
+  - name: Prerequisites
+    href: binary-classification-prereq.md
+  - name: Data preparation
+    href: binary-classification-data-prep.md
+  - name: Create a binary classification model
+    href: create-binary-classification-model.md
+  - name: Train your model
+    href: binary-classification-train-model.md
+  - name: Understand the training report
+    href: binary-classification-training-report.md
+  - name: Understand model performance (topic)
+    href: binary-classification-performance.md
