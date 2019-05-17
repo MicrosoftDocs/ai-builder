@@ -22,11 +22,11 @@ AI Builder is a new Power Platform capability that allows you to easily automate
 > - [!INCLUDE[cc_preview_features_definition](./includes/cc-preview-features-definition.md)] 
 
 Using AI is easy thanks to integration into PowerApps and Flow. Follow these steps: 
-1. Choose AI model type: Select your business problem from a growing set of AI turnkey solutions. 
-1. Connect data: Select your business-specific data from Common Data Service. AI Builder (preview) does the hard work for you thanks to Common Data Model. 
-1. Tailor your AI model: Filter your data, set scheduling, and tweak the AI model with business decisions that affect how AI performs. 
-1. Train your AI model: Training is an automatic operation where AI Builder (preview) “teaches” your AI model how to resolve your business problem (e.g.: recognize your products on an image) thanks to your business data and tailoring. When trained, your AI model can generate insights, such as the result of a prediction or the list and count of objects detected in an image. 
-1. Use your AI model’s insights without any coding skills across the Power Platform  to create end-to-end solutions to your business problems.  E.g.: create a Flow that automates document processing, or a PowerApps app that predicts whether a supplier will be out of compliance. 
+1. **Choose AI model type**: Select your business problem from a growing set of AI turnkey solutions. 
+1. **Connect data**: Select your business-specific data from Common Data Service. AI Builder (preview) does the hard work for you thanks to Common Data Model. 
+1. **Tailor your AI model**: Filter your data, set scheduling, and tweak the AI model with business decisions that affect how AI performs. 
+1. **Train your AI model**: Training is an automatic operation where AI Builder (preview) “teaches” your AI model how to resolve your business problem (e.g.: recognize your products on an image) thanks to your business data and tailoring. When trained, your AI model can generate insights, such as the result of a prediction or the list and count of objects detected in an image. 
+1. **Use your AI model’s insights**: Use the insights without any coding skills across Power Platform to create end-to-end solutions to your business problems.  For example, create a Flow that automates document processing or an app in PowerApps that predicts whether a supplier will be out of compliance. 
 
 We  cover each of these steps in the individual AI model type sections.
 
