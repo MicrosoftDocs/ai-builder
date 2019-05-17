@@ -1,2 +1,4 @@
-- name: Index
-  href: index.md
+- name: AI Builder
+  items:
+  - name: What is AI Builder?
+    href: index.md
