@@ -34,7 +34,7 @@ We  cover each of these steps in the individual AI model type sections.
 ### Next steps
 [Browse AI model types](browse-ai-model-types) 
 
-### See also
+## Related topics
 [AI Builder Release Notes](/power-platform-release-notes/october19/ai-builder)<br/>
 [PowerApps docs](https://docs.microsoft.com/powerapps/)<br/>
 [Microsoft Flow docs](https://docs.microsoft.com/flow/getting-started)
