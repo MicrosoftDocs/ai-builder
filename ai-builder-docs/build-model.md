@@ -22,25 +22,15 @@ AI Builder requires use of [Common Data Service](https://docs.microsoft.com/en-u
 
 - For more information about the Common Data Service, go to Common Data Service in PowerApps Docs.
 - For information about how to import data into Common Data Service, go to  Add data to an entity using Power Query in PowerApps Docs.
+
 ## Get started
 To get started, sign in to PowerApps. 
 1.	In the left navigation bar, under **AI Builder (preview)** select **Build**.
 2.	Under **Make your own AI model**, select an AI model type.
-If you don’t see any AI model types, see [Onboarding/opt in and opt out]() for more information.
+
+    If you don’t see any AI model types, see [Onboarding/opt in and opt out]() for more information.
 3.	Enter a model name, and then select **Create**.
-
-> [!IMPORTANT]
-> - AI Builder is a a preview feature.
-> - [!INCLUDE[cc_preview_features_definition](./includes/cc-preview-features-definition.md)] 
-
-
-
-
 
 ### Next steps
 [Share your experience](share-your-experience) 
 
-### See also
-[AI Builder Release Notes](/power-platform-release-notes/october19/ai-builder)<br/>
-[PowerApps docs](https://docs.microsoft.com/powerapps/)<br/>
-[Microsoft Flow docs](https://docs.microsoft.com/flow/getting-started)
