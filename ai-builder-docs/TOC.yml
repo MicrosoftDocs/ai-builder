@@ -4,12 +4,12 @@
     href: what-is-ai-builder.md
   - name: Browse AI model types
     href: browse-ai-model-types.md
-  - name: Build a model
-    href: build-model.md
   - name: Share your experience 
     href: share-your-experience.md
 - name: AI Models
   items:
+  - name: Build a model
+    href: build-model.md
   - name: Train a model in AI Builder
     href: train-model-ai-builder.md
   - name: Manage a model in AI Builder
