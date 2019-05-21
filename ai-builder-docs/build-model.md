@@ -32,5 +32,5 @@ To get started, sign in to PowerApps.
 3.	Enter a model name, and then select **Create**.
 
 ### Next steps
-[Train a model in AI Builder](train-model-ai-builder) 
+[Train a model in AI Builder](train-model-ai-builder.md) 
 

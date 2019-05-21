@@ -40,10 +40,10 @@ As an example, here is how to import training data from an Excel sheet. This exa
 
 |326589    |It’s   a powerful tool that helps make quick changes                                                                                                                               |Good\|Quick\|Powerful |
 |---|---|---|
-|326590    |This program is great and has lots of potential. The user interface is intuitive   and makes it easy to filter results. However, when I try to edit a link, I get an error.    |Potential, Easy, Good, Ease of Use, filters, bug  |
-|326591    |You need to work on your Feature Y capabilities they are not as good as your competition.                                                                                      |Feature   Y, Competition     |
-|326592    |Easy to view data                                                                                                                                                                |Easy, Ease of use                                |
-|326593    |I like how you made feature X easy to use. This reduces a lot of complexity when I want to onboard new customers.                                                              |Easy, Good, Feature X                             |
+|326590    |This program is great and has lots of potential. The user interface is intuitive   and makes it easy to filter results. However, when I try to edit a link, I get an error.    |Potential, Easy\| Good, Ease of Use\| filters\| bug  |
+|326591    |You need to work on your Feature Y capabilities they are not as good as your competition.                                                                                      |Feature   Y\| Competition     |
+|326592    |Easy to view data                                                                                                                                                                |Easy\| Ease of use                                |
+|326593    |I like how you made feature X easy to use. This reduces a lot of complexity when I want to onboard new customers.                                                              |Easy\|Good\|Feature X                             |
 
 
 ### Next steps

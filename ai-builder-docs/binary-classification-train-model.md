@@ -20,7 +20,7 @@ After you've selected your data fields, select **Next**  to view a summary of  t
 Note that training takes time, so you can stay on the page and wait, or you can close the page and come back later.  After the model is trained, you’ll be able to evaluate your model performance results, and publish your model.
 
 ### Next steps
-[Publish your model](publish-model-ai-builder) 
+[Publish your model](publish-model-ai-builder.md) 
 
 ### See also
 [AI Builder Release Notes](/power-platform-release-notes/october19/ai-builder)<br/>

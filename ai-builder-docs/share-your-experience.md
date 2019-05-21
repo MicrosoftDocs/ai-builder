@@ -20,7 +20,7 @@ Read and post in the [AI Builder (preview) forum](https://go.microsoft.com/fwlin
 
 
 ### Next steps
-[Build a model](build-model) 
+[Build a model](build-model.md) 
 
 ### See also
 [AI Builder Release Notes](/power-platform-release-notes/october19/ai-builder)<br/>

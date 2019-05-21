@@ -50,14 +50,14 @@ A new version is created only after you have successfully trained it. If you lea
 
 After training, your training results appear under **Last trained version** section of the **Details** page.
 
-If you are satisfied with your last trained version, you can [publish your model](publish-model-ai-builder) to make it available. Otherwise, you can always create a new version. For more information about publishing your model, see [When should I publish my model?](publish-model-ai-builder).
+If you are satisfied with your last trained version, you can [publish your model](publish-model-ai-builder.md) to make it available. Otherwise, you can always create a new version. For more information about publishing your model, see [When should I publish my model?](publish-model-ai-builder.md).
 
 ## When should I create a new version?
 You can create a new version of your model to help improve the model performance or quality. This depends on the AI model type, where some models can be improved by updating the configuration and some models can be improved by updating the training data.
 
 Due to the experimental nature of machine learning, not all new versions you create will have an increase in model performance. If you are not satisfied with your model, you can create a new version to try to yield better results.
 
-If you are satisfied with your model, you can [publish your model](publish-model-ai-builder) to make it available. Similarly, as you can only have  two trained versions available at a time, you can publish a version if you do not want it to be overwritten by a new version.
+If you are satisfied with your model, you can [publish your model](publish-model-ai-builder.md) to make it available. Similarly, as you can only have  two trained versions available at a time, you can publish a version if you do not want it to be overwritten by a new version.
 
 For more information about the nuances of improving your model performance, under the **Last trained version** and in the **Tips section**, select **Improve model performance**. This tip only appears for the AI model types where it is applicable.
 
@@ -65,7 +65,7 @@ For more information about the nuances of improving your model performance, unde
 
 
 ### Next steps
-[Publish your model](publish-model-ai-builder)
+[Publish your model](publish-model-ai-builder.md)
 
 ### See also
 [AI Builder Release Notes](/power-platform-release-notes/october19/ai-builder)<br/>

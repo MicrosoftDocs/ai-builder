@@ -26,7 +26,7 @@ Use the Binary Classification AI model to explore any business question that is 
 
 
 ### Next steps
-[Prerequisites](binary-classification-prereq) 
+[Prerequisites](binary-classification-prereq.md) 
 
 ### See also
 [AI Builder Release Notes](/power-platform-release-notes/october19/ai-builder)<br/>
