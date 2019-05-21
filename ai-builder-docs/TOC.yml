@@ -82,29 +82,23 @@
     href: ai-builder-in-flow-overview.md
   - name: Prerequisites
     href: ai-builder-in-flow-prereq.md
-  - name: Use text classification model in Microsoft Flow
+  - name: Use a text classification model in Microsoft Flow
     href: text-classification-model-in-flow.md
-  - name: Use form processing model in Microsoft Flow
+  - name: Use a form processing model in Microsoft Flow
     href: form-processing-model-model-in-flow.md
-  - name: Use object detection model in Microsoft Flow
+  - name: Use an object detection model in Microsoft Flow
     href: object-detection-model-in-flow.md
 - name: Use AI Builder in PowerApps
   items:
   - name: Overview
     href: ai-builder-in-powerapps-overview.md
-  - name: Use Form processor component in PowerApps
+  - name: Use the form processor component in PowerApps
     href: form-processor-component-in-powerapps.md
-  - name: Use Object detector component in PowerApps
+  - name: Use the object detector component in PowerApps
     href: object-detector-component-in-powerapps.md
-  - name: Use Business card reader component in PowerApps
+  - name: Use the business card reader component in PowerApps
     href: business-card-reader-component-in-powerapps.md
 - name: Administration
   items:
-  - name: Supported regions
-    href: supported-regions.md
-  - name: Onboarding/opt in and opt out
-    href: onboarding.md
-  - name: Security
-    href: security.md
-  - name: Backup and restore
-    href: backup-restore.md
+  - name: Administration
+    href: administration.md

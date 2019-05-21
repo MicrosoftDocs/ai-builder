@@ -18,7 +18,7 @@ ms.reviewer: kvivek
 
 After you successfully train your model, you must explicitly publish it to make it available for use. All users in your current environment will be able to use your published model.
 
-On the **Details** page, under Last trained version, select **Publish**.
+On the **Details** page, under **Last trained version**, select **Publish**.
 After you publish your last trained version, it appears as the published version. For certain AI model types, you may need to take additional steps to use your model in PowerApps or Common Data Service.
 
 > [!NOTE]

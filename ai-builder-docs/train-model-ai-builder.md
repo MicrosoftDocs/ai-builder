@@ -16,10 +16,6 @@ ms.reviewer: kvivek
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
 
-> [!IMPORTANT]
-> - AI Builder is a a preview feature.
-> - [!INCLUDE[cc_preview_features_definition](./includes/cc-preview-features-definition.md)] 
-
 Before you can use a model, you must first train it. After you train a model, you can [publish your model](publish-model-ai-builder) to make it available to other people.
 ## Train model
 When you create a model in AI Builder, you configure it to fit the needs of your business. Each time you save changes to your model in AI Builder, you are saving your progress as a draft. After you finish making changes, you confirm the settings with which you wish to train your model, and then  select **Train** to begin training.

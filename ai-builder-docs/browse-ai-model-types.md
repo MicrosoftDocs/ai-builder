@@ -28,6 +28,3 @@ AI templates give you the ability to tailor a scenario to the needs of your busi
 | Form Processing  |Vision   |
 | Object Detection  |Vision   |
 | Text Classification  |Language   |
-
- 
- 

@@ -15,9 +15,7 @@ ms.reviewer: kvivek
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-> [!IMPORTANT]
-> - AI Builder is a a preview feature.
-> - [!INCLUDE[cc_preview_features_definition](./includes/cc-preview-features-definition.md)] 
+
 
 ## Evaluate your model
 After you train your model for the first time, you can evaluate its performance and quality on the **Details** page.

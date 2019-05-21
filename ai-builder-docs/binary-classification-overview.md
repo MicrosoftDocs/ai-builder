@@ -15,11 +15,6 @@ ms.reviewer: kvivek
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-
-> [!IMPORTANT]
-> - AI Builder is a a preview feature.
-> - [!INCLUDE[cc_preview_features_definition](./includes/cc-preview-features-definition.md)] 
-
 AI Builder binary classification is an AI model that predicts yes/no business outcomes by learning to associate historical data patterns to historical outcomes. Based on those results, the binary classification model detects learned patterns in new data, in order to predict future outcomes.
 Use the Binary Classification AI model to explore any business question that is answered as one of two available options, such as yes/no, true/false, pass/fail, go/no go, etc. For example:. 
  
