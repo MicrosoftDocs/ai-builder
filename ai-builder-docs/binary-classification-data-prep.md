@@ -80,7 +80,7 @@ In the previous example, **Income** is actually the label field, but the current
 
 
 ### Next steps
-[Create a text classification model](create-text-classification-model) 
+[Create a text classification model](create-text-classification-model.md) 
 
 ### See also
 [AI Builder Release Notes](/power-platform-release-notes/october19/ai-builder)<br/>

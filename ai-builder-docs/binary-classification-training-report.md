@@ -49,7 +49,7 @@ Data fields that have a high correlation with prediction outcome may be dropped 
 
 
 ### Next steps
-[Publish your model](publish-model-ai-builder)
+[Publish your model](publish-model-ai-builder.md)
 
 ### See also
 [AI Builder Release Notes](/power-platform-release-notes/october19/ai-builder)<br/>

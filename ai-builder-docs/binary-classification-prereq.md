@@ -15,7 +15,7 @@ ms.reviewer: kvivek
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-For information about AI Builder requirements that are not specific to this AI model, go to the [Prerequisites section](prerequisites.md) of this topic.
+For information about AI Builder requirements that are not specific to this AI model, go to the [Prerequisites section](build-model.md#prerequisites) of this topic.
 ## What skills do I need to have to use binary classification?
 - The person creating the binary classification model should know enough about the business in question to understand the meaning of a data set. 
 
