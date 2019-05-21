@@ -19,42 +19,6 @@ After you've selected your data fields, select **Next**  to view a summary of  t
  
 Note that training takes time, so you can stay on the page and wait, or you can close the page and come back later.  After the model is trained, you’ll be able to evaluate your model performance results, and publish your model.
 
-
-
-## Understand the training report
-Here are some of the details to help you understand the training report errors and warnings. 
-### Errors
-- *Not enough data to train your model*
-
-    If you only have 50 records or less, you can’t train the model. Ideally, you should have at least 1000 records or more. 
-
-- *Not enough examples of each historical outcome to train your model*
-
-    You need at least 10 records of historical outcome for each class to train the model and predict the outcome. 
-
-- *Not enough relevant data to train your model*
-
-    You don’t have any relevant data to create the model. 
-
-### Warnings
-- *Less than 1000 records provided*
-
-    You have less than 1000 records. Ideally, you should provide at least 1000 records to train the model. 
-
-- *Some fields had low relevance*
-
-    You should delete data fields that have less relevance to train the model. For example, data fields that all have the same value in each record. 
-
-- *Some fields were missing values*
-
-    You should delete data fields that have a high rate of missing values. 
-
-- *Some fields were dropped during training*
-
-Data fields that have a high correlation with prediction outcome may be dropped in model training.
-
-
-
 ### Next steps
 [Publish your model](publish-model-ai-builder) 
 
