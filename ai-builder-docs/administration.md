@@ -16,11 +16,6 @@ ms.reviewer: kvivek
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
 
-
-
-### Next steps
-[Browse AI model types](browse-ai-model-types) 
-
 ### See also
 [AI Builder Release Notes](/power-platform-release-notes/october19/ai-builder)<br/>
 [PowerApps docs](https://docs.microsoft.com/powerapps/)<br/>
