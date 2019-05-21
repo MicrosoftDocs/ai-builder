@@ -1,5 +1,5 @@
 ---
-title:  Publish model | Microsoft Docs
+title:  Publish a model in AI Builder | Microsoft Docs
 description: Provides an overview of AI Builder.
 author: Dean-Haas
 manager: kvivek
@@ -11,7 +11,7 @@ ms.author: v-dehaas
 ms.reviewer: kvivek
 ---
 
-# Publish a model in AI Builder
+# Publish model 
 
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
