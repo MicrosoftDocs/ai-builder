@@ -43,7 +43,7 @@ After you select the **Entity** and **Label** fields, you have to select differe
 
 
 ### Next steps
-[Browse AI model types](browse-ai-model-types) 
+[Browse AI model types](browse-ai-model-types.md) 
 
 ### See also
 [AI Builder Release Notes](/power-platform-release-notes/october19/ai-builder)<br/>

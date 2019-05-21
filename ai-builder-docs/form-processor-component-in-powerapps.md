@@ -18,7 +18,7 @@ ms.reviewer: kvivek
 
 
 ### Next steps
-[Browse AI model types](browse-ai-model-types) 
+[Browse AI model types](browse-ai-model-types.md) 
 
 ### See also
 [AI Builder Release Notes](/power-platform-release-notes/october19/ai-builder)<br/>

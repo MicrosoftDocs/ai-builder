@@ -24,7 +24,7 @@ You can use AI Builder text classification with [Microsoft Flow](https://flow.mi
 
 
 ### Next steps
-[Browse AI model types](browse-ai-model-types) 
+[Browse AI model types](browse-ai-model-types.md) 
 
 ### See also
 [AI Builder Release Notes](/power-platform-release-notes/october19/ai-builder)<br/>
