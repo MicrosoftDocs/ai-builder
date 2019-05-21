@@ -27,9 +27,9 @@ Before you build your text classification model, you'll need to make sure your d
 - Text must be less than 5000 characters.
 If we represent data in a table, it would look like this:
 
-| Text      | Tags                |   |   |   |
-|-----------|---------------------|---|---|---|
-| Text data | Tag X, Tag Y        |   |   |   |
+| Text      | Tags                |
+|-----------|---------------------|
+| Text data | Tag X, Tag Y        | 
 | Text data | Tag X, Tag Y, Tag Z | 
 
 ## Import your data into Common Data Service
@@ -38,7 +38,7 @@ We understand that your data might not be in Common Data Service. However, Commo
 As an example, here is how to import training data from an Excel sheet. This example uses an excel file like this:
 
 
-|326589    |It’s   a powerful tool that helps make quick changes                                                                                                                               |Good, Quick, Powerful |
+|326589    |It’s   a powerful tool that helps make quick changes                                                                                                                               |Good\|Quick\|Powerful |
 |---|---|---|
 |326590    |This program is great and has lots of potential. The user interface is intuitive   and makes it easy to filter results. However, when I try to edit a link, I get an error.    |Potential, Easy, Good, Ease of Use, filters, bug  |
 |326591    |You need to work on your Feature Y capabilities they are not as good as your competition.                                                                                      |Feature   Y, Competition     |
