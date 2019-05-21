@@ -26,15 +26,13 @@ After you publish your last trained version, it appears as the published version
 > - If you have a published version and a last trained version, you will lose the published version when you unpublish because the last trained version is more recent.
 
 ## When should I publish my model?
-Publish your model when you want to make it usable for you and for other people. If you are not yet satisfied with your model, you can [create a new version](manage-model-ai-builder) to try to yield better results.
+Publish your model when you want to make it usable for you and for other people. If you are not yet satisfied with your model, you can create a new version to try to yield better results. For information about how to create a new version, go to the [Manage a model in AI Builder ](manage-model-ai-builder) section. 
 
 If you are satisfied with your model, you can publish it to make it available. Similarly, as you can only have up to two trained versions available at a time, you can publish a version if you do not want it to be overwritten by a new version.
 
 For more information on using your published model, view the **Tips** section under the **Published version**.
 
 
-### Next steps
-[When should I publish my model?](browse-ai-model-types) 
 
 ### See also
 [AI Builder Release Notes](/power-platform-release-notes/october19/ai-builder)<br/>
