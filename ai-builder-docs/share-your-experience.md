@@ -20,7 +20,7 @@ Read and post in the [AI Builder (preview) forum](https://go.microsoft.com/fwlin
 
 
 ### Next steps
-[Train a model in AI Builder](train-model-ai-builder) 
+[Build a model](build-model) 
 
 ### See also
 [AI Builder Release Notes](/power-platform-release-notes/october19/ai-builder)<br/>

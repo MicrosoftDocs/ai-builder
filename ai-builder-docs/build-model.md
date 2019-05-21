@@ -28,9 +28,9 @@ To get started, sign in to PowerApps.
 1.	In the left navigation bar, under **AI Builder (preview)** select **Build**.
 2.	Under **Make your own AI model**, select an AI model type.
 
-    If you don’t see any AI model types, see [Onboarding/opt in and opt out]() for more information.
+    If you don’t see any AI model types, see [Onboarding/opt in and opt out](administration) for more information.
 3.	Enter a model name, and then select **Create**.
 
 ### Next steps
-[Share your experience](share-your-experience) 
+[Train a model in AI Builder](train-model-ai-builder) 
 

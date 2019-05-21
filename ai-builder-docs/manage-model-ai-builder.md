@@ -35,9 +35,9 @@ For more information about when to publish a model, see When should I publish my
 For more information about when to create a new version, see When should I create a new version.
 
 ## Edit model name
-1. At the top of the page, select Settings.==
-2. In the Model settings pane on the right, under Model name, enter a different name.
-3. Select Save to finalize the change.
+1. At the top of the page, select **Settings.==**
+2. In the Model settings pane on the right, under **Model name**, enter a different name.
+3. Select **Save** to finalize the change.
 ## Create a new version
 To create a new version, select **New version** at the top of the page.
 
