@@ -15,7 +15,7 @@ ms.reviewer: kvivek
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-After you've selected your data fields, select **Next**  to view a summary of  training information. Then, select Train, and you're good to go!
+After you've selected your data fields, select **Next**  to view a summary of  training information. Then, select **Train**, and you're good to go!
  
 Note that training takes time, so you can stay on the page and wait, or you can close the page and come back later.  After the model is trained, you’ll be able to evaluate your model performance results, and publish your model.
 
