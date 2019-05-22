@@ -16,7 +16,7 @@ ms.reviewer: kvivek
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-After you successfully train your model, you must explicitly publish it to make it available for use. All users in your current environment will be able to use your published model.
+After you successfully train your model, you must publish it to make it available for use. All users in your current environment will be able to use your published model.
 
 On the **Details** page, under **Last trained version**, select **Publish**.
 After you publish your last trained version, it appears as the published version. For certain AI model types, you may need to take additional steps to use your model in PowerApps or Common Data Service.
@@ -30,11 +30,7 @@ Publish your model when you want to make it usable for you and for other people.
 
 If you are satisfied with your model, you can publish it to make it available. Similarly, as you can only have up to two trained versions available at a time, you can publish a version if you do not want it to be overwritten by a new version.
 
-For more information on using your published model, view the **Tips** section under the **Published version**.
+> [!TIP]
+> For more information on using your published model, view the **Tips** section under the **Published version**.
 
 
-
-### See also
-[AI Builder Release Notes](/power-platform-release-notes/october19/ai-builder)<br/>
-[PowerApps docs](https://docs.microsoft.com/powerapps/)<br/>
-[Microsoft Flow docs](https://docs.microsoft.com/flow/getting-started)

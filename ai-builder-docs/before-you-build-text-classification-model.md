@@ -17,9 +17,9 @@ ms.reviewer: kvivek
 
 Before you build your text classification model, you'll need to make sure your data is in Common Data Service, and in the correct format.
 ## Pre-requisites
-- Training data should be in a Common Data Services entity.  
+- Training data should be in a Common Data Service entity.  
 - You will need to have PowerApps P1 or P2 plan to be able to use AI Builder
-- To publish your trained model, you will need to have permissions to create entities in your Common Data Services environment.
+- To publish your trained model, you will need to have permissions to create entities in your Common Data Service environment.
 ## Data format
 - Text and tags should be stored in text fields under the same entity. 
 - Tags should be separated using a delimiter. We currently support the following delimiters: Comma “,”, semicolon “;”, tab “	“, and no separator. 

@@ -14,7 +14,7 @@ ms.reviewer: kvivek
 # Data preparation
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
-Before you create your binary classification model, you'll want to make sure your data is in Common Data Services, and that it's in the correct format. 
+Before you create your binary classification model, you'll want to make sure your data is in Common Data Service, and that it's in the correct format. 
 
 ## Create your custom entity
 If you have data outside of Common Data Service that you want to import for training in AI Builder, you need to create an entity first.

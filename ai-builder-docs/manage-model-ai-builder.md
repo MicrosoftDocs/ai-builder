@@ -29,28 +29,28 @@ Each AI model type has a different explanation for how the score is calculated, 
 Some AI model types have the option to quickly test the results of your model version with real data of your choosing. Select **Quick test** to see your model in action.
 
 After you finish evaluating your newly trained model, you have two options:
-1. Publish your model.
-For more information about when to publish a model, see When should I publish my model.
-2. Create a new version.
-For more information about when to create a new version, see When should I create a new version.
+- **Publish your model**: For more information about when to publish a model, see When should I publish my model.
+- **Create a new version**: For more information about when to create a new version, see When should I create a new version.
 
 ## Edit model name
-1. At the top of the page, select **Settings.==**
+1. At the top of the page, select **Settings**.
 2. In the Model settings pane on the right, under **Model name**, enter a different name.
 3. Select **Save** to finalize the change.
+
 ## Create a new version
 To create a new version, select **New version** at the top of the page.
 
 You can have up to two trained versions available at a time - one **Published version**, and one that is not published, **Last trained version**. If you train a new version when a last trained version already exists, the existing last trained version is overwritten.
 
 When you create a new version, your model is based on the configuration from an existing version – your published version, or  your last trained version. If you have both, you have to choose which one you want to create the new version from. 
-![New version menu](media/new-version-menu.png)
+
+![New version menu](media/new-version-menu.png "New version menu")
  
 A new version is created only after you have successfully trained it. If you leave without finishing your changes and training your model, your progress is saved as a draft. Certain actions, such as creating a new version or retraining, may be disabled until you train or discard your draft. You can only have one draft available at a time, so you have to select **Resume draft** to pick up where you left off, or **Discard draft** to get rid of the changes before you can continue.
 
 After training, your training results appear under **Last trained version** section of the **Details** page.
 
-If you are satisfied with your last trained version, you can [publish your model](publish-model-ai-builder.md) to make it available. Otherwise, you can always create a new version. For more information about publishing your model, see [When should I publish my model?](publish-model-ai-builder.md).
+If you are satisfied with your last trained version, you can [publish your model](publish-model-ai-builder.md) to make it available. Otherwise, you can always create a new version. For more information about publishing your model, see [When should I publish my model?](publish-model-ai-builder.md)
 
 ## When should I create a new version?
 You can create a new version of your model to help improve the model performance or quality. This depends on the AI model type, where some models can be improved by updating the configuration and some models can be improved by updating the training data.
@@ -62,12 +62,7 @@ If you are satisfied with your model, you can [publish your model](publish-model
 For more information about the nuances of improving your model performance, under the **Last trained version** and in the **Tips section**, select **Improve model performance**. This tip only appears for the AI model types where it is applicable.
 
 
-
-
 ### Next steps
 [Publish your model](publish-model-ai-builder.md)
 
-### See also
-[AI Builder Release Notes](/power-platform-release-notes/october19/ai-builder)<br/>
-[PowerApps docs](https://docs.microsoft.com/powerapps/)<br/>
-[Microsoft Flow docs](https://docs.microsoft.com/flow/getting-started)
+

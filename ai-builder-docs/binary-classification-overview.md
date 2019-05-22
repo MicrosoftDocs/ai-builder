@@ -15,8 +15,9 @@ ms.reviewer: kvivek
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-AI Builder binary classification is an AI model that predicts yes/no business outcomes by learning to associate historical data patterns to historical outcomes. Based on those results, the binary classification model detects learned patterns in new data, in order to predict future outcomes.
-Use the Binary Classification AI model to explore any business question that is answered as one of two available options, such as yes/no, true/false, pass/fail, go/no go, etc. For example:. 
+AI Builder binary classification is an AI model that predicts yes/no business outcomes by learning to associate historical data patterns with historical outcomes. Based on those results, the binary classification model detects learned patterns in new data to predict future outcomes.
+
+Use the Binary Classification AI model to explore any business question that is answered as one of two available options, such as yes/no, true/false, pass/fail, and go/no go. For example: 
  
 - Which applicants may be eligible for membership?
 - Which customers may not renew their subscriptions?
@@ -24,11 +25,7 @@ Use the Binary Classification AI model to explore any business question that is 
 - Which accounts may not pay their invoices on-time?
 
 
+### Next step
+[Prerequisites for binary classification](binary-classification-prereq.md) 
 
-### Next steps
-[Prerequisites](binary-classification-prereq.md) 
 
-### See also
-[AI Builder Release Notes](/power-platform-release-notes/october19/ai-builder)<br/>
-[PowerApps docs](https://docs.microsoft.com/powerapps/)<br/>
-[Microsoft Flow docs](https://docs.microsoft.com/flow/getting-started)

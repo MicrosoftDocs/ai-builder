@@ -29,7 +29,7 @@ After you select the **Entity** and **Label** fields, you have to select differe
 - Make sure the data fields that you select don't have high rate of missing values. If it is a valuable data field, you can assign a default value.
  
 > [!NOTE]
-> These Common Data Services data types are excluded from the binary classification model. These will not appear in **Field** dropdown menu. 
+> These Common Data Service data types are excluded from the binary classification model. These will not appear in **Field** dropdown menu. 
 > - Customer
 > - Image
 > - Lookup
