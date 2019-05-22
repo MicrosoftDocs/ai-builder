@@ -103,5 +103,8 @@
     href: business-card-reader-component-in-powerapps.md
 - name: Administration
   items:
-  - name: Administration
-    href: administration.md
+  - name: Administer AI Builder
+    href: administer-ai-builder.md
+  - name: Security in AI Builder
+    href: security-ai-builder.md
+    
