@@ -1,6 +1,6 @@
 ---
-title: Browse AI model types | Microsoft Docs
-description: Provides information about browsing AI model types in AI Builder.
+title: AI model types | Microsoft Docs
+description: Describes the AI model types that are available in AI Builder.
 author: Dean-Haas
 manager: kvivek
 ms.service: powerapps
@@ -11,7 +11,7 @@ ms.author: v-dehaas
 ms.reviewer: kvivek
 ---
 
-# Browse AI model types
+# AI model types
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
