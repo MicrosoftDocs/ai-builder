@@ -26,7 +26,7 @@ Currently, AI Builder is available in the United States and Europe Power Platfor
 ## Onboarding/opt in and opt out
 Power platform administrators can use the [Power Platform Admin center](https://admin.powerplatform.microsoft.com) to control the availability of AI builder in a given environment. This is controlled with a toggle that administrators can modify like any other toggle in the Power Platform Admin center.
 
-- By default, AI builder is set to **ON** for any eligible environment (environment must have CDS and its region must be supported – either the United States or Europe). If the environment cannot be supported, the toggle will not appear in the Power Platform Admin center.
+- By default, AI builder is set to **ON** for any eligible environment (environment must have Common Data Service and its region must be supported – either the United States or Europe). If the environment cannot be supported, the toggle will not appear in the Power Platform Admin center.
 
 - If you switch the toggle to **OFF**, this doesn’t delete existing models that users of this environment might have created but AI builder components are not visible, and existing experiences that leverage existing AI builder components fail and/or return errors.
 

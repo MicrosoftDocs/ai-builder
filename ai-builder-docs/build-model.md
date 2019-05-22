@@ -17,6 +17,8 @@ ms.reviewer: kvivek
 
 In AI Builder, you are guided through each step of the process.
 
+> ![Build a model screen](media\build-model.png "Build a model screen")
+
 ## Prerequisites
 
 Make sure your admin has enabled AI Builder for your environment. Otherwise, you won't have access to the AI builder functionality. More information: [Onboarding/opt in and opt out](administer-ai-builder.md)
