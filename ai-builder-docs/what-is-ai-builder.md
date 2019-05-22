@@ -31,8 +31,8 @@ Using AI is easy thanks to integration with PowerApps and Microsoft Flow. Follow
 We  cover each of these steps in the individual AI model type sections.
 
 
-### Next steps
-[Browse AI model types](browse-ai-model-types) 
+### Next step
+[Browse AI model types](browse-ai-model-types.md) 
 
 ## Related topics
 [AI Builder Release Notes](/power-platform-release-notes/october19/ai-builder)<br/>
