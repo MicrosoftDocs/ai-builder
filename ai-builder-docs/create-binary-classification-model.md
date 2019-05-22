@@ -27,25 +27,17 @@ After you select the **Entity** and **Label** fields, you have to select differe
 - Deselect the data fields that do not address the problem you want to solve. 
 - Deselect the data fields which may carry unwanted bias.
 - Make sure the data fields that you select don't have high rate of missing values. If it is a valuable data field, you can assign a default value.
-- 
-> !NOTE
-> 
+ 
+> [!NOTE]
 > These Common Data Services data types are excluded from the binary classification model. These will not appear in **Field** dropdown menu. 
->- Customer
->- Image
->- Lookup
->- Multiple selection Option set
->- Mulitiline Text
->- Owner
->- Unique Identifier
->- String type data types with length greater than 100 characters 
+> - Customer
+> - Image
+> - Lookup
+> - Multiple selection Option set
+> - Mulitiline Text
+> - Owner
+> - Unique Identifier
+> - String type data types with length greater than 100 characters 
 
-
-
-### Next steps
-[Browse AI model types](browse-ai-model-types.md) 
-
-### See also
-[AI Builder Release Notes](/power-platform-release-notes/october19/ai-builder)<br/>
-[PowerApps docs](https://docs.microsoft.com/powerapps/)<br/>
-[Microsoft Flow docs](https://docs.microsoft.com/flow/getting-started)
+### Next step
+[Train your binary classification model](binary-classification-train-model.md)<br/>
