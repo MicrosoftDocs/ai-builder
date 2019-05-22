@@ -32,7 +32,10 @@
     href: binary-classification-training-report.md
   - name: Understand binary classification model performance
     href: binary-classification-performance.md
+  - name: Use your binary classification model in a model-driven app
+    href: binary-classification-model-driven-app.md
 - name: Text classification AI model
+
   items:
   - name: Overview
     href: text-classification-overview.md
