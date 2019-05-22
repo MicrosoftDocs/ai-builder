@@ -1,5 +1,5 @@
 ---
-title: Object detection overview | Microsoft Docs
+title: Overview of object detection model | Microsoft Docs
 description: Provides an overview of object detection models in AI Builder.
 author: Dean-Haas
 manager: kvivek
@@ -11,17 +11,7 @@ ms.author: v-dehaas
 ms.reviewer: kvivek
 ---
 
-# Overview
+# Overview of object detection model
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-
-
-
-### Next steps
-[Browse AI model types](browse-ai-model-types.md) 
-
-### See also
-[AI Builder Release Notes](/power-platform-release-notes/october19/ai-builder)<br/>
-[PowerApps docs](https://docs.microsoft.com/powerapps/)<br/>
-[Microsoft Flow docs](https://docs.microsoft.com/flow/getting-started)

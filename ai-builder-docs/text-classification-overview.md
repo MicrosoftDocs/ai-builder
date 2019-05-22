@@ -1,5 +1,5 @@
 ---
-title: Text classification overview| Microsoft Docs
+title: Overview of text classification model| Microsoft Docs
 description: Provides an overview of the text classification AI model in AI Builder
 author: Dean-Haas
 manager: kvivek
@@ -11,7 +11,7 @@ ms.author: v-dehaas
 ms.reviewer: kvivek
 ---
 
-# Overview
+# Overview of text classification model
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -21,12 +21,3 @@ Text Classification is one of the fundamental NLP (Natural Language Processing) 
 
 You can use AI Builder text classification with [Microsoft Flow](https://flow.microsoft.com/) and [PowerApps](https://powerapps.microsoft.com/) to automate and scale your business processes, freeing up time for your employees to act these insights. It can also be used as an input for other AI capabilities such as subscription user churn, predictive analysis. AI Builder can learn from your previously labeled text items, and enable you to classify unstructured text data stored in Common Data Service into your own business-specific categories. 
 
-
-
-### Next steps
-[Browse AI model types](browse-ai-model-types.md) 
-
-### See also
-[AI Builder Release Notes](/power-platform-release-notes/october19/ai-builder)<br/>
-[PowerApps docs](https://docs.microsoft.com/powerapps/)<br/>
-[Microsoft Flow docs](https://docs.microsoft.com/flow/getting-started)

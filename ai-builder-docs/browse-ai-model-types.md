@@ -22,9 +22,13 @@ To create a model, sign in to [PowerApps](https://powerapps.microsoft.com). In t
 
 AI templates give you the ability to tailor a scenario to the needs of your business. With AI Builder, you can build a model using these AI model types:  
 
-| AI model type  | Category  |
-|---|---|
-|Binary Classification   | Prediction  |
-| Form Processing  |Vision   |
-| Object Detection  |Vision   |
-| Text Classification  |Language   |
+| AI model type  | Category  | Start here
+|---|---|---|
+| Binary Classification   | Prediction  | [Overview of binary classification model](binary-classification-overview.md)
+| Form Processing  | Vision   | [Overview of form classification model](form-processing-model-overview.md)
+| Object Detection  | Vision   | [Overview of object detection model](object-detection-overview.md)
+| Text Classification  |Language   | [Overview of text classification model](text-classification-overview.md)
+
+### Related topic
+
+[Build a model](build-model.md)
