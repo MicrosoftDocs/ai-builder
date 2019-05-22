@@ -37,20 +37,9 @@ Tags will be stored in a field called “**new_Tags**” under this entity.
 >
 > Due to the character limitation of the field name, if the syntax provided creates text that is over the character limit, AI Builder cuts off the end of the text. This means that the project name may be incomplete or missing. You should choose shorter names so everything is visible.
 
-## View generated tags
-In this section we show you how to view the output of your prediction model.
- 
-1.	After you publish your model, the Output location appears in the Performance section.
-    ![Tags output location screen](media/tags-output-location.png)
 
-    The name shown in **Output** in the **Performance** section is the name of the entity and attribute that is created after publishing. It is a link that takes you to the entity viewer section where the new fields that are added by AI Builder appear. 
- 
-2.	In the **Views** section, you can view the values of the output fields for the different records. You can use the **Filter by** function in the lower right-side pane to filter for only the records that do not have a label.
-3.	Next, you can build a simple model-driven app to consume the output. For information about how to build a model driven app in PowerApps, go to the [model-driven app overview](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview) topic in PowerApps docs.
-
-
-
-
+### Next steps
+[View generated predictions](text-classification-view-predictions.md)
 
 ### See also
 [AI Builder Release Notes](/power-platform-release-notes/october19/ai-builder)<br/>
