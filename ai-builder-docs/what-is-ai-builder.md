@@ -31,7 +31,7 @@ Using AI is easy thanks to integration with PowerApps and Microsoft Flow. Follow
 We  cover each of these steps in the individual AI model type sections.
 
 
-### Next steps
+### Next step
 [Browse AI model types](browse-ai-model-types.md) 
 
 ## Related topics
