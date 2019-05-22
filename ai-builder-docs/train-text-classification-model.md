@@ -15,11 +15,13 @@ ms.reviewer: kvivek
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
+You are now ready to run your training. Review your configuration and then select the **Train my AI** button to begin training your text classification model. When it’s ready, you will be notified.
 
+You can also train a new version of your model.  Select **New version > From published version**.  This creates a new draft of your model that you can configure and train.
 
 
 ### Next steps
-[Browse AI model types](browse-ai-model-types.md) 
+[Understand text classification model performance](text-classification-performance.md) 
 
 ### See also
 [AI Builder Release Notes](/power-platform-release-notes/october19/ai-builder)<br/>

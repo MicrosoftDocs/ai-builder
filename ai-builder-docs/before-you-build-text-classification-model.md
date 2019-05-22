@@ -45,9 +45,25 @@ As an example, here is how to import training data from an Excel sheet. This exa
 |326592    |Easy to view data                                                                                                                                                                |Easy\| Ease of use                                |
 |326593    |I like how you made feature X easy to use. This reduces a lot of complexity when I want to onboard new customers.                                                              |Easy\|Good\|Feature X                             |
 
+Note that the tags data is separated using “\|”. 
+1. Sign in to [PowerApps](https://web.powerapps.com/), and then select the down arrow to expand **Data** in the navigation pane.
+2. Under **Data > Entities > Get data**. 
+    - If you need to create a new entity, use [this guide](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-create-entity).
+3. In the list of data sources, select **Excel**.
+4. Select **Browse** to upload your Excel file,  and then select the sheet(s) your data is in.
+    - You may have to allow third party cookies for your browser to perform this step.
+6. On the **Edit Queries** screen, select **Transform table > Use first row as headers**. Next  select the **Tags** column, and then select **Transform Column > Replace values**.
+1. Replace “**|**” character with a semicolon “**;**”, and then click **OK**.
+1. Now that your data is in the correct format, select **Next > Load to new entity**.
+1. Use the drop-down menu to select your target entity, and then map your columns to the destination field. 
+    ![Map your columns to the destination field](media/create-text-model-map-columns.png)
+1. Select **Refresh manually** on the **Refresh settings** page. 
+You’re all set! Power Query will import your data into the Common Data Service entity you have picked.
+
+
 
 ### Next steps
-[Browse AI model types](browse-ai-model-types.md) 
+[Create a text classification model](create-text-classification-model.md) 
 
 ### See also
 [AI Builder Release Notes](/power-platform-release-notes/october19/ai-builder)<br/>

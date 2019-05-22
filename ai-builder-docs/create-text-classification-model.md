@@ -15,11 +15,17 @@ ms.reviewer: kvivek
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-
+Now that you have your training data in Common Data Service, you can create a new model and configure it:
+1. Sign in to [PowerApps](https://web.powerapps.com/), and then select the down arrow to expand **AI Builder (preview)** in the navigation pane, and then select **Build**.
+2. Select the **Text classification** AI Builder AI model type, name your model, and then select **Create**.
+3. Select **Select text**, select the entity, and then select the field where your training text is stored.
+4. Select **Select tags**, select the field where the tags are stored, and then select the separator you used for your tags.
+5. You can then preview your selection to verify the data we read and the configuration you applied.
+6. Select the language you want to use for training
 
 
 ### Next steps
-[Browse AI model types](browse-ai-model-types.md) 
+[Train your text classification model](train-text-classification-model.md) 
 
 ### See also
 [AI Builder Release Notes](/power-platform-release-notes/october19/ai-builder)<br/>
