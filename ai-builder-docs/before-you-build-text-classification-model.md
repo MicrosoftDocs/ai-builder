@@ -33,7 +33,7 @@ If we represent data in a table, it would look like this:
 | Text data | Tag X, Tag Y, Tag Z | 
 
 ## Import your data into Common Data Service
-We understand that your data might not be in Common Data Service. However, Common Data Services for Apps includes a powerful set of connectors that will help you import your data from all major kinds of data sources. For more information about how to import data into Common Data Service, go to the [Add data to an entity in Common Data Service by using Power Query](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-cds-newentity-pq) topic in PowerApps docs. 
+We understand that your data might not be in Common Data Service. However, Common Data Service includes a powerful set of connectors that will help you import your data from all major kinds of data sources. For more information about how to import data into Common Data Service, go to the [Add data to an entity in Common Data Service by using Power Query](/powerapps/maker/common-data-service/data-platform-cds-newentity-pq) topic in PowerApps docs. 
 
 As an example, here is how to import training data from an Excel sheet. This example uses an excel file like this:
 
