@@ -27,7 +27,7 @@ Currently, AI Builder is available in the United States and Europe regions only.
 
 ## Enable or disable AI Builder feature
 
-Power Platform administrators can use the Power Platform Admin center] to control the availability of AI builder in an environment.
+Power Platform administrators can use the Power Platform Admin center to control the availability of AI builder in an environment.
 
 By default, the **AI Builder** features is set to **On** (enabled) for any eligible environment (environment must have Common Data Service and its region must be supported; either the United States or Europe). If the environment is not eligible, the **AI Builder** feature won't appear in the Power Platform Admin center. 
 
@@ -44,7 +44,10 @@ Some important points related to enabling or disabling the feature:
 
 - To delete all AI Builder models from an environment, you must delete each model and then disable the **AI Builder** feature by setting it to **Off**  ensure that users can’t create new models using AI builder. You must do this on each environment where AI Builder was turned on.
 
+For more information about enabling/disabling features in the Power Platform Admin center, see [Manage feature settings](https://docs.microsoft.com/power-platform/admin/settings-features)
+
 ## Backup and restore
+
 Dynamics 365 allows protecting your apps data and providing continuous availability of service thanks to its built-in backup and restore capabilities. For more information, go to [Backup and restore instances](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances) in PowerApps docs. 
 
 > [!IMPORTANT]
