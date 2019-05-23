@@ -101,4 +101,4 @@ In the previous example, **Income** is actually the label field, but the current
  
 
 ### Next steps
-[Create a text classification model](create-text-classification-model.md) 
+[Create a binary classification model](create-binary-classification-model.md) 
