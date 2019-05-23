@@ -73,13 +73,32 @@ In the previous example, **Income** is actually the label field, but the current
 > If you are creating a label field based on another field(s),  please make sure that  during field selection in AI Builder, you deselect the field(s) that were used to populate the label field. They may be perfectly predictive of your outcome and should not be used to generate features for training.
 
 1.	In the **Adult Census Income entity** screen, select **Add field**, and set these values:
-- **Display Name** - **Label**
-- **Data type** - **Two Options**
-- **Yes** option - **>50K**
-- **No** option - **<=50K**
+    - **Display Name**= *Label*
+    - **Data type**= **Two Options*
+    - **Yes**= **>50K*
+    - **No**= - **<=50K*
 2.	At the bottom of the **field property** screen, select the **Calculated or Rollup** dropdown menu, and then select **Calculation**.
-3.	Select **Yes** to save pending changes. Here you can add the following condition:
-
+3.	Select **Yes** to save pending changes, and then select **Add condition** to add the following condition: 
+    - **Field**= *Income*
+    - **Operator**= *Equals*
+    - **Type**= *Value*
+    - **Value**= *>50K*
+4.	Next, click Add action and add the following action:
+    - **Field**= *Label*
+    -	**Type**= *Value*
+    -	**Value**= *>50K*
+5.	Click **Add Else If** and add another set of conditions and actions. Set the following conditions:
+    - **Field**= *Income*
+    - **Operator**= *Equals*
+    - **Type**= *Value*
+    -	**Value**= *<=50K*
+6.	Set the following action:
+    - **Field**= *Label*
+    - **Type**= *Value*
+    - **Value**= *<=50K*
+6.	Finally click **SAVE AND CLOSE** to save the calculation.
+7.	Go back to the **Active Adult Census Incomes** view and confirm that **Income** and **Label** have the same values. Select **Publish** if you want to save the view.
+ 
 
 ### Next steps
 [Create a text classification model](create-text-classification-model.md) 

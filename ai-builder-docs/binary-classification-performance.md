@@ -37,7 +37,4 @@ For more information, go to the [Evaluate your model](manage-model-ai-builder.md
 ### Next steps
 Use your published binary classification model in a [model-driven app](ai-model-types.md) 
 
-### See also
-[AI Builder Release Notes](/power-platform-release-notes/october19/ai-builder)<br/>
-[PowerApps docs](https://docs.microsoft.com/powerapps/)<br/>
-[Microsoft Flow docs](https://docs.microsoft.com/flow/getting-started)
+

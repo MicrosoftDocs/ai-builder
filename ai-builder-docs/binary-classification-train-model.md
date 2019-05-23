@@ -15,13 +15,9 @@ ms.reviewer: kvivek
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-After you've selected your data fields, select **Next** to view a summary of  training information. Then, select **Train**, and you're good to go!
+After you've selected your data fields, select **Next** to view a summary of  training information. Then, select **Train** to train your model
  
 > [!NOTE]
 > Training takes time, so you can stay on the page and wait, or you can close the page and come back later.  
 
-After the model is trained, you’ll be able to evaluate your model performance results, and [publish](publish-model-ai-builder.md) your model.
-
- 
-
-
+After the model is trained, you’ll be able to [evaluate](manage-model-ai-builder.md) your model performance results. Then, [publish](publish-model-ai-builder.md) your model, and you're good to go!
