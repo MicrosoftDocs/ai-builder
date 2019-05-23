@@ -15,24 +15,34 @@ ms.reviewer: kvivek
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-Power platform administrators can use the [PowerApps Admin center](https://admin.powerapps.com) and the [Power Platform Admin center](https://admin.powerplatform.microsoft.com) to manage environments and settings for PowerApps and AI Builder.
+Power Platform administrators can use the [PowerApps Admin center](https://admin.powerapps.com) and the [Power Platform Admin center](https://admin.powerplatform.microsoft.com) to manage environments and settings for PowerApps and AI Builder.
 
-Features from the PowerApps Admin center are being moved to the Power Platform Admin center. Until the move to the Power Platform Admin center is complete, you’ll still be able to manage environments and settings in PowerApps Admin center as usual.
+For more information, see [Power Platform Administrator Guide](https://docs.microsoft.com/power-platform/admin/admin-documentation)
 
 ## Supported regions
-Your AI model is deployed in the region that hosts the environment. For example, if your environment is created in the Europe region, then your model is deployed in Europe data centers. For an overview of environments, see [Environments overview](https://docs.microsoft.com/power-platform/admin/environments-overview).
 
-Currently, AI Builder is available in the United States and Europe Power Platform regions only. AI Builder features will not be available in environments created in regions other than United States or Europe.
-## Onboarding/opt in and opt out
-Power platform administrators can use the [Power Platform Admin center](https://admin.powerplatform.microsoft.com) to control the availability of AI builder in a given environment. This is controlled with a toggle that administrators can modify like any other toggle in the Power Platform Admin center.
+Your AI model is deployed in the region that hosts the environment. For example, if your environment is created in the Europe region then your model is deployed in Europe data centers. For an overview of environments, see [Environments overview](https://docs.microsoft.com/power-platform/admin/environments-overview).
 
-- By default, AI builder is set to **ON** for any eligible environment (environment must have Common Data Service and its region must be supported – either the United States or Europe). If the environment cannot be supported, the toggle will not appear in the Power Platform Admin center.
+Currently, AI Builder is available in the United States and Europe regions only. AI Builder features will not be available in environments created in regions other than United States or Europe.
 
-- If you switch the toggle to **OFF**, this doesn’t delete existing models that users of this environment might have created but AI builder components are not visible, and existing experiences that leverage existing AI builder components fail and/or return errors.
+## Enable or disable AI Builder feature
 
-- If you switch the toggle back to **ON**, the components become visible again and function as they did.
+Power Platform administrators can use the Power Platform Admin center] to control the availability of AI builder in an environment.
 
-- In order to delete all AI builder models from an environment, one must delete each model, then then select toggle **OFF** AI builder in order to make sure that users can’t create new models using AI builder. You must do this on each environment where AI builder was turned on.
+By default, the **AI Builder** features is set to **On** (enabled) for any eligible environment (environment must have Common Data Service and its region must be supported; either the United States or Europe). If the environment is not eligible, the **AI Builder** feature won't appear in the Power Platform Admin center. 
+
+To control the feature availability:
+1. Sign in to [Power Platform Admin center](https://admin.powerplatform.microsoft.com).
+2. In the admin center, go to **Environments** > *[select an environment]* > **Settings** > **Features**.
+3. On the **Feature** settings page, enable or disaable the **AI Builder** option.
+
+Some important points related to enabling or disabling the feature:
+
+- If you set **AI Builder** to **Off** (disabled), it won't delete existing models that users of this environment might have created. However, AI Builder components won't be visible anymore, and existing experiences that leverage existing AI builder components will fail and/or return errors.
+
+- If you set **AI Builder** back to back to **On** (enabled), the AI Builder components will become visible again and function as they did earlier.
+
+- To delete all AI Builder models from an environment, you must delete each model and then disable the **AI Builder** feature by setting it to **Off**  ensure that users can’t create new models using AI builder. You must do this on each environment where AI Builder was turned on.
 
 ## Backup and restore
 Dynamics 365 allows protecting your apps data and providing continuous availability of service thanks to its built-in backup and restore capabilities. For more information, go to [Backup and restore instances](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances) in PowerApps docs. 
