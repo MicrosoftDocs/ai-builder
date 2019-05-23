@@ -40,7 +40,7 @@ Some important points related to enabling or disabling the feature:
 
 - If you set **AI Builder** to **Off** (disabled), it won't delete existing models that users of this environment might have created. However, AI Builder components won't be visible anymore, and existing experiences that leverage existing AI builder components will fail and/or return errors.
 
-- If you set **AI Builder** back to back to **On** (enabled), the AI Builder components will become visible again and function as they did earlier.
+- If you set **AI Builder** back to **On** (enabled), the AI Builder components will become visible again and function as they did earlier.
 
 - To delete all AI Builder models from an environment, you must delete each model and then disable the **AI Builder** feature by setting it to **Off**  ensure that users can’t create new models using AI builder. You must do this on each environment where AI Builder was turned on.
 
