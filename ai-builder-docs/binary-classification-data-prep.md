@@ -42,8 +42,8 @@ If you have data outside of Common Data Service that you want to import for trai
 |Sex|	Text|
 |Work class|	Text|
 
->[!NOTE]
->In our example dataset, the label is not formatted correctly to directly import as a two-option field, but if you format your label field to be true and false, then you can simply create a two-option data type in this step for the label.
+> [!NOTE]
+> In our example dataset, the label is not formatted correctly to directly import as a two-option field, but if you format your label field to be true and false, then you can simply create a two-option data type in this step for the label.
 
 ## Import local data into your entity
  
@@ -52,7 +52,7 @@ If you have data outside of Common Data Service that you want to import for trai
 3.	If a Mapping errors exist message appears under **Mapping status**, it's okay-  select **Map fields**.
 4.	Map only the fields you created, to the corresponding fields in the import data, and select **Save changes**. You do not need to map any fields you did not create.
 
-> !NOTE
+> [!NOTE]
 > - There may be a bug where if you update the fields after the initial save, the fields available for mapping may not be updated. In this case just create the entity under a new name.
 > - There may be a bug where if the text fields start with an empty space, the import will not work correctly. Please remove any preceding spaces in your dataset.
 
@@ -66,9 +66,9 @@ There are scenarios where you may need to update the field you are predicting.
 - Label field doesn’t consist of two options
 ### Create a Two-option field
 In the previous example, **Income** is actually the label field, but the current type is **Text**. However, AI Builder binary classification requires the Two-option data type.
-> !NOTE
-> 
->If you are creating a label field based on another field(s),  please make sure that  during field selection in AI Builder, you deselect the field(s) that were used to populate the label field. They may be perfectly predictive of your outcome and should not be used to generate features for training.
+
+> [!NOTE]
+> If you are creating a label field based on another field(s),  please make sure that  during field selection in AI Builder, you deselect the field(s) that were used to populate the label field. They may be perfectly predictive of your outcome and should not be used to generate features for training.
 
 1.	In the **Adult Census Income entity** screen, select **Add field**, and set these values:
 - **Display Name** - **Label**
@@ -81,8 +81,3 @@ In the previous example, **Income** is actually the label field, but the current
 
 ### Next steps
 [Create a text classification model](create-text-classification-model.md) 
-
-### See also
-[AI Builder Release Notes](/power-platform-release-notes/october19/ai-builder)<br/>
-[PowerApps docs](https://docs.microsoft.com/powerapps/)<br/>
-[Microsoft Flow docs](https://docs.microsoft.com/flow/getting-started)
