@@ -20,7 +20,7 @@ After you successfully train your model, you must publish it to make it availabl
 
 On the **Details** page, under **Last trained version**, select **Publish**.
 
-> ![Publish model screen](media\publish-model.png "Publish model screen")
+![Publish model screen](media\publish-model.png "Publish model screen")
 
 After you publish your last trained version, it appears as the published version. For certain AI model types, you may need to take additional steps to use your model in PowerApps or Common Data Service.
 

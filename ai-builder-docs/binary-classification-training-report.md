@@ -45,7 +45,7 @@ Here are some of the details to help you understand the training report errors a
 
 - *Some fields were dropped during training*
 
-Data fields that have a high correlation with prediction outcome may be dropped in model training.
+    Data fields that have a high correlation with prediction outcome may be dropped in model training.
 
 
 ### Next steps
