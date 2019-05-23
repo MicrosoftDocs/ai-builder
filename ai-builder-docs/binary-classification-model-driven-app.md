@@ -32,14 +32,6 @@ Select **New Subarea** and select **Entity** as the **Type**, and then select yo
 8. Select **Save And Close** and then select **Publish**.
 9. Select **Play**. Your output should look something like this.
 
-![Model driven app complete screen](media/model-driven-app-scr.png)
+    ![Model driven app complete screen](media/model-driven-app-scr.png)
 
 Congratulations, you've just created your first model-driven app using the binary classification AI model prediction output.
-
-
-
-
-### See also
-[AI Builder Release Notes](/power-platform-release-notes/october19/ai-builder)<br/>
-[PowerApps docs](https://docs.microsoft.com/powerapps/)<br/>
-[Microsoft Flow docs](https://docs.microsoft.com/flow/getting-started)
