@@ -40,8 +40,3 @@ For more information, go to the [Evaluate your model](manage-model-ai-builder.md
 
 ### Next steps
 [Improve model performance](improve-text-classification-performance.md) 
-
-### See also
-[AI Builder Release Notes](/power-platform-release-notes/october19/ai-builder)<br/>
-[PowerApps docs](https://docs.microsoft.com/powerapps/)<br/>
-[Microsoft Flow docs](https://docs.microsoft.com/flow/getting-started)

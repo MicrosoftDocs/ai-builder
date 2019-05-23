@@ -23,15 +23,14 @@ Even though the minimum requirement for training data is 50, this doesn't mean 5
 ## Clean up your data
 You may have a lot of correctly labeled training data. You may have added a lot of data fields. So why is the AI model not as predictive as you expect? It could be that you're selecting too many fields, adding an unwanted bias. Make sure all the fields you select influence what you want to predict. Deselect irrelevant or misleading fields.
 
-Also, validate the data fields that you selected to train the AI model don't have high rate of missing values. Populate the missing values with a default value or remove the data field from the model training. If a data field has high correlation with prediction outcome, remove the data field from the model training.
+Validate the data fields that you selected to train the AI model don't have high rate of missing values. Populate the missing values with a default value or remove the data field from the model training. If a data field has high correlation with prediction outcome, remove the data field from the model training.
 
-Cleaning your data can avoid some types of training errors and improve model performance.
-Here are some quick pointers to help you clean your data
+Cleaning your data can avoid some types of training errors and improve model performance. Here are some quick pointers:
 - Remove duplicate or irrelevant fields.
-- Check for errors and inconsistencies.
+- Check for errors and inconsistencies:
     - Typos
     - Inconsistent capitalizations
-    - Inconsistent or wrong labels
+    - Inconsistent or incorrect labels
 - Remove abnormal records.
 - Handle missing data.
     - For categorical, simply label them as missing.
@@ -45,6 +44,5 @@ Here are some quick pointers to help you clean your data
 [Publish your text classification model](publish-text-classification-model.md) 
 
 ### See also
-[AI Builder Release Notes](/power-platform-release-notes/october19/ai-builder)<br/>
-[PowerApps docs](https://docs.microsoft.com/powerapps/)<br/>
-[Microsoft Flow docs](https://docs.microsoft.com/flow/getting-started)
+[Publish a model in AI Builder](publish-model-ai-builder.md)
+

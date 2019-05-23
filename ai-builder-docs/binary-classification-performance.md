@@ -36,5 +36,3 @@ For more information, go to the [Evaluate your model](manage-model-ai-builder.md
 
 ### Next steps
 Use your published binary classification model in a [model-driven app](ai-model-types.md) 
-
-

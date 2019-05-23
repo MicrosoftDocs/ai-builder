@@ -17,18 +17,13 @@ ms.reviewer: kvivek
 
 In this section we show you how to view the output of your prediction model.
  
-1.	After you publish your model, the Output location appears in the Performance section.
+1.	After you publish your model, the output location appears in the **Performance** section.
     ![Tags output location screen](media/tags-output-location.png)
 
     The name shown in **Output** in the **Performance** section is the name of the entity and attribute that is created after publishing. It is a link that takes you to the entity viewer section where the new fields that are added by AI Builder appear. 
  
-2.	In the **Views** section, you can view the values of the output fields for the different records. You can use the **Filter by** function in the lower right-side pane to filter for only the records that do not have a label.
-3.	Next, you can build a simple model-driven app to consume the output. For information about how to build a model driven app in PowerApps, go to the [model-driven app overview](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview) topic in PowerApps docs.
+2.	In the **Views** section, view the values of the output fields for the different records. Use the **Filter by** function in the lower right-side pane to filter for only the records that do not have a label.
+3.	Next, you can build a simple model-driven app to consume the output. For information about how to build a model driven app in PowerApps, go to the [model-driven app overview](/powerapps/maker/model-driven-apps/model-driven-app-overview) topic in PowerApps docs.
 
 ### Next steps
 [Use generated tage](text-classification-model-use-tags.md) 
-
-### See also
-[AI Builder Release Notes](/power-platform-release-notes/october19/ai-builder)<br/>
-[PowerApps docs](https://docs.microsoft.com/powerapps/)<br/>
-[Microsoft Flow docs](https://docs.microsoft.com/flow/getting-started)
