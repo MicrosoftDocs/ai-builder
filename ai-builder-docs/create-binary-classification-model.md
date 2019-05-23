@@ -43,4 +43,4 @@ After you select the **Entity** and **Label** fields, you have to select differe
 > - String type data types with length greater than 100 characters 
 
 ### Next step
-[Train your binary classification model](binary-classification-train-model.md)<br/>
+[Train and publish your binary classification model](binary-classification-train-model.md)<br/>
