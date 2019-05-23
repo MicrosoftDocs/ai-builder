@@ -18,6 +18,8 @@ Before you create your binary classification model, you'll want to make sure you
 
 ## Create your custom entity
 If you have data outside of Common Data Service that you want to import for training in AI Builder, you need to create an entity first.
+
+![Data entities screen](media\data-prep.png "Data entities screen")
  
 1. In PowerApps, select **Entities** in the left-side navigation pane, then select **New entity** at the top of the screen.
 

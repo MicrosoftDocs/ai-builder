@@ -35,7 +35,7 @@ AI Builder requires the use of [Common Data Service](https://docs.microsoft.com/
 
 ## Get started
 To get started:
-1. Sign in to PowerApps (<https://web.powerapps.com>). 
+1. Sign in to [PowerApps](https://web.powerapps.com). 
 2.	In the left navigation bar, select **AI Builder (preview)** > **Build**.
 3.	Under **Make your own AI model**, select an AI model type.
 
