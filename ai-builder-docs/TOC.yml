@@ -63,8 +63,6 @@
     href: collect-images.md
   - name: Get started with object detection
     href: get-started-with-object-detection.md
-  - name: Tag images
-    href: tag-images.md
   - name: Train and publish your object detection model
     href: object-detection-train-model.md
 
