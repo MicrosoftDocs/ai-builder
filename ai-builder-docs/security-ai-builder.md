@@ -25,7 +25,7 @@ Some privileges are set by default in Common Data Service, allowing built-in sec
 These security roles have already set the right privileges to the AI Builder entities from Common Data Service. Custom security roles will be able to create AI models as long as they have the same privileges to the AI Builder entities as the Environment Maker role.
 
 > [!div class="mx-imgBorder"]
-> ![Security roles screen](media\security-roles-screen.png "Security roles screen" )
+> ![Security roles screen](media/security-roles-screen.png "Security roles screen" )
 
 Some scenarios require at least System Customizer privileges to publish AI models and allow consumption since these actions imply changes to the Common Data Service schema. Therefore, we recommend Administrators to assign System Customizer to users that need to create such AI models. 
 
