@@ -26,7 +26,7 @@ Once your model is trained, you can see it in action from its Details page, whic
 2.	Drag and drop or upload an image which contains your objects to test your model.
 3.	Your model will be applied to the image you uploaded. This step might take a little while.
 4.	 After your model is done running, the rectangles found will be drawn directly on the picture. 
-![Quick test screen](media/quick0test.png)
+![Quick test screen](media/quick-test.png)
 
 ## Publish your object detection model
 
