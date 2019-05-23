@@ -21,7 +21,7 @@ Before you can use a model, you must first train it. After you train a model, yo
 ## Train model
 When you create a model in AI Builder, you configure it to fit the needs of your business. Each time you save changes to your model in AI Builder, you are saving your progress as a draft. After you finish making changes, you confirm the settings with which you want to train your model, and then select **Train** to begin training.
 
-![Train your model screen](media\train-model.png "Train your model screen")
+![Train your model screen](media/train-model.png "Train your model screen")
 
 The training process may take a few minutes, depending on the AI model type and the size of the training data. This process happens in the background, so you can safely leave the page and come back later.
 
