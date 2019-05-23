@@ -47,9 +47,3 @@ Here are some of the details to help you understand the training report errors a
 
     Data fields that have a high correlation with prediction outcome may be dropped in model training.
 
-
-### Next steps
-[Publish your model](publish-model-ai-builder.md)
-
-### See also
-[Manage your AI model](manage-model-ai-builder.md)
