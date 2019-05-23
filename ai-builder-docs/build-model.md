@@ -17,8 +17,7 @@ ms.reviewer: kvivek
 
 In AI Builder, you are guided through each step of the process.
 
-> [!div class="mx-imgBorder"]
-> ![Build a model screen](media\build-model.png "Build a model screen")
+![Build a model screen](media\build-model.png "Build a model screen")
 
 ## Prerequisites
 
