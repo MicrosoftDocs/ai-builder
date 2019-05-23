@@ -28,19 +28,19 @@ If you have data outside of Common Data Service that you want to import for trai
 5.	On the **Field properties** screen, type **Age** in the **Display name** and **Name** fields, and select **Whole Number** in the **Data type** menu.
 6. Repeat these steps to add additional fields using the method above to create the following fields :
 
-|Name	|Data type|
-|---|---|
-|Capital loss|	Whole number|
-|Hours per week|Whole number|
-|ID|	Text|
-|Income|	Text|
-|Marital status|	Text|
-|Native country|	Text|
-|Occupation|	Text|
-|Race|	Text|
-|Relationship|	Text|
-|Sex|	Text|
-|Work class|	Text|
+    |Name	|Data type|
+    |---|---|
+    |Capital loss|	Whole number|
+    |Hours per week|Whole number|
+    |ID|	Text|
+    |Income|	Text|
+    |Marital status|	Text|
+    |Native country|	Text|
+    |Occupation|	Text|
+    |Race|	Text|
+    |Relationship|	Text|
+    |Sex|	Text|
+    |Work class|	Text|
 
 > [!NOTE]
 > In our example dataset, the label is not formatted correctly to directly import as a two-option field, but if you format your label field to be true and false, then you can simply create a two-option data type in this step for the label.
