@@ -74,9 +74,9 @@ In the previous example, **Income** is actually the label field, but the current
 
 1.	In the **Adult Census Income entity** screen, select **Add field**, and set these values:
     - **Display Name**= *Label*
-    - **Data type**= **Two Options*
-    - **Yes**= **>50K*
-    - **No**= - **<=50K*
+    - **Data type**= *Two Options*
+    - **Yes**= *>50K*
+    - **No**= - *<=50K*
 2.	At the bottom of the **field property** screen, select the **Calculated or Rollup** dropdown menu, and then select **Calculation**.
 3.	Select **Yes** to save pending changes, and then select **Add condition** to add the following condition: 
     - **Field**= *Income*
