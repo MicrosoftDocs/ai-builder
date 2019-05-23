@@ -1,6 +1,6 @@
 ---
 title: Share your experience| Microsoft Docs
-description: Shows where you can read and contribute to forums
+description: Shows where you can read and contribute to AI Builder forums
 author: Dean-Haas
 manager: kvivek
 ms.service: powerapps
@@ -16,13 +16,5 @@ ms.reviewer: kvivek
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
 
-Read and post in the [AI Builder (preview) forum](https://go.microsoft.com/fwlink/?linkid=2092048), where anyone who uses AI Builder (preview) can post a question and others can answer. Before you post a question, search the discussion forum to see whether your question has already been answered.
+Read and post in the [AI Builder (preview) forum](https://go.microsoft.com/fwlink/?linkid=2092048). This is a great resource where anyone who uses AI Builder can read and discuss questions with other AI Builder users. Before you post a new question, search the discussion forum to see whether your question has already been answered.
 
-
-### Next steps
-[Build a model](build-model.md) 
-
-### See also
-[AI Builder Release Notes](/power-platform-release-notes/october19/ai-builder)<br/>
-[PowerApps docs](https://docs.microsoft.com/powerapps/)<br/>
-[Microsoft Flow docs](https://docs.microsoft.com/flow/getting-started)

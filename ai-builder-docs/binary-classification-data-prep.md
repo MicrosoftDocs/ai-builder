@@ -18,6 +18,8 @@ Before you create your binary classification model, you'll want to make sure you
 
 ## Create your custom entity
 If you have data outside of Common Data Service that you want to import for training in AI Builder, you need to create an entity first.
+
+![Data entities screen](media/data-prep.png "Data entities screen")
  
 1. In PowerApps, select **Entities** in the left-side navigation pane, then select **New entity** at the top of the screen.
 
@@ -28,22 +30,22 @@ If you have data outside of Common Data Service that you want to import for trai
 5.	On the **Field properties** screen, type **Age** in the **Display name** and **Name** fields, and select **Whole Number** in the **Data type** menu.
 6. Repeat these steps to add additional fields using the method above to create the following fields :
 
-|Name	|Data type|
-|---|---|
-|Capital loss|	Whole number|
-|Hours per week|Whole number|
-|ID|	Text|
-|Income|	Text|
-|Marital status|	Text|
-|Native country|	Text|
-|Occupation|	Text|
-|Race|	Text|
-|Relationship|	Text|
-|Sex|	Text|
-|Work class|	Text|
+    |Name	|Data type|
+    |---|---|
+    |Capital loss|	Whole number|
+    |Hours per week|Whole number|
+    |ID|	Text|
+    |Income|	Text|
+    |Marital status|	Text|
+    |Native country|	Text|
+    |Occupation|	Text|
+    |Race|	Text|
+    |Relationship|	Text|
+    |Sex|	Text|
+    |Work class|	Text|
 
->[!NOTE]
->In our example dataset, the label is not formatted correctly to directly import as a two-option field, but if you format your label field to be true and false, then you can simply create a two-option data type in this step for the label.
+> [!NOTE]
+> In our example dataset, the label is not formatted correctly to directly import as a two-option field, but if you format your label field to be true and false, then you can simply create a two-option data type in this step for the label.
 
 ## Import local data into your entity
  
@@ -52,7 +54,7 @@ If you have data outside of Common Data Service that you want to import for trai
 3.	If a Mapping errors exist message appears under **Mapping status**, it's okay-  select **Map fields**.
 4.	Map only the fields you created, to the corresponding fields in the import data, and select **Save changes**. You do not need to map any fields you did not create.
 
-> !NOTE
+> [!NOTE]
 > - There may be a bug where if you update the fields after the initial save, the fields available for mapping may not be updated. In this case just create the entity under a new name.
 > - There may be a bug where if the text fields start with an empty space, the import will not work correctly. Please remove any preceding spaces in your dataset.
 
@@ -66,23 +68,37 @@ There are scenarios where you may need to update the field you are predicting.
 - Label field doesn’t consist of two options
 ### Create a Two-option field
 In the previous example, **Income** is actually the label field, but the current type is **Text**. However, AI Builder binary classification requires the Two-option data type.
-> !NOTE
-> 
->If you are creating a label field based on another field(s),  please make sure that  during field selection in AI Builder, you deselect the field(s) that were used to populate the label field. They may be perfectly predictive of your outcome and should not be used to generate features for training.
+
+> [!NOTE]
+> If you are creating a label field based on another field(s),  please make sure that  during field selection in AI Builder, you deselect the field(s) that were used to populate the label field. They may be perfectly predictive of your outcome and should not be used to generate features for training.
 
 1.	In the **Adult Census Income entity** screen, select **Add field**, and set these values:
-- **Display Name** - **Label**
-- **Data type** - **Two Options**
-- **Yes** option - **>50K**
-- **No** option - **<=50K**
+    - **Display Name**= *Label*
+    - **Data type**= *Two Options*
+    - **Yes**= *>50K*
+    - **No**= - *<=50K*
 2.	At the bottom of the **field property** screen, select the **Calculated or Rollup** dropdown menu, and then select **Calculation**.
-3.	Select **Yes** to save pending changes. Here you can add the following condition:
-
+3.	Select **Yes** to save pending changes, and then select **Add condition** to add the following condition: 
+    - **Field**= *Income*
+    - **Operator**= *Equals*
+    - **Type**= *Value*
+    - **Value**= *>50K*
+4.	Next, click Add action and add the following action:
+    - **Field**= *Label*
+    -	**Type**= *Value*
+    -	**Value**= *>50K*
+5.	Click **Add Else If** and add another set of conditions and actions. Set the following conditions:
+    - **Field**= *Income*
+    - **Operator**= *Equals*
+    - **Type**= *Value*
+    -	**Value**= *<=50K*
+6.	Set the following action:
+    - **Field**= *Label*
+    - **Type**= *Value*
+    - **Value**= *<=50K*
+6.	Finally click **SAVE AND CLOSE** to save the calculation.
+7.	Go back to the **Active Adult Census Incomes** view and confirm that **Income** and **Label** have the same values. Select **Publish** if you want to save the view.
+ 
 
 ### Next steps
 [Create a text classification model](create-text-classification-model.md) 
-
-### See also
-[AI Builder Release Notes](/power-platform-release-notes/october19/ai-builder)<br/>
-[PowerApps docs](https://docs.microsoft.com/powerapps/)<br/>
-[Microsoft Flow docs](https://docs.microsoft.com/flow/getting-started)

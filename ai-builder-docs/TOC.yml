@@ -2,8 +2,8 @@
   items:
   - name: What is AI Builder?
     href: what-is-ai-builder.md
-  - name: Browse AI model types
-    href: browse-ai-model-types.md
+  - name: AI model types
+    href: ai-model-types.md
   - name: Share your experience 
     href: share-your-experience.md
 - name: AI Models
@@ -26,7 +26,7 @@
     href: binary-classification-data-prep.md
   - name: Create a binary classification model
     href: create-binary-classification-model.md
-  - name: Train your binary classification model
+  - name: Train and publish your binary classification model
     href: binary-classification-train-model.md
   - name: Understand the training report
     href: binary-classification-training-report.md
@@ -101,7 +101,10 @@
     href: object-detector-component-in-powerapps.md
   - name: Use the business card reader component in PowerApps
     href: business-card-reader-component-in-powerapps.md
-- name: Administration
+- name: Administration and security
   items:
-  - name: Administration
-    href: administration.md
+  - name: Administer AI Builder
+    href: administer-ai-builder.md
+  - name: Security in AI Builder
+    href: security-ai-builder.md
+    

@@ -15,12 +15,12 @@ ms.reviewer: kvivek
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
+Creating the optimal model for your business can be a rather iterative process. Results may vary depending on the configurations you set and the training data you provide. Thus, updating either or both of those factors could improve your model performance. In some cases, however, there is a chance the performance may degrade. Each AI model type has a set of guidelines to help walk you through the process of creating the best model, tailored to your needs.
 
+![Manage AI model screen](media/manage-model.png "Manage AI model screen")
 
 ## Evaluate your model
 After you train your model for the first time, you can evaluate its performance and quality on the **Details** page.
-
-Creating the optimal model for your business can be a rather iterative process. Results may vary depending on the configurations you set and the training data you provide. Thus, updating either or both of those factors could improve your model performance. In some cases, however, there is a chance the performance may degrade. Each AI model type has a set of guidelines to help walk you through the process of creating the best model, tailored to your needs.
 
 Depending on your AI model type, a performance score may appear for each version you have trained. You can use this score to quickly compare two versions of the same model. However, the score is based on the configuration for that training. It is important to take into consideration any changes made between versions when comparing scores.
 

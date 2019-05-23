@@ -31,8 +31,3 @@ For information about AI Builder requirements that are not specific to this AI m
 
 ### Next steps
 [Data preparation](binary-classification-data-prep.md)
-
-### See also
-[AI Builder Release Notes](/power-platform-release-notes/october19/ai-builder)<br/>
-[PowerApps docs](https://docs.microsoft.com/powerapps/)<br/>
-[Microsoft Flow docs](https://docs.microsoft.com/flow/getting-started)

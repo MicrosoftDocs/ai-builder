@@ -19,6 +19,9 @@ ms.reviewer: kvivek
 After you successfully train your model, you must publish it to make it available for use. All users in your current environment will be able to use your published model.
 
 On the **Details** page, under **Last trained version**, select **Publish**.
+
+![Publish model screen](media/publish-model.png "Publish model screen")
+
 After you publish your last trained version, it appears as the published version. For certain AI model types, you may need to take additional steps to use your model in PowerApps or Common Data Service.
 
 > [!NOTE]
@@ -33,4 +36,6 @@ If you are satisfied with your model, you can publish it to make it available. S
 > [!TIP]
 > For more information on using your published model, view the **Tips** section under the **Published version**.
 
-
+### Related topics
+[Use AI Builder in Flow](ai-builder-in-flow-overview.md)
+[Use AI Builder in PowerApps](ai-builder-in-powerapps-overview.md)

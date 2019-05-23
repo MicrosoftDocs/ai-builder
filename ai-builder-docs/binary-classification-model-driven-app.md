@@ -15,9 +15,9 @@ ms.reviewer: kvivek
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-You should review [Model-driven apps overview topic](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview) in PowerApps Docs before you perform the steps in this section.  
+You should review [Model-driven apps overview](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview) topic in PowerApps Docs before you perform the steps here.  
 
-In this section, we go through the process of creating a model driven app that can sort your records by the probability value in the AI model output.
+We go through the process of creating a model driven app that can sort your records by the probability value in the AI model output.
 
 1. Sign in to [PowerApps](https://web.powerapps.com/), select **Apps** from the menu, and then select **Create an app** at the top of the screen. Then, select **Model-driven** in the drop-down menu, give the app a name and click **Done**.
 2. On the **App Designer** configuration screen, you need to do two things:
@@ -32,14 +32,6 @@ Select **New Subarea** and select **Entity** as the **Type**, and then select yo
 8. Select **Save And Close** and then select **Publish**.
 9. Select **Play**. Your output should look something like this.
 
-![Model driven app complete screen](media/model-driven-app-scr.png)
+    ![Model driven app complete screen](media/model-driven-app-scr.png)
 
 Congratulations, you've just created your first model-driven app using the binary classification AI model prediction output.
-
-
-
-
-### See also
-[AI Builder Release Notes](/power-platform-release-notes/october19/ai-builder)<br/>
-[PowerApps docs](https://docs.microsoft.com/powerapps/)<br/>
-[Microsoft Flow docs](https://docs.microsoft.com/flow/getting-started)
