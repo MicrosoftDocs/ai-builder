@@ -65,10 +65,9 @@
     href: get-started-with-object-detection.md
   - name: Tag images
     href: tag-images.md
-  - name: Train your object detection model
+  - name: Train and publish your object detection model
     href: object-detection-train-model.md
-  - name: Quickly test your model
-    href: object-detection-quick-test.md
+
 - name: Form processing AI model
   items:
   - name: Overview

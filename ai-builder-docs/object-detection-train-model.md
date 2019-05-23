@@ -1,6 +1,6 @@
 ---
-title: Train your object detection model | Microsoft Docs
-description: Provides steps to train your object detection model in AI Builder.
+title: Train and publish your object detection model | Microsoft Docs
+description: Provides steps to train and publish your object detection model in AI Builder.
 author: Dean-Haas
 manager: kvivek
 ms.service: powerapps
@@ -11,11 +11,11 @@ ms.author: v-dehaas
 ms.reviewer: kvivek
 ---
 
-# Train your object detection model
+# Train and publish your object detection model
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-In this section, you’ll learn how to check that you have all the data you need, and then how to train your model.
+In this section, you’ll learn how to verify your data, and then how to train, test, and publish your model.
 1.	On the **Train your model** screen, verify that you have the correct names, and the correct amount of images 
 2.	If the data is all good, Select **Train** to kick off the training of your object detection model.
 
