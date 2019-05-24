@@ -27,6 +27,7 @@ ms.reviewer: kvivek
 7.	In the **Content** field, select **Response Payload**.
 8.	Copy the following JSON, and paste in the **Schema** box:
 
+        ```json
         {
             "type": "object",
             "properties": {
@@ -54,6 +55,8 @@ ms.reviewer: kvivek
                 "error": {}
             }
         }
+        ```
+        
     ![Parse JSON screen](media/parse-json.png "Parse JSON screen")
 
 9.	Now you can iterate through the outputs returned by the text classification model. In the following example of instance, we save each inferred tag into a SharePoint list. 
