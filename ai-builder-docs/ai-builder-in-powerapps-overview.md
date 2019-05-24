@@ -21,7 +21,7 @@ ms.reviewer: kvivek
 ### Next steps
 [AI model types](ai-model-types.md) 
 
-### See also
+### Related topics
 [AI Builder Release Notes](/power-platform-release-notes/october19/ai-builder)<br/>
 [PowerApps docs](https://docs.microsoft.com/powerapps/)<br/>
 [Microsoft Flow docs](https://docs.microsoft.com/flow/getting-started)

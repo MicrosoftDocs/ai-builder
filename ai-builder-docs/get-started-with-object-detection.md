@@ -61,6 +61,6 @@ That’s it! Congratulations, you have completed the exercise of creating a trai
 ### Next steps
 [Train  your model](object-detection-train-model.md)
 
-### See also
+### Related topics
 
 [Object detection in Microsoft Flow](object-detection-model-in-flow.md) 

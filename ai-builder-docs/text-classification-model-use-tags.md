@@ -28,5 +28,5 @@ What if the model is not writing new tag suggestions?
 ### Next steps
 [AI model types](ai-model-types.md) 
 
-### See also
+### Related topics
 

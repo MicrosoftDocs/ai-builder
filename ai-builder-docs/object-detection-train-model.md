@@ -21,7 +21,7 @@ In this section, you’ll learn how to verify your data, and then how to train, 
 
 ## Quick test your model 
 
-Once your model is trained, you can see it in action from its Details page, which you can learn more about here.
+Once your model is trained, you can see it in action from its Details page, which you can learn more about [here](manage-model-ai-builder.md).
 1.	From your model details page, select **Quick Test** button in the **Last trained version** section. 
 2.	Drag and drop or upload an image which contains your objects to test your model.
 3.	Your model will be applied to the image you uploaded. This step might take a little while.
@@ -33,5 +33,5 @@ Once your model is trained, you can see it in action from its Details page, whic
 From there, you can run more tests with other pictures. If you are happy with the results you are getting, you can [publish](publish-model-ai-builder.md) your model to use it in a Powerapps or Microsoft Flow.
 
 
-### See also
+### Related topics
 [Manage your AI model](manage-model-ai-builder.md)

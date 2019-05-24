@@ -74,8 +74,8 @@
     href: form-processing-model-requirements.md
   - name: Create a form processing model
     href: create-form-processing-model.md
-  - name: Test your form-processing model
-    href: form-processing-test.md
+  - name: Train and publish your form-processing model
+    href: form-processing-train.md
 - name: Use AI Builder in Microsoft Flow
   items:
   - name: Overview

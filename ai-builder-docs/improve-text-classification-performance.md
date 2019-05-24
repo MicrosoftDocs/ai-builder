@@ -43,6 +43,6 @@ Cleaning your data can avoid some types of training errors and improve model per
 ### Next steps
 [Publish your text classification model](publish-text-classification-model.md) 
 
-### See also
+### Related topics
 [Publish a model in AI Builder](publish-model-ai-builder.md)
 

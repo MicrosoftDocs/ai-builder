@@ -35,6 +35,6 @@ For text classification AI Models, an entity is created for every new model once
 
 After the model runs, administrators must modify the access rights to the newly created text classification entity in Common Data Service to allow users to consume the results. 
 
-### See also
+### Related topics
 For more information on how to assign entity privileges to security roles, see [Security concepts](https://docs.microsoft.com/dynamics365/customer-engagement/admin/security-concepts).
 
