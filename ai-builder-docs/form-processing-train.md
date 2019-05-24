@@ -33,13 +33,6 @@ If you’re happy with your model, you can select **Publish**  to publish it. Wh
 
 After you’ve published your form processing model, you can use it in a canvas app or in MSFlow.
 
-
-
-
-### Next steps
-[AI model types](ai-model-types.md) 
-
 ### Related topics
-[AI Builder Release Notes](/power-platform-release-notes/october19/ai-builder)<br/>
-[PowerApps docs](https://docs.microsoft.com/powerapps/)<br/>
-[Microsoft Flow docs](https://docs.microsoft.com/flow/getting-started)
+[Form processing model in Flow](form-processing-model-model-in-flow.md)
+[Form processing model in PowerApps](form-processor-component-in-powerapps.md)
