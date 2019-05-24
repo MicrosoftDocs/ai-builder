@@ -57,7 +57,7 @@ ms.reviewer: kvivek
     ![Paste schema](media/parse-json-schema.png "Paste schema")
 
 ## Use form processing model output in Flow
-Now you can use the output of the Form Processing model in subsequent actions in Flow. 
+Now you can use the output of the form processing model in subsequent actions in Flow. 
 
 For example to retreive the value of a field named ‘Total’ you would use the following expression:  
 
@@ -68,7 +68,7 @@ To iterate over tables, put the entries value on an 'Apply to each' loop. To acc
         items('Apply_to_each')?['Amount']?['value'] 
 
 
- Congratulations! You have created a Flow that leverages a form processing AI Builder model. Click *Save* on the top right, and then click *Test* to try out your Flow. 
+ Congratulations! You have created a flow that leverages a form processing AI Builder model. Click **Save** on the top right, and then click **Test** to try out your flow. 
 
 
 

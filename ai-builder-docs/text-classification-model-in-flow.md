@@ -54,12 +54,12 @@ ms.reviewer: kvivek
                 "error": {}
             }
         }
-![Parse JSON screen](media/parse-json.png "Parse JSON screen")
+    ![Parse JSON screen](media/parse-json.png "Parse JSON screen")
 
 9.	Now you can iterate through the outputs returned by the text classification model. In the following example of instance, we save each inferred tag into a SharePoint list. 
 ![Save tags screens](media/save-tags.png "Save tags screens")
 
-Congratulations! You have created a Flow that leverages a text classification AI Builder model. Select **Save** on the top right, and then select **Test** to try out your Flow.
+Congratulations! You have created a flow that leverages a text classification AI Builder model. Select **Save** on the top right, and then select **Test** to try out your flow.
 
 To learn more about the triggers and actions, go to the [Get started with Microsoft Flow](/flow/getting-started) topic.
 
