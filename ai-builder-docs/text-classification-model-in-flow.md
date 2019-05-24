@@ -27,7 +27,7 @@ ms.reviewer: kvivek
 7.	In the **Content** field, select **Response Payload**.
 8.	Copy the following JSON, and paste in the **Schema** box:
 
-        ```json
+    ```json
         {
             "type": "object",
             "properties": {
@@ -55,7 +55,7 @@ ms.reviewer: kvivek
                 "error": {}
             }
         }
-        ```
+    ```
         
     ![Parse JSON screen](media/parse-json.png "Parse JSON screen")
 
