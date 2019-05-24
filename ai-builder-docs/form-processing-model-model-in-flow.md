@@ -59,11 +59,11 @@ ms.reviewer: kvivek
 ## Use form processing model output in Flow
 Now you can use the output of the form processing model in subsequent actions in Flow. 
 
-For example to retreive the value of a field named ‘Total’ you would use the following expression:  
+For example to retreive the value of a field named *Total* you would use the following expression:  
 
         body('Parse_JSON')?['predictionOutput']?['labels']?['Total']?['value']
 
-To iterate over tables, put the entries value on an 'Apply to each' loop. To access the value of a column named **Amount** for instance inside the table, use the expression: 
+To iterate over tables, put the entries value on an *Apply to each*' loop. To access the value of a column named *Amount* for instance inside the table, use the expression: 
 
         items('Apply_to_each')?['Amount']?['value'] 
 
