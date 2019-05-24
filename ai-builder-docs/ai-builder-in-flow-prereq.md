@@ -11,17 +11,13 @@ ms.author: v-dehaas
 ms.reviewer: kvivek
 ---
 
-# Prerequisites
+# Prerequisites for using AI Builder in Microsoft Flow
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-
-
-
-### Next steps
-[AI model types](ai-model-types.md) 
+Before you can use AI Builder in Microsoft Flow, you just need:
+- An account with access to Microsoft Flow
+- A trained [AI Builder model](build-model.md)
 
 ### Related topics
-[AI Builder Release Notes](/power-platform-release-notes/october19/ai-builder)<br/>
-[PowerApps docs](https://docs.microsoft.com/powerapps/)<br/>
-[Microsoft Flow docs](https://docs.microsoft.com/flow/getting-started)
+[Ai Builder prerequisites](build-model.md#prerequisites)
