@@ -24,10 +24,12 @@ ms.reviewer: kvivek
 
     -	For a a jpeg image of the form:
 
+        ```
         {
             "base64Encoded": "EXPRESSION",
     	    "mimeType": "image/jpeg"
         }
+        ```
 
     - 	For a a pdf document of the form:
 
