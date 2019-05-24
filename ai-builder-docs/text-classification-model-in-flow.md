@@ -20,7 +20,8 @@ ms.reviewer: kvivek
 3.	Select **Text** and set as input title: **My Text**.
 4.	Select **+ New step**, search for **Predict**, and then select **Predict Common Data Service** in the list of actions.
 5.	Select the text classification model you want to use, and in the **Request Payload** field, enter **{“text”:”My Text”}**. Add the **My Text** field from the trigger: 
-![Trigger a flow screen](media/trigger-flow.png "trigger a flow screen")
+   
+    ![Trigger a flow screen](media/trigger-flow.png "trigger a flow screen")
  
 6.	Select **+ New step**, search for **Parse JSON**, and then select **Parse JSON – Data Operations** in the lists of actions.
 7.	In the **Content** field, select **Response Payload**.
@@ -56,7 +57,7 @@ ms.reviewer: kvivek
 ![Parse JSON screen](media/parse-json.png "Parse JSON screen")
 
 9.	Now you can iterate through the outputs returned by the text classification model. In the following example of instance, we save each inferred tag into a SharePoint list. 
-![Save tags screens](save-tags.png "Save tags screens")
+![Save tags screens](media/save-tags.png "Save tags screens")
 
 Congratulations! You have created a Flow that leverages a text classification AI Builder model. Select **Save** on the top right, and then select **Test** to try out your Flow.
 
