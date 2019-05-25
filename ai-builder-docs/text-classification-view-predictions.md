@@ -26,7 +26,7 @@ In this section we show you how to view the output of your prediction model.
 3.	Next, you can build a simple model-driven app to consume the output. For information about how to build a model driven app in PowerApps, go to the [model-driven app overview](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview) topic in PowerApps docs.
 
 ### Next steps
-[Use generated tage](text-classification-model-use-tags.md) 
+[Use generated tags](text-classification-model-use-tags.md) 
 
 ### See also
 [AI Builder Release Notes](/power-platform-release-notes/october19/ai-builder)<br/>
