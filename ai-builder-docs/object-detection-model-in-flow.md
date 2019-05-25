@@ -114,7 +114,7 @@ The following example shows the creation of a flow that counts the number of gre
 
 ![Green tea object detection flow example](media/green-tea-example.png "example of an object detection flow")
 
-You can learn more about all the rich offer of triggers and actions that you can use by heading to the Microsoft Flow documentation. 
+To learn more about all the rich offer of triggers and actions that you can use, go to the [Microsoft Flow documentation](/flow/getting-started)
  
 
 
