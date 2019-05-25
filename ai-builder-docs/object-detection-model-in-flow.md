@@ -16,9 +16,9 @@ ms.reviewer: kvivek
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
 1. Sign in to [Microsoft Flow](https://flow.microsoft.com/), select the **My flows** tab, and then select **Create from blank**.
-1. Search for **manually**, select **Manually trigger a flow** in the list of triggers, and then select **+ Add an input**.
+1. Search for *manually*, select **Manually trigger a flow** in the list of triggers, and then select **+ Add an input**.
 5. Select **File**, and set **My Image** as input title.
-4. Select **+ New step**, search for **Predict**, and then select **Predict Common Data Service** in the list of actions.
+4. Select **+ New step**, search for *Predict*, and then select **Predict Common Data Service** in the list of actions.
 
     ![Predict common data service](media/predict-cds.png "Predict common data service screen")
 
