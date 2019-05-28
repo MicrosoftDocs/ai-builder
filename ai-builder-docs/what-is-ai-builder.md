@@ -18,8 +18,9 @@ ms.reviewer: kvivek
 AI Builder is a new Power Platform capability that allows you to easily automate processes and predict outcomes to improve business performance. AI Builder is a turnkey solution that brings the power of Microsoft Artificial Intelligence (AI) through a point and select experience. Using AI Builder, you can build AI without having coding or data science skills. 
 
 > [!IMPORTANT]
-> - AI Builder is a a preview feature.
-> - [!INCLUDE[cc_preview_features_definition](./includes/cc-preview-features-definition.md)] 
+> - AI Builder is a preview feature.
+> - [!INCLUDE[cc_preview_features_definition](./includes/cc-preview-features-definition.md)]
+> - AI Builder is enabled by default in your environment if your environment is eligible for the feature. Administrators can control the feature availability for their environment using the Power Platform Admin Center. More information: [Enable or disable AI Builder feature](administer-ai-builder.md#enable-or-disable-ai-builder-feature).
 
 Using AI is easy thanks to integration with PowerApps and Microsoft Flow. Follow these steps: 
 1. **Choose AI model type**: Select your business problem from a growing set of AI turnkey solutions. 
