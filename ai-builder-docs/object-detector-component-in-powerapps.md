@@ -27,32 +27,30 @@ The component is initialized once an AI model is bound to it.
 
 ## Properties
 ### Key properties
-- **ModelId** (“AI model” in the properties panel): AI model information to which the component is bound.
-- **OriginalImage**: The original image before processing.
-- **VisionObjects**: The details of detected objects. For each object, the below properties are available:
+ - **ModelId** (“AI model” in the properties panel): AI model information to which the component is bound.
+ - **OriginalImage**: The original image before processing.
+ - **VisionObjects**: The details of detected objects. For each object, the below properties are available:
     - **id** (populated at AI model binding)
     - **displayName** (populated at AI model binding)
     - **count** (populated after a detection)
 
 ### Additional properties
-- **Text**: Text that appears on the button that activates the business card reader.
-- **ImageDisplayed** (“Show image” in the properties panel): Whether the component displays the image or not.
-- **DisplayMode**:
+ - **Text**: Text that appears on the button that activates the business card reader.
+ - **ImageDisplayed** (“Show image” in the properties panel): Whether the component displays the image or not.
+ - **DisplayMode**:
     - **Edit**: Allows user input
     - **View**: Only displays data 
     - **Disabled** is disabled.
-- **Height**: The height of the component.
-- **Visible**: Whether the component appears or is hidden.
-- **Width**: The width of the component.
-- **X**: The distance between the left edge of the component and the left edge of its parent container (screen if no parent container).
-- **Y**: The distance between the top edge of the component and the top edge of the parent container (screen if no parent container).
+ - **Height**: The height of the component.
+ - **Visible**: Whether the component appears or is hidden.
+ - **Width**: The width of the component.
+ - **X**: The distance between the left edge of the component and the left edge of its parent container (screen if no parent container).
+ - **Y**: The distance between the top edge of the component and the top edge of the parent container (screen if no parent container).
 
 Additional design properties are available in the Advanced panel.
 
 ## Accessibility guidelines
 These [guidelines](/powerapps/maker/canvas-apps/controls/control-button) for the PowerApps button control also apply to the form processor component.
-
-
 
 ### Related topics
 [Object detection overview](object-detection-overview.md)<br/>
