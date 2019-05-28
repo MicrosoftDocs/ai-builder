@@ -10,7 +10,7 @@ ms.author: v-dehaas
 ms.reviewer: kvivek
 ---
 
-# Use Form processor component in PowerApps
+# Use the form processor component in PowerApps
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -31,8 +31,10 @@ The component is initialized after an AI model is bound to it.
 - **OriginalImage**: Output property that contains the original image before processing.
 - **FormContent**: Output property that contains the details of extracted form fields and tables. At component initialization (AI model binding step), the potential fields and tables that can be extracted by the models are populated:
 - **Fields**:
+
     ![Form fields screen](media/form-fields.png "Form fields screen")
 - **Tables**:
+
     ![Form tables screen](media/form-tables.png "Form tables screen") 
 
 ### Additional properties
