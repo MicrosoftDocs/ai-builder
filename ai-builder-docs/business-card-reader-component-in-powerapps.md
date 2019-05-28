@@ -24,20 +24,20 @@ Takes a photo or loads an image from the local device and then scans it to find 
 ## Properties
 ### Key properties
 If a business card is detected, the business card reader will try to extract and expose the below information:
-- **CleanedImage**: Output property that contains the image after processing where the business card appears cropped and enhanced from the original image.
-- **CompanyName**: Output property that contains the company name in the business card if any found.
-- **Department**: Output property that contains the organization department found in the business card if any found.
-- **Email**: Output property that contains the contact email found in the business card if any.
-- **FirstName**: Output property that contains the contact first name in the business card if any found.
-- **FullAddress**: Output property that contains the contact full address in the business card if any found.
-- **FullName**: Output property that contains the contact full name in the business card if any found.
-- **JobTitle**: Output property that contains the contact job title in the business card if any found.
-- **LastName**: Output property that contains the contact last name in the business card if any found.
-- **OriginalImage**: Output property that contains the original image before processing.
-- **Phone1**: Output property that contains the first phone or fax number detected in the business card if any found.
-- **Phone2**: Output property that contains the second phone or fax number detected in the business card if any found.
-- **Phone3**: Output property that contains the third phone or fax number detected in the business card if any found.
-- **Website**: Output property that contains the website detected in the business card if any found.
+- **CleanedImage**: The image after processing where the business card appears cropped and enhanced from the original image.
+- **CompanyName**: The company name in the business card, if found.
+- **Department**: The organization department found in the business card, if found.
+- **Email**: The contact email found in the business card if any.
+- **FirstName**: The contact first name in the business card, if found.
+- **FullAddress**: The contact full address in the business card, if found.
+- **FullName**: The contact full name in the business card, if found.
+- **JobTitle**: The contact job title in the business card, if found.
+- **LastName**: The contact last name in the business card, if found.
+- **OriginalImage**: The original image before processing.
+- **Phone1**: The first phone or fax number detected in the business card, if found.
+- **Phone2**: The second phone or fax number detected in the business card, if found.
+- **Phone3**: The third phone or fax number detected in the business card, if found.
+- **Website**: The website detected in the business card, if found.
 
 
 ### Additional properties
