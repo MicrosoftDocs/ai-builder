@@ -63,12 +63,9 @@
     href: collect-images.md
   - name: Get started with object detection
     href: get-started-with-object-detection.md
-  - name: Tag images
-    href: tag-images.md
-  - name: Train your object detection model
+  - name: Train and publish your object detection model
     href: object-detection-train-model.md
-  - name: Quickly test your model
-    href: object-detection-quick-test.md
+
 - name: Form processing AI model
   items:
   - name: Overview
@@ -77,8 +74,8 @@
     href: form-processing-model-requirements.md
   - name: Create a form processing model
     href: create-form-processing-model.md
-  - name: Test your form-processing model
-    href: form-processing-test.md
+  - name: Train and publish your form-processing model
+    href: form-processing-train.md
 - name: Use AI Builder in Microsoft Flow
   items:
   - name: Overview

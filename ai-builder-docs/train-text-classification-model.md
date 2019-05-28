@@ -23,7 +23,7 @@ You can also train a new version of your model.  Select **New version > From pub
 ### Next steps
 [Understand text classification model performance](text-classification-performance.md) 
 
-### See also
+### Related topics
 [AI Builder Release Notes](/power-platform-release-notes/october19/ai-builder)<br/>
 [PowerApps docs](https://docs.microsoft.com/powerapps/)<br/>
 [Microsoft Flow docs](https://docs.microsoft.com/flow/getting-started)

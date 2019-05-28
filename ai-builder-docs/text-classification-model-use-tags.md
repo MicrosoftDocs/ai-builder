@@ -15,13 +15,18 @@ ms.reviewer: kvivek
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
+Microsoft Flow
+If you want to use your trained model in flow please follow this link for a detailed walkthrough.
+
+
+What if the model is not writing new tag suggestions? 
+•	Check that you didn’t you didn’t exceed the number of Flow runs your subscription allows. 
+•	Turn off the Common Data Service run toggle, and then turn it back on. 
 
 
 
 ### Next steps
 [AI model types](ai-model-types.md) 
 
-### See also
-[AI Builder Release Notes](/power-platform-release-notes/october19/ai-builder)<br/>
-[PowerApps docs](https://docs.microsoft.com/powerapps/)<br/>
-[Microsoft Flow docs](https://docs.microsoft.com/flow/getting-started)
+### Related topics
+

@@ -65,7 +65,7 @@ You’re all set! Power Query will import your data into the Common Data Service
 ### Next steps
 [Create a text classification model](create-text-classification-model.md) 
 
-### See also
+### Related topics
 [AI Builder Release Notes](/power-platform-release-notes/october19/ai-builder)<br/>
 [PowerApps docs](https://docs.microsoft.com/powerapps/)<br/>
 [Microsoft Flow docs](https://docs.microsoft.com/flow/getting-started)
