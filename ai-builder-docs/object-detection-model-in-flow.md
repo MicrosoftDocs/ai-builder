@@ -106,7 +106,7 @@ ms.reviewer: kvivek
     When you add **tagId** as Item identifier an *apply to each* loop is automatically added. This loops all the object tags that are detected on the image that is provided by the flow trigger. 
 
     You can continue to build your flow to meet your business needs. 
-Congratulations! You have created a flow that leverages an objectdDetection AI Builder model. Click **Save** on the top right, and then click **Test** to try out your Flow. 
+Congratulations! You have created a flow that leverages an objectdDetection AI Builder model. Select **Save** on the top right, and then select **Test** to try out your Flow. 
 
 ## Example object detection flow
 

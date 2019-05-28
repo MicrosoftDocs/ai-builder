@@ -29,14 +29,14 @@ Next, import the sample data into the entity. In this example, we use the Online
 1. In PowerApps, select **Entities** in the left-side navigation pane, select **Get data** > **Text/CSV**, and then copy and paste the following URL:
     >https://need.this.URL
 
-1. Set the following properties, and then click **Next**:
+1. Set the following properties, and then select **Next**:
     -  **On-premise data gateway**= *(none)*
     - **Authentication kind**= *Anonymous*
  
 3. On the **Edit queries** screen, select **Transform table** and **Use first row as headers** in the dropdown menu, and then select **Next**.
 10.	On the **Map entities** screen, make sure **Load to existing entity** is selected, and under **Destination entity**, select **aib_onlineshopperintention** in the drop down menu.
 11.	Select the **Delete rows that no longer exist in the query output** checkbox, and then select the Auto-map function which is on the top right of the **Field mapping** screen.  Select **Next**.
-12.	On the **Refresh settings** screen, select the **Refresh manually** checkbox, and then click **Create** to start the import process.
+12.	On the **Refresh settings** screen, select the **Refresh manually** checkbox, and then select **Create** to start the import process.
 
 Allow some time for the import to complete. Then, make sure the data is imported correctly.
 1. In PowerApps, go back to **Entities** under **Data**, and select **Online Shopper Intention**.

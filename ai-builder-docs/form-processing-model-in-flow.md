@@ -17,10 +17,10 @@ ms.reviewer: kvivek
 
 ## Create your flow
 1. Sign in to [Microsoft Flow](https://flow.microsoft.com/), select the **My flows** tab, and then select **Create from blank**.
-2.	Search for **manually**, select **Manually trigger a flow** in the list of triggers, and then select **+Add an input**.
-5.	Select **File** and set **My Document** as input title. 
-4.	Select **+ New step**, search for **Predict**, and then select **Predict Common Data Service** in the list of actions.
-8.	Select the form processing model you want to use, and specify the following as **Request Payload**:
+2. Search for **manually**, select **Manually trigger a flow** in the list of triggers, and then select **+Add an input**.
+5. Select **File** and set **My Document** as input title. 
+4. Select **+ New step**, search for **Predict**, and then select **Predict Common Data Service** in the list of actions.
+8. Select the form processing model you want to use, and specify the following as **Request Payload**:
 
     -	For a a jpeg image of the form:
 
@@ -46,7 +46,7 @@ ms.reviewer: kvivek
 
 ## Test and edit your flow
 
-1.	Select **Test** on the upper right and, select **I’ll perform the trigger action**,  and then select **Save & Test**.
+1. Select **Test** on the upper right and, select **I’ll perform the trigger action**,  and then select **Save & Test**.
 10.	Import a document that can be processed by your trained form processing model, select **Run flow**. 
 12.	Copy the results to an editor like Visual Studio Code, and remove all the " \\" characters.
 13.	Back on the Flow editor,  select **+ New step**, search for **Parse JSON**, and then select **Parse JSON – Data Operations** from the list of actions.
@@ -70,7 +70,7 @@ To iterate over tables, put the entries value on an *Apply to each*' loop. To ac
         items('Apply_to_each')?['Amount']?['value'] 
 
 
- Congratulations! You have created a flow that leverages a form processing AI Builder model. Click **Save** on the top right, and then click **Test** to try out your flow. 
+ Congratulations! You have created a flow that leverages a form processing AI Builder model. Select **Save** on the top right, and then select **Test** to try out your flow. 
 
 
 
