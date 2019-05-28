@@ -85,7 +85,7 @@
   - name: Use a text classification model in Microsoft Flow
     href: text-classification-model-in-flow.md
   - name: Use a form processing model in Microsoft Flow
-    href: form-processing-model-model-in-flow.md
+    href: form-processing-model-in-flow.md
   - name: Use an object detection model in Microsoft Flow
     href: object-detection-model-in-flow.md
 - name: Use AI Builder in PowerApps

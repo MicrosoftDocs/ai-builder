@@ -15,13 +15,5 @@ ms.reviewer: kvivek
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
+After you train and publish your model in AI Builder, you can use it in PowerApps. 
 
-
-
-### Next steps
-[AI model types](ai-model-types.md) 
-
-### Related topics
-[AI Builder Release Notes](/power-platform-release-notes/october19/ai-builder)<br/>
-[PowerApps docs](https://docs.microsoft.com/powerapps/)<br/>
-[Microsoft Flow docs](https://docs.microsoft.com/flow/getting-started)
