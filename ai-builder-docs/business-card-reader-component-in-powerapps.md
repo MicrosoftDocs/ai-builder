@@ -56,7 +56,7 @@ If a business card is detected, the business card reader will try to extract and
 Additional design properties are available in the Advanced panel.
 
 ## Accessibility guidelines
-These guidelines for the PowerApps [Button control](/powerapps/maker/canvas-apps/controls/control-button) also apply to the form processor component.
+These [guidelines](/powerapps/maker/canvas-apps/controls/control-button) for the PowerApps button control also apply to the form processor component.
 
 
 

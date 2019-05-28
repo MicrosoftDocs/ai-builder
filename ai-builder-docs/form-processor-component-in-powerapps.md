@@ -27,9 +27,9 @@ The component is initialized after an AI model is bound to it.
 
 ## Properties
 ### Key properties
-- **ModelId** (“AI model” in the properties panel): AI model information to which the component is bound to.
-- **OriginalImage**: Output property that contains the original image before processing.
-- **FormContent**: Output property that contains the details of extracted form fields and tables. At component initialization (AI model binding step), the potential fields and tables that can be extracted by the models are populated:
+- **ModelId** (“AI model” in the properties panel): AI model information to which the component is bound.
+- **OriginalImage**: The original image before processing.
+- **FormContent**: The details of extracted form fields and tables. At component initialization (AI model binding step), the potential fields and tables that can be extracted by the models are populated:
 - **Fields**:
 
     ![Form fields screen](media/form-fields.png "Form fields screen")
@@ -58,7 +58,7 @@ The component is initialized after an AI model is bound to it.
 Additional design properties are available in the Advanced panel.
 
 ## Accessibility guidelines
-These guidelines for the PowerApps [Button control](/powerapps/maker/canvas-apps/controls/control-button) also apply to the form processor component.
+These [guidelines](/powerapps/maker/canvas-apps/controls/control-button) for the PowerApps button control also apply to the form processor component.
 
 ### Related topics
 
