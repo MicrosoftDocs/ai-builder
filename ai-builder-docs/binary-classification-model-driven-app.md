@@ -19,7 +19,7 @@ You should review [Model-driven apps overview](https://docs.microsoft.com/powera
 
 We go through the process of creating a model driven app that can sort your records by the probability value in the AI model output.
 
-1. Sign in to [PowerApps](https://web.powerapps.com/), select **Apps** from the menu, and then select **Create an app** at the top of the screen. Then, select **Model-driven** in the drop-down menu, give the app a name and click **Done**.
+1. Sign in to [PowerApps](https://web.powerapps.com/), select **Apps** from the menu, and then select **Create an app** at the top of the screen. Then, select **Model-driven** in the drop-down menu, give the app a name and select **Done**.
 2. On the **App Designer** configuration screen, you need to do two things:
     - Create a view of your entity that contains the predicted fields from prediction output.
     - Add the view to the site map.

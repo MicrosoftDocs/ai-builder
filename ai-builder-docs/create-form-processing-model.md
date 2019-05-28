@@ -16,18 +16,18 @@ ms.reviewer: kvivek
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
 When  you create your form processing model, you’ll need to do the following:
-1.	Run analysis on your sample form documents.
-2.	Select the form fields that you want the model to remember.
-3.	Review your model and train it.
-4.	Evaluate your model (optional)
+1. Run analysis on your sample form documents.
+2. Select the form fields that you want the model to remember.
+3. Review your model and train it.
+4. Evaluate your model (optional)
 
 
 ## Upload and analyze documents
 You need to provide sample documents to train your model for the type of documents from which you want to extract information. After you upload your documents, AI Builder analyzes them so you can tell whether you can train a model from them.
 ### Upload your documents
-1.	Sign in to [PowerApps](http://web.powerapps.com), and then in the navigation pane, select **AI Builder (preview)** > **Build**. Then, select the Form processing AI model type.
-2.	Enter a name for your model then select **Create**. 
-3.	Select **Add documents**, select a minimum of 5 documents, and then select **Upload**.
+1. Sign in to [PowerApps](http://web.powerapps.com), and then in the navigation pane, select **AI Builder (preview)** > **Build**. Then, select the Form processing AI model type.
+2. Enter a name for your model then select **Create**. 
+3. Select **Add documents**, select a minimum of 5 documents, and then select **Upload**.
 
 For more information about requirements for input documents please see [Requirements and limitations](form-processing-model-requirements.md).
 > [!NOTE] 
@@ -53,5 +53,5 @@ When you hover over a detected field, the following information appears:
 [Train and publish your form processing model](form-processing-train.md)
 
 ### Related topics
-[Form processing model in Flow](form-processing-model-model-in-flow.md)
+[Form processing model in Flow](form-processing-model-in-flow.md)
 [Form processing model in PowerApps](form-processor-component-in-powerapps.md)

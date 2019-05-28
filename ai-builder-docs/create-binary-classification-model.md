@@ -18,7 +18,7 @@ ms.reviewer: kvivek
 This example creates a PowerApps binary classification AI model that uses the Adult Census Income Common Data Service entity. 
 
 1. Sign in to [PowerApps](https://web.powerapps.com), and then select **AI Builder (preview)** > **Build**. 
-2. Select **Binary Classification**. Enter a model name and then click **Create**.
+2. Select **Binary Classification**. Enter a model name and then select **Create**.
 3. Select **Adult Census Income** as the entity, and **Label** as the field.
 
 ## Select the data fields to train your model
