@@ -19,15 +19,14 @@ Before you create your binary classification model, you'll want to make sure you
 ## Create your custom entity
 If you have data outside of Common Data Service that you want to import for training in AI Builder, you need to create an entity first. In this example, we’ll provide a solution which has pre-defined custom entities. To use your own data,  [create](/powerapps/maker/common-data-service/data-platform-create-entity) a custom entity, and substitute your own entity for the example use here.
 
-1. Download the AI Builder sample datasets solution.
+1. Download the AI Builder sample datasets solution, **AIBuilderSampleDatasets_1_0_0_0.zip**, from [here](https://go.microsoft.com/fwlink/?linkid=2093415).
 1. In PowerApps, select **Solutions** in the left-side navigation pane, then select **Import** at the top of the screen.
 1. In the popup screen, select **Choose File**, and then select **AIBuilderSampleDatasets_1_0_0_0.zip** that you downloaded in step 1.
 1. Follow the on-screen instructions to import the solution, and then select **Close** after you finish.
 
-Next, import the sample data into the entity. In this example, we use the Online Shopper Intention dataset:
+Next, import the sample data into the entity. In this example, we use the Online Shopper Intention dataset (.csv file) that is available to download from [here](https://go.microsoft.com/fwlink/?linkid=2093415):
 
-1. In PowerApps, select **Entities** in the left-side navigation pane, select **Get data** > **Text/CSV**, and then copy and paste the following URL:
-    >https://need.this.URL
+1. In PowerApps, select **Entities** in the left-side navigation pane, select **Get data** > **Text/CSV**, and then browse to the .csv file you downloaded. Select the file.
 
 1. Set the following properties, and then select **Next**:
     -  **On-premise data gateway**= *(none)*
