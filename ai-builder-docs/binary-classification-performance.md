@@ -35,6 +35,6 @@ In this example, if your model gets a score of 59, it means the model performanc
 For more information, go to the [Evaluate your model](manage-model-ai-builder.md#evaluate-your-model) section
 
 ### Next steps
-Use your published binary classification model in a [model-driven app](ai-model-types.md) 
+Use your published binary classification model in a [model-driven app](binary-classification-model-driven-app.md) 
 
 
