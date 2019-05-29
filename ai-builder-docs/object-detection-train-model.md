@@ -17,7 +17,7 @@ ms.reviewer: kvivek
 
 In this section, you’ll learn how to verify your data, and then how to train, test, and publish your model.
 1.	On the **Train your model** screen, verify that you have the correct names, and the correct amount of images 
-2.	If the data is all good, Select **Train** to kick off the training of your object detection model.
+2.	If the data is all good, select **Train** to kick off the training of your object detection model.
 
 ## Quick test your model 
 
