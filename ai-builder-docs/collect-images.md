@@ -33,6 +33,7 @@ Another consideration is that you should make sure that your data is balanced. F
 Provide images that are representative of what will be submitted to the model during normal use. For example, if you're training a model that recognizes apples, your model might not be as accurate if you only train images of apples in plates but make predictions on images of apples on trees. Including a variety of images will make sure that your model isn't biased and can generalize well. Below are some ways you can make your training set more diverse:
 ### Background 
 Provide images of your object in front of different backgrounds (that is, fruit on plate versus fruit in grocery bag). Photos in context are better than photos in front of neutral backgrounds as they provide more information for the classifier.
+
 ![Image backgrounds](media/image-background.png "Image backgrounds")
 
 ### Lighting
@@ -40,13 +41,17 @@ Provide images with varied lighting (that is, taken with flash, high exposure, e
 ![Image lighting](media/image-lighting.png "Image lighting")
 ### Object size
 Provide images in which the objects are of varied sizing capturing different parts of the object. For example, a photo of bunches of bananas and a closeup of a single banana. Different sizing helps the AI generalize better.
+
 ![Object sizes](media/image-object-size.png "Object sizes")
 ### Camera angle
 Provide images taken with different camera angles. If all your photos are taken with a set of fixed cameras (such as surveillance cameras), make sure you assign a different label to every camera even if they capture the same objects to avoid overfitting - modeling unrelated objects (such as lampposts) as the key feature.
+
 ![Camera angles](media/image-camera-angle.png "Camera angles")
 
 ### Unexpected results
-Sometimes the AI model incorrectly learns characteristics that your images have in common. For example, if you are creating an AI for apples vs. citrus, and use images of apples in hands and of citrus in white plates, the AI model may train f![Unexpected results](media/image-unexpected-results.png "Unexpected results")
+Sometimes the AI model incorrectly learns characteristics that your images have in common. For example, if you are creating an AI for apples vs. citrus, and use images of apples in hands and of citrus in white plates, the AI model may train for hands vs. white plates instead of apples vs. citrus.
+
+![Unexpected results](media/image-unexpected-results.png "Unexpected results")
 To correct this problem, use the above guidance on training with more varied images: provide images with different angles, backgrounds, object size, groups, and other variants.
 
 
