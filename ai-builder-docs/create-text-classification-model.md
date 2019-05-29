@@ -27,8 +27,3 @@ Now that you have your training data in Common Data Service, you can create a ne
 
 ### Next steps
 [Train your text classification model](train-text-classification-model.md) 
-
-### Related topics
-[AI Builder Release Notes](/power-platform-release-notes/october19/ai-builder)<br/>
-[PowerApps docs](https://docs.microsoft.com/powerapps/)<br/>
-[Microsoft Flow docs](https://docs.microsoft.com/flow/getting-started)

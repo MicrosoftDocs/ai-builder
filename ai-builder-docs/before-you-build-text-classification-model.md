@@ -16,7 +16,7 @@ ms.reviewer: kvivek
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
 Before you build your text classification model, you'll need to make sure your data is in Common Data Service, and in the correct format.
-## Pre-requisites
+## Prerequisites
 - Training data should be in a Common Data Service entity.  
 - You will need to have PowerApps P1 or P2 plan to be able to use AI Builder
 - To publish your trained model, you will need to have permissions to create entities in your Common Data Service environment.
@@ -64,8 +64,3 @@ You’re all set! Power Query will import your data into the Common Data Service
 
 ### Next steps
 [Create a text classification model](create-text-classification-model.md) 
-
-### Related topics
-[AI Builder Release Notes](/power-platform-release-notes/october19/ai-builder)<br/>
-[PowerApps docs](https://docs.microsoft.com/powerapps/)<br/>
-[Microsoft Flow docs](https://docs.microsoft.com/flow/getting-started)

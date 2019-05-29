@@ -37,5 +37,5 @@ After the model runs, administrators must modify the access rights to the newly 
 
 ### Related topics
 
-[Security concepts in Common Data Service](https://docs.microsoft.com/en-us/power-platform/admin/wp-security-cds).
+[Security concepts in Common Data Service](https://docs.microsoft.com/en-us/power-platform/admin/wp-security-cds)
 

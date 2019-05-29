@@ -15,7 +15,7 @@ ms.reviewer: kvivek
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-AI Builder is a new Power Platform capability that allows you to easily automate processes and predict outcomes to improve business performance. AI Builder is a turnkey solution that brings the power of Microsoft Artificial Intelligence (AI) through a point and select experience. Using AI Builder, you can build AI without having coding or data science skills. 
+AI Builder is a new Power Platform capability that allows you to easily automate processes and predict outcomes to improve business performance. AI Builder is a turnkey solution that brings the power of Microsoft Artificial Intelligence through a point and select experience. Using AI Builder, you can add intelligence to your apps without having coding or data science skills.
 
 > [!IMPORTANT]
 > - AI Builder is a preview feature.
