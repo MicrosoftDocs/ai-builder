@@ -22,7 +22,9 @@ Now that you have your training data in Common Data Service, you can create a ne
 3. Select **Select text**, select the entity, and then select the field where your training text is stored.
 4. Select **Select tags**, select the field where the tags are stored, and then select the separator you used for your tags.
 5. Preview your selection to verify the data and the configuration you applied.
-6. Select the language you want to use for training
+6. Select the language you want to use for training, and then select **Next**. 
+
+That's it! Now you can [train](train-text-classification-model.md) your AI model. 
 
 
 ### Next steps
