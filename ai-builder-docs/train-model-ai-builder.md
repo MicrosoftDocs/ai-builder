@@ -23,7 +23,8 @@ When you create a model in AI Builder, you configure it based on the needs of yo
 
 ![Train your model screen](media/train-model.png "Train your model screen")
 
-The training process may take a few minutes, depending on the AI model type and the size of the training data. This process happens in the background, so you can safely leave the page and come back later.
+> [!NOTE]
+> Training takes time, so you can stay on the page and wait, or you can close the page and come back later.  
 
 After you train your model for the first time, you have access to a details page where you can [manage your model](manage-model-ai-builder.md) and, depending on your AI model type, view your model’s performance results.
 

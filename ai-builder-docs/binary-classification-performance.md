@@ -30,7 +30,10 @@ Here is an example of how you might interpret your performance score. The follow
 |    63-80                |    OK                    |
 |    81-100               |    Good                  |
 
-In this example, if your model gets a score of 59, it means the model performance is not good, and you should go back and tweak your model, and then retrain it. If your model falls into the **OK** or **Good** band, you can either re-train the model to make it better, or you can go ahead and use the model, depending on your situation.  Note that these evaluations are rough guidelines. It is possible that, depending on the data you work with, you could have a lower score that performs well, or a higher score that performs less well. 
+In this example, if your model gets a score of 59, it means the model performance is not good, and you should go back and tweak your model, and then retrain it. If your model falls into the **OK** or **Good** band, you can either re-train the model to make it better, or you can go ahead and use the model, depending on your situation.  
+
+> [!NOTE]
+> These evaluations are rough guidelines. It is possible that, depending on the data you work with, you could have a lower score that performs well, or a higher score that performs less well.
 
 For more information, go to the [Evaluate your model](manage-model-ai-builder.md#evaluate-your-model) section
 
