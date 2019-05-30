@@ -59,7 +59,7 @@ To retrain and republish existing models:
 1. Sign in to [PowerApps](https://web.powerapps.com/), and then in the navigation pane, select **AI Builder** > **Models**. 
 2. In the **Performance** section, select the **…** menu to the right of **Training report**, and then select **Retrain**.
 
-This replaces your last trained version. Now publish this version.
+This replaces your last trained version. Now, publish this version.
 
 Perform these steps on each of your AI Builder models to get your AI models up and running again.
 

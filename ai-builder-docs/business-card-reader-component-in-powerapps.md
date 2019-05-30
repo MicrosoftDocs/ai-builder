@@ -23,7 +23,7 @@ The business card reader component takes a photo or loads an image from the loca
 
 ## Properties
 ### Key properties
-If a business card is detected, the business card reader will try to extract and expose the below information:
+If a business card is detected, the business card reader will try to extract the following information:
  - **CleanedImage**: The image after processing where the business card appears cropped and enhanced from the original image.
  - **CompanyName**: The company name in the business card, if found.
  - **Department**: The organization department found in the business card, if found.

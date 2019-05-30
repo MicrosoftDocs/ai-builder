@@ -15,9 +15,9 @@ ms.reviewer: kvivek
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-Microsoft Flow is a service that helps you create automated workflows between your favorite apps and services to synchronize files, get notifications, collect data and more.
+Microsoft Flow is a service that helps you create automated workflows between your favorite apps and services to synchronize files, get notifications, collect data, and more.
 
-During public preview we welcome you to use your trained and published AI builder models in Flow.
+During AI Builder public preview we welcome you to use your trained and published AI models in Flow.
 
 ### Next steps
 [Prerequisites](ai-builder-in-flow-prereq.md)
