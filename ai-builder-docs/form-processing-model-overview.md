@@ -15,9 +15,9 @@ ms.reviewer: kvivek
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-Form processing allows you to create and consume models that use machine learning technology to identify and extract key-value pairs and table data from form documents. 
+Form processing allows you to create and consume models that use machine learning technology to identify and extract key-value pairs and table data from form documents.
 
-[Train](train-model-ai-builder.md) your model and define what information needs to be retrieved from your form documents. You only need five form documents to get started. You can get results quickly, accurately and tailored to your specific content without the need for heavy manual intervention or extensive data science expertise.
+[Train](train-model-ai-builder.md) your model and define what information needs to be retrieved from your form documents. You only need five form documents to get started. You can get results quickly, accurately and tailored to your specific content without the need for a lot of manual intervention or extensive data science expertise.
 
 After your model is trained and [published](publish-model-ai-builder.md), you can consume it through the AI Builder [form processor control](form-processor-component-in-powerapps.md) available in PowerApps Canvas or through [Microsoft Flow](form-processing-model-in-flow.md).
 
