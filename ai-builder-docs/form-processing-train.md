@@ -17,14 +17,14 @@ ms.reviewer: kvivek
 
 After you create your form processing model, you can train, test, and publish it to make it available. 
 ## Train and validate your model
-1. Select **Next** to check your selected form fields. If everything looks good, Select **Train** to train your model. 
+1. Select **Next** to check your selected form fields. If everything looks good, select **Train** to train your model. 
 1. When training completes,  select **Go to Details page** in the **Training complete** screen.
 
 ## Quick test your model 
-The **Details** page allows you to test your model before you publish or consume it:
+The Details page allows you to test your model before you publish or consume it:
 
 1. On the Details page, select **Quick test**. 
-2. You can either drag and drop a document or select **Upload from my device** to upload your test file. The quick test should only take a few seconds before displaying the results. 
+2. You can either drag and drop a document, or select **Upload from my device** to upload your test file. The quick test should only take a few seconds before displaying the results. 
 3. You can select **Start over** to run another test or **Close** if you are finished.
 
 ## Publish your model
