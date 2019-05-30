@@ -15,5 +15,13 @@ ms.reviewer: kvivek
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-After you train and publish your model in AI Builder, you can use it in PowerApps. 
+Adding AI Builder features to your Canvas applications is possible through a set of AI Builder components available in the Canvas Studio.
 
+ ![Canvas studio screen](media/canvas-studio.png "Canvas studio screen")
+
+These components appear in the **Insert** tab when you build your Canvas app in PowerApps.
+
+There are 3 components  available:
+ - [Business card reader](business-card-reader-component-in-powerapps.md)
+ - [Form processor](form-processor-component-in-powerapps.md)
+ - [Object detector](object-detector-component-in-powerapps.md)

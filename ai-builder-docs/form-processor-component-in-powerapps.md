@@ -16,8 +16,9 @@ ms.reviewer: kvivek
 
 Create a canvas app and add the form processor AI Builder component to your screen. This component takes a photo or loads an image from the local device, and then processes it to extract text based on a trained AI model. If it detects a form that the AI model is trained for, the form processor extracts the field values, and identifies them with rectangles.
 
-> [!NOTE] 
->Support for PDF files is not included in the initial preview.
+ >[!NOTE] 
+ > - Display of PDF files is not included in the initial preview.
+ > - This component is not supported in Internet Explorer.
 
 ## Prerequisites
 This component requires a trained & published AI Builder form processing model. Then, that model must be bound to the component using the AI model property in the properties panel.

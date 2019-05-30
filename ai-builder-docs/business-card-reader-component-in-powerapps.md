@@ -15,6 +15,8 @@ ms.reviewer: kvivek
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
+ > [!NOTE]
+ > This component is not supported in Internet Explorer.
 
  
 The business card reader component takes a photo or loads an image from the local device, and then scans it to find a business card. If it detects a business card, it extracts the information it finds.
@@ -51,7 +53,9 @@ If a business card is detected, the business card reader will try to extract and
  - **X**: The distance between the left edge of the component and the left edge of its parent container (screen if no parent container).
  - **Y**: The distance between the top edge of the component and the top edge of the parent container (screen if no parent container).
 
-Additional design properties are available in the Advanced panel.
+Additional design properties are available in the **Advanced** panel.
+
+
 
 ## Accessibility guidelines
 These [guidelines](/powerapps/maker/canvas-apps/controls/control-button) for the PowerApps button control also apply to the form processor component.
