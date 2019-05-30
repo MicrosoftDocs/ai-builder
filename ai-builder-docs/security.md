@@ -1,6 +1,6 @@
 ---
 title: Security in AI Builder -  AI Builder | Microsoft Docs
-description: Provides security information for AI Builder.
+description: Describes security information related to roles, privileges, and access in AI Builder and the services it connects to. 
 author: Dean-Haas
 manager: kvivek
 ms.service: powerapps

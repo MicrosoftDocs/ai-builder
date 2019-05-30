@@ -1,6 +1,6 @@
 ---
 title: Overview of binary classification model -  AI Builder | Microsoft Docs
-description: Provides an overview of AI Builder.
+description: Describes the binary classification model in AI Builder, and gives some examples of how you might use it.
 author: Dean-Haas
 manager: kvivek
 ms.service: powerapps
