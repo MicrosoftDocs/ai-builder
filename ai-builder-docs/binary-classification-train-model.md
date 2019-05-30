@@ -1,5 +1,5 @@
 ---
-title: Train and publish your binary classification model | Microsoft Docs
+title: Train and publish your binary classification model -  AI Builder | Microsoft Docs
 description: Provides instructions to train your binary classification model.
 author: Dean-Haas
 manager: kvivek

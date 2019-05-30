@@ -1,5 +1,5 @@
 ---
-title:  Publish a model in AI Builder | Microsoft Docs
+title:  Publish a model in AI Builder -  AI Builder | Microsoft Docs
 description: Provides an overview of AI Builder.
 author: Dean-Haas
 manager: kvivek

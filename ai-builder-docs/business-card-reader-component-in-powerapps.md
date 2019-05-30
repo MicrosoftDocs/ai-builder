@@ -1,5 +1,5 @@
 ---
-title: Use the business card reader component in PowerApps | Microsoft Docs
+title: Use the business card reader component in PowerApps -  AI Builder | Microsoft Docs
 description: Provides information about how to use the business card reader component in PowerApps 
 author: Dean-Haas
 manager: kvivek

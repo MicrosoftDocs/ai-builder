@@ -1,5 +1,5 @@
 ---
-title: Binary classification model prerequisites | Microsoft Docs
+title: Binary classification model prerequisites -  AI Builder | Microsoft Docs
 description: Provides an overview of AI Builder.
 author: Dean-Haas
 manager: kvivek

@@ -1,5 +1,5 @@
 ---
-title: Train your text classification model | Microsoft Docs
+title: Train your text classification model -  AI Builder | Microsoft Docs
 description: Provides steps to train your text classification model
 author: Dean-Haas
 manager: kvivek

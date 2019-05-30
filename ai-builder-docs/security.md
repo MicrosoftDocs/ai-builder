@@ -1,5 +1,5 @@
 ---
-title: Security in AI Builder | Microsoft Docs
+title: Security in AI Builder -  AI Builder | Microsoft Docs
 description: Provides security information for AI Builder.
 author: Dean-Haas
 manager: kvivek

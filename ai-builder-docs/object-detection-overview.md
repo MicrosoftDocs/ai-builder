@@ -1,5 +1,5 @@
 ---
-title: Overview of object detection model | Microsoft Docs
+title: Overview of object detection model -  AI Builder | Microsoft Docs
 description: Provides an overview of object detection models in AI Builder.
 author: Dean-Haas
 manager: kvivek

@@ -1,5 +1,5 @@
 ---
-title: Overview of AI Builder in PowerApps | Microsoft Docs
+title: Overview of AI Builder in PowerApps -  AI Builder | Microsoft Docs
 description: Provides an overview of AI Builder in PowerApps.
 author: Dean-Haas
 manager: kvivek

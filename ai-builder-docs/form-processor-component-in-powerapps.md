@@ -1,5 +1,5 @@
 ---
-title: Use form processor component in PowerApps | Microsoft Docs
+title: Use form processor component in PowerApps -  AI Builder | Microsoft Docs
 description: Provides information about how to use Form processor component in PowerApps
 manager: kvivek
 ms.service: powerapps

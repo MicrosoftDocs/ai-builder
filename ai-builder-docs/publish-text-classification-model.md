@@ -1,5 +1,5 @@
 ---
-title: Publish your text classification model | Microsoft Docs
+title: Publish your text classification model -  AI Builder | Microsoft Docs
 description: Provides steps to publish your text classification model AI Builder.
 author: Dean-Haas
 manager: kvivek

@@ -1,5 +1,5 @@
 ---
-title: Build a model in AI Builder | Microsoft Docs
+title: Build a model in AI Builder -  AI Builder | Microsoft Docs
 description: Provides an overview building an AI model in AI Builder.
 author: Dean-Haas
 manager: kvivek

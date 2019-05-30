@@ -1,5 +1,5 @@
 ---
-title: Create a binary classification model | Microsoft Docs
+title: Create a binary classification model -  AI Builder | Microsoft Docs
 description: This topic lays out the steps you need to follow to to create a binary classification model in AI Builder. 
 author: Dean-Haas
 manager: kvivek

@@ -1,5 +1,5 @@
 ---
-title: Overview of binary classification model | Microsoft Docs
+title: Overview of binary classification model -  AI Builder | Microsoft Docs
 description: Provides an overview of AI Builder.
 author: Dean-Haas
 manager: kvivek
