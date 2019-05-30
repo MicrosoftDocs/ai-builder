@@ -20,7 +20,7 @@ Creating the optimal model for your business can be a rather iterative process. 
 ![Manage AI model screen](media/manage-model.png "Manage AI model screen")
 
 ## Evaluate your model
-After you train your model for the first time, you can evaluate its performance and quality on the **Details** page.
+After you train your model for the first time, you can evaluate its performance and quality on it's details page.
 
 Depending on your AI model type, a performance score may appear for each version you have trained. You can use this score to quickly compare two versions of the same model. However, the score is based on the configuration for that training. It is important to take into consideration any changes made between versions when comparing scores.
 
@@ -29,8 +29,8 @@ Each AI model type has a different explanation for how the score is calculated, 
 Some AI model types have the option to quickly test the results of your model version with real data of your choosing. Select **Quick test** to see your model in action.
 
 After you finish evaluating your newly trained model, you have two options:
-- **Publish your model**: For more information about when to publish a model, see When should I publish my model.
-- **Create a new version**: For more information about when to create a new version, see When should I create a new version.
+- **Publish your model**: For more information about when to publish a model, see [When should I publish my model](publish-model-ai-builder.md#when-should-i-publish-my-model).
+- **Create a new version**: For more information about when to create a new version, see [When should I create a new version](#when-should-i-create-a-new-version).
 
 ## Edit model name
 1. At the top of the page, select **Settings**.

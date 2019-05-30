@@ -15,7 +15,7 @@ ms.reviewer: kvivek
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-In AI Builder, you are guided through each step of the process.
+In AI Builder, we guide you through each step to create your AI model.
 
 ![Build a model screen](media/build-model.png "Build a model screen")
 

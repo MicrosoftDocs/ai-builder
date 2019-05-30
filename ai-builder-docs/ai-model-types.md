@@ -15,8 +15,9 @@ ms.reviewer: kvivek
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-Build a model based on an AI model type for a specific scenario, such as recognizing your products on an image, and then train and publish the model for use in your business. 
-To build a model using AI Builder, sign in to PowerApps (<https://web.powerapps.com>), from the left navigation bar, select **AI Builder (preview)** > **Build**, and then choose the model type that matches what you want to do.
+In AI Builder, AI is based on model types that you choose from, based your business needs. For example, build an object detection model that recognizes your products in an image, or a binary classification model that predicts business outcomes based on patterns the AI learns from your historical data.  Train and publish the model, and it's ready for use in your business.
+
+To build a model using AI Builder, sign in to [PowerApps](https://web.powerapps.com), and in the the left navigation pane, select **AI Builder (preview)** > **Build**. Select the model type that matches what you want to do, and you are ready to get started.
 
 ![AI Builder home page](media/ai-builder-home.png "AI Builder home page")
 
