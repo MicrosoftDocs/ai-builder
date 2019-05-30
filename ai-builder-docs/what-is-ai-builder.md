@@ -33,7 +33,7 @@ We  cover each of these steps in the individual AI model type sections.
 
 
 ### Next step
-[AI model types](ai-model-types.md) 
+[AI model types](model-types.md) 
 
 ## Related topics
 [AI Builder Release Notes](/power-platform-release-notes/october19/ai-builder)<br/>
