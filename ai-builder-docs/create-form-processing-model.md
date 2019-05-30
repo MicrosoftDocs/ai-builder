@@ -25,7 +25,7 @@ When  you create your form processing model, you’ll need to do the following:
 ## Upload and analyze documents
 You need to provide sample documents to train your model for the type of form from which you want to extract information. After you upload your documents, AI Builder analyzes them so you can tell whether you can train a model from them.
 ### Upload your documents
-1. Sign in to [PowerApps](http://web.powerapps.com), and then in the navigation pane, select **AI Builder (preview)** > **Build**. Then, select the Form processing AI model type.
+1. Sign in to [PowerApps](https://web.powerapps.com), and then in the navigation pane, select **AI Builder (preview)** > **Build**. Then, select the Form processing AI model type.
 2. Enter a name for your model then select **Create**. 
 3. Select **Add documents**, select a minimum of 5 documents, and then select **Upload**.
 

@@ -35,7 +35,7 @@ In this example, if your model gets a score of 59, it means the model performanc
 > [!NOTE]
 > These evaluations are rough guidelines. It is possible that, depending on the data you work with, you could have a lower score that performs well, or a higher score that performs less well.
 
-For more information, go to the [Evaluate your model](manage-model-ai-builder.md#evaluate-your-model) section
+For more information, go to the [Evaluate your model](manage-model.md#evaluate-your-model) section
 
 ### Next steps
 

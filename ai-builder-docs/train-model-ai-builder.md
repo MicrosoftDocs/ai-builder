@@ -26,11 +26,11 @@ When you create a model in AI Builder, you configure it based on the needs of yo
 > [!NOTE]
 > Training takes time, so you can stay on the page and wait, or you can close the page and come back later.  
 
-After you train your model for the first time, you have access to a details page where you can [manage your model](manage-model-ai-builder.md) and, depending on your AI model type, view your model’s performance results.
+After you train your model for the first time, you have access to a details page where you can [manage your model](manage-model.md) and, depending on your AI model type, view your model’s performance results.
 
 On the details page, training results appear under the **Last trained version** section.
 
 ### Next steps
-- Learn how to [manage your model](manage-model-ai-builder.md) to get the best results.
+- Learn how to [manage your model](manage-model.md) to get the best results.
 - Learn how and when to [publish your model](publish-model-ai-builder.md).
 

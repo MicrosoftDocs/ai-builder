@@ -11,7 +11,7 @@ ms.author: v-dehaas
 ms.reviewer: kvivek
 ---
 
-# Overview
+# AI Builder in Microsoft Flow overview
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -20,7 +20,7 @@ Microsoft Flow is a service that helps you create automated workflows between yo
 During AI Builder public preview we welcome you to use your trained and published AI models in Flow.
 
 ### Next steps
-[Prerequisites](ai-builder-in-flow-prereq.md)
+[Prerequisites](use-in-flow-prereq.md)
 
 ### Related topics
-[AI Builder in PowerApps](ai-builder-in-powerapps-overview.md)
+[AI Builder in PowerApps](use-in-powerapps-overview.md)

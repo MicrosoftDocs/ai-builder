@@ -29,7 +29,7 @@ After you publish your last trained version, it appears as the published version
 > - If you have a published version and a last trained version, you will lose the published version when you unpublish because the last trained version is more recent.
 
 ## When should I publish my model?
-Publish your model when you want to make it available to users in your PowerApps environment. If you are not satisfied with your model, you can create a new version to try to yield better results. For information about how to create a new version, go to the [Manage a model in AI Builder](manage-model-ai-builder.md) section. 
+Publish your model when you want to make it available to users in your PowerApps environment. If you are not satisfied with your model, you can create a new version to try to yield better results. For information about how to create a new version, go to the [Manage a model in AI Builder](manage-model.md) section. 
 
 If you are satisfied with your model, you can publish it to make it available. Similarly, as you can only have up to two trained versions available at a time, you can publish a version if you do not want it to be overwritten by a new version.
 
@@ -37,5 +37,5 @@ If you are satisfied with your model, you can publish it to make it available. S
 > For more information on using your published model, view the **Tips** section under the **Published version**.
 
 ### Related topics
-[Use AI Builder in Flow](ai-builder-in-flow-overview.md)
-[Use AI Builder in PowerApps](ai-builder-in-powerapps-overview.md)
+[Use AI Builder in Flow](use-in-flow-overview.md)
+[Use AI Builder in PowerApps](use-in-powerapps-overview.md)
