@@ -29,7 +29,7 @@ The Details page allows you to test your model before you publish or consume it:
 
 ## Publish your model
 
-If you’re happy with your model, you can select **Publish**  to publish it. When publishing completes, your model is promoted as **Published** and your model is ready to be consumed. For more information about publishing your model, go to [Publish your model](publish-model-ai-builder.md) section.
+If you’re happy with your model, you can select **Publish**  to publish it. When publishing completes, your model is promoted as **Published** and your model is ready to be consumed. For more information about publishing your model, go to [Publish your model](publish-model.md) section.
 
 After you’ve published your form processing model, you can use it in a canvas app or in MSFlow.
 

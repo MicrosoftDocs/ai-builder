@@ -33,5 +33,5 @@ To get started:
 4.	Type a model name and select **Create**.
 
 ### Next steps
-[Train a model in AI Builder](train-model-ai-builder.md) 
+[Train a model in AI Builder](train-model.md) 
 

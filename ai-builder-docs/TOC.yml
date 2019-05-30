@@ -11,11 +11,11 @@
   - name: Build a model
     href: build-model.md
   - name: Train a model in AI Builder
-    href: train-model-ai-builder.md
+    href: train-model.md
   - name: Manage a model in AI Builder
     href: manage-model.md
   - name: Publish a model in AI Builder
-    href: publish-model-ai-builder.md
+    href: publish-model.md
 - name: Binary classification AI model
   items:
   - name: Overview 
@@ -103,5 +103,5 @@
   - name: Administer AI Builder
     href: administer.md
   - name: Security in AI Builder
-    href: security-ai-builder.md
+    href: security.md
     
