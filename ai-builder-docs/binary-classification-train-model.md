@@ -1,6 +1,6 @@
 ---
-title: Train and publish your binary classification model | Microsoft Docs
-description: Provides instructions to train your binary classification model.
+title: Train and publish your binary classification model -  AI Builder | Microsoft Docs
+description: Walks you through the steps needed to train your binary classification model, and leads you to the next steps. 
 author: Dean-Haas
 manager: kvivek
 ms.service: powerapps
@@ -20,4 +20,4 @@ After you've selected your data fields, select **Next** to view a summary of  tr
 > [!NOTE]
 > Training takes time, so you can stay on the page and wait, or you can close the page and come back later.  
 
-After the model is trained, you’ll be able to [evaluate](manage-model-ai-builder.md#evaluate-your-model) your model performance results. Then, [publish](publish-model-ai-builder.md) your model, and you're good to go!
+After the model is trained, you’ll be able to [evaluate](manage-model.md#evaluate-your-model) your model performance results. Then, [publish](publish-model.md) your model, and you're good to go!

@@ -1,5 +1,5 @@
 ---
-title: Create a form processing model | Microsoft Docs
+title: Create a form processing model -  AI Builder | Microsoft Docs
 description: Provides steps to create a form processing model in Builder.
 author: Dean-Haas
 manager: kvivek
@@ -23,9 +23,9 @@ When  you create your form processing model, you’ll need to do the following:
 
 
 ## Upload and analyze documents
-You need to provide sample documents to train your model for the type of documents from which you want to extract information. After you upload your documents, AI Builder analyzes them so you can tell whether you can train a model from them.
+You need to provide sample documents to train your model for the type of form from which you want to extract information. After you upload your documents, AI Builder analyzes them so you can tell whether you can train a model from them.
 ### Upload your documents
-1. Sign in to [PowerApps](http://web.powerapps.com), and then in the navigation pane, select **AI Builder (preview)** > **Build**. Then, select the Form processing AI model type.
+1. Sign in to [PowerApps](https://web.powerapps.com), and then in the navigation pane, select **AI Builder (preview)** > **Build**. Then, select the Form processing AI model type.
 2. Enter a name for your model then select **Create**. 
 3. Select **Add documents**, select a minimum of 5 documents, and then select **Upload**.
 
@@ -42,8 +42,12 @@ If the analysis was successful, it means we’ve detected structured text in you
 
  
 ## Select your form fields
-To select the fields,  you can hover over a rectangle that indicates a detected field in the document, or select them in the right-side pane.
-When you hover over a detected field, the following information appears:
+To start, choose the fields that matter to you:
+ 1. Select the detected template card: **\<*Your project name*> template**.
+ 1. To select the fields, hover over a rectangle that indicates a detected field in the document, or select them in the right-side pane.
+ 1. Select the **Edit** button next to the selected field if you want to rename fields to align with your needs or normalize the extracted labels.
+
+    When you hover over a detected field, the following information appears:
 - **Field name**: The name of the label for the detected field.
 - **Field value**: The value for the detected field.
 - **Confidence level**: Confidence score of retrieving this field compared to the trained model.

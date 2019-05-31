@@ -1,5 +1,5 @@
 ---
-title: AI model types | Microsoft Docs
+title: AI model types -  AI Builder | Microsoft Docs
 description: Describes the AI model types that are available in AI Builder.
 author: Dean-Haas
 manager: kvivek

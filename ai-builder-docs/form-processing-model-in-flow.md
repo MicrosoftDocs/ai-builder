@@ -1,5 +1,5 @@
 ---
-title: Use form processing model in Microsoft Flow | Microsoft Docs
+title: Use form processing model in Microsoft Flow -  AI Builder | Microsoft Docs
 description: Provides information about how to use a form processing model in Microsoft Flow
 author: Dean-Haas
 manager: kvivek
@@ -17,14 +17,14 @@ ms.reviewer: kvivek
 
 ## Create your flow
 1. Sign in to [Microsoft Flow](https://flow.microsoft.com/), select the **My flows** tab, and then select **Create from blank**.
-2. Search for **manually**, select **Manually trigger a flow** in the list of triggers, and then select **+Add an input**.
+2. Search for *manually*, select **Manually trigger a flow** in the list of triggers, and then select **+Add an input**.
 5. Select **File** and set **My Document** as input title. 
 4. Select **+ New step**, search for **Predict**, and then select **Predict Common Data Service** in the list of actions.
 8. Select the form processing model you want to use, and specify the following as **Request Payload**:
-
+    
     -	For a a jpeg image of the form:
 
-        ```
+        ```json
         {
             "base64Encoded": "EXPRESSION",
     	    "mimeType": "image/jpeg"
@@ -33,10 +33,12 @@ ms.reviewer: kvivek
 
     - 	For a a pdf document of the form:
 
-        {
-            "base64Encoded": "EXPRESSION",
-    	"mimeType": "application/pdf"
+          ```json
+         {
+             "base64Encoded": "EXPRESSION",
+    	    "mimeType": "application/pdf"
         }
+           ```
 
     - In the formula bar on the right, replace **EXPRESSION** with the following expression string:
 
@@ -63,16 +65,17 @@ Now you can use the output of the form processing model in subsequent actions in
 
 For example to retreive the value of a field named *Total* you would use the following expression:  
 
+   ```json
         body('Parse_JSON')?['predictionOutput']?['labels']?['Total']?['value']
+```
 
 To iterate over tables, put the entries value on an *Apply to each*' loop. To access the value of a column named *Amount* for instance inside the table, use the expression: 
-
+    
+```json
         items('Apply_to_each')?['Amount']?['value'] 
 
-
- Congratulations! You have created a flow that leverages a form processing AI Builder model. Select **Save** on the top right, and then select **Test** to try out your flow. 
-
-
+```
+ Congratulations! You have created a flow that leverages an AI Builder form processing model. Select **Save** on the top right, and then select **Test** to try out your flow. 
 
 ### Related topics
 [Form processing model overview](form-processing-model-overview.md)

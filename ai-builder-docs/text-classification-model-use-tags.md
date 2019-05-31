@@ -1,5 +1,5 @@
 ---
-title: Use generated tags | Microsoft Docs
+title: Use generated tags -  AI Builder | Microsoft Docs
 description: Provides steps to use text classification model generated tags
 author: Dean-Haas
 manager: kvivek

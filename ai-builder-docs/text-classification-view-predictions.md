@@ -1,5 +1,5 @@
 ---
-title: View generated predictions | Microsoft Docs
+title: View generated predictions -  AI Builder | Microsoft Docs
 description: Provides steps to view text classification predictions AI Builder.
 author: Dean-Haas
 manager: kvivek

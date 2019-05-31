@@ -1,6 +1,6 @@
 ---
 title: Share your experience| Microsoft Docs
-description: Shows where you can read and contribute to AI Builder forums
+description: Provides information about Microsoft forums where you can read and contribute to discussions about AI Builder 
 author: Dean-Haas
 manager: kvivek
 ms.service: powerapps

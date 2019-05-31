@@ -1,5 +1,5 @@
 ---
-title: Requirements and limitations | Microsoft Docs
+title: Requirements and limitations -  AI Builder | Microsoft Docs
 description: Describes the requirements and limitations form processing models in AI Builder.
 author: Dean-Haas
 manager: kvivek
@@ -25,16 +25,11 @@ Form processing works on input documents that meet the following requirements:
 -	Must contain keys and values (e.g.: “company: Contoso” works, “Contoso” without a key label is not supported). 
 -	Keys can appear above or to the left of the values, but not below or to the right.
 
-Additionally, form processing does not yet support the following types of input data:
--	Complex tables (nested tables, merged headers or cells, and so on)
--	Checkboxes or radio buttons
--	PDF documents longer than 50 pages
-
-
-
+ > [!NOTE] 
+ > AI Builder does not currently support the following types of form processing input data:
+ > -	Complex tables (nested tables, merged headers or cells, and so on)
+ > -	Checkboxes or radio buttons
+ > -	PDF documents longer than 50 pages
 
 ### Next steps
 [Create a form processing model](create-form-processing-model.md)
-
-
-

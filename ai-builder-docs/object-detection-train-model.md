@@ -1,5 +1,5 @@
 ---
-title: Train and publish your object detection model | Microsoft Docs
+title: Train and publish your object detection model -  AI Builder | Microsoft Docs
 description: Provides steps to train and publish your object detection model in AI Builder.
 author: Dean-Haas
 manager: kvivek
@@ -21,7 +21,7 @@ In this section, you’ll learn how to verify your data, and then how to train, 
 
 ## Quick test your model 
 
-Once your model is trained, you can see it in action from its details page, which you can learn more about [here](manage-model-ai-builder.md).
+Once your model is trained, you can see it in action from its details page, which you can learn more about [here](manage-model.md).
 1. From your model details page, select **Quick Test** button in the **Last trained version** section. 
 2. Drag and drop or upload an image which contains your objects to test your model.
 3. Your model will be applied to the image you uploaded. This step might take a little while.
@@ -40,8 +40,8 @@ Model performance scores are more reliable when the number of images per label i
 
 ## Publish your object detection model
 
-From there, you can run more tests with other pictures. If you are happy with the results you are getting, you can [publish](publish-model-ai-builder.md) your model to use it in a Powerapps or Microsoft Flow.
+From there, you can run more tests with other pictures. If you are happy with the results you are getting, you can [publish](publish-model.md) your model to use it in a Powerapps or Microsoft Flow.
 
 
 ### Related topics
-[Manage your AI model](manage-model-ai-builder.md)
+[Manage your AI model](manage-model.md)

@@ -1,5 +1,5 @@
 ---
-title: Understand text classification model performance | Microsoft Docs
+title: Understand text classification model performance -  AI Builder | Microsoft Docs
 description: Gives an overview of text classification model performance
 author: Dean-Haas
 manager: kvivek
@@ -39,7 +39,7 @@ In this example, if your model gets a score of 59, it means the model performanc
 You can also select the **Quick Test** button and enter a text you want to tag to assess the quality of the model. The quick test generates a list of tags, each with a confidence score.
 
 
-For more information, go to the [Evaluate your model](manage-model-ai-builder.md#evaluate-your-model) section
+For more information, go to the [Evaluate your model](manage-model.md#evaluate-your-model) section
 
 ### Next steps
 [Improve model performance](improve-text-classification-performance.md) 

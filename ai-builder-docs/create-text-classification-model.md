@@ -1,5 +1,5 @@
 ---
-title: Create a text classification model | Microsoft Docs
+title: Create a text classification model -  AI Builder | Microsoft Docs
 description: Provides steps to create a text classification model
 author: Dean-Haas
 manager: kvivek

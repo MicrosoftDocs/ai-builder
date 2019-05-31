@@ -1,5 +1,5 @@
 ---
-title: AI Builder in Microsoft Flow prerequisites | Microsoft Docs
+title: AI Builder in Microsoft Flow prerequisites -  AI Builder | Microsoft Docs
 description: Describes the prerequisites for using AI Builder in Microsoft Flow.
 author: Dean-Haas
 manager: kvivek

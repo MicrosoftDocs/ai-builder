@@ -1,5 +1,5 @@
 ---
-title: What is AI Builder? | Microsoft Docs
+title: What is AI Builder? -  AI Builder | Microsoft Docs
 description: Provides an overview of AI Builder.
 author: Dean-Haas
 manager: kvivek
@@ -20,7 +20,7 @@ AI Builder is a new Power Platform capability that allows you to easily automate
  > [!IMPORTANT]
  > - AI Builder is a preview feature.
  > - [!INCLUDE[cc_preview_features_definition](./includes/cc-preview-features-definition.md)]
- > - AI Builder is enabled by default in your environment if your environment is eligible for the feature. Administrators can control the feature availability for their environment using the Power Platform Admin Center. More information: [Enable or disable AI Builder feature](administer-ai-builder.md#enable-or-disable-ai-builder-feature).
+ > - AI Builder is enabled by default in your environment if your environment is eligible for the feature. Administrators can control the feature availability for their environment using the Power Platform Admin Center. More information: [Enable or disable AI Builder feature](administer.md#enable-or-disable-ai-builder-feature).
 
 Using AI is easy thanks to integration with PowerApps and Microsoft Flow. Adding intelligence to your business is as simple as this: 
 1. **Choose AI model type**: Use the model type that suits your business need. Choose from a growing set of AI turnkey solutions.
@@ -33,7 +33,7 @@ We  cover each of these steps in the individual AI model type sections.
 
 
 ### Next step
-[AI model types](ai-model-types.md) 
+[AI model types](model-types.md) 
 
 ## Related topics
 [AI Builder Release Notes](/power-platform-release-notes/october19/ai-builder)<br/>

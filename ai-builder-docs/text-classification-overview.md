@@ -1,6 +1,6 @@
 ---
 title: Overview of text classification model| Microsoft Docs
-description: Provides an overview of the text classification AI model in AI Builder
+description: Provides information about text classification models, and showgives an overview of how to build and use text classification models in AI Builder. 
 author: Dean-Haas
 manager: kvivek
 ms.service: powerapps

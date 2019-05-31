@@ -1,5 +1,5 @@
 ---
-title: Use object detection model in Microsoft Flow | Microsoft Docs
+title: Use object detection model in Microsoft Flow -  AI Builder | Microsoft Docs
 description: Provides information about how to use an object detection model in Microsoft Flow
 author: Dean-Haas
 manager: kvivek

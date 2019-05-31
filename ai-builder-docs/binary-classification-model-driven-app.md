@@ -1,6 +1,6 @@
 ---
-title: Use your binary classification model in a model-driven app | Microsoft Docs
-description: Provides steps tp use your binary classification model in a model driven app.
+title: Use your binary classification model in a model-driven app -  AI Builder | Microsoft Docs
+description: walks you through the instructions on how to use your binary classification model in a model driven app.
 author: Dean-Haas
 manager: kvivek
 ms.service: powerapps

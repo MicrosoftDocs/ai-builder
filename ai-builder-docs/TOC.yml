@@ -3,7 +3,7 @@
   - name: What is AI Builder?
     href: what-is-ai-builder.md
   - name: AI model types
-    href: ai-model-types.md
+    href: model-types.md
   - name: Share your experience 
     href: share-your-experience.md
 - name: AI Models
@@ -11,11 +11,11 @@
   - name: Build a model
     href: build-model.md
   - name: Train a model in AI Builder
-    href: train-model-ai-builder.md
+    href: train-model.md
   - name: Manage a model in AI Builder
-    href: manage-model-ai-builder.md
+    href: manage-model.md
   - name: Publish a model in AI Builder
-    href: publish-model-ai-builder.md
+    href: publish-model.md
 - name: Binary classification AI model
   items:
   - name: Overview 
@@ -79,9 +79,9 @@
 - name: Use AI Builder in Microsoft Flow
   items:
   - name: Overview
-    href: ai-builder-in-flow-overview.md
+    href: use-in-flow-overview.md
   - name: Prerequisites
-    href: ai-builder-in-flow-prereq.md
+    href: use-in-flow-prereq.md
   - name: Use a text classification model in Microsoft Flow
     href: text-classification-model-in-flow.md
   - name: Use a form processing model in Microsoft Flow
@@ -91,7 +91,7 @@
 - name: Use AI Builder in PowerApps
   items:
   - name: Overview
-    href: ai-builder-in-powerapps-overview.md
+    href: use-in-powerapps-overview.md
   - name: Use the form processor component in PowerApps
     href: form-processor-component-in-powerapps.md
   - name: Use the object detector component in PowerApps
@@ -101,7 +101,7 @@
 - name: Administration and security
   items:
   - name: Administer AI Builder
-    href: administer-ai-builder.md
+    href: administer.md
   - name: Security in AI Builder
-    href: security-ai-builder.md
+    href: security.md
     

@@ -1,6 +1,6 @@
 ---
 title: Understand the training report| Microsoft Docs
-description: Describes the binary classification model training report
+description: Describes the errors and warning messages that are contained in the binary classification model training report
 author: Dean-Haas
 manager: kvivek
 ms.service: powerapps

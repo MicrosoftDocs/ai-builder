@@ -1,5 +1,5 @@
 ---
-title: Use text classification model in Microsoft Flow | Microsoft Docs
+title: Use text classification model in Microsoft Flow -  AI Builder | Microsoft Docs
 description: Provides information about how to use a text classification model in Microsoft Flow.
 author: Dean-Haas
 manager: kvivek
@@ -16,7 +16,7 @@ ms.reviewer: kvivek
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
 1.	Sign in to [Microsoft Flow](https://flow.microsoft.com/), select the **My flows** tab, and then select **Create from blank**.
-2.	Search for **manually**, select **Manually trigger a flow** in the list of triggers, and then select **+Add an input**.
+2.	Search for *manually*, select **Manually trigger a flow** in the list of triggers, and then select **+Add an input**.
 3.	Select **Text** and set as input title: **My Text**.
 4.	Select **+ New step**, search for **Predict**, and then select **Predict Common Data Service** in the list of actions.
 5.	Select the text classification model you want to use, and in the **Request Payload** field, enter **{“text”:”My Text”}**. Add the **My Text** field from the trigger: 
