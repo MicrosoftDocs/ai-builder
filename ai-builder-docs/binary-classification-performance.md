@@ -1,6 +1,6 @@
 ---
 title: Understand binary classification model performance -  AI Builder | Microsoft Docs
-description: Provides information to help you better understand binary classification model performance.
+description: Provides information to help you better understand binary classification model performance, and how performance scores are calculated
 author: Dean-Haas
 manager: kvivek
 ms.service: powerapps
@@ -15,9 +15,12 @@ ms.reviewer: kvivek
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-After each training, AI Builder uses the test data set to evaluate the quality and accuracy of the new model. A summary page for your model shows your model training result, including a **Performance** score .  
+After each training, AI Builder uses the test data set to evaluate the quality and accuracy of the new model. A summary page for your model shows your model training result, including a **Performance** score.  
+
+## Performance score calculations
 
 AI Builder calculates the performance score for your model based on the precision and recall of the prediction results:
+
 - **Performance score**: This is the harmonic mean of precision and recall. It balances both for an imbalanced class distribution. Performance score values are between 0 - 100. Generally, the higher the performance score, the better your model performs. 
 - **Precision**: The fraction of correct predictions among all the positive predictions.
 - **Recall**: The fraction of correct predictions among all true positive cases.

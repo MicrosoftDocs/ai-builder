@@ -1,6 +1,6 @@
 ---
 title: Test your form-processing model -  AI Builder | Microsoft Docs
-description: Provides steps to test your form-processing model in AI Builder.
+description: Walks you through the steps to train, validate, and test your form-processing model in AI Builder.
 author: Dean-Haas
 manager: kvivek
 ms.service: powerapps
@@ -15,12 +15,15 @@ ms.reviewer: kvivek
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-After you create your form processing model, you can train, test, and publish it to make it available. 
+After you create your form processing model, you can train, test, and publish it to make it available.
+
 ## Train and validate your model
+
 1. Select **Next** to check your selected form fields. If everything looks good, select **Train** to train your model. 
 1. When training completes,  select **Go to Details page** in the **Training complete** screen.
 
 ## Quick test your model 
+
 The Details page allows you to test your model before you publish or consume it:
 
 1. On the Details page, select **Quick test**. 
