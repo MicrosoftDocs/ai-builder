@@ -26,11 +26,8 @@ Using AI is easy thanks to integration with PowerApps and Microsoft Flow. Adding
 1. **Choose AI model type**: Use the model type that suits your business need. Choose from a growing set of AI turnkey solutions.
 1. **Connect data**: Select your business-specific data from Common Data Service. AI Builder does the hard work for you thanks to Common Data Model. 
 1. **Tailor your AI model**: Filter your data, set scheduling, and tweak the AI model to optimize how your AI performs.
-1. **Train your AI model**: Training is an automatic process where AI Builder “teaches” your AI model how to resolve your business problem (e.g.: recognize your products on an image), thanks to your business data and tailoring. When trained, your AI model can generate insights, such as the result of a prediction or the list and count of objects detected in an image. 
+1. **Train your AI model**: Training is an automatic process where AI Builder “teaches” your AI model how to resolve your business problem (for example, recognize your products on an image) thanks to your business data and tailoring. When trained, your AI model can generate insights, such as the result of a prediction or the list and count of objects detected in an image. 
 1. **Use your AI model’s insights**: Use the results from your AI model across Power Platform to create end-to-end solutions that meet your business needs, even if you have no coding skills.  For example, create a flow that automates document processing in Microsoft Flow, or a PowerApp that predicts whether a supplier will be out of compliance.
-
-We  cover each of these steps in the individual AI model type sections.
-
 
 ### Next step
 [AI model types](model-types.md) 
