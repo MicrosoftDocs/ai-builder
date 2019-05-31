@@ -1,6 +1,6 @@
 ---
 title: Train a model in AI Builder| Microsoft Docs
-description: Explains how to train a model
+description: Provides an overview of what it means to train your AI model, and provides steps to do so
 author: Dean-Haas
 manager: kvivek
 ms.service: powerapps
@@ -18,7 +18,8 @@ ms.reviewer: kvivek
 
 Before you can use your AI model, you have to train it to perform the way you want. After you train your model,  [publish it](publish-model.md) to make it available to other people.
 
-## Train model
+## Train your model
+
 When you create a model in AI Builder, you configure it based on the needs of your business. Each time you save changes to your model in AI Builder, AI Builder saves your progress as a draft. After you finish making changes, you confirm the settings with which you want to train your model, and then select **Train** to begin training.
 
 ![Train your model screen](media/train-model.png "Train your model screen")
@@ -31,6 +32,6 @@ After you train your model for the first time, you have access to a details page
 On the details page, training results appear under the **Last trained version** section.
 
 ### Next steps
+
 - Learn how to [manage your model](manage-model.md) to get the best results.
 - Learn how and when to [publish your model](publish-model.md).
-

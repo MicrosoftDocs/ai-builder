@@ -1,6 +1,6 @@
 ---
 title: Train your text classification model -  AI Builder | Microsoft Docs
-description: Provides steps to train your text classification model
+description: Provides step by step instructions about how to train your text classification model
 author: Dean-Haas
 manager: kvivek
 ms.service: powerapps
@@ -21,5 +21,5 @@ You can also train a new version of your model.  Select **New version > From pub
 
 
 ### Next steps
-[Understand text classification model performance](text-classification-performance.md) 
 
+[Understand text classification model performance](text-classification-performance.md) 
