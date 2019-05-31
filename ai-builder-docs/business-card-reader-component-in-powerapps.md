@@ -67,5 +67,4 @@ These [guidelines](/powerapps/maker/canvas-apps/controls/control-button) for the
 
 
 ### Related topics
-[AI Builder Release Notes](/power-platform-release-notes/october19/ai-builder)<br/>
 [Core properties in PowerApps](/powerapps/maker/canvas-apps/controls/properties-core)
