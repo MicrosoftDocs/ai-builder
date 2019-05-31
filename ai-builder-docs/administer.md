@@ -63,6 +63,4 @@ This replaces your last trained version. Now, publish this version.
 
 Perform these steps on each of your AI Builder models to get your AI models up and running again.
 
-### Related topic
-[AI Builder Release Notes](/power-platform-release-notes/october19/ai-builder)<br/>
 
