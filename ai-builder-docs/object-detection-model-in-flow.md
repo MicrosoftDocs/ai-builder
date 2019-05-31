@@ -24,18 +24,16 @@ ms.reviewer: kvivek
 
 8. Select the object detection model you want to use, and specify the following as **Request Payload**: 
 
-    ```
+    ```json
     {
-    "base64Encoded": "EXPRESSION",
-    "mimeType": "image/jpeg"
+        "base64Encoded": "EXPRESSION",
+        "mimeType": "image/jpeg"
     }
     ```
 
-    Replace **EXPRESSION** with the following expression string:
+    Replace **EXPRESSION** with the following expression string on the formula bar on the right as shown in the illustration:
 
-    ```
-    triggerBody()?['file']?['contentBytes']) on the formula bar on the right as shown on the illustration.
-    ```
+    `triggerBody()?['file']?['contentBytes'])`
 
 5. Select **+ New step**, search for *Parse JSON*, and then select **Parse JSON – Data Operations** from the lists of actions.
 
@@ -45,58 +43,59 @@ ms.reviewer: kvivek
     ![Select response payload](media/response-payload.png)
  
 12. Copy and paste the following JSON code into the **Schema** box: 
-```JSON
-{
-    "type": "object",
-    "properties": {
-        "predictionOutput": {
-            "type": "object",
-            "properties": {
-                "results": {
-                    "type": "array",
-                    "items": {
-                        "type": "object",
-                        "properties": {
-                            "tagId": {
-                                "type": "string"
-                            },
-                            "boundingBox": {
-                                "type": "object",
-                                "properties": {
-                                    "left": {
-                                        "type": "number"
-                                    },
-                                    "top": {
-                                        "type": "number"
-                                    },
-                                    "width": {
-                                        "type": "number"
-                                    },
-                                    "height": {
-                                        "type": "number"
+
+    ```JSON
+    {
+        "type": "object",
+        "properties": {
+            "predictionOutput": {
+                "type": "object",
+                "properties": {
+                    "results": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "tagId": {
+                                    "type": "string"
+                                },
+                                "boundingBox": {
+                                    "type": "object",
+                                    "properties": {
+                                        "left": {
+                                            "type": "number"
+                                        },
+                                        "top": {
+                                            "type": "number"
+                                        },
+                                        "width": {
+                                            "type": "number"
+                                        },
+                                        "height": {
+                                            "type": "number"
+                                        }
                                     }
+                                },
+                                "confidence": {
+                                    "type": "number"
                                 }
                             },
-                            "confidence": {
-                                "type": "number"
-                            }
-                        },
-                        "required": [
-                            "tagId",
-                            "boundingBox",
-                            "confidence"
-                        ]
+                            "required": [
+                                "tagId",
+                                "boundingBox",
+                                "confidence"
+                            ]
+                        }
                     }
                 }
-            }
-        },
-        "operationStatus": {
-            "type": "string"
-        },
-        "error": {}
+            },
+            "operationStatus": {
+                "type": "string"
+            },
+            "error": {}
+        }
     }
-}
-```
+    ```
  
 ![Schema box](media/schema.png "Schema box")
 
@@ -116,9 +115,6 @@ The following example shows the creation of a flow that counts the number of gre
 
 To learn more about all the rich offer of triggers and actions that you can use, go to the [Microsoft Flow documentation](/flow/getting-started)
  
-
-
-
 
 ### Related topics
 [Object detection overview](object-detection-overview.md)
