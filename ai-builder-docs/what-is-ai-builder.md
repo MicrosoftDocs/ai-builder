@@ -36,6 +36,6 @@ We  cover each of these steps in the individual AI model type sections.
 [AI model types](model-types.md) 
 
 ## Related topics
-[AI Builder Release Notes](/power-platform-release-notes/october19/ai-builder)<br/>
+[AI Builder Release Plan](/power-platform-release-plan/2019wave2/ai-builder)<br/>
 [PowerApps docs](https://docs.microsoft.com/powerapps/)<br/>
 [Microsoft Flow docs](https://docs.microsoft.com/flow/getting-started)
