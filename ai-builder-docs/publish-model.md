@@ -37,5 +37,6 @@ If you are satisfied with your model, you can publish it to make it available. S
 > For more information on using your published model, view the **Tips** section under the **Published version**.
 
 ### Related topics
-[Use AI Builder in Flow](use-in-flow-overview.md)
+
+[Use AI Builder in Flow](use-in-flow-overview.md) <br>
 [Use AI Builder in PowerApps](use-in-powerapps-overview.md)
