@@ -1,6 +1,6 @@
 ---
 title: Understand text classification model performance -  AI Builder | Microsoft Docs
-description: Gives an overview of text classification model performance
+description: Provides an understanding of how to evaluate and understand text classification model performance
 author: Dean-Haas
 manager: kvivek
 ms.service: powerapps
@@ -18,6 +18,7 @@ ms.reviewer: kvivek
 After each training, AI Builder uses the test data set to evaluate the quality and accuracy of the new model. A summary page for your model shows your model training result, including a **Performance** score .  
 
 AI Builder calculates the performance score for your model based on the precision and recall of the prediction results:
+
 - **Performance score**: This is the harmonic mean of precision and recall. It balances both for an imbalanced class distribution. Performance score values are between 0 - 100. Generally, the higher the performance score, the better your model performs. 
 - **Precision**: The fraction of correct predictions among all the positive predictions.
 - **Recall**: The fraction of correct predictions among all true positive cases.
@@ -36,10 +37,11 @@ In this example, if your model gets a score of 59, it means the model performanc
 > These evaluations are rough guidelines. It is possible that, depending on the data you work with, you could have a lower score that performs well, or a higher score that performs less well.
 
 ## Quick Test
-You can also select the **Quick Test** button and enter a text you want to tag to assess the quality of the model. The quick test generates a list of tags, each with a confidence score.
 
+You can also select the **Quick Test** button and enter a text you want to tag to assess the quality of the model. The quick test generates a list of tags, each with a confidence score.
 
 For more information, go to the [Evaluate your model](manage-model.md#evaluate-your-model) section
 
 ### Next steps
+
 [Improve model performance](improve-text-classification-performance.md) 

@@ -22,6 +22,7 @@ In this section, you’ll learn how to verify your data, and then how to train, 
 ## Quick test your model 
 
 Once your model is trained, you can see it in action from its details page, which you can learn more about [here](manage-model.md).
+
 1. From your model details page, select **Quick Test** button in the **Last trained version** section. 
 2. Drag and drop or upload an image which contains your objects to test your model.
 3. Your model will be applied to the image you uploaded. This step might take a little while.
@@ -37,11 +38,9 @@ If you upload fewer than 50 images for a label, you are more likely get a high s
 
 Model performance scores are more reliable when the number of images per label is greater than 50,  and when performance scores are stable even when the training set changes.
 
-
 ## Publish your object detection model
 
 From there, you can run more tests with other pictures. If you are happy with the results you are getting, you can [publish](publish-model.md) your model to use it in a Powerapps or Microsoft Flow.
-
 
 ### Related topics
 [Manage your AI model](manage-model.md)

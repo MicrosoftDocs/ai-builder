@@ -1,6 +1,6 @@
 ---
 title: Overview of AI Builder in PowerApps -  AI Builder | Microsoft Docs
-description: Provides an overview of AI Builder in PowerApps.
+description: Provides an overview of the AI Builder components that are available to use with Canvas apps in PowerApps
 author: Dean-Haas
 manager: kvivek
 ms.service: powerapps
