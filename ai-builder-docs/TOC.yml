@@ -80,6 +80,8 @@
     href: use-in-flow-overview.md
   - name: Prerequisites
     href: use-in-flow-prereq.md
+  - name: Use a binary classification model in Microsoft Flow
+    href: binary-classification-model-in-flow.md
   - name: Use a text classification model in Microsoft Flow
     href: text-classification-model-in-flow.md
   - name: Use a form processing model in Microsoft Flow
