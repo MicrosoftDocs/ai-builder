@@ -32,8 +32,6 @@
     href: binary-classification-training-report.md
   - name: Understand binary classification model performance
     href: binary-classification-performance.md
-  - name: Use your binary classification model in a model-driven app
-    href: binary-classification-model-driven-app.md
 - name: Text classification AI model
 
   items:
@@ -92,6 +90,8 @@
   items:
   - name: Overview
     href: use-in-powerapps-overview.md
+  - name: Use your binary classification model in PowerApps
+    href: binary-classification-model-driven-app.md
   - name: Use the form processor component in PowerApps
     href: form-processor-component-in-powerapps.md
   - name: Use the object detector component in PowerApps
