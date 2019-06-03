@@ -15,7 +15,7 @@ ms.reviewer: kvivek
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-Adding AI Builder features to your Canvas applications is possible through a set of AI Builder components available in the Canvas Studio.
+Use AI Builder models in PowerApps by building a model driven app, or by adding an AI model to an app using a set of AI Builder components in the canvas studio.
 
  ![Canvas studio screen](media/canvas-studio.png "Canvas studio screen")
 
