@@ -1,5 +1,5 @@
 ---
-title: Use your binary classification model in a model-driven app -  AI Builder | Microsoft Docs
+title: Use your binary classification model in PowerApps -  AI Builder | Microsoft Docs
 description: walks you through the instructions on how to use your binary classification model in a model driven app.
 author: Dean-Haas
 manager: kvivek
@@ -11,7 +11,7 @@ ms.author: v-dehaas
 ms.reviewer: kvivek
 ---
 
-# Use your binary classification model in a model-driven app
+# Use your binary classification model in PowerApps
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -19,8 +19,6 @@ This topic takes you through the process of creating a model driven app that can
 
 > [!NOTE]
 > You should review [Model-driven apps overview](/powerapps/maker/model-driven-apps/model-driven-app-overview) topic in PowerApps Docs before you perform these steps.  
-
-
 
 1. Sign in to [PowerApps](https://web.powerapps.com/), select **Apps** from the menu, and then select **Create an app** > **Model-driven** at the top of the screen.  
 1. On the Create a New App screen, complete the fields and then select **Done**.
