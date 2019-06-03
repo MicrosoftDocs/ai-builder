@@ -15,7 +15,7 @@ ms.reviewer: kvivek
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-Use AI Builder models in PowerApps by building a model driven app, or by adding an AI model to an app using a set of AI Builder components in the canvas studio.
+To use you AI Builder models in PowerApps, build a [model-driven app](/powerapps/maker/model-driven-apps/model-driven-app-overview), or use AI Builder components in the canvas studio to add an AI model to a [canvas app](/powerapps/maker/canvas-apps/getting-started).
 
  ![Canvas studio screen](media/canvas-studio.png "Canvas studio screen")
 
