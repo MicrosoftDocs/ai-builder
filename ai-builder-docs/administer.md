@@ -62,7 +62,7 @@ A System Administrator or Delegated Admin user can use the standard capabilities
     - Binary classification and text classification models: 
 
         In the **Performance** section, select the **…** menu to the right of **Training report**, and then select **Retrain**.
-    - Object detection and form processing models:
+    - Object detection models:
 
         Select **New version**, and then follow the on-screen instructions to train your model
         
