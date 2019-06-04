@@ -19,7 +19,7 @@ ms.reviewer: kvivek
 1. Sign in to [Microsoft Flow](https://flow.microsoft.com/), select the **My flows** tab, and then select **Create from blank**.
 2. Search for *manually*, select **Manually trigger a flow** in the list of triggers, and then select **+Add an input**.
 5. Select **File** and set **My Document** as input title. 
-4. Select **+ New step**, search for **Predict**, and then select **Predict Common Data Service** in the list of actions.
+4. Select **+ New step**, search for **Predict**, and then select **Predict Common Data Service (current Environment)** in the list of actions.
 8. Select the form processing model you want to use, and specify the following as **Request Payload**:
     
     -	For a a jpeg image of the form:
