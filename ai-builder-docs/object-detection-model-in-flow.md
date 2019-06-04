@@ -18,7 +18,7 @@ ms.reviewer: kvivek
 1. Sign in to [Microsoft Flow](https://flow.microsoft.com/), select the **My flows** tab, and then select **Create from blank**.
 1. Search for *manually*, select **Manually trigger a flow** in the list of triggers, and then select **+ Add an input**.
 5. Select **File**, and set **My Image** as input title.
-4. Select **+ New step**, search for *Predict*, and then select **Predict Common Data Service** in the list of actions.
+4. Select **+ New step**, search for *Predict*, and then select **Predict Common Data Service (current Environment)** in the list of actions.
 
     ![Predict common data service](media/predict-cds.png "Predict common data service screen")
 
@@ -99,7 +99,7 @@ ms.reviewer: kvivek
  
 ![Schema box](media/schema.png "Schema box")
 
-13. To retreive the name of the detected object or objects on the image, add the **Get a record** action from Common Data Service. 
+13. To retreive the name of the detected object or objects on the image, add the **Get a record** action from Common Data Service (current Environment). 
 14. On the **Get a record** screen, select **AI Object Detection Labels** in the **Entity Name** box, and in **Item identifier** enter **tagId**. 
 
     When you add **tagId** as Item identifier an *apply to each* loop is automatically added. This loops all the object tags that are detected on the image that is provided by the flow trigger. 
