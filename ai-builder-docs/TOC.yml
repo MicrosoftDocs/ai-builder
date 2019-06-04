@@ -1,7 +1,7 @@
 - name: AI Builder
   items:
   - name: What is AI Builder?
-    href: what-is-ai-builder.md
+    href: overview.md
   - name: AI model types
     href: model-types.md
   - name: Share your experience 
@@ -32,8 +32,6 @@
     href: binary-classification-training-report.md
   - name: Understand binary classification model performance
     href: binary-classification-performance.md
-  - name: Use your binary classification model in a model-driven app
-    href: binary-classification-model-driven-app.md
 - name: Text classification AI model
 
   items:
@@ -82,6 +80,8 @@
     href: use-in-flow-overview.md
   - name: Prerequisites
     href: use-in-flow-prereq.md
+  - name: Use a binary classification model in Microsoft Flow
+    href: binary-classification-model-in-flow.md
   - name: Use a text classification model in Microsoft Flow
     href: text-classification-model-in-flow.md
   - name: Use a form processing model in Microsoft Flow
@@ -92,6 +92,8 @@
   items:
   - name: Overview
     href: use-in-powerapps-overview.md
+  - name: Use your binary classification model in PowerApps
+    href: binary-classification-model-driven-app.md
   - name: Use the form processor component in PowerApps
     href: form-processor-component-in-powerapps.md
   - name: Use the object detector component in PowerApps

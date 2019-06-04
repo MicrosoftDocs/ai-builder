@@ -17,8 +17,10 @@ ms.reviewer: kvivek
 
 Use the object detection component to take a photo or choose an image file to perform an object detection scan. On a mobile device, the user is presented with the device's interface to choose between taking a photo, or selecting one already available. When an image is selected, the component automatically performs a scan to identify objects in the image.
 
-> [!NOTE] 
-> This component is not supported in Internet Explorer.
+ > [!NOTE] 
+ >
+ > - This component is not supported in Internet Explorer.
+ > - Find more information about canvas apps [here](/powerapps/maker/canvas-apps/getting-started).
 
 ## Prerequisites
 You need a trained & published AI Builder object detection model to get started. Then, you need to bind that model to the component using the AI model property in the **Properties** panel. When you add it to the screen, the component will automatically open the AI models pane so you can select a model from those that are published in that environment. 

@@ -37,13 +37,13 @@ Here are some of the details to help you understand the training report errors a
 
 - *Some fields had low relevance*
 
-    You should delete data fields that have less relevance to train the model. For example, data fields that all have the same value in each record.
+    Data fields that have less relevance to train the model are dropped in model training.  For example, data fields that all have the same value in each record.
 
 - *Some fields were missing values*
 
-    You should delete data fields that have a high rate of missing values.
+    Populate data for the data fields that have a high rate of missing values for best results. 
 
 - *Some fields were dropped during training*
 
-    Data fields that have a high correlation with prediction outcome may be dropped in model training.
+    Data fields that have a high correlation with prediction outcome are dropped in model training.
 

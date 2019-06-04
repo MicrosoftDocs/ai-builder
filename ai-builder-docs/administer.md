@@ -55,12 +55,19 @@ Dynamics 365 allows protecting your apps data and providing continuous availabil
 >Initially, AI Builder features limited support for backup and restore.
 A System Administrator or Delegated Admin user can use the standard capabilities described in the [Backup and restore instances](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances) topic. After a restore operation, they must manually retrain and republish existing models to make them available again.
 
-To retrain and republish existing models:
+### Retrain and republish existing models
+
 1. Sign in to [PowerApps](https://web.powerapps.com/), and then in the navigation pane, select **AI Builder** > **Models**. 
-2. In the **Performance** section, select the **…** menu to the right of **Training report**, and then select **Retrain**.
+1. Follow the steps for your model type:
+    - Binary classification and text classification models: 
+
+        In the **Performance** section, select the **…** menu to the right of **Training report**, and then select **Retrain**.
+    - Object detection and form processing models:
+
+        Select **New version**, and then follow the on-screen instructions to train your model
+        
+
 
 This replaces your last trained version. Now, publish this version.
 
 Perform these steps on each of your AI Builder models to get your AI models up and running again.
-
-
