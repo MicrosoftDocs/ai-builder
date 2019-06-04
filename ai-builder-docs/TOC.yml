@@ -10,11 +10,11 @@
   items:
   - name: Build a model
     href: build-model.md
-  - name: Train a model in AI Builder
+  - name: Train a model
     href: train-model.md
-  - name: Manage a model in AI Builder
+  - name: Manage a model
     href: manage-model.md
-  - name: Publish a model in AI Builder
+  - name: Publish a model
     href: publish-model.md
 - name: Binary classification AI model
   items:
