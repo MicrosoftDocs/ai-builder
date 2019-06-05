@@ -40,11 +40,14 @@ ms.reviewer: kvivek
         }
            ```
 
-    - In the formula bar on the right, replace **EXPRESSION** with the following expression string:
-
-        (triggerBody()?['file']?['contentBytes']) 
+    - In the formula bar on the right, replace **EXPRESSION** with the following expression
+    
+        string(triggerBody()?['file']?['contentBytes']) 
 
     ![Replace expression screens](media/replace-expression.png "Replace expression screens")
+    
+ > [!NOTE] 
+ > Depending from which connector the file comes from, the expression will need to be enclosed by base64() instead of string()
 
 ## Test and edit your flow
 
