@@ -57,7 +57,7 @@ Dynamics 365 allows protecting your apps data and providing continuous availabil
 
 A System Administrator or Delegated Admin user can use the standard capabilities described in the [Backup and restore instances](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances) topic. After a restore operation, they must manually retrain and republish existing models to make them available again.
 
-## Retrain and republish existing models
+### Retrain and republish existing models
 
 1. Sign in to [PowerApps](https://web.powerapps.com/), and then in the navigation pane, select **AI Builder** > **Models**. 
 1. Follow the steps for your model type:
