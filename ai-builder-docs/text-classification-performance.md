@@ -19,7 +19,7 @@ After each training, AI Builder uses the test data set to evaluate the quality a
 
 AI Builder calculates the performance score for your model based on the precision and recall of the prediction results:
 
-- **Performance score**: This is the harmonic mean of precision and recall. It balances both for an imbalanced class distribution. Performance score values are between 0 - 100. Generally, the higher the performance score, the better your model performs. 
+- **Performance score**: This is the harmonic mean of the precision and recall scores. It balances both scores for an imbalanced class distribution. Performance score values are between 0 - 100. Generally, the higher the performance score, the better your model performs. 
 - **Precision**: The fraction of correct predictions among all the positive predictions.
 - **Recall**: The fraction of correct predictions among all true positive cases.
 
