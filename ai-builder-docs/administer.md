@@ -34,7 +34,9 @@ By default, the **AI Builder** features is set to **On** (enabled) for any eligi
 To control the feature availability:
 1. Sign in to [Power Platform Admin center](https://admin.powerplatform.microsoft.com).
 2. In the admin center, go to **Environments** > *[select an environment]* > **Settings** > **Features**.
-3. On the **Feature** settings page, enable or disable the **AI Builder** option.
+3. On the **Feature** settings page, under AI Builder (preview), enable or disable **Create AI models in PowerApps**.  
+    
+    ![Control AI Builder availability](media/ai-builder-setting.png "Control AI Builder availability")
 
 Some important points related to enabling or disabling the feature:
 
@@ -51,23 +53,24 @@ For more information about enabling/disabling features in the Power Platform Adm
 Dynamics 365 allows protecting your apps data and providing continuous availability of service thanks to its built-in backup and restore capabilities. For more information, go to [Backup and restore instances](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances) in PowerApps docs. 
 
 > [!IMPORTANT]
->
->Initially, AI Builder features limited support for backup and restore.
+> Currently, AI Builder provides limited support for backup and restore.
+
 A System Administrator or Delegated Admin user can use the standard capabilities described in the [Backup and restore instances](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances) topic. After a restore operation, they must manually retrain and republish existing models to make them available again.
 
-### Retrain and republish existing models
+## Retrain and republish existing models
 
 1. Sign in to [PowerApps](https://web.powerapps.com/), and then in the navigation pane, select **AI Builder** > **Models**. 
 1. Follow the steps for your model type:
     - Binary classification and text classification models: 
 
         In the **Performance** section, select the **…** menu to the right of **Training report**, and then select **Retrain**.
+    
     - Object detection models:
 
         Select **New version**, and then follow the on-screen instructions to train your model
         
 
 
-This replaces your last trained version. Now, publish this version.
+1. This replaces your last trained version. Now, publish this version.
 
 Perform these steps on each of your AI Builder models to get your AI models up and running again.
