@@ -33,7 +33,7 @@ ms.reviewer: kvivek
 
     Replace **EXPRESSION** with the following expression string on the formula bar on the right as shown in the illustration:
 
-    `triggerBody()?['file']?['contentBytes'])`
+    `string(triggerBody()?['file']?['contentBytes']))`
 
 5. Select **+ New step**, search for *Parse JSON*, and then select **Parse JSON – Data Operations** from the lists of actions.
 
