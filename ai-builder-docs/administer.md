@@ -44,7 +44,7 @@ Some important points related to enabling or disabling the feature:
 
 - If you set **Create AI models in PowerApps** back to **On** (enabled), the AI Builder components will become visible again and function as they did earlier.
 
-- To delete all AI Builder models from an environment, you must delete each model and then disable the **AI Builder** feature by setting it to **Off**  ensure that users can’t create new models using AI builder. You must do this on each environment where AI Builder was turned on.
+- To delete all AI Builder models from an environment, you must delete each model and then disable the **AI Builder** feature by setting **Create AI models in PowerApps** to **Off** to ensure that users can’t create new models using AI builder. You must do this on each environment where AI Builder was enabled.
 
 For more information about enabling/disabling features in the Power Platform Admin center, see [Manage feature settings](https://docs.microsoft.com/power-platform/admin/settings-features)
 
