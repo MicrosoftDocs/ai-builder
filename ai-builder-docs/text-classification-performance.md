@@ -25,7 +25,7 @@ AI Builder calculates the performance score for your model based on the precisio
 
 ## Quick Test
 
-You can also select the **Quick Test** button and enter a text you want to tag to assess the quality of the model. The quick test generates a list of tags, each with a confidence score.
+You can also select the **Quick Test** button and enter text that you want to tag to assess the quality of the model. The quick test generates a list of all tags that have a confidence score of 50% or greater. 
 
 For more information, go to the [Evaluate your model](manage-model.md#evaluate-your-model) section
 

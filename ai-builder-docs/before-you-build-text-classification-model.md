@@ -26,6 +26,9 @@ Before you build your text classification model, you'll need to make sure your d
 
 ## Data format
 
+> [!NOTE]
+> For best results, use a data set that is smaller than 1.5 gb. When your data set exceeds 1.5 gb, AI Builder only uses 1.5 gb of your data to train and predict. Since you can’t control which data exceeding the 1.5 gb limit is not used, you should optimize your data to stay under 1.5 gb.
+
  - Text and tags should be stored in text fields under the same entity. 
  - Tags should be separated using a delimiter. We currently support the following delimiters: Comma “,”, semicolon “;”,tab “	“, and no separator. 
  Tags that contains less than 50 Text items are ignored.
