@@ -15,21 +15,24 @@ ms.reviewer: kvivek
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
+> [!NOTE]
+> Make sure your administrator has assigned you a security role with all organization privileges over the entity Note from Core Records and read privilege over the entity you are using to select object names.
+
 Form processing works on input documents that meet the following requirements:
--	JPG, PNG, or PDF format (text or scanned). Text embedded PDFs are preferable because there is no possibility of error in character extraction and location.
--	File size must be less than 4 megabytes (MB)
--	For images, dimensions must be between 50x50 and 4200x4200 pixels
--	If scanned from paper documents, scans should be high-quality images.
--	Must use the Latin alphabet (English characters)
--	Printed data (not handwritten)
--	Must contain keys and values (e.g.: “company: Contoso” works, “Contoso” without a key label is not supported). 
--	Keys can appear above or to the left of the values, but not below or to the right.
+- JPG, PNG, or PDF format (text or scanned). Text embedded PDFs are preferable because there is no possibility of error in character extraction and location.
+- File size must be less than 4 megabytes (MB)
+- For images, dimensions must be between 50x50 and 4200x4200 pixels
+- If scanned from paper documents, scans should be high-quality images.
+- Must use the Latin alphabet (English characters)
+- Printed data (not handwritten)
+- Must contain keys and values (e.g.: “company: Contoso” works, “Contoso” without a key label is not supported). 
+- Keys can appear above or to the left of the values, but not below or to the right.
 
  > [!NOTE] 
  > AI Builder does not currently support the following types of form processing input data:
- > -	Complex tables (nested tables, merged headers or cells, and so on)
- > -	Checkboxes or radio buttons
- > -	PDF documents longer than 50 pages
+ > - Complex tables (nested tables, merged headers or cells, and so on)
+ > - Checkboxes or radio buttons
+ > - PDF documents longer than 50 pages
 
 ### Next steps
 [Create a form processing model](create-form-processing-model.md)
