@@ -19,6 +19,9 @@ Before you create your binary classification model, you'll want to make sure you
 ## Create your custom entity
 If you have data outside of Common Data Service that you want to import for training in AI Builder, you need to create an entity first. In this example, we’ll provide a solution which has pre-defined custom entities. To use your own data,  [create](/powerapps/maker/common-data-service/data-platform-create-entity) a custom entity, and substitute your own entity for the example use here.
 
+> [!NOTE]
+> For best results, use a data set that is smaller than 1.5 gb. When your data set exceeds 1.5 gb, AI Builder only uses 1.5 gb of your data to train and predict. Since you can’t control which data exceeding the 1.5 gb limit is not used, you should optimize your data to stay under 1.5 gb.
+
 1. Download the AI Builder sample datasets solution, **AIBuilderSampleDatasets_1_0_0_0.zip**, from [here](https://go.microsoft.com/fwlink/?linkid=2093415).
 1. In PowerApps, select **Solutions** in the left-side navigation pane, then select **Import** at the top of the screen.
 1. In the popup screen, select **Choose File**, and then select **AIBuilderSampleDatasets_1_0_0_0.zip** that you downloaded in step 1.

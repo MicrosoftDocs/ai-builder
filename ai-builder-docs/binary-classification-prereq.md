@@ -25,7 +25,8 @@ For information about AI Builder requirements that are not specific to this AI m
 
 ## What data do I need?
 
-- Your data must be in Common Data Service. For more information go to the [Common Data Service](/powerapps/maker/common-data-service/data-platform-intro) section of PowerApps on Microsoft Docs. 
+- Your data must be in Common Data Service. For more information go to the [Common Data Service](/powerapps/maker/common-data-service/data-platform-intro) section of PowerApps on Microsoft Docs.
+- Make sure your administrator has assigned you a security role with read privilege over your data.
 - You need at least 10 records of historical outcome for each class of the **Label** data field to train the model and predict the outcome. 
 - 50 records is the minimum for training, but for best results you should have at least 1000 records. 
 

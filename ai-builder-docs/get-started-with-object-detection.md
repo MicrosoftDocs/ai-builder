@@ -15,6 +15,9 @@ ms.reviewer: kvivek
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
+> [!NOTE]
+> Make sure your administrator has assigned you a security role with all organization privileges over the entity **Note** from **Core Records** and read privilege over the entity you are using to select object names.
+
 1. Sign in to [PowerApps](https://web.powerapps.com), and then in the navigation pane, select the down arrow to expand **AI Builder**. Select the **Object Detection** AI model type.
 2. Enter a name for your model then select **Create**.
 
