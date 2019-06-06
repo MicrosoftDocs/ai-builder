@@ -28,7 +28,7 @@ These security roles have already set the right privileges to the AI Builder ent
 > [!div class="mx-imgBorder"]
 > ![Security roles screen](media/security-roles-screen.png "Security roles screen" )
 
-Scenarios such as object detection, text classification and binary classification require read access to entities from Common Data Service. Make sure Environment Makers have access to them in case they need to use those entities as object to detect, tagged text and input data respectively.
+Scenarios such as object detection, text classification and binary classification require read access to entities from Common Data Service. Make sure Environment Makers have access to them in case they need to use those entities as object to detect, tagged text and input data respectively. For object detection and form processing, Environment Makers must also have full organization privileges over the Note entity from Core Records.
 
 Some scenarios require at least System Customizer privileges to publish AI models and allow consumption since these actions imply changes to the Common Data Service schema. Therefore, we recommend Administrators to assign System Customizer to users that need to create such AI models.
 

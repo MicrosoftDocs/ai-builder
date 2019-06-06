@@ -66,6 +66,24 @@ If you are satisfied with your model, you can [publish your model](publish-model
 
 For more information about the nuances of improving your model performance, under the **Last trained version** and in the **Tips section**, select **Improve model performance**. This tip only appears for the AI model types where it is applicable.
 
+## Retrain and republish existing models
+
+1. Sign in to [PowerApps](https://web.powerapps.com/), and then in the navigation pane, select **AI Builder** > **Models**. 
+1. Follow the steps for your model type:
+    - Binary classification and text classification models: 
+
+        In the **Performance** section, select the **…** menu to the right of **Training report**, and then select **Retrain**.
+    
+    - Object detection models:
+
+        Select **New version**, and then follow the on-screen instructions to train your model
+        
+
+
+1. This replaces your last trained version. Now, publish this version.
+
+Perform these steps on each of your AI Builder models to get your AI models up and running again.
+
 ### Next steps
 
 [Publish your model](publish-model.md)
