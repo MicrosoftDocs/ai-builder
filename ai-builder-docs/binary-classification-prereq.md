@@ -32,7 +32,7 @@ For information about AI Builder requirements that are not specific to this AI m
 
 ## Sample data
 
-To help you get started quickly with binary classification, use the sample datasets available at <https://github.com/microsoft/PowerApps-Samples/tree/ai-builder-samples/ai-builder>.
+To help you get started quickly with binary classification, use the sample datasets available at <https://github.com/microsoft/PowerApps-Samples/tree/master/ai-builder>.
 
 ### Next steps
 
