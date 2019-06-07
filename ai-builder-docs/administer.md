@@ -6,7 +6,7 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/10/2019
+ms.date: 06/07/2019
 ms.author: v-dehaas
 ms.reviewer: kvivek
 ---
@@ -56,4 +56,6 @@ Dynamics 365 allows protecting your apps data and providing continuous availabil
 > [!IMPORTANT]
 > Currently, AI Builder provides limited support for backup and restore.
 
-A System Administrator or Delegated Admin user can use the standard capabilities described in the [Backup and restore instances](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances) topic. After a restore operation, they must manually retrain and republish existing models to make them available again.
+A System Administrator or Delegated Admin user can use the standard capabilities described in the [Backup and restore instances](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances) topic. 
+
+After a restore operation, they must manually retrain and republish existing models to make them available again. More information: [Retrain and republish existing models](manage-model.md#retrain-and-republish-existing-models)
