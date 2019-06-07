@@ -1,0 +1,109 @@
+- name: AI Builder
+  items:
+  - name: What is AI Builder?
+    href: overview.md
+  - name: AI model types
+    href: model-types.md
+  - name: Share your experience 
+    href: share-your-experience.md
+- name: AI Models
+  items:
+  - name: Build a model
+    href: build-model.md
+  - name: Train a model
+    href: train-model.md
+  - name: Manage a model
+    href: manage-model.md
+  - name: Publish a model
+    href: publish-model.md
+- name: Binary classification AI model
+  items:
+  - name: Overview 
+    href: binary-classification-overview.md
+  - name: Prerequisites
+    href: binary-classification-prereq.md
+  - name: Data preparation
+    href: binary-classification-data-prep.md
+  - name: Create a binary classification model
+    href: create-binary-classification-model.md
+  - name: Train and publish your binary classification model
+    href: binary-classification-train-model.md
+  - name: Understand the training report
+    href: binary-classification-training-report.md
+  - name: Understand binary classification model performance
+    href: binary-classification-performance.md
+- name: Text classification AI model
+
+  items:
+  - name: Overview
+    href: text-classification-overview.md
+  - name: Before you build a text classification model
+    href: before-you-build-text-classification-model.md
+  - name: Create a text classification model
+    href: create-text-classification-model.md
+  - name: Train your text classification model
+    href: train-text-classification-model.md
+  - name: Understand text classification model performance
+    href: text-classification-performance.md
+  - name: Improve text classification model performance
+    href: improve-text-classification-performance.md
+  - name: Publish your text classification model
+    href: publish-text-classification-model.md
+  - name: View generated predictions
+    href: text-classification-view-predictions.md
+  - name: Use generated tags
+    href: text-classification-model-use-tags.md
+- name: Object detection AI model
+  items: 
+  - name: Overview
+    href: object-detection-overview.md
+  - name: Collect images
+    href: collect-images.md
+  - name: Get started with object detection
+    href: get-started-with-object-detection.md
+  - name: Train and publish your object detection model
+    href: object-detection-train-model.md
+
+- name: Form processing AI model
+  items:
+  - name: Overview
+    href: form-processing-model-overview.md
+  - name: Requirements and limitations
+    href: form-processing-model-requirements.md
+  - name: Create a form processing model
+    href: create-form-processing-model.md
+  - name: Train and publish your form-processing model
+    href: form-processing-train.md
+- name: Use AI Builder in Microsoft Flow
+  items:
+  - name: Overview
+    href: use-in-flow-overview.md
+  - name: Prerequisites
+    href: use-in-flow-prereq.md
+  - name: Use a binary classification model in Microsoft Flow
+    href: binary-classification-model-in-flow.md
+  - name: Use a text classification model in Microsoft Flow
+    href: text-classification-model-in-flow.md
+  - name: Use a form processing model in Microsoft Flow
+    href: form-processing-model-in-flow.md
+  - name: Use an object detection model in Microsoft Flow
+    href: object-detection-model-in-flow.md
+- name: Use AI Builder in PowerApps
+  items:
+  - name: Overview
+    href: use-in-powerapps-overview.md
+  - name: Use your binary classification model in PowerApps
+    href: binary-classification-model-driven-app.md
+  - name: Use the form processor component in PowerApps
+    href: form-processor-component-in-powerapps.md
+  - name: Use the object detector component in PowerApps
+    href: object-detector-component-in-powerapps.md
+  - name: Use the business card reader component in PowerApps
+    href: business-card-reader-component-in-powerapps.md
+- name: Administration and security
+  items:
+  - name: Administer AI Builder
+    href: administer.md
+  - name: Security in AI Builder
+    href: security.md
+    
