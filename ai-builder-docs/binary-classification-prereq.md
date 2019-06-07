@@ -30,6 +30,10 @@ For information about AI Builder requirements that are not specific to this AI m
 - You need at least 10 records of historical outcome for each class of the **Label** data field to train the model and predict the outcome. 
 - 50 records is the minimum for training, but for best results you should have at least 1000 records. 
 
+## Sample data
+
+To help you get started quickly with binary classification, use the sample datasets available at <https://github.com/microsoft/PowerApps-Samples/tree/ai-builder-samples/ai-builder>.
+
 ### Next steps
 
 [Data preparation](binary-classification-data-prep.md)
