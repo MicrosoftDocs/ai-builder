@@ -34,6 +34,9 @@ ms.reviewer: kvivek
     Replace **EXPRESSION** with the following expression string on the formula bar on the right as shown in the illustration:
 
     `string(triggerBody()?['file']?['contentBytes']))`
+    
+     > [!NOTE] 
+     > Depending from which connector the file comes from, the expression will need to be enclosed by base64() instead of string()
 
 5. Select **+ New step**, search for *Parse JSON*, and then select **Parse JSON – Data Operations** from the lists of actions.
 
