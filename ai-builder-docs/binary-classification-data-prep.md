@@ -22,12 +22,12 @@ If you have data outside of Common Data Service that you want to import for trai
 > [!NOTE]
 > For best results, use a dataset that is less than 1.5 GB in size. Otherwise, AI Builder uses only 1.5 GB of your data to train and predict. Since you can’t control which data exceeding the 1.5 GB limit is not used, you should optimize your data to stay under 1.5 GB.
 
-1. Download the AI Builder sample datasets solution, **AIBuilderSampleDatasets_1_0_0_0.zip**, from [here](https://go.microsoft.com/fwlink/?linkid=2093415).
+1. Download the AI Builder sample datasets solution, **AIBuilderOnlineShopperIntention_1_0_0_0.zip**, from [here](https://go.microsoft.com/fwlink/?linkid=2093415).
 1. In PowerApps, select **Solutions** in the left-side navigation pane, then select **Import** at the top of the screen.
-1. In the popup screen, select **Choose File**, and then select **AIBuilderSampleDatasets_1_0_0_0.zip** that you downloaded in step 1.
+1. In the popup screen, select **Choose File**, and then select **AIBuilderOnlineShopperIntention_1_0_0_0.zip** that you downloaded in step 1.
 1. Follow the on-screen instructions to import the solution, and then select **Close** after you finish.
 
-Next, import the sample data into the entity. In this example, we use the "aib_onlineshopperintention.csv" that is available to download from [here](https://go.microsoft.com/fwlink/?linkid=2093415):
+Next, import the sample data into the entity. In this example, we use the **aib_onlineshopperintention.csv** that is available to download from [here](https://go.microsoft.com/fwlink/?linkid=2093415):
 
 1. In PowerApps, select **Entities** in the left-side navigation pane, select **Get data** > **Text/CSV**, and then browse to the .csv file you downloaded. Select the file.
 
