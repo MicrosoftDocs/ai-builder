@@ -29,7 +29,7 @@ Currently, AI Builder is available in the United States and Europe regions only.
 
 Power Platform administrators can use the Power Platform Admin center to control the availability of AI builder in an environment.
 
-By default, the **AI Builder** features is set to **On** (enabled) for any eligible environment (environment must have Common Data Service and its region must be supported; either the United States or Europe). If the environment is not eligible, the **AI Builder** feature won't appear in the Power Platform Admin center. 
+By default, the **AI Builder** feature is set to **On** (enabled) for any eligible environment (environment must have Common Data Service and its region must be supported; either the United States or Europe). If the environment is not eligible, the **AI Builder** feature won't appear in the Power Platform Admin center. 
 
 To control the feature availability:
 
