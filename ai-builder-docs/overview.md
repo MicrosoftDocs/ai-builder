@@ -39,6 +39,6 @@ Using AI is easy thanks to integration with PowerApps and Microsoft Flow. Adding
 
 ### Related topics
 
-[AI Builder Release Plan](/power-platform-release-plan/2019wave2/ai-builder)<br/>
+<!--[AI Builder Release Plan](/power-platform-release-plan/2019wave2/ai-builder)<br/>-->
 [PowerApps docs](https://docs.microsoft.com/powerapps/)<br/>
 [Microsoft Flow docs](https://docs.microsoft.com/flow/getting-started)
