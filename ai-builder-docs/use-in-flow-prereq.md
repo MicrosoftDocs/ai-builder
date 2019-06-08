@@ -19,6 +19,10 @@ Before you can use AI Builder in Microsoft Flow, you just need:
 - An account with access to Microsoft Flow
 - A trained [AI Builder model](build-model.md)
 
+ > [!IMPORTANT]
+ >
+ > During the preview phase, to use AI Builder models in a Flow, you will need to create it inside a solution. Go to [Create a flow in a solution]( https://docs.microsoft.com/en-us/flow/create-flow-solution) to learn more.   
+
 ### Related topics
 
 [AI Builder prerequisites](build-model.md#prerequisites)
