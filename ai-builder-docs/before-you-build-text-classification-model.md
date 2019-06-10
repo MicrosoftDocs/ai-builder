@@ -48,19 +48,21 @@ If we represent data in a table, it would look like this:
 
 ## Import your data into Common Data Service
 
-We understand that your data might not be in Common Data Service. However, Common Data Service includes a powerful set of connectors that will help you import your data from all major data sources. Find more information about how to import data into Common Data Service [here](/powerapps/maker/common-data-service/data-platform-cds-newentity-pq). 
+
+<!--from editor: Will the link below work ok when this is published? Or do you need to use the full URL?-->
+
+We understand that your data might not be in Common Data Service. However, Common Data Service includes a powerful set of connectors that will help you import your data from all major data sources. For more information about how to import data into Common Data Service, see [Add data to an entity in Common Data Service by using Power Query](/powerapps/maker/common-data-service/data-platform-cds-newentity-pq). 
 
 As an example, here is how to import training data from an Excel sheet. This example uses an Excel file like this:
 
-
-|326589    |It’s   a powerful tool that helps make quick changes                                                                                                                               |Good\|Quick\|Powerful |
 |---|---|---|
-|326590    |This program is great and has lots of potential. The user interface is intuitive   and makes it easy to filter results. However, when I try to edit a link, I get an error.    |Potential, Easy\| Good, Ease of Use\| filters\| bug  |
-|326591    |You need to work on your Feature Y capabilities they are not as good as your competition.                                                                                      |Feature   Y\| Competition     |
-|326592    |Easy to view data                                                                                                                                                                |Easy\| Ease of use                                |
-|326593    |I like how you made feature X easy to use. This reduces a lot of complexity when I want to onboard new customers.                                                              |Easy\|Good\|Feature X                             |
+|326589    |It’s a powerful tool that helps make quick changes   |Good \| Quick \| Powerful |
+|326590    |This program is great and has lots of potential. The user interface is intuitive and makes it easy to filter results. However, when I try to edit a link, I get an error.    |Potential, Easy \| Good, Ease of Use \| filters \| bug  |
+|326591    | You need to work on your Feature Y capabilities, they are not as good as your competition. |Feature Y \| Competition     |
+|326592    |Easy to view data        |Easy \| Ease of use                                |
+|326593    |I like how you made feature X easy to use. This reduces a lot of complexity when I want to onboard new customers. | Easy \|Good \| Feature X                             |
 
-Note that the tags data is separated using “\|”.
+Note that the tags data is separated using a vertical bar or pipe (\|).
 
 
 <!--from editor: In step 2 below, should it say "Go to" instead of "Under"?-->
