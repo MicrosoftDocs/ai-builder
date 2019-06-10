@@ -76,7 +76,7 @@ Note that the tags data is separated using a vertical bar or pipe ( \| ).
 4. Select **Browse** to upload your Excel file,  and then select the sheet or sheets your data is in.
     - You might have to allow third-party cookies for your browser to perform this step.
 6. On the **Edit Queries** screen, select **Transform table** > **Use first row as headers**. Next, select the **Tags** column, and then select **Transform Column** > **Replace values**.
-1. Replace the vertical bar ( **\|**) character with a semicolon (**;**) and then select **OK**.
+1. Replace the vertical bar ( \| ) character with a semicolon ( ; ) and then select **OK**.
 1. Now that your data is in the correct format, select **Next** > **Load to new entity**.
 1. Use the drop-down menu to select your target entity, and then map your columns to the destination field. 
 
