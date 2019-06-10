@@ -36,7 +36,7 @@ Before you build your text classification model, you'll need to make sure your d
 
  - Text and tags should be stored in text fields under the same entity. 
  - Tags should be separated using a delimiter. We currently support the following delimiters: Comma ",", semicolon ";", tab "	", and no separator. 
- - Tags that contains less than 50 text items are ignored.
+ - Tags that contain fewer than 50 text items are ignored.
  - Text must be fewer than 5,000 characters.
 
 If we represent data in a table, it would look like this:
@@ -55,6 +55,7 @@ We understand that your data might not be in Common Data Service. However, Commo
 
 As an example, here is how to import training data from an Excel sheet. This example uses an Excel file like this:
 
+|   |   |   | 
 |---|---|---|
 |326589    |It’s a powerful tool that helps make quick changes   |Good \| Quick \| Powerful |
 |326590    |This program is great and has lots of potential. The user interface is intuitive and makes it easy to filter results. However, when I try to edit a link, I get an error.    |Potential, Easy \| Good, Ease of Use \| filters \| bug  |
