@@ -35,7 +35,7 @@ Before you build your text classification model, you'll need to make sure your d
 
 
  - Text and tags should be stored in text fields under the same entity. 
- - Tags should be separated using a delimiter. We currently support the following delimiters: comma (,), semicolon (;), tab, and no separator. 
+ - Tags should be separated using a delimiter. We currently support the following delimiters: comma ( , ), semicolon ( ; ), tab, and no separator. 
  - Tags that contain fewer than 50 text items are ignored.
  - Text must be fewer than 5,000 characters.
 
