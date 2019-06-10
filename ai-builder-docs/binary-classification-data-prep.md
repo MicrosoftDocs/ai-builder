@@ -38,7 +38,7 @@ Next, import the sample data into the entity. In this example, we use the **aib_
 1. Set the following properties, and then select **Next**:
 
 
-
+<!--from editor: Does the property say "On-premise"? The correct term is On-premises. -->
 
 
     - **On-premise data gateway** = *(none)*
