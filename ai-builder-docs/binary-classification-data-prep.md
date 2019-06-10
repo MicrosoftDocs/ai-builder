@@ -16,8 +16,12 @@ ms.reviewer: kvivek
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 Before you create your binary classification model, you'll want to make sure your data is in Common Data Service, and that it's in the correct format. 
 
+
+<!--note from editor: Is the following link going to work OK or should it have the full URL?-->
+
+
 ## Create your custom entity
-If you have data outside of Common Data Service that you want to import for training in AI Builder, you need to create an entity first. In this example, we’ll provide a solution that has predefined custom entities. To use your own data,  [create](/powerapps/maker/common-data-service/data-platform-create-entity) a custom entity, and substitute your own entity for the example used here.
+If you have data outside of Common Data Service that you want to import for training in AI Builder, you need to create an entity first. In this example, we’ll provide a solution that has predefined custom entities. To use your own data, [create a custom entity](/powerapps/maker/common-data-service/data-platform-create-entity) and substitute your own entity for the example used here.
 
 > [!NOTE]
 > For best results, use a dataset that is less than 1.5 GB in size. Otherwise, AI Builder uses only 1.5 GB of your data to train and predict. Since you can’t control which data exceeding the 1.5 GB limit is not used, you should optimize your data to stay under 1.5 GB.
