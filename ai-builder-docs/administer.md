@@ -23,7 +23,7 @@ As for Power Platform, my notes say it's Admin center.
 
 Power Platform administrators can use the [PowerApps admin center](https://admin.powerapps.com) and the [Power Platform Admin center](https://admin.powerplatform.microsoft.com) to manage environments and settings for PowerApps and AI Builder.
 
-For more information, see [Power Platform Administrator Guide](https://docs.microsoft.com/power-platform/admin/admin-documentation).
+For more information, see the [Power Platform Administrator Guide](https://docs.microsoft.com/power-platform/admin/admin-documentation).
 
 ## Supported regions
 
@@ -67,6 +67,6 @@ Dynamics 365 allows protecting your apps data and providing continuous availabil
 > [!IMPORTANT]
 > Currently, AI Builder provides limited support for backup and restore.
 
-A system administrator or delegated admin user can use the standard capabilities described in the [Backup and restore instances](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances) topic. 
+A system administrator or delegated admin user can use the standard capabilities described in [Backup and restore instances](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances). 
 
 After a restore operation, they must manually retrain and republish existing models to make them available again. For more information, go to [Retrain and republish existing models](manage-model.md#retrain-and-republish-existing-models).
