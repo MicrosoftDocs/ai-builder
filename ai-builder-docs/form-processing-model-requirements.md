@@ -18,7 +18,7 @@ ms.reviewer: kvivek
 > [!NOTE]
 >
 > - Make sure your administrator has assigned you a security role with all organization privileges over the entity **Note** from **Core Records**, and read privilege over the entity you are using to select object names.
-> - For best results, use a data set that is smaller than 1.5 gb. When your data set exceeds 1.5 gb, AI Builder only uses 1.5 gb of your data to train and predict. Since you can’t control which data exceeding the 1.5 gb limit is not used, you should optimize your data to stay under 1.5 gb.
+> - For best results, use a data set that is smaller than 4 MB. When your data set exceeds 4 MB, AI Builder only uses 4 MB of your data to train and predict. Since you can’t control which data exceeding the 4 MB limit is not used, you should optimize your data to stay under 4 MB.
 
 Form processing works on input documents that meet the following requirements:
 
