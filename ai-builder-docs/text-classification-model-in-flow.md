@@ -16,8 +16,7 @@ ms.reviewer: kvivek
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
  > [!IMPORTANT]
- >
- > During the preview phase, to use AI Builder models in a Flow, you will need to create the flow inside a solution. Go to [Create a flow in a solution]( https://docs.microsoft.com/en-us/flow/create-flow-solution) to learn more.   
+ > Currently, to use AI Builder models in a flow, you must create the flow in a solution. More information: [Create a flow in a solution](/flow/create-flow-solution).   
 
 1.	Sign in to [Microsoft Flow](https://flow.microsoft.com/), select the **My flows** tab, and then select **Create from blank**.
 2.	Search for *manually*, select **Manually trigger a flow** in the list of triggers, and then select **+Add an input**.
