@@ -45,7 +45,7 @@ To control the feature availability:
 
 1. Sign in to the [Power Platform Admin center](https://admin.powerplatform.microsoft.com).
 2. In the admin center, go to **Environments** > *[select an environment]* > **Settings** > **Features**.
-3. On the **Feature** settings page, under **AI Builder (preview)**, enable or disable **Create AI models in PowerApps**.  
+3. On the **Features** settings page, under **AI Builder (preview)**, enable or disable **Create AI models in PowerApps**.  
     
     > [!div class="mx-imgBorder"]
     > ![Control AI Builder availability](media/ai-builder-setting.png "Control AI Builder availability")
