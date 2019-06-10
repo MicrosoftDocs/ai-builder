@@ -31,11 +31,11 @@ Before you build your text classification model, you'll need to make sure your d
 
 
 
-<!--from editor: The tab, below, is just a blank space between quotation marks?-->
+<!--from editor: Please review the style changes to the second bullet.-->
 
 
  - Text and tags should be stored in text fields under the same entity. 
- - Tags should be separated using a delimiter. We currently support the following delimiters: Comma ",", semicolon ";", tab "	", and no separator. 
+ - Tags should be separated using a delimiter. We currently support the following delimiters: comma (,), semicolon (;), tab, and no separator. 
  - Tags that contain fewer than 50 text items are ignored.
  - Text must be fewer than 5,000 characters.
 
@@ -61,7 +61,7 @@ As an example, here is how to import training data from an Excel sheet. This exa
 |326590    |This program is great and has lots of potential. The user interface is intuitive and makes it easy to filter results. However, when I try to edit a link, I get an error.    |Potential, Easy \| Good, Ease of Use \| filters \| bug  |
 |326591    | You need to work on your Feature Y capabilities, they are not as good as your competition. |Feature Y \| Competition     |
 |326592    |Easy to view data        |Easy \| Ease of use                                |
-|326593    |I like how you made feature X easy to use. This reduces a lot of complexity when I want to onboard new customers. | Easy \|Good \| Feature X                             |
+|326593    |I like how you made feature X easy to use. This reduces a lot of complexity when I want to onboard new customers. | Easy \|  Good \| Feature X                             |
 
 Note that the tags data is separated using a vertical bar or pipe (\|).
 
