@@ -11,6 +11,10 @@ ms.author: v-dehaas
 ms.reviewer: kvivek
 ---
 
+
+<!--from editor: I get a 404 screen for all of the links in this file.-->
+
+
 # Use the business card reader component in PowerApps 
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
