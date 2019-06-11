@@ -11,6 +11,10 @@ ms.author: v-dehaas
 ms.reviewer: kvivek
 ---
 
+
+<!--from editor: Should the metadata description say to build the model "with AI Builder"? -->
+
+
 # Collect images
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
