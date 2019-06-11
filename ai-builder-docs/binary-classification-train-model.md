@@ -15,18 +15,18 @@ ms.reviewer: kvivek
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-Before you can use your binary classification model model, you have to train it to perform the way you want. After you train your model, publish it to make it available to other people.
+Before you can use your binary classification model, you have to train it to perform the way you want. After you train your model, publish it to make it available to other people.
 
 ## Train
 
-After you've selected your data fields, select **Next** to view a summary of  training information. Then, select **Train** to train your model
+After you've selected your data fields, select **Next** to view a summary of  training information. Then, select **Train** to train your model.
  
 > [!NOTE]
 > Training takes time, so you can stay on the page and wait, or you can close the page and come back later.  
 
 ## Publish
 
-After the model is trained, you’ll be able to [evaluate](manage-model.md#evaluate-your-model) your model performance results. Then, [publish](publish-model.md) your model, and you're good to go!
+After the model is trained, you’ll be able to [evaluate](manage-model.md#evaluate-your-model) your model performance results. Then, [publish](publish-model.md) your model, and you're good to go.
 
 
 ### Related topics
