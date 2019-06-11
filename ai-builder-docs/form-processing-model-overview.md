@@ -25,5 +25,5 @@ After your model is trained and [published](publish-model.md), you can consume i
 [Create a form processing model](create-form-processing-model.md)
 
 ### Related topics
-[AI Model types](model-types.md)
+[AI model types](model-types.md)
 
