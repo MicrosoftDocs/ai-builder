@@ -18,21 +18,19 @@ ms.reviewer: kvivek
  > [!NOTE]
  >
  > - This component is not supported in Internet Explorer.
- > - Find more information about canvas apps [here](/powerapps/maker/canvas-apps/getting-started).
+ > - Find more information about [canvas apps](/powerapps/maker/canvas-apps/getting-started).
 
 
 The business card reader component takes a photo or loads an image from the local device, and then scans it to find a business card. If it detects a business card, it extracts the information it finds.
 
-## Properties
-
-### Key properties
+## Key properties
 
 If a business card is detected, the business card reader will try to extract the following information:
 
  - **CleanedImage**: The image after processing where the business card appears cropped and enhanced from the original image.
  - **CompanyName**: The company name in the business card, if found.
  - **Department**: The organization department found in the business card, if found.
- - **Email**: The contact email found in the business card if any.
+ - **Email**: The contact email found in the business card, if any.
  - **FirstName**: The contact first name in the business card, if found.
  - **FullAddress**: The contact full address in the business card, if found.
  - **FullName**: The contact full name in the business card, if found.
@@ -45,14 +43,14 @@ If a business card is detected, the business card reader will try to extract the
  - **Website**: The website detected in the business card, if found.
 
 
-### Additional properties
+## Additional properties
 
  - **Text**: Text that appears on the button that activates the business card reader.
- - **ImageDisplayed** (“Show image” in the properties panel): Whether the component displays the image or not.
+ - **ImageDisplayed** (“Show image” in the properties panel): Whether the component displays the image.
  - **DisplayMode**:
-    - **Edit**: Allows user input
-    - **View**: Only displays data 
-    - **Disabled** is disabled.
+    - **Edit**: Allows user input.
+    - **View**: Only displays data. 
+    - **Disabled**: Is disabled.
  - **Height**: The height of the component.
  - **Visible**: Whether the component appears or is hidden.
  - **Width**: The width of the component.
@@ -68,5 +66,5 @@ These [guidelines](/powerapps/maker/canvas-apps/controls/control-button) for the
 
 
 
-### Related topics
+### Related topic
 [Core properties in PowerApps](/powerapps/maker/canvas-apps/controls/properties-core)
