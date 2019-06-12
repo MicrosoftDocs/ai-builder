@@ -35,11 +35,11 @@ The component is initialized after an AI model is bound to it.
  - **FormContent**: The details of extracted form fields and tables. At component initialization (AI model binding step), the potential fields and tables that can be extracted by the models are populated:
  - **Fields**:
 
-    ![Form fields screen](media/form-fields.png "Form fields screen")
+    ![Form fields screen](media/form-fields.PNG "Form fields screen")
     
  - **Tables**:
 
-    ![Form tables screen](media/form-tables.png "Form tables screen") 
+    ![Form tables screen](media/form-tables.PNG "Form tables screen") 
 
 ### Additional properties
  - **Text**: Text that appears on the button that activates the form processor.
