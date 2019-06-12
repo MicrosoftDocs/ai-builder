@@ -73,6 +73,11 @@ The "FormContent" bullet below ends with a colon, as if something is missing.
 
 Additional design properties are available in the Advanced panel.
 
+
+
+<!--from editor: I get a 404 page with the Guidelines link and Core properties link. -->
+
+
 ## Accessibility guidelines
 These [guidelines](/powerapps/maker/canvas-apps/controls/control-button) for the PowerApps button control also apply to the form processor component.
 
