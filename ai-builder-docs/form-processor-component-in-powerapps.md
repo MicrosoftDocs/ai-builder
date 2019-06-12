@@ -28,6 +28,13 @@ When you add it to the screen, the component automatically opens the AI models p
 
 The component is initialized after an AI model is bound to it.
 
+
+<!--from editor: 
+Because there's no text following the "Properties" heading, you could just delete it and promote "Key properties" and "Additional properties" to level 2. 
+The "FormContent" bullet below ends with a colon, as if something is missing. 
+-->
+
+
 ## Properties
 ### Key properties
  - **ModelId** (“AI model” in the properties panel): AI model information to which the component is bound.
@@ -44,14 +51,19 @@ The component is initialized after an AI model is bound to it.
 ### Additional properties
  - **Text**: Text that appears on the button that activates the form processor.
  - **ImageDisplayed** (“Show image” in the properties panel): Whether the component displays the image or not. When set to ON, rectangles are displayed around field values detected in the image.
- - 3 different colors can be used to draw the rectangle depending on the confidence level:
-     - **Red**: Confidence level is between 0% and 40%.
-     - **Orange**: Confidence level is between 40% and 70%.
-     - **Blue**: Confidence level is between 70% and 100%.
+
+
+<!--from editor: What if, say, it's 40 percent. Is it red or orange? -->
+
+
+- Three different colors can be used to draw the rectangle depending on the confidence level:
+     - **Red**: Confidence level is between 0 percent and 40 percent.
+     - **Orange**: Confidence level is between 40 percent and 70 percent.
+     - **Blue**: Confidence level is between 70 percent and 100 percent.
  - **ShowConfidence** (“Show confidence” in the properties panel): Whether the component displays confidence levels along with the rectangles in the image or not.
  - **DisplayMode**:
-     - **Edit**: Allows user input
-     - **View**: Only displays data 
+     - **Edit**: Allows user input.
+     - **View**: Only displays data. 
      - **Disabled** is disabled.
  - **Height**: The height of the component.
  - **Visible**: Whether the component appears or is hidden.
