@@ -74,7 +74,7 @@ This section explains the tagging process that is required for object detection.
 
 That’s it! Congratulations, you have completed the exercise of creating a training set for object detection.
 
-### Next steps
+### Next step
 
 [Train  your model](object-detection-train-model.md)
 
