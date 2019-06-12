@@ -1,6 +1,6 @@
 ---
 title: Use form processor component in PowerApps -  AI Builder | Microsoft Docs
-description: Provides information about how to use Form processor component in PowerApps
+description: Provides information about how to use the form processor component in PowerApps
 manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
@@ -16,13 +16,14 @@ ms.reviewer: kvivek
 
 Create a canvas app and add the form processor AI Builder component to your screen. This component takes a photo or loads an image from the local device, and then processes it to extract text based on a trained AI model. If it detects a form that the AI model is trained for, the form processor extracts the field values, and identifies them with rectangles.
 
- >[!NOTE] 
+ > [!NOTE] 
  > - Display of PDF files is not included in the initial preview.
  > - This component is not supported in Internet Explorer.
  > - Find more information about canvas apps [here](/powerapps/maker/canvas-apps/getting-started).
 
 ## Prerequisites
-This component requires a trained & published AI Builder form processing model. Then, that model must be bound to the component using the AI model property in the properties panel.
+This component requires a trained and published AI Builder form processing model. Then, that model must be bound to the component using the AI model property in the properties panel.
+
 When you add it to the screen, the component automatically opens the AI models pane to select a model from those published in that environment. 
 
 The component is initialized after an AI model is bound to it.
@@ -35,6 +36,7 @@ The component is initialized after an AI model is bound to it.
  - **Fields**:
 
     ![Form fields screen](media/form-fields.png "Form fields screen")
+    
  - **Tables**:
 
     ![Form tables screen](media/form-tables.png "Form tables screen") 
