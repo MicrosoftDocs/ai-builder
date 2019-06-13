@@ -15,7 +15,7 @@ ms.reviewer: kvivek
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-AI Builder relies on environment security and Common Data Service security roles and privileges to grant access to AI features in PowerApps. For more information, see [Security overview](/power-platform/admin/wp-security) topic.
+AI Builder relies on environment security and Common Data Service security roles and privileges to grant access to AI features in PowerApps. For more information, see [Security overview](/power-platform/admin/wp-security).
 
 Some privileges are set by default in Common Data Service, allowing built-in security roles to take advantage of AI Builder without further actions from system administrators.
 
