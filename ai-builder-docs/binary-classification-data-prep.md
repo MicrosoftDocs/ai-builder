@@ -6,7 +6,7 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/07/2019
+ms.date: 06/13/2019
 ms.author: v-dehaas
 ms.reviewer: kvivek
 ---
@@ -27,9 +27,13 @@ If you have data outside of Common Data Service that you want to import for trai
 1. In the popup screen, select **Choose File**, and then select **AIBuilderOnlineShopperIntention_1_0_0_0.zip** that you downloaded in step 1.
 1. Follow the on-screen instructions to import the solution, and then select **Close** after you finish.
 
-Next, import the sample data into the entity. In this example, we use the **aib_onlineshopperintention.csv** that is available to download from [here](https://go.microsoft.com/fwlink/?linkid=2093415):
+Next, import the sample data into the entity. In this example, we use the **aib_onlineshopperintention.csv** file:
 
-1. In PowerApps, select **Entities** in the left-side navigation pane, select **Get data** > **Text/CSV**, and then browse to the .csv file you downloaded. Select the file.
+1. In the list of [AI Builder samples](https://go.microsoft.com/fwlink/?linkid=2093415), select the **aib_onlineshopperintention.csv** file, and then select **Download** to open the raw version of the file.
+
+1. Copy the URL from the address bar in your browser. In this case, the URL to copy is: https://raw.githubusercontent.com/microsoft/PowerApps-Samples/master/ai-builder/aib_onlineshopperintention.csv.
+
+1. In PowerApps, select **Entities** in the left-side navigation pane, select **Get data** > **Text/CSV**, and then paste the copied URL from the last step into the **File path** or **URL** box.
 
 1. Set the following properties, and then select **Next**:
     -  **On-premise data gateway**= *(none)*
