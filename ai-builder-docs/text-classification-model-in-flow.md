@@ -26,7 +26,7 @@ ms.reviewer: kvivek
  
 6.	Select **+ New step**, search for **Parse JSON**, and then select **Parse JSON – Data Operations** in the lists of actions.
 7.	In the **Content** field, select **Response Payload**.
-8.	Copy the following JSON, and paste it in the **Schema** box:
+8.	Copy the following JSON code and paste it into the **Schema** box:
 
     ```json
       {
