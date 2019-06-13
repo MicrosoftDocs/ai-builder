@@ -29,8 +29,8 @@ Once your model is trained, you can see it in action from its details page, whic
 3. Your model will be applied to the image you uploaded. This step might take a while.
 4. After your model is done running, the rectangles found will be drawn directly on the picture. 
 
-  > [!div class="mx-imgBorder"]
-  > ![Quick-test screen](media/quick-test.png)
+    > [!div class="mx-imgBorder"]
+    > ![Quick-test screen](media/quick-test.png)
 
 ## How to interpret your model performance score
 
