@@ -13,8 +13,6 @@ ms.reviewer: kvivek
 
 # Use object detection model in Microsoft Flow
 
-<!--from editor: This topic would benefit from an introduction before jumping into the steps. Why would you use object detection model? -->
-
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
