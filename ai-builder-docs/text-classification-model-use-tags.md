@@ -17,7 +17,7 @@ ms.reviewer: kvivek
 
 ## Microsoft Flow
 
-If you want to use your trained model in Microsoft Flow, you can find more information [here](text-classification-model-in-flow.md).
+If you want to use your trained model in Microsoft Flow, you can find more information in [Use text classification model in Microsoft Flow](text-classification-model-in-flow.md).
 
 
 ## What if the model is not writing new tag suggestions? 
