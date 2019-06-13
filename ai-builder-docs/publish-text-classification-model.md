@@ -24,7 +24,7 @@ In the **Model settings** pane on the right side of the screen, you can turn on 
 > - Currently, you can only schedule Common Data Service runs using the input entity and field that you used for training. AI Builder creates a destination entity where the model will store the suggested tags and their confidence scores. This destination entity will have N:1 relationship with your source/input entity.
 > - AI Builder uses Microsoft Flow to schedule and run tagging on your data. When you publish your model to run on your Common Data Service data, this will consume Flow runs from your subscription.
 
-Find more information about publishing a model in AI Builder [here](publish-model.md).
+For more information about publishing a model in AI Builder, see [Publish model](publish-model.md).
 
 
 <!--from editor: Does the entity below that starts with TC need the period at the end? If not, you can remove it because the sentence doesn't need it. -->
