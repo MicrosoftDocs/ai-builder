@@ -24,7 +24,7 @@ ms.reviewer: kvivek
 4. Select **+ New step**, search for *Predict*, and then select **Predict Common Data Service (current Environment)** in the list of actions.
 
     > [!div class="mx-imgBorder"]
-    > ![Predict common data service](media/predict-cds.png "Predict common data service screen")
+    > ![Predict common data service](media/predict-cds.PNG "Predict common data service screen")
 
 8. Select the object detection model you want to use, and specify the following as **Request Payload**: 
 
