@@ -40,7 +40,7 @@ To get started:
 3. Under **Make your own AI model**, select an AI model type.
 4. Type a model name and select **Create**.
 
-### Next steps
+### Next step
 
 [Train a model in AI Builder](train-model.md) 
 
