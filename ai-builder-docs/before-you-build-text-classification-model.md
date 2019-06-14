@@ -87,6 +87,6 @@ Note that the tags data is separated using a vertical bar or pipe ( \| ).
 
 You’re all set—Power Query will import your data into the Common Data Service entity you have picked.
 
-### Next steps
+### Next step
 
 [Create a text classification model](create-text-classification-model.md) 
