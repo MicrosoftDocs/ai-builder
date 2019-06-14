@@ -35,9 +35,6 @@ The images you’ll feed your object detection model need these characteristics:
 
 ## Data quantity and data balance
 
-> [!NOTE]
-> For best results, use a dataset that is smaller than 1.5 GB. When your dataset exceeds 1.5 GB, AI Builder only uses 1.5 GB of your data to train and predict. Because you can’t control which data exceeding the 1.5 GB limit is not used, you should optimize your data to stay under 1.5 GB.
-
 The most important thing is to upload enough images to train your AI model. We recommend at least 50 images per product for the training set as a starting point. With fewer images, there's a strong risk that your model will learn concepts that are in fact noise or irrelevant details. Training your model with more images will generally increase the accuracy of prediction results.
 
 Another consideration is that you should make sure that your data is balanced. For instance, having 500 images for one item and 50 images for another item will produce an imbalanced training dataset, causing the model to be more accurate in predicting one item than another. You're likely to see better results if you maintain at least a 1:2 ratio between the item with the fewest images and the item with the most images. For example, if the item with the greatest number of images has 500 images, the item with the least images needs to have at least 250 images for training.

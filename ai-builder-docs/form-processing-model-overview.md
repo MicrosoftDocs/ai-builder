@@ -1,5 +1,5 @@
 ---
-title: Overview of form classification model -  AI Builder | Microsoft Docs
+title: Overview of form processing model -  AI Builder | Microsoft Docs
 description: This topic provides information about how to build and use form processing models in AI Builder.
 author: Dean-Haas
 manager: kvivek
@@ -11,7 +11,7 @@ ms.author: v-dehaas
 ms.reviewer: kvivek
 ---
 
-# Overview of form classification model
+# Overview of form processing model
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
