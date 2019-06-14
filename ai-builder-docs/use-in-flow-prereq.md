@@ -15,10 +15,11 @@ ms.reviewer: kvivek
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-Before you can use AI Builder in Microsoft Flow, you just need:
-- An account with access to Microsoft Flow
-- A trained [AI Builder model](build-model.md)
+Before you can use AI Builder in Microsoft Flow, you need:
 
-### Related topics
+- An account with access to Microsoft Flow.
+- A trained [AI Builder model](build-model.md).
+
+### Related topic
 
 [AI Builder prerequisites](build-model.md#prerequisites)
