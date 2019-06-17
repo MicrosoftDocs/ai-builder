@@ -16,11 +16,6 @@ ms.reviewer: kvivek
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
 
-<!--from editor: Changing capitalization to PowerApps admin center based on the style guide: https://styleguides.azurewebsites.net/Styleguide/Read?id=2696&topicid=40726  
-As for Power Platform, my notes say it's Admin center.
--->
-
-
 Power Platform administrators can use the [PowerApps admin center](https://admin.powerapps.com) and the [Power Platform Admin center](https://admin.powerplatform.microsoft.com) to manage environments and settings for PowerApps and AI Builder.
 
 For more information, see the [Power Platform Administrator Guide](https://docs.microsoft.com/power-platform/admin/admin-documentation).
@@ -31,9 +26,9 @@ Your AI model is deployed in the region that hosts the environment. For example,
 
 
 <!--OK to change "regions" to "countries or regions" in the following paragraph? -->
+<!--v-dehaas: Maybe better to write around it like so: -->
 
-
-Currently, AI Builder is available in the United States and Europe regions only. AI Builder features will not be available in environments created in regions other than the United States or Europe.
+Currently, AI Builder is available in the United States and Europe only. AI Builder features will not be available in environments created outside the United States or Europe.
 
 ## Enable or disable AI Builder feature
 
