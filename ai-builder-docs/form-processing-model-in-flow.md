@@ -64,11 +64,8 @@ ms.reviewer: kvivek
     > ![Parse JSON screens](media/parse-json-forms.png "Parse JSON screens")
     
 15.	In the Parse JSON screen, next to **Content**, select **Response Payload**.
-16. Select **Use sample payload to generate schema link**, paste the output from your test, and then select **Done**. 
-18.	Copy the generated schema, paste it into an editor like Visual Studio Code, replace all instances of **integer** with **number**, and then copy the modified schema back into the Parse JSON screen in Microsoft Flow. 
-
-
-<!--from editor: in the step just above, do you mean Microsoft Flow, or just a flow (lowercase)? -->
+16. Select **Use sample payload to generate schema link**, paste the output from your test, and then select **Done**.
+18.	Copy the generated schema, paste it into an editor like Visual Studio Code, replace all instances of **integer** with **number**, and then copy the modified schema back into the Parse JSON screen in Microsoft Flow.
 
     > [!div class="mx-imgBorder"]
     > ![Visual Studio  screen](media/visual-studio-replace-integer.png "Visual Studio screen")
@@ -77,10 +74,9 @@ ms.reviewer: kvivek
     > ![Paste schema](media/parse-json-schema.png "Paste schema")
 
 
-<!--from editor: Similar question here: Do you mean Microsoft Flow (always include Microsoft with Flow), or just a flow (which is lowercase)?  -->
+## Use form processing model output in Microsoft Flow
 
-## Use form processing model output in Flow
-Now you can use the output of the form processing model in subsequent actions in Flow. 
+Now you can use the output of the form processing model in subsequent actions in Microsoft Flow. 
 
 For example, to retrieve the value of a field named *Total*, you would use the following expression:  
 

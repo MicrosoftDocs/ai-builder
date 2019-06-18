@@ -29,11 +29,7 @@ Here are some of the details to help you understand the training report errors a
 
 - *Not enough relevant data to train your model*
 
-
-<!--from editor: In the below response, is it correct that you don't have **any** relevant data, or just not enough relevant data?-->
-
-
-    You don’t have any relevant data to create the model.
+    You don’t have any relevant data to train the model.
 
 ## Warnings
 
