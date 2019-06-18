@@ -18,9 +18,6 @@ ms.reviewer: kvivek
 When  you create your form processing model, you’ll need to do the following:
 
 
-
-<!--from editor: The topic describes review before select. Should numbers 2 and 3 be reversed in this list? -->
-
 1. Run analysis on your sample form documents.
 2. Select the form fields that you want the model to remember.
 3. Review your model and train it.
@@ -49,10 +46,7 @@ When enough documents have been uploaded, you select **Analyze** to launch the a
 ## Review documents and extracted data
 
 
-<!--from editor: Who is "we" in the following paragraph? Does Microsoft examine the form documents? -->
-
-
-If the analysis was successful, it means we’ve detected structured text in your form documents. If the analysis failed, it is likely because AI Builder couldn't detect structured text in your documents.
+If the analysis was successful, it means AI Builder detected structured text in your form documents. If the analysis failed, it is likely because AI Builder couldn't detect structured text in your documents.
 
  
 ## Select your form fields

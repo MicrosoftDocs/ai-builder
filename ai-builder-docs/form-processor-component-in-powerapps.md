@@ -42,6 +42,7 @@ The component is initialized after an AI model is bound to it.
     ![Form tables screen](media/form-tables.PNG "Form tables screen") 
 
 ## Additional properties
+
  - **Text**: Text that appears on the button that activates the form processor.
  - **ImageDisplayed** (“Show image” in the properties panel): Whether the component displays the image or not. When set to ON, rectangles are displayed around field values detected in the image.
 
@@ -65,11 +66,6 @@ The component is initialized after an AI model is bound to it.
  - **Y**: The distance between the top edge of the component and the top edge of the parent container (screen if no parent container).
 
 Additional design properties are available in the Advanced panel.
-
-
-
-<!--from editor: I get a 404 page with the Guidelines link and Core properties link. -->
-
 
 ## Accessibility guidelines
 These [guidelines](/powerapps/maker/canvas-apps/controls/control-button) for the PowerApps button control also apply to the form processor component.

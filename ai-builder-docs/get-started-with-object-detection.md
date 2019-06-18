@@ -23,10 +23,6 @@ ms.reviewer: kvivek
 
 ## Select object names
 
-
-<!--from editor: I get a 404 page for the Common Data Service link. -->
-
-
 In AI Builder, the first step in creating an object detection AI model is to select the names of the items you wish to detect. The names of the items you wish to detect need to be in [Common Data Service](/powerapps/maker/common-data-service/data-platform-intro). If your data is not in Common Data Service, go to the [Prerequisites](build-model.md#prerequisites) topic for information about how to import data into Common Data Service. 
 1. Select **Select Object Names** to view the entities in your environment. 
 2. In the right-side pane, find the entity that contains your object names by scrolling the list or using the search bar, and select that entity.
@@ -51,7 +47,7 @@ Now let’s move on to the image upload step in building an object detection AI 
 
 This section explains the tagging process that is required for object detection. It consists of drawing rectangles around the objects of interest and then assigning a name to the rectangle that you want the model to return.
 
-1. On the **Tag** object in your images screen, select the first image in your gallery.
+1. On the **Tag object in your images** screen, select the first image in your gallery.
 1. To draw a rectangle around an object, press and hold your mouse at the top-left corner of the object and then drag down to the bottom-right corner of the object. The rectangle should fully encompass the object you want your model to recognize.
 
    > [!div class="mx-imgBorder"]

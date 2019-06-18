@@ -17,9 +17,6 @@ ms.reviewer: kvivek
 Before you create your binary classification model, you'll want to make sure your data is in Common Data Service, and that it's in the correct format. 
 
 
-<!--note from editor: Is the following link going to work OK or should it have the full URL?-->
-
-
 ## Create your custom entity
 If you have data outside of Common Data Service that you want to import for training in AI Builder, you need to create an entity first. In this example, we’ll provide a solution that has predefined custom entities. To use your own data, [create a custom entity](/powerapps/maker/common-data-service/data-platform-create-entity) and substitute your own entity for the example used here.
 
@@ -42,10 +39,7 @@ Next, import the sample data into the entity. In this example, we use the **aib_
 1. Set the following properties, and then select **Next**:
 
 
-<!--from editor: Does the property say "On-premise"? The correct term is On-premises. -->
-
-
-    - **On-premise data gateway** = *(none)*
+    - **On-premises data gateway** = *(none)*
     - **Authentication kind** = *Anonymous*
  
 3. On the **Edit queries** screen, select **Transform table** and **Use first row as headers** in the drop-down menu, and then select **Next**.

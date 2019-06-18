@@ -23,7 +23,6 @@ If you want to use your trained model in Microsoft Flow, you can find more infor
 ## What if the model is not writing new tag suggestions? 
 
 
-<!--from editor: Does "Flow," below, refer to a flow (lowercase) or to Microsoft Flow? (It should never just be Flow for Microsoft Flow. -->
 
- - Check that you didn’t  exceed the number of Flow runs for your subscription. 
- - Turn off the Common Data Service run setting, and then turn it back on. 
+ - Check that you didn’t exceed the number of runs for your Microsoft Flow subscription.
+ - Turn off the Common Data Service run setting, and then turn it back on.

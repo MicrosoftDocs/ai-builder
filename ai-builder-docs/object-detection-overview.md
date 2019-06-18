@@ -17,10 +17,7 @@ ms.reviewer: kvivek
 
 Object detection can be used to expedite or automate business processes in multiple industries. In the retail industry, it can be used to expedite the inventory management, allowing retail leaders to focus on on-site customer relationship building. In the manufacturing industry, technicians can use it to speed up the repair process to quickly pull out the manual of a piece of machinery for which the UPC/serial number isn’t standing out.  
 
-
-<!--from editor: Below, does "their PowerApps" mean "apps created with PowerApps"? -->
-
-AI Builder object detection will allow companies of any size to add these capabilities for their own custom objects to their PowerApps.
+AI Builder object detection will allow companies of any size to add these capabilities for their own custom objects to their apps.
 
 ### Next step
 

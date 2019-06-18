@@ -34,10 +34,7 @@ Here are some of the details to help you understand the training report errors a
 ## Warnings
 
 
-<!--Is it OK to change 1000 to 1,000, or is that how the warning appears?-->
-
-
-- *Less than 1000 records provided*
+- *Less than 1,000 records provided*
 
     You have less than 1,000 records. Ideally, you should provide at least 1,000 records to train the model.
 

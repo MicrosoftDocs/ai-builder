@@ -39,17 +39,12 @@ After your model is trained, in addition to being able to quick-test it, a perfo
 If you upload fewer than 50 images for a label, you are more likely get a high score—as high as 100 percent. This doesn’t mean your model is bulletproof. It means your model has made no mistake on a subset of the images you provided, called the test set. The smaller the training set, the smaller the test set, and the more likely your model is to be right when the performance score is calculated.
 
 
-<!--from editor: Is the following sentence OK? "...performance scores are more reliable when .... and when performance scores are stable even when ..." Seems like either some words are missing or are extra. -->
 
-
-Model performance scores are more reliable when the number of images per label is greater than 50,  and when performance scores are stable even when the training set changes.
+Model performance scores are more reliable when the number of images per label is greater than 50, and when performance scores remain stable even when you change the training set.
 
 ## Publish your object detection model
 
-
-<!--from editor: Does "in a PowerApps" mean "in an app created with PowerApps"? Also, do you mean "in a flow," or "in Microsoft Flow"? -->
-
-From there, you can run more tests with other pictures. If you are happy with the results, you can [publish](publish-model.md) your model to use it in a PowerApps or Microsoft Flow.
+From there, you can run more tests with other pictures. If you are happy with the results, you can [publish](publish-model.md) your model to use it in PowerApps or Microsoft Flow.
 
 ### Related topic
 [Manage your AI model](manage-model.md)

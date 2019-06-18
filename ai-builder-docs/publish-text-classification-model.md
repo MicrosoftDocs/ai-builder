@@ -27,11 +27,8 @@ In the **Model settings** pane on the right side of the screen, you can turn on 
 For more information about publishing a model in AI Builder, see [Publish model](publish-model.md).
 
 
-<!--from editor: Does the entity below that starts with TC need the period at the end? If not, you can remove it because the sentence doesn't need it. -->
-
-
 ## Where will suggested tags be stored?
-The following entity will be created to your entity when you publish a model: **TC_{*Model_Name*}**.
+The following entity will be created to your entity when you publish a model: **TC_{*Model_Name*}**
 
 Tags will be stored in a field called **new_Tags** under this entity.
 
