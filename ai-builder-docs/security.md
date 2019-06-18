@@ -34,7 +34,7 @@ Some scenarios require at least system customizer privileges to publish AI model
 
 When you create a binary classification AI model, a new field needs to be added to the input entity to store the prediction results from the prediction. Therefore, you need at least system customizer rights to publish the model for the first time.
 
-For text classification AI models, an entity is created for every new model once the model runs for the first time. Therefore, only system customizers or administrators can run the model. After the model runs, administrators must modify the access rights to the newly created text classification entity in Common Data Service to allow users to consume the results.
+For text classification AI models, an entity is created for every new model once the model runs for the first time. Therefore, only system customizers or administrators can run the model. After the model runs, administrators must modify the access rights to the newly created text classification entity in Common Data Service to allow users to use the results.
 
 ### Related topic
 

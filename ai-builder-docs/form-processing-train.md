@@ -24,22 +24,15 @@ After you create your form processing model, you can train, test, and publish it
 
 ## Quick-test your model 
 
+The Details page allows you to test your model before you publish or use it:
 
-<!--from editor: I'd change "consume" to "use," if use is accurate. Consume sounds like eat. -->
-
-
-The Details page allows you to test your model before you publish or consume it:
-
-1. On the Details page, select **Quick test**. 
+1. On the Details page, select **Quick test**.
 2. You can either drag and drop a document, or select **Upload from my device** to upload your test file. The quick-test should only take a few seconds before displaying the results. 
 3. You can select **Start over** to run another test or **Close** if you are finished.
 
 ## Publish your model
 
-
-<!--from editor: Same comment here as above about "consume." -->
-
-If you’re happy with your model, you can select **Publish**  to publish it. When publishing completes, your model is promoted as **Published** and is ready to be consumed. For more information about publishing your model, go to [Publish your model](publish-model.md) section.
+If you’re happy with your model, you can select **Publish**  to publish it. When publishing completes, your model is promoted as **Published** and is ready to be used. For more information about publishing your model, go to [Publish your model](publish-model.md) section.
 
 After you’ve published your form processing model, you can use it in a canvas app or in Microsoft Flow.
 

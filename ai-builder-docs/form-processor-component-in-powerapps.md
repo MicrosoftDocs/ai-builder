@@ -29,14 +29,7 @@ When you add it to the screen, the component automatically opens the AI models p
 The component is initialized after an AI model is bound to it.
 
 
-<!--from editor: 
-Because there's no text following the "Properties" heading, you could just delete it and promote "Key properties" and "Additional properties" to level 2. 
-The "FormContent" bullet below ends with a colon, as if something is missing. 
--->
-
-
-## Properties
-### Key properties
+## Key properties
  - **ModelId** (“AI model” in the properties panel): AI model information to which the component is bound.
  - **OriginalImage**: The original image before processing.
  - **FormContent**: The details of extracted form fields and tables. At component initialization (AI model binding step), the potential fields and tables that can be extracted by the models are populated:
@@ -48,7 +41,7 @@ The "FormContent" bullet below ends with a colon, as if something is missing.
 
     ![Form tables screen](media/form-tables.PNG "Form tables screen") 
 
-### Additional properties
+## Additional properties
  - **Text**: Text that appears on the button that activates the form processor.
  - **ImageDisplayed** (“Show image” in the properties panel): Whether the component displays the image or not. When set to ON, rectangles are displayed around field values detected in the image.
 
