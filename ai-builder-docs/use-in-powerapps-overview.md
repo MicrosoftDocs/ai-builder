@@ -1,6 +1,6 @@
 ---
 title: Overview of AI Builder in PowerApps -  AI Builder | Microsoft Docs
-description: Provides an overview of the AI Builder components that are available to use with Canvas apps in PowerApps
+description: Provides an overview of the AI Builder components that are available to use with canvas apps in PowerApps
 author: Dean-Haas
 manager: kvivek
 ms.service: powerapps
@@ -15,13 +15,15 @@ ms.reviewer: kvivek
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-To use you AI Builder models in PowerApps, build a [model-driven app](/powerapps/maker/model-driven-apps/model-driven-app-overview), or use AI Builder components in the canvas studio to add an AI model to a [canvas app](/powerapps/maker/canvas-apps/getting-started).
+To use your AI Builder models in PowerApps, build a [model-driven app](/powerapps/maker/model-driven-apps/model-driven-app-overview) or use AI Builder components in the canvas studio to add an AI model to a [canvas app](/powerapps/maker/canvas-apps/getting-started).
 
- ![Canvas studio screen](media/canvas-studio.png "Canvas studio screen")
+> [!div class="mx-imgBorder"]
+> ![Canvas studio screen](media/canvas-studio.PNG "Canvas studio screen")
 
-These components appear in the **Insert** tab when you build your Canvas app in PowerApps.
+These components appear in the **Insert** tab when you build your canvas app in PowerApps.
 
-There are 3 components  available:
+Three components are available:
+
  - [Business card reader](business-card-reader-component-in-powerapps.md)
  - [Form processor](form-processor-component-in-powerapps.md)
  - [Object detector](object-detector-component-in-powerapps.md)

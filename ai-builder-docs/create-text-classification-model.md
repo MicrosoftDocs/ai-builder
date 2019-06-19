@@ -1,6 +1,6 @@
 ---
 title: Create a text classification model -  AI Builder | Microsoft Docs
-description: Provides step by step instructions for how to to create a text classification model
+description: Provides step-by-step instructions on how to create a text classification model
 author: Dean-Haas
 manager: kvivek
 ms.service: powerapps
@@ -17,8 +17,11 @@ ms.reviewer: kvivek
 
 Now that you have your training data in Common Data Service, you can create a new model and configure it:
 
-1. Sign in to [PowerApps](https://web.powerapps.com/), and then select **AI Builder (preview)** > **Build**.
-![Build text classification model screen](media/build-text-classification-model.png "Build text classification model screen")
+1. Sign in to [PowerApps](https://web.powerapps.com/) and then select **AI Builder (preview)** > **Build**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Build text classification model screen](media/build-text-classification-model.png "Build text classification model screen")
+
 2. Select the **Text classification** AI Builder AI model type, name your model, and then select **Create**.
 3. Select **Select text**, select the entity, and then select the field where your training text is stored.
 4. Select **Select tags**, select the field where the tags are stored, and then select the separator you used for your tags.
@@ -28,6 +31,6 @@ Now that you have your training data in Common Data Service, you can create a ne
 That's it! Now you can [train](train-text-classification-model.md) your AI model. 
 
 
-### Next steps
+### Next step
 
 [Train your text classification model](train-text-classification-model.md) 

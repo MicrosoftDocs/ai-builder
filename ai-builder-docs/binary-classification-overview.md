@@ -18,14 +18,12 @@ ms.reviewer: kvivek
 AI Builder binary classification is an AI model that predicts yes/no business outcomes by learning to associate historical data patterns with historical outcomes. Based on those results, the binary classification model detects learned patterns in new data to predict future outcomes.
 
 Use the binary classification AI model to explore any business question that is answered as one of two available options, such as yes/no, true/false, pass/fail, and go/no go. For example: 
- 
-- Which applicants may be eligible for membership?
-- Which customers may not renew their subscriptions?
-- Which leads may purchase a product or service?
-- Which accounts may not pay their invoices on-time?
+
+- Which applicants might be eligible for membership?
+- Which customers might not renew their subscriptions?
+- Which leads might purchase a product or service?
+- Which accounts might not pay their invoices on time?
 
 
 ### Next step
 [Prerequisites for binary classification](binary-classification-prereq.md) 
-
-
