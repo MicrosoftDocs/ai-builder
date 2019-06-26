@@ -1,6 +1,6 @@
 ---
 title: Collect images -  AI Builder | Microsoft Docs
-description: Provides and guidance on how to effectively to collect images to to build an object detection model AI Builder.
+description: Provides guidance on how to effectively collect images to build an object detection model in AI Builder.
 author: Dean-Haas
 manager: kvivek
 ms.service: powerapps
@@ -11,6 +11,8 @@ ms.author: v-dehaas
 ms.reviewer: kvivek
 ---
 
+
+
 # Collect images
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
@@ -19,13 +21,13 @@ In order to train an object detection model to recognize your items, you will ne
 
 ## Format and size
 
-The images you’ll feed your object detection model need to have these characteristics:
+The images you’ll feed your object detection model need these characteristics:
 
 - **Format**:
-
-  - .JPG
-  - .PNG
-  - .BMP
+  - JPG
+  - PNG
+  - BMP
+  
 - **Size**:
   - 6 MB maximum
 
@@ -37,39 +39,46 @@ Another consideration is that you should make sure that your data is balanced. F
 
 ## Use more diverse images
 
-Provide images that are representative of what will be submitted to the model during normal use. For example, if you're training a model that recognizes apples, your model might not be as accurate if you only train images of apples in plates but make predictions on images of apples on trees. Including a variety of images will make sure that your model isn't biased and can generalize well. Below are some ways you can make your training set more diverse:
+Provide images that are representative of what will be submitted to the model during normal use. For example, if you're training a model that recognizes apples, your model might not be as accurate if you only train images of apples in plates but make predictions on images of apples on trees. Including a variety of images will make sure that your model isn't biased and can generalize well. Below are some ways you can make your training set more diverse.
 
 ### Background 
 
-Provide images of your object in front of different backgrounds (that is, fruit on plate versus fruit in grocery bag). Photos in context are better than photos in front of neutral backgrounds as they provide more information for the classifier.
+Provide images of your object in front of different backgrounds (that is, fruit on plate versus fruit in grocery bag). Photos in context are better than photos in front of neutral backgrounds because they provide more information for the classifier.
 
-![Image backgrounds](media/image-background.png "Image backgrounds")
+> [!div class="mx-imgBorder"]
+> ![Image backgrounds](media/image-background.png "Image backgrounds")
 
 ### Lighting
 
-Provide images with varied lighting (that is, taken with flash, high exposure, etc.), especially if the images used for prediction have different lighting. It is also helpful to include images with varied saturation, hue, and brightness. These are all settings that your device cameras allows you to set.
-![Image lighting](media/image-lighting.png "Image lighting")
+Provide images with varied lighting (that is, taken with flash, high exposure, and so on), especially if the images used for prediction have different lighting. It is also helpful to include images with varied saturation, hue, and brightness. These are all settings that your device cameras allows you to set.
+
+> [!div class="mx-imgBorder"]
+> ![Image lighting](media/image-lighting.png "Image lighting")
 
 ### Object size
 
-Provide images in which the objects are of varied sizing capturing different parts of the object. For example, a photo of bunches of bananas and a closeup of a single banana. Different sizing helps the AI generalize better.
+Provide images in which the objects are of varied sizes, capturing different parts of the object. For example, a photo of bunches of bananas and a closeup of a single banana. Different sizing helps the AI generalize better.
 
-![Object sizes](media/image-object-size.png "Object sizes")
+> [!div class="mx-imgBorder"]
+> ![Object sizes](media/image-object-size.png "Object sizes")
 
 ### Camera angle
 
-Provide images taken with different camera angles. If all your photos are taken with a set of fixed cameras (such as surveillance cameras), make sure you assign a different label to every camera even if they capture the same objects to avoid overfitting - modeling unrelated objects (such as lampposts) as the key feature.
+Provide images taken with different camera angles. If all your photos are taken with a set of fixed cameras (such as surveillance cameras), make sure you assign a different label to every camera even if they capture the same objects to avoid overfitting—modeling unrelated objects (such as lampposts) as the key feature.
 
-![Camera angles](media/image-camera-angle.png "Camera angles")
+> [!div class="mx-imgBorder"]
+> ![Camera angles](media/image-camera-angle.png "Camera angles")
 
 ### Unexpected results
 
-Sometimes the AI model incorrectly learns characteristics that your images have in common. For example, if you are creating an AI for apples vs. citrus, and use images of apples in hands and of citrus in white plates, the AI model may train for hands vs. white plates instead of apples vs. citrus.
+Sometimes the AI model incorrectly learns characteristics that your images have in common. For example, if you are creating an AI for apples versus citrus, and use images of apples in hands and of citrus on white plates, the AI model might train for hands versus white plates instead of apples versus citrus.
 
-![Unexpected results](media/image-unexpected-results.png "Unexpected results")
-To correct this problem, use the above guidance on training with more varied images: provide images with different angles, backgrounds, object size, groups, and other variants.
+> [!div class="mx-imgBorder"]
+> ![Unexpected results](media/image-unexpected-results.png "Unexpected results")
 
-### Next steps
+To correct this, use the above guidance on training with more varied images: provide images with different angles, backgrounds, object size, groups, and other variants.
 
-[Get started](get-started-with-object-detection.md) with object detection
+### Next step
+
+[Get started](get-started-with-object-detection.md) with object detection.
 

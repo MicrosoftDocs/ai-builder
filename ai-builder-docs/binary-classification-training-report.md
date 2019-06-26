@@ -17,10 +17,11 @@ ms.reviewer: kvivek
 
 
 Here are some of the details to help you understand the training report errors and warnings. 
+
 ## Errors
 - *Not enough data to train your model*
 
-    If you only have 50 records or less, you can’t train the model. Ideally, you should have at least 1000 records or more.
+    If you only have 50 records or less, you can’t train the model. Ideally, you should have at least 1,000 records.
 
 - *Not enough examples of each historical outcome to train your model*
 
@@ -28,12 +29,14 @@ Here are some of the details to help you understand the training report errors a
 
 - *Not enough relevant data to train your model*
 
-    You don’t have any relevant data to create the model.
+    You don’t have any relevant data to train the model.
 
 ## Warnings
-- *Less than 1000 records provided*
 
-    You have less than 1000 records. Ideally, you should provide at least 1000 records to train the model.
+
+- *Less than 1,000 records provided*
+
+    You have less than 1,000 records. Ideally, you should provide at least 1,000 records to train the model.
 
 - *Some fields had low relevance*
 
@@ -41,7 +44,7 @@ Here are some of the details to help you understand the training report errors a
 
 - *Some fields were missing values*
 
-    Populate data for the data fields that have a high rate of missing values for best results. 
+    For best results, populate data for the data fields that have a high rate of missing values. 
 
 - *Some fields were dropped during training*
 

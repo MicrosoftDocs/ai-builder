@@ -17,14 +17,14 @@ ms.reviewer: kvivek
 
 1. Sign in to [Microsoft Flow](https://flow.microsoft.com/), select the **My flows** tab, and then select **Create from blank**.
 1. Enter a name for your flow. 
-1. Search for *Dynamics365*, then select **When a record is updated**.
+1. Search for *Dynamics365* and then select **When a record is updated**.
 1. Select the organization name, and then select the entity that contains your binary classification model output.
 1. Add new steps to react to updated predictions. 
 
-Congratulations! You have created a flow that leverages a binary classification AI Builder model. Select **Save** on the top right, and then select **Test** to try out your flow.
+Congratulations—you have created a flow that leverages a binary classification AI Builder model. Select **Save** on the top right, and then select **Test** to try out your flow.
 
 To learn more about the triggers and actions, go to the [Get started with Microsoft Flow](/flow/getting-started) topic.
 
-### Related topics
+### Related topic
 
 [Binary classification model overview](binary-classification-overview.md)
