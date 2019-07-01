@@ -1,5 +1,5 @@
 ---
-title: Test your form processing model -  AI Builder | Microsoft Docs
+title: Train and publish your form processing model -  AI Builder | Microsoft Docs
 description: Walks you through the steps to train, validate, and test your form processing model in AI Builder.
 author: Dean-Haas
 manager: kvivek
@@ -11,7 +11,7 @@ ms.author: v-dehaas
 ms.reviewer: kvivek
 ---
 
-# Test your form processing model
+# Train and publish your form processing model
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
