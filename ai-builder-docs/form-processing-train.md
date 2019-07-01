@@ -30,6 +30,14 @@ The Details page allows you to test your model before you publish or use it:
 2. You can either drag and drop a document, or select **Upload from my device** to upload your test file. The quick-test should only take a few seconds before displaying the results. 
 3. You can select **Start over** to run another test or **Close** if you are finished.
 
+## Troubleshooting tips
+
+If you have trouble training your model, try the following:
+
+- Optimize your data using the guidance in the [Requirements](requirements.md) topic. 
+- Delete and recreate the model. 
+- Download and test with [sample material](http://aka.ms/AIBuilderMBASLab). 
+
 ## Publish your model
 
 If you’re happy with your model, you can select **Publish**  to publish it. When publishing completes, your model is promoted as **Published** and is ready to be used. For more information about publishing your model, go to [Publish your model](publish-model.md) section.
