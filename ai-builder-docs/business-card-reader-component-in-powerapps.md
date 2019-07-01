@@ -19,6 +19,7 @@ ms.reviewer: kvivek
  > [!NOTE]
  >
  > - This component is not supported in Internet Explorer.
+ > - Import/export of PowerApps with Business Card Reader control is not currently supported.
  > - Find more information about [canvas apps](/powerapps/maker/canvas-apps/getting-started).
 
 
