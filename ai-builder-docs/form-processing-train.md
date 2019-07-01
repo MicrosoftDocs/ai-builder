@@ -34,7 +34,7 @@ The Details page allows you to test your model before you publish or use it:
 
 If you have trouble training your model, try the following:
 
-- Optimize your data using the guidance in the [Requirements](requirements.md) topic. 
+- Optimize your data using the guidance in the [Requirements](form-processing-model-requirements.md) topic. 
 - Delete and recreate the model. 
 - Download and test with [sample material](http://aka.ms/AIBuilderMBASLab). 
 
