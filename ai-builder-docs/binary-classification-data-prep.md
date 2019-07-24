@@ -7,7 +7,7 @@ ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
 ms.date: 06/13/2019
-ms.author: v-dehaas
+ms.author: peterbi
 ms.reviewer: kvivek
 ---
 
