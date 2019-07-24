@@ -1,13 +1,13 @@
 ---
 title: Understand text classification model performance -  AI Builder | Microsoft Docs
 description: Provides an understanding of how to evaluate and understand text classification model performance
-author: Dean-Haas
+author: raaourik 
 manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
 ms.date: 06/07/2019
-ms.author: v-dehaas
+ms.author: raaourik 
 ms.reviewer: kvivek
 ---
 

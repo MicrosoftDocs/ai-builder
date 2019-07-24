@@ -1,13 +1,13 @@
 ---
 title: Before you build a text classification model -  AI Builder | Microsoft Docs
 description: Describes the steps and requirements that you have to consider before you build your model.
-author: Dean-Haas
+author: raaourik 
 manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
 ms.date: 06/07/2019
-ms.author: v-dehaas
+ms.author: raaourik 
 ms.reviewer: kvivek
 ---
 

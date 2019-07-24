@@ -1,13 +1,13 @@
 ---
 title: Use form processing model in Microsoft Flow -  AI Builder | Microsoft Docs
 description: Provides information about how to use a form processing model in Microsoft Flow
-author: Dean-Haas
+author: JoeFernandezMS
 manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
 ms.date: 06/07/2019
-ms.author: v-dehaas
+ms.author: jofernan
 ms.reviewer: kvivek
 ---
 
