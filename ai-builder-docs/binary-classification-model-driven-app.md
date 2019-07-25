@@ -1,13 +1,13 @@
 ---
 title: Use your binary classification model in PowerApps -  AI Builder | Microsoft Docs
 description: Walks you through the instructions on how to use your binary classification model in a model-driven app.
-author: Dean-Haas
+author: JoeFernandezMS
 manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
 ms.date: 06/07/2019
-ms.author: v-dehaas
+ms.author: jofernan
 ms.reviewer: kvivek
 ---
 

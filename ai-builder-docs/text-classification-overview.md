@@ -1,13 +1,13 @@
 ---
 title: Overview of text classification model| Microsoft Docs
 description: Provides information about text classification models, and gives an overview of how to build and use text classification models in AI Builder. 
-author: Dean-Haas
+author: raaourik 
 manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
 ms.date: 06/07/2019
-ms.author: v-dehaas
+ms.author: raaourik 
 ms.reviewer: kvivek
 ---
 
