@@ -1,13 +1,13 @@
 ---
 title: Use text classification model in Microsoft Flow -  AI Builder | Microsoft Docs
 description: Provides information about how to use a text classification model in Microsoft Flow.
-author: Dean-Haas
+author: raaourik
 manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
 ms.date: 06/07/2019
-ms.author: v-dehaas
+ms.author: raaourik
 ms.reviewer: kvivek
 ---
 

@@ -1,13 +1,13 @@
 ---
 title: View generated predictions -  AI Builder | Microsoft Docs
 description: Provides steps to view text classification predictions after you publish your model in AI Builder.
-author: Dean-Haas
+author: raaourik 
 manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
 ms.date: 06/07/2019
-ms.author: v-dehaas
+ms.author: raaourik
 ms.reviewer: kvivek
 ---
 

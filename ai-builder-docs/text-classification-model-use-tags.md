@@ -1,13 +1,13 @@
 ---
 title: Use generated tags -  AI Builder | Microsoft Docs
 description: Provides information about how to use text classification model–generated tags, and some troubleshooting information
-author: Dean-Haas
+author: raaourik 
 manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
 ms.date: 06/07/2019
-ms.author: v-dehaas
+ms.author: raaourik 
 ms.reviewer: kvivek
 ---
 
