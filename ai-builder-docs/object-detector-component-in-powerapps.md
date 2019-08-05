@@ -37,7 +37,7 @@ The component is initialized once an AI model is bound to it.
     - **count** (populated after a detection)
 
 ### Additional properties
- - **Text**: Text that appears on the button that activates the business card reader.
+ - **Text**: Text that appears on the button that activates the object detector.
  - **ImageDisplayed** (“Show image” in the properties panel): Whether the component displays the image or not.
  - **DisplayMode**:
     - **Edit**: Allows user input.

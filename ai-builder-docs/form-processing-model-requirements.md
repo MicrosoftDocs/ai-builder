@@ -28,15 +28,13 @@ Form processing works on input documents that meet the following requirements:
 - For images, dimensions must be between 50 x 50 and 4200 x 4200 pixels.
 - If scanned from paper documents, scans should be high-quality images.
 - Must use the Latin alphabet (English characters)
-- Printed data (not handwritten)
 - Must contain keys and values (for example, “company: Contoso” works; “Contoso” without a key label is not supported). 
 - Keys can appear above or to the left of the values, but not below or to the right.
 
 ## Optimization tips
 
-- For best results, use a dataset that is smaller than 4 MB. When your dataset exceeds 4 MB, AI Builder only uses 4 MB of your data to train and predict. Because you can’t control which data exceeding the 4 MB limit is not used, you should optimize your data to stay under 4 MB.
+- When you create a new form processing model, upload documents with the same layout where each document is a separate instance. For example: invoices from the same provider, but each uploaded invoice is from a different month. 
 - You can optimize PDF files by using the **Print > Print to PDF** option to select certain pages within your document. 
-- Use a dataset that consists of related documents, such as separate instances of the same form. 
 
 
  > [!NOTE] 
