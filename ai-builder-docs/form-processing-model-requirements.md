@@ -16,7 +16,7 @@ ms.reviewer: kvivek
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
 > [!NOTE]
-> - Make sure your administrator has assigned you a security role with all organization privileges over the entity **Note** from **Core Records**, and read privilege over the entity you are using to select object names.
+> - Make sure your administrator has assigned you a security role with all organization privileges over the entity **Note** from **Core Records**.
 
 
 ## Requirements
