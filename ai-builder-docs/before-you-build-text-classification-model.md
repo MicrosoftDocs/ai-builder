@@ -23,6 +23,7 @@ Before you build your text classification model, you'll need to make sure your d
  - Make sure your administrator has assigned you a security role with read privilege over the training data.
  - You need to have a PowerApps P1 or P2 plan to be able to use AI Builder.
  - You have appropriate permissions to create entities in your Common Data Service environment.
+ - AI Builder Text Classification support the following languages: English, French, German, Dutch, Italian, Spanish and Portuguese. If you try to classify text items in other languages, your model might not work properly. 
 
 ## Data format
 
