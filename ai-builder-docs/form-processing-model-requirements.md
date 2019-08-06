@@ -42,6 +42,7 @@ Form processing works on input documents that meet the following requirements:
  > - Complex tables (nested tables, merged headers or cells, and so on)
  > - Check boxes or radio buttons
  > - PDF documents longer than 50 pages
+ > - Fillable PDFs 
 
 ### Next step
 [Create a form processing model](create-form-processing-model.md)
