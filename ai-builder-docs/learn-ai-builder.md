@@ -23,7 +23,6 @@ This page contains links to resources that you can use to gain experience with A
 AI Builder [hands-on-labs](https://aka.ms/ai-builder-labs)  walk through object detection, binary classification, text classification, form processing & business card reader scenarios in AI Builder. 
 
 The [hands-on-lab](https://aka.ms/ai-builder-labs) is contained in a zip file that contains the following folders and zip files:
-- Automated lab environment
 - Lab data
 - Lab images
 - Lab scripts
