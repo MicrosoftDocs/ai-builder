@@ -26,7 +26,7 @@ After you train your model for the first time, you can evaluate its performance 
 
 Depending on your AI model type, a performance score might appear for each version you have trained. You can use this score to quickly compare two versions of the same model. However, the score is based on the configuration for that training. It is important to take into consideration any changes made between versions when comparing scores.
 
-Each AI model type has a different explanation for how the score is calculated, and how the score should be interpreted. Select **How should I interpret this score** to learn more.
+Each AI model type has a different explanation for how the score is calculated, and how the score should be interpreted. View the tooltip next to **Performance** to learn more.
 
 Some AI model types have the option to quickly test the results of your model version with real data of your choosing. Select **Quick test** to see your model in action.
 
@@ -38,7 +38,7 @@ After you finish evaluating your newly trained model, you have two options:
 ## Edit model name
 
 1. At the top of the page, select **Settings**.
-2. In the Model settings pane on the right, under **Model name**, enter a different name.
+2. In the Model settings pane on the right, under **Name**, enter a different name. Depending on your AI model type, you may need to first select the **General** section.
 3. Select **Save** to finalize the change.
 
 ## Create a new version
@@ -66,23 +66,18 @@ Due to the experimental nature of machine learning, not all new versions you cre
 
 If you are satisfied with your model, you can [publish your model](publish-model.md) to make it available. Similarly, because you can only have  two trained versions available at a time, you can publish a version if you do not want it to be overwritten by a new version.
 
-For more information about the nuances of improving your model performance, under the **Last trained version** and in the **Tips section**, select **Improve model performance**. This tip only appears for the AI model types where it is applicable.
+For more information about the nuances of improving your model performance, see the message underneath your performance score.
 
 ## Retrain and republish existing models
+Whereas training creates a new version by updating your configuration, retraining creates a new version using the same configuration as your current version. The benefit of retraining is that it will study any new data so that your model stays accurate over time. This action is only applicable to certain AI model types.
 
 1. Sign in to [PowerApps](https://web.powerapps.com/) and then, in the navigation pane, select **AI Builder** > **Models**. 
 1. Follow the steps for your model type:
     - Binary classification and text classification models: 
 
-        In the **Performance** section, select the **…** menu to the right of **Training report**, and then select **Retrain**.
-    
-    - Object detection models:
+        In the **Performance** section, select the **…** menu, and then select **Retrain now**.
 
-        Select **New version** and then follow the on-screen instructions to train your model.
-     
-
-
-1. This replaces your last trained version. Now, publish this version.
+1. This replaces your last trained version. Now, publish this version if ready.
 
 Perform these steps on each of your AI Builder models to get your AI models up and running again.
 
