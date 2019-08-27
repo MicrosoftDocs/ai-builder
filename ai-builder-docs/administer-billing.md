@@ -1,6 +1,6 @@
 ---
-title: AI Builder Licensing- AI Builder | Microsoft Docs
-description: Provides information about licensing in AI Builder.
+title: AI Builder billing- AI Builder | Microsoft Docs
+description: Provides information about billing in AI Builder.
 author: Dean-Haas
 manager: kvivek
 ms.service: powerapps
@@ -11,7 +11,7 @@ ms.author: tatn
 ms.reviewer: kvivek
 ---
 
-# AI Builder Licensing
+# AI Builder billing
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -22,8 +22,8 @@ For more information, see the [Power Platform Administrator Guide](https://docs.
 
 ## Overview
 
-AI Builder licensing yada yada yada
+AI Builder billing yada yada yada
 
-## More information
+## Trial
 
-For detailed information about licensing, check this out...
+For detailed information about billing, check this out...
