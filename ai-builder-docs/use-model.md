@@ -35,7 +35,7 @@ Generate new predictions right away and save them to Common Data Service.
 
 Learn how to run now for your model type:
 
-* [Run your Prediction model](#)
+* [Run your Prediction model](./text-classification-model-use-tags.md)
 
 ### Create new app
 
