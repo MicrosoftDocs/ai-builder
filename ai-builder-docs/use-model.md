@@ -27,7 +27,7 @@ Create a schedule to generate predictions regularly in Common Data Service.
 
 View the scheduling options available for your model type:
 
-* [Set a run schedule for your Text Classification model](#)
+* [Set a run schedule for your Text Classification model](./text-classification-model-use-tags.md)
 
 ### Run now
 
@@ -35,7 +35,7 @@ Generate new predictions right away and save them to Common Data Service.
 
 Learn how to run now for your model type:
 
-* [Run your Prediction model](./text-classification-model-use-tags.md)
+* [Run your Prediction model](#)
 
 ### Create new app
 
