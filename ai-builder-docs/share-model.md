@@ -15,21 +15,20 @@ ms.reviewer: cdbellar
 When you create and publish AI Builder models, they remain private so only you can run them.
 This allows you to test them and use them within apps or flows.
 
-If you want other users in your organization to use your model within apps or flows, or even use direct API to make a prediction using your model, you need to share it with them.
-This applies to users creating Apps or Flows which would call your model, and also to users who would simply run these Apps or Flows. Both App Makers and App users need a shared access to your model.
+If you want other users in your organization to use your model within apps or flows, or even use direct API to make a prediction using your model, you need to share it with them. This applies to users creating apps or flows which would call your model, and also to users who would simply run these apps or flows. Both app makers and app users need a shared access to your model.
 
 ## Share action
-Share action is available in Models page for each model where you are the owner.
-It's also available if you are System admin in this environment, or other security role that was set up by your admin with the share privilege on AI Builder system entities.
 
-Share action is also available in Model Detail Page, with same rules.
+The share action is available in Models page in AI Builder for each model where you are the owner. It's also available if you are system admininstrator in the environment, or for any security role that was set up with the share privilege on AI Builder system entities by the administrator .
+
+The share action is also available on the Model detail screen in AI Builder, with same rules.
 
 ## Share panel
-When clicking the share action, a share panel is displayed. 
-It allows to select CDS users and CDS teams of your organization, and share your model with them.
-"Sharing your model" with a user means give this user or Team the ability to see and run your model.
-"Sharing your model" doesn't mean this user/team will be able to edit it, retrain it, or publish it.
-"Sharing your model" doesn't mean this user/team will be able to access the data you used to train your model.
+When you select the share action, a share panel is displayed. This is where you select CDS users and CDS teams of your organization, and share your model with them.
+
+  - "Sharing your model" with a user means give this user or Team the ability to see and run your model.
+  - "Sharing your model" doesn't mean this user/team will be able to edit it, retrain it, or publish it.
+  - "Sharing your model" doesn't mean this user/team will be able to access the data you used to train your model.
 
 ## FAQ
 1. Can I allow other users to edit my model (Share for edit/co-owner)?
