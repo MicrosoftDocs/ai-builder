@@ -34,7 +34,7 @@ Tags will be stored in a field called **new_Tags** under this entity.
 
 > [!NOTE]
 >
-> Due to the character limitation of the field name, if the provided syntax creates text that is over the character limit, AI Builder cuts off the end of the text. This means that the project name might be incomplete or missing. You should choose shorter names so everything is visible.
+> Due to the character limitation of the field name, if the provided syntax creates text that is over the character limit, AI Builder cuts off the end of the text. This means that the model name might be incomplete or missing. You should choose shorter names so everything is visible.
 
 
 ### Next step
