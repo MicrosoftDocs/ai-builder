@@ -33,7 +33,7 @@ View the scheduling options available for your model type:
 
 Generate new predictions right away and save them to Common Data Service.
 
-View more details for your model type:
+Learn how to run now for your model type:
 
 * [Run your Prediction model](#)
 
