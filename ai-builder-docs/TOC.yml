@@ -56,7 +56,7 @@
   - name: Use generated tags
     href: text-classification-model-use-tags.md
   - name: Use sample data
-    href: use-sample-data-to-do-Text-Classifications.md
+    href: use-sample-data-to-do-Text-Classification.md
 - name: Object detection AI model
   items: 
   - name: Overview
