@@ -17,8 +17,9 @@ ms.reviewer: kvivek
 
 This section shows you how to view the output of your prediction model.
  
-1. After you click on "Use Model"and configure it to run on Common Data Servicee, the output location appears in the **Settings** pane un der the **Run** pivot.
-    The name shown in **Tags output** is the name of the entity and attribute that is created after publishing. It is a link that takes you to the entity viewer section where the new fields added by AI Builder appear. 
+1. After you select **Use Model** and configure it to run on Common Data Service, the output location appears in the **Settings** pane under the **Run** pivot.
+
+The name shown in **Tags output** is the name of the entity and attribute that is created after publishing. It is a link that takes you to the entity viewer section where the new fields added by AI Builder appear. 
  
 2. In the **Views** section, view the values of the output fields for the different records. Use the **Filter by** function in the lower right-side pane to filter for only the records that do not have a label.
 
