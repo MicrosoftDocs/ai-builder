@@ -76,6 +76,8 @@
     href: create-form-processing-model.md
   - name: Train and publish your form-processing model
     href: form-processing-train.md
+  - name: Use sample data
+    href: use-sample-data-to-do-Form-Processing.md
 - name: Use AI Builder in Microsoft Flow
   items:
   - name: Overview
