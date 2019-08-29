@@ -18,6 +18,8 @@
     href: manage-model.md
   - name: Publish a model
     href: publish-model.md
+  - name: Use a model
+    href: use-model.md
 - name: Binary classification AI model
   items:
   - name: Overview 
