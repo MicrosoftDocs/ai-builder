@@ -104,6 +104,10 @@
     href: object-detector-component-in-powerapps.md
   - name: Use the business card reader component in PowerApps
     href: business-card-reader-component-in-powerapps.md
+- name: Samples
+  items:
+  - name: Sample data for AI Builder
+    href: samples.md
 - name: Administration and security
   items:
   - name: Administer AI Builder
