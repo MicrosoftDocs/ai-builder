@@ -17,7 +17,7 @@ ms.reviewer: kvivek
 
 To help you explore the possibilities of Form Processing, you can start by building and training a Form Processing model using sample invoices available at this [link](https://github.com/microsoft/PowerApps-Samples/blob/master/ai-builder/labs/AIBuilder_Lab.zip). 
 
-1. Unzip the files after the download has completed. Navigate to the following location: AIBuilder_Lab\Lab Images\FormProcessing_Invoices, in there you will see You will see two folders: train and test.
+1. Unzip the files after the download has completed. Navigate to the following location: AIBuilder_Lab\Lab Images\FormProcessing_Invoices, in there you will see two folders: train and test.
 
 2. Navigate to the AI Builder build page and pick a Form Processing model.
 
@@ -33,7 +33,7 @@ To help you explore the possibilities of Form Processing, you can start by build
 > [!div class="mx-imgBorder"]
 > ![Select fields](media/select-form-fields.png "Select fields")
 
-6. Lastly, once you have finished training the model, you can see how it works by doing a quick test using the invoice you will find on the test folder.
+6. Lastly, once you have finished training the model, you can see how it works by doing a quick test using the invoice you will find on the **test** folder.
 
 > [!div class="mx-imgBorder"]
 > ![Quick test](media/quick-test-form.png "Quick test")
