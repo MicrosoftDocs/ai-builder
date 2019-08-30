@@ -27,7 +27,7 @@ AI Builder calculates the performance score for your model based on the precisio
 
 For more information, go to [Evaluate your model](manage-model.md#evaluate-your-model).
 
-## Understand data influence for prediction models
+## Data influence for prediction models
 
 Each time you train a prediction model, AI Builder shows  a list of the most influential data fields in the training.
 
