@@ -1,6 +1,6 @@
 ---
-title: Train and publish your binary classification model -  AI Builder | Microsoft Docs
-description: Walks you through the steps needed to train your binary classification model, and leads you to the next steps. 
+title: Train and publish your prediction model -  AI Builder | Microsoft Docs
+description: Walks you through the steps needed to train your prediction model, and leads you to the next steps. 
 author: Dean-Haas
 manager: kvivek
 ms.service: powerapps
@@ -11,11 +11,11 @@ ms.author: sdarapu; mfotedar
 ms.reviewer: kvivek
 ---
 
-# Train and publish your binary classification model
+# Train and publish your prediction model
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-Before you can use your binary classification model, you have to train it to perform the way you want. After you train your model, publish it to make it available to other people.
+Before you can use your prediction model, you have to train it to perform the way you want. After you train your model, publish it to make it available to other people.
 
 ## Train
 
