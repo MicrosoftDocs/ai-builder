@@ -33,18 +33,6 @@ AI model types give you the ability to tailor a scenario to the needs of your bu
 | Object Detection  | Vision   | [Overview of object detection model](object-detection-overview.md)
 | Text Classification  |Language   | [Overview of text classification model](text-classification-overview.md)
 
-## Release status
-
-AI Builder was released for public preview on June 10, 2019 in Europe and The United States. The general availability (GA) release will occur in a staggered manner, with some features remaining in preview status while others are released for GA. 
-
-Because of technical dependencies, features will release differently in different locations.  A breakdown of release status for AI Builder features and model types in your location is available [here](https://aka.ms/ai-builder-release-status).
-
-For more information about license capacity, pricing, and restrictions, see the following topics:
-
- - [Trial licenses]()
- - [PowerApps pricing]()
- - [PowerApps licensing overview](//power-platform/admin/pricing-billing-skus)
-
 ### Related topic
 
 [Build a model](build-model.md)

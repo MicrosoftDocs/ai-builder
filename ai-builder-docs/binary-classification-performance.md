@@ -27,6 +27,12 @@ AI Builder calculates the performance score for your model based on the precisio
 
 For more information, go to [Evaluate your model](manage-model.md#evaluate-your-model).
 
+## Understand data influence for prediction models
+
+Each time you train a prediction model, AI Builder shows  a list of the most influential data fields in the training.
+
+Each field used in the training has a score to represent its influence on the training. The higher the score is, the more influential the field is. These scores combined equal 100%. This helps show whether your model is trained as you expect. For example, if you want to predict online shopper intention, and you’re expecting **Age, Product** as the most influential field, it should appear in the most influential field list on the model details page. If not, it may indicate that the training result is not as expected. In this case, please check your [training report](binary-classification-training-report.md) for details.  
+
 ### Next step
 
 [Use your published prediction model in a model-driven app](binary-classification-model-driven-app.md) 
