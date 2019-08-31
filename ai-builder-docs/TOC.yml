@@ -106,6 +106,8 @@
   items:
   - name: Administer AI Builder
     href: administer.md
+  - name: AI Builder licensing
+    href: licensing.md
   - name: Security in AI Builder
     href: security.md
     
