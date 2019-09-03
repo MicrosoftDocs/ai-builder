@@ -16,10 +16,10 @@
     href: train-model.md
   - name: Manage a model
     href: manage-model.md
-  - name: Share a model
-    href: share-model.md
   - name: Publish a model
     href: publish-model.md
+  - name: Share a model
+    href: share-model.md
 - name: Binary classification AI model
   items:
   - name: Overview 
