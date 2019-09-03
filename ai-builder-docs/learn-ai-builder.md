@@ -6,7 +6,7 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/07/2019
+ms.date: 09/05/2019
 ms.author: npouhaer; mfotedar
 ms.reviewer: kvivek
 ---
@@ -40,3 +40,5 @@ You can download and work with sample data to explore the process of creating di
 ### Object detection model sample data
 
 ### Form processing model sample data
+
+Build and train a Form Processing model using sample invoices available here.
