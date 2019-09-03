@@ -1,4 +1,4 @@
-- name: AI Builder - get started
+- name: "AI Builder: Get started"
   items:
   - name: What is AI Builder?
     href: overview.md
