@@ -1,15 +1,15 @@
-- name: AI Builder
+- name: AI Builder - Get started
   items:
   - name: What is AI Builder?
     href: overview.md
-  - name: AI model types
-    href: model-types.md
-  - name: Learn about AI Builder
+  - name: Learning resources
     href: learn-ai-builder.md
-  - name: Share your experience 
+  - name: AI Builder community
     href: share-your-experience.md
 - name: AI Models
   items:
+  - name: AI model types
+    href: model-types.md
   - name: Build a model
     href: build-model.md
   - name: Train a model
