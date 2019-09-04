@@ -1,17 +1,17 @@
 ---
-title:  Use a model in AI Builder -  AI Builder | Microsoft Docs
-description: Provides steps by step instructions about how to use your model in AI Builder.
+title:  Start using AI Builder with sample data-  AI Builder | Microsoft Docs
+description: Shows where you can obtain sample data to start using AI builder.
 author: Dean-Haas
 manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 08/27/2019
+ms.date: 09/05/2019
 ms.author: joshrenn
 ms.reviewer: kvivek
 ---
 
-# What sample data is available to use with AI Builder? 
+# Start using AI Builder with sample data
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -21,7 +21,7 @@ Don't have any data of your own to create a model? No problem! We've got you cov
 
 There is sample data available of every model type for you to use. Select one of the below to get started.
 
-* [Create a model using Form Processing sample data](#)
-* [Create a model using Object Detection sample data](#)
-* [Create a model using Prediction sample data](#)
-* [Create a model using Text Classification sample data](#)
+* [Create a model using form processing sample data](#)
+* [Create a model using object detection sample data](#)
+* [Create a model using prediction sample data](#)
+* [Create a model using text classification sample data](#)

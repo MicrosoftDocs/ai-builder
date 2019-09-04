@@ -6,7 +6,7 @@
     items:
     - name: Labs and courses
       href: learn-ai-builder.md
-    - name: Work with sample data
+    - name: Start using AI Builder with sample data
       href: samples.md
   - name: AI Builder community
     href: share-your-experience.md

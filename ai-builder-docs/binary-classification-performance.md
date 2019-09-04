@@ -27,11 +27,11 @@ Instead, AI Builder compares your model’s accuracy to a random guess model, wh
 
 After you understand the performance score, you can use it to evaluate your model Here is some general guidance:
 
-### Extremely low scores:
+### Extremely low scores
 
 If your score is less than 10%, it probably means that your training data is irrelevant or not accurate for the target you want to predict. Revisit the data and make necessary changes, and then come back to retrain.
 
-### Moderately low scores:
+### Moderately low scores
 If your score is between 10% and 50%, your model didn’t outperform the random guess. Again, this probably indicates an issue with training data. View the training details page to see if all the training rows and fields are as expected, and if so, double check the training data to make sure it’s accurate, relevant and connected.
 
 ### Good scores
