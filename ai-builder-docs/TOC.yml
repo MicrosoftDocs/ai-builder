@@ -113,4 +113,7 @@
     href: licensing.md
   - name: Security in AI Builder
     href: security.md
-    
+- name: Troubleshoot
+  items:
+  - name: Common issues and resolutions
+    href: common-issues.md
