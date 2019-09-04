@@ -46,7 +46,7 @@ After the 30-day trial expires:
 
 For more information about trial environments in PowerApps is available [here](//power-platform/admin/trial-environments).
 
-### FAQ
+### Licensing FAQs
 
 - *How do I convert my trial environment to a production environment?*
 

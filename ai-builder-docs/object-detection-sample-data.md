@@ -19,12 +19,11 @@ To explore the possibilities of object detection in AI Builder, you can get star
 
 ## Get the sample data
 
-Download the following zip files
+Download object detection sample images and labels here. 
 
-- images
-- labels
 
-Add labels in Common Data Service
+
+## Add labels in Common Data Service
 
 1. select the down arrow to expand Data in the navigation pane.
 2. Prepare an entity with one column in a text format, either by using an existing one or creating a new one
