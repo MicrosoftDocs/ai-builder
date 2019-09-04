@@ -11,7 +11,7 @@ ms.author: tatn
 ms.reviewer: kvivek
 ---
 
-# AI Builder Licensing
+# AI Builder licensing
 
 AI Builder is licensed as an add-on to your PowerApps licenses. This means you can start your AI Builder trial after you have a PowerApps license that allows you to create a Common Data Service (CDS) instance.  
 
