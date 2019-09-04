@@ -1,5 +1,5 @@
 ---
-title: Use generated tags -  AI Builder | Microsoft Docs
+title: Use model to generate tags -  AI Builder | Microsoft Docs
 description: Provides information about how to use text classification model–generated tags, and some troubleshooting information
 author: raaourik 
 manager: kvivek
@@ -11,7 +11,7 @@ ms.author: raaourik
 ms.reviewer: kvivek
 ---
 
-# Use generated tags
+# Use model to generate tags
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -19,10 +19,16 @@ ms.reviewer: kvivek
 
 If you want to use your trained model in Microsoft Flow, you can find more information in [Use text classification model in Microsoft Flow](text-classification-model-in-flow.md).
 
+## Set run schedule on Common Data Service
+
+You can set the run schedule by navigating to the “Run” pivot in the Model Settings panel. You can configure your model to run on your database to predict tags in two ways:
+1.	Generate predictions when new data is added:
+This option will trigger a first prediction run on all existing data in you Text entity and then will generate predictions whenever a new record is added to that entity.
+2.	Generate predictions regularly for all data:
+You can schedule your model to run on regular intervals (day/week/month) and generate predictions on all text data in your entity. 
+
 
 ## What if the model is not writing new tag suggestions? 
-
-
 
  - Check that you didn’t exceed the number of runs for your Microsoft Flow subscription.
  - Turn off the Common Data Service run setting, and then turn it back on.

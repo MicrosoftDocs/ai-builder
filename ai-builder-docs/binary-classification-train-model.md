@@ -1,6 +1,6 @@
 ---
-title: Train and publish your binary classification model -  AI Builder | Microsoft Docs
-description: Walks you through the steps needed to train your binary classification model, and leads you to the next steps. 
+title: Train and publish your prediction model -  AI Builder | Microsoft Docs
+description: Walks you through the steps needed to train your prediction model, and leads you to the next steps. 
 author: Dean-Haas
 manager: kvivek
 ms.service: powerapps
@@ -11,11 +11,10 @@ ms.author: sdarapu; mfotedar
 ms.reviewer: kvivek
 ---
 
-# Train and publish your binary classification model
+# Train and publish your prediction model
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-Before you can use your binary classification model, you have to train it to perform the way you want. After you train your model, publish it to make it available to other people.
+Before you can use your prediction model, you have to train it to perform the way you want. After you train your model, publish it to make it available to other people.
 
 ## Train
 
@@ -26,7 +25,11 @@ After you've selected your data fields, select **Next** to view a summary of  tr
 
 ## Publish
 
-After the model is trained, you’ll be able to [evaluate](manage-model.md#evaluate-your-model) your model performance results. Then, [publish](publish-model.md) your model, and you're good to go.
+After the model is trained, you’ll be able to [evaluate](manage-model.md#evaluate-your-model) your model performance results. Then, [publish](publish-model.md) your model to start running predictions. After that, predictions run daily.
+
+## Prediction run
+
+To start a new prediction run, go to the model settings page and select **Run now**.
 
 
 ### Related topics

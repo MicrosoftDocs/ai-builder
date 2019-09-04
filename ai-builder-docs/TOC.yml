@@ -1,15 +1,19 @@
-- name: AI Builder
+- name: "AI Builder: Get started"
   items:
   - name: What is AI Builder?
     href: overview.md
-  - name: AI model types
-    href: model-types.md
-  - name: Learn about AI Builder
-    href: learn-ai-builder.md
-  - name: Share your experience 
+  - name: Learning resources
+    items:
+    - name: Labs and courses
+      href: learn-ai-builder.md
+    - name: Start using AI Builder with sample data
+      href: samples.md
+  - name: AI Builder community
     href: share-your-experience.md
 - name: AI Models
   items:
+  - name: AI model types
+    href: model-types.md
   - name: Build a model
     href: build-model.md
   - name: Train a model
@@ -18,7 +22,9 @@
     href: manage-model.md
   - name: Publish a model
     href: publish-model.md
-- name: Binary classification AI model
+  - name: Share a model
+    href: share-model.md
+- name: Prediction AI model
   items:
   - name: Overview 
     href: binary-classification-overview.md
@@ -26,16 +32,15 @@
     href: binary-classification-prereq.md
   - name: Data preparation
     href: binary-classification-data-prep.md
-  - name: Create a binary classification model
+  - name: Create a prediction model
     href: create-binary-classification-model.md
-  - name: Train and publish your binary classification model
+  - name: Train and publish your prediction model
     href: binary-classification-train-model.md
-  - name: Understand the training report
+  - name: Errors and issues
     href: binary-classification-training-report.md
-  - name: Understand binary classification model performance
+  - name: Prediction model performance
     href: binary-classification-performance.md
-- name: Text classification AI model
-
+- name: Text classification AI model (Preview)
   items:
   - name: Overview
     href: text-classification-overview.md
@@ -55,7 +60,7 @@
     href: text-classification-view-predictions.md
   - name: Use generated tags
     href: text-classification-model-use-tags.md
-- name: Object detection AI model
+- name: Object detection AI model (Preview)
   items: 
   - name: Overview
     href: object-detection-overview.md
@@ -65,8 +70,7 @@
     href: get-started-with-object-detection.md
   - name: Train and publish your object detection model
     href: object-detection-train-model.md
-
-- name: Form processing AI model
+- name: Form processing AI model (Preview)
   items:
   - name: Overview
     href: form-processing-model-overview.md
@@ -84,7 +88,7 @@
     href: use-in-flow-overview.md
   - name: Prerequisites
     href: use-in-flow-prereq.md
-  - name: Use a binary classification model in Microsoft Flow
+  - name: Use a prediction model in Microsoft Flow
     href: binary-classification-model-in-flow.md
   - name: Use a text classification model in Microsoft Flow
     href: text-classification-model-in-flow.md
@@ -96,7 +100,7 @@
   items:
   - name: Overview
     href: use-in-powerapps-overview.md
-  - name: Use your binary classification model in PowerApps
+  - name: Use your prediction model in PowerApps
     href: binary-classification-model-driven-app.md
   - name: Use the form processor component in PowerApps
     href: form-processor-component-in-powerapps.md
@@ -108,6 +112,13 @@
   items:
   - name: Administer AI Builder
     href: administer.md
-  - name: Security in AI Builder
+  - name: Licensing
+    href: licensing.md
+  - name: Billing
+    href: licensing.md
+  - name: Security
     href: security.md
-    
+- name: Troubleshoot
+  items:
+  - name: Common issues and resolutions
+    href: common-issues.md

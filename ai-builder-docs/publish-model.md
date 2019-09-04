@@ -13,9 +13,6 @@ ms.reviewer: kvivek
 
 # Publish model 
 
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
-
 After you successfully train your model, you have to publish it if you want to make it available. All users in your current environment will be able to use your published model when you publish it.
 
 On the details page, under **Last trained version**, select **Publish**.
