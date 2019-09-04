@@ -29,19 +29,23 @@ The business card reader component takes a photo or loads an image from the loca
 
 If a business card is detected, the business card reader will try to extract the following information:
 
+ - **AddressCity**: The city address detected in the business card, if found.
+ - **AddressCountry**: The country address detected in the business card, if found.
+ - **AddressPostalCode**: The postal code address detected in the business card, if found.
+ - **AddressStreet**: The street address detected in the business card, if found.
+ - **BusinessPhone**: The first phone or fax number detected in the business card, if found.
  - **CleanedImage**: The image after processing where the business card appears cropped and enhanced from the original image.
  - **CompanyName**: The company name in the business card, if found.
  - **Department**: The organization department found in the business card, if found.
  - **Email**: The contact email found in the business card, if any.
+ - **Fax**: The third phone or fax number detected in the business card, if found.
  - **FirstName**: The contact first name in the business card, if found.
  - **FullAddress**: The contact full address in the business card, if found.
  - **FullName**: The contact full name in the business card, if found.
  - **JobTitle**: The contact job title in the business card, if found.
  - **LastName**: The contact last name in the business card, if found.
+ - **MobilePhone**: The second phone or fax number detected in the business card, if found.
  - **OriginalImage**: The original image before processing.
- - **Phone1**: The first phone or fax number detected in the business card, if found.
- - **Phone2**: The second phone or fax number detected in the business card, if found.
- - **Phone3**: The third phone or fax number detected in the business card, if found.
  - **Website**: The website detected in the business card, if found.
 
 
