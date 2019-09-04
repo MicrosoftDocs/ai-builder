@@ -33,18 +33,19 @@ What you get with an AI Builder trial license:
 > - Trial environments expire after 30 days.
 > - Your trial licenses is specific to a user, not an environment. If you already have an environment with PowerApps license (free or paid), you can use that environment or create a new one for your AI Builder trial. 
 > - Once you purchase an AI Builder license, the usage will be limited to a specific environment.
+> - Models created in your Production environment are deleted after 90 days after the trial license expires, but model configurations are saved in Common Data Service
 
 ## AI Builder paid license
 
 After the 30-day trial expires:
-- You need to purchase a license to continue using your AI models, and to assign AI credits to an environment.
+- You need to [purchase a license](//power-platform/admin/signup-for-powerapps-admin) to continue using your AI models, and to assign AI credits to an environment.
 - You can't create or modify AI Builder models, and no new inference will be possible when the trial expires if you don't purchase a license. 
-- Models created in your Production environment are deleted after 90 days after the trial license expires, but model configurations are saved in Common Data Service
+
 
 > [!NOTE]  
 > These restrictions apply only to model types that have been released to  general availability. Model types in preview release status will remain available without a license until they are released for general availability.  
 
-For more information about trial environments in PowerApps is available [here](//power-platform/admin/trial-environments).
+
 
 ### Licensing FAQs
 
@@ -59,5 +60,7 @@ https://docs.microsoft.com/en-us/powerapps/maker/signup-for-powerapps#faq
 ### More information
 
 More information about licenses and license management in PowerApps is available [here](//power-platform/admin/wp-license-management).
+
+For more information about trial environments in PowerApps is available [here](//power-platform/admin/trial-environments).
 
 [Microsoft PowerApps and Microsoft Flow Licensing Guide](http://download.microsoft.com/download/9/5/6/9568EFD0-403D-4AE4-95F0-7FACA2CCB2E4/PowerApps%20and%20Flow%20Licensing%20Guide%20-%20August.pdf)
