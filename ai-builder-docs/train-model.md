@@ -13,9 +13,6 @@ ms.reviewer: kvivek
 
 # Train a model in AI Builder
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
-
-
 Before you can use your AI model, you have to train it to perform the way you want. After you train your model,  [publish it](publish-model.md) to make it available to other people.
 
 ## Train your model

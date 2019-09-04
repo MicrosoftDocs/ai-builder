@@ -13,8 +13,6 @@ ms.reviewer: kvivek
 
 # Build a model in AI Builder 
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
-
 In AI Builder, we guide you through each step to create your AI model.
 
 > [!div class="mx-imgBorder"]

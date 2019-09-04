@@ -13,8 +13,6 @@ ms.reviewer: kvivek
 
 # Use model 
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
-
 When you publish your model, you can use it across the Power Platform to create end-to-end solutions that meet your business needs. In this topic, you'll learn all of the different ways you can use your model.
 
 ## How can I use my model?
