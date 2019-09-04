@@ -70,6 +70,8 @@
     href: get-started-with-object-detection.md
   - name: Train and publish your object detection model
     href: object-detection-train-model.md
+  - name: Use sample data
+    href: object-detection-sample-data.md
 - name: Form processing AI model (Preview)
   items:
   - name: Overview
