@@ -13,8 +13,6 @@ ms.reviewer: kvivek
 
 # Use prediction model in Microsoft Flow
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
-
 1. Sign in to [Microsoft Flow](https://flow.microsoft.com/), select the **My flows** tab, and then select **Create from blank**.
 1. Enter a name for your flow. 
 1. Search for *Dynamics365* and then select **When a record is updated**.

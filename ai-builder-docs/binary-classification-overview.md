@@ -13,8 +13,6 @@ ms.reviewer: kvivek
 
 # Overview of prediction model
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
-
 AI Builder prediction is an AI model that predicts yes/no business outcomes by learning to associate historical data patterns with historical outcomes. Based on those results, the prediction model detects learned patterns in new data to predict future outcomes.
 
 Use the prediction AI model to explore any business question that is answered as one of two available options, such as yes/no, true/false, pass/fail, and go/no go. For example: 

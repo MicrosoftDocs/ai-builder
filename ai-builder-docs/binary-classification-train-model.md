@@ -13,7 +13,6 @@ ms.reviewer: kvivek
 
 # Train and publish your prediction model
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
 Before you can use your prediction model, you have to train it to perform the way you want. After you train your model, publish it to make it available to other people.
 

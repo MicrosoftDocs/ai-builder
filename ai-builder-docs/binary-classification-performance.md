@@ -1,5 +1,5 @@
 ---
-title: Understand prediction model performance -  AI Builder | Microsoft Docs
+title: Prediction model performance -  AI Builder | Microsoft Docs
 description: Provides information to help you better understand prediction model performance, and how performance scores are calculated
 author: Dean-Haas
 manager: kvivek
@@ -11,9 +11,7 @@ ms.author: norliu
 ms.reviewer: kvivek
 ---
 
-# Understand prediction model performance
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
+# Prediction model performance
 
 After each training, AI Builder uses the test data set to evaluate the quality and accuracy of the new model. A summary page for your model shows your model training result, including a **Performance** score.  
 

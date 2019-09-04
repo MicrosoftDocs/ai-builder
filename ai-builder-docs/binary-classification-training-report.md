@@ -13,8 +13,6 @@ ms.reviewer: kvivek
 
 # Training errors and issues
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
-
 AI Builder reports error and issue messages on the model details page. These messages are explained here. 
 
 ## Errors

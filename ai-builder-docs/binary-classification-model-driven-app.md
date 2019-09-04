@@ -13,8 +13,6 @@ ms.reviewer: kvivek
 
 # Use your prediction model in PowerApps
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
-
 This topic takes you through the process of creating a model-driven app that can sort your records by the probability value in the AI model output.
 
 > [!NOTE]

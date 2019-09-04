@@ -13,7 +13,6 @@ ms.reviewer: kvivek
 
 # Data preparation
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 Before you create your prediction model, you'll want to make sure your data is in Common Data Service, and that it's in the correct format. 
 
 

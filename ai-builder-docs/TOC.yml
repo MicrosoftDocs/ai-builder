@@ -36,9 +36,9 @@
     href: create-binary-classification-model.md
   - name: Train and publish your prediction model
     href: binary-classification-train-model.md
-  - name: Understand the training report
+  - name: Errors and issues
     href: binary-classification-training-report.md
-  - name: Understand prediction model performance
+  - name: Prediction model performance
     href: binary-classification-performance.md
 - name: Text classification AI model (Preview)
   items:

@@ -13,8 +13,6 @@ ms.reviewer: kvivek
 
 # Prerequisites
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
-
 For information about AI Builder requirements that are not specific to this AI model, go to the [Prerequisites section](build-model.md#prerequisites) of this topic.
 
 ## What skills do I need?

@@ -13,8 +13,6 @@ ms.reviewer: kvivek
 
 # Schedule predictions & retrain your model
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
-
 text text text
 
 ## Schedule predictions
