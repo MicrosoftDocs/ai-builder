@@ -3,7 +3,11 @@
   - name: What is AI Builder?
     href: overview.md
   - name: Learning resources
-    href: learn-ai-builder.md
+    items:
+    - name: Labs and courses
+      href: learn-ai-builder.md
+    - name: Work with sample data
+      href: samples.md
   - name: AI Builder community
     href: share-your-experience.md
 - name: AI Models
@@ -66,7 +70,6 @@
     href: get-started-with-object-detection.md
   - name: Train and publish your object detection model
     href: object-detection-train-model.md
-
 - name: Form processing AI model (Preview)
   items:
   - name: Overview
@@ -103,10 +106,6 @@
     href: object-detector-component-in-powerapps.md
   - name: Use the business card reader component in PowerApps
     href: business-card-reader-component-in-powerapps.md
-- name: Sample data
-  items:
-  - name: Sample data for AI Builder
-    href: samples.md
 - name: Administration and security
   items:
   - name: Administer AI Builder
