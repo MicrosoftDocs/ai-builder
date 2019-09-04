@@ -29,11 +29,15 @@ What you get with an AI Builder trial license:
 - Store  your AI model results in Common Data Service
 - Use AI model results in your PowerApps, Flows, and more.
 
-> [!NOTE] 
-> - Trial environments expire after 30 days.
-> - Your trial licenses is specific to a user, not an environment. If you already have an environment with PowerApps license (free or paid), you can use that environment or create a new one for your AI Builder trial. 
-> - Once you purchase an AI Builder license, the usage will be limited to a specific environment.
-> - Models created in your Production environment are deleted after 90 days after the trial license expires, but model configurations are saved in Common Data Service
+### After the trial expires:
+
+- Trial environments expire after 30 days.
+- Your trial licenses is specific to a user, not an environment. If you already have an environment with PowerApps license (free or paid), you can use that environment or create a new one for your AI Builder trial. 
+- Once you purchase an AI Builder license, the usage will be limited to a specific environment.
+- Models created in your Production environment are deleted after 90 days after the trial license expires, but model configurations are saved in Common Data Service
+
+> [!NOTE]  
+> These restrictions apply only to model types that have been released to  general availability. Model types in preview release status will remain available without a license until they are released for general availability.  
 
 ## AI Builder paid license
 
@@ -42,8 +46,7 @@ After the 30-day trial expires:
 - You can't create or modify AI Builder models, and no new inference will be possible when the trial expires if you don't purchase a license. 
 
 
-> [!NOTE]  
-> These restrictions apply only to model types that have been released to  general availability. Model types in preview release status will remain available without a license until they are released for general availability.  
+
 
 
 
