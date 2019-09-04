@@ -113,9 +113,9 @@
   - name: Administer AI Builder
     href: administer.md
   - name: Licensing
-    href: licensing.md
+    href: administer-licensing.md
   - name: Billing
-    href: licensing.md
+    href: administer-billing.md
   - name: Security
     href: security.md
 - name: Troubleshoot

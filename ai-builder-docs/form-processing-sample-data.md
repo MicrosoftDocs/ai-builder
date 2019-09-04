@@ -6,29 +6,29 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 29/08/2019
+ms.date: 09/05/2019
 ms.author: JoeFernandezMS
 ms.reviewer: kvivek
 ---
 
-# Use sample data to do Form Processing
+# Use sample data to do form processing
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-To help you explore the possibilities of Form Processing, you can start by building and training a Form Processing model using sample invoices available at this [link](https://github.com/microsoft/PowerApps-Samples/blob/master/ai-builder/labs/AIBuilder_Lab.zip). 
+To explore the possibilities of form processing, you can get started by building and training a form processing model using  [sample invoices](https://github.com/microsoft/PowerApps-Samples/blob/master/ai-builder/labs/AIBuilder_Lab.zip). 
 
 1. Unzip the files after the download has completed. Navigate to the following location: AIBuilder_Lab\Lab Images\FormProcessing_Invoices, in there you will see two folders: train and test.
 
-2. Navigate to the AI Builder build page and pick a Form Processing model.
+2. Navigate to the AI Builder build page and select Form processing model.
 
-3. Choose a name for the Form Processing model and create your model.
+3. Choose a name for the form processing model and then create your model.
 
-4. On the first step when creating a Form Processing model, upload the 5 invoices from the **train** folder.
+4. On the first step when creating your model, upload the 5 invoices from the **train** folder.
 
 > [!div class="mx-imgBorder"]
 > ![Upload sample invoices](media/upload-forms.png "Upload sample invoices")
 
-5. Next, select the detected fields you wish your model to return.
+5. Next, select the detected fields you want your model to return.
 
 > [!div class="mx-imgBorder"]
 > ![Select fields](media/select-form-fields.png "Select fields")
