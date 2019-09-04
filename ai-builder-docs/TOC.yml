@@ -1,15 +1,15 @@
-- name: AI Builder
+- name: "AI Builder: Get started"
   items:
   - name: What is AI Builder?
     href: overview.md
-  - name: AI model types
-    href: model-types.md
-  - name: Learn about AI Builder
+  - name: Learning resources
     href: learn-ai-builder.md
-  - name: Share your experience 
+  - name: AI Builder community
     href: share-your-experience.md
 - name: AI Models
   items:
+  - name: AI model types
+    href: model-types.md
   - name: Build a model
     href: build-model.md
   - name: Train a model
@@ -18,9 +18,9 @@
     href: manage-model.md
   - name: Publish a model
     href: publish-model.md
-  - name: Use a model
-    href: use-model.md
-- name: Binary classification AI model
+  - name: Share a model
+    href: share-model.md
+- name: Prediction AI model
   items:
   - name: Overview 
     href: binary-classification-overview.md
@@ -28,16 +28,15 @@
     href: binary-classification-prereq.md
   - name: Data preparation
     href: binary-classification-data-prep.md
-  - name: Create a binary classification model
+  - name: Create a prediction model
     href: create-binary-classification-model.md
-  - name: Train and publish your binary classification model
+  - name: Train and publish your prediction model
     href: binary-classification-train-model.md
   - name: Understand the training report
     href: binary-classification-training-report.md
-  - name: Understand binary classification model performance
+  - name: Understand prediction model performance
     href: binary-classification-performance.md
 - name: Text classification AI model (Preview)
-
   items:
   - name: Overview
     href: text-classification-overview.md
@@ -84,7 +83,7 @@
     href: use-in-flow-overview.md
   - name: Prerequisites
     href: use-in-flow-prereq.md
-  - name: Use a binary classification model in Microsoft Flow
+  - name: Use a prediction model in Microsoft Flow
     href: binary-classification-model-in-flow.md
   - name: Use a text classification model in Microsoft Flow
     href: text-classification-model-in-flow.md
@@ -96,7 +95,7 @@
   items:
   - name: Overview
     href: use-in-powerapps-overview.md
-  - name: Use your binary classification model in PowerApps
+  - name: Use your prediction model in PowerApps
     href: binary-classification-model-driven-app.md
   - name: Use the form processor component in PowerApps
     href: form-processor-component-in-powerapps.md
@@ -112,6 +111,13 @@
   items:
   - name: Administer AI Builder
     href: administer.md
+  - name: Licensing
+    href: licensing.md
+  - name: Billing and metering
+    href: licensing.md
   - name: Security in AI Builder
     href: security.md
-    
+- name: Troubleshoot
+  items:
+  - name: Common issues and resolutions
+    href: common-issues.md

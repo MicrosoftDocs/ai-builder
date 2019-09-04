@@ -1,6 +1,6 @@
 ---
 title: Schedule predictions & retrain your model -  AI Builder | Microsoft Docs
-description: Walks you through the steps needed to train your binary classification model, and leads you to the next steps. 
+description: Walks you through the steps needed to train your prediction model, and leads you to the next steps. 
 author: Dean-Haas
 manager: kvivek
 ms.service: powerapps

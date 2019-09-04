@@ -13,9 +13,6 @@ ms.reviewer: kvivek
 
 # Administer AI Builder
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
-
-
 Power Platform administrators can use the [PowerApps admin center](https://admin.powerapps.com) and the [Power Platform Admin center](https://admin.powerplatform.microsoft.com) to manage environments and settings for PowerApps and AI Builder.
 
 For more information, see the [Power Platform Administrator Guide](https://docs.microsoft.com/power-platform/admin/admin-documentation).
