@@ -17,9 +17,9 @@ Don't have any data of your own to create a model? No problem! We've got you cov
 
 ## Available sample data
 
-There is sample data available of every model type for you to use. Select one of the below to get started.
+There is sample data available for each model type. Select one of the below to get started.
 
-- [Create a model using form processing sample data](#)
-- [Create a model using object detection sample data](#)
+- [Create a model using form processing sample data](ai-builder-docs\form-processing-sample-data.md)
+- [Create a model using object detection sample data](ai-builder-docs\object-detection-sample-data.md)
 - [Create a model using prediction sample data](#)
 - [Create a model using text classification sample data](#)
