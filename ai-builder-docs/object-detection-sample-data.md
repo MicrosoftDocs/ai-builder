@@ -1,50 +1,43 @@
 ---
-title: Train and publish your object detection model -  AI Builder | Microsoft Docs
+title: Use sample data to do object detection  -  AI Builder | Microsoft Docs
 description: Provides steps to train and publish your object detection model in AI Builder.
 author: amina196
 manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/07/2019
+ms.date: 09/05/2019
 ms.author: aminab
 ms.reviewer: kvivek
 ---
 
-# Train and publish your object detection model
+# Use sample data to do object detection 
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-In this section, you’ll learn how to verify your data and then how to train, test, and publish your model.
+To explore the possibilities of object detection in AI Builder, you can get started by building and training an object detection model using sample pictures and labels. 
 
-1.	On the **Train your model** screen, verify that you have the correct names and the correct number of images 
-2.	If the data is all good, select **Train** to kick off the training of your object detection model.
+## Get the sample data
 
-## Quick-test your model 
+Download the following zip files
 
-Once your model is trained, you can see it in action from its details page, which you can learn more about [here](manage-model.md).
+- images
+- labels
 
-1. From your model details page, select **Quick Test** in the **Last trained version** section. 
-2. Drag and drop or upload an image that contains your objects to test your model.
-3. Your model will be applied to the image you uploaded. This step might take a while.
-4. After your model is done running, the rectangles found will be drawn directly on the picture. 
+Add labels in Common Data Service
 
-    > [!div class="mx-imgBorder"]
-    > ![Quick-test screen](media/quick-test.png)
+1. select the down arrow to expand Data in the navigation pane.
+2. Prepare an entity with one column in a text format, either by using an existing one or creating a new one
+a. If you need to create a new entity, use this guide.
+3. Under Data > Entities > Get data.
+4. In the list of data sources, select Excel.
+5. Select Browse to upload your Excel file, and then select the sheet or sheets your data is in.
+a. You might have to allow third-party cookies for your browser to perform this step.
+6. On the Edit Queries screen, select Transform table > Use first row as headers.
+7. Select Next > Load to new entity.
+8. Use the drop-down menu to select your target entity, and then map your columns to the destination field.
+9. Hit ‘Next’
 
-## How to interpret your model performance score
-
-After your model is trained, in addition to being able to quick-test it, a performance score appears on its details page. This performance score indicates how well the model performs on the images you uploaded. This is not an indication of how well it will perform on your future images because it hasn’t seen them yet. 
-
-If you upload fewer than 50 images for a label, you are more likely get a high score—as high as 100 percent. This doesn’t mean your model is bulletproof. It means your model has made no mistake on a subset of the images you provided, called the test set. The smaller the training set, the smaller the test set, and the more likely your model is to be right when the performance score is calculated.
-
-
-
-Model performance scores are more reliable when the number of images per label is greater than 50, and when performance scores remain stable even when you change the training set.
-
-## Publish your object detection model
-
-From there, you can run more tests with other pictures. If you are happy with the results, you can [publish](publish-model.md) your model to use it in PowerApps or Microsoft Flow.
 
 ### Related topic
-[Manage your AI model](manage-model.md)
+
