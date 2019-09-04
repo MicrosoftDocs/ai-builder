@@ -47,11 +47,17 @@ For more information about trial environments, see https://docs.microsoft.com/en
 - AI Builder trial licenses is specific to a user not an environment. If you already have an environment with PowerApps license (free or paid), you can use that environment or create a new one for your AI Builder trial. Once you purchase the AI Builder license, the usage will be limited to a specific environement. 
 - If you do not have a valid PowerApps license (free or paid), you will have the opportunity to sign up for a PowerApps license first and then AI Builder trial license. 
 
-FAQ
-How do I convert my Trial environment to a Production environment? https://docs.microsoft.com/en-us/power-platform/admin/trial-environments
-What email address can I use? https://docs.microsoft.com/en-us/powerapps/maker/signup-for-powerapps#faq
+### FAQ
+
+- *How do I convert my Trial environment to a Production environment?* 
+
+https://docs.microsoft.com/en-us/power-platform/admin/trial-environments
+
+- *What email address can I use?*
+
+https://docs.microsoft.com/en-us/powerapps/maker/signup-for-powerapps#faq
 
 
-## More information
+### More information
 
 More information about licenses and license management in PowerApps is available [here](//power-platform/admin/wp-license-management).
