@@ -13,13 +13,6 @@ ms.reviewer: kvivek
 
 # AI Builder Licensing
 
-
-Power Platform administrators can use the [PowerApps admin center](https://admin.powerapps.com) and the [Power Platform Admin center](https://admin.powerplatform.microsoft.com) to manage environments and settings for PowerApps and AI Builder.
-
-For more information, see the [Power Platform Administrator Guide](https://docs.microsoft.com/power-platform/admin/admin-documentation).
-
-## Overview
-
 AI Builder is licensed as an add-on to your PowerApps licenses. This means you can start your AI Builder trial after you have a PowerApps license that allows you to create a Common Data Service (CDS) instance.  
 
 ## Trial licenses
@@ -27,20 +20,23 @@ AI Builder is licensed as an add-on to your PowerApps licenses. This means you c
 An AI Builder trial license enables you to use  AI Builder  for free for the duration of the trial period. 
 
 What you get with an AI Builder trial license:
-- Create and use AI models in any environment (trial or production) because AI Builder Trial is available at a user level, not environment level
+
+- Create and use AI models in any environment (trial or production), because the AI Builder trial license is applicable at the user level, not environment level. 
 - Store  your AI model results in Common Data Service
-- Use  AI model results in your PowerApps, Flows, and elsewhere. 
+- Use  AI model results in your PowerApps, Flows, and more.
+- Trial environments expire after 30 days.
 
-After thet trial expires:
-- You will need to sign up for a paid license to keep using your AI models and assign AI credits to an environment
-- Trial environments are not available after 30 days
-- No new model creation, and no new inference will be possible
-- Existing models will not be able to be modified
-- Models created in your Production environment will be deleted after 90 days if the trial license expires, however, model configurations will be saved in Common Data Service
-Note:  These restrictions apply only to model types that have been released to  general availability. Model types inpreview release status will remain available without a license until they are released for general availability.  
+After the 30-day trial expires:
+- You need to purchase a license to continue using your AI models, and to assign AI credits to an environment.
+- You can't create or modify AI Builder models, and no new inference will be possible when the trial expires if you don't purchase a license. 
+- Models created in your Production environment are deleted after 90 days after the trial license expires, but model configurations are saved in Common Data Service
+
+> [!NOTE]  
+> These restrictions apply only to model types that have been released to  general availability. Model types in preview release status will remain available without a license until they are released for general availability.  
 
 
-For more information about trial environments, see https://docs.microsoft.com/en-us/power-platform/admin/trial-environments
+For more information about trial environments in PowerApps is available [here](//power-platform/admin/trial-environments). 
+
 - A trial license enables you to use all AI Builder model types and functionalities for 30 days free of charge. <Sign up link when available>
 - After your trial period expires, you can’t create new models, or update existing ones until you purchase an AI Builder license. <Purchase link here when available>
 - Ai Builder model types that are in preview release status  are free to use, and you do not need to start a trial license if you are only using preview release features. For example, the text classification model type will remain in preview release status during October 2019, but binary classification (prediction) will be released to general availability status (GA). To find out the release status for AI Builder features and model types,  select<Release page>
