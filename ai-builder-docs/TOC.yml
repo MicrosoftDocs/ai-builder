@@ -20,7 +20,7 @@
     href: publish-model.md
   - name: Share a model
     href: share-model.md
-- name: Binary classification AI model
+- name: Prediction AI model
   items:
   - name: Overview 
     href: binary-classification-overview.md
@@ -37,7 +37,6 @@
   - name: Understand prediction model performance
     href: binary-classification-performance.md
 - name: Text classification AI model (Preview)
-
   items:
   - name: Overview
     href: text-classification-overview.md
