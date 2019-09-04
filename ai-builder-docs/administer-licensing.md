@@ -20,13 +20,11 @@ For more information, see the [Power Platform Administrator Guide](https://docs.
 
 ## Overview
 
-AI Builder licensing yada yada yada
+AI Builder is licensed as an add-on to your PowerApps licenses. This means you can start your AI Builder trial after you have a PowerApps license that allows you to create a Common Data Service (CDS) instance.  
 
 ## Trial licenses
 
 An AI Builder trial license enables you to use  AI Builder  for free for the duration of the trial period. 
-
-AI Builder is licensed as an add-on to your PowerApps licenses. This means you can start your AI Builder trial after you have a PowerApps license that allows you to create a Common Data Service (CDS) instance.  
 
 What you get with an AI Builder trial license:
 - Create and use AI models in any environment (trial or production) because AI Builder Trial is available at a user level, not environment level
@@ -56,4 +54,4 @@ What email address can I use? https://docs.microsoft.com/en-us/powerapps/maker/s
 
 ## More information
 
-For detailed information about licensing, check this out...
+More information about licenses and license management in PowerApps is available [here](//power-platform/admin/wp-license-management).
