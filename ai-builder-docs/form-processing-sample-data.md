@@ -17,13 +17,20 @@ ms.reviewer: kvivek
 
 To explore the possibilities of form processing, you can get started by building and training a form processing model using  [sample invoices](https://github.com/microsoft/PowerApps-Samples/blob/master/ai-builder/labs/AIBuilder_Lab.zip). 
 
-1. Unzip the files after the download has completed. Navigate to the following location: AIBuilder_Lab\Lab Images\FormProcessing_Invoices, in there you will see two folders: train and test.
+## Get the sample data
 
-2. Navigate to the AI Builder build page and select Form processing model.
+Download [AIBuilder_Lab.zip](https://github.com/microsoft/PowerApps-Samples/blob/master/ai-builder/labs/AIBuilder_Lab.zip) file, which contains object detection sample images and labels. 
+
+> [!NOTE]
+> The **AIBuilder_Lab.zip** file also contains sample files for working with other AI Builder model types, as well as some hands-on-labs that you can use to learn more about AI Builder. More information is available [here](https://github.com/microsoft/PowerApps-Samples/tree/master/ai-builder/labs), or in the **readme.txt** file contained in the zip file. 
+
+1. Unzip the files after the download has completed. Navigate to the following location: **AIBuilder_Lab\Lab Images\FormProcessing_Invoices**, in there you will see two folders: **Train** and **Test**.
+
+2. On AI Builder Build screen, select **Form processing model**.
 
 3. Choose a name for the form processing model and then create your model.
 
-4. On the first step when creating your model, upload the 5 invoices from the **train** folder.
+4. When you are prompted to upload data, upload the 5 invoices from the **Train** folder.
 
 > [!div class="mx-imgBorder"]
 > ![Upload sample invoices](media/upload-forms.png "Upload sample invoices")
@@ -33,7 +40,7 @@ To explore the possibilities of form processing, you can get started by building
 > [!div class="mx-imgBorder"]
 > ![Select fields](media/select-form-fields.png "Select fields")
 
-6. Lastly, once you have finished training the model, you can see how it works by doing a quick test using the invoice you will find on the **test** folder.
+6. After you train your model, you can see how it works by doing a quick test using the invoice in the **Test** folder that you downloaded.
 
 > [!div class="mx-imgBorder"]
 > ![Quick test](media/quick-test-form.png "Quick test")

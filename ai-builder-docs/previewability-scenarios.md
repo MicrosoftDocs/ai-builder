@@ -11,9 +11,9 @@ ms.author: antode
 ms.reviewer: kvivek
 ---
 
-# Scenario previewability
+# Preview features
 
-AI Builder has been shipped and is generally available, but some of the proposed scenarios are still in Preview mode.
+AI Builder has been shipped and is generally available, but some of it's features are still in preview status.
 You will notice them as they display a 'Preview' tag near their names 
 *in the AI Builder/ Build page
 *in the Maker Studio/ Insert / AI Builder menu
@@ -23,4 +23,5 @@ Admin of an environment can decide to hide all accesses to scenarios in preview.
 
 #FAQ
 1. What happens if a model linked to a scenario in Preview mode is created and published, then Admin decides to hide all accesses to scenarios in Preview?
+
  In that case, this model will be blocked: it cannot be edited or retrained, and it cannot be used to compute new predictions. It is displayed in list of models, but is disabled and only specific actions are allowed : delete.

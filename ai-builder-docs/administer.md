@@ -23,11 +23,10 @@ Your AI model is deployed in the region that hosts the environment. For example,
 
 Currently, AI Builder is available in United States and Europe only. AI Builder features will not be available in environments created outside United States or Europe.
 
-## Enable or disable AI Builder Model types in Preview
+## Enable or disable AI Builder preview features
 
-Some AI Builder Model types are considered as Generally Available. Others are considered in Preview mode.
-You can see the difference in 'Build' page with the preview wording attached to each Model type.
-Power Platform administrators can use the Power Platform Admin center to control whether users can create and use Models based on Model types in Preview mode.
+Some AI Builder features are released for general availability. Others are considered in preview release status.
+Preview features are shown on the build page with the **Preview** label displayed. Power Platform administrators can use the Power Platform Admin center to control whether users can create and use preview features.
 
 By default, the **AI Builder preview models** feature is set to **On** (enabled) for any eligible environment (environment must have Common Data Service and its region must be supported). If the environment is not eligible, the **AI Builder preview models** feature won't appear in the Power Platform Admin center. 
 
@@ -37,13 +36,11 @@ To control the feature availability:
 2. In the admin center, go to **Environments** > *[select an environment]* > **Settings** > **Features**.
 3. On the **Features** settings page, under **AI Builder**, enable or disable **AI Builder preview models**.  
     
+### Important points related to enabling or disabling the feature
 
-Some important points related to enabling or disabling the feature:
+- If you set **AI Builder preview models** to **Off** (disabled), it won't delete existing models that users of this environment have created. However, AI Builder components will be disabled, and existing experiences that leverage existing AI builder components will fail and/or return errors. Admin and Owners can delete AI models of this type.
 
-- If you set **AI Builder preview models** to **Off** (disabled), it won't delete existing models that users of this environment might have created. However, AI Builder components will be disabled, and existing experiences that leverage existing AI builder components will fail and/or return errors. Admin and Owners will be able to delete AI models of this type.
-
-- If you set **AI Builder preview models** back to **On** (enabled), the AI Builder components will become visible again and function as they did earlier.
-
+- If you set **AI Builder preview models** back to **On** (enabled), the AI Builder components will become visible again and function as they did before the feature was disabled, assuming nothing else is changed.
 
 For more information about enabling/disabling features in the Power Platform Admin center, see [Manage feature settings](https://docs.microsoft.com/power-platform/admin/settings-features).
 
