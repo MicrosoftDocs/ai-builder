@@ -1,5 +1,5 @@
 ---
-title: Share your processing model -  AI Builder | Microsoft Docs
+title: Share your AI model -  AI Builder | Microsoft Docs
 description: Walks you through the steps to share your model in AI Builder.
 author: Antoine2F
 manager: cdbellar
