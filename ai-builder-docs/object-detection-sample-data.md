@@ -19,23 +19,25 @@ To explore the possibilities of object detection in AI Builder, you can get star
 
 ## Get the sample data
 
-Download object detection sample images and labels here. 
+Download [AIBuilder_Lab.zip](https://github.com/microsoft/PowerApps-Samples/blob/master/ai-builder/labs/AIBuilder_Lab.zip) file, which contains object detection sample images and labels. 
 
-
+> [!NOTE]
+> The **AIBuilder_Lab.zip** file also contains sample files for working with other AI Builder model types, as well as some hands-on-labs that you can use to learn more about AI Builder. More information is available [here](https://github.com/microsoft/PowerApps-Samples/tree/master/ai-builder/labs), or in the **readme.txt** file contained in the zip file. 
 
 ## Add labels in Common Data Service
 
-1. select the down arrow to expand Data in the navigation pane.
+1. Go to [PowerApps](https://make.powerapps.com/), and then select **Data > Entities** in the left navigation pane.
 2. Prepare an entity with one column in a text format, either by using an existing one or creating a new one
-a. If you need to create a new entity, use this guide.
-3. Under Data > Entities > Get data.
-4. In the list of data sources, select Excel.
-5. Select Browse to upload your Excel file, and then select the sheet or sheets your data is in.
-a. You might have to allow third-party cookies for your browser to perform this step.
-6. On the Edit Queries screen, select Transform table > Use first row as headers.
-7. Select Next > Load to new entity.
+    - If you need to create a new entity, use [this guide](/powerapps/maker/common-data-service/data-platform-create-entity).
+3. On the top menu, select **Get data**.
+4. In the list of data sources, select **Excel**.
+5. Select **Browse** to upload your Excel file, and then select the sheet or sheets that your data is in.
+    - You might have to allow third-party cookies for your browser to perform this step.
+6. On the **Edit Queries** screen, select **Transform table > Use first row as headers**.
+7. Select **Next > Load to new entity**.
 8. Use the drop-down menu to select your target entity, and then map your columns to the destination field.
-9. Hit ‘Next’
+9. Select **Next** to finish. 
+
 
 
 ### Related topic

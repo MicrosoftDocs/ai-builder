@@ -13,15 +13,4 @@ ms.reviewer: kvivek
 
 # AI Builder billing
 
-
-Power Platform administrators can use the [PowerApps admin center](https://admin.powerapps.com) and the [Power Platform Admin center](https://admin.powerplatform.microsoft.com) to manage environments and settings for PowerApps and AI Builder.
-
-For more information, see the [Power Platform Administrator Guide](https://docs.microsoft.com/power-platform/admin/admin-documentation).
-
-## Overview
-
-AI Builder billing yada yada yada
-
-## Trial
-
-For detailed information about billing, check this out...
+AI Builder licenses are billed as an add-on to your PowerApps licenses. Information about PowerApps pricing is available [here](https://powerapps.microsoft.com/en-us/pricing/).
