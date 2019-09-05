@@ -36,6 +36,8 @@
     href: create-binary-classification-model.md
   - name: Train and publish your prediction model
     href: binary-classification-train-model.md
+  - name: Use sample data
+    href: prediction-sample-data.md
   - name: Errors and issues
     href: binary-classification-training-report.md
   - name: Prediction model performance
@@ -56,6 +58,8 @@
     href: improve-text-classification-performance.md
   - name: Publish your text classification model
     href: publish-text-classification-model.md
+  - name: Use sample data
+    href: text-classification-sample-data.md
   - name: View generated predictions
     href: text-classification-view-predictions.md
   - name: Use generated tags
