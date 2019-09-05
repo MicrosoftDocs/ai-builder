@@ -19,7 +19,7 @@ If you want other users in your organization to use your model in apps or flows,
 
 ## Share action
 
-The share action is available on the Models page in AI Builder for each model where you are the owner. It's also available if you are system admininstrator in the environment, or for any security role that was set up with the share permissions on AI Builder system entities by the administrator .
+The share action is available on the Models page in AI Builder for each model where you are the owner. It's also available if you are system admininistrator in the environment, or for any security role that was set up with the share permissions on AI Builder system entities by the administrator .
 
 The share action is also available on the Model detail screen in AI Builder, with same rules.
 
@@ -30,6 +30,14 @@ When you select the share action, a share panel is displayed. This is where you 
   - "Sharing your model" with a user means give this user or team the ability to see and run your model.
   - "Sharing your model" doesn't mean this user/team will be able to edit it, retrain it, or publish it.
   - "Sharing your model" doesn't mean this user/team will be able to access the data you used to train your model.
+
+## Model list pivots
+The models you created and the models which were shared with you are now available in Model list under 2 different pivots:
+  -My models
+  -Shared with me
+If you are an Administrator of the environment, you will also be able to see all models under 'Shared with me' pivot, whether explicitely shared or not.
+When a model is shared with you, you have 'User' permission on it, so you can use it in Apps or Flow. You cannot view details, or edit it: you cannot perform any action from a model in this list.
+It may happen that as Administrator, or as Owner of a model, you only have the Delete action available: that means that this model type is not supported any more, likely because it was in preview and Administrator has chosen to disable models in preview. (see   Administer AI Builder -> Enable or disable AI Builder preview features)
 
 ## FAQ
 
