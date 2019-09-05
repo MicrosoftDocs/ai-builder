@@ -15,26 +15,23 @@ ms.reviewer: kvivek
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-To explore the possibilities of text classification in AI Builder, you can get started by building and training an text classification model using sample data. 
+To explore the possibilities of text classification in AI Builder, you can get started by building and training an text classification model using sample data. The sample data we provide uses customer feedback for a hospital. The goal would be to train a model that would be able to automatically predict categories for new incoming feedback. This could be used to help the hospital administrator free up time from categorizing patient feedback to act on it and offer a better experience to patients.
 
-## Get the sample data
+## Set up an environment with data
 
-Download [AIBuilder_Lab.zip](https://github.com/microsoft/PowerApps-Samples/blob/master/ai-builder/labs/AIBuilder_Lab.zip) file, which contains text classification sample images and labels. 
+1. Download [AIBuilder_Lab.zip](https://github.com/microsoft/PowerApps-Samples/blob/master/ai-builder/labs/AIBuilder_Lab.zip) file, which contains text classification sample data. 
 
 > [!NOTE]
 > The **AIBuilder_Lab.zip** file also contains sample files for working with other AI Builder model types, as well as some hands-on-labs that you can use to learn more about AI Builder. More information about the contents of the zip file  is available [here](https://github.com/microsoft/PowerApps-Samples/tree/master/ai-builder/labs), or in the **readme.txt** file contained in the zip file. 
 
-## Instructions
+2. Import the **AIBuildetTextSample_1_0_0** solution to your CDS environment [learn more](https://docs.microsoft.com/en-us/power-platform/admin/wp-solution-packages).
+3. Upload data from **sampleData.zip** to the healthcare_feedback entity following these [instructions](before-you-build-text-classification-model.md).
 
-1. Import the AIBuildetTextSample_1_0_0 solution to your CDS environment learn more.
-1. Upload data from sampleData.zip to the healthcare_feedback entity following these instructions.
-1. Once you’re done importing data, you can start the Text Classification wizard to create a model:
-1. Navigate to the AI Builder build page and pick a Text Classification model.
-1. Choose a name for the Text Classification model and create your model.
-1. Select Text: pick the healthcare_feedback entity and the “text” attribute.
-1. Select Tags: choose the “tags” attribute.
-1. Choose “English” as the language for classification.
-1. Click on train.
+## Create your model
 
-
-
+1. Navigate to the AI Builder build screen, and select **Text classification**.
+2. Choose a name, and then create your model.
+3. Select **Text:** pick the **healthcare_feedback** entity and the **text** attribute.
+4. Select **Tags:** choose the **tags** attribute.
+5. Choose **English** as the language for classification.
+6. Select **Train** to train your model.
