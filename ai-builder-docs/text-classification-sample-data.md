@@ -15,7 +15,7 @@ ms.reviewer: kvivek
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-To explore the possibilities of text classification in AI Builder, you can get started by building and training an text classification model using sample pictures and labels. 
+To explore the possibilities of text classification in AI Builder, you can get started by building and training an text classification model using sample data. 
 
 ## Get the sample data
 
