@@ -39,10 +39,6 @@ Learn how to run now for your model type:
 
 Insert an AI Builder component to a canvas app. See [AI Builder in PowerApps overview](use-in-powerapps-overview.md).
 
-### Create new flow
-
-Use your model in a prebuilt template in Microsoft Flow. See [AI Builder in Microsoft Flow overview](./use-in-flow-overview.md).
-
 ### Related topics
 
 [Use AI Builder in Flow](use-in-flow-overview.md) <br>
