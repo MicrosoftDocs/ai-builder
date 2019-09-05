@@ -13,7 +13,7 @@ ms.reviewer: kvivek
 
 # Start using AI Builder with sample data
 
-Don't have any data of your own to create a model? No problem! We've got you covered. You can [configure your new environment to deploy sample data automatically](build-model.md) when you create it, or you can download sample data and follow the instructions to work with it.
+Don't have any data of your own to create a model? No problem! We've got you covered. 
 
 ## Get sample data
 
