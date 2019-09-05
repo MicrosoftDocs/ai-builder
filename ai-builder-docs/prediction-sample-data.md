@@ -13,8 +13,6 @@ ms.reviewer: kvivek
 
 # Use sample data to do prediction 
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
-
 To explore the possibilities of prediction in AI Builder, you can get started by building and training an prediction model using sample pictures and labels. 
 
 ## Get the sample data
