@@ -6,7 +6,7 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/07/2019
+ms.date: 09/06/2019
 ms.author: joshrenn
 ms.reviewer: kvivek
 ---
@@ -28,10 +28,10 @@ AI model types give you the ability to tailor a scenario to the needs of your bu
 
 | AI model type  | Category  | Start here
 |---|---|---|
-| binary classification   | binary classification  | [Overview of binary classification model](binary-classification-overview.md)
-| Form Processing  | Vision   | [Overview of form classification model](form-processing-model-overview.md)
-| Object Detection  | Vision   | [Overview of object detection model](object-detection-overview.md)
-| Text Classification  |Language   | [Overview of text classification model](text-classification-overview.md)
+| Binary classification   | Binary classification  | [Overview of binary classification model](binary-classification-overview.md)
+| Form processing  | Vision   | [Overview of form classification model](form-processing-model-overview.md)
+| Object detection  | Vision   | [Overview of object detection model](object-detection-overview.md)
+| Text classification  |Language   | [Overview of text classification model](text-classification-overview.md)
 
 ### Related topic
 
