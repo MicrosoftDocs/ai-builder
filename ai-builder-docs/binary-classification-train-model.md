@@ -30,8 +30,8 @@ After the model is trained, you’ll be able to [evaluate](manage-model.md#evalu
 
 To start a new binary classification run, go to the model settings page and select **Run now**.
 
-
 ### Related topics
 
-[Train your model](train-model.md) <br>
+[Train your model](train-model.md)
+
 [Publish your model](publish-model.md)

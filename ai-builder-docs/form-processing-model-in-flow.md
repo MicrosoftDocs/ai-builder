@@ -16,14 +16,15 @@ ms.reviewer: kvivek
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
  > [!IMPORTANT]
- > Currently, to use AI Builder models in a flow, you must create the flow in a solution. More information: [Create a flow in a solution](/flow/create-flow-solution).   
+ > Currently, to use AI Builder models in a flow, you must create the flow in a solution. More information: [Create a flow in a solution](/flow/create-flow-solution).
 
 ## Create your flow
+
 1. Sign in to [Microsoft Flow](https://flow.microsoft.com/), select the **My flows** tab, and then select **Create from blank**.
 2. Search for *manually*, select **Manually trigger a flow** in the list of triggers, and then select **+Add an input**.
-5. Select **File** and set **My Document** as input title. 
+3. Select **File** and set **My Document** as input title.
 4. Select **+ New step**, search for **Predict**, and then select **Predict Common Data Service (current Environment)** in the list of actions.
-8. Select the form processing model you want to use, and specify the following as **Request Payload**:
+6. Select the form processing model you want to use, and specify the following as **Request Payload**:
     
     -	For a .jpeg image of the form:
 
@@ -45,18 +46,18 @@ ms.reviewer: kvivek
 
     - In the formula bar on the right, replace **EXPRESSION** with the following expression:
     
-        string(triggerBody()?['file']?['contentBytes']) 
+        string(triggerBody()?['file']?['contentBytes'])
 
         > [!div class="mx-imgBorder"]
         > ![Replace expression screens](media/replace-expression.png "Replace expression screens")
     
- > [!NOTE] 
+ > [!NOTE]
  > Depending on which connector the file comes from, the expression will need to be enclosed by base64() instead of string().
 
 ## Test and edit your flow
 
 1. Select **Test** on the upper right, select **I’ll perform the trigger action**,  and then select **Save & Test**.
-10.	Import a document that can be processed by your trained form processing model and then select **Run flow**. 
+10.	Import a document that can be processed by your trained form processing model and then select **Run flow**.
 12.	Copy the results to an editor like Visual Studio Code and remove all the " \\" characters.
 13.	Back on the Flow editor,  select **+ New step**, search for **Parse JSON**, and then select **Parse JSON – Data Operations** from the list of actions.
 
@@ -73,10 +74,9 @@ ms.reviewer: kvivek
     > [!div class="mx-imgBorder"]
     > ![Paste schema](media/parse-json-schema.png "Paste schema")
 
-
 ## Use form processing model output in Microsoft Flow
 
-Now you can use the output of the form processing model in subsequent actions in Microsoft Flow. 
+Now you can use the output of the form processing model in subsequent actions in Microsoft Flow.
 
 For example, to retrieve the value of a field named *Total*, you would use the following expression:  
 
@@ -84,13 +84,13 @@ For example, to retrieve the value of a field named *Total*, you would use the f
         body('Parse_JSON')?['predictionOutput']?['labels']?['Total']?['value']
 ```
 
-To iterate over tables, put the entries value on an *Apply to each*' loop. To access the value of a column named *Amount*—for instance, inside the table—use the expression: 
+To iterate over tables, put the entries value on an *Apply to each*' loop. To access the value of a column named *Amount*—for instance, inside the table—use the expression:
     
 ```json
-        items('Apply_to_each')?['Amount']?['value'] 
+        items('Apply_to_each')?['Amount']?['value']
 
 ```
-Congratulations! You have created a flow that leverages an AI Builder form processing model. Select **Save** on the top right, and then select **Test** to try out your flow. 
+Congratulations! You have created a flow that leverages an AI Builder form processing model. Select **Save** on the top right, and then select **Test** to try out your flow.
 
 ### Related topic
 [Form processing model overview](form-processing-model-overview.md)

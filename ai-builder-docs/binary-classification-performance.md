@@ -32,6 +32,7 @@ After you understand the performance score, you can use it to evaluate your mode
 If your score is less than 10%, it probably means that your training data is irrelevant or not accurate for the target you want to predict. Revisit the data and make necessary changes, and then come back to retrain.
 
 ### Moderately low scores
+
 If your score is between 10% and 50%, your model didn’t outperform the random guess. Again, this probably indicates an issue with training data. View the training details page to see if all the training rows and fields are as expected, and if so, double check the training data to make sure it’s accurate, relevant and connected.
 
 ### Good scores
@@ -54,4 +55,5 @@ Each field used in the training has a score to represent its influence on the tr
 ### Next steps
 
 [Evaluate your model](manage-model.md#evaluate-your-model)
+
 [Use your published binary classification model in a model-driven app](binary-classification-model-driven-app.md) 

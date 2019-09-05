@@ -12,7 +12,7 @@ ms.reviewer: kvivek
 ---
 
 
-# Use the business card reader component in PowerApps 
+# Use the business card reader component in PowerApps
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -21,7 +21,6 @@ ms.reviewer: kvivek
  > - This component is not supported in Internet Explorer.
  > - Import/export of PowerApps with Business Card Reader control is not currently supported.
  > - Find more information about [canvas apps](/powerapps/maker/canvas-apps/getting-started).
-
 
 The business card reader component takes a photo or loads an image from the local device, and then scans it to find a business card. If it detects a business card, it extracts the information it finds.
 
@@ -48,14 +47,13 @@ If a business card is detected, the business card reader will try to extract the
  - **OriginalImage**: The original image before processing.
  - **Website**: The website detected in the business card, if found.
 
-
 ## Additional properties
 
  - **Text**: Text that appears on the button that activates the business card reader.
  - **ImageDisplayed** (“Show image” in the properties panel): Whether the component displays the image.
  - **DisplayMode**:
     - **Edit**: Allows user input.
-    - **View**: Only displays data. 
+    - **View**: Only displays data.
     - **Disabled**: Is disabled.
  - **Height**: The height of the component.
  - **Visible**: Whether the component appears or is hidden.
@@ -65,12 +63,9 @@ If a business card is detected, the business card reader will try to extract the
 
 Additional design properties are available in the **Advanced** panel.
 
-
-
 ## Accessibility guidelines
+
 These [guidelines](/powerapps/maker/canvas-apps/controls/control-button) for the PowerApps button control also apply to the form processor component.
-
-
 
 ### Related topic
 [Core properties in PowerApps](/powerapps/maker/canvas-apps/controls/properties-core)

@@ -22,8 +22,9 @@ Form processing allows you to create and use models that use machine learning te
 After your model is trained and [published](publish-model.md), you can use it in the AI Builder [form processor control](form-processor-component-in-powerapps.md) available in PowerApps canvas or through [Microsoft Flow](form-processing-model-in-flow.md).
 
 ### Next step
+
 [Create a form processing model](create-form-processing-model.md)
 
 ### Related topic
-[AI model types](model-types.md)
 
+[AI model types](model-types.md)

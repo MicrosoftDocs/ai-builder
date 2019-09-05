@@ -17,12 +17,10 @@ ms.reviewer: kvivek
 
 When  you create your form processing model, you’ll need to do the following:
 
-
 1. Run analysis on your sample form documents.
 2. Select the form fields that you want the model to remember.
 3. Review your model and train it.
 4. Evaluate your model (optional)
-
 
 ## Upload and analyze documents
 
@@ -45,10 +43,8 @@ When enough documents have been uploaded, you select **Analyze** to launch the a
 
 ## Review documents and extracted data
 
-
 If the analysis was successful, it means AI Builder detected structured text in your form documents. If the analysis failed, it is likely because AI Builder couldn't detect structured text in your documents, review that the documents you updated follow the [requirements and optimizations tips section](https://docs.microsoft.com/en-us/ai-builder/form-processing-model-requirements) 
 
- 
 ## Select your form fields
 
 To start, choose the fields that matter to you:
@@ -69,5 +65,6 @@ To start, choose the fields that matter to you:
 
 ### Related topics
 
-[Form processing model in Flow](form-processing-model-in-flow.md) </br>
+[Form processing model in Flow](form-processing-model-in-flow.md)
+
 [Form processing model in PowerApps](form-processor-component-in-powerapps.md)
