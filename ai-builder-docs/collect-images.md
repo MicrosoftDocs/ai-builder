@@ -33,7 +33,7 @@ The images you’ll feed your object detection model need these characteristics:
 
 ## Data quantity and data balance
 
-The most important thing is to upload enough images to train your AI model. We recommend at least 50 images per product for the training set as a starting point. With fewer images, there's a strong risk that your model will learn concepts that are in fact noise or irrelevant details. Training your model with more images will generally increase the accuracy of prediction results.
+The most important thing is to upload enough images to train your AI model. We recommend at least 50 images per product for the training set as a starting point. With fewer images, there's a strong risk that your model will learn concepts that are in fact noise or irrelevant details. Training your model with more images will generally increase the accuracy of binary classification results.
 
 Another consideration is that you should make sure that your data is balanced. For instance, having 500 images for one item and 50 images for another item will produce an imbalanced training dataset, causing the model to be more accurate in predicting one item than another. You're likely to see better results if you maintain at least a 1:2 ratio between the item with the fewest images and the item with the most images. For example, if the item with the greatest number of images has 500 images, the item with the least images needs to have at least 250 images for training.
 
@@ -50,7 +50,7 @@ Provide images of your object in front of different backgrounds (that is, fruit 
 
 ### Lighting
 
-Provide images with varied lighting (that is, taken with flash, high exposure, and so on), especially if the images used for prediction have different lighting. It is also helpful to include images with varied saturation, hue, and brightness. These are all settings that your device cameras allows you to set.
+Provide images with varied lighting (that is, taken with flash, high exposure, and so on), especially if the images used for binary classification have different lighting. It is also helpful to include images with varied saturation, hue, and brightness. These are all settings that your device cameras allows you to set.
 
 > [!div class="mx-imgBorder"]
 > ![Image lighting](media/image-lighting.png "Image lighting")

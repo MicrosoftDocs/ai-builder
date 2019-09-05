@@ -1,6 +1,6 @@
 ---
 title: Training errors and issues| Microsoft Docs
-description: Describes the errors and issues that appear the prediction model details page
+description: Describes the errors and issues that appear the binary classification model details page
 author: Dean-Haas
 manager: kvivek
 ms.service: powerapps
@@ -49,5 +49,5 @@ These messages don't prevent you from continuing to train and publish your model
 
 - ***\<EntityName>.\<AttributeName>** has **\<ThresholdValue>** percent correlation <CorrelationName> with <OutcomeAttributeName> and model might suspect to cause target leak.*
 
-    Data fields that have a high correlation with prediction outcome are dropped in model training.
+    Data fields that have a high correlation with binary classification outcome are dropped in model training.
 

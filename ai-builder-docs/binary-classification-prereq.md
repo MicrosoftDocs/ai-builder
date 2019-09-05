@@ -1,6 +1,6 @@
 ---
-title: prediction model prerequisites -  AI Builder | Microsoft Docs
-description: Describes what you should know, and what data you need before you can build a prediction model in AI Builder.
+title: Binary classification model prerequisites -  AI Builder | Microsoft Docs
+description: Describes what you should know, and what data you need before you can build a binary classification model in AI Builder.
 author: Dean-Haas
 manager: kvivek
 ms.service: powerapps
@@ -17,9 +17,9 @@ For information about AI Builder requirements that are not specific to this AI m
 
 ## What skills do I need?
 
-- The person creating the prediction model should know enough about the business in question to understand the meaning of a dataset.
+- The person creating the binary classification model should know enough about the business in question to understand the meaning of a dataset.
 
-- Because no coding is needed to create an AI model in AI Builder, you do not need to be a developer or data scientist to use the AI Builder prediction model. If you are not familiar with a certain concept, select the **Tips** and **Help** links in AI Builder.
+- Because no coding is needed to create an AI model in AI Builder, you do not need to be a developer or data scientist to use the AI Builder binary classification model. If you are not familiar with a certain concept, select the **Tips** and **Help** links in AI Builder.
 
 ## What data do I need?
 
@@ -30,7 +30,7 @@ For information about AI Builder requirements that are not specific to this AI m
 
 ## Sample data
 
-To help you get started quickly with prediction, use the sample datasets available at <https://github.com/microsoft/PowerApps-Samples/tree/master/ai-builder>.
+To help you get started quickly with binary classification, use the sample datasets available at <https://github.com/microsoft/PowerApps-Samples/tree/master/ai-builder>.
 
 ### Next step
 

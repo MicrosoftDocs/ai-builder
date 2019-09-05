@@ -27,7 +27,7 @@ You might have a lot of correctly labeled training data. You might have added a 
 
  - Validate the data fields that you selected to train the AI model don't have a high rate of missing values. 
  - Populate missing values with a default value or remove the data field from the model training. 
- - If a data field has a high correlation with a prediction outcome, remove the data field from the model training.
+ - If a data field has a high correlation with a binary classification outcome, remove the data field from the model training.
 
 Cleaning your data can avoid some types of training errors and improve model performance. Here are some additional pointers:
 

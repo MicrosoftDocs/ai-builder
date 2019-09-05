@@ -1,6 +1,6 @@
 ---
-title: Use sample data to do prediction  -  AI Builder | Microsoft Docs
-description: Provides steps to create a prediction model in AI Builder using sample data provided by Microsoft.
+title: Use sample data to do binary classification  -  AI Builder | Microsoft Docs
+description: Provides steps to create a binary classification model in AI Builder using sample data provided by Microsoft.
 author: amina196
 manager: kvivek
 ms.service: powerapps
@@ -11,13 +11,13 @@ ms.author: aminab
 ms.reviewer: kvivek
 ---
 
-# Use sample data to do prediction
+# Use sample data to do binary classification
 
-To explore the possibilities of prediction in AI Builder, you can get started by building and training an prediction model using sample data.
+To explore the possibilities of binary classification in AI Builder, you can get started by building and training an binary classification model using sample data.
 
 ## Get the sample data
 
-Download [AIBuilder_Lab.zip](https://github.com/microsoft/PowerApps-Samples/blob/master/ai-builder/labs/AIBuilder_Lab.zip) file, which contains prediction sample images and labels.
+Download [AIBuilder_Lab.zip](https://github.com/microsoft/PowerApps-Samples/blob/master/ai-builder/labs/AIBuilder_Lab.zip) file, which contains binary classification sample images and labels.
 
 > [!NOTE]
 > The **AIBuilder_Lab.zip** file also contains sample files for working with other AI Builder model types, as well as some hands-on-labs that you can use to learn more about AI Builder. More information about the contents of the zip file is available [here](https://github.com/microsoft/PowerApps-Samples/tree/master/ai-builder/labs), or in the **readme.txt** file contained in the zip file.

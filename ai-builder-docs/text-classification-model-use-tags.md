@@ -23,7 +23,7 @@ If you want to use your trained model in Microsoft Flow, you can find more infor
 
 You can set the run schedule by navigating to the “Run” pivot in the Model Settings panel. You can configure your model to run on your database to predict tags in two ways:
 1.	Generate predictions when new data is added:
-This option will trigger a first prediction run on all existing data in you Text entity and then will generate predictions whenever a new record is added to that entity.
+This option will trigger a first binary classification run on all existing data in you Text entity and then will generate predictions whenever a new record is added to that entity.
 2.	Generate predictions regularly for all data:
 You can schedule your model to run on regular intervals (day/week/month) and generate predictions on all text data in your entity. 
 

@@ -29,7 +29,7 @@ For more information, see [Introduction to Solutions](//powerapps/developer/comm
 
 ## Limitations
 
-- Only prediction models can be distributed through solutions.
+- Only binary classification models can be distributed through solutions.
 - Only published/scheduled models can be distributed through solutions.
-- When adding a prediction model in a solution, the output entity used by the model needs to be added in the same solution. 
+- When adding a binary classification model in a solution, the output entity used by the model needs to be added in the same solution. 
 

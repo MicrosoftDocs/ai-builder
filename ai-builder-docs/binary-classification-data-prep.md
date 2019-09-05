@@ -13,7 +13,7 @@ ms.reviewer: kvivek
 
 # Data preparation
 
-Before you create your prediction model, you'll want to make sure your data is in Common Data Service, and that it's in the correct format. 
+Before you create your binary classification model, you'll want to make sure your data is in Common Data Service, and that it's in the correct format. 
 
 
 ## Create your custom entity
@@ -55,4 +55,4 @@ And you're done!
  
 
 ### Next step
-[Create a prediction model](create-binary-classification-model.md) 
+[Create a binary classification model](create-binary-classification-model.md) 

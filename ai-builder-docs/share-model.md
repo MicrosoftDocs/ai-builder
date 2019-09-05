@@ -15,7 +15,7 @@ ms.reviewer: cdbellar
 
 When you create and publish AI  models in AI Builder, they are private - only you can run them. This allows you to test them and use them within apps or flows.
 
-If you want other users in your organization to use your model in apps or flows, or even use a direct API to make a prediction using your model, you have to share it. This applies to users creating apps or flows which would call your model, and also to users who would simply run these apps or flows. Both app makers and app users need a shared access to your model.
+If you want other users in your organization to use your model in apps or flows, or even use a direct API to make a binary classification using your model, you have to share it. This applies to users creating apps or flows which would call your model, and also to users who would simply run these apps or flows. Both app makers and app users need a shared access to your model.
 
 ## Share action
 
