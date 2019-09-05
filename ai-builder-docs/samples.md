@@ -21,5 +21,5 @@ There is sample data available for each model type, and instructions on how to w
 
 - [Create a model using form processing sample data](form-processing-sample-data.md)
 - [Create a model using object detection sample data](object-detection-sample-data.md)
-- [Create a model using binary classification sample data](binary classification-sample-data.md)
+- [Create a model using binary classification sample data](binary-classification-sample-data.md)
 - [Create a model using text classification sample data](text-classification-sample-data.md)
