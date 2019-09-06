@@ -17,9 +17,6 @@ When you create and publish AI  models in AI Builder, they are private - only yo
 
 If you want other users in your organization to use your model in apps or flows, or even use a direct API to make a prediction using your model, you have to share it. This applies to users creating apps or flows which would call your model, and also to users who would simply run these apps or flows. Both app makers and app users need a shared access to your model.
 
- - When you share a model with a user who doesn't have access the data you used for training, you give some clue about what the training data was.
-
-
 ## Share action
 
 The share action is available on the Models page in AI Builder for each model where you are the owner. It's also available if you are system administrator in the environment, or for any security role that was set up with the share permissions on AI Builder system entities by the administrator.
@@ -70,6 +67,6 @@ We added this additional step to help with privacy concerns, and to allow a mode
 
  You need to reassign this model to another user. Reassign means changing ownership in the advanced settings of your organization in AI Builder.  You also need to give  access to data used to train the model.
 
-- *Can I disable this Sharing feature for AI Model Makers and only allow Administrators to perform it?*
+- *Can I disable the sharing feature for AI model makers and only allow Administrators to perform it?*
 
 Yes, as administrator you can create in advanced settings of your organization a security role where Share privilege is disabled on "AI Model" custom entity and gives AI Model makers this role.
