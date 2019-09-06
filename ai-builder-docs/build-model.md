@@ -37,7 +37,7 @@ Sample data and information on how to work with it is available [here](samples.m
 To get started:
 
 1. Sign in to [PowerApps](https://web.powerapps.com).
-2. In the left navigation bar, select **AI Builder (preview)** > **Build**.
+2. In the left navigation bar, select **AI Builder ** > **Build**.
 3. Under **Make your own AI model**, select an AI model type.
 4. Type a model name and select **Create**.
 

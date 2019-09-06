@@ -17,7 +17,7 @@ When you create and publish AI  models in AI Builder, they are private - only yo
 
 If you want other users in your organization to use your model in apps or flows, or even use a direct API to make a binary classification using your model, you have to share it. This applies to users creating apps or flows which would call your model, and also to users who would simply run these apps or flows. Both app makers and app users need a shared access to your model.
 
- - When you share a model with a user, who had no access write to the data you used for training, you give some clue about what the training data was.
+ - When you share a model with a user who doesn't have access the data you used for training, you give some clue about what the training data was.
 
 
 ## Share action
