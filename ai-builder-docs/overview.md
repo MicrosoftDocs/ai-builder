@@ -47,10 +47,6 @@ Using AI is easy thanks to integration with PowerApps and Microsoft Flow. Adding
 1. **Train your AI model**: Training is an automatic process where AI Builder “teaches” your AI model how to resolve your business problem (for example, recognize your products on an image) thanks to your business data and tailoring. When trained, your AI model can generate insights, such as the result of a prediction or the list and number of objects detected in an image. 
 1. **Use your AI model’s insights**: Use the results from your AI model across Power Platform to create end-to-end solutions that meet your business needs, even if you have no coding skills.  For example, create a flow that automates document processing in Microsoft Flow, or an app created with PowerApps that predicts whether a supplier will be out of compliance.
 
-### Next step
-
-[AI model types](model-types.md)
-
 ### Related topics
 
 [AI Builder Release Plan](/power-platform-release-plan/2019wave2/ai-builder/planned-features)
