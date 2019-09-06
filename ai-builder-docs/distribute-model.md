@@ -19,7 +19,7 @@ You can distribute an AI model as a solution component. After you create a model
 
 PowerApps provides a solution explorer that allows you to create solutions and add components such as AI models to them. The solution explorer also allows you to export and import solutions.
 
-For more information see [Use solutions in PowerApps](/powerapps/maker/common-data-service/use-solution-explorer). 
+For more information see [Use solutions in PowerApps](/powerapps/maker/common-data-service/use-solution-explorer).
 
 ## Recommended process
 
@@ -31,5 +31,4 @@ For more information, see [Introduction to Solutions](/powerapps/developer/commo
 
 - Only binary classification models can be distributed through solutions.
 - Only published/scheduled models can be distributed through solutions.
-- When adding a binary classification model in a solution, the output entity used by the model needs to be added in the same solution. 
-
+- When adding a binary classification model in a solution, the output entity used by the model needs to be added.
