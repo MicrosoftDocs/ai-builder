@@ -13,11 +13,11 @@ ms.reviewer: kvivek
 
 # AI Builder licensing
 
-AI Builder is licensed as an add-on to your PowerApps licenses. This means you can start your AI Builder trial after you have a PowerApps license that allows you to create a Common Data Service (CDS) instance.  
+AI Builder is licensed as an add-on to your PowerApps or Flow licenses. This means you can start your AI Builder trial after you have a PowerApps or Flow license that allows you to create a Common Data Service (CDS) instance.  
 
 ## Preview features
 
-AI Builder features that are in preview release status are free to use. You do not need to obtain a license to use preview features in AI Builder
+AI Builder features that are in preview release status are free to use. You do not need to obtain a license to use preview features in AI Builder.
 
 ## Trial licenses
 
@@ -29,10 +29,12 @@ What you get with an AI Builder trial license:
 - Store  your AI model results in Common Data Service
 - Use AI model results in your PowerApps, Flows, and more.
 
+> [!NOTE]
+> Your trial licenses is specific to a user, not an environment. If you already have an environment with PowerApps license (free or paid), you can use that environment or create a new one for your AI Builder trial.
+
 ### After the trial expires:
 
 - Trial environments expire after 30 days.
-- Your trial licenses is specific to a user, not an environment. If you already have an environment with PowerApps license (free or paid), you can use that environment or create a new one for your AI Builder trial. 
 - Once you purchase an AI Builder license, the usage will be limited to environments where the administrator allocates AI capacity.
 
 > [!NOTE]  
@@ -41,6 +43,7 @@ What you get with an AI Builder trial license:
 ## AI Builder paid license
 
 After the 30-day trial expires:
+
 - You need to [purchase a license](/power-platform/admin/signup-for-powerapps-admin) to continue using your AI models, and to assign AI credits to an environment.
 - You can't create or modify AI Builder models, and no new inference will be possible when the trial expires if you don't purchase a license.
 
