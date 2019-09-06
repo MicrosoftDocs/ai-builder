@@ -72,7 +72,7 @@ Whereas training creates a new version by updating your configuration, retrainin
 
 1. Sign in to [PowerApps](https://web.powerapps.com/) and then, in the navigation pane, select **AI Builder** > **Models**.
 1. Follow the steps for your model type:
-    - Binary classification and text classification models:
+    - Prediction and text classification models:
 
         In the **Performance** section, select the **…** menu, and then select **Retrain now**.
 
