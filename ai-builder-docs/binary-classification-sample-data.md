@@ -13,9 +13,8 @@ ms.reviewer: kvivek
 
 # Use sample data to do binary classification
 
-To explore the possibilities of binary classification in AI Builder, you can get started by building and training an binary classification model using sample data.
+To explore the possibilities of binary classification in AI Builder, you can get started by building and training an binary classification model using sample data provided by Microsoft.
 
 ## Get the sample data
 
 You can [configure your new environment](build-model.md) to deploy sample data automatically when you create it, or you can use the AI Builder samples stored on GitHub, and follow the instructions in the [Data preparation](binary-classification-data-prep.md) topic to import the sample data into your Common Data Service environment, then follow the [Create a binary classification model](create-binary-classification-model.md) to create an AI model using the sample data.
-

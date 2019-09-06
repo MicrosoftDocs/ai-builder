@@ -13,8 +13,6 @@ ms.reviewer: kvivek
 
 # Manage a model in AI Builder
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
-
 Creating the optimal model for your business can be a rather iterative process. Results may vary depending on the configurations you set and the training data you provide. Thus, updating either or both of those factors could improve your model performance. In some cases, however, there is a chance the performance may degrade. Each AI model type has a set of guidelines to help walk you through the process of creating the best model, tailored to your needs.
 
 > [!div class="mx-imgBorder"]
@@ -51,7 +49,7 @@ When you create a new version, your model is based on the configuration from an 
 
 > [!div class="mx-imgBorder"]
 > ![New version menu](media/new-version-menu.png "New version menu")
- 
+
 A new version is created only after you have successfully trained it. If you leave without finishing your changes and training your model, your progress is saved as a draft. Certain actions, such as creating a new version or retraining, may be disabled until you train or discard your draft. You can only have one draft available at a time, so you have to select **Resume draft** to pick up where you left off, or **Discard draft** to get rid of the changes before you can continue.
 
 After training, your training results appear under the **Last trained version** section of the **Details** page.
@@ -69,11 +67,12 @@ If you are satisfied with your model, you can [publish your model](publish-model
 For more information about the nuances of improving your model performance, see the message underneath your performance score.
 
 ## Retrain and republish existing models
+
 Whereas training creates a new version by updating your configuration, retraining creates a new version using the same configuration as your current version. The benefit of retraining is that it will study any new data so that your model stays accurate over time. This action is only applicable to certain AI model types.
 
-1. Sign in to [PowerApps](https://web.powerapps.com/) and then, in the navigation pane, select **AI Builder** > **Models**. 
+1. Sign in to [PowerApps](https://web.powerapps.com/) and then, in the navigation pane, select **AI Builder** > **Models**.
 1. Follow the steps for your model type:
-    - Binary classification and text classification models: 
+    - Binary classification and text classification models:
 
         In the **Performance** section, select the **…** menu, and then select **Retrain now**.
 
