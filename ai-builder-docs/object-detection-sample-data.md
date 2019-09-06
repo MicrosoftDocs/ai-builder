@@ -27,7 +27,7 @@ Download [AIBuilder_Lab.zip](https://go.microsoft.com/fwlink/?linkid=2103171) fi
 ## Add labels in Common Data Service
 
 1. Go to [PowerApps](https://make.powerapps.com/), and then select **Data > Entities** in the left navigation pane.
-2. Prepare an entity with one column in a text format, either by using an existing one or creating a new one
+2. Prepare an entity with one column in a text format, either by using an existing one or creating a new one.
     - If you need to create a new entity, use [this guide](/powerapps/maker/common-data-service/data-platform-create-entity).
 3. On the top menu, select **Get data**.
 4. In the list of data sources, select **Excel**.
