@@ -15,8 +15,8 @@ ms.reviewer: kvivek
 
 This example creates a PowerApps prediction AI model that uses the *online shopper intention* Common Data Service entity.  To get this sample data into your Common Data Service environment. enable the **Deploy sample apps and data** setting when you create an environment as described [here](build-model.md). Or, follow the more detailed instructions [here](binary-classification-data-prep.md). After your sample data is in Common Data Service, follow these steps to create your model:
 
-1. Sign in to [PowerApps](https://web.powerapps.com) and then select **AI Builder ** > **Build**.
-2. Select **prediction**. Enter a model name and then select **Create**.
+1. Sign in to [PowerApps](https://web.powerapps.com) and then select **AI Builder > Build**.
+2. Select **Prediction**. Enter a model name and then select **Create**.
 3. Select **Online shopper intention** as the entity, and **Label** as the field.
 
 ## Select the data fields to train your model
@@ -25,7 +25,7 @@ After you select the **Entity** and **Label** fields and map your outcome, the n
 
 ### Data field selection considerations
 
-- Make sure you select the data fields that you want to use in training the model. 
+- Make sure you select the data fields that you want to use in training the model.
 - Deselect the data fields that do not address the problem you want to solve.
 - Deselect the data fields that might carry unwanted bias.
 - Make sure the data fields you select don't have a high rate of missing values. If it is a valuable data field, you can assign a default value.

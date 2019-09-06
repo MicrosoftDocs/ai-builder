@@ -19,7 +19,7 @@ After each training, AI Builder uses the test data set to evaluate the quality a
 
 AI Builder calculates the performance score for your model based on the accuracy of the prediction results. This score shows how accurate your prediction is compared to a random guess. A  guess is correct 50% of the time, which means your model needs to score more than 50% to be better than a  guess.
 
-Ai Builder performance scores do not correleate directly with the percentage of accurate predictions. That’s because you may be trying to identify a small percentage of occurrences – for example fraudulent transactions. If the actual fraud rate is 5%, and your model classifies 100% of transactions as valid, it would have a 95% rate accuracy, while failing 100% of the time to predict fraud.
+AI Builder performance scores do not correleate directly with the percentage of accurate predictions. That’s because you may be trying to identify a small percentage of occurrences – for example fraudulent transactions. If the actual fraud rate is 5%, and your model classifies 100% of transactions as valid, it would have a 95% rate accuracy, while failing 100% of the time to predict fraud.
 
 Instead, AI Builder compares your model’s accuracy to a random guess model, which takes into account the data distribution in the training set. Using 50% as the baseline for a guess, your model needs to score consistently higher than 50% to be useful.
 
@@ -41,8 +41,7 @@ If your score is between 50% and 98%, you need to evaluate the model and decide 
 
 ### Very high scores
 
-If your score higher than 98%, it probably means that you already have the answer in your training data. Just check the most influential data in your model result page. And if you see there’s one field that has extremely high impact (say 99%), and the rest field all have very low impact (less than 1%). It means the most influential field could be revealing the “answers” you’re trying to predict. It’s suggested to start a new version of model, deselect the most influential field and do the training again. 
-
+If your score higher than 98%, it probably means that you already have the answer in your training data. Just check the most influential data in your model result page. And if you see there’s one field that has extremely high impact (say 99%), and the rest field all have very low impact (less than 1%). It means the most influential field could be revealing the “answers” you’re trying to predict. It’s suggested to start a new version of model, deselect the most influential field and do the training again.
 
 For more information, go to [Evaluate your model](manage-model.md#evaluate-your-model).
 

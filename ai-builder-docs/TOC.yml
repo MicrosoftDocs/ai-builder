@@ -43,7 +43,7 @@
     href: binary-classification-train-model.md
   - name: Use sample data
     href: binary-classification-sample-data.md
-  - name: Errors and issues
+  - name: Training errors and issues
     href: binary-classification-training-report.md
   - name: Prediction model performance
     href: binary-classification-performance.md

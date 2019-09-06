@@ -13,7 +13,7 @@ ms.reviewer: kvivek
 
 # Prerequisites
 
-For information about AI Builder requirements that are not specific to this AI model, go to the [Prerequisites section](build-model.md#prerequisites) of this topic.
+For information about AI Builder requirements that are not specific to this AI model, go to [this topic](build-model.md#prerequisites).
 
 ## What skills do I need?
 
@@ -25,7 +25,7 @@ For information about AI Builder requirements that are not specific to this AI m
 
 - Your data must be in Common Data Service. For more information, go to the [Common Data Service](/powerapps/maker/common-data-service/data-platform-intro) section of PowerApps on Microsoft Docs.
 - Make sure your administrator has assigned you a security role with read privilege over your data.
-- You need at least 10 records of historical outcome for each class of the **Label** data field to train the model and predict the outcome. 
+- You need at least 10 records of historical outcome for each class of the **Label** data field to train the model and predict the outcome.
 - The minimum for training is 50 records, but for best results you should have at least 1,000 records. 
 
 ## Sample data
