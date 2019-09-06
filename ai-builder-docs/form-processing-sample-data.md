@@ -15,14 +15,15 @@ ms.reviewer: kvivek
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-To explore the possibilities of form processing, you can get started by building and training a form processing model using  [sample invoices](https://github.com/microsoft/PowerApps-Samples/blob/master/ai-builder/labs/AIBuilder_Lab.zip). 
+To explore the possibilities of form processing, you can get started by building and training a form processing model using  [sample invoices](https://go.microsoft.com/fwlink/?linkid=2103171). 
 
 ## Get the sample data
 
-Download [AIBuilder_Lab.zip](https://github.com/microsoft/PowerApps-Samples/blob/master/ai-builder/labs/AIBuilder_Lab.zip) file, which contains object detection sample images and labels. 
+Download [AIBuilder_Lab.zip](https://go.microsoft.com/fwlink/?linkid=2103171) file, which contains object detection sample images and labels. 
 
 > [!NOTE]
-> The **AIBuilder_Lab.zip** file also contains sample files for working with other AI Builder model types, as well as some hands-on-labs that you can use to learn more about AI Builder. More information about the contents of the zip file is available [here](https://github.com/microsoft/PowerApps-Samples/tree/master/ai-builder/labs), or in the **readme.txt** file contained in the zip file. 
+> The **AIBuilder_Lab.zip** file also contains sample files for working with other AI Builder model types, as well as some hands-on-labs that you can use to learn more about AI Builder. More information about the contents of the zip file is available [here](
+https://go.microsoft.com/fwlink/?linkid=2103171), or in the **readme.txt** file contained in the zip file. 
 
 ## Build your model
 

@@ -42,7 +42,7 @@ What you get with an AI Builder trial license:
 ## AI Builder paid license
 
 After the 30-day trial expires:
-- You need to [purchase a license](//power-platform/admin/signup-for-powerapps-admin) to continue using your AI models, and to assign AI credits to an environment.
+- You need to [purchase a license](/power-platform/admin/signup-for-powerapps-admin) to continue using your AI models, and to assign AI credits to an environment.
 - You can't create or modify AI Builder models, and no new inference will be possible when the trial expires if you don't purchase a license. 
 
 
@@ -54,16 +54,20 @@ After the 30-day trial expires:
 
 - *How do I convert my trial environment to a production environment?*
 
-https://docs.microsoft.com/en-us/power-platform/admin/trial-environments
+More information is available [here](/power-platform/admin/trial-environments)
 
 - *What email address can I use?*
 
-https://docs.microsoft.com/en-us/powerapps/maker/signup-for-powerapps#faq
+More information is available [here](/powerapps/maker/signet-for-powerapps#faq)
+
+- *Where can I find more information about license management in PowerApps?*
+
+More information about licenses and license management in PowerApps is available [here](/power-platform/admin/wp-license-management).
+
+- *Where can I find more information about trial environments?*
+
+For more information about trial environments in PowerApps read this [topic](/power-platform/admin/trial-environments).
 
 ### More information
-
-More information about licenses and license management in PowerApps is available [here](//power-platform/admin/wp-license-management).
-
-For more information about trial environments in PowerApps is available [here](//power-platform/admin/trial-environments).
 
 [Microsoft PowerApps and Microsoft Flow Licensing Guide](http://download.microsoft.com/download/9/5/6/9568EFD0-403D-4AE4-95F0-7FACA2CCB2E4/PowerApps%20and%20Flow%20Licensing%20Guide%20-%20August.pdf)

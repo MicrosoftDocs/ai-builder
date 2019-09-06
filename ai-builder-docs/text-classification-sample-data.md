@@ -11,7 +11,7 @@ ms.author: aminab
 ms.reviewer: kvivek
 ---
 
-# Use sample data to do text classification 
+# Use sample data to do text classification
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -19,10 +19,11 @@ To explore the possibilities of text classification in AI Builder, you can get s
 
 ## Set up an environment with data
 
-1. Download [AIBuilder_Lab.zip](https://github.com/microsoft/PowerApps-Samples/blob/master/ai-builder/labs/AIBuilder_Lab.zip) file, which contains text classification sample data. 
+1. Download [AIBuilder_Lab.zip](https://go.microsoft.com/fwlink/?linkid=2103171) file, which contains text classification sample data.
 
 > [!NOTE]
-> The **AIBuilder_Lab.zip** file also contains sample files for working with other AI Builder model types, as well as some hands-on-labs that you can use to learn more about AI Builder. More information about the contents of the zip file  is available [here](https://github.com/microsoft/PowerApps-Samples/tree/master/ai-builder/labs), or in the **readme.txt** file contained in the zip file. 
+> The **AIBuilder_Lab.zip** file also contains sample files for working with other AI Builder model types, as well as some hands-on-labs that you can use to learn more about AI Builder. More information about the contents of the zip file  is available [here](
+https://go.microsoft.com/fwlink/?linkid=2103171), or in the **readme.txt** file contained in the zip file.
 
 2. Import the **AIBuildetTextSample_1_0_0** solution to your CDS environment [learn more](https://docs.microsoft.com/en-us/power-platform/admin/wp-solution-packages).
 3. Upload data from **sampleData.zip** to the healthcare_feedback entity following these [instructions](before-you-build-text-classification-model.md).

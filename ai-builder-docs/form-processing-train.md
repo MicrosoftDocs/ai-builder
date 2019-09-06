@@ -36,13 +36,13 @@ If you have trouble training your model, try the following:
 
 - Optimize your data using the guidance in the [Requirements](form-processing-model-requirements.md) topic.
 - Delete and recreate the model.
-- Download and test with [sample material](http://aka.ms/AIBuilderMBASLab).
+- Download and test with [sample material](https://go.microsoft.com/fwlink/?linkid=2103171).
 
 ## Publish your model
 
 If you’re happy with your model, you can select **Publish**  to publish it. When publishing completes, your model is promoted as **Published** and is ready to be used. For more information about publishing your model, go to [Publish your model](publish-model.md) section.
 
-After you’ve published your form processing model, you can use it in a [PowerApps canvas app](https://docs.microsoft.com/en-us/ai-builder/form-processor-component-in-powerapps) or in [Microsoft Flow](https://docs.microsoft.com/en-us/ai-builder/form-processing-model-in-flow).
+After you’ve published your form processing model, you can use it in a [PowerApps canvas app](/ai-builder/form-processor-component-in-powerapps) or in [Microsoft Flow](/ai-builder/form-processing-model-in-flow).
 
 ### Related topics
 

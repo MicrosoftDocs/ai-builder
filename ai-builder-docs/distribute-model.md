@@ -19,13 +19,13 @@ You can distribute an AI model as a solution component. After you create a model
 
 PowerApps provides a solution explorer that allows you to create solutions and add components such as AI models to them. The solution explorer also allows you to export and import solutions.
 
-For more information see [Use solutions in PowerApps](//powerapps/maker/common-data-service/use-solution-explorer). 
+For more information see [Use solutions in PowerApps](/powerapps/maker/common-data-service/use-solution-explorer). 
 
 ## Recommended process
 
 AI models should be developed in a production sandbox environment and deployed in a production environment using managed solutions. You shouldn't do any training or configuration changes of AI models after you import them to a production environment. Doing so would add unmanaged customizations which would prevent proper update of the AI models in the future.
 
-For more information, see [Introduction to Solutions](//powerapps/developer/common-data-service/introduction-solutions).
+For more information, see [Introduction to Solutions](/powerapps/developer/common-data-service/introduction-solutions).
 
 ## Limitations
 

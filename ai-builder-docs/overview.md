@@ -27,19 +27,19 @@ More information: [Enable or disable AI Builder feature](administer.md#enable-or
 
 ## Release status
 
-AI Builder was released for public preview on June 10, 2019 in Europe and The United States. The general availability (GA) release will occur in a staggered manner, with some features remaining in preview status while others are released for GA. 
+AI Builder was released for public preview on June 10, 2019 in Europe and The United States. The general availability (GA) release will occur in a staggered manner, with some features remaining in preview status while others are released for GA.
 
 Because of technical dependencies, features will release differently in different locations.  A breakdown of release status for AI Builder features and model types in your location is available [here](https://go.microsoft.com/fwlink/?linkid=2102828).
 
 For more information about license capacity, pricing, and restrictions, see the following topics:
 
- - [Trial environments](https://docs.microsoft.com/en-us/power-platform/admin/trial-environments)
- - [PowerApps pricing](https://docs.microsoft.com/en-us/power-platform/admin/signup-for-powerapps-admin)
- - [PowerApps licensing overview](//power-platform/admin/pricing-billing-skus)
+ - [Trial environments](/power-platform/admin/trial-environments)
+ - [PowerApps pricing](/power-platform/admin/signup-for-powerapps-admin)
+ - [PowerApps licensing overview](/power-platform/admin/pricing-billing-skus)
 
 ## How can I add intelligence to my apps?
 
-Using AI is easy thanks to integration with PowerApps and Microsoft Flow. Adding intelligence to your business is as simple as this: 
+Using AI is easy thanks to integration with PowerApps and Microsoft Flow. Adding intelligence to your business is as simple as this:
 
 1. **Choose AI model type**: Use the model type that suits your business need. Choose from a growing set of AI turnkey solutions.
 1. **Connect data**: Select your business-specific data from Common Data Service. AI Builder does the hard work for you thanks to the Common Data Model. 
@@ -49,10 +49,12 @@ Using AI is easy thanks to integration with PowerApps and Microsoft Flow. Adding
 
 ### Next step
 
-[AI model types](model-types.md) 
+[AI model types](model-types.md)
 
 ### Related topics
 
-[AI Builder Release Plan](/power-platform-release-plan/2019wave2/ai-builder/planned-features)<br/>
-[PowerApps docs](https://docs.microsoft.com/powerapps/)<br/>
+[AI Builder Release Plan](/power-platform-release-plan/2019wave2/ai-builder/planned-features)
+
+[PowerApps docs](https://docs.microsoft.com/powerapps/)
+
 [Microsoft Flow docs](https://docs.microsoft.com/flow/getting-started)

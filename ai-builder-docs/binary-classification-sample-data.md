@@ -17,4 +17,4 @@ To explore the possibilities of binary classification in AI Builder, you can get
 
 ## Get the sample data
 
-You can [configure your new environment](build-model.md) to deploy sample data automatically when you create it, or you can use the AI Builder samples stored on GitHub, and follow the instructions in the [Data preparation](binary-classification-data-prep.md) topic to import the sample data into your Common Data Service environment, then follow the [Create a binary classification model](create-binary-classification-model.md) to create an AI model using the sample data.
+You can [configure your new environment](build-model.md) to deploy sample data automatically when you create it, or you can use the AI Builder samples stored [here](https://github.com/microsoft/PowerApps-Samples/tree/master/ai-builder), and follow the instructions in the [Data preparation](binary-classification-data-prep.md) topic to import the sample data into your Common Data Service environment, then follow the [Create a binary classification model](create-binary-classification-model.md) instructions to create an AI model using the sample data.
