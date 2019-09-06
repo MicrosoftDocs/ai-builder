@@ -1,6 +1,6 @@
 ---
 title: Binary classification model performance -  AI Builder | Microsoft Docs
-description: Provides information to help you better understand binary classification model performance, and how performance scores are calculated
+description: Provides information to help you better understand prediction model performance, and how performance scores are calculated
 author: Dean-Haas
 manager: kvivek
 ms.service: powerapps
@@ -17,7 +17,7 @@ After each training, AI Builder uses the test data set to evaluate the quality a
 
 ## Performance scores
 
-AI Builder calculates the performance score for your model based on the accuracy of the binary classification results. This score shows how accurate your binary classification is compared to a random guess. A  guess is correct 50% of the time, which means your model needs to score more than 50% to be better than a  guess.
+AI Builder calculates the performance score for your model based on the accuracy of the prediction results. This score shows how accurate your prediction is compared to a random guess. A  guess is correct 50% of the time, which means your model needs to score more than 50% to be better than a  guess.
 
 Ai Builder performance scores do not correleate directly with the percentage of accurate predictions. That’s because you may be trying to identify a small percentage of occurrences – for example fraudulent transactions. If the actual fraud rate is 5%, and your model classifies 100% of transactions as valid, it would have a 95% rate accuracy, while failing 100% of the time to predict fraud.
 
@@ -46,9 +46,9 @@ If your score higher than 98%, it probably means that you already have the answe
 
 For more information, go to [Evaluate your model](manage-model.md#evaluate-your-model).
 
-## Data influence for binary classification models
+## Data influence for prediction models
 
-Each time you train a binary classification model, AI Builder shows  a list of the most influential data fields in the training.
+Each time you train a prediction model, AI Builder shows  a list of the most influential data fields in the training.
 
 Each field used in the training has a score to represent its influence on the training. The higher the score is, the more influential the field is. These scores combined equal 100%. This helps show whether your model is trained as you expect. For example, if you want to predict online shopper intention, and you’re expecting **Age, Product** as the most influential field, it should appear in the most influential field list on the model details page. If not, it may indicate that the training result is not as expected. In this case, please check your [training report](binary-classification-training-report.md) for details.  
 
@@ -56,4 +56,4 @@ Each field used in the training has a score to represent its influence on the tr
 
 [Evaluate your model](manage-model.md#evaluate-your-model)
 
-[Use your published binary classification model in a model-driven app](binary-classification-model-driven-app.md) 
+[Use your published prediction model in a model-driven app](binary-classification-model-driven-app.md) 

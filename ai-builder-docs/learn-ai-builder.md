@@ -17,7 +17,7 @@ This page contains links to resources that you can use to gain experience with A
 
 ## Hands-on-labs
 
-AI Builder [hands-on-labs](https://go.microsoft.com/fwlink/?linkid=2103171)  walk through object detection, binary classification, text classification, form processing & business card reader scenarios in AI Builder.
+AI Builder [hands-on-labs](https://go.microsoft.com/fwlink/?linkid=2103171)  walk through object detection, prediction, text classification, form processing & business card reader scenarios in AI Builder.
 
 The [hands-on-lab](https://go.microsoft.com/fwlink/?linkid=2103171) is contained in a zip file that contains the following folders and zip files:
 - Lab data
