@@ -17,9 +17,9 @@ AI Builder relies on environment security and Common Data Service security roles
 
 Some privileges are set by default in Common Data Service, allowing built-in security roles to take advantage of AI Builder without further actions from system administrators.
 
-- Environment makers can use AI Builder to create AI models. 
-- Common Data Service users can inference data using the models embedded in PowerApps. 
-- Administrators and system customizers can access all AI models created in the environment. 
+- Environment makers can use AI Builder to create AI models.
+- Common Data Service users can inference data using the models embedded in PowerApps.
+- Administrators and system customizers can access all AI models created in the environment.
 
 These security roles have already set the right privileges to the AI Builder entities from Common Data Service. Custom security roles will be able to create AI models as long as they have the same privileges to the AI Builder entities as the environment maker role.
 
@@ -37,4 +37,3 @@ For text classification AI models, an entity is created for every new model once
 ### Related topic
 
 [Security concepts in Common Data Service](/power-platform/admin/wp-security-cds)
-

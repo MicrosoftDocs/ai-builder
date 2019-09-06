@@ -26,8 +26,8 @@ In the **Model settings** pane on the right side of the screen, you can turn on 
 
 For more information about publishing a model in AI Builder, see [Publish model](publish-model.md).
 
-
 ## Where will suggested tags be stored?
+
 The following entity will be created to your entity when you publish a model: **TC_{*Model_Name*}**
 
 Tags will be stored in a field called **new_Tags** under this entity.
@@ -36,6 +36,6 @@ Tags will be stored in a field called **new_Tags** under this entity.
 >
 > Due to the character limitation of the field name, if the provided syntax creates text that is over the character limit, AI Builder cuts off the end of the text. This means that the model name might be incomplete or missing. You should choose shorter names so everything is visible.
 
-
 ### Next step
+
 [View generated predictions](text-classification-view-predictions.md)

@@ -21,14 +21,17 @@ If you want to use your trained model in Microsoft Flow, you can find more infor
 
 ## Set run schedule on Common Data Service
 
-You can set the run schedule by navigating to the “Run” pivot in the Model Settings panel. You can configure your model to run on your database to predict tags in two ways:
-1.	Generate predictions when new data is added:
-This option will trigger a first binary classification run on all existing data in you Text entity and then will generate predictions whenever a new record is added to that entity.
-2.	Generate predictions regularly for all data:
-You can schedule your model to run on regular intervals (day/week/month) and generate predictions on all text data in your entity. 
+You can set the run schedule by navigating to the **Run** view in the **Model settings** panel. You can configure your model to run on your database to predict tags in two ways:
 
+- **Generate predictions when new data is added**
 
-## What if the model is not writing new tag suggestions? 
+    Your model runs once on all existing data in your text entity, and then again whenever a new record is added to that entity.
 
- - Check that you didn’t exceed the number of runs for your Microsoft Flow subscription.
- - Turn off the Common Data Service run setting, and then turn it back on.
+- **Generate predictions regularly for all data**
+
+    Your model runs on scheduled intervals (day/week/month) and generates predictions on all text data in your entity.
+
+## What if the model is not writing new tag suggestions?
+
+- Check that you didn’t exceed the number of runs for your Microsoft Flow subscription.
+- Turn off the Common Data Service run setting, and then turn it back on.
