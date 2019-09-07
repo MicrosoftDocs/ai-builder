@@ -4,9 +4,9 @@
     href: overview.md
   - name: Learning resources
     items:
-    - name: Labs and courses
+    - name: Labs
       href: learn-ai-builder.md
-    - name: Start using AI Builder with sample data
+    - name: Sample data
       href: samples.md
   - name: AI Builder community
     href: share-your-experience.md

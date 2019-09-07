@@ -1,5 +1,5 @@
 ---
-title: AI Builder labs and courses| Microsoft Docs
+title: AI Builder labs| Microsoft Docs
 description: Provides information about resources to help you learn more about AI Builder 
 author: Dean-Haas
 manager: kvivek
@@ -11,11 +11,9 @@ ms.author: npouhaer; mfotedar
 ms.reviewer: kvivek
 ---
 
-# AI Builder labs and courses
+# AI Builder labs
 
 This page contains links to resources that you can use to gain experience with AI Builder and to learn more about it. Links are added here as new resources become available.
-
-## Hands-on-labs
 
 AI Builder [hands-on-labs](https://go.microsoft.com/fwlink/?linkid=2103171)  walk through object detection, prediction, text classification, form processing & business card reader scenarios in AI Builder.
 
@@ -26,6 +24,3 @@ The [hands-on-lab](https://go.microsoft.com/fwlink/?linkid=2103171) is contained
 - AIBuilderLabSolution_1_0_0_0.zip
 - ProcessFeedback_Flow.zip
 
-## Courses
-
-Check back here for learning modules to walk through building and using an AI model in AI Builder. 
