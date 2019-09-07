@@ -6,7 +6,7 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/07/2019
+ms.date: 09/06/2019
 ms.author: jofernan
 ms.reviewer: kvivek
 ---
@@ -17,7 +17,6 @@ ms.reviewer: kvivek
 
 > [!NOTE]
 > - Make sure your administrator has assigned you a security role with all organization privileges over the entity **Note** from **Core Records**.
-
 
 ## Requirements
 
@@ -33,16 +32,17 @@ Form processing works on input documents that meet the following requirements:
 
 ## Optimization tips
 
-- When you create a new form processing model, upload documents with the same layout where each document is a separate instance. For example: invoices from the same provider, but each uploaded invoice is from a different month. 
-- You can optimize PDF files by using the **Print > Print to PDF** option to select certain pages within your document. 
+- When you create a new form processing model, upload documents with the same layout where each document is a separate instance. For example: invoices from the same provider, but each uploaded invoice is from a different month.
+- You can optimize PDF files by using the **Print > Print to PDF** option to select certain pages within your document.
 
-
- > [!NOTE] 
+ > [!NOTE]
  > AI Builder does not currently support the following types of form processing input data:
+ >
  > - Complex tables (nested tables, merged headers or cells, and so on)
  > - Check boxes or radio buttons
  > - PDF documents longer than 50 pages
  > - Fillable PDFs 
 
 ### Next step
+
 [Create a form processing model](create-form-processing-model.md)

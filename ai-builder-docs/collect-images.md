@@ -6,7 +6,7 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/07/2019
+ms.date: 09/06/2019
 ms.author: aminab
 ms.reviewer: kvivek
 ---
@@ -41,7 +41,7 @@ Another consideration is that you should make sure that your data is balanced. F
 
 Provide images that are representative of what will be submitted to the model during normal use. For example, if you're training a model that recognizes apples, your model might not be as accurate if you only train images of apples in plates but make predictions on images of apples on trees. Including a variety of images will make sure that your model isn't biased and can generalize well. Below are some ways you can make your training set more diverse.
 
-### Background 
+### Background
 
 Provide images of your object in front of different backgrounds (that is, fruit on plate versus fruit in grocery bag). Photos in context are better than photos in front of neutral backgrounds because they provide more information for the classifier.
 
@@ -81,4 +81,3 @@ To correct this, use the above guidance on training with more varied images: pro
 ### Next step
 
 [Get started](get-started-with-object-detection.md) with object detection.
-

@@ -6,7 +6,7 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/07/2019
+ms.date: 09/06/2019
 ms.author: aminab
 ms.reviewer: kvivek
 ---
@@ -23,8 +23,9 @@ ms.reviewer: kvivek
 
 ## Select object names
 
-In AI Builder, the first step in creating an object detection AI model is to select the names of the items you wish to detect. The names of the items you wish to detect need to be in [Common Data Service](/powerapps/maker/common-data-service/data-platform-intro). If your data is not in Common Data Service, go to the [Prerequisites](build-model.md#prerequisites) topic for information about how to import data into Common Data Service. 
-1. Select **Select Object Names** to view the entities in your environment. 
+In AI Builder, the first step in creating an object detection AI model is to select the names of the items you wish to detect. The names of the items you wish to detect need to be in [Common Data Service](/powerapps/maker/common-data-service/data-platform-intro). If your data is not in Common Data Service, go to the [Prerequisites](build-model.md#prerequisites) topic for information about how to import data into Common Data Service.
+
+1. Select **Select Object Names** to view the entities in your environment.
 2. In the right-side pane, find the entity that contains your object names by scrolling the list or using the search bar, and select that entity.
 3. Locate the field that contains the names of your objects. Select that field, and then select **Select Field** at the bottom of the screen.
 4. From the list of strings in your table, select those that represent the objects you want to detect and then select **Next** at the bottom of the screen.
@@ -57,16 +58,16 @@ This section explains the tagging process that is required for object detection.
 
    > [!div class="mx-imgBorder"]
    > ![Associate name screen](media/tag-image-associate-name.png "Associate name  screen")
- 
+
 1. Your tag is created when you see it surrounding an object.
 
    > [!div class="mx-imgBorder"]
    > ![Tag created screen](media/tag-created.png "Tag created screen")
- 
-1. Navigate from image to image, and tag at least 15 images per object name to build a model. 
-1. After you are done tagging your images, select **Done Tagging**. Your data is saved as you create rectangles. 
+
+1. Navigate from image to image, and tag at least 15 images per object name to build a model.
+1. After you are done tagging your images, select **Done Tagging**. Your data is saved as you create rectangles.
 1. In the grid view, you can view a summary of all the tags you created, and which images you created. This lets you know how much more work is needed in order to move forward.
-1. Until you reach the minimum for content quantity, you won’t be able to move forward. Once you have at least 15 images per object name, you will be able to select **Next** at the bottom of the screen. 
+1. Until you reach the minimum for content quantity, you won’t be able to move forward. Once you have at least 15 images per object name, you will be able to select **Next** at the bottom of the screen.
 
 That’s it! Congratulations, you have completed the exercise of creating a training set for object detection.
 

@@ -6,7 +6,7 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/07/2019
+ms.date: 09/06/2019
 ms.author: jofernan
 ms.reviewer: kvivek
 ---
@@ -17,7 +17,8 @@ ms.reviewer: kvivek
 
 Create a canvas app and add the form processor AI Builder component to your screen. This component takes a photo or loads an image from the local device, and then processes it to extract text based on a trained AI model. If it detects a form that the AI model is trained for, the form processor extracts the field values, and identifies them with rectangles.
 
- > [!NOTE] 
+ > [!NOTE]
+ >
  > - Display of PDF files is not included in the initial preview.
  > - This component is not supported in Internet Explorer.
  > - Find more information about canvas apps [here](/powerapps/maker/canvas-apps/getting-started).
@@ -25,22 +26,23 @@ Create a canvas app and add the form processor AI Builder component to your scre
 ## Prerequisites
 This component requires a trained and published AI Builder form processing model. Then, that model must be bound to the component using the AI model property in the properties panel.
 
-When you add it to the screen, the component automatically opens the AI models pane to select a model from those published in that environment. 
+When you add it to the screen, the component automatically opens the AI models pane to select a model from those published in that environment.
 
 The component is initialized after an AI model is bound to it.
 
 
 ## Key properties
+
  - **ModelId** (“AI model” in the properties panel): AI model information to which the component is bound.
  - **OriginalImage**: The original image before processing.
  - **FormContent**: The details of extracted form fields and tables. At component initialization (AI model binding step), the potential fields and tables that can be extracted by the models are populated:
  - **Fields**:
 
     ![Form fields screen](media/form-fields.PNG "Form fields screen")
-    
+
  - **Tables**:
 
-    ![Form tables screen](media/form-tables.PNG "Form tables screen") 
+    ![Form tables screen](media/form-tables.PNG "Form tables screen")
 
 ## Additional properties
 
@@ -58,7 +60,7 @@ The component is initialized after an AI model is bound to it.
  - **ShowConfidence** (“Show confidence” in the properties panel): Whether the component displays confidence levels along with the rectangles in the image or not.
  - **DisplayMode**:
      - **Edit**: Allows user input.
-     - **View**: Only displays data. 
+     - **View**: Only displays data.
      - **Disabled** is disabled.
  - **Height**: The height of the component.
  - **Visible**: Whether the component appears or is hidden.
@@ -73,5 +75,6 @@ These [guidelines](/powerapps/maker/canvas-apps/controls/control-button) for the
 
 ### Related topics
 
-[Object detection model overview](object-detection-overview.md)<br/>
+[Object detection model overview](object-detection-overview.md)
+
 [Core properties in PowerApps](/powerapps/maker/canvas-apps/controls/properties-core)
