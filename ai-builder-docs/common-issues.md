@@ -15,17 +15,17 @@ ms.reviewer: kvivek
 
 Here are some issues that you might encounter when you  use AI Builder. Where applicable, workarounds are provided.
 
--  **AI Builder not set up correctly in your environment**
+### AI Builder not set up correctly in your environment
 
-> If you are using an environment that was created before AI Builder was first released, it is possible that AI Builder may have not been set up correctly in your environment. To work around this issue, [create a new environment](https://docs.microsoft.com/en-us/power-platform/admin/create-environment) so that AI Builder can be correctly installed in that new environment. If you must use a particular environment, [contact support](#) for more options.
+If you are using an environment that was created before AI Builder was first released, it is possible that AI Builder may have not been set up correctly in your environment. To work around this issue, [create a new environment](https://docs.microsoft.com/en-us/power-platform/admin/create-environment) so that AI Builder can be correctly installed in that new environment. If you must use a particular environment, [contact support](#) for more options.
 
-- **AI Builder encounters errors reading data from your Common Data Service entity**
+### AI Builder encounters errors reading data from your Common Data Service entity
 
-> Use the navigation links on the left side of your screen to locate the data preparation section for the type of AI model that you are working with. Make sure your Common Data Service instance is configured correctly so that your model can access it.
+Use the navigation links on the left side of your screen to locate the data preparation section for the type of AI model that you are working with. Make sure your Common Data Service instance is configured correctly so that your model can access it.
 
-- **AI Builder business card reader doesn't work for some users**
+### AI Builder business card reader doesn't work for some users
 
-> Make sure that the user of the business card reader component has permissions in Common Data Service, or has access to the AI Builder model entity that is configured in the business card reader component.
+Make sure that the user of the business card reader component has permissions in Common Data Service, or has access to the AI Builder model entity that is configured in the business card reader component.
 
 ## Ask the community
 
