@@ -125,8 +125,6 @@
     href: administer.md
   - name: Licensing
     href: administer-licensing.md
-  - name: Billing
-    href: administer-billing.md
   - name: Security
     href: security.md
 - name: Troubleshoot
