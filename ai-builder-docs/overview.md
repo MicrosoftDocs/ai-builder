@@ -27,11 +27,7 @@ AI Builder was released for public preview on June 10, 2019 in Europe and United
 
 Because of technical dependencies, features will release differently in various locations.  A breakdown of release status for AI Builder features and model types in your region is available [here](https://go.microsoft.com/fwlink/?linkid=2102828).
 
-For information about license capacity, pricing, and restrictions, see the following topics:
-
- - [Trial environments](/power-platform/admin/trial-environments)
- - [PowerApps pricing](/power-platform/admin/signup-for-powerapps-admin)
- - [PowerApps licensing overview](/power-platform/admin/pricing-billing-skus)
+For information about license capacity, pricing, and restrictions, see [AI Builder licensing](administer-licensing):
 
 ## How can I add intelligence to my apps?
 
