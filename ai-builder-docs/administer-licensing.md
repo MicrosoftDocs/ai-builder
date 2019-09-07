@@ -13,7 +13,7 @@ ms.reviewer: kvivek
 
 # AI Builder licensing
 
-AI Builder is licensed as an add-on to your PowerApps or Flow licenses. This means you can start your AI Builder trial after you have a PowerApps or Flow license that allows you to create a Common Data Service (CDS) instance.  
+AI Builder is licensed as an add-on to your PowerApps or Flow licenses. This means you can start your AI Builder trial after you have a PowerApps or Flow license that allows you to create a Common Data Service instance.  
 
 ## Preview features
 
@@ -47,24 +47,24 @@ After the 30-day trial expires:
 - You need to [purchase a license](/power-platform/admin/signup-for-powerapps-admin) to continue using your AI models, and to assign AI credits to an environment.
 - You can't create or modify AI Builder models, and no new inference will be possible when the trial expires if you don't purchase a license.
 
-### Licensing FAQs
+## Licensing FAQs
 
-- *How do I convert my trial environment to a production environment?*
+### How do I convert my trial environment to a production environment?
 
 More information is available [here](/power-platform/admin/trial-environments)
 
-- *What email address can I use?*
+### What email address can I use?
 
 More information is available [here](/powerapps/maker/signet-for-powerapps#faq)
 
-- *Where can I find more information about license management in PowerApps?*
+### Where can I find more information about license management in PowerApps?
 
 More information about licenses and license management in PowerApps is available [here](/power-platform/admin/wp-license-management).
 
-- *Where can I find more information about trial environments?*
+### Where can I find more information about trial environments?
 
 For more information about trial environments in PowerApps read this [topic](/power-platform/admin/trial-environments)
 
 ### More information
 
-[Microsoft PowerApps and Microsoft Flow Licensing Guide](http://download.microsoft.com/download/9/5/6/9568EFD0-403D-4AE4-95F0-7FACA2CCB2E4/PowerApps%20and%20Flow%20Licensing%20Guide%20-%20August.pdf)
+[Microsoft PowerApps and Microsoft Flow Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=2085130&clcid=0x409)
