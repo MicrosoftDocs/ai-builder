@@ -15,9 +15,9 @@ ms.reviewer: kvivek
 
 Here are some issues that you might encounter when you  use AI Builder. Where applicable, workarounds are provided.
 
-### AI Builder not set up correctly in your environment
+### AI Builder is not set up correctly in your environment
 
-If you are using an environment that was created before AI Builder was first released, it is possible that AI Builder may have not been set up correctly in your environment. To work around this issue, [create a new environment](https://docs.microsoft.com/en-us/power-platform/admin/create-environment) so that AI Builder can be correctly installed in that new environment. If you must use a particular environment, [contact support](#) for more options.
+If you are using an environment that was created before AI Builder was first released, it is possible that AI Builder may have not been set up correctly in your environment. To work around this issue, [create a new environment](https://docs.microsoft.com/power-platform/admin/create-environment) so that AI Builder can be correctly installed in that new environment. If you must use a particular environment, [contact support](https://docs.microsoft.com/power-platform/admin/get-help-support) for more options.
 
 ### AI Builder encounters errors reading data from your Common Data Service entity
 
