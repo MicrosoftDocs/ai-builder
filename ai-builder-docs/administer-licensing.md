@@ -42,8 +42,6 @@ What you get with an AI Builder trial license:
 
 ## AI Builder paid license
 
-After the 30-day trial expires:
-
 - You need to [purchase a license](/power-platform/admin/signup-for-powerapps-admin) to continue using your AI models, and to assign AI credits to an environment.
 - You can't create or modify AI Builder models, and no new inference will be possible when the trial expires if you don't purchase a license.
 
