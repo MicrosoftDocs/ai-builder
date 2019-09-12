@@ -14,12 +14,9 @@ ms.reviewer: kvivek
 
 # Use the business card reader component in PowerApps
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
-
  > [!NOTE]
  >
  > - This component is not supported in Internet Explorer.
- > - Import/export of PowerApps with Business Card Reader control is not currently supported.
  > - Find more information about [canvas apps](/powerapps/maker/canvas-apps/getting-started).
 
 The business card reader component takes a photo or loads an image from the local device, and then scans it to find a business card. If it detects a business card, it extracts the information it finds.
