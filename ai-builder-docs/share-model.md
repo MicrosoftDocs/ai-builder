@@ -70,3 +70,7 @@ We added this additional step to help with privacy concerns, and to allow a mode
 ### Can I disable the sharing feature for AI model makers and only allow Administrators to perform it?
 
 Yes, as administrator you can create in advanced settings of your organization a security role where Share privilege is disabled on "AI Model" custom entity and gives AI Model makers this role.
+
+### Why can't I share generic prediction models?
+
+Generic prediction models only work as part of a scheduled run. They cannot be used in PowerApps or in Flow, so the share action is not available.
