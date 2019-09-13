@@ -1,5 +1,4 @@
 ---
-redirect_url: prediction-model-in-flow
 title: Use prediction model in Microsoft Flow -  AI Builder | Microsoft Docs
 description: Provides information about how to use a prediction model in Microsoft Flow.
 author: Dean-Haas

@@ -33,7 +33,7 @@ Generate new predictions right away and save them to Common Data Service.
 
 Learn how to run now for your model type:
 
-* [Run your prediction model](/ai-builder/binary-classification-train-model#prediction-run)
+* [Run your prediction model](/ai-builder/prediction-train-model#prediction-run)
 
 ### Create new app
 

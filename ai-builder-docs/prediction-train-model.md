@@ -1,5 +1,4 @@
 ---
-redirect_url: prediction-train-model
 title: Train and publish your prediction model -  AI Builder | Microsoft Docs
 description: Walks you through the steps needed to train your prediction model, and leads you to the next steps. 
 author: Dean-Haas
