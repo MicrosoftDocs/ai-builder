@@ -1,5 +1,4 @@
 ---
-redirect_url: prediction-overview
 title: Overview of prediction model -  AI Builder | Microsoft Docs
 description: Describes the prediction model in AI Builder, and gives some examples of how you might use it.
 author: Dean-Haas

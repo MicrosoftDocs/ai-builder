@@ -32,21 +32,21 @@
 - name: Prediction AI model
   items:
   - name: Overview 
-    href: binary-classification-overview.md
+    href: prediction-overview.md
   - name: Prerequisites
-    href: binary-classification-prereq.md
+    href: prediction-prereq.md
   - name: Data preparation
-    href: binary-classification-data-prep.md
+    href: prediction-data-prep.md
   - name: Create a prediction model
-    href: create-binary-classification-model.md
+    href: prediction-create-model.md
   - name: Train and publish your prediction model
-    href: binary-classification-train-model.md
+    href: prediction-train-model.md
   - name: Use sample data
-    href: binary-classification-sample-data.md
+    href: prediction-sample-data.md
   - name: Training errors and issues
-    href: binary-classification-training-report.md
+    href: prediction-training-report.md
   - name: Prediction model performance
-    href: binary-classification-performance.md
+    href: prediction-performance.md
 - name: Text classification AI model (Preview)
   items:
   - name: Overview

@@ -1,5 +1,4 @@
 ---
-redirect_url: prediction- create-model
 title: Create a prediction model -  AI Builder | Microsoft Docs
 description: This topic lays out the steps you need to follow to create a prediction model in AI Builder. 
 author: Dean-Haas

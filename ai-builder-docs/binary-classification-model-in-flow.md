@@ -25,4 +25,4 @@ To learn more about the triggers and actions, go to the [Get started with Micros
 
 ### Related topic
 
-[prediction model overview](binary-classification-overview.md)
+[prediction model overview](prediction-overview.md)
