@@ -32,21 +32,21 @@
 - name: Prediction AI model
   items:
   - name: Overview 
-    href: binary-classification-overview.md
+    href: prediction-overview.md
   - name: Prerequisites
-    href: binary-classification-prereq.md
+    href: prediction-prereq.md
   - name: Data preparation
-    href: binary-classification-data-prep.md
+    href: prediction-data-prep.md
   - name: Create a prediction model
-    href: create-binary-classification-model.md
+    href: prediction-create-model.md
   - name: Train and publish your prediction model
-    href: binary-classification-train-model.md
+    href: prediction-train-model.md
   - name: Use sample data
-    href: binary-classification-sample-data.md
+    href: prediction-sample-data.md
   - name: Training errors and issues
-    href: binary-classification-training-report.md
+    href: prediction-training-report.md
   - name: Prediction model performance
-    href: binary-classification-performance.md
+    href: prediction-performance.md
 - name: Text classification AI model (Preview)
   items:
   - name: Overview
@@ -100,7 +100,7 @@
   - name: Prerequisites
     href: use-in-flow-prereq.md
   - name: Use a prediction model in Microsoft Flow
-    href: binary-classification-model-in-flow.md
+    href: prediction-model-in-flow.md
   - name: Use a text classification model in Microsoft Flow
     href: text-classification-model-in-flow.md
   - name: Use a form processing model in Microsoft Flow
@@ -112,7 +112,7 @@
   - name: Overview
     href: use-in-powerapps-overview.md
   - name: Use your prediction model in PowerApps
-    href: binary-classification-model-driven-app.md
+    href: prediction-model-driven-app.md
   - name: Use the form processor component in PowerApps
     href: form-processor-component-in-powerapps.md
   - name: Use the object detector component in PowerApps
