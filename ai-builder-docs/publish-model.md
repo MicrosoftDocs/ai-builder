@@ -33,9 +33,6 @@ Publish your model when you want to make it available to users in your PowerApps
 
 If you are satisfied with your model, you can publish it to make it available. Similarly, because you can only have up to two trained versions available at a time, you can publish a version if you do not want it to be overwritten by a new version.
 
-> [!TIP]
-> For more information on using your published model, view the **Tips** section under the **Published version**.
-
 ### Related topics
 
 [Use AI Builder in Flow](use-in-flow-overview.md)
