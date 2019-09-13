@@ -56,4 +56,4 @@ Each field used in the training has a score to represent its influence on the tr
 
 [Evaluate your model](manage-model.md#evaluate-your-model)
 
-[Use your published prediction model in a model-driven app](binary-classification-model-driven-app.md) 
+[Use your published prediction model in a model-driven app](prediction-model-driven-app.md) 

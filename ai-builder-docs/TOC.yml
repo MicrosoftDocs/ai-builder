@@ -100,7 +100,7 @@
   - name: Prerequisites
     href: use-in-flow-prereq.md
   - name: Use a prediction model in Microsoft Flow
-    href: binary-classification-model-in-flow.md
+    href: prediction-model-in-flow.md
   - name: Use a text classification model in Microsoft Flow
     href: text-classification-model-in-flow.md
   - name: Use a form processing model in Microsoft Flow
@@ -112,7 +112,7 @@
   - name: Overview
     href: use-in-powerapps-overview.md
   - name: Use your prediction model in PowerApps
-    href: binary-classification-model-driven-app.md
+    href: prediction-model-driven-app.md
   - name: Use the form processor component in PowerApps
     href: form-processor-component-in-powerapps.md
   - name: Use the object detector component in PowerApps
