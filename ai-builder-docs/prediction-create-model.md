@@ -1,5 +1,4 @@
 ---
-redirect_url: prediction- create-model
 title: Create a prediction model -  AI Builder | Microsoft Docs
 description: This topic lays out the steps you need to follow to create a prediction model in AI Builder. 
 author: Dean-Haas
@@ -22,7 +21,7 @@ This example creates a PowerApps prediction AI model that uses the *online shopp
 
 ## Select the data fields to train your model
 
-After you select the **Entity** and **Label** fields and map your outcome, you have to select different data fields as features to train the model. By default, all data fields are selected. You could deselect data fields that might not be important for your business or which might carry unwanted bias.
+After you select the **Entity** and **Label** fields and map your outcome, the next step is to find related entities to help predict the outcome. By default, fields for your target entity and all related entities and fields are selected. You could deselect data fields that might not be important for your business or which might carry unwanted bias.
 
 ### Data field selection considerations
 

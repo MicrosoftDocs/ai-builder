@@ -26,7 +26,7 @@ AI model types give you the ability to tailor a scenario to the needs of your bu
 
 | AI model type  | Category  | Start here
 |---|---|---|
-| Prediction   | Prediction  | [Overview of prediction model](binary-classification-overview.md)
+| Prediction   | Prediction  | [Overview of prediction model](prediction-overview.md)
 | Form processing  | Vision   | [Overview of form classification model](form-processing-model-overview.md)
 | Object detection  | Vision   | [Overview of object detection model](object-detection-overview.md)
 | Text classification  |Language   | [Overview of text classification model](text-classification-overview.md)
