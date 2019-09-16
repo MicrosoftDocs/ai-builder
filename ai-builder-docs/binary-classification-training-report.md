@@ -24,7 +24,7 @@ When an error occurs, you can't continue until you resolve this error. These are
 
     If you only have 50 records or less, you can’t train the model. Ideally, you should have at least 1,000 records.
 
-- *The model needs at least *** \<ThresholdValue>** historical outcome records of each outcome value to train. Add data or select another entity. *
+- *The model needs at least **\<ThresholdValue>** historical outcome records of each outcome value to train. Add data or select another entity. *
 
     You need at least 10 records of historical outcome for each class to train the model and predict the outcome.
 
