@@ -33,7 +33,7 @@ When an error occurs, you can't continue until you resolve this error. These are
 
 ## Issues
 
-These messages don't prevent you from continuing to train and publish your model. Instead they show where issues may be causing your model to under-perform. 
+These messages don't prevent you from continuing to train and publish your model. Instead they show where issues may be causing your model to under-perform.
 
 - *The model might produce better performance with optimum records of **\<ThresholdValue>** or more to train the model. **\<EntityName>** has <ActualValue> records. Add data for better model performance.*
 

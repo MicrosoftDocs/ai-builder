@@ -13,10 +13,10 @@ ms.reviewer: v-dehaas
 
 # Data preparation
 
-Before you create your prediction model, you'll want to make sure your data is in Common Data Service, and that it's in the correct format. 
-
+Before you create your prediction model, you'll want to make sure your data is in Common Data Service, and that it's in the correct format.
 
 ## Create your custom entity
+
 If you have data outside of Common Data Service that you want to import for training in AI Builder, you need to create an entity first. In this example, we’ll provide a solution that has predefined custom entities. To use your own data, [create a custom entity](/powerapps/maker/common-data-service/data-platform-create-entity) and substitute your own entity for the example used here.
 
 > [!NOTE]
@@ -40,9 +40,9 @@ Next, import the sample data into the entity. In this example, we use the **aib_
     - **On-premises data gateway** = *(none)*
     - **Authentication kind** = *Anonymous*
 
-1.	On the **Map entities** screen, make sure **Load to existing entity** is selected, and under **Destination entity**, select **aib_onlineshopperintention** in the drop-down menu.
-1.	Select the **Delete rows that no longer exist in the query output** check box, and then select the Auto-map function that is on the upper right of the **Field mapping** screen.  Select **Next**.
-1.	On the **Refresh settings** screen, select the **Refresh manually** check box, and then select **Create** to start the import process.
+1. On the **Map entities** screen, make sure **Load to existing entity** is selected, and under **Destination entity**, select **aib_onlineshopperintention** in the drop-down menu.
+1. Select the **Delete rows that no longer exist in the query output** check box, and then select the Auto-map function that is on the upper right of the **Field mapping** screen.  Select **Next**.
+1. On the **Refresh settings** screen, select the **Refresh manually** check box, and then select **Create** to start the import process.
 
 Allow some time for the import to complete. Then, make sure the data is imported correctly.
 
@@ -52,7 +52,6 @@ Allow some time for the import to complete. Then, make sure the data is imported
 1. Select **Publish** to save the current view with the selected fields.
 
 And you're done!
- 
 
 ### Next step
 [Create a prediction model](prediction-create-model.md) 

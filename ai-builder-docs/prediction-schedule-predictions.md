@@ -17,12 +17,11 @@ text text text
 
 ## Schedule predictions
 
-After you've bla bla bla 
+After you've bla bla bla
 
 ## Retrain your model
 
 After the model is trained, bla bla bla
-
 
 ### Related topics
 
