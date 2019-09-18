@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 09/06/2019
 ms.author: joshrenn
-ms.reviewer: kvivek
+ms.reviewer: v-dehaas
 ---
 
 # Publish model

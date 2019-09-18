@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 09/05/2019
 ms.author: joshrenn
-ms.reviewer: kvivek
+ms.reviewer: v-dehaas
 ---
 
 # Start using AI Builder with sample data

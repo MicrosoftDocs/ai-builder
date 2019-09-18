@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 09/06/2019
 ms.author: sdarapu; mfotedar
-ms.reviewer: kvivek
+ms.reviewer: v-dehaas
 ---
 
 # Train and publish your prediction model

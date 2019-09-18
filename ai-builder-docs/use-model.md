@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 08/27/2019
 ms.author: joshrenn
-ms.reviewer: kvivek
+ms.reviewer: v-dehaas
 ---
 
 # Use your model

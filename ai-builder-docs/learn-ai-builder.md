@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 09/05/2019
 ms.author: npouhaer; mfotedar
-ms.reviewer: kvivek
+ms.reviewer: v-dehaas
 ---
 
 # AI Builder labs

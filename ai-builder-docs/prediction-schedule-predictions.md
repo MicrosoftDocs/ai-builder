@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 10/01/2019
 ms.author: sdarapu; mfotedar
-ms.reviewer: kvivek
+ms.reviewer: v-dehaas
 ---
 
 # Schedule predictions & retrain your model

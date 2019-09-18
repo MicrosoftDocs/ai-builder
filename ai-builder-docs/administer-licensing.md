@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 10/01/2019
 ms.author: tatn
-ms.reviewer: kvivek
+ms.reviewer: v-dehaas
 ---
 
 # AI Builder licensing

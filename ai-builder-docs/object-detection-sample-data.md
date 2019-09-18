@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 09/05/2019
 ms.author: aminab
-ms.reviewer: kvivek
+ms.reviewer: v-dehaas
 ---
 
 # Use sample data to do object detection

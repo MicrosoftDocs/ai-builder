@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 06/13/2019
 ms.author: peterbi
-ms.reviewer: kvivek
+ms.reviewer: v-dehaas
 ---
 
 # Data preparation

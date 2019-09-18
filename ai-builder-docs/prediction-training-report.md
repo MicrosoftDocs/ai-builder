@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 10/01/2019
 ms.author: sdarapu
-ms.reviewer: kvivek
+ms.reviewer: v-dehaas
 ---
 
 # Training errors and issues
