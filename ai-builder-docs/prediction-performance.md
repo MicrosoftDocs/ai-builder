@@ -28,19 +28,19 @@ After you've trained and evaluated your model, it's time to tweak your model to 
 
 ### Add more correctly labeled training data
 
-Even though the minimum requirement for training data is 50, it doesn't mean 50 data records can train a highly predictive model. For example, if your two option label is Yes or No, and most of your data record only has an Yes in this field. It’s hard for your model to learn all the signals from your data. And if your data is not correctly labeled, it will give the model wrong signal. It would be ideal if you could provide 1000 data records or more. So your model could be more predictive.
+Even though the minimum requirement for training data is 50, it doesn't mean 50 data records can train a highly predictive model. For example, if your two option label is *Yes* or *No*, and most of your data record only has an *Yes* in this field. It’s hard for your model to learn all the signals from your data. And if your data is not correctly labeled, it will impact the accuracy in a negative way. Try to provide 1000 data records or more for better results. 
 
 ### Add more fields
 
-For example, if you want to predict which customer is more likely to return and buy your products. You can add more fields like how they rate the product, how much they use the product, are they returning users for other product under this brand, etc to make the training data richer so it could be more predictive.
+For example, if you want to predict which customer is more likely to return and buy your products. You can add more fields like how they rate the product, how much they use the product, are they returning users for other product under this brand, and so forth to make the training data richer.
 
 ### Narrow selected fields to relevant information
 
-You may already have a lot of correctly labeled training data, and added a lot of data fields, but why the model is still not that predictive as you expect? It could be that you're selecting too many fields that leads to unwanted bias. Make sure all the fields you selected are going to influence what you want to predict. Unselect those irrelevant or misleading fields.
+You may already have a lot of correctly labeled training data, with lot of data fields. Then why might the model still not performing well? It could be that you're selecting fields that lead to unwanted bias. Make sure all the fields you select are relevant to influence what you want to predict. Deselect irrelevant or misleading fields.
 
 ### Validate data
 
-Also validate the data fields that you selected to train the model don't have high rate of missing values (>99%), populate the missing values with default or remove the data field from the model training. If a data field have high correlation (>99%) with prediction outcome, remove the data field from the model training.  
+Make sure the data fields  don't have high rate of missing values (>99%). Populate the missing values with default or remove the data field from the model training. If a data field has high correlation (>99%) with prediction outcome, remove the data field from the model training.  
 
 ## Next step
 
