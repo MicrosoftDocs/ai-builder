@@ -13,12 +13,15 @@ ms.reviewer: v-dehaas
 
 # Prediction model performance
 
-Each time you train a model, AI Builder uses the test data set to evaluate it's quality and accuracy. A summary page for your model shows your model training result, including an **Accuracy** score.  
+After each training, AI Builder uses the test data set to evaluate the quality and accuracy of the new model. A summary page for your model shows your model training result, including a Performance score.
 
-## Accuracy score
+## Performance score calculations
 
-The accuracy score is the ratio of the correct predictions among all the records you’re trying to predict.
-Based on your business needs, you can either keep improving the model by following instructions here, or you can decide to publish it.
+AI Builder calculates the performance score for your model based on the precision and recall of the prediction results:
+
+- **Performance score**: This is the harmonic mean of the precision and recall scores. It balances both scores for an imbalanced class distribution. Performance score values are between 0–100 percent. Generally, the higher the performance score, the better your model performs.
+- **Precision**: The fraction of correct predictions among all the positive predictions.
+- **Recall**: The fraction of correct predictions among all true positive cases.
 
 For more information, go to [Evaluate your model](manage-model.md#evaluate-your-model).
 
