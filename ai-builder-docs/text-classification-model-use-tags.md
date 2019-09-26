@@ -21,15 +21,12 @@ If you want to use your trained model in Microsoft Flow, you can find more infor
 
 ## Set run schedule on Common Data Service
 
-You can set the run schedule by navigating to the **Run** view in the **Model settings** panel. You can configure your model to run on your database to predict tags in two ways:
+You can set the run schedule by navigating to the **Run** view in the **Model settings** panel. You can configure your model to run on your database to predict tags by choosing the following option:
 
-- **Generate predictions when new data is added**
+**Generate predictions when new data is added**
 
-    Your model runs once on all existing data in your text entity, and then again whenever a new record is added to that entity.
+Your model runs once on all existing data in your text entity, and then again whenever a new record is added to that entity.
 
-- **Generate predictions regularly for all data**
-
-    Your model runs on scheduled intervals (day/week/month) and generates predictions on all text data in your entity.
 
 ## What if the model is not writing new tag suggestions?
 
