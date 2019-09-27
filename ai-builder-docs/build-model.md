@@ -16,7 +16,7 @@ ms.reviewer: v-dehaas
 In AI Builder, we guide you through each step to create your AI model.
 
 > [!div class="mx-imgBorder"]
-> ![Build a model screen](media/build-model.png "Build a model screen")
+> ![Build a model screen](media/ai-builder-home.png "Build a model screen")
 
 ## Prerequisites
 
