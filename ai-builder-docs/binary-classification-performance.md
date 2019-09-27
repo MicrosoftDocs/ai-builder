@@ -1,5 +1,4 @@
 ---
-redirect_url: prediction-performance
 title: Prediction model performance -  AI Builder | Microsoft Docs
 description: Provides information to help you better understand prediction model performance, and how performance scores are calculated
 author: Dean-Haas
@@ -9,7 +8,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 09/06/2019
 ms.author: norliu
-ms.reviewer: kvivek
+ms.reviewer: v-dehaas
 ---
 
 # Prediction model performance

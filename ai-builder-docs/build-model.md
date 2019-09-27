@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 09/06/2019
 ms.author: joshrenn
-ms.reviewer: kvivek
+ms.reviewer: v-dehaas
 ---
 
 # Build a model in AI Builder
@@ -16,7 +16,7 @@ ms.reviewer: kvivek
 In AI Builder, we guide you through each step to create your AI model.
 
 > [!div class="mx-imgBorder"]
-> ![Build a model screen](media/build-model.png "Build a model screen")
+> ![Build a model screen](media/ai-builder-home.png "Build a model screen")
 
 ## Prerequisites
 

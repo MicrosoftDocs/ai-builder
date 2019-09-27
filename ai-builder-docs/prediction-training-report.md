@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 10/01/2019
 ms.author: sdarapu
-ms.reviewer: kvivek
+ms.reviewer: v-dehaas
 ---
 
 # Training errors and issues
 
-AI Builder reports error and issue messages on the model details page. These messages are explained here. 
+AI Builder reports error and issue messages on the model details page. These messages are explained here.
 
 ## Errors
 
@@ -23,7 +23,7 @@ When an error occurs, you can't continue until you resolve this error. These are
 
     If you only have 50 records or less, you can’t train the model. Ideally, you should have at least 1,000 records.
 
-- *The model needs at least *** \<ThresholdValue>** historical outcome records of each outcome value to train. Add data or select another entity. *
+- *The model needs at least **\<ThresholdValue>** historical outcome records of each outcome value to train. Add data or select another entity.
 
     You need at least 10 records of historical outcome for each class to train the model and predict the outcome.
 
@@ -33,7 +33,7 @@ When an error occurs, you can't continue until you resolve this error. These are
 
 ## Issues
 
-These messages don't prevent you from continuing to train and publish your model. Instead they show where issues may be causing your model to under-perform. 
+These messages don't prevent you from continuing to train and publish your model. Instead they show where issues may be causing your model to under-perform.
 
 - *The model might produce better performance with optimum records of **\<ThresholdValue>** or more to train the model. **\<EntityName>** has <ActualValue> records. Add data for better model performance.*
 
@@ -45,9 +45,8 @@ These messages don't prevent you from continuing to train and publish your model
 
 - ***\<EntityName>.\<AttributeName>** has a high ratio of missing values, greater than *\<ThresholdValue>* percentage and might not contribute to train the model.*
 
-    For best results, populate data for the data fields that have a high rate of missing values. 
+    For best results, populate data for the data fields that have a high rate of missing values.
 
 - ***\<EntityName>.\<AttributeName>** has **\<ThresholdValue>** percent correlation <CorrelationName> with <OutcomeAttributeName> and model might suspect to cause target leak.*
 
     Data fields that have a high correlation with prediction outcome are dropped in model training.
-

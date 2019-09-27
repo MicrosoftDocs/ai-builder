@@ -131,3 +131,5 @@
   items:
   - name: Common issues and resolutions
     href: common-issues.md
+  - name: Support
+    href: support.md

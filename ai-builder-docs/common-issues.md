@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 08/27/2019
 ms.author: joshrenn
-ms.reviewer: kvivek
+ms.reviewer: v-dehaas
 ---
 
-# Common issues and resolutions for AI Builder 
+# Common issues and resolutions for AI Builder
 
 Here are some issues that you might encounter when you  use AI Builder. Where applicable, workarounds are provided.
 
@@ -26,11 +26,3 @@ Use the navigation links on the left side of your screen to locate the data prep
 ### AI Builder business card reader doesn't work for some users
 
 Make sure that the user of the business card reader component has permissions in Common Data Service, or has access to the AI Builder model entity that is configured in the business card reader component.
-
-## Ask the community
-
-You can also check Microsoft community forums to see if other users have posted a solution that might help you. 
-
-- [AI Builder community]((https://go.microsoft.com/fwlink/?linkid=2092048))
-- [Common Data Service community forums](https://powerusers.microsoft.com/t5/Common-Data-Services/ct-p/PA_CommonDataServices)
-- [PowerApps community forums](https://powerusers.microsoft.com/t5/Forums/ct-p/PA_Comm_Forums)
