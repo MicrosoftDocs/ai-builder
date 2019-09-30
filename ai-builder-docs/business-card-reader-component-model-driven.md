@@ -25,16 +25,18 @@ The business card reader takes a photo or loads an image from the local device, 
 
 AI Builder is licensed as an add-on to your PowerApps or Flow licenses. For information about license capacity, pricing, and restrictions, see [AI Builder licensing](/ai-builder/administer-licensing).
 
-### Role requirements
+## Role requirements
 
 Users need to be entitled to the **common data service user** role to be able to consume the business card reader.
 
 ## Adding the business card reader
 
 The business card reader can be added to any existing contact or lead form using the form editor and through binding to a placeholder **SingleLine.Text** or **Multiple** field.
-After having selected the placeholder field, open the properties dialog, navigate to the **Controls** tab and click on the **Add Control...**  button.
 
-Select and add the **AI Builder Business Card Control**.
+- After having selected the placeholder field, open the properties dialog.
+- Navigate to the **Controls** tab.
+- Click on the **Add Control...**  button.
+- Select and add the **AI Builder Business Card Control**.
 
 > [!div class="mx-imgBorder"]
 > ![Form editor add control screen](media/Form-editor-add-control.PNG "Form editor add control screen")
