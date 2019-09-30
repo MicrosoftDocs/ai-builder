@@ -117,8 +117,10 @@
     href: form-processor-component-in-powerapps.md
   - name: Use the object detector component in PowerApps
     href: object-detector-component-in-powerapps.md
-  - name: Use the business card reader component in PowerApps
+  - name: Use the business card reader component in canvas apps
     href: business-card-reader-component-in-powerapps.md
+  - name: Use the business card reader component in model-driven apps
+    href: business-card-reader-component-model-driven.md
 - name: Administration and security
   items:
   - name: Administer AI Builder
