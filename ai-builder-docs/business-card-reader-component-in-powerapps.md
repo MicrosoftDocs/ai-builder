@@ -1,14 +1,14 @@
 ---
-title| Use the business card reader component in PowerApps|  AI Builder | Microsoft Docs
-description| Provides information about the properties and information extracted by the business card reader component in PowerApps 
-author| alanabrito
-manager| kvivek
-ms|service| powerapps
-ms|topic| conceptual
-ms|custom| 
-ms|date| 09/06/2019
-ms|author| alanab
-ms|reviewer| v-dehaas
+title: Use the business card reader component in PowerApps - AI Builder | Microsoft Docs
+description: Provides information about the properties and information extracted by the business card reader component in PowerApps 
+author: alanabrito
+manager: kvivek
+ms.service: powerapps
+ms.topic: conceptual
+ms.custom: 
+ms.date: 09/06/2019
+ms.author: alanab
+ms.reviewer: v-dehaas
 ---
 
 

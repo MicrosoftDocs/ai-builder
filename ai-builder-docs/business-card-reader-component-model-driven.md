@@ -1,14 +1,14 @@
 ---
-title| Use the business card reader component in PowerApps | AI Builder | Microsoft Docs
-description| Provides information about how to setup and use the AI Builder business card reader in model-driven apps 
-author| mustlaz
-manager| kvivek
-ms.service| powerapps
-ms.topic| conceptual
-ms.custom| 
-ms.date| 09/30/2019
-ms.author| mustlaz
-ms.reviewer| v-dehaas
+title: Use the business card reader component in PowerApps - AI Builder | Microsoft Docs
+description: Provides information about how to setup and use the AI Builder business card reader in model-driven apps 
+author: mustlaz
+manager: kvivek
+ms.service: powerapps
+ms.topic: conceptual
+ms.custom: 
+ms.date: 09/30/2019
+ms.author: mustlaz
+ms.reviewer: v-dehaas
 ---
 
 
