@@ -64,7 +64,7 @@ Additional design properties are available in the **Advanced** panel.
 
 ## Accessibility guidelines
 
-These [guidelines](/powerapps/maker/canvas-apps/controls/control-button) for the PowerApps button control also apply to the form processor component.
+These [guidelines](/powerapps/maker/canvas-apps/controls/control-button) for the PowerApps button control also apply to the business card reader component.
 
 ### Related topic
 [Core properties in PowerApps](/powerapps/maker/canvas-apps/controls/properties-core)
