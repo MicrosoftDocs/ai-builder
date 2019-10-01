@@ -117,7 +117,7 @@
     href: form-processor-component-in-powerapps.md
   - name: Use the object detector component in PowerApps
     href: object-detector-component-in-powerapps.md
-  - name: Use the business card reader component in canvas apps
+  - name: Use the business card reader component in PowerApps
     items:
     - name: Use in a canvas app
       href: business-card-reader-component-in-powerapps.md
