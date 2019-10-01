@@ -37,7 +37,15 @@
     "globalMetadata": {
       "breadcrumb_path": "/ai-builder/breadcrumb/toc.json",
       "extendBreadcrumb": true,
-      "feedback_system": "None"
+      "feedback_system": "None",
+      "search.app": [
+        "PowerApps",
+        "Flow"
+      ],
+      "search.audienceType": [
+        "maker"
+      ],
+      "search.appverid": "met150"
     },
     "fileMetadata": {},
     "template": [],
