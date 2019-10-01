@@ -36,17 +36,17 @@ Add the business card reader to an existing contact or lead form in the form edi
 > [!div class="mx-imgBorder"]
 > ![Form editor add control screen](media/Form-editor-add-control.PNG "Form editor add control screen")
 
+## Configure the business card reader
+
+After you select the platform (Web, Phone, Tablet) where the business card reader should appear, you can bind the component properties that you need.
+
+> [!div class="mx-imgBorder"]
+> ![Form editor binding properties screen](media/Form-editor-binding-properties.PNG "Form editor binding properties screen")
+
 > [!NOTE]
 >
 > - The **Company Name** property cannot be bound to a field of type **Lookup.Customer**. The only supported type is **SingleLine.Text**.
 > - Find more information about [adding components to model-driven apps](/powerapps/developer/component-framework/add-custom-controls-to-a-field-or-entity).
-
-## Configure the business card reader
-
-After having selected in which platform (Web, Phone, Tablet) the business card reader should display, you can then bind the component properties that you need.
-
-> [!div class="mx-imgBorder"]
-> ![Form editor binding properties screen](media/Form-editor-binding-properties.PNG "Form editor binding properties screen")
 
 ## Key properties
 
