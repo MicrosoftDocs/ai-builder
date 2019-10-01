@@ -50,7 +50,7 @@ After you select the platform (Web, Phone, Tablet) where the business card reade
 
 ## Key properties
 
-If a business card is detected, the business card reader will try to extract information based on the following properties:
+If a business card is detected, the business card reader will try to extract information that it finds based on the following properties:
 
 |Property |Definition  |Type  |
 |---------|---------|---------|
