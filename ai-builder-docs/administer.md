@@ -6,15 +6,12 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/07/2019
+ms.date: 09/06/2019
 ms.author: antode
-ms.reviewer: kvivek
+ms.reviewer: v-dehaas
 ---
 
 # Administer AI Builder
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
-
 
 Power Platform administrators can use the [PowerApps admin center](https://admin.powerapps.com) and the [Power Platform Admin center](https://admin.powerplatform.microsoft.com) to manage environments and settings for PowerApps and AI Builder.
 
@@ -26,28 +23,24 @@ Your AI model is deployed in the region that hosts the environment. For example,
 
 Currently, AI Builder is available in United States and Europe only. AI Builder features will not be available in environments created outside United States or Europe.
 
-## Enable or disable AI Builder feature
+## Enable or disable AI Builder preview features
 
-Power Platform administrators can use the Power Platform Admin center to control the availability of AI Builder in an environment.
+Some AI Builder features are released for general availability. Others are considered in preview release status.
+Preview features are shown on the build page with the **Preview** label displayed. Power Platform administrators can use the Power Platform Admin center to control whether users can create and use preview features.
 
-By default, the **AI Builder** feature is set to **On** (enabled) for any eligible environment (environment must have Common Data Service and its region must be supported; either the United States or Europe). If the environment is not eligible, the **AI Builder** feature won't appear in the Power Platform Admin center. 
+By default, the **AI Builder preview models** feature is set to **On** (enabled) for any eligible environment (environment must have Common Data Service and its region must be supported). If the environment is not eligible, the **AI Builder preview models** feature won't appear in the Power Platform Admin center. 
 
 To control the feature availability:
 
 1. Sign in to the [Power Platform Admin center](https://admin.powerplatform.microsoft.com).
 2. In the admin center, go to **Environments** > *[select an environment]* > **Settings** > **Features**.
-3. On the **Features** settings page, under **AI Builder (preview)**, enable or disable **Create AI models in PowerApps**.  
+3. On the **Features** settings page, under **AI Builder**, enable or disable **AI Builder preview models**.  
     
-    > [!div class="mx-imgBorder"]
-    > ![Control AI Builder availability](media/ai-builder-setting.png "Control AI Builder availability")
+### Important points related to enabling or disabling the feature
 
-Some important points related to enabling or disabling the feature:
+- If you set **AI Builder preview models** to **Off** (disabled), it won't delete existing models that users of this environment have created. However, AI Builder components will be disabled, and existing experiences that leverage existing AI builder components will fail and/or return errors. Admin and Owners can delete AI models of this type.
 
-- If you set **Create AI models in PowerApps** to **Off** (disabled), it won't delete existing models that users of this environment might have created. However, AI Builder components won't be visible anymore, and existing experiences that leverage existing AI builder components will fail and/or return errors.
-
-- If you set **Create AI models in PowerApps** back to **On** (enabled), the AI Builder components will become visible again and function as they did earlier.
-
-- To delete all AI Builder models from an environment, you must delete each model and then disable the **AI Builder** feature by setting **Create AI models in PowerApps** to **Off** to ensure that users can’t create new models using AI Builder. You must do this on each environment where AI Builder was enabled.
+- If you set **AI Builder preview models** back to **On** (enabled), the AI Builder components will become visible again and function as they did before the feature was disabled, assuming nothing else is changed.
 
 For more information about enabling/disabling features in the Power Platform Admin center, see [Manage feature settings](https://docs.microsoft.com/power-platform/admin/settings-features).
 

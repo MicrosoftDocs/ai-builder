@@ -6,9 +6,9 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/07/2019
+ms.date: 09/06/2019
 ms.author: jofernan
-ms.reviewer: kvivek
+ms.reviewer: v-dehaas
 ---
 
 # Create a form processing model
@@ -17,12 +17,10 @@ ms.reviewer: kvivek
 
 When  you create your form processing model, you’ll need to do the following:
 
-
 1. Run analysis on your sample form documents.
 2. Select the form fields that you want the model to remember.
 3. Review your model and train it.
-4. Evaluate your model (optional)
-
+4. Evaluate your model (optional).
 
 ## Upload and analyze documents
 
@@ -30,7 +28,7 @@ You need to provide sample documents to train your model for the type of form fr
 
 ### Upload your documents
 
-1. Sign in to [PowerApps](https://web.powerapps.com) and then in the navigation pane select **AI Builder (preview)** > **Build**. Then, select the Form processing AI model type.
+1. Sign in to [PowerApps](https://web.powerapps.com) or [Microsoft Flow](https://flow.microsoft.com) and then in the navigation pane select **AI Builder** > **Build**. Then, select the Form processing AI model type.
 2. Enter a name for your model and then select **Create**. 
 3. Select **Add documents**, select a minimum of five documents, and then select **Upload**.
 
@@ -45,15 +43,13 @@ When enough documents have been uploaded, you select **Analyze** to launch the a
 
 ## Review documents and extracted data
 
+If the analysis was successful, it means AI Builder detected structured text in your form documents. If the analysis failed, it is likely because AI Builder couldn't detect structured text in your documents, review that the documents you updated follow the [requirements and optimizations tips section](https://docs.microsoft.com/en-us/ai-builder/form-processing-model-requirements).
 
-If the analysis was successful, it means AI Builder detected structured text in your form documents. If the analysis failed, it is likely because AI Builder couldn't detect structured text in your documents.
-
- 
 ## Select your form fields
 
 To start, choose the fields that matter to you:
 
- 1. Select the detected template card: **\<*Your project name*> template**.
+ 1. Select the detected template card: **\<*Your model name*> form**.
  1. To select the fields, hover over a rectangle that indicates a detected field in the document, or select them in the right-side pane.
  1. Select **Edit** next to the selected field if you want to rename fields to align with your needs or normalize the extracted labels.
 
@@ -69,5 +65,6 @@ To start, choose the fields that matter to you:
 
 ### Related topics
 
-[Form processing model in Flow](form-processing-model-in-flow.md) </br>
+[Form processing model in Flow](form-processing-model-in-flow.md)
+
 [Form processing model in PowerApps](form-processor-component-in-powerapps.md)

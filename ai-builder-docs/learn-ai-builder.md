@@ -1,30 +1,26 @@
 ---
-title: Learn about AI Builder| Microsoft Docs
+title: AI Builder labs| Microsoft Docs
 description: Provides information about resources to help you learn more about AI Builder 
 author: Dean-Haas
 manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/07/2019
+ms.date: 09/05/2019
 ms.author: npouhaer; mfotedar
-ms.reviewer: kvivek
+ms.reviewer: v-dehaas
 ---
 
-# Learn about AI Builder
+# AI Builder labs
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
+This page contains links to resources that you can use to gain experience with AI Builder and to learn more about it. Links are added here as new resources become available.
 
+AI Builder [hands-on-labs](https://go.microsoft.com/fwlink/?linkid=2103171)  walk through object detection, prediction, text classification, form processing & business card reader scenarios in AI Builder.
 
-This page contains links to resources that you can use to gain experience with AI Builder and to learn more about it. Links are added here as new resources become available. 
-
-### AI Builder hands-on-labs
-
-AI Builder [hands-on-labs](https://aka.ms/ai-builder-labs)  walk through object detection, binary classification, text classification, form processing & business card reader scenarios in AI Builder. 
-
-The [hands-on-lab](https://aka.ms/ai-builder-labs) is contained in a zip file that contains the following folders and zip files:
+The [hands-on-lab](https://go.microsoft.com/fwlink/?linkid=2103171) is contained in a zip file that contains the following folders and zip files:
 - Lab data
 - Lab images
 - Lab scripts
 - AIBuilderLabSolution_1_0_0_0.zip
 - ProcessFeedback_Flow.zip
+

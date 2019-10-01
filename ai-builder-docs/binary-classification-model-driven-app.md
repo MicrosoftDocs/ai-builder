@@ -1,19 +1,18 @@
 ---
-title: Use your binary classification model in PowerApps -  AI Builder | Microsoft Docs
-description: Walks you through the instructions on how to use your binary classification model in a model-driven app.
+redirect_url: prediction-model-driven-app
+title: Use your prediction model in PowerApps -  AI Builder | Microsoft Docs
+description: Walks you through the instructions on how to use your prediction model in a model-driven app.
 author: JoeFernandezMS
 manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/07/2019
+ms.date: 09/06/2019
 ms.author: jofernan
-ms.reviewer: kvivek
+ms.reviewer: v-dehaas
 ---
 
-# Use your binary classification model in PowerApps
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
+# Use your prediction model in PowerApps
 
 This topic takes you through the process of creating a model-driven app that can sort your records by the probability value in the AI model output.
 
@@ -37,4 +36,4 @@ This topic takes you through the process of creating a model-driven app that can
     > [!div class="mx-imgBorder"]   
     > ![Model-driven app complete screen](media/model-driven-app-scr.png)
 
-Congratulations, you've just created your first model-driven app using the binary classification AI model prediction output.
+Congratulations, you've just created your first model-driven app using the prediction AI model prediction output.

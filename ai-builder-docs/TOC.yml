@@ -1,15 +1,19 @@
-- name: AI Builder
+- name: "AI Builder: Get started"
   items:
   - name: What is AI Builder?
     href: overview.md
+  - name: Learning resources
+    items:
+    - name: Labs
+      href: learn-ai-builder.md
+    - name: Sample data
+      href: samples.md
+  - name: AI Builder community
+    href: share-your-experience.md
+- name: AI models
+  items:
   - name: AI model types
     href: model-types.md
-  - name: Learn about AI Builder
-    href: learn-ai-builder.md
-  - name: Share your experience 
-    href: share-your-experience.md
-- name: AI Models
-  items:
   - name: Build a model
     href: build-model.md
   - name: Train a model
@@ -18,24 +22,32 @@
     href: manage-model.md
   - name: Publish a model
     href: publish-model.md
-- name: Binary classification AI model
+
+  - name: Use your model
+    href: use-model.md
+  - name: Share a model
+    href: share-model.md
+  - name: Distribute a model
+    href: distribute-model.md
+- name: Prediction AI model
   items:
   - name: Overview 
-    href: binary-classification-overview.md
+    href: prediction-overview.md
   - name: Prerequisites
-    href: binary-classification-prereq.md
+    href: prediction-prereq.md
   - name: Data preparation
-    href: binary-classification-data-prep.md
-  - name: Create a binary classification model
-    href: create-binary-classification-model.md
-  - name: Train and publish your binary classification model
-    href: binary-classification-train-model.md
-  - name: Understand the training report
-    href: binary-classification-training-report.md
-  - name: Understand binary classification model performance
-    href: binary-classification-performance.md
-- name: Text classification AI model
-
+    href: prediction-data-prep.md
+  - name: Create a prediction model
+    href: prediction-create-model.md
+  - name: Train and publish your prediction model
+    href: prediction-train-model.md
+  - name: Use sample data
+    href: prediction-sample-data.md
+  - name: Training errors and issues
+    href: prediction-training-report.md
+  - name: Prediction model performance
+    href: prediction-performance.md
+- name: Text classification AI model (Preview)
   items:
   - name: Overview
     href: text-classification-overview.md
@@ -51,11 +63,13 @@
     href: improve-text-classification-performance.md
   - name: Publish your text classification model
     href: publish-text-classification-model.md
+  - name: Use sample data
+    href: text-classification-sample-data.md
   - name: View generated predictions
     href: text-classification-view-predictions.md
   - name: Use generated tags
     href: text-classification-model-use-tags.md
-- name: Object detection AI model
+- name: Object detection AI model (Preview)
   items: 
   - name: Overview
     href: object-detection-overview.md
@@ -65,8 +79,9 @@
     href: get-started-with-object-detection.md
   - name: Train and publish your object detection model
     href: object-detection-train-model.md
-
-- name: Form processing AI model
+  - name: Use sample data
+    href: object-detection-sample-data.md
+- name: Form processing AI model (Preview)
   items:
   - name: Overview
     href: form-processing-model-overview.md
@@ -76,14 +91,16 @@
     href: create-form-processing-model.md
   - name: Train and publish your form-processing model
     href: form-processing-train.md
+  - name: Use sample data
+    href: form-processing-sample-data.md
 - name: Use AI Builder in Microsoft Flow
   items:
   - name: Overview
     href: use-in-flow-overview.md
   - name: Prerequisites
     href: use-in-flow-prereq.md
-  - name: Use a binary classification model in Microsoft Flow
-    href: binary-classification-model-in-flow.md
+  - name: Use a prediction model in Microsoft Flow
+    href: prediction-model-in-flow.md
   - name: Use a text classification model in Microsoft Flow
     href: text-classification-model-in-flow.md
   - name: Use a form processing model in Microsoft Flow
@@ -94,8 +111,8 @@
   items:
   - name: Overview
     href: use-in-powerapps-overview.md
-  - name: Use your binary classification model in PowerApps
-    href: binary-classification-model-driven-app.md
+  - name: Use your prediction model in PowerApps
+    href: prediction-model-driven-app.md
   - name: Use the form processor component in PowerApps
     href: form-processor-component-in-powerapps.md
   - name: Use the object detector component in PowerApps
@@ -106,6 +123,13 @@
   items:
   - name: Administer AI Builder
     href: administer.md
-  - name: Security in AI Builder
+  - name: Licensing
+    href: administer-licensing.md
+  - name: Security
     href: security.md
-    
+- name: Troubleshoot
+  items:
+  - name: Common issues and resolutions
+    href: common-issues.md
+  - name: Support
+    href: support.md

@@ -6,15 +6,12 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/07/2019
+ms.date: 09/06/2019
 ms.author: joshrenn
-ms.reviewer: kvivek
+ms.reviewer: v-dehaas
 ---
 
 # Train a model in AI Builder
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
-
 
 Before you can use your AI model, you have to train it to perform the way you want. After you train your model,  [publish it](publish-model.md) to make it available to other people.
 

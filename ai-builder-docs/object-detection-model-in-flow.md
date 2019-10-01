@@ -6,28 +6,27 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/07/2019
+ms.date: 09/06/2019
 ms.author: v-dehaas
-ms.reviewer: kvivek
+ms.reviewer: v-dehaas
 ---
 
 # Use object detection model in Microsoft Flow
 
-
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
  > [!IMPORTANT]
- > Currently, to use AI Builder models in a flow, you must create the flow in a solution. More information: [Create a flow in a solution](/flow/create-flow-solution).   
+ > Currently, to use AI Builder models in a flow, you must create the flow in a solution. More information: [Create a flow in a solution](/flow/create-flow-solution).
 
 1. Sign in to [Microsoft Flow](https://flow.microsoft.com/), select the **My flows** tab, and then select **Create from blank**.
-1. Search for *manually*, select **Manually trigger a flow** in the list of triggers, and then select **+ Add an input**.
-5. Select **File**, and set **My Image** as input title.
+2. Search for *manually*, select **Manually trigger a flow** in the list of triggers, and then select **+ Add an input**.
+3. Select **File**, and set **My Image** as input title.
 4. Select **+ New step**, search for *Predict*, and then select **Predict - Common Data Service (Current Environment)** in the list of actions.
 
     > [!div class="mx-imgBorder"]
     > ![Predict common data service](media/predict-CDS.png "Predict common data service screen")
 
-8. Select the object detection model you want to use, and specify the following as **Request Payload**: 
+5. Select the object detection model you want to use, and specify the following as **Request Payload**:
 
     ```json
     {
@@ -43,17 +42,16 @@ ms.reviewer: kvivek
      > [!NOTE] 
      > Depending on which connector the file comes from, the expression will need to be enclosed by base64() instead of string().
 
-5. Select **+ New step**, search for *Parse JSON*, and then select **Parse JSON – Data Operations** from the lists of actions.
+6. Select **+ New step**, search for *Parse JSON*, and then select **Parse JSON – Data Operations** from the lists of actions.
 
     > [!div class="mx-imgBorder"]
     > ![Parse JSON data operations screen](media/parse-json-data-operations.png "Parse JSON data operations screen")
-    
-11.	In the **Parse JSON** screen, next to **Content**, select **Response Payload**.
+7.	In the **Parse JSON** screen, next to **Content**, select **Response Payload**.
 
     > [!div class="mx-imgBorder"]
     > ![Select response payload](media/response-payload.png)
  
-12. Copy and paste the following JSON code into the **Schema** box: 
+8. Copy and paste the following JSON code into the **Schema** box: 
 
     ```JSON
     {
@@ -107,19 +105,19 @@ ms.reviewer: kvivek
         }
     }
     ```
- 
+
     > [!div class="mx-imgBorder"]
     > ![Schema box](media/schema.png "Schema box")
 
-13. To retreive the name of the detected object or objects on the image, add the **Get a record** action from Common Data Service (current Environment). 
+9. To retrieve the name of the detected object or objects on the image, add the **Get a record** action from Common Data Service (current Environment).
 
-14. On the **Get a record** screen, select **AI Object Detection Labels** in the **Entity Name** box, and in **Item identifier** enter **tagId**. 
+10. On the **Get a record** screen, select **AI Object Detection Labels** in the **Entity Name** box, and in **Item identifier** enter **tagId**.
 
-    When you add **tagId** as Item identifier an *apply to each* loop is automatically added. This loops all the object tags that are detected on the image that is provided by the flow trigger. 
+    When you add **tagId** as Item identifier an *apply to each* loop is automatically added. This loops all the object tags that are detected on the image that is provided by the flow trigger.
 
-    You can continue to build your flow to meet your business needs. 
-    
-Congratulations! You have created a flow that leverages an objectdDetection AI Builder model. Select **Save** on the top right, and then select **Test** to try out your flow. 
+    You can continue to build your flow to meet your business needs.
+
+Congratulations! You have created a flow that leverages an objectdDetection AI Builder model. Select **Save** on the top right, and then select **Test** to try out your flow.
 
 ## Example object detection flow
 
@@ -129,7 +127,7 @@ The following example shows the creation of a flow that counts the number of gre
 > ![Green tea object detection flow example](media/green-tea-example.png "Example of an object detection flow")
 
 To learn more about all the triggers and actions you can use, go to the [Microsoft Flow documentation](/flow/getting-started).
- 
 
 ### Related topic
+
 [Object detection overview](object-detection-overview.md)

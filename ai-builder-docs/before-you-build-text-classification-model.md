@@ -6,9 +6,9 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/07/2019
+ms.date: 09/06/2019
 ms.author: raaourik 
-ms.reviewer: kvivek
+ms.reviewer: v-dehaas
 ---
 
 # Before you build a text classification model

@@ -6,9 +6,9 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/07/2019
+ms.date: 09/06/2019
 ms.author: aminab
-ms.reviewer: kvivek
+ms.reviewer: v-dehaas
 ---
 
 # Overview of object detection model

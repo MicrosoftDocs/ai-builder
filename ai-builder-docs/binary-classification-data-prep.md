@@ -1,4 +1,5 @@
 ---
+redirect_url: prediction-data-prep
 title: Data preparation -  AI Builder | Microsoft Docs
 description: Provides the steps you'll need to follow to prepare your data for AI Builder in Common Data Service. 
 author: Dean-Haas
@@ -8,13 +9,12 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 06/13/2019
 ms.author: peterbi
-ms.reviewer: kvivek
+ms.reviewer: v-dehaas
 ---
 
 # Data preparation
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
-Before you create your binary classification model, you'll want to make sure your data is in Common Data Service, and that it's in the correct format. 
+Before you create your prediction model, you'll want to make sure your data is in Common Data Service, and that it's in the correct format. 
 
 
 ## Create your custom entity
@@ -56,4 +56,4 @@ And you're done!
  
 
 ### Next step
-[Create a binary classification model](create-binary-classification-model.md) 
+[Create a prediction model](prediction-create-model.md) 
