@@ -1,6 +1,6 @@
 ---
-title: Use the business card reader component in PowerApps - AI Builder | Microsoft Docs
-description: Provides information about the properties and information extracted by the business card reader component in PowerApps 
+title: Use the business card reader component in a canvas app - AI Builder | Microsoft Docs
+description: Provides information about the properties and information extracted by the business card reader component in a canvas app
 author: alanabrito
 manager: kvivek
 ms.service: powerapps
@@ -11,20 +11,18 @@ ms.author: alanab
 ms.reviewer: v-dehaas
 ---
 
-
-# Use the business card reader component in PowerApps
+# Use the business card reader component in a canvas app
 
  > [!NOTE]
  >
- >| This component is not supported in Internet Explorer|
- >| Find more information about [canvas apps](/powerapps/maker/canvas-apps/getting-started)|
+ > - This component is not supported in Internet Explorer
+ > - Find more information about [canvas apps](/powerapps/maker/canvas-apps/getting-started).
 
-The business card reader component takes a photo or loads an image from the local device, and then scans it to find a business card| If it detects a business card, it extracts the information it finds|
+The business card reader component takes a photo or loads an image from the local device, and then scans it to find a business card. If it detects a business card, it extracts the information it finds.
 
 ## Key properties
 
-If a business card is detected, the business card reader will try to extract the following information|
-
+If a business card is detected, the business card reader will try to extract information that it finds based on the following properties:
 
 |Property |Definition  |
 |---------|---------|
@@ -66,7 +64,7 @@ Additional design properties are available in the **Advanced** panel.
 
 ## Accessibility guidelines
 
-These [guidelines](/powerapps/maker/canvas-apps/controls/control-button) for the PowerApps button control also apply to the form processor component|
+These [guidelines](/powerapps/maker/canvas-apps/controls/control-button) for the PowerApps button control also apply to the form processor component.
 
 ### Related topic
 [Core properties in PowerApps](/powerapps/maker/canvas-apps/controls/properties-core)
