@@ -1,5 +1,5 @@
 ---
-title: Use the business card reader component in PowerApps - AI Builder | Microsoft Docs
+title: Use the business card reader component in model-driven apps in PowerApps - AI Builder | Microsoft Docs
 description: Provides information about how to setup and use the AI Builder business card reader in model-driven apps 
 author: mustlaz
 manager: kvivek
@@ -12,9 +12,12 @@ ms.reviewer: v-dehaas
 ---
 
 
-# Use the business card reader in model-driven applications
+# Use the business card reader in model-driven apps
 
  The business card reader takes a photo or loads an image from the local device, and then scans it to find a business card. If it detects a business card, it extracts the information it finds.
+
+> [!NOTE]
+> For information about model-driven apps, see [What are model-driven apps in PowerApps](/powerapps/maker/model-driven-apps/model-driven-app-overview)?
 
 ## Licensing requirements
 

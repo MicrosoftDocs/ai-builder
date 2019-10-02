@@ -1,5 +1,5 @@
 ---
-title: Use the business card reader component in a canvas app - AI Builder | Microsoft Docs
+title: Use the business card reader component in canvas apps in PowerApps - AI Builder | Microsoft Docs
 description: Provides information about the properties and information extracted by the business card reader component in a canvas app
 author: alanabrito
 manager: kvivek
@@ -13,12 +13,12 @@ ms.reviewer: v-dehaas
 
 # Use the business card reader component in a canvas app
 
- > [!NOTE]
- >
- > - This component is not supported in Internet Explorer
- > - Find more information about [canvas apps](/powerapps/maker/canvas-apps/getting-started).
-
 The business card reader component takes a photo or loads an image from the local device, and then scans it to find a business card. If it detects a business card, it extracts the information it finds.
+
+> [!NOTE]
+> - This component isn't supported in Internet Explorer.
+> - For information about canvas apps, see [What are canvas apps in PowerApps](/powerapps/maker/canvas-apps/getting-started)?
+
 
 ## Key properties
 
