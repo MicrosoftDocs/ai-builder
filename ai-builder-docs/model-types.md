@@ -22,7 +22,11 @@ To build a model using AI Builder, sign in to [PowerApps](https://web.powerapps.
 
 ## List of AI model types
 
-AI model types give you the ability to tailor a scenario to the needs of your business. With AI Builder, you can build a model using these AI model types:  
+AI model types give you the ability to tailor a scenario to the needs of your business. With AI Builder, you can build and train your own AI model suited to your needs, or you choose from several prebuilt models that you use in PowerApps and Flow without having to build and train the model. 
+
+### Customer built AI models
+
+Customer built AI models are models that you build choosing a model type in AI Builder, and that you train to perform a specific AI task using your data. You select the model type, provide the data, build and train your own unique AI model, and then use or share the model. Build your own custom AI model using these AI model types:
 
 | AI model type  | Category  | Start here
 |---|---|---|
@@ -30,6 +34,18 @@ AI model types give you the ability to tailor a scenario to the needs of your bu
 | Form processing  | Vision   | [Overview of form classification model](form-processing-model-overview.md)
 | Object detection  | Vision   | [Overview of object detection model](object-detection-overview.md)
 | Text classification  |Language   | [Overview of text classification model](text-classification-overview.md)
+
+### Prebuilt AI models
+
+AI Builder features prebuilt AI models that you can use in PowerApps and Flow. With a prebuilt model, you get an AI model that Microsoft has built and trained to perform a specific task. You don't need to build or train the model yourself to use it. The following prebuilt AI models are available:
+
+| AI model type | Category |Start here |
+|--------|--------|--------|
+|Business card reader |Vision |Overview of business card reader |
+|Key phrase extraction |Language | Overview of key phrase extraction
+|Language detection |Language |Overview of language detection |
+|Text recognition |Vision |Overview of text recognition |
+|Sentiment analysis |Language |Overview of sentiment analysis |
 
 ### Related topic
 
