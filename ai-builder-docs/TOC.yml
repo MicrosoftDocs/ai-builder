@@ -125,7 +125,7 @@
   - name: Use a prebuilt AI Builder model in Flow
     items:
     - name: Business card reader model
-      href: flow-bcr.md
+      href: flow-business-card-reader.md
     - name: Key phrase extraction model
       href: flow-key-phrase-extractor.md
     - name: Language detection model
