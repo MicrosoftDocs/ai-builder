@@ -127,7 +127,7 @@
     - name: Business card reader model
       href: flow-business-card-reader.md
     - name: Key phrase extraction model
-      href: flow-key-phrase-extractor.md
+      href: flow-key-phrase-extraction.md
     - name: Language detection model
       href: flow-language-detection.md
     - name: Sentiment analysis model
