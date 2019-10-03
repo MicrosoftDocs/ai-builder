@@ -18,7 +18,7 @@ The prebuilt business card AI model allows you to extract contact information fr
 
 ## Use in PowerApps
 
-If you want to use this prebuilt model in PowerApps using the Business card reader component. You can find more information in Use business card reader component in PowerApps.
+If you want to use this prebuilt model in PowerApps using the Business card reader component. You can find more information in [Use business card reader component in PowerApps](business-card-reader-component-in-powerapps.md).
 
 ## Use in Flow
 
