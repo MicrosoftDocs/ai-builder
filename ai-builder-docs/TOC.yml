@@ -118,7 +118,11 @@
   - name: Use the object detector component in PowerApps
     href: object-detector-component-in-powerapps.md
   - name: Use the business card reader component in PowerApps
-    href: business-card-reader-component-in-powerapps.md
+    items:
+    - name: Use in a canvas app
+      href: business-card-reader-component-in-powerapps.md
+    - name: Use in a model-driven app
+      href: business-card-reader-component-model-driven.md
 - name: Administration and security
   items:
   - name: Administer AI Builder
