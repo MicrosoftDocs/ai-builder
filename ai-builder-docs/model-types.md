@@ -41,11 +41,11 @@ AI Builder features prebuilt AI models that you can use in PowerApps and Flow. W
 
 | AI model type | Category |Start here |
 |--------|--------|--------|
-|Business card reader |Vision |Overview of business card reader |
-|Key phrase extraction |Language | Overview of key phrase extraction
-|Language detection |Language |Overview of language detection |
-|Text recognition |Vision |Overview of text recognition |
-|Sentiment analysis |Language |Overview of sentiment analysis |
+|Business card reader |Vision | [Overview of business card reader](prebuilt-business-card.md)
+|Key phrase extraction |Language | [Overview of key phrase extraction](prebuilt-key-phrase.md)
+|Language detection |Language | [Overview of language detection](prebuilt-language-detection.md)
+|Text recognition |Vision | [Overview of text recognition](prebuilt-text-recognition.md)
+|Sentiment analysis |Language | [Overview of sentiment analysis](prebuilt-sentiment-analysis.md)
 
 ### Related topic
 
