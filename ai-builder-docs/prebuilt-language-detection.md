@@ -11,17 +11,23 @@ ms.author: alanab
 ms.reviewer: v-dehaas
 ---
 
-# Overview of prebuilt AI models
+# Language detection prebuilt AI model
 
-AI builder includes a set of prebuilt models that allow to add intelligence to your apps and flows without having to gather data, build, and train your models. For example, you can add a component in PowerApps based on prebuilt model that recognizes contact information from business cards, or use  a prebuilt model in Flow to analyze whether customer feedback was positive or negative.
+The prebuilt language detection model identifies the predominant language of a text document. The model analyses the text and returns the detected language and a numeric score between 0 and 1. Scores close to 1 indicate higher certainty in the result. The detected language is returned as the "script" of the language. For instance, for the phrase "I have a dog" it will return “en” instead of “en-US”. The response for languages that can't be detected is **unknown**.
 
-The prebuilt models are available in Microsoft Flow and/or PowerApps, depending on the model. The following prebuilt models are currently available in AI Builder:
+## Use in Microsoft Flow
 
-|Model |Availability  |
-|---------|---------|
-|Business card reader   |    Flow and PowerApps     |
-|Key phrase extraction  |     Flow    |
-|Language detection  |     Flow    |
-|Text recognition      |     Flow    |
-|Sentiment analysis     |     Flow    |
+If you want to use this prebuilt model in Microsoft Flow, you can find more information in Use language detection model in Microsoft Flow.  
 
+## Supported language and data format
+
+- Documents cannot exceed 5,120 characters.
+- The language detection model can detect a wide range of languages, variants, dialects, and some regional or cultural languages. The exact list of languages for this feature isn't currently available
+
+## Model output
+
+If text is detected, the language detection model will output the following information:
+
+- **Results**: A list of languages detected in the input text.
+- **Language**: Script version of the language code (ex.: “en”, “fr”, “zh_chs”, “ru”)
+- **Score**: Numeric value from 0 to 1 where values close to 1 indicate 100% certainty that the identified language is true 

@@ -1,5 +1,5 @@
 ---
-title: Overview of prebuilt AI models -  AI Builder | Microsoft Docs
+title: Key phrase extraction prebuilt AI model -  AI Builder | Microsoft Docs
 description: Describes the prebuilt AI models that are available in AI Builder.
 author: alanabrito
 manager: kvivek
@@ -11,17 +11,22 @@ ms.author: alanab
 ms.reviewer: v-dehaas
 ---
 
-# Overview of prebuilt AI models
+# Key phrase extraction prebuilt AI model
 
-AI builder includes a set of prebuilt models that allow to add intelligence to your apps and flows without having to gather data, build, and train your models. For example, you can add a component in PowerApps based on prebuilt model that recognizes contact information from business cards, or use  a prebuilt model in Flow to analyze whether customer feedback was positive or negative.
+The key phrase extraction model identifies the main points in a text document. For example, given input text "The food was delicious and there were wonderful staff", the service returns the main talking points: "food" and "wonderful staff". This model can extract a list of key phrases from unstructured text documents. 
 
-The prebuilt models are available in Microsoft Flow and/or PowerApps, depending on the model. The following prebuilt models are currently available in AI Builder:
+## Use in Microsoft Flow
 
-|Model |Availability  |
-|---------|---------|
-|Business card reader   |    Flow and PowerApps     |
-|Key phrase extraction  |     Flow    |
-|Language detection  |     Flow    |
-|Text recognition      |     Flow    |
-|Sentiment analysis     |     Flow    |
+If you want to use this prebuilt model in Microsoft Flow, you can find more information in Use key phrase extraction model in Microsoft Flow.  
+ 
+## Supported language and data format
 
+- Documents cannot exceed 5,120 characters.  
+- For information on language support, see [Azure Cognitive Services supported languages](/azure/cognitive-services/language-support).
+
+## Model output
+
+If text is detected, the key phrase extraction model will output the following information:
+
+- **Results**: A list of phrases from the document
+- **Phrase**: Strings denoting the key talking points in the document text
