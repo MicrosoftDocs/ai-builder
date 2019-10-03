@@ -11,17 +11,31 @@ ms.author: alanab
 ms.reviewer: v-dehaas
 ---
 
-# Overview of prebuilt AI models
+# Text recognition model
 
-AI builder includes a set of prebuilt models that allow to add intelligence to your apps and flows without having to gather data, build, and train your models. For example, you can add a component in PowerApps based on prebuilt model that recognizes contact information from business cards, or use  a prebuilt model in Flow to analyze whether customer feedback was positive or negative.
+The prebuild text recognition model can be used to extract recognized words from documents and images into machine-readable character streams. It uses state-of-the-art optical character recognition (OCR) to detect embedded printed and handwritten text.
 
-The prebuilt models are available in Microsoft Flow and/or PowerApps, depending on the model. The following prebuilt models are currently available in AI Builder:
+This prebuilt processes images and document files to extract lines of printed or handwritten text.
 
-|Model |Availability  |
-|---------|---------|
-|Business card reader   |    Flow and PowerApps     |
-|Key phrase extraction  |     Flow    |
-|Language detection  |     Flow    |
-|Text recognition      |     Flow    |
-|Sentiment analysis     |     Flow    |
+If you want to use this prebuilt model in Microsoft Flow, you can find more information in Use text recognition model in Microsoft Flow.  
 
+## Supported language, format and size 
+
+The documents you can scan with the Text recognition model need these characteristics:
+
+- **Language**: English
+- **Format**:
+    - JPG
+    - PNG
+    - BMP
+    - PDF
+    - TIFF
+- **Size**: 20 MB maximum
+ 
+## Model output
+
+If a document is detected, the text recognition model will output the following information:
+
+- **Results**: A list of lines extracted from the input text.
+- **Text**: Strings containing the line of text detected.
+- **BoundingBox**: Four values representing the bounding box, described using the top and left positions along with its width and height. 
