@@ -22,7 +22,6 @@
     href: manage-model.md
   - name: Publish a model
     href: publish-model.md
-
   - name: Use your model
     href: use-model.md
   - name: Share a model
@@ -93,14 +92,14 @@
     href: form-processing-train.md
   - name: Use sample data
     href: form-processing-sample-data.md
-  name: Prebuilt AI models
+- name: Prebuilt AI models
   items:
   - name: Overview
     href: prebuilt-overview.md
   - name: Business card reader
     href: prebuilt-business-card.md
   - name: Key phrase extraction
-    href: prebuilt-key-phrase-extraction.md
+    href: prebuilt-key-phrase.md
   - name: Language detection
     href: prebuilt-language-detection.md
   - name: Text recognition
