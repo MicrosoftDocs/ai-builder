@@ -105,7 +105,7 @@
   - name: Text recognition
     href: prebuilt-text-recognition.md
   - name: Sentiment analysis
-    href: prebuilt-sentiment analysis.md
+    href: prebuilt-sentiment-analysis.md
 - name: Use AI Builder in Microsoft Flow
   items:
   - name: Overview
