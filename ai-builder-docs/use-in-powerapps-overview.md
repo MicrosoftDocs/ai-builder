@@ -1,13 +1,13 @@
 ---
 title: Overview of AI Builder in PowerApps -  AI Builder | Microsoft Docs
-description: Provides an overview of the AI Builder components that are available to use with canvas apps in PowerApps
-author: JoeFernandezMS
+description: Provides an overview of the AI Builder components that are available to use with canvas and model-driven apps in PowerApps
+author: mustlaz
 manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/06/2019
-ms.author: jofernan
+ms.date: 09/30/2019
+ms.author: mustlaz
 ms.reviewer: v-dehaas
 ---
 
@@ -15,15 +15,15 @@ ms.reviewer: v-dehaas
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-To use your AI Builder models in PowerApps, build a [model-driven app](/powerapps/maker/model-driven-apps/model-driven-app-overview) or use AI Builder components in the canvas studio to add an AI model to a [canvas app](/powerapps/maker/canvas-apps/getting-started).
+AI Builder comes with:
+- A ready-to-use business card reader available in canvas as well as in [model-driven apps](/powerapps/maker/model-driven-apps/model-driven-app-overview). 
+	- [Business card reader (Canvas)](business-card-reader-component-in-powerapps.md)
+	- [Business card reader (Model-driven)](business-card-reader-component-model-driven.md)
+- Additional canvas components to leverage your AI Builder form processing or object detection models [canvas apps](/powerapps/maker/canvas-apps/getting-started).
+	- [Form processor](form-processor-component-in-powerapps.md)
+	- [Object detector](object-detector-component-in-powerapps.md)
 
 > [!div class="mx-imgBorder"]
 > ![Canvas studio screen](media/canvas-studio.PNG "Canvas studio screen")
 
-These components appear in the **Insert** tab when you build your canvas app in PowerApps.
-
-Three components are available:
-
- - [Business card reader](business-card-reader-component-in-powerapps.md)
- - [Form processor](form-processor-component-in-powerapps.md)
- - [Object detector](object-detector-component-in-powerapps.md)
+The canvas components are available in the canvas studio and appear in the **Insert** tab when you build your canvas app in PowerApps.
