@@ -18,7 +18,7 @@ ms.reviewer: v-dehaas
 
 1. [Sign in](https://flow.microsoft.com/signin) to Microsoft Flow, select the **My flows** tab, and then select **Create from blank**.
 1. Search for the term *manually*, select **Manually trigger a flow** in the list of triggers, and then select **+ Add an input**.
-1. Select **Text** and set as input title: **My Text**.
+1. Select **Text**, and set as input title: **My Text**.
 1. Select **+Add an input** again.
 1. Select **Text** and set as input title: *My Language*.
 1. Select **+ New step**, search for *Predict*, and then select **Predict Common Data Service (current Environment)** in the list of actions.
