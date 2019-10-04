@@ -57,9 +57,10 @@ ms.reviewer: v-dehaas
               } 
         }
     ```
+   > ![Parse JSON screen](media/flow-parse-json-2.png "Parse JSON screen")
 
 Now you can iterate through the detected languages returned by the language detection model. In the following example, we add the detected languages to an existing CDS record. 
 
-   > ![Update e record screen](media/flow-updated-languages.png "Update a record screen")
+   > ![Apply to each screen](media/flow-apply-to-each.png "Apply to each screen")
 
 Congratulations! You have created a flow that leverages a language detection model. Select **Save** on the top right and then select **Test** to try out your flow.

@@ -106,7 +106,9 @@ ms.reviewer: v-dehaas
         } 
     ```
 
-10. To retrieve the text from the lines recognized in the image, add the  **Apply to each**  action control to iterate through the results. 
+     > ![Parse JSON screen](media/flow-parse-json-2.png "Parse JSON screen")
+
+10. To retrieve the text from the lines recognized in the image, add the  **Apply to each**  action control to iterate through the results.
 
       > ![Apply to each screen](media/flow-apply-to-each.png "Apply to each screen")
 

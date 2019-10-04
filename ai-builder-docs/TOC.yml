@@ -112,7 +112,7 @@
     href: use-in-flow-overview.md
   - name: Prerequisites
     href: use-in-flow-prereq.md
-  - name: Use a trained AI Builder model in Flow
+  - name: Use a custom AI Builder model in Flow
     items:
     - name: Prediction model 
       href: prediction-model-in-flow.md
