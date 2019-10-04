@@ -58,7 +58,7 @@ ms.reviewer: v-dehaas
     ```
 
    > ![Parse JSON screen](media/flow-parse-json-2.png "Parse JSON screen")
-1. Now you can iterate through the outputs returned by the key phrase extraction model. In the following example, we add each key phrase to a CDS record.
+Now you can iterate through the outputs returned by the key phrase extraction model. In the following example, we add each key phrase to a Common Data Service record.
 
    > ![Add key phrases screen](media/flow-add-phrase.png "Add key phrases in Common Data Service")
 
