@@ -39,7 +39,6 @@ ms.reviewer: v-dehaas
 7. Select **+ New step**, search for *Parse JSON*, and then select **Parse JSON – Data Operations** in the lists of actions.
    > ![Parse JSON screen](media/flow-predict-cds.png "Parse JSON screen")
 8. In the **Parse JSON** screen, next to **Content**, select **Response Payload**.
-   > !['Select response payload' screen](media/flow-response-payload.png "'Select response payload' screen")
 9. Copy and paste the following JSON code into the **Schema** box:
 
     ```json
