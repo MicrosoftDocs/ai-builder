@@ -19,8 +19,6 @@ ms.reviewer: v-dehaas
 1. Select **File**, and set **My Image** as the input title.
 1. Select **+ New step**, search for the term *Predict*, and then select **Predict - Common Data Service (Current Environment)** in the list of actions.
 
-   > ![Select common data service screen](media/flow-predict-cds.png "Select common data service screen")
-
 5. Select the **BusinessCard model**” and specify the following as Request Payload:
 
     ```json
