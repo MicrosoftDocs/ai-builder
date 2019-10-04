@@ -1,24 +1,24 @@
 ---
-title: Use the business card reader component in model-driven apps in PowerApps - AI Builder | Microsoft Docs
-description: Provides information about how to setup and use the AI Builder business card reader in model-driven apps 
-author: mustlaz
+title: Use the text recognition prebuilt model in Microsoft Flow - AI Builder | Microsoft Docs
+description: Provides information about how to text recognition prebuilt model in Microsoft Flow 
+author: alanabrito
 manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/30/2019
-ms.author: mustlaz
+ms.date: 10/04/2019
+ms.author: alanab
 ms.reviewer: v-dehaas
 ---
 
 
-# 
+# Use the text recognition prebuilt model in Microsoft Flow
 
 1. [Sign in](https://flow.microsoft.com/signin) to Microsoft Flow, select the **My flows** tab, and then select **Create from blank**.
 1. Search for the term *manually*, select **Manually trigger a flow** in the list of triggers, and then select **+ Add an input**.
 1. Select **File**, and set **My Image** as the input title.
 1. Select **+ New step**, search for the term *Predict*, and then select **Predict - Common Data Service (Current Environment)** in the list of actions.
-1. Select **Text recognition model**, and specify the following as **Request Payload**: 
+1. Select **Text recognition model**, and specify the following as **Request Payload**:
 
     ```json
     { 
@@ -27,7 +27,7 @@ ms.reviewer: v-dehaas
     }
     ```
 
-1. Replace *EXPRESSION* with the following expression string on the formula bar on the right: 
+1. Replace *EXPRESSION* with the following expression string on the formula bar on the right:
 
     ```json
     string(triggerBody()?['file']?['contentBytes'])
