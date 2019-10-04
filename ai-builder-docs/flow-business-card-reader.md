@@ -14,16 +14,14 @@ ms.reviewer: v-dehaas
 
 # Use the business card reader prebuilt model in Microsoft Flow
 
- To use AI Builder models in a flow, you have to create the flow in a solution. More information: Create a flow in a solution.
-
 1. [Sign in](https://flow.microsoft.com/signin) to Microsoft Flow, select the **My flows** tab, and then select **Create from blank**.
 1. Search for the term *manually*, select **Manually trigger a flow** in the list of triggers, and then select **+ Add an input**.
 1. Select **File**, and set **My Image** as the input title.
-1. Select **+ New step**, search for the term *Predict*, and then select **Predict - Common Data Service (Current Environment)** in the list of actions. 
+1. Select **+ New step**, search for the term *Predict*, and then select **Predict - Common Data Service (Current Environment)** in the list of actions.
 
    > ![Select common data service screen](media/flow-predict-cds.png "Select common data service screen")
 
-5. Select the **BusinessCard model**” and specify the following as Request Payload: 
+5. Select the **BusinessCard model**” and specify the following as Request Payload:
 
     ```json
     { 
