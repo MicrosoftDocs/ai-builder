@@ -39,3 +39,5 @@ Download [AIBuilder_Lab.zip](https://go.microsoft.com/fwlink/?linkid=2103171) fi
 9. Select **Next** to finish.
 
 ### Related topic
+
+[Use an object detection component in PowerApps](/ai-builder/object-detector-component-in-powerapps)
