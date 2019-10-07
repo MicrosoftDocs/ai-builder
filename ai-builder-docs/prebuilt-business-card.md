@@ -11,7 +11,7 @@ ms.author: alanab
 ms.reviewer: v-dehaas
 ---
 
-# Prebuilt business card AI model
+# Business card model
 
 The prebuilt business card AI model allows you to extract contact information from business cards images. If the business card is detected in the image, information such as name, job title, address, email, company and phone numbers can be extracted.
 
@@ -20,7 +20,7 @@ The prebuilt business card AI model allows you to extract contact information fr
 
 If you want to use this prebuilt model in PowerApps using the Business card reader component. You can find more information in [Use business card reader component in PowerApps](business-card-reader-component-in-powerapps.md).
 
-## Use in Flow
+## Use in Microsoft Flow
 
 If you want to use this prebuilt model in Microsoft Flow, you can find more information in Use business card model in Microsoft Flow.
  
