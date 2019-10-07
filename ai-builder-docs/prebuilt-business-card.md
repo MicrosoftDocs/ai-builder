@@ -11,7 +11,7 @@ ms.author: alanab
 ms.reviewer: v-dehaas
 ---
 
-# Prebuilt business card AI model
+# Prebuilt business card model
 
 The prebuilt business card AI model allows you to extract contact information from business cards images. If the business card is detected in the image, information such as name, job title, address, email, company and phone numbers can be extracted.
 
