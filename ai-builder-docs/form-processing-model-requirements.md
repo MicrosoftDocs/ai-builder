@@ -32,6 +32,7 @@ Form processing works on input documents that meet the following requirements:
 
 ## Optimization tips
 
+- Use forms with different values in each field.
 - When you create a new form processing model, upload documents with the same layout where each document is a separate instance. For example: invoices from the same provider, but each uploaded invoice is from a different month.
 - You can optimize PDF files by using the **Print > Print to PDF** option to select certain pages within your document.
 
