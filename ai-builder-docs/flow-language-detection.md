@@ -37,15 +37,15 @@ ms.reviewer: v-dehaas
                               "items": { 
                                   "type": "object", 
                                   "properties": { 
-                                      "type": { 
+                                      "language": { 
                                           "type": "string" 
                                       }, 
                                       "score": { 
-                                          "type": "number" 
+                                          "type": "integer" 
                                       } 
                                   }, 
                                   "required": [ 
-                                      "type", 
+                                      "language", 
                                       "score" 
                                   ] 
                               } 
