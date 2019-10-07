@@ -35,7 +35,7 @@ ms.reviewer: v-dehaas
     string(triggerBody()?['file']?['contentBytes'])
     ```
 
-     > ![Select payload screen](media/flow-payload-screen.png "Select payload screen")
+     > ![Select payload screen](media/flow-payload-screen-ocr.png "Select payload screen")
 
  > [!NOTE]
  > Depending on which connector the file comes from, the expression may need to be enclosed by base64() instead of string().
