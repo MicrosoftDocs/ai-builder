@@ -38,7 +38,7 @@ If text is detected, the sentiment analysis model will output the following info
     - Positive
     - Negative
     - Neutral
-    - Mixed). 
+    - Mixed. 
 - **DocumentScores**: Value in the range of 0 to 1 for the sentiments positive, negative and neutral where values close to 1 indicate greater certainty that the identified sentiment is accurate.
 - **Sentences**: List of sentences from the input text with analysis of its sentiments.
     - **Sentiment**: 
