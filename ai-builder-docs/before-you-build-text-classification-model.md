@@ -16,12 +16,12 @@ ms.reviewer: v-dehaas
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
 Before you build your text classification model, you'll need to make sure your data is in Common Data Service, and in the correct format.
+If you don't have training data and want to try AI Builder Text Classification, you can follow these [instructions](text-classification-sample-data.md) to use sample data.
 
 ## Prerequisites
 
  - Training data should be in a Common Data Service entity.
  - Make sure your administrator has assigned you a security role with read privilege over the training data.
- - You need to have a PowerApps P1 or P2 plan to be able to use AI Builder.
  - You have appropriate permissions to create entities in your Common Data Service environment.
  - AI Builder text classification supports the following languages: English, French, German, Dutch, Italian, Spanish, and Portuguese. If you try to classify text items in other languages, your model might not work properly. 
 
@@ -63,7 +63,7 @@ Note that the tags data is separated using a vertical bar or pipe ( \| ).
     - You might have to allow third-party cookies for your browser to perform this step.
 6. On the **Edit Queries** screen, select **Transform table** > **Use first row as headers**. Next, select the **Tags** column, and then select **Transform Column** > **Replace values**.
 1. Replace the vertical bar ( \| ) character with a semicolon ( ; ) and then select **OK**.
-1. Now that your data is in the correct format, select **Next** > **Load to new entity**.
+1. Now that your data is in the correct format, select **Next** > **Load to new entity** or **Next** > **Load to exisiting entity** if you already have one.
 1. Use the drop-down menu to select your target entity, and then map your columns to the destination field. 
 
     > [!div class="mx-imgBorder"]
