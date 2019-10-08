@@ -31,7 +31,7 @@ The images you can process with the business card model need these characteristi
 - Language: English.  
 - Format: 
     - JPG 
-    - PNG 
+    -.png 
     - BMP 
 - Size: 6 MB maximum 
  
