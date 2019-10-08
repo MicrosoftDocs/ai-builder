@@ -57,7 +57,7 @@ The minimum requirement for training data is 50 records, but this doesn't mean 5
 
 ### Check your data distribution
 
-For example, if you are using two option label of *Yes* or *No*, and most of your data record only has a *Yes* in this field, it’s hard for your model to learn from this data. Try to have a distribution of options in your data that roughly reflects the distribution of the options you might expect see. For example, if you are looking at data fields for *cat_owner* and *dog_owner*, use a data distribution close to 50%. If you are looking at fraudulent transactions, use a more imbalanced distribution - perhaps 95% - 5%. Look to industry standards for this type of information if you don't know what to expect.
+For example, if you are using two option label of *Yes* or *No*, and most of your data record only has a *Yes* in this field, it’s hard for your model to learn from this data. Try to have a distribution of options in your data that roughly reflects the distribution of the options you might expect see. For example, if you are looking at data fields for *cat_owner* and *dog_owner*, use a data distribution somewhere around 50%. If you are looking at fraudulent transactions, use a more imbalanced distribution - perhaps 95% - 5%. Look to industry standards for this type of information if you don't know what to expect.
 
 ### Add more fields
 
