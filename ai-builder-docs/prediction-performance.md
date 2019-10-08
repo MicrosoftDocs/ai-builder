@@ -67,15 +67,6 @@ You may already have a lot of correctly labeled training data, with lot of data 
 - Make sure the data fields  don't have high rate of missing values (>99%). Populate the missing values with default or remove the data field from the model training.
 - If a data field has high correlation with prediction outcome, remove the data field from the model training.  
 
-If your accuracy score is extremely high, e.g. consistently close to 100%, check your top influencers to make sure these fields are not revealing the answer of the issue you’re trying to predict. If this is the case, deselect the field and retrain the model.
-
-For example, let's say you want to predict which customers are likely to return and buy your products. You set your target field as *ReturningCustomer*, but there is also a field *NewCustomer* in your training data indicating whether this is a new customer. Your model would be 100% accurate because it has data that reveals whether the customer is a returning one. 
-•	  In this case, deselect the *NewCustomer* field, and then retrain the model.
-
-
-##
-
-
 ## Next step
 
 [Use your published binary classification model in a model-driven app](binary-classification-model-driven-app.md)
