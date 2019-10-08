@@ -23,16 +23,17 @@ For more information, go to [Evaluate your model](manage-model.md#evaluate-your-
 
 ## How is accuracy related to performance?
 
-A higher accuracy score generally means better model performance, but keep in mind that an extremely high score could indicate issues with the relevance or bias of your training data. You have to you to determine the appropriate level of accuracy  for your intended use of the AI model.
+A higher accuracy score generally means better model performance, but keep in mind that an extremely high score could indicate issues with the relevance or bias of your training data. You have to determine the appropriate level of accuracy for your intended use of the AI model.
 
 Here are some broad guidelines for assessing accuracy scores:
 
 |Score |Guidance  |
 |---------|---------|
-|>50% |Consistent scores greater than 50% mean that your model performs better than a guess. The higher the score, the more accurate the model is.|
-|<50%|Consistent scores below 50% mean that something is wrong with your model - it is wrong more often than a simple guess would be. Perhaps your data fields are not mapped correctly, or you are using the wrong data. |
-|~100%|Consistent scores close to 100% could indicate bias in the training data, or that a field that is correlating directly to the answer. |
-|50% - 100% |If your scores are consistently between 50% – 100% you must assess whether the performance is appropriate for your intended use of the AI model. Different model implementations have different tolerance for inaccuracy.  Predictions for marketing, payments, or fraud detection, will all have different levels of accuracy that make the AI model practical to use. |
+|<50%|Scores consistently below 50% mean that something is wrong with your model - it is wrong more often than a simple guess would be. Perhaps your data fields are not mapped correctly, or you are using the wrong data. |
+|>50% |Scores consistently greater than 50% mean that your model performs better than a guess. The higher the score, the more accurate the model is.|
+|~100%|Scores consistently close to 100% could indicate bias in the training data, or that a field that is correlating directly to the answer. |
+
+If your scores are consistently between 50% – 100%, you have to assess whether the performance is appropriate for your intended use of the AI model. You'll have a different tolerance for inaccuracy depending on your AI model implementation. Whether your model is intended for marketing, predicting online shopper intention, or detecting fraud, you should decide the level of accuracy that makes the AI model practical to use based on the intended use.
 
 ## Improve prediction model performance
 
@@ -50,9 +51,9 @@ After each training, a list of top influencers appears on the model details page
 This helps show whether your model is trained as you expect. For example, if you want to predict online shoppers’ intention. And you’re expecting Age, Product as the most influential field, you should see that in the most influential field list in model details page. If not, it may indicate that the training result is not as expected. In this case, you can either deselect the irrelevant or misleading fields and retrain or check your training issues to see details.
 
 
-### Add more correctly labeled training data
+### Add more data
 
-Even though the minimum requirement for training data is 50, it doesn't mean 50 data records can train a highly predictive model. For example, if your two option label is *Yes* or *No*, and most of your data record only has an *Yes* in this field. It’s hard for your model to learn all the signals from your data. And if your data is not correctly labeled, it will impact the accuracy in a negative way. Try to provide 1000 data records or more for better results. 
+Even though the minimum requirement for training data is 50 records, it doesn't mean 50 data records can train a highly predictive model. For example, if your two option label is *Yes* or *No*, and most of your data record only has an *Yes* in this field, it’s hard for your model to learn from this data. And if your data is not correctly labeled, it will impact the accuracy in a negative way. Try to provide 1000 or more data records, correctly labeled, with a fairly even distribution between options.
 
 ### Add more fields
 
@@ -69,4 +70,4 @@ You may already have a lot of correctly labeled training data, with lot of data 
 
 ## Next step
 
-[Use your published binary classification model in a model-driven app](binary-classification-model-driven-app.md)
+[Use your published prediction model in a model-driven app](prediction-model-driven-app.md)
