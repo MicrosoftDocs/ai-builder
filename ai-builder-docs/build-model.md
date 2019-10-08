@@ -30,7 +30,7 @@ If you want to explore AI Builder using sample data provided by Microsoft, you c
 
 Sample data and information on how to work with it is available [here](samples.md).
 
-![Deploy samples setting](media/deploy-samples-setting.PNG)
+![Deploy samples setting](media/deploy-samples-setting.png)
 
 ## Get started
 
