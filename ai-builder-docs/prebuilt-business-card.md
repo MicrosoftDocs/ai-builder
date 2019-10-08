@@ -22,7 +22,7 @@ If you want to use this prebuilt model in PowerApps using the Business card read
 
 ## Use in Microsoft Flow
 
-If you want to use this prebuilt model in Microsoft Flow, you can find more information in Use business card model in Microsoft Flow.
+If you want to use this prebuilt model in Microsoft Flow, you can find more information in [Use business card model in Microsoft Flow](flow-business-card-reader.md).
  
 ## Supported language, format and size
 
