@@ -53,7 +53,11 @@ This helps show whether your model is trained as you expect. For example, if you
 
 ### Add more data
 
-Even though the minimum requirement for training data is 50 records, it doesn't mean 50 data records can train a highly predictive model. For example, if your two option label is *Yes* or *No*, and most of your data record only has an *Yes* in this field, it’s hard for your model to learn from this data. And if your data is not correctly labeled, it will impact the accuracy in a negative way. Try to provide 1000 or more data records, correctly labeled, with a fairly even distribution between options.
+The minimum requirement for training data is 50 records, but this doesn't mean 50 data records will train a highly predictive model. Try to provide 1000 or more data records, correctly labeled, with a realistic distribution between options.
+
+### Check your data distribution
+
+Example: If you are using two option label of *Yes* or *No*, and most of your data record only has a *Yes* in this field, it’s hard for your model to learn from this data. Try to have a distribution of options in your data that reflects the approximate distribution of the options you might see. For example, if you are looking at data fields for *cat_owner* and *dog_owner*, use a data distribution close to 50%. If you are looking at fraudulent transactions, use a more imbalanced distribution - perhaps 95% - 5%. Look to industry standards for this type of information if you don't know what to expect.
 
 ### Add more fields
 
