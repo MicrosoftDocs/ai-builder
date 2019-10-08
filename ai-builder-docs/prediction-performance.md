@@ -21,7 +21,7 @@ AI Builder calculates the accuracy score for your model based on prediction resu
 
 For more information, go to [Evaluate your model](manage-model.md#evaluate-your-model).
 
-## How is Accuracy related to performance?
+## How is accuracy related to performance?
 
 A higher accuracy score generally means better model performance, but keep in mind that an extremely high score could indicate issues with the relevance or bias of your training data. You have to you to determine the appropriate level of accuracy  for your intended use of the AI model.
 
