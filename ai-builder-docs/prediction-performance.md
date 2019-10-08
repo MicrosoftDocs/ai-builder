@@ -15,19 +15,40 @@ ms.reviewer: v-dehaas
 
 After each training, AI Builder uses the test data set to evaluate the quality and accuracy of the new model. A summary page for your model shows your model training result, including a Performance score.
 
-## Performance score calculations
+## Accuracy score
 
-AI Builder calculates the performance score for your model based on the precision and recall of the prediction results:
-
-- **Performance score**: This is the harmonic mean of the precision and recall scores. It balances both scores for an imbalanced class distribution. Performance score values are between 0–100 percent. Generally, the higher the performance score, the better your model performs.
-- **Precision**: The fraction of correct predictions among all the positive predictions.
-- **Recall**: The fraction of correct predictions among all true positive cases.
+AI Builder calculates the 
 
 For more information, go to [Evaluate your model](manage-model.md#evaluate-your-model).
+
+## How is Accuracy related to performance?
+
+A higher accuracy score generally means better model performance, but keep in mind that an extremely high score could indicate issues with the relevance or bias of your training data. You have to you to determine the appropriate level of accuracy  for your intended use of the AI model.
+
+Here are some broad guidelines for assessing accuracy scores:
+
+|Score |Guidance  |
+|---------|---------|
+|>50% |Consistent scores greater than 50% mean that your model performs better than a guess. The higher the score, the more accurate the model is.|
+|<50%|Consistent scores below 50% mean that something is wrong with your model so that it is wrong more often than a simple guess would be. Perhaps your data fields are not mapped correctly, or you are using the wrong data. |
+|~100%|Consistent scores close to 100% could indicate bias in the training data, or that a field that is correlating directly to the answer. |
+|50% - 100% |If your scores are consistently between 50% – 100% you must assess whether the performance is appropriate for your intended use of the AI model. Different model implementations have different tolerance for inaccuracy.  Predictions for marketing, payments, or fraud detection, will all have different levels of accuracy that make the AI model practical to use. |
 
 ## Improve prediction model performance
 
 After you've trained and evaluated your model, it's time to tweak your model to improve it's performance. Here are some things you can try to help improve your model's predictive power:
+
+### Review errors and issues
+
+• After you finish training, if there are any errors, fix them and retrain the model.
+• If there are no errors, check the training  details. Try to address as many issues as possible, and then retrain the model.
+
+### Review top influencers
+
+After each training, a list of top influencers appears on the model details page. Each field used in the training has a score to represent its influence on the training. These scores combined equal 100%.
+
+This helps show whether your model is trained as you expect. For example, if you want to predict online shoppers’ intention. And you’re expecting Age, Product as the most influential field, you should see that in the most influential field list in model details page. If not, it may indicate that the training result is not as expected. In this case, you can either deselect the irrelevant or misleading fields and retrain or check your training issues to see details.
+
 
 ### Add more correctly labeled training data
 
@@ -43,7 +64,17 @@ You may already have a lot of correctly labeled training data, with lot of data 
 
 ### Validate data
 
-Make sure the data fields  don't have high rate of missing values (>99%). Populate the missing values with default or remove the data field from the model training. If a data field has high correlation (>99%) with prediction outcome, remove the data field from the model training.  
+- Make sure the data fields  don't have high rate of missing values (>99%). Populate the missing values with default or remove the data field from the model training.
+- If a data field has high correlation with prediction outcome, remove the data field from the model training.  
+
+If your accuracy score is extremely high, e.g. consistently close to 100%, check your top influencers to make sure these fields are not revealing the answer of the issue you’re trying to predict. If this is the case, deselect the field and retrain the model.
+
+For example, let's say you want to predict which customers are likely to return and buy your products. You set your target field as *ReturningCustomer*, but there is also a field *NewCustomer* in your training data indicating whether this is a new customer. Your model would be 100% accurate because it has data that reveals whether the customer is a returning one. 
+•	  In this case, deselect the *NewCustomer* field, and then retrain the model.
+
+
+##
+
 
 ## Next step
 
