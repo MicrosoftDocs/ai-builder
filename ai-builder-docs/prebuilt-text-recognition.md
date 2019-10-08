@@ -20,7 +20,7 @@ This prebuilt processes images and document files to extract lines of printed or
 
 ## Use in Microsoft Flow
 
-If you want to use this prebuilt model in Microsoft Flow, you can find more information in Use text recognition model in Microsoft Flow.  
+If you want to use this prebuilt model in Microsoft Flow, you can find more information in [Use text recognition model in Microsoft Flow](flow-text-recognition.md).  
 
 ## Supported language, format and size 
 
