@@ -27,4 +27,4 @@ For more information, go to [Evaluate your model](manage-model.md#evaluate-your-
 
 ### Next step
 
-[Use your published prediction model in a model-driven app](-classification-model-driven-app.md)
+[Use your published prediction model in a model-driven app](prediction-model-driven-app.md)

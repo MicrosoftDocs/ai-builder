@@ -47,4 +47,4 @@ Make sure the data fields  don't have high rate of missing values (>99%). Popula
 
 ## Next step
 
-[Use your published prediction model in a model-driven app](binary-classification-model-driven-app.md)
+[Use your published prediction model in a model-driven app](prediction-model-driven-app.md)
