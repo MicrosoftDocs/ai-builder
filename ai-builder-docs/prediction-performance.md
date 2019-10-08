@@ -17,7 +17,7 @@ After each training, AI Builder uses the test data set to evaluate the quality a
 
 ## Accuracy score
 
-AI Builder calculates the 
+AI Builder calculates the accuracy score for your model based on prediction result of the test data set. Before training, AI Builder separates your dataset into separate training data and testing data sets. And after training, AI Builder applies your AI model to the testing data set, and then calculates your accuracy score. For example: if your test data set has 200 records, and AI Builder correctly predicts 160 of them, AI Builder shows an accuracy score of 80%.
 
 For more information, go to [Evaluate your model](manage-model.md#evaluate-your-model).
 
@@ -30,7 +30,7 @@ Here are some broad guidelines for assessing accuracy scores:
 |Score |Guidance  |
 |---------|---------|
 |>50% |Consistent scores greater than 50% mean that your model performs better than a guess. The higher the score, the more accurate the model is.|
-|<50%|Consistent scores below 50% mean that something is wrong with your model so that it is wrong more often than a simple guess would be. Perhaps your data fields are not mapped correctly, or you are using the wrong data. |
+|<50%|Consistent scores below 50% mean that something is wrong with your model - it is wrong more often than a simple guess would be. Perhaps your data fields are not mapped correctly, or you are using the wrong data. |
 |~100%|Consistent scores close to 100% could indicate bias in the training data, or that a field that is correlating directly to the answer. |
 |50% - 100% |If your scores are consistently between 50% – 100% you must assess whether the performance is appropriate for your intended use of the AI model. Different model implementations have different tolerance for inaccuracy.  Predictions for marketing, payments, or fraud detection, will all have different levels of accuracy that make the AI model practical to use. |
 
@@ -40,8 +40,8 @@ After you've trained and evaluated your model, it's time to tweak your model to 
 
 ### Review errors and issues
 
-• After you finish training, if there are any errors, fix them and retrain the model.
-• If there are no errors, check the training  details. Try to address as many issues as possible, and then retrain the model.
+- After you finish training, if there are any errors, fix them and retrain the model.
+- If there are no errors, check the training  details. Try to address as many issues as possible, and then retrain the model.
 
 ### Review top influencers
 
