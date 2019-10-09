@@ -17,7 +17,7 @@ The prebuilt language detection model identifies the predominant language of a t
 
 ## Use in Microsoft Flow
 
-If you want to use this prebuilt model in Microsoft Flow, you can find more information in Use language detection model in Microsoft Flow.  
+If you want to use this prebuilt model in Microsoft Flow, you can find more information in [Use language detection model in Microsoft Flow](flow-language-detection.md).  
 
 ## Supported language and data format
 

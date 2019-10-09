@@ -24,6 +24,6 @@ AI Builder comes with:
 	- [Object detector](object-detector-component-in-powerapps.md)
 
 > [!div class="mx-imgBorder"]
-> ![Canvas studio screen](media/canvas-studio.PNG "Canvas studio screen")
+> ![Canvas studio screen](media/canvas-studio.png "Canvas studio screen")
 
 The canvas components are available in the canvas studio and appear in the **Insert** tab when you build your canvas app in PowerApps.

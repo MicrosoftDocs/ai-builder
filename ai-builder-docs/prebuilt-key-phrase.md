@@ -17,7 +17,7 @@ The key phrase extraction model identifies the main points in a text document. F
 
 ## Use in Microsoft Flow
 
-If you want to use this prebuilt model in Microsoft Flow, you can find more information in Use key phrase extraction model in Microsoft Flow.  
+If you want to use this prebuilt model in Microsoft Flow, you can find more information in [Use key phrase extraction model in Microsoft Flow](flow-key-phrase-extraction.md).  
  
 ## Supported language and data format
 
