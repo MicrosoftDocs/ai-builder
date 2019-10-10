@@ -37,7 +37,9 @@
     "globalMetadata": {
       "breadcrumb_path": "/ai-builder/breadcrumb/toc.json",
       "extendBreadcrumb": true,
-      "feedback_system": "None",
+      "feedback_system": "GitHub",
+      "feedback_github_repo": "MicrosoftDocs/ai-builder-pr",
+      "feedback_product_url": "https://go.microsoft.com/fwlink/?linkid=2092048",
       "search.app": [
         "PowerApps",
         "Flow"
