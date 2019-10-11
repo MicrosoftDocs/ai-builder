@@ -65,4 +65,4 @@ For more information about trial environments in PowerApps read this [topic](/po
 
 ### More information
 
-[Microsoft PowerApps and Microsoft Flow Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=2085130&clcid=0x409).
+[Microsoft PowerApps and Microsoft Flow Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=2085130&clcid=0x409)
