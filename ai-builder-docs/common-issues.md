@@ -21,7 +21,7 @@ If you are using an environment that was created before AI Builder was first rel
 
 ### AI Builder encounters errors reading data from your Common Data Service entity
 
-Use the navigation links on the left side of your screen to locate the data preparation section for the type of AI model that you are working with. Make sure your Common Data Service instance is configured correctly so that your model can access it.
+Use the navigation links on the left side of your screen to locate the data preparation section for the type of AI model that you are working with. Make sure your Common Data Service environment is configured correctly so that your model can access it.
 
 ### AI Builder business card reader doesn't work for some users
 
