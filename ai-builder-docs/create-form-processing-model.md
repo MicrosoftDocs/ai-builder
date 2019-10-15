@@ -65,6 +65,6 @@ To start, choose the fields that matter to you:
 
 ### Related topics
 
-[Form processing model in Flow](form-processing-model-in-flow.md)
+[Form processing model in Microsoft Flow](form-processing-model-in-flow.md)
 
 [Form processing model in PowerApps](form-processor-component-in-powerapps.md)
