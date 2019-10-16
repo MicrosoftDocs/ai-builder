@@ -25,7 +25,7 @@ AI Builder is licensed as an add-on to your PowerApps or Microsoft Flow licenses
 
 ## Role requirements
 
-Users need to be entitled to the **Common Data Service user** role to be able to consume the business card reader.
+Users need to be entitled to the Common Data Service user role to be able to consume the business card reader.
 
 ## Key properties
 
