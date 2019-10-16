@@ -19,7 +19,7 @@ The prebuilt business card AI model allows you to extract contact information fr
 AI Builder is licensed as an add-on to your PowerApps or Microsoft Flow licenses. For information about license capacity, pricing, and restrictions, see AI Builder licensing.
 
 ## Role requirements
-Users need to be entitled to the common data service user role to be able to consume the business card reader.
+Users need to be entitled to the Common Data Service user role to be able to consume the business card reader.
 
 ## Use in PowerApps
 
