@@ -66,7 +66,7 @@ ms.reviewer: v-dehaas
     > [!div class="mx-imgBorder"]
     > ![Parse JSON screen](media/parse-json.png "Parse JSON screen")
 
-9. Now you can iterate through the outputs returned by the text classification model. In the following example of instance, we save each inferred tag into a SharePoint list. 
+9. Now you can iterate through the outputs returned by the text classification model. In the following example, we save each inferred tag into a SharePoint list.
 
    > [!div class="mx-imgBorder"]
    > ![Save tags screens](media/save-tags.png "Save tags screens")

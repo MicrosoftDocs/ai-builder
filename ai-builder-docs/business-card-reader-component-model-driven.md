@@ -21,7 +21,7 @@ ms.reviewer: v-dehaas
 
 ## Licensing requirements
 
-AI Builder is licensed as an add-on to your PowerApps or Flow licenses. For information about license capacity, pricing, and restrictions, see [AI Builder licensing](/ai-builder/administer-licensing).
+AI Builder is licensed as an add-on to your PowerApps or Microsoft Flow licenses. For information about license capacity, pricing, and restrictions, see [AI Builder licensing](/ai-builder/administer-licensing).
 
 ## Role requirements
 
@@ -37,14 +37,14 @@ Add the business card reader to an existing contact or lead form in the form edi
 4. Select **AI Builder Business Card Control**.
 
 > [!div class="mx-imgBorder"]
-> ![Form editor add control screen](media/Form-editor-add-control.PNG "Form editor add control screen")
+> ![Form editor add control screen](media/Form-editor-add-control.png "Form editor add control screen")
 
 ## Configure the business card reader
 
 After you select the platform (Web, Phone, Tablet) where the business card reader should appear, you can bind the component properties that you need.
 
 > [!div class="mx-imgBorder"]
-> ![Form editor binding properties screen](media/Form-editor-binding-properties.PNG "Form editor binding properties screen")
+> ![Form editor binding properties screen](media/Form-editor-binding-properties.png "Form editor binding properties screen")
 
 > [!NOTE]
 >

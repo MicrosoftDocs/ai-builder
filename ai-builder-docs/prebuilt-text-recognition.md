@@ -29,7 +29,7 @@ The documents you can scan with the Text recognition model need these characteri
 - **Language**: English
 - **Format**:
     - JPG
-    - PNG
+    -.png
     - BMP
     - PDF
     - TIFF

@@ -18,7 +18,7 @@ After you successfully train your model, you have to publish it if you want to m
 On the details page, under **Last trained version**, select **Publish**.
 
 > [!div class="mx-imgBorder"]
-> ![Publish model screen](media/publish-model.PNG "Publish model screen")
+> ![Publish model screen](media/publish-model.png "Publish model screen")
 
 After you publish your last trained version, it appears as the published version. For certain AI model types, you might need to take additional steps to use your model in PowerApps or Common Data Service.
 
@@ -35,6 +35,6 @@ If you are satisfied with your model, you can publish it to make it available. S
 
 ### Related topics
 
-[Use AI Builder in Flow](use-in-flow-overview.md)
+[Use AI Builder in Microsoft Flow](use-in-flow-overview.md)
 
 [Use AI Builder in PowerApps](use-in-powerapps-overview.md)
