@@ -1,5 +1,5 @@
 ---
-title: AI Builder Licensing- AI Builder | Microsoft Docs
+title: AI Builder Licensing - AI Builder | Microsoft Docs
 description: Provides information about licensing in AI Builder.
 author: Dean-Haas
 manager: kvivek
@@ -26,11 +26,11 @@ An AI Builder trial license enables you to use  AI Builder  for free for the dur
 What you get with an AI Builder trial license:
 
 - Create and use AI models in any environment (trial or production), because the AI Builder trial license is applicable at the user level, not environment level.
-- Store  your AI model results in Common Data Service
-- Use AI model results in your PowerApps, Flows, and more.
+- Store  your AI model results in Common Data Service.
+- Use AI model results in your apps, flows, and more.
 
 > [!NOTE]
-> Your trial licenses is specific to a user, not an environment. If you already have an environment with PowerApps license (free or paid), you can use that environment or create a new one for your AI Builder trial.
+> Your trial license is specific to a user, not an environment. If you already have an environment with a PowerApps license (free or paid), you can use that environment or create a new one for your AI Builder trial.
 
 ### After the trial expires:
 
@@ -49,11 +49,11 @@ What you get with an AI Builder trial license:
 
 ### How do I convert my trial environment to a production environment?
 
-More information is available [here](/power-platform/admin/trial-environments)
+More information is available [here](/power-platform/admin/trial-environments).
 
 ### What email address can I use?
 
-More information is available [here](/powerapps/maker/signet-for-powerapps#faq)
+More information is available [here](/powerapps/maker/signet-for-powerapps#faq).
 
 ### Where can I find more information about license management in PowerApps?
 
@@ -61,7 +61,7 @@ More information about licenses and license management in PowerApps is available
 
 ### Where can I find more information about trial environments?
 
-For more information about trial environments in PowerApps read this [topic](/power-platform/admin/trial-environments)
+For more information about trial environments in PowerApps, read this [topic](/power-platform/admin/trial-environments).
 
 ### More information
 
