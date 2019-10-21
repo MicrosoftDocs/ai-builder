@@ -47,6 +47,10 @@ What you get with an AI Builder trial license:
 
 ## Licensing FAQs
 
+
+<!--from editor: We should use page titles rather than a generic "here." Microsoft style guide advises letting people know what we are asking them to open. --> 
+
+
 ### How do I convert my trial environment to a production environment?
 
 More information is available [here](/power-platform/admin/trial-environments).
