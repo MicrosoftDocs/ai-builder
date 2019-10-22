@@ -17,13 +17,17 @@ The business card reader component takes a photo or loads an image from the loca
 
 > [!NOTE]
 > - This component isn't supported in Internet Explorer.
-> - For information about canvas apps, see [What are canvas apps in PowerApps](/powerapps/maker/canvas-apps/getting-started)?
+> - For information about canvas apps, see [What are canvas apps in PowerApps?](/powerapps/maker/canvas-apps/getting-started)
 
 ## Licensing requirements
 
 AI Builder is licensed as an add-on to your PowerApps or Microsoft Flow licenses. For information about license capacity, pricing, and restrictions, see [AI Builder licensing](/ai-builder/administer-licensing).
 
 ## Role requirements
+
+
+<!--from editor: Can the following sentence be simplified? Maybe say "You need a Common Data Service user role to use the business card reader." --> 
+
 
 Users need to be entitled to the Common Data Service user role to be able to consume the business card reader.
 
