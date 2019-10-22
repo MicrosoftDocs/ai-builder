@@ -19,7 +19,7 @@ You can get support for AI Builder on the AI Builder community forums. Features 
 
 Check Microsoft community forums to see if other users have posted a solution that might help you.
 
-- [AI Builder community]((https://go.microsoft.com/fwlink/?linkid=2092048))
+- [AI Builder community](https://go.microsoft.com/fwlink/?linkid=2092048)
 - [Common Data Service community forums](https://powerusers.microsoft.com/t5/Common-Data-Services/ct-p/PA_CommonDataServices)
 - [PowerApps community forums](https://powerusers.microsoft.com/t5/Forums/ct-p/PA_Comm_Forums)
 
