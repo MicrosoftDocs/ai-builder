@@ -21,13 +21,13 @@ AI Builder features that are in preview release status are free to use. You do n
 
 ## Trial licenses
 
-An AI Builder trial license enables you to use  AI Builder  for free for the duration of the trial period.
+An AI Builder trial license enables you to use  AI Builder for free for the duration of the trial period.
 
 What you get with an AI Builder trial license:
 
-- Create and use AI models in any environment (trial or production), because the AI Builder trial license is applicable at the user level, not environment level.
-- Store  your AI model results in Common Data Service
-- Use AI model results in your PowerApps, Flows, and more.
+- The ability to create and use AI models in any PowerApps environment (trial or production), because the AI Builder trial license is applicable at the user level, not at the environment level.
+- Access to store  your AI model results in Common Data Service.
+- The capability to add intelligence to your organization by utilizing your AI model results in PowerApps and Microsoft Flow.
 
 > [!NOTE]
 > Your trial licenses is specific to a user, not an environment. If you already have an environment with PowerApps license (free or paid), you can use that environment or create a new one for your AI Builder trial.
