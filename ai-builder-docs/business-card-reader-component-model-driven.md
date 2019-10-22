@@ -25,6 +25,8 @@ AI Builder is licensed as an add-on to your PowerApps or Microsoft Flow licenses
 
 ## Role requirements
 
+<!--from editor: Suggest changing the following sentence to "You need a Common Data Service user role to use the business card reader." --> 
+
 Users need to be entitled to the **common data service user** role to be able to consume the business card reader.
 
 ## Add the business card reader
@@ -48,7 +50,7 @@ Reason for removing the ellipsis: The style guide says if an option label ends w
 
 ## Configure the business card reader
 
-After you select the platform (Web, phone, tablet) where the business card reader should appear, you can bind the component properties that you need.
+After you select the platform (web, phone, tablet) where the business card reader should appear, you can bind the component properties that you need.
 
 > [!div class="mx-imgBorder"]
 > ![Form editor binding properties screen](media/form-editor-binding-properties.PNG "Form editor binding properties screen")
