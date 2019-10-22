@@ -109,7 +109,7 @@ ms.reviewer: v-dehaas
 
    ![Parse JSON screen](media/flow-parse-json-2.PNG "Parse JSON screen")
 
-Now you can use the sentiment properties detected by the sentiment analysis model. In the following example, we update the Sentiment property existing Common Data Service record. 
+Now you can use the sentiment properties detected by the sentiment analysis model. In the following example, we updated the Sentiment property of an existing Common Data Service record. 
 
 ![Update record](media/flow-update-sentiment.PNG "Update record")
 
