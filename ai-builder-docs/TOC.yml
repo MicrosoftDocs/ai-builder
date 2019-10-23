@@ -162,7 +162,6 @@
         href: administer-licensing.md
       - name: Paid licenses and capacity allocation
         href: administer-licensing-capacity.md
-    href: administer-licensing.md
   - name: Security
     href: security.md
 - name: Troubleshoot
