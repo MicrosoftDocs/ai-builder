@@ -1,19 +1,19 @@
 ---
-title: AI Builder Licensing- AI Builder | Microsoft Docs
-description: Provides information about licensing in AI Builder.
+title: Preview features and trial licenses- AI Builder | Microsoft Docs
+description: Describes the availability of features in AI Builder for users who have a trial license, or who haven't obtained a license in AI Builder.
 author: Dean-Haas
 manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/01/2019
-ms.author: tatn
+ms.date: 10/023/2019
+ms.author: mfotedar
 ms.reviewer: v-dehaas
 ---
 
-# AI Builder licensing
+# Preview features and trial licenses
 
-AI Builder is licensed as an add-on to your PowerApps or Microsoft Flow licenses. This means you can start your AI Builder trial after you have a PowerApps or Microsoft Flow license that allows you to create a Common Data Service environment.  
+Want to get started using AI Builder? Use premium features for a limited time with a trial license, or use preview features without obtaining a license at all.
 
 ## Preview features
 
@@ -32,6 +32,11 @@ What you get with an AI Builder trial license:
 > [!NOTE]
 > Your trial licenses is specific to a user, not an environment. If you already have an environment with PowerApps license (free or paid), you can use that environment or create a new one for your AI Builder trial.
 
+For more information about trial licenses:
+
+- [PowerApps](https://signup.microsoft.com/Start?sku=powerapps)
+- [Microsoft Flow](https://preview.flow.microsoft.com/)
+
 ### After the trial expires:
 
 - Trial environments expire after 30 days.
@@ -40,29 +45,8 @@ What you get with an AI Builder trial license:
 > [!NOTE]  
 > These restrictions apply only to model types that have been released to  general availability. Model types in preview release status will remain available without a license until they are released for general availability.  
 
-## AI Builder paid license
-
-- You need to [purchase a license](/power-platform/admin/signup-for-powerapps-admin) to continue using your AI models, and to assign AI credits to an environment.
-- You can't create or modify AI Builder models, and no new inference will be possible when the trial expires if you don't purchase a license.
-
-## Licensing FAQs
-
-### How do I convert my trial environment to a production environment?
-
-More information is available [here](/power-platform/admin/trial-environments)
-
-### What email address can I use?
-
-More information is available [here](/powerapps/maker/signet-for-powerapps#faq)
-
-### Where can I find more information about license management in PowerApps?
-
-More information about licenses and license management in PowerApps is available [here](/power-platform/admin/wp-license-management).
-
-### Where can I find more information about trial environments?
-
-For more information about trial environments in PowerApps read this [topic](/power-platform/admin/trial-environments)
-
 ### More information
 
 [Microsoft PowerApps and Microsoft Flow Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=2085130&clcid=0x409)
+
+[AI Builder Licensing FAQ](/power-platform/admin/)

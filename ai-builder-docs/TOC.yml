@@ -155,6 +155,13 @@
   - name: Administer AI Builder
     href: administer.md
   - name: Licensing
+    items:
+      - name: Overview
+        href: administer-licensing-overview.md
+      - name: Preview features and trial licenses
+        href: administer-licensing.md
+      - name: Paid licenses and capacity allocation
+        href: administer-licensing-capacity.md
     href: administer-licensing.md
   - name: Security
     href: security.md
