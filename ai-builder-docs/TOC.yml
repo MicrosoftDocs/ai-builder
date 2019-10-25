@@ -126,13 +126,13 @@
     items:
     - name: Business card reader model
       href: flow-business-card-reader.md
-    - name: Key phrase extraction model
+    - name: Key phrase extraction model (Preview)
       href: flow-key-phrase-extraction.md
-    - name: Language detection model
+    - name: Language detection model (Preview)
       href: flow-language-detection.md
-    - name: Sentiment analysis model
+    - name: Sentiment analysis model (Preview)
       href: flow-sentiment-analysis.md
-    - name: Text recognition model
+    - name: Text recognition model (Preview)
       href: flow-text-recognition.md
 - name: Use AI Builder in PowerApps
   items:
