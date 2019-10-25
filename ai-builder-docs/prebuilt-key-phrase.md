@@ -11,7 +11,7 @@ ms.author: alanab
 ms.reviewer: v-dehaas
 ---
 
-# Key phrase extraction model (Preview)
+# Preview: Key phrase extraction model
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 

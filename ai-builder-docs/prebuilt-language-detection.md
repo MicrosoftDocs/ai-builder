@@ -1,5 +1,5 @@
 ---
-title: Overview of prebuilt AI models -  AI Builder | Microsoft Docs
+title: Language detection prebuilt AI model -  AI Builder | Microsoft Docs
 description: Describes the prebuilt AI models that are available in AI Builder.
 author: alanabrito
 manager: kvivek
@@ -11,7 +11,7 @@ ms.author: alanab
 ms.reviewer: v-dehaas
 ---
 
-# Language detection model (Preview)
+# Preview: Language detection model (Preview)
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 

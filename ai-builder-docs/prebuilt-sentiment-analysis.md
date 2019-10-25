@@ -11,7 +11,7 @@ ms.author: alanab
 ms.reviewer: v-dehaas
 ---
 
-# Sentiment analysis model (Preview)
+# Preview: Sentiment analysis model
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
