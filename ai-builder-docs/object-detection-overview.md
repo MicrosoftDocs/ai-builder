@@ -11,7 +11,7 @@ ms.author: aminab
 ms.reviewer: v-dehaas
 ---
 
-# Overview of object detection model
+# Preview: Overview of object detection model
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
