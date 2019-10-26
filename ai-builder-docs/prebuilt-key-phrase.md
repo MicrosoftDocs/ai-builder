@@ -11,7 +11,9 @@ ms.author: alanab
 ms.reviewer: v-dehaas
 ---
 
-# Key phrase extraction model
+# Preview: Key phrase extraction model
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
 The key phrase extraction model identifies the main points in a text document. For example, given input text "The food was delicious and there were wonderful staff", the service returns the main talking points: "food" and "wonderful staff". This model can extract a list of key phrases from unstructured text documents. 
 

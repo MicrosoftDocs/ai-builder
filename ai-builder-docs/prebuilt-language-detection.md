@@ -1,5 +1,5 @@
 ---
-title: Overview of prebuilt AI models -  AI Builder | Microsoft Docs
+title: Language detection prebuilt AI model -  AI Builder | Microsoft Docs
 description: Describes the prebuilt AI models that are available in AI Builder.
 author: alanabrito
 manager: kvivek
@@ -11,7 +11,9 @@ ms.author: alanab
 ms.reviewer: v-dehaas
 ---
 
-# Language detection model
+# Preview: Language detection model (Preview)
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
 The prebuilt language detection model identifies the predominant language of a text document. The model analyses the text and returns the detected language and a numeric score between 0 and 1. Scores close to 1 indicate higher certainty in the result. The detected language is returned as the "script" of the language. For instance, for the phrase "I have a dog" it will return “en” instead of “en-US”. The response for languages that can't be detected is **unknown**.
 
