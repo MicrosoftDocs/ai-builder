@@ -98,13 +98,13 @@
     href: prebuilt-overview.md
   - name: Business card reader
     href: prebuilt-business-card.md
-  - name: Key phrase extraction
+  - name: Key phrase extraction (Preview)
     href: prebuilt-key-phrase.md
-  - name: Language detection
+  - name: Language detection (Preview)
     href: prebuilt-language-detection.md
-  - name: Text recognition
+  - name: Text recognition (Preview)
     href: prebuilt-text-recognition.md
-  - name: Sentiment analysis
+  - name: Sentiment analysis (Preview)
     href: prebuilt-sentiment-analysis.md
 - name: Use AI Builder in Microsoft Flow
   items:
@@ -126,13 +126,13 @@
     items:
     - name: Business card reader model
       href: flow-business-card-reader.md
-    - name: Key phrase extraction model
+    - name: Key phrase extraction model (Preview)
       href: flow-key-phrase-extraction.md
-    - name: Language detection model
+    - name: Language detection model (Preview)
       href: flow-language-detection.md
-    - name: Sentiment analysis model
+    - name: Sentiment analysis model (Preview)
       href: flow-sentiment-analysis.md
-    - name: Text recognition model
+    - name: Text recognition model (Preview)
       href: flow-text-recognition.md
 - name: Use AI Builder in PowerApps
   items:
