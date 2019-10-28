@@ -6,20 +6,29 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/023/2019
+ms.date: 10/028/2019
 ms.author: mfotedar
 ms.reviewer: v-dehaas
 ---
 
-# Preview features and trial licenses
+# AI Builder licensing
+
+AI Builder is licensed as an add-on to your PowerApps or Microsoft Flow licenses. This means you can start your AI Builder trial after you have a PowerApps or Microsoft Flow license that allows you to create a Common Data Service environment. You can use preview features in AI Builder without obtaining a license. If your organization wants to obtain an AI Builder licence, an administrator for your organization has to purchase AI Builder capacity and allocate it to your environment in the [Power Platform Admin Center](/power-platform/admin/signup-for-powerapps-admin).
+
+For more detailed information about AI Builder licensing:
+
+- [Microsoft PowerApps and Microsoft Flow Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=2085130&clcid=0x409)
+- [PowerApps and Microsoft Flow licensing FAQ](/power-platform/admin/powerapps-flow-licensing-faq)
+
+## Preview features and trial licenses
 
 Want to get started using AI Builder? Use premium features for a limited time with a trial license, or use preview features without obtaining a license at all.
 
-## Preview features
+### Preview features
 
 AI Builder features that are in preview release status are free to use. You do not need to obtain a license to use preview features in AI Builder.
 
-## Trial licenses
+### Trial licenses
 
 An AI Builder trial license enables you to use  AI Builder for free for the duration of the trial period.
 
@@ -45,8 +54,18 @@ For more information about trial licenses:
 > [!NOTE]  
 > These restrictions apply only to model types that have been released to  general availability. Model types in preview release status will remain available without a license until they are released for general availability.  
 
-### More information
+## Paid licenses and capacity allocation
 
-[Microsoft PowerApps and Microsoft Flow Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=2085130&clcid=0x409)
+First, you have to purchase AI Builder capacity add-on for your PowerApps or Microsoft Flow licenses. Then, an administrator has to allocate that capacity to any PowerApps environment where you want to use AI Builder.
 
-[AI Builder Licensing FAQ](/power-platform/admin/)
+### AI Builder paid licenses
+
+After your AI Builder trial license expires:
+
+- You have to [purchase a license](/power-platform/admin/signup-for-powerapps-admin) to continue using your AI models
+- An administrator has to assign AI Builder capacity to any environment where you want to use AI Builder.
+- You can't create or modify AI Builder models, and no new inference will be possible when the trial expires if you don't purchase a license.
+
+### Allocate AI Builder capacity
+
+Because AI Builder is licensed as a capacity add-on to your existing PowerApps and Microsoft Flow licenses, an administrator has to allocate capacity for AI Builder to the environment before you can use it. Information about how to allocate capacity in the Power Platform Admin Center is available [here](/power-platform/admin/capacity-add-on).
