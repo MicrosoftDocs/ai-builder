@@ -18,7 +18,7 @@ AI Builder is licensed as an add-on to your PowerApps or Microsoft Flow licenses
 For more detailed information about AI Builder licensing:
 
 - [Microsoft PowerApps and Microsoft Flow Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=2085130&clcid=0x409)
-- [PowerApps and Microsoft Flow licensing FAQ](/power-platform/admin/powerapps-flow-licensing-faq)
+- [PowerApps and Microsoft Flow licensing FAQ](/power-platform/admin/powerapps-flow-licensing-faq#ai-builder)
 
 ## Preview features and trial licenses
 
