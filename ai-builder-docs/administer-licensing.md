@@ -1,19 +1,19 @@
 ---
-title: Preview features and trial licenses- AI Builder | Microsoft Docs
-description: Describes the availability of features in AI Builder for users who have a trial license, or who haven't obtained a license in AI Builder.
+title: Licensing - AI Builder | Microsoft Docs
+description: Provides information about the AI Builder licensing.
 author: Dean-Haas
 manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/028/2019
+ms.date: 10/28/2019
 ms.author: mfotedar
 ms.reviewer: v-dehaas
 ---
 
 # AI Builder licensing
 
-AI Builder is licensed as an add-on to your PowerApps or Microsoft Flow licenses. This means you can start your AI Builder trial after you have a PowerApps or Microsoft Flow license that allows you to create a Common Data Service environment. You can use preview features in AI Builder without obtaining a license. If your organization wants to obtain an AI Builder licence, an administrator for your organization has to purchase AI Builder capacity and allocate it to your environment in the [Power Platform Admin Center](/power-platform/admin/signup-for-powerapps-admin).
+AI Builder is licensed as an add-on to your PowerApps or Microsoft Flow licenses. This means you can start your AI Builder trial after you have a PowerApps or Microsoft Flow license that allows you to create a Common Data Service environment. You can use preview features in AI Builder without obtaining a license. If your organization wants to obtain an AI Builder licence, an administrator for your organization has to purchase AI Builder capacity and allocate it to your environment in the [Power Platform Admin center](/power-platform/admin/signup-for-powerapps-admin).
 
 For more detailed information about AI Builder licensing:
 
