@@ -11,7 +11,9 @@ ms.author: alanab
 ms.reviewer: v-dehaas
 ---
 
-# Sentiment analysis model
+# Preview: Sentiment analysis model
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
 The sentiment analysis prebuilt model can be used to detect positive or negative sentiment in social media, customer reviews or any text data you want to analyze.  This model evaluates text input and return scores and labels at a sentence and document level. The scores and labels are positive, negative, and neutral. At the document level, the mixed sentiment label (not the score) also can be returned. The sentiment of the document is determined by aggregating the scores of the sentences.
 

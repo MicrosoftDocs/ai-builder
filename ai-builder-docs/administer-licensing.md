@@ -13,7 +13,8 @@ ms.reviewer: v-dehaas
 
 # AI Builder licensing
 
-AI Builder is licensed as an add-on to your PowerApps, Dynamics 365, or Microsoft Flow licenses. This means you can start your AI Builder trial after you have a license that allows you to create a Common Data Service environment. You can use preview features in AI Builder without obtaining a license. If your organization wants to obtain an AI Builder licence, an administrator for your organization has to purchase AI Builder capacity and allocate it to your environment in the [Power Platform Admin Center](/power-platform/admin/signup-for-powerapps-admin).
+
+AI Builder is licensed as an add-on to your PowerApps, Microsoft Flow, or Dynamics 365 license. This means you can start your AI Builder trial after you have a PowerApps, Microsoft Flow, or Dynamics 365 license that allows you to create a Common Data Service environment.  
 
 For more detailed information about AI Builder licensing:
 
