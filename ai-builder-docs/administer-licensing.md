@@ -1,6 +1,6 @@
 ---
 title: Licensing - AI Builder | Microsoft Docs
-description: Provides information about the AI Builder licensing.
+description: Provides information about AI Builder licensing.
 author: Dean-Haas
 manager: kvivek
 ms.service: powerapps
