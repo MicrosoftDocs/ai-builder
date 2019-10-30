@@ -25,8 +25,8 @@ Before you can use AI Builder in Microsoft Flow, you need:
 
  ## Next steps
 
-- [Use a custom AI Builder model in Microsoft Flow](prediction-model-in-flow)
-- [Use a prebuilt AI Builder model in Microsoft Flow](flow-business-card-reader)
+- [Use a custom AI Builder model in Microsoft Flow](prediction-model-in-flow.md)
+- [Use a prebuilt AI Builder model in Microsoft Flow](flow-business-card-reader.md)
 
 
 ### Related topic
