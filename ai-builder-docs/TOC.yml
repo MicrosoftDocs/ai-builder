@@ -112,7 +112,7 @@
     href: use-in-flow-overview.md
   - name: Prerequisites
     href: use-in-flow-prereq.md
-  - name: Use a custom AI Builder model in Flow
+  - name: Use a custom AI Builder model in Microsoft Flow
     items:
     - name: Prediction model 
       href: prediction-model-in-flow.md
@@ -122,7 +122,7 @@
       href: form-processing-model-in-flow.md
     - name: Object detection model
       href: object-detection-model-in-flow.md
-  - name: Use a prebuilt AI Builder model in Flow
+  - name: Use a prebuilt AI Builder model in Microsoft Flow
     items:
     - name: Business card reader model
       href: flow-business-card-reader.md
