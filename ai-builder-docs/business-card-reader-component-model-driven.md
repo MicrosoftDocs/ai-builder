@@ -49,14 +49,14 @@ The image isn't showing the UI element that gets selected. This is the resulting
 4. Select **AI Builder Business Card Control**.
 
 > [!div class="mx-imgBorder"]
-> ![Form editor add control screen](media/form-editor-add-control.PNG "Form editor add control screen")
+> ![Form editor add control screen](media/form-editor-add-control.png "Form editor add control screen")
 
 ## Configure the business card reader
 
 After you select the platform (web, phone, tablet) where the business card reader should appear, you can bind the component properties that you need.
 
 > [!div class="mx-imgBorder"]
-> ![Form editor binding properties screen](media/form-editor-binding-properties.PNG "Form editor binding properties screen")
+> ![Form editor binding properties screen](media/form-editor-binding-properties.png "Form editor binding properties screen")
 
 > [!NOTE]
 > - The **Company Name** property cannot be bound to a field of type **Lookup.Customer**. The only supported type is **SingleLine.Text**.
