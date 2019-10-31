@@ -51,6 +51,7 @@ The component is initialized after an AI model is bound to it.
 
 
 <!--from editor: What if, say, it's 40 percent. Is it red or orange? -->
+<!--v-dehaas: Great question. I'll find out and fix this separately -->
 
 - Three different colors can be used to draw the rectangle depending on the confidence level:
      - **Red**: Confidence level is between 0 percent and 40 percent.
