@@ -29,7 +29,7 @@ AI Builder is licensed as an add-on to your PowerApps or Microsoft Flow licenses
 <!--from editor: Can the following sentence be simplified? Maybe say "You need a Common Data Service user role to use the business card reader." --> 
 
 
-Users need to be entitled to the Common Data Service user role to be able to consume the business card reader.
+You need the Common Data Service user role to use the business card reader.
 
 ## Key properties
 

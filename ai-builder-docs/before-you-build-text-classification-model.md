@@ -58,10 +58,10 @@ Note that the tags data is separated using a vertical bar or pipe ( \| ).
 
 
 <!--from editor: In step 2, would it be correct to change it to "Under **Data**, go to **Entities** > **Get data**." -->
-
+<!--v-dehaas: I've rewritten the step to clarify -->
 
 1. Sign in to [PowerApps](https://web.powerapps.com/), and then select the down arrow to expand **Data** in the navigation pane.
-2. Under **Data** > **Entities** > **Get data**. 
+2. Under **Data**, select **Entities**, and then select **Get data** at the top of the screen. 
     - If you need to create a new entity, use [this guide](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-create-entity).
 3. In the list of data sources, select **Excel**.
 4. Select **Browse** to upload your Excel file,  and then select the sheet or sheets your data is in.
