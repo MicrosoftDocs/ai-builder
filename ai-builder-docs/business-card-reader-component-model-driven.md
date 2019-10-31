@@ -46,14 +46,14 @@ Reason for removing the ellipsis: The style guide says if an option label ends w
 4. Select **AI Builder Business Card Control**.
 
 > [!div class="mx-imgBorder"]
-> ![Form editor add control screen](media/form-editor-add-control.PNG "Form editor add control screen")
+> ![Form editor add control screen](media/form-editor-add-control.png "Form editor add control screen")
 
 ## Configure the business card reader
 
 After you select the platform (web, phone, tablet) where the business card reader should appear, you can bind the component properties that you need.
 
 > [!div class="mx-imgBorder"]
-> ![Form editor binding properties screen](media/form-editor-binding-properties.PNG "Form editor binding properties screen")
+> ![Form editor binding properties screen](media/form-editor-binding-properties.png "Form editor binding properties screen")
 
 > [!NOTE]
 > - The **Company Name** property cannot be bound to a field of type **Lookup.Customer**. The only supported type is **SingleLine.Text**.
@@ -93,5 +93,5 @@ The following properties are available for advanced customization:
 
 |Property |Definition  |
 |---------|---------|
- |**Default Image**| To replace the default placeholder image with a different one. The image (JPEG or PNG) should be encoded with base-64 digits.
+ |**Default Image**| To replace the default placeholder image with a different one. The image (JPEG or.png) should be encoded with base-64 digits.
  |**Text**| To override the default button text.

@@ -108,10 +108,10 @@ ms.reviewer: v-dehaas
         } 
     ```
 
-     > ![Parse JSON screen](media/flow-parse-json-2.PNG "Parse JSON screen")
+     > ![Parse JSON screen](media/flow-parse-json-2.png "Parse JSON screen")
 
 10. To retrieve the text from the lines recognized in the image, add the  **Apply to each**  action control to iterate through the results.
 
-      > ![Apply to each screen](media/flow-apply-to-each.PNG "Apply to each screen")
+      > ![Apply to each screen](media/flow-apply-to-each.png "Apply to each screen")
 
 Congratulations! You have created a flow that leverages the text recognition model. You can continue to build on this to suit your needs. Select **Save** on the top right, and then select **Test** to try out your flow. 

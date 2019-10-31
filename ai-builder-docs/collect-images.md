@@ -25,7 +25,7 @@ The images you’ll feed your object detection model need these characteristics:
 
 - **Format**:
   - JPG
-  - PNG
+  -.png
   - BMP
   
 - **Size**:
