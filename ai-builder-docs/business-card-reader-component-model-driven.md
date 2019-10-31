@@ -27,7 +27,7 @@ AI Builder is licensed as an add-on to your PowerApps or Microsoft Flow licenses
 
 <!--from editor: Suggest changing the following sentence to "You need a Common Data Service user role to use the business card reader." --> 
 
-Users need to be entitled to the **common data service user** role to be able to consume the business card reader.
+You need the **common data service user** role to use the business card reader.
 
 ## Add the business card reader
 
@@ -38,6 +38,9 @@ Add the business card reader to an existing contact or lead form in the form edi
 <!--from editor:
 Looking at the image - Shoulud step 1 below say "Field Properties" instead of "Properties"?
 Reason for removing the ellipsis: The style guide says if an option label ends with an ellipsis, don't include that end punctuation in instructions. -->
+
+<!--v-dehaas:
+The image isn't showing the UI element that gets selected. This is the resulting screen. -->
 
 
 1. Select the placeholder field, and then select **Properties**.
@@ -89,7 +92,7 @@ The following properties are available for advanced customization:
 
 
 <!--from editor: Wondering if "overwrite" might be the correct word for the last line. -->
-
+<!--v-dehaas: I don't think so, although it wouldn't be incorrect. "override the default" makes more sense to me.  -->
 
 |Property |Definition  |
 |---------|---------|
