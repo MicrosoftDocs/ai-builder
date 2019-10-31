@@ -67,6 +67,7 @@ Now you can iterate through the detected languages returned by the language dete
 
 
 <!--from editor: Please confirm that the following is the correct image, since I see no info about language in it. -->
+<!--v-dehaas: I will verify this separately and fix if needed. -->
 
 
 ![Apply to each screen](media/flow-apply-to-each.png "Apply to each screen")
