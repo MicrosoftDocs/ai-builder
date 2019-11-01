@@ -158,6 +158,8 @@
     href: administer-licensing.md
   - name: Security
     href: security.md
+  - name: Feature availability by region
+    href: availability-region.md
 - name: Troubleshoot
   items:
   - name: Common issues and resolutions
