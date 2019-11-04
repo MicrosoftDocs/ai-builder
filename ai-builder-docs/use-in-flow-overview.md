@@ -1,6 +1,6 @@
 ---
-title: AI Builder in Microsoft Flow overview -  AI Builder | Microsoft Docs
-description: Provides an overview of how to create automated flows by using AI Builder in Microsoft Flow.
+title: AI Builder in Microsoft Power Automate overview -  AI Builder | Microsoft Docs
+description: Provides an overview of how to create automated flows by using AI Builder in Microsoft Power Automate.
 author: Dean-Haas
 manager: kvivek
 ms.service: powerapps
@@ -11,13 +11,13 @@ ms.author: v-dehaas
 ms.reviewer: kvivek
 ---
 
-# AI Builder in Microsoft Flow overview
+# AI Builder in Microsoft Power Automate overview
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-Microsoft Flow is a service that helps you create automated workflows between your favorite apps and services to synchronize files, get notifications, collect data, and more. Find more information about Microsoft Flow [here](/flow/getting-started). 
+Microsoft Power Automate is a service that helps you create automated workflows between your favorite apps and services to synchronize files, get notifications, collect data, and more. Find more information about Microsoft Power Automate [here](/flow/getting-started). 
 
-You can use your published AI models, as well as some AI Builder prebuilt models in Microsoft Flow.
+You can use your published AI models, as well as some AI Builder prebuilt models in Microsoft Power Automate.
 
 ### Next step
 

@@ -1,5 +1,5 @@
 ---
-title: Use the language detection prebuilt model in Microsoft Flow - AI Builder | Microsoft Docs
+title: Use the language detection prebuilt model in Microsoft Power Automate - AI Builder | Microsoft Docs
 description: Provides information about how to use the AI Builder language detection prebuilt model in your flows
 author: alanabrito
 manager: kvivek
@@ -11,11 +11,11 @@ ms.author: alanab
 ms.reviewer: v-dehaas
 ---
 
-# Use the language detection prebuilt model in Microsoft Flow
+# Use the language detection prebuilt model in Microsoft Power Automate
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-1. [Sign in](https://flow.microsoft.com/signin) to Microsoft Flow, select the **My flows** tab, and then select **Create from blank**.
+1. [Sign in](https://flow.microsoft.com/signin) to Microsoft Power Automate, select the **My flows** tab, and then select **Create from blank**.
 1. Search for the term *manually*, select **Manually trigger a flow** in the list of triggers, and then select **+ Add an input**.
 1. Select **Text** and set as input title: **My Text**.
 1. Select **+ New step**, search for the term *Predict*, and then select **Predict Common Data Service (current Environment)** in the list of actions.
