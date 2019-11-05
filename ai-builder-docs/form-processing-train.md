@@ -46,6 +46,6 @@ After you’ve published your form processing model, you can use it in a [PowerA
 
 ### Related topics
 
-[Form processing model in Microsoft Power Automate](form-processing-model-in-flow.md)
+[Form processing model in Power Automate](form-processing-model-in-flow.md)
 
 [Form processing model in PowerApps](form-processor-component-in-powerapps.md)

@@ -25,9 +25,9 @@ Users need to be entitled to the Common Data Service user role to be able to con
 
 If you want to use this prebuilt model in PowerApps using the Business card reader component. You can find more information in [Use business card reader component in PowerApps](business-card-reader-component-in-powerapps.md).
 
-## Use in Microsoft Power Automate
+## Use in Power Automate
 
-If you want to use this prebuilt model in Microsoft Power Automate, you can find more information in [Use business card model in Microsoft Power Automate](flow-business-card-reader.md).
+If you want to use this prebuilt model in Power Automate, you can find more information in [Use business card model in Power Automate](flow-business-card-reader.md).
  
 ## Supported language, format and size
 

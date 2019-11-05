@@ -1,6 +1,6 @@
 ---
 title: Use object detection model in Microsoft Power Automate -  AI Builder | Microsoft Docs
-description: Provides information about how to use an object detection model in Microsoft Power Automate
+description: Provides information about how to use an object detection model in Power Automate
 author: Dean-Haas
 manager: kvivek
 ms.service: powerapps
@@ -15,7 +15,7 @@ ms.reviewer: v-dehaas
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-1. Sign in to [Microsoft Power Automate](https://flow.microsoft.com/), select the **My flows** tab, and then select **Create from blank**.
+1. Sign in to [Power Automate](https://flow.microsoft.com/), select the **My flows** tab, and then select **Create from blank**.
 2. Search for *manually*, select **Manually trigger a flow** in the list of triggers, and then select **+ Add an input**.
 3. Select **File**, and set **My Image** as input title.
 4. Select **+ New step**, search for *Predict*, and then select **Predict - Common Data Service (Current Environment)** in the list of actions.
@@ -123,7 +123,7 @@ The following example shows the creation of a flow that counts the number of gre
 > [!div class="mx-imgBorder"]
 > ![Green tea object detection flow example](media/green-tea-example.png "Example of an object detection flow")
 
-To learn more about all the triggers and actions you can use, go to the [Microsoft Power Automate documentation](/flow/getting-started).
+To learn more about all the triggers and actions you can use, go to the [Power Automate documentation](/flow/getting-started).
 
 ### Related topic
 

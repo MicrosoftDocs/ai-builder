@@ -1,7 +1,7 @@
 ---
 redirect_url: prediction-model-in-flow
-title: Use prediction model in Microsoft Power Automate -  AI Builder | Microsoft Docs
-description: Provides information about how to use a prediction model in Microsoft Power Automate.
+title: Use prediction model in Power Automate -  AI Builder | Microsoft Docs
+description: Provides information about how to use a prediction model in Power Automate.
 author: Dean-Haas
 manager: kvivek
 ms.service: powerapps
@@ -12,7 +12,7 @@ ms.author: v-dehaas
 ms.reviewer: v-dehaas
 ---
 
-# Use a prediction model in Microsoft Power Automate
+# Use a prediction model in Power Automate
 
 1. Sign in to [Microsoft Power Automate](https://flow.microsoft.com/), select the **My flows** tab, and then select **Create from blank**.
 1. Enter a name for your flow.
@@ -22,7 +22,7 @@ ms.reviewer: v-dehaas
 
 Congratulations—you have created a flow that leverages a prediction AI Builder model. Select **Save** on the top right, and then select **Test** to try out your flow.
 
-To learn more about the triggers and actions, go to the [Get started with Microsoft Power Automate](/flow/getting-started) topic.
+To learn more about the triggers and actions, go to the [Get started with Power Automate](/flow/getting-started) topic.
 
 ### Related topic
 

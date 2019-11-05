@@ -19,7 +19,7 @@ The key phrase extraction model identifies the main points in a text document. F
 
 ## Use in Microsoft Power Automate
 
-If you want to use this prebuilt model in Microsoft Power Automate, you can find more information in [Use key phrase extraction model in Microsoft Power Automate](flow-key-phrase-extraction.md).  
+If you want to use this prebuilt model in Power Automate, you can find more information in [Use key phrase extraction model in Power Automate](flow-key-phrase-extraction.md).  
  
 ## Supported language and data format
 

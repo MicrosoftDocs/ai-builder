@@ -20,7 +20,7 @@ The sentiment analysis prebuilt model can be used to detect positive or negative
 
 ## Use in Microsoft Power Automate
 
-If you want to use this prebuilt model in Microsoft Power Automate, you can find more information in [Use sentiment analysis model in Microsoft Power Automate](flow-sentiment-analysis.md).
+If you want to use this prebuilt model in Power Automate, you can find more information in [Use sentiment analysis model in Power Automate](flow-sentiment-analysis.md).
   
 ## Supported language and data format
 

@@ -1,6 +1,6 @@
 ---
 title: Use the text recognition prebuilt model in Microsoft Power Automate - AI Builder | Microsoft Docs
-description: Provides information about how to text recognition prebuilt model in Microsoft Power Automate 
+description: Provides information about how to text recognition prebuilt model in Power Automate 
 author: alanabrito
 manager: kvivek
 ms.service: powerapps
@@ -16,7 +16,7 @@ ms.reviewer: v-dehaas
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-1. [Sign in](https://flow.microsoft.com/signin) to Microsoft Power Automate, select the **My flows** tab, and then select **Create from blank**.
+1. [Sign in](https://flow.microsoft.com/signin) to Power Automate, select the **My flows** tab, and then select **Create from blank**.
 1. Search for the term *manually*, select **Manually trigger a flow** in the list of triggers, and then select **+ Add an input**.
 1. Select **File**, and set **My Image** as the input title.
 1. Select **+ New step**, search for the term *Predict*, and then select **Predict - Common Data Service (Current Environment)** in the list of actions.

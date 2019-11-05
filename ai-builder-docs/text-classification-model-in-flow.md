@@ -1,6 +1,6 @@
 ---
 title: Use text classification model in Microsoft Power Automate -  AI Builder | Microsoft Docs
-description: Provides information about how to use a text classification model in Microsoft Power Automate.
+description: Provides information about how to use a text classification model in Power Automate.
 author: raaourik
 manager: kvivek
 ms.service: powerapps
@@ -15,7 +15,7 @@ ms.reviewer: v-dehaas
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-1. Sign in to [Microsoft Power Automate](https://flow.microsoft.com/), select the **My flows** tab, and then select **Create from blank**.
+1. Sign in to [Power Automate](https://flow.microsoft.com/), select the **My flows** tab, and then select **Create from blank**.
 2. Search for *manually*, select **Manually trigger a flow** in the list of triggers, and then select **+Add an input**.
 3. Select **Text** and set as input title: **My Text**
 4. Select **+ New step**, search for **Predict**, and then select **Predict Common Data Service (current Environment)** in the list of actions.
@@ -73,7 +73,7 @@ ms.reviewer: v-dehaas
 
 Congratulations! You have created a flow that leverages a text classification AI Builder model. Select **Save** on the top right and then select **Test** to try out your flow.
 
-To learn more about the triggers and actions, go to [Get started with Microsoft Power Automate](/flow/getting-started).
+To learn more about the triggers and actions, go to [Get started with Power Automate](/flow/getting-started).
 
 ### Related topic
 

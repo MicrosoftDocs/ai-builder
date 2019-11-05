@@ -14,7 +14,7 @@ ms.reviewer: v-dehaas
 
 # Use the business card reader prebuilt model in Microsoft Power Automate
 
-1. [Sign in](https://flow.microsoft.com/signin) to Microsoft Power Automate, select the **My flows** tab, and then select **Create from blank**.
+1. [Sign in](https://flow.microsoft.com/signin) to Power Automate, select the **My flows** tab, and then select **Create from blank**.
 1. Search for the term *manually*, select **Manually trigger a flow** in the list of triggers, and then select **+ Add an input**.
 1. Select **File**, and set **My Image** as the input title.
 1. Select **+ New step**, search for the term *Predict*, and then select **Predict - Common Data Service (Current Environment)** in the list of actions.
