@@ -45,5 +45,5 @@ Download [AIBuilder_Lab.zip](https://go.microsoft.com/fwlink/?linkid=2103171) fi
 > ![Quick test](media/quick-test-form.png "Quick test")
 
 ### Related topics
-[Form processing model in Microsoft Flow](form-processing-model-in-flow.md) </br>
+[Form processing model in Power Automate](form-processing-model-in-flow.md) </br>
 [Form processing model in PowerApps](form-processor-component-in-powerapps.md)

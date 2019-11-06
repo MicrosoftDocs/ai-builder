@@ -15,14 +15,14 @@ ms.reviewer: v-dehaas
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-When you are satisfied with your model, you can publish it. When it’s published, your model is ready to run on your Common Data Service data or be used through Microsoft Flow. Please note that it will take up to two hours for the results to be available.
+When you are satisfied with your model, you can publish it. When it’s published, your model is ready to run on your Common Data Service data or be used through Power Automate. Please note that it will take up to two hours for the results to be available.
 
 In the **Model settings** pane on the right side of the screen, you can turn on Common Data Service and get important information on where the suggested tags will be stored.
 
 > [!IMPORTANT]
 >
 > - Currently, you can only schedule Common Data Service runs using the input entity and field that you used for training. AI Builder creates a destination entity where the model will store the suggested tags and their confidence scores. This destination entity will have N:1 relationship with your source/input entity.
-> - AI Builder uses Microsoft Flow to schedule and run tagging on your data. When you publish your model to run on your Common Data Service data, this will use Microsoft Flow runs from your subscription.
+> - AI Builder uses Power Automate to schedule and run tagging on your data. When you publish your model to run on your Common Data Service data, this will use Power Automate runs from your subscription.
 
 For more information about publishing a model in AI Builder, see [Publish model](publish-model.md).
 

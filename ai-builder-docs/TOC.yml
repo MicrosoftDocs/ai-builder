@@ -106,13 +106,13 @@
     href: prebuilt-text-recognition.md
   - name: Sentiment analysis (Preview)
     href: prebuilt-sentiment-analysis.md
-- name: Use AI Builder in Microsoft Flow
+- name: Use AI Builder in Power Automate
   items:
   - name: Overview
     href: use-in-flow-overview.md
   - name: Prerequisites
     href: use-in-flow-prereq.md
-  - name: Use a custom AI Builder model in Microsoft Flow
+  - name: Use a custom AI Builder model in Power Automate
     items:
     - name: Prediction model 
       href: prediction-model-in-flow.md
@@ -122,7 +122,7 @@
       href: form-processing-model-in-flow.md
     - name: Object detection model
       href: object-detection-model-in-flow.md
-  - name: Use a prebuilt AI Builder model in Microsoft Flow
+  - name: Use a prebuilt AI Builder model in Power Automate
     items:
     - name: Business card reader model
       href: flow-business-card-reader.md

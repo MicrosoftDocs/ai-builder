@@ -60,6 +60,6 @@ These [guidelines](/powerapps/maker/canvas-apps/controls/control-button) for the
 ### Related topics
 [Object detection overview](object-detection-overview.md)
 
-[Use an object detection model in Microsoft Flow](object-detection-model-in-flow.md)
+[Use an object detection model in Power Automate](object-detection-model-in-flow.md)
 
 [Core properties in PowerApps](/powerapps/maker/canvas-apps/controls/properties-core)

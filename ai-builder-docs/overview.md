@@ -31,13 +31,13 @@ For information about license capacity, pricing, and restrictions, see [Find the
 
 ## How can I add intelligence to my apps?
 
-Using AI is easy thanks to integration with PowerApps and Microsoft Flow. Adding intelligence to your business is as simple as this:
+Using AI is easy thanks to integration with PowerApps and Microsoft Power Automate. Adding intelligence to your business is as simple as this:
 
 1. **Choose AI model type**: Use the model type that suits your business need. Choose from a growing set of AI turnkey solutions.
 1. **Connect data**: Select your business-specific data from Common Data Service. AI Builder does the hard work for you thanks to the Common Data Model.
 1. **Tailor your AI model**: Filter your data, set scheduling, and tweak the AI model to optimize how your AI performs.
 1. **Train your AI model**: Training is an automatic process where AI Builder “teaches” your AI model how to resolve your business problem (for example, recognize your products on an image) thanks to your business data and tailoring. When trained, your AI model can generate insights, such as the result of a prediction or the list and number of objects detected in an image.
-1. **Use your AI model’s insights**: Use the results from your AI model across Power Platform to create end-to-end solutions that meet your business needs, even if you have no coding skills.  For example, create a flow that automates document processing in Microsoft Flow, or an app created with PowerApps that predicts whether a supplier will be out of compliance.
+1. **Use your AI model’s insights**: Use the results from your AI model across Power Platform to create end-to-end solutions that meet your business needs, even if you have no coding skills.  For example, create a flow that automates document processing in Power Automate, or an app created with PowerApps that predicts whether a supplier will be out of compliance.
 
 ### Related topics
 
@@ -45,4 +45,4 @@ Using AI is easy thanks to integration with PowerApps and Microsoft Flow. Adding
 
 [PowerApps docs](https://docs.microsoft.com/powerapps/)
 
-[Microsoft Flow docs](https://docs.microsoft.com/flow/getting-started)
+[Power Automate docs](https://docs.microsoft.com/flow/getting-started)

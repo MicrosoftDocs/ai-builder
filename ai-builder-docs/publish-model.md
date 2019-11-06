@@ -35,6 +35,6 @@ If you are satisfied with your model, you can publish it to make it available. S
 
 ### Related topics
 
-[Use AI Builder in Microsoft Flow](use-in-flow-overview.md)
+[Use AI Builder in Power Automate](use-in-flow-overview.md)
 
 [Use AI Builder in PowerApps](use-in-powerapps-overview.md)
