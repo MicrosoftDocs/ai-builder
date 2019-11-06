@@ -134,17 +134,17 @@
       href: flow-sentiment-analysis.md
     - name: Text recognition model (Preview)
       href: flow-text-recognition.md
-- name: Use AI Builder in Power Apps
+- name: Use AI Builder in PowerApps
   items:
   - name: Overview
     href: use-in-powerapps-overview.md
-  - name: Use your prediction model in Power Apps
+  - name: Use your prediction model in PowerApps
     href: prediction-model-driven-app.md
-  - name: Use the form processor component in Power Apps
+  - name: Use the form processor component in PowerApps
     href: form-processor-component-in-powerapps.md
-  - name: Use the object detector component in Power Apps
+  - name: Use the object detector component in PowerApps
     href: object-detector-component-in-powerapps.md
-  - name: Use the business card reader component in Power Apps
+  - name: Use the business card reader component in PowerApps
     items:
     - name: Use in a canvas app
       href: business-card-reader-component-in-powerapps.md

@@ -55,7 +55,7 @@ As an example, here is how to import training data from an Excel sheet. This exa
 
 Note that the tags data is separated using a vertical bar or pipe ( \| ).
 
-1. Sign in to [Power Apps](https://web.powerapps.com/), and then select the down arrow to expand **Data** in the navigation pane.
+1. Sign in to [PowerApps](https://web.powerapps.com/), and then select the down arrow to expand **Data** in the navigation pane.
 2. Under **Data** > **Entities** > **Get data**. 
     - If you need to create a new entity, use [this guide](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-create-entity).
 3. In the list of data sources, select **Excel**.
