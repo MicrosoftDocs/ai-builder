@@ -43,7 +43,7 @@ When enough documents have been uploaded, you select **Analyze** to launch the a
 
 ## Review documents and extracted data
 
-If the analysis was successful, it means AI Builder detected structured text in your form documents. If the analysis failed, it is likely because AI Builder couldn't detect structured text in your documents, review that the documents you updated follow the [requirements and optimizations tips section](https://docs.microsoft.com/en-us/ai-builder/form-processing-model-requirements).
+If the analysis was successful, it means AI Builder detected structured text in your form documents. If the analysis failed, it is likely because AI Builder couldn't detect structured text in your documents, review that the documents you updated follow the [requirements and optimizations tips section](/ai-builder/form-processing-model-requirements).
 
 ## Select your form fields
 
