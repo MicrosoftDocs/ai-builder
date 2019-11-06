@@ -19,7 +19,7 @@ The prebuild text recognition model can be used to extract recognized words from
 
 This prebuilt processes images and document files to extract lines of printed or handwritten text.
 
-## Use in Microsoft Power Automate
+## Use in Power Automate
 
 If you want to use this prebuilt model in Power Automate, you can find more information in [Use text recognition model in Power Automate](flow-text-recognition.md).  
 

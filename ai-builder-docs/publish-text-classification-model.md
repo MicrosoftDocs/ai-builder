@@ -15,7 +15,7 @@ ms.reviewer: v-dehaas
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-When you are satisfied with your model, you can publish it. When it’s published, your model is ready to run on your Common Data Service data or be used through Microsoft Power Automate. Please note that it will take up to two hours for the results to be available.
+When you are satisfied with your model, you can publish it. When it’s published, your model is ready to run on your Common Data Service data or be used through Power Automate. Please note that it will take up to two hours for the results to be available.
 
 In the **Model settings** pane on the right side of the screen, you can turn on Common Data Service and get important information on where the suggested tags will be stored.
 

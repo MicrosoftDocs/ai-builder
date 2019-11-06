@@ -1,5 +1,5 @@
 ---
-title: Use form processing model in Microsoft Power Automate -  AI Builder | Microsoft Docs
+title: Use form processing model in Power Automate -  AI Builder | Microsoft Docs
 description: Provides information about how to use a form processing model in Power Automate
 author: JoeFernandezMS
 manager: kvivek
@@ -11,7 +11,7 @@ ms.author: jofernan
 ms.reviewer: v-dehaas
 ---
 
-# Use form processing model in Microsoft Power Automate
+# Use form processing model in Power Automate
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 

@@ -42,7 +42,7 @@ If you have trouble training your model, try the following:
 
 If you’re happy with your model, you can select **Publish**  to publish it. When publishing completes, your model is promoted as **Published** and is ready to be used. For more information about publishing your model, go to [Publish your model](publish-model.md) section.
 
-After you’ve published your form processing model, you can use it in a [PowerApps canvas app](/ai-builder/form-processor-component-in-powerapps) or in [Microsoft Power Automate](/ai-builder/form-processing-model-in-flow).
+After you’ve published your form processing model, you can use it in a [PowerApps canvas app](/ai-builder/form-processor-component-in-powerapps) or in [Power Automate](/ai-builder/form-processing-model-in-flow).
 
 ### Related topics
 

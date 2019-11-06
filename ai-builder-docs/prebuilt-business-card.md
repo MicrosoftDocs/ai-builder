@@ -16,7 +16,7 @@ ms.reviewer: v-dehaas
 The prebuilt business card AI model allows you to extract contact information from business cards images. If the business card is detected in the image, information such as name, job title, address, email, company and phone numbers can be extracted.
 
 ## Licensing requirements
-AI Builder is licensed as an add-on to your PowerApps or Microsoft Power Automate licenses. For information about license capacity, pricing, and restrictions, see AI Builder licensing.
+AI Builder is licensed as an add-on to your PowerApps or Power Automate licenses. For information about license capacity, pricing, and restrictions, see AI Builder licensing.
 
 ## Role requirements
 Users need to be entitled to the Common Data Service user role to be able to consume the business card reader.

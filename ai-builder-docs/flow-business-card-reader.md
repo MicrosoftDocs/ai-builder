@@ -1,5 +1,5 @@
 ---
-title: Use the business card reader prebuilt model in Microsoft Power Automate - AI Builder | Microsoft Docs
+title: Use the business card reader prebuilt model in Power Automate - AI Builder | Microsoft Docs
 description: Provides information about how to  use the AI Builder business card reader prebuilt model in Power Automate
 author: alanabrito
 manager: kvivek
@@ -12,7 +12,7 @@ ms.reviewer: v-dehaas
 ---
 
 
-# Use the business card reader prebuilt model in Microsoft Power Automate
+# Use the business card reader prebuilt model in Power Automate
 
 1. [Sign in](https://flow.microsoft.com/signin) to Power Automate, select the **My flows** tab, and then select **Create from blank**.
 1. Search for the term *manually*, select **Manually trigger a flow** in the list of triggers, and then select **+ Add an input**.

@@ -1,5 +1,5 @@
 ---
-title: Use the text recognition prebuilt model in Microsoft Power Automate - AI Builder | Microsoft Docs
+title: Use the text recognition prebuilt model in Power Automate - AI Builder | Microsoft Docs
 description: Provides information about how to text recognition prebuilt model in Power Automate 
 author: alanabrito
 manager: kvivek
@@ -12,7 +12,7 @@ ms.reviewer: v-dehaas
 ---
 
 
-# Use the text recognition prebuilt model in Microsoft Power Automate
+# Use the text recognition prebuilt model in Power Automate
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 

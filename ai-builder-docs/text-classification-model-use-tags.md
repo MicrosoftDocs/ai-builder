@@ -15,9 +15,9 @@ ms.reviewer: v-dehaas
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-## Microsoft Power Automate
+## Power Automate
 
-If you want to use your trained model in Microsoft Power Automate, you can find more information in [Use text classification model in Power Automate](text-classification-model-in-flow.md).
+If you want to use your trained model in Power Automate, you can find more information in [Use text classification model in Power Automate](text-classification-model-in-flow.md).
 
 ## Set run schedule on Common Data Service
 

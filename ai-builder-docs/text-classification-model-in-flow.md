@@ -1,5 +1,5 @@
 ---
-title: Use text classification model in Microsoft Power Automate -  AI Builder | Microsoft Docs
+title: Use text classification model in Power Automate -  AI Builder | Microsoft Docs
 description: Provides information about how to use a text classification model in Power Automate.
 author: raaourik
 manager: kvivek
@@ -11,7 +11,7 @@ ms.author: raaourik
 ms.reviewer: v-dehaas
 ---
 
-# Use text classification model in Microsoft Power Automate
+# Use text classification model in Power Automate
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
