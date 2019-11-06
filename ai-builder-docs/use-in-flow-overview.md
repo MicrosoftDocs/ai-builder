@@ -25,4 +25,4 @@ You can use your published AI models, as well as some AI Builder prebuilt models
 
 ### Related topic
 
-[AI Builder in PowerApps](use-in-powerapps-overview.md)
+[AI Builder in Power Apps](use-in-powerapps-overview.md)
