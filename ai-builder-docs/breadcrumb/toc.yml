@@ -3,5 +3,9 @@
   topicHref: /
   items:
   - name: Power Platform
-    tocHref: /power-platform/
+    href: /power-platform/
     topicHref: /power-platform/
+    items:
+    - name: AI Builder
+      tocHref: /ai-builder/overview
+      topicHref: /ai-builder/overview
