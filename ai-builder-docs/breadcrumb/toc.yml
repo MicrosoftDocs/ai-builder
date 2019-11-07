@@ -1,5 +1,5 @@
 - name: Docs
-  tocHref: /
+  href: /
   topicHref: /
   items:
   - name: Power Platform
