@@ -19,12 +19,11 @@ The prebuild text recognition model can be used to extract recognized words from
 
 This prebuilt processes images and document files to extract lines of printed or handwritten text.
 
+## Use in Power Automate
 
-## Use in Microsoft Flow
+If you want to use this prebuilt model in Power Automate, you can find more information in [Use text recognition model in Power Automate](flow-text-recognition.md).  
 
-If you want to use this prebuilt model in Microsoft Flow, you can find more information in [Use text recognition model in Microsoft Flow](flow-text-recognition.md).  
-
-## Supported language, format and size 
+## Supported language, format and size
 
 The documents you can scan with the Text recognition model need these characteristics:
 
@@ -36,11 +35,11 @@ The documents you can scan with the Text recognition model need these characteri
     - PDF
     - TIFF
 - **Size**: 20 MB maximum
- 
+
 ## Model output
 
 If a document is detected, the text recognition model will output the following information:
 
 - **Results**: A list of lines extracted from the input text.
 - **Text**: Strings containing the line of text detected.
-- **BoundingBox**: Four values representing the bounding box, described using the top and left positions along with its width and height. 
+- **BoundingBox**: Four values representing the bounding box, described using the top and left positions along with its width and height.

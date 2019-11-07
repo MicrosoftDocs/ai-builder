@@ -19,7 +19,7 @@ Form processing allows you to create and use models that use machine learning te
 
 [Train](train-model.md) your model and define what information needs to be retrieved from your form documents. You only need five form documents to get started. You can get results quickly, accurately, and tailored to your specific content without the need for a lot of manual intervention or extensive data science expertise.
 
-After your model is trained and [published](publish-model.md), you can use it in the AI Builder [form processor control](form-processor-component-in-powerapps.md) available in PowerApps canvas or through [Microsoft Flow](form-processing-model-in-flow.md).
+After your model is trained and [published](publish-model.md), you can use it in the AI Builder [form processor control](form-processor-component-in-powerapps.md) available in PowerApps canvas or through [Power Automate](form-processing-model-in-flow.md).
 
 ### Next step
 

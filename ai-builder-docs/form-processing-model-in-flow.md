@@ -1,6 +1,6 @@
 ---
-title: Use form processing model in Microsoft Flow -  AI Builder | Microsoft Docs
-description: Provides information about how to use a form processing model in Microsoft Flow
+title: Use form processing model in Power Automate -  AI Builder | Microsoft Docs
+description: Provides information about how to use a form processing model in Power Automate
 author: JoeFernandezMS
 manager: kvivek
 ms.service: powerapps
@@ -11,13 +11,13 @@ ms.author: jofernan
 ms.reviewer: v-dehaas
 ---
 
-# Use form processing model in Microsoft Flow
+# Use form processing model in Power Automate
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
 ## Create your flow
 
-1. Sign in to [Microsoft Flow](https://flow.microsoft.com/), select the **My flows** tab, and then select **Create from blank**.
+1. Sign in to [Power Automate](https://flow.microsoft.com/), select the **My flows** tab, and then select **Create from blank**.
 2. Search for *manually*, select **Manually trigger a flow** in the list of triggers, and then select **+Add an input**.
 3. Select **File** and set **My Document** as input title.
 4. Select **+ New step**, search for **Predict**, and then select **Predict Common Data Service (current Environment)** in the list of actions.
@@ -63,7 +63,7 @@ ms.reviewer: v-dehaas
     
 15.	In the Parse JSON screen, next to **Content**, select **Response Payload**.
 16. Select **Use sample payload to generate schema link**, paste the output from your test, and then select **Done**.
-18.	Copy the generated schema, paste it into an editor like Visual Studio Code, replace all instances of **integer** with **number**, and then copy the modified schema back into the Parse JSON screen in Microsoft Flow.
+18.	Copy the generated schema, paste it into an editor like Visual Studio Code, replace all instances of **integer** with **number**, and then copy the modified schema back into the Parse JSON screen in Power Automate.
 
     > [!div class="mx-imgBorder"]
     > ![Visual Studio  screen](media/visual-studio-replace-integer.png "Visual Studio screen")
@@ -71,9 +71,9 @@ ms.reviewer: v-dehaas
     > [!div class="mx-imgBorder"]
     > ![Paste schema](media/parse-json-schema.png "Paste schema")
 
-## Use form processing model output in Microsoft Flow
+## Use form processing model output in Power Automate
 
-Now you can use the output of the form processing model in subsequent actions in Microsoft Flow.
+Now you can use the output of the form processing model in subsequent actions in Power Automate.
 
 For example, to retrieve the value of a field named *Total*, you would use the following expression:  
 

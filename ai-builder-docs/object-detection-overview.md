@@ -25,4 +25,4 @@ AI Builder object detection will allow companies of any size to add these capabi
 
 ### Related topic
 
-[Use object detection model in Microsoft Flow](object-detection-model-in-flow.md)
+[Use object detection model in Power Automate](object-detection-model-in-flow.md)

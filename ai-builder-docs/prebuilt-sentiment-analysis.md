@@ -18,9 +18,9 @@ ms.reviewer: v-dehaas
 The sentiment analysis prebuilt model can be used to detect positive or negative sentiment in social media, customer reviews or any text data you want to analyze.  This model evaluates text input and return scores and labels at a sentence and document level. The scores and labels are positive, negative, and neutral. At the document level, the mixed sentiment label (not the score) also can be returned. The sentiment of the document is determined by aggregating the scores of the sentences.
 
 
-## Use in Microsoft Flow
+## Use in Power Automate
 
-If you want to use this prebuilt model in Microsoft Flow, you can find more information in [Use sentiment analysis model in Microsoft Flow](flow-sentiment-analysis.md).
+If you want to use this prebuilt model in Power Automate, you can find more information in [Use sentiment analysis model in Power Automate](flow-sentiment-analysis.md).
   
 ## Supported language and data format
 

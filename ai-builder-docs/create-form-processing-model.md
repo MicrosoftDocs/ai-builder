@@ -28,7 +28,7 @@ You need to provide sample documents to train your model for the type of form fr
 
 ### Upload your documents
 
-1. Sign in to [PowerApps](https://web.powerapps.com) or [Microsoft Flow](https://flow.microsoft.com) and then in the navigation pane select **AI Builder** > **Build**. Then, select the Form processing AI model type.
+1. Sign in to [PowerApps](https://web.powerapps.com) or [Power Automate](https://flow.microsoft.com) and then in the navigation pane select **AI Builder** > **Build**. Then, select the Form processing AI model type.
 2. Enter a name for your model and then select **Create**. 
 3. Select **Add documents**, select a minimum of five documents, and then select **Upload**.
 
@@ -43,7 +43,7 @@ When enough documents have been uploaded, you select **Analyze** to launch the a
 
 ## Review documents and extracted data
 
-If the analysis was successful, it means AI Builder detected structured text in your form documents. If the analysis failed, it is likely because AI Builder couldn't detect structured text in your documents, review that the documents you updated follow the [requirements and optimizations tips section](https://docs.microsoft.com/en-us/ai-builder/form-processing-model-requirements).
+If the analysis was successful, it means AI Builder detected structured text in your form documents. If the analysis failed, it is likely because AI Builder couldn't detect structured text in your documents, review that the documents you updated follow the [requirements and optimizations tips section](/ai-builder/form-processing-model-requirements).
 
 ## Select your form fields
 
@@ -65,6 +65,6 @@ To start, choose the fields that matter to you:
 
 ### Related topics
 
-[Form processing model in Microsoft Flow](form-processing-model-in-flow.md)
+[Form processing model in Power Automate](form-processing-model-in-flow.md)
 
 [Form processing model in PowerApps](form-processor-component-in-powerapps.md)
