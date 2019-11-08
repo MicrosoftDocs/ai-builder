@@ -33,7 +33,7 @@ The table shows which AI Builder features are available in each region, as well 
 |Object detection|-|Preview |-|Preview |
 |Prediction|GA|GA|GA|GA|
 |Text classification|-|Preview |-|Preview |
-|Business card reader    |Preview |GA|Preview |GA|
+|Business card reader    |GA |GA|GA |GA|
 |Key phrase extraction |Preview |Preview |Preview |Preview |
 |Language detection |Preview |Preview |Preview |Preview |
 |Text recognition   |Preview |Preview |Preview |Preview |
