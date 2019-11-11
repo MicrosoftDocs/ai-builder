@@ -1,3 +1,3 @@
 ---
-redirect_url: /ai-builder/overview
+redirect_url: /ai-builder/index
 ---
