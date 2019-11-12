@@ -47,9 +47,9 @@ landingContent:
     linkLists:
       - linkListType: tutorial
         links:
-          - text: in Power Automate
+          - text: In Power Automate
             url: use-in-flow-overview
-          - text: In Power Apps
+          - text: In PowerApps
             url: use-in-powerapps-overview.md
 
 
