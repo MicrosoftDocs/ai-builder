@@ -7,7 +7,7 @@ metadata:
   title: AI Builder landing page
   description: Provides access to highlighted areas within the AI Builder documentation
   services: service
-  ms.service: service #Required; service per approved list. service slug assigned to your service by ACOM.
+  ms.service: powerapps #Required; service per approved list. service slug assigned to your service by ACOM.
   ms.subservice: subservice
   ms.topic: landing-page 
   ms.collection: collection
