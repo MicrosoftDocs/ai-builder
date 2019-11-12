@@ -1,7 +1,7 @@
 ### YamlMime:Landing
 
-title: AI Builder 
-summary: AI Builder is a Power Platform capability that allows you to bring the power of Microsoft AI to your organization, without the need for coding or data science skills. 
+title: AI Builder documentation
+summary:  
 
 metadata:
   title: AI Builder landing page
@@ -28,7 +28,10 @@ landingContent:
             url: overview.md
           - text: AI model types
             url: model-types.md
-
+      - linkListType:  video
+              links:
+                - text: Overview of AI Builder capabilities
+                  url: https://www.youtube.com/watch?v=MGtomFKVDys
 
   # Card 
   - title: Get started
@@ -73,11 +76,7 @@ landingContent:
           - text: Release plans
             url: power-platform-release-plan/2019wave2/ai-builder/.md
           - text: Feature availability by region
-            url: availability-region.md
-      - linkListType:  video
-        links:
-          - text: Overview of 2019 release capabilities
-            url: https://www.youtube.com/watch?v=MGtomFKVDys
+            url: availability-region.md      
 
   # Card
   - title: Share
