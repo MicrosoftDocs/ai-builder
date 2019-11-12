@@ -21,7 +21,7 @@ The business card reader component takes a photo or loads an image from the loca
 
 ## Licensing requirements
 
-AI Builder is licensed as an add-on to your PowerApps or Microsoft Flow licenses. For information about license capacity, pricing, and restrictions, see [AI Builder licensing](/ai-builder/administer-licensing).
+AI Builder is licensed as an add-on to your PowerApps or Power Automate licenses. For information about license capacity, pricing, and restrictions, see [AI Builder licensing](/ai-builder/administer-licensing).
 
 ## Role requirements
 

@@ -19,17 +19,18 @@ You can get support for AI Builder on the AI Builder community forums. Features 
 
 Check Microsoft community forums to see if other users have posted a solution that might help you.
 
-- [AI Builder community]((https://go.microsoft.com/fwlink/?linkid=2092048))
+- [AI Builder community](https://go.microsoft.com/fwlink/?linkid=2092048)
 - [Common Data Service community forums](https://powerusers.microsoft.com/t5/Common-Data-Services/ct-p/PA_CommonDataServices)
 - [PowerApps community forums](https://powerusers.microsoft.com/t5/Forums/ct-p/PA_Comm_Forums)
 
 ## Microsoft support
 
 For features that have been released for general availability, you can use the [Power Platform Admin Center](https://admin.powerplatform.microsoft.com/) to request support from Microsoft.
+
 1. Sign in to the [Power Platform Admin Center](https://admin.powerplatform.microsoft.com/).
 2. In the left navigation pane, select **Help + Support**, and then select **New support request**.
 
-For detailed information about the **Help + Support** experience in the Power Platform Admin center, see [Get Help + Support](/power-platform/admin/get-help-support) in the Power Platform admin documentation. 
+For detailed information about the **Help + Support** experience in the Power Platform Admin center, see [Get Help + Support](/power-platform/admin/get-help-support) in the Power Platform admin documentation.
 
  > [!NOTE]
  > You can't create a new support request to get support from Microsoft for preview features. Go to the AI Builder community forums to get help with any issue that is related to a preview feature.

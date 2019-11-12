@@ -31,7 +31,7 @@ Next, import the sample data into the entity. In this example, we use the **aib_
 
 1. In the list of [AI Builder samples](https://go.microsoft.com/fwlink/?linkid=2093415), select the **aib_onlineshopperintention.csv** file, and then select **Download** to open the raw version of the file.
 
-1. Copy the URL from the address bar in your browser. In this case, the URL to copy is: https://raw.githubusercontent.com/microsoft/PowerApps-Samples/master/ai-builder/aib_onlineshopperintention.csv.
+1. Copy the URL from the address bar in your browser. In this case, the URL to copy is: https://raw.githubusercontent.com/microsoft/ PowerApps-Samples/master/ai-builder/aib_onlineshopperintention.csv.
 
 1. In PowerApps, select **Entities** in the left-side navigation pane, select **Get data** > **Text/CSV**, and then paste the copied URL from the last step into the **File path** or **URL** box.
 

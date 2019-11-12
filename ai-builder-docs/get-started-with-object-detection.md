@@ -77,4 +77,4 @@ That’s it! Congratulations, you have completed the exercise of creating a trai
 
 ### Related topic
 
-[Object detection in Microsoft Flow](object-detection-model-in-flow.md) 
+[Object detection in Power Automate](object-detection-model-in-flow.md) 

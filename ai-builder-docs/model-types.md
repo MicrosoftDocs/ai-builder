@@ -37,7 +37,7 @@ Custom AI models are models that you build choosing a model type in AI Builder, 
 
 ### Prebuilt AI models
 
-AI Builder features prebuilt AI models that you can use in PowerApps and Microsoft Flow. With a prebuilt model, you get an AI model that Microsoft has built and trained to perform a specific task. You don't need to build or train the model yourself to use it. The following prebuilt AI models are available:
+AI Builder features prebuilt AI models that you can use in PowerApps and Power Automate. With a prebuilt model, you get an AI model that Microsoft has built and trained to perform a specific task. You don't need to build or train the model yourself to use it. The following prebuilt AI models are available:
 
 | AI model type | Category |Start here |
 |--------|--------|--------|
