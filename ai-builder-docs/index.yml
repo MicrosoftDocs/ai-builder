@@ -49,8 +49,16 @@ landingContent:
           - text: In Power Automate
             url: use-in-flow-overview
           - text: In PowerApps
-            url: use-in-powerapps-overview.md
-
+            url: use-in-powerapps-overview
+  # Card
+  - title: Share
+    linkLists:
+      - linkListType: reference
+        links:
+          - text: Share your AI model
+            url: share-model.md
+          - text: Distribute your AI model
+            url: distribute-model.md
   # Card
   - title: Administration
     linkLists:
@@ -61,34 +69,22 @@ landingContent:
           - text: Licensing
             url: administer-licensing.md
           - text: Allocate capacity
-            url: /power-platform/admin/capacity-add-on.md
-
-  # Card
-  - title: Share
-    linkLists:
-      - linkListType: reference
-        links:
-          - text: Share your AI model
-            url: administer.md
-          - text: Distribute your AI model
-            url: administer-licensing.md
-
+            url: /power-platform/admin/capacity-add-on
   # Card
   - title: What's new and planned?
     linkLists:
       - linkListType: reference
         links:
           - text: Release plans
-            url: power-platform-release-plan/2019wave2/ai-builder/.md
+            url: power-platform-release-plan/2019wave2/ai-builder/
           - text: Feature availability by region
             url: availability-region.md      
-
   # Card
   - title: Get support
     linkLists:
       - linkListType: reference
         links:
           - text: AI Builder community
-            url: .md
+            url: https://go.microsoft.com/fwlink/?linkid=2092048
           - text: Microsoft support
             url: support#microsoft-support.md
