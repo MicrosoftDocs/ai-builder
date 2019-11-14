@@ -33,7 +33,7 @@ ms.reviewer: v-dehaas
     string(triggerBody()?['file']?['contentBytes'])
     ```
     > [!NOTE]
-    >  Depending on which connector the file comes from, the expression may need to be enclosed by base64() instead of string().
+    > Depending on which connector the file comes from, the expression might need to be enclosed by base64() instead of string().
 7. Select **+ New step**, search for *Parse JSON*, and then select **Parse JSON – Data Operations** in the lists of actions.
 8. In the **Parse JSON** screen, next to **Content**, select **Response Payload**.
 9. Copy and paste the following JSON code into the **Schema** box:

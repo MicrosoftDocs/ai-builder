@@ -16,6 +16,7 @@ ms.reviewer: v-dehaas
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
 Before you build your text classification model, you'll need to make sure your data is in Common Data Service, and in the correct format.
+
 If you don't have training data and want to try AI Builder Text Classification, you can follow these [instructions](text-classification-sample-data.md) to use sample data.
 
 ## Prerequisites
@@ -55,15 +56,19 @@ As an example, here is how to import training data from an Excel sheet. This exa
 
 Note that the tags data is separated using a vertical bar or pipe ( \| ).
 
+
+<!--from editor: In step 2, would it be correct to change it to "Under **Data**, go to **Entities** > **Get data**." -->
+<!--v-dehaas: I've rewritten the step to clarify -->
+
 1. Sign in to [PowerApps](https://web.powerapps.com/), and then select the down arrow to expand **Data** in the navigation pane.
-2. Under **Data** > **Entities** > **Get data**. 
+2. Under **Data**, select **Entities**, and then select **Get data** at the top of the screen. 
     - If you need to create a new entity, use [this guide](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-create-entity).
 3. In the list of data sources, select **Excel**.
 4. Select **Browse** to upload your Excel file,  and then select the sheet or sheets your data is in.
     - You might have to allow third-party cookies for your browser to perform this step.
 6. On the **Edit Queries** screen, select **Transform table** > **Use first row as headers**. Next, select the **Tags** column, and then select **Transform Column** > **Replace values**.
 1. Replace the vertical bar ( \| ) character with a semicolon ( ; ) and then select **OK**.
-1. Now that your data is in the correct format, select **Next** > **Load to new entity** or **Next** > **Load to exisiting entity** if you already have one.
+1. Now that your data is in the correct format, select **Next** > **Load to new entity** or **Next** > **Load to existing entity** if you already have one.
 1. Use the drop-down menu to select your target entity, and then map your columns to the destination field. 
 
     > [!div class="mx-imgBorder"]
