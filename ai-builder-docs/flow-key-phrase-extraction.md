@@ -23,10 +23,9 @@ ms.reviewer: v-dehaas
 1. Select **+Add an input** again.
 1. Select **Text** and set as input title: *My Language*.
 1. Select **+ New step**, search for *Predict*, and then select **Predict Common Data Service (current Environment)** in the list of actions.
-1. Select **KeyPhraseExtraction model**, and in the **Request Payload** field, enter *{“text”:”My Text”, “language”:”My Language”}*. Add the **My Text** and **My Language** fields from the trigger.
+1. Select **KeyPhraseExtraction model**, and in the **Request Payload** field, enter *{“text”:”My Text”, “language”:”Language_code”}*. Add the **My Text** and **My Language** fields from the trigger.
+   > ![Manually trigger flow screen](media/flow-trigger-flow.png "Manually trigger flow screen")
 
-   ![Manually trigger flow screen](media/flow-trigger-flow.png "Manually trigger flow screen")
-   
 1. Select **+ New step**, search for Parse JSON, and then select **Parse JSON – Data Operations** in the lists of actions.
 1. In the **Content** field, select **Response Payload**.
 1. Copy the following JSON code and paste it into the **Schema** box: 
