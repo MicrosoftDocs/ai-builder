@@ -39,18 +39,18 @@ For more information about requirements for input documents, see [Requirements a
 
 ### Analyze your documents
 
-When enough documents have been uploaded, you select **Analyze** to launch the analysis. Depending on the number of documents provided, the analysis could take longer but in most cases it should only take a few minutes.
+When enough documents have been uploaded, select **Analyze** to launch the analysis. Depending on the number of documents provided, the analysis could take longer but in most cases it should only take a few minutes.
 
 ## Review documents and extracted data
 
-If the analysis was successful, it means AI Builder detected structured text in your form documents. If the analysis failed, it is likely because AI Builder couldn't detect structured text in your documents, review that the documents you updated follow the [requirements and optimizations tips section](/ai-builder/form-processing-model-requirements).
+If the analysis was successful, it means AI Builder detected structured text in your form documents. If the analysis failed, it is likely because AI Builder couldn't detect structured text in your documents. In that case, check that the documents you updated follow the [requirements and optimization tips section](https://docs.microsoft.com/ai-builder/form-processing-model-requirements).
 
 ## Select your form fields
 
 To start, choose the fields that matter to you:
 
  1. Select the detected template card: **\<*Your model name*> form**.
- 1. To select the fields, hover over a rectangle that indicates a detected field in the document, or select them in the right-side pane.
+ 1. To select the fields, hover over a rectangle that indicates a detected field in the document, or select the fields in the right-side pane.
  1. Select **Edit** next to the selected field if you want to rename fields to align with your needs or normalize the extracted labels.
 
     When you hover over a detected field, the following information appears:

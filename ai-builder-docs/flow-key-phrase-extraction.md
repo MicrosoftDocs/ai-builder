@@ -1,6 +1,7 @@
 ---
-title: Use the key phrase extraction prebuilt model in Power Automate - AI Builder | Microsoft Docs
-description: Provides information about how to setup and use the AI Builder business card reader in model-driven apps 
+title: Use the key phrase extraction prebuilt model in Microsoft Flow - AI Builder | Microsoft Docs
+description: Provides information about how to set up and use the AI Builder business card reader in model-driven apps 
+
 author: alanabrito
 manager: kvivek
 ms.service: powerapps
@@ -22,8 +23,9 @@ ms.reviewer: v-dehaas
 1. Select **+Add an input** again.
 1. Select **Text** and set as input title: *My Language*.
 1. Select **+ New step**, search for *Predict*, and then select **Predict Common Data Service (current Environment)** in the list of actions.
-1. Select **KeyPhraseExtraction model**, and in the **Request Payload** field, enter *{“text”:”My Text”, “language”:”My Language”}*. Add the **My Text** and **My Language** fields from the trigger.
+1. Select **KeyPhraseExtraction model**, and in the **Request Payload** field, enter *{“text”:”My Text”, “language”:”Language_code”}*. Add the **My Text** and **My Language** fields from the trigger.
    > ![Manually trigger flow screen](media/flow-trigger-flow.png "Manually trigger flow screen")
+
 1. Select **+ New step**, search for Parse JSON, and then select **Parse JSON – Data Operations** in the lists of actions.
 1. In the **Content** field, select **Response Payload**.
 1. Copy the following JSON code and paste it into the **Schema** box: 
@@ -59,10 +61,10 @@ ms.reviewer: v-dehaas
         } 
     ```
 
-   > ![Parse JSON screen](media/flow-parse-json-2.png "Parse JSON screen")
+   ![Parse JSON screen](media/flow-parse-json-2.png "Parse JSON screen")
 
 Now you can iterate through the outputs returned by the key phrase extraction model. In the following example, we add each key phrase to a Common Data Service record.
 
-   > ![Add key phrases screen](media/flow-add-phrase.png "Add key phrases in Common Data Service")
+![Add key phrases screen](media/flow-add-phrase.png "Add key phrases in Common Data Service")
 
 Congratulations! You have created a flow that leverages a key phrase extraction model. Select **Save** on the top right and then select **Test** to try out your flow.

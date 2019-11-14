@@ -41,7 +41,7 @@ ms.reviewer: v-dehaas
         }
            ```
 
-    - In the formula bar on the right, replace **EXPRESSION** with the following expression:
+    - In the formula bar on the right, replace **Expression** with the following expression:
     
         string(triggerBody()?['file']?['contentBytes'])
 
@@ -53,17 +53,19 @@ ms.reviewer: v-dehaas
 
 ## Test and edit your flow
 
-1. Select **Test** on the upper right, select **I’ll perform the trigger action**,  and then select **Save & Test**.
-10.	Import a document that can be processed by your trained form processing model and then select **Run flow**.
-12.	Copy the results to an editor like Visual Studio Code and remove all the " \\" characters.
-13.	Back on the Flow editor,  select **+ New step**, search for **Parse JSON**, and then select **Parse JSON – Data Operations** from the list of actions.
+1.  Select **Test** on the upper right, select **I’ll perform the trigger action**,  and then select **Save & Test**.
+1.	Import a document that can be processed by your trained form processing model and then select **Run flow**.
+1.	Copy the results to an editor like Visual Studio Code and remove all the " \\" characters.
+1.	On the Flow editor,  select **+ New step**, search for **Parse JSON**, and then select **Parse JSON – Data Operations** from the list of actions.
 
     > [!div class="mx-imgBorder"]
     > ![Parse JSON screens](media/parse-json-forms.png "Parse JSON screens")
     
-15.	In the Parse JSON screen, next to **Content**, select **Response Payload**.
-16. Select **Use sample payload to generate schema link**, paste the output from your test, and then select **Done**.
-18.	Copy the generated schema, paste it into an editor like Visual Studio Code, replace all instances of **integer** with **number**, and then copy the modified schema back into the Parse JSON screen in Power Automate.
+
+1.	In the Parse JSON screen, next to **Content**, select **Response Payload**.
+1. Select **Use sample payload to generate schema link**, paste the output from your test, and then select **Done**.
+1.	Copy the generated schema, paste it into an editor like Visual Studio Code, replace all instances of **integer** with **number**, and then copy the modified schema back into the Parse JSON screen in Power Automate.
+
 
     > [!div class="mx-imgBorder"]
     > ![Visual Studio  screen](media/visual-studio-replace-integer.png "Visual Studio screen")
@@ -75,7 +77,7 @@ ms.reviewer: v-dehaas
 
 Now you can use the output of the form processing model in subsequent actions in Power Automate.
 
-For example, to retrieve the value of a field named *Total*, you would use the following expression:  
+For example, to retrieve the value of a field named *Total*, use the following expression:  
 
    ```json
         body('Parse_JSON')?['predictionOutput']?['labels']?['Total']?['value']

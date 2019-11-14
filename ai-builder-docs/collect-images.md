@@ -29,17 +29,18 @@ The images you’ll feed your object detection model need these characteristics:
   - BMP
   
 - **Size**:
-  - 6 MB maximum
+
+  6 MB maximum
 
 ## Data quantity and data balance
 
 The most important thing is to upload enough images to train your AI model. We recommend at least 50 images per product for the training set as a starting point. With fewer images, there's a strong risk that your model will learn concepts that are in fact noise or irrelevant details. Training your model with more images will generally increase the accuracy of prediction results.
 
-Another consideration is that you should make sure that your data is balanced. For instance, having 500 images for one item and 50 images for another item will produce an imbalanced training dataset, causing the model to be more accurate in predicting one item than another. You're likely to see better results if you maintain at least a 1:2 ratio between the item with the fewest images and the item with the most images. For example, if the item with the greatest number of images has 500 images, the item with the least images needs to have at least 250 images for training.
+Another consideration is to make sure your data is balanced. For instance, having 500 images for one item and 50 images for another will produce an imbalanced training dataset, causing the model to be more accurate in predicting one item than another. You're likely to see better results if you maintain at least a 1:2 ratio between the item with the fewest images and the item with the most images. For example, if the item with the greatest number of images has 500 images, the item with the fewest images needs to have at least 250 images for training.
 
 ## Use more diverse images
 
-Provide images that are representative of what will be submitted to the model during normal use. For example, if you're training a model that recognizes apples, your model might not be as accurate if you only train images of apples in plates but make predictions on images of apples on trees. Including a variety of images will make sure that your model isn't biased and can generalize well. Below are some ways you can make your training set more diverse.
+Provide images that are representative of what will be submitted to the model during normal use. For example, if you're training a model that recognizes apples, your model might not be as accurate if you only train images of apples on plates but make predictions on images of apples in trees. Including a variety of images will make sure that your model isn't biased and can generalize well. Below are some ways you can make your training set more diverse.
 
 ### Background
 
@@ -50,7 +51,7 @@ Provide images of your object in front of different backgrounds (that is, fruit 
 
 ### Lighting
 
-Provide images with varied lighting (that is, taken with flash, high exposure, and so on), especially if the images used for prediction have different lighting. It is also helpful to include images with varied saturation, hue, and brightness. These are all settings that your device cameras allows you to set.
+Provide images with varied lighting (that is, taken with flash, high exposure, and so on), especially if the images used for prediction have different lighting. It is also helpful to include images with varied saturation, hue, and brightness. These are all settings that your device camera allows you to set.
 
 > [!div class="mx-imgBorder"]
 > ![Image lighting](media/image-lighting.png "Image lighting")

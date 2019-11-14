@@ -24,7 +24,8 @@ If you want to use this prebuilt model in Power Automate, you can find more info
 ## Supported language and data format
 
 - Documents cannot exceed 5,120 characters.
-- The language detection model can detect a wide range of languages, variants, dialects, and some regional or cultural languages. The exact list of languages for this feature isn't currently available
+- For information on language support, see [Language and region support for the text analytics API](/azure/cognitive-services/text-analytics/language-support?#language-detection).
+
 
 ## Model output
 

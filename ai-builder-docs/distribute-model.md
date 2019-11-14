@@ -25,7 +25,7 @@ For more information see [Use solutions in PowerApps](/powerapps/maker/common-da
 
 AI models should be developed in a production sandbox environment and deployed in a production environment using managed solutions. You can copy a production environment to a different environment by following [these instructions](/power-platform/admin/copy-environment).
 
-You shouldn't do any training or configuration changes of AI models after you import them to a production environment. Doing so would add unmanaged customizations which would prevent proper update of the AI models in the future.
+You shouldn't do any training or configuration changes of AI models after you import them to a production environment. Doing so would add unmanaged customizations that would prevent proper update of the AI models in the future.
 
 For more information, see [Introduction to Solutions](/powerapps/developer/common-data-service/introduction-solutions).
 
@@ -33,10 +33,10 @@ For more information, see [Introduction to Solutions](/powerapps/developer/commo
 
 - You can't export an AI Builder preview model in a solution.
 - You can't export an unpublished AI Builder model in a solution.
-- You can't delete an imported solution that contains an AI Builder preview model in Solution Explorer.
-- You can't upgrade a solution that contains an AI Builder model
+- You can't delete an imported solution that contains an AI Builder preview model in solution explorer.
+- You can't upgrade a solution that contains an AI Builder model.
 - Imported AI Builder models do not show performance information on the model details page.
-- An AI Builder model’s managed properties can’t be modified, they are set to customizable by default.
+- An AI Builder model’s managed properties can’t be modified; they are set to customizable by default.
 - Imported model attributes are created with the **new_** attribute, not the default publisher attribute.
-- You can't create a new AI Builder model in Solution Explorer.
-- You can't modify an AI Builder model properties in Solution Explorer.
+- You can't create a new AI Builder model in solution explorer.
+- You can't modify an AI Builder model properties in solution explorer.
