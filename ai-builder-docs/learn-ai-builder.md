@@ -15,9 +15,9 @@ ms.reviewer: v-dehaas
 
 This page contains links to resources that you can use to gain experience with AI Builder and to learn more about it. Links are added here as new resources become available.
 
-AI Builder [hands-on-labs](https://go.microsoft.com/fwlink/?linkid=2103171)  walk through object detection, prediction, text classification, form processing & business card reader scenarios in AI Builder.
+The AI Builder [hands-on labs](https://go.microsoft.com/fwlink/?linkid=2103171)  walk through object detection, prediction, text classification, form processing, and business card reader scenarios in AI Builder.
 
-The [hands-on-lab](https://go.microsoft.com/fwlink/?linkid=2103171) is contained in a zip file that contains the following folders and zip files:
+The [hands-on lab](https://go.microsoft.com/fwlink/?linkid=2103171) is contained in a zip file that includes the following folders and zip files:
 - Lab data
 - Lab images
 - Lab scripts
