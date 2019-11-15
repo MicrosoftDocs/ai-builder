@@ -11,6 +11,9 @@ ms.author: alanab
 ms.reviewer: v-dehaas
 ---
 
+> [!IMPORTANT]
+ > Currently, to use AI Builder models in Power Automate, you will need to create the flow inside a solution. More information: [Create a flow in a solution](/flow/create-flow-solution).
+
 
 # Use the business card reader prebuilt model in Power Automate
 
