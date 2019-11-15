@@ -1,0 +1,64 @@
+{
+  "redirections": [
+    {
+      "source_path": "ai-builder-docs/binary-classification-data-prep.md",
+      "redirect_url": "prediction-data-prep",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-builder-docs/binary-classification-model-driven-app.md",
+      "redirect_url": "prediction-model-driven-app",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-builder-docs/binary-classification-model-in-flow.md",
+      "redirect_url": "prediction-model-in-flow",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-builder-docs/binary-classification-overview.md",
+      "redirect_url": "prediction-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-builder-docs/binary-classification-performance-GA.md",
+      "redirect_url": "prediction-performance",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-builder-docs/binary-classification-prereq.md",
+      "redirect_url": "prediction-prereq",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-builder-docs/binary-classification-sample-data.md",
+      "redirect_url": "prediction-sample-data",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-builder-docs/binary-classification-schedule-predictions.md",
+      "redirect_url": "prediction-schedule-predictions",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-builder-docs/binary-classification-train-model.md",
+      "redirect_url": "prediction-train-model",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-builder-docs/binary-classification-training-report.md",
+      "redirect_url": "prediction-training-report",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-builder-docs/create-binary-classification-model.md",
+      "redirect_url": "prediction- create-model",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-builder-docs/index.md",
+      "redirect_url": "/ai-builder/overview",
+      "redirect_document_id": "false"
+    }
+  ]
+}
