@@ -11,7 +11,7 @@ ms.author: joshrenn
 ms.reviewer: v-dehaas
 ---
 
-# Get Support for AI Builder
+# Get support for AI Builder
 
 You can get support for AI Builder on the AI Builder community forums. Features that have been released for general availability are eligible for support through Microsoft Support.
 
