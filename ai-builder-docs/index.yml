@@ -20,7 +20,7 @@ metadata:
 landingContent:
 
   # Card 
-  - title: AI Builder overview
+  - title: About AI Builder
     linkLists:
        - linkListType: overview
          links:
@@ -28,39 +28,50 @@ landingContent:
             url: overview.md
           - text: AI model types
             url: model-types.md
-       - linkListType: get-started
-         links:
-          - text: Build an AI model
-            url: build-model.md
-          - text: Work with prebuilt models
-            url: prebuilt-overview.md
-          - text: Work with sample data
-            url: samples.md
        - linkListType: video
          links:
           - text: Overview of AI Builder capabilities
             url: https://www.youtube.com/watch?v=MGtomFKVDys
 
   # Card
-  - title: Work with AI models
+  - title: Get started
     linkLists:
-      - linkListType: tutorial
+       - linkListType: how-to-guide
+         links:
+          - text: Build an AI model
+            url: build-model.md
+          - text: Train your AI model
+            url: train-model.md    
+          - text: Work with sample data
+            url: samples.md
+          - text: Work with prebuilt models
+            url: prebuilt-overview.md
+          - text: Work with sample data
+            url: samples.md
+  # Card
+  - title: Use your AI models
+    linkLists:
+      - linkListType: how-to-guide
         links:
           - text: In Power Automate
             url: use-in-flow-overview
           - text: In PowerApps
             url: use-in-powerapps-overview
-  # Card
-  - title: Share
-    linkLists:
-      - linkListType: reference
-        links:
           - text: Share your AI model
             url: share-model.md
           - text: Distribute your AI model
             url: distribute-model.md
   # Card
-  - title: Administration
+  - title: What's new and planned?
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Release plans
+            url: power-platform-release-plan/2019wave2/ai-builder/
+          - text: Feature availability by region
+            url: availability-region.md      
+  # Card
+  - title: Manage AI Builder
     linkLists:
       - linkListType: reference
         links:
@@ -70,15 +81,6 @@ landingContent:
             url: administer-licensing.md
           - text: Allocate capacity
             url: /power-platform/admin/capacity-add-on
-  # Card
-  - title: What's new and planned?
-    linkLists:
-      - linkListType: reference
-        links:
-          - text: Release plans
-            url: power-platform-release-plan/2019wave2/ai-builder/
-          - text: Feature availability by region
-            url: availability-region.md      
   # Card
   - title: Get support
     linkLists:
