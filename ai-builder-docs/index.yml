@@ -55,6 +55,8 @@ landingContent:
             url: use-in-flow-overview.md
           - text: Use in PowerApps
             url: use-in-powerapps-overview.md
+          - text: Manage AI models
+            url: manage-model.md
           - text: Share your AI models
             url: share-model.md
           - text: Distribute your AI models
