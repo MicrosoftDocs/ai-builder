@@ -51,13 +51,13 @@ landingContent:
     linkLists:
       - linkListType: how-to-guide
         links:
-          - text: In Power Automate
+          - text: Use in Power Automate
             url: use-in-flow-overview.md
-          - text: In PowerApps
+          - text: Use in PowerApps
             url: use-in-powerapps-overview.md
-          - text: Share your AI model
+          - text: Share your AI models
             url: share-model.md
-          - text: Distribute your AI model
+          - text: Distribute your AI models
             url: distribute-model.md
   # Card
   - title: What's new and planned?
