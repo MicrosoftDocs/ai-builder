@@ -73,7 +73,7 @@ landingContent:
     linkLists:
       - linkListType: reference
         links:
-          - text: Overview
+          - text: Administer AI Builder
             url: administer.md
           - text: Licensing
             url: administer-licensing.md
@@ -85,6 +85,6 @@ landingContent:
       - linkListType: reference
         links:
           - text: AI Builder community
-            url: https://go.microsoft.com/fwlink/?linkid=2092048
+            url: share-your-experience.md
           - text: Microsoft support
             url: support#microsoft-support.md
