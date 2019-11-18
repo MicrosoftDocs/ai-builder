@@ -62,10 +62,10 @@ landingContent:
   # Card
   - title: What's new and planned?
     linkLists:
-      - linkListType: overview
+      - linkListType: whats-new
         links:
           - text: Release plans
-            url: power-platform-release-plan/2019wave2/ai-builder/
+            url: /power-platform-release-plan/2019wave2/ai-builder/
           - text: Feature availability by region
             url: availability-region.md      
   # Card
