@@ -54,9 +54,9 @@ The component is initialized after an AI model is bound to it.
 <!--v-dehaas: Great question. I'll find out and fix this separately -->
 
 - Three different colors can be used to draw the rectangle depending on the confidence level:
-     - **Red**: Confidence level is between 0 percent and 40 percent.
-     - **Orange**: Confidence level is between 40 percent and 70 percent.
-     - **Blue**: Confidence level is between 70 percent and 100 percent.
+     - **Red**: Confidence level is between 0 percent and 39 percent.
+     - **Orange**: Confidence level is between 40 percent and 59 percent.
+     - **Blue**: Confidence level is between 60 percent and 100 percent.
 - **ShowConfidence** (“Show confidence” in the properties panel): Whether the component displays confidence levels along with the rectangles in the image or not.
 - **DisplayMode**:
      - **Edit**: Allows user input.
