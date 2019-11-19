@@ -41,11 +41,12 @@ landingContent:
           - text: Build an AI model
             url: build-model.md
           - text: Train your AI model
-            url: train-model.md    
+            url: train-model.md
+          - text: Manage AI models
+            url: manage-model.md  
           - text: Work with sample data
             url: build-model.md#deploy-sample-apps-and-data
-          - text: Manage AI models
-            url: manage-model.md
+          
   # Card
   - title: Use your AI models
     linkLists:
