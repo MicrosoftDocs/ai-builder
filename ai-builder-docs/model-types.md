@@ -22,7 +22,7 @@ To build a model using AI Builder, sign in to [Power Apps](https://web.powerapps
 
 ## List of AI model types
 
-AI model types give you the ability to tailor a scenario to the needs of your business. With AI Builder, you can build and train your own AI model suited to your needs, or you choose from several prebuilt models that you use in Power Apps and Flow without having to build and train the model. 
+AI model types give you the ability to tailor a scenario to the needs of your business. With AI Builder, you can build and train your own AI model suited to your needs, or you choose from several prebuilt models that you use in Power Apps and Power Automate without having to build and train the model. 
 
 ### Custom AI models
 
