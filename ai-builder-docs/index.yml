@@ -34,7 +34,7 @@ landingContent:
             url: https://www.youtube.com/watch?v=MGtomFKVDys
 
   # Card
-  - title: Get started
+  - title: Build AI models
     linkLists:
        - linkListType: how-to-guide
          links:
@@ -43,9 +43,9 @@ landingContent:
           - text: Train your AI model
             url: train-model.md    
           - text: Work with sample data
-            url: samples.md
-          - text: Work with prebuilt models
-            url: prebuilt-overview.md
+            url: build-model.md#deploy-sample-apps-and-data
+          - text: Manage AI models
+            url: manage-model.md
   # Card
   - title: Use your AI models
     linkLists:
@@ -55,8 +55,8 @@ landingContent:
             url: use-in-flow-overview.md
           - text: Use in PowerApps
             url: use-in-powerapps-overview.md
-          - text: Manage AI models
-            url: manage-model.md
+          - text: Work with prebuilt models
+            url: prebuilt-overview.md
           - text: Share your AI models
             url: share-model.md
           - text: Distribute your AI models
