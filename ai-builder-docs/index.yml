@@ -1,0 +1,93 @@
+### YamlMime:Landing
+
+title: AI Builder documentation
+summary: AI Builder is a Power Platform capability that allows you to bring the power of Microsoft AI to your organization, without the need for coding or data science skills. 
+
+metadata:
+  title: AI Builder landing page
+  description: Provides access to highlighted areas within the AI Builder documentation
+  services: service
+  ms.service: powerapps 
+  ms.subservice: subservice
+  ms.topic: landing-page 
+  ms.collection: collection
+  author: Dean-Haas
+  ms.author: v-dehaas
+  ms.date: 11/18/2019 
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+
+landingContent:
+
+  # Card 
+  - title: About AI Builder
+    linkLists:
+       - linkListType: overview
+         links:
+          - text: What is AI Builder?
+            url: overview.md
+          - text: AI model types
+            url: model-types.md
+       - linkListType: video
+         links:
+          - text: Overview of AI Builder capabilities
+            url: https://www.youtube.com/watch?v=MGtomFKVDys
+
+  # Card
+  - title: Build AI models
+    linkLists:
+       - linkListType: how-to-guide
+         links:
+          - text: Build an AI model
+            url: build-model.md
+          - text: Train your AI model
+            url: train-model.md
+          - text: Manage AI models
+            url: manage-model.md  
+          - text: Work with sample data
+            url: build-model.md#deploy-sample-apps-and-data
+          
+  # Card
+  - title: Use your AI models
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Use in Power Automate
+            url: use-in-flow-overview.md
+          - text: Use in PowerApps
+            url: use-in-powerapps-overview.md
+          - text: Work with prebuilt models
+            url: prebuilt-overview.md
+          - text: Share your AI models
+            url: share-model.md
+          - text: Distribute your AI models
+            url: distribute-model.md
+  # Card
+  - title: What's new and planned?
+    linkLists:
+      - linkListType: whats-new
+        links:
+          - text: Release plans
+            url: /power-platform-release-plan/2019wave2/ai-builder/
+          - text: Feature availability by region
+            url: availability-region.md      
+  # Card
+  - title: Manage AI Builder
+    linkLists:
+      - linkListType: reference
+        links:
+          - text: Administer AI Builder
+            url: administer.md
+          - text: Licensing
+            url: administer-licensing.md
+          - text: Allocate capacity
+            url: /power-platform/admin/capacity-add-on
+  # Card
+  - title: Get support
+    linkLists:
+      - linkListType: reference
+        links:
+          - text: AI Builder community
+            url: share-your-experience.md
+          - text: Microsoft support
+            url: support.md#microsoft-support
