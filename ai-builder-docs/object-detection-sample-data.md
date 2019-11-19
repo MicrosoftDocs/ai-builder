@@ -26,7 +26,7 @@ Download [AIBuilder_Lab.zip](https://go.microsoft.com/fwlink/?linkid=2103171) fi
 
 ## Add labels in Common Data Service
 
-1. Go to [PowerApps](https://make.powerapps.com/), and then select **Data > Entities** in the left navigation pane.
+1. Go to [Power Apps](https://make.powerapps.com/), and then select **Data > Entities** in the left navigation pane.
 2. Prepare an entity with one column in a text format, either by using an existing one or creating a new one.
     - If you need to create a new entity, use [this guide](/powerapps/maker/common-data-service/data-platform-create-entity).
 3. On the top menu, select **Get data**.
@@ -40,4 +40,4 @@ Download [AIBuilder_Lab.zip](https://go.microsoft.com/fwlink/?linkid=2103171) fi
 
 ### Related topic
 
-[Use an object detection component in PowerApps](/ai-builder/object-detector-component-in-powerapps)
+[Use an object detection component in Power Apps](/ai-builder/object-detector-component-in-powerapps)

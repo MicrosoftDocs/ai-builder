@@ -1,6 +1,6 @@
 ---
-title: Overview of AI Builder in PowerApps -  AI Builder | Microsoft Docs
-description: Provides an overview of the AI Builder components that are available to use with canvas and model-driven apps in PowerApps
+title: Overview of AI Builder in Power Apps -  AI Builder | Microsoft Docs
+description: Provides an overview of the AI Builder components that are available to use with canvas and model-driven apps in Power Apps
 author: mustlaz
 manager: kvivek
 ms.service: powerapps
@@ -11,7 +11,7 @@ ms.author: mustlaz
 ms.reviewer: v-dehaas
 ---
 
-# AI Builder in PowerApps overview
+# AI Builder in Power Apps overview
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -26,4 +26,4 @@ AI Builder comes with:
 > [!div class="mx-imgBorder"]
 > ![Canvas studio screen](media/canvas-studio.png "Canvas studio screen")
 
-The canvas components are available in the canvas studio and appear in the **Insert** tab when you build your canvas app in PowerApps.
+The canvas components are available in the canvas studio and appear in the **Insert** tab when you build your canvas app in Power Apps.

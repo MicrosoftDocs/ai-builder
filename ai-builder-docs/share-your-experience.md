@@ -18,4 +18,4 @@ Read and post in the [AI Builder forum](https://go.microsoft.com/fwlink/?linkid=
 ### Related content
 
 - [Common Data Service community forums](https://powerusers.microsoft.com/t5/Common-Data-Services/ct-p/PA_CommonDataServices)
-- [PowerApps community forums](https://powerusers.microsoft.com/t5/Forums/ct-p/PA_Comm_Forums)
+- [Power Apps community forums](https://powerusers.microsoft.com/t5/Forums/ct-p/PA_Comm_Forums)
