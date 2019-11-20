@@ -1,5 +1,5 @@
 ---
-title: Use the business card reader component in canvas apps in PowerApps - AI Builder | Microsoft Docs
+title: Use the business card reader component in canvas apps in Power Apps - AI Builder | Microsoft Docs
 description: Provides information about the properties and information extracted by the business card reader component in a canvas app
 author: alanabrito
 manager: kvivek
@@ -17,11 +17,11 @@ The business card reader component takes a photo or loads an image from the loca
 
 > [!NOTE]
 > - This component isn't supported in Internet Explorer.
-> - For information about canvas apps, see [What are canvas apps in PowerApps?](/powerapps/maker/canvas-apps/getting-started)
+> - For information about canvas apps, see [What are canvas apps in Power Apps?](/powerapps/maker/canvas-apps/getting-started)
 
 ## Licensing requirements
 
-AI Builder is licensed as an add-on to your PowerApps or Power Automate licenses. For information about license capacity, pricing, and restrictions, see [AI Builder licensing](/ai-builder/administer-licensing).
+AI Builder is licensed as an add-on to your Power Apps or Power Automate licenses. For information about license capacity, pricing, and restrictions, see [AI Builder licensing](/ai-builder/administer-licensing).
 
 ## Role requirements
 
@@ -75,7 +75,7 @@ Additional design properties are available in the **Advanced** panel.
 
 ## Accessibility guidelines
 
-These [guidelines](/powerapps/maker/canvas-apps/controls/control-button) for the PowerApps button control also apply to the business card reader component.
+These [guidelines](/powerapps/maker/canvas-apps/controls/control-button) for the Power Apps button control also apply to the business card reader component.
 
 ### Related topic
-[Core properties in PowerApps](/powerapps/maker/canvas-apps/controls/properties-core)
+[Core properties in Power Apps](/powerapps/maker/canvas-apps/controls/properties-core)

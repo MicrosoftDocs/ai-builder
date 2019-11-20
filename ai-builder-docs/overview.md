@@ -27,22 +27,22 @@ AI Builder was released for public preview on June 10, 2019 in Europe and United
 
 Because of technical dependencies, features will release differently in various locations.  A breakdown of release status for AI Builder features and model types in your region is available [here](availability-region.md).
 
-For information about license capacity, pricing, and restrictions, see [Find the right PowerApps plan for your business needs](https://powerapps.microsoft.com/pricing/)
+For information about license capacity, pricing, and restrictions, see [Find the right Power Apps plan for your business needs](https://powerapps.microsoft.com/pricing/)
 
 ## How can I add intelligence to my apps?
 
-Using AI is easy thanks to integration with PowerApps and Microsoft Power Automate. Adding intelligence to your business is as simple as this:
+Using AI is easy thanks to integration with Power Apps and Microsoft Power Automate. Adding intelligence to your business is as simple as this:
 
 1. **Choose AI model type**: Use the model type that suits your business need. Choose from a growing set of AI turnkey solutions.
 1. **Connect data**: Select your business-specific data from Common Data Service. AI Builder does the hard work for you thanks to the Common Data Model.
 1. **Tailor your AI model**: Filter your data, set scheduling, and tweak the AI model to optimize how your AI performs.
 1. **Train your AI model**: Training is an automatic process where AI Builder “teaches” your AI model how to resolve your business problem (for example, recognize your products on an image) thanks to your business data and tailoring. When trained, your AI model can generate insights, such as the result of a prediction or the list and number of objects detected in an image.
-1. **Use your AI model’s insights**: Use the results from your AI model across Power Platform to create end-to-end solutions that meet your business needs, even if you have no coding skills.  For example, create a flow that automates document processing in Power Automate, or an app created with PowerApps that predicts whether a supplier will be out of compliance.
+1. **Use your AI model’s insights**: Use the results from your AI model across Power Platform to create end-to-end solutions that meet your business needs, even if you have no coding skills.  For example, create a flow that automates document processing in Power Automate, or an app created with Power Apps that predicts whether a supplier will be out of compliance.
 
 ### Related topics
 
 [AI Builder Release Plan](/power-platform-release-plan/2019wave2/ai-builder/planned-features)
 
-[PowerApps docs](https://docs.microsoft.com/powerapps/)
+[Power Apps docs](https://docs.microsoft.com/powerapps/)
 
 [Power Automate docs](https://docs.microsoft.com/flow/getting-started)

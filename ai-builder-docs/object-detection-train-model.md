@@ -42,7 +42,7 @@ Model performance scores are more reliable when the number of images per label i
 
 ## Publish your object detection model
 
-From there, you can run more tests with other pictures. If you are happy with the results, you can [publish](publish-model.md) your model to use it in PowerApps or Power Automate.
+From there, you can run more tests with other pictures. If you are happy with the results, you can [publish](publish-model.md) your model to use it in Power Apps or Power Automate.
 
 ### Related topic
 

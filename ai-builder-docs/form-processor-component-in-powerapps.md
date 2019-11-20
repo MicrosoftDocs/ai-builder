@@ -1,6 +1,6 @@
 ---
-title: Use form processor component in PowerApps -  AI Builder | Microsoft Docs
-description: Provides information about how to use the form processor component in PowerApps
+title: Use form processor component in Power Apps -  AI Builder | Microsoft Docs
+description: Provides information about how to use the form processor component in Power Apps
 author: JoeFernandezMS
 manager: kvivek
 ms.service: powerapps
@@ -11,7 +11,7 @@ ms.author: jofernan
 ms.reviewer: v-dehaas
 ---
 
-# Use the form processor component in PowerApps
+# Use the form processor component in Power Apps
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -71,10 +71,10 @@ The component is initialized after an AI model is bound to it.
 Additional design properties are available in the Advanced panel.
 
 ## Accessibility guidelines
-These [guidelines](/powerapps/maker/canvas-apps/controls/control-button) for the PowerApps button control also apply to the form processor component.
+These [guidelines](/powerapps/maker/canvas-apps/controls/control-button) for the Power Apps button control also apply to the form processor component.
 
 ### Related topics
 
 [Object detection model overview](object-detection-overview.md)
 
-[Core properties in PowerApps](/powerapps/maker/canvas-apps/controls/properties-core)
+[Core properties in Power Apps](/powerapps/maker/canvas-apps/controls/properties-core)

@@ -13,7 +13,7 @@ ms.reviewer: v-dehaas
 
 # Administer AI Builder
 
-Power Platform administrators can use the  [PowerApps admin center](https://admin.powerapps.com) and the [Power Platform Admin center](https://admin.powerplatform.microsoft.com) to manage environments and settings for PowerApps and AI Builder.
+Power Platform administrators can use the  [Power Apps admin center](https://admin.powerapps.com) and the [Power Platform Admin center](https://admin.powerplatform.microsoft.com) to manage environments and settings for Power Apps and AI Builder.
 
 For more information, see the [Power Platform administrator guide](https://docs.microsoft.com/power-platform/admin/admin-documentation).
 
@@ -47,7 +47,7 @@ For more information about enabling or disabling features in the Power Platform 
 
 ## Backup and restore
 
-Dynamics 365 allows protecting your apps data and providing continuous availability of service thanks to its built-in backup and restore capabilities. For more information, go to [Backup and restore instances](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances) in PowerApps docs. 
+Dynamics 365 allows protecting your apps data and providing continuous availability of service thanks to its built-in backup and restore capabilities. For more information, go to [Backup and restore instances](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances) in Power Apps docs. 
 
 > [!IMPORTANT]
 > Currently, AI Builder provides limited support for backup and restore.

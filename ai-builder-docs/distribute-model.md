@@ -17,9 +17,9 @@ You can distribute an AI model as a solution component. After you create a model
 
 ## Solution explorer
 
- PowerApps provides a solution explorer that allows you to create solutions and add components such as AI models to them. The solution explorer also allows you to export and import solutions.
+ Power Apps provides a solution explorer that allows you to create solutions and add components such as AI models to them. The solution explorer also allows you to export and import solutions.
 
-For more information see [Use solutions in PowerApps](/powerapps/maker/common-data-service/use-solution-explorer).
+For more information see [Use solutions in Power Apps](/powerapps/maker/common-data-service/use-solution-explorer).
 
 ## Recommended process
 

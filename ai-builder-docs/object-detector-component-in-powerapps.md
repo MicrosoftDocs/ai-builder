@@ -1,6 +1,6 @@
 ---
-title: Use an object detection component in PowerApps -  AI Builder | Microsoft Docs
-description: Provides information about how to use an object detection component in PowerApps
+title: Use an object detection component in Power Apps -  AI Builder | Microsoft Docs
+description: Provides information about how to use an object detection component in Power Apps
 author: amina196
 manager: kvivek
 ms.service: powerapps
@@ -11,7 +11,7 @@ ms.author: aminab
 ms.reviewer: v-dehaas
 ---
 
-# Use an object detection component in PowerApps
+# Use an object detection component in Power Apps
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -55,11 +55,11 @@ The component is initialized once an AI model is bound to it.
 Additional design properties are available in the Advanced panel.
 
 ## Accessibility guidelines
-These [guidelines](/powerapps/maker/canvas-apps/controls/control-button) for the PowerApps button control also apply to the form processor component.
+These [guidelines](/powerapps/maker/canvas-apps/controls/control-button) for the Power Apps button control also apply to the form processor component.
 
 ### Related topics
 [Object detection overview](object-detection-overview.md)
 
 [Use an object detection model in Power Automate](object-detection-model-in-flow.md)
 
-[Core properties in PowerApps](/powerapps/maker/canvas-apps/controls/properties-core)
+[Core properties in Power Apps](/powerapps/maker/canvas-apps/controls/properties-core)

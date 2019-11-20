@@ -1,5 +1,5 @@
 ---
-title: Use your prediction model in PowerApps -  AI Builder | Microsoft Docs
+title: Use your prediction model in Power Apps -  AI Builder | Microsoft Docs
 description: Walks you through the instructions on how to use your prediction model in a model-driven app.
 author: JoeFernandezMS
 manager: kvivek
@@ -11,14 +11,14 @@ ms.author: jofernan
 ms.reviewer: v-dehaas
 ---
 
-# Use your prediction model in PowerApps
+# Use your prediction model in Power Apps
 
 This topic takes you through the process of creating a model-driven app that can sort your records by the probability value in the AI model output.
 
 > [!NOTE]
 > Find more information about model-driven apps [here](/powerapps/maker/model-driven-apps/model-driven-app-overview).  
 
-1. Sign in to [PowerApps](https://web.powerapps.com/), select **Apps** from the menu, and then select **Create an app** > **Model-driven** at the top of the screen.  
+1. Sign in to [Power Apps](https://make.powerapps.com/), select **Apps** from the menu, and then select **Create an app** > **Model-driven** at the top of the screen.  
 1. On the Create a New App screen, complete the fields and then select **Done**.
 1. On the **App Designer** screen, you need to:
     - Create a view of your entity that contains the predicted fields from prediction output.

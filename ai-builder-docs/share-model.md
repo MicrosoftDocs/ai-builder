@@ -73,4 +73,4 @@ Yes, as administrator you can create in advanced settings of your organization a
 
 ### Why can't I share generic prediction models?
 
-Generic prediction models only work as part of a scheduled run. They cannot be used in PowerApps or in Flow, so the share action is not available.
+Generic prediction models only work as part of a scheduled run. They cannot be used in Power Apps or Power Automate, so the share action is not available.
