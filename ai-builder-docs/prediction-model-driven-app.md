@@ -18,7 +18,7 @@ This topic takes you through the process of creating a model-driven app that can
 > [!NOTE]
 > Find more information about model-driven apps [here](/powerapps/maker/model-driven-apps/model-driven-app-overview).  
 
-1. Sign in to [Power Apps](https://web.powerapps.com/), select **Apps** from the menu, and then select **Create an app** > **Model-driven** at the top of the screen.  
+1. Sign in to [Power Apps](https://make.powerapps.com/), select **Apps** from the menu, and then select **Create an app** > **Model-driven** at the top of the screen.  
 1. On the Create a New App screen, complete the fields and then select **Done**.
 1. On the **App Designer** screen, you need to:
     - Create a view of your entity that contains the predicted fields from prediction output.
