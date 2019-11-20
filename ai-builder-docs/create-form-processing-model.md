@@ -28,7 +28,7 @@ You need to provide sample documents to train your model for the type of form fr
 
 ### Upload your documents
 
-1. Sign in to [PowerApps](https://web.powerapps.com) or [Power Automate](https://flow.microsoft.com) and then in the navigation pane select **AI Builder** > **Build**. Then, select the Form processing AI model type.
+1. Sign in to [Power Apps](https://make.powerapps.com) or [Power Automate](https://flow.microsoft.com) and then in the navigation pane select **AI Builder** > **Build**. Then, select the Form processing AI model type.
 2. Enter a name for your model and then select **Create**. 
 3. Select **Add documents**, select a minimum of five documents, and then select **Upload**.
 
@@ -67,4 +67,4 @@ To start, choose the fields that matter to you:
 
 [Form processing model in Power Automate](form-processing-model-in-flow.md)
 
-[Form processing model in PowerApps](form-processor-component-in-powerapps.md)
+[Form processing model in Power Apps](form-processor-component-in-powerapps.md)

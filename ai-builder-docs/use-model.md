@@ -37,9 +37,9 @@ Learn how to run now for your model type:
 
 ### Create new app
 
-Insert an AI Builder component to a canvas app. See [AI Builder in PowerApps overview](use-in-powerapps-overview.md).
+Insert an AI Builder component to a canvas app. See [AI Builder in Power Apps overview](use-in-powerapps-overview.md).
 
 ### Related topics
 
 [Use AI Builder in Flow](use-in-flow-overview.md) <br>
-[Use AI Builder in PowerApps](use-in-powerapps-overview.md)
+[Use AI Builder in Power Apps](use-in-powerapps-overview.md)

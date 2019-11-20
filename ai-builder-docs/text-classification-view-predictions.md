@@ -23,7 +23,7 @@ This section shows you how to view the output of your prediction model.
 
 2. In the **Views** section, view the values of the output fields for the different records. Use the **Filter by** function in the lower right-side pane to filter for only the records that do not have a label.
 
-3. Next, you can build a simple model-driven app to use the output. For information about how to build a model-driven app in PowerApps, go to the [model-driven app overview](/powerapps/maker/model-driven-apps/model-driven-app-overview) topic in the PowerApps docs.
+3. Next, you can build a simple model-driven app to use the output. For information about how to build a model-driven app in Power Apps, go to the [model-driven app overview](/powerapps/maker/model-driven-apps/model-driven-app-overview) topic in the Power Apps docs.
 
 ### Next step
 

@@ -54,7 +54,7 @@ landingContent:
         links:
           - text: Use in Power Automate
             url: use-in-flow-overview.md
-          - text: Use in PowerApps
+          - text: Use in Power Apps
             url: use-in-powerapps-overview.md
           - text: Work with prebuilt models
             url: prebuilt-overview.md

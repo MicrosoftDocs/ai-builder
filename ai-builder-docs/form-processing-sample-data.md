@@ -46,4 +46,4 @@ Download [AIBuilder_Lab.zip](https://go.microsoft.com/fwlink/?linkid=2103171), w
 
 ### Related topics
 [Form processing model in Power Automate](form-processing-model-in-flow.md) </br>
-[Form processing model in PowerApps](form-processor-component-in-powerapps.md)
+[Form processing model in Power Apps](form-processor-component-in-powerapps.md)
