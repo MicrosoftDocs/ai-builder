@@ -24,7 +24,7 @@ Your AI Builder models are deployed in the region that hosts your Common Data Se
 The table shows which AI Builder features are available in each region, as well as the release status (general availability (GA) or preview) for each feature.  
 
 > [!NOTE]
-> For a view of what is planned for AI Builder, including new features, release status, and regional availability, check out the AI Builder release plans [here](https://go.microsoft.com/fwlink/?linkid=2102828).
+> For a view of what is planned for AI Builder, including new features, release status, and regional availability, check out the [AI Builder release plans](https://go.microsoft.com/fwlink/?linkid=2102828).
 
 
 |Feature |Australia |Europe |United Kingdom  |United States |
