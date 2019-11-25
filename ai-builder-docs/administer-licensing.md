@@ -63,15 +63,9 @@ First, you have to purchase AI Builder capacity add-on for your Power Apps or Po
 
 ### AI Builder paid licenses
 
-
-
 ### How do I convert my trial environment to a production environment?
 
 For more information, go to [About trial environments](/power-platform/admin/trial-environments).
-
-### What email address can I use?
-
-More information is available in this [here](/powerapps/maker/signet-for-powerapps#faq).
 
 ### Where can I find more information about license management in Power Apps?
 
@@ -90,4 +84,4 @@ After your AI Builder trial license expires:
 
 ### Allocate AI Builder capacity
 
-Because AI Builder is licensed as a capacity add-on to your existing Power Apps and Power Automate licenses, an administrator has to allocate capacity for AI Builder to the environment before you can use it. Information about how to allocate capacity in the Power Platform Admin Center is available [here](/power-platform/admin/capacity-add-on).
+Because AI Builder is licensed as a capacity add-on to your existing Power Apps and Power Automate licenses, an administrator has to allocate capacity for AI Builder to the environment before you can use it. Information about how to allocate capacity in the Power Platform Admin Center is available on the [Capacity add-ons](/power-platform/admin/capacity-add-on) page.
