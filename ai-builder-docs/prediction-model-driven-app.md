@@ -16,7 +16,7 @@ ms.reviewer: v-dehaas
 This topic takes you through the process of creating a model-driven app that can sort your records by the probability value in the AI model output.
 
 > [!NOTE]
-> For more information about model-driven apps, go to the [What are model-driven apps in PowerApps?](/powerapps/maker/model-driven-apps/model-driven-app-overview) page.  
+> For more information about model-driven apps, view the [What are model-driven apps in PowerApps?](/powerapps/maker/model-driven-apps/model-driven-app-overview) topic.  
 
 1. Sign in to [Power Apps](https://make.powerapps.com/), select **Apps** from the menu, and then select **Create an app** > **Model-driven** at the top of the screen.  
 1. On the Create a New App screen, complete the fields and then select **Done**.
