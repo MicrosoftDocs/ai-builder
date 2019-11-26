@@ -15,7 +15,7 @@ ms.reviewer: kvivek
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-Power Automate is a service that helps you create automated workflows between your favorite apps and services to synchronize files, get notifications, collect data, and more. Find more information about Power Automate [here](/flow/getting-started). 
+Power Automate is a service that helps you create automated workflows between your favorite apps and services to synchronize files, get notifications, collect data, and more. Find more information about Power Automate on the [Get started with Power Automate](/flow/getting-started) page. 
 
 You can use your published AI models, as well as some AI Builder prebuilt models in Power Automate.
 
