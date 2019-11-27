@@ -76,7 +76,7 @@ ms.reviewer: v-dehaas
 
 Congratulations! You have created a flow that leverages a text classification AI Builder model. Select **Save** on the top right and then select **Test** to try out your flow.
 
-To learn more about the triggers and actions, view the [Get started with Power Automate](/flow/getting-started) topic.
+To learn more about the triggers and actions, see [Get started with Power Automate](/flow/getting-started).
 
 ### Related topic
 

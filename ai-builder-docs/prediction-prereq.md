@@ -13,7 +13,7 @@ ms.reviewer: v-dehaas
 
 # Prerequisites
 
-For information about AI Builder requirements that are not specific to this AI model, view the [AI model prerequisites](build-model.md#prerequisites) topic.
+For information about AI Builder requirements that are not specific to this AI model, see [AI model prerequisites](build-model.md#prerequisites).
 
 ## What skills do I need?
 
@@ -30,7 +30,7 @@ For information about AI Builder requirements that are not specific to this AI m
 
 ## Work with sample data
 
-To help you get started quickly with prediction, AI Builder provides sample data that you can use to get started. For more information, view the [Use sample data to do prediction](prediction-sample-data.md) topic.
+To help you get started quickly with prediction, AI Builder provides sample data that you can use to get started. For more information, see [Use sample data to do prediction](prediction-sample-data.md).
 
 ### Next step
 
