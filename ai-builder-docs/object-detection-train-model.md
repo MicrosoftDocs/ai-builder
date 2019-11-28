@@ -22,7 +22,7 @@ In this section, you’ll learn how to verify your data and then how to train, t
 
 ## Quick-test your model
 
-Once your model is trained, you can see it in action from its details page, which you can learn more about [here](manage-model.md).
+Once your model is trained, you can see it in action from its details page. For more information, see [Manage a model in AI Builder](manage-model.md).
 
 1. From your model details page, select **Quick Test** in the **Last trained version** section.
 2. Drag and drop or upload an image that contains your objects to test your model.

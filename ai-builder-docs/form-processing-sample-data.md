@@ -22,7 +22,7 @@ To explore the possibilities of form processing, you can get started by building
 Download [AIBuilder_Lab.zip](https://go.microsoft.com/fwlink/?linkid=2103171), which contains sample invoices.
 
 > [!NOTE]
-> The [AIBuilder_Lab.zip](https://go.microsoft.com/fwlink/?linkid=2103171) file also contains sample files for working with other AI Builder model types, as well as some hands-on labs that you can use to learn more about AI Builder. More information about the contents of the zip file is available in the [readme.txt](https://go.microsoft.com/fwlink/?linkid=2108226) file, available [here](https://go.microsoft.com/fwlink/?linkid=2108226) and also contained in the zip file.
+> The [AIBuilder_Lab.zip](https://go.microsoft.com/fwlink/?linkid=2103171) file also contains sample files for working with other AI Builder model types, as well as some hands-on labs that you can use to learn more about AI Builder. More information about the contents of the zip file is available in the [readme.txt](https://go.microsoft.com/fwlink/?linkid=2108226) file.
 
 ## Build your model
 

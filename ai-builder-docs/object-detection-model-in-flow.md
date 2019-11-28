@@ -126,7 +126,7 @@ The following example shows the creation of a flow that counts the number of gre
 > [!div class="mx-imgBorder"]
 > ![Green tea object detection flow example](media/green-tea-example.png "Example of an object detection flow")
 
-To learn more about all the triggers and actions you can use, go to the [Power Automate documentation](/flow/getting-started).
+To learn more about all the triggers and actions you can use, see [Power Automate documentation](/flow/getting-started).
 
 ### Related topic
 

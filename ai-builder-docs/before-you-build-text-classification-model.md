@@ -28,8 +28,8 @@ If you don't have training data and want to try AI Builder Text Classification, 
 
 ## Data format
 
- - Text and tags should be stored in text fields under the same entity. 
- - Tags should be separated using a delimiter. We currently support the following delimiters: comma ( , ), semicolon ( ; ), tab, and no separator. 
+ - Text and tags should be stored in text fields under the same entity.
+ - Tags should be separated using a delimiter. We currently support the following delimiters: comma ( , ), semicolon ( ; ), tab, and no separator.
  - Tags that contain fewer than 50 text items are ignored.
  - Text must be fewer than 5,000 characters.
 
@@ -37,16 +37,16 @@ If we represent data in a table, it would look like this:
 
 | Text      | Tags                |
 |-----------|---------------------|
-| Text data | Tag X, Tag Y        | 
-| Text data | Tag X, Tag Y, Tag Z | 
+| Text data | Tag X, Tag Y        |
+| Text data | Tag X, Tag Y, Tag Z |
 
 ## Import your data into Common Data Service
 
-We understand that your data might not be in Common Data Service. However, Common Data Service includes a powerful set of connectors that will help you import your data from all major data sources. For more information about how to import data into Common Data Service, see [Add data to an entity in Common Data Service by using Power Query](/powerapps/maker/common-data-service/data-platform-cds-newentity-pq). 
+We understand that your data might not be in Common Data Service. However, Common Data Service includes a powerful set of connectors that will help you import your data from all major data sources. For more information about how to import data into Common Data Service, see [Add data to an entity in Common Data Service by using Power Query](/powerapps/maker/common-data-service/data-platform-cds-newentity-pq).
 
 As an example, here is how to import training data from an Excel sheet. This example uses an Excel file like this:
 
-|   |   |   | 
+|   |   |   |
 |---|---|---|
 |326589    |It’s a powerful tool that helps make quick changes   |Good \| Quick \| Powerful |
 |326590    |This program is great and has lots of potential. The user interface is intuitive and makes it easy to filter results. However, when I try to edit a link, I get an error.    |Potential, Easy \| Good, Ease of Use \| filters \| bug  |
@@ -56,12 +56,8 @@ As an example, here is how to import training data from an Excel sheet. This exa
 
 Note that the tags data is separated using a vertical bar or pipe ( \| ).
 
-
-<!--from editor: In step 2, would it be correct to change it to "Under **Data**, go to **Entities** > **Get data**." -->
-<!--v-dehaas: I've rewritten the step to clarify -->
-
 1. Sign in to [Power Apps](https://make.powerapps.com/), and then select the down arrow to expand **Data** in the navigation pane.
-2. Under **Data**, select **Entities**, and then select **Get data** at the top of the screen. 
+2. Under **Data**, select **Entities**, and then select **Get data** at the top of the screen.
     - If you need to create a new entity, use [this guide](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-create-entity).
 3. In the list of data sources, select **Excel**.
 4. Select **Browse** to upload your Excel file,  and then select the sheet or sheets your data is in.
@@ -69,15 +65,15 @@ Note that the tags data is separated using a vertical bar or pipe ( \| ).
 6. On the **Edit Queries** screen, select **Transform table** > **Use first row as headers**. Next, select the **Tags** column, and then select **Transform Column** > **Replace values**.
 1. Replace the vertical bar ( \| ) character with a semicolon ( ; ) and then select **OK**.
 1. Now that your data is in the correct format, select **Next** > **Load to new entity** or **Next** > **Load to existing entity** if you already have one.
-1. Use the drop-down menu to select your target entity, and then map your columns to the destination field. 
+1. Use the drop-down menu to select your target entity, and then map your columns to the destination field.
 
     > [!div class="mx-imgBorder"]
     > ![Map your columns to the destination field](media/create-text-model-map-columns.png)
 
-1. Select **Refresh manually** on the **Refresh settings** page. 
+1. Select **Refresh manually** on the **Refresh settings** page.
 
 You’re all set—Power Query will import your data into the Common Data Service entity you have picked.
 
 ### Next step
 
-[Create a text classification model](create-text-classification-model.md) 
+[Create a text classification model](create-text-classification-model.md)

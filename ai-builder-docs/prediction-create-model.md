@@ -13,7 +13,7 @@ ms.reviewer: v-dehaas
 
 # Create a prediction model
 
-This example creates a Power Apps prediction AI model that uses the *online shopper intention* Common Data Service entity.  To get this sample data into your Common Data Service environment. enable the **Deploy sample apps and data** setting when you create an environment as described [here](build-model.md). Or, follow the more detailed instructions [here](prediction-data-prep.md). After your sample data is in Common Data Service, follow these steps to create your model:
+This example creates a Power Apps prediction AI model that uses the *online shopper intention* Common Data Service entity.  To get this sample data into your Common Data Service environment. enable the **Deploy sample apps and data** setting when you create an environment as described in the [Build a model in AI Builder](build-model.md). Or, follow the more detailed instructions in the [Data preparation](prediction-data-prep.md). After your sample data is in Common Data Service, follow these steps to create your model:
 
 1. Sign in to [Power Apps](https://make.powerapps.com) and then select **AI Builder > Build**.
 2. Select **Prediction**. Enter a model name and then select **Create**.

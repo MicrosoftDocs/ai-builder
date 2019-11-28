@@ -21,7 +21,7 @@ ms.reviewer: v-dehaas
 
 Congratulations—you have created a flow that leverages a prediction AI Builder model. Select **Save** on the top right, and then select **Test** to try out your flow.
 
-To learn more about the triggers and actions, go to the [Get started with Power Automate](/flow/getting-started) topic.
+To learn more about the triggers and actions, see [Get started with Power Automate](/flow/getting-started).
 
 ### Related topic
 
