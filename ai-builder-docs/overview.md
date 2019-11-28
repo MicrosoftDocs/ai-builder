@@ -19,13 +19,13 @@ AI Builder is a new Power Platform capability that allows you to easily automate
  >
  > - Some features in AI Builder have not yet released for general availability (GA), and remain in preview status. See the **Release status** section later in this topic for more information.
  > - [!INCLUDE[cc_preview_features_definition](./includes/cc-preview-features-definition.md)]
- > - Administrators can control preview feature availability for their environment using the Power Platform Admin center. More information: [Enable or disable AI Builder preview features](administer.md#enable-or-disable-ai-builder-preview-features)
+ > - Administrators can control preview feature availability for their environment using the Power Platform Admin center. More information: [Enable or disable AI Builder preview features](administer.md#enable-or-disable-ai-builder-preview-features).
 
 ## Release status
 
 AI Builder was released for public preview on June 10, 2019 in Europe and United States. The general availability (GA) release will occur in a phased manner, with some features remaining in preview status while others are released for GA.
 
-Because of technical dependencies, features will release differently in various locations.  A breakdown of release status for AI Builder features and model types in your region is available [here](availability-region.md).
+Because of technical dependencies, features will release differently in various locations. For a breakdown of the release status for AI Builder features and model types in your region, see [Feature availability by region](availability-region.md).
 
 For information about license capacity, pricing, and restrictions, see [Find the right Power Apps plan for your business needs](https://powerapps.microsoft.com/pricing/)
 

@@ -20,7 +20,7 @@ Use the object detection component to take a photo or choose an image file to pe
  > [!NOTE]
  >
  > - This component is not supported in Internet Explorer.
- > - Find more information about canvas apps [here](/powerapps/maker/canvas-apps/getting-started).
+ > - Find more information about canvas apps in the [What are canvas apps in PowerApps?](/powerapps/maker/canvas-apps/getting-started).
 
 ## Prerequisites
 

@@ -23,7 +23,7 @@ AI Builder calculates the performance score for your model based on the precisio
 - **Precision**: The fraction of correct predictions among all the positive predictions.
 - **Recall**: The fraction of correct predictions among all true positive cases.
 
-For more information, go to [Evaluate your model](manage-model.md#evaluate-your-model).
+For more information, see [Evaluate your model](manage-model.md#evaluate-your-model).
 
 ### Next step
 

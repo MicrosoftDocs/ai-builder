@@ -22,7 +22,7 @@ If you have data outside of Common Data Service that you want to import for trai
 > [!NOTE]
 > For best results, use a dataset that is less than 1.5 GB in size. Otherwise, AI Builder uses only 1.5 GB of your data to train and predict. Since you can’t control which data exceeding the 1.5 GB limit is not used, you should optimize your data to stay under 1.5 GB.
 
-1. Download the AI Builder sample datasets solution, **AIBuilderOnlineShopperIntention_1_0_0_0.zip**, from [here](https://go.microsoft.com/fwlink/?linkid=2093415).
+1. Download the AI Builder sample datasets solution: [AIBuilderOnlineShopperIntention_1_0_0_0.zip](https://go.microsoft.com/fwlink/?linkid=2093415).
 1. In Power Apps, select **Solutions** in the left-side navigation pane, then select **Import** at the top of the screen.
 1. In the pop-up screen, select **Choose File**, and then select **AIBuilderOnlineShopperIntention_1_0_0_0.zip** that you downloaded in step 1.
 1. Follow the on-screen instructions to import the solution, and then select **Close** after you finish.

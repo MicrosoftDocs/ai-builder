@@ -29,7 +29,7 @@ After you publish your last trained version, it appears as the published version
 
 ## When should I publish my model?
 
-Publish your model when you want to make it available to users in your Power Apps environment. If you are not satisfied with your model, you can create a new version to try to yield better results. For information about how to create a new version, go to the [Manage a model in AI Builder](manage-model.md) section.
+Publish your model when you want to make it available to users in your Power Apps environment. If you are not satisfied with your model, you can create a new version to try to yield better results. For information about how to create a new version, see [Manage a model in AI Builder](manage-model.md).
 
 If you are satisfied with your model, you can publish it to make it available. Similarly, because you can only have up to two trained versions available at a time, you can publish a version if you do not want it to be overwritten by a new version.
 

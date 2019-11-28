@@ -19,7 +19,7 @@ After each training, AI Builder uses the test data set to evaluate the quality a
 
 AI Builder calculates the accuracy score for your model based on prediction result of the test data set. Before training, AI Builder separates your dataset into separate training data and testing data sets. And after training, AI Builder applies your AI model to the testing data set, and then calculates your accuracy score. For example: if your test data set has 200 records, and AI Builder correctly predicts 160 of them, AI Builder shows an accuracy score of 80%.
 
-For more information, go to [Evaluate your model](manage-model.md#evaluate-your-model).
+For more information, see [Evaluate your model](manage-model.md#evaluate-your-model).
 
 ## How is accuracy related to performance?
 
