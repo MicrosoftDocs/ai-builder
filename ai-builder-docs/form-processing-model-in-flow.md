@@ -20,8 +20,12 @@ ms.reviewer: v-dehaas
 
 ## Create your flow
 
-1. Sign in to [Power Automate](https://flow.microsoft.com/), select the **My flows** tab, and then select **Create from blank**.
-2. Search for *manually*, select **Manually trigger a flow** in the list of triggers, and then select **+Add an input**.
+1. Sign in to [Power Automate](https://flow.microsoft.com/).
+1. Select **My flows** in the left-side navigation pane, and then select **Create from blank**.
+1. Select **+New** > **+Instant-from blank**.
+1. Name your flow, select **Manually trigger a flow** under **Choose how to trigger this flow**, and then select **Create**.
+1. Expand **Manually trigger a flow**, and then select **+Add an input.**
+![Expand 'manually trigger a flow'.](media/flow-add-input.png)
 3. Select **File** and set **My Document** as input title.
 4. Select **+ New step**, search for **Predict**, and then select **Predict Common Data Service (current Environment)** in the list of actions.
 6. Select the form processing model you want to use, and specify the following as **Request Payload**:
