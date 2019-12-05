@@ -47,6 +47,7 @@ AI Builder features prebuilt AI models that you can use in Power Apps and Power 
 |Text recognition |Vision | [Overview of text recognition](prebuilt-text-recognition.md)
 |Sentiment analysis |Language | [Overview of sentiment analysis](prebuilt-sentiment-analysis.md)
 
-### Related topic
+### Related content
 
-[Build a model](build-model.md)
+- [Feature availability by region](availability-region.md)
+- [Build a model](build-model.md)

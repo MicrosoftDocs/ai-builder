@@ -41,5 +41,5 @@ Insert an AI Builder component to a canvas app. See [AI Builder in Power Apps ov
 
 ### Related topics
 
-[Use AI Builder in Flow](use-in-flow-overview.md) <br>
+[Use AI Builder in Power Automate](use-in-flow-overview.md) <br>
 [Use AI Builder in Power Apps](use-in-powerapps-overview.md)

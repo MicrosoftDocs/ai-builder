@@ -27,3 +27,9 @@ AI Builder comes with:
 > ![Canvas studio screen](media/canvas-studio.png "Canvas studio screen")
 
 The canvas components are available in the canvas studio and appear in the **Insert** tab when you build your canvas app in Power Apps.
+
+### Related content
+
+- [Feature availability by region](availability-region.md)
+- [AI Builder in Power Automate](use-in-flow-overview.md)
+- [Prerequisites](use-in-flow-prereq.md)
