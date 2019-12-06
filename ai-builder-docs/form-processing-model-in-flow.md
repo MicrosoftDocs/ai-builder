@@ -6,7 +6,7 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/06/2019
+ms.date: 12/06/2019
 ms.author: jofernan
 ms.reviewer: v-dehaas
 ---
@@ -16,15 +16,18 @@ ms.reviewer: v-dehaas
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
 > [!IMPORTANT]
- > Currently, to use AI Builder models in Power Automate, you will need to create the flow inside a solution. More information: [Create a flow in a solution](/flow/create-flow-solution).
+ > Currently, to use AI Builder models in Power Automate, you have to create the flow inside a solution. The steps below won't work if you don't follow these instructions first: [Create a flow in a solution](/flow/create-flow-solution).
 
 ## Create your flow
 
-1. Sign in to [Power Automate](https://flow.microsoft.com/), select the **My flows** tab, and then select **Create from blank**.
-2. Search for *manually*, select **Manually trigger a flow** in the list of triggers, and then select **+Add an input**.
-3. Select **File** and set **My Document** as input title.
-4. Select **+ New step**, search for **Predict**, and then select **Predict Common Data Service (current Environment)** in the list of actions.
-6. Select the form processing model you want to use, and specify the following as **Request Payload**:
+1. Sign in to [Power Automate](https://flow.microsoft.com/).
+1. Select **My flows** in the left-side navigation pane, and then select **Create from blank**.
+1. Select **+New** > **+Instant-from blank**.
+1. Name your flow, select **Manually trigger a flow** under **Choose how to trigger this flow**, and then select **Create**.
+1. Expand **Manually trigger a flow**, select **+Add an input**, and then select **+ New step**. Don't worry about the file information fields at this point - that comes later. 
+![Expand 'manually trigger a flow'.](media/flow-add-input.png)
+1. Search for **Predict** in the **Search for filters and actions** box, and then select **Predict Common Data Service (current Environment)** in the list of actions. If this action does not appear, make sure you are working with a solution as described in [Create a flow in a solution](/flow/create-flow-solution).
+1. Select the form processing model you want to use, and specify the following as **Request Payload**:
     
     -	For a .jpeg image of the form:
 

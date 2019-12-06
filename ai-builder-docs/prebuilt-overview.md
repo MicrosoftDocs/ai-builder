@@ -24,3 +24,7 @@ The prebuilt models are available in Power Automate and/or Power Apps, depending
 |Language detection  |    Power Automate    |
 |Text recognition      |    Power Automate    |
 |Sentiment analysis     |    Power Automate    |
+
+### Related content
+
+- [Feature availability by region](availability-region.md)

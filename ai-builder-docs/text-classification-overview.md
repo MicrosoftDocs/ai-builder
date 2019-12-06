@@ -20,3 +20,7 @@ Text data volume is growing exponentially in organizations, through channels suc
 Text classification is one of the fundamental natural language processing (NLP) problems. It allows tagging of text entries with tags or labels that can be used for sentiment analysis, spam detection, and routing customer requests, just to name a few examples.
 
 Use AI Builder text classification with [Power Automate](https://flow.microsoft.com/) and [Power Apps](https://powerapps.microsoft.com/) to automate and scale your business processes and free your employees to act on these insights. It can also be used as an input for other AI capabilities such as subscription user churn and predictive analysis. AI Builder can learn from your previously labeled text items, and enable you to classify unstructured text data stored in Common Data Service into your own business-specific categories.
+
+### Related content
+
+- [Feature availability by region](availability-region.md)
