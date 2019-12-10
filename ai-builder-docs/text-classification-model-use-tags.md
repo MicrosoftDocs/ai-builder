@@ -15,9 +15,9 @@ ms.reviewer: v-dehaas
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-## Microsoft Flow
+## Power Automate
 
-If you want to use your trained model in Microsoft Flow, you can find more information in [Use text classification model in Microsoft Flow](text-classification-model-in-flow.md).
+If you want to use your trained model in Power Automate, you can find more information in [Use text classification model in Power Automate](text-classification-model-in-flow.md).
 
 ## Set run schedule on Common Data Service
 
@@ -30,5 +30,5 @@ Your model runs once on all existing data in your text entity, and then again wh
 
 ## What if the model is not writing new tag suggestions?
 
-- Check that you didn’t exceed the number of runs for your Microsoft Flow subscription.
+- Check that you didn’t exceed the number of runs for your Power Automate subscription.
 - Turn off the Common Data Service run setting, and then turn it back on.

@@ -1,6 +1,6 @@
 ---
-title: Use text classification model in Microsoft Flow -  AI Builder | Microsoft Docs
-description: Provides information about how to use a text classification model in Microsoft Flow.
+title: Use text classification model in Power Automate -  AI Builder | Microsoft Docs
+description: Provides information about how to use a text classification model in Power Automate.
 author: raaourik
 manager: kvivek
 ms.service: powerapps
@@ -11,11 +11,14 @@ ms.author: raaourik
 ms.reviewer: v-dehaas
 ---
 
-# Use text classification model in Microsoft Flow
+# Use text classification model in Power Automate
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-1. Sign in to [Microsoft Flow](https://flow.microsoft.com/), select the **My flows** tab, and then select **Create from blank**.
+> [!IMPORTANT]
+ > Currently, to use AI Builder models in Power Automate, you will need to create the flow inside a solution. More information: [Create a flow in a solution](/flow/create-flow-solution).
+
+1. Sign in to [Power Automate](https://flow.microsoft.com/), select the **My flows** tab, and then select **Create from blank**.
 2. Search for *manually*, select **Manually trigger a flow** in the list of triggers, and then select **+Add an input**.
 3. Select **Text** and set as input title: **My Text**
 4. Select **+ New step**, search for **Predict**, and then select **Predict Common Data Service (current Environment)** in the list of actions.
@@ -66,14 +69,14 @@ ms.reviewer: v-dehaas
     > [!div class="mx-imgBorder"]
     > ![Parse JSON screen](media/parse-json.png "Parse JSON screen")
 
-9. Now you can iterate through the outputs returned by the text classification model. In the following example of instance, we save each inferred tag into a SharePoint list. 
+9. Now you can iterate through the outputs returned by the text classification model. In the following example, we save each inferred tag into a SharePoint list.
 
    > [!div class="mx-imgBorder"]
    > ![Save tags screens](media/save-tags.png "Save tags screens")
 
 Congratulations! You have created a flow that leverages a text classification AI Builder model. Select **Save** on the top right and then select **Test** to try out your flow.
 
-To learn more about the triggers and actions, go to [Get started with Microsoft Flow](/flow/getting-started).
+To learn more about the triggers and actions, see [Get started with Power Automate](/flow/getting-started).
 
 ### Related topic
 

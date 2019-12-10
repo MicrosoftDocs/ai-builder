@@ -1,6 +1,6 @@
 ---
-title: Use the text recognition prebuilt model in Microsoft Flow - AI Builder | Microsoft Docs
-description: Provides information about how to text recognition prebuilt model in Microsoft Flow 
+title: Use the text recognition prebuilt model in Power Automate - AI Builder | Microsoft Docs
+description: Provides information about how to text recognition prebuilt model in Power Automate 
 author: alanabrito
 manager: kvivek
 ms.service: powerapps
@@ -12,15 +12,18 @@ ms.reviewer: v-dehaas
 ---
 
 
-# Use the text recognition prebuilt model in Microsoft Flow
+# Use the text recognition prebuilt model in Power Automate
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-1. [Sign in](https://flow.microsoft.com/signin) to Microsoft Flow, select the **My flows** tab, and then select **Create from blank**.
+> [!IMPORTANT]
+ > Currently, to use AI Builder models in Power Automate, you will need to create the flow inside a solution. More information: [Create a flow in a solution](/flow/create-flow-solution).
+
+1. [Sign in](https://flow.microsoft.com/signin) to Power Automate, select the **My flows** tab, and then select **Create from blank**.
 1. Search for the term *manually*, select **Manually trigger a flow** in the list of triggers, and then select **+ Add an input**.
-1. Select **File**, and set **My Image** as the input title.
+1. Select **File** and set **My Image** as the input title.
 1. Select **+ New step**, search for the term *Predict*, and then select **Predict - Common Data Service (Current Environment)** in the list of actions.
-1. Select **Text recognition model**, and specify the following as **Request Payload**:
+1. Select **Text recognition model** and specify the following as **Request Payload**:
 
     ```json
     { 
@@ -37,8 +40,8 @@ ms.reviewer: v-dehaas
 
      > ![Select payload screen](media/flow-payload-screen-ocr.png "Select payload screen")
 
- > [!NOTE]
- > Depending on which connector the file comes from, the expression may need to be enclosed by base64() instead of string().
+    > [!NOTE]
+    > Depending on which connector the file comes from, the expression might need to be enclosed by base64() instead of string().
 
 7. Select **+ New step**, search for *Parse JSON*, and then select  **Parse JSON – Data Operations**  in the lists of actions.
 8. In the **Parse JSON** screen, next to **Content**, select **Response Payload**.

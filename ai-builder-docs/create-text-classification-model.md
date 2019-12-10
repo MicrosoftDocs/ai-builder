@@ -17,7 +17,7 @@ ms.reviewer: v-dehaas
 
 Now that you have your training data in Common Data Service, you can create a new model and configure it:
 
-1. Sign in to [PowerApps](https://web.powerapps.com/) and then select **AI Builder** > **Build**.
+1. Sign in to [Power Apps](https://make.powerapps.com/) and then select **AI Builder** > **Build**.
 
     > [!div class="mx-imgBorder"]
     > ![Build text classification model screen](media/build-text-classification-model.png "Build text classification model screen")

@@ -1,5 +1,5 @@
 ---
-title: Train and publish your form processing model -  AI Builder | Microsoft Docs
+title: Train and publish your form processing model - AI Builder | Microsoft Docs
 description: Walks you through the steps to train, validate, and test your form processing model in AI Builder.
 author: JoeFernandezMS
 manager: kvivek
@@ -34,18 +34,18 @@ The Details page allows you to test your model before you publish or use it:
 
 If you have trouble training your model, try the following:
 
-- Optimize your data using the guidance in the [Requirements](form-processing-model-requirements.md) topic.
+- Optimize your data using the guidance in the [Requirements](form-processing-model-requirements.md).
 - Delete and recreate the model.
 - Download and test with [sample material](https://go.microsoft.com/fwlink/?linkid=2103171).
 
 ## Publish your model
 
-If you’re happy with your model, you can select **Publish**  to publish it. When publishing completes, your model is promoted as **Published** and is ready to be used. For more information about publishing your model, go to [Publish your model](publish-model.md) section.
+If you’re happy with your model, you can select **Publish**  to publish it. When publishing completes, your model is promoted as **Published** and is ready to be used. For more information about publishing your model, see [Publish your model](publish-model.md).
 
-After you’ve published your form processing model, you can use it in a [PowerApps canvas app](/ai-builder/form-processor-component-in-powerapps) or in [Microsoft Flow](/ai-builder/form-processing-model-in-flow).
+After you’ve published your form processing model, you can use it in a  [Power Apps canvas app](/ai-builder/form-processor-component-in-powerapps) or in [Power Automate](/ai-builder/form-processing-model-in-flow).
 
 ### Related topics
 
-[Form processing model in Flow](form-processing-model-in-flow.md)
+[Form processing model in Power Automate](form-processing-model-in-flow.md)
 
-[Form processing model in PowerApps](form-processor-component-in-powerapps.md)
+[Form processing model in Power Apps](form-processor-component-in-powerapps.md)
