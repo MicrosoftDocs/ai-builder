@@ -24,7 +24,8 @@ ms.reviewer: v-dehaas
 1. Select **My flows** in the left-side navigation pane, and then select **Create from blank**.
 1. Select **+New** > **+Instant-from blank**.
 1. Name your flow, select **Manually trigger a flow** under **Choose how to trigger this flow**, and then select **Create**.
-1. Expand **Manually trigger a flow**, select **+Add an input**, and then select **+ New step**. Don't worry about the file information fields at this point - that comes later. 
+1. Expand **Manually trigger a flow**, select **+Add an input**, and then select **File** as the input type.
+1. Select **+ New step**. Don't worry about the file information fields at this point - that comes later. 
 ![Expand 'manually trigger a flow'.](media/flow-add-input.png)
 1. Search for **Predict** in the **Search for filters and actions** box, and then select **Predict Common Data Service (current Environment)** in the list of actions. If this action does not appear, make sure you are working with a solution as described in [Create a flow in a solution](/flow/create-flow-solution).
 1. Select the form processing model you want to use, and specify the following as **Request Payload**:
