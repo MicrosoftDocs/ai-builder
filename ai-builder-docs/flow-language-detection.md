@@ -41,7 +41,7 @@ ms.reviewer: v-dehaas
                                           "type": "string" 
                                       }, 
                                       "score": { 
-                                          "type": "integer" 
+                                          "type": "number" 
                                       } 
                                   }, 
                                   "required": [ 
