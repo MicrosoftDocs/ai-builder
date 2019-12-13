@@ -6,7 +6,7 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/04/2019
+ms.date: 12/12/2019
 ms.author: v-dehaas
 ms.reviewer: kvivek
 ---
@@ -19,8 +19,11 @@ Power Automate is a service that helps you create automated workflows between yo
 
 You can use your published AI models, as well as some AI Builder prebuilt models in Power Automate.
 
+### Next step
+
+- [Prerequisites](use-in-flow-prereq.md)
+
 ### Related content
 
 - [Feature availability by region](availability-region.md)
 - [AI Builder in Power Apps](use-in-powerapps-overview.md)
-- [Prerequisites](use-in-flow-prereq.md)
