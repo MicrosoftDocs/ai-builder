@@ -6,7 +6,7 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/06/2019
+ms.date: 12/12/2019
 ms.author: v-dehaas
 ms.reviewer: v-dehaas
 ---
@@ -18,7 +18,7 @@ ms.reviewer: v-dehaas
 Before you can use AI Builder in Power Automate, you need:
 
 - An account with access to Power Automate.
-- A trained [AI Builder model](build-model.md).
+- A trained [AI Builder model](build-model.md) or an AI Builder [prebuilt model](prebuilt-overview.md).
 
 > [!IMPORTANT]
  > Currently, to use AI Builder models in Power Automate, you will need to create the flow inside a solution. More information: [Create a flow in a solution](/flow/create-flow-solution).
