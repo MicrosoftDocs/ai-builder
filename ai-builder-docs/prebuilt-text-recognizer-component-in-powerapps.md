@@ -15,7 +15,7 @@ ms.reviewer: v-dehaas
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-Create a canvas app and add the text recognizer AI Builder component to your screen. This component takes a photo or loads an image from the local device, and then processes it to extract text lines detected based on the text recognition prebuilt AI model. If it detects text lines from the image, the component output the lines and identifies them with rectangles.
+Create a canvas app and add the text recognizer AI Builder component to your screen. This component takes a photo or loads an image from the local device, and then processes it to detect and extract text based on the text recognition prebuilt AI model. If it detects text in the image, the component outputs the text and identifies the instances with rectangles in the image.
 
  > [!NOTE]
  >
