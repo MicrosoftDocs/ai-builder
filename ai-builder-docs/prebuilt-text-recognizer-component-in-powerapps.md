@@ -20,7 +20,6 @@ Create a canvas app and add the text recognizer AI Builder component to your scr
  > [!NOTE]
  >
  > - Display of PDF files is not included in the initial preview.
- > - This component is not supported in Internet Explorer.
  > - Find more information about canvas apps [here](/powerapps/maker/canvas-apps/getting-started).
 
 ## Key properties
