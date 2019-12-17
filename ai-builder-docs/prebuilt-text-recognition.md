@@ -19,7 +19,7 @@ This prebuilt processes images and document files to extract lines of printed or
 
 ## Use in PowerApps
 
-If you want to use this prebuilt model in PowerApps using the Text recognizer component. You can find more information in [Text recognizer component in PowerApps](prebuilt-text-recognizer-component-in-powerapps.md).
+If you want to use this prebuilt model in Power Apps using the text recognizer component. For more more information, see [Text recognizer component in PowerApps](prebuilt-text-recognizer-component-in-powerapps.md).
 
 ## Use in Microsoft Flow
 
