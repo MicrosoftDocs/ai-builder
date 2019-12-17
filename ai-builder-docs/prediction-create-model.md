@@ -24,7 +24,7 @@ Think of the prediction you want AI Builder to make. For example, for the questi
 
 - Where is the entity that contains information about customer churn?
 - Is there a field there that specifically states whether the customer has churned?
-- Are there unknowns in the field where you do not yet know whether come customers have churned? 
+- Are there unknowns in a field that might cause uncertainty? 
 
 Use this information to make your selections. If you are working with provided sample data, the question is "did this user who interacted with my online store make a purchase?". If they did, then there should be revenue for that customer. Therefore, whether there is revenue for this customer should be my historical outcome. Wherever this information is empty is where AI Builder can help you make a prediction.
 
