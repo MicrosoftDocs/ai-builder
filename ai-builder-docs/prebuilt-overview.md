@@ -22,5 +22,5 @@ The prebuilt models are available in Microsoft Flow and/or PowerApps, depending 
 |Business card reader   |    Microsoft Flow and PowerApps     |
 |Key phrase extraction  |     Microsoft Flow    |
 |Language detection  |     Microsoft Flow    |
-|Text recognition      |     Microsoft Flow    |
+|Text recognition      |     Microsoft Flow and PowerApps    |
 |Sentiment analysis     |     Microsoft Flow    |
