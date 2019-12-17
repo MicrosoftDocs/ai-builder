@@ -21,7 +21,7 @@ For more information, see the [Power Platform administrator guide](https://docs.
 
 Your AI model is deployed in the region that hosts the environment. For example, if your environment is created in the Europe region, then your model is deployed in Europe datacenters. For an overview of environments, see [Environments overview](https://docs.microsoft.com/power-platform/admin/environments-overview).
 
-Currently, AI Builder is available in the United States and Europe only. AI Builder features won't be available in environments created outside the United States or Europe.
+The availability (release status) of AI Builder is dependent on your region. For a breakdown of AI Builder feature availability by region, see [Feature availability by region](availability-region.md). 
 
 ## Enable or disable AI Builder preview features
 
