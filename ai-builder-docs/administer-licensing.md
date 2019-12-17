@@ -51,7 +51,7 @@ For more information about trial licenses:
 
 ### After the trial expires:
 
-- Trial environments expire after 30 days.
+- Trial environments expire after 30 days, but can be extended.
 - Once you purchase an AI Builder license, the usage will be limited to environments where the administrator allocates AI capacity.
 
 > [!NOTE]  
