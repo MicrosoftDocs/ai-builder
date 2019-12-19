@@ -1,21 +1,24 @@
 ---
-title: Use object detection model in Microsoft Flow -  AI Builder | Microsoft Docs
-description: Provides information about how to use an object detection model in Microsoft Flow
+title: Use object detection model in Power Automate -  AI Builder | Microsoft Docs
+description: Provides information about how to use an object detection model in Power Automate
 author: Dean-Haas
 manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/06/2019
+ms.date: 12/12/2019
 ms.author: v-dehaas
 ms.reviewer: v-dehaas
 ---
 
-# Use object detection model in Microsoft Flow
+# Use object detection model in Power Automate
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-1. Sign in to [Microsoft Flow](https://flow.microsoft.com/), select the **My flows** tab, and then select **Create from blank**.
+> [!IMPORTANT]
+ > To use AI Builder models in Power Automate, you have to create the flow inside a solution. The steps below won't work if you don't follow these instructions first: [Create a flow in a solution](/flow/create-flow-solution).
+
+1. Sign in to [Power Automate](https://flow.microsoft.com/), select the **My flows** tab, and then select **Create from blank**.
 2. Search for *manually*, select **Manually trigger a flow** in the list of triggers, and then select **+ Add an input**.
 3. Select **File**, and set **My Image** as input title.
 4. Select **+ New step**, search for *Predict*, and then select **Predict - Common Data Service (Current Environment)** in the list of actions.
@@ -123,7 +126,7 @@ The following example shows the creation of a flow that counts the number of gre
 > [!div class="mx-imgBorder"]
 > ![Green tea object detection flow example](media/green-tea-example.png "Example of an object detection flow")
 
-To learn more about all the triggers and actions you can use, go to the [Microsoft Flow documentation](/flow/getting-started).
+To learn more about all the triggers and actions you can use, see [Power Automate documentation](/flow/getting-started).
 
 ### Related topic
 

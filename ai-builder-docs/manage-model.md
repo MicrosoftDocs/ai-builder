@@ -70,7 +70,7 @@ For more information about the nuances of improving your model performance, see 
 
 Whereas training creates a new version by updating your configuration, retraining creates a new version using the same configuration as your current version. The benefit of retraining is that it will study any new data so that your model stays accurate over time. This action is only applicable to certain AI model types.
 
-1. Sign in to [PowerApps](https://web.powerapps.com/) and then, in the navigation pane, select **AI Builder** > **Models**.
+1. Sign in to [Power Apps](https://make.powerapps.com/) and then, in the navigation pane, select **AI Builder** > **Models**.
 1. Follow the steps for your model type:
     - Prediction and text classification models:
 

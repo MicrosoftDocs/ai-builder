@@ -1,6 +1,6 @@
 ---
-title: Overview of prebuilt AI models -  AI Builder | Microsoft Docs
-description: Describes the prebuilt AI models that are available in AI Builder.
+title: Language detection prebuilt AI model -  AI Builder | Microsoft Docs
+description: Describes the language detection prebuilt AI models that are available in AI Builder.
 author: alanabrito
 manager: kvivek
 ms.service: powerapps
@@ -11,11 +11,14 @@ ms.author: alanab
 ms.reviewer: v-dehaas
 ---
 
-# Text recognition model
+# Preview: Text recognition model
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
 The prebuild text recognition model can be used to extract recognized words from documents and images into machine-readable character streams. It uses state-of-the-art optical character recognition (OCR) to detect embedded printed and handwritten text.
 
 This prebuilt processes images and document files to extract lines of printed or handwritten text.
+
 
 ## Use in PowerApps
 
@@ -25,7 +28,7 @@ The text recognition prebuilt model is available in Power Apps by using the text
 
 For information about how to use text recognition prebuilt model in Power Automate, see [Use text recognition model in Power Automate](flow-text-recognition.md).  
 
-## Supported language, format and size 
+## Supported language, format and size
 
 The documents you can scan with the Text recognition model need these characteristics:
 
@@ -37,11 +40,11 @@ The documents you can scan with the Text recognition model need these characteri
     - PDF
     - TIFF
 - **Size**: 20 MB maximum
- 
+
 ## Model output
 
 If a document is detected, the text recognition model will output the following information:
 
 - **Results**: A list of lines extracted from the input text.
 - **Text**: Strings containing the line of text detected.
-- **BoundingBox**: Four values representing the bounding box, described using the top and left positions along with its width and height. 
+- **BoundingBox**: Four values representing the bounding box, described using the top and left positions along with its width and height.

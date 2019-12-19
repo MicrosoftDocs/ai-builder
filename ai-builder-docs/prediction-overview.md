@@ -22,6 +22,7 @@ Use the prediction AI model to explore any business question that is answered as
 - Which leads might purchase a product or service?
 - Which accounts might not pay their invoices on time?
 
-### Next step
+### Related content
 
-[Prerequisites for prediction](prediction-prereq.md)
+- [Feature availability by region](availability-region.md)
+- [Prerequisites for prediction](prediction-prereq.md)

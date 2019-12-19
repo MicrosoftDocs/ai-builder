@@ -22,7 +22,7 @@ In this section, you’ll learn how to verify your data and then how to train, t
 
 ## Quick-test your model
 
-Once your model is trained, you can see it in action from its details page, which you can learn more about [here](manage-model.md).
+Once your model is trained, you can see it in action from its details page. For more information, see [Manage a model in AI Builder](manage-model.md).
 
 1. From your model details page, select **Quick Test** in the **Last trained version** section.
 2. Drag and drop or upload an image that contains your objects to test your model.
@@ -42,7 +42,7 @@ Model performance scores are more reliable when the number of images per label i
 
 ## Publish your object detection model
 
-From there, you can run more tests with other pictures. If you are happy with the results, you can [publish](publish-model.md) your model to use it in PowerApps or Microsoft Flow.
+From there, you can run more tests with other pictures. If you are happy with the results, you can [publish](publish-model.md) your model to use it in Power Apps or Power Automate.
 
 ### Related topic
 
