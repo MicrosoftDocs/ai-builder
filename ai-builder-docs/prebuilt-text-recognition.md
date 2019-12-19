@@ -19,7 +19,6 @@ The prebuild text recognition model can be used to extract recognized words from
 
 This prebuilt processes images and document files to extract lines of printed or handwritten text.
 
-
 ## Use in PowerApps
 
 The text recognition prebuilt model is available in Power Apps by using the text recognizer component. For more information, see [Text recognizer component in Power Apps](prebuilt-text-recognizer-component-in-powerapps.md).
