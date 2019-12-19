@@ -19,7 +19,6 @@ The prebuilt models are available in Power Automate and/or Power Apps, depending
 
 |Model |Availability  |
 |---------|---------|
-
 |Business card reader   |   Power Automate and Power Apps     |
 |Key phrase extraction  |    Power Automate    |
 |Language detection  |    Power Automate    |
