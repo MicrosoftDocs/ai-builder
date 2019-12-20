@@ -1,6 +1,6 @@
 ---
-title: Use text recognizer component in PowerApps -  AI Builder | Microsoft Docs
-description: Provides information about how to use the text recognizer component in PowerApps
+title: Use text recognizer component in Power Apps -  AI Builder | Microsoft Docs
+description: Provides information about how to use the text recognizer component in Power Apps
 author: alanabrito
 manager: kvivek
 ms.service: powerapps
@@ -11,7 +11,7 @@ ms.author: alanabrito
 ms.reviewer: v-dehaas
 ---
 
-# Use the text recognizer component in PowerApps
+# Use the text recognizer component in Power Apps
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -25,7 +25,7 @@ Create a canvas app and add the text recognizer AI Builder component to your scr
 ## Key properties
 
  - **OriginalImage**: The original image before processing.
- - **OcrObjects**: The lsit of detected text lines. For each object, these properties are available of extracted form fields and tables. At component initialization (AI model binding step), the potential fields and tables that can be extracted by the models are populated:
+ - **OcrObjects**: The list of detected text lines. For each object, these properties are available of extracted form fields and tables. At component initialization (AI model binding step), the potential fields and tables that can be extracted by the models are populated:
      - **text**: The detected text line.
 
 ## Additional properties
@@ -39,16 +39,16 @@ Create a canvas app and add the text recognizer AI Builder component to your scr
  - **Height**: The height of the component.
  - **Visible**: Whether the component appears or is hidden.
  - **Width**: The width of the component.
- - **X**: The distance between the left edge of the component and the left edge of its parent container (screen if no parent container).
- - **Y**: The distance between the top edge of the component and the top edge of the parent container (screen if no parent container).
+ - **X**: The distance between the left edge of the component and the left edge of its parent container or screen.
+ - **Y**: The distance between the top edge of the component and the top edge of the parent container or screen.
 
 Additional design properties are available in the Advanced panel.
 
 ## Accessibility guidelines
-These [guidelines](/powerapps/maker/canvas-apps/controls/control-button) for the PowerApps button control also apply to the form processor component.
+These [guidelines](/powerapps/maker/canvas-apps/controls/control-button) for the Power Apps button control also apply to the text recognizer component.
 
 ### Related topics
 
-[Text recognition overview](text-recognition-overview.md)
+[Text recognition overview](prebuilt-text-recognition.md)
 
-[Core properties in PowerApps](/powerapps/maker/canvas-apps/controls/properties-core)
+[Core properties in Power Apps](/powerapps/maker/canvas-apps/controls/properties-core)
