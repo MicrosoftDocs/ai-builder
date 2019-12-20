@@ -45,7 +45,7 @@ Create a canvas app and add the text recognizer AI Builder component to your scr
 Additional design properties are available in the Advanced panel.
 
 ## Accessibility guidelines
-These [guidelines](/powerapps/maker/canvas-apps/controls/control-button) for the Power Apps button control also apply to the form processor component.
+These [guidelines](/powerapps/maker/canvas-apps/controls/control-button) for the Power Apps button control also apply to the text recognizer component.
 
 ### Related topics
 
