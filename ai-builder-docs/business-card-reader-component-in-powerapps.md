@@ -16,7 +16,6 @@ ms.reviewer: v-dehaas
 The business card reader component takes a photo or loads an image from the local device, and then scans it to find a business card. If it detects a business card, it extracts the information it finds.
 
 > [!NOTE]
-> - This component isn't supported in Internet Explorer.
 > - For information about canvas apps, see [What are canvas apps in Power Apps?](/powerapps/maker/canvas-apps/getting-started)
 
 ## Licensing requirements
