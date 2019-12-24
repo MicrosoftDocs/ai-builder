@@ -20,7 +20,6 @@ Create a canvas app and add the form processor AI Builder component to your scre
  > [!NOTE]
  >
  > - Display of PDF files is not included in the initial preview.
- > - This component is not supported in Internet Explorer.
  > - For more information about canvas apps, see [What are canvas apps in PowerApps?](/powerapps/maker/canvas-apps/getting-started).
 
 ## Prerequisites
