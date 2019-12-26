@@ -13,7 +13,7 @@ ms.reviewer: v-dehaas
 
 # Use the business card reader component in a canvas app
 
-Use the AI Builder business card reader component to detect business cards, and extract the information from the card. You can take photos directly in the component, or load images that you've taken. Data is identified and extracted using the properties listed below.
+Use the AI Builder business card reader component to detect business cards, and extract their information. You can take photos directly in the component, or load images that you've taken. Data is identified and extracted using the properties listed below.
 
 > [!NOTE]
 > - This component isn't supported in Internet Explorer.
@@ -33,9 +33,9 @@ If a business card is detected, the business card reader will extract informatio
 
 |Property |Definition  |
 |---------|---------|
-| **AddressCity**| City address|
-| **AddressCountry**| Country address|
-| **AddressPostalCode**| Postal code address|
+| **AddressCity**| City |
+| **AddressCountry**| Country |
+| **AddressPostalCode**| Postal code |
 | **AddressStreet**| Street address|
 | **BusinessPhone**| The first phone or fax number|
 | **CleanedImage**| The image after processing where the business card appears cropped and enhanced from the original image|
