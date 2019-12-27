@@ -15,9 +15,7 @@ ms.reviewer: v-dehaas
 
 Use the AI Builder business card reader component to detect business cards, and extract their information. You can take photos directly in the component, or load images that you've taken. Data is identified and extracted using the properties listed below.
 
-> [!NOTE]
-> - This component isn't supported in Internet Explorer.
-> - For information about canvas apps, see [What are canvas apps in Power Apps?](/powerapps/maker/canvas-apps/getting-started)
+For information about canvas apps, see [What are canvas apps in Power Apps?](/powerapps/maker/canvas-apps/getting-started)
 
 ## Licensing requirements
 
