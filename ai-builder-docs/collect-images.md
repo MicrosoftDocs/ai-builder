@@ -24,13 +24,14 @@ To train an object detection model to recognize your objects, you have to gather
 The images you’ll feed your object detection model need these characteristics:
 
 - **Format**:
-  - JPG
-  -.png
-  - BMP
+
+    - JPG
+    - PNG
+    - BMP
   
 - **Size**:
 
-  6 MB maximum
+    - 6 MB maximum
 
 ## Data quantity and data balance
 
@@ -72,7 +73,7 @@ Try to provide images taken from different angles. If all your photos are from a
 
 ### Unexpected results
 
-AI models can incorrectly learn characteristics that your images have in common. Let's say you want to create an AI model for apples versus citrus. If you use images of apples in hands and of citrus on white plates, the AI model might train for hands versus white plates instead of apples versus citrus.
+AI models can incorrectly learn characteristics that your images have in common. Let's say you want to create an AI model to distinguish apples from citrus. If you use images of apples in hands and of citrus on white plates, the AI model might train for hands versus white plates instead of apples versus citrus.
 
 > [!div class="mx-imgBorder"]
 > ![Unexpected results](media/image-unexpected-results.png "Unexpected results")
