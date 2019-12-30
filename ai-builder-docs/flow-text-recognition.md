@@ -6,7 +6,7 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/12/2019
+ms.date: 12/30/2019
 ms.author: alanab
 ms.reviewer: v-dehaas
 ---
@@ -22,8 +22,8 @@ ms.reviewer: v-dehaas
 1. [Sign in](https://flow.microsoft.com/signin) to Power Automate, select the **My flows** tab, and then select **Create from blank**.
 1. Search for the term *manually*, select **Manually trigger a flow** in the list of triggers, and then select **+ Add an input**.
 1. Select **File** and set **My Image** as the input title.
-1. Select **+ New step**, search for the term *Predict*, and then select **Predict - Common Data Service (Current Environment)** in the list of actions.
-1. Select **Text recognition model** and specify the following as **Request Payload**:
+1. Select **+ New step**, search for the term *Predict*, and then select **Predict - Common Data Service (Conversational Environment)** in the list of actions.
+1. Select **Text recognition model** and specify this **Request Payload**:
 
     ```json
     { 
@@ -117,4 +117,4 @@ ms.reviewer: v-dehaas
 
       > ![Apply to each screen](media/flow-apply-to-each.png "Apply to each screen")
 
-Congratulations! You have created a flow that leverages the text recognition model. You can continue to build on this to suit your needs. Select **Save** on the top right, and then select **Test** to try out your flow. 
+Congratulations! You've created a flow that uses a text recognition model. You can continue to build on this flow until it suits your needs. Select **Save** on the top right, and then select **Test** to try out your flow. 
