@@ -6,7 +6,7 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/16/2019
+ms.date: 12/31/2019
 ms.author: JoeFernandezMS
 ms.reviewer: v-dehaas
 ---

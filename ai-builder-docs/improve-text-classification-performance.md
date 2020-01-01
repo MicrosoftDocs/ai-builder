@@ -6,7 +6,7 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/06/2019
+ms.date: 12/31/2019
 ms.author: raaourik 
 ms.reviewer: v-dehaas
 ---
@@ -15,11 +15,11 @@ ms.reviewer: v-dehaas
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-If your model performance score is not where you want, here are some tips on how to tweak your model to improve its predictive power.
+If your model performance score isn't where you want, there are a few things you can try. These tips can help you tweak your model to improve its predictive power.
 
 ## Add more correctly labeled training data
 
-Even though the minimum requirement for training data is 50, this doesn't mean 50 data records can train a highly predictive AI model—for example, if your two-option label is *Yes* or *No*, and most of your data record only has a *Yes* in this field. It’s hard for your AI model to learn all the signals from your data. And if your data is not correctly labeled, it will give the model the wrong signal. It is ideal to provide 1,000 or more data records to help your model be more predictive.
+The minimum requirement for training data is 50 records. However, 50 data records probably can't train a highly predictive AI model. For example, let's say your two-option label is *Yes* or *No*. If most of your data only has a *Yes* in this field,  your AI model probably won't learn much from this data. And, if your data isn't correctly labeled, it will give the model the wrong signal. It is ideal to provide 1,000 or more data records to help your model be more predictive.
 
 ## Clean up your data
 
@@ -38,7 +38,7 @@ Cleaning your data can avoid some types of training errors and improve model per
   - Inconsistent or incorrect labels.
 - Remove abnormal records.
 - Handle missing data.
-  - For categorical, simply label them as missing.
+  - For categorical, label them as missing.
   - For numeric, flag and fill.
 
 ## More tips
