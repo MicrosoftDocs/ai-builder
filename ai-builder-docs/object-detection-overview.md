@@ -15,9 +15,9 @@ ms.reviewer: v-dehaas
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-Object detection can be used to expedite or automate business processes in multiple industries. In the retail industry, it can be used to expedite the inventory management, allowing retail leaders to focus on on-site customer relationship building. In the manufacturing industry, technicians can use it to speed up the repair process to quickly pull out the manual of a piece of machinery for which the UPC/serial number isn’t standing out.  
+Object detection can help expedite or automate business processes. In retail, it could help streamline inventory management, allowing retail leaders to focus on on-site customer relationships. In manufacturing, technicians could use it to speed the repair process to quickly access the manual for a piece of machinery for which the UPC/serial number isn’t obvious.  
 
-AI Builder object detection will allow companies of any size to add these capabilities for their own custom objects to their apps.
+AI Builder object detection allows organizations of any size to add these capabilities for their own custom objects to their apps.
 
 ### Next step
 
