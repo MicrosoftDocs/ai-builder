@@ -15,7 +15,7 @@ ms.reviewer: v-dehaas
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-The prebuild text recognition model can be used to extract recognized words from documents and images into machine-readable character streams. It uses state-of-the-art optical character recognition (OCR) to detect embedded printed and handwritten text.
+Prebuilt text recognition models extract words from documents and images into machine-readable character streams. It uses state-of-the-art optical character recognition (OCR) to detect printed and handwritten text in images.
 
 This prebuilt processes images and document files to extract lines of printed or handwritten text.
 
@@ -23,7 +23,7 @@ This prebuilt processes images and document files to extract lines of printed or
 
 If you want to use this prebuilt model in Power Automate, you can find more information in [Use text recognition model in Power Automate](flow-text-recognition.md).  
 
-## Supported language, format and size
+## Supported language, format, and size
 
 The documents you can scan with the Text recognition model need these characteristics:
 
