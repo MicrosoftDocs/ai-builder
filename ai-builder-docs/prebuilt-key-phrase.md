@@ -23,7 +23,7 @@ If you want to use this prebuilt model in Power Automate, you can find more info
  
 ## Supported language and data format
 
-- Documents cannot exceed 5,120 characters.  
+- Documents can't exceed 5,120 characters.  
 - For information on language support, see [Language and region support for the text analytics API](/azure/cognitive-services/text-analytics/language-support?#sentiment-analysis-key-phrase-extraction-and-named-entity-recognition).
 
 ## Model output
