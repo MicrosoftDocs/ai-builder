@@ -6,7 +6,7 @@ manager: cdbellar
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 08/26/2019
+ms.date: 01/03/2020
 ms.author: antode
 ms.reviewer: cdbellar
 ---
