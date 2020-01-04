@@ -6,14 +6,14 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/05/2019
+ms.date: 01/03/2020
 ms.author: aminab
 ms.reviewer: v-dehaas
 ---
 
 # Use sample data to do prediction
 
-To explore the possibilities of prediction in AI Builder, you can get started by building and training an prediction model using sample data provided by Microsoft.
+To explore the possibilities of prediction in AI Builder, you can get started by building and training a prediction model using sample data provided by Microsoft.
 
 ## Get the sample data
 

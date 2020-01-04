@@ -6,14 +6,14 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/06/2019
+ms.date: 01/03/2020
 ms.author: sdarapu; mfotedar
 ms.reviewer: v-dehaas
 ---
 
 # Train and publish your prediction model
 
-Before you can use your prediction model, you have to train it to perform the way you want. After you train your model, publish it to make it available to other people.
+Before you can use your prediction model, you have to train it to perform the way you want. After you train your model, publish it to make it available.
 
 ## Train
 
@@ -24,7 +24,7 @@ After you've selected your data fields, select **Next** to view a summary of  tr
 
 ## Publish
 
-After the model is trained, you’ll be able to [evaluate](manage-model.md#evaluate-your-model) your model performance results. Then, [publish](publish-model.md) your model to start running predictions. After that, predictions run daily.
+After the model is trained, you can [evaluate](manage-model.md#evaluate-your-model) your model performance results. Then, [publish](publish-model.md) your model to start running predictions. After that, predictions run daily.
 
 ## Prediction run
 
