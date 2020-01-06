@@ -6,7 +6,7 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/06/2019
+ms.date: 12/27/2019
 ms.author: aminab
 ms.reviewer: v-dehaas
 ---
@@ -17,41 +17,42 @@ ms.reviewer: v-dehaas
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-In order to train an object detection model to recognize your items, you will need to gather images containing these items. Adhere to guidelines on the image quantity and quality to get an AI model that performs well.
+To train an object detection model to recognize your objects, you have to gather images that contain these objects. Adhere to guidelines on the image quantity and quality for better results.
 
 ## Format and size
 
 The images you’ll feed your object detection model need these characteristics:
 
 - **Format**:
-  - JPG
-  -.png
-  - BMP
+
+    - JPG
+    - PNG
+    - BMP
   
 - **Size**:
 
-  6 MB maximum
+    - 6 MB maximum
 
 ## Data quantity and data balance
 
-The most important thing is to upload enough images to train your AI model. We recommend at least 50 images per product for the training set as a starting point. With fewer images, there's a strong risk that your model will learn concepts that are in fact noise or irrelevant details. Training your model with more images will generally increase the accuracy of prediction results.
+It's important to upload enough images to train your AI model. At least 50 images per object for the training set are a starting point. With fewer images, there's a strong risk that your model will learn concepts that are just noise, or not irrelevant. Training your model with more images should increase the accuracy.
 
-Another consideration is to make sure your data is balanced. For instance, having 500 images for one item and 50 images for another will produce an imbalanced training dataset, causing the model to be more accurate in predicting one item than another. You're likely to see better results if you maintain at least a 1:2 ratio between the item with the fewest images and the item with the most images. For example, if the item with the greatest number of images has 500 images, the item with the fewest images needs to have at least 250 images for training.
+Another consideration is to make sure your data is balanced. If you have 500 images for one object and only 50 images for another, your training dataset isn't balanced. This can cause the model to be better at recognizing one of the objects. For more consistent results, maintain at least a 1:2 ratio between the object with the fewest images vs. the one with the most. For example, if the object with the greatest number of images has 500 images, the object with the fewest images should have at least 250 images for training.
 
 ## Use more diverse images
 
-Provide images that are representative of what will be submitted to the model during normal use. For example, if you're training a model that recognizes apples, your model might not be as accurate if you only train images of apples on plates but make predictions on images of apples in trees. Including a variety of images will make sure that your model isn't biased and can generalize well. Below are some ways you can make your training set more diverse.
+Provide images that are representative of what will be submitted to the model during normal use. For example, let's say you're training a model to recognize apples. If you only train images of apples on plates, it might not consistently recognize apples in trees. Including different kinds of images will make sure that your model isn't biased and can generalize well. Below are some ways you can make your training set more diverse.
 
 ### Background
 
-Provide images of your object in front of different backgrounds (that is, fruit on plate versus fruit in grocery bag). Photos in context are better than photos in front of neutral backgrounds because they provide more information for the classifier.
+Use images of your objects in front of different backgrounds. For example, fruit on plates, in hands, and on trees. Photos in context are better than photos in front of neutral backgrounds because they provide more information for the classifier.
 
 > [!div class="mx-imgBorder"]
 > ![Image backgrounds](media/image-background.png "Image backgrounds")
 
 ### Lighting
 
-Provide images with varied lighting (that is, taken with flash, high exposure, and so on), especially if the images used for prediction have different lighting. It is also helpful to include images with varied saturation, hue, and brightness. These are all settings that your device camera allows you to set.
+Use training images that have different lighting, especially if the images used for detection might have different lighting. For example, do your images include images taken with flash, high exposure, and so on. It's also helpful to include images with varied saturation, hue, and brightness. Your device camera probably lets you control these settings.
 
 > [!div class="mx-imgBorder"]
 > ![Image lighting](media/image-lighting.png "Image lighting")
@@ -65,14 +66,14 @@ Provide images in which the objects are of varied sizes, capturing different par
 
 ### Camera angle
 
-Provide images taken with different camera angles. If all your photos are taken with a set of fixed cameras (such as surveillance cameras), make sure you assign a different label to every camera even if they capture the same objects to avoid overfitting—modeling unrelated objects (such as lampposts) as the key feature.
+Try to provide images taken from different angles. If all your photos are from a set of fixed cameras such as surveillance cameras, assign a different label to each camera. This can help avoid modeling unrelated objects such as lampposts as the key feature. Assign camera labels even if the cameras capture the same objects
 
 > [!div class="mx-imgBorder"]
 > ![Camera angles](media/image-camera-angle.png "Camera angles")
 
 ### Unexpected results
 
-Sometimes the AI model incorrectly learns characteristics that your images have in common. For example, if you are creating an AI for apples versus citrus, and use images of apples in hands and of citrus on white plates, the AI model might train for hands versus white plates instead of apples versus citrus.
+AI models can incorrectly learn characteristics that your images have in common. Let's say you want to create an AI model to distinguish apples from citrus. If you use images of apples in hands and of citrus on white plates, the AI model might train for hands versus white plates instead of apples versus citrus.
 
 > [!div class="mx-imgBorder"]
 > ![Unexpected results](media/image-unexpected-results.png "Unexpected results")

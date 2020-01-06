@@ -6,7 +6,7 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/06/2019
+ms.date: 01/03/2020
 ms.author: norliu
 ms.reviewer: v-dehaas
 ---
@@ -23,17 +23,17 @@ For more information, see [Evaluate your model](manage-model.md#evaluate-your-mo
 
 ## How is accuracy related to performance?
 
-A higher accuracy score generally means better model performance, but keep in mind that an extremely high score could indicate issues with the relevance or bias of your training data. You have to determine the appropriate level of accuracy for your intended use of the AI model.
+Typically, a higher accuracy score means better model performance. However, keep in mind that an extremely high score could indicate issues with the relevance or bias of your training data. You must determine the appropriate level of accuracy for your intended use of the AI model.
 
 Here are some broad guidelines for assessing accuracy scores:
 
 |Score |Guidance  |
 |---------|---------|
-|<50%|Scores consistently below 50% mean that something is wrong with your model - it is wrong more often than a simple guess would be. Perhaps your data fields are not mapped correctly, or you are using the wrong data. |
+|<50%|Scores consistently below 50% mean that something's wrong with your model - it's wrong more often than a simple guess would be. Perhaps your data fields aren't mapped correctly, or you're using the wrong data. |
 |>50% |Scores consistently greater than 50% mean that your model performs better than a guess. The higher the score, the more accurate the model is.|
 |~100%|Scores consistently close to 100% could indicate bias in the training data, or that a field that is correlating directly to the answer. |
 
-If your scores are consistently between 50% – 100%, you have to assess whether the performance is appropriate for your intended use of the AI model. You'll have a different tolerance for inaccuracy depending on your AI model implementation. Whether your model is intended for marketing, predicting online shopper intention, or detecting fraud, you should decide the level of accuracy that makes the AI model practical to use based on the intended use.
+If your scores are consistently between 50% – 100%, you have to assess whether the performance is appropriate for your intended use of the AI model. You'll have a different tolerance for inaccuracy depending on your AI model implementation. Whether your model is intended for marketing, predicting online shopper intention, or detecting fraud, you must decide the level of accuracy that makes it practical for the intended use.
 
 ## Improve prediction model performance
 
@@ -61,11 +61,15 @@ For example, if you are using two option label of *Yes* or *No*, and most of you
 
 ### Add more fields
 
-For example, if you want to predict which customer is more likely to return and buy your products. You can add more fields like how they rate the product, how much they use the product, are they returning users for other product under this brand, and so forth to make the training data richer.
+For example, if you want to predict which customers are more likely to return and buy your products. You can add more fields to make the training data richer.  For example:
+
+- How do they rate the product?
+- How much do they use the product?
+- Are they an existing customer?
 
 ### Narrow selected fields to relevant information
 
-You may already have a lot of correctly labeled training data, with lot of data fields. Then why might the model still not performing well? It could be that you're selecting fields that lead to unwanted bias. Make sure all the fields you select are relevant to influence what you want to predict. Deselect irrelevant or misleading fields.
+You may already have a lot of correctly labeled training data, with many data fields. Then why might the model still not performing well? It could be that you're selecting fields that lead to unwanted bias. Make sure all the fields you select are relevant to influence what you want to predict. Deselect irrelevant or misleading fields.
 
 ### Validate data
 

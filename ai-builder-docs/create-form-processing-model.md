@@ -6,7 +6,7 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/06/2019
+ms.date: 12/27/2019
 ms.author: jofernan
 ms.reviewer: v-dehaas
 ---
@@ -15,7 +15,7 @@ ms.reviewer: v-dehaas
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-When  you create your form processing model, you’ll need to do the following:
+When you create your form processing model, you’ll need to do these things:
 
 1. Run analysis on your sample form documents.
 2. Select the form fields that you want the model to remember.
@@ -24,7 +24,7 @@ When  you create your form processing model, you’ll need to do the following:
 
 ## Upload and analyze documents
 
-You need to provide sample documents to train your model for the type of form from which you want to extract information. After you upload your documents, AI Builder analyzes them so you can tell whether you can train a model from them.
+You need some sample documents to train your model for the type of forms you'll be working with. AI Builder analyzes the samples you upload to see if you can use them for training.
 
 ### Upload your documents
 
@@ -43,7 +43,7 @@ When enough documents have been uploaded, select **Analyze** to launch the analy
 
 ## Review documents and extracted data
 
-If the analysis was successful, it means AI Builder detected structured text in your form documents. If the analysis failed, it is likely because AI Builder couldn't detect structured text in your documents. In that case, check that the documents you updated follow the [requirements and optimization tips section](https://docs.microsoft.com/ai-builder/form-processing-model-requirements).
+If the analysis succeeds, it means AI Builder detected structured text in your form documents. A failed analysis can mean AI Builder didn't detect structured text in your documents. In that case, check that the documents you updated follow the [requirements and optimization tips section](https://docs.microsoft.com/ai-builder/form-processing-model-requirements).
 
 ## Select your form fields
 

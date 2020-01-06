@@ -32,7 +32,7 @@ Download [AIBuilder_Lab.zip](https://go.microsoft.com/fwlink/?linkid=2103171) fi
 3. On the top menu, select **Get data**.
 4. In the list of data sources, select **Excel**.
 5. Select **Browse** to upload your Excel file, and then select the sheet or sheets that your data is in.
-    - You might have to allow third-party cookies for your browser to perform this step.
+    - You might have to allow third-party cookies for your browser to complete this step.
 6. On the **Edit Queries** screen, select **Transform table > Use first row as headers**.
 7. Select **Next > Load to new entity**.
 8. Use the drop-down menu to select your target entity, and then map your columns to the destination field.

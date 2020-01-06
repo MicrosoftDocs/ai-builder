@@ -6,7 +6,7 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/12/2019
+ms.date: 01/03/2020
 ms.author: v-dehaas
 ms.reviewer: v-dehaas
 ---
@@ -22,7 +22,7 @@ ms.reviewer: v-dehaas
 1. Select the organization name, and then select the entity that contains your prediction model output.
 1. Add new steps to react to updated predictions.
 
-Congratulations—you have created a flow that leverages a prediction AI Builder model. Select **Save** on the top right, and then select **Test** to try out your flow.
+Congratulations! You've created a flow that uses a prediction AI Builder model. Select **Save** on the top right, and then select **Test** to try out your flow.
 
 To learn more about the triggers and actions, see [Get started with Power Automate](/flow/getting-started).
 

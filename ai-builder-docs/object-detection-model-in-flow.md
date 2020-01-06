@@ -26,7 +26,7 @@ ms.reviewer: v-dehaas
     > [!div class="mx-imgBorder"]
     > ![Predict common data service](media/predict-CDS.png "Predict common data service screen")
 
-5. Select the object detection model you want to use, and specify the following as **Request Payload**:
+5. Select the object detection model you want to use, and specify this as **Request Payload**:
 
     ```json
     {
@@ -113,15 +113,15 @@ ms.reviewer: v-dehaas
 
 10. On the **Get a record** screen, select **AI Object Detection Labels** in the **Entity Name** box, and in **Item identifier** enter **tagId**.
 
-    When you add **tagId** as Item identifier an *apply to each* loop is automatically added. This loops all the object tags that are detected on the image that is provided by the flow trigger.
+    When you add **tagId** as Item identifier, an *apply to each* loop is automatically added. This loops all the object tags that are detected on the image that is provided by the flow trigger.
 
     You can continue to build your flow to meet your business needs.
 
-Congratulations! You have created a flow that leverages an objectdDetection AI Builder model. Select **Save** on the top right, and then select **Test** to try out your flow.
+Congratulations! You have created a flow that uses an object detection AI Builder model. Select **Save** on the top right, and then select **Test** to try out your flow.
 
 ## Example object detection flow
 
-The following example shows the creation of a flow that counts the number of green tea bottles in a image that is triggering the flow. If the number of green tea bottles is below 2, an email is sent to a stock fulfillment manager.
+The following example shows the creation of a flow that is triggered by an image. This flow counts the number of green tea bottles in the image. If the number of green tea bottles is below 2, an email is sent to a stock fulfillment manager.
 
 > [!div class="mx-imgBorder"]
 > ![Green tea object detection flow example](media/green-tea-example.png "Example of an object detection flow")

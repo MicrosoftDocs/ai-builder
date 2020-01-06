@@ -6,7 +6,7 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/06/2019
+ms.date: 12/31/2019
 ms.author: jofernan
 ms.reviewer: v-dehaas
 ---
@@ -15,11 +15,11 @@ ms.reviewer: v-dehaas
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-Form processing allows you to create and use models that use machine learning technology to identify and extract key-value pairs and table data from form documents.
+AI Builder form processing allows you to create AI models that use machine learning technology to identify and extract key-value pairs and table data from form documents.
 
-[Train](train-model.md) your model and define what information needs to be retrieved from your form documents. You only need five form documents to get started. You can get results quickly, accurately, and tailored to your specific content without the need for a lot of manual intervention or extensive data science expertise.
+[Train](train-model.md) your model and define the information to be extracted from your forms. You only need five form documents to get started. Quickly get accurate results tailored to your specific content. With AI Builder, you don't need a lot of manual intervention, or data science expertise.
 
-After your model is trained and [published](publish-model.md), you can use it in the AI Builder [form processor control](form-processor-component-in-powerapps.md) available in Power Apps canvas or through [Power Automate](form-processing-model-in-flow.md).
+After you train and [publish](publish-model.md) your model, you can use it in the AI Builder [form processor control](form-processor-component-in-powerapps.md) in Power Apps canvas, or in [Power Automate](form-processing-model-in-flow.md).
 
 ### Next step
 

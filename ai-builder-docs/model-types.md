@@ -13,20 +13,20 @@ ms.reviewer: v-dehaas
 
 # AI model types
 
-In AI Builder, AI is based on model types that you choose from, based your business needs. For example, build an object detection model that recognizes your products in an image, or a prediction model that predicts business outcomes based on patterns the AI learns from your historical data.  Train and publish the model, and it's ready for use in your business.
+In AI Builder, AI is based on model types that you choose from, based your business needs. For example, build an object detection model that recognizes your products in an image, or a prediction model that predicts business outcomes based on patterns that the AI learns from your historical data.  Train and publish the model, and it's ready for use in your business.
 
-To build a model using AI Builder, sign in to [Power Apps](https://make.powerapps.com) and, in the the left navigation pane, select **AI Builder > Build**. Select the model type that matches what you want to do, and you are ready to get started.
+To build a model using AI Builder, sign in to [Power Apps](https://make.powerapps.com) and, in the left navigation pane, select **AI Builder > Build**. Select the model type that matches what you want to do, and you're ready to get started.
 
 > [!div class="mx-imgBorder"]
 > ![AI Builder home page](media/ai-builder-home.png "AI Builder home page")
 
 ## List of AI model types
 
-AI model types give you the ability to tailor a scenario to the needs of your business. With AI Builder, you can build and train your own AI model suited to your needs, or you choose from several prebuilt models that you use in Power Apps and Power Automate without having to build and train the model. 
+AI model types give you the ability to tailor a scenario to the needs of your business. With AI Builder, you can build and train your own AI model suited to your needs.  You can also choose from several prebuilt models that you use in Power Apps and Power Automate without having to build and train the model.
 
 ### Custom AI models
 
-Custom AI models are models that you build choosing a model type in AI Builder, and that you train to perform a specific AI task using your data. You select the model type, provide the data, build and train your own unique AI model, and then use or share the model. Build your own custom AI model using these AI model types:
+Custom AI models are models that you build by choosing a model type in AI Builder, and then train to do a specific AI task using your data. You select the model type, provide the data, build and train your own unique AI model, and then use or share the model. Build your own custom AI model using these AI model types:
 
 | AI model type  | Category  | Start here
 |---|---|---|
@@ -37,7 +37,7 @@ Custom AI models are models that you build choosing a model type in AI Builder, 
 
 ### Prebuilt AI models
 
-AI Builder features prebuilt AI models that you can use in Power Apps and Power Automate. With a prebuilt model, you get an AI model that Microsoft has built and trained to perform a specific task. You don't need to build or train the model yourself to use it. The following prebuilt AI models are available:
+AI Builder features prebuilt AI models that you can use in Power Apps and Power Automate. With a prebuilt model, you get an AI model that Microsoft has built and trained to do a specific task. You don't need to build or train the model yourself to use it. The following prebuilt AI models are available:
 
 | AI model type | Category |Start here |
 |--------|--------|--------|

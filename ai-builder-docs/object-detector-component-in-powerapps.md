@@ -15,7 +15,7 @@ ms.reviewer: v-dehaas
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-Use the object detection component to take a photo or choose an image file to perform an object detection scan. On a mobile device, the user is presented with the device's interface to choose between taking a photo or selecting one already available. When an image is selected, the component automatically performs a scan to identify objects in the image.
+The object detection component takes a photo or loads an image file to do an object detection scan. On a mobile device, the user chooses between taking a photo or selecting one already available in the device user interface. When an image is selected, the component automatically scans it to identify objects.
 
  > [!NOTE]
  >
@@ -23,7 +23,7 @@ Use the object detection component to take a photo or choose an image file to pe
 
 ## Prerequisites
 
-You need a trained and published AI Builder object detection model to get started. Then you need to bind that model to the component using the AI model property in the **Properties** panel. When you add it to the screen, the component will automatically open the AI models pane so you can select a model from those that are published in that environment.
+To start, you need a trained and published AI Builder object detection model. You bind that model to the component using **AI Model** in the **Properties** panel. When you add it to the screen, the component automatically opens the AI models pane. There you select a model from the models published in that environment.
 
 The component is initialized once an AI model is bound to it.
 
@@ -40,7 +40,7 @@ The component is initialized once an AI model is bound to it.
 
 ### Additional properties
  - **Text**: Text that appears on the button that activates the object detector.
- - **ImageDisplayed** (“Show image” in the properties panel): Whether the component displays the image or not.
+ - **ImageDisplayed** (“Show image” in the properties panel): Whether or not the component displays the image.
  - **DisplayMode**:
     - **Edit**: Allows user input.
     - **View**: Only displays data. 
@@ -48,8 +48,8 @@ The component is initialized once an AI model is bound to it.
  - **Height**: The height of the component.
  - **Visible**: Whether the component appears or is hidden.
  - **Width**: The width of the component.
- - **X**: The distance between the left edge of the component and the left edge of its parent container (screen if no parent container).
- - **Y**: The distance between the top edge of the component and the top edge of the parent container (screen if no parent container).
+ - **X**: The distance between the left edge of the component and the left edge of its parent container or screen.
+ - **Y**: The distance between the top edge of the component and the top edge of the parent container or screen.
 
 Additional design properties are available in the Advanced panel.
 
