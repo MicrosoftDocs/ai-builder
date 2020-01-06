@@ -21,7 +21,7 @@ ms.reviewer: v-dehaas
 1. Select **File**, and set **My Image** as the input title.
 1. Select **+ New step**, search for the term *Predict*, and then select **Predict - Common Data Service (Current Environment)** in the list of actions.
 
-5. Select the **BusinessCard model** and specify the following as Request Payload:
+5. Select the **BusinessCard model** and specify the following **Request Payload**:
 
     ```json
     { 
@@ -109,8 +109,8 @@ ms.reviewer: v-dehaas
    }
 
    ```
-Congratulations! You've created a flow that leverages the Business Card model. Select **Save** on the top right, and then select **Test** to try out your flow.
+Congratulations! You've created a flow that uses the business card reader AI model. Select **Save** on the top right, and then select **Test** to try out your flow.
 
-This should give you the basis from which you can continue to build your flow to suit your needs. The following example shows a new contact being created in Common Data Service using the business card data.
+This procedure should give you the basis from which to continue building a flow that suits your needs. The following example shows a new contact being created in Common Data Service using the business card data.
 
    > !['Create new record' screen](media/flow-create-record.png "'Create new record' screen")

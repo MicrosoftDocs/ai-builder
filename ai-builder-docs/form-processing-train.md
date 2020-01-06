@@ -6,7 +6,7 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/06/2019
+ms.date: 12/31/2019
 ms.author: jofernan
 ms.reviewer: v-dehaas
 ---
@@ -28,11 +28,11 @@ The Details page allows you to test your model before you publish or use it:
 
 1. On the Details page, select **Quick test**.
 2. You can either drag and drop a document, or select **Upload from my device** to upload your test file. The quick-test should only take a few seconds before displaying the results.
-3. You can select **Start over** to run another test or **Close** if you are finished.
+3. Select **Start over** to run another test, or **Close** if you're finished.
 
 ## Troubleshooting tips
 
-If you have trouble training your model, try the following:
+If you have trouble training your model, try these suggestions:
 
 - Optimize your data using the guidance in the [Requirements](form-processing-model-requirements.md).
 - Delete and recreate the model.

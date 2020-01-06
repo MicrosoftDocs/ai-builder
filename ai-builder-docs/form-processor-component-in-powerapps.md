@@ -6,7 +6,7 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/06/2019
+ms.date: 12/31/2019
 ms.author: jofernan
 ms.reviewer: v-dehaas
 ---
@@ -15,7 +15,7 @@ ms.reviewer: v-dehaas
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-Create a canvas app and add the form processor AI Builder component to your screen. This component takes a photo or loads an image from the local device, and then processes it to extract text based on a trained AI model. If it detects a form that the AI model is trained for, the form processor extracts the field values, and identifies them with rectangles.
+You can add the AI Builder form processor component to your screen in your canvas apps. This component takes a photo or loads your image. Then, it extracts text based on your trained AI model. If it detects a form that the AI model is trained for, the form processor extracts the field values, and identifies them with rectangles.
 
  > [!NOTE]
  >
@@ -23,9 +23,10 @@ Create a canvas app and add the form processor AI Builder component to your scre
  > - For more information about canvas apps, see [What are canvas apps in PowerApps?](/powerapps/maker/canvas-apps/getting-started).
 
 ## Prerequisites
-This component requires a trained and published AI Builder form processing model. Then, that model must be bound to the component using the AI model property in the properties panel.
 
-When you add it to the screen, the component automatically opens the AI models pane to select a model from those published in that environment.
+This component requires a published AI Builder form processing model. Then, that model must be bound to the component using the AI model property in the properties panel.
+
+When you add the component to the screen, it automatically opens the AI models pane. There, you select a model that is published in your environment.
 
 The component is initialized after an AI model is bound to it.
 
@@ -34,7 +35,7 @@ The component is initialized after an AI model is bound to it.
 
  - **ModelId** (“AI model” in the properties panel): AI model information to which the component is bound.
  - **OriginalImage**: The original image before processing.
- - **FormContent**: The details of extracted form fields and tables. At component initialization (AI model binding step), the potential fields and tables that can be extracted by the models are populated:
+ - **FormContent**: The details of extracted form fields and tables. At component initialization (AI model binding step), the fields and tables that can be extracted by the models are populated:
    - **Fields**:
 
      ![Form fields screen](media/form-fields.png "Form fields screen")
@@ -46,11 +47,7 @@ The component is initialized after an AI model is bound to it.
 ## Additional properties
 
 - **Text**: Text that appears on the button that activates the form processor.
-- **ImageDisplayed** (“Show image” in the properties panel): Whether the component displays the image or not. When set to ON, rectangles are displayed around field values detected in the image.
-
-
-<!--from editor: What if, say, it's 40 percent. Is it red or orange? -->
-<!--v-dehaas: Great question. I'll find out and fix this separately -->
+- **ImageDisplayed** (“Show image” in the properties panel): Whether or not the component displays the image. When set to ON, rectangles are displayed around field values detected in the image.
 
 - Three different colors can be used to draw the rectangle depending on the confidence level:
      - **Red**: Confidence level is between 0 percent and 39 percent.
@@ -64,8 +61,8 @@ The component is initialized after an AI model is bound to it.
 - **Height**: The height of the component.
 - **Visible**: Whether the component appears or is hidden.
 - **Width**: The width of the component.
-- **X**: The distance between the left edge of the component and the left edge of its parent container (screen if no parent container).
-- **Y**: The distance between the top edge of the component and the top edge of the parent container (screen if no parent container).
+- **X**: The distance between the left edge of the component and the left edge of its parent container or screen.
+- **Y**: The distance between the top edge of the component and the top edge of the parent container or screen.
 
 Additional design properties are available in the Advanced panel.
 

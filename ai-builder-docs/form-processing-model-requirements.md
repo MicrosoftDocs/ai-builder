@@ -6,7 +6,7 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/06/2019
+ms.date: 12/31/2019
 ms.author: jofernan
 ms.reviewer: v-dehaas
 ---
@@ -22,12 +22,12 @@ ms.reviewer: v-dehaas
 
 Form processing works on input documents that meet the following requirements:
 
-- JPG,.png, or PDF format (text or scanned). Text-embedded PDFs are preferable because there is no possibility of error in character extraction and location.
+- JPG, PNG, or PDF format (text or scanned). Text-embedded PDFs are better, because there won't be any errors in character extraction and location.
 - File size must be less than 4 megabytes (MB).
 - For images, dimensions must be between 530 x 100 and 4200 x 4200 pixels.
 - If scanned from paper documents, scans should be high-quality images.
 - Must use the Latin alphabet (English characters).
-- Must contain keys and values (for example, “company: Contoso” works; “Contoso” without a key label is not supported). 
+- Must contain keys and values (for example, “company: Contoso” works; “Contoso” without a key label isn't supported). 
 - Keys can appear above or to the left of the values, but not below or to the right.
 
 ## Optimization tips

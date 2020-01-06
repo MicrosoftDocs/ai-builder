@@ -6,7 +6,7 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/03/2019
+ms.date: 12/30/2019
 ms.author: mustlaz
 ms.reviewer: v-dehaas
 ---
@@ -14,10 +14,9 @@ ms.reviewer: v-dehaas
 
 # Use the business card reader in model-driven apps
 
- The business card reader takes a photo or loads an image from the local device, and then scans it to find a business card. If it detects a business card, it extracts the information it finds.
+Use the AI Builder business card reader component to detect business cards, and extract their information. You can take photos directly in the component, or load images that you've taken. Data is identified and extracted using the properties listed below.
 
-> [!NOTE]
-> For information about model-driven apps, see [What are model-driven apps in Power Apps?](/powerapps/maker/model-driven-apps/model-driven-app-overview)
+For information about model-driven apps, see [What are model-driven apps in Power Apps?](/powerapps/maker/model-driven-apps/model-driven-app-overview)
 
 ## Licensing requirements
 
@@ -25,23 +24,11 @@ AI Builder is licensed as an add-on to your Power Apps or Power Automate license
 
 ## Role requirements
 
-<!--from editor: Suggest changing the following sentence to "You need a Common Data Service user role to use the business card reader." --> 
-
 You need the **common data service user** role to use the business card reader.
 
 ## Add the business card reader
 
-Add the business card reader to an existing contact or lead form in the form editor, and through binding to a placeholder **SingleLine.Text** or **Multiple** field.
-
-
-
-<!--from editor:
-Looking at the image - Shoulud step 1 below say "Field Properties" instead of "Properties"?
-Reason for removing the ellipsis: The style guide says if an option label ends with an ellipsis, don't include that end punctuation in instructions. -->
-
-<!--v-dehaas:
-The image isn't showing the UI element that gets selected. This is the resulting screen. -->
-
+Add the business card reader to a contact or lead form in the form editor, and through binding to a placeholder **SingleLine.Text** or **Multiple** field.
 
 1. Select the placeholder field, and then select **Properties**.
 2. Select the **Controls** tab.
@@ -53,7 +40,7 @@ The image isn't showing the UI element that gets selected. This is the resulting
 
 ## Configure the business card reader
 
-After you select the platform (web, phone, tablet) where the business card reader should appear, you can bind the component properties that you need.
+After you select the platform where the business card reader should appear (web, phone, tablet), you can bind the component properties that you need.
 
 > [!div class="mx-imgBorder"]
 > ![Form editor binding properties screen](media/form-editor-binding-properties.png "Form editor binding properties screen")

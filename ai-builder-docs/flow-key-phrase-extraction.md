@@ -70,4 +70,4 @@ Now you can iterate through the outputs returned by the key phrase extraction mo
 
 ![Add key phrases screen](media/flow-add-phrase.png "Add key phrases in Common Data Service")
 
-Congratulations! You have created a flow that leverages a key phrase extraction model. Select **Save** on the top right and then select **Test** to try out your flow.
+Congratulations! You have created a flow that uses your key phrase extraction AI model. Select **Save** on the top right and then select **Test** to try out your flow.

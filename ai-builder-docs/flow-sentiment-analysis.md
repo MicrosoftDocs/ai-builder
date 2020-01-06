@@ -6,7 +6,7 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/12/2019
+ms.date: 12/30/2019
 ms.author: alanab
 ms.reviewer: v-dehaas
 ---
@@ -115,4 +115,4 @@ Now you can use the sentiment properties detected by the sentiment analysis mode
 
 ![Update record](media/flow-update-sentiment.png "Update record")
 
-Congratulations! You have created a flow that leverages a sentiment analysis model. Select **Save** on the top right and then select **Test** to try out your flow.
+Congratulations! You've created a flow that uses a sentiment analysis model. Select **Save** on the top right and then select **Test** to try out your flow.

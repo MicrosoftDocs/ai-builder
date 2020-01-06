@@ -6,7 +6,7 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/06/2019
+ms.date: 12/27/2019
 ms.author: joshrenn
 ms.reviewer: v-dehaas
 ---
@@ -26,7 +26,7 @@ AI Builder requires the use of [Common Data Service](/powerapps/maker/common-dat
 
 ### Deploy sample apps and data
 
-If you want to explore AI Builder using sample data provided by Microsoft, you can enable the **Deploy sample apps and data** setting when you create your environment to add sample data to your environment automatically. You can also [download this sample data](samples.md) and upload it to your environment.
+Do you want to explore AI Builder using sample data provided by Microsoft? Enable the **Deploy sample apps and data** setting when you create your environment to add sample data to your environment automatically. You can also [download this sample data](samples.md) and then upload it to your environment.
 
 ![Deploy samples setting](media/deploy-samples-setting.png)
 

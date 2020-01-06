@@ -6,7 +6,7 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/12/2019
+ms.date: 12/30/2019
 ms.author: alanab
 ms.reviewer: v-dehaas
 ---
@@ -71,4 +71,4 @@ Now you can iterate through the detected languages returned by the language dete
 
 ![Apply to each screen](media/flow-apply-to-each.png "Apply to each screen")
 
-Congratulations! You have created a flow that leverages a language detection model. Select **Save** on the top right and then select **Test** to try out your flow.
+Congratulations! You've created a flow that uses a language detection model. Select **Save** on the top right and then select **Test** to try out your flow.

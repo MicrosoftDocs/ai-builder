@@ -6,7 +6,7 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/16/2019
+ms.date: 12/31/2019
 ms.author: JoeFernandezMS
 ms.reviewer: v-dehaas
 ---
@@ -26,10 +26,10 @@ Download [AIBuilder_Lab.zip](https://go.microsoft.com/fwlink/?linkid=2103171), w
 
 ## Build your model
 
-1. Unzip the downloaded files, and then navigate to **AIBuilder_Lab\Lab Images\FormProcessing_Invoices**, where you will see two folders: **Train** and **Test**.
+1. Extract the downloaded files, and then navigate to **AIBuilder_Lab\Lab Images\FormProcessing_Invoices**, where you'll see two folders: **Train** and **Test**.
 2. On the AI Builder Build screen, select **Form processing model**.
 3. Choose a name for the form processing model and then create your model.
-4. When you are prompted to upload data, upload the five invoices from the **Train** folder.
+4. When you're prompted to upload data, upload the five invoices from the **Train** folder.
 
    > [!div class="mx-imgBorder"]
    > ![Upload sample invoices](media/upload-forms.png "Upload sample invoices")
@@ -39,7 +39,7 @@ Download [AIBuilder_Lab.zip](https://go.microsoft.com/fwlink/?linkid=2103171), w
    > [!div class="mx-imgBorder"]
    > ![Select fields](media/select-form-fields.png "Select fields")
 
-6. After you train your model, you can see how it works by doing a quick test using the invoice in the **Test** folder that you downloaded.
+6. After you train your model, do a quick test using the invoice in the **Test** folder that you downloaded to see how it works.
 
    > [!div class="mx-imgBorder"]
    > ![Quick test](media/quick-test-form.png "Quick test")

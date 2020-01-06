@@ -6,7 +6,7 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 11/06/2019
+ms.date: 12/23/2019
 ms.author: antode
 ms.reviewer: v-dehaas
 ---
@@ -27,9 +27,9 @@ The availability (release status) of AI Builder is dependent on your region. For
 
 Some AI Builder features are released for general availability. Others are considered in preview release status.
 
-Preview features are shown on the build page with the **Preview** label displayed. Power Platform administrators can use the Power Platform admin center to control whether users can create and use preview features.
+Preview features appear on the build page with the **Preview** label. In the Power Platform admin center, administrators control whether users have access to preview features.
 
-By default, the **AI Builder preview models** feature is set to **On** (enabled) for any eligible environment (environment must have Common Data Service and its region must be supported). If the environment is not eligible, the **AI Builder preview models** feature won't appear in the Power Platform admin center. 
+By default, the **AI Builder preview models** feature is enabled for any eligible environment. Eligible environments must have Common Data Service, and be in a [supported region](availability-region.md). If the environment isn't eligible, the **AI Builder preview models** feature doesn't appear in the Power Platform admin center.
 
 To control the feature availability:
 
@@ -39,19 +39,25 @@ To control the feature availability:
     
 ### Important points related to enabling or disabling the feature
 
-- If you set **AI Builder preview models** to **Off** (disabled), it won't delete existing models that users of this environment have created. However, AI Builder components will be disabled, and existing experiences that leverage existing AI Builder components will fail and/or return errors. Admins and owners can delete AI models of this type.
+- If you disable **AI Builder preview models**:
+  - We don't delete existing models that users of this environment have created.
+  - AI Builder components are disabled.
+  - Existing experiences that use existing AI Builder components will fail or return errors.
+  - Admins and owners can delete AI models of this type.
 
-- If you set **AI Builder preview models** back to **On** (enabled), the AI Builder components will become visible again and function as they did before the feature was disabled, assuming nothing else is changed.
+- If you enable **AI Builder preview models** again:
+  - AI Builder components are available again.
+  - Components function as they did before the feature was disabled (Assuming nothing else is changed).
 
 For more information about enabling or disabling features in the Power Platform admin center, see [Manage feature settings](https://docs.microsoft.com/power-platform/admin/settings-features).
 
 ## Backup and restore
 
-Dynamics 365 allows protecting your apps data and providing continuous availability of service thanks to its built-in backup and restore capabilities. For more information, see [Backup and restore instances](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
+Common Data Service has backup and restore capabilities to protecting your apps data, providing continuous availability of service. For more information, see [Backup and restore environements](https://docs.microsoft.com/power-platform/admin/backup-restore-environments).
 
 > [!IMPORTANT]
 > Currently, AI Builder provides limited support for backup and restore.
 
-A system administrator or delegated admin user can use the standard capabilities described in [Backup and restore instances](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances). 
+A system administrator or delegated admin user can use the standard capabilities described in [Backup and restore environments](https://docs.microsoft.com/power-platform/admin/backup-restore-environments).
 
-After a restore operation, they must manually retrain and republish existing models to make them available again. For more information, see [Retrain and republish existing models](manage-model.md#retrain-and-republish-existing-models).
+After a restore operation, you have to [retrain and republish existing models](manage-model.md#retrain-and-republish-existing-models). to make them available again. 
