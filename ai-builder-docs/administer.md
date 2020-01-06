@@ -58,6 +58,6 @@ Common Data Service has backup and restore capabilities to protecting your apps 
 > [!IMPORTANT]
 > Currently, AI Builder provides limited support for backup and restore.
 
-A system administrator or delegated admin user can use the standard capabilities described in [Backup and restore environments](https://docs.microsoft.com/en-us/power-platform/admin/backup-restore-environments).
+A system administrator or delegated admin user can use the standard capabilities described in [Backup and restore environments](https://docs.microsoft.com/power-platform/admin/backup-restore-environments).
 
 After a restore operation, you have to [retrain and republish existing models](manage-model.md#retrain-and-republish-existing-models). to make them available again. 
