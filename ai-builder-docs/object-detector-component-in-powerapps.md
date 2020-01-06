@@ -19,7 +19,6 @@ The object detection component takes a photo or loads an image file to do an obj
 
  > [!NOTE]
  >
- > - This component is not supported in Internet Explorer.
  > - Find more information about canvas apps in the [What are canvas apps in PowerApps?](/powerapps/maker/canvas-apps/getting-started).
 
 ## Prerequisites

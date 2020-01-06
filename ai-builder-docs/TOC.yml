@@ -140,6 +140,8 @@
   items:
   - name: Overview
     href: use-in-powerapps-overview.md
+  - name: Use the text recognizer component in Power Apps
+    href: prebuilt-text-recognizer-component-in-powerapps.md
   - name: Use your prediction model in Power Apps
     href: prediction-model-driven-app.md
   - name: Use the form processor component in Power Apps

@@ -19,13 +19,17 @@ Prebuilt text recognition models extract words from documents and images into ma
 
 This prebuilt processes images and document files to extract lines of printed or handwritten text.
 
+## Use in Power Apps
+
+The text recognition prebuilt model is available in Power Apps by using the text recognizer component. For more information, see [Text recognizer component in Power Apps](prebuilt-text-recognizer-component-in-powerapps.md).
+
 ## Use in Power Automate
 
-If you want to use this prebuilt model in Power Automate, you can find more information in [Use text recognition model in Power Automate](flow-text-recognition.md).  
+For information about how to use text recognition prebuilt model in Power Automate, see [Use text recognition model in Power Automate](flow-text-recognition.md).  
 
 ## Supported language, format, and size
 
-The documents you can scan with the Text recognition model need these characteristics:
+The documents you can scan with the text recognition model need these characteristics:
 
 - **Language**: English
 - **Format**:
