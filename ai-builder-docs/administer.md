@@ -53,11 +53,11 @@ For more information about enabling or disabling features in the Power Platform 
 
 ## Backup and restore
 
-Dynamics 365 has backup and restore capabilities to protecting your apps data, providing continuous availability of service. For more information, see [Backup and restore instances](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
+Common Data Service has backup and restore capabilities to protecting your apps data, providing continuous availability of service. For more information, see [Backup and restore environements](https://docs.microsoft.com/power-platform/admin/backup-restore-environments).
 
 > [!IMPORTANT]
 > Currently, AI Builder provides limited support for backup and restore.
 
-A system administrator or delegated admin user can use the standard capabilities described in [Backup and restore instances](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
+A system administrator or delegated admin user can use the standard capabilities described in [Backup and restore environments](https://docs.microsoft.com/en-us/power-platform/admin/backup-restore-environments).
 
 After a restore operation, you have to [retrain and republish existing models](manage-model.md#retrain-and-republish-existing-models). to make them available again. 
