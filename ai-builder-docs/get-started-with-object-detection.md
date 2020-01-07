@@ -32,7 +32,7 @@ There are two ways to provide object names:
 
 As you build your model, you can switch between these two modes. In the top action bar, click on the name of the other input mode.
 
-> [!NOTE]
+> [!IMPORTANT]
 > When you change input mode, you lose any existing object names. In other words - if you type object names in AI Builder, and then change to selecting from a datasbase, all object names typed and their associated bounding boxes are deleted from your model. This is not recoverable. The same applies if you switch from selecting object names from a database to typing object names.
 
 ### Provide names in AI Builder
