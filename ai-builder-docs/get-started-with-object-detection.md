@@ -27,7 +27,7 @@ The first thing you'll do in creating an AI Builder object detection model is pr
 
 There are two ways to provide object names:
 
-- Provide object names directly in AI Builder.
+- Type object names directly in AI Builder.
 - Select names from your Common Data Service entity.
 
 As you build your model, you can switch between these two modes. In the top action bar, click on the name of the other input mode.
@@ -35,7 +35,7 @@ As you build your model, you can switch between these two modes. In the top acti
 > [!IMPORTANT]
 > When you change input mode, you lose any existing object names. In other words - if you type object names in AI Builder, and then change to selecting from a datasbase, all object names typed and their associated bounding boxes are deleted from your model. This is not recoverable. The same applies if you switch from selecting object names from a database to typing object names.
 
-### Provide names in AI Builder
+### Type names in AI Builder
 
 To provide object names directly in AI Builder, just type the name in the space where the object is detected in the image. Then, press **Enter**, or select **Add new object** to continue.
 
