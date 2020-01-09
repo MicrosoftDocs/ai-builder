@@ -74,7 +74,7 @@ ms.reviewer: v-dehaas
    > [!div class="mx-imgBorder"]
    > ![Save tags screens](media/save-tags.png "Save tags screens")
 
-Congratulations! You have created a flow that leverages a text classification AI Builder model. Select **Save** on the top right and then select **Test** to try out your flow.
+Congratulations! You've created a flow that uses a text classification AI Builder model. Select **Save** on the top right and then select **Test** to try out your flow.
 
 To learn more about the triggers and actions, see [Get started with Power Automate](/flow/getting-started).
 
