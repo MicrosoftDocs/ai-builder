@@ -1,6 +1,6 @@
 ---
 title: Overview of text classification model| Microsoft Docs
-description: Provides information about text classification models, and gives an overview of how to build and use text classification models in AI Builder. 
+description: Describes text classification models. Gives an overview of how to build and use text classification models in AI Builder. 
 author: raaourik 
 manager: kvivek
 ms.service: powerapps
@@ -15,11 +15,16 @@ ms.reviewer: v-dehaas
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-Text data volume is growing exponentially in organizations, through channels such as email, documents, social media, and more. This data can carry a lot of valuable information that—when extracted and acted upon—can help you provide better products and services to your customers. Dealing with this ever-growing data can be time-consuming and error prone, and can lead to missed business opportunities and costs.
+The volume of text data is increasing exponentially for organizations. Channels such as email, documents, social media, and others contribute increasing amounts of text data. This data carries valuable information that—when extracted and acted upon—helps you provide better products and services to your customers. Dealing with this ever-increasing data is often time-consuming and error prone, and sometimes leads to missed business opportunities and costs.
 
-Text classification is one of the fundamental natural language processing (NLP) problems. It allows tagging of text entries with tags or labels that can be used for sentiment analysis, spam detection, and routing customer requests, just to name a few examples.
+Text classification is one of the fundamental natural language processing (NLP) problems. With text classification, you can identify text entries with tags to be used for things like:
 
-Use AI Builder text classification with [Power Automate](https://flow.microsoft.com/) and [Power Apps](https://powerapps.microsoft.com/) to automate and scale your business processes and free your employees to act on these insights. It can also be used as an input for other AI capabilities such as subscription user churn and predictive analysis. AI Builder can learn from your previously labeled text items, and enable you to classify unstructured text data stored in Common Data Service into your own business-specific categories.
+- Sentiment analysis
+- Spam detection
+- Customer request routing
+- Other business needs
+
+Automate and scale your business processes with AI Builder text classification in [Power Automate](https://flow.microsoft.com/) and [Power Apps](https://powerapps.microsoft.com/). AI Builder models help free your employees to act on new insights. Use the results as an input for other AI capabilities, like subscription user churn and predictive analysis. AI Builder learns from your previously labeled text items, and enables you to classify unstructured text data stored in Common Data Service into your own business-specific categories.
 
 ### Related content
 
