@@ -21,14 +21,13 @@ If you want to use your trained model in Power Automate, you can find more infor
 
 ## Set run schedule on Common Data Service
 
-You can set the run schedule by navigating to the **Run** view in the **Model settings** panel. You can configure your model to run on your database to predict tags by choosing the following option:
+Go to the **Run** view in the **Model settings** panel to set the run schedule. To configure your model to run on your database and generate predictions, select this option:
 
 **Generate predictions when new data is added**
 
 Your model runs once on all existing data in your text entity, and then again whenever a new record is added to that entity.
 
-
-## What if the model is not writing new tag suggestions?
+## What if the model isn't writing new tag suggestions?
 
 - Check that you didn’t exceed the number of runs for your Power Automate subscription.
 - Turn off the Common Data Service run setting, and then turn it back on.
