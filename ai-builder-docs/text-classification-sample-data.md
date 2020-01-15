@@ -15,7 +15,7 @@ ms.reviewer: v-dehaas
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-To explore the possibilities of text classification in AI Builder, you can get started by building and training an text classification model using sample data. The sample data we provide uses customer feedback for a hospital. The goal would be to train a model that would be able to automatically predict categories for new incoming feedback. This could be used to help the hospital administrator free up time from categorizing patient feedback to act on it and offer a better experience to patients.
+Get started exploring AI Builder text classification by using sample data to build and train a text classification model. The sample data we provide uses customer feedback for a hospital. The goal would be to train a model that can predict the category of newly received feedback. This model could help the hospital administrator free up time from categorizing patient feedback, leaving more time to act on it and provide a better experience to patients.
 
 ## Set up an environment with data
 

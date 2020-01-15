@@ -19,7 +19,7 @@ Before you can use your text classification model, you have to train it to perfo
 
 ## Train
 
-You are now ready to run your training. Review your configuration and then select the **Train my AI** button to begin training your text classification model. When it’s ready, you will be notified.
+You're now ready to run your training. Review your configuration and then select the **Train my AI** button to begin training your text classification model. When it’s ready, you'll be notified.
 
 You can also train a new version of your model.  Select **New version** > **From published version**.  This creates a new draft of your model that you can configure and train.
 
