@@ -30,7 +30,7 @@ For features that have been released for general availability, you can use the [
 1. Sign in to the [Power Platform Admin Center](https://admin.powerplatform.microsoft.com/).
 2. In the left navigation pane, select **Help + Support**, and then select **New support request**.
 
-For detailed information about the **Help + Support** experience in the Power Platform Admin center, see [Get Help + Support](/power-platform/admin/get-help-support) in the Power Platform admin documentation.
+For more information about the Power Platform **Help + Support** experience, see [Get Help + Support](/power-platform/admin/get-help-support).
 
  > [!NOTE]
  > You can't create a new support request to get support from Microsoft for preview features. Go to the AI Builder community forums to get help with any issue that is related to a preview feature.
