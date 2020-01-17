@@ -35,7 +35,7 @@ The images you’ll feed your object detection model need these characteristics:
 
 ## Data quantity and data balance
 
-It's important to upload enough images to train your AI model. At least 50 images per object for the training set are a starting point. With fewer images, there's a strong risk that your model will learn concepts that are just noise, or not irrelevant. Training your model with more images should increase the accuracy.
+It's important to upload enough images to train your AI model. At least 50 images per object for the training set are a starting point. With fewer images, there's a strong risk that your model will learn concepts that are just noise, or not relevant. Training your model with more images should increase the accuracy.
 
 Another consideration is to make sure your data is balanced. If you have 500 images for one object and only 50 images for another, your training dataset isn't balanced. This can cause the model to be better at recognizing one of the objects. For more consistent results, maintain at least a 1:2 ratio between the object with the fewest images vs. the one with the most. For example, if the object with the greatest number of images has 500 images, the object with the fewest images should have at least 250 images for training.
 
