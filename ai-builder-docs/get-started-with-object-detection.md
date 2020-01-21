@@ -23,7 +23,7 @@ ms.reviewer: v-dehaas
 
 ## Provide object names
 
-The first thing you'll do in creating an AI Builder object detection model is provide the names of the items you want to detect. You can provide up tp 500 object names per model.
+The first thing you'll do in creating an AI Builder object detection model is provide the names of the items you want to detect. You can provide up to 500 object names per model.
 
 There are two ways to provide object names:
 
@@ -42,7 +42,7 @@ To provide object names directly in AI Builder, just type the name in the space 
 - To edit an object name, select the object name and then make your change.
 - To remove an object name, select the **...** menu, and then select **Remove**.
 
-### Select names in from database
+### Select names from a database
 
 If your data isn't in Common Data Service, see [Prerequisites](build-model.md#prerequisites) topic for information about how to import data into Common Data Service.
 
