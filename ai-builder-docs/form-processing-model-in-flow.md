@@ -32,7 +32,7 @@ ms.reviewer: v-dehaas
 
 1. Select **+ New step**. Don't worry about the file information fields at this point - that comes later.
 
-![Expand 'manually trigger a flow'.](media/flow-add-input.png)
+    ![Expand 'manually trigger a flow'.](media/flow-add-input.png)
 
 1. Search for **Predict** in the **Search for filters and actions** box, and then select **Predict Common Data Service (current Environment)** in the list of actions. If this action doesn't appear, make sure you're working with a solution as described in [Create a flow in a solution](/flow/create-flow-solution).
 
@@ -44,18 +44,18 @@ ms.reviewer: v-dehaas
 
 1. In the **Document** field in the Predict window, select **File Content**:
 
- > [!div class="mx-imgBorder"]
- > ![Select file content](media/flow-select-file-content.png "Select file content")
+    > [!div class="mx-imgBorder"]
+    > ![Select file content](media/flow-select-file-content.png "Select file content")
 
 1. In the successive actions, you can use any fields and tables extracted by the AI Builder model. For example, let’s say that our model is trained to extract the *Invoice Id* and the *Total Amount* value, and we want to post those to a Microsoft Teams channel. Just add the **Post a message to Teams** action, and then select your fields in the list of tokens  .
 
- >[!NOTE]
- >
- >- To retrieve a field name and it's value followed by it's value, select **<field_name> value** . For example, for the *Invoice Id* field, select **Invoice Id value**.
- >- To retrieve the confidence score, , select **<field_name> confidence score** . For example, for the *Invoice Id* field, select **Invoice Id confidence score**.
+    > [!NOTE]
+    >
+    >- To retrieve a field name and it's value followed by it's value, select **<field_name> value** . For example, for the *Invoice Id* field, select **Invoice Id value**.
+    >- To retrieve the confidence score, , select **<field_name> confidence score** . For example, for the *Invoice Id* field, select **Invoice Id confidence score**.
 
-     > [!div class="mx-imgBorder"]
-     > ![Form processing flow overview](media/flow-fp-overview.png "Form processing flow overview")
+    > [!div class="mx-imgBorder"]
+    > ![Form processing flow overview](media/flow-fp-overview.png "Form processing flow overview")
 
 Congratulations! You've created a flow that uses an AI Builder form processing model. Select **Save** on the top right, and then select **Test** to try out your flow.
 
