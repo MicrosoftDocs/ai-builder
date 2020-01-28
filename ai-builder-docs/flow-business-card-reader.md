@@ -33,4 +33,4 @@ Congratulations! You've created a flow that uses the business card reader AI mod
 
 This procedure should give you the basis from which to continue building a flow that suits your needs. The following example shows a new contact being created in Common Data Service using the business card data.
 
-   > !['Create new record' screen](media/flow-create-record.png "'Create new record' screen")
+   > !['Create new record' screen](media/flow-business-card-overview.png "'Create new record' screen")

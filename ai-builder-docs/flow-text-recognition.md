@@ -29,6 +29,6 @@ ms.reviewer: v-dehaas
 
 Now you can use the extracted text lines by the Text Recognition model. In the following example, we save the extracted text to a SharePoint list.
 
-> ![Text recognition flow example](media/text-flow-example.png "Text recognition flow example")
+> ![Text recognition flow example](media/text-flow-example2.png "Text recognition flow example")
 
 Congratulations! You've created a flow that uses a text recognition model. You can continue to build on this flow until it suits your needs. Select **Save** on the top right, and then select **Test** to try out your flow. 
