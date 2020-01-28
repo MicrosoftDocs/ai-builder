@@ -53,7 +53,7 @@ ms.reviewer: v-dehaas
     >
     >- To retrieve a field name and it's value followed by it's value, select **<field_name> value** . For example, for the *Invoice Id* field, select **Invoice Id value**.
     >- To retrieve the confidence score, , select **<field_name> confidence score** . For example, for the *Invoice Id* field, select **Invoice Id confidence score**.
-
+    
     > [!div class="mx-imgBorder"]
     > ![Form processing flow overview](media/flow-fp-overview.png "Form processing flow overview")
 
