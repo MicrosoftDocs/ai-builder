@@ -26,6 +26,8 @@ ms.reviewer: v-dehaas
 1. Select **+Add an input** again.
 1. Select **Text** and set as input title: *My Language*.
 1. Select **+ New step**, search for *Predict*, and then select **Predict Common Data Service (current Environment)** in the list of actions.
+    >[!NOTE]
+    > **Predict Common Data Service (current Environment)** does not appear if you don't follow these instructions first: [Create a flow in a solution](/flow/create-flow-solution)
 1. Specify  the **My Language** field from the trigger in the Language input, and the **My Text** field in Text input.
 
    > ![Manually trigger flow screen](media/flow-trigger-flow.png "Manually trigger flow screen")
