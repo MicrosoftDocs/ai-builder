@@ -32,33 +32,44 @@ Use this information to make your selections. Working with provided sample data,
 1. In the **Field** dropdown menu, select field that contains the outcome. For the sample data, select and **Revenue (Label)**.
 1. If you selected an option set that contains two or more outcomes, consider mapping it to “Yes” or “No” since you want to predict whether or not something will happen.
 
+> [!NOTE]
+> AI Builder supports these data types for the outcome field:
+> - Two options
+> - Option set
 
 ## Select the data fields to train your model
 
-After you select the **Entity** and **Field** and map your outcome, you can make changes to the data fields used to train the model. By default, all relevant fields are selected (we may have deselected some system fields, which should have no impact to the model). You can deselect fields that may contribute to a less accurate model. If you don’t know what to do here, don’t worry. AI Builder will try to filter fields to provide the best model possible. For the sample data, just leave everything as is and select **Next**.
+After you select the **Entity** and **Field** and map your outcome, you can make changes to the data fields used to train the model. By default, all relevant fields are selected. You can deselect fields that may contribute to a less accurate model. If you don’t know what to do here, don’t worry. AI Builder will try to find fields that provide the best model possible. For the sample data, just leave everything as is and select **Next**.
 
 ### Data field selection considerations
 
-The most important thing to consider here is whether a column that is not your historical outcome field already contains the prediction.
+The most important thing to consider here is whether a column that is not your historical outcome field is indirectly determined by the outcome.
 
 Let’s say you want to predict whether a shipment is going to be delayed. You might have the actual delivered date in your data. That date is only present after the order is delivered. So, if you include this field, the model will have close to 100% accuracy. The orders that you want to predict won’t be delivered yet, and won’t have the delivered date field populated. So, you should deselect fields like this before training. In machine learning, this is called target leakage or data leakage. AI Builder tries to filter fields that are “too good to be true”, but you should still check.
 
-- Make sure you select the data fields that you want to use in training the model.
-- Deselect the data fields that don't address the problem you want to solve.
-- Deselect the data fields that might carry unwanted bias.
-- Make sure the data fields you select don't have a high rate of missing values. If it's a valuable data field, you can assign a default value.
+> [!NOTE]
+> When selecting data fields, some data types like Image which cannot be used as input to train the model are not shown. In addition, system fields like Created On are excluded by default.
+
+### Use data from related entities
+
+If you have related entities that may improve the performance of the prediction, you can include those as well. Like predicting whether a customer will churn, you should include additional information that may be in a separate entity. Ai Builder supports many-to-one relationships at this time.
+
+## Filter your data
+
+After you select data fields for training, you can filter to your data. Your entities will contain all records. However, you may want to concentrate on training and predicting on a subset of records. If you know that there are irrelevant data within the same entity you are using to train a model, you can use this step to filter it.
+
+For example, if you apply a filter to  look at only the U.S. region, the model will train on records where the outcome is known only for U.S. region. When this model is trained, it will only make a prediction for records where the outcome is not known for only the U.S. region.
+
+The filtering experience is the same as in the PowerApps view editor. Start by adding either:
+
+- A row, which contains a single filter condition.
+- A group, which allows you to nest your filter conditions.
+- A related entity, which allows you to create a filter condition on a related entity. 
+
+Select the field, the operator, and the value that represents a filter condition. You can use the checkboxes to group rows, or bulk delete rows.
 
 > [!NOTE]
-> These Common Data Service data types are excluded from the prediction model. These will not appear in the **Field** drop-down menu:
-
-> - Customer
-> - Image
-> - Lookup
-> - Multiple selection Option set
-> - Multiline Text
-> - Owner
-> - Unique Identifier
-> - String type data types with length greater than 100 characters
+> There is currently an issue with filtering on related entities that have a one-to-many relationship. This will be addressed in a week or two.
 
 ### Next step
 [Train and publish your prediction model](prediction-train-model.md)<br/>
