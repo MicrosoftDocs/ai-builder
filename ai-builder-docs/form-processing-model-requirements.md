@@ -23,7 +23,7 @@ ms.reviewer: v-dehaas
 Form processing works on input documents that meet the following requirements:
 
 - JPG, PNG, or PDF format (text or scanned). Text-embedded PDFs are better, because there won't be any errors in character extraction and location.
-- File size must be less than 4 megabytes (MB).
+- The combined file size of the documents used for training must not exceed 4 MB and should not be more than 50 pages for PDF documents.
 - For images, dimensions must be between 530 x 100 and 4200 x 4200 pixels.
 - If scanned from paper documents, scans should be high-quality images.
 - Must use the Latin alphabet (English characters).
