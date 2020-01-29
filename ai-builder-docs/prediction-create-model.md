@@ -33,7 +33,9 @@ Use this information to make your selections. Working with provided sample data,
 1. If you selected an option set that contains two or more outcomes, consider mapping it to “Yes” or “No” since you want to predict whether or not something will happen.
 
 > [!NOTE]
-> We currently only support Two Options and Option Set data types for the outcome field.
+> AI Builder supports these data types for the outcome field:
+> - Two options
+> - Option set
 
 ## Select the data fields to train your model
 
