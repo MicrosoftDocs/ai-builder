@@ -40,7 +40,7 @@ As you build your model, you can switch between these two modes. In the top acti
 To provide object names directly in AI Builder, just type the name in the space where the object is detected in the image. Then, press **Enter**, or select **Add new object** to continue.
 
 - To edit an object name, select the object name and then make your change.
-- To remove an object name, select the **...** menu, and then select **Remove**.
+- To remove an object name, select the **bin** icon. ![bin icon](media/bin-icon.png "bin icon")
 
 ### Select names from a database
 
