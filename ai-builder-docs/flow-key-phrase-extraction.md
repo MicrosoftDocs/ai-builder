@@ -26,45 +26,9 @@ ms.reviewer: v-dehaas
 1. Select **+Add an input** again.
 1. Select **Text** and set as input title: *My Language*.
 1. Select **+ New step**, search for *Predict*, and then select **Predict Common Data Service (current Environment)** in the list of actions.
-1. Select **KeyPhraseExtraction model**, and in the **Request Payload** field, enter *{“text”:”My Text”, “language”:”Language_code”}*. Add the **My Text** and **My Language** fields from the trigger.
+1. Specify  the **My Language** field from the trigger in the Language input, and the **My Text** field in Text input.
+
    > ![Manually trigger flow screen](media/flow-trigger-flow.png "Manually trigger flow screen")
-
-1. Select **+ New step**, search for Parse JSON, and then select **Parse JSON – Data Operations** in the lists of actions.
-1. In the **Content** field, select **Response Payload**.
-1. Copy the following JSON code and paste it into the **Schema** box: 
-
-    ```JSON
-          { 
-            "type": "object", 
-            "properties": { 
-                "predictionOutput": { 
-                    "type": "object", 
-                    "properties": { 
-                        "results": { 
-                            "type": "array", 
-                            "items": { 
-                                "type": "object", 
-                                "properties": { 
-                                    "phrase": { 
-                                        "type": "string" 
-                                    } 
-                                }, 
-                                "required": [ 
-                                    "phrase" 
-                                ] 
-                            } 
-                        } 
-                    } 
-                }, 
-                "operationStatus": { 
-                    "type": "string" 
-                }, 
-                "error": {} 
-            } 
-        } 
-    ```
-
-   ![Parse JSON screen](media/flow-parse-json-2.png "Parse JSON screen")
 
 Now you can iterate through the outputs returned by the key phrase extraction model. In the following example, we add each key phrase to a Common Data Service record.
 
