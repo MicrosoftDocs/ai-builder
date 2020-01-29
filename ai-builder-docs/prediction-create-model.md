@@ -50,17 +50,23 @@ Let’s say you want to predict whether a shipment is going to be delayed. You m
 > [!NOTE]
 > When selecting data fields, some data types like Image which cannot be used as input to train the model are not shown. In addition, system fields like Created On are excluded by default.
 
-### Using data from related entities
+### Use data from related entities
 
-If you have related entities that may improve the performance of the prediction, you can include those as well. Like predicting whether a customer will churn, you will want to include additional information that may be in a separate entity. Currently we only support many-to-one relationships, but we are looking to add more relationship types to support later on.
+If you have related entities that may improve the performance of the prediction, you can include those as well. Like predicting whether a customer will churn, you should include additional information that may be in a separate entity. Ai Builder supports many-to-one relationships at this time.
 
-## Filtering your data
+## Filter your data
 
-After selecting relevant data fields for training, you can filter to your data. Your entities will contain all records, and for your model, you may want to concentrate only on training and predicting on a subset of records. If you know that there are irrelevant data within the same entity you are using to train a model, then you can use this step to filter it out.
+After you select data fields for training, you can filter to your data. Your entities will contain all records. However, you may want to concentrate on training and predicting on a subset of records. If you know that there are irrelevant data within the same entity you are using to train a model, you can use this step to filter it.
 
-As an example, if I apply a filter to only look at the U.S. region, then the model will train itself on records where the outcome is known only for U.S. region, and once the model is trained it will only make a prediction for records where the outcome is not known only for U.S. region.
+For example, if you apply a filter to  look at only the U.S. region, the model will train on records where the outcome is known only for U.S. region. When this model is trained, it will only make a prediction for records where the outcome is not known for only the U.S. region.
 
-The filtering experience is the same as in PowerApps view editor. You start by adding either a row, which contains a single filter condition, a group, which allows you to nest your filter conditions, or a related entity, which allows you to create a filter condition on a related entity. Select the field, the operator, and the value that represents a filter condition. You can use the checkboxes to group rows, or bulk delete rows.
+The filtering experience is the same as in the PowerApps view editor. Start by adding either:
+
+- A row, which contains a single filter condition.
+- A group, which allows you to nest your filter conditions.
+- A related entity, which allows you to create a filter condition on a related entity. 
+
+Select the field, the operator, and the value that represents a filter condition. You can use the checkboxes to group rows, or bulk delete rows.
 
 > [!NOTE]
 > There is currently an issue with filtering on related entities that have a one-to-many relationship. This will be addressed in a week or two.
