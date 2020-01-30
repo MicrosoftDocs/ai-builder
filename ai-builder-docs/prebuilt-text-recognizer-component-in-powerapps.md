@@ -24,10 +24,11 @@ Create a canvas app and add the text recognizer AI Builder component to your scr
 
 ## Key properties
 
- - **OriginalImage**: The original image before processing.
+ - **OriginalImage**: The original image before processing. 
  - **OcrObjects**: The list of detected text lines. For each object, these properties are available of extracted form fields and tables. At component initialization (AI model binding step), the potential fields and tables that can be extracted by the models are populated:
      - **text**: The detected text line.
-
+ - **SelectedText**: The text line selected by the user.
+ 
 ## Additional properties
 
  - **Text**: Text that appears on the button that activates the text recognizer.

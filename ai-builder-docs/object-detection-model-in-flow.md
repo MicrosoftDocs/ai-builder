@@ -24,90 +24,12 @@ ms.reviewer: v-dehaas
 4. Select **+ New step**, search for *Predict*, and then select **Predict - Common Data Service (Current Environment)** in the list of actions.
 
     > [!div class="mx-imgBorder"]
-    > ![Predict common data service](media/predict-CDS.png "Predict common data service screen")
+    > ![Predict common data service](media/predict-cds.png "Predict common data service screen")
 
-5. Select the object detection model you want to use, and specify this as **Request Payload**:
-
-    ```json
-    {
-        "base64Encoded": "EXPRESSION",
-        "mimeType": "image/jpeg"
-    }
-    ```
-
-    Replace **EXPRESSION** with the following expression string on the formula bar on the right as shown in the illustration:
-
-    `string(triggerBody()?['file']?['contentBytes']))`
-    
-     > [!NOTE] 
-     > Depending on which connector the file comes from, the expression will need to be enclosed by base64() instead of string().
-
-6. Select **+ New step**, search for *Parse JSON*, and then select **Parse JSON – Data Operations** from the lists of actions.
+5. Select the object detection model you want to use, and in the **Image** field, specify **My Image** from the trigger:
 
     > [!div class="mx-imgBorder"]
-    > ![Parse JSON data operations screen](media/parse-json-data-operations.png "Parse JSON data operations screen")
-7.	In the **Parse JSON** screen, next to **Content**, select **Response Payload**.
-
-    > [!div class="mx-imgBorder"]
-    > ![Select response payload](media/response-payload.png)
- 
-8. Copy and paste the following JSON code into the **Schema** box: 
-
-    ```JSON
-    {
-        "type": "object",
-        "properties": {
-            "predictionOutput": {
-                "type": "object",
-                "properties": {
-                    "results": {
-                        "type": "array",
-                        "items": {
-                            "type": "object",
-                            "properties": {
-                                "tagId": {
-                                    "type": "string"
-                                },
-                                "boundingBox": {
-                                    "type": "object",
-                                    "properties": {
-                                        "left": {
-                                            "type": "number"
-                                        },
-                                        "top": {
-                                            "type": "number"
-                                        },
-                                        "width": {
-                                            "type": "number"
-                                        },
-                                        "height": {
-                                            "type": "number"
-                                        }
-                                    }
-                                },
-                                "confidence": {
-                                    "type": "number"
-                                }
-                            },
-                            "required": [
-                                "tagId",
-                                "boundingBox",
-                                "confidence"
-                            ]
-                        }
-                    }
-                }
-            },
-            "operationStatus": {
-                "type": "string"
-            },
-            "error": {}
-        }
-    }
-    ```
-
-    > [!div class="mx-imgBorder"]
-    > ![Schema box](media/schema.png "Schema box")
+    > ![Specify my image](media/flow-my-image.png "Specify my image")
 
 9. To retrieve the name of the detected object or objects on the image, add the **Get a record** action from Common Data Service (current Environment).
 

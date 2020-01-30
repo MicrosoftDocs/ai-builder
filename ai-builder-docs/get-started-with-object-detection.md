@@ -21,11 +21,32 @@ ms.reviewer: v-dehaas
 1. Sign in to [Power Apps](https://make.powerapps.com), and then in the navigation pane, select the down arrow to expand **AI Builder**. Select the **Object Detection** AI model type.
 2. Enter a name for your model and then select **Create**.
 
-## Select object names
+## Provide object names
 
-The first thing you'll do in creating an AI Builder object detection model is select the names of the items you want to detect. The names of the items you wish to detect need to be in [Common Data Service](/powerapps/maker/common-data-service/data-platform-intro). If your data is not in Common Data Service, see [Prerequisites](build-model.md#prerequisites) topic for information about how to import data into Common Data Service.
+The first thing you'll do in creating an AI Builder object detection model is provide the names of the items you want to detect. You can provide up to 500 object names per model.
 
-1. Select **Select Object Names** to see entities in your environment.
+There are two ways to provide object names:
+
+- Type object names directly in AI Builder.
+- Select names from your Common Data Service entity.
+
+As you build your model, you can switch between these two modes. In the top action bar, click on the name of the other input mode.
+
+> [!IMPORTANT]
+> When you change input mode, you lose any existing object names. In other words - if you type object names in AI Builder, and then change to selecting from a database, all object names typed and their associated bounding boxes are deleted from your model. This is not recoverable. The same applies if you switch from selecting object names from a database to typing object names.
+
+### Type names in AI Builder
+
+To provide object names directly in AI Builder, just type the name in the space where the object is detected in the image. Then, press **Enter**, or select **Add new object** to continue.
+
+- To edit an object name, select the object name and then make your change.
+- To remove an object name, select the **bin** icon. ![bin icon](media/bin-icon.png "bin icon")
+
+### Select names from a database
+
+If your data isn't in Common Data Service, see [Prerequisites](build-model.md#prerequisites) topic for information about how to import data into Common Data Service.
+
+1. Select **Select from database** to see entities in your environment.
 2. In the right-side pane, find the entity that contains your object names. Look through the list, or use the search bar, and then select that entity.
 3. Locate the field that contains the names of your objects. Select that field, and then select **Select Field** at the bottom of the screen.
 4. From the list of strings in your table, select the ones that represent the objects you want to detect. 
