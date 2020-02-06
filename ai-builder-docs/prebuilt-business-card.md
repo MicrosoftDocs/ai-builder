@@ -13,7 +13,10 @@ ms.reviewer: v-dehaas
 
 # Business card model
 
-The business card prebuilt AI model allows you to extract information from business cards in images. If it detects a business card in the image, the component will extract information such as name, job title, address, email, company, and phone numbers.
+The business card prebuilt AI model allows you to extract information from business card images. If it detects a business card in the image, the AI model extracts the information such as name, job title, address, email, company, and phone numbers.
+
+> [!NOTE]
+> The design and format of business cards varies widely. AI builder is constantly improving the accuracy of the business card AI model, but it's possible there may be inaccurate or missing information in some cases.  It's a good idea to verify that the output is as you expect!
 
 ## Licensing requirements
 AI Builder is licensed as an add-on to your Power Apps or Power Automate licenses. For information about license capacity, pricing, and restrictions, see [AI Builder licensing](administer-licensing.md).
