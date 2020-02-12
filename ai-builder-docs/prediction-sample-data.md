@@ -16,7 +16,7 @@ ms.reviewer: v-dehaas
 To explore the possibilities of prediction in AI Builder, you can get started by building and training an prediction model using sample data provided by Microsoft.
 
 > [!NOTE]
-> This sample data is added to your environment automatically if you enable the [Deploy sample apps and data](build-model.md#deploy-sample-apps-and-data) setting when creating your database.
+> This sample data is added to your environment automatically if you enable the [Deploy sample apps and data](build-model.md#deploy-sample-apps-and-data) setting when you create your database.
 
 ## Get the sample data
 
