@@ -18,7 +18,7 @@ ms.reviewer: v-dehaas
 To explore the possibilities of object detection in AI Builder, you can get started by building and training an object detection model using sample pictures and labels.
 
 > [!NOTE]
-> This sample data is added to your environment automatically if you enable the [Deploy sample apps and data](build-model.md#deploy-sample-apps-and-data) setting when creating your database.
+> This sample data is added to your environment automatically if you enable the [Deploy sample apps and data](build-model.md#deploy-sample-apps-and-data) setting when you create your database.
 
 ## Get the sample data
 
