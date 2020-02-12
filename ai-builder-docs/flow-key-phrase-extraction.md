@@ -28,7 +28,7 @@ ms.reviewer: v-dehaas
 1. Select **+ New step**, search for *Predict*, and then select **Predict Common Data Service (current Environment)** in the list of actions.
 1. Specify  the **My Language** field from the trigger in the Language input, and the **My Text** field in Text input.
 
-   > ![Manually trigger flow screen](media/flow-trigger-flow.png "Manually trigger flow screen")
+   > ![Manually trigger flow screen](media/flow-trigger flow.png "Manually trigger flow screen")
 
 Now you can iterate through the outputs returned by the key phrase extraction model. In the following example, we add each key phrase to a Common Data Service record.
 
