@@ -17,6 +17,9 @@ ms.reviewer: v-dehaas
 
 To explore the possibilities of text classification in AI Builder, you can get started by building and training an text classification model using sample data. The sample data we provide uses customer feedback for a hospital. The goal would be to train a model that would be able to automatically predict categories for new incoming feedback. This could be used to help the hospital administrator free up time from categorizing patient feedback to act on it and offer a better experience to patients.
 
+> [!NOTE]
+> This sample data is added to your environment automatically if you enable the [Deploy sample apps and data](build-model.md#deploy-sample-apps-and-data) setting when creating your database.
+
 ## Set up an environment with data
 
 1. Download [AIBuilder_Lab.zip](https://go.microsoft.com/fwlink/?linkid=2103171) file, which contains text classification sample data.
