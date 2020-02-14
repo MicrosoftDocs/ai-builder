@@ -34,7 +34,9 @@ ms.reviewer: v-dehaas
 
     ![Expand 'manually trigger a flow'.](media/flow-add-input.png)
 
-1. Search for **Predict** in the **Search for filters and actions** box, and then select **Predict Common Data Service (current Environment)** in the list of actions. If this action doesn't appear, make sure you're working with a solution as described in [Create a flow in a solution](/flow/create-flow-solution).
+1. Search for **Predict** in the **Search for filters and actions** box, and then select **Predict Common Data Service (current Environment)** in the list of actions.
+    >[!NOTE]
+    > **Predict Common Data Service (current Environment)** does not appear if you don't follow these instructions first: [Create a flow in a solution](/flow/create-flow-solution)
 
 1. Select the form processing model you want to use, and select the **Document type**:
 

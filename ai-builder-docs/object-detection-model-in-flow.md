@@ -22,6 +22,8 @@ ms.reviewer: v-dehaas
 2. Search for *manually*, select **Manually trigger a flow** in the list of triggers, and then select **+ Add an input**.
 3. Select **File**, and set **My Image** as input title.
 4. Select **+ New step**, search for *Predict*, and then select **Predict - Common Data Service (Current Environment)** in the list of actions.
+    >[!NOTE]
+    > **Predict Common Data Service (current Environment)** does not appear if you don't follow these instructions first: [Create a flow in a solution](/flow/create-flow-solution)
 
     > [!div class="mx-imgBorder"]
     > ![Predict common data service](media/predict-cds.png "Predict common data service screen")
