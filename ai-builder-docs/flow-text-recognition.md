@@ -26,6 +26,8 @@ ms.reviewer: v-dehaas
 1. Select **File** and set **My Image** as the input title.
 
 1. Select **+ New step**, search for the term *Predict*, and then select **Predict - Common Data Service (Conversational Environment)** in the list of actions.
+    >[!NOTE]
+    > **Predict Common Data Service (current Environment)** does not appear if you don't follow these instructions first: [Create a flow in a solution](/flow/create-flow-solution)
 
 1. Select **Text recognition model**,  and specify the *My Image* field from the trigger in the Image input.
 
