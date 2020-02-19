@@ -30,7 +30,7 @@ ms.reviewer: v-dehaas
     > **Predict Common Data Service (current Environment)** does not appear if you don't follow these instructions first: [Create a flow in a solution](/flow/create-flow-solution)
 1. Specify  the **My Language** field from the trigger in the Language input, and the **My Text** field in Text input.
 
-   > ![Manually trigger flow screen](media/flow-trigger-flow.png "Manually trigger flow screen")
+   > ![Manually trigger flow screen](media/flow-trigger-flow3.png "Manually trigger flow screen")
 
 Now you can iterate through the outputs returned by the key phrase extraction model. In the following example, we add each key phrase to a Common Data Service record.
 
