@@ -15,18 +15,25 @@ ms.reviewer: v-dehaas
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-AI Builder comes with:
-- A ready-to-use business card reader available in canvas as well as in [model-driven apps](/powerapps/maker/model-driven-apps/model-driven-app-overview). 
-	- [Business card reader (Canvas)](business-card-reader-component-in-powerapps.md)
-	- [Business card reader (Model-driven)](business-card-reader-component-model-driven.md)
-- Additional canvas components to leverage your AI Builder form processing or object detection models [canvas apps](/powerapps/maker/canvas-apps/getting-started).
+AI Builder has two kinds of models that you can use in Power Apps:
+
+- Prebuilt AI models that are ready to use right way:
+  - [Business card reader (canvas app)](business-card-reader-component-in-powerapps.md)
+  - [Business card reader (model-driven app)](business-card-reader-component-model-driven.md)
+  - [Text recognizer component (canvas app)](prebuilt-text-recognizer-component-in-powerapps.md)
+- Custom AI models that you build and train:
 	- [Form processor](form-processor-component-in-powerapps.md)
 	- [Object detector](object-detector-component-in-powerapps.md)
+
 
 > [!div class="mx-imgBorder"]
 > ![Canvas studio screen](media/canvas-studio.png "Canvas studio screen")
 
 The canvas components are available in the canvas studio and appear in the **Insert** tab when you build your canvas app in Power Apps.
+
+- More information about: [canvas apps](/powerapps/maker/canvas-apps/getting-started)
+
+- More information about: [model-driven apps](/powerapps/maker/model-driven-apps/model-driven-app-overview)
 
 ### Related content
 
