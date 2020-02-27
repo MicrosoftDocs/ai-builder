@@ -82,6 +82,8 @@
     href: object-detection-train-model.md
   - name: Use sample data
     href: object-detection-sample-data.md
+  - name: Transition to the new model version 
+    href: object-detection-transition.md
 - name: Form processing AI model (Preview)
   items:
   - name: Overview
@@ -94,6 +96,8 @@
     href: form-processing-train.md
   - name: Use sample data
     href: form-processing-sample-data.md
+  - name: Transition to the new model version 
+    href: form-processing-transition.md
 - name: Prebuilt AI models
   items:
   - name: Overview
