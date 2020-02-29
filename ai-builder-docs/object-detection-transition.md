@@ -16,7 +16,7 @@ ms.reviewer: v-dehaas
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
 AI Builder is improving its object detection  model in a new model version. Your object detection
-preview models created before March 5, 2020 are being deprecated. Until June 8, 2020, these models will continue to function, and Microsoft will support then, but some functionality may be disabled. After June 8, 2020, these models will no longer function.
+preview models created before March 5, 2020 are being deprecated. Until June 8, 2020, these models will continue to function, and Microsoft will support them, but some functionality may be disabled. After June 8, 2020, these models will no longer function.
 
 Starting March 5, you have to recreate your existing object detection models if you want to continue to use them. Models created after this date will automatically use the new model version. It's a good idea to transition to the new model version as soon as possible.
 
@@ -33,7 +33,7 @@ We understand you may have spent significant time building your object detection
 
 ## Why this change?
 
-object detection models are being upgraded for generally availability release. Your existing preview models won't be compatible with the new model version.
+Object detection models are being upgraded for generally availability release. Your existing preview models won't be compatible with the new model version.
 
 Until March 5, 2020, object detection models stored images as attachments in the Note entity. With this update, these models now leverage the new [File and Image data types](https://powerapps.microsoft.com/blog/introducing-improvements-to-data-storage-in-common-data-services/) in Common Data Service, enabling a better and more optimized usage of capacity.
 ### Related topic

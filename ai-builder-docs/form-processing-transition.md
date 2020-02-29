@@ -15,7 +15,7 @@ ms.reviewer: v-dehaas
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-AI Builder is improving its form processing model in a new model version. Your form processing preview models created before March 5, 2020 are being deprecated. Until June 8, 2020, these models will continue to function, and Microsoft will support then, but some functionality may be disabled. After June 8, 2020, these models will no longer function.
+AI Builder is improving its form processing model in a new model version. Your form processing preview models created before March 5, 2020 are being deprecated. Until June 8, 2020, these models will continue to function, and Microsoft will support them, but some functionality may be disabled. After June 8, 2020, these models will no longer function.
 
 Starting March 5, you have to recreate your existing form processing models if you want to continue to use them. Models created after this date will automatically use the new model version. It's a good idea to transition to the new model version as soon as possible.
 
