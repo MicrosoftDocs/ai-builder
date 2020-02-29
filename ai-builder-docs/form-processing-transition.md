@@ -11,7 +11,7 @@ ms.author: Jarennert
 ms.reviewer: v-dehaas
 ---
 
-# Transition to use a new form processing model version
+# Transition to the new form processing model version
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 

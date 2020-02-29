@@ -1,5 +1,5 @@
 ---
-title: Transition to new form processing model version -  AI Builder | Microsoft Docs
+title: Transition to new object detection model version -  AI Builder | Microsoft Docs
 description: Preview model versions won't be compatible with updated model versions, so you have to recreate existing models.
 author: Jarennert
 manager: kvivek
@@ -11,7 +11,7 @@ ms.author: Jarennert
 ms.reviewer: v-dehaas
 ---
 
-# Train and publish your object detection model
+# Transition to new object detection model version
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
