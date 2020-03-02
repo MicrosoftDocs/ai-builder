@@ -15,13 +15,13 @@ ms.reviewer: v-dehaas
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-AI Builder has two kinds of models that you can use in Power Apps:
+AI Builder provides two kinds of Power Apps components, depending on the models you want to use:
 
-- Prebuilt AI models that are ready to use right way:
+- Components that use prebuilt AI models that are ready to use right way:
   - [Business card reader (canvas app)](business-card-reader-component-in-powerapps.md)
   - [Business card reader (model-driven app)](business-card-reader-component-model-driven.md)
   - [Text recognizer component (canvas app)](prebuilt-text-recognizer-component-in-powerapps.md)
-- Custom AI models that you build and train:
+- Components that use custom AI models that you build and train:
 	- [Form processor](form-processor-component-in-powerapps.md)
 	- [Object detector](object-detector-component-in-powerapps.md)
 
