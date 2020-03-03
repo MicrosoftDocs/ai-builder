@@ -32,9 +32,9 @@ We understand you may have spent significant time building your form processing 
 
 ## Why this change?
 
-Form processing models are being upgraded for generally availability release. Your existing preview models won't be compatible with the new model version.
+Form processing models are being upgraded for generally availability. Your existing preview models won't be compatible with the new model version.
 
-Until March 5, 2020, form processing models stored images as attachments in the Note entity. With this update, these models now leverage the new [File and Image data types](https://powerapps.microsoft.com/blog/introducing-improvements-to-data-storage-in-common-data-services/) in Common Data Service, enabling a better and more optimized usage of capacity.
+Until March 5, 2020, form processing models stored documents as attachments in the Note entity. With this update, these models now leverage the new [File and Image data types](https://powerapps.microsoft.com/blog/introducing-improvements-to-data-storage-in-common-data-services/) in Common Data Service, enabling a better and more optimized usage of capacity.
 
 ### Related topics
 
