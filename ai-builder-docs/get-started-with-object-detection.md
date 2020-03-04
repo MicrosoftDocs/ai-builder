@@ -15,15 +15,20 @@ ms.reviewer: v-dehaas
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-> [!NOTE]
-> Make sure your administrator has assigned you a security role with all organization privileges over the entity **Note** from **Core Records** and read privilege over the entity you are using to select object names.
-
 1. Sign in to [Power Apps](https://make.powerapps.com), and then in the navigation pane, select the down arrow to expand **AI Builder**. Select the **Object Detection** AI model type.
 2. Enter a name for your model and then select **Create**.
 
+## Select model domain
+
+The first thing you'll do in creating an AI Builder object detection model is to define its domain. The domain optimizes the model for specific use cases. There are 2 specific domains:
+ - Objects on retail shelves that detects products densely packed on shelves 
+ - Brand logo that optimize for logo detection
+ Common objects is the default value that you should use if your use cases doesn't fit those 2 use cases.
+
+
 ## Provide object names
 
-The first thing you'll do in creating an AI Builder object detection model is provide the names of the items you want to detect. You can provide up to 500 object names per model.
+Second step of the object detection wizard is to provide the names of the items you want to detect. You can provide up to 500 object names per model.
 
 There are two ways to provide object names:
 
