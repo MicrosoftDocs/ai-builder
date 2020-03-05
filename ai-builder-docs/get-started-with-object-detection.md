@@ -26,8 +26,7 @@ The first thing you'll do when you create an AI Builder object detection model i
  - Brand logo: Optimized for logo detection.
 
 ## Provide object names
-
-Second step of the object detection wizard is to provide the names of the items you want to detect. You can provide up to 500 object names per model.
+Next, provide the names of the items you want to detect. You can provide up to 500 object names per model.
 
 There are two ways to provide object names:
 
