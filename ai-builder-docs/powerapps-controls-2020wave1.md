@@ -18,21 +18,21 @@ With the [announced improvements](https://powerapps.microsoft.com/en-us/blog/ai-
 For the **Form Processor** control:
 
 |Previous property name | New Property name |
-|:-------|:-------:|
+|:-------|:-------|
 |{Control Name}.FormContent.Fields |{Control Name}.Fields |
 |{Control Name}.FormContent.Tables |{Control Name}.Tables |
 
 For the **Text Recognizer** control:
 
 |Previous property name | New Property name |
-|:-------|:-------:|
+|:-------|:-------|
 |{Control Name}.SelectedText |{Control Name}.Selected.Text |
 |{Control Name}.OcrObjects.text |{Control Name}.Results.Text |
 
 For the **Object Detector** control:
 
 |Previous property name | New Property name |
-|:-------|:-------:|
+|:-------|:-------|
 |{Control Name}.VisionObjects.id |{Control Name}.GroupedResults.TagId |
 |{Control Name}.VisionObjects.displayName |{Control Name}.GroupedResults.TagName |
 |{Control Name}.VisionObjects.count |{Control Name}.GroupedResults.ObjectCount |
