@@ -60,6 +60,27 @@ AI Builder calculates the accuracy score for your model based on prediction resu
 
 For more information, see [Evaluate your model](manage-model.md#evaluate-your-model).
 
+<!--
+### Accuracy per outcome
+This section shows the distribution of correct and incorrect results. You can use this to help you evaluate the model.
+AI Builder shows a bar chart to quantify the accuracy of your AI model. Let's still use the business loan application as an example. The "Approved" bar would show how many predictions match the actual result, compared to all the records processed. If the rate of the correctly predicted records is high,  this information might help you decide to go ahead and use this model. 
+
+### Confusion matrix
+The confusion matrix describes the performance of the model as follows:
+
+- true positives
+- false positives
+- true negatives
+- false negatives
+
+True positives and true negatives are correctly predicted outcomes. False positives & false negatives are records that were incorrectly predicted.
+
+### Cumulative gains chart
+
+> [!Note]
+> This feature uses Highcharts (https://www.highcharts.com Copyright (c) Highsoft Solutions AS. All Rights Reserved)
+-->
+
 ## Improve prediction model performance
 
 After you've trained and evaluated your model, it's time to tweak your model to improve it's performance. Here are some things you can try to help improve your model's predictive power:
