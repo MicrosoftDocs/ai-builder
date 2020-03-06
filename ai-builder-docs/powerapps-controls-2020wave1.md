@@ -1,13 +1,13 @@
 ---
 title: Power Apps Canvas AI Builder controls 2020 release wave 1 update -  AI Builder | Microsoft Docs
 description: Updated on AI Builder Power Apps canvas controls on the 2020 release wave 1 update
-author: jofernan
+author: JoeFernandezMS
 manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
 ms.date: 03/06/2020
-ms.author: jofernan
+ms.author: JoeFernandezMS
 ms.reviewer: v-dehaas
 ---
 
