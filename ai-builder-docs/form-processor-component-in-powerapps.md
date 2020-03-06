@@ -35,14 +35,12 @@ The component is initialized after an AI model is bound to it.
 
  - **ModelId** (“AI model” in the properties panel): AI model information to which the component is bound.
  - **OriginalImage**: The original image before processing.
- - **FormContent**: The details of extracted form fields and tables. At component initialization (AI model binding step), the fields and tables that can be extracted by the models are populated:
-   - **Fields**:
-
-     ![Form fields screen](media/form-fields.png "Form fields screen")
-
-   - **Tables**:
-
-     ![Form tables screen](media/form-tables.png "Form tables screen")
+ - **Fields**: The extracted fields by the AI model.
+ - **Tables**: The extracted tables by the AI model. 
+ - **Results**: Contains all the outputs returned by the AI Model: fields, tables, confidence scores and bounding boxes. 
+ 
+>[!NOTE]
+> These properties changed recently; if you are not seeing these properties in your app, you will have to manually update the property names. [More information](powerapps-controls-2020wave1)
 
 ## Additional properties
 
