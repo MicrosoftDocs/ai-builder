@@ -33,10 +33,14 @@ The component is initialized once an AI model is bound to it.
 
  - **ModelId** (“AI model” in the properties panel): AI model information to which the component is bound.
  - **OriginalImage**: The original image before processing.
- - **VisionObjects**: The details of detected objects. For each object, these properties are available:
-    - **id** (populated at AI model binding)
-    - **displayName** (populated at AI model binding)
-    - **count** (populated after a detection)
+ - **GroupedResults**: The details of detected objects. For each object, these properties are available:
+    - **TagId** (populated at AI model binding)
+    - **TagName** (populated at AI model binding)
+    - **ObjectCount** (populated after a detection)
+ - **Results**: Contains all the outputs returned by the AI Model: tags, confidence scores and bounding boxes.
+
+>[!NOTE]
+> These properties changed recently; if you are not seeing these properties in your app, you will have to manually update the property names. [More information](powerapps-controls-2020wave1)
 
 ### Additional properties
  - **Text**: Text that appears on the button that activates the object detector.
