@@ -17,18 +17,18 @@ After each training, AI Builder uses the test data set to evaluate the quality a
 
 ## Accuracy grade
 
-AAI Builder shows a grade to help you  evaluate your model's accuracy. The decision about whether your model is ready to publish is one you have to make based on your unique needs and circumstances. AI Builder provides the following accuracy grades to help you make that judgment call.
+AI Builder shows a grade to help you  evaluate your model's accuracy. The decision about whether your model is ready to publish is one you have to make based on your unique needs and circumstances. AI Builder provides the following accuracy grades to help you make that judgment call.
 
 |Grade |Guidance  |
 |---------|---------|
 |A|This is an excellent grade.  It might still be possible to improve the model, but this is the best grade you can get. |
 |B|This is a good grade. The model is correct a lot of the time. Could it be improved? That depends on your unique circumstances, data, and requirements. |
 |C|The model is doing slightly better than a random guess. It might be acceptable for some applications, but in most cases, this is a model that you'd continue to tweak and improve.  |
-|D|Something's wrong. You model is no better than a random guess. There may be bias in the training data, or there's a field that is correlating directly to the answer. Fix your data before retraining. |
+|D|Something's wrong. Your model is no better than a random guess. There may be bias in the training data, or there's a field that is correlating directly to the answer. Fix your data before retraining. |
 
-Depending on the data distribution of your historical data, the actual accuracy rates that correspond to the above scores can vary. The difference accounts for the fact that the improvement relative to your baseline approval rate changes when you move that baseline.
+Depending on the distribution of your historical data, the actual accuracy rates that correspond to the above scores can vary. The difference accounts for the fact that the improvement relative to your baseline approval rate changes when you move that baseline.
 
-Let's say your model predicts business loan approval vs. denial. If your historical approval rate is 80%, an accuracy score of 92 would correspond to a B grade. But, if your historical approval rate is 50%, 92 would correspond to an A grade. That's because 92 is a much better improvement over 50% than it is over 80%, and you'd expect a random guess to be close to those percentages.
+Let's say your model predicts business loan approval vs. denial. If your historical approval rate is 80%, an accuracy score of 92% would correspond to a B grade. But, if your historical approval rate is 50%, that same 92% would correspond to an A grade. That's because 92% is a much better improvement over 50% than it is over 80%, and you'd expect a random guess to be close to those percentages.
 
 This example shows the accuracy ranges for each grade when the historical data contains different approval rates.
 
@@ -42,12 +42,12 @@ This example shows the accuracy ranges for each grade when the historical data c
 
 ## Training details
 
-For more information of training, select See details on the model's grade box. The following performance information is available:
+For more information of training, select **See details** on the model's grade box. The following performance information is available:
 
 - Accuracy grade
 - Accuracy score
 
-For information about additional features planned for this area, see release plans. 
+For information about additional features planned for this area, see [release plans](https://docs.microsoft.com/power-platform-release-plan/2020wave1/ai-builder/).
 
 <!-- Coming 4/13/2020 tentatively
 - Accuracy per outcome
