@@ -25,8 +25,13 @@ Create a canvas app and add the text recognizer AI Builder component to your scr
 
  - **OriginalImage**: The original image before processing. 
  - **Results**: The list of detected text lines. For each object, these properties are available of extracted form fields and tables. At component initialization (AI model binding step), the potential fields and tables that can be extracted by the models are populated:
+     - **BoundingBox**: The coordinates for detected text line.
+     - **PageNumber**: The number of the page where the detected text line is located.
      - **Text**: The detected text line.
- - **Selected.Text**: The text line selected by the user.
+ - **Selected**: The detected box selected by the user on the control.
+     - **BoundingBox**: The coordinates for detected text line selected by the user.
+     - **PageNumber**: The number of the page where the detected text line selected by the user is located.
+     - **Text**: The detected text line selected by the user.
 
 
 >[!NOTE]
