@@ -15,6 +15,7 @@ ms.reviewer: v-dehaas
 
 With the [announced improvements](https://powerapps.microsoft.com/en-us/blog/ai-builder-february-update/) to the AI Builder controls in the Power Apps canvas studio, some of the property names will change. Your existing apps will automatically update to use the new property names with no action required. If the automatic update is unsuccessful for some reason, here are the changes that would need to be made to your app:
 
+
 For the **Form Processor** control:
 
 |Previous property name | New Property name |
@@ -22,12 +23,16 @@ For the **Form Processor** control:
 |{Control Name}.FormContent.Fields |{Control Name}.Fields |
 |{Control Name}.FormContent.Tables |{Control Name}.Tables |
 
+
+
 For the **Text Recognizer** control:
 
 |Previous property name | New Property name |
 |:-------|:-------|
 |{Control Name}.SelectedText |{Control Name}.Selected.Text |
 |{Control Name}.OcrObjects.text |{Control Name}.Results.Text |
+
+
 
 For the **Object Detector** control:
 
