@@ -13,27 +13,52 @@ ms.reviewer: v-dehaas
 
 # Prediction model performance
 
-After each training, AI Builder uses the test data set to evaluate the quality and accuracy of the new model. A summary page for your model shows your model training result, including a Performance score.
+After each training, AI Builder uses the test data set to evaluate the quality and accuracy of the new model. A summary page for your model shows your model training result, including an Performance score.
 
-## Accuracy score
+## Accuracy grade
 
-AI Builder calculates the accuracy score for your model based on prediction result of the test data set. Before training, AI Builder separates your dataset into separate training data and testing data sets. And after training, AI Builder applies your AI model to the testing data set, and then calculates your accuracy score. For example: if your test data set has 200 records, and AI Builder correctly predicts 160 of them, AI Builder shows an accuracy score of 80%.
+AAI Builder shows a grade to help you  evaluate your model's accuracy. The decision about whether your model is ready to publish is one you have to make based on your unique needs and circumstances. AI Builder provides the following accuracy grades to help you make that judgment call.
+
+|Grade |Guidance  |
+|---------|---------|
+|A|This is an excellent grade.  It might still be possible to improve the model, but this is the best grade you can get. |
+|B|This is a good grade. The model is correct a lot of the time. Could it be improved? That depends on your unique circumstances, data, and requirements. |
+|C|The model is doing slightly better than a random guess. It might be acceptable for some applications, but in most cases, this is a model that you'd continue to tweak and improve.  |
+|D|Something's wrong. You model is no better than a random guess. There may be bias in the training data, or there's a field that is correlating directly to the answer. Fix your data before retraining. |
+
+Depending on the data distribution of your historical data, the actual accuracy rates that correspond to the above scores can vary. The difference accounts for the fact that the improvement relative to your baseline approval rate changes when you move that baseline.
+
+Let's say your model predicts business loan approval vs. denial. If your historical approval rate is 80%, an accuracy score of 92 would correspond to a B grade. But, if your historical approval rate is 50%, 92 would correspond to an A grade. That's because 92 is a much better improvement over 50% than it is over 80%, and you'd expect a random guess to be close to those percentages.
+
+This example shows the accuracy ranges for each grade when the historical data contains different approval rates.
+
+| Grade | Accuracy range for historical 25% approval rate | Accuracy range for historical 50% approval rate | Accuracy range for historical 80% approval rate | Accuracy range for historical 95% approval rate |
+|-------|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|
+| A | 92.5 - <99.3% | 90 – 98% | 93 – <99% | 98.1 - <99.8% |
+| B | 81.3 - <92.5% | 75 – <90% | 84 – <93% | 95.3 - <98.1% |
+| C | 66.3 - <81.3% | 55 – <75% | 71 – <84% | 91.5 - <95.3% |
+| D | <66.3% or ≥99.3% | <55% or ≥98% | <71% or ≥99% | <91.5% or ≥99.8% |
+
+
+## Training details
+
+For more information of training, select See details on the model's grade box. The following performance information is available:
+
+- Accuracy grade
+- Accuracy score
+
+For information about additional features planned for this area, see release plans. 
+
+<!-- Coming 4/13/2020 tentatively
+- Accuracy per outcome
+- Confusion matrix
+- Cumulative gains chart -->
+
+### Accuracy score
+
+AI Builder calculates the accuracy score for your model based on prediction result of the test data set. Before training, AI Builder separates your dataset into separate training data and testing data sets. And after training, AI Builder applies your AI model to the testing data set, and then calculates your accuracy score. For example: if your test data set has 200 records, and AI Builder correctly predicts 192 of them, AI Builder shows an accuracy score of 96%.
 
 For more information, see [Evaluate your model](manage-model.md#evaluate-your-model).
-
-## How is accuracy related to performance?
-
-Typically, a higher accuracy score means better model performance. However, keep in mind that an extremely high score could indicate issues with the relevance or bias of your training data. You must determine the appropriate level of accuracy for your intended use of the AI model.
-
-Here are some broad guidelines for assessing accuracy scores:
-
-|Score |Guidance  |
-|---------|---------|
-|<50%|Scores consistently below 50% mean that something's wrong with your model - it's wrong more often than a simple guess would be. Perhaps your data fields aren't mapped correctly, or you're using the wrong data. |
-|>50% |Scores consistently greater than 50% mean that your model performs better than a guess. The higher the score, the more accurate the model is.|
-|~100%|Scores consistently close to 100% could indicate bias in the training data, or that a field that is correlating directly to the answer. |
-
-If your scores are consistently between 50% – 100%, you have to assess whether the performance is appropriate for your intended use of the AI model. You'll have a different tolerance for inaccuracy depending on your AI model implementation. Whether your model is intended for marketing, predicting online shopper intention, or detecting fraud, you must decide the level of accuracy that makes it practical for the intended use.
 
 ## Improve prediction model performance
 
@@ -48,7 +73,7 @@ After you've trained and evaluated your model, it's time to tweak your model to 
 
 After each training, a list of top influencers appears on the model details page. Each field used in the training has a score to represent its influence on the training. These scores combined equal 100%.
 
-This helps show whether your model is trained as you expect. For example, if you want to predict online shoppers’ intention. And you’re expecting Age, Product as the most influential field, you should see that in the most influential field list in model details page. If not, it may indicate that the training result is not as expected. In this case, you can either deselect the irrelevant or misleading fields and retrain or check your training issues to see details.
+This helps show whether your model is trained as you expect. For example, if you want to predict online shoppers' intention. And you're expecting Age, Product as the most influential field, you should see that in the most influential field list in model details page. If not, it may indicate that the training result is not as expected. In this case, you can either deselect the irrelevant or misleading fields and retrain or check your training issues to see details.
 
 
 ### Add more data
@@ -57,7 +82,7 @@ The minimum requirement for training data is 50 records, but this doesn't mean 5
 
 ### Check your data distribution
 
-For example, if you are using two option label of *Yes* or *No*, and most of your data record only has a *Yes* in this field, it’s hard for your model to learn from this data. Try to have a distribution of options in your data that roughly reflects the distribution of the options you might expect see. For example, if you are looking at data fields for *cat_owner* and *dog_owner*, use a data distribution somewhere around 50%. If you are looking at fraudulent transactions, use a more imbalanced distribution - perhaps 95% - 5%. Look to industry standards for this type of information if you don't know what to expect.
+For example, if you are using two option label of *Yes* or *No*, and most of your data record only has a *Yes* in this field, it's hard for your model to learn from this data. Try to have a distribution of options in your data that roughly reflects the distribution of the options you might expect see. For example, if you are looking at data fields for *cat_owner* and *dog_owner*, use a data distribution somewhere around 50%. If you are looking at fraudulent transactions, use a more imbalanced distribution - perhaps 95% - 5%. Look to industry standards for this type of information if you don't know what to expect.
 
 ### Add more fields
 
