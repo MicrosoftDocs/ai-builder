@@ -36,7 +36,7 @@ The component is initialized after an AI model is bound to it.
  - **OriginalImage**: The original image before processing.
  - **Fields**: The extracted fields by the AI model.
  - **Tables**: The extracted tables by the AI model. 
- - **Results**: Contains all the outputs returned by the AI Model: fields, tables, confidence scores and bounding boxes. 
+ - **Results**: Contains all the outputs returned by the AI Model: fields, tables, confidence scores, page numbers and bounding boxes. 
  
 >[!NOTE]
 > These properties changed recently; if you are not seeing these properties in your app, you will have to manually update the property names. [More information](powerapps-controls-2020wave1)
