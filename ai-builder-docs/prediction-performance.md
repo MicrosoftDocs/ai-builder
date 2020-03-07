@@ -13,7 +13,7 @@ ms.reviewer: v-dehaas
 
 # Prediction model performance
 
-After each training, AI Builder uses the test data set to evaluate the quality and accuracy of the new model. A summary page for your model shows your model training result, including an Performance score.
+After each training, AI Builder uses the test data set to evaluate the quality and accuracy of the new model. A summary page for your model shows your model training result, including an accuracy grade.
 
 ## Accuracy grade
 
