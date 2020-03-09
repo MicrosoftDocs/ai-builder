@@ -31,9 +31,7 @@ AI Builder provides two kinds of Power Apps components, depending on the models 
 
 The canvas components are available in the canvas studio and appear in the **Insert** tab when you build your canvas app in Power Apps.
 
-- More information about: [canvas apps](/powerapps/maker/canvas-apps/getting-started)
-
-- More information about: [model-driven apps](/powerapps/maker/model-driven-apps/model-driven-app-overview)
+- More information: [Canvas apps](/powerapps/maker/canvas-apps/getting-started) and [model-driven apps](/powerapps/maker/model-driven-apps/model-driven-app-overview)
 
 ### Related content
 
