@@ -31,7 +31,7 @@ landingContent:
        - linkListType: learn
          links:
           - text: Learn AI Builder
-            url: /learn/modules/get-started-with-ai-builder/
+            url: /learn/browse/?products=ai-builder
        - linkListType: video
          links:
           - text: Overview of AI Builder capabilities
