@@ -30,7 +30,7 @@ landingContent:
             url: model-types.md
        - linkListType: learn
          links:
-          - text: AI Builder learning modules
+          - text: Learn AI Builder
             url: /learn/modules/get-started-with-ai-builder/
        - linkListType: video
          links:
