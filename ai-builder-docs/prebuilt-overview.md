@@ -28,6 +28,6 @@ Prebuilt models are available in Power Automate and Power Apps, depending on the
 
 ### Related content
 
-- [AI Builder in Power Automate](use-in-flow-overview)
-- [AI Builder in Power Apps](use-in-powerapps-overview)
+- [AI Builder in Power Automate](use-in-flow-overview.md)
+- [AI Builder in Power Apps](use-in-powerapps-overview.md)
 - [Feature availability by region](availability-region.md)
