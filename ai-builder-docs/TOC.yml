@@ -104,6 +104,8 @@
     href: prebuilt-overview.md
   - name: Business card reader
     href: prebuilt-business-card.md
+  - name: Entity extraction (Preview)
+    href: prebuilt-entity-extraction.md
   - name: Key phrase extraction (Preview)
     href: prebuilt-key-phrase.md
   - name: Language detection (Preview)

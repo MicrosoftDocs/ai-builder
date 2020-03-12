@@ -11,24 +11,77 @@ ms.author: alanab
 ms.reviewer: v-dehaas
 ---
 
-# Preview: Key phrase extraction model
+# Preview: Entity extraction model
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-The key phrase extraction model identifies the main points in a text document. For example, given input text "The food was delicious and there were wonderful staff", the service returns the main talking points: "food" and "wonderful staff". This model can extract a list of key phrases from unstructured text documents. 
+The entity extraction prebuilt model recognizes specific data from text that is of interest t -your business.  The model identifies key elements from text, and then classifies them int -pre-defined categories. This can help t -transform unstructured data int -structured data that is machine readable.  You can then apply processing t -retrieve information, extract facts, and answer questions.
 
 ## Use in Power Automate
 
-If you want to use this prebuilt model in Power Automate, you can find more information in [Use key phrase extraction model in Power Automate](flow-key-phrase-extraction.md).  
+If you want t -use this prebuilt model in Power Automate, you can find more information in [Use an entity extraction model in Power Automate](power-automate-entity-extraction.md).  
  
-## Supported language and data format
+## Supported data format and languages
 
-- Documents can't exceed 5,120 characters.  
-- For information on language support, see [Language and region support for the text analytics API](/azure/cognitive-services/text-analytics/language-support?#sentiment-analysis-key-phrase-extraction-and-named-entity-recognition).
+- Documents can't exceed 5,000 characters.  
+- Supported languages:
+
+  - English
+  - Chinese- Simplified
+  - French
+  - German
+  - Portuguese
+  - Italian
+  - Japanese
+  - Spanish
+
+
+## Supported entity types
+
+
+|Entity  |Description |
+|---------|---------|
+|Age|Age of a person, place, or thing, extracted as a number|
+|Boolean|Positive or negative responses, extracted as a Boolean|
+|City|City names, extracted as a string|
+|Color|Primary colors and hues on the color spectrum, extracted as a string|
+|Continent|Continent names, extracted as a string|
+|Country or region|Country and region names, extracted as a string|
+|Date and time|Dates, times, days of the week, and months relative to a point in time, extracted as a string|
+|Duration|Lengths of time, extracted as a string, in standard TimeSpan format|
+|Email|Email addresses, extracted as a string|
+|Event|Event names, extracted as a string|
+|Language|Language names, extracted as a string|
+|Money|Monetary amounts, extracted as a number|
+|Number|Cardinal numbers in numeric or text form, extracted as a number|
+|Ordinal|Ordinal numbers in numeric or text form, extracted as a number|
+|Organization|Names of organizations, associations, and corporations, extracted as a string|
+|Percentage|Percentages in numerical or text form, extracted as a number|
+|Person name|A person's partial or full name, extracted as a string|
+|Phone number|Phone numbers in the standard US format, extracted as strings|
+|Point of interest|Points of interest, extracted as a string|
+|Speed|Speed, extracted as a number|
+|State|Names and abbreviations for the United States, extracted as a string|
+|Street address|Numbered addresses, streets or roads, city, state, zip or postal code in the standard US format, extracted as a string|
+|Temperature|Temperature, extracted as a number|
+|URL|Website URLs and links, extracted as a string|
+|Weight|Weight, extracted as a number|
+|Zip code|Zip codes in the standard US format, extracted as a string|
+
 
 ## Model output
 
-If text is detected, the key phrase extraction model will output the following information:
+The model output shows the identified entities and their entity types. For example:
 
-- **Results**: A list of phrases from the document
-- **Phrase**: Strings denoting the key talking points in the document text
+**Input text:** "Utility costs have increased by 7% at our Boston office"
+
+**Model output entities:**
+
+|Entity |Entity type |
+|---------|---------|
+|7%    | Percentage  |
+|Boston  |City   |
+
+### Next step:
+
+[Use an entity extraction model in Power Automate](power-automate-entity-extraction.md).  
