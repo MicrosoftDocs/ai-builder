@@ -1,13 +1,13 @@
 ---
-title: Key phrase extraction prebuilt AI model -  AI Builder | Microsoft Docs
+title: Entity extraction prebuilt AI model -  AI Builder | Microsoft Docs
 description: Describes the prebuilt AI models that are available in AI Builder.
-author: alanabrito
+author: mfotedar
 manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/04/2019
-ms.author: alanab
+ms.date: 3/19/2019
+ms.author: mfotedar
 ms.reviewer: v-dehaas
 ---
 
