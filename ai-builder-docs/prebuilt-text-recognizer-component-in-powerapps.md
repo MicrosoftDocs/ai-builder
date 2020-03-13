@@ -33,14 +33,13 @@ Create a canvas app and add the text recognizer AI Builder component to your scr
      - **PageNumber**: The number of the page where the detected text line selected by the user is located.
      - **Text**: The detected text line selected by the user.
 
-
->[!NOTE]
-> These properties changed recently; if you are not seeing these properties in your app, you will have to manually update the property names. [More information](powerapps-controls-2020wave1)
+    > [!NOTE]
+    > Some of these property names changed with the April 2020 updates. If you are not seeing these properties in your app, you will have to manually update the property names. More information: 
  
 ## Additional properties
 
  - **Text**: Text that appears on the button that activates the text recognizer.
- - **ImageDisplayed** (“Show image” in the properties panel): Whether the component displays the image or not. When set to ON, rectangles are displayed around field values detected in the image.
+ - **ImageDisplayed** ("Show image" in the properties panel): Whether the component displays the image or not. When set to ON, rectangles are displayed around field values detected in the image.
  - **DisplayMode**:
      - **Edit**: Allows user input.
      - **View**: Only displays data.
