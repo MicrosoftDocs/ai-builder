@@ -158,8 +158,6 @@
       href: business-card-reader-component-in-powerapps.md
     - name: Use in a model-driven app
       href: business-card-reader-component-model-driven.md
-  - name: Update notice on 2020 release wave 1
-    href: powerapps-controls-2020wave1.md
 - name: Administration and security
   items:
   - name: Administer AI Builder
