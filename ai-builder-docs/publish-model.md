@@ -33,8 +33,11 @@ Publish your model when you want to make it available to users in your Power App
 
 If you're satisfied with your model, you can publish it to make it available. Because you can only have up to two trained versions available at a time, you might publish a version because you don't want it to be overwritten by a new version.
 
+## Next step
+
+[Use your AI Builder model](use-model.md)
+
 ### Related topics
 
-[Use AI Builder in Power Automate](use-in-flow-overview.md)
-
-[Use AI Builder in Power Apps](use-in-powerapps-overview.md)
+- [Use AI Builder in Power Automate](use-in-flow-overview.md)
+- [Use AI Builder in Power Apps](use-in-powerapps-overview.md)

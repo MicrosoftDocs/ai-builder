@@ -6,7 +6,7 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/06/2019
+ms.date: 03/10/2020
 ms.author: raaourik 
 ms.reviewer: v-dehaas
 ---
@@ -26,6 +26,13 @@ Text classification is one of the fundamental natural language processing (NLP) 
 
 Automate and scale your business processes with AI Builder text classification in [Power Automate](https://flow.microsoft.com/) and [Power Apps](https://powerapps.microsoft.com/). AI Builder models help free your employees to act on new insights. Use the results as an input for other AI capabilities, like subscription user churn and predictive analysis. AI Builder learns from your previously labeled text items, and enables you to classify unstructured text data stored in Common Data Service into your own business-specific categories.
 
+### Next steps
+
+- [Before you build a text classification model](before-you-build-text-classification-model.md)
+- [Create a text classification model](create-text-classification-model.md)
+
 ### Related content
 
+- [Use text classification model in Power Automate](text-classification-model-in-flow.md)
+- [Use the text recognizer component in Power Apps](prebuilt-text-recognizer-component-in-powerapps.md)
 - [Feature availability by region](availability-region.md)

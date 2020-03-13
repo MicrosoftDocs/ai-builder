@@ -39,6 +39,10 @@ Learn how to run now for your model type:
 
 Insert an AI Builder component to a canvas app. See [AI Builder in Power Apps overview](use-in-powerapps-overview.md).
 
+### Next step
+
+[Share your AI Builder model](share-model.md)
+
 ### Related topics
 
 [Use AI Builder in Power Automate](use-in-flow-overview.md) <br>
