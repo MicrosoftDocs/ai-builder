@@ -34,7 +34,7 @@ Create a canvas app and add the text recognizer AI Builder component to your scr
      - **Text**: The detected text line selected by the user.
 
     > [!NOTE]
-    > Some of these property names changed with the April 2020 updates. If you are not seeing these properties in your app, you will have to manually update the property names. More information: 
+    > Some of these property names changed with the April 2020 updates. If you are not seeing these properties in your app, you will have to manually update the property names. More information: [Property name changes in AI Builder components in canvas apps](use-in-powerapps-overview.md#property-name-changes-in-ai-builder-components-in-canvas-apps)
  
 ## Additional properties
 
