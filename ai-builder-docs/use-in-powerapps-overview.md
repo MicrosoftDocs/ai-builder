@@ -32,7 +32,7 @@ The AI Builder components for canvas apps are available in the Power Apps Studio
 
 ## Property name changes in AI Builder components for canvas apps
 
-With the [AI Builder component improvements](https://powerapps.microsoft.com/blog/ai-builder-february-update/) released in April 2020, some of the property names in the components have changed. In most cases, your existing apps will be automatically updated to use the new property names without any action required from you. However, in cases where the automatic updates to your app is unsuccessful, here are the property name changes you must make in your apps:
+With the [AI Builder component improvements](https://powerapps.microsoft.com/blog/ai-builder-february-update/) released in April 2020, some of the property names in the AI Builder components for canvas apps have changed. In most cases, your existing apps will be automatically updated to use the new property names without any action required from you. However, in cases where the automatic updates to your app is unsuccessful, here are the property name changes you must make in your apps:
 
 
 - For the [form processor](form-processor-component-in-powerapps.md) component:
