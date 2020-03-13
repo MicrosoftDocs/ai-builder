@@ -32,7 +32,7 @@ The component is initialized after an AI model is bound to it.
 
 ## Key properties
 
- - **ModelId** (“AI model” in the properties panel): AI model information to which the component is bound.
+ - **ModelId** ("AI model" in the properties panel): AI model information to which the component is bound.
  - **OriginalImage**: The original image before processing.
  - **Fields**: The extracted fields by the AI model.
  - **Tables**: The extracted tables by the AI model. 
@@ -42,19 +42,19 @@ The component is initialized after an AI model is bound to it.
     - **PageNumber** The number of the page where the extracted text is located.
     - **Value** The extracted text value.
  
->[!NOTE]
-> These properties changed recently; if you are not seeing these properties in your app, you will have to manually update the property names. [More information](powerapps-controls-2020wave1)
+    > [!NOTE]
+    > Some of these property names changed with the April 2020 updates. If you are not seeing these properties in your app, you will have to manually update the property names. More information: [Property name changes in AI Builder components in canvas apps](use-in-powerapps-overview.md#property-name-changes-in-ai-builder-components-in-canvas-apps)
 
 ## Additional properties
 
 - **Text**: Text that appears on the button that activates the form processor.
-- **ImageDisplayed** (“Show image” in the properties panel): Whether or not the component displays the image. When set to ON, rectangles are displayed around field values detected in the image.
+- **ImageDisplayed** ("Show image" in the properties panel): Whether or not the component displays the image. When set to ON, rectangles are displayed around field values detected in the image.
 
 - Three different colors can be used to draw the rectangle depending on the confidence level:
      - **Red**: Confidence level is between 0 percent and 39 percent.
      - **Orange**: Confidence level is between 40 percent and 59 percent.
      - **Blue**: Confidence level is between 60 percent and 100 percent.
-- **ShowConfidence** (“Show confidence” in the properties panel): Whether the component displays confidence levels along with the rectangles in the image or not.
+- **ShowConfidence** ("Show confidence" in the properties panel): Whether the component displays confidence levels along with the rectangles in the image or not.
 - **DisplayMode**:
      - **Edit**: Allows user input.
      - **View**: Only displays data.
