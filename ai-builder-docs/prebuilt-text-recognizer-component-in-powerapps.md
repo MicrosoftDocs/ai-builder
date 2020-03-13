@@ -18,8 +18,7 @@ ms.reviewer: v-dehaas
 Create a canvas app and add the text recognizer AI Builder component to your screen. This component takes a photo or loads an image from the local device, and then processes it to detect and extract text based on the text recognition prebuilt AI model. If it detects text in the image, the component outputs the text and identifies the instances with rectangles in the image.
 
  > [!NOTE]
- >
- > - Find more information about canvas apps [here](/powerapps/maker/canvas-apps/getting-started).
+ > For information about canvas apps, see [What are canvas apps in Power Apps?](/powerapps/maker/canvas-apps/getting-started).
 
 ## Key properties
 
@@ -34,7 +33,7 @@ Create a canvas app and add the text recognizer AI Builder component to your scr
      - **Text**: The detected text line selected by the user.
 
     > [!NOTE]
-    > Some of these property names changed with the April 2020 updates. If you are not seeing these properties in your app, you will have to manually update the property names. More information: [Property name changes in AI Builder components in canvas apps](use-in-powerapps-overview.md#property-name-changes-in-ai-builder-components-in-canvas-apps)
+    > Some of these property names changed with the April 2020 updates. If you are not seeing these properties in your app, you will have to manually update the property names. More information: [Property name changes in AI Builder components for canvas apps](use-in-powerapps-overview.md#property-name-changes-in-ai-builder-components-for-canvas-apps)
  
 ## Additional properties
 

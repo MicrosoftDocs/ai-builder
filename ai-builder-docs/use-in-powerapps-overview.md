@@ -43,14 +43,14 @@ With the [AI Builder component improvements](https://powerapps.microsoft.com/blo
     |{Control Name}.FormContent.Tables |{Control Name}.Tables |
 
 
-- For the [text recognizer](prebuilt-text-recognizer-component-in-powerapps) component:
+- For the [text recognizer](prebuilt-text-recognizer-component-in-powerapps.md) component:
 
     |Previous property name | New Property name |
     |:-------|:-------|
     |{Control Name}.SelectedText |{Control Name}.Selected.Text |
     |{Control Name}.OcrObjects.text |{Control Name}.Results.Text |
 
-- For the [object detector](object-detector-component-in-powerapps) component:
+- For the [object detector](object-detector-component-in-powerapps.md) component:
 
     |Previous property name | New Property name |
     |:-------|:-------|

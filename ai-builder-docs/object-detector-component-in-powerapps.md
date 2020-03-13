@@ -18,8 +18,7 @@ ms.reviewer: v-dehaas
 The object detection component takes a photo or loads an image file to do an object detection scan. On a mobile device, the user chooses between taking a photo or selecting one already available in the device user interface. When an image is selected, the component automatically scans it to identify objects.
 
  > [!NOTE]
- >
- > - Find more information about canvas apps in the [What are canvas apps in PowerApps?](/powerapps/maker/canvas-apps/getting-started).
+ > For information about canvas apps, see [What are canvas apps in PowerApps?](/powerapps/maker/canvas-apps/getting-started).
 
 ## Prerequisites
 
@@ -31,7 +30,7 @@ The component is initialized once an AI model is bound to it.
 
 ### Key properties
 
- - **ModelId** (“AI model” in the properties panel): AI model information to which the component is bound.
+ - **ModelId** ("AI model" in the properties panel): AI model information to which the component is bound.
  - **OriginalImage**: The original image before processing.
  - **GroupedResults**: The details of detected objects. For each object, these properties are available:
     - **TagId** The id of the object detected.
@@ -43,12 +42,12 @@ The component is initialized once an AI model is bound to it.
     - **TagId** The id of the object detected.
     - **TagName** The name of the object detected.
 
->[!NOTE]
-> These properties changed recently; if you are not seeing these properties in your app, you will have to manually update the property names. [More information](powerapps-controls-2020wave1)
+    > [!NOTE]
+    > Some of these property names changed with the April 2020 updates. If you are not seeing these properties in your app, you will have to manually update the property names. More information: [Property name changes in AI Builder components for canvas apps](use-in-powerapps-overview.md#property-name-changes-in-ai-builder-components-for-canvas-apps)
 
 ### Additional properties
  - **Text**: Text that appears on the button that activates the object detector.
- - **ImageDisplayed** (“Show image” in the properties panel): Whether or not the component displays the image.
+ - **ImageDisplayed** ("Show image" in the properties panel): Whether or not the component displays the image.
  - **DisplayMode**:
     - **Edit**: Allows user input.
     - **View**: Only displays data. 
