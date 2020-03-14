@@ -19,7 +19,7 @@ The entity extraction prebuilt model recognizes specific data from text that is 
 
 ## Use in Power Automate
 
-If you want t -use this prebuilt model in Power Automate, you can find more information in [Use an entity extraction model in Power Automate](power-automate-entity-extraction.md).  
+If you want t -use this prebuilt model in Power Automate, you can find more information in [Use an entity extraction model in Power Automate](prebuilt-entity-extraction-pwr-automate.md).  
  
 ## Supported data format and languages
 
@@ -35,9 +35,7 @@ If you want t -use this prebuilt model in Power Automate, you can find more info
   - Japanese
   - Spanish
 
-
 ## Supported entity types
-
 
 |Entity  |Description |
 |---------|---------|
