@@ -134,6 +134,8 @@
     items:
     - name: Business card reader model
       href: flow-business-card-reader.md
+    - name: Entity extraction model
+      href: prebuilt-entity-extraction-pwr-automate.md
     - name: Key phrase extraction model (Preview)
       href: flow-key-phrase-extraction.md
     - name: Language detection model (Preview)
