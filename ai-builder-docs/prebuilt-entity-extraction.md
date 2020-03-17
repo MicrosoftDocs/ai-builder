@@ -15,11 +15,13 @@ ms.reviewer: v-dehaas
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-The entity extraction prebuilt model recognizes specific data from text that is of interest t -your business.  The model identifies key elements from text, and then classifies them int -pre-defined categories. This can help t -transform unstructured data int -structured data that is machine readable.  You can then apply processing t -retrieve information, extract facts, and answer questions.
+The entity extraction prebuilt model recognizes specific data from text that is of interest to your business.  The model identifies key elements from text, and then classifies them into pre-defined categories. This can help to transform unstructured data into structured data that is machine readable.  You can then apply processing to retrieve information, extract facts, and answer questions.
+
+You can try out the entity extraction model before you decide to import it into your flow by using the try it out functionality.
 
 ## Use in Power Automate
 
-If you want t -use this prebuilt model in Power Automate, you can find more information in [Use an entity extraction model in Power Automate](prebuilt-entity-extraction-pwr-automate.md).  
+If you want to use this prebuilt model in Power Automate, you can find more information in [Use an entity extraction model in Power Automate](prebuilt-entity-extraction-pwr-automate.md).  
  
 ## Supported data format and languages
 
