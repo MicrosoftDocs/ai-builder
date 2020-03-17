@@ -17,7 +17,15 @@ ms.reviewer: v-dehaas
 
 The entity extraction prebuilt model recognizes specific data from text that is of interest to your business.  The model identifies key elements from text, and then classifies them into pre-defined categories. This can help to transform unstructured data into structured data that is machine readable.  You can then apply processing to retrieve information, extract facts, and answer questions.
 
-You can try out the entity extraction model before you decide to import it into your flow by using the try it out functionality.
+## Explore entity extraction
+
+You can try out the entity extraction model before you decide to import it into your flow by using the 'try it out' feature.
+
+1. Sign in to [Power Apps](https://make.powerapps.com).
+1. In the left navigation pane, select **AI Builder** > **Build**.
+1. Under **Get straight to productivity**, select **Entity Extraction**.
+1. In the **Entity Extraction** window, select **Try it out**. 
+1. Select predefined text samples to analyze, or add your own text in the **Add your own here** box to see how the model analyzes your text.
 
 ## Use in Power Automate
 
