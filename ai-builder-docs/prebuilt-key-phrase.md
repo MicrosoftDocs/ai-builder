@@ -15,7 +15,17 @@ ms.reviewer: v-dehaas
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-The key phrase extraction model identifies the main points in a text document. For example, given input text "The food was delicious and there were wonderful staff", the service returns the main talking points: "food" and "wonderful staff". This model can extract a list of key phrases from unstructured text documents. 
+The key phrase extraction model identifies the main points in a text document. For example, given input text "The food was delicious and there were wonderful staff", the service returns the main talking points: "food" and "wonderful staff". This model can extract a list of key phrases from unstructured text documents.
+
+## Explore key phrase extraction
+
+You can try out the key phrase extraction model before you decide to import it into your flow by using the 'try it out' feature.
+
+1. Sign in to [Power Apps](https://make.powerapps.com).
+1. In the left navigation pane, select **AI Builder** > **Build**.
+1. Under **Get straight to productivity**, select **Key Phrase Extraction**.
+1. In the **Key Phrase Extraction** window, select **Try it out**. 
+1. Select predefined text samples to analyze, or add your own text in the **Add your own here** box to see how the model analyzes your text.
 
 ## Use in Power Automate
 
@@ -24,7 +34,7 @@ If you want to use this prebuilt model in Power Automate, you can find more info
 ## Supported language and data format
 
 - Documents can't exceed 5,120 characters.  
-- For information on language support, see [Language and region support for the text analytics API](/azure/cognitive-services/text-analytics/language-support?#sentiment-analysis-key-phrase-extraction-and-named-entity-recognition).
+- For information on language support, see [Language and region support for the text analytics API](/azure/cognitive-services/text-analytics/language-support?#sentiment-analysis-key-phrase-extraction-and-named-key phrase-recognition).
 
 ## Model output
 
