@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ai-builder-docs/prediction-model-in-flow.md",
+      "redirect_url": "use-in-flow-overview",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ai-builder-docs/binary-classification-data-prep.md",
       "redirect_url": "prediction-data-prep",
       "redirect_document_id": "false"
