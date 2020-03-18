@@ -13,8 +13,6 @@ ms.reviewer: v-dehaas
 
 # View predictions
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
-
 This section shows you how to see output of your prediction model.
 
 1. After you select **Use Model** and configure it to run on Common Data Service, the output location appears in the **Settings** pane under the **Run** pivot.

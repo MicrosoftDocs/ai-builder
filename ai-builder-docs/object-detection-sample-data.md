@@ -13,7 +13,6 @@ ms.reviewer: v-dehaas
 
 # Use sample data to do object detection
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
 To explore the possibilities of object detection in AI Builder, you can get started by building and training an object detection model using sample pictures and labels.
 

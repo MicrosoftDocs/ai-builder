@@ -11,9 +11,7 @@ ms.author: jofernan
 ms.reviewer: v-dehaas
 ---
 
-# Preview: Overview of form processing model
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
+# Overview of form processing model
 
 AI Builder form processing allows you to create AI models that use machine learning technology to identify and extract key-value pairs and table data from form documents.
 

@@ -13,7 +13,6 @@ ms.reviewer: v-dehaas
 
 # Use form processing model in Power Automate
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
  > [!IMPORTANT]
  > To use AI Builder models in Power Automate, you have to create the flow inside a solution. The steps below won't work if you don't follow these instructions first: [Create a flow in a solution](/flow/create-flow-solution).
@@ -49,7 +48,7 @@ ms.reviewer: v-dehaas
     > [!div class="mx-imgBorder"]
     > ![Select file content](media/flow-select-file-content.png "Select file content")
 
-1. In the successive actions, you can use any fields and tables extracted by the AI Builder model. For example, let’s say that our model is trained to extract the *Invoice Id* and the *Total Amount* value, and we want to post those to a Microsoft Teams channel. Just add the **Post a message to Teams** action, and then select your fields in the list of tokens  .
+1. In the successive actions, you can use any fields and tables extracted by the AI Builder model. For example, let's say that our model is trained to extract the *Invoice Id* and the *Total Amount* value, and we want to post those to a Microsoft Teams channel. Just add the **Post a message to Teams** action, and then select your fields in the list of tokens  .
 
     > [!NOTE]
     >

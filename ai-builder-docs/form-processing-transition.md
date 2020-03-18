@@ -13,7 +13,6 @@ ms.reviewer: v-dehaas
 
 # Transition to the new form processing model version
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
 AI Builder is improving its form processing model using a new model version. Your form processing preview models created before March 5, 2020 are deprecated. More information: [Form processing and object detection preview models in AI Builder are deprecated](/power-platform/important-changes-coming#form-processing-and-object-detection-preview-models-in-ai-builder-are-deprecated)
 
