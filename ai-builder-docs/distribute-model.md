@@ -6,7 +6,7 @@ manager: cdbellar
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/30/2019
+ms.date: 04/01/2020
 ms.author: antode
 ms.reviewer: v-dehaas
 ---
@@ -14,6 +14,8 @@ ms.reviewer: v-dehaas
 # Distribute an AI model
 
 You can distribute an AI model as a solution component. After you create a model in AI Builder, make it available for other environments to use by packaging it into a solution, and then exporting it into a zip file. After the solution is  imported in the target environment, the packaged AI model is available for use.
+
+For more information on Solutions, see [Introduction to Solutions](/powerapps/developer/common-data-service/introduction-solutions).
 
 ## Solution explorer
 
@@ -23,20 +25,36 @@ For more information, see [Use solutions in Power Apps](/powerapps/maker/common-
 
 ## Recommended process
 
-AI models should be developed in a production sandbox environment and deployed in a production environment using managed solutions. You can copy a production environment to a different environment by following [these instructions](/power-platform/admin/copy-environment).
+It's a good idea to develop AI models in a sandbox or development environment first. Then, deploy them to a production environment using managed solutions. If you need to copy your production environment into a sandbox environment, you can follow [these instructions](/power-platform/admin/copy-environment).
 
-Avoid training or configuration changes of AI models after you import them to a production environment. Doing so would add unmanaged customizations that would prevent proper update of the AI models in the future.
+This process allows you to use the model directly after import: perform a quick test in AI Builder, use in Power Apps, use in Power Automate. No additional action is required.
 
-For more information, see [Introduction to Solutions](/powerapps/developer/common-data-service/introduction-solutions).
+Note that you have to publish a model before you can add it to a Solution.
+
+## AI model customizations
+
+Before you export your model, it's a good idea to disable customization.  By default, users can make changes to the model after they import it.
+
+Disable customization in the managed properties of your AI model before you export it. Once you've disabled customization, your model will include a note that you have limited the possible actions on the models.
+
+## Changes to imported models
+
+It's not recommended to make changes to the model after importing it (possible when models are customizable). Unmanaged customizations can prevent proper update of the models in the future.  
+
+Changes encompass update of model's basic information, retraining, rescheduling or republishing.
+If you accidentally perform actions after import, you can delete the imported solution, and then import you're the solution again.
+
+## Importing status
+
+For object detection and forms processing models, the import process may continue after import action is finished. In this case "Importing" appears in the AI Builder model's list page. This is normal and can last several minutes.
 
 ## Limitations
 
-- You can't export an AI Builder preview model in a solution.
-- You can't export an unpublished AI Builder model in a solution.
-- You can't delete an imported solution that contains an AI Builder preview model in solution explorer.
-- You can't upgrade a solution that contains an AI Builder model.
-- Imported AI Builder models don't show performance information on the model details page.
-- An AI Builder model’s managed properties can’t be modified. They're set to customizable by default.
-- Imported model attributes are created with the **new_** attribute, not the default publisher attribute.
-- You can't create a new AI Builder model in solution explorer.
-- You can't modify an AI Builder model's properties in solution explorer.
+- Import of solutions containing forms processing models is not currently available.
+- Only published   models can be added in a solution.
+- For object detection and forms processing, only models trained after April 1st, 2020 can be added in a solution.
+- Import of an object detection or forms processing model should be done within 1 month of export. However, you can still import after that period if the source model remains unchanged after its export.
+- Changes to imported models are not recommended.
+- If you are using a model within a Power App   or a Power Automate flow, you need to explicitly add the app and the model in the solution. The model is not considered as a dependency of the app.
+- You can't create a new version of an imported object detection models because training data set is not part of the imported solution. You will be suggested to create a new model instead.
+- You can't create a new AI Builder model in solution explorer.  
