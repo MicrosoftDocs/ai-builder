@@ -120,8 +120,6 @@
     href: use-in-flow-prereq.md
   - name: Use a custom AI Builder model in Power Automate
     items:
-    - name: Prediction model 
-      href: prediction-model-in-flow.md
     - name: Text classification model
       href: text-classification-model-in-flow.md
     - name: Form processing model
