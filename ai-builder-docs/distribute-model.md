@@ -27,7 +27,7 @@ For more information, see [Use solutions in Power Apps](/powerapps/maker/common-
 
 It's a good idea to develop AI models in a sandbox or development environment first. Then, deploy them to a production environment using managed solutions. If you need to copy your production environment into a sandbox environment, you can follow [these instructions](/power-platform/admin/copy-environment).
 
-This process allows you to use the model directly after import: perform a quick test in AI Builder, use in Power Apps, use in Power Automate. No additional action is required.
+This process allows you to use the model directly after you import it. No additional action is required to use it in Power Apps or Power Automate, but it's a good idea to perform a quick-test in AI Builder first. 
 
 Note that you have to publish a model before you can add it to a Solution.
 
@@ -39,22 +39,22 @@ Disable customization in the managed properties of your AI model before you expo
 
 ## Changes to imported models
 
-It's not recommended to make changes to the model after importing it (possible when models are customizable). Unmanaged customizations can prevent proper update of the models in the future.  
+It's not recommended to make changes to the model after importing it, which is possible when models are customizable. Unmanaged customizations can prevent proper update of the models in the future.  
 
-Changes encompass update of model's basic information, retraining, rescheduling or republishing.
-If you accidentally perform actions after import, you can delete the imported solution, and then import you're the solution again.
+These changes include updating the model's basic information, retraining, rescheduling, or republishing.
+If you accidentally perform actions after import, just delete the imported solution, and then import the solution again.
 
 ## Importing status
 
-For object detection and forms processing models, the import process may continue after import action is finished. In this case "Importing" appears in the AI Builder model's list page. This is normal and can last several minutes.
+For object detection and form processing models, the import process may continue after import action is finished. In this case "Importing" appears in the AI Builder model's list page. This is normal and can last several minutes.
 
 ## Limitations
 
-- Import of solutions containing forms processing models is not currently available.
-- Only published   models can be added in a solution.
-- For object detection and forms processing, only models trained after April 1st, 2020 can be added in a solution.
-- Import of an object detection or forms processing model should be done within 1 month of export. However, you can still import after that period if the source model remains unchanged after its export.
+- Import of solutions containing form processing models is not currently available.
+- Only published models can be added in a solution.
+- For object detection and form processing, only models trained after April 1st, 2020 can be added in a solution.
+- Import of an object detection or form processing model should be done within 1 month of export. However, you can still import after that period if the source model remains unchanged after its export.
 - Changes to imported models are not recommended.
-- If you are using a model within a Power App   or a Power Automate flow, you need to explicitly add the app and the model in the solution. The model is not considered as a dependency of the app.
-- You can't create a new version of an imported object detection models because training data set is not part of the imported solution. You will be suggested to create a new model instead.
+- If you are using a model within a Power App or a Power Automate flow, you need to explicitly add the app and the model in the solution. The model is not considered an app or flow dependency.
+- You can't create a new version of an imported object detection model because the training data set is not part of the imported solution. You should create a new model instead.
 - You can't create a new AI Builder model in solution explorer.  
