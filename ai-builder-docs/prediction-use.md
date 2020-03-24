@@ -33,7 +33,8 @@ When you select on the link under **Database Sync**, the screen below lists sche
 
 You can set the run or retrain cadence to daily, weekly, or mMonthly. If you don't want run prediction or retrain at this time, you might just set it to never. This is useful if you have data issues upstream and do not want impact business processes, or if you just do not want to use the model.
 
-> [!NOTE]  When you schedule your model to retrain, it creates a flow to schedule the training. It is a good idea to not update the flow associated to the AI builder retrain schedule. AI Builder manages the flow through the schedule retrain experience.
+> [!NOTE]  
+> When you schedule your model to retrain, it creates a flow to schedule the training. It is a good idea to not update the flow associated to the AI builder retrain schedule. AI Builder manages the flow through the schedule retrain experience.
 
 If you make any changes to the AI Builder **schedule > retrain** settings, the associated flow is replaced with a new one.
 
