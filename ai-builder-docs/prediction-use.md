@@ -1,6 +1,6 @@
 ---
-title: Schedule your prediction model to retrain and run-  AI Builder | Microsoft Docs
-description: Describes the schedule feature, which allows you to automatically retrain and run your prediction model at the cadence you choose. 
+title: Use your prediction model -  AI Builder | Microsoft Docs
+description: Describes how to run yor model. Provides information about the schedule feature, which allows you to automatically retrain and run your prediction model at the cadence you choose. 
 author: Dean-Haas
 manager: kvivek
 ms.service: powerapps
@@ -10,6 +10,10 @@ ms.date: 04/02/2020
 ms.author: rajvirk
 ms.reviewer: v-dehaas
 ---
+
+## Prediction run
+
+To run your prediction model, just go to the model settings page and select **Run now**.
 
 # Schedule retrain and run
 

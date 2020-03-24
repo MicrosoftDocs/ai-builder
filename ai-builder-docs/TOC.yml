@@ -41,13 +41,17 @@
   - name: Create a prediction model
     href: prediction-create-model.md
   - name: Train and publish your prediction model
-    href: prediction-train-model.md
-  - name: Use sample data
-    href: prediction-sample-data.md
-  - name: Training errors and issues
-    href: prediction-training-report.md
-  - name: Prediction model performance
-    href: prediction-performance.md
+    items:
+    - name: Train and publish
+      href: prediction-train-model.md
+    - name: Use sample data
+      href: prediction-sample-data.md
+    - name: Prediction model performance
+      href: prediction-performance.md
+    - name: Training errors and issues
+      href: prediction-training-report.md
+  - name: Use your prediction model
+    href: prediction-use.md
 - name: Text classification AI model (Preview)
   items:
   - name: Overview
