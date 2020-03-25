@@ -11,13 +11,17 @@ ms.author: rajvirk
 ms.reviewer: v-dehaas
 ---
 
+# Use your prediction model
+
+After your model is trained and published, it is ready for you to use it. 
+
 ## Prediction run
 
 To run your prediction model, just go to the model settings page and select **Run now**.
 
-# Schedule retrain and run
+## Schedule retrain and run
 
-After your model is trained and published, you can schedule it to train and run on different cadences. The schedule retrain feature allows you to train prediction models so that performance does not degrade over time. Schedule Run allows end users to infer records based on their own conditions and application use. This helps users to use AI Builder units more effectively.
+The schedule retrain feature allows you to train prediction models so that performance does not degrade over time. Schedule Run allows end users to infer records based on their own conditions and application use. This helps users to use AI Builder units more effectively.
 
 For example, if your data changes weekly, you can schedule the model to train on a weekly basis. It doesn't make sense to keep inferring the same data every day, so you'd probably schedule weekly inference to align with the training schedule.
 
