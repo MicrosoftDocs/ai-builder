@@ -52,7 +52,7 @@ Power Automate provides a template that enables you to analyze incoming Dynamics
 
 1. Create an attribute in your Email Messages entity in which to to save the sentiment analysis results.
 
-For information about how to create an attribute, go to: [Create and edit fields for Common Data Service using Power Apps portal](https://microsoft.sharepoint.com/powerapps/maker/common-data-service/create-edit-field-portal).
+  For information about how to create an attribute, go to: [Create and edit fields for Common Data Service using Power Apps portal](https://microsoft.sharepoint.com/powerapps/maker/common-data-service/create-edit-field-portal).
 
 1. [Sign in](https://flow.microsoft.com/signin) to Power Automate.
 1. In the left-side navigation pane, select **Templates**, and then search AI Builder sentiment analysis.
