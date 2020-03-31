@@ -53,7 +53,7 @@ For more information about enabling or disabling features in the Power Platform 
 
 ## Backup and restore
 
-Common Data Service has backup and restore capabilities to protecting your apps data, providing continuous availability of service. System administrators and delegated admin users can use the standard capabilities, described here: [Backup and restore environements](https://docs.microsoft.com/power-platform/admin/backup-restore-environments).
+Common Data Service has backup and restore capabilities to help protect your apps data, providing continuous availability of service. System administrators and delegated admin users can use the standard capabilities, described here: [Backup and restore environements](https://docs.microsoft.com/power-platform/admin/backup-restore-environments).
 
 - Backup and restore is fully supported for prediction, object detection and pre-built models.
 
