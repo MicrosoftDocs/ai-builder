@@ -53,11 +53,17 @@ For more information about enabling or disabling features in the Power Platform 
 
 ## Backup and restore
 
-Common Data Service has backup and restore capabilities to protecting your apps data, providing continuous availability of service. For more information, see [Backup and restore environements](https://docs.microsoft.com/power-platform/admin/backup-restore-environments).
+Common Data Service has backup and restore capabilities to protecting your apps data, providing continuous availability of service. System administrators and delegated admin users can use the standard capabilities, described here: [Backup and restore environements](https://docs.microsoft.com/power-platform/admin/backup-restore-environments).
 
-> [!IMPORTANT]
-> Currently, AI Builder provides limited support for backup and restore.
+- Backup and restore is fully supported for prediction, object detection and pre-built models.
 
-A system administrator or delegated admin user can use the standard capabilities described in [Backup and restore environments](https://docs.microsoft.com/power-platform/admin/backup-restore-environments).
+  >[!NOTE]
+  >For object detection models, the restore process may take some time to complete. The AI Builder models list shows an "importing" status message while the restore operation completes.
 
-After a restore operation, you have to [retrain and republish existing models](manage-model.md#retrain-and-republish-existing-models). to make them available again. 
+- Backup and restore is not currently supported for preview models and form processing models. If you restore an environment, you have to retrain and republish these models to make them available again.
+
+## Move and copy environments
+
+- Move and copy environments is fully supported for prediction and pre-built models.
+
+- For other models, after you move or copy an environment, you have to retrain and republish existing models to make them available again.
