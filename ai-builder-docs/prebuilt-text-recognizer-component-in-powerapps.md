@@ -13,8 +13,6 @@ ms.reviewer: v-dehaas
 
 # Use the text recognizer component in Power Apps
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
-
 Create a canvas app and add the text recognizer AI Builder component to your screen. This component takes a photo or loads an image from the local device, and then processes it to detect and extract text based on the text recognition prebuilt AI model. If it detects text in the image, the component outputs the text and identifies the instances with rectangles in the image.
 
  > [!NOTE]
@@ -32,7 +30,7 @@ Create a canvas app and add the text recognizer AI Builder component to your scr
 ## Additional properties
 
  - **Text**: Text that appears on the button that activates the text recognizer.
- - **ImageDisplayed** (“Show image” in the properties panel): Whether the component displays the image or not. When set to ON, rectangles are displayed around field values detected in the image.
+ - **ImageDisplayed** ("Show image" in the properties panel): Whether the component displays the image or not. When set to ON, rectangles are displayed around field values detected in the image.
  - **DisplayMode**:
      - **Edit**: Allows user input.
      - **View**: Only displays data.

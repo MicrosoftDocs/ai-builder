@@ -13,8 +13,6 @@ ms.reviewer: v-dehaas
 
 # Before you build a text classification model
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
-
 Before you build your text classification model, make sure your data is in Common Data Service, and in the correct format.
 
 If you don't have training data and want to try AI Builder Text Classification, you can follow these [instructions](text-classification-sample-data.md) to use sample data.
@@ -33,9 +31,9 @@ If you don't have training data and want to try AI Builder Text Classification, 
 - Tags that contain fewer than 50 text items are ignored.
 - Text must be fewer than 5,000 characters.
 
-If we represent data in a table, it would look like this:
+If we represent data in a table, it would look like this:''
 
-| Text      | Tags                |
+| Text      | Tags                |''
 |-----------|---------------------|
 | Text data | Tag X, Tag Y        |
 | Text data | Tag X, Tag Y, Tag Z |
@@ -48,7 +46,7 @@ As an example, here is how to import training data from an Excel sheet. This exa
 
 |   |   |   |
 |---|---|---|
-|326589    |It’s a powerful tool that helps make quick changes   |Good \| Quick \| Powerful |
+|326589    |It's a powerful tool that helps make quick changes   |Good \| Quick \| Powerful |
 |326590    |This program is great and has lots of potential. The user interface is intuitive and makes it easy to filter results. However, when I try to edit a link, I get an error.    |Potential, Easy \| Good, Ease of Use \| filters \| bug  |
 |326591    | You need to work on your feature Y capabilities, they are not as good as your competition. |Feature Y \| Competition     |
 |326592    |Easy to view data        |Easy \| Ease of use                                |
@@ -72,7 +70,7 @@ Note that tags data is separated using a vertical bar or pipe ( \| ).
 
 1. Select **Refresh manually** on the **Refresh settings** page.
 
-You’re all set—Power Query will import your data into your Common Data Service entity.
+You're all set—Power Query will import your data into your Common Data Service entity.
 
 ### Next step
 

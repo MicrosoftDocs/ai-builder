@@ -13,8 +13,6 @@ ms.reviewer: v-dehaas
 
 # Use an object detection component in Power Apps
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
-
 The object detection component takes a photo or loads an image file to do an object detection scan. On a mobile device, the user chooses between taking a photo or selecting one already available in the device user interface. When an image is selected, the component automatically scans it to identify objects.
 
  > [!NOTE]
@@ -31,7 +29,7 @@ The component is initialized once an AI model is bound to it.
 
 ### Key properties
 
- - **ModelId** (“AI model” in the properties panel): AI model information to which the component is bound.
+ - **ModelId** ("AI model" in the properties panel): AI model information to which the component is bound.
  - **OriginalImage**: The original image before processing.
  - **VisionObjects**: The details of detected objects. For each object, these properties are available:
     - **id** (populated at AI model binding)
@@ -40,7 +38,7 @@ The component is initialized once an AI model is bound to it.
 
 ### Additional properties
  - **Text**: Text that appears on the button that activates the object detector.
- - **ImageDisplayed** (“Show image” in the properties panel): Whether or not the component displays the image.
+ - **ImageDisplayed** ("Show image" in the properties panel): Whether or not the component displays the image.
  - **DisplayMode**:
     - **Edit**: Allows user input.
     - **View**: Only displays data. 

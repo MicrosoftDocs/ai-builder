@@ -13,6 +13,7 @@ ms.reviewer: v-dehaas
 
 # Understand text classification model performance
 
+
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
 After each training, AI Builder uses the test data set to evaluate the quality and accuracy of your AI model. A summary page for your model shows your model training result, including a **Performance** score.  

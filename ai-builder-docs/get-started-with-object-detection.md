@@ -13,8 +13,6 @@ ms.reviewer: v-dehaas
 
 # Get started with object detection
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
-
 1. Sign in to [Power Apps](https://make.powerapps.com), and then in the navigation pane, select the down arrow to expand **AI Builder**. Select the **Object Detection** AI model type.
 2. Enter a name for your model and then select **Create**.
 
@@ -56,7 +54,7 @@ If your data isn't in Common Data Service, see [Prerequisites](build-model.md#pr
 5. Select **Next** at the bottom of the screen.
 
 ## Upload images
-Now let’s move on to the image upload step in building an object detection AI model. The pictures you collected ahead of time will now come in handy because you need to upload them to AI builder.
+Now let's move on to the image upload step in building an object detection AI model. The pictures you collected ahead of time will now come in handy because you need to upload them to AI builder.
 
 1. Prepare your images in a folder on your computer, and make sure they follow the qualitative and quantitative [guidance](collect-images.md).
 1. In AI Builder, select **Add Images**.
@@ -94,7 +92,7 @@ This section explains the tagging process that is a key part object detection. Y
 1. In the grid view, you can view a summary of all the tags you created, and which images you created. This lets you know how much more work is needed to move forward.
 1. Until you reach the minimum for content quantity, you can't move forward. Once you have at least 15 images per object name, you'll be able to select **Next** at the bottom of the screen.
 
-That’s it! Congratulations, you've created a training set for object detection.
+That's it! Congratulations, you've created a training set for object detection.
 
 ### Next step
 
