@@ -29,14 +29,16 @@ The table shows which AI Builder features are available in each region, and the 
 
 |Feature |Asia |Australia |Canada |Europe |Japan |South America |United Kingdom  |United States |
 |:-------|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
-|Form processing |Preview |Preview |Preview |Preview |Preview |Preview |Preview |Preview |
-|Object detection|Preview |Preview |-|Preview |Preview |-| Preview |Preview |
+|Form processing |GA |GA |GA |GA |GA |GA |GA |GA |
+|Object detection|GA |GA |-|GA |GA |-| GA |GA |
 |Prediction|GA|GA|GA|GA|GA|-|GA|GA|
 |Text classification|-|-|-|Preview |-|-|-|Preview |
 |Business card reader    |GA|GA |GA|GA|GA |GA|GA |GA|
-|Key phrase extraction |Preview|Preview |Preview |Preview |Preview |Preview |Preview |Preview |
-|Language detection |Preview |Preview |Preview |Preview |Preview |Preview |Preview |Preview |
-|Text recognition   |Preview |Preview |Preview |Preview |Preview |Preview |Preview |Preview |
-|Sentiment analysis |Preview |Preview |Preview |Preview |Preview |Preview |Preview |Preview |
+|Key phrase extraction |GA|GA |GA |GA |GA |GA |GA |GA |
+|Language detection |GA |GA |GA |GA |GA |GA |GA |GA |
+|Text recognition   |GA |GA |GA |GA |GA |GA |GA |GA |
+|Sentiment analysis |GA |GA |GA |GA |GA |GA |GA |GA |
+|Entity Extraction |Preview |Preview |Preview |Preview |Preview |Preview |Preview |Preview |
+
 
 
