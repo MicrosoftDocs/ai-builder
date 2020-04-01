@@ -26,3 +26,13 @@ See the data preparation section for your AI model type. Make sure your Common D
 ## AI Builder business card reader doesn't work for some users
 
 Make sure business card reader component users have access to Common Data Service, or to the AI Builder model entity configured in the business card reader component.
+
+## Training document is not displayed on form processing model details page
+
+When you create a form processing model, a preview of one of the training documents appears on the model’s details page after training completes.
+
+The training document may not appear if:
+
+* You don’t have permissions to view training documents.
+* You are not the owner of the model. 
+* You imported the model from another environment. When you import a form processing model from another environment, the original training data is not imported with it, and thus the document preview can’t be displayed.  
