@@ -92,4 +92,4 @@ The model output shows the identified entities and their entity types. For examp
 
 ### Next step:
 
-[Use an entity extraction model in Power Automate](power-automate-entity-extraction.md).  
+[Use an entity extraction model in Power Automate](prebuilt-entity-extraction-pwr-automate.md).  
