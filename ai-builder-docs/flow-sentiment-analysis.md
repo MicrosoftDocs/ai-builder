@@ -69,6 +69,6 @@ Power Automate provides a template that enables you to analyze incoming Dynamics
 
 If you want this field to be visible in your email grid view, follow these steps:
 
-1. Navigate to view\form designer, and add the custom field you created in prerequisite step. For information about how to add the column to your view: [Add a column to your view](/dynamics365/customerengagement/on-premises/customize/create-edit-views-app-designer#add-a-column-to-your-view)
+1. Navigate to view\form designer, and add the custom field you created in prerequisite step. For information about how to add the column to your view,  go to: [Add a column to your view](/dynamics365/customerengagement/on-premises/customize/create-edit-views-app-designer#add-a-column-to-your-view)
 
 1. Then add a field to form by referring to these instructions: [Add a field to a form](/dynamics365/customerengagement/on-premises/customize/add-field-form)
