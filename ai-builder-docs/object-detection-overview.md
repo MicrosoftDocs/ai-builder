@@ -11,11 +11,9 @@ ms.author: aminab
 ms.reviewer: v-dehaas
 ---
 
-# Preview: Overview of object detection model
+# Overview of object detection model
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
-
-Object detection can help expedite or automate business processes. In retail, it could help streamline inventory management, allowing retail leaders to focus on on-site customer relationships. In manufacturing, technicians could use it to speed the repair process to quickly access the manual for a piece of machinery for which the UPC/serial number isn’t obvious.  
+Object detection can help expedite or automate business processes. In retail, it could help streamline inventory management, allowing retail leaders to focus on on-site customer relationships. In manufacturing, technicians could use it to speed the repair process to quickly access the manual for a piece of machinery for which the UPC/serial number isn't obvious.  
 
 AI Builder object detection allows organizations of any size to add these capabilities for their own custom objects to their apps.
 

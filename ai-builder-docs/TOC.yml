@@ -74,7 +74,7 @@
     href: text-classification-view-predictions.md
   - name: Use generated tags
     href: text-classification-model-use-tags.md
-- name: Object detection AI model (Preview)
+- name: Object detection AI model
   items: 
   - name: Overview
     href: object-detection-overview.md
@@ -88,7 +88,7 @@
     href: object-detection-sample-data.md
   - name: Transition to the new model version 
     href: object-detection-transition.md
-- name: Form processing AI model (Preview)
+- name: Form processing AI model
   items:
   - name: Overview
     href: form-processing-model-overview.md
@@ -108,13 +108,15 @@
     href: prebuilt-overview.md
   - name: Business card reader
     href: prebuilt-business-card.md
-  - name: Key phrase extraction (Preview)
+  - name: Entity extraction
+    href: prebuilt-entity-extraction.md
+  - name: Key phrase extraction
     href: prebuilt-key-phrase.md
-  - name: Language detection (Preview)
+  - name: Language detection
     href: prebuilt-language-detection.md
-  - name: Text recognition (Preview)
+  - name: Text recognition
     href: prebuilt-text-recognition.md
-  - name: Sentiment analysis (Preview)
+  - name: Sentiment analysis
     href: prebuilt-sentiment-analysis.md
 - name: Use AI Builder in Power Automate
   items:
@@ -134,13 +136,15 @@
     items:
     - name: Business card reader model
       href: flow-business-card-reader.md
-    - name: Key phrase extraction model (Preview)
+    - name: Entity extraction model
+      href: prebuilt-entity-extraction-pwr-automate.md
+    - name: Key phrase extraction model
       href: flow-key-phrase-extraction.md
-    - name: Language detection model (Preview)
+    - name: Language detection model
       href: flow-language-detection.md
-    - name: Sentiment analysis model (Preview)
+    - name: Sentiment analysis model
       href: flow-sentiment-analysis.md
-    - name: Text recognition model (Preview)
+    - name: Text recognition model
       href: flow-text-recognition.md
 - name: Use AI Builder in Power Apps
   items:

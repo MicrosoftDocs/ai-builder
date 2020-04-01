@@ -11,9 +11,7 @@ ms.author: raaourik
 ms.reviewer: v-dehaas
 ---
 
-# Preview: Overview of text classification model
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
+# Overview of text classification model
 
 The volume of text data is increasing exponentially for organizations. Channels such as email, documents, social media, and others contribute increasing amounts of text data. This data carries valuable information that—when extracted and acted upon—helps you provide better products and services to your customers. Dealing with this ever-increasing data is often time-consuming and error prone, and sometimes leads to missed business opportunities and costs.
 

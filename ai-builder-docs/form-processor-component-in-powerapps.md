@@ -13,8 +13,6 @@ ms.reviewer: v-dehaas
 
 # Use the form processor component in Power Apps
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
-
 You can add the AI Builder form processor component to your screen in your canvas apps. This component takes a photo or loads your image. Then, it extracts text based on your trained AI model. If it detects a form that the AI model is trained for, the form processor extracts the field values, and identifies them with rectangles.
 
  > [!NOTE]
@@ -33,7 +31,7 @@ The component is initialized after an AI model is bound to it.
 
 ## Key properties
 
- - **ModelId** (“AI model” in the properties panel): AI model information to which the component is bound.
+ - **ModelId** ("AI model" in the properties panel): AI model information to which the component is bound.
  - **OriginalImage**: The original image before processing.
  - **FormContent**: The details of extracted form fields and tables. At component initialization (AI model binding step), the fields and tables that can be extracted by the models are populated:
    - **Fields**:
@@ -47,13 +45,13 @@ The component is initialized after an AI model is bound to it.
 ## Additional properties
 
 - **Text**: Text that appears on the button that activates the form processor.
-- **ImageDisplayed** (“Show image” in the properties panel): Whether or not the component displays the image. When set to ON, rectangles are displayed around field values detected in the image.
+- **ImageDisplayed** ("Show image" in the properties panel): Whether or not the component displays the image. When set to ON, rectangles are displayed around field values detected in the image.
 
 - Three different colors can be used to draw the rectangle depending on the confidence level:
      - **Red**: Confidence level is between 0 percent and 39 percent.
      - **Orange**: Confidence level is between 40 percent and 59 percent.
      - **Blue**: Confidence level is between 60 percent and 100 percent.
-- **ShowConfidence** (“Show confidence” in the properties panel): Whether the component displays confidence levels along with the rectangles in the image or not.
+- **ShowConfidence** ("Show confidence" in the properties panel): Whether the component displays confidence levels along with the rectangles in the image or not.
 - **DisplayMode**:
      - **Edit**: Allows user input.
      - **View**: Only displays data.

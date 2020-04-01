@@ -11,17 +11,13 @@ ms.author: aminab
 ms.reviewer: v-dehaas
 ---
 
-
-
 # Collect images
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
 To train an object detection model to recognize your objects, you have to gather images that contain these objects. Adhere to guidelines on the image quantity and quality for better results.
 
 ## Format and size
 
-The images you’ll feed your object detection model need these characteristics:
+The images you'll feed your object detection model need these characteristics:
 
 - **Format**:
 

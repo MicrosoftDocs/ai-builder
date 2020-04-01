@@ -13,9 +13,7 @@ ms.reviewer: v-dehaas
 
 # Publish your text classification model
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
-
-When you're satisfied with your model, you can publish it. Once it’s published, your model is ready to run on your Common Data Service data, or be used through Power Automate. It can take up to two hours for the results to be available.
+When you're satisfied with your model, you can publish it. Once it's published, your model is ready to run on your Common Data Service data, or be used through Power Automate. It can take up to two hours for the results to be available.
 
 In the **Model settings** pane on the right side of the screen, you can turn on Common Data Service, and get important information about where the suggested tags will be stored.
 
