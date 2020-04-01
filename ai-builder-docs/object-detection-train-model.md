@@ -13,7 +13,6 @@ ms.reviewer: v-dehaas
 
 # Train and publish your object detection model
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
 In this section, you’ll learn how to verify your data and then how to train, test, and publish your model.
 

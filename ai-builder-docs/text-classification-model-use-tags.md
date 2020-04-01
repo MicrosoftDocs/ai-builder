@@ -13,8 +13,6 @@ ms.reviewer: v-dehaas
 
 # Use model to generate tags
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
-
 ## Power Automate
 
 If you want to use your trained model in Power Automate, you can find more information in [Use text classification model in Power Automate](text-classification-model-in-flow.md).
@@ -29,5 +27,5 @@ Your model runs once on all existing data in your text entity, and then again wh
 
 ## What if the model isn't writing new tag suggestions?
 
-- Check that you didn’t exceed the number of runs for your Power Automate subscription.
+- Check that you didn't exceed the number of runs for your Power Automate subscription.
 - Turn off the Common Data Service run setting, and then turn it back on.
