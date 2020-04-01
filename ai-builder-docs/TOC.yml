@@ -52,7 +52,7 @@
       href: prediction-training-report.md
   - name: Use your prediction model
     href: prediction-use.md
-- name: Text classification AI model
+- name: Text classification AI model (preview)
   items:
   - name: Overview
     href: text-classification-overview.md
@@ -126,7 +126,7 @@
     href: use-in-flow-prereq.md
   - name: Use a custom AI Builder model in Power Automate
     items:
-    - name: Text classification model (preview)
+    - name: Text classification model 
       href: text-classification-model-in-flow.md
     - name: Form processing model
       href: form-processing-model-in-flow.md
