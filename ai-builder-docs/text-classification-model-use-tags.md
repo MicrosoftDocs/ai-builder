@@ -13,6 +13,9 @@ ms.reviewer: v-dehaas
 
 # Use model to generate tags
 
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
+
 ## Power Automate
 
 If you want to use your trained model in Power Automate, you can find more information in [Use text classification model in Power Automate](text-classification-model-in-flow.md).
