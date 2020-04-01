@@ -56,7 +56,7 @@ Power Automate provides a template that enables you to analyze incoming Dynamics
 
 1. [Sign in](https://flow.microsoft.com/signin) to Power Automate.
 1. In the left-side navigation pane, select **Templates**, and then search for *AI Builder sentiment*.
-1. Select **Analyze sentiments using AI Builder on new email record created in CDS**.
+1. Select **Analyze sentiment of Dynamics emails using AI Builder**.
 1. Select your environment, then type **Email Messages** in the **Entity Name** field, and type **Organization** in the **Scope** field.
 
    > ![Template settings screen](media/sentiment-analysis-template.png "Template settings screen")
@@ -67,10 +67,8 @@ Power Automate provides a template that enables you to analyze incoming Dynamics
 
    > ![Template settings screen](media/sentiment-analysis-template2.png "Template settings screen")
 
-### Make the sentiment analysis field visible in your email grid view (optional)
-
 If you want this field to be visible in your email grid view, follow these steps:
 
-1. Navigate to view\form designer, and add the custom field you created in prerequisite step. For information about on how to add the column to your view: [Add a column to your view](/dynamics365/customerengagement/on-premises/customize/create-edit-views-app-designer#add-a-column-to-your-view)
+1. Navigate to view\form designer, and add the custom field you created in prerequisite step. For information about how to add the column to your view: [Add a column to your view](/dynamics365/customerengagement/on-premises/customize/create-edit-views-app-designer#add-a-column-to-your-view)
 
 1. Then add a field to form by referring to these instructions: [Add a field to a form](/dynamics365/customerengagement/on-premises/customize/add-field-form)
