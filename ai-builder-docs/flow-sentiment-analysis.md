@@ -50,11 +50,11 @@ Congratulations! You've created a flow that uses a sentiment analysis model. Sel
 
 Power Automate provides a template that enables you to analyze incoming Dynamics emails using AI Builder sentiment analysis. This template requires some customization of your Common Data Service email entity before you can use it.
 
-1. Create an attribute in your Email Messages entity in which to to save the sentiment analysis results.
+1. Create an attribute in your Email Messages entity in which to save the sentiment analysis results.
 
   For information about how to create an attribute, go to: [Create and edit fields for Common Data Service using Power Apps portal](https://microsoft.sharepoint.com/powerapps/maker/common-data-service/create-edit-field-portal).
 
-1. [Sign in](https://flow.microsoft.com/signin) to Power Automate.
+2. [Sign in](https://flow.microsoft.com/signin) to Power Automate.
 1. In the left-side navigation pane, select **Templates**, and then search for *AI Builder sentiment*.
 1. Select **Analyze sentiments using AI Builder on new email record created in CDS**.
 1. Select your environment, then type **Email Messages** in the **Entity Name** field, and type **Organization** in the **Scope** field.
@@ -66,3 +66,11 @@ Power Automate provides a template that enables you to analyze incoming Dynamics
 1. Finally, add **Global sentiment** from the **Dynamic content** list.
 
    > ![Template settings screen](media/sentiment-analysis-template2.png "Template settings screen")
+
+### Make the sentiment analysis field visible in your email grid view (optional)
+
+If you want this field to be visible in your email grid view, follow these steps:
+
+1. Navigate to view\form designer, and add the custom field you created in prerequisite step. For information about on how to add the column to your view: [Add a column to your view](/dynamics365/customerengagement/on-premises/customize/create-edit-views-app-designer#add-a-column-to-your-view)
+
+1. Then add a field to form by referring to these instructions: [Add a field to a form](/dynamics365/customerengagement/on-premises/customize/add-field-form)
