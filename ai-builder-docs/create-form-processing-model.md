@@ -13,9 +13,7 @@ ms.reviewer: v-dehaas
 
 # Create a form processing model
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
-
-When you create your form processing model, you’ll need to do these things:
+When you create your form processing model, you'll need to do these things:
 
 1. Run analysis on your sample form documents.
 2. Select the form fields that you want the model to remember.

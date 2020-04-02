@@ -13,8 +13,6 @@ ms.reviewer: v-dehaas
 
 # Improve text classification model performance
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
-
 If your model performance score isn't where you want, there are a few things you can try. These tips can help you tweak your model to improve its predictive power.
 
 ## Add more correctly labeled training data

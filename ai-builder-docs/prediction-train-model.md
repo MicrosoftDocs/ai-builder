@@ -26,10 +26,6 @@ After you've selected your data fields, select **Next** to view a summary of  tr
 
 After the model is trained, you can [evaluate](manage-model.md#evaluate-your-model) your model performance results. Then, [publish](publish-model.md) your model to start running predictions. After that, predictions run daily.
 
-## Prediction run
-
-To start a new prediction run, go to the model settings page and select **Run now**.
-
 ### Related topics
 
 [Train your model](train-model.md)

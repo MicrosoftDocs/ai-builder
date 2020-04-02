@@ -11,9 +11,7 @@ ms.author: alanab
 ms.reviewer: v-dehaas
 ---
 
-# Preview: Text recognition model
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
+# Text recognition model
 
 Prebuilt text recognition models extract words from documents and images into machine-readable character streams. It uses state-of-the-art optical character recognition (OCR) to detect printed and handwritten text in images.
 

@@ -14,7 +14,7 @@ ms.reviewer: v-dehaas
 
 # Use the sentiment analysis prebuilt model in Power Automate
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
+
 
 ## Create a flow that uses the AI Builder sentiment analysis prebuilt model
 

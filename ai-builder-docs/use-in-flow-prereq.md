@@ -13,8 +13,6 @@ ms.reviewer: v-dehaas
 
 # Prerequisites for using AI Builder in Power Automate
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
-
 Before you can use AI Builder in Power Automate, you need:
 
 - An account with access to Power Automate.

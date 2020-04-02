@@ -13,7 +13,6 @@ ms.reviewer: v-dehaas
 
 # Train and publish your form processing model
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
 After you create your form processing model, you can train, test, and publish it to make it available.
 
@@ -40,9 +39,9 @@ If you have trouble training your model, try these suggestions:
 
 ## Publish your model
 
-If you’re happy with your model, you can select **Publish**  to publish it. When publishing completes, your model is promoted as **Published** and is ready to be used. For more information about publishing your model, see [Publish your model](publish-model.md).
+If you're happy with your model, you can select **Publish**  to publish it. When publishing completes, your model is promoted as **Published** and is ready to be used. For more information about publishing your model, see [Publish your model](publish-model.md).
 
-After you’ve published your form processing model, you can use it in a  [Power Apps canvas app](/ai-builder/form-processor-component-in-powerapps) or in [Power Automate](/ai-builder/form-processing-model-in-flow).
+After you've published your form processing model, you can use it in a  [Power Apps canvas app](/ai-builder/form-processor-component-in-powerapps) or in [Power Automate](/ai-builder/form-processing-model-in-flow).
 
 ### Related topics
 
