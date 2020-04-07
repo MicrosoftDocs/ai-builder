@@ -51,6 +51,8 @@ If a business card is detected, the business card model will try to locate and e
 | **AddressCity**| The city address|
 | **AddressCountry**| The country address|
 | **AddressPostalCode**| The postal code address|
+| **AddressPostOfficeBox**| The post office box address|
+| **AddressState**| The state address|
 | **AddressStreet**| The street address|
 | **BusinessPhone**| The first phone or fax number|
 | **CleanedImage**| The image after processing where the business card appears cropped and enhanced from the original image|
