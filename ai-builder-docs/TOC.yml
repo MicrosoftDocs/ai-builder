@@ -74,6 +74,16 @@
     href: text-classification-view-predictions.md
   - name: Use generated tags
     href: text-classification-model-use-tags.md
+- name: Entity extraction AI model (preview)
+  items:
+  - name: Overview
+    href: entity-extraction-overview.md
+  - name: Requirements and limitations
+    href: entity-extraction-requirements.md
+  - name: Create a custom entity extraction model
+    href: entity-extraction-create.md
+  - name: Train and publish your entity extraction model
+    href: entity-extraction-train.md 
 - name: Object detection AI model
   items: 
   - name: Overview
