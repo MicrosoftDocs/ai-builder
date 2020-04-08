@@ -11,11 +11,13 @@ ms.author: mfotedar
 ms.reviewer: v-dehaas
 ---
 
-# Preview: Entity extraction model
+# Entity extraction model
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-The entity extraction prebuilt model recognizes specific data from text that is of interest to your business.  The model identifies key elements from text, and then classifies them into pre-defined categories. This can help to transform unstructured data into structured data that is machine readable.  You can then apply processing to retrieve information, extract facts, and answer questions.
+The prebuilt entity extraction prebuilt model recognizes specific data from text that is of interest to your business.  The model identifies key elements from text, and then classifies them into pre-defined categories. This can help to transform unstructured data into structured data that is machine readable.  You can then apply processing to retrieve information, extract facts, and answer questions.
+
+The prebuilt model is ready to use out of the box. If you want to customize your entity extraction to suit your specific needs, go to [Custom entity extraction AI model](entity-extraction-overview.md)
 
 ## Explore entity extraction
 

@@ -18,7 +18,7 @@ ms.reviewer: v-dehaas
 ## Data format 
 - Documents can't exceed 5,000 characters.
 
-##  Supported languages:
+##  Supported languages
 
 - English
 - Chinese- Simplified
@@ -29,6 +29,6 @@ ms.reviewer: v-dehaas
 - Japanese
 - Spanish
 
-### Related information:
+### Related content
 
 [Use a prebuilt entity extraction model](prebuilt-entity-extraction.md).  
