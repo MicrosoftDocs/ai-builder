@@ -84,7 +84,7 @@ Here is some broad guidance for linear performance scores:
 |---------|---------|
 | ≥50% |Consistent scores greater than 50% mean that your model performs better than a guess. Generally, the higher the score, the more accurate the model.   |
 |<50%  ([underfit](manage-model.md#underfit-models))  |Consistent scores below 50% mean that something is wrong with your model. It is wrong more often than a simple guess would be. This is known as an [underfit model](manage-model.md#underfit-models). Perhaps your data fields are not mapped correctly, or you are using the wrong data.    |
-|~99% - 100%  ([overfit](manage-model.md#overfit-models))   |Consistent scores close to 100% could indicate bias in the training data, or that a field that is correlating directly to the answer. This is known as an [overfit model](manage-model.md#overfit-models)     |
+|~99% - 100%  ([overfit](manage-model.md#overfit-models))   |Consistent scores close to 100% could indicate bias in the training data, or that a field that is correlating directly to the answer. This is known as an [overfit model](manage-model.md#overfit-models).     |
 |50% - ~98%   |If your scores are consistently between 50% – ~98% you must assess whether the performance is appropriate for your intended use of the AI model. Different model implementations have different tolerance for inaccuracy.  Predictions for marketing,  fraud detection, or order fulfillment would all have different levels of accuracy that make the AI model practical to use.     |
 
 ## Performance details
@@ -109,7 +109,7 @@ In addition to your model's grade, information about each grade and the correspo
 AI Builder calculates the accuracy score for your model based on prediction result of the test data set. Before training, AI Builder separates your dataset into separate training data and testing data sets. And after training, AI Builder applies your AI model to the testing data set, and then calculates your accuracy score. For example: if your test data set has 200 records, and AI Builder correctly predicts 192 of them, AI Builder shows an accuracy score of 96%.
 For more information, see [Evaluate your model](manage-model.md#evaluate-your-model).
 
-#### When predicting multiple outcomes
+## When predicting multiple outcomes
 The following performance information is available
 
 - Training date
@@ -117,7 +117,7 @@ The following performance information is available
 - Historical outcome
 - Entity list used to do prediction.
 
-#### When predicting a number
+## When predicting a number
 
 The following performance information is available
 
@@ -173,7 +173,6 @@ After you've trained and evaluated your model, it's time to tweak your model to 
 After each training, a list of top influencers appears on the model details page. Each field used in the training has a score to represent its influence on the training. These scores combined equal 100%.
 
 This helps show whether your model is trained as you expect. For example, if you want to predict online shoppers' intention. And you're expecting Age, Product as the most influential field, you should see that in the most influential field list in model details page. If not, it may indicate that the training result is not as expected. In this case, you can either deselect the irrelevant or misleading fields and retrain or check your training issues to see details.
-
 
 ### Add more data
 
