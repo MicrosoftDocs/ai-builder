@@ -68,7 +68,7 @@ Here is some guidance for accuracy scores:
 |Score |Guidance  |
 |---------|---------|
 | ≥50% |Consistent scores greater than 50% mean that your model performs better than a guess. Generally, the higher the score, the more accurate the model.   |
-|<50% [underfit model](manage-model.md#underfit-models)  |Consistent scores below 50% mean that something is wrong with your model. It is wrong more often than a simple guess would be. This is known as an [underfit model](manage-model.md#underfit-models). Perhaps your data fields are not mapped correctly, or you are using the wrong data.    |
+|<50% [underfit](manage-model.md#underfit-models)  |Consistent scores below 50% mean that something is wrong with your model. It is wrong more often than a simple guess would be. This is known as an [underfit model](manage-model.md#underfit-models). Perhaps your data fields are not mapped correctly, or you are using the wrong data.    |
 |~99%-100% [overfit](manage-model.md#overfit-models)    |Consistent scores close to 100% could indicate bias in the training data, or that a field that is correlating directly to the answer. This is known as an [overfit model](manage-model.md#overfit-models)     |
 |50%-98%   |If your scores are consistently between 50% – 100% you must assess whether the performance is appropriate for your intended use of the AI model. Different model implementations have different tolerance for inaccuracy.  Predictions for marketing,  fraud detection, or order fulfillment would all have different levels of accuracy that make the AI model practical to use.     |
 
@@ -76,7 +76,7 @@ Here is some guidance for accuracy scores:
 
 For numerical prediction, we use a linear performance score. This score measures distance between the prediction and the actual data.
 
-Let's say you're predicting the number of days to fulfill, ship, and deliver an order. The model predicts a set of numbers. The linear performance score shows the distances between predicted values and actual values in your training data. This is expressed as a number between  0 – 100%, with higher values indicating the predicted value is closer to the real value. Typically, a higher score means the model performs better. Remember though, that perfect or near-perfect scores ([overfit models](manage-model.md#overfit-models) ) are usually indicative of a problem with your training data.
+Let's say you're predicting the number of days to fulfill, ship, and deliver an order. The model predicts a set of numbers. The linear performance score shows the distances between predicted values and actual values in your training data. This is expressed as a number between  0 – 100%, with higher values indicating the predicted value is closer to the real value. Typically, a higher score means the model performs better. Remember though, that perfect or near-perfect scores ([overfit models](manage-model.md#overfit-models)) are usually indicative of a problem with your training data.
 
 Here is some broad guidance for linear performance scores:
 
@@ -84,8 +84,8 @@ Here is some broad guidance for linear performance scores:
 |---------|---------|
 | ≥50% |Consistent scores greater than 50% mean that your model performs better than a guess. Generally, the higher the score, the more accurate the model.   |
 |<50%  ([underfit](manage-model.md#underfit-models))  |Consistent scores below 50% mean that something is wrong with your model. It is wrong more often than a simple guess would be. This is known as an [underfit model](manage-model.md#underfit-models). Perhaps your data fields are not mapped correctly, or you are using the wrong data.    |
-|~99%-100%  ([overfit](manage-model.md#overfit-models))   |Consistent scores close to 100% could indicate bias in the training data, or that a field that is correlating directly to the answer. This is known as an [overfit model](manage-model.md#overfit-models)     |
-|50%-98%   |If your scores are consistently between 50% – 100% you must assess whether the performance is appropriate for your intended use of the AI model. Different model implementations have different tolerance for inaccuracy.  Predictions for marketing,  fraud detection, or order fulfillment would all have different levels of accuracy that make the AI model practical to use.     |
+|~99% - 100%  ([overfit](manage-model.md#overfit-models))   |Consistent scores close to 100% could indicate bias in the training data, or that a field that is correlating directly to the answer. This is known as an [overfit model](manage-model.md#overfit-models)     |
+|50% - ~98%   |If your scores are consistently between 50% – ~98% you must assess whether the performance is appropriate for your intended use of the AI model. Different model implementations have different tolerance for inaccuracy.  Predictions for marketing,  fraud detection, or order fulfillment would all have different levels of accuracy that make the AI model practical to use.     |
 
 ## Performance details
 
