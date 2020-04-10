@@ -6,14 +6,29 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 01/03/2020
+ms.date: 04/10/2020
 ms.author: norliu
 ms.reviewer: v-dehaas
 ---
 
 # Prediction model performance
 
-After each training, AI Builder uses the test data set to evaluate the quality and accuracy of the new model. A summary page for your model shows your model training result, including an accuracy grade.
+After each training, AI Builder uses the test data set to evaluate the quality and accuracy of the new model. A summary page for your model shows your model training result. These results include a performance grade and/or accuracy score, depending on the type of prediction being done.
+
+## Measuring performance for different types of predictions
+
+Based on your model's prediction type, AI Builder measures performance differently.
+
+
+|Pediction type |Performance metric |
+|---------|---------|
+|Binary    |Performance grade         |
+|Multiple   |Accuracy score      |
+|Numerical   |Performance score        |
+
+## How to understand model performance
+
+AI Builder shows a performance grade to help you evaluate your model's ability to predict results. The decision about whether your model is ready to publish is one you have to make based on your unique needs and circumstances. AI Builder provides the following grades to help you make that judgement call.
 
 ## Accuracy grade
 
@@ -21,35 +36,98 @@ AI Builder shows a grade to help you  evaluate your model's accuracy. The decisi
 
 |Grade |Guidance  |
 |---------|---------|
-|A|This is an excellent grade.  It might still be possible to improve the model, but this is the best grade you can get. |
-|B|This is a good grade. The model is correct a lot of the time. Could it be improved? That depends on your unique circumstances, data, and requirements. |
+|A|It might still be possible to improve the model, but this is the best grade you can get. |
+|B|The model is correct a lot of the time. Could it be improved? That depends on your unique circumstances, data, and requirements. |
 |C|The model is doing slightly better than a random guess. It might be acceptable for some applications, but in most cases, this is a model that you'd continue to tweak and improve.  |
-|D|Something's wrong. Your model is no better than a random guess. There may be bias in the training data, or there's a field that is correlating directly to the answer. Fix your data before retraining. |
+|D|Something's wrong. Your model is either performing worse than we'd expect a random guess to perform [underfit](link), or it's performing so well (at or near 100%) that you've probably got a data field that is directly correlated  to the result [overfit](manage-model.md#overfit-model) .
 
-Depending on the distribution of your historical data, the actual accuracy rates that correspond to the above scores can vary. The difference accounts for the fact that the improvement relative to your baseline approval rate changes when you move that baseline.
+More information about [underfit models](link)
+More information about [overfit models](manage-model.md#overfit-model) 
+ |
 
-Let's say your model predicts business loan approval vs. denial. If your historical approval rate is 80%, an accuracy score of 92% would correspond to a B grade. But, if your historical approval rate is 50%, that same 92% would correspond to an A grade. That's because 92% is a much better improvement over 50% than it is over 80%, and you'd expect a random guess to be close to those percentages.
+Depending on the data distribution of your historical data, the actual accuracy rates that correspond to the above grades can vary. The difference accounts for the fact that the improvement relative to your baseline rate changes when you move that baseline.
 
-This example shows the accuracy ranges for each grade when the historical data contains different approval rates.
+Let's say your model predicts if a shipment will arrive on-time or not. If your historical on-time rate is 80%, an accuracy score of 92 would correspond to a B grade. But, if your historical on-time rate is only 50%, 92 would correspond to an A grade. That's because 92 is a much better improvement over 50% than it is over 80%, and you'd expect a random guess to be close to those percentages.
 
-| Grade | Accuracy range for historical 25% approval rate | Accuracy range for historical 50% approval rate | Accuracy range for historical 80% approval rate | Accuracy range for historical 95% approval rate |
+This example shows the accuracy ranges for each grade when the historical data contains different on-time rates for a binary prediction.
+
+| Grade | Accuracy range for historical 25% on-time rate | Accuracy range for historical 50% on-time rate | Accuracy range for historical 80% on-time rate | Accuracy range for historical 95% on-time rate |
 |-------|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|
 | A | 92.5 - <99.3% | 90 – 98% | 93 – <99% | 98.1 - <99.8% |
 | B | 81.3 - <92.5% | 75 – <90% | 84 – <93% | 95.3 - <98.1% |
 | C | 66.3 - <81.3% | 55 – <75% | 71 – <84% | 91.5 - <95.3% |
 | D | <66.3% or ≥99.3% | <55% or ≥98% | <71% or ≥99% | <91.5% or ≥99.8% |
 
+## Multiple choice prediction
 
-## Training details
+An accuracy score measures the model's performance. A higher accuracy score generally means better model performance, but keep in mind that an extremely high score could indicate a problem with your training data. You have to determine the appropriate level of accuracy for your intended use of the AI model.
 
-For more information of training, select **See details** on the model's grade box. The following performance information is available:
+Here is some guidance for accuracy scores:
 
-- Accuracy grade
+ 
+|Score |Guidance  |
+|---------|---------|
+| ≥50% |Consistent scores greater than 50% mean that your model performs better than a guess. Generally, the higher the score, the more accurate the model.   |
+|<50% [underfit](link)  |Consistent scores below 50% mean that something is wrong with your model. It is wrong more often than a simple guess would be. This is known as an [underfit model](link). Perhaps your data fields are not mapped correctly, or you are using the wrong data.    |
+|~99%-100% [overfit](manage-model.md#overfit-model)    |Consistent scores close to 100% could indicate bias in the training data, or that a field that is correlating directly to the answer. This is known as an [overfit model](manage-model.md#overfit-model)     |
+|50%-98%   |If your scores are consistently between 50% – 100% you must assess whether the performance is appropriate for your intended use of the AI model. Different model implementations have different tolerance for inaccuracy.  Predictions for marketing,  fraud detection, or order fulfillment would all have different levels of accuracy that make the AI model practical to use.     |
+
+## Numerical prediction
+
+For numerical prediction, we use a linear performance score. This score measures distance between the prediction and the actual data.
+
+Let's say you're predicting the number of days to fulfill, ship, and deliver an order. The model predicts a set of numbers. The linear performance score shows the distances between predicted values and actual values in your training data. This is expressed as a number between  0 – 100%, with higher values indicating the predicted value is closer to the real value. Typically, a higher score means the model performs better. Remember though, that perfect or near-perfect scores ([overfit models](manage-model.md#overfit-model) ) are usually indicative of a problem with your training data.
+
+Here is some broad guidance for linear performance scores:
+
+|Score |Guidance  |
+|---------|---------|
+| ≥50% |Consistent scores greater than 50% mean that your model performs better than a guess. Generally, the higher the score, the more accurate the model.   |
+|<50%  ([underfit](manage-model.md#underfit-model))  |Consistent scores below 50% mean that something is wrong with your model. It is wrong more often than a simple guess would be. This is known as an [underfit model](manage-model.md#underfit-model). Perhaps your data fields are not mapped correctly, or you are using the wrong data.    |
+|~99%-100%  ([overfit](manage-model.md#overfit-model))   |Consistent scores close to 100% could indicate bias in the training data, or that a field that is correlating directly to the answer. This is known as an [overfit model](manage-model.md#overfit-model)     |
+|50%-98%   |If your scores are consistently between 50% – 100% you must assess whether the performance is appropriate for your intended use of the AI model. Different model implementations have different tolerance for inaccuracy.  Predictions for marketing,  fraud detection, or order fulfillment would all have different levels of accuracy that make the AI model practical to use.     |
+
+## Performance details
+
+For training details, select **See details** on the model's grade box.  
+
+>[!NOTE]
+ >For information about additional features planned for this area, see [release plans](https://docs.microsoft.com/power-platform-release-plan/2020wave1/ai-builder/).
+
+### Binary prediction
+
+The following performance information is available
+- Performance grade
 - Accuracy score
 
-For information about additional features planned for this area, see [release plans](https://docs.microsoft.com/power-platform-release-plan/2020wave1/ai-builder/).
+#### Performance grade
+  
+In addition to your model's grade, information about each grade and the corresponding accuracy range appears on the model details page. This tells you how much room you  might have to improve your model.
 
-<!-- Coming 4/13/2020 tentatively
+#### Accuracy score
+
+AI Builder calculates the accuracy score for your model based on prediction result of the test data set. Before training, AI Builder separates your dataset into separate training data and testing data sets. And after training, AI Builder applies your AI model to the testing data set, and then calculates your accuracy score. For example: if your test data set has 200 records, and AI Builder correctly predicts 192 of them, AI Builder shows an accuracy score of 96%.
+For more information, see [Evaluate your model](manage-model.md#evaluate-your-model).
+
+#### When predicting multiple outcomes
+The following performance information is available
+
+- Training date
+- Data source
+- Historical outcome
+- Entity list used to do prediction.
+
+#### When predicting a number
+
+The following performance information is available
+
+- Training date
+- Data source
+- Historical outcome
+- Entity list used to do prediction.
+
+
+<!-- Coming May 2020 tentatively
 - Accuracy per outcome
 - Confusion matrix
 - Cumulative gains chart -->
