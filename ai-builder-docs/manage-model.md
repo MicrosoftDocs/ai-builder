@@ -33,6 +33,14 @@ After you finish evaluating your newly trained model, you have two options:
 - **Publish your model**: For more information about when to publish a model, see [When should I publish my model](publish-model.md#when-should-i-publish-my-model).
 - **Create a new version**: For more information about when to create a new version, see [When should I create a new version](#when-should-i-create-a-new-version).
 
+### Underfit models
+
+Explanation coming
+
+### Overfit models
+
+Explanation coming
+
 ## Edit model name
 
 1. At the top of the page, select **Settings**.

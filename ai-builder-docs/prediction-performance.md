@@ -39,9 +39,9 @@ AI Builder shows a grade to help you  evaluate your model's accuracy. The decisi
 |A|It might still be possible to improve the model, but this is the best grade you can get. |
 |B|The model is correct a lot of the time. Could it be improved? That depends on your unique circumstances, data, and requirements. |
 |C|The model is doing slightly better than a random guess. It might be acceptable for some applications, but in most cases, this is a model that you'd continue to tweak and improve.  |
-|D|Something's wrong. Your model is either performing worse than we'd expect a random guess to perform [underfit](link), or it's performing so well (at or near 100%) that you've probably got a data field that is directly correlated  to the result [overfit](manage-model.md#overfit-model) .
+|D|Something's wrong. Your model is either performing worse than we'd expect a random guess to perform [underfit model](manage-model.md#underfit-model), or it's performing so well (at or near 100%) that you've probably got a data field that is directly correlated  to the result [overfit](manage-model.md#overfit-model) .
 
-More information about [underfit models](link)
+More information about [underfit models](manage-model.md#underfit-model)
 More information about [overfit models](manage-model.md#overfit-model) 
  |
 
@@ -68,7 +68,7 @@ Here is some guidance for accuracy scores:
 |Score |Guidance  |
 |---------|---------|
 | ≥50% |Consistent scores greater than 50% mean that your model performs better than a guess. Generally, the higher the score, the more accurate the model.   |
-|<50% [underfit](link)  |Consistent scores below 50% mean that something is wrong with your model. It is wrong more often than a simple guess would be. This is known as an [underfit model](link). Perhaps your data fields are not mapped correctly, or you are using the wrong data.    |
+|<50% [underfit model](manage-model.md#underfit-model)  |Consistent scores below 50% mean that something is wrong with your model. It is wrong more often than a simple guess would be. This is known as an [underfit model](manage-model.md#underfit-model). Perhaps your data fields are not mapped correctly, or you are using the wrong data.    |
 |~99%-100% [overfit](manage-model.md#overfit-model)    |Consistent scores close to 100% could indicate bias in the training data, or that a field that is correlating directly to the answer. This is known as an [overfit model](manage-model.md#overfit-model)     |
 |50%-98%   |If your scores are consistently between 50% – 100% you must assess whether the performance is appropriate for your intended use of the AI model. Different model implementations have different tolerance for inaccuracy.  Predictions for marketing,  fraud detection, or order fulfillment would all have different levels of accuracy that make the AI model practical to use.     |
 
