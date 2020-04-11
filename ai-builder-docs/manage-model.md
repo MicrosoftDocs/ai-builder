@@ -35,11 +35,10 @@ After you finish evaluating your newly trained model, you have two options:
 
 ### Underfit models
 
-Explanation coming
+An underfit model is a model that actually performs worse than a random guess. If your model consistently performs poorly, it's probably an indication that there's a problem with your training data. Are the fields you are using relevant to the type of determination that your model is intended to make? Are there data input errors or other problems that are leading your model astray?
 
 ### Overfit models
 
-Explanation coming
 
 ## Edit model name
 
