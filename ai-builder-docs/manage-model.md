@@ -39,7 +39,7 @@ An underfit model is a model that actually performs worse than a random guess. I
 
 ### Overfit models
 
-An overfit model appears to perform very well, if not perfectly when run on your training data. That can be because there's a field in your training data that directly corresponds to outcome. For example, let's say you have a prediction model that predicts whether a shipment will arrive on time. If your historical data includes the actual delivery date, your model would predict perfectly when run against your historical data, but maybe not so well when run on data your business environment.
+An overfit model appears to perform very well if not perfectly, when run on your training data. That can be because there's a field in your training data that directly corresponds to outcome. For example, let's say you have a prediction model that predicts whether a shipment will arrive on time. If your historical data includes the actual delivery date, your model would predict perfectly when run against your historical data. It probably would not do so well when run on real data in your business environment, because the delivery date field would not yet be populated.
 
 ## Edit model name
 
