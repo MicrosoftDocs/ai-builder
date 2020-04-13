@@ -132,10 +132,6 @@ The following performance information is available
 - Confusion matrix
 - Cumulative gains chart -->
 
-#### Linear performance score
-
-AI Builder calculates the linear performance score for your model based on prediction result of the test data set. Before training, AI Builder separates your dataset into separate training data and testing data sets. And after training, AI Builder applies your AI model to the testing data set, and then calculates your performance score. For example: if your test data set has 200 records, and AI Builder correctly predicts 192 of them, AI Builder shows a linear performance score of 96%.
-
 For more information, see [Evaluate your model](manage-model.md#evaluate-your-model).
 
 <!--
