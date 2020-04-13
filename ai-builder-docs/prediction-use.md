@@ -50,7 +50,7 @@ AI Builder prediction models created after April 2, 2020 are enabled for real ti
 
 ### What about existing models?
 
-Prediction models created before April 2. 2020 don't support real-time prediction. Recreate any models created before this date  to use real-time prediction capability.
+Prediction models created before April 2, 2020 don't support real-time prediction. Recreate any models created before this date  to use real-time prediction capability.
 
 ### How to use real-time prediction
 
