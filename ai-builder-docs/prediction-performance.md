@@ -23,7 +23,7 @@ Based on your model's prediction type, AI Builder measures performance different
 |Pediction type |Performance metric |
 |---------|---------|
 |Binary    |Performance grade         |
-|Numerical   |Performance score        |
+|Numerical   |Linear performance score        |
 
 ## How to understand model performance
 
@@ -97,7 +97,7 @@ For training details, select **See details** on the model's grade box.
 
 The following performance information is available
 - Performance grade
-- performance score
+- Accuracy score
 
 #### Performance grade
   
