@@ -13,7 +13,7 @@ ms.reviewer: v-dehaas
 
 # Prediction model performance
 
-After each training, AI Builder uses the test data set to evaluate the quality and accuracy of the new model. A summary page for your model shows your model training result. These results include a performance grade and/or accuracy score, depending on the type of prediction being done.
+After each training, AI Builder uses the test data set to evaluate the quality and accuracy of the new model. A summary page for your model shows your model training result. These results include a performance grade and/or performance score, depending on the type of prediction being done.
 
 ## Measuring performance for different types of predictions
 
@@ -23,15 +23,15 @@ Based on your model's prediction type, AI Builder measures performance different
 |Pediction type |Performance metric |
 |---------|---------|
 |Binary    |Performance grade         |
-|Numerical   |Accuracy score        |
+|Numerical   |Performance score        |
 
 ## How to understand model performance
 
-AI Builder shows a performance grade to help you evaluate your model's ability to predict results. The decision about whether your model is ready to publish is one you have to make based on your unique needs and circumstances. AI Builder provides the following grades to help you make that judgement call.
+Depending on the type of prediction, AI Builder shows a performance grade and/or performance score to help you evaluate your model. The decision about whether your model is ready to publish is one you have to make based on your unique needs and circumstances. AI Builder provides the following grades to help you make that judgement call.
 
 ### Binary prediction: performance grade
 
-AI Builder shows a grade to help you  evaluate your model's accuracy. The decision about whether your model is ready to publish is one you have to make based on your unique needs and circumstances. AI Builder provides the following accuracy grades to help you make that judgment call.
+AI Builder shows a grade to help you  evaluate your model's accuracy. The decision about whether your model is ready to publish is one you have to make based on your unique needs and circumstances. AI Builder provides the following performance grades to help you make that judgment call.
 
 |Grade |Guidance  |
 |---------|---------|
@@ -45,7 +45,7 @@ More information about [overfit models](manage-model.md#overfit-models).
 
 Depending on the data distribution of your historical data, the actual accuracy rates that correspond to the above grades can vary. The difference accounts for the fact that the improvement relative to your baseline rate changes when you move that baseline.
 
-Let's say your model predicts if a shipment will arrive on-time or not. If your historical on-time rate is 80%, an accuracy score of 92 would correspond to a B grade. But, if your historical on-time rate is only 50%, 92 would correspond to an A grade. That's because 92 is a much better improvement over 50% than it is over 80%, and you'd expect a random guess to be close to those percentages.
+Let's say your model predicts if a shipment will arrive on-time or not. If your historical on-time rate is 80%, an performance score of 92 would correspond to a B grade. But, if your historical on-time rate is only 50%, 92 would correspond to an A grade. That's because 92 is a much better improvement over 50% than it is over 80%, and you'd expect a random guess to be close to those percentages.
 
 This example shows the accuracy ranges for each grade when the historical data contains different on-time rates for a binary prediction.
 
@@ -58,9 +58,9 @@ This example shows the accuracy ranges for each grade when the historical data c
 <!--
 ## Multiple choice prediction
 
-An accuracy score measures the model's performance. A higher accuracy score generally means better model performance, but keep in mind that an extremely high score could indicate a problem with your training data. You have to determine the appropriate level of accuracy for your intended use of the AI model.
+An performance score measures the model's performance. A higher performance score generally means better model performance, but keep in mind that an extremely high score could indicate a problem with your training data. You have to determine the appropriate level of accuracy for your intended use of the AI model.
 
-Here is some guidance for accuracy scores:
+Here is some guidance for performance scores:
 
  
 |Score |Guidance  |
@@ -71,9 +71,9 @@ Here is some guidance for accuracy scores:
 |50%-98%   |If your scores are consistently between 50% – 100% you must assess whether the performance is appropriate for your intended use of the AI model. Different model implementations have different tolerance for inaccuracy.  Predictions for marketing,  fraud detection, or order fulfillment would all have different levels of accuracy that make the AI model practical to use.     |
 -->
 
-### Numerical prediction: accuracy score
+### Numerical prediction: performance score
 
-For numerical prediction, we use a linear accuracy score. This score measures distance between the prediction and the actual data.
+For numerical prediction, we use a linear performance score. This score measures distance between the prediction and the actual data.
 
 Let's say you're predicting the number of days to fulfill, ship, and deliver an order. The model predicts a set of numbers. The linear performance score shows the distances between predicted values and actual values in your training data. This is expressed as a number between  0 – 100%, with higher values indicating the predicted value is closer to the real value. Typically, a higher score means the model performs better. Remember though, that perfect or near-perfect scores ([overfit models](manage-model.md#overfit-models)) are usually indicative of a problem with your training data.
 
@@ -97,7 +97,7 @@ For training details, select **See details** on the model's grade box.
 
 The following performance information is available
 - Performance grade
-- Accuracy score
+- performance score
 
 #### Performance grade
   
@@ -132,9 +132,9 @@ The following performance information is available
 - Confusion matrix
 - Cumulative gains chart -->
 
-#### Accuracy score
+#### Linear performance score
 
-AI Builder calculates the accuracy score for your model based on prediction result of the test data set. Before training, AI Builder separates your dataset into separate training data and testing data sets. And after training, AI Builder applies your AI model to the testing data set, and then calculates your accuracy score. For example: if your test data set has 200 records, and AI Builder correctly predicts 192 of them, AI Builder shows an accuracy score of 96%.
+AI Builder calculates the linear performance score for your model based on prediction result of the test data set. Before training, AI Builder separates your dataset into separate training data and testing data sets. And after training, AI Builder applies your AI model to the testing data set, and then calculates your performance score. For example: if your test data set has 200 records, and AI Builder correctly predicts 192 of them, AI Builder shows a linear performance score of 96%.
 
 For more information, see [Evaluate your model](manage-model.md#evaluate-your-model).
 
