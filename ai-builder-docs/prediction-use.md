@@ -54,21 +54,7 @@ Prediction models created before April 2, 2020 don't support real-time predictio
 
 ### How to use real-time prediction
 
-To use real-time prediction, create a flow in Power Automate. Follow these steps to build a flow:
-
-1. Sign in to [Power Automate](https://flow.microsoft.com/).
-1. On the Flows tab, click "New" and select the type. (sample is from "Automated - from blank")
-1. Select the desired trigger and then select create.
-1. Configure trigger and add any additional steps to prep data.
-
-> [!div class="mx-imgBorder"]
-> ![Configure trigger](media/predict-configure-trigger.png "Configure trigger")
-
-1. Add the "Predict" action. 
-1. Complete all fields using your data, or data from previous steps in the flow.
-1. Update the record with prediction output.
-
-Congratulations! You have created a flow that uses the real-time prediction feature in AI Builder
+To use real-time prediction, create a flow in Power Automate. For more information, go to [Use your prediction model in Power Automate](prediction-pwr-automate.md)
 
 ### Related information
 
