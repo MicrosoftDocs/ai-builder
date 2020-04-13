@@ -23,7 +23,6 @@ Based on your model's prediction type, AI Builder measures performance different
 |Pediction type |Performance metric |
 |---------|---------|
 |Binary    |Performance grade         |
-|Multiple   |Accuracy score      |
 |Numerical   |Performance score        |
 
 ## How to understand model performance
@@ -57,7 +56,7 @@ This example shows the accuracy ranges for each grade when the historical data c
 | B | 81.3 - <92.5% | 75 – <90% | 84 – <93% | 95.3 - <98.1% |
 | C | 66.3 - <81.3% | 55 – <75% | 71 – <84% | 91.5 - <95.3% |
 | D | <66.3% or ≥99.3% | <55% or ≥98% | <71% or ≥99% | <91.5% or ≥99.8% |
-
+<!--
 ## Multiple choice prediction
 
 An accuracy score measures the model's performance. A higher accuracy score generally means better model performance, but keep in mind that an extremely high score could indicate a problem with your training data. You have to determine the appropriate level of accuracy for your intended use of the AI model.
@@ -71,6 +70,7 @@ Here is some guidance for accuracy scores:
 |<50% [underfit](manage-model.md#underfit-models)  |Consistent scores below 50% mean that something is wrong with your model. It is wrong more often than a simple guess would be. This is known as an [underfit model](manage-model.md#underfit-models). Perhaps your data fields are not mapped correctly, or you are using the wrong data.    |
 |~99%-100% [overfit](manage-model.md#overfit-models)    |Consistent scores close to 100% could indicate bias in the training data, or that a field that is correlating directly to the answer. This is known as an [overfit model](manage-model.md#overfit-models)     |
 |50%-98%   |If your scores are consistently between 50% – 100% you must assess whether the performance is appropriate for your intended use of the AI model. Different model implementations have different tolerance for inaccuracy.  Predictions for marketing,  fraud detection, or order fulfillment would all have different levels of accuracy that make the AI model practical to use.     |
+-->
 
 ## Numerical prediction
 
@@ -108,7 +108,7 @@ In addition to your model's grade, information about each grade and the correspo
 
 AI Builder calculates the accuracy score for your model based on prediction result of the test data set. Before training, AI Builder separates your dataset into separate training data and testing data sets. And after training, AI Builder applies your AI model to the testing data set, and then calculates your accuracy score. For example: if your test data set has 200 records, and AI Builder correctly predicts 192 of them, AI Builder shows an accuracy score of 96%.
 For more information, see [Evaluate your model](manage-model.md#evaluate-your-model).
-
+<!--
 ## When predicting multiple outcomes
 The following performance information is available
 
@@ -116,8 +116,9 @@ The following performance information is available
 - Data source
 - Historical outcome
 - Entity list used to do prediction.
+-->
 
-## When predicting a number
+## Numerical prediction
 
 The following performance information is available
 
