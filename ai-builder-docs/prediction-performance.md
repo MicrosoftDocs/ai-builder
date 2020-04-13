@@ -71,7 +71,7 @@ Here is some guidance for performance scores:
 |50%-98%   |If your scores are consistently between 50% – 100% you must assess whether the performance is appropriate for your intended use of the AI model. Different model implementations have different tolerance for inaccuracy.  Predictions for marketing,  fraud detection, or order fulfillment would all have different levels of accuracy that make the AI model practical to use.     |
 -->
 
-### Numerical prediction: performance score
+### Numerical prediction: linear performance score
 
 For numerical prediction, we use a linear performance score. This score measures distance between the prediction and the actual data.
 
