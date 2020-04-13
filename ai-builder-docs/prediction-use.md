@@ -1,6 +1,6 @@
 ---
 title: Use your prediction model -  AI Builder | Microsoft Docs
-description: Describes how to run yor model. Provides information about the schedule feature, which allows you to automatically retrain and run your prediction model at the cadence you choose. 
+description: Describes how to run your model. Provides information about the schedule feature, which allows you to automatically retrain and run your prediction model at the cadence you choose. 
 author: Dean-Haas
 manager: kvivek
 ms.service: powerapps
@@ -35,7 +35,7 @@ When you select on the link under **Database Sync**, the screen below lists sche
 > [!div class="mx-imgBorder"]
 > ![elect schedule cadence](media/schedule-cadence.png "Select schedule cadence")
 
-You can set the run or retrain cadence to daily, weekly, or mMonthly. If you don't want run prediction or retrain at this time, you might just set it to never. This is useful if you have data issues upstream and do not want impact business processes, or if you just do not want to use the model.
+You can set the run or retrain cadence to daily, weekly, or monthly. If you don't want run prediction or retrain at this time, you might just set it to never. You might set it to 'never' if you have data issues upstream and do not want impact business processes, or if you just do not want to use the model.
 
 > [!NOTE]  
 > When you schedule your model to retrain, it creates a flow to schedule the training. It is a good idea to not update the flow associated to the AI builder retrain schedule. AI Builder manages the flow through the schedule retrain experience.
@@ -44,9 +44,9 @@ If you make any changes to the AI Builder **schedule > retrain** settings, the a
 
 ## Real-time prediction
 
-In addition to scheduled prediction inferences, AI Builder supports real-time prediction. Although scheduled prediction on a daily cadence may work for some scenarios, there are times when prediction needs to run in real time. Let's say that your retail company wants to know if an order will be delivered on time. If the order creation/fulfillment processes occur in a short time frame, you need the delivery prediction during the fulfillment process. Then, you can decide whether to use a faster shipment type. Real time prediction provides you the information at the time you need it.
+In addition to scheduled prediction inferences, AI Builder supports real-time prediction. Although scheduled prediction on a daily cadence may work for some scenarios, there are times when prediction needs to run in real-time. Let's say that your retail company wants to know if an order will be delivered on time. If the order creation/fulfillment processes occur in a short time frame, you need the delivery prediction during the fulfillment process. Then, you can decide whether to use a faster shipment type. Real-time prediction provides you the information at the time you need it.
 
-AI Builder prediction models created after April 2, 2020 are enabled for real time prediction. A real-time prediction for a model is synchronous call to AI Builder. AI builder is supporting real-time prediction by value, and real-time prediction by reference. The predict operation accepts a single input observation in the request payload and returns the prediction synchronously in the response.
+AI Builder prediction models created after April 2, 2020 are enabled for real-time prediction. A real-time prediction for a model is synchronous call to AI Builder. AI builder is supporting real-time prediction by value, and real-time prediction by reference. The predict operation accepts a single input observation in the request payload and returns the prediction synchronously in the response.
 
 ### What about existing models?
 
