@@ -132,6 +132,8 @@
       href: form-processing-model-in-flow.md
     - name: Object detection model
       href: object-detection-model-in-flow.md
+    - name: Prediction model
+      href: prediction-pwr-automate.md    
   - name: Use a prebuilt AI Builder model in Power Automate
     items:
     - name: Business card reader model
