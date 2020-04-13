@@ -72,7 +72,7 @@ Due to the experimental nature of machine learning, not all new versions you cre
 
 If you are satisfied with your model, you can [publish your model](publish-model.md) to make it available. Similarly, because you can only have  two trained versions available at a time, you can publish a version if you do not want it to be overwritten by a new version.
 
-For more information about the nuances of improving your model performance, see the message underneath your performance score.
+For more information about the nuances of improving your model performance, see the message underneath your accuracy score.
 
 ## Retrain and republish existing models
 

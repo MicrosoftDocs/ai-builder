@@ -23,13 +23,13 @@ Based on your model's prediction type, AI Builder measures performance different
 |Pediction type |Performance metric |
 |---------|---------|
 |Binary    |Performance grade         |
-|Numerical   |Performance score        |
+|Numerical   |Accuracy score        |
 
 ## How to understand model performance
 
 AI Builder shows a performance grade to help you evaluate your model's ability to predict results. The decision about whether your model is ready to publish is one you have to make based on your unique needs and circumstances. AI Builder provides the following grades to help you make that judgement call.
 
-## Accuracy grade
+### Binary prediction: performance grade
 
 AI Builder shows a grade to help you  evaluate your model's accuracy. The decision about whether your model is ready to publish is one you have to make based on your unique needs and circumstances. AI Builder provides the following accuracy grades to help you make that judgment call.
 
@@ -41,8 +41,7 @@ AI Builder shows a grade to help you  evaluate your model's accuracy. The decisi
 |D|Something's wrong. Your model is either performing worse than we'd expect a random guess to perform [underfit model](manage-model.md#underfit-models), or it's performing so well (at or near 100%) that you've probably got a data field that is directly correlated  to the result [overfit](manage-model.md#overfit-models) .
 
 More information about [underfit models](manage-model.md#underfit-models)
-More information about [overfit models](manage-model.md#overfit-models) 
- |
+More information about [overfit models](manage-model.md#overfit-models).
 
 Depending on the data distribution of your historical data, the actual accuracy rates that correspond to the above grades can vary. The difference accounts for the fact that the improvement relative to your baseline rate changes when you move that baseline.
 
@@ -72,9 +71,9 @@ Here is some guidance for accuracy scores:
 |50%-98%   |If your scores are consistently between 50% – 100% you must assess whether the performance is appropriate for your intended use of the AI model. Different model implementations have different tolerance for inaccuracy.  Predictions for marketing,  fraud detection, or order fulfillment would all have different levels of accuracy that make the AI model practical to use.     |
 -->
 
-## Numerical prediction
+### Numerical prediction: accuracy score
 
-For numerical prediction, we use a linear performance score. This score measures distance between the prediction and the actual data.
+For numerical prediction, we use a linear accuracy score. This score measures distance between the prediction and the actual data.
 
 Let's say you're predicting the number of days to fulfill, ship, and deliver an order. The model predicts a set of numbers. The linear performance score shows the distances between predicted values and actual values in your training data. This is expressed as a number between  0 – 100%, with higher values indicating the predicted value is closer to the real value. Typically, a higher score means the model performs better. Remember though, that perfect or near-perfect scores ([overfit models](manage-model.md#overfit-models)) are usually indicative of a problem with your training data.
 
@@ -118,7 +117,7 @@ The following performance information is available
 - Entity list used to do prediction.
 -->
 
-## Numerical prediction
+### Numerical prediction
 
 The following performance information is available
 
@@ -133,7 +132,7 @@ The following performance information is available
 - Confusion matrix
 - Cumulative gains chart -->
 
-### Accuracy score
+#### Accuracy score
 
 AI Builder calculates the accuracy score for your model based on prediction result of the test data set. Before training, AI Builder separates your dataset into separate training data and testing data sets. And after training, AI Builder applies your AI model to the testing data set, and then calculates your accuracy score. For example: if your test data set has 200 records, and AI Builder correctly predicts 192 of them, AI Builder shows an accuracy score of 96%.
 
