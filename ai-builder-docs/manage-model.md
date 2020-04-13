@@ -33,6 +33,14 @@ After you finish evaluating your newly trained model, you have two options:
 - **Publish your model**: For more information about when to publish a model, see [When should I publish my model](publish-model.md#when-should-i-publish-my-model).
 - **Create a new version**: For more information about when to create a new version, see [When should I create a new version](#when-should-i-create-a-new-version).
 
+### Underfit models
+
+An underfit model is a model that actually performs worse than a random guess. If your model consistently performs poorly, it's probably an indication that there's a problem with your training data. Are the fields you are using relevant to the type of determination that your model is intended to make? Are there data input errors or other problems that are leading your model astray?
+
+### Overfit models
+
+An overfit model appears to perform very well if not perfectly, when run on your training data. That can be because there's a field in your training data that directly corresponds to outcome. For example, let's say you have a prediction model that predicts whether a shipment will arrive on time. If your historical data includes the actual delivery date, your model would predict perfectly when run against your historical data. It probably would not do so well when run on real data in your business environment, because the delivery date field would not yet be populated.
+
 ## Edit model name
 
 1. At the top of the page, select **Settings**.
@@ -64,7 +72,7 @@ Due to the experimental nature of machine learning, not all new versions you cre
 
 If you are satisfied with your model, you can [publish your model](publish-model.md) to make it available. Similarly, because you can only have  two trained versions available at a time, you can publish a version if you do not want it to be overwritten by a new version.
 
-For more information about the nuances of improving your model performance, see the message underneath your performance score.
+For more information about the nuances of improving your model performance, see the message underneath your accuracy score.
 
 ## Retrain and republish existing models
 
