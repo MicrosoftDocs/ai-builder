@@ -118,7 +118,7 @@
     href: prebuilt-overview.md
   - name: Business card reader
     href: prebuilt-business-card.md   
-  - name: Category classification
+  - name: Category classification (preview)
     href: prebuilt-category-classification.md
   - name: Entity extraction (preview)
     href: prebuilt-entity-extraction.md
@@ -138,7 +138,7 @@
     href: use-in-flow-prereq.md
   - name: Use a custom AI Builder model in Power Automate
     items:
-    - name: Category classification model 
+    - name: Category classification model (preview)
       href: text-classification-model-in-flow.md
     - name: Form processing model
       href: form-processing-model-in-flow.md
