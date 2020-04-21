@@ -52,21 +52,21 @@
       href: prediction-training-report.md
   - name: Use your prediction model
     href: prediction-use.md
-- name: Text classification AI model (preview)
+- name: Category classification AI model (preview)
   items:
   - name: Overview
     href: text-classification-overview.md
-  - name: Before you build a text classification model
+  - name: Before you build a category classification model
     href: before-you-build-text-classification-model.md
-  - name: Create a text classification model
+  - name: Create a category classification model
     href: create-text-classification-model.md
-  - name: Train your text classification model
+  - name: Train your category classification model
     href: train-text-classification-model.md
-  - name: Understand text classification model performance
+  - name: Understand category classification model performance
     href: text-classification-performance.md
-  - name: Improve text classification model performance
+  - name: Improve category classification model performance
     href: improve-text-classification-performance.md
-  - name: Publish your text classification model
+  - name: Publish your category classification model
     href: publish-text-classification-model.md
   - name: Use sample data
     href: text-classification-sample-data.md
@@ -117,7 +117,9 @@
   - name: Overview
     href: prebuilt-overview.md
   - name: Business card reader
-    href: prebuilt-business-card.md
+    href: prebuilt-business-card.md   
+  - name: Category classification
+    href: prebuilt-category-classification.md
   - name: Entity extraction (preview)
     href: prebuilt-entity-extraction.md
   - name: Key phrase extraction
@@ -136,7 +138,7 @@
     href: use-in-flow-prereq.md
   - name: Use a custom AI Builder model in Power Automate
     items:
-    - name: Text classification model 
+    - name: Category classification model 
       href: text-classification-model-in-flow.md
     - name: Form processing model
       href: form-processing-model-in-flow.md
@@ -146,6 +148,8 @@
     items:
     - name: Business card reader model
       href: flow-business-card-reader.md
+    - name: Category classification model 
+      href: prebuilt-category-classification-pwr-automate.md    
     - name: Entity extraction model (preview)
       href: prebuilt-entity-extraction-pwr-automate.md
     - name: Key phrase extraction model
