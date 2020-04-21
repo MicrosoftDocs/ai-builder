@@ -18,7 +18,7 @@ ms.reviewer: v-dehaas
 > [!IMPORTANT]
  > To use AI Builder models in Power Automate, you have to create the flow inside a solution. The steps below won't work if you don't follow these instructions first: [Create a flow in a solution](/flow/create-flow-solution).
 
-1. Sign in to [Power Automate](https://flow.microsoft.com/), select the **My flows** tab, and then select **Create from blank**.
+1. Sign in to [Power Automate](https://flow.microsoft.com/), select the **My flows** tab, and then select **Automated-from blank**.
 1. Enter a name for your flow.
 1. Search for *email*, select **When an email arrives** in the list of triggers, and then select **Create**.
 1. Select **+ New step**, search for *html to text*, and then select **Html to text** in the list of actions.
