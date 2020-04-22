@@ -48,7 +48,7 @@ For information on how to use this prebuilt model in Power Automate, go to:  U
 - Compliment
 - Customer Service
 - Documentation
-- Price
+- Price & Billing
 - Staff
 
 ### Related topic

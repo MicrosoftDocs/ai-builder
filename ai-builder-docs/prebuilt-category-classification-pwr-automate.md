@@ -48,4 +48,4 @@ To learn more about the triggers and actions, see [Get started with Power Automa
 
 ### Related topic
 
-[Text classification model overview](text-classification-overview.md)
+[Category classification model overview](text-classification-overview.md)

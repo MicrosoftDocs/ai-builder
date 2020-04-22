@@ -19,7 +19,7 @@ AI Builder [hands-on labs](https://go.microsoft.com/fwlink/?linkid=2103171)  wal
 
 - Object detection
 - Prediction
-- Text classification
+- Category classification
 - Form processing
 - Business card reader
 

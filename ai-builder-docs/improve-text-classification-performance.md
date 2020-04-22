@@ -1,6 +1,6 @@
 ---
-title: Improve text classification model performance -  AI Builder | Microsoft Docs
-description: Provides tips to help you improve text classification model performance in AI Builder.
+title: Improve category classification model performance -  AI Builder | Microsoft Docs
+description: Provides tips to help you improve category classification model performance in AI Builder.
 author: raaourik 
 manager: kvivek
 ms.service: powerapps
@@ -11,7 +11,7 @@ ms.author: raaourik
 ms.reviewer: v-dehaas
 ---
 
-# Improve text classification model performance
+# Improve category classification model performance
 
 If your model performance score isn't where you want, there are a few things you can try. These tips can help you tweak your model to improve its predictive power.
 
@@ -47,7 +47,7 @@ Cleaning your data can avoid some types of training errors and improve model per
 
 ### Next step
 
-[Publish your text classification model](publish-text-classification-model.md) 
+[Publish your category classification model](publish-text-classification-model.md) 
 
 ### Related topic
 

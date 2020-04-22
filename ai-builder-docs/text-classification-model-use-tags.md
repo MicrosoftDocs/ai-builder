@@ -1,6 +1,6 @@
 ---
 title: Use model to generate tags -  AI Builder | Microsoft Docs
-description: Provides information about how to use text classification model–generated tags, and some troubleshooting information
+description: Provides information about how to use category classification model–generated tags, and some troubleshooting information
 author: raaourik 
 manager: kvivek
 ms.service: powerapps
@@ -18,7 +18,7 @@ ms.reviewer: v-dehaas
 
 ## Power Automate
 
-If you want to use your trained model in Power Automate, you can find more information in [Use text classification model in Power Automate](text-classification-model-in-flow.md).
+If you want to use your trained model in Power Automate, you can find more information in [Use category classification model in Power Automate](text-classification-model-in-flow.md).
 
 ## Set run schedule on Common Data Service
 

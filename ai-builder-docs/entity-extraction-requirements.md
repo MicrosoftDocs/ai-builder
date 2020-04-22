@@ -26,7 +26,6 @@ ms.reviewer: v-dehaas
 - German
 - Portuguese
 - Italian
-- Japanese
 - Spanish
 
 ### Related content

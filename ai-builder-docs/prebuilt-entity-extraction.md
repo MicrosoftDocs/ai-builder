@@ -44,7 +44,6 @@ If you want to use this prebuilt model in Power Automate, you can find more info
   - German
   - Portuguese
   - Italian
-  - Japanese
   - Spanish
 
 ## Supported entity types
@@ -69,7 +68,6 @@ If you want to use this prebuilt model in Power Automate, you can find more info
 |Percentage|Percentages in numerical or text form, extracted as a number|
 |Person name|A person's partial or full name, extracted as a string|
 |Phone number|Phone numbers in the standard US format, extracted as strings|
-|Point of interest|Points of interest, extracted as a string|
 |Speed|Speed, extracted as a number|
 |State|Names and abbreviations for the United States, extracted as a string|
 |Street address|Numbered addresses, streets or roads, city, state, zip or postal code in the standard US format, extracted as a string|

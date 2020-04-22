@@ -1,5 +1,5 @@
 ---
-title: Before you build a text classification model -  AI Builder | Microsoft Docs
+title: Before you build a category classification model -  AI Builder | Microsoft Docs
 description: Describes the steps and requirements that you have to consider before you build your model.
 author: raaourik 
 manager: kvivek
@@ -11,24 +11,24 @@ ms.author: raaourik
 ms.reviewer: v-dehaas
 ---
 
-# Before you build a text classification model
+# Before you build a category classification model
 
-Before you build your text classification model, make sure your data is in Common Data Service, and in the correct format.
+Before you build your category classification model, make sure your data is in Common Data Service, and in the correct format.
 
-If you don't have training data and want to try AI Builder Text Classification, you can follow these [instructions](text-classification-sample-data.md) to use sample data.
+If you don't have training data and want to try AI Builder Category classification, you can follow these [instructions](text-classification-sample-data.md) to use sample data.
 
 ## Prerequisites
 
 - Training data should be in a Common Data Service entity.
 - Make sure your administrator has assigned you a security role with read privilege over the training data.
 - You have appropriate permissions to create entities in your Common Data Service environment.
-- AI Builder text classification supports the following languages: English, French, German, Dutch, Italian, Spanish, and Portuguese. If you try to classify text items in other languages, your model might not work properly. 
+- AI Builder category classification supports the following languages: English, French, German, Dutch, Italian, Spanish, and Portuguese. If you try to classify text items in other languages, your model might not work properly. 
 
 ## Data format
 
 - Text and tags should be stored in text fields under the same entity.
 - Tags should be separated using a delimiter. We currently support the following delimiters: comma ( , ), semicolon ( ; ), tab, and no separator.
-- Tags that contain fewer than 50 text items are ignored.
+- Tags that contain fewer than 10 text items are ignored.
 - Text must be fewer than 5,000 characters.
 
 If we represent data in a table, it would look like this:''
@@ -74,4 +74,4 @@ You're all set—Power Query will import your data into your Common Data Service
 
 ### Next step
 
-[Create a text classification model](create-text-classification-model.md)
+[Create a category classification model](create-text-classification-model.md)
