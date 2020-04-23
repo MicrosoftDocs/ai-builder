@@ -28,6 +28,6 @@ ms.reviewer: v-dehaas
 - Italian
 - Spanish
 
-### Related content
+### Next step
 
-[Use a prebuilt entity extraction model](prebuilt-entity-extraction.md).  
+[Create a custom entity extraction model](entity-extraction-create.md).  
