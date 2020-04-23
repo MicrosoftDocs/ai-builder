@@ -33,7 +33,7 @@ Custom AI models are models that you build by choosing a model type in AI Builde
 | Prediction   | Prediction  | [Overview of prediction model](prediction-overview.md)
 | Form processing  | Vision   | [Overview of form classification model](form-processing-model-overview.md)
 | Object detection  | Vision   | [Overview of object detection model](object-detection-overview.md)
-| Text classification  |Language   | [Overview of text classification model](text-classification-overview.md)
+| Category classification  |Language   | [Overview of category classification model](text-classification-overview.md)
 | Entity extraction  |Language   | [Overview of entity extraction model](entity-extraction-overview.md)
 
 ### Prebuilt AI models
