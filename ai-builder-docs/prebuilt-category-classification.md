@@ -51,6 +51,10 @@ For information on how to use this prebuilt model in Power Automate, go to:  U
 - Price & Billing
 - Staff
 
+### Next step
+
+[Use your prebuilt category classification model in flow](prebuilt-category-classification-pwr-automate.md)
+
 ### Related topic
 
 [Category classification model overview](text-classification-overview.md)

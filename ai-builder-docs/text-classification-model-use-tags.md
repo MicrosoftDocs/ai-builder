@@ -28,6 +28,9 @@ Go to the **Run** view in the **Model settings** panel to set the run schedule. 
 
 Your model runs once on all existing data in your text entity, and then again whenever a new record is added to that entity.
 
+> [!NOTE]
+> At this time, you can't use the schedule feature to run a category classification model.
+
 ## What if the model isn't writing new tag suggestions?
 
 - Check that you didn't exceed the number of runs for your Power Automate subscription.

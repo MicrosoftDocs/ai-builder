@@ -17,7 +17,7 @@ If your model performance score isn't where you want, there are a few things you
 
 ## Add more correctly labeled training data
 
-The more correctly labeled training data you have, the better your model will perform. For example, let's say your two-option label is *Yes* or *No*. If most of your data only has a *Yes* in this field,  your AI model probably won't learn much from this data. And, if your data isn't correctly labeled, it will give the model the wrong signal. It is ideal to provide 1,000 or more data records to help your model be more predictive.
+The more correctly labeled training data you have, the better your model will perform. For example, let's say your two-option label is *Yes* or *No*. If most of your data only has a *Yes* in this field,  your AI model probably won't learn much from this data. If your data isn't correctly labeled, the model is probably not going to learn very well. It is ideal to provide 1,000 or more correctly labeled data records to train your prediction model.
 
 ## Clean up your data
 
