@@ -23,12 +23,12 @@ After you publish your model, a **Use model** button appears in the **Performanc
 
 Create a schedule to generate predictions regularly in Common Data Service.
 
-> [!NOTE]
-> At this time, you can't use the schedule feature to run a category classification model.
-
 View the scheduling options available for your model type:
 
 * [Set a run schedule for your category classification model](/ai-builder/text-classification-model-use-tags#set-run-schedule-on-common-data-service)
+
+> [!NOTE]
+> At this time, you can't use the schedule feature to run a category classification model.
 
 ### Run now
 
