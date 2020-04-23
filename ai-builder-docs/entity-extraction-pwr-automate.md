@@ -31,9 +31,9 @@ ms.reviewer: v-dehaas
 1. Select your published custom entity extraction model.
    > [!div class="mx-imgBorder"]
    > ![Extract entities screen'](media/flow-extract-entity.png "Extract entities screen'")
-1.	Select **+ New Step** and search for send email and select the **Send an email** action.
-1. Complete the necessary fields to send the list of entities in the email: **To**, **Subject**, and **Body**. In the **Body** field, select from the available dynamic content entities.
+1. Select **+ New step**, search for *Add a row into a table*, and then select the **Add a row into a table** action.
+1. Complete the necessary fields to find the location of your excel table. Make sure you created a table and designated columns where you want to store the results of entity extraction. Find the results of entity extraction in the available dynamic content such as **Entity type** and **Entity value** as shown here:
    > [!div class="mx-imgBorder"]
-   > ![Send an email screen'](media/flow-send-email.png "Send an email screen'")
+   > ![Add a row to table'](media/flow-add-row2.png "Add a row to table")
 
 Congratulations! You've created a flow that uses a entity extraction model. Select **Save** on the top right and then select **Test** to try out your flow.
