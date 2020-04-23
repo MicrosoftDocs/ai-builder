@@ -140,6 +140,8 @@
     items:
     - name: Category classification model (preview)
       href: text-classification-model-in-flow.md
+    - name: Entity extraction model (preview)
+      href: entity-extraction-pwr-automate.md
     - name: Form processing model
       href: form-processing-model-in-flow.md
     - name: Object detection model
