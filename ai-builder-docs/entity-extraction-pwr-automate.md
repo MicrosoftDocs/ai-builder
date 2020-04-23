@@ -27,7 +27,7 @@ ms.reviewer: v-dehaas
    > ![Select 'html to text'](media/html-to-text.png "Select 'html to text'")
 1. Select **+ New step**, search for *predict*, and then select the **Predict Common Data Service (current Environment)** action.
    > [!div class="mx-imgBorder"]
-   > ![Choose an a action'](media/predict-cds-2.png "Select 'Predict Common Data Service'")
+   > ![Choose an action'](media/predict-cds-2.png "Select 'Predict Common Data Service'")
 1. Select your published custom entity extraction model.
    > [!div class="mx-imgBorder"]
    > ![Extract entities screen'](media/flow-extract-entity.png "Extract entities screen'")

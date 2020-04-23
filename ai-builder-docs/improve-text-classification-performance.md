@@ -17,15 +17,15 @@ If your model performance score isn't where you want, there are a few things you
 
 ## Add more correctly labeled training data
 
-The minimum requirement for training data is 50 records. However, 50 data records probably can't train a highly predictive AI model. For example, let's say your two-option label is *Yes* or *No*. If most of your data only has a *Yes* in this field,  your AI model probably won't learn much from this data. And, if your data isn't correctly labeled, it will give the model the wrong signal. It is ideal to provide 1,000 or more data records to help your model be more predictive.
+The more correctly labeled training data you have, the better your model will perform. For example, let's say your two-option label is *Yes* or *No*. If most of your data only has a *Yes* in this field,  your AI model probably won't learn much from this data. And, if your data isn't correctly labeled, it will give the model the wrong signal. It is ideal to provide 1,000 or more data records to help your model be more predictive.
 
 ## Clean up your data
 
 You might have a lot of correctly labeled training data. You might have added a lot of data fields. So why is the AI model not as predictive as you expect? It could be that you're selecting too many fields, adding an unwanted bias. Make sure all the fields you select influence what you want to predict. Deselect irrelevant or misleading fields.
 
- - Validate the data fields that you selected to train the AI model don't have a high rate of missing values. 
- - Populate missing values with a default value or remove the data field from the model training. 
- - If a data field has a high correlation with a prediction outcome, remove the data field from the model training.
+- Validate the data fields that you selected to train the AI model don't have a high rate of missing values.
+- Populate missing values with a default value or remove the data field from the model training.
+- If a data field has a high correlation with a prediction outcome, remove the data field from the model training.
 
 Cleaning your data can avoid some types of training errors and improve model performance. Here are some additional pointers:
 
