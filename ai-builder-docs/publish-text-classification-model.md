@@ -1,6 +1,6 @@
 ---
-title: Publish your text classification model -  AI Builder | Microsoft Docs
-description: Provides the information you need to know to publish your text classification model AI Builder.
+title: Publish your category classification model -  AI Builder | Microsoft Docs
+description: Provides the information you need to know to publish your category classification model AI Builder.
 author: Dean-Haas
 manager: kvivek
 ms.service: powerapps
@@ -11,7 +11,7 @@ ms.author: v-dehaas
 ms.reviewer: v-dehaas
 ---
 
-# Publish your text classification model
+# Publish your category classification model
 
 When you're satisfied with your model, you can publish it. Once it's published, your model is ready to run on your Common Data Service data, or be used through Power Automate. It can take up to two hours for the results to be available.
 

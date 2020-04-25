@@ -11,11 +11,13 @@ ms.author: mfotedar
 ms.reviewer: v-dehaas
 ---
 
-# Preview: Entity extraction model
+# Entity extraction model
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-The entity extraction prebuilt model recognizes specific data from text that is of interest to your business.  The model identifies key elements from text, and then classifies them into pre-defined categories. This can help to transform unstructured data into structured data that is machine readable.  You can then apply processing to retrieve information, extract facts, and answer questions.
+The prebuilt entity extraction prebuilt model recognizes specific data from text that is of interest to your business.  The model identifies key elements from text, and then classifies them into pre-defined categories. This can help to transform unstructured data into structured data that is machine readable.  You can then apply processing to retrieve information, extract facts, and answer questions.
+
+The prebuilt model is ready to use out of the box. If you want to customize your entity extraction to suit your specific needs, go to [Custom entity extraction AI model](entity-extraction-overview.md)
 
 ## Explore entity extraction
 
@@ -42,7 +44,6 @@ If you want to use this prebuilt model in Power Automate, you can find more info
   - German
   - Portuguese
   - Italian
-  - Japanese
   - Spanish
 
 ## Supported entity types
@@ -67,7 +68,6 @@ If you want to use this prebuilt model in Power Automate, you can find more info
 |Percentage|Percentages in numerical or text form, extracted as a number|
 |Person name|A person's partial or full name, extracted as a string|
 |Phone number|Phone numbers in the standard US format, extracted as strings|
-|Point of interest|Points of interest, extracted as a string|
 |Speed|Speed, extracted as a number|
 |State|Names and abbreviations for the United States, extracted as a string|
 |Street address|Numbered addresses, streets or roads, city, state, zip or postal code in the standard US format, extracted as a string|

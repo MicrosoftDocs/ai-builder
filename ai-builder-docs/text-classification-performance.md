@@ -1,6 +1,6 @@
 ---
-title: Understand text classification model performance -  AI Builder | Microsoft Docs
-description: Provides an understanding of how to evaluate and understand text classification model performance
+title: Understand category classification model performance -  AI Builder | Microsoft Docs
+description: Provides an understanding of how to evaluate and understand category classification model performance
 author: raaourik 
 manager: kvivek
 ms.service: powerapps
@@ -11,7 +11,7 @@ ms.author: raaourik
 ms.reviewer: v-dehaas
 ---
 
-# Understand text classification model performance
+# Understand category classification model performance
 
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
