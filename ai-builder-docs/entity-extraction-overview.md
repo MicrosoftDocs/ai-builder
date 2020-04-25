@@ -1,0 +1,24 @@
+---
+title: Entity extraction custom AI model overview -  AI Builder | Microsoft Docs
+description: Describes the custom entity extraction AI model in AI Builder.
+author: mfotedar
+manager: kvivek
+ms.service: powerapps
+ms.topic: conceptual
+ms.custom: 
+ms.date: 04/08/2020
+ms.author: mfotedar
+ms.reviewer: v-dehaas
+---
+
+# Entity extraction custom model overview
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
+
+AI Builder entity extraction models recognize specific data in text that you target based on your business needs. The model identifies key elements in the text, and then classifies them into pre-defined categories. This can help you transform unstructured data into structured data that is machine readable. You can then apply processing to retrieve information, extract facts, and answer questions.
+
+AI Builder features two types of entity extraction models: prebuilt, and custom. [Prebuilt models](prebuilt-overview.md) are ready to use, don't require training and publishing, and are appropriate for many uses where customization is not needed. Custom entity extraction models must be built, trained and published before you can use them. By using your own training data and design parameters, they allow you to create an entity extraction model that is purpose-built for your unique requirements.
+
+### Related information:
+
+[Use a prebuilt entity extraction model](prebuilt-entity-extraction.md).  
