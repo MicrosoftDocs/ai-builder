@@ -31,12 +31,12 @@ Follow these steps to sign into AI Builder:
 You need some sample documents to train your model for the type of forms you'll be working with.
 
 1. Select **Add documents**.
-
-  > [!div class="mx-imgBorder"]
-  > ![Add documents screen](media/form-add-documents.png "Add documents screen")
+ 
+   > [!div class="mx-imgBorder"]
+   > ![Add documents screen](media/form-add-documents.png "Add documents screen")
 
 1. Select at least five sample documents of the type of form you want to train the model for. Only JPG, PNG, and PDF files are accepted.
-1. Verify that you have selected the correct files and then select **Upload documents**.
+1. Verify the selection, and then select **Upload documents**.
 1. After the upload has completed, select **Close**.
 1. Select **Analyze**.
 
@@ -70,7 +70,7 @@ If the analysis succeeds, it means AI Builder detected structured text in your f
 
 ### Fields and tables that are automatically detected
 
-To help you get started, some fields and tables have been automatically detected for you. These are shown by dotted rectangles. If you want your model to return those fields, you just have to click on them and validate the selection. 
+To help you get started, some fields and tables have been automatically detected for you. They are shown by dotted rectangles. If you want your model to return those fields, you just have to click on them and validate the selection. 
 
 ### Fields that are not detected automatically
 
