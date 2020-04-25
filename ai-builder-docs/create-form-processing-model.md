@@ -40,10 +40,8 @@ You need some sample documents to train your model for the type of forms you'll 
 1. After the upload has completed, select **Close**.
 1. Select **Analyze**.
 
-  > [!div class="mx-imgBorder"]
-  > ![Select 'Analyze'](media/form-analyze.png "Select 'Analyze'")
-
-
+   > [!div class="mx-imgBorder"]
+   > ![Select 'Analyze'](media/form-analyze.png "Select 'Analyze'")
 
 ### Upload your documents
 
@@ -78,8 +76,8 @@ Some fields in your document might not have been automatically detected by AI Bu
 
 When you over your mouse through the different words in your documents, light blue boxes will be shown. This indicates that you can draw a rectangle around those words to select a field.
 
-  > [!div class="mx-imgBorder"]
-  > ![Select fields](media/form-select-fields.png "Select fields")
+   > [!div class="mx-imgBorder"]
+   > ![Select fields](media/form-select-fields.png "Select fields")
 
 When you draw a rectangle to indicate a field, if your initial selection did not pick all the words you wanted, or picked additional ones, you can adjust your selection.
 
@@ -102,7 +100,6 @@ If you have drawn new fields, or resized automatically detected fields, you will
 To draw a field on a document, just start drawing a selection on the document and you will be asked to which field it corresponds to. You can also select **Draw in document** on the fields list to the right to star the selection process for that field.
 
 If a field is not present on one of the documents, select **Field not in document**. 
-
 
 To start, choose the fields that matter to you:
 
