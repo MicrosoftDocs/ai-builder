@@ -60,9 +60,15 @@ If the analysis succeeds, it means AI Builder detected structured text in your f
 
 To help you get started, some fields and tables have been automatically detected for you. They are shown by dotted rectangles. If you want your model to return those fields, you just have to click on them and validate the selection. 
 
+   > [!div class="mx-imgBorder"]
+   > ![Select detected fields](media/form-processing-detected-fields.gif "Select detected fields")
+
 ### Fields that are not detected automatically
 
 Some fields in your document might not have been automatically detected by AI Builder. Draw a rectangle around the field you are interested in, give it a name and validate the selection. 
+
+   > [!div class="mx-imgBorder"]
+   > ![Draw fields](media/form-processing-undetected-fields.gif "Draw fields")
 
 When you over your mouse through the different words in your documents, light blue boxes will be shown. This indicates that you can draw a rectangle around those words to select a field.
 
@@ -71,6 +77,9 @@ When you over your mouse through the different words in your documents, light bl
 
 When you draw a rectangle to indicate a field, if your initial selection did not pick all the words you wanted, or picked additional ones, you can adjust your selection.
 
+   > [!div class="mx-imgBorder"]
+   > ![Adjust drawn fields](media/form-processing-undetected-fields-2.gif "Adjust drawn fields")
+
 > [!NOTE] 
 > Adding tables that have not been detected is currently not supported today.
 
@@ -78,13 +87,22 @@ When you draw a rectangle to indicate a field, if your initial selection did not
 
 If a field that you want your model to return has been automatically selected, but does not contain all the values for that field, you can adjust the selection by selecting the field, resizing the selection and validating the selection.
 
+   > [!div class="mx-imgBorder"]
+   > ![Resize fields](media/form-processing-resize-selection.gif "Resize fields")
+
 ### Hiding fields
 
 If you are finding difficult to select fields because of automated detected field suggestions that are incorrect, or fields that are too close to each other, you can click on a selected or suggested field and hide it. To show all the hidden fields, click on the option for this that will appear on the top as you hide fields. 
 
+   > [!div class="mx-imgBorder"]
+   > ![Hide fields](media/form-processing-hide-fields.gif "Hide fields")
+
 ### Rename fields
 
 Both for automatically detected fields as well as fields that you manually draw, you have the option to rename so it easier to reference them.
+
+   > [!div class="mx-imgBorder"]
+   > ![Reanme fields](media/form-processing-rename.gif "Rename fields")
 
 > [!NOTE] 
 > Only fields can be renamed. Tables cannot be renamed as of today.
@@ -97,6 +115,8 @@ To draw a field on a document, just start drawing a selection on the document an
 
 If a field is not present on one of the documents, select **Field not in document**. 
 
+   > [!div class="mx-imgBorder"]
+   > ![Confirm fields](media/form-processing-confirm-fields.gif "Confirm fields")
 
 ### Next step
 
