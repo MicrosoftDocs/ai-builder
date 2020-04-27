@@ -35,7 +35,7 @@ You need some sample documents to train your model for the type of forms you'll 
    > [!div class="mx-imgBorder"]
    > ![Add documents screen](media/form-add-documents.png "Add documents screen")
 
-1. Select at least five sample documents of the type of form you want to train the model for. Only JPG, PNG, and PDF files are accepted.
+1. Select at least five sample documents of the type of form you want to train the model for. Only JPG, PNG, and PDF files are accepted. For more information about requirements the documents, see [Requirements and limitations](form-processing-model-requirements.md).
 1. Verify the selection, and then select **Upload documents**.
 1. After the upload has completed, select **Close**.
 1. Select **Analyze**.
@@ -43,16 +43,6 @@ You need some sample documents to train your model for the type of forms you'll 
    > [!div class="mx-imgBorder"]
    > ![Select 'Analyze'](media/form-analyze.png "Select 'Analyze'")
 
-### Upload your documents
-
-1. Sign in to [Power Apps](https://make.powerapps.com) or [Power Automate](https://flow.microsoft.com) and then in the navigation pane select **AI Builder** > **Build**. Then, select the Form processing AI model type.
-2. Enter a name for your model and then select **Create**. 
-3. Select **Add documents**, select a minimum of five documents, and then select **Upload**.
-
-For more information about requirements for input documents, see [Requirements and limitations](form-processing-model-requirements.md).
-
-> [!NOTE] 
-> After you upload these documents, you can still remove some of the documents or upload additional ones.
 
 ### Analyze
 
@@ -81,6 +71,9 @@ When you over your mouse through the different words in your documents, light bl
 
 When you draw a rectangle to indicate a field, if your initial selection did not pick all the words you wanted, or picked additional ones, you can adjust your selection.
 
+> [!NOTE] 
+> Adding tables that have not been detected is currently not supported today.
+
 ### Resizing fields that are automatically detected
 
 If a field that you want your model to return has been automatically selected, but does not contain all the values for that field, you can adjust the selection by selecting the field, resizing the selection and validating the selection.
@@ -93,6 +86,9 @@ If you are finding difficult to select fields because of automated detected fiel
 
 Both for automatically detected fields as well as fields that you manually draw, you have the option to rename so it easier to reference them.
 
+> [!NOTE] 
+> Only fields can be renamed. Tables cannot be renamed as of today.
+
 ### Confirming fields
 
 If you have drawn new fields, or resized automatically detected fields, you will be presented with all the documents that you have uploaded. In this step you will need to draw the fields that are marked as pending on the right panel. By doing this you are teaching your AI Builder model to recognize these fields in documents of this type.
@@ -101,17 +97,6 @@ To draw a field on a document, just start drawing a selection on the document an
 
 If a field is not present on one of the documents, select **Field not in document**. 
 
-To start, choose the fields that matter to you:
-
- 1. Select the detected template card: **\<*Your model name*> form**.
- 1. To select the fields, hover over a rectangle that indicates a detected field in the document, or select the fields in the right-side pane.
- 1. Select **Edit** next to the selected field if you want to rename fields to align with your needs or normalize the extracted labels.
-
-    When you hover over a detected field, the following information appears:
-
-    - **Field name**: The name of the label for the detected field.
-    - **Field value**: The value for the detected field.
-    - **Confidence level**: Confidence score of retrieving this field compared to the trained model.
 
 ### Next step
 
