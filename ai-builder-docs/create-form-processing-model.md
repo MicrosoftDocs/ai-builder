@@ -81,7 +81,7 @@ When you draw a rectangle to indicate a field, if your initial selection did not
 
 ### Resizing fields that are automatically detected
 
-If a field that you want your model to return has been automatically selected, but does not contain all the values for that field, you can adjust the selection by selecting the field, resizing the selection and validating the selection.
+If a field that you want your model to return has been automatically detected, but does not contain all the values for that field, you can adjust the selection by selecting the field, resizing the selection and validating the selection.
 
    > [!div class="mx-imgBorder"]
    > ![Resize fields](media/form-processing-resize-selection.gif "Resize fields")
