@@ -50,10 +50,6 @@ During the analysis step, AI Builder examines the documents that you upload, and
 
 When the analysis has finished, select the thumbnail to open the field selection experience.
 
-## Review documents and extracted data
-
-If the analysis succeeds, it means AI Builder detected structured text in your form documents. A failed analysis can mean AI Builder didn't detect structured text in your documents. In that case, check that the documents you updated follow the [requirements and optimization tips section](https://docs.microsoft.com/ai-builder/form-processing-model-requirements).
-
 ## Select form fields
 
 ### Fields and tables that are automatically detected
