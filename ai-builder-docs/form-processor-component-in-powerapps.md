@@ -17,7 +17,6 @@ You can add the AI Builder form processor component to your screen in your canva
 
  > [!NOTE]
  >
- > - Display of PDF files is not included in the initial preview.
  > - For more information about canvas apps, see [What are canvas apps in PowerApps?](/powerapps/maker/canvas-apps/getting-started).
 
 ## Prerequisites
@@ -33,14 +32,16 @@ The component is initialized after an AI model is bound to it.
 
  - **ModelId** ("AI model" in the properties panel): AI model information to which the component is bound.
  - **OriginalImage**: The original image before processing.
- - **FormContent**: The details of extracted form fields and tables. At component initialization (AI model binding step), the fields and tables that can be extracted by the models are populated:
-   - **Fields**:
-
-     ![Form fields screen](media/form-fields.png "Form fields screen")
-
-   - **Tables**:
-
-     ![Form tables screen](media/form-tables.png "Form tables screen")
+ - **Fields**: The extracted fields by the AI model.
+ - **Tables**: The extracted tables by the AI model. 
+ - **Results**: Contains all the outputs returned by the AI Model along with advanced properties. For each value returned by the AI model, you can access:
+    - **BoundingBox** The coordinates on the form for the extracted field.
+    - **Confidence** How confident the model is in its prediction of the extracted text.
+    - **PageNumber** The number of the page where the extracted text is located.
+    - **Value** The extracted text value.
+ 
+    > [!NOTE]
+    > Some of these property names changed with the April 2020 updates. If you are not seeing these properties in your app, you will have to manually update the property names. More information: [Property name changes in AI Builder components for canvas apps](use-in-powerapps-overview.md#property-name-changes-in-ai-builder-components-for-canvas-apps)
 
 ## Additional properties
 
