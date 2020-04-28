@@ -16,8 +16,7 @@ ms.reviewer: v-dehaas
 The object detection component takes a photo or loads an image file to do an object detection scan. On a mobile device, the user chooses between taking a photo or selecting one already available in the device user interface. When an image is selected, the component automatically scans it to identify objects.
 
  > [!NOTE]
- >
- > - Find more information about canvas apps in the [What are canvas apps in PowerApps?](/powerapps/maker/canvas-apps/getting-started).
+ > For information about canvas apps, see [What are canvas apps in PowerApps?](/powerapps/maker/canvas-apps/getting-started).
 
 ## Prerequisites
 
@@ -31,10 +30,18 @@ The component is initialized once an AI model is bound to it.
 
  - **ModelId** ("AI model" in the properties panel): AI model information to which the component is bound.
  - **OriginalImage**: The original image before processing.
- - **VisionObjects**: The details of detected objects. For each object, these properties are available:
-    - **id** (populated at AI model binding)
-    - **displayName** (populated at AI model binding)
-    - **count** (populated after a detection)
+ - **GroupedResults**: The details of detected objects. For each object, these properties are available:
+    - **TagId** The id of the object detected.
+    - **TagName** The name of the object detected.
+    - **ObjectCount** The number of times the object is present on the image.
+ - **Results**: Contains all the outputs returned by the AI Model.
+    - **BoundingBox** The coordinates on the image of the object detected.
+    - **Confidence** How confident the model is in its prediction of the object detected.
+    - **TagId** The id of the object detected.
+    - **TagName** The name of the object detected.
+
+    > [!NOTE]
+    > Some of these property names changed with the April 2020 updates. If you are not seeing these properties in your app, you will have to manually update the property names. More information: [Property name changes in AI Builder components for canvas apps](use-in-powerapps-overview.md#property-name-changes-in-ai-builder-components-for-canvas-apps)
 
 ### Additional properties
  - **Text**: Text that appears on the button that activates the object detector.

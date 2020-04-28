@@ -16,16 +16,22 @@ ms.reviewer: v-dehaas
 Create a canvas app and add the text recognizer AI Builder component to your screen. This component takes a photo or loads an image from the local device, and then processes it to detect and extract text based on the text recognition prebuilt AI model. If it detects text in the image, the component outputs the text and identifies the instances with rectangles in the image.
 
  > [!NOTE]
- >
- > - Display of PDF files is not included in the initial preview.
- > - Find more information about canvas apps [here](/powerapps/maker/canvas-apps/getting-started).
+ > For information about canvas apps, see [What are canvas apps in Power Apps?](/powerapps/maker/canvas-apps/getting-started).
 
 ## Key properties
 
  - **OriginalImage**: The original image before processing. 
- - **OcrObjects**: The list of detected text lines. For each object, these properties are available of extracted form fields and tables. At component initialization (AI model binding step), the potential fields and tables that can be extracted by the models are populated:
-     - **text**: The detected text line.
- - **SelectedText**: The text line selected by the user.
+ - **Results**: The list of detected text lines. For each object, these properties are available of extracted form fields and tables. At component initialization (AI model binding step), the potential fields and tables that can be extracted by the models are populated:
+     - **BoundingBox**: The coordinates for detected text line.
+     - **PageNumber**: The number of the page where the detected text line is located.
+     - **Text**: The detected text line.
+ - **Selected**: The detected box selected by the user on the control.
+     - **BoundingBox**: The coordinates for detected text line selected by the user.
+     - **PageNumber**: The number of the page where the detected text line selected by the user is located.
+     - **Text**: The detected text line selected by the user.
+
+    > [!NOTE]
+    > Some of these property names changed with the April 2020 updates. If you are not seeing these properties in your app, you will have to manually update the property names. More information: [Property name changes in AI Builder components for canvas apps](use-in-powerapps-overview.md#property-name-changes-in-ai-builder-components-for-canvas-apps)
  
 ## Additional properties
 
