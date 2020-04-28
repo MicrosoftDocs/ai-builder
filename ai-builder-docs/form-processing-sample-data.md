@@ -14,21 +14,17 @@ ms.reviewer: v-dehaas
 # Use sample data to do form processing
 
 
-To explore the possibilities of form processing, you can get started by building and training a form processing model using  [sample invoices](https://go.microsoft.com/fwlink/?linkid=2103171).
+To explore the possibilities of form processing, you can get started by building and training a form processing model using  [sample invoices](https://go.microsoft.com/fwlink/?linkid=2128080).
 
-> [!NOTE]
-> This sample data is added to your environment automatically if you enable the [Deploy sample apps and data](build-model.md#deploy-sample-apps-and-data) setting when you create your database.
 
 ## Get the sample data
 
-Download [AIBuilder_Lab.zip](https://go.microsoft.com/fwlink/?linkid=2103171), which contains sample invoices.
+Download [AI Builder Form Processing Sample Data.zip](https://go.microsoft.com/fwlink/?linkid=2128080), which contains sample invoices.
 
-> [!NOTE]
-> The [AIBuilder_Lab.zip](https://go.microsoft.com/fwlink/?linkid=2103171) file also contains sample files for working with other AI Builder model types, as well as some hands-on labs that you can use to learn more about AI Builder. More information about the contents of the zip file is available in the [readme.txt](https://go.microsoft.com/fwlink/?linkid=2108226) file.
 
 ## Build your model
 
-1. Extract the downloaded files, and then navigate to **AIBuilder_Lab\Lab Images\FormProcessing_Invoices**, where you'll see two folders: **Train** and **Test**.
+1. Extract the downloaded files, and then navigate to **AI Builder Form Processing Sample Data\Invoices**, where you'll see two folders: **Train** and **Test**.
 2. On the AI Builder Build screen, select **Form processing model**.
 3. Choose a name for the form processing model and then create your model.
 4. When you're prompted to upload data, upload the five invoices from the **Train** folder.
