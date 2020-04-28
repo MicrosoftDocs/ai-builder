@@ -26,10 +26,13 @@ ms.reviewer: v-dehaas
 1. Select **+ New step**, search for **Predict**, and then select **Predict Common Data Service (current Environment)** in the list of actions.
     >[!NOTE]
     > **Predict Common Data Service (current Environment)** does not appear if you don't follow these instructions first: [Create a flow in a solution](/flow/create-flow-solution)
-1. Select the category classification model you want to use, and in the **Text** field, add **My Text** from the trigger:
+1. Select the category classification model you want to use, and then:
 
-    > [!div class="mx-imgBorder"]
-    > ![Trigger a flow screen](media/trigger-flow.png "trigger a flow screen")
+   - In the **Text** field, add **My Text** from the trigger.
+   - In the **Language** field, select the 2 letter language code for the supported language you want to use.
+
+      > [!div class="mx-imgBorder"]
+      > ![Trigger a flow screen](media/trigger-flow.png "trigger a flow screen")
 
 1. In your flow's successive actions, you can iterate through the outputs returned by the category classification model. The following example, saves each inferred tag into a SharePoint list.
 
