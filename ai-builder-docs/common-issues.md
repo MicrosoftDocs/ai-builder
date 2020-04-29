@@ -27,6 +27,10 @@ See the data preparation section for your AI model type. Make sure your Common D
 
 Make sure business card reader component users have access to Common Data Service, or to the AI Builder model entity configured in the business card reader component.
 
+## When I scan images using AI Builder components in Power Apps, the output image rotation is wrong
+
+This issue can occur with the Google Chrome browser due to the way this browser handles image-orientation. Some images in Power Apps may be rotated differently than you expect when using Chrome. To work around this issue, try a different browser.
+
 ## Training document is not displayed on form processing model details page
 
 When you create a form processing model, a preview of one of the training documents appears on the model’s details page after training completes.
