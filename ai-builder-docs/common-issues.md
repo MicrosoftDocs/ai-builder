@@ -45,7 +45,7 @@ The training document may not appear if:
 
 If you perform too many executions in a short timeframe on a given model you may face an error: _429 – TooManyRequests_.
 
-If such error happens, decrease the concurrency level of your flow. For example, if your flow is triggered by the action “When a file is created in a folder” when using the SharePoint teigger, you can reduce the degree of parallelism in the action settings.
+If such error happens, decrease the concurrency level of your flow. For example, if your flow is triggered by the action “When a file is created in a folder” when using the SharePoint trigger, you can reduce the degree of parallelism in the action settings.
 
    > [!div class="mx-imgBorder"]
    > ![Select images screen](media/too-many-requests-error-in-power-automate.gif "Reduce parallelism in Power Automate action")
