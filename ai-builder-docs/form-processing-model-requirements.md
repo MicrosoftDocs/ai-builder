@@ -14,8 +14,6 @@ ms.reviewer: v-dehaas
 # Form processing AI model requirements and limitations
 
 
-> [!NOTE]
-> Make sure your administrator has assigned you a security role with all organization privileges over the entity **Note** from **Core Records**.
 
 ## Requirements
 
@@ -28,11 +26,6 @@ Form processing works on input documents that meet the following requirements:
 - If scanned from paper documents, scans should be high-quality images.
 - Must use the Latin alphabet (English characters).
 
-Currently not supported:
-
-- Complex tables (nested tables, merged headers or cells, and so on).
-- Checkboxes or radio buttons.
-- Signatures.
 
 ## Optimization tips
 
@@ -46,6 +39,7 @@ Currently not supported:
  >
  > - Complex tables (nested tables, merged headers or cells, and so on)
  > - Check boxes or radio buttons
+ > - Signatures
  > - Fillable PDFs 
 
 ### Next step
