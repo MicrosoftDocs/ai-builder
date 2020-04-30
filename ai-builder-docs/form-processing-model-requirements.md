@@ -26,8 +26,12 @@ Form processing works on input documents that meet the following requirements:
 - For images, dimensions must be between 530 x 100 and 4200 x 4200 pixels.
 - If scanned from paper documents, scans should be high-quality images.
 - Must use the Latin alphabet (English characters).
-- Must contain keys and values (for example, "company: Contoso" works; "Contoso" without a key label isn't supported). 
-- Keys can appear above or to the left of the values, but not below or to the right.
+
+Currently not supported:
+
+- Complex tables (nested tables, merged headers or cells, and so on).
+- Checkboxes or radio buttons.
+- Signature Detection.
 
 ## Optimization tips
 
