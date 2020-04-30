@@ -40,3 +40,12 @@ The training document may not appear if:
 * You don’t have permissions to view training documents.
 * You are not the owner of the model. 
 * You imported the model from another environment. When you import a form processing model from another environment, the original training data is not imported with it, and thus the document preview can’t be displayed.  
+
+## Too Many Requests error in Power Automate
+
+If you perform too many executions in a short timeframe on a given model you may face an error: _429 – TooManyRequests_.
+
+If such error happens, decrease the concurrency level of your flow. For example, if your flow is triggered by the action “When a file is created in a folder” when using the SharePoint teigger, you can reduce the degree of parallelism in the action settings.
+
+   > [!div class="mx-imgBorder"]
+   > ![Select images screen](media/too-many-requests-error-in-power-automate.gif "Reduce parallelism in Power Automate action")
