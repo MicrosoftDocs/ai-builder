@@ -66,8 +66,8 @@ For information about this functionality becoming available with other model typ
 
  >[!NOTE]
  >
- >- Information about how to use formulas in canvas apps:  [Get started with canvas-app formulas in Power Apps](powerapps/maker/canvas-apps/working-with-formulas)
- >- To enable or disable this feature (e.g. for Data Loss Prevention), see **AI Builder formulas** under **Advanced Settings**: [Controlling which features are enabled](powerapps/maker/canvas-apps/working-with-experimental-preview#controlling-which-features-are-enabled)
+ >- Information about how to use formulas in canvas apps:  [Get started with canvas-app formulas in Power Apps](powerapps/maker/canvas-apps/working-with-formulas.md)
+ >- To enable or disable this feature (e.g. for Data Loss Prevention), see **AI Builder formulas** under **Advanced Settings**: [Controlling which features are enabled](powerapps/maker/canvas-apps/working-with-experimental-preview#controlling-which-features-are-enabled.md)
  >- When you type “AIBuilder” in an app, it may take a few seconds to load it functions. Once it loads, type “.” to view the available functions.
 
 
