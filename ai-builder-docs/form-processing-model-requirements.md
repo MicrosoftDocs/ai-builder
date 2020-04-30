@@ -22,6 +22,7 @@ ms.reviewer: v-dehaas
 Form processing works on input documents that meet the following requirements:
 
 - JPG, PNG, or PDF format (text or scanned). Text-embedded PDFs are better, because there won't be any errors in character extraction and location.
+- If your PDFs are password-locked, you must remove the lock before submitting them.
 - The combined file size of the documents used for training must not exceed 50 MB and should not be more than 500 pages for PDF documents.
 - For images, dimensions must be between 530 x 100 and 4200 x 4200 pixels.
 - If scanned from paper documents, scans should be high-quality images.
@@ -31,7 +32,7 @@ Currently not supported:
 
 - Complex tables (nested tables, merged headers or cells, and so on).
 - Checkboxes or radio buttons.
-- Signature Detection.
+- Signatures.
 
 ## Optimization tips
 
