@@ -34,7 +34,7 @@ The Details page allows you to test your model before you publish or use it:
 If you have trouble training your model, try these suggestions:
 
 - Optimize your data using the guidance in the [Requirements](form-processing-model-requirements.md).
-- Delete and recreate the model.
+- If you are getting bad results or low confidence scores for certain fields, create a new Form Processing model and upload more documents. The more documents you tag, the more AI Builder will learn how to better recognize the fields.
 - Download and test with [sample material](https://go.microsoft.com/fwlink/?linkid=2103171).
 
 ## Publish your model
