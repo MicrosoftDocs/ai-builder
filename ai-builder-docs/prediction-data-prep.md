@@ -22,6 +22,10 @@ Do you have data that you want to import into Common Data Service for training i
 > [!NOTE]
 > For best results, use a dataset that is less than 1.5 GB in size. Otherwise, AI Builder uses only 1.5 GB of your data to train and predict. Since you can’t control which data exceeding the 1.5 GB limit is not used, you should optimize your data to stay under 1.5 GB.
 
+## Example dataset for binary prediction and numerical prediction
+
+Use this dataset if you want to predict true/false outcomes, or for numerical prediction:
+
 1. Download the AI Builder sample datasets solution: [AIBuilderOnlineShopperIntention_1_0_0_0.zip](https://go.microsoft.com/fwlink/?linkid=2093415).
 1. In Power Apps, select **Solutions** in the left-side navigation pane, then select **Import** at the top of the screen.
 1. In the pop-up screen, select **Choose File**, and then select **AIBuilderOnlineShopperIntention_1_0_0_0.zip** that you downloaded in step 1.
@@ -53,6 +57,15 @@ Allow some time for the import to complete. Then, make sure the data is imported
 1. Select **Publish** to save the current view with the selected fields.
 
 And you're done!
+
+## Example dataset for predicting multiple outcomes
+
+1. Download the AI Builder sample datasets solution: BrazilianCommerce_1_0_0_4_managed.zip
+1.	In Power Apps, select **Solutions** in the left-side navigation pane, then select **Import** at the top of the screen.
+1.	In the pop-up screen, select **Choose File**, and then select **BrazilianCommerce_1_0_0_4_managed.zip** that you downloaded in step 1.
+1.	Follow the on-screen instructions to import the solution, and then select **Close** after you finish.
+1.	Download **customer.csv**, **order.csv** and **product.csv** from AI Builder samples.Once the solution is imported, click the gear icon on the top right of the PowerApps screen, and select Advanced settings.
+
 
 ### Next step
 [Create a prediction model](prediction-create-model.md) 
