@@ -16,7 +16,7 @@ ms.reviewer: v-dehaas
 This example creates a Power Apps prediction AI model that uses the *online shopper intention* Common Data Service entity.  To get this sample data into your Common Data Service environment. enable the **Deploy sample apps and data** setting when you create an environment as described in the [Build a model in AI Builder](build-model.md). Or, follow the more detailed instructions in the [Data preparation](prediction-data-prep.md). After your sample data is in Common Data Service, follow these steps to create your model:
 
 1. Sign in to [Power Apps](https://make.powerapps.com) and then select **AI Builder > Build**.
-2. Select **Prediction**. Enter a model name and then select **Create**.
+1. Select **Prediction**. Enter a model name and then select **Create**.
 
 ## Select your historical outcome
 
@@ -31,6 +31,7 @@ Use this information to make your selections. Working with provided sample data,
 1. In the **Entity** dropdown menu, select the entity that contains the data and the outcome you want to predict. For the sample data, select **Online shopper intention**.
 1. In the **Field** dropdown menu, select field that contains the outcome. For the sample data, select **Revenue (Label)**. Or, if you want to try out predict a number, select **ExitRates**.
 1. If you selected an option set that contains two or more outcomes, consider mapping it to "Yes" or "No" since you want to predict whether or not something will happen.
+1. If you want to predict multiple outcomes, use the Brazilian e-commerce data set in the sample, and select **BC Order** in the **Entity** dropdown menu, and **Delivery Timelines** in the **Field** dropdown menu. 
 
 > [!NOTE]
 > AI Builder supports these data types for the outcome field:
