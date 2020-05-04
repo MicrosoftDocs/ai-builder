@@ -32,12 +32,12 @@ ms.reviewer: v-dehaas
 
 1. In the successive actions, you can use any fields extracted by the AI Builder model. For example, you can create a common data service record for each **Key phrase**:
 
-  > [!div class="mx-imgBorder"]
-  > ![Add key phrases screen](media/flow-add-phrase-2.png "Add key phrases in Common Data Service")
+    > [!div class="mx-imgBorder"]
+    > ![Add key phrases screen](media/flow-add-phrase-2.png "Add key phrases in Common Data Service")
 
 Congratulations! You have created a flow that uses your key phrase extraction AI model. Select **Save** on the top right and then select **Test** to try out your flow.
 
 
 ### Related topic
 
-[Key phrase extraction overview](prebuilt-key-phrase.md.md)
+[Key phrase extraction overview](prebuilt-key-phrase.md)
