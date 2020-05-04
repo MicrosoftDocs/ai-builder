@@ -17,12 +17,23 @@ ms.reviewer: v-dehaas
 > [!IMPORTANT]
  > To use AI Builder models in Power Automate, you have to create the flow inside a solution. The steps below won't work if you don't follow these instructions first: [Create a flow in a solution](/flow/create-flow-solution).
 
-While you can use dedicated actions for each AI Builder model, it is possible to use a **Predict** action that encompasses all the models.
+While you can use dedicated actions for each AI Builder model, it is also possible to use a **Predict** action that allows using any AI Builder model.
 
 1. Sign in to [Power Automate](https://flow.microsoft.com/), select the **My flows** tab, and then select **New > +Instant-from blank**.
 1. Name your flow, select **Manually trigger a flow** under **Choose how to trigger this flow**, and then select **Create**.
-1. Select **+ New step**, search for **Predict** in the Search for filters and then select **Predict from AI Builder** or **Predict from Common Data Service". Both actions will offer same features.
-1. In the **Model** field, select the model you created or a prebuilt model.
-1. 
+1. Select **+ New step**, search for **Predict** in the Search for filters and then select **Predict from AI Builder** or **Predict from Common Data Service**. Both actions offer the same features.
+
+    > [!div class="mx-imgBorder"]
+    > ![Predict action](media/predict-action.png "Predict action")
+
+1. In the **Model** field, select a custom model you created or choose a prebuilt model. Her is the list of the prebuilt models available:
+   - Business card reader: BusinessCard model
+   - Category classification (prebuilt): CategoryClassification model
+   - Entity extraction (prebuilt): EntityExtraction model 
+   - Key phrase extraction: KeyPhraseExtraction model
+   - Language detection: LanguageDetection model
+   - Sentiment analysis: SentimentAnalysis model
+   - Text recognition: TextRecognition model
+1. Refer to each model's documentation for further detail on input parameters.
 
 
