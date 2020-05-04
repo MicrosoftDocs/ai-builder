@@ -38,4 +38,4 @@ The following example shows a new contact being created in Common Data Service u
 
 ### Related topic
 
-[Business card reader overview](flow-business-card-reader.md)
+[Business card reader overview](prebuilt-business-card.md)
