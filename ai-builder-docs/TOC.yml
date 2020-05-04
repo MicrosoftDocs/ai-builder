@@ -164,7 +164,7 @@
       href: flow-sentiment-analysis.md
     - name: Text recognition model
       href: flow-text-recognition.md
-  - name: Use Predict action in Power Automate
+  - name: Use predict action in Power Automate
     href: predict-pwr-automate.md
 - name: Use AI Builder in Power Apps
   items:
