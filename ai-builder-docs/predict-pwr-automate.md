@@ -11,7 +11,7 @@ ms.author: antrod
 ms.reviewer: v-dehaas
 ---
 
-# Use Predict action in Power Automate
+# Use predict action in Power Automate
 
 
 > [!IMPORTANT]
