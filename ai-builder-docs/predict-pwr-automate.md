@@ -26,7 +26,7 @@ While you can use dedicated actions for each AI Builder model, it is also possib
     > [!div class="mx-imgBorder"]
     > ![Predict action](media/predict-action.png "Predict action")
 
-1. In the **Model** field, select a custom model you created or choose a prebuilt model. Her is the list of the prebuilt models available:
+1. In the **Model** field, select a custom model you created or choose a prebuilt model. Here is the list of the prebuilt models available:
    - Business card reader: BusinessCard model
    - Category classification (prebuilt): CategoryClassification model
    - Entity extraction (prebuilt): EntityExtraction model 
@@ -34,6 +34,8 @@ While you can use dedicated actions for each AI Builder model, it is also possib
    - Language detection: LanguageDetection model
    - Sentiment analysis: SentimentAnalysis model
    - Text recognition: TextRecognition model
-1. Refer to each model's documentation for further detail on input parameters.
+1. To learn more about the input parameters of each model, refer to the documentation explaining how to use the selected model in the following documentation sections:
+   - Use a custom AI Builder model in Power Automate
+   - Use a prebuilt AI Builder model in Power Automate
 
 
