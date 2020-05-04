@@ -34,3 +34,8 @@ The following example shows a new contact being created in Common Data Service u
 
    > [!div class="mx-imgBorder"]
    > !['Create new record' screen](media/flow-business-card-overview-2.png "'Create new record' screen")
+
+
+### Related topic
+
+[Business card reader overview](flow-business-card-reader.md)
