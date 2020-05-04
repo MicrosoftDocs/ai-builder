@@ -17,37 +17,26 @@ ms.reviewer: v-dehaas
 > [!IMPORTANT]
  > To use AI Builder models in Power Automate, you have to create the flow inside a solution. The steps below won't work if you don't follow these instructions first: [Create a flow in a solution](/flow/create-flow-solution).
 
-1. Sign in to [Power Automate](https://flow.microsoft.com/), select the **My flows** tab, and then select **Create from blank**.
-2. Search for *manually*, select **Manually trigger a flow** in the list of triggers, and then select **+ Add an input**.
-3. Select **File**, and set **My Image** as input title.
-4. Select **+ New step**, search for *Predict*, and then select **Predict - Common Data Service (Current Environment)** in the list of actions.
-    >[!NOTE]
-    > **Predict Common Data Service (current Environment)** does not appear if you don't follow these instructions first: [Create a flow in a solution](/flow/create-flow-solution)
+1. Sign in to [Power Automate](https://flow.microsoft.com/), select the **My flows** tab, and then select **New > +Instant-from blank**.
+1. Name your flow, select **Manually trigger a flow** under **Choose how to trigger this flow**, and then select **Create**.
+1. Expand **Manually trigger a flow**, select **+Add an input**, select **File** as the input type, and set as input title **My Image**.
+1.	Select **+ New step**, search for **AI Builder** in the Search for filters and actions box, and then select **Detect and count objects in images** in the list of actions.
+1.	Select the object detection model you want to use, and in the **Image** field, specify **My Image** from the trigger:
 
     > [!div class="mx-imgBorder"]
-    > ![Predict common data service](media/predict-cds.png "Predict common data service screen")
+    > ![Specify my image](media/flow-my-image-2.png "Specify my image")
 
-5. Select the object detection model you want to use, and in the **Image** field, specify **My Image** from the trigger:
-
-    > [!div class="mx-imgBorder"]
-    > ![Specify my image](media/flow-my-image.png "Specify my image")
-
-9. To retrieve the name of the detected object or objects on the image, add the **Get a record** action from Common Data Service (current Environment).
-
-10. On the **Get a record** screen, select **AI Object Detection Labels** in the **Entity Name** box, and in **Item identifier** enter **tagId**.
-
-    When you add **tagId** as Item identifier, an *apply to each* loop is automatically added. This loops all the object tags that are detected on the image that is provided by the flow trigger.
-
-    You can continue to build your flow to meet your business needs.
+1.	To retrieve the name of the detected object or objects on the image, use the **Detected object name** field.
 
 Congratulations! You have created a flow that uses an object detection AI Builder model. Select **Save** on the top right, and then select **Test** to try out your flow.
 
+
 ## Example object detection flow
 
-The following example shows the creation of a flow that is triggered by an image. This flow counts the number of green tea bottles in the image. If the number of green tea bottles is below 2, an email is sent to a stock fulfillment manager.
+The following example shows the creation of a flow that is triggered by an image. This flow counts the number of green tea bottles in the image.
 
 > [!div class="mx-imgBorder"]
-> ![Green tea object detection flow example](media/green-tea-example.png "Example of an object detection flow")
+> ![Green tea object detection flow example](media/green-tea-example-2.png "Example of an object detection flow")
 
 To learn more about all the triggers and actions you can use, see [Power Automate documentation](/flow/getting-started).
 
