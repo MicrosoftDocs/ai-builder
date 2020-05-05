@@ -22,6 +22,10 @@ Do you have data that you want to import into Common Data Service for training i
 > [!NOTE]
 > For best results, use a dataset that is less than 1.5 GB in size. Otherwise, AI Builder uses only 1.5 GB of your data to train and predict. Since you can’t control which data exceeding the 1.5 GB limit is not used, you should optimize your data to stay under 1.5 GB.
 
+## Example dataset for binary prediction and numerical prediction
+
+Use this dataset if you want to predict true/false outcomes, or for numerical prediction:
+
 1. Download the AI Builder sample datasets solution: [AIBuilderOnlineShopperIntention_1_0_0_0.zip](https://go.microsoft.com/fwlink/?linkid=2093415).
 1. In Power Apps, select **Solutions** in the left-side navigation pane, then select **Import** at the top of the screen.
 1. In the pop-up screen, select **Choose File**, and then select **AIBuilderOnlineShopperIntention_1_0_0_0.zip** that you downloaded in step 1.
@@ -51,6 +55,71 @@ Allow some time for the import to complete. Then, make sure the data is imported
 1. Select **Views** and then select **Active Online Shopper Intention**.
 1. Add fields on the left side to validate that all the fields have been imported correctly. 
 1. Select **Publish** to save the current view with the selected fields.
+
+And you're done!
+
+## Example dataset for predicting multiple outcomes
+
+1. Download the AI Builder sample datasets solution: BrazilianCommerce_1_0_0_4_managed.zip
+1. In Power Apps, select **Solutions** in the left-side navigation pane, then select **Import** at the top of the screen.
+1. In the pop-up screen, select **Choose File**, and then select **BrazilianCommerce_1_0_0_4_managed.zip** that you downloaded in step 1.
+1. Follow the on-screen instructions to import the solution, and then select **Close** after you finish.
+1. Download **customer.csv**, **order.csv** and **product.csv** from AI Builder samples.
+
+   Once the solution is imported, click the gear icon on the top right of the PowerApps screen, and select **Advanced settings**.
+
+1. Select **Settings** and select **Data Management**.
+
+   > [!div class="mx-imgBorder"]
+   > ![Select 'data management'](media/smpl-settings-data-mgmt.png "Select 'data management'")
+
+1. Select **IMPORT DATA** from the top menu bar.
+1. In the **Data file name** section, select **customer.csv** and click **Next**.
+1. Select **Next** until you get to the **Map Record Types** screen.
+1. Select **BC Customer** from the drop down and click **Next**. Map the fields like this:
+
+**Source Field**|**Map to**
+:-----|:-----
+customer\_id|ID
+customer\_city|City
+customer\_state|State
+customer\_zip\_code\_prefix|Zip code
+
+12. Select **Next**, then **Submit**, then **Finish**.
+1. Repeat the process again, but this time use **product.csv** and map it to **BC Product**. Map the fields like this:
+
+**Source Field**|**Map to**
+:-----|:-----
+product\_id|ID
+product\_category\_name|Category
+product\_description\_lenght|Description Length
+product\_height\_cm|Height cm
+product\_length\_cm|Length cm
+product\_name\_lenght|Name Length
+product\_photos\_qty|Photos Quantity
+product\_weight\_g|Weight g
+product\_width\_cm|Width cm
+
+> Wait until both of these imports are complete before moving onto the next step.
+
+14. Repeat the process again, but this time use **order.csv** and map it to **BC Order**. Map the fields like this:
+
+**Source Field**|**Map to**
+:-----|:-----
+order\_id|ID
+customer\_id|Customer (Lookup)
+freight\_value|Freight Value
+order\_delivered\_customer\_date|Delivered Date
+order\_estimated\_delivery\_date|Estimated Delivery Date
+order\_purchase\_timestamp|Purchase Date
+order\_status|Order Status
+price|Price
+product\_id|Product (Lookup)
+
+In the **Lookup reference...** dialog box, make sure that the checkbox is selected, and that the field is **ID**.
+
+   > [!div class="mx-imgBorder"]
+   > ![Lookup reference dialog box'](media/lookup-reference.png "Lookup reference dialog box")
 
 And you're done!
 
