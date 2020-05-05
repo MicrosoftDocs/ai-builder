@@ -6,7 +6,7 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/06/2019
+ms.date: 05/11/2020
 ms.author: raaourik 
 ms.reviewer: v-dehaas
 ---
@@ -30,6 +30,12 @@ Your model runs once on all existing data in your text entity, and then again wh
 
 > [!NOTE]
 > At this time, you can't use the schedule feature to run a category classification model.
+
+## Use in Power Apps
+
+### Use the formula bar
+
+You can integrate your AI Builder category classification models in Power Apps maker studio by using the formula bar. More information: [Use formulas for text AI models](/use-model?#use-formulas-for-text-ai-models-preview)
 
 ## What if the model isn't writing new tag suggestions?
 
