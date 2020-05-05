@@ -35,9 +35,10 @@ While you can use dedicated actions for each AI Builder model, it is also possib
    - Sentiment analysis: SentimentAnalysis model
    - Text recognition: TextRecognition model
    
+   
 >[!NOTE]
 >
->To learn more about the input parameters of each model, refer to the documentation explaining how to use the selected model in the following documentation sections:
+>To learn more about the input and output parameters of each model, refer to the documentation explaining how to use the selected model in the following documentation sections:
 >- Use a custom AI Builder model in Power Automate
 >- Use a prebuilt AI Builder model in Power Automate
 
