@@ -1,5 +1,5 @@
 ---
-title:  Use your AI Builder model-  AI Builder | Microsoft Docs
+title:  Use your AI Builder model - AI Builder | Microsoft Docs
 description: Provides steps by step instructions about how to use your model in AI Builder.
 author: Dean-Haas
 manager: kvivek
@@ -48,27 +48,27 @@ Insert an AI Builder component to a canvas app. See [AI Builder in Power Apps ov
 
 You can integrate some AI Builder models in Power Apps maker studio by using the formula bar. Currently, this functionality is available for the following AI Builder model types:
 
-- Sentiment analysis
-- Entity extraction
-- Key phrase extraction
-- Language detection
-- Category classification
+* Sentiment analysis
+* Entity extraction
+* Key phrase extraction
+* Language detection
+* Category classification
 
 For information about this functionality becoming available with other model types, see [Release plans](/power-platform-release-plan/2019wave2/ai-builder/planned-features)
 
  > [!IMPORTANT]
  >
- >- This feature requires a Common Data Service organization which has an installed msdyn_AISolution version 2.4.1.1 or later. [Upgrade to the latest solution](/needlink).
+ >* This feature requires a Common Data Service organization which has an installed msdyn_AISolution version 2.4.1.1 or later. [Upgrade to the latest solution](/needlink).
  >
- >- Data Loss Prevention (DLP) policies that apply to the Common Data Service also apply to AI Builder.
+ >* Data Loss Prevention (DLP) policies that apply to the Common Data Service also apply to AI Builder.
  >
- >- To use formulas in an app that was created before May 7, 2020, go to **Settings > Advance Settings > Preview Features** and set **AI Builder formulas** to **ON**. This step is not necessary for newly created apps.
+ >* To use formulas in an app that was created before May 7, 2020, go to **Settings > Advance Settings > Preview Features** and set **AI Builder formulas** to **ON**. This step is not necessary for newly created apps.
 
  >[!NOTE]
  >
- >- Information about how to use formulas in canvas apps:  [Get started with canvas-app formulas in Power Apps](powerapps/maker/canvas-apps/working-with-formulas.md)
- >- To enable or disable this feature (e.g. for Data Loss Prevention), see **AI Builder formulas** under **Advanced Settings**: [Controlling which features are enabled](powerapps/maker/canvas-apps/working-with-experimental-preview#controlling-which-features-are-enabled.md)
- >- When you type “AIBuilder” in an app, it may take a few seconds to load it functions. Once it loads, type “.” to view the available functions.
+>* Information about how to use formulas in canvas apps:  [Get started with canvas-app formulas in Power Apps](/powerapps/maker/canvas-apps/working-with-formulas.md)
+ >* To enable or disable this feature (e.g. for Data Loss Prevention), see **AI Builder formulas** under **Advanced Settings**: [Controlling which features are enabled](/powerapps/maker/canvas-apps/working-with-experimental-preview#controlling-which-features-are-enabled.md)
+ >* When you type “AIBuilder” in an app, it may take a few seconds to load it functions. Once it loads, type “.” to view the available functions.
 
 
 
