@@ -6,7 +6,7 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 3/19/2019
+ms.date: 05/11/2020
 ms.author: mfotedar
 ms.reviewer: v-dehaas
 ---
@@ -28,6 +28,10 @@ You can try out the entity extraction model before you decide to import it into 
 1. Under **Get straight to productivity**, select **Entity Extraction**.
 1. In the **Entity Extraction** window, select **Try it out**. 
 1. Select predefined text samples to analyze, or add your own text in the **Add your own here** box to see how the model analyzes your text.
+
+### Use the formula bar
+
+You can integrate your AI Builder entity extraction models in Power Apps maker studio by using the formula bar. More information: [Use formulas for text AI models](/use-model?#use-formulas-for-text-ai-models-preview)
 
 ## Use in Power Automate
 
