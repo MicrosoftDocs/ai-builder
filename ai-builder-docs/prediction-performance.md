@@ -32,7 +32,7 @@ If your model is predicting outcomes such as binary (true/false) or multiple opt
 |Grade |Guidance   |
 |---------|---------|
 |A|It might still be possible to improve the model, but this is the best grade you can get. |
-|B|The model is correct a lot of the time. Could it be improved? That depends on your unique circumstances, data, and requirements. |
+|B|The model is correct in a lot of the cases. Could it be improved? That depends on your unique circumstances, data, and requirements. |
 |C|The model is doing slightly better than a random guess. It might be acceptable for some applications, but in most cases, this is a model that you'd continue to tweak and improve.  |
 |D|Something's wrong. Your model is either performing worse than we'd expect a random guess to perform [underfit model](manage-model.md#underfit-models), or it's performing so well (at or near 100%) that you've probably got a data field that is directly correlated  to the result [overfit](manage-model.md#overfit-models) .
 
