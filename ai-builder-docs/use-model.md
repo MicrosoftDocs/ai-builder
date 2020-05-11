@@ -42,21 +42,19 @@ Insert an AI Builder component to a canvas app. See [AI Builder in Power Apps ov
 
 ## Use formulas for text AI models (Preview)
 
-You can integrate some AI Builder models in Power Apps maker studio by using the formula bar. Currently, this functionality is available for the following AI Builder model types:
+You can integrate some AI Builder models in [Power Apps Studio](https://create.powerapps.com) by using the formula bar. Currently, this functionality is available only for the following AI Builder model types:
 
-* Sentiment analysis
-* Entity extraction
-* Key phrase extraction
-* Language detection
-* Category classification
+- Sentiment analysis
+- Entity extraction
+- Key phrase extraction
+- Language detection
+ Category classification
 
 For information about this functionality becoming available with other model types, see [Release plans](/power-platform-release-plan/2019wave2/ai-builder/planned-features)
 
  > [!IMPORTANT]
  >
  >- This is a preview feature. [!INCLUDE [cc-preview-features-definition](includes/cc-preview-features-definition.md)]
- >
- >- This feature requires a Common Data Service environment with the msdyn_AISolution version 2.4.1.1 or later solution installed. [Upgrade to the latest solution](/needlink).
  >
  >- [Data Loss Prevention (DLP) policies](/power-platform/admin/wp-data-loss-prevention) that apply to Common Data Service also apply to AI Builder.
  >
@@ -70,8 +68,10 @@ When you type “AIBuilder” in an app, it may take a few seconds to load it fu
 
 In this example we use a **Text Input** control and a **Label** control to invoke sentiment analysis.
 
-1. Sign in to http://create.powerapps.com
+1. Sign in to Power Apps Studio (<https://create.powerapps.com>).
+
 1. Insert a **Text Input** control, select it, select **Advanced Properties**, change **DelayOutput** to true. The **Text Input** in this case contains the text we want to analyze.
+
 1. Insert a **Label** control and type the AI Builder formula as shown in the image below. The results of sentiment analysis will automatically appear in **Label** control after you apply the AI Builder formula.
 
     > [!div class="mx-imgBorder"]
@@ -101,9 +101,11 @@ Some AI models like key phrase or entity extraction, return more than one result
 To do this:
 
 1. Insert a gallery control to your canvas app
+
 1. To populate gallery with sample text, while having gallery control selected copy paste this text into the formula bar:
 
    > Table({feedback: "I love visiting Contoso restaurant"}, {feedback: "I was annoyed that I had to wait 1h to get a table at Contoso restaurant"}, {feedback: "The food was OK at Contoso restaurant"})
+   
 1. Select the label control within gallery control and type the formula shown here:
 
     > [!div class="mx-imgBorder"]
