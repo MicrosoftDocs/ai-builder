@@ -15,11 +15,9 @@ ms.reviewer: v-dehaas
 
 After you publish your model, you can use it across the Power Platform to create end-to-end solutions that meet your business needs. In this topic, you'll learn all of the different ways you can use your model.
 
-## How can I use my model?
-
 After you publish your model, a **Use model** button appears in the **Performance** section. This opens a pane that shows all of the ways you can use your model. These options vary based on your AI model type.
 
-### Set run schedule
+## Set run schedule
 
 Create a schedule to generate predictions regularly in Common Data Service.
 
@@ -30,7 +28,7 @@ View the scheduling options available for your model type:
 > [!NOTE]
 > At this time, you can't use the schedule feature to run a category classification model.
 
-### Run now
+## Run now
 
 Generate new predictions right away and save them to Common Data Service.
 
@@ -38,13 +36,11 @@ Learn how to run now for your model type:
 
 * [Run your prediction model](/ai-builder/prediction-train-model#prediction-run)
 
-### Create new app
+## Create new app
 
 Insert an AI Builder component to a canvas app. See [AI Builder in Power Apps overview](use-in-powerapps-overview.md).
 
-### Use formulas for text AI models (Preview)
-
-[!INCLUDE [cc-preview-features-definition](includes/cc-preview-features-definition.md)]
+## Use formulas for text AI models (Preview)
 
 You can integrate some AI Builder models in Power Apps maker studio by using the formula bar. Currently, this functionality is available for the following AI Builder model types:
 
@@ -58,21 +54,19 @@ For information about this functionality becoming available with other model typ
 
  > [!IMPORTANT]
  >
- >* This feature requires a Common Data Service organization which has an installed msdyn_AISolution version 2.4.1.1 or later. [Upgrade to the latest solution](/needlink).
+ >- This is a preview feature. [!INCLUDE [cc-preview-features-definition](includes/cc-preview-features-definition.md)]
  >
- >* Data Loss Prevention (DLP) policies that apply to the Common Data Service also apply to AI Builder.
+ >- This feature requires a Common Data Service environment with the msdyn_AISolution version 2.4.1.1 or later solution installed. [Upgrade to the latest solution](/needlink).
  >
- >* To use formulas in an app that was created before May 7, 2020, go to **Settings > Advance Settings > Preview Features** and set **AI Builder formulas** to **ON**. This step is not necessary for newly created apps.
-
- >[!NOTE]
+ >- [Data Loss Prevention (DLP) policies](/power-platform/admin/wp-data-loss-prevention) that apply to Common Data Service also apply to AI Builder.
  >
->* Information about how to use formulas in canvas apps:  [Get started with canvas-app formulas in Power Apps](/powerapps/maker/canvas-apps/working-with-formulas.md)
- >* To enable or disable this feature (e.g. for Data Loss Prevention), see **AI Builder formulas** under **Advanced Settings**: [Controlling which features are enabled](/powerapps/maker/canvas-apps/working-with-experimental-preview#controlling-which-features-are-enabled.md)
- >* When you type “AIBuilder” in an app, it may take a few seconds to load it functions. Once it loads, type “.” to view the available functions.
+ >- To use formulas in an app that was created before May 7, 2020, go to **Settings > Advance Settings > Preview Features** and set **AI Builder formulas** to **ON**. This step is not necessary for newly created apps.
 
+To enable or disable this feature (for example, for Data Loss Prevention), see **AI Builder formulas** under **Advanced Settings**: [Controlling which features are enabled](/powerapps/maker/canvas-apps/working-with-experimental-preview#controlling-which-features-are-enabled.md)
 
+When you type “AIBuilder” in an app, it may take a few seconds to load it functions. Once it loads, type “.” to view the available functions. Detailed information about how to use formulas in canvas apps is available here: [Get started with canvas-app formulas in Power Apps](/powerapps/maker/canvas-apps/working-with-formulas.md)
 
-#### Example: Sentiment analysis
+### Example: Sentiment analysis
 
 In this example we use a **Text Input** control and a **Label** control to invoke sentiment analysis.
 
@@ -89,10 +83,10 @@ In this example we use a **Text Input** control and a **Label** control to invok
     > ![Available formulas](media/formula-menu.png "Available formulas")
 
 
-#### Available formulas
+### Available formulas
 
-**Formula**|**Function**
-:-----|:-----
+|Formula|Description|
+|:-----|:-----|
 AIBuilder.AnalyzeSentiment(TextInput1).sentiment|Returns sentiment of the text, such as negative or positive
 Concat(AIBuilder.CategorizeText (TextInput1).categories , type & ",")|Returns all categories that belong to the text, in list form
 Concat(AIBuilder.CategorizeText(TextInput1, { modelId: GUID(“<yourModelId>”).categories, type & ",")|Uses your custom AI Builder model to returns all categories that belong to the text, in list form
@@ -115,7 +109,7 @@ To do this:
     > [!div class="mx-imgBorder"]
     > ![Select label control](media/formula-select-control.png "Select label control")
 
-### Next step
+## Next step
 
 [Share your AI Builder model](share-model.md)
 
