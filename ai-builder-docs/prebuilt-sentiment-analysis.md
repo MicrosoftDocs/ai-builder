@@ -25,6 +25,10 @@ You can try out the sentiment analysis model before you decide to import it into
 1. In the **Sentiment Analysis** window, select **Try it out**.
 1. Select predefined text samples to analyze, or add your own text in the **Add your own here** box to see how the model analyzes your text.
 
+### Use the formula bar
+
+You can integrate your AI Builder sentiment analysis models in Power Apps maker studio by using the formula bar. More information: [Use formulas for text AI models](/use-model?#use-formulas-for-text-ai-models-preview)
+
 ## Use in Power Automate
 
 If you want to use this prebuilt model in Power Automate, you can find more information in [Use sentiment analysis model in Power Automate](flow-sentiment-analysis.md).

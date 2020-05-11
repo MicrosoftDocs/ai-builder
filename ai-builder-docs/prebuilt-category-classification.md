@@ -6,7 +6,7 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/24/2019
+ms.date: 05/11/2020
 ms.author: tatn
 ms.reviewer: v-dehaas
 ---
@@ -24,6 +24,10 @@ You can see the category classification prebuilt model in action without the nee
 1. Under **Get straight to productivity**, select **Category classification model**.
 1. In the **Category classification ** window, select **Try it out**. 
 1. Select predefined text samples to analyze, or add your own text in the **Add your own here** box to see how the model analyzes your text.
+
+### Use the formula bar
+
+You can integrate your AI Builder category classification models in Power Apps maker studio by using the formula bar. More information: [Use formulas for text AI models](/use-model?#use-formulas-for-text-ai-models-preview)
 
 ## Use in Power Automate
 

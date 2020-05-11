@@ -6,7 +6,7 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/04/2019
+ms.date: 05/11/2020
 ms.author: alanab
 ms.reviewer: v-dehaas
 ---
@@ -14,6 +14,12 @@ ms.reviewer: v-dehaas
 # Language detection model
 
 The prebuilt language detection model identifies the predominant language of a text document. The model analyses the text and returns the detected language and a numeric score between 0 and 1. Scores close to 1 indicate higher confidence in the result. The detected language is returned as the "script" of the language. For instance, for the phrase "I have a dog" it will return "en" instead of "en-US". The response for languages that can't be detected is **unknown**.
+
+## Use in Power Apps
+
+### Use the formula bar
+
+You can integrate your AI Builder language detection models by using the formula bar. More information: [Use formulas for text AI models](/use-model?#use-formulas-for-text-ai-models-preview)
 
 ## Use in Power Automate
 
