@@ -31,9 +31,9 @@ If you don't have training data and want to try AI Builder Category classificati
 - Tags that contain fewer than 10 text items are ignored.
 - Text must be fewer than 5,000 characters.
 
-If we represent data in a table, it would look like this:''
+If we represent data in a table, it would look like this:
 
-| Text      | Tags                |''
+| Text      | Tags                |
 |-----------|---------------------|
 | Text data | Tag X, Tag Y        |
 | Text data | Tag X, Tag Y, Tag Z |
