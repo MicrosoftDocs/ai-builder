@@ -28,9 +28,6 @@ Go to the **Run** view in the **Model settings** panel to set the run schedule. 
 
 Your model runs once on all existing data in your text entity, and then again whenever a new record is added to that entity.
 
-> [!NOTE]
-> At this time, you can't use the schedule feature to run a category classification model.
-
 ## Use in Power Apps
 
 ### Use the formula bar
