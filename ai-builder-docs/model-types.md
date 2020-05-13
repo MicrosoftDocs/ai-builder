@@ -2,7 +2,7 @@
 title: AI model types -  AI Builder | Microsoft Docs
 description: Provides an overview of the AI model types that you can create in AI Builder.
 author: Dean-Haas
-manager: kvivek
+
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 

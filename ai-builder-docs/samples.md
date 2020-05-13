@@ -2,7 +2,7 @@
 title:  Start using AI Builder with sample data -  AI Builder | Microsoft Docs
 description: Shows where you can obtain sample data to start using AI builder.
 author: Dean-Haas
-manager: kvivek
+
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 

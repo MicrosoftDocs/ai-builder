@@ -2,7 +2,7 @@
 title: Use form processor component in Power Apps -  AI Builder | Microsoft Docs
 description: Provides information about how to use the form processor component in Power Apps
 author: JoeFernandezMS
-manager: kvivek
+
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 

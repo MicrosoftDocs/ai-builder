@@ -3,7 +3,7 @@ title: Use the key phrase extraction prebuilt model in Power Automate - AI Build
 description: Provides information about how to set up and use the AI Builder business card reader in model-driven apps 
 
 author: alanabrito
-manager: kvivek
+
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 

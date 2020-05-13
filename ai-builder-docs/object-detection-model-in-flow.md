@@ -2,7 +2,7 @@
 title: Use object detection model in Power Automate -  AI Builder | Microsoft Docs
 description: Provides information about how to use an object detection model in Power Automate
 author: Dean-Haas
-manager: kvivek
+
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 

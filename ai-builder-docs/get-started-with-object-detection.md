@@ -2,7 +2,7 @@
 title: Get started with object detection -  AI Builder | Microsoft Docs
 description: This topic lays out the first steps you'll perform in building an object detection AI model. 
 author: amina196
-manager: kvivek
+
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 

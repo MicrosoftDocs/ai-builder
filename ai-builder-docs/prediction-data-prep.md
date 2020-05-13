@@ -2,7 +2,7 @@
 title: Data preparation -  AI Builder | Microsoft Docs
 description: Provides the steps you'll need to follow to prepare your data for AI Builder in Common Data Service. 
 author: Dean-Haas
-manager: kvivek
+
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
