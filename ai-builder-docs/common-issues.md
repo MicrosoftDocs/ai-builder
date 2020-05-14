@@ -2,7 +2,7 @@
 title:  Common issues and resolutions for AI Builder -  AI Builder | Microsoft Docs
 description: Provides a list of common issues that have been seen AI Builder, and potential workarounds where applicable.
 author: Dean-Haas
-manager: kvivek
+
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 

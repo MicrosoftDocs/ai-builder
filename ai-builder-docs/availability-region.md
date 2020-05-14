@@ -2,7 +2,7 @@
 title:  Feature availability by region -  AI Builder | Microsoft Docs
 description: Breaks down which AI Builder features are available in each region. Lists the release status for each feature by region.
 author: Dean-Haas
-manager: kvivek
+
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 

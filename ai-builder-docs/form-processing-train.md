@@ -2,7 +2,7 @@
 title: Train and publish your form processing model - AI Builder | Microsoft Docs
 description: Walks you through the steps to train, validate, and test your form processing model in AI Builder.
 author: JoeFernandezMS
-manager: kvivek
+
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 

@@ -2,7 +2,7 @@
 title: Training errors and issues| Microsoft Docs
 description: Describes the errors and issues that appear the prediction model details page
 author: Dean-Haas
-manager: kvivek
+
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 

@@ -2,7 +2,7 @@
 title: AI Builder labs| Microsoft Docs
 description: Provides information about resources to help you learn more about AI Builder 
 author: Dean-Haas
-manager: kvivek
+
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 

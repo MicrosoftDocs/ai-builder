@@ -2,7 +2,7 @@
 title: AI Builder in Power Automate prerequisites -  AI Builder | Microsoft Docs
 description: Provides the information you need to know before you can use AI Builder in Power Automate.
 author: Dean-Haas
-manager: kvivek
+
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 

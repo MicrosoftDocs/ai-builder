@@ -2,7 +2,7 @@
 title: Overview of form processing model -  AI Builder | Microsoft Docs
 description: This topic provides information about how to build and use form processing models in AI Builder.
 author: JoeFernandezMS
-manager: kvivek
+
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 

@@ -2,7 +2,7 @@
 title:  Use your AI Builder model - AI Builder | Microsoft Docs
 description: Provides steps by step instructions about how to use your model in AI Builder.
 author: Dean-Haas
-manager: kvivek
+
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
