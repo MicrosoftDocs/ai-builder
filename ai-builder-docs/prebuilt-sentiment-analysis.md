@@ -15,7 +15,9 @@ ms.reviewer: v-dehaas
 
 The sentiment analysis prebuilt model detects positive or negative sentiment in text data. You could use it to analyze social media, customer reviews, or any text data you want to analyze. Sentiment analysis evaluates text input, and gives scores and labels at a sentence and document level. The scores and labels can be positive, negative, and neutral. At the document level, there can also be a mixed sentiment label, which has no score. The sentiment of the document is determined by aggregating the sentence scores.
 
-## Explore sentiment analysis
+## Use in Power Apps
+
+### Explore sentiment analysis
 
 You can try out the sentiment analysis model before you decide to import it into your flow by using the 'try it out' feature.
 
