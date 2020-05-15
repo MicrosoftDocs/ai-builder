@@ -27,7 +27,7 @@ You can try out the key phrase extraction model before you decide to import it i
 
 ### Use the formula bar
 
-You can integrate your AI Builder sentiment analysis models in Power Apps maker studio by using the formula bar. More information: [Use formulas for text AI models](/use-model?#use-formulas-for-text-ai-models-preview)
+You can integrate your AI Builder sentiment analysis models in Power Apps maker studio by using the formula bar. More information: [Use formulas for text AI models (Preview)](use-model.md#use-formulas-for-text-ai-models-preview)
 
 ## Use in Power Automate
 
