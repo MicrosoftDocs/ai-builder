@@ -32,7 +32,7 @@ Your model runs once on all existing data in your text entity, and then again wh
 
 ### Use the formula bar
 
-You can integrate your AI Builder category classification models in Power Apps maker studio by using the formula bar. More information: [Use formulas for text AI models](/use-model?#use-formulas-for-text-ai-models-preview)
+You can integrate your AI Builder category classification models in Power Apps maker studio by using the formula bar. More information: [Use formulas for text AI models (Preview)](use-model.md#use-formulas-for-text-ai-models-preview)
 
 ## What if the model isn't writing new tag suggestions?
 
