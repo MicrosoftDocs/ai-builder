@@ -6,7 +6,7 @@ author: nijemcevic
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/24/2019
+ms.date: 04/24/2020
 ms.author: tatn
 ms.reviewer: v-dehaas
 ---

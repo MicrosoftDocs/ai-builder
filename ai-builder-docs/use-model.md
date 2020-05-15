@@ -44,21 +44,22 @@ Insert an AI Builder component to a canvas app. See [AI Builder in Power Apps ov
 
 You can integrate some AI Builder models in [Power Apps Studio](https://create.powerapps.com) by using the formula bar. Currently, this functionality is available only for the following AI Builder model types:
 
-- Sentiment analysis
-- Entity extraction
-- Key phrase extraction
-- Language detection
+* Sentiment analysis
+* Entity extraction
+* Key phrase extraction
+* Language detection
+
  Category classification
 
 For information about this functionality becoming available with other model types, see [Release plans](/power-platform-release-plan/2019wave2/ai-builder/planned-features)
 
  > [!IMPORTANT]
  >
- >- This is a preview feature. [!INCLUDE [cc-preview-features-definition](includes/cc-preview-features-definition.md)]
+ >* This is a preview feature. [!INCLUDE [cc-preview-features-definition](includes/cc-preview-features-definition.md)]
  >
- >- [Data Loss Prevention (DLP) policies](/power-platform/admin/wp-data-loss-prevention) that apply to Common Data Service also apply to AI Builder.
+ >* [Data Loss Prevention (DLP) policies](/power-platform/admin/wp-data-loss-prevention) that apply to Common Data Service also apply to AI Builder.
  >
- >- To use formulas in an app that was created before May 7, 2020, go to **Settings > Advance Settings > Preview Features** and set **AI Builder formulas** to **ON**. This step is not necessary for newly created apps.
+ >* To use formulas in an app that was created before May 7, 2020, go to **Settings > Advance Settings > Preview Features** and set **AI Builder formulas** to **ON**. This step is not necessary for newly created apps.
 
 To enable or disable this feature (for example, for Data Loss Prevention), see **AI Builder formulas** under **Advanced Settings**: [Controlling which features are enabled](/powerapps/maker/canvas-apps/working-with-experimental-preview#controlling-which-features-are-enabled.md)
 
