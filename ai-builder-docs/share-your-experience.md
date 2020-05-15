@@ -2,7 +2,7 @@
 title: Share your experience| Microsoft Docs
 description: Provides information about Microsoft forums where you can read and contribute to discussions about AI Builder 
 author: Dean-Haas
-manager: kvivek
+
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 

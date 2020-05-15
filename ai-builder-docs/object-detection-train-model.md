@@ -2,7 +2,7 @@
 title: Train and publish your object detection model -  AI Builder | Microsoft Docs
 description: Provides steps to train and publish your object detection model in AI Builder.
 author: amina196
-manager: kvivek
+
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 

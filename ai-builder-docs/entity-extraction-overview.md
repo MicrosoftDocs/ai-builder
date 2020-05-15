@@ -2,7 +2,7 @@
 title: Entity extraction custom AI model overview -  AI Builder | Microsoft Docs
 description: Describes the custom entity extraction AI model in AI Builder.
 author: mfotedar
-manager: kvivek
+
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 

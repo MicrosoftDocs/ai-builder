@@ -2,7 +2,7 @@
 title: Administer AI Builder - AI Builder | Microsoft Docs
 description: Provides information about supported regions, enabling or disabling the feature, and backup/restore in AI Builder.
 author: Dean-Haas
-manager: kvivek
+
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 

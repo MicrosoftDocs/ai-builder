@@ -1,13 +1,12 @@
 ---
 title: Data preparation -  AI Builder | Microsoft Docs
 description: Provides the steps you'll need to follow to prepare your data for AI Builder in Common Data Service. 
-author: Dean-Haas
-manager: kvivek
+author: norliu
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 01/03/2020
-ms.author: peterbi
+ms.date: 05/14/2020
+ms.author: norliu
 ms.reviewer: v-dehaas
 ---
 
@@ -60,7 +59,7 @@ And you're done!
 
 ## Example dataset for predicting multiple outcomes
 
-1. Download the AI Builder sample datasets solution: BrazilianCommerce_1_0_0_4_managed.zip
+1. In the list of AI Builder samples, download the AI Builder sample datasets solution: [BrazilianCommerce_1_0_0_4_managed.zip](https://go.microsoft.com/fwlink/?linkid=2093415)
 1. In Power Apps, select **Solutions** in the left-side navigation pane, then select **Import** at the top of the screen.
 1. In the pop-up screen, select **Choose File**, and then select **BrazilianCommerce_1_0_0_4_managed.zip** that you downloaded in step 1.
 1. Follow the on-screen instructions to import the solution, and then select **Close** after you finish.
