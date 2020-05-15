@@ -39,7 +39,7 @@ ms.reviewer: v-dehaas
 1. Locate your file by typing the file path, and insert results of **category classification (Type)** into a column of your choice.
 
     > [!div class="mx-imgBorder"]
-    > ![Add a rowinto a table screen](media/flow-add-row.png "Add a row into a table screen")
+    > ![Add a row into a table screen](media/flow-add-row.png "Add a row into a table screen")
 
 
 Congratulations! You've created a flow that uses a prebuilt category classification AI Builder model. Select **Save** on the top right and then select **Test** to try out your flow.
