@@ -15,7 +15,9 @@ ms.reviewer: v-dehaas
 
 The key phrase extraction model identifies the main points in a text document. For example, given input text "The food was delicious and there were wonderful staff", the service returns the main talking points: "food" and "wonderful staff". This model can extract a list of key phrases from unstructured text documents.
 
-## Explore key phrase extraction
+## Use in Power Apps
+
+### Explore key phrase extraction
 
 You can try out the key phrase extraction model before you decide to import it into your flow by using the 'try it out' feature.
 

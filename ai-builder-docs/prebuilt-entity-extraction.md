@@ -19,7 +19,9 @@ The prebuilt entity extraction prebuilt model recognizes specific data from text
 
 The prebuilt model is ready to use out of the box. If you want to customize your entity extraction to suit your specific needs, go to [Custom entity extraction AI model](entity-extraction-overview.md)
 
-## Explore entity extraction
+## Use in Power Apps
+
+### Explore entity extraction
 
 You can try out the entity extraction model before you decide to import it into your flow by using the 'try it out' feature.
 
