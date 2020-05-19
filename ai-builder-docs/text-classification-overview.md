@@ -1,5 +1,5 @@
 ---
-title: Overview of category classification model| Microsoft Docs
+title: Overview of category classification model - AI Builder | Microsoft Docs
 description: Describes category classification models. Gives an overview of how to build and use category classification models in AI Builder. 
 author: raaourik 
 
