@@ -1,5 +1,5 @@
 ---
-title: AI Builder labs| Microsoft Docs
+title: AI Builder labs - AI Builder | Microsoft Docs
 description: Provides information about resources to help you learn more about AI Builder 
 author: Dean-Haas
 

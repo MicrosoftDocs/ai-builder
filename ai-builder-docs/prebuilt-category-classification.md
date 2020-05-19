@@ -1,8 +1,7 @@
 ---
-title: Use prebuilt category classification model in Power Automate  -  AI Builder | Microsoft Docs
-description: Provides information about how to use a prebuilt category classification AI Builder model in Power Automate.
+title: Prebuilt category classification model -  AI Builder | Microsoft Docs
+description: Describes the prebuilt category classification AI Builder model.
 author: nijemcevic
-
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
@@ -11,7 +10,7 @@ ms.author: tatn
 ms.reviewer: v-dehaas
 ---
 
-# Prebuilt category classification models (preview)
+# Prebuilt category classification model (preview)
 
 The category classification prebuilt model is a ready to use AI model that is configured to classify your text into categories that are useful for a specific business scenario. The first prebuilt category classification AI model is built around customer feedback uses. Check back for additional category classification prebuilt models, or check release plans to see what may be coming.
 

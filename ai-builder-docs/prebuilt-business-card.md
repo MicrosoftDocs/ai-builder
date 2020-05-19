@@ -1,6 +1,6 @@
 ---
-title: Overview of prebuilt AI models -  AI Builder | Microsoft Docs
-description: Describes the prebuilt AI models that are available in AI Builder.
+title: Business card prebuilt AI model-  AI Builder | Microsoft Docs
+description: Describes the business card prebuilt AI Builder model.
 author: alanabrito
 
 ms.service: powerapps
