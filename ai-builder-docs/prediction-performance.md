@@ -59,7 +59,7 @@ The accuracy ranges for each grade changes when your historical  on-time rates c
 Grade|Early (33.3%)|Early (20%)|Early (10%)
 :-----:|:-----:|:-----:|:-----:
 | |**On time (33.3%**)|**On time (40%**)|**On time (80%)**
-| |**Late (33.4%)**)|**Late (40%)**)|**Late (10%))**
+| |**Late (33.4%)**|**Late (40%)**|**Late (10%)**
 A|86.7 - <98.7%|87.2 - <98.7%|93.2 - <99.3%
 B|66.7 - <86.7%|68.0 - <87.2%|83.0 - <93.2%
 C|40.0 - <66.7%|42.4 - <68.0%|69.4 - <83.0%
