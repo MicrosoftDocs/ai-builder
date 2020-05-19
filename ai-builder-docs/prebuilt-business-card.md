@@ -19,9 +19,11 @@ The business card prebuilt AI model allows you to extract information from busin
 > The design and format of business cards varies widely. AI builder is constantly improving the accuracy of the business card AI model, but it's possible there may be inaccurate or missing information in some cases.  It's a good idea to verify that the output is as you expect!
 
 ## Licensing requirements
+
 AI Builder is licensed as an add-on to your Power Apps or Power Automate licenses. For information about license capacity, pricing, and restrictions, see [AI Builder licensing](administer-licensing.md).
 
 ## Role requirements
+
 Users need to have the Common Data Service user role to consume the business card reader.
 
 ## Use in Power Apps
@@ -31,19 +33,20 @@ If you want to use this prebuilt model in Power Apps using the Business card rea
 ## Use in Power Automate
 
 If you want to use this prebuilt model in Power Automate, you can find more information in [Use business card model in Power Automate](flow-business-card-reader.md).
- 
+
 ## Supported language, format, and size
 
 The images you can process with the business card model need these characteristics:
 
 - Language: English.  
-- Format: 
-    - JPG 
-    -.png 
-    - BMP 
-- Size: 6 MB maximum 
- 
-## Model output 
+- Format:
+  - JPG
+  - PNG
+  - BMP
+- Size: 6 MB maximum
+
+## Model output
+
 If a business card is detected, the business card model will try to locate and extract the following properties:
 
 |Property |Definition  |
