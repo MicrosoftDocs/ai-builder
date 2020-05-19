@@ -2,7 +2,7 @@
   "redirections": [
     {
       "source_path": "ai-builder-docs/binary-classification-performance.md",
-      "redirect_url": "binary-classification-performance",
+      "redirect_url": "prediction-performance",
       "redirect_document_id": "false"
     },
     {
