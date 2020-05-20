@@ -17,7 +17,7 @@ Prebuilt receipt processing models extract key information from receipts. It use
 
 ## Use in Power Apps
 
-The receipt processing prebuilt model is available in Power Apps by using the receipt processor component. For more information, see [Use the receipt processor component in Power Apps](prebuilt-receipt-processor-component-in-powerapps.md).
+The receipt processing prebuilt model is available in Power Apps by using the receipt processor component. For more information, see [Use the receipt processor component in Power Apps](prebuilt-receipt-processor-component-in-powerapps.md).
 
 ## Use in Power Automate
 
