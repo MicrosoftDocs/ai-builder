@@ -21,7 +21,7 @@ The receipt processing prebuilt model is available in Power Apps by using the re
 
 ## Use in Power Automate
 
-For information on how to use the receipt processing prebuilt model in Power Automate, see Use receipt processing model in Power Automate.  
+For information on how to use the receipt processing prebuilt model in Power Automate, see [Use the receipt processing prebuilt model in Power Automate](flow-receipt-processing.md).  
 
 ## Supported languages and files
 
