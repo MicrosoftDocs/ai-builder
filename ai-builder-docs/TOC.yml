@@ -172,14 +172,6 @@
   items:
   - name: Overview
     href: use-in-powerapps-overview.md
-  - name: Use the text recognizer component in Power Apps
-    href: prebuilt-text-recognizer-component-in-powerapps.md
-  - name: Use your prediction model in Power Apps
-    href: prediction-model-driven-app.md
-  - name: Use the form processor component in Power Apps
-    href: form-processor-component-in-powerapps.md
-  - name: Use the object detector component in Power Apps
-    href: object-detector-component-in-powerapps.md
   - name: Add text-based AI models in Power Apps using formulas (Preview)
     href: formula-bar.md
   - name: Use the business card reader component in Power Apps
@@ -188,6 +180,16 @@
       href: business-card-reader-component-in-powerapps.md
     - name: Use in a model-driven app
       href: business-card-reader-component-model-driven.md
+  - name: Use the form processor component in Power Apps
+    href: form-processor-component-in-powerapps.md
+  - name: Use the object detector component in Power Apps
+    href: object-detector-component-in-powerapps.md
+  - name: Use the receipt processor component in Power Apps
+    href: prebuilt-receipt-processor-component-in-powerapps.md
+  - name: Use the text recognizer component in Power Apps
+    href: prebuilt-text-recognizer-component-in-powerapps.md
+  - name: Use your prediction model in Power Apps
+    href: prediction-model-driven-app.md
 - name: Administration and security
   items:
   - name: Administer AI Builder
