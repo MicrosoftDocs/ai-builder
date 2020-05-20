@@ -22,11 +22,9 @@ If you want to use your trained model in Power Automate, you can find more infor
 
 ## Set run schedule on Common Data Service
 
-Go to the **Run** view in the **Model settings** panel to set the run schedule. To configure your model to run on your database and generate predictions, select this option:
+Go to the **Run** view in the **Model settings** panel to set the run schedule. To configure your model to run on your database and generate predictions, select **Generate predictions when new data is added**. 
 
-**Generate predictions when new data is added**
-
-Your model runs once on all existing data in your text entity, and then again whenever a new record is added to that entity.
+Your model runs whenever a new record is added to that entity.
 
 ## Use in Power Apps
 
