@@ -20,11 +20,12 @@ Prebuilt models are available in Power Automate and Power Apps, depending on the
 |Model |Availability  |
 |---------|---------|
 |[Business card reader](prebuilt-business-card.md)   |   Power Automate and Power Apps     |
+|[Entity extraction ](prebuilt-entity-extraction.md)    |    Power Automate    |
 |[Key phrase extraction](prebuilt-key-phrase.md)  |    Power Automate    |
 |[Language detection](prebuilt-language-detection.md)  |    Power Automate    |
-|[Text recognition](prebuilt-text-recognition.md)      |    Power Automate and Power Apps  |
+|Receipt processing   |   Power Automate and Power Apps     |
 |[Sentiment analysis ](prebuilt-sentiment-analysis.md)    |    Power Automate    |
-|[Entity extraction ](prebuilt-entity-extraction.md)    |    Power Automate    |
+|[Text recognition](prebuilt-text-recognition.md)      |    Power Automate and Power Apps  |
 
 ### Related content
 
