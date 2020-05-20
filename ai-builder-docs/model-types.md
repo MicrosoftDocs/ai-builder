@@ -46,7 +46,7 @@ AI Builder features prebuilt AI models that you can use in Power Apps and Power 
 |Category classification |Language | [Overview of category classification](prebuilt-category-classification.md)
 |Key phrase extraction |Language | [Overview of key phrase extraction](prebuilt-key-phrase.md)
 |Language detection |Language | [Overview of language detection](prebuilt-language-detection.md)
-|Receipt processing |Vision | Overview of receipt processing
+|Receipt processing |Vision | [Overview of receipt processing](prebuilt-receipt-processing.md)
 |Sentiment analysis |Language | [Overview of sentiment analysis](prebuilt-sentiment-analysis.md)
 |Text recognition |Vision | [Overview of text recognition](prebuilt-text-recognition.md)
 
