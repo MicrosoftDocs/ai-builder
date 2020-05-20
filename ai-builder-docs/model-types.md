@@ -30,11 +30,11 @@ Custom AI models are models that you build by choosing a model type in AI Builde
 
 | AI model type  | Category  | Start here |
 |---|---|---|
-| Prediction   | Prediction  | [Overview of prediction model](prediction-overview.md)
-| Form processing  | Vision   | [Overview of form classification model](form-processing-model-overview.md)
-| Object detection  | Vision   | [Overview of object detection model](object-detection-overview.md)
 | Category classification  |Language   | [Overview of category classification model](text-classification-overview.md)
 | Entity extraction  |Language   | [Overview of entity extraction model](entity-extraction-overview.md)
+| Form processing  | Vision   | [Overview of form classification model](form-processing-model-overview.md)
+| Object detection  | Vision   | [Overview of object detection model](object-detection-overview.md)
+| Prediction   | Prediction  | [Overview of prediction model](prediction-overview.md)
 
 ### Prebuilt AI models
 
@@ -43,11 +43,12 @@ AI Builder features prebuilt AI models that you can use in Power Apps and Power 
 | AI model type | Category |Start here |
 |--------|--------|--------|
 |Business card reader |Vision | [Overview of business card reader](prebuilt-business-card.md)
-|Text recognition |Vision | [Overview of text recognition](prebuilt-text-recognition.md)
 |Category classification |Language | [Overview of category classification](prebuilt-category-classification.md)
 |Key phrase extraction |Language | [Overview of key phrase extraction](prebuilt-key-phrase.md)
 |Language detection |Language | [Overview of language detection](prebuilt-language-detection.md)
+|Receipt processing |Vision | Overview of receipt processing
 |Sentiment analysis |Language | [Overview of sentiment analysis](prebuilt-sentiment-analysis.md)
+|Text recognition |Vision | [Overview of text recognition](prebuilt-text-recognition.md)
 
 ### Next step
 
