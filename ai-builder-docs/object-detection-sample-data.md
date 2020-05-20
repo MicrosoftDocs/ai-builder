@@ -1,6 +1,6 @@
 ---
 title: Use sample data to do object detection  -  AI Builder | Microsoft Docs
-description: Provides steps to train and publish your object detection model in AI Builder.
+description: Provides information to help you get started by building and training an object detection model using sample pictures and labels in AI Builder.
 author: amina196
 
 ms.service: powerapps

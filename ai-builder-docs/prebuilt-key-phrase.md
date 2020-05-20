@@ -1,8 +1,7 @@
 ---
 title: Key phrase extraction prebuilt AI model -  AI Builder | Microsoft Docs
-description: Describes the prebuilt AI models that are available in AI Builder.
+description: Describes the prebuilt key phrase extraction AI models in AI Builder.
 author: alanabrito
-
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 

@@ -1,8 +1,7 @@
 ---
 title: Entity extraction prebuilt AI model -  AI Builder | Microsoft Docs
-description: Describes the prebuilt AI models that are available in AI Builder.
+description: Describes the prebuilt entity extraction AI Builder model.
 author: mfotedar
-
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 

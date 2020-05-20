@@ -1,12 +1,11 @@
 ---
 title: Transition to new form processing model version - AI Builder | Microsoft Docs
-description: Preview model versions won't be compatible with updated model versions, so you have to recreate existing models. 
+description: Preview form processing  model versions aren't compatible with updated model versions, so you have to recreate existing models. 
 author: Jarennert
-
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/06/2020
+ms.date: 05/19/2020
 ms.author: Jarennert
 ms.reviewer: v-dehaas
 ---

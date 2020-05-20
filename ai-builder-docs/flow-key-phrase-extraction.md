@@ -1,6 +1,6 @@
 ---
 title: Use the key phrase extraction prebuilt model in Power Automate - AI Builder | Microsoft Docs
-description: Provides information about how to set up and use the AI Builder business card reader in model-driven apps 
+description: Provides information about how to set up and use the AI Builder key phrase extraction prebuilt model in Power Automate.
 
 author: alanabrito
 
