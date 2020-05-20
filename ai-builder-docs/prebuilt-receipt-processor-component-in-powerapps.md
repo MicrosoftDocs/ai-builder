@@ -46,6 +46,21 @@ In order to get the best results, provide one clear photo or scan per receipt.
 |**Items**|The list of purchased items <ul><li>**Name**: Name of the item</li><li>**Price**: Price of the item</li><li>**Quantity**: Quantity of the item</li><li>**TotalPrice**: Total price of the item</li></ul>|
 |**Results**|The list of all detected lines of text on the receipt <ul><li>**BoundingBox**: The coordinates of the line of text</li><li>**PageNumber**: Which page the line of text is found on</li><li>**Text**: The line of text</li></ul>|
 
+## Additional properties
+|Property|Definition|
+|---------|---------|
+|**DisplayMode**|<ul><li>**Edit**: Allows user input</li><li>**View**: Only displays data</li><li>**Disabled**: Does not allow user input</li></ul>|
+|**Height**|The height of the component|
+|**ImageDisplayed**|Whether the component displays the image or not|
+|**ShowBoundingBoxes**|Whether the component displays the bounding boxes or not|
+|**Text**|The text that appears on the button that activates the receipt processor |
+|**Visible**|Whether the component appears or is hidden|
+|**Width**|The width of the component|
+|**X**|The distance between the left edge of the component and the left edge of the parent container or screen|
+|**Y**|The distance between the top edge of the component and the top edge of the parent container or screen|
+
+Additional design properties are available in the **Advanced** panel.
+
 ## Accessibility guidelines
 These [guidelines](/powerapps/maker/canvas-apps/controls/control-button) for the Power Apps button control also apply to the text recognizer component.
 
