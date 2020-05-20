@@ -164,6 +164,8 @@
       href: flow-key-phrase-extraction.md
     - name: Language detection model
       href: flow-language-detection.md
+    - name: Receipt processing model
+      href: flow-receipt-processing.md
     - name: Sentiment analysis model
       href: flow-sentiment-analysis.md
     - name: Text recognition model
