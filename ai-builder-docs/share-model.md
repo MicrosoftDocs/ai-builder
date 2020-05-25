@@ -1,5 +1,5 @@
 ---
-title: Share your AI model -  AI Builder | Microsoft Docs
+title: Share your AI model - AI Builder | Microsoft Docs
 description: Walks you through the steps to share your model in AI Builder.
 author: Antoine2F
 manager: cdbellar
@@ -13,13 +13,13 @@ ms.reviewer: cdbellar
 
 # Share your AI models
 
-When you create and publish AI  models in AI Builder, they're private - only you can run them. This allows you to test them and use them within apps or flows.
+When you create and publish AI models in AI Builder, they're private - only you can run them. This allows you to test them and use them within apps or flows.
 
 If you want other users to use your model in apps or flows, or even use a direct API to make a prediction using your model, you have to share it. This applies to users creating apps or flows that call your model, and also to users who just run these apps or flows. Both app makers and app users need a shared access to your model.
 
 ## Share action
 
-The share action is available on the **Models** page in AI Builder for each model where you're the owner. It's also available for the system administrator in the environment, or for any security role that has  share permissions on AI Builder system entities.
+The share action is available on the **Models** page in AI Builder for each model where you're the owner. It's also available for the system administrator in the environment, or for any security role that has share permissions on AI Builder system entities.
 
 The share action is also available on the Model detail screen in AI Builder, with same rules.
 
@@ -39,11 +39,11 @@ The models you create and the models that are shared with you appear in the mode
 - **Shared with me**
 
  > [!NOTE]
- > If you are an administrator of the environment,  all models in your environment appear under **Shared with me** view, whether shared or not.
+ > If you're an administrator of the environment, all models in your environment appear under **Shared with me** view, whether shared or not.
 
 When a model is shared with you, you have user permissions to it. You can use it in apps or flows. You can't view details or edit the model. No actions are available for models in the **Shared with me** list.
 
-In some cases as administrator or owner of a model, only the **Delete** action is available. This happens when the model type is no longer supported.  It may be that the model type was a preview feature,  and the administrator [disabled AI Builder preview features](administer.md#enable-or-disable-ai-builder-preview-features).
+In some cases as administrator or owner of a model, only the **Delete** action is available. This happens when the model type is no longer supported. It might be that the model type was a preview feature, and the administrator [disabled AI Builder preview features](administer.md#enable-or-disable-ai-builder-preview-features).
 
 ## FAQ
 
@@ -65,11 +65,11 @@ Yes. In the advanced settings of your organization, an administrator has to sele
 
 ### The owner of a model has left the company. How can we allow non-admin users to edit this model?
 
-Reassign this model to another user. Reassign means changing ownership in the advanced settings of your organization in AI Builder.  You also need to give  access to data used to train the model.
+Reassign this model to another user. Reassign means changing ownership in the advanced settings of your organization in AI Builder. You also need to give access to data used to train the model.
 
 ### Can I disable the sharing feature for AI model makers and only allow Administrators to do it?
 
-Yes. In advanced settings of your organization,  an administrator must create a security role where the share privilege is disabled for the **AI Model** custom entity. Assign this role to AI model makers.
+Yes. In advanced settings of your organization, an administrator must create a security role where the share privilege is disabled for the **AI Model** custom entity. Assign this role to AI model makers.
 
 ### Why can't I share generic prediction models?
 

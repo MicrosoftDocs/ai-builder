@@ -1,8 +1,7 @@
 ---
-title: View generated predictions -  AI Builder | Microsoft Docs
+title: View generated predictions - AI Builder | Microsoft Docs
 description: Provides steps to view category classification predictions after you publish your model in AI Builder.
 author: raaourik 
-
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
@@ -17,7 +16,7 @@ This section shows you how to see output of your prediction model.
 
 1. After you select **Use Model** and configure it to run on Common Data Service, the output location appears in the **Settings** pane under the **Run** pivot.
 
-    The name shown in **Tags output** is the name of the entity and attribute that's created after publishing. It is a link that takes you to the entity viewer section where the new fields added by AI Builder appear.
+    The name shown in **Tags output** is the name of the entity and attribute that's created after publishing. It's a link that takes you to the entity viewer section where the new fields added by AI Builder appear.
 
 2. In the **Views** section, see values of the output fields for the different records. Use the **Filter by** function in the lower right-side pane to filter for only the records that don't have a label.
 

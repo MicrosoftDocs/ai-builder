@@ -46,7 +46,7 @@ After you select the platform where the business card reader should appear (web,
 > ![Form editor binding properties screen](media/form-editor-binding-properties.png "Form editor binding properties screen")
 
 > [!NOTE]
-> - The **Company Name** property cannot be bound to a field of type **Lookup.Customer**. The only supported type is **SingleLine.Text**.
+> - The **Company Name** property can't be bound to a field of type **Lookup.Customer**. The only supported type is **SingleLine.Text**.
 > - Find more information about [adding components to model-driven apps](/powerapps/developer/component-framework/add-custom-controls-to-a-field-or-entity).
 
 ## Key properties

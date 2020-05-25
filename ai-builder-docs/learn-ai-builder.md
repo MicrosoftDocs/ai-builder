@@ -13,9 +13,9 @@ ms.reviewer: v-dehaas
 
 # AI Builder labs
 
-Use Ai Builder labs to gain experience with AI Builder, and to learn more about it. Links are added here as new resources become available.
+Use AI Builder labs to gain experience with AI Builder, and to learn more about it. Links are added here as new resources become available.
 
-AI Builder [hands-on labs](https://go.microsoft.com/fwlink/?linkid=2103171)  walk through these features:
+AI Builder [hands-on labs](https://go.microsoft.com/fwlink/?linkid=2103171) walk through these features:
 
 - Object detection
 - Prediction

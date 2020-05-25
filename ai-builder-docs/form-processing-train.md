@@ -19,7 +19,7 @@ After you create your form processing model, you can train, test, and publish it
 ## Train and validate your model
 
 1. Select **Next** to check your selected form fields. If everything looks good, select **Train** to train your model.
-1. When training completes,  select **Go to Details page** in the **Training complete** screen.
+1. When training completes, select **Go to Details page** in the **Training complete** screen.
 
 ## Quick-test your model
 
@@ -34,17 +34,16 @@ The Details page allows you to test your model before you publish or use it:
 If you have trouble training your model, try these suggestions:
 
 - Optimize your data using the guidance in the [Requirements](form-processing-model-requirements.md).
-- If you are getting bad results or low confidence scores for certain fields, create a new Form Processing model and upload more documents. The more documents you tag, the more AI Builder will learn how to better recognize the fields.
+- If you're getting bad results or low confidence scores for certain fields, create a new Form Processing model and upload more documents. The more documents you tag, the more AI Builder will learn how to better recognize the fields.
 - Download and test with [sample material](https://go.microsoft.com/fwlink/?linkid=2103171).
 
 ## Publish your model
 
-If you're happy with your model, you can select **Publish**  to publish it. When publishing completes, your model is promoted as **Published** and is ready to be used. For more information about publishing your model, see [Publish your model](publish-model.md).
+If you're happy with your model, you can select **Publish** to publish it. When publishing completes, your model is promoted as **Published** and is ready to be used. For more information about publishing your model, see [Publish your model](publish-model.md).
 
-After you've published your form processing model, you can use it in a  [Power Apps canvas app](/ai-builder/form-processor-component-in-powerapps) or in [Power Automate](/ai-builder/form-processing-model-in-flow).
+After you've published your form processing model, you can use it in a [Power Apps canvas app](/ai-builder/form-processor-component-in-powerapps) or in [Power Automate](/ai-builder/form-processing-model-in-flow).
 
 ### Related topics
 
-[Form processing model in Power Automate](form-processing-model-in-flow.md)
-
+[Form processing model in Power Automate](form-processing-model-in-flow.md)  
 [Form processing model in Power Apps](form-processor-component-in-powerapps.md)

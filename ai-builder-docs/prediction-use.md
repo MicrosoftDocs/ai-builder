@@ -1,8 +1,7 @@
 ---
-title: Use your prediction model -  AI Builder | Microsoft Docs
+title: Use your prediction model - AI Builder | Microsoft Docs
 description: Describes how to run your model. Provides information about the schedule feature, which allows you to automatically retrain and run your prediction model at the cadence you choose. 
 author: Dean-Haas
-
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
@@ -13,7 +12,7 @@ ms.reviewer: v-dehaas
 
 # Use your prediction model
 
-After your model is trained and published, it is ready for you to use it. 
+After your model is trained and published, it's ready for you to use. 
 
 ## Prediction run
 
@@ -35,22 +34,22 @@ When you select on the link under **Database Sync**, the screen below lists sche
 > [!div class="mx-imgBorder"]
 > ![elect schedule cadence](media/schedule-cadence.png "Select schedule cadence")
 
-You can set the run or retrain cadence to daily, weekly, or monthly. If you don't want run prediction or retrain at this time, you might just set it to never. You might set it to 'never' if you have data issues upstream and do not want impact business processes, or if you just do not want to use the model.
+You can set the run or retrain cadence to daily, weekly, or monthly. If you don't want to run prediction or retrain at this time, you might just set it to "never." You might set it to never if you have data issues upstream and don't want to negatively affect<!--Via Writing Style Guide.--> business processes, or if you simply<!--Suggested.--> don't want to use the model.
 
 > [!NOTE]  
-> When you schedule your model to retrain, it creates a flow to schedule the training. It is a good idea to not update the flow associated to the AI builder retrain schedule. AI Builder manages the flow through the schedule retrain experience.
+> When you schedule your model to retrain, it creates a flow to schedule the training. It's a good idea not to update the flow associated to the AI Builder retrain schedule. AI Builder manages the flow through the schedule retrain experience.
 
 If you make any changes to the AI Builder **schedule > retrain** settings, the associated flow is replaced with a new one.
 
 ## Real-time prediction
 
-In addition to scheduled prediction inferences, AI Builder supports real-time prediction. Although scheduled prediction on a daily cadence may work for some scenarios, there are times when prediction needs to run in real-time. Let's say that your retail company wants to know if an order will be delivered on time. If the order creation/fulfillment processes occur in a short time frame, you need the delivery prediction during the fulfillment process. Then, you can decide whether to use a faster shipment type. Real-time prediction provides you the information at the time you need it.
+In addition to scheduled prediction inferences, AI Builder supports real-time prediction. Although scheduled prediction on a daily cadence might work for some scenarios, there are times when prediction needs to run in real-time. Let's say that your retail company wants to know if an order will be delivered on time. If the order creation/fulfillment processes occur in a short time frame, you need the delivery prediction during the fulfillment process. Then, you can decide whether to use a faster shipment type. Real-time prediction provides you the information at the time you need it.
 
-AI Builder prediction models created after April 2, 2020 are enabled for real-time prediction. A real-time prediction for a model is synchronous call to AI Builder. AI builder is supporting real-time prediction by value, and real-time prediction by reference. The predict operation accepts a single input observation in the request payload and returns the prediction synchronously in the response.
+AI Builder prediction models created after April 2, 2020 are enabled for real-time prediction. A real-time prediction for a model is synchronous call to AI Builder. AI Builder is supporting real-time prediction by value, and real-time prediction by reference. The predict operation accepts a single input observation in the request payload and returns the prediction synchronously in the response.
 
 ### What about existing models?
 
-Prediction models created before April 2, 2020 don't support real-time prediction. Recreate any models created before this date  to use real-time prediction capability.
+Prediction models created before April 2, 2020 don't support real-time prediction. Recreate any models created before this date to use real-time prediction capability.
 
 ### How to use real-time prediction
 

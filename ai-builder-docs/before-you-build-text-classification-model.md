@@ -1,5 +1,5 @@
 ---
-title: Before you build a category classification model -  AI Builder | Microsoft Docs
+title: Before you build a category classification model - AI Builder | Microsoft Docs
 description: Describes the steps and requirements that you have to consider before you build your model.
 author: raaourik 
 
@@ -58,7 +58,7 @@ Note that tags data is separated using a vertical bar or pipe ( \| ).
 2. Under **Data**, select **Entities**, and then select **Get data** at the top of the screen.
     - If you need to create a new entity, see: [Create a custom entity](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-create-entity).
 3. In the list of data sources, select **Excel**.
-4. Select **Browse** to upload your Excel file,  and then select the sheet or sheets your data is in.
+4. Select **Browse** to upload your Excel file, and then select the sheet or sheets your data is in.
     - You might have to allow third-party cookies for your browser to perform this step.
 6. On the **Edit Queries** screen, select **Transform table** > **Use first row as headers**. Next, select the **Tags** column, and then select **Transform Column** > **Replace values**.
 1. Replace the vertical bar ( \| ) character with a semicolon ( ; ) and then select **OK**.

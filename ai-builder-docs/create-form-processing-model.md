@@ -1,5 +1,5 @@
 ---
-title: Create a form processing model -  AI Builder | Microsoft Docs
+title: Create a form processing model - AI Builder | Microsoft Docs
 description: Provides step-by-step instructions on how to create a form processing model in AI Builder.
 author: JoeFernandezMS
 
@@ -54,30 +54,30 @@ When the analysis has finished, select the thumbnail to open the field selection
 
 ### Fields and tables that are automatically detected
 
-To help you get started, some fields and tables have been automatically detected for you. They are shown by dotted rectangles. If you want your model to return those fields, you just have to click on them and validate the selection. 
+To help you get started, some fields and tables have been automatically detected for you. They're shown by dotted rectangles. If you want your model to return those fields, you just have to click to select them and validate the selection. 
 
    > [!div class="mx-imgBorder"]
    > ![Select detected fields](media/form-processing-detected-fields.gif "Select detected fields")
 
 ### Fields that are not detected automatically
 
-Some fields in your document might not have been automatically detected by AI Builder. Draw a rectangle around the field you are interested in, give it a name and validate the selection. 
+Some fields in your document might not have been automatically detected by AI Builder. Draw a rectangle around the field you're interested in, give it a name, and validate the selection. 
 
    > [!div class="mx-imgBorder"]
    > ![Draw fields](media/form-processing-undetected-fields.gif "Draw fields")
 
-When you over your mouse through the different words in your documents, light blue boxes will be shown. This indicates that you can draw a rectangle around those words to select a field.
+When you hover over different words in your documents, light blue boxes will be shown. This indicates that you can draw a rectangle around those words to select a field.
 
    > [!div class="mx-imgBorder"]
    > ![Select fields](media/form-select-fields.png "Select fields")
 
-When you draw a rectangle to indicate a field, if your initial selection did not pick all the words you wanted, or picked additional ones, you can adjust your selection.
+When you draw a rectangle to indicate a field, if your initial selection didn't pick all the words you wanted or picked additional ones, you can adjust your selection.
 
    > [!div class="mx-imgBorder"]
    > ![Adjust drawn fields](media/form-processing-undetected-fields-2.gif "Adjust drawn fields")
 
 > [!NOTE] 
-> Adding tables that have not been detected is currently not supported today.
+> Adding tables that haven't been detected is currently not supported today.
 
 ### Resizing fields that are automatically detected
 
@@ -88,28 +88,28 @@ If a field that you want your model to return has been automatically detected, b
 
 ### Hiding fields
 
-If you are finding difficult to select fields because of automated detected field suggestions that are incorrect, or fields that are too close to each other, you can click on a selected or suggested field and hide it. To show all the hidden fields, click on the option for this that will appear on the top as you hide fields. 
+If you're finding it difficult to select fields because of automated detected field suggestions that are incorrect, or fields that are too close to each other, you can click on a selected or suggested field and hide it. To show all the hidden fields, click on the option for this that will appear on the top as you hide fields. 
 
    > [!div class="mx-imgBorder"]
    > ![Hide fields](media/form-processing-hide-fields.gif "Hide fields")
 
 ### Rename fields
 
-Both for automatically detected fields as well as fields that you manually draw, you have the option to rename so it easier to reference them.
+Both for automatically detected fields and fields that you manually draw, you have the option to rename them so they're easier to reference.
 
    > [!div class="mx-imgBorder"]
    > ![Reanme fields](media/form-processing-rename.gif "Rename fields")
 
 > [!NOTE] 
-> Only fields can be renamed. Tables cannot be renamed as of today.
+> Only fields can be renamed. Tables can't be renamed as of today.
 
 ### Confirming fields
 
-If you have drawn new fields, or resized automatically detected fields, you will be presented with all the documents that you have uploaded. In this step you will need to draw the fields that are marked as pending on the right panel. By doing this you are teaching your AI Builder model to recognize these fields in documents of this type.
+If you've drawn new fields, or resized automatically detected fields, you'll be presented with all the documents that you've uploaded. In this step you'll need to draw the fields that are marked as pending on the right panel. By doing this, you're teaching your AI Builder model to recognize these fields in documents of this type.
 
-To draw a field on a document, just start drawing a selection on the document and you will be asked to which field it corresponds to. You can also select **Draw in document** on the fields list to the right to star the selection process for that field.
+To draw a field on a document, just start drawing a selection on the document and you'll be asked to which field it corresponds to. You can also select **Draw in document** on the fields list to the right to star the selection process for that field.
 
-If a field is not present on one of the documents, select **Field not in document**. 
+If a field isn't present on one of the documents, select **Field not in document**. 
 
    > [!div class="mx-imgBorder"]
    > ![Confirm fields](media/form-processing-confirm-fields.gif "Confirm fields")
@@ -120,6 +120,5 @@ If a field is not present on one of the documents, select **Field not in documen
 
 ### Related topics
 
-[Form processing model in Power Automate](form-processing-model-in-flow.md)
-
+[Form processing model in Power Automate](form-processing-model-in-flow.md)  
 [Form processing model in Power Apps](form-processor-component-in-powerapps.md)

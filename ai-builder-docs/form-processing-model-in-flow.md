@@ -1,5 +1,5 @@
 ---
-title: Use form processing model in Power Automate -  AI Builder | Microsoft Docs
+title: Use form processing model in Power Automate - AI Builder | Microsoft Docs
 description: Provides information about how to use a form processing model in Power Automate
 author: JoeFernandezMS
 
@@ -35,7 +35,7 @@ ms.reviewer: v-dehaas
 
 1. Search for **Predict** in the **Search for filters and actions** box, and then select **Predict Common Data Service (current Environment)** in the list of actions.
     >[!NOTE]
-    > **Predict Common Data Service (current Environment)** does not appear if you don't follow these instructions first: [Create a flow in a solution](/flow/create-flow-solution)
+    > **Predict Common Data Service (current Environment)** doesn't appear unless you've followed these instructions first: [Create a flow in a solution](/flow/create-flow-solution).
 
 1. Select the form processing model you want to use, and select the **Document type**:
 
@@ -48,7 +48,7 @@ ms.reviewer: v-dehaas
     > [!div class="mx-imgBorder"]
     > ![Select file content](media/flow-select-file-content.png "Select file content")
 
-1. In the successive actions, you can use any fields and tables extracted by the AI Builder model. For example, let's say that our model is trained to extract the *Invoice Id* and the *Total Amount* value, and we want to post those to a Microsoft Teams channel. Just add the **Post a message to Teams** action, and then select your fields in the list of tokens  .
+1. In the successive actions, you can use any fields and tables extracted by the AI Builder model. For example, let's say that our model is trained to extract the *Invoice Id* and the *Total Amount* value, and we want to post those to a Microsoft Teams channel. Just add the **Post a message to Teams** action, and then select your fields in the list of tokens.
 
     > [!NOTE]
     >
@@ -58,7 +58,7 @@ ms.reviewer: v-dehaas
     > [!div class="mx-imgBorder"]
     > ![Form processing flow overview](media/flow-fp-overview.png "Form processing flow overview")
 
-Congratulations! You've created a flow that uses an AI Builder form processing model. Select **Save** on the top right, and then select **Test** to try out your flow.
+Congratulations! You've created a flow that uses an AI Builder form processing model. Select **Save** in the upper-right corner, and then select **Test** to try out your flow.
 
 ### Related topic
 [Form processing model overview](form-processing-model-overview.md)

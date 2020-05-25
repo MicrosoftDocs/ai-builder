@@ -1,8 +1,7 @@
 ---
-title:  Publish a model in AI Builder -  AI Builder | Microsoft Docs
+title: Publish a model in AI Builder - AI Builder | Microsoft Docs
 description: Provides steps by step instructions about how to publish your model in AI Builder.
 author: Dean-Haas
-
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
@@ -25,7 +24,7 @@ After you publish your last trained version, it appears as the published version
 > [!NOTE]
 >
 > - Any previous published version is overwritten when you publish a new version.
-> - If you have a published version and a last trained version, you will lose the published version when you unpublish because the last trained version is more recent.
+> - If you have a published version and a last trained version, you'll lose the published version when you unpublish because the last trained version is more recent.
 
 ## When should I publish my model?
 
@@ -33,11 +32,11 @@ Publish your model when you want to make it available to users in your Power App
 
 If you're satisfied with your model, you can publish it to make it available. Because you can only have up to two trained versions available at a time, you might publish a version because you don't want it to be overwritten by a new version.
 
-## Next step
+### Next step
 
 [Use your AI Builder model](use-model.md)
 
 ### Related topics
 
-- [Use AI Builder in Power Automate](use-in-flow-overview.md)
-- [Use AI Builder in Power Apps](use-in-powerapps-overview.md)
+[Use AI Builder in Power Automate](use-in-flow-overview.md)  
+[Use AI Builder in Power Apps](use-in-powerapps-overview.md)

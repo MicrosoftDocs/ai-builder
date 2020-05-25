@@ -1,5 +1,5 @@
 ---
-title: Train and publish your custom entity extraction AI model -  AI Builder | Microsoft Docs
+title: Train and publish your custom entity extraction AI model - AI Builder | Microsoft Docs
 description: Provides steps to train and publish your custom entity extraction AI model in AI Builder.
 author: mfotedar
 
@@ -31,12 +31,12 @@ The **Details** page allows you to test your model before you publish or use it:
 
 ## Publish your model
 
-If you're happy with your model, you can select **Publish** to publish it. When publishing completes, your model is promoted as published and is ready to be used. For more information about publishing your model, see [Publish your model](publish-model.md).
+If you're happy with your model, you can select **Publish** to publish it. When publishing is completed, your model is promoted as published and is ready to be used. More information: [Publish your model](publish-model.md)
 
 After you've published your model, you can use it in a Power Apps canvas app or in Power Automate.
 
 ## Edit your model
- You can create a new version of your published model by clicking on **Edit model** on the model details page. You can create new entity types and modify existing entity types.
+ You can create a new version of your published model by selecting **Edit model** on the model details page. You can create new entity types and modify existing entity types.
 
 ### Related content
 

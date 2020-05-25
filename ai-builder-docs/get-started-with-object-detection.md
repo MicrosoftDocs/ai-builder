@@ -1,5 +1,5 @@
 ---
-title: Get started with object detection -  AI Builder | Microsoft Docs
+title: Get started with object detection - AI Builder | Microsoft Docs
 description: This topic lays out the first steps you'll perform in building an object detection AI model. 
 author: amina196
 
@@ -31,7 +31,7 @@ There are two ways to provide object names:
 - Type object names directly in AI Builder.
 - Select names from your Common Data Service entity.
 
-As you build your model, you can switch between these two modes. In the top action bar, click on the name of the other input mode.
+As you build your model, you can switch between these two modes. In the top action bar, select the name of the other input mode.
 
 > [!IMPORTANT]
 > When you change input mode, you lose any existing object names. In other words - if you type object names in AI Builder, and then change to selecting from a database, all object names typed and their associated bounding boxes are deleted from your model. This is not recoverable. The same applies if you switch from selecting object names from a database to typing object names.
@@ -54,12 +54,12 @@ If your data isn't in Common Data Service, see [Prerequisites](build-model.md#pr
 5. Select **Next** at the bottom of the screen.
 
 ## Upload images
-Now let's move on to the image upload step in building an object detection AI model. The pictures you collected ahead of time will now come in handy because you need to upload them to AI builder.
+Now let's move on to the image upload step in building an object detection AI model. The pictures you collected ahead of time will now come in handy because you need to upload them to AI Builder.
 
 1. Prepare your images in a folder on your computer, and make sure they follow the qualitative and quantitative [guidance](collect-images.md).
 1. In AI Builder, select **Add Images**.
 1. Browse your computer file system and select the images that contain your objects.
-1. Confirm the images that appear in AI builder before you finish uploading them. Deselect any image you want to exclude.
+1. Confirm the images that appear in AI Builder before you finish uploading them. Deselect any image you want to exclude.
 
    > [!div class="mx-imgBorder"]
    > ![Select images screen](media/select-images.png "Select images screen")
@@ -80,7 +80,7 @@ This section explains the tagging process that is a key part object detection. Y
 1. After you draw a rectangle, you can associate a name to the object from the list of names you already selected.
 
    > [!div class="mx-imgBorder"]
-   > ![Associate name screen](media/tag-image-associate-name.png "Associate name  screen")
+   > ![Associate name screen](media/tag-image-associate-name.png "Associate name screen")
 
 1. Your tag is created when you see it surrounding an object.
 
@@ -88,15 +88,15 @@ This section explains the tagging process that is a key part object detection. Y
    > ![Tag created screen](media/tag-created.png "Tag created screen")
 
 1. Navigate from image to image, and tag at least 15 images per object name to build a model.
-1. After you are done tagging your images, select **Done Tagging**. Your data is saved as you create rectangles.
+1. After you're done tagging your images, select **Done Tagging**. Your data is saved as you create rectangles.
 1. In the grid view, you can view a summary of all the tags you created, and which images you created. This lets you know how much more work is needed to move forward.
-1. Until you reach the minimum for content quantity, you can't move forward. Once you have at least 15 images per object name, you'll be able to select **Next** at the bottom of the screen.
+1. Until you reach the minimum for content quantity, you can't move forward. After you have at least 15 images per object name, you'll be able to select **Next** at the bottom of the screen.
 
 That's it! Congratulations, you've created a training set for object detection.
 
 ### Next step
 
-[Train  your model](object-detection-train-model.md)
+[Train your model](object-detection-train-model.md)
 
 ### Related topic
 

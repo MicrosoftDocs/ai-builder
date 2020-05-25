@@ -1,5 +1,5 @@
 ---
-title: Overview of object detection model -  AI Builder | Microsoft Docs
+title: Overview of object detection model - AI Builder | Microsoft Docs
 description: Provides an overview of how you can use object detection models in AI Builder to add intelligence to your apps
 author: amina196
 
@@ -13,7 +13,7 @@ ms.reviewer: v-dehaas
 
 # Overview of object detection model
 
-Object detection can help expedite or automate business processes. In retail, it could help streamline inventory management, allowing retail leaders to focus on on-site customer relationships. In manufacturing, technicians could use it to speed the repair process to quickly access the manual for a piece of machinery for which the UPC/serial number isn't obvious.  
+Object detection can help expedite or automate business processes. In retail, it could help streamline inventory management, allowing retail leaders to focus on on-site customer relationships. In manufacturing, technicians could use it to speed the repair process to quickly access the manual for a piece of machinery for which the UPC/serial number isn't obvious.
 
 AI Builder object detection allows organizations of any size to add these capabilities for their own custom objects to their apps.
 

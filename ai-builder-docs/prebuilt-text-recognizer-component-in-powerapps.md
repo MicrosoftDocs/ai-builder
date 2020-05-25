@@ -1,8 +1,7 @@
 ---
-title: Use text recognizer component in Power Apps -  AI Builder | Microsoft Docs
+title: Use text recognizer component in Power Apps - AI Builder | Microsoft Docs
 description: Provides information about how to use the text recognizer component in Power Apps
 author: alanabrito
-
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
@@ -31,7 +30,7 @@ Create a canvas app and add the text recognizer AI Builder component to your scr
      - **Text**: The detected text line selected by the user.
 
     > [!NOTE]
-    > Some of these property names changed with the April 2020 updates. If you are not seeing these properties in your app, you will have to manually update the property names. More information: [Property name changes in AI Builder components for canvas apps](use-in-powerapps-overview.md#property-name-changes-in-ai-builder-components-for-canvas-apps)
+    > Some of these property names changed with the April 2020 updates. If you aren't seeing these properties in your app, you'll have to manually update the property names. More information: [Property name changes in AI Builder components for canvas apps](use-in-powerapps-overview.md#property-name-changes-in-ai-builder-components-for-canvas-apps)
  
 ## Additional properties
 
@@ -54,6 +53,5 @@ These [guidelines](/powerapps/maker/canvas-apps/controls/control-button) for the
 
 ### Related topics
 
-[Text recognition overview](prebuilt-text-recognition.md)
-
+[Text recognition overview](prebuilt-text-recognition.md)  
 [Core properties in Power Apps](/powerapps/maker/canvas-apps/controls/properties-core)

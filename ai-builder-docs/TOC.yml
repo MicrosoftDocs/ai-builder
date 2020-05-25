@@ -119,7 +119,7 @@
   - name: Overview
     href: prebuilt-overview.md
   - name: Business card reader
-    href: prebuilt-business-card.md   
+    href: prebuilt-business-card.md 
   - name: Category classification (preview)
     href: prebuilt-category-classification.md
   - name: Entity extraction (preview)
@@ -149,13 +149,13 @@
     - name: Object detection model
       href: object-detection-model-in-flow.md
     - name: Prediction model
-      href: prediction-pwr-automate.md    
+      href: prediction-pwr-automate.md
   - name: Use a prebuilt AI Builder model in Power Automate
     items:
     - name: Business card reader model
       href: flow-business-card-reader.md
     - name: Category classification model 
-      href: prebuilt-category-classification-pwr-automate.md    
+      href: prebuilt-category-classification-pwr-automate.md 
     - name: Entity extraction model (preview)
       href: prebuilt-entity-extraction-pwr-automate.md
     - name: Key phrase extraction model

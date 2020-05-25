@@ -1,5 +1,5 @@
 ---
-title: Key phrase extraction prebuilt AI model -  AI Builder | Microsoft Docs
+title: Key phrase extraction prebuilt AI model - AI Builder | Microsoft Docs
 description: Describes the prebuilt key phrase extraction AI models in AI Builder.
 author: alanabrito
 ms.service: powerapps
@@ -32,11 +32,11 @@ You can integrate your AI Builder sentiment analysis models in Power Apps maker 
 
 ## Use in Power Automate
 
-If you want to use this prebuilt model in Power Automate, you can find more information in [Use key phrase extraction model in Power Automate](flow-key-phrase-extraction.md).  
+If you want to use this prebuilt model in Power Automate, you can find more information in [Use key phrase extraction model in Power Automate](flow-key-phrase-extraction.md).
  
 ## Supported language and data format
 
-- Documents can't exceed 5,120 characters.  
+- Documents can't exceed 5,120 characters.
 - For information on language support, see [Language and region support for the text analytics API](/azure/cognitive-services/text-analytics/language-support?#sentiment-analysis-key-phrase-extraction-and-named-key phrase-recognition).
 
 ## Model output

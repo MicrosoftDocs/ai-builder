@@ -14,7 +14,7 @@ ms.reviewer: v-dehaas
 # Use sample data to do form processing
 
 
-To explore the possibilities of form processing, you can get started by building and training a form processing model using  [sample invoices](https://go.microsoft.com/fwlink/?linkid=2128080).
+To explore the possibilities of form processing, you can get started by building and training a form processing model using [sample invoices](https://go.microsoft.com/fwlink/?linkid=2128080).
 
 
 ## Get the sample data

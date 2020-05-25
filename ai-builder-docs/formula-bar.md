@@ -1,5 +1,5 @@
 ---
-title: Add text-based AI models in Power Apps using formulas (Preview) -  AI Builder | Microsoft Docs
+title: Add text-based AI models in Power Apps using formulas (Preview) - AI Builder | Microsoft Docs
 description: Provides information about how to use formulas to add text AI models (Preview).
 author: nijemcevic
 ms.service: powerapps
@@ -23,7 +23,7 @@ For information on how to use formulas to add these AI models to your Power Apps
 
 ### Related topics
 
-* [Sentiment analysis model](prebuilt-sentiment-analysis.md)
-* [Entity extraction model](prebuilt-entity-extraction.md)
-* [Key phrase extraction model](prebuilt-key-phrase.md)
-* [Language detection model](prebuilt-language-detection.md)
+[Sentiment analysis model](prebuilt-sentiment-analysis.md)  
+[Entity extraction model](prebuilt-entity-extraction.md)  
+[Key phrase extraction model](prebuilt-key-phrase.md)  
+[Language detection model](prebuilt-language-detection.md)

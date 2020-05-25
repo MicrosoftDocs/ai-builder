@@ -1,5 +1,5 @@
 ---
-title: Collect images -  AI Builder | Microsoft Docs
+title: Collect images - AI Builder | Microsoft Docs
 description: Provides guidance on how to effectively collect images to build an object detection model in AI Builder.
 author: amina196
 

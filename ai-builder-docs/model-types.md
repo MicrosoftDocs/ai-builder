@@ -1,5 +1,5 @@
 ---
-title: AI model types -  AI Builder | Microsoft Docs
+title: AI model types - AI Builder | Microsoft Docs
 description: Provides an overview of the AI model types that you can create in AI Builder.
 author: Dean-Haas
 
@@ -13,7 +13,7 @@ ms.reviewer: v-dehaas
 
 # AI model types
 
-In AI Builder, AI is based on model types that you choose from, based your business needs. For example, build an object detection model that recognizes your products in an image, or a prediction model that predicts business outcomes based on patterns that the AI learns from your historical data.  Train and publish the model, and it's ready for use in your business.
+In AI Builder, AI is based on model types that you choose from, based your business needs. For example, build an object detection model that recognizes your products in an image, or a prediction model that predicts business outcomes based on patterns that the AI learns from your historical data. Train and publish the model, and it's ready for use in your business.
 
 To build a model using AI Builder, sign in to [Power Apps](https://make.powerapps.com) and, in the left navigation pane, select **AI Builder > Build**. Select the model type that matches what you want to do, and you're ready to get started.
 
@@ -22,7 +22,7 @@ To build a model using AI Builder, sign in to [Power Apps](https://make.powerapp
 
 ## List of AI model types
 
-AI model types give you the ability to tailor a scenario to the needs of your business. With AI Builder, you can build and train your own AI model suited to your needs.  You can also choose from several prebuilt models that you use in Power Apps and Power Automate without having to build and train the model.
+AI model types give you the ability to tailor a scenario to the needs of your business. With AI Builder, you can build and train your own AI model suited to your needs. You can also choose from several prebuilt models that you use in Power Apps and Power Automate without having to build and train the model.
 
 ### Custom AI models
 

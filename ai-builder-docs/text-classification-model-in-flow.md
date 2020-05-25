@@ -1,8 +1,7 @@
 ---
-title: Use category classification model in Power Automate -  AI Builder | Microsoft Docs
+title: Use category classification model in Power Automate - AI Builder | Microsoft Docs
 description: Provides information about how to use a category classification model in Power Automate.
 author: raaourik
-
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
@@ -25,7 +24,7 @@ ms.reviewer: v-dehaas
 1. Select **Text** and set as input title: **My Text**
 1. Select **+ New step**, search for **Predict**, and then select **Predict Common Data Service (current Environment)** in the list of actions.
     >[!NOTE]
-    > **Predict Common Data Service (current Environment)** does not appear if you don't follow these instructions first: [Create a flow in a solution](/flow/create-flow-solution)
+    > **Predict Common Data Service (current Environment)** doesn't appear unless you've followed these instructions first: [Create a flow in a solution](/flow/create-flow-solution).
 1. Select the category classification model you want to use, and then:
 
    - In the **Text** field, add **My Text** from the trigger.
@@ -39,7 +38,7 @@ ms.reviewer: v-dehaas
     > [!div class="mx-imgBorder"]
     > ![Trigger a flow example](media/trigger-flow-example.png "trigger a flow example")
 
-Congratulations! You've created a flow that uses a category classification AI Builder model. Select **Save** on the top right and then select **Test** to try out your flow.
+Congratulations! You've created a flow that uses a category classification AI Builder model. Select **Save** in the upper-right corner, and then select **Test** to try out your flow.
 
 To learn more about the triggers and actions, see [Get started with Power Automate](/flow/getting-started).
 

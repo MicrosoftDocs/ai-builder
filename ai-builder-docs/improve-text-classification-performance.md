@@ -1,5 +1,5 @@
 ---
-title: Improve category classification model performance -  AI Builder | Microsoft Docs
+title: Improve category classification model performance - AI Builder | Microsoft Docs
 description: Provides tips to help you improve category classification model performance in AI Builder.
 author: raaourik 
 
@@ -17,7 +17,7 @@ If your model performance score isn't where you want, there are a few things you
 
 ## Add more correctly labeled training data
 
-The more correctly labeled training data you have, the better your model will perform. For example, let's say your two-option label is *Yes* or *No*. If most of your data only has a *Yes* in this field,  your AI model probably won't learn much from this data. If your data isn't correctly labeled, the model is probably not going to learn very well. It is ideal to provide 1,000 or more correctly labeled data records to train your prediction model.
+The more correctly labeled training data you have, the better your model will perform. For example, let's say your two-option label is *Yes* or *No*. If most of your data only has a *Yes* in this field, your AI model probably won't learn much from this data. If your data isn't correctly labeled, the model is probably not going to learn very well. It's ideal to provide 1,000 or more correctly labeled data records to train your prediction model.
 
 ## Clean up your data
 
@@ -42,7 +42,7 @@ Cleaning your data can avoid some types of training errors and improve model per
 ## More tips
 
 - There should be at least 100 text records per tag, meaning that each tag would have been used to label at least 100 text entries.
-- Make sure you have balanced use of tags in your training data. For example, if you have four tags for 100 text items and the two first tags (*tag1* and *tag2*) are used for 90 text items, but the other two (*tag3* and *tag4*) are only used on the remaining 10 text items, the lack of balance might cause your model to struggle to correctly predict *tag3* or *tag4*.
+- Make sure your use of tags is balanced in your training data. For example, if you have four tags for 100 text items and the two first tags (*tag1* and *tag2*) are used for 90 text items, but the other two (*tag3* and *tag4*) are only used on the remaining 10 text items, the lack of balance might cause your model to struggle to correctly predict *tag3* or *tag4*.
 - Make sure you train your model on data that is similar to the one you want to start tagging.
 
 ### Next step

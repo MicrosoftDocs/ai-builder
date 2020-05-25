@@ -1,5 +1,5 @@
 ---
-title: Use object detection model in Power Automate -  AI Builder | Microsoft Docs
+title: Use object detection model in Power Automate - AI Builder | Microsoft Docs
 description: Provides information about how to use an object detection model in Power Automate
 author: Dean-Haas
 
@@ -22,7 +22,7 @@ ms.reviewer: v-dehaas
 3. Select **File**, and set **My Image** as input title.
 4. Select **+ New step**, search for *Predict*, and then select **Predict - Common Data Service (Current Environment)** in the list of actions.
     >[!NOTE]
-    > **Predict Common Data Service (current Environment)** does not appear if you don't follow these instructions first: [Create a flow in a solution](/flow/create-flow-solution)
+    > **Predict Common Data Service (current Environment)** doesn't appear unless you've followed these instructions first: [Create a flow in a solution](/flow/create-flow-solution).
 
     > [!div class="mx-imgBorder"]
     > ![Predict common data service](media/predict-cds.png "Predict common data service screen")
@@ -40,7 +40,7 @@ ms.reviewer: v-dehaas
 
     You can continue to build your flow to meet your business needs.
 
-Congratulations! You have created a flow that uses an object detection AI Builder model. Select **Save** on the top right, and then select **Test** to try out your flow.
+Congratulations! You have created a flow that uses an object detection AI Builder model. Select **Save** in the upper-right corner, and then select **Test** to try out your flow.
 
 ## Example object detection flow
 

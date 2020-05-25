@@ -1,8 +1,7 @@
 ---
-title: Text recognition prebuilt AI model -  AI Builder | Microsoft Docs
+title: Text recognition prebuilt AI model - AI Builder | Microsoft Docs
 description: Describes the text recognition prebuilt AI models that are available in AI Builder.
 author: alanabrito
-
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
@@ -23,7 +22,7 @@ The text recognition prebuilt model is available in Power Apps by using the text
 
 ## Use in Power Automate
 
-For information about how to use text recognition prebuilt model in Power Automate, see [Use text recognition model in Power Automate](flow-text-recognition.md).  
+For information about how to use text recognition prebuilt model in Power Automate, see [Use text recognition model in Power Automate](flow-text-recognition.md).
 
 ## Supported language, format, and size
 

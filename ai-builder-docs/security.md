@@ -1,8 +1,7 @@
 ---
-title: Security in AI Builder -  AI Builder | Microsoft Docs
+title: Security in AI Builder - AI Builder | Microsoft Docs
 description: Describes security information related to roles, privileges, and access in AI Builder and the services it connects to. 
 author: Dean-Haas
-
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
@@ -32,7 +31,7 @@ Some features require system customizer privileges to publish your AI models, an
 
 When you create a prediction AI model, a new field is added to the input entity to store the prediction results. You need at least system customizer rights to publish the model for the first time for this reason.
 
-For category classification AI models, an entity is created for every new model once the model runs for the first time. Therefore, only system customizers or administrators can run the model. After the model runs, administrators must modify the access rights to the newly created category classification entity in Common Data Service to allow users to use the results.
+For category classification AI models, an entity is created for every new model as soon as the model runs for the first time. Therefore, only system customizers or administrators can run the model. After the model runs, administrators must modify the access rights to the newly created category classification entity in Common Data Service to allow users to use the results.
 
 ### Related topic
 

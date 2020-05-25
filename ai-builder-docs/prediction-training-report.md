@@ -16,11 +16,11 @@ AI Builder reports error and issue messages on the model details page. These mes
 
 ## Errors
 
-When an error occurs, you can't continue until you resolve this error. Here are some error messages that may occur:
+When an error occurs, you can't continue until you resolve this error. Here are some error messages that might occur:
 
 - *The model needs at least **\<ThresholdValue>** records to train. **\<EntityName>** has only **\<ActualValue>** records. Add data or select another entity.*
 
-    If you only have 50 records or less, you can’t train the model. Ideally, you should have at least 1,000 records.
+    If you only have 50 records or less, you can't train the model. Ideally, you should have at least 1,000 records.
 
 - *The model needs at least **\<ThresholdValue>** historical outcome records of each outcome value to train. Add data or select another entity.
 
@@ -28,11 +28,11 @@ When an error occurs, you can't continue until you resolve this error. Here are 
 
 - *The model requires at least **\<ThresholdValue>** features to train the model. Select the required fields.*
 
-    You don’t have any relevant features generated to train the model.
+    You don't have any relevant features generated to train the model.
 
 ## Issues
 
-These messages don't prevent you from continuing to train and publish your model. Instead they show where issues may be causing your model to under-perform.
+These messages don't prevent you from continuing to train and publish your model. Instead they show where issues might be causing your model to under-perform.
 
 - *The model might produce better performance with optimum records of **\<ThresholdValue>** or more to train the model. **\<EntityName>** has <ActualValue> records. Add data for better model performance.*
 
@@ -40,7 +40,7 @@ These messages don't prevent you from continuing to train and publish your model
 
 - ***\<EntityName>.\<AttributeName>** might get dropped from training as it has a single value and does not contribute to training the model.*
 
-    Data fields that have less relevance to train the model are dropped in model training.  For example, data fields that all have the same value in each record.
+    Data fields that have less relevance to train the model are dropped in model training. For example, data fields that all have the same value in each record.
 
 - ***\<EntityName>.\<AttributeName>** has a high ratio of missing values, greater than *\<ThresholdValue>* percentage and might not contribute to train the model.*
 

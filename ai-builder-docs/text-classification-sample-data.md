@@ -1,8 +1,7 @@
 ---
-title: Use sample data to do category classification  -  AI Builder | Microsoft Docs
+title: Use sample data to do category classification  - AI Builder | Microsoft Docs
 description: Provides steps to create a category classification model in AI Builder using sample data provided by Microsoft.
 author: amina196
-
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
@@ -25,7 +24,7 @@ Get started exploring AI Builder category classification by using sample data to
 1. Download [AIBuilder_Lab.zip](https://go.microsoft.com/fwlink/?linkid=2103171) file, which contains category classification sample data.
 
     > [!NOTE]
-    > The [AIBuilder_Lab.zip](https://go.microsoft.com/fwlink/?linkid=2103171) also contains sample files for working with other AI Builder model types, as well as some hands-on-labs that you can use to learn more about AI Builder. More information about the contents of the zip file is available in the [readme.txt](https://go.microsoft.com/fwlink/?linkid=2108226) file that is contained in the zip file.
+    > The [AIBuilder_Lab.zip](https://go.microsoft.com/fwlink/?linkid=2103171) also contains sample files for working with other AI Builder model types, in addition to some hands-on-labs that you can use to learn more about AI Builder. More information about the contents of the zip file is available in the [readme.txt](https://go.microsoft.com/fwlink/?linkid=2108226) file that is contained in the zip file.
 
 2. Import the **AIBuildetTextSample_1_0_0** solution to your Common Data Service environment. More information: [Import, update, and export solutions](/powerapps/maker/common-data-service/import-update-export-solutions).
 3. Upload data from **sampleData.zip** to the healthcare_feedback entity by following instructions in [Before you build a category classification model](before-you-build-text-classification-model.md).

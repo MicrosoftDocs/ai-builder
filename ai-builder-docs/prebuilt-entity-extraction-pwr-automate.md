@@ -1,8 +1,7 @@
 ---
-title: Use entity extraction model in Power Automate -  AI Builder | Microsoft Docs
+title: Use entity extraction model in Power Automate - AI Builder | Microsoft Docs
 description: Provides step by step instructions to use AI Builder entity extraction in Power Automate.
 author: mfotedar
-
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
@@ -29,14 +28,14 @@ ms.reviewer: v-dehaas
    > ![Choose an a action'](media/predict-cds-2.png "Select 'Predict Common Data Service'")
 
     >[!NOTE]
-    > **Predict Common Data Service (current Environment)** does not appear if you don't follow these instructions first: [Create a flow in a solution](/flow/create-flow-solution)
+    > **Predict Common Data Service (current Environment)** doesn't appear unless you've followed these instructions first: [Create a flow in a solution](/flow/create-flow-solution).
 1. Select **EntityExtraction model**. In the **Sentence** field select the **plain text** parameter.
 1. Select **+ New step**, search for *Add a row into a table*, and then select the **Add a row into a table** action.
 1. Complete the necessary fields to find the location of your excel table. Make sure you created a table and designated columns where you want to store the results of entity extraction. Find the results of entity extraction in the available dynamic content such as **Entity type** and **Entity value** as shown here:
    > [!div class="mx-imgBorder"]
    > ![Add a row to table'](media/flow-add-row2.png "Add a row to table")
 
-Congratulations! You've created a flow that uses a entity extraction model. Select **Save** on the top right and then select Test to try out your flow.
+Congratulations! You've created a flow that uses a entity extraction model. Select **Save** in the upper-right corner, and then select **Test** to try out your flow.
 
 ### Related information:
 

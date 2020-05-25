@@ -1,5 +1,5 @@
 ---
-title: Use an object detection component in Power Apps -  AI Builder | Microsoft Docs
+title: Use an object detection component in Power Apps - AI Builder | Microsoft Docs
 description: Provides information about how to use an object detection component in Power Apps
 author: amina196
 
@@ -16,13 +16,13 @@ ms.reviewer: v-dehaas
 The object detection component takes a photo or loads an image file to do an object detection scan. On a mobile device, the user chooses between taking a photo or selecting one already available in the device user interface. When an image is selected, the component automatically scans it to identify objects.
 
  > [!NOTE]
- > For information about canvas apps, see [What are canvas apps in PowerApps?](/powerapps/maker/canvas-apps/getting-started).
+ > For information about canvas apps, see [What are canvas apps in Power Apps?](/powerapps/maker/canvas-apps/getting-started).
 
 ## Prerequisites
 
 To start, you need a trained and published AI Builder object detection model. You bind that model to the component using **AI Model** in the **Properties** panel. When you add it to the screen, the component automatically opens the AI models pane. There you select a model from the models published in that environment.
 
-The component is initialized once an AI model is bound to it.
+The component is initialized after an AI model is bound to it.
 
 ## Properties
 
@@ -41,7 +41,7 @@ The component is initialized once an AI model is bound to it.
     - **TagName** The name of the object detected.
 
     > [!NOTE]
-    > Some of these property names changed with the April 2020 updates. If you are not seeing these properties in your app, you will have to manually update the property names. More information: [Property name changes in AI Builder components for canvas apps](use-in-powerapps-overview.md#property-name-changes-in-ai-builder-components-for-canvas-apps)
+    > Some of these property names changed with the April 2020 updates. If you aren't seeing these properties in your app, you'll have to manually update the property names. More information: [Property name changes in AI Builder components for canvas apps](use-in-powerapps-overview.md#property-name-changes-in-ai-builder-components-for-canvas-apps)
 
 ### Additional properties
  - **Text**: Text that appears on the button that activates the object detector.
@@ -62,8 +62,7 @@ Additional design properties are available in the Advanced panel.
 These [guidelines](/powerapps/maker/canvas-apps/controls/control-button) for the Power Apps button control also apply to the form processor component.
 
 ### Related topics
-[Object detection overview](object-detection-overview.md)
 
-[Use an object detection model in Power Automate](object-detection-model-in-flow.md)
-
+[Object detection overview](object-detection-overview.md)  
+[Use an object detection model in Power Automate](object-detection-model-in-flow.md)  
 [Core properties in Power Apps](/powerapps/maker/canvas-apps/controls/properties-core)

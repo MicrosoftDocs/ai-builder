@@ -1,6 +1,6 @@
 ---
 title: Transition to new form processing model version - AI Builder | Microsoft Docs
-description: Preview form processing  model versions aren't compatible with updated model versions, so you have to recreate existing models. 
+description: Preview form processing model versions aren't compatible with updated model versions, so you have to re-create existing models. 
 author: Jarennert
 ms.service: powerapps
 ms.topic: conceptual
@@ -15,18 +15,18 @@ ms.reviewer: v-dehaas
 
 AI Builder is improving its form processing model using a new model version. Your form processing preview models created before March 5, 2020 are deprecated. More information: [Form processing and object detection preview models in AI Builder are deprecated](/power-platform/important-changes-coming#form-processing-and-object-detection-preview-models-in-ai-builder-are-deprecated)
 
-Starting March 5, you have to recreate your existing form processing models if you want to continue to use them. Models created after this date will automatically use the new model version. It's a good idea to transition to the new model version as soon as possible.
+Starting March 5, you have to re-create<!--Via Writing Style Guide.--> your existing form processing models if you want to continue to use them. Models created after this date will automatically use the new model version. It's a good idea to transition to the new model version as soon as possible.
 
 ## What do I need to do?
 
-**You must recreate form processing models created before March 5, 2020** 
+**You must re-create form processing models created before March 5, 2020** 
 
 1. Identify any form processing models created before March 5, 2020 that you want to continue using.
 1. For each model, [create a new form processing model](https://docs.microsoft.com/ai-builder/create-form-processing-model) with the same training documents you used in the original model.
 1. After the new model is trained and published, make sure to update any apps or flows to use the new model.
-1. After you're done with your deprecated form processing model, you can delete it.  
+1. After you're done with your deprecated form processing model, you can delete it.
 
-We understand you may have spent significant time building your form processing models.  [Contact us](mailto:aihelpen@microsoft.com) if you need help with migrating larger complex models.
+We understand you might have spent significant time building your form processing models. [Contact us](mailto:aihelpen@microsoft.com) if you need help with migrating larger complex models.
 
 ## Why this change?
 
@@ -36,6 +36,5 @@ Until March 5, 2020, form processing models stored documents as attachments in t
 
 ### Related topics
 
-[Form processing model in Power Automate](form-processing-model-in-flow.md)
-
+[Form processing model in Power Automate](form-processing-model-in-flow.md)  
 [Form processing model in Power Apps](form-processor-component-in-powerapps.md)

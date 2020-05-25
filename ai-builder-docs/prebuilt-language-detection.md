@@ -1,5 +1,5 @@
 ---
-title: Language detection prebuilt AI model -  AI Builder | Microsoft Docs
+title: Language detection prebuilt AI model - AI Builder | Microsoft Docs
 description: Describes the prebuilt language detection AI Builder model.
 author: alanabrito
 ms.service: powerapps
@@ -22,7 +22,7 @@ You can integrate your AI Builder language detection models by using the formula
 
 ## Use in Power Automate
 
-If you want to use this prebuilt model in Power Automate, you can find more information in [Use language detection model in Power Automate](flow-language-detection.md).  
+If you want to use this prebuilt model in Power Automate, you can find more information in [Use language detection model in Power Automate](flow-language-detection.md).
 
 ## Supported language and data format
 

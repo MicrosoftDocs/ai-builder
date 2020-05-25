@@ -1,8 +1,7 @@
 ---
-title: Publish your category classification model -  AI Builder | Microsoft Docs
+title: Publish your category classification model - AI Builder | Microsoft Docs
 description: Provides the information you need to know to publish your category classification model AI Builder.
 author: Dean-Haas
-
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
@@ -13,7 +12,7 @@ ms.reviewer: v-dehaas
 
 # Publish your category classification model
 
-When you're satisfied with your model, you can publish it. Once it's published, your model is ready to run on your Common Data Service data, or be used through Power Automate. It can take up to two hours for the results to be available.
+When you're satisfied with your model, you can publish it. After it's published, your model is ready to run on your Common Data Service data, or be used through Power Automate. It can take up to two hours for the results to be available.
 
 In the **Model settings** pane on the right side of the screen, you can turn on Common Data Service, and get important information about where the suggested tags will be stored.
 

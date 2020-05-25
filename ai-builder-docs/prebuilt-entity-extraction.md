@@ -1,5 +1,5 @@
 ---
-title: Entity extraction prebuilt AI model -  AI Builder | Microsoft Docs
+title: Entity extraction prebuilt AI model - AI Builder | Microsoft Docs
 description: Describes the prebuilt entity extraction AI Builder model.
 author: mfotedar
 ms.service: powerapps
@@ -14,7 +14,7 @@ ms.reviewer: v-dehaas
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-The prebuilt entity extraction prebuilt model recognizes specific data from text that is of interest to your business.  The model identifies key elements from text, and then classifies them into pre-defined categories. This can help to transform unstructured data into structured data that is machine readable.  You can then apply processing to retrieve information, extract facts, and answer questions.
+The prebuilt entity extraction prebuilt model recognizes specific data from text that is of interest to your business. The model identifies key elements from text, and then classifies them into pre-defined categories. This can help to transform unstructured data into structured data that is machine readable. You can then apply processing to retrieve information, extract facts, and answer questions.
 
 The prebuilt model is ready to use out of the box. If you want to customize your entity extraction to suit your specific needs, go to [Custom entity extraction AI model](entity-extraction-overview.md)
 
@@ -36,11 +36,11 @@ You can integrate your AI Builder entity extraction models in Power Apps maker s
 
 ## Use in Power Automate
 
-If you want to use this prebuilt model in Power Automate, you can find more information in [Use an entity extraction model in Power Automate](prebuilt-entity-extraction-pwr-automate.md).  
+If you want to use this prebuilt model in Power Automate, you can find more information in [Use an entity extraction model in Power Automate](prebuilt-entity-extraction-pwr-automate.md).
  
 ## Supported data format and languages
 
-- Documents can't exceed 5,000 characters.  
+- Documents can't exceed 5,000 characters.
 - Supported languages:
 
   - English
@@ -75,11 +75,11 @@ If you want to use this prebuilt model in Power Automate, you can find more info
 |Phone number|Phone numbers in the standard US format, extracted as strings|
 |Speed|Speed, extracted as a number|
 |State|Names and abbreviations for the United States, extracted as a string|
-|Street address|Numbered addresses, streets or roads, city, state, zip or postal code in the standard US format, extracted as a string|
+|Street address|Numbered addresses, streets or roads, city, state, ZIP (postal)<!--Suggested, since it seems that this necessarily will be a ZIP code, not any other country's postal code.--> code in the standard US format, extracted as a string|
 |Temperature|Temperature, extracted as a number|
 |URL|Website URLs and links, extracted as a string|
 |Weight|Weight, extracted as a number|
-|Zip code|Zip codes in the standard US format, extracted as a string|
+|Zip code|ZIP codes in the standard US format, extracted as a string|
 
 
 ## Model output
@@ -95,6 +95,6 @@ The model output shows the identified entities and their entity types. For examp
 |7%    | Percentage  |
 |Boston  |City   |
 
-### Next step:
+### Next step
 
-[Use an entity extraction prebuilt model in Power Automate](prebuilt-entity-extraction-pwr-automate.md).  
+[Use an entity extraction prebuilt model in Power Automate](prebuilt-entity-extraction-pwr-automate.md).

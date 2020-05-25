@@ -12,7 +12,7 @@ ms.reviewer: v-dehaas
 
 # Train your AI Builder model
 
-Before you can use your AI model, you have to train it to perform the way you want. After you train your model,  [publish it](publish-model.md) to make it available to other people.
+Before you can use your AI model, you have to train it to perform the way you want. After you train your model, [publish it](publish-model.md) to make it available to other people.
 
 ## Train your model
 
@@ -22,9 +22,9 @@ When you create a model in AI Builder, you configure it based on the needs of yo
 > ![Train your model screen](media/train-model.png "Train your model screen")
 
 > [!NOTE]
-> Training takes time, so you can stay on the page and wait, or you can close the page and come back later.  
+> Training takes time, so you can stay on the page and wait, or you can close the page and come back later.
 
-After you train your model for the first time, you have access to a details page where you can [manage your model](manage-model.md) and view the model’s performance results for some AI model types.
+After you train your model for the first time, you have access to a details page where you can [manage your model](manage-model.md) and view the model's performance results for some AI model types.
 
 On the details page, training results appear under the **Last trained version** section.
 

@@ -1,5 +1,5 @@
 ---
-title: Use an AI Builder custom entity extraction AI model in Power Automate -  AI Builder | Microsoft Docs
+title: Use an AI Builder custom entity extraction AI model in Power Automate - AI Builder | Microsoft Docs
 description: Provides steps to use a custom entity extraction AI model in Power Automate.
 author: mfotedar
 
@@ -21,7 +21,7 @@ ms.reviewer: v-dehaas
 1. Sign in to [Power Automate](https://flow.microsoft.com/), select the **My flows** tab, and then select **Automated-from blank**.
 1. Search for the term **email**, select **When an email arrives (V3)** in the list of triggers, and then select  **Create**.
 1. Select **+ New step**, search for the term *html to text*, and then select **Html to text** in the list of actions.
-1. Select the **Body** parameter.  This tells the entity extraction model to only analyze actual email text.
+1. Select the **Body** parameter. This tells the entity extraction model to only analyze actual email text.
 
    > [!div class="mx-imgBorder"]
    > ![Select 'html to text'](media/html-to-text.png "Select 'html to text'")
@@ -36,4 +36,4 @@ ms.reviewer: v-dehaas
    > [!div class="mx-imgBorder"]
    > ![Add a row to table'](media/flow-add-row2.png "Add a row to table")
 
-Congratulations! You've created a flow that uses a entity extraction model. Select **Save** on the top right and then select **Test** to try out your flow.
+Congratulations! You've created a flow that uses a entity extraction model. Select **Save** in the upper-right corner, and then select **Test** to try out your flow.

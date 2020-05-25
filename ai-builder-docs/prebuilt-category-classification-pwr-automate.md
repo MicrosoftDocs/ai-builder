@@ -1,5 +1,5 @@
 ---
-title: Use prebuilt category classification model in Power Automate -  AI Builder | Microsoft Docs
+title: Use prebuilt category classification model in Power Automate - AI Builder | Microsoft Docs
 description: Provides information about how to use a prebuilt category classification AI Builder model in Power Automate.
 author: nijemcevic
 
@@ -24,12 +24,12 @@ ms.reviewer: v-dehaas
 1. Search for *email*, select **When an email arrives** in the list of triggers, and then select **Create**.
 1. Select **Text** and set as input title: **My Text**
 1. Select **+ New step**, search for **html to text**, and then select **Html to text** in the list of actions.
-1. Select the **Body** parameter.  This tells the category classification model to only analyze actual email text.
+1. Select the **Body** parameter. This tells the category classification model to only analyze actual email text.
 
     > [!div class="mx-imgBorder"]
     > ![HTML to text](media/flow-html-text.png "HTML to text")
 
-1. Select **+ New step**, search for *Predict*, and then select the  **Predict Common Data Service (current Environment)**  action.
+1. Select **+ New step**, search for *Predict*, and then select the **Predict Common Data Service (current Environment)** action.
 
     > [!div class="mx-imgBorder"]
     > ![Choose an action](media/flow-choose-action.png "Choose an action")
@@ -42,7 +42,7 @@ ms.reviewer: v-dehaas
     > ![Add a row into a table screen](media/flow-add-row.png "Add a row into a table screen")
 
 
-Congratulations! You've created a flow that uses a prebuilt category classification AI Builder model. Select **Save** on the top right and then select **Test** to try out your flow.
+Congratulations! You've created a flow that uses a prebuilt category classification AI Builder model. Select **Save** in the upper-right corner, and then select **Test** to try out your flow.
 
 To learn more about the triggers and actions, see [Get started with Power Automate](/flow/getting-started).
 

@@ -1,5 +1,5 @@
 ---
-title: Data preparation -  AI Builder | Microsoft Docs
+title: Data preparation - AI Builder | Microsoft Docs
 description: Provides the steps you'll need to follow to prepare your data for AI Builder in Common Data Service. 
 author: norliu
 ms.service: powerapps
@@ -12,14 +12,14 @@ ms.reviewer: v-dehaas
 
 # Data preparation
 
-Before you create your prediction model, you'll want to make sure your data is in Common Data Service, and that it's in the correct format.
+Before you create your prediction model, you'll want to make sure your data is in Common Data Service and that it's in the correct format.
 
 ## Create your custom entity
 
-Do you have data that you want to import into Common Data Service for training in AI Builder? First, you have to create an entity. In this example, we’ll provide a solution that has predefined custom entities. To use your own data, [create a custom entity](/powerapps/maker/common-data-service/data-platform-create-entity) and substitute your own entity for the example used here.
+Do you have data that you want to import into Common Data Service for training in AI Builder? First, you have to create an entity. In this example, we'll provide a solution that has predefined custom entities. To use your own data, [create a custom entity](/powerapps/maker/common-data-service/data-platform-create-entity) and substitute your own entity for the example used here.
 
 > [!NOTE]
-> For best results, use a dataset that is less than 1.5 GB in size. Otherwise, AI Builder uses only 1.5 GB of your data to train and predict. Since you can’t control which data exceeding the 1.5 GB limit is not used, you should optimize your data to stay under 1.5 GB.
+> For best results, use a dataset that's less than 1.5 GB in size. Otherwise, AI Builder uses only 1.5 GB of your data to train and predict. Because<!--Via Writing Style Guide.--> you can't control which data exceeding the 1.5 GB limit isn't<!--SELF --> used, you should optimize your data to stay under 1.5 GB.
 
 ## Example dataset for binary prediction and numerical prediction
 
@@ -65,17 +65,17 @@ And you're done!
 1. Follow the on-screen instructions to import the solution, and then select **Close** after you finish.
 1. Download **customer.csv**, **order.csv** and **product.csv** from AI Builder samples.
 
-   Once the solution is imported, click the gear icon on the top right of the PowerApps screen, and select **Advanced settings**.
+   After the solution is imported, select the gear icon in the upper-right corner of the Power Apps screen, and then select **Advanced settings**.
 
-1. Select **Settings** and select **Data Management**.
+1. Select **Settings**, and then select **Data Management**.
 
    > [!div class="mx-imgBorder"]
    > ![Select 'data management'](media/smpl-settings-data-mgmt.png "Select 'data management'")
 
 1. Select **IMPORT DATA** from the top menu bar.
-1. In the **Data file name** section, select **customer.csv** and click **Next**.
+1. In the **Data file name** section, select **customer.csv**, and then select **Next**.
 1. Select **Next** until you get to the **Map Record Types** screen.
-1. Select **BC Customer** from the drop down and click **Next**. Map the fields like this:
+1. Select **BC Customer** from the drop-down menu, and then select **Next**. Map the fields like this:
 
 **Source Field**|**Map to**
 :-----|:-----
@@ -85,7 +85,7 @@ customer\_state|State
 customer\_zip\_code\_prefix|Zip code
 
 12. Select **Next**, then **Submit**, then **Finish**.
-1. Repeat the process again, but this time use **product.csv** and map it to **BC Product**. Map the fields like this:
+1. Repeat the process, but this time use **product.csv** and map it to **BC Product**. Map the fields like this:
 
 **Source Field**|**Map to**
 :-----|:-----
@@ -99,9 +99,9 @@ product\_photos\_qty|Photos Quantity
 product\_weight\_g|Weight g
 product\_width\_cm|Width cm
 
-> Wait until both of these imports are complete before moving onto the next step.
+> Wait until both of these imports are complete before moving on to the next step.
 
-14. Repeat the process again, but this time use **order.csv** and map it to **BC Order**. Map the fields like this:
+14. Repeat the process, but this time use **order.csv** and map it to **BC Order**. Map the fields like this:
 
 **Source Field**|**Map to**
 :-----|:-----
@@ -115,7 +115,7 @@ order\_status|Order Status
 price|Price
 product\_id|Product (Lookup)
 
-In the **Lookup reference...** dialog box, make sure that the checkbox is selected, and that the field is **ID**.
+In the **Lookup reference**<!--Via Writing Style Guide: don't include trailing punctuation in UI element labels.--> dialog box, make sure that the check box is selected and that the field is **ID**.
 
    > [!div class="mx-imgBorder"]
    > ![Lookup reference dialog box'](media/lookup-reference.png "Lookup reference dialog box")

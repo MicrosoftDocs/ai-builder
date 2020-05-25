@@ -57,7 +57,7 @@ If a business card is detected, the business card reader will extract informatio
 |Name |Definition  |
 |---------|---------|
 | **Text**| Text that appears on the button that activates the business card reader|
-| **ImageDisplayed** (“Show image” in the properties panel)| Whether the component displays the image|
+| **ImageDisplayed** ("Show image" in the properties panel)| Whether the component displays the image|
 |**DisplayMode (Edit)**| Allows user input|
 |**DisplayMode (View)**| Only displays data|
 |**DisplayMode (Disabled)**| Is disabled|

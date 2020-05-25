@@ -1,5 +1,5 @@
 ---
-title: Scenarios in preview -  AI Builder | Microsoft Docs
+title: Scenarios in preview - AI Builder | Microsoft Docs
 description: Explain why some scenarios are in preview and what it means
 author: Antoine2F
 manager: cdbellar
@@ -21,7 +21,7 @@ You'll notice these features, as they display a **Preview** tag near their names
 
 ## Block preview scenarios
 
-The environment administrator can decide to hide accesses to preview features. In the Power Platform Admin Center in **Settings > Features**, a toggle lets you specify whether preview features are displayed.
+The environment administrator can decide to hide accesses to preview features. In the Power Platform admin center in **Settings > Features**, a toggle lets you specify whether preview features are displayed.
 
 ## FAQ
 

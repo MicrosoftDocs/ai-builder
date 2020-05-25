@@ -1,8 +1,7 @@
 ---
-title: Understand category classification model performance -  AI Builder | Microsoft Docs
+title: Understand category classification model performance - AI Builder | Microsoft Docs
 description: Provides an understanding of how to evaluate and understand category classification model performance
 author: raaourik 
-
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
@@ -16,7 +15,7 @@ ms.reviewer: v-dehaas
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-After each training, AI Builder uses the test data set to evaluate the quality and accuracy of your AI model. A summary page for your model shows your model training result, including a **Performance** score.  
+After each training, AI Builder uses the test data set to evaluate the quality and accuracy of your AI model. A summary page for your model shows your model training result, including a **Performance** score.
 
 AI Builder calculates your model's performance score based on the precision and recall of the prediction results:
 
