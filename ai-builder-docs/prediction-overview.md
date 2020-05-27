@@ -1,5 +1,5 @@
 ---
-title: Overview of prediction model - AI Builder | Microsoft Docs
+title: Overview of the prediction model - AI Builder | Microsoft Docs
 description: Describes the prediction model in AI Builder, and gives some examples of how you might use it.
 author: Dean-Haas
 
@@ -11,7 +11,7 @@ ms.author: tatn
 ms.reviewer: v-dehaas
 ---
 
-# Overview of prediction model
+# Overview of the prediction model
 
 AI Builder prediction models analyze yes/no patterns in your data. AI Builder learns to associate historical patterns with outcomes. Based on past results, the prediction model detects learned patterns in new data to predict future outcomes.
 

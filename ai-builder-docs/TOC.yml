@@ -12,7 +12,7 @@
       href: samples.md
   - name: AI Builder community
     href: share-your-experience.md
-- name: AI models
+- name: Working with AI models<!--I think "AI Models" as a subheading is just too opaque. What do you think of this?-->
   items:
   - name: AI model types
     href: model-types.md

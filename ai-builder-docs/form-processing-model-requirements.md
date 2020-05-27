@@ -13,8 +13,6 @@ ms.reviewer: v-dehaas
 
 # Form processing AI model requirements and limitations
 
-
-
 ## Requirements
 
 Form processing works on input documents that meet the following requirements:

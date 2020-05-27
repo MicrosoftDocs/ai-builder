@@ -10,7 +10,7 @@ ms.author: raaourik
 ms.reviewer: v-dehaas
 ---
 
-# Use model to generate tags
+# Use a model to generate tags
 
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]

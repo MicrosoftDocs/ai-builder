@@ -28,7 +28,7 @@ Next, provide the names of the items you want to detect. You can provide up to 5
 
 There are two ways to provide object names:
 
-- Type object names directly in AI Builder.
+- Enter object names directly in AI Builder.
 - Select names from your Common Data Service entity.
 
 As you build your model, you can switch between these two modes. In the top action bar, select the name of the other input mode.
@@ -36,9 +36,9 @@ As you build your model, you can switch between these two modes. In the top acti
 > [!IMPORTANT]
 > When you change input mode, you lose any existing object names. In other words - if you type object names in AI Builder, and then change to selecting from a database, all object names typed and their associated bounding boxes are deleted from your model. This is not recoverable. The same applies if you switch from selecting object names from a database to typing object names.
 
-### Type names in AI Builder
+### Enter names in AI Builder
 
-To provide object names directly in AI Builder, just type the name in the space where the object is detected in the image. Then, press **Enter**, or select **Add new object** to continue.
+To provide object names directly in AI Builder, just enter the name in the space where the object is detected in the image. Then, press **Enter**, or select **Add new object** to continue.
 
 - To edit an object name, select the object name and then make your change.
 - To remove an object name, select the **bin** icon. ![bin icon](media/bin-icon.png "bin icon")

@@ -10,7 +10,7 @@ ms.author: mfotedar
 ms.reviewer: v-dehaas
 ---
 
-# Create a custom entity extraction AI model 
+# Create a custom entity extraction AI model
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -29,8 +29,8 @@ To create your custom entity extraction model, you'll need to:
 You need at least 10 data examples to start customizing the model. AI Builder will identify some entities out of the box. You can customize by creating new entity types with a small set of examples or by modifying the existing entity types. Upload your data:
 
 1. Sign in to [Power Apps](https://make.powerapps.com/) or [Power Automate](https://flow.microsoft.com/).
-1. In the navigation pane select **AI Builder > Build**. Then, select **Entity Extraction**.
-1. Type a name for your model, and then select **Create**.
+1. In the navigation pane select **AI Builder** > **Build**. Then, select **Entity Extraction**.
+1. Enter a name for your model, and then select **Create**.
 1. Select the **Common Data Service** entity and the field that contains your data.
 
 ## Review & refine entities 

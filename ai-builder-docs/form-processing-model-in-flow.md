@@ -1,5 +1,5 @@
 ---
-title: Use form processing model in Power Automate - AI Builder | Microsoft Docs
+title: Use the form processing model in Power Automate - AI Builder | Microsoft Docs
 description: Provides information about how to use a form processing model in Power Automate
 author: JoeFernandezMS
 
@@ -11,7 +11,7 @@ ms.author: jofernan
 ms.reviewer: v-dehaas
 ---
 
-# Use form processing model in Power Automate
+# Use the form processing model in Power Automate
 
 
  > [!IMPORTANT]
@@ -31,7 +31,7 @@ ms.reviewer: v-dehaas
 
 1. Select **+ New step**. Don't worry about the file information fields at this point - that comes later.
 
-    ![Expand 'manually trigger a flow'.](media/flow-add-input.png)
+    ![Expand Manually trigger a flow](media/flow-add-input.png "Expand Manually trigger a flow")
 
 1. Search for **Predict** in the **Search for filters and actions** box, and then select **Predict Common Data Service (current Environment)** in the list of actions.
     >[!NOTE]

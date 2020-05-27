@@ -11,7 +11,7 @@ ms.author: aminab
 ms.reviewer: v-dehaas
 ---
 
-# Overview of object detection model
+# Overview of the object detection model
 
 Object detection can help expedite or automate business processes. In retail, it could help streamline inventory management, allowing retail leaders to focus on on-site customer relationships. In manufacturing, technicians could use it to speed the repair process to quickly access the manual for a piece of machinery for which the UPC/serial number isn't obvious.
 

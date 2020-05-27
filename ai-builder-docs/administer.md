@@ -17,7 +17,7 @@ Microsoft Power Platform administrators can use the [Power Apps admin center](ht
 
 ## Supported regions
 
-Your AI model is deployed in the region that hosts the environment. For example, if your environment is created in the Europe<!--SELF, there is no "Europe" region. There's European Union, there's France, there's Germany... see https://docs.microsoft.com/en-us/office365/enterprise/o365-data-locations  --> region, then your model is deployed in Europe datacenters. More information: [Environments overview](https://docs.microsoft.com/power-platform/admin/environments-overview)<!--note from editor: I used the stripped-down cross-reference wording because the introduction to this cross-reference didn't add anything new. ("For an overview... see Overview...") The title of the article you're linking to already said it all.-->
+Your AI model is deployed in the region that hosts the environment. For example, if your environment is created in the Europe region, your model is deployed in Europe datacenters. More information: [Environments overview](https://docs.microsoft.com/power-platform/admin/environments-overview)<!--note from editor: I used the stripped-down cross-reference wording because the introduction to this cross-reference didn't add anything new. ("For an overview... see Overview...") The title of the article you're linking to already said it all.-->
 
 The availability (release status) of AI Builder is dependent on your region. For a breakdown of AI Builder feature availability by region, see [Feature availability by region](availability-region.md). 
 

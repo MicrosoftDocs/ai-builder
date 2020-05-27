@@ -1,8 +1,7 @@
 ---
-title: Improve category classification model performance - AI Builder | Microsoft Docs
-description: Provides tips to help you improve category classification model performance in AI Builder.
+title: Improve the performance of the category classification model - AI Builder | Microsoft Docs
+description: Provides tips to help you improve the performance of the category classification model in AI Builder.
 author: raaourik 
-
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
@@ -11,8 +10,8 @@ ms.author: raaourik
 ms.reviewer: v-dehaas
 ---
 
-# Improve category classification model performance
-
+# Improve the performance of the category classification model
+<!--Edit suggested, to avoid a bit of a "noun stack." -->
 If your model performance score isn't where you want, there are a few things you can try. These tips can help you tweak your model to improve its predictive power.
 
 ## Add more correctly labeled training data

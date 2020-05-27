@@ -10,21 +10,20 @@ ms.date: 01/03/2020
 ms.author: antode
 ms.reviewer: v-dehaas
 ---
-
+<!--note from editor: Is there a reason this file isn't included in the TOC? -->
 # Preview features
 
-AI Builder is released and is generally available. But, some of its features are still in preview status.
-You'll notice these features, as they display a **Preview** tag near their names
+AI Builder is released and is generally available. But, some of its features are still in preview status. These features display a **Preview** tag near their names:
 
- - in the AI Builder/ Build page
- - in the Maker Studio/ Insert / AI Builder menu
+ - On the AI Builder **Build** page.
+ - In the Maker Studio > **Insert** > **AI Builder** menu.
 
 ## Block preview scenarios
 
-The environment administrator can decide to hide accesses to preview features. In the Power Platform admin center in **Settings > Features**, a toggle lets you specify whether preview features are displayed.
+The environment administrator can decide to hide accesses to preview features. In the Power Platform admin center under **Settings** > **Features**, a toggle switch lets the admin<!--Edit okay? This seems to be an admin's prerogative.--> specify whether preview features are displayed.
 
 ## FAQ
 
-### What happens if a model linked to a scenario in Preview mode is created and published, then Admin decides to hide all accesses to scenarios in Preview?
+### What happens if a model linked to a scenario in Preview mode is created and published, then the admin decides to hide all access to scenarios in Preview?
 
- In that case, this model will be blocked: it can't be edited or retrained, and it can't be used to compute new predictions. It's displayed in list of models, but is disabled and only specific actions are allowed: delete.
+ In that case, this model will be blocked: it can't be edited or retrained, and it can't be used to compute new predictions. It will be displayed in the list of models, but it will be disabled and the only action that will be allowed is Delete.

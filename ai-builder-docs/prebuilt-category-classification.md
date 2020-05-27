@@ -30,7 +30,7 @@ You can integrate your AI Builder category classification models in Power Apps m
 
 ## Use in Power Automate
 
-For information on how to use this prebuilt model in Power Automate, go to:  Use a category classification model in Power Automate.
+For information about how to use this prebuilt model in Power Automate, go to [Use the category classification prebuilt model in Power Automate](prebuilt-category-classification-pwr-automate.md).
 
 ## Supported data format and languages
 - Documents can't exceed 5,000 characters.

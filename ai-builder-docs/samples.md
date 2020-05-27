@@ -14,9 +14,9 @@ ms.reviewer: v-dehaas
 
 Don't have any data of your own to create a model? No problem! We've got you covered.
 
-## Get sample data
+<!--Via Writing Style Guide, you need to have at least two H2s or don't have any. ## Get sample data-->
 
-Sample data is available for each AI Builder model type, together with and instructions to work with it. Select one of these options to get started.
+Sample data is available for each AI Builder model type, together with instructions for working with it. Select one of these options to get started:
 
 - [Use sample data for prediction](prediction-sample-data.md)
 - [Use sample data for category classification](text-classification-sample-data.md)

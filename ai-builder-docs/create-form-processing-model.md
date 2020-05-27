@@ -19,9 +19,9 @@ After you review the [requirements](form-processing-model-requirements.md), you 
 
 Follow these steps to sign into AI Builder:
 1. Go to [Power Apps](https://make.powerapps.com/) or [Power Automate](https://flow.microsoft.com/signin) and sign in with your organizational account.
-1. In the left pane, select **AI Builder > Build**.
+1. In the left pane, select **AI Builder** > **Build**.
 1. Select **Form processing**.
-1. Type a name for your model.
+1. Enter a name for your model.
 1. If you want to create your model by using your own documents, make sure that you have at least five examples that use the same layout. Otherwise, you can use sample data to create the model.
 1. Select **Create**.
 

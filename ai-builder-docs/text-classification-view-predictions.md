@@ -12,7 +12,7 @@ ms.reviewer: v-dehaas
 
 # View predictions
 
-This section shows you how to see output of your prediction model.
+This section shows you how to see the output of your prediction model.
 
 1. After you select **Use Model** and configure it to run on Common Data Service, the output location appears in the **Settings** pane under the **Run** pivot.
 

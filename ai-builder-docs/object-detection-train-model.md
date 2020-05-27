@@ -29,7 +29,7 @@ After your model is trained, you can see it in action from its details page. For
 4. After your model is done running, the rectangles found will be drawn directly on the picture.
 
     > [!div class="mx-imgBorder"]
-    > ![Quick-test screen](media/quick-test.png)
+    > ![Quick-test screen](media/quick-test.png "Quick-test screen")
 
 ## How to interpret your model performance score
 

@@ -66,9 +66,9 @@ Note that tags data is separated using a vertical bar or pipe ( \| ).
 1. Use the drop-down menu to select your target entity, and then map your columns to the destination field.
 
     > [!div class="mx-imgBorder"]
-    > ![Map your columns to the destination field](media/create-text-model-map-columns.png)
+    > ![Map your columns to the destination field](media/create-text-model-map-columns.png "Map your columns to the destination field")
 
-1. Select **Refresh manually** on the **Refresh settings** page.
+1. On the **Refresh settings** page, select **Refresh manually**.
 
 You're all set—Power Query will import your data into your Common Data Service entity.
 

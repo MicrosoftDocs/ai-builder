@@ -11,7 +11,7 @@ ms.author: mfotedar
 ms.reviewer: v-dehaas
 ---
 
-# Requirements and limitations
+# Entity extraction AI model requirements and limitations
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 

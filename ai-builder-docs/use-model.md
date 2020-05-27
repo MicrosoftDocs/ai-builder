@@ -59,11 +59,11 @@ For information about this functionality becoming available with other model typ
  >
  >* [Data Loss Prevention (DLP) policies](/power-platform/admin/wp-data-loss-prevention) that apply to Common Data Service also apply to AI Builder.
  >
- >* To use formulas in an app that was created before May 7, 2020, go to **Settings > Advance Settings > Preview Features** and set **AI Builder formulas** to **ON**. This step is not necessary for newly created apps.
+ >* To use formulas in an app that was created before May 7, 2020, go to **Settings** > **Advance Settings** > **Preview Features** and set **AI Builder formulas** to **ON**. This step is not necessary for newly created apps.
 
-To enable or disable this feature (for example, for Data Loss Prevention), see **AI Builder formulas** under **Advanced Settings**: [Controlling which features are enabled](/powerapps/maker/canvas-apps/working-with-experimental-preview#controlling-which-features-are-enabled.md)
+To enable or disable this feature (for example, for data loss prevention), see **AI Builder formulas** under **Advanced Settings**: [Controlling which features are enabled](/powerapps/maker/canvas-apps/working-with-experimental-preview#controlling-which-features-are-enabled.md)
 
-When you enter **AIBuilder** in an app, it might take a few seconds to load its<!--SELF: Is this the right edit? --> functions. After it loads, enter a period (**.**)<!--SELF: Is this right? --> to view the available functions. Detailed information about how to use formulas in canvas apps is available here: [Get started with canvas-app formulas in Power Apps](/powerapps/maker/canvas-apps/working-with-formulas.md)
+When you enter **AIBuilder** in an app, it might take a few seconds to load its functions. After it loads, enter a period (**.**) to view the available functions. Detailed information about how to use formulas in canvas apps is available here: [Get started with canvas-app formulas in Power Apps](/powerapps/maker/canvas-apps/working-with-formulas.md)
 
 ### Example: Sentiment analysis
 

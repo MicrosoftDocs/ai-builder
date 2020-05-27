@@ -1,6 +1,6 @@
 ---
 title: Training errors and issues - AI Builder | Microsoft Docs
-description: Describes the errors and issues that appear the AI Builder prediction model details page
+description: Describes the errors and issues that appear on the AI Builder prediction model details page
 author: Dean-Haas
 ms.service: powerapps
 ms.topic: conceptual

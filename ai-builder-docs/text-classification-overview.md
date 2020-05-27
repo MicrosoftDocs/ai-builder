@@ -11,7 +11,7 @@ ms.author: raaourik
 ms.reviewer: v-dehaas
 ---
 
-# Preview: Overview of category classification model
+# Overview of the category classification model (preview)
 
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]

@@ -39,7 +39,7 @@ You can set the run or retrain cadence to daily, weekly, or monthly. If you don'
 > [!NOTE]  
 > When you schedule your model to retrain, it creates a flow to schedule the training. It's a good idea not to update the flow associated to the AI Builder retrain schedule. AI Builder manages the flow through the schedule retrain experience.
 
-If you make any changes to the AI Builder **schedule > retrain** settings, the associated flow is replaced with a new one.
+If you make any changes to the AI Builder **schedule** > **retrain** settings, the associated flow is replaced with a new one.
 
 ## Real-time prediction
 

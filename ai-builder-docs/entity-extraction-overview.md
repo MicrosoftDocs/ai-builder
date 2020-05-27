@@ -10,7 +10,7 @@ ms.author: mfotedar
 ms.reviewer: v-dehaas
 ---
 
-# Entity extraction custom model overview
+# Overview of the entity extraction custom model (preview)
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
