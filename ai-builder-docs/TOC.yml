@@ -18,17 +18,17 @@
     href: model-types.md
   - name: Build a model
     href: build-model.md
-  - name: Train a model
+  - name: Train your model
     href: train-model.md
-  - name: Manage a model
+  - name: Manage your model
     href: manage-model.md
-  - name: Publish a model
+  - name: Publish your model
     href: publish-model.md
   - name: Use your model
     href: use-model.md
-  - name: Share a model
+  - name: Share your model
     href: share-model.md
-  - name: Distribute a model
+  - name: Distribute your model
     href: distribute-model.md
 - name: Custom AI models
   items:

@@ -11,7 +11,7 @@ ms.author: antode
 ms.reviewer: cdbellar
 ---
 
-# Share your AI models
+# Share your AI model
 
 When you create and publish AI models in AI Builder, they're private - only you can run them. This allows you to test them and use them within apps or flows.
 

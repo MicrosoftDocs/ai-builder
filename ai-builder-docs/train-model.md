@@ -10,7 +10,7 @@ ms.author: joshrenn
 ms.reviewer: v-dehaas
 ---
 
-# Train your AI Builder model
+# Train your model in AI Builder
 
 Before you can use your AI model, you have to train it to perform the way you want. After you train your model, [publish it](publish-model.md) to make it available to other people.
 

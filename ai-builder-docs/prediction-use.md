@@ -14,7 +14,9 @@ ms.reviewer: v-dehaas
 
 After your model is trained and published, it's ready for you to use. 
 
-## Prediction run
+<a name="prediction-run"></a>
+
+## Run your prediction model
 
 To run your prediction model, just go to the model settings page and select **Run now**.
 

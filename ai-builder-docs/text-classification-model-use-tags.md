@@ -19,7 +19,9 @@ ms.reviewer: v-dehaas
 
 If you want to use your trained model in Power Automate, you can find more information in [Use category classification model in Power Automate](text-classification-model-in-flow.md).
 
-## Set run schedule on Common Data Service
+<a name="set-run-schedule-on-common-data-service"></a>
+
+## Set a run schedule on Common Data Service
 
 Go to the **Run** view in the **Model settings** panel to set the run schedule. To configure your model to run on your database and generate predictions, select **Generate predictions when new data is added**. 
 
