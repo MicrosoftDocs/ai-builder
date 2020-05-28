@@ -28,8 +28,8 @@ Prebuilt models are available in Power Automate and Power Apps, depending on the
 |[Sentiment analysis ](prebuilt-sentiment-analysis.md)    |    Power Automate    |
 
 
-### Related content
+### See also
 
-- [AI Builder in Power Automate](use-in-flow-overview.md)
-- [AI Builder in Power Apps](use-in-powerapps-overview.md)
-- [Feature availability by region](availability-region.md)
+[AI Builder in Power Automate](use-in-flow-overview.md)  
+[AI Builder in Power Apps](use-in-powerapps-overview.md)  
+[Feature availability by region](availability-region.md)

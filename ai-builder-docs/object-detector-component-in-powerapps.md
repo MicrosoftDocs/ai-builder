@@ -61,7 +61,7 @@ Additional design properties are available in the Advanced panel.
 ## Accessibility guidelines
 These [guidelines](/powerapps/maker/canvas-apps/controls/control-button) for the Power Apps button control also apply to the form processor component.
 
-### Related topics
+### See also
 
 [Object detection overview](object-detection-overview.md)  
 [Use an object detection model in Power Automate](object-detection-model-in-flow.md)  

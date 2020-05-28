@@ -29,7 +29,7 @@ Generate new predictions right away and save them to Common Data Service. To lea
 
 ## Create a new app
 
-Insert an AI Builder component into a canvas app. More information: [AI Builder in Power Apps overview](use-in-powerapps-overview.md).
+Insert an AI Builder component into a canvas app. More information: [AI Builder in Power Apps overview](use-in-powerapps-overview.md)
 
 ## Use formulas for text AI models (Preview)
 <!--SELF: What is "text AI models"? In the main overview, the category was called "Language". I assume should be the same here? -->
@@ -56,7 +56,7 @@ When you enter **AIBuilder** in an app, it might take a few seconds to load its 
 
 In this example, we use a **Text Input** control and a **Label** control to invoke sentiment analysis.
 
-1. Sign in to Power Apps Studio (<https://create.powerapps.com>).
+1. Sign in to [Power Apps Studio](https://create.powerapps.com).
 
 1. Insert a **Text Input** control, select it, select **Advanced Properties**, and then set **DelayOutput** to true. The **Text Input** in this case contains the text we want to analyze.
 
@@ -69,7 +69,6 @@ In this example, we use a **Text Input** control and a **Label** control to invo
 
     > [!div class="mx-imgBorder"]
     > ![Available formulas](media/formula-menu.png "Available formulas")
-
 
 ### Available formulas
 
@@ -88,12 +87,12 @@ Some AI models, like key phrase or entity extraction, return more than one resul
 
 1. Insert a gallery control into your canvas app.
 
-1. To populate the gallery with sample text, ensure the gallery control is selected, copy the following text, and then paste it into the gallery control:
+1. To populate the gallery with sample text: ensure the gallery control is selected, copy the following text, and then paste it into the gallery control.
 
    ```
    Table({feedback: "I love visiting Contoso restaurant"}, {feedback: "I was annoyed that I had to wait 1h to get a table at Contoso restaurant"}, {feedback: "The food was OK at Contoso restaurant"})
    ```
- 
+
 1. Select the label control in the gallery control, and then enter the formula `AIBuilder.AnalyzeSentiment(ThisItem.feedback).sentiment` as shown in the following image:
 
     > [!div class="mx-imgBorder"]
@@ -103,7 +102,7 @@ Some AI models, like key phrase or entity extraction, return more than one resul
 
 [Share your AI model](share-model.md)
 
-### Related topics
+### See also
 
 [AI Builder in Power Automate overview](use-in-flow-overview.md) <br>
 [AI Builder in Power Apps overview](use-in-powerapps-overview.md)

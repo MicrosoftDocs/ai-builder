@@ -21,7 +21,7 @@ You can integrate some AI Builder models in [Power Apps Studio](https://create.p
 
 For information on how to use formulas to add these AI models to your Power Apps, see [Use formulas for text AI models (Preview)](use-model.md#use-formulas-for-text-ai-models-preview)
 
-### Related topics
+### See also
 
 [Sentiment analysis model](prebuilt-sentiment-analysis.md)  
 [Entity extraction model](prebuilt-entity-extraction.md)  

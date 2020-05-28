@@ -20,7 +20,7 @@ You can use your published AI models in addition to some AI Builder prebuilt mod
 
 - [Prerequisites](use-in-flow-prereq.md)
 
-### Related content
+### See also
 
-- [Feature availability by region](availability-region.md)
-- [AI Builder in Power Apps](use-in-powerapps-overview.md)
+[Feature availability by region](availability-region.md)  
+[AI Builder in Power Apps](use-in-powerapps-overview.md)

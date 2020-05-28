@@ -42,6 +42,6 @@ Download [AI Builder Form Processing Sample Data.zip](https://go.microsoft.com/f
    > [!div class="mx-imgBorder"]
    > ![Quick test](media/quick-test-form.png "Quick test")
 
-### Related topics
+### See also
 [Form processing model in Power Automate](form-processing-model-in-flow.md) </br>
 [Form processing model in Power Apps](form-processor-component-in-powerapps.md)

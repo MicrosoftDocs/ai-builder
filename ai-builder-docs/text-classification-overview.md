@@ -32,8 +32,8 @@ Automate and scale your business processes with AI Builder category classificati
 - [Before you build a category classification model](before-you-build-text-classification-model.md)
 - [Create a category classification model](create-text-classification-model.md)
 
-### Related content
+### See also
 
-- [Use category classification model in Power Automate](text-classification-model-in-flow.md)
-- [Use the text recognizer component in Power Apps](prebuilt-text-recognizer-component-in-powerapps.md)
-- [Feature availability by region](availability-region.md)
+[Use category classification model in Power Automate](text-classification-model-in-flow.md)  
+[Use the text recognizer component in Power Apps](prebuilt-text-recognizer-component-in-powerapps.md)  
+[Feature availability by region](availability-region.md)

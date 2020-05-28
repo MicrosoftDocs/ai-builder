@@ -38,7 +38,7 @@ If you're satisfied with your model, you can publish it to make it available. Be
 
 [Use your AI model](use-model.md)
 
-### Related topics
+### See also
 
 [AI Builder in Power Automate overview](use-in-flow-overview.md)  
 [AI Builder in Power Apps overview](use-in-powerapps-overview.md)

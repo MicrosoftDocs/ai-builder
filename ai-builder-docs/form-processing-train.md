@@ -43,7 +43,7 @@ If you're happy with your model, you can select **Publish** to publish it. When 
 
 After you've published your form processing model, you can use it in a [Power Apps canvas app](/ai-builder/form-processor-component-in-powerapps) or in [Power Automate](/ai-builder/form-processing-model-in-flow).
 
-### Related topics
+### See also
 
 [Form processing model in Power Automate](form-processing-model-in-flow.md)  
 [Form processing model in Power Apps](form-processor-component-in-powerapps.md)

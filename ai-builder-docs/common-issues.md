@@ -33,13 +33,13 @@ This issue can occur with the Google Chrome browser due to the way this browser 
 
 ## Training document is not displayed on form processing model details page
 
-When you create a form processing model, a preview of one of the training documents appears on the model's details page after training completes.
+When you create a form processing model, a preview of one of the training documents appears on the model details page after training is completed.
 
 The training document might not appear if:
 
 * You don't have permissions to view training documents.
 * You aren't the owner of the model. 
-* You imported the model from another environment. When you import a form processing model from another environment, the original training data is not imported with it, and thus the document preview can't be displayed.
+* You imported the model from another environment. When you import a form processing model from another environment, the original training data isn't imported with it, and thus the document preview can't be displayed.
 
 ## Too Many Requests error in Power Automate
 

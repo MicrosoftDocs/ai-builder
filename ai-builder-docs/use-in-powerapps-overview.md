@@ -58,9 +58,9 @@ With the [AI Builder component improvements](https://powerapps.microsoft.com/blo
 
 If your app uses a **data table** component to display results from the **object detector** component, and you don't see the content after this update, remove the **data table** component from your app, and then add it again. Next, reset the item's property to correctly display the content from the **object detector** component.
 
-### Related content
+### See also
 
-- [Feature availability by region](availability-region.md)
-- [AI Builder in Power Automate](use-in-flow-overview.md)
-- [What are canvas apps?](https://docs.microsoft.com/powerapps/maker/canvas-apps/getting-started)
-- [What are model-driven apps?](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview)
+[Feature availability by region](availability-region.md)  
+[AI Builder in Power Automate](use-in-flow-overview.md)  
+[What are canvas apps?](https://docs.microsoft.com/powerapps/maker/canvas-apps/getting-started)  
+[What are model-driven apps?](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview)

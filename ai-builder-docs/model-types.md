@@ -53,6 +53,6 @@ AI Builder includes<!--Suggested--> prebuilt AI models that you can use in Power
 
 [Build a model](build-model.md)
 
-### Related content
+### Related topic
 
 [Feature availability by region](availability-region.md)

@@ -33,7 +33,7 @@ To use real-time prediction in Power Automate. Follow these steps to build a flo
 
 Congratulations! You've created a flow that uses the real-time prediction feature in AI Builder.
 
-### Related information
+### See also
 
 [Use your prediction model](prediction-use.md)  
 [Train your model](train-model.md)  

@@ -37,8 +37,7 @@ ms.reviewer: v-dehaas
 
 Congratulations! You've created a flow that uses a entity extraction model. Select **Save** in the upper-right corner, and then select **Test** to try out your flow.
 
-### Related information:
+### See also
 
-[Entity extraction model](prebuilt-entity-extraction.md)
-
+[Entity extraction model](prebuilt-entity-extraction.md)  
 [AI Builder in Power Automate overview](use-in-flow-overview.md)

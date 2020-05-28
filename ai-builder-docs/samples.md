@@ -14,7 +14,7 @@ ms.reviewer: v-dehaas
 
 Don't have any data of your own to create a model? No problem! We've got you covered.
 
-<!--Via Writing Style Guide, you need to have at least two H2s or don't have any. ## Get sample data-->
+<!--Via Writing Style Guide, you need to have at least two H2s, or don't have any.-->
 
 Sample data is available for each AI Builder model type, together with instructions for working with it. Select one of these options to get started:
 

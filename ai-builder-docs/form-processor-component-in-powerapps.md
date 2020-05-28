@@ -13,7 +13,7 @@ ms.reviewer: v-dehaas
 
 # Use the form processor component in Power Apps
 
-You can add the AI Builder form processor component to your screen in your canvas apps. This component takes a photo or loads your image. Then, it extracts text based on your trained AI model. If it detects a form that the AI model is trained for, the form processor extracts the field values, and identifies them with rectangles.
+You can add the AI Builder form processor component to your screen in your canvas apps. This component takes a photo or loads your image. Then, it extracts text based on your trained AI model. If it detects a form that the AI model is trained for, the form processor extracts the field values, and identifies them by using rectangles.
 
  > [!NOTE]
  >
@@ -23,7 +23,7 @@ You can add the AI Builder form processor component to your screen in your canva
 
 This component requires a published AI Builder form processing model. Then, that model must be bound to the component using the AI model property in the properties panel.
 
-When you add the component to the screen, it automatically opens the AI models pane. There, you select a model that is published in your environment.
+When you add the component to the screen, it automatically opens the AI models pane. There, you select a model that has been published in your environment.
 
 The component is initialized after an AI model is bound to it.
 
@@ -68,7 +68,7 @@ Additional design properties are available in the Advanced panel.
 ## Accessibility guidelines
 These [guidelines](/powerapps/maker/canvas-apps/controls/control-button) for the Power Apps button control also apply to the form processor component.
 
-### Related topics
+### See also
 
 [Object detection model overview](object-detection-overview.md)  
 [Core properties in Power Apps](/powerapps/maker/canvas-apps/controls/properties-core)

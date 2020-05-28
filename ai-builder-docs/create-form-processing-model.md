@@ -118,7 +118,7 @@ If a field isn't present on one of the documents, select **Field not in document
 
 [Train and publish your form processing model](form-processing-train.md)
 
-### Related topics
+### See also
 
 [Form processing model in Power Automate](form-processing-model-in-flow.md)  
 [Form processing model in Power Apps](form-processor-component-in-powerapps.md)

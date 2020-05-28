@@ -51,7 +51,7 @@ Additional design properties are available in the Advanced panel.
 ## Accessibility guidelines
 These [guidelines](/powerapps/maker/canvas-apps/controls/control-button) for the Power Apps button control also apply to the text recognizer component.
 
-### Related topics
+### See also
 
 [Text recognition overview](prebuilt-text-recognition.md)  
 [Core properties in Power Apps](/powerapps/maker/canvas-apps/controls/properties-core)
