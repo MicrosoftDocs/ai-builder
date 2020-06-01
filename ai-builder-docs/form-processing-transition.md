@@ -21,7 +21,7 @@ Starting March 5, 2020, you have to re-create your existing form processing mode
 **You must re-create form processing models created before March 5, 2020** 
 
 1. Identify any form-processing models created before March 5, 2020, that you want to continue using.
-1. For each model, [create a new form-processing model](create-form-processing-model) with the same training documents you used in the original model.
+1. For each model, [create a new form-processing model](create-form-processing-model.md) with the same training documents you used in the original model.
 1. After the new model is trained and published, make sure you update any apps or flows to use the new model.
 1. After you're done with your deprecated form-processing model, you can delete it.
 

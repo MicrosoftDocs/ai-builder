@@ -19,7 +19,7 @@ ms.reviewer: v-dehaas
 
 1. Sign in to [Power Automate](https://flow.microsoft.com/signin), select the **My flows** tab, and then select **Create from blank**.
 
-1. Search for the term *manually*, select **Manually trigger a flow** in the list of triggers, and then select **+ Add an input**.
+1. Search for the term **manually**, select **Manually trigger a flow** in the list of triggers, and then select **+ Add an input**.
 
 1. Select **Text**, and enter **My Text** as the input title.
 
@@ -27,7 +27,7 @@ ms.reviewer: v-dehaas
 
 1. Select **Text**, and enter **My Language** as the input title.
 
-1. Select **+ New step**, search for *Predict*, and then select **Predict Common Data Service (current Environment)** in the list of actions.
+1. Select **+ New step**, search for **Predict**, and then select **Predict Common Data Service (current Environment)** in the list of actions.
  >[!NOTE]
  > **Predict Common Data Service (current Environment)** doesn't appear unless you've followed these instructions first: [Create a flow in a solution](/flow/create-flow-solution).
 
@@ -51,7 +51,7 @@ Power Automate provides a template that enables you to analyze incoming Dynamics
    For information about how to create an attribute, see [Create and edit fields for Common Data Service using Power Apps portal](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-field-portal).
 
 1. Sign in to [Power Automate](https://flow.microsoft.com/signin).
-1. In the left pane, select **Templates**, and then search for *AI Builder sentiment*.
+1. In the left pane, select **Templates**, and then search for **AI Builder sentiment**.
 1. Select **Analyze sentiment of Dynamics emails using AI Builder**.
 1. Select your environment, then type **Email Messages** in the **Entity Name** field, and type **Organization** in the **Scope** field.
 

@@ -19,18 +19,18 @@ ms.reviewer: v-dehaas
 
 1. Sign in to [Power Automate](https://flow.microsoft.com/), select the **My flows** tab, and then select **Automated-from blank**.
 1. Enter a name for your flow.
-1. Search for *email*, select **When an email arrives** in the list of triggers, and then select **Create**.
-1. Select **+ New step**, search for *html to text*, and then select **Html to text** in the list of actions.
+1. Search for **email**, select **When an email arrives** in the list of triggers, and then select **Create**.
+1. Select **+ New step**, search for **html to text**, and then select **Html to text** in the list of actions.
    > [!div class="mx-imgBorder"]
    > ![Select Html to text](media/html-to-text.png "Select Html to text")
-1. Select **+ New step**, search for *predict*, and then select the **Predict Common Data Service (current Environment)** action.
+1. Select **+ New step**, search for **predict**, and then select the **Predict Common Data Service (current Environment)** action.
    > [!div class="mx-imgBorder"]
    > ![Choose an a action'](media/predict-cds-2.png "Select 'Predict Common Data Service'")
 
     >[!NOTE]
     > **Predict Common Data Service (current Environment)** doesn't appear unless you've followed these instructions first: [Create a flow in a solution](/flow/create-flow-solution).
 1. Select **EntityExtraction model**. In the **Sentence** field, select the **plain text** parameter.
-1. Select **+ New step**, search for *Add a row into a table*, and then select the **Add a row into a table** action.
+1. Select **+ New step**, search for **Add a row into a table**, and then select the **Add a row into a table** action.
 1. Complete the necessary fields to find the location of your Excel table. Make sure you created a table and designated columns where you want to store the results of entity extraction. Find the results of entity extraction in the available dynamic content such as **Entity type** and **Entity value**, as shown in the following image:
    > [!div class="mx-imgBorder"]
    > ![Add a row into a table'](media/flow-add-row2.png "Add a row into a table")

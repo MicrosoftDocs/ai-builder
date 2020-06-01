@@ -19,7 +19,7 @@ ms.reviewer: v-dehaas
 
 1. Sign in to [Power Automate](https://flow.microsoft.com/), select the **My flows** tab, and then select **Create from blank**.
 
-1. Search for *manually*, select **Manually trigger a flow** in the list of triggers, and then select **+Add an input**.
+1. Search for **manually**, select **Manually trigger a flow** in the list of triggers, and then select **+Add an input**.
 
 1. Select **Text**, and enter **My Text** as the input title.
 1. Select **+ New step**, search for **Predict**, and then select **Predict Common Data Service (current Environment)** in the list of actions.

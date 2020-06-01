@@ -17,11 +17,11 @@ ms.reviewer: v-dehaas
 
 1. Sign in to [Power Automate](https://flow.microsoft.com/signin), select the **My flows** tab, and then select **Create from blank**.
 
-1. Search for the term *manually*, select  **Manually trigger a flow** in the list of triggers, and then select **+ Add an input**.
+1. Search for the term **manually**, select  **Manually trigger a flow** in the list of triggers, and then select **+ Add an input**.
 
 1. Select **File**, and enter **My Image** as the input title.
 
-1. Select **+ New step**, search for the term *Predict*, and then select  **Predict - Common Data Service (Current Environment)**  in the list of actions.
+1. Select **+ New step**, search for the term **Predict**, and then select **Predict - Common Data Service (Current Environment)**  in the list of actions.
     >[!NOTE]
     > **Predict Common Data Service (current Environment)** doesn't appear unless you've followed these instructions first: [Create a flow in a solution](/flow/create-flow-solution).
 

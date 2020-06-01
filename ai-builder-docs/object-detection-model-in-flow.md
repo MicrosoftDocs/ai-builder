@@ -18,9 +18,9 @@ ms.reviewer: v-dehaas
  > To use AI Builder models in Power Automate, you have to create the flow inside a solution. The steps below won't work if you don't follow these instructions first: [Create a flow in a solution](/flow/create-flow-solution).
 
 1. Sign in to [Power Automate](https://flow.microsoft.com/), select the **My flows** tab, and then select **Create from blank**.
-2. Search for *manually*, select **Manually trigger a flow** in the list of triggers, and then select **+ Add an input**.
+2. Search for **manually**, select **Manually trigger a flow** in the list of triggers, and then select **+ Add an input**.
 3. Select **File**, and set **My Image** as input title.
-4. Select **+ New step**, search for *Predict*, and then select **Predict - Common Data Service (Current Environment)** in the list of actions.
+4. Select **+ New step**, search for **Predict**, and then select **Predict - Common Data Service (Current Environment)** in the list of actions.
     >[!NOTE]
     > **Predict Common Data Service (current Environment)** doesn't appear unless you've followed these instructions first: [Create a flow in a solution](/flow/create-flow-solution).
 

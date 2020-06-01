@@ -19,7 +19,7 @@ ms.reviewer: v-dehaas
 
 1. Sign in to [Power Automate](https://flow.microsoft.com/), select the **My flows** tab, and then select **Automated-from blank**.
 
-1. Search for *email*, select **When an email arrives** in the list of triggers, and then select **Create**.
+1. Search for **email**, select **When an email arrives** in the list of triggers, and then select **Create**.
 
 1. Select **Text**, and enter **My Text** as the input title.
 
@@ -30,7 +30,7 @@ ms.reviewer: v-dehaas
     > [!div class="mx-imgBorder"]
     > ![HTML to text](media/flow-html-text.png "HTML to text")
 
-1. Select **+ New step**, search for *Predict*, and then select the **Predict Common Data Service (current Environment)** action.
+1. Select **+ New step**, search for **Predict**, and then select the **Predict Common Data Service (current Environment)** action.
 
     > [!div class="mx-imgBorder"]
     > ![Choose an action](media/flow-choose-action.png "Choose an action")
