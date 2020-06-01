@@ -20,7 +20,7 @@ Your AI Builder models are deployed in the region that hosts your Common Data Se
 
 ## Availability and release status of features by region
 
-The following table shows which AI Builder features are available in each region, and the release status (general availability \[GA\] or preview) for each feature.  
+The following table shows which AI Builder features are available in each region, and the release status (general availability or preview) for each feature.  
 
 > [!NOTE]
 > For a view of what's planned for AI Builder, including new features, release status, and regional availability, check out the [AI Builder release plans](https://go.microsoft.com/fwlink/?linkid=2102828).
@@ -30,11 +30,16 @@ The following table shows which AI Builder features are available in each region
 |:-------|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
 |Form processing |GA |GA |GA |GA |GA |GA |GA |GA |
 |Object detection|GA |GA |-|GA |GA |-| GA |GA |
-|Prediction|GA|GA|GA|GA|GA|-|GA|GA|
+|Prediction|GA|GA|GA|GA|GA|GA|GA|GA|
 |Category classification|Preview |Preview |Preview |Preview |-|Preview |Preview |Preview |
 |Business card reader    |GA|GA |GA|GA|GA |GA|GA |GA|
 |Key phrase extraction |GA|GA |GA |GA |GA |GA |GA |GA |
 |Language detection |GA |GA |GA |GA |GA |GA |GA |GA |
 |Text recognition   |GA |GA |GA |GA |GA |GA |GA |GA |
 |Sentiment analysis |GA |GA |GA |GA |GA |GA |GA |GA |
-|Entity extraction |Preview |Preview |Preview |Preview |-|Preview |Preview |Preview |
+|Entity Extraction |Preview |Preview |Preview |Preview |-|Preview |Preview |Preview |
+
+### Related content
+
+[AI model types](model-types.md)
+
