@@ -2,7 +2,6 @@
 title: Use the form processing model in Power Automate - AI Builder | Microsoft Docs
 description: Provides information about how to use a form processing model in Power Automate
 author: JoeFernandezMS
-
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
@@ -11,17 +10,14 @@ ms.author: jofernan
 ms.reviewer: v-dehaas
 ---
 
-# Use the form processing model in Power Automate
-
+# Use a form-processing model in Power Automate
 
  > [!IMPORTANT]
  > To use AI Builder models in Power Automate, you have to create the flow inside a solution. The steps below won't work if you don't follow these instructions first: [Create a flow in a solution](/flow/create-flow-solution).
 
-## Create your flow
-
 1. Sign in to [Power Automate](https://flow.microsoft.com/).
 
-1. Select **My flows** in the left-side navigation pane, and then select **Create from blank**.
+1. Select **My flows** in the left pane, and then select **Create from blank**.
 
 1. Select **+New** > **+Instant-from blank**.
 
@@ -29,36 +25,37 @@ ms.reviewer: v-dehaas
 
 1. Expand **Manually trigger a flow**, select **+Add an input**, and then select **File** as the input type.
 
-1. Select **+ New step**. Don't worry about the file information fields at this point - that comes later.
+1. Select **+ New step**. Don't worry about the file information fields at this point; that comes later.
 
     ![Expand Manually trigger a flow](media/flow-add-input.png "Expand Manually trigger a flow")
 
 1. Search for **Predict** in the **Search for filters and actions** box, and then select **Predict Common Data Service (current Environment)** in the list of actions.
+
     >[!NOTE]
     > **Predict Common Data Service (current Environment)** doesn't appear unless you've followed these instructions first: [Create a flow in a solution](/flow/create-flow-solution).
 
-1. Select the form processing model you want to use, and select the **Document type**:
+1. Select the form-processing model you want to use, and then select the **Document type**:
 
-    - For a .jpeg image of the form: image/jpeg
-    - For a .png image of the form: image/png
-    - For a .pdf document of the form: application/pdf
+    - For a JPEG image, select **image/jpeg**.
+    - For a PNG image, select **image/png**.
+    - For a PDF document, select **application/pdf**.
 
-1. In the **Document** field in the Predict window, select **File Content**:
+1. In the **Document** field in the **Predict** window, select **File Content**.
 
     > [!div class="mx-imgBorder"]
-    > ![Select file content](media/flow-select-file-content.png "Select file content")
+    > ![Select File Content](media/flow-select-file-content.png "Select File Content")
 
-1. In the successive actions, you can use any fields and tables extracted by the AI Builder model. For example, let's say that our model is trained to extract the *Invoice Id* and the *Total Amount* value, and we want to post those to a Microsoft Teams channel. Just add the **Post a message to Teams** action, and then select your fields in the list of tokens.
+1. In the successive actions, you can use any fields and tables extracted by the AI Builder model. For example, let's say that our model is trained to extract the *Invoice Id* and the *Total Amount* value, and we want to post those to a Microsoft Teams channel. Just add the **Post a message to Teams** action, and then select your fields from the list of tokens.
 
     > [!NOTE]
-    >
     >- To retreive the value for a field, select **<field_name> value** . For example, for the *Invoice Id* field, select **Invoice Id value**.
     >- To retrieve the confidence score for a field, select **<field_name> confidence score** . For example, for the *Invoice Id* field, select **Invoice Id confidence score**.
-    
+
     > [!div class="mx-imgBorder"]
-    > ![Form processing flow overview](media/flow-fp-overview.png "Form processing flow overview")
+    > ![Form-processing flow overview](media/flow-fp-overview.png "Form-processing flow overview")
 
-Congratulations! You've created a flow that uses an AI Builder form processing model. Select **Save** in the upper-right corner, and then select **Test** to try out your flow.
+Congratulations! You've created a flow that uses an AI Builder form-processing model. Select **Save** in the upper-right corner, and then select **Test** to try out your flow.
 
-### Related topic
-[Form processing model overview](form-processing-model-overview.md)
+### See also
+
+[Overview of the form-processing model](form-processing-model-overview.md)

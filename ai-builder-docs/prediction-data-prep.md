@@ -56,7 +56,7 @@ Next, import the sample data into the entity. In this example, we use the **aib_
 
 1. On the **Refresh settings** screen, select the **Refresh manually** check box, and then select **Create** to start the import process.
 
-Allow some time for the import to be completed. Then, make sure the data is imported correctly.
+Allow some time for the import to be completed. Then make sure the data is imported correctly.
 
 1. In Power Apps, go back to **Entities** under **Data**, and select **Online Shopper Intention**.
 

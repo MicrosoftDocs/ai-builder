@@ -44,7 +44,7 @@ To control AI Builder preview feature availability:
 
 - If you enable **AI Builder preview models** again:
   - AI Builder components are available again.
-  - Components function as they did before the feature was disabled (assuming nothing else has<!--SELF? --> changed).
+  - Components function as they did before the feature was disabled (assuming nothing else has changed).
 
 For more information about enabling or disabling features in the Power Platform admin center, see [Manage feature settings](https://docs.microsoft.com/power-platform/admin/settings-features).
 

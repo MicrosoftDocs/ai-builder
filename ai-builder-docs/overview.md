@@ -44,7 +44,7 @@ Using AI is easy thanks to integration with Power Apps and Power Automate<!--not
 [Learn about AI model types](model-types.md)
 
 ### See also
-<!--note from editor: The majority of Power Platform topics seem to use "See also," so I've used that here. The advantage is that sometimes the links don't go to content but to community forums, so "See also" covers everything.-->
+<!--note from editor: The majority of Power Platform topics seem to use "See also," so I've used that here rather than "Related content" or "Related topics." The advantage is that sometimes the links don't go to content but to community forums, so "See also" covers everything.-->
 [AI Builder release plan](/power-platform-release-plan/2019wave2/ai-builder/planned-features)  
 [Power Apps docs](https://docs.microsoft.com/powerapps/)  
 [Power Automate docs](https://docs.microsoft.com/flow/getting-started)

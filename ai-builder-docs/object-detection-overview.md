@@ -1,8 +1,7 @@
 ---
-title: Overview of object detection model - AI Builder | Microsoft Docs
+title: Overview of the object detection model - AI Builder | Microsoft Docs
 description: Provides an overview of how you can use object detection models in AI Builder to add intelligence to your apps
 author: amina196
-
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
@@ -13,9 +12,9 @@ ms.reviewer: v-dehaas
 
 # Overview of the object detection model
 
-Object detection can help expedite or automate business processes. In retail, it could help streamline inventory management, allowing retail leaders to focus on on-site customer relationships. In manufacturing, technicians could use it to speed the repair process to quickly access the manual for a piece of machinery for which the UPC/serial number isn't obvious.
+Object detection can help expedite or automate business processes. In retail, it can help streamline inventory management, allowing retail leaders to focus on onsite customer relationships. In manufacturing, technicians can use it to speed the repair process by quickly accessing the manual for a piece of machinery for which the UPC/serial number isn't obvious.
 
-AI Builder object detection allows organizations of any size to add these capabilities for their own custom objects to their apps.
+Organizations of any size can use AI Builder object detection to add these capabilities for their own custom objects to their apps.
 
 ### Next step
 
@@ -24,4 +23,4 @@ AI Builder object detection allows organizations of any size to add these capabi
 ### See also
 
 [Feature availability by region](availability-region.md)  
-[Use object detection model in Power Automate](object-detection-model-in-flow.md)
+[Use an object detection model in Power Automate](object-detection-model-in-flow.md)

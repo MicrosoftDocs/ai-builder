@@ -10,41 +10,40 @@ ms.author: mfotedar
 ms.reviewer: v-dehaas
 ---
 
-# Entity extraction model
-
+# Entity extraction prebuilt model (preview)
+<!--Edit to the title okay? To match its sister topic about category classification.-->
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-The prebuilt entity extraction prebuilt model recognizes specific data from text that is of interest to your business. The model identifies key elements from text, and then classifies them into pre-defined categories. This can help to transform unstructured data into structured data that is machine readable. You can then apply processing to retrieve information, extract facts, and answer questions.
+The prebuilt entity extraction model recognizes specific data from text that's of interest to your business. The model identifies key elements from text, and then classifies them into predefined categories. This can help to transform unstructured data into structured data that's machine-readable. You can then apply processing to retrieve information, extract facts, and answer questions.
 
-The prebuilt model is ready to use out of the box. If you want to customize your entity extraction to suit your specific needs, go to [Custom entity extraction AI model](entity-extraction-overview.md)
+The prebuilt model is ready to use out of the box. For information about customizing your entity extraction to suit your specific needs, see [Overview of the entity extraction custom model](entity-extraction-overview.md).
 
 ## Use in Power Apps
 
 ### Explore entity extraction
 
-You can try out the entity extraction model before you decide to import it into your flow by using the 'try it out' feature.
+You can try out the entity extraction model before you import it into your flow by using the "try it out" feature.
 
 1. Sign in to [Power Apps](https://make.powerapps.com).
-1. In the left navigation pane, select **AI Builder** > **Build**.
+1. In the left pane, select **AI Builder** > **Build**.
 1. Under **Get straight to productivity**, select **Entity Extraction**.
 1. In the **Entity Extraction** window, select **Try it out**. 
 1. Select predefined text samples to analyze, or add your own text in the **Add your own here** box to see how the model analyzes your text.
 
 ### Use the formula bar
 
-You can integrate your AI Builder entity extraction models in Power Apps maker studio by using the formula bar. More information: [Use formulas for text AI models (Preview)](use-model.md#use-formulas-for-text-ai-models-preview)
+You can integrate your AI Builder entity extraction model in Power Apps Studio by using the formula bar. More information: [Use formulas for text AI models](use-model.md#use-formulas-for-text-ai-models)
 
 ## Use in Power Automate
 
-If you want to use this prebuilt model in Power Automate, you can find more information in [Use an entity extraction model in Power Automate](prebuilt-entity-extraction-pwr-automate.md).
+If you want to use this prebuilt model in Power Automate, you can find more information in [Use the entity extraction prebuilt model in Power Automate](prebuilt-entity-extraction-pwr-automate.md).
  
 ## Supported data format and languages
 
 - Documents can't exceed 5,000 characters.
 - Supported languages:
-
   - English
-  - Chinese- Simplified
+  - Chinese-Simplified
   - French
   - German
   - Portuguese
@@ -62,7 +61,7 @@ If you want to use this prebuilt model in Power Automate, you can find more info
 |Continent|Continent names, extracted as a string|
 |Country or region|Country and region names, extracted as a string|
 |Date and time|Dates, times, days of the week, and months relative to a point in time, extracted as a string|
-|Duration|Lengths of time, extracted as a string, in standard TimeSpan format|
+|Duration|Lengths of time, extracted as a string in standard TimeSpan format|
 |Email|Email addresses, extracted as a string|
 |Event|Event names, extracted as a string|
 |Language|Language names, extracted as a string|
@@ -70,17 +69,16 @@ If you want to use this prebuilt model in Power Automate, you can find more info
 |Number|Cardinal numbers in numeric or text form, extracted as a number|
 |Ordinal|Ordinal numbers in numeric or text form, extracted as a number|
 |Organization|Names of organizations, associations, and corporations, extracted as a string|
-|Percentage|Percentages in numerical or text form, extracted as a number|
+|Percentage|Percentages in numeric or text form, extracted as a number|
 |Person name|A person's partial or full name, extracted as a string|
 |Phone number|Phone numbers in the standard US format, extracted as strings|
 |Speed|Speed, extracted as a number|
-|State|Names and abbreviations for the United States, extracted as a string|
-|Street address|Numbered addresses, streets or roads, city, state, ZIP (postal)<!--Suggested, since it seems that this necessarily will be a ZIP code, not any other country's postal code.--> code in the standard US format, extracted as a string|
+|State|Names and abbreviations for states in the United States, extracted as a string|
+|Street address|Numbered addresses, streets or roads, city, state, ZIP or postal code in the standard US format, extracted as a string|
 |Temperature|Temperature, extracted as a number|
 |URL|Website URLs and links, extracted as a string|
 |Weight|Weight, extracted as a number|
 |Zip code|ZIP codes in the standard US format, extracted as a string|
-
 
 ## Model output
 

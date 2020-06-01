@@ -45,7 +45,7 @@ If you make any changes to the AI Builder **Schedule** > **Retrain** settings, t
 
 ## Real-time prediction
 
-In addition to scheduled prediction inferences, AI Builder supports real-time prediction. Although scheduled prediction on a daily cadence might work for some scenarios, there are times when prediction needs to run in real time. Let's say that your retail company wants to know whether an order will be delivered on time. If the order creation and fulfillment processes occur in a short timeframe, you need the delivery prediction during the fulfillment process. Then, you can decide whether to use a faster shipment type. Real-time prediction provides you the information at the time you need it.
+In addition to scheduled prediction inferences, AI Builder supports real-time prediction. Although scheduled prediction on a daily cadence might work for some scenarios, there are times when prediction needs to run in real time. Let's say that your retail company wants to know whether an order will be delivered on time. If the order creation and fulfillment processes occur in a short timeframe, you need the delivery prediction during the fulfillment process. Then you can decide whether to use a faster shipment type. Real-time prediction provides you the information at the time you need it.
 
 AI Builder prediction models created after April 2, 2020, are enabled for real-time prediction. A real-time prediction for a model is a synchronous call to AI Builder. AI Builder supports real-time prediction by value and real-time prediction by reference. The predict operation accepts a single input observation in the request payload and returns the prediction synchronously in the response.
 

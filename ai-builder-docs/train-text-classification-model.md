@@ -16,7 +16,7 @@ Before you can use your category classification model, you have to train it to p
 
 ## Train
 
-You're now ready to run your training. Review your configuration and then select the **Train my AI** button to begin training your category classification model. When it's ready, you'll be notified.
+You're now ready to run your training. Review your configuration, and then select **Train my AI** to begin training your category classification model. When it's ready, you'll be notified.
 
 You can also train a new version of your model. Select **New version** > **From published version**. This creates a new draft of your model that you can configure and train.
 

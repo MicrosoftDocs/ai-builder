@@ -16,16 +16,16 @@ Before you can use your prediction model, you have to train it to perform the wa
 
 ## Train
 
-After you've selected your data fields, select **Next** to view a summary of training information. Then, select **Train** to train your model.
+After you've selected your data fields, select **Next** to view a summary of training information. Then<!--no comma via WSG.--> select **Train** to train your model.
 
 > [!NOTE]
 > Training takes time, so you can stay on the page and wait, or you can close the page and come back later.
 
 ## Publish
 
-After the model is trained, you can [evaluate](manage-model.md#evaluate-your-model) your model performance results. Then, [publish](publish-model.md) your model to start running predictions. After that, predictions run daily.
+After the model is trained, you can [evaluate](manage-model.md#evaluate-your-model) the quality of its results<!--or "quality of its performance." "Model performance results" is a bit impenetrable.-->. Then [publish](publish-model.md) your model to start running predictions. After that, predictions run daily.
 
 ### See also
 
-[Train your model](train-model.md)  
-[Publish your model](publish-model.md)
+[Train your model in AI Builder](train-model.md)  
+[Publish your model in AI Builder](publish-model.md)

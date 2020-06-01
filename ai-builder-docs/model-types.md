@@ -24,27 +24,26 @@ You can use AI model types to tailor<!--Suggested.--> a scenario to the needs of
 
 ### Custom AI models
 
-Custom AI models are models that you build by choosing a model type in AI Builder, and then training the model to do a specific AI task by using your data. You select the model type, provide the data, build and train your own unique AI model, and then use or share the model. Build your own custom AI model by using the following AI model types.<!--No colon to introduce a table, via Writing Style Guide. --><!--SELF: topics are worded differently, but consistent among the prebuilt/not-prebuilt categories. Is that good? -->
+Custom AI models are models that you build by choosing a model type in AI Builder, and then training the model to do a specific AI task by using your data. You select the model type, provide the data, build and train your own unique AI model, and then use or share the model. Build your own custom AI model by using the following AI model types.<!--No colon to introduce a table, via Writing Style Guide. --><!--SELF: topics are worded differently, but consistent among the prebuilt/not-prebuilt categories. Is that okay? -->
 <!--Rearranged the table to match the order in which the models are discussed in the docset.-->
 | AI model type  | Category<!--SELF: What does "category" signify elsewhere in this docset? I can't see a pattern. -->  | Start here |
 |---|---|---|
 | Prediction   | Prediction  | [Overview of the prediction model](prediction-overview.md) |
-| Category classification  |Language   | [Overview of the category classification model](text-classification-overview.md) |
-| Entity extraction  |Language   | [Overview of the entity extraction model](entity-extraction-overview.md) |
+| Category classification  |Language   | [Overview of the category classification custom model](text-classification-overview.md) |
+| Entity extraction  |Language   | [Overview of the entity extraction custom model](entity-extraction-overview.md) |
 | Object detection  | Vision   | [Overview of the object detection model](object-detection-overview.md) |
 | Form processing  | Vision   | [Overview of the form-processing model](form-processing-model-overview.md) |
-
-
 
 ### Prebuilt AI models
 
 AI Builder includes<!--Suggested--> prebuilt AI models that you can use in Power Apps and Power Automate. With a prebuilt model, you get an AI model that Microsoft has built and trained to do a specific task. You don't need to build or train the model yourself to use it. The following prebuilt AI models are available.
-
+<!--Should the following table include "Overview of prebuilt entity extraction"? -->
+<!--SELF: I didn't change the order in this table for fear of interfering the with the "Category" entries, but I don't know what they mean! -->
 | AI model type | Category |Start here |
 |--------|--------|--------|
 |Business card reader |Vision | [Overview of the business card reader](prebuilt-business-card.md)
 |Text recognition |Vision | [Overview of text recognition](prebuilt-text-recognition.md)
-|Category classification |Language | [Overview of category classification](prebuilt-category-classification.md)
+|Category classification |Language | [Overview of prebuilt category classification](prebuilt-category-classification.md)
 |Key phrase extraction |Language | [Overview of key phrase extraction](prebuilt-key-phrase.md)
 |Language detection |Language | [Overview of language detection](prebuilt-language-detection.md)
 |Sentiment analysis |Language | [Overview of sentiment analysis](prebuilt-sentiment-analysis.md)
@@ -53,6 +52,6 @@ AI Builder includes<!--Suggested--> prebuilt AI models that you can use in Power
 
 [Build a model](build-model.md)
 
-### Related topic
+### See also
 
 [Feature availability by region](availability-region.md)

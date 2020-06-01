@@ -21,7 +21,7 @@ You can distribute an AI model as a solution component. After you create a model
 
 ## Recommended process
 
-It's a good idea to develop AI models in a sandbox or development environment first. Then, deploy them to a production environment by using managed solutions. If you need to copy your production environment into a sandbox environment, you can follow [these instructions](/power-platform/admin/copy-environment).
+It's a good idea to develop AI models in a sandbox or development environment first. Then deploy them to a production environment by using managed solutions. If you need to copy your production environment into a sandbox environment, you can follow [these instructions](/power-platform/admin/copy-environment).
 
 Using this process, you can use the model immediately after you import it. No additional action is required to use it in Power Apps or Power Automate, but it's a good idea to perform a quick test in AI Builder first.
 

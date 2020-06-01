@@ -31,7 +31,7 @@ The zip file that contains the hands-on labs includes the following folders and 
 - AIBuilderLabSolution_1_0_0_0.zip
 - ProcessFeedback_Flow.zip
 
-<!--note from editor: Can you suggest edits to the Readme file that accompanies this zip file? We don't want to use language codes in URLs, and we don't abbreviate "CDS." The edit below assumes that Steps 1 and 2 under "Manual data setup" apply only to the three scenarios mentioned and not the others. But, how could that be? Don't you have to install the solution in a CDS environment no matter what??
+<!--note from editor: Can you suggest edits to the Readme file that accompanies this zip file? We don't want to use language codes in URLs, and we don't abbreviate "CDS." Also, it uses "text classification" instead of "category classification." The edit below assumes that Steps 1 and 2 under "Manual data setup" apply only to the three scenarios mentioned and not the others. But, how could that be? Don't you have to install the solution in a CDS environment no matter what??
 ***BEGIN EDIT***
 
 AI Builder labs walk you through object detection, binary classification, text classification, form processing, and business card scenarios. Please visit [https://docs.microsoft.com/ai-builder/overview] to learn more about the scenarios and AI Builder.

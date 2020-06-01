@@ -38,4 +38,4 @@ Do you want to explore AI Builder by using sample data provided by Microsoft? En
 
 ### Next step
 
-[Train a model in AI Builder](train-model.md)
+[Train your model in AI Builder](train-model.md)

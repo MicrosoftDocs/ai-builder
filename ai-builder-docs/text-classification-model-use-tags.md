@@ -11,7 +11,7 @@ ms.reviewer: v-dehaas
 ---
 
 # Use a model to generate tags
-<!--SELF: Add "(Preview)" to title? -->
+<!--SELF: Add "(preview)" to title? Should it be "Use a category classification model to generate tags (preview)"-->
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
 ## Use in Power Automate
@@ -28,7 +28,7 @@ Your model runs whenever a new record is added to that entity.
 
 ## Use in Power Apps
 
-You can integrate your AI Builder category classification models in Power Apps maker studio by using the formula bar. More information: [Use formulas for text AI models (Preview)](use-model.md#use-formulas-for-text-ai-models-preview)
+You can integrate your AI Builder category classification models in Power Apps Studio by using the formula bar. More information: [Use formulas for text AI models](use-model.md#use-formulas-for-text-ai-models)
 
 ## What if the model isn't writing new tag suggestions?
 

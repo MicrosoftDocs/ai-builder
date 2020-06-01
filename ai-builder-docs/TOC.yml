@@ -178,7 +178,7 @@
     href: form-processor-component-in-powerapps.md
   - name: Use the object detector component in Power Apps
     href: object-detector-component-in-powerapps.md
-  - name: Add text-based AI models in Power Apps using formulas (Preview)
+  - name: Add text-based AI models in Power Apps using formulas (preview)
     href: formula-bar.md
   - name: Use the business card reader component in Power Apps
     items:

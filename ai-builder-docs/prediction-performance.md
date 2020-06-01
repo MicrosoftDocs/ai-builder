@@ -140,7 +140,7 @@ After you've trained and evaluated your model, it's time to tweak your model to 
 ### Review errors and issues
 
 - If there are any errors after you finish training, fix them and retrain the model.
-- If there are no errors, check the training details. Try to address as many issues as possible, and then retrain the model.
+- If there are no errors<!--note from editor: Would it be good to give a cross-reference here to prediction-training-report.md? It seems it might be useful.-->, check the training details. Try to address as many issues as possible, and then retrain the model.
 
 ### Review top influencers
 

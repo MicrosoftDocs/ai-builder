@@ -51,6 +51,6 @@ The following example shows the creation of a flow that's been triggered by an i
 
 To learn more about all the triggers and actions you can use, see the [Power Automate documentation](/flow/getting-started).
 
-### Related topic
+### See also
 
 [Overview of the object detection model](object-detection-overview.md)

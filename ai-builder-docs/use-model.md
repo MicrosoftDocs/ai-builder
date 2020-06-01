@@ -21,7 +21,7 @@ After you publish your model, a **Use model** button appears in the **Performanc
 Create a schedule to generate predictions regularly in Common Data Service. To view the scheduling options available for your model type, see [Set a run schedule for your category classification model](text-classification-model-use-tags.md#set-run-schedule-on-common-data-service).
 
 > [!NOTE]
-> At this time, you can't use the schedule feature to run a category classification model.<!--Do you mean to mention some other kind of model here? If this is true, then this section really shouldn't be here, and text-classification-model-use-tags.md needs to be modified also.-->
+> At this time, you can't use the schedule feature to run a category classification model.<!--Do you mean to mention some other kind of model here? If this is true, then this section really shouldn't be here, and text-classification-model-use-tags.md also needs to be modified.-->
 
 ## Run now
 
@@ -30,16 +30,19 @@ Generate new predictions right away and save them to Common Data Service. To lea
 ## Create a new app
 
 Insert an AI Builder component into a canvas app. More information: [AI Builder in Power Apps overview](use-in-powerapps-overview.md)
+<!--note from editor: I think it would be good to add an anchor here so that the cross-references to this section don't have to include the word "preview." That way, the links won't have to be updated when this feature goes into GA. What do you think?-->
+<a name="use-formulas-for-text-ai-models"></a>
 
-## Use formulas for text AI models (Preview)
-<!--SELF: What is "text AI models"? In the main overview, the category was called "Language". I assume should be the same here? -->
+## Use formulas for text AI models (preview)
+
 You can integrate some AI Builder models in [Power Apps Studio](https://create.powerapps.com) by using the formula bar. Currently, this functionality is available only for the following AI Builder model types:
 
 * Sentiment analysis
 * Entity extraction
 * Key phrase extraction
 * Language detection
-* Category classification<!--Edit okay? This didn't have a bullet.-->
+
+Category classification<!--Is this meant to be part of the list and is just missing a bullet, or is there something that needs to be said about this model type?-->
 
 For information about when this functionality might become available with other model types, see [What's new and planned for AI Builder](/power-platform-release-plan/2019wave2/ai-builder/planned-features).
 

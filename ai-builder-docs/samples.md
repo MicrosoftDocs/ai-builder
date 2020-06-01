@@ -16,7 +16,7 @@ Don't have any data of your own to create a model? No problem! We've got you cov
 
 <!--Via Writing Style Guide, you need to have at least two H2s, or don't have any.-->
 
-Sample data is available for each AI Builder model type, together with instructions for working with it. Select one of these options to get started:
+Sample data is available for each<!--Should this be "for most AI Builder model types"? Since entity extraction doesn't seem to have any.--> AI Builder model type, together with instructions for working with it. Select one of these options to get started:
 
 - [Use sample data for prediction](prediction-sample-data.md)
 - [Use sample data for category classification](text-classification-sample-data.md)

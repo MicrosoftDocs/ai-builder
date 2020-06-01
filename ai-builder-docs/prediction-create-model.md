@@ -20,13 +20,13 @@ This example creates a Power Apps prediction AI model that uses the *online shop
 
 ## Select your historical outcome
 
-Think of the prediction you want AI Builder to make. For example, for the question "Will my customer churn?", think about questions like these:
+Think of the prediction you want AI Builder to make. For example, for the question "Will my customer churn?"<!--SELF!! Should this be "What percentage of my customers will churn," "How much customer churn will we experience", something? -->, think about questions like these:
 
 - Where is the entity that contains information about customer churn?
 - Is there a field there that specifically states whether the customer has churned?
 - Are there unknowns in a field that might cause uncertainty?
 
-Use this information to make your selections. Working with provided sample data, the question is "did this user who interacted with my online store make a purchase?". If they did, then there should be revenue for that customer. Therefore, whether there's revenue for this customer should be my historical outcome. Wherever this information is empty is where AI Builder can help you make a prediction.
+Use this information to make your selections. Working with provided sample data, the question is "did this user who interacted with my online store make a purchase?" If they did, then there should be revenue for that customer. Therefore, whether there's revenue for this customer should be my historical outcome. Wherever this information is empty is where AI Builder can help you make a prediction.
 
 1. In the **Entity** drop-down menu, select the entity that contains the data and the outcome you want to predict. For the sample data, select **Online shopper intention**.
 
