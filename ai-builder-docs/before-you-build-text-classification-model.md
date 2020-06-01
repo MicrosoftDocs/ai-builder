@@ -26,7 +26,7 @@ If you don't have training data and want to try AI Builder category classificati
 ## Data format
 
 - Text and tags should be stored in text fields under the same entity.
-- Tags should be separated by using a delimiter. The following delimiters are supported<!--WSG says about "we": "In general, don't use." ("We recommend" is an exception to this.) -->: comma ( , ), semicolon ( ; ), tab character, or no separator.
+- Tags should be separated by using a delimiter. The following delimiters are supported<!--Writing Style Guide says about "we": "In general, don't use." ("We recommend" is an exception to this.) -->: comma ( , ), semicolon ( ; ), tab character, or no separator.
 - Tags that contain fewer than 10 text items are ignored.
 - Text must be fewer than 5,000 characters.
 
@@ -41,7 +41,7 @@ If data is represented in a table, it looks like the following.
 
 Common Data Service includes a powerful set of connectors to help you import data from many sources. More information: [Add data to an entity in Common Data Service by using Power Query](/powerapps/maker/common-data-service/data-platform-cds-newentity-pq)
 
-As an example, here's how to import training data from an Excel workbook<!--Via WSG-->. This example uses a file that's described in the following table.
+As an example, here's how to import training data from an Excel workbook<!--Via Writing Style Guide-->. This example uses a file that's described in the following table.
 
 |   |   |   |
 |---|---|---|

@@ -19,10 +19,10 @@ In this section, you'll learn how to verify your data and then how to train, tes
 
 ## Quick-test your model
 
-After your model is trained, you can see it in action from its details page. More information: [Manage a model in AI Builder](manage-model.md)
+After your model is trained, you can see it in action from its details page. More information: [Manage your model in AI Builder](manage-model.md)
 
 1. From your model details page, select **Quick Test** in the **Last trained version** section.
-2. Upload<!--Edit okay, since it covers both methods? WSG doesn't want us to use "drag and drop." --> an image that contains your objects to test your model.
+2. Upload<!--Edit okay, since it covers both methods? Writing Style Guide doesn't want us to use "drag and drop." --> an image that contains your objects to test your model.
 3. Your model will be applied to the image you uploaded. This step might take a while.
 4. After your model has finished running, the rectangles found will be drawn directly on the picture.
 

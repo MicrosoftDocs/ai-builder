@@ -12,7 +12,7 @@ ms.reviewer: v-dehaas
 
 # Create a prediction model
 
-This example creates a Power Apps prediction AI model that uses the *online shopper intention* Common Data Service entity. To get this sample data into your Common Data Service environment, enable the **Deploy sample apps and data** setting when you create an environment as described in the [Build a model in AI Builder](build-model.md). Or, follow the more detailed instructions in the [Data preparation](prediction-data-prep.md). After your sample data is in Common Data Service, follow these steps to create your model.
+This example creates a Power Apps prediction AI model that uses the Online Shopper Intention entity in Common Data Service. To get this sample data into your Common Data Service environment, enable the **Deploy sample apps and data** setting when you create an environment as described in [Build a model in AI Builder](build-model.md). Or, follow the more detailed instructions in [Data preparation](prediction-data-prep.md). After your sample data is in Common Data Service, follow these steps to create your model.
 
 1. Sign in to [Power Apps](https://make.powerapps.com), and then select **AI Builder** > **Build**.
 
@@ -20,19 +20,19 @@ This example creates a Power Apps prediction AI model that uses the *online shop
 
 ## Select your historical outcome
 
-Think of the prediction you want AI Builder to make. For example, for the question "Will my customer churn?"<!--SELF!! Should this be "What percentage of my customers will churn," "How much customer churn will we experience", something? -->, think about questions like these:
+Think of the prediction you want AI Builder to make. For example, for the question "How much customer churn should I expect?"<!--Suggested. It doesn't really work to talk about an individual customer "churning." I think churn can be thought of as a "mass verb," like money is a mass noun.-->, think about questions like these:
 
 - Where is the entity that contains information about customer churn?
-- Is there a field there that specifically states whether the customer has churned?
+- Is there a field there that specifically states whether customer churn has occurred?
 - Are there unknowns in a field that might cause uncertainty?
 
-Use this information to make your selections. Working with provided sample data, the question is "did this user who interacted with my online store make a purchase?" If they did, then there should be revenue for that customer. Therefore, whether there's revenue for this customer should be my historical outcome. Wherever this information is empty is where AI Builder can help you make a prediction.
+Use this information to make your selections. Working with provided sample data, the question is "did this user who interacted with my online store make a purchase?" If they did, there should be revenue for that customer. Therefore, whether there's revenue for this customer should be the historical outcome. Wherever this information is empty is where AI Builder can help you make a prediction.
 
 1. In the **Entity** drop-down menu, select the entity that contains the data and the outcome you want to predict. For the sample data, select **Online shopper intention**.
 
 1. In the **Field** drop-down menu, select the field that contains the outcome. For the sample data, select **Revenue (Label)**. Or, if you want to try out predicting a number, select **ExitRates**.
 
-1. If you selected an option set that contains two or more outcomes, consider mapping it to "Yes" or "No" because you want to predict whether or not<!--Just FYI, the Style Guide says just to use "whether" instead of "whether or not," but in this case "whether or not" maps better to those two outcomes you're describing. --> something will happen.
+1. If you selected an option set that contains two or more outcomes, consider mapping it to "Yes" or "No" because you want to predict whether or not<!--Just FYI, the Style Guide says just to use "whether" instead of "whether or not," but in this case "whether or not" maps better to those two outcomes you're describing.--> something will happen.
 
 1. If you want to predict multiple outcomes, use the Brazilian e-commerce dataset in the sample, and select **BC Order** in the **Entity** drop-down menu and **Delivery Timelines** in the **Field** drop-down menu. 
 
@@ -52,20 +52,20 @@ After you select the **Entity** and **Field** and map your outcome, you can make
 
 ### Data field selection considerations
 
-The most important thing to consider here is whether a column that is not your historical outcome field is indirectly determined by the outcome.
+The most important thing to consider here is whether a column that isn't your historical outcome field is indirectly determined by the outcome.
 
-Let's say you want to predict whether a shipment is going to be delayed. You might have the actual delivered date in your data. That date is only present after the order is delivered. So, if you include this field, the model will have close to 100&nbsp;percent accuracy. The orders that you want to predict won't be delivered yet, and won't have the delivered date field populated. So, you should deselect fields like this before training. In machine learning, this is called _target leakage_ or _data leakage_. AI Builder tries to filter fields that are "too good to be true," but you should still check them.
+Let's say you want to predict whether a shipment is going to be delayed. You might have the actual delivered date in your data. That date is only present after the order is delivered. So, if you include this field, the model will have close to 100&nbsp;percent accuracy. The orders that you want to predict won't have been delivered yet, and won't have the delivered date field populated. So, you should deselect fields like this before training. In machine learning, this is called _target leakage_ or _data leakage_. AI Builder tries to filter fields that are "too good to be true," but you should still check them.
 
 > [!NOTE]
 > When you're selecting data fields, some data types&mdash;like Image, which can't be used as input to train the model&mdash;aren't shown. In addition, system fields like Created On are excluded by default.
 
 ### Use data from related entities
 
-If you have related entities that might improve the performance of the prediction, you can include those as well. Like predicting whether a customer will churn, you should include additional information that might be in a separate entity. AI Builder supports many-to-one relationships at this time.
+If you have related entities that might improve the performance of the prediction, you can include those as well. As you did when you wanted to predict your level of customer churn<!--Suggested.-->, you should include additional information that might be in a separate entity. AI Builder supports many-to-one relationships at this time.
 
 ## Filter your data
 
-After you select data fields for training, you can filter to your data. Your entities will contain all records. However, you might want to concentrate on training and predicting on a subset of records. If you know that there's irrelevant data within the same entity you're using to train a model, you can use this step to filter it.
+After you select data fields for training, you can filter on your data. Your entities will contain all records. However, you might want to concentrate on training and predicting on a subset of records. If you know that there's irrelevant data within the same entity you're using to train a model, you can use this step to filter it.
 
 For example, if you apply a filter to look at only the US region, the model will train on records where the outcome is known only for the US region. When this model is trained, it will only make a prediction for records where the outcome is not known for only the US region.
 

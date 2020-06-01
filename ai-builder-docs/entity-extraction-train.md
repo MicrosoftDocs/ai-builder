@@ -32,7 +32,7 @@ The quick test should only take a few seconds before displaying the results.
 
 ## Publish your model
 
-If you're happy with your model, you can select **Publish** to publish it. When publishing is completed, your model is promoted as published and is ready to be used. More information: [Publish your model](publish-model.md)
+If you're happy with your model, you can select **Publish** to publish it. When publishing is completed, your model is promoted as published and is ready to be used. More information: [Publish your model in AI Builder](publish-model.md)
 
 After you've published your model, you can use it in a Power Apps canvas app or in Power Automate.
 

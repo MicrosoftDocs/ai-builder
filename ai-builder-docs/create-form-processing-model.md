@@ -84,7 +84,7 @@ If a field that you want your model to return has been automatically detected, b
 
 ### Hiding fields
 
-If you're finding it difficult to select fields because of automated detected field suggestions that are incorrect, or fields that are too close to each other, you can click in<!--Via WSG. If this doesn't work, it can be simply "click" (just not "click on"). --> a selected or suggested field and hide it. To show all the hidden fields, select the **Show hidden fields** option that appears at the top as you hide fields. 
+If you're finding it difficult to select fields because of automated detected field suggestions that are incorrect, or fields that are too close to each other, you can click in<!--Via Writing Style Guide. If this doesn't work, it can be simply "click" (just not "click on"). --> a selected or suggested field and hide it. To show all the hidden fields, select the **Show hidden fields** option that appears at the top as you hide fields. 
 
    > [!div class="mx-imgBorder"]
    > ![Hide fields](media/form-processing-hide-fields.gif "Hide fields")

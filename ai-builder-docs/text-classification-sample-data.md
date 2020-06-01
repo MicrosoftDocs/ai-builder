@@ -13,7 +13,7 @@ ms.reviewer: v-dehaas
 # Use sample data to do category classification
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
-<!--note from editor: Edits to "would" and "could" are via WSG. -->
+<!--note from editor: Edits to "would" and "could" are via Writing Style Guide. -->
 Get started exploring AI Builder category classification by using sample data to build and train a category classification model. The sample data uses customer feedback for a hospital. The goal is to train a model that can predict the category of newly received feedback. This model can help the hospital administrator free up time from categorizing patient feedback, leaving more time to act on it and provide a better experience to patients.
 
 > [!NOTE]

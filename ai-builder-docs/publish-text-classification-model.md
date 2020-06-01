@@ -33,4 +33,4 @@ Tags will be stored in a field called **new_Tags** under this entity.
 
 ### Next step
 
-[View generated predictions](text-classification-view-predictions.md)
+[View predictions](text-classification-view-predictions.md)

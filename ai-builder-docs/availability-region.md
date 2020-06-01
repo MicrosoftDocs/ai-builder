@@ -12,7 +12,7 @@ ms.reviewer: v-dehaas
 
 # Feature availability by region
 
-AI Builder was initially released in Europe and the United States. Other regions continue to be added; however, the availability and release status of AI Builder<!--Via WSG: "Don't use the possessive form of Microsoft trademarks and product, service, or feature names."--> features varies by location.
+AI Builder was initially released in Europe and the United States. Other regions continue to be added; however, the availability and release status of AI Builder<!--Via Writing Style Guide: "Don't use the possessive form of Microsoft trademarks and product, service, or feature names."--> features varies by location.
 
 ## Which region does my AI Builder subscription belong to?
 
@@ -25,7 +25,7 @@ The following table shows which AI Builder features are available in each region
 > [!NOTE]
 > For a view of what's planned for AI Builder, including new features, release status, and regional availability, check out the [AI Builder release plans](https://go.microsoft.com/fwlink/?linkid=2102828).
 
-<!--SELF: What about the order here? -->
+<!--In this table it might be nice to echo the order that the TOC follows, or maybe some other order? Alphabetical?-->
 |Feature |Asia |Australia |Canada |Europe |Japan |South America |United Kingdom  |United States |
 |:-------|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
 |Form processing |GA |GA |GA |GA |GA |GA |GA |GA |

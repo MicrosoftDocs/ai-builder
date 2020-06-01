@@ -15,7 +15,7 @@ ms.reviewer: v-dehaas
 AI Builder is improving its object detection model with<!--"With" is okay to use when you're talking about a product. Seems better than "by using" here, and less ambiguous than "using."--> a new model version. Your object detection
 preview models created before March 5, 2020, are deprecated. More information: [Form processing and object detection preview models in AI Builder are deprecated](/power-platform/important-changes-coming#form-processing-and-object-detection-preview-models-in-ai-builder-are-deprecated)
 
-Starting March 5, 2020,<!--Edit okay?--> you have to re-create<!--Via WSG--> your existing object detection models if you want to continue to use them. Models created after this date will automatically use the new model version. It's a good idea to transition to the new model version as soon as possible.
+Starting March 5, 2020,<!--Edit okay?--> you have to re-create<!--Via Writing Style Guide--> your existing object detection models if you want to continue to use them. Models created after this date will automatically use the new model version. It's a good idea to transition to the new model version as soon as possible.
 
 ## What do I need to do?
 
@@ -36,4 +36,4 @@ Until March 5, 2020, object detection models stored images as attachments in the
 
 ### See also
 
-[Manage your AI model](manage-model.md)
+[Manage your model in AI Builder](manage-model.md)

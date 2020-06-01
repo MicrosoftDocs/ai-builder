@@ -55,4 +55,4 @@ You can customize your entity extraction model in these ways:
 
 ### Next step
 
-[Train and publish your entity extraction model](entity-extraction-train.md).
+[Train and publish your entity extraction custom model](entity-extraction-train.md).

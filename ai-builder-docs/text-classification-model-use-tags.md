@@ -10,20 +10,20 @@ ms.author: raaourik
 ms.reviewer: v-dehaas
 ---
 
-# Use a model to generate tags
-<!--SELF: Add "(preview)" to title? Should it be "Use a category classification model to generate tags (preview)"-->
+# Use a category classification model to generate tags (preview)
+<!--Title okay? This seems to be about the category classification model, but maybe it applies to the prediction model too?-->
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
 ## Use in Power Automate
 
-If you want to use your trained model in Power Automate, see [Use a category classification model in Power Automate](text-classification-model-in-flow.md).
+If you want to use your trained model in Power Automate, see [Use a category classification custom model in Power Automate](text-classification-model-in-flow.md).
 
 <a name="set-run-schedule-on-common-data-service"></a>
 
 ## Set a run schedule on Common Data Service
 
 Go to the **Run** view in the **Model settings** panel to set the run schedule. To configure your model to run on your database and generate predictions, select **Generate predictions when new data is added**. 
-<!--SELF: This is about prediction models or classification models? And, what entity does the next sentence refer to? -->
+<!--I'm a bit confused. Is this is about prediction models or classification models? And, what entity does the next sentence refer to?-->
 Your model runs whenever a new record is added to that entity.
 
 ## Use in Power Apps

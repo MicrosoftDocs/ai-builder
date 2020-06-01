@@ -20,4 +20,4 @@ AI Builder features two types of entity extraction models: prebuilt and custom. 
 
 ### See also
 
-[Entity extraction prebuilt model](prebuilt-entity-extraction.md).  
+[Entity extraction prebuilt model](prebuilt-entity-extraction.md)

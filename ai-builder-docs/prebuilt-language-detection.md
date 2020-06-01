@@ -12,7 +12,7 @@ ms.reviewer: v-dehaas
 
 # Language detection model
 
-The language detection prebuilt model identifies the predominant language of a text document. The model analyzes the text and returns the detected language and a numeric score from 0 through 1.<!--Edit okay? If 0 and 1 are valid scores (via WSG). --> Scores close to 1 indicate higher confidence in the result. The detected language is returned as the "script" of the language. For instance, for the phrase "I have a dog", it will return "en" instead of "en-US". The response for languages that can't be detected is **unknown**.
+The language detection prebuilt model identifies the predominant language of a text document. The model analyzes the text and returns the detected language and a numeric score from 0 through 1.<!--Edit okay? If 0 and 1 are valid scores (via Writing Style Guide). --> Scores close to 1 indicate higher confidence in the result. The detected language is returned as the "script" of the language. For instance, for the phrase "I have a dog", it will return "en" instead of "en-US". The response for languages that can't be detected is **unknown**.
 
 ## Use in Power Apps
 

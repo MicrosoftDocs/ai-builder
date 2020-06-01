@@ -50,4 +50,4 @@ Cleaning your data can avoid some types of training errors and improve model per
 
 ### See also
 
-[Publish a model in AI Builder](publish-model.md)
+[Publish your model in AI Builder](publish-model.md)

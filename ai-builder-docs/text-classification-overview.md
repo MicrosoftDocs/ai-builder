@@ -16,7 +16,7 @@ ms.reviewer: v-dehaas
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-The volume of text data is increasing exponentially for organizations. Channels such as email, documents, and social media<!--Via WSG: you don't need "others" or "and so on" if you use "such as." --> contribute increasing amounts of text data. This data carries valuable information that—when extracted and acted on—helps you provide better products and services to your customers. Dealing with this ever-growing volume of<!--Suggested.--> data is often time-consuming and error-prone, and can lead<!--Suggested.--> to missed business opportunities and increased costs.
+The volume of text data is increasing exponentially for organizations. Channels such as email, documents, and social media<!--Via Writing Style Guide: you don't need "others" or "and so on" if you use "such as." --> contribute increasing amounts of text data. This data carries valuable information that—when extracted and acted on—helps you provide better products and services to your customers. Dealing with this ever-growing volume of<!--Suggested.--> data is often time-consuming and error-prone, and can lead<!--Suggested.--> to missed business opportunities and increased costs.
 
 Category classification is one of the fundamental natural language processing (NLP) challenges<!--Edit okay?-->. With category classification, you can identify text entries with tags to be used for things like:
 
@@ -34,6 +34,6 @@ Automate and scale your business processes with AI Builder category classificati
 
 ### See also
 
-[Use a category classification model in Power Automate](text-classification-model-in-flow.md)  
-[Use the text recognizer component in Power Apps](prebuilt-text-recognizer-component-in-powerapps.md)  <!--SELF: What call this? -->
+[Use a category classification custom model in Power Automate](text-classification-model-in-flow.md)  
+[Use the text recognizer component in Power Apps](prebuilt-text-recognizer-component-in-powerapps.md)  
 [Feature availability by region](availability-region.md)

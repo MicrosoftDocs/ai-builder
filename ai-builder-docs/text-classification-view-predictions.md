@@ -24,4 +24,4 @@ This section<!--Is this going to be a section someday, or should this simply be 
 
 ### Next step
 
-[Use generated tags](text-classification-model-use-tags.md)
+[Use a category classification model to generate tags](text-classification-model-use-tags.md)
