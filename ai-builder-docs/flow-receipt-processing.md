@@ -22,7 +22,7 @@ ms.reviewer: v-dehaas
 
 1. Select **Manually trigger a flow** in the list of triggers, and then select **Create**.
 
-1. Select **File** and set **My receipt** as the input title.
+1. Select **File** and set *My receipt* as the input title.
 
 1. Select **+ New step**, search for *AI Builder*, and then select **Process and save information from receipts** in the list of actions.
 
