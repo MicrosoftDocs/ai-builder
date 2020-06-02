@@ -30,4 +30,7 @@ ms.reviewer: v-dehaas
 
 1. In the successive actions, you can use any of the receipt values from the [model output](prebuilt-receipt-processing#model-output).
 
+>[!NOTE]
+> Receipt values are returned as strings. To manipulate them as numbers, you can use the [float](/azure/logic-apps/workflow-definition-language-functions-reference#float) or [int](/azure/logic-apps/workflow-definition-language-functions-reference#int) conversion functions.
+
 Congratulations! You've created a flow that uses the AI Builder receipt processing model. Select **Save** on the top right, and then select **Test** to try out your flow.
