@@ -18,22 +18,24 @@ ms.reviewer: v-dehaas
 > [!IMPORTANT]
  > To use AI Builder models in Power Automate, you have to create the flow inside a solution. The steps below won't work if you don't follow these instructions first: [Create a flow in a solution](/flow/create-flow-solution).
 
-1. [Sign in](https://flow.microsoft.com/signin) to Power Automate, select the **My flows** tab, and then select **Create from blank**.
 
-1. Search for the term *manually*, select **Manually trigger a flow** in the list of triggers, and then select **+ Add an input**.
+1. Sign in to [Power Automate](https://flow.microsoft.com/), select the **My flows** tab, and then select **New > +Instant-from blank**.
+1. Name your flow, select **Manually trigger a flow** under **Choose how to trigger this flow**, and then select **Create**.
+1. Expand **Manually trigger a flow**, select **+Add an input**, select **File** as the input type, and set as input title **My Image**.
+1.	Select **+ New step**, search for **AI Builder** in the Search for filters and actions box, and then select **Recognize text in an image** in the list of actions.
+1.	Specify the **My Image** field from the trigger in the **Image** input for your flow:
 
-1. Select **File** and set **My Image** as the input title.
+    > [!div class="mx-imgBorder"]
+    > ![Trigger text recognition flow](media/trigger-text-recognition-2.png "Trigger text recognition flow")
 
-1. Select **+ New step**, search for the term *Predict*, and then select **Predict - Common Data Service (Conversational Environment)** in the list of actions.
-    >[!NOTE]
-    > **Predict Common Data Service (current Environment)** does not appear if you don't follow these instructions first: [Create a flow in a solution](/flow/create-flow-solution)
+1. To process results, select **+New step** and select **Appy to each**. In the field, select **lines** from the AI Builder model. This will automatically create another Apply to each action.
+1. In the successive actions, you can use any fields extracted by the AI Builder model. For example, you can extract **Text** field to a SharePoint list:
 
-1. Select **Text recognition model**,  and specify the *My Image* field from the trigger in the Image input.
-
-    > ![Trigger text recognition flow](media/trigger-text-recognition.png "Trigger text recognition flow")
-
-Now you can use the extracted text lines by the Text Recognition model. In the following example, we save the extracted text to a SharePoint list.
-
-> ![Text recognition flow example](media/text-flow-example2.png "Text recognition flow example")
+    > [!div class="mx-imgBorder"]
+    > ![Text recognition flow example](media/text-flow-example2-2.png "Text recognition flow example")
 
 Congratulations! You've created a flow that uses a text recognition model. You can continue to build on this flow until it suits your needs. Select **Save** on the top right, and then select **Test** to try out your flow. 
+
+### Related topic
+
+[Text recognitionn overview](prebuilt-text-recognition.md)
