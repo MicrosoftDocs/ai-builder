@@ -6,7 +6,7 @@ author: raaourik
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/12/2019
+ms.date: 06/03/2020
 ms.author: raaourik
 ms.reviewer: v-dehaas
 ---
