@@ -48,6 +48,7 @@ AI Builder features prebuilt AI models that you can use in Power Apps and Power 
 |Key phrase extraction |Language | [Overview of key phrase extraction](prebuilt-key-phrase.md)
 |Language detection |Language | [Overview of language detection](prebuilt-language-detection.md)
 |Sentiment analysis |Language | [Overview of sentiment analysis](prebuilt-sentiment-analysis.md)
+|Text translation |Language | [Overview of text translation](prebuilt-text-translation.md)
 
 ### Next step
 
