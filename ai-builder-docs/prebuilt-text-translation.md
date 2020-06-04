@@ -13,7 +13,7 @@ ms.reviewer: v-dehaas
 
 # Text translation model
 
-The text translation prebuilt model translates your text data in real time across more than 60 languages. You could use it to remove the language barrier within your company. The text translation model can also autodetect the language of your text data. 
+The text translation prebuilt model translates your text data in real time across more than 60 languages. You could use it to remove the language barrier within your company. The text translation model can also autodetect the language of the text data you want to translate. 
 
 ## Use in Power Automate
 
