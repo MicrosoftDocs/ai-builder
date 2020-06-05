@@ -44,11 +44,11 @@ If a receipt is detected, the receipt processing model will output the following
 |**MerchantAddress**|Merchant address|
 |**MerchantName**|Merchant name|
 |**MerchantPhone**|Merchant phone|
+|**TransactionDate**|Transaction date|
+|**TransactionTime**|Transaction time|
+|**Items**|The list of purchased items <ul><li>**Name**: Name of the item</li><li>**Price**: Price of the item</li><li>**Quantity**: Quantity of the item</li><li>**TotalPrice**: Total price of the item</li></ul>|
 |**Subtotal**|Subtotal|
 |**Tax**|Tax|
 |**Tip**|Tip|
 |**Total**|Total|
-|**TransactionDate**|Transaction date|
-|**TransactionTime**|Transaction time|
-|**Items**|The list of purchased items <ul><li>**Name**: Name of the item</li><li>**Price**: Price of the item</li><li>**Quantity**: Quantity of the item</li><li>**TotalPrice**: Total price of the item</li></ul>|
-|**Results**|The list of all detected lines of text on the receipt <ul><li>**BoundingBox**: The coordinates of the line of text</li><li>**PageNumber**: Which page the line of text is found on</li><li>**Text**: The line of text</li></ul>|
+|**DetectedText**|The list of all detected lines of text on the receipt <ul><li>**BoundingBox**: The coordinates of the line of text</li><li>**PageNumber**: Which page the line of text is found on</li><li>**Text**: The line of text</li></ul>|
