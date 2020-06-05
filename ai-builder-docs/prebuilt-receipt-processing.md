@@ -51,4 +51,4 @@ If a receipt is detected, the receipt processing model will output the following
 |**Tax**|Tax|
 |**Tip**|Tip|
 |**Total**|Total|
-|**DetectedText**|The list of all detected lines of text on the receipt <ul><li>**BoundingBox**: The coordinates of the line of text</li><li>**PageNumber**: Which page the line of text is found on</li><li>**Text**: The line of text</li></ul>|
+|**DetectedText**|The list of all detected lines of text on the receipt|
