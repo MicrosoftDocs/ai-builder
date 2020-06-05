@@ -35,7 +35,7 @@ In order to get the best results, provide one clear photo or scan per receipt.
 |---------|---------|
 |**MerchantAddress**|Merchant address|
 |**MerchantName**|Merchant name|
-|**MerchantPhone**|Merchant phone|
+|**MerchantPhone**|Merchant phone number|
 |**TransactionDate**|Transaction date|
 |**TransactionTime**|Transaction time|
 |**PurchasedItems**|The list of purchased items <ul><li>**Name**: Name of the purchased item</li><li>**Price**: Price of the purchased item</li><li>**Quantity**: Quantity of the purchased item</li><li>**TotalPrice**: Total price of the purchased item</li></ul>|
