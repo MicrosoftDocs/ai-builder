@@ -36,16 +36,16 @@ In order to get the best results, provide one clear photo or scan per receipt.
 |**MerchantAddress**|Merchant address|
 |**MerchantName**|Merchant name|
 |**MerchantPhone**|Merchant phone|
-|**OriginalImage**|The original image before processing|
+|**TransactionDate**|Transaction date|
+|**TransactionTime**|Transaction time|
+|**LineItems**|The list of purchased items <ul><li>**Name**: Name of the item</li><li>**Price**: Price of the item</li><li>**Quantity**: Quantity of the item</li><li>**TotalPrice**: Total price of the item</li></ul>|
 |**Subtotal**|Subtotal|
 |**Tax**|Tax|
 |**Tip**|Tip|
 |**Total**|Total|
-|**TransactionDate**|Transaction date|
-|**TransactionTime**|Transaction time|
-|**LineItems**|The list of purchased items <ul><li>**Name**: Name of the item</li><li>**Price**: Price of the item</li><li>**Quantity**: Quantity of the item</li><li>**TotalPrice**: Total price of the item</li></ul>|
 |**DetectedFields**|Additional information on the detected fields <ul><li>**BoundingBox**: The coordinates of the field</li><li>**Confidence**: How confident the model is in the detection of the field</li><li>**PageNumber**: Which page the field is found on</li><li>**Value**: The value of the field</li></ul>|
 |**RawResults**|The list of all detected lines of text on the receipt <ul><li>**BoundingBox**: The coordinates of the line of text</li><li>**Confidence**: How confident the model is in the detection of the field</li><li>**PageNumber**: Which page the line of text is found on</li><li>**Text**: The line of text</li></ul>|
+|**OriginalImage**|The original image before processing|
 
 ## Additional properties
 |Property|Definition|
