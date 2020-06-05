@@ -46,7 +46,7 @@ If a receipt is detected, the receipt processing model will output the following
 |**MerchantPhone**|Merchant phone number|
 |**TransactionDate**|Transaction date|
 |**TransactionTime**|Transaction time|
-|**PurchasedItems**|The list of purchased items <ul><li>**Name**: Name of the item</li><li>**Price**: Price of the item</li><li>**Quantity**: Quantity of the item</li><li>**TotalPrice**: Total price of the item</li></ul>|
+|**PurchasedItems**|The list of purchased items <ul><li>**Name**: Name of the purchased item</li><li>**Price**: Price of the purchased item</li><li>**Quantity**: Quantity of the purchased item</li><li>**TotalPrice**: Total price of the purchased item</li></ul>|
 |**Subtotal**|Subtotal|
 |**Tax**|Tax|
 |**Tip**|Tip|
