@@ -13,7 +13,7 @@ ms.reviewer: v-dehaas
 
 # Receipt processing model
 
-Prebuilt receipt processing models extract key information from receipts. It uses state-of-the-art optical character recognition (OCR) to detect printed and handwritten text in images.
+Receipt processing is a prebuilt model that uses state-of-the-art optical character recognition (OCR) to detect printed and handwritten text and extract key information from receipts.
 
 ## Use in Power Apps
 
