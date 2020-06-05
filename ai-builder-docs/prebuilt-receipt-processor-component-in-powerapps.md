@@ -44,7 +44,7 @@ In order to get the best results, provide one clear photo or scan per receipt.
 |**Tip**|Tip|
 |**Total**|Total|
 
-## Key properties
+## Additional properties
 |Property|Definition|
 |---------|---------|
 |**DetectedFields**|Additional information for each of the [Receipt properties](#receipt-properties) <ul><li>**BoundingBox**: The coordinates of the field</li><li>**Confidence**: How confident the model is in the detection of the field</li><li>**PageNumber**: Which page the field is found on</li><li>**Value**: The value of the field</li></ul>|
