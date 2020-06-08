@@ -11,7 +11,7 @@ ms.author: raaourik
 ms.reviewer: v-dehaas
 ---
 
-# Use category classification model in Power Automate
+# Use category classification model in Power Automate (preview)
 
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
