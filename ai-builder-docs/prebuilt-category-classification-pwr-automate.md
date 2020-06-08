@@ -11,7 +11,7 @@ ms.author: tatn
 ms.reviewer: v-dehaas
 ---
 
-# Use prebuilt category classification model in Power Automate
+# Use prebuilt category classification model in Power Automate (preview)
 
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
@@ -33,7 +33,7 @@ ms.reviewer: v-dehaas
     > [!div class="mx-imgBorder"]
     > ![Category classification prebuilt flow example](media/flow-ccp-example.png "Category classification prebuilt flow example")
 
-Congratulations! You've created a flow that uses a prebuilt category classification AI Builder model. Select **Save** on the top right and then select **Test** to try out your flow.
+Congratulations! You've created a flow that uses an AI Builder prebuilt category classification model. Select **Save** on the top right and then select **Test** to try out your flow.
 
 
 ### Related topic
