@@ -33,3 +33,8 @@ ms.reviewer: v-dehaas
     > ![Entity extraction flow example](media/flow-eec-example.png "Entity extraction flow example")
 
 Congratulations! You've created a flow that uses an AI Builder entity extraction model. Select **Save** on the top right, and then select **Test** to try out your flow.
+
+
+### Related topic
+
+[Entity extraction model overview](entity-extraction-overview.md)
