@@ -24,8 +24,15 @@ ms.reviewer: v-dehaas
 1. Select **+ New step**, search for the term **AI Builder**, and then select **Translate text** in text in the list of actions.
 1. Select the target language in the **Translate to** input and specify the **My Text** field from the trigger in the **Text** input. 
 1. Optionionally, select the source language in the **Translate from** input after clicking at "Show More" to specify the language of the text in "My Text" field (if you don't specify this input, the model will automatically detect the source language for you).
+
+    > [!div class="mx-imgBorder"]
+    > ![Trigger text translation flow](media/trigger-text-translation.png "Trigger text translation flow")
+
 1. In the successive actions, you can use any fields extracted by the AI Builder model. For example, you can use get a notification of the translated text sent out to your email using the "Send me a notification email" and the output property "Text" from the text translation model.
 
+    > [!div class="mx-imgBorder"]
+    > ![Text translation flow example](media/text-translation-flow-example.png "Text translation flow example")
+    
 Congratulations! You've created a flow that uses a sentiment analysis model. Select **Save** on the top right and then select **Test** to try out your flow.
 
 
