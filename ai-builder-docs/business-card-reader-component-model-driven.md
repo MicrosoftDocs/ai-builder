@@ -71,8 +71,10 @@ If a business card is detected, the business card reader will try to extract inf
  |**Full Address**| The contact full address|**SingleLine.TextArea, Multiple**|
  |**Address Street**| The street address detected|**SingleLine.Text**|
  |**Address City**| The city address detected|**SingleLine.Text**|
+ |**Address State**| The state address detected|**SingleLine.Text**|
  |**Address PostalCode**| The postal code address detected|**SingleLine.Text**|
  |**Address Country**| The country address detected|**SingleLine.Text**|
+ |**Address Post Office Box**| The post office box address detected|**SingleLine.Text**|
  |**Cleaned Image**| The image after processing where the business card appears cropped and enhanced from the original image.|**Multiple**|
 
 ## Customization properties
