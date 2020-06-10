@@ -33,8 +33,8 @@ In order to get the best results, provide one clear photo or scan per receipt.
 ## Receipt properties
 |Property|Definition|
 |---------|---------|
-|**MerchantAddress**|Merchant address|
 |**MerchantName**|Merchant name|
+|**MerchantAddress**|Merchant address|
 |**MerchantPhone**|Merchant phone number|
 |**TransactionDate**|Transaction date|
 |**TransactionTime**|Transaction time|
