@@ -41,8 +41,8 @@ If a receipt is detected, the receipt processing model will output the following
 
 |Property|Definition|
 |---------|---------|
-|**MerchantAddress**|Merchant address|
 |**MerchantName**|Merchant name|
+|**MerchantAddress**|Merchant address|
 |**MerchantPhone**|Merchant phone number|
 |**TransactionDate**|Transaction date|
 |**TransactionTime**|Transaction time|
