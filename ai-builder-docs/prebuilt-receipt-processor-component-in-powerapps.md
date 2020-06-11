@@ -1,5 +1,5 @@
 ---
-title: Use the receipt processor component in Power Apps -  AI Builder | Microsoft Docs
+title: Use the receipt processor (preview) component in Power Apps -  AI Builder | Microsoft Docs
 description: Provides information about how to use the receipt processor component in Power Apps
 author: jarennert
 
@@ -11,7 +11,7 @@ ms.author: joshrenn
 ms.reviewer: v-dehaas
 ---
 
-# Use the receipt processor component in Power Apps
+# Use the receipt processor component (preview) in Power Apps
 
 The AI Builder receipt processor component scans and extracts information from receipts. You can take photos directly within the component or load images that have already taken. The data is recognized and extracted using the properties below.
 
