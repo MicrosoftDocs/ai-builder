@@ -31,7 +31,7 @@ ms.reviewer: v-dehaas
  >[!NOTE]
  > **Predict Common Data Service (current Environment)** doesn't appear unless you've followed these instructions first: [Create a flow in a solution](/flow/create-flow-solution).
 
-1. Select **SentimentAnalysis model**.<!--Edit okay? -->
+1. Select **SentimentAnalysis model**.
 
 1. Specify the **My Language** field from the trigger in the **Language** input, and the **My Text** field in the **Text** input.
    > ![Manually trigger flow screen](media/flow-sentiment-analysis.png "Manually trigger flow screen")
