@@ -28,10 +28,10 @@ After each training, AI Builder shows a grade to help you  evaluate your model's
 |A|It might still be possible to improve the model, but this is the best grade you can get. |
 |B|The model is correct in a lot of the cases. Could it be improved? That depends on your unique circumstances, data, and requirements. |
 |C|The model is doing slightly better than a random guess. It might be acceptable for some applications, but in most cases, this is a model that you'd continue to tweak and improve.  |
-|D|Something's wrong. Your model is either performing worse than we'd expect a random guess to perform [underfit model](manage-model.md#underfit-models), or it's performing so well (at or near 100%) that you've probably got a data field that is directly correlated  to the result [overfit](manage-model.md#overfit-models) .
+|D|Something's wrong. Your model is either performing worse than we'd expect a random guess to perform ([underfit model](manage-model.md#underfit-models)). Or, it's performing so well (at or near 100%) that you've probably got a data field that is directly correlated  to the result ([overfit model](manage-model.md#overfit-models)) .
 
 * More information about [underfit models](manage-model.md#underfit-models)
-* More information about [overfit models](manage-model.md#overfit-models).
+* More information about [overfit models](manage-model.md#overfit-models)
 
 #### Accuracy range varies depending on your data
 
@@ -67,7 +67,7 @@ D|33.3 - <40.0%|36.0 - <42.4%|66.0 - <69.4%
 
 #### Numerical prediction example
 
-For numerical prediction, AI Builder uses the R-squared (R2) statistical measure to calculate your models accuracy grade. The following table shows the grades that correspond to each grade:
+For numerical prediction, AI Builder uses the R-squared statistical measure to calculate your models accuracy grade. The following table shows the grades that correspond to each grade:
 
 
 |Grade  |R-squared |
@@ -76,8 +76,6 @@ For numerical prediction, AI Builder uses the R-squared (R2) statistical measure
 |B    |   60% - <85%      |
 |C   |  10% - <60%      |
 |D    |   ≥99% or <10%       |
-
-
 
 ## Performance details
 
