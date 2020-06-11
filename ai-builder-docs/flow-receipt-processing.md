@@ -12,7 +12,7 @@ ms.reviewer: v-dehaas
 ---
 
 
-# Use the receipt processing prebuilt model in Power Automate
+# Use the receipt processing (preview) prebuilt model in Power Automate
 
 
 > [!IMPORTANT]
@@ -73,4 +73,4 @@ Congratulations! You've created a flow that uses the AI Builder receipt processi
 
 ### Related topics
 
-[Receipt processing overview](prebuilt-receipt-processing.md)
+[Receipt processing (preview) overview](prebuilt-receipt-processing.md)
