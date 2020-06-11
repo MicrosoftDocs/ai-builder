@@ -51,7 +51,7 @@ As an example, let's look at how to import training data from an Excel workbook.
 |326592    |Easy to view data        |Easy \| Ease of use                                |
 |326593    |I like how you made feature X easy to use. This reduces many complexities when I want to onboard new customers. | Easy \|  Good \| Feature X                             |
 
-Note that data for tags is separated by using a vertical bar or pipe ( \| ).
+Note that tags data is separated by using a vertical bar or pipe ( \| ).
 
 1. Sign in to [Power Apps](https://make.powerapps.com/), and then select the down arrow to expand **Data** in the left pane.
 
