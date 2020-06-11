@@ -1,114 +1,67 @@
 ---
-title: Use the sentiment analysis prebuilt model in Microsoft Flow - AI Builder | Microsoft Docs
+title: Use the sentiment analysis prebuilt model in Power Automate - AI Builder | Microsoft Docs
 description: Provides information about how to use the sentiment analysis prebuilt model in your Flows
 author: alanabrito
-manager: kvivek
+
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/04/2019
+ms.date: 12/30/2019
 ms.author: alanab
 ms.reviewer: v-dehaas
 ---
 
 
-# Use the sentiment analysis prebuilt model in Microsoft Flow
+# Use the sentiment analysis prebuilt model in Power Automate
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-1. [Sign in](https://flow.microsoft.com/signin) to Microsoft Flow, select the **My flows** tab, and then select **Create from blank**.
-1. Search for the term *manually*, select **Manually trigger a flow** in the list of triggers, and then select **+ Add an input**.
-1. Select **Text**, and set as input title: **My Text**.
-1. Select **+Add an input** again.
-1. Select **Text** and set as input title: *My Language*.
-1. Select **+ New step**, search for *Predict*, and then select **Predict Common Data Service (current Environment)** in the list of actions.
-1. Select **SentimentAnalyses model**, and in the **Request Payload** field, enter *{“text”:”My Text”, “language”:”My Language”}*. Add the **My Text** and **My Language** fields from the trigger.
-   > ![Manually trigger flow screen](media/flow-sentiment-analysis.png "Manually trigger flow screen")
-1. Select **+ New step**, search for Parse JSON, and then select **Parse JSON – Data Operations** in the lists of actions.
-1. In the **Content** field, select **Response Payload**.
-1. Copy the following JSON code and paste it into the **Schema** box: 
- 
-    ```JSON
-        { 
-            "type": "object", 
-            "properties": { 
-                "predictionOutput": { 
-                    "type": "object", 
-                    "properties": { 
-                        "result": { 
-                            "type": "object", 
-                            "properties": { 
-                                "sentiment": { 
-                                    "type": "string", 
-                                    "title": "documentSentiment" 
-                                }, 
-                                "documentScores": { 
-                                    "type": "object", 
-                                    "properties": { 
-                                        "positive": { 
-                                            "type": "number" 
-                                        }, 
-                                        "neutral": { 
-                                            "type": "number" 
-                                        }, 
-                                        "negative": { 
-                                            "type": "number" 
-                                        } 
-                                    } 
-                                }, 
-                                "sentences": { 
-                                    "type": "array", 
-                                    "items": { 
-                                        "type": "object", 
-                                        "properties": { 
-                                            "sentiment": { 
-                                                "type": "string" 
-                                            }, 
-                                            "sentenceScores": { 
-                                                "type": "object", 
-                                                "properties": { 
-                                                    "positive": { 
-                                                        "type": "number" 
-                                                    }, 
-                                                    "neutral": { 
-                                                        "type": "number" 
-                                                    }, 
-                                                    "negative": { 
-                                                        "type": "number" 
-                                                    } 
-                                                } 
-                                            }, 
-                                            "offset": { 
-                                                "type": "integer" 
-                                            }, 
-                                            "length": { 
-                                                "type": "integer" 
-                                            } 
-                                        }, 
-                                        "required": [ 
-                                            "sentiment", 
-                                            "sentenceScores", 
-                                            "offset", 
-                                            "length" 
-                                        ] 
-                                    } 
-                                } 
-                            } 
-                        } 
-                    } 
-                }, 
-                "operationStatus": { 
-                    "type": "string" 
-                }, 
-                "error": {} 
-            } 
-        }
-    ```
+> [!IMPORTANT]
+ > To use AI Builder models in Power Automate, you have to create the flow inside a solution. The steps below won't work if you don't follow these instructions first: [Create a flow in a solution](/flow/create-flow-solution).
 
-   > ![Parse JSON screen](media/flow-parse-json-2.png "Parse JSON screen")
+1. Sign in to [Power Automate](https://flow.microsoft.com/), select the **My flows** tab, and then select **New > +Instant-from blank**.
+1. Name your flow, select **Manually trigger a flow** under **Choose how to trigger this flow**, and then select **Create**.
+1. Expand **Manually trigger a flow**, select **+Add an input**, select **Text** as the input type, and set as input title **My Text**.
+1. Select **+ New step**, search for the term **AI Builder**, and then select **Analyze positive or negative sentiment** in text in the list of actions.
+1. Select the language in the **Language** input and specify the **My Text** field from the trigger in the **Text** input:
 
-Now you can use the sentiment properties detected by the sentiment analysis model. In the following example, we update the Sentiment property existing Common Data Service record. 
+    > [!div class="mx-imgBorder"]
+    > ![Manually trigger flow screen](media/flow-sentiment-analysis-12.png "Manually trigger flow screen")
 
-   > ![Update record](media/flow-update-sentiment.png "Update record")
+1. In the successive actions, you can use any fields extracted by the AI Builder model. For example, you can add lines to an Excel file for each sentence using **Sentence sentiment**, **Probability sentence is positive** and **Probability sentence is negative**:
 
-Congratulations! You have created a flow that leverages a sentiment analysis model. Select **Save** on the top right and then select **Test** to try out your flow.
+    > [!div class="mx-imgBorder"]
+    > ![Add row in Excel](media/flow-sentiment-analysis-22.png "Add row in Excel")
+
+Congratulations! You've created a flow that uses a sentiment analysis model. Select **Save** on the top right and then select **Test** to try out your flow.
+
+
+## Use sentiment analysis to analyze incoming Dynamics emails
+
+Power Automate provides a template that enables you to analyze incoming Dynamics emails using AI Builder sentiment analysis. This template requires some customization of your Common Data Service email entity before you can use it.
+
+1. Create an attribute in your Email Messages entity in which to save the sentiment analysis results.
+
+   For information about how to create an attribute, go to: [Create and edit fields for Common Data Service using Power Apps portal](https://microsoft.sharepoint.com/powerapps/maker/common-data-service/create-edit-field-portal).
+
+1. [Sign in](https://flow.microsoft.com/signin) to Power Automate.
+1. In the left-side navigation pane, select **Templates**, and then search for *AI Builder sentiment*.
+1. Select **Analyze sentiment of Dynamics emails using AI Builder**.
+1. Select your environment, then type **Email Messages** in the **Entity Name** field, and type **Organization** in the **Scope** field.
+
+   > ![Template settings screen](media/sentiment-analysis-template.png "Template settings screen")
+
+1. Next, the template shows messages from **draft emails** and **received emails**. You can filter these if you want to perform sentiment analysis only on selected email statuses. Status codes can be found here: [email EntityType](/dynamics365/customer-engagement/web-api/email?view=dynamics-ce-odata-9).
+1. Select **Add sentiment to CDS Email Entity**, select **Show advanced options**, and then locate the attribute you added in step 1.  
+1. Finally, add **Global sentiment** from the **Dynamic content** list.
+
+   > ![Template settings screen](media/sentiment-analysis-template2.png "Template settings screen")
+
+If you want this field to be visible in your email grid view, follow these steps:
+
+1. Navigate to view\form designer, and add the custom field you created in prerequisite step. For information about how to add the column to your view,  go to: [Add a column to your view](/dynamics365/customerengagement/on-premises/customize/create-edit-views-app-designer#add-a-column-to-your-view)
+
+1. Then add a field to form by referring to these instructions: [Add a field to a form](/dynamics365/customerengagement/on-premises/customize/add-field-form)
+
+### Related topic
+
+[Sentiment analysis overview](prebuilt-sentiment-analysis.md)

@@ -35,9 +35,20 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
+      "contributors_to_exclude": [
+        "buck1ey",
+        "bishalgoswami",
+        "kathleenmcgrath",
+        "marycc",
+        "tinaburden",
+        "almostdunh",
+        "AshleyWoodruff"
+      ],
       "breadcrumb_path": "/ai-builder/breadcrumb/toc.json",
       "extendBreadcrumb": true,
-      "feedback_system": "None",
+      "feedback_system": "GitHub",
+      "feedback_github_repo": "MicrosoftDocs/ai-builder",
+      "feedback_product_url": "https://go.microsoft.com/fwlink/?linkid=2092048",
       "search.app": [
         "PowerApps",
         "Flow"

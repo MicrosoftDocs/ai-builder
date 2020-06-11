@@ -1,8 +1,8 @@
 ---
-title: Overview of prebuilt AI models -  AI Builder | Microsoft Docs
-description: Describes the prebuilt AI models that are available in AI Builder.
+title: Business card prebuilt AI model-  AI Builder | Microsoft Docs
+description: Describes the business card prebuilt AI Builder model.
 author: alanabrito
-manager: kvivek
+
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
@@ -13,29 +13,40 @@ ms.reviewer: v-dehaas
 
 # Business card model
 
-The prebuilt business card AI model allows you to extract contact information from business cards images. If the business card is detected in the image, information such as name, job title, address, email, company and phone numbers can be extracted.
+The business card prebuilt AI model allows you to extract information from business card images. If it detects a business card in the image, the AI model extracts the information such as name, job title, address, email, company, and phone numbers.
 
+> [!NOTE]
+> The design and format of business cards varies widely. AI builder is constantly improving the accuracy of the business card AI model, but it's possible there may be inaccurate or missing information in some cases.  It's a good idea to verify that the output is as you expect!
 
-## Use in PowerApps
+## Licensing requirements
 
-If you want to use this prebuilt model in PowerApps using the Business card reader component. You can find more information in [Use business card reader component in PowerApps](business-card-reader-component-in-powerapps.md).
+AI Builder is licensed as an add-on to your Power Apps or Power Automate licenses. For information about license capacity, pricing, and restrictions, see [AI Builder licensing](administer-licensing.md).
 
-## Use in Microsoft Flow
+## Role requirements
 
-If you want to use this prebuilt model in Microsoft Flow, you can find more information in [Use business card model in Microsoft Flow](flow-business-card-reader.md).
- 
-## Supported language, format and size
+Users need to have the Common Data Service user role to consume the business card reader.
+
+## Use in Power Apps
+
+If you want to use this prebuilt model in Power Apps using the Business card reader component. You can find more information in [Use business card reader component in Power Apps](business-card-reader-component-in-powerapps.md).
+
+## Use in Power Automate
+
+If you want to use this prebuilt model in Power Automate, you can find more information in [Use business card model in Power Automate](flow-business-card-reader.md).
+
+## Supported language, format, and size
 
 The images you can process with the business card model need these characteristics:
 
 - Language: English.  
-- Format: 
-    - JPG 
-    -.png 
-    - BMP 
-- Size: 6 MB maximum 
- 
-## Model output 
+- Format:
+  - JPG
+  - PNG
+  - BMP
+- Size: 6 MB maximum
+
+## Model output
+
 If a business card is detected, the business card model will try to locate and extract the following properties:
 
 |Property |Definition  |
@@ -43,6 +54,8 @@ If a business card is detected, the business card model will try to locate and e
 | **AddressCity**| The city address|
 | **AddressCountry**| The country address|
 | **AddressPostalCode**| The postal code address|
+| **AddressPostOfficeBox**| The post office box address|
+| **AddressState**| The state address|
 | **AddressStreet**| The street address|
 | **BusinessPhone**| The first phone or fax number|
 | **CleanedImage**| The image after processing where the business card appears cropped and enhanced from the original image|

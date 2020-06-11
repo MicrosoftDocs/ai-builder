@@ -1,12 +1,11 @@
 ---
-title: Training errors and issues| Microsoft Docs
-description: Describes the errors and issues that appear the prediction model details page
+title: Training errors and issues - AI Builder | Microsoft Docs
+description: Describes the errors and issues that appear the AI Builder prediction model details page
 author: Dean-Haas
-manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/01/2019
+ms.date: 01/03/2020
 ms.author: sdarapu
 ms.reviewer: v-dehaas
 ---
@@ -17,7 +16,7 @@ AI Builder reports error and issue messages on the model details page. These mes
 
 ## Errors
 
-When an error occurs, you can't continue until you resolve this error. These are error messages that may occur:
+When an error occurs, you can't continue until you resolve this error. Here are some error messages that may occur:
 
 - *The model needs at least **\<ThresholdValue>** records to train. **\<EntityName>** has only **\<ActualValue>** records. Add data or select another entity.*
 

@@ -2,7 +2,7 @@
 title: Train and publish your object detection model -  AI Builder | Microsoft Docs
 description: Provides steps to train and publish your object detection model in AI Builder.
 author: amina196
-manager: kvivek
+
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
@@ -13,7 +13,6 @@ ms.reviewer: v-dehaas
 
 # Train and publish your object detection model
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
 In this section, you’ll learn how to verify your data and then how to train, test, and publish your model.
 
@@ -22,7 +21,7 @@ In this section, you’ll learn how to verify your data and then how to train, t
 
 ## Quick-test your model
 
-Once your model is trained, you can see it in action from its details page, which you can learn more about [here](manage-model.md).
+Once your model is trained, you can see it in action from its details page. For more information, see [Manage a model in AI Builder](manage-model.md).
 
 1. From your model details page, select **Quick Test** in the **Last trained version** section.
 2. Drag and drop or upload an image that contains your objects to test your model.
@@ -34,15 +33,15 @@ Once your model is trained, you can see it in action from its details page, whic
 
 ## How to interpret your model performance score
 
-After your model is trained, in addition to being able to quick-test it, a performance score appears on its details page. This performance score indicates how well the model performs on the images you uploaded. This is not an indication of how well it will perform on your future images because it hasn’t seen them yet. 
+After your model is trained, you can quick-test it, and a performance score appears on its details page. This performance score indicates how well the model does on the images you uploaded. This score isn't an indication of how well it will perform on your future images because it hasn’t seen them yet.
 
 If you upload fewer than 50 images for a label, you are more likely get a high score—as high as 100 percent. This doesn’t mean your model is bulletproof. It means your model has made no mistake on a subset of the images you provided, called the test set. The smaller the training set, the smaller the test set, and the more likely your model is to be right when the performance score is calculated.
 
-Model performance scores are more reliable when the number of images per label is greater than 50, and when performance scores remain stable even when you change the training set.
+Model performance scores are more reliable when you have more than 50 images per label, and when these scores remain stable even when you change the training set.
 
 ## Publish your object detection model
 
-From there, you can run more tests with other pictures. If you are happy with the results, you can [publish](publish-model.md) your model to use it in PowerApps or Microsoft Flow.
+From there, you can run more tests with other pictures. If you're happy with the results, you can [publish](publish-model.md) your model to use it in Power Apps or Power Automate.
 
 ### Related topic
 
