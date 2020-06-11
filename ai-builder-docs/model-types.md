@@ -19,13 +19,12 @@ To build a model by using AI Builder, sign in to [Power Apps](https://make.power
 > [!div class="mx-imgBorder"]
 > ![AI Builder home page](media/ai-builder-home.png "AI Builder home page")
 
-<!--You don't really need the "List of AI model types" H2. I think it's better that the article TOC includes the headings below than just an H2 that repeats the title of the article.-->
-You can use AI model types to tailor<!--Suggested.--> a scenario to the needs of your business. With AI Builder, you can build and train your own AI model suited to your needs. You can also choose from several prebuilt models that you use in Power Apps and Power Automate without having to build and train the model.
+Different AI model types are designed for various business scenarios. With AI Builder, you can build and train your own AI custom model, designed by you for your specific business requirement. You can also choose from several prebuilt models for common business scenarios. Prebuilt models are ready to use 'out of the box' in Power Apps and Power Automate, without any need to build and train the model.
 
 ## Custom AI models
 
-Custom AI models are models that you build by choosing a model type in AI Builder, and then training the model to do a specific AI task by using your data. You select the model type, provide the data, build and train your own unique AI model, and then use or share the model. Build your own custom AI model by using the following AI model types.<!--No colon to introduce a table, via Writing Style Guide.-->
-<!--Rearranged the table to match the order in which the models are discussed in the docset.-->
+Custom AI models are models that you build by choosing a model type in AI Builder, and then training the model to do a specific AI task by using your data. You select the model type, provide the data, build and train your own unique AI model, and then use or share the model. Build your own custom AI model by using the following AI model types.
+
 | AI model type  | Category<!--"Category" and its values of Prediction, Language, and Vision only seem to occur on this page. I kept expecting to see it used elsewhere or at least for its significance to be explained. Can you expand on it?-->  | Start here |
 |---|---|---|
 | Prediction   | Prediction  | [Overview of the prediction model](prediction-overview.md) |
