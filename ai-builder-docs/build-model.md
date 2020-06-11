@@ -21,7 +21,7 @@ In AI Builder, we guide you through each step to create your AI model.
 
 Make sure your admin has enabled AI Builder for your environment. Otherwise, you won't have access to AI Builder functionality. More information: [Enable or disable AI Builder preview features](administer.md#enable-or-disable-ai-builder-preview-features)
 
-AI Builder requires the use of [Common Data Service](/powerapps/maker/common-data-service/data-platform-intro), which is the data platform for Power Apps and Power Automate<!--Edit okay? If not, should it at least say "Microsoft Power Platform"?--> that allows you to store and manage business data. Common Data Service is the platform on which Dynamics 365 apps are built, so if you're a Dynamics 365 customer, your data is already in Common Data Service.
+AI Builder requires the use of [Common Data Service](/powerapps/maker/common-data-service/data-platform-intro), which is the data platform for the Microsoft Power Platform that allows you to store and manage business data. Common Data Service is the platform on which Dynamics 365 apps are built, so if you're a Dynamics 365 customer, your data is already in Common Data Service.
 
 ### Deploy sample apps and data
 
