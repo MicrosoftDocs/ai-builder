@@ -34,7 +34,7 @@ Do you want to explore AI Builder by using sample data provided by Microsoft? En
 1. Sign in to [Power Apps](https://make.powerapps.com).
 2. In the left pane, select **AI Builder** > **Build**.
 3. Under **Make your own AI model**, select an AI model type.
-4. Enter a model name, and then select **Create**.
+4. Type a model name, and then select **Create**.
 
 ### Next step
 
