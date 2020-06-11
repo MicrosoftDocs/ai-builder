@@ -44,7 +44,7 @@ Congratulations! You've created a flow that uses a language detection model. Sel
 ### Output
 |Name |Type |Description |Values |
 |---------|---------|---------|---------|
-|**results** |list |A list of languages detected in the input text.|List of score and languages |
+|**results** |list |A list of languages detected in the input text |List of score and languages |
 |**Confidence score** |float |How confident the model is in its prediction|Value in the range of 0 to 1. Values close to 1 indicate greater confidence that the identified sentiment is accurate |
 |**Language** |string |Language inferred from the text| Language code (ex.: "en", "fr", "zh_chs", "ru") |
 
