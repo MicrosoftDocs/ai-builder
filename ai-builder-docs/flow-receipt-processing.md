@@ -65,10 +65,10 @@ Congratulations! You've created a flow that uses the AI Builder receipt processi
 |**Confidence of purchased item total price**|float|How confident the model is in its detection|
 |**Detected text**|string|Line of recognized text|
 |**Page number of detected text**|integer|Which page the line of recognized text is found on|
-|**Height of detected text**|integer|Height of recognized text|
-|**Left position of detected text**|float|Left position of recognized text|
-|**Top position of detected text**|float|Top position of recognized text|
-|**Width of detected text**|integer|Width of recognized text|
+|**Height of detected text**|integer|Height of line of text|
+|**Left position of detected text**|float|Left position of line of text|
+|**Top position of detected text**|float|Top position of line of text|
+|**Width of detected text**|integer|Width of line of text|
 
 
 ### Related topics
