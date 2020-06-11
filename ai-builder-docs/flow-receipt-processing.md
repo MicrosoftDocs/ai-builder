@@ -56,25 +56,25 @@ Congratulations! You've created a flow that uses the AI Builder receipt processi
 |**Merchant phone number**|string|Merchant phone number|
 |**Transaction date**|string|Transaction date|
 |**Transaction time**|string|Transaction time|
-|**Purchased item name**|string|Purchased item name|
-|**Purchased item quantity**|string|Purchased item quantity|
-|**Purchased item price**|string|Purchased item price|
-|**Purchased item total price**|string|Purchased item total price|
+|**Purchased item name**|string|Purchased item name. Returned as a part of a list of items.|
+|**Purchased item quantity**|string|Purchased item quantity. Returned as a part of a list of items.|
+|**Purchased item price**|string|Purchased item price. Returned as a part of a list of items.|
+|**Purchased item total price**|string|Purchased item total price. Returned as a part of a list of items.|
 |**Confidence of merchant name**|float|How confident the model is in its detection|
 |**Confidence of merchant address**|float|How confident the model is in its detection|
 |**Confidence of merchant phone number**|float|How confident the model is in its detection|
 |**Confidence of transaction date**|float|How confident the model is in its detection|
 |**Confidence of transaction time**|float|How confident the model is in its detection|
-|**Confidence of purchased item name**|float|How confident the model is in its detection|
-|**Confidence of purchased item quantity**|float|How confident the model is in its detection|
-|**Confidence of purchased item price**|float|How confident the model is in its detection|
-|**Confidence of purchased item total price**|float|How confident the model is in its detection|
-|**Detected text**|string|Line of recognized text|
-|**Page number of detected text**|integer|Which page the line of recognized text is found on|
-|**Height of detected text**|float|Height of line of text|
-|**Left position of detected text**|float|Left position of line of text|
-|**Top position of detected text**|float|Top position of line of text|
-|**Width of detected text**|float|Width of line of text|
+|**Confidence of purchased item name**|float|How confident the model is in its detection. Returned as a part of a list of items.|
+|**Confidence of purchased item quantity**|float|How confident the model is in its detection. Returned as a part of a list of items.|
+|**Confidence of purchased item price**|float|How confident the model is in its detection. Returned as a part of a list of items.|
+|**Confidence of purchased item total price**|float|How confident the model is in its detection. Returned as a part of a list of items.|
+|**Detected text**|string|Line of recognized text. Returned as a part of a list of lines of text.|
+|**Page number of detected text**|integer|Which page the line of recognized text is found on. Returned as a part of a list of lines of text.|
+|**Height of detected text**|float|Height of line of text. Returned as a part of a list of text.|
+|**Left position of detected text**|float|Left position of line of text. Returned as a part of a list of text.|
+|**Top position of detected text**|float|Top position of line of text. Returned as a part of a list of text.|
+|**Width of detected text**|float|Width of line of text. Returned as a part of a list of text.|
 
 
 ### Related topics
