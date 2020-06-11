@@ -28,7 +28,7 @@ ms.reviewer: v-dehaas
 
 1. Specify the *My receipt* field from the trigger in the **Receipt file** input.
 
-1. In the successive actions, you can use any of the receipt values from the [model output](prebuilt-receipt-processing#model-output).
+1. In the successive actions, you can use any of the receipt values from the [model output](#output).
 
 >[!NOTE]
 > Receipt values are returned as strings. To manipulate them as numbers, you can use the [float](https://docs.microsoft.com/azure/logic-apps/workflow-definition-language-functions-reference#float) or [int](https://docs.microsoft.com/azure/logic-apps/workflow-definition-language-functions-reference#int) conversion functions.
