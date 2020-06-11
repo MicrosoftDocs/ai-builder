@@ -11,7 +11,7 @@ ms.author: joshrenn
 ms.reviewer: v-dehaas
 ---
 
-# Receipt processing model
+# Receipt processing model (preview)
 
 Receipt processing is a prebuilt model that uses state-of-the-art optical character recognition (OCR) to detect printed and handwritten text and extract key information from receipts.
 
