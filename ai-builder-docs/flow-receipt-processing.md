@@ -34,3 +34,40 @@ ms.reviewer: v-dehaas
 > Receipt values are returned as strings. To manipulate them as numbers, you can use the [float](https://docs.microsoft.com/azure/logic-apps/workflow-definition-language-functions-reference#float) or [int](https://docs.microsoft.com/azure/logic-apps/workflow-definition-language-functions-reference#int) conversion functions.
 
 Congratulations! You've created a flow that uses the AI Builder receipt processing model. Select **Save** on the top right, and then select **Test** to try out your flow.
+
+# Parameters
+
+## Input
+
+|Name|Mandatory|Description|Values|
+|---------|---------|---------|---------|
+|Receipt file|Yes|Receipt to process|JPEG, PNG, or PDF file|
+
+## Output
+
+|Property|Definition|Values|
+|---------|---------|---------|
+|Merchant name|Merchant name||
+|Confidence of merchant name|How confident the model is in its detection|Value in the range of 0 to 1. Values close to 1 indicate greater confidence that the detection is accurate.|
+|Merchant address|Merchant address||
+|Confidence of merchant address|How confident the model is in its detection|Value in the range of 0 to 1. Values close to 1 indicate greater confidence that the detection is accurate.|
+|Merchant phone number|Merchant phone number||
+|Confidence of merchant phone number|How confident the model is in its detection|Value in the range of 0 to 1. Values close to 1 indicate greater confidence that the detection is accurate.|
+|Transaction date|Transaction date||
+|Confidence of transaction date|How confident the model is in its detection|Value in the range of 0 to 1. Values close to 1 indicate greater confidence that the detection is accurate.|
+|Transaction time|Transaction time||
+|Confidence of transaction time|How confident the model is in its detection|Value in the range of 0 to 1. Values close to 1 indicate greater confidence that the detection is accurate.|
+|Purchased item name|Purchased item name||
+|Confidence of purchased item name|How confident the model is in its detection|Value in the range of 0 to 1. Values close to 1 indicate greater confidence that the detection is accurate.|
+|Purchased item quantity|Purchased item quantity||
+|Confidence of purchased item quantity|How confident the model is in its detection|Value in the range of 0 to 1. Values close to 1 indicate greater confidence that the detection is accurate.|
+|Purchased item price|Purchased item price||
+|Confidence of purchased item price|How confident the model is in its detection|Value in the range of 0 to 1. Values close to 1 indicate greater confidence that the detection is accurate.|
+|Purchased item total price|Purchased item total price||
+|Confidence of purchased item total price|How confident the model is in its detection|Value in the range of 0 to 1. Values close to 1 indicate greater confidence that the detection is accurate.|
+|Detected text|Line of recognized text||
+|Page number of detected text|Which page the line of recognized text is found on||
+|Height of detected text|Height of detected text||
+|Left position of detected text|Left position of detected text||
+|Top position of detected text|Top position of detected text||
+|Width of detected text|Width of detected text||
