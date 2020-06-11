@@ -128,7 +128,7 @@
     href: prebuilt-key-phrase.md
   - name: Language detection
     href: prebuilt-language-detection.md
-  - name: Receipt processing
+  - name: Receipt processing (preview)
     href: prebuilt-receipt-processing.md
   - name: Sentiment analysis
     href: prebuilt-sentiment-analysis.md
@@ -164,7 +164,7 @@
       href: flow-key-phrase-extraction.md
     - name: Language detection model
       href: flow-language-detection.md
-    - name: Receipt processing model
+    - name: Receipt processing model (preview)
       href: flow-receipt-processing.md
     - name: Sentiment analysis model
       href: flow-sentiment-analysis.md
@@ -186,7 +186,7 @@
     href: form-processor-component-in-powerapps.md
   - name: Use the object detector component in Power Apps
     href: object-detector-component-in-powerapps.md
-  - name: Use the receipt processor component in Power Apps
+  - name: Use the receipt processor component in Power Apps (preview)
     href: prebuilt-receipt-processor-component-in-powerapps.md
   - name: Use the text recognizer component in Power Apps
     href: prebuilt-text-recognizer-component-in-powerapps.md
