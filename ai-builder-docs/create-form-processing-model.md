@@ -32,7 +32,7 @@ You need some sample documents to train your model for the type of forms you'll 
    > [!div class="mx-imgBorder"]
    > ![Add documents screen](media/form-add-documents.png "Add documents screen")
 
-1. Select at least five sample documents that are in the format you want to train the model for. Only JPG, PNG, and PDF files are accepted. More information: [Form-processing model requirements and limitations](form-processing-model-requirements.md)<!--note from editor: You generally want to avoid "more info"-type links in a procedure so as not to sidetrack the reader.-->
+1. Select at least five sample documents that represent the type of forms you you want to train the model for. Only JPG, PNG, and PDF files are accepted. 
 1. Verify the selection, and then select **Upload documents**.
 1. After the upload is completed, select **Close**.
 1. Select **Analyze**.
@@ -62,7 +62,7 @@ Some fields in your document might not have been automatically detected by AI Bu
    > [!div class="mx-imgBorder"]
    > ![Draw fields](media/form-processing-undetected-fields.gif "Draw fields")
 
-When you hover over different words in your documents, light blue boxes appear. These indicate<!--Edit assumes you do mean the boxes here.--> that you can draw a rectangle around those words to select a field.
+When you hover over different words in your documents, light blue boxes appear. These indicate that you can draw a rectangle around those words to select a field.
 
    > [!div class="mx-imgBorder"]
    > ![Select fields](media/form-select-fields.png "Select fields")
@@ -84,7 +84,7 @@ If a field that you want your model to return has been automatically detected, b
 
 ### Hiding fields
 
-If you're finding it difficult to select fields because of automated detected field suggestions that are incorrect, or fields that are too close to each other, you can click in<!--Via Writing Style Guide. If this doesn't work, it can be simply "click" (just not "click on"). --> a selected or suggested field and hide it. To show all the hidden fields, select the **Show hidden fields** option that appears at the top as you hide fields. 
+If you're finding it difficult to select fields because of automated detected field suggestions that are incorrect, or fields that are too close to each other, you can click a selected or suggested field and hide it. To show all the hidden fields, select the **Show hidden fields** option that appears at the top as you hide fields. 
 
    > [!div class="mx-imgBorder"]
    > ![Hide fields](media/form-processing-hide-fields.gif "Hide fields")
