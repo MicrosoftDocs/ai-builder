@@ -44,7 +44,7 @@ Congratulations! You've created a flow that uses an object detection AI Builder 
 
 ## Example object detection flow
 
-The following example shows the creation of a flow that's been triggered by an image. This flow counts the number of green tea bottles in the image. If the number of green tea bottles is below two, an email is sent to a stock fulfillment manager.
+The following example shows the creation of a flow that is triggered by an image. This flow counts the number of green tea bottles in the image. If the number of green tea bottles is below two, an email is sent to a stock fulfillment manager.
 
 > [!div class="mx-imgBorder"]
 > ![Green tea object detection flow example](media/green-tea-example.png "Example of an object detection flow")
