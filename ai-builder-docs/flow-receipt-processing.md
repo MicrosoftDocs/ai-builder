@@ -69,3 +69,8 @@ Congratulations! You've created a flow that uses the AI Builder receipt processi
 |Left position of detected text|Left position of detected text||
 |Top position of detected text|Top position of detected text||
 |Width of detected text|Width of detected text||
+
+
+### Related topics
+
+[Receipt processing overview](prebuilt-receipt-processing.md)
