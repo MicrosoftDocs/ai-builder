@@ -43,7 +43,7 @@ Congratulations! You've created a flow that uses the AI Builder receipt processi
 |**Receipt file**|Yes|string|The unique identifier of the receipt file to process|
 
 ### Output
-|Property|Type|Definition|
+|Name|Type|Definition|
 |---------|---------|---------|
 |**Merchant name**|string|Merchant name|
 |**Confidence of merchant name**|float|How confident the model is in its detection|
