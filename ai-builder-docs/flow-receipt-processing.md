@@ -52,22 +52,22 @@ Congratulations! You've created a flow that uses the AI Builder receipt processi
 |Name|Type|Description|
 |---------|---------|---------|
 |**Merchant name**|string|Merchant name|
-|**Confidence of merchant name**|float|How confident the model is in its detection|
 |**Merchant address**|string|Merchant address|
-|**Confidence of merchant address**|float|How confident the model is in its detection|
 |**Merchant phone number**|string|Merchant phone number|
-|**Confidence of merchant phone number**|float|How confident the model is in its detection|
 |**Transaction date**|string|Transaction date|
-|**Confidence of transaction date**|float|How confident the model is in its detection|
 |**Transaction time**|string|Transaction time|
-|**Confidence of transaction time**|float|How confident the model is in its detection|
 |**Purchased item name**|string|Purchased item name|
-|**Confidence of purchased item name**|float|How confident the model is in its detection|
 |**Purchased item quantity**|string|Purchased item quantity|
-|**Confidence of purchased item quantity**|float|How confident the model is in its detection|
 |**Purchased item price**|string|Purchased item price|
-|**Confidence of purchased item price**|float|How confident the model is in its detection|
 |**Purchased item total price**|string|Purchased item total price|
+|**Confidence of merchant name**|float|How confident the model is in its detection|
+|**Confidence of merchant address**|float|How confident the model is in its detection|
+|**Confidence of merchant phone number**|float|How confident the model is in its detection|
+|**Confidence of transaction date**|float|How confident the model is in its detection|
+|**Confidence of transaction time**|float|How confident the model is in its detection|
+|**Confidence of purchased item name**|float|How confident the model is in its detection|
+|**Confidence of purchased item quantity**|float|How confident the model is in its detection|
+|**Confidence of purchased item price**|float|How confident the model is in its detection|
 |**Confidence of purchased item total price**|float|How confident the model is in its detection|
 |**Detected text**|string|Line of recognized text|
 |**Page number of detected text**|integer|Which page the line of recognized text is found on|
