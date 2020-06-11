@@ -15,13 +15,16 @@ ms.reviewer: v-dehaas
 
 Receipt processing is a prebuilt model that uses state-of-the-art optical character recognition (OCR) to detect printed and handwritten text and extract key information from receipts.
 
+
 ## Use in Power Apps
 
 The receipt processing prebuilt model is available in Power Apps by using the receipt processor component. For more information, see [Use the receipt processor component in Power Apps](prebuilt-receipt-processor-component-in-powerapps.md).
 
+
 ## Use in Power Automate
 
 For information on how to use the receipt processing prebuilt model in Power Automate, see [Use the receipt processing prebuilt model in Power Automate](flow-receipt-processing.md).  
+
 
 ## Supported languages and files
 
@@ -35,9 +38,11 @@ In order to get the best results, provide one clear photo or scan per receipt.
 - PDF dimensions must be at most 17 x 17 inches, which is the equivalent of the Legal or A3 paper sizes or smaller.
 - For PDF documents, only the first 200 pages are processed.
 
+
 ## Model output
 
 If a receipt is detected, the receipt processing model will output the following information:
+
 
 |Property|Definition|
 |---------|---------|
