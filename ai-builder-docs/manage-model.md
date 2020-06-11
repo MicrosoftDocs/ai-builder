@@ -12,7 +12,7 @@ ms.reviewer: v-dehaas
 
 # Manage your model in AI Builder
 
-Creating the optimal model for your business can be a rather iterative process. Results can vary depending on the configurations you set and the training data you provide; thus, updating either or both of those factors can improve the performance of your model<!--Suggested-->. In some cases, however, performance might be degraded. Each AI model type has a set of guidelines to help walk you through the process of creating the best model, tailored to your needs.
+Creating the optimal model for your business can be a rather iterative process. Results can vary depending on the configurations you set and the training data you provide. Updating these factors can improve the performance of your model. In some cases, however, performance might be degraded. Each AI model type has a set of guidelines to help you with the process of creating the best model, tailored to your needs.
 
 > [!div class="mx-imgBorder"]
 > ![Manage AI model screen](media/manage-model.png "Manage AI model screen")
@@ -38,7 +38,7 @@ An _underfit_ model is a model that actually performs worse than a random guess.
 
 ### Overfit models
 
-An _overfit_ model appears to perform very well&mdash;if not perfectly&mdash;when run on your training data. That can be because there's a field in your training data that directly corresponds to outcome. For example, let's say you have a prediction model that predicts whether a shipment will arrive on time. If your historical data includes the actual delivery date, your model would predict perfectly when run against your historical data. It probably wouldn't do so well when run on real data in your business environment, because the delivery date field wouldn't be populated yet.<!--Excellent explanation!-->
+An _overfit_ model appears to perform very well&mdash;if not perfectly&mdash;when run on your training data. That can be because there's a field in your training data that directly corresponds to outcome. For example, let's say you have a prediction model that predicts whether a shipment will arrive on time. If your historical data includes the actual delivery date, your model would predict perfectly when run against your historical data. It probably wouldn't do so well when run on real data in your business environment, because the delivery date field wouldn't be populated yet.<!--Excellent explanation!-->  <!--Thanks! I'll just leave this here.  :)-->
 
 ## Edit the model name
 
