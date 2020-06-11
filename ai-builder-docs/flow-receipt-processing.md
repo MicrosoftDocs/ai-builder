@@ -38,37 +38,37 @@ Congratulations! You've created a flow that uses the AI Builder receipt processi
 
 ## Parameters
 ### Input
-|Name|Mandatory|Description|Values|
+|Name|Required|Type|Description|
 |---------|---------|---------|---------|
-|Receipt file|Yes|Receipt to process|JPEG, PNG, or PDF file|
+|Receipt file|Yes|string|The unique identifier of the receipt file to process|
 
 ### Output
-|Property|Definition|Values|
+|Property|Type|Definition|
 |---------|---------|---------|
-|Merchant name|Merchant name||
-|Confidence of merchant name|How confident the model is in its detection|Value in the range of 0 to 1. Values close to 1 indicate greater confidence that the detection is accurate.|
-|Merchant address|Merchant address||
-|Confidence of merchant address|How confident the model is in its detection|Value in the range of 0 to 1. Values close to 1 indicate greater confidence that the detection is accurate.|
-|Merchant phone number|Merchant phone number||
-|Confidence of merchant phone number|How confident the model is in its detection|Value in the range of 0 to 1. Values close to 1 indicate greater confidence that the detection is accurate.|
-|Transaction date|Transaction date||
-|Confidence of transaction date|How confident the model is in its detection|Value in the range of 0 to 1. Values close to 1 indicate greater confidence that the detection is accurate.|
-|Transaction time|Transaction time||
-|Confidence of transaction time|How confident the model is in its detection|Value in the range of 0 to 1. Values close to 1 indicate greater confidence that the detection is accurate.|
-|Purchased item name|Purchased item name||
-|Confidence of purchased item name|How confident the model is in its detection|Value in the range of 0 to 1. Values close to 1 indicate greater confidence that the detection is accurate.|
-|Purchased item quantity|Purchased item quantity||
-|Confidence of purchased item quantity|How confident the model is in its detection|Value in the range of 0 to 1. Values close to 1 indicate greater confidence that the detection is accurate.|
-|Purchased item price|Purchased item price||
-|Confidence of purchased item price|How confident the model is in its detection|Value in the range of 0 to 1. Values close to 1 indicate greater confidence that the detection is accurate.|
-|Purchased item total price|Purchased item total price||
-|Confidence of purchased item total price|How confident the model is in its detection|Value in the range of 0 to 1. Values close to 1 indicate greater confidence that the detection is accurate.|
-|Detected text|Line of recognized text||
-|Page number of detected text|Which page the line of recognized text is found on||
-|Height of detected text|Height of detected text||
-|Left position of detected text|Left position of detected text||
-|Top position of detected text|Top position of detected text||
-|Width of detected text|Width of detected text||
+|Merchant name|string|Merchant name|
+|Confidence of merchant name|float|How confident the model is in its detection|
+|Merchant address|string|Merchant address|
+|Confidence of merchant address|float|How confident the model is in its detection|
+|Merchant phone number|string|Merchant phone number|
+|Confidence of merchant phone number|float|How confident the model is in its detection|
+|Transaction date|string|Transaction date|
+|Confidence of transaction date|float|How confident the model is in its detection|
+|Transaction time|string|Transaction time|
+|Confidence of transaction time|float|How confident the model is in its detection|
+|Purchased item name|string|Purchased item name|
+|Confidence of purchased item name|float|How confident the model is in its detection|
+|Purchased item quantity|string|Purchased item quantity|
+|Confidence of purchased item quantity|float|How confident the model is in its detection|
+|Purchased item price|string|Purchased item price|
+|Confidence of purchased item price|float|How confident the model is in its detection|
+|Purchased item total price|string|Purchased item total price|
+|Confidence of purchased item total price|float|How confident the model is in its detection|
+|Detected text|string|Line of recognized text|
+|Page number of detected text|integer|Which page the line of recognized text is found on|
+|Height of detected text|integer|Height of detected text|
+|Left position of detected text|float|Left position of detected text|
+|Top position of detected text|float|Top position of detected text|
+|Width of detected text|integer|Width of detected text|
 
 
 ### Related topics
