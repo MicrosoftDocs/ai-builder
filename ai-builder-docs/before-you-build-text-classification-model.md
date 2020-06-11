@@ -41,7 +41,7 @@ If data is represented in a table, it looks like the following.
 
 Common Data Service includes a powerful set of connectors to help you import data from many sources. More information: [Add data to an entity in Common Data Service by using Power Query](/powerapps/maker/common-data-service/data-platform-cds-newentity-pq)
 
-As an example, here's how to import training data from an Excel workbook<!--Via Writing Style Guide-->. This example uses a file that's described in the following table.
+As an example, let's look at how to import training data from an Excel workbook. This example uses a file containing what's shown in the following table.
 
 |   |   |   |
 |---|---|---|
