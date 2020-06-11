@@ -18,11 +18,17 @@ ms.reviewer: v-dehaas
 > [!IMPORTANT]
  > To use AI Builder models in Power Automate, you have to create the flow inside a solution. The steps below won't work if you don't follow these instructions first: [Create a flow in a solution](/flow/create-flow-solution).
 
-1. [Sign in](https://flow.microsoft.com/signin) to Power Automate, select the **Create** tab, and then select **Instant flow**.
+1. [Sign in](https://flow.microsoft.com/signin) to Power Automate and select the **My flows** tab.
 
-1. Select **Manually trigger a flow** in the list of triggers, and then select **Create**.
+1. Select **New**, then select **Instant—from blank**.
 
-1. Select **File** and set *My receipt* as the input title.
+1. Name your flow, then select **Manually trigger a flow** under **Choose how to trigger this flow**.
+
+1. Select **Create**.
+
+1. Expand **Manually trigger a flow**, then select **+ Add an input**.
+
+1. Select **File** as the input type, then set *My receipt* as the input title.
 
 1. Select **+ New step**, search for *AI Builder*, and then select **Process and save information from receipts** in the list of actions.
 
