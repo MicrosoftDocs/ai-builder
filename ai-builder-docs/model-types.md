@@ -35,8 +35,8 @@ Custom AI models are models that you build by choosing a model type in AI Builde
 
 ## Prebuilt AI models
 
-AI Builder includes<!--Suggested--> prebuilt AI models that you can use in Power Apps and Power Automate. With a prebuilt model, you get an AI model that Microsoft has built and trained to do a specific task. You don't need to build or train the model yourself to use it. The following prebuilt AI models are available.
-<!--I took the liberty of adding the entity extraction prebuilt model. Edit okay? -->
+AI Builder features prebuilt AI models that you can use in Power Apps and Power Automate. With a prebuilt model, you get an AI model that Microsoft has built and trained to do a specific task. You don't need to build or train the model yourself to use it. The following prebuilt AI models are available.
+
 | AI model type | Category |Start here |
 |--------|--------|--------|
 |Business card reader |Vision | [Business card model](prebuilt-business-card.md)
