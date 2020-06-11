@@ -13,7 +13,7 @@ ms.reviewer: v-dehaas
 
 # AI model types
 
-In AI Builder, AI is based on model types that you choose from, based your business needs. For example, build an object detection model that recognizes your products in an image, or a prediction model that predicts business outcomes based on patterns the AI learns from your historical data.  Train and publish the model, and it's ready for use in your business.
+In AI Builder, AI is based on model types that you choose from, based on your business needs. For example, build an object detection model that recognizes your products in an image, or a prediction model that predicts business outcomes based on patterns the AI learns from your historical data.  Train and publish the model, and it's ready for use in your business.
 
 To build a model using AI Builder, sign in to [PowerApps](https://web.powerapps.com) and, in the the left navigation pane, select **AI Builder > Build**. Select the model type that matches what you want to do, and you are ready to get started.
 
