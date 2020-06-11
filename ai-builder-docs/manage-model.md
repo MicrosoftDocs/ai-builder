@@ -69,7 +69,7 @@ You can create a new version of your model to help improve the model performance
 
 Due to the experimental nature of machine learning, not all new versions you create will result in an increase in model performance. If you aren't satisfied with your model, you can create a new version to try to yield better results.
 
-If you're satisfied with your model, you can [publish it](publish-model.md) to make it available. You might also decide to publish any model that you don't want to be overwritten by a new version.<!--Edit okay? I didn't know what "Similarly" meant here.-->
+If you're satisfied with your model, you can [publish it](publish-model.md) to make it available. Because you can only have two trained versions available at a time, you might want to publish a model that you don't want to be overwritten by a new version.
 
 For more information about the nuances of improving your model performance, see the message underneath your accuracy score.
 
