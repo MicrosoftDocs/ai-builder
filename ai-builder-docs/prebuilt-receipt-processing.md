@@ -56,4 +56,4 @@ If a receipt is detected, the receipt processing model will output the following
 |**Tax**|Tax|
 |**Tip**|Tip|
 |**Total**|Total|
-|**DetectedText**|The list of all detected lines of text on the receipt|
+|**DetectedText**|The list of all recognized lines of text on the receipt|
