@@ -39,12 +39,11 @@ Such changes can include updating basic information, retraining, rescheduling, o
 
 ## Importing status
 
-For object detection and form-processing models, the import process might continue after the import action is finished. In this case, "Importing" appears on the list page of the AI Builder model. This is normal and can last several minutes.
+For object detection models, the import process might continue after the import action is finished. In this case, "Importing" appears on the list page of the AI Builder model. This is normal and can last several minutes.
 
 ## Limitations
 
-- Import of solutions containing form-processing models isn't currently available.<!--Are you sure? The previous section just said that importing a form-processing model might take a little extra time.-->
-- Only published models can be added to a solution.
+- Import of solutions containing form-processing models isn't currently available.
 - For object detection and form processing, only models trained after April 2nd, 2020, can be added to a solution.
 - Importing an object detection model or form-processing model should be done within one month of export. However, you can still import after that period if the source model remains unchanged after its export.
 - Changes to imported models aren't recommended.
