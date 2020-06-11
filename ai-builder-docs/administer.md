@@ -22,7 +22,7 @@ The availability (release status) of AI Builder is dependent on your region. For
 
 ## Enable or disable AI Builder preview features
 
-Some AI Builder features are released for general availability. Others are considered to be in preview release status.
+Some AI Builder features are released for general availability. Others remain in preview release status.
 
 Preview features appear on the build page with the **Preview** label. In the Power Platform admin center, administrators control whether users have access to preview features.
 
