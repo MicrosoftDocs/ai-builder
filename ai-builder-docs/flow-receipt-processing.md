@@ -46,7 +46,7 @@ Congratulations! You've created a flow that uses the AI Builder receipt processi
 ### Input
 |Name|Required|Type|Description|
 |---------|---------|---------|---------|
-|**Receipt file**|Yes|string|The unique identifier of the receipt file to process|
+|**Receipt file**|Yes|string|The receipt file to process|
 
 ### Output
 |Name|Type|Description|
