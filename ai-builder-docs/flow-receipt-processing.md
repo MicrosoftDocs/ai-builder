@@ -35,16 +35,14 @@ ms.reviewer: v-dehaas
 
 Congratulations! You've created a flow that uses the AI Builder receipt processing model. Select **Save** on the top right, and then select **Test** to try out your flow.
 
-# Parameters
 
-## Input
-
+## Parameters
+### Input
 |Name|Mandatory|Description|Values|
 |---------|---------|---------|---------|
 |Receipt file|Yes|Receipt to process|JPEG, PNG, or PDF file|
 
-## Output
-
+### Output
 |Property|Definition|Values|
 |---------|---------|---------|
 |Merchant name|Merchant name||
