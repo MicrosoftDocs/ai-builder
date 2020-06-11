@@ -37,7 +37,19 @@ ms.reviewer: v-dehaas
 
 Congratulations! You have created a flow that uses your key phrase extraction AI model. Select **Save** on the top right and then select **Test** to try out your flow.
 
+## Parameters
+### Input
+|Name |Required |Type |Description |Values |
+|---------|---------|---------|---------|---------|
+|**Text** |Yes |string |Text to analyze |Text sentences |
+|**Language** |Yes |string | Language of the text to analyze | Item in a list of predefined languages or a language code (ex.: "en", "fr", "zh_chs", "ru")
 
-### Related topic
+### Output
+|Name |Type |Description |
+|---------|---------|---------|
+|**Key phrase** |string |String denoting a key talking points in the analyzed text. As there could be multiple key phrases, selecting this parameter will create an apply to each loop |
+
+
+## Related topic
 
 [Key phrase extraction overview](prebuilt-key-phrase.md)
