@@ -40,7 +40,7 @@ Congratulations! You've created a flow that uses a sentiment analysis model. Sel
 |Name |Mandatory |Description |Values |
 |---------|---------|---------|---------|
 |Text |Yes |Text to analyze |Text sentences |
-|Language |Yes |Language of the text to analyze | Item in a list of predefined languages or a language code language code (ex.: "en", "fr", "zh_chs", "ru")
+|Language |Yes |Language of the text to analyze | Item in a list of predefined languages or a language code (ex.: "en", "fr", "zh_chs", "ru")
 
 ### Output
 |Name |Description |Values |
