@@ -35,33 +35,29 @@ ms.reviewer: v-dehaas
 Congratulations! You've created a flow that uses a sentiment analysis model. Select **Save** on the top right and then select **Test** to try out your flow.
 
 
-## Use sentiment analysis to analyze incoming Dynamics emails
+## Parameters
+### Input
+|Name |Mandatory |Description |Values |
+|---------|---------|---------|---------|
+|Text |Yes |Text to analyze |Text sentences |
+|Language |Yes |Language of the text to analyze | Item in a list of predefined languages or a language code language code (ex.: "en", "fr", "zh_chs", "ru")
 
-Power Automate provides a template that enables you to analyze incoming Dynamics emails using AI Builder sentiment analysis. This template requires some customization of your Common Data Service email entity before you can use it.
+### Output
+|Name |Description |Values |
+|---------|---------|---------|
+|Overall text sentiment |Overall sentiment of the analyzed text|Positive, neutral or negative |
+|Probability overall text is positive |Probability of the positive sentiment in the analyzed text|Value in the range of 0 to 1. Values close to 1 indicate greater confidence that the identified sentiment is accurate |
+|Probability overall text is negative |Probability of the negative sentiment in the analyzed text|Value in the range of 0 to 1. Values close to 1 indicate greater confidence that the identified sentiment is accurate |
+|Probability overall text is neutral |Probability of the neutral sentiment in the analyzed text|Value in the range of 0 to 1. Values close to 1 indicate greater confidence that the identified sentiment is accurate |
+|documentScores |Data structure containing overall scores|Positive, neutral and negative scores |
+|sentences |List of data structures containing sentences overall sentiment and scores|Sentence sentiment. Positive, neutral and negative scores |
+|Sentence sentiment |Sentiment of the analyzed sentence|Positive, neutral or negative |
+|Probability sentence is positive |Probability of the positive sentiment in the analyzed sentence|Value in the range of 0 to 1. Values close to 1 indicate greater confidence that the identified sentiment is accurate |
+|Probability sentence is negative |Probability of the negative sentiment in the analyzed sentence|Value in the range of 0 to 1. Values close to 1 indicate greater confidence that the identified sentiment is accurate |
+|Probability sentence is neutral |Probability of the neutral sentiment in the analyzed sentence|Value in the range of 0 to 1. Values close to 1 indicate greater confidence that the identified sentiment is accurate |
+|sentenceScores |Data structure containing sentence scores|Positive, neutral and negative scores |
 
-1. Create an attribute in your Email Messages entity in which to save the sentiment analysis results.
 
-   For information about how to create an attribute, go to: [Create and edit fields for Common Data Service using Power Apps portal](https://microsoft.sharepoint.com/powerapps/maker/common-data-service/create-edit-field-portal).
-
-1. [Sign in](https://flow.microsoft.com/signin) to Power Automate.
-1. In the left-side navigation pane, select **Templates**, and then search for *AI Builder sentiment*.
-1. Select **Analyze sentiment of Dynamics emails using AI Builder**.
-1. Select your environment, then type **Email Messages** in the **Entity Name** field, and type **Organization** in the **Scope** field.
-
-   > ![Template settings screen](media/sentiment-analysis-template.png "Template settings screen")
-
-1. Next, the template shows messages from **draft emails** and **received emails**. You can filter these if you want to perform sentiment analysis only on selected email statuses. Status codes can be found here: [email EntityType](/dynamics365/customer-engagement/web-api/email?view=dynamics-ce-odata-9).
-1. Select **Add sentiment to CDS Email Entity**, select **Show advanced options**, and then locate the attribute you added in step 1.  
-1. Finally, add **Global sentiment** from the **Dynamic content** list.
-
-   > ![Template settings screen](media/sentiment-analysis-template2.png "Template settings screen")
-
-If you want this field to be visible in your email grid view, follow these steps:
-
-1. Navigate to view\form designer, and add the custom field you created in prerequisite step. For information about how to add the column to your view,  go to: [Add a column to your view](/dynamics365/customerengagement/on-premises/customize/create-edit-views-app-designer#add-a-column-to-your-view)
-
-1. Then add a field to form by referring to these instructions: [Add a field to a form](/dynamics365/customerengagement/on-premises/customize/add-field-form)
-
-### Related topic
+## Related topic
 
 [Sentiment analysis overview](prebuilt-sentiment-analysis.md)
