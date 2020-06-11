@@ -36,6 +36,23 @@ ms.reviewer: v-dehaas
 Congratulations! You've created a flow that uses a sentiment analysis model. Select **Save** on the top right and then select **Test** to try out your flow.
 
 
+
+## Parameters
+### Input
+|Name |Mandatory |Description |Values |
+|---------|---------|---------|---------|
+|Text |Yes |Text to translate |Text sentences |
+|Translate to |Yes |Target language of the translated text | Item in a list of predefined languages or a language code (ex.: "en", "fr", "zh_chs", "ru")
+|Translate from |No |Language of the text to be translated | Item in a list of predefined languages or a language code (ex.: "en", "fr", "zh_chs", "ru")
+
+### Output
+|Name |Description |Values |
+|---------|---------|---------|
+|Text |Translated version of the input text|Text sentences |
+|Detected language |Detected language of the input text if the field "Translated from" wasn't specified |Language code (ex.: "en", "fr", "zh_chs", "ru")|
+|Detected language confidence score |Probability of detected language of the input text |Value in the range of 0 to 1. Values close to 1 indicate greater confidence that the detected language is accurate |
+
+
 ### Related topic
 
 [Text translation overview](prebuilt-text-translation.md)
