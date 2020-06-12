@@ -21,13 +21,13 @@ If you want other users to use your model in apps or flows, or even use a direct
 
 The share action is available on the **Models** page in AI Builder for each model where you're the owner. It's also available for the system administrator in the environment, or for any security role that has Share permissions on AI Builder system entities.
 
-The share action is also available on the model detail screen in AI Builder, with the same restrictions.<!--Suggested-->
+The share action is also available on the model detail screen in AI Builder, with the same conditions.
 
 ## Share panel
 
 When you select the share action, a share panel is displayed. The share panel is where you select Common Data Service users and teams in your organization, and share your model with them. Note the following:
 
-- Sharing your model with a user or team<!--Edit okay?--> gives the user or team the ability to see and run your model.
+- Sharing your model with a user or team gives the user or team the ability to see and run your model.
 - Sharing your model doesn't give the user or team permission to edit, retrain, or publish the model.
 - Sharing your model doesn't give the user or team access to the data you used to train your model.
 
