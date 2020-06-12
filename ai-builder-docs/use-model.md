@@ -30,7 +30,7 @@ Generate new predictions right away and save them to Common Data Service. To lea
 ## Create a new app
 
 Insert an AI Builder component into a canvas app. More information: [AI Builder in Power Apps overview](use-in-powerapps-overview.md)
-<!--note from editor: I think it would be good to add an anchor here so that the cross-references to this section don't have to include the word "preview." That way, the links won't have to be updated when this feature goes into GA. What do you think?-->
+
 <a name="use-formulas-for-text-ai-models"></a>
 
 ## Use formulas for text AI models (preview)
@@ -41,8 +41,7 @@ You can integrate some AI Builder models in [Power Apps Studio](https://create.p
 * Entity extraction
 * Key phrase extraction
 * Language detection
-
-Category classification<!--Is this meant to be part of the list and is just missing a bullet, or is there something that needs to be said about this model type?-->
+* Category classification
 
 For information about when this functionality might become available with other model types, see [What's new and planned for AI Builder](/power-platform-release-plan/2019wave2/ai-builder/planned-features).
 
@@ -68,7 +67,7 @@ In this example, we use a **Text Input** control and a **Label** control to invo
     > [!div class="mx-imgBorder"]
     > ![Insert label screen](media/formula-insert-label.png "Insert label screen")
 
-1. If you want, you can select the **Label** control, enter **AIBuilder**, and try out the various formulas (there are five in total<!--There are six in the table below, is that okay?-->), using **TextInput1** as the text.
+1. If you want, you can select the **Label** control, enter **AIBuilder**, and try out the various formulas, using **TextInput1** as the text.
 
     > [!div class="mx-imgBorder"]
     > ![Available formulas](media/formula-menu.png "Available formulas")
