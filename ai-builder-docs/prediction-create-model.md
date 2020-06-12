@@ -20,7 +20,7 @@ This example creates a Power Apps prediction AI model that uses the Online Shopp
 
 ## Select your historical outcome
 
-Think of the prediction you want AI Builder to make. For example, for the question "How much customer churn should I expect?"<!--Suggested. It doesn't really work to talk about an individual customer "churning." I think churn can be thought of as a "mass verb," like money is a mass noun.-->, think about questions like these:
+Think of the prediction you want AI Builder to make. For example, for the question "Will a this customer churn?, think about questions like these:
 
 - Where is the entity that contains information about customer churn?
 - Is there a field there that specifically states whether customer churn has occurred?
