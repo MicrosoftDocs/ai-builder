@@ -45,7 +45,7 @@ Congratulations! You've created a flow that uses an AI Builder form processing m
 |---------|---------|---------|---------|---------|
 |**AI Model** |Yes |list |Form processing model to use for analysis|Trained and published form processing models |
 |**Document type** |Yes |list |The file type of the form to analyze|PDF Document (.pdf), JPEG Image (.jpeg), PNG Image (.png) |
-|**Form** |Yes |document |Form to process| |
+|**Form** |Yes |file |Form to process| |
 
 
 ### Output
@@ -55,6 +55,8 @@ Congratulations! You've created a flow that uses an AI Builder form processing m
 |**{field} confidence score** |float |How confident the model is in its prediction |Value in the range of 0 to 1. Values close to 1 indicate greater confidence that the extracted value is accurate |
 |**{table}{column} value** |string |The value extracted by the AI model for a cell in a table| |
 |**{table}{column} confidence score** |float |How confident the model is in its prediction |Value in the range of 0 to 1. Values close to 1 indicate greater confidence that the extracted cell value is accurate |
+
+**Note:** More output parameters may be proposed such as field coordinates, polygons, bounding boxes and page numbers. These are not listed on purpose as mainly intended to advanced usage.
 
 
 ## Related topic
