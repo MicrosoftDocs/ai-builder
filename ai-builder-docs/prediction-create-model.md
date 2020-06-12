@@ -61,7 +61,7 @@ Let's say you want to predict whether a shipment is going to be delayed. You mig
 
 ### Use data from related entities
 
-If you have related entities that might improve the performance of the prediction, you can include those as well. As you did when you wanted to predict your level of customer churn<!--Suggested.-->, you should include additional information that might be in a separate entity. AI Builder supports many-to-one relationships at this time.
+If you have related entities that might improve the performance of the prediction, you can include those as well. As you did when you wanted to predict whether a customer will churn, you should include additional information that might be in a separate entity. AI Builder supports many-to-one relationships at this time.
 
 ## Filter your data
 
@@ -76,9 +76,6 @@ The filtering experience is the same as in the Power Apps view editor. Start by 
 - A related entity, which allows you to create a filter condition on a related entity. 
 
 Select the field, the operator, and the value that represents a filter condition. You can use the check boxes to group rows or to bulk-delete rows.
-
-> [!NOTE]
-> There is currently an issue with filtering on related entities that have a one-to-many relationship. This will be addressed in a week or two.<!--note from editor: Is this still true? Maybe you'd best make a note to come revisit this periodically. -->
 
 ### Next step
 
