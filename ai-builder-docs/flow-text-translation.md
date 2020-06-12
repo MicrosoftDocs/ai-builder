@@ -39,7 +39,7 @@ Congratulations! You've created a flow that uses a sentiment analysis model. Sel
 
 ## Parameters
 ### Input
-|Name |Mandatory |Description |Values |
+|Name |Required |Description |Values |
 |---------|---------|---------|---------|
 |Text |Yes |Text to translate |Text sentences |
 |Translate to |Yes |Target language of the translated text | Item in a list of predefined languages or a language code (ex.: "en", "fr", "zh_chs", "ru")
