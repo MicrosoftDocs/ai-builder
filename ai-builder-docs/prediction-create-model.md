@@ -23,7 +23,7 @@ This example creates a Power Apps prediction AI model that uses the Online Shopp
 Think of the prediction you want AI Builder to make. For example, for the question "Will a this customer churn?, think about questions like these:
 
 - Where is the entity that contains information about customer churn?
-- Is there a field there that specifically states whether customer churn has occurred?
+- Is there a field there that specifically states whether the customer has churned?
 - Are there unknowns in a field that might cause uncertainty?
 
 Use this information to make your selections. Working with provided sample data, the question is "did this user who interacted with my online store make a purchase?" If they did, there should be revenue for that customer. Therefore, whether there's revenue for this customer should be the historical outcome. Wherever this information is empty is where AI Builder can help you make a prediction.
