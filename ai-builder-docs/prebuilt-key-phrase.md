@@ -12,7 +12,7 @@ ms.reviewer: v-dehaas
 
 # Key phrase extraction model
 
-The key phrase extraction prebuilt model identifies the main points in a text document. For example, given input text "The food was delicious and there were wonderful staff",<!--Can this be rewritten as "the staff was wonderful", or if that would foil the model, "there were wonderful servers"? US English doesn't treat "staff" as plural.--> the model returns the main talking points: "food"<!--Not "delicious food," I see.--> and "wonderful staff". This model can extract a list of key phrases from unstructured text documents.
+The key phrase extraction prebuilt model identifies the main points in a text document. For example, given input text "The food was delicious and there was great service!", the model returns the main talking points: "food" and "great service". This model can extract a list of key phrases from unstructured text documents.
 
 ## Use in Power Apps
 
