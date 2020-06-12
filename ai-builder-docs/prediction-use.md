@@ -20,7 +20,9 @@ After your model is trained and published, it's ready for you to use.
 
 To run your prediction model, go to the model settings page and select **Run now**.
 
-## Schedule retrain and run
+## Schedule retrain and run (preview)
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
 You can use the schedule retrain feature to train prediction models so that their performance doesn't degrade over time. Users can use the schedule run feature to infer records based on their own conditions and app use. This helps users to use AI Builder units more effectively.
 
@@ -43,7 +45,9 @@ You can set the run or retrain cadence to daily, weekly, or monthly. If you don'
 
 If you make any changes to the AI Builder **Schedule** > **Retrain** settings, the associated flow is replaced with a new one.
 
-## Real-time prediction
+## Real-time prediction (preview)
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
 In addition to scheduled prediction inferences, AI Builder supports real-time prediction. Although scheduled prediction on a daily cadence might work for some scenarios, there are times when prediction needs to run in real time. Let's say that your retail company wants to know whether an order will be delivered on time. If the order creation and fulfillment processes occur in a short timeframe, you need the delivery prediction during the fulfillment process. Then you can decide whether to use a faster shipment type. Real-time prediction provides you the information at the time you need it.
 

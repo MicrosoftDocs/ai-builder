@@ -17,23 +17,19 @@ ms.reviewer: v-dehaas
 > [!IMPORTANT]
  > To use AI Builder models in Power Automate, you have to create the flow inside a solution. The steps below won't work if you don't follow these instructions first: [Create a flow in a solution](/flow/create-flow-solution).
 
-1. Sign in to [Power Automate](https://flow.microsoft.com/), select the **My flows** tab, and then select **Automated-from blank**.
-1. Enter a name for your flow.
-1. Search for **email**, select **When an email arrives** in the list of triggers, and then select **Create**.
-1. Select **+ New step**, search for **html to text**, and then select **Html to text** in the list of actions.
-   > [!div class="mx-imgBorder"]
-   > ![Select Html to text](media/html-to-text.png "Select Html to text")
-1. Select **+ New step**, search for **predict**, and then select the **Predict Common Data Service (current Environment)** action.
-   > [!div class="mx-imgBorder"]
-   > ![Choose an a action'](media/predict-cds-2.png "Select 'Predict Common Data Service'")
+1. Sign in to [Power Automate](https://flow.microsoft.com/), select the **My flows** tab, and then select **New > +Instant-from blank**.
+1. Name your flow, select **When an email arrives** in the list of triggers, and then select **Create**.
+1.	Select **+ New step**, search for *html to text*, and then select **Html to text** in the list of actions. 
+1. Select + New step, search for the term **AI Builder**, and then select **Extract entities and their types from text** in the list of actions.
+1. In the **Text** field select the **plain text** parameter:
 
-    >[!NOTE]
-    > **Predict Common Data Service (current Environment)** doesn't appear unless you've followed these instructions first: [Create a flow in a solution](/flow/create-flow-solution).
-1. Select **EntityExtraction model**. In the **Sentence** field, select the **plain text** parameter.
-1. Select **+ New step**, search for **Add a row into a table**, and then select the **Add a row into a table** action.
-1. Complete the necessary fields to find the location of your Excel table. Make sure you created a table and designated columns where you want to store the results of entity extraction. Find the results of entity extraction in the available dynamic content such as **Entity type** and **Entity value**, as shown in the following image:
    > [!div class="mx-imgBorder"]
-   > ![Add a row into a table'](media/flow-add-row2.png "Add a row into a table")
+   > ![Choose an a action'](media/flow-EE-prebuilt1.png "Specify Text")
+
+1. In the successive actions, you can use any fields extracted by the AI Builder model. For example, you can send an email using the "Entities type" and "Entities value" in the body of your email:
+   > [!div class="mx-imgBorder"]
+   > ![Choose an a action'](media/flow-EE-prebuilt2.png "Send an email")
+
 
 Congratulations! You've created a flow that uses an entity extraction model. Select **Save** in the upper-right corner, and then select **Test** to try out your flow.
 
@@ -41,3 +37,4 @@ Congratulations! You've created a flow that uses an entity extraction model. Sel
 
 [Entity extraction prebuilt model](prebuilt-entity-extraction.md)  
 [AI Builder in Power Automate overview](use-in-flow-overview.md)
+

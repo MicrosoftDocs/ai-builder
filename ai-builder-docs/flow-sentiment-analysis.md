@@ -12,35 +12,31 @@ ms.reviewer: v-dehaas
 
 # Use the sentiment analysis prebuilt model in Power Automate
 
+
 ## Create a flow that uses the AI Builder sentiment analysis prebuilt model
+
 
 > [!IMPORTANT]
  > To use AI Builder models in Power Automate, you have to create the flow inside a solution. The steps below won't work if you don't follow these instructions first: [Create a flow in a solution](/flow/create-flow-solution).
 
-1. Sign in to [Power Automate](https://flow.microsoft.com/signin), select the **My flows** tab, and then select **Create from blank**.
 
-1. Search for the term **manually**, select **Manually trigger a flow** in the list of triggers, and then select **+ Add an input**.
+1. Sign in to [Power Automate](https://flow.microsoft.com/), select the **My flows** tab, and then select **New > +Instant-from blank**.
+1. Name your flow, select **Manually trigger a flow** under **Choose how to trigger this flow**, and then select **Create**.
+1. Expand **Manually trigger a flow**, select **+Add an input**, select **Text** as the input type, and set as input title **My Text**.
+1. Select **+ New step**, search for the term **AI Builder**, and then select **Analyze positive or negative sentiment** in text in the list of actions.
+1. Select the language in the **Language** input and specify the **My Text** field from the trigger in the **Text** input:
 
-1. Select **Text**, and enter **My Text** as the input title.
+    > [!div class="mx-imgBorder"]
+    > ![Manually trigger flow screen](media/flow-sentiment-analysis-12.png "Manually trigger flow screen")
 
-1. Select **+Add an input** again.
+1. In the successive actions, you can use any fields extracted by the AI Builder model. For example, you can add lines to an Excel file for each sentence using **Sentence sentiment**, **Probability sentence is positive** and **Probability sentence is negative**:
 
-1. Select **Text**, and enter **My Language** as the input title.
+    > [!div class="mx-imgBorder"]
+    > ![Add row in Excel](media/flow-sentiment-analysis-22.png "Add row in Excel")
 
-1. Select **+ New step**, search for **Predict**, and then select **Predict Common Data Service (current Environment)** in the list of actions.
- >[!NOTE]
- > **Predict Common Data Service (current Environment)** doesn't appear unless you've followed these instructions first: [Create a flow in a solution](/flow/create-flow-solution).
-
-1. Select **SentimentAnalysis model**.
-
-1. Specify the **My Language** field from the trigger in the **Language** input, and the **My Text** field in the **Text** input.
-   > ![Manually trigger flow screen](media/flow-sentiment-analysis.png "Manually trigger flow screen")
-
-Now you can use the sentiment properties detected by the sentiment analysis model. In the following example, we set the Sentiment property to a new Common Data Service record.
-
-![Update record](media/flow-update-sentiment.png "Update record")
 
 Congratulations! You've created a flow that uses the sentiment analysis model. Select **Save** in the upper-right corner, and then select **Test** to try out your flow.
+
 
 ## Use sentiment analysis to analyze incoming Dynamics 365 emails
 
@@ -67,4 +63,10 @@ If you want this field to be visible in your email grid view, follow these steps
 
 1. Go to the view/form designer, and add the custom field you created in step 1 of the preceding procedure<!--Is this what "prerequisite step" means?-->. For information about how to add the column to your view, see [Add a column to your view](/dynamics365/customerengagement/on-premises/customize/create-edit-views-app-designer#add-a-column-to-your-view).
 
+
 1. Then add a field to the form. For details, see [Add a field to a form](/dynamics365/customerengagement/on-premises/customize/add-field-form).
+
+### See also
+
+[Sentiment analysis overview](prebuilt-sentiment-analysis.md)
+

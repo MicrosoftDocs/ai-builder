@@ -58,7 +58,11 @@
       ],
       "search.appverid": "met150"
     },
-    "fileMetadata": {},
+    "fileMetadata": {
+      "searchScope": {
+        "**.*": [ "Power Platform", "AI Builder" ]
+      }
+    },
     "template": [],
     "dest": "ai-builder",
     "markdownEngineName": "markdig"
