@@ -36,6 +36,39 @@ The following example shows a new contact being created in Common Data Service u
    > !['Create new record' screen](media/flow-business-card-overview-2.png "'Create new record' screen")
 
 
-### Related topic
+## Parameters
+### Input
+|Name |Required |Type |Description |Values |
+|---------|---------|---------|---------|---------|
+|**Image type** |Yes |string |Mime type of the image|"auto" as default value. This field being obsolete, any value will be accepted. |
+|**Image** |Yes |file |Image file to analyze| |
+
+
+### Output
+|Name |Type |Description |
+|---------|---------|---------|
+|**City** |string |The city address|
+|**Country** |string |The country address|
+|**Potal Code** |string |The postal code address|
+|**PO Box** |string |The post office box address|
+|**State** |string |The state address|
+|**Street** |string |The street address|
+|**Work phone or other phone** |string |The first phone or fax number|
+|**Cleaned image** |file |The image after processing where the business card appears cropped and enhanced from the original image|
+|**Cleaned image type** |string |Type of the cleaned image|
+|**Company name** |string |The company name|
+|**Department** |string |The organization department found|
+|**Email** |string |The contact email found in the business card, if any|
+|**Fax** |string |The third phone or fax number|
+|**First name** |string |The contact first name|
+|**Full address** |string |The contact full address|
+|**Full name** |string |The contact full name|
+|**Title** |string |The contact job title|
+|**Last name** |string |The contact last name|
+|**Mobile phone** |string |The second phone or fax number|
+|**Website** |string |The website|
+
+
+## Related topic
 
 [Business card reader overview](prebuilt-business-card.md)
