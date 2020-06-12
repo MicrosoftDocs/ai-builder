@@ -35,4 +35,4 @@ This topic takes you through the process of creating a model-driven app that can
     > [!div class="mx-imgBorder"]
     > ![Model-driven app complete screen](media/model-driven-app-scr.png "Model-driven app complete screen")
 
-Congratulations, you've created your first model-driven app that uses output from the prediction AI model.
+Congratulations, you've created your first model-driven app that uses an AI Builder prediction model.
