@@ -1,5 +1,5 @@
 ---
-title: View generated predictions - AI Builder | Microsoft Docs
+title: View generated results - AI Builder | Microsoft Docs
 description: Provides steps to view category classification predictions after you publish your model in AI Builder.
 author: raaourik 
 ms.service: powerapps
@@ -10,9 +10,9 @@ ms.author: raaourik
 ms.reviewer: v-dehaas
 ---
 
-# View predictions
+# View results
 
-This section<!--Is this going to be a section someday, or should this simply be "topic"? --> shows you how to see the output of your prediction<!--Should this be "category classification"? I'm kind of confused by this topic. It seems like it should have more detail, and it should be more of an umbrella topic (that is, higher up in the TOC) if it applies to more than one type of model.--> model.
+This topic shows you how to see the output of your prediction model.
 
 1. After you select **Use Model** and configure it to run on Common Data Service, the output location appears in the **Settings** pane under the **Run** pivot.
 
