@@ -19,7 +19,7 @@ Before you create your prediction model, you'll want to make sure your data is i
 Do you have data that you want to import into Common Data Service for training in AI Builder? First, you have to create an entity. In this example, we'll provide a solution that has predefined custom entities. To use your own data, [create a custom entity](/powerapps/maker/common-data-service/data-platform-create-entity) and substitute your own entity for the example used here.
 
 > [!NOTE]
-> For best results, use a dataset that's less than 1.5 GB in size. <!--"Otherwise" doesn't seem to be the right word. The limit to the date is 1.5 GB no matter how large the dataset, right? -->AI Builder uses only 1.5 GB of your data to train and predict. Because<!--Via Writing Style Guide.--> you can't control which data that exceeds the 1.5 GB limit won't be used, you should optimize your data to stay under 1.5 GB.
+>For best results, use a dataset that is less than 1.5 GB in size. Otherwise, AI Builder uses only 1.5 GB of your data to train and predict. Since you can’t control which data exceeding the 1.5 GB limit is not used, you should optimize your data to stay under 1.5 GB.
 
 ## Example dataset for binary prediction and numerical prediction
 
