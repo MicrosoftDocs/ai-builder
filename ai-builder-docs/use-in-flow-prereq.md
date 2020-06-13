@@ -1,8 +1,7 @@
 ---
-title: AI Builder in Power Automate prerequisites -  AI Builder | Microsoft Docs
+title: AI Builder in Power Automate prerequisites - AI Builder | Microsoft Docs
 description: Provides the information you need to know before you can use AI Builder in Power Automate.
 author: Dean-Haas
-
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
@@ -19,14 +18,13 @@ Before you can use AI Builder in Power Automate, you need:
 - A trained [AI Builder model](build-model.md) or an AI Builder [prebuilt model](prebuilt-overview.md).
 
 > [!IMPORTANT]
- > Currently, to use AI Builder models in Power Automate, you will need to create the flow inside a solution. More information: [Create a flow in a solution](/flow/create-flow-solution).
+ > Currently, to use AI Builder models in Power Automate, you'll need to create the flow inside a solution. More information: [Create a flow in a solution](/flow/create-flow-solution)
 
- ## Next steps
+### Next steps
 
-- [Use a custom AI Builder model in Power Automate](prediction-model-in-flow.md)
-- [Use a prebuilt AI Builder model in Power Automate](flow-business-card-reader.md)
+[Use a custom AI Builder model in Power Automate](prediction-model-in-flow.md)  
+[Use a prebuilt AI Builder model in Power Automate](flow-business-card-reader.md)
 
-
-### Related topic
+### See also
 
 [AI Builder prerequisites](build-model.md#prerequisites)

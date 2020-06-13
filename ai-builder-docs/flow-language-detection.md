@@ -2,7 +2,6 @@
 title: Use the language detection prebuilt model in Power Automate - AI Builder | Microsoft Docs
 description: Provides information about how to use the AI Builder language detection prebuilt model in your flows
 author: alanabrito
-
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
@@ -15,6 +14,8 @@ ms.reviewer: v-dehaas
 
 > [!IMPORTANT]
  > To use AI Builder models in Power Automate, you have to create the flow inside a solution. The steps below won't work if you don't follow these instructions first: [Create a flow in a solution](/flow/create-flow-solution).
+
+1. Sign in to [Power Automate](https://flow.microsoft.com/signin), select the **My flows** tab, and then select **Create from blank**.
 
 
 1. Sign in to [Power Automate](https://flow.microsoft.com/), select the **My flows** tab, and then select **New > +Instant-from blank**.
@@ -33,6 +34,8 @@ ms.reviewer: v-dehaas
 
 Congratulations! You've created a flow that uses a language detection model. Select **Save** on the top right and then select **Test** to try out your flow.
 
-### Related topic
+
+### See also
 
 [Language detection overview](prebuilt-language-detection.md)
+

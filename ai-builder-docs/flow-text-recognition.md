@@ -2,7 +2,6 @@
 title: Use the text recognition prebuilt model in Power Automate - AI Builder | Microsoft Docs
 description: Provides information about how to text recognition prebuilt model in Power Automate 
 author: alanabrito
-
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
@@ -11,13 +10,10 @@ ms.author: alanab
 ms.reviewer: v-dehaas
 ---
 
-
 # Use the text recognition prebuilt model in Power Automate
-
 
 > [!IMPORTANT]
  > To use AI Builder models in Power Automate, you have to create the flow inside a solution. The steps below won't work if you don't follow these instructions first: [Create a flow in a solution](/flow/create-flow-solution).
-
 
 1. Sign in to [Power Automate](https://flow.microsoft.com/), select the **My flows** tab, and then select **New > +Instant-from blank**.
 1. Name your flow, select **Manually trigger a flow** under **Choose how to trigger this flow**, and then select **Create**.
@@ -36,6 +32,7 @@ ms.reviewer: v-dehaas
 
 Congratulations! You've created a flow that uses a text recognition model. You can continue to build on this flow until it suits your needs. Select **Save** on the top right, and then select **Test** to try out your flow. 
 
-### Related topic
+### See also
 
 [Text recognitionn overview](prebuilt-text-recognition.md)
+

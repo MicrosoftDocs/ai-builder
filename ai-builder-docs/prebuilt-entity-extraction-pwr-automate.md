@@ -1,8 +1,7 @@
 ---
-title: Use entity extraction model in Power Automate -  AI Builder | Microsoft Docs
+title: Use entity extraction model in Power Automate - AI Builder | Microsoft Docs
 description: Provides step by step instructions to use AI Builder entity extraction in Power Automate.
 author: mfotedar
-
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
@@ -11,7 +10,7 @@ ms.author: mfotedar
 ms.reviewer: v-dehaas
 ---
 
-# Use an entity extraction prebuilt model in Power Automate
+# Use the entity extraction prebuilt model in Power Automate
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -31,10 +30,11 @@ ms.reviewer: v-dehaas
    > [!div class="mx-imgBorder"]
    > ![Choose an a action'](media/flow-EE-prebuilt2.png "Send an email")
 
-Congratulations! You've created a flow that uses a entity extraction model. Select **Save** on the top right and then select Test to try out your flow.
 
-### Related information:
+Congratulations! You've created a flow that uses an entity extraction model. Select **Save** in the upper-right corner, and then select **Test** to try out your flow.
 
-[Entity extraction model](prebuilt-entity-extraction.md)
+### See also
 
+[Entity extraction prebuilt model](prebuilt-entity-extraction.md)  
 [AI Builder in Power Automate overview](use-in-flow-overview.md)
+

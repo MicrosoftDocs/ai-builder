@@ -1,8 +1,7 @@
 ---
-title: Use your prediction model in Power Automate-  AI Builder | Microsoft Docs
-description: Describes how to create a Power Automate flow that uses the real-time prediction feature.  
+title: Use your prediction model in Power Automate- AI Builder | Microsoft Docs
+description: Describes how to create a Power Automate flow that uses the real-time prediction feature.
 author: Dean-Haas
-
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
@@ -18,26 +17,27 @@ ms.reviewer: v-dehaas
 > [!IMPORTANT]
  > To use AI Builder models in Power Automate, you have to create the flow inside a solution. The steps below won't work if you don't follow these instructions first: [Create a flow in a solution](/flow/create-flow-solution).
 
-To use real-time prediction in Power Automate. Follow these steps to build a flow:
-
 1. Sign in to [Power Automate](https://flow.microsoft.com/).
-1. On the Flows tab, click "New" and select the type. (sample is from "Automated - from blank")
-1. Select the desired trigger and then select create.
-1. Configure trigger and add any additional steps to prep data.
+
+1. On the **Flows** tab, select **New**, and then select the type. (sample is from "Automated - from blank")<!--What does this mean? Can you put it in context a little better?-->
+
+1. Select the trigger you want, and then select **Create**.
+
+1. Configure the trigger and add any additional steps to prepare data.
 
 > [!div class="mx-imgBorder"]
-> ![Configure trigger](media/predict-configure-trigger.png "Configure trigger")
+> ![Configure the trigger](media/predict-configure-trigger.png "Configure the trigger")
 
-1. Add the "Predict" action. 
+1. Add the **Predict** action.
+
 1. Complete all fields using your data, or data from previous steps in the flow.
-1. Update the record with prediction output.
 
-Congratulations! You have created a flow that uses the real-time prediction feature in AI Builder
+1. Update the record by using prediction output.
 
-### Related information
+Congratulations! You've created a flow that uses the real-time prediction feature in AI Builder.
 
-[Use your prediction model](prediction-use.md)
+### See also
 
-[Train your model](train-model.md)
-
-[Publish your model](publish-model.md)
+[Use your prediction model](prediction-use.md)  
+[Train your model in AI Builder](train-model.md)  
+[Publish your model in AI Builder](publish-model.md)

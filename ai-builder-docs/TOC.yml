@@ -18,17 +18,17 @@
     href: model-types.md
   - name: Build a model
     href: build-model.md
-  - name: Train a model
+  - name: Train your model
     href: train-model.md
-  - name: Manage a model
+  - name: Manage your model
     href: manage-model.md
-  - name: Publish a model
+  - name: Publish your model
     href: publish-model.md
   - name: Use your model
     href: use-model.md
-  - name: Share a model
+  - name: Share your model
     href: share-model.md
-  - name: Distribute a model
+  - name: Distribute your model
     href: distribute-model.md
 - name: Custom AI models
   items:
@@ -119,7 +119,7 @@
   - name: Overview
     href: prebuilt-overview.md
   - name: Business card reader
-    href: prebuilt-business-card.md   
+    href: prebuilt-business-card.md 
   - name: Category classification (preview)
     href: prebuilt-category-classification.md
   - name: Entity extraction (preview)
@@ -149,7 +149,7 @@
     - name: Object detection model
       href: object-detection-model-in-flow.md
     - name: Prediction model
-      href: prediction-pwr-automate.md    
+      href: prediction-pwr-automate.md
   - name: Use a prebuilt AI Builder model in Power Automate
     items:
     - name: Business card reader model
@@ -180,7 +180,7 @@
     href: form-processor-component-in-powerapps.md
   - name: Use the object detector component in Power Apps
     href: object-detector-component-in-powerapps.md
-  - name: Add text-based AI models in Power Apps using formulas (Preview)
+  - name: Add text-based AI models in Power Apps using formulas (preview)
     href: formula-bar.md
   - name: Use the business card reader component in Power Apps
     items:
