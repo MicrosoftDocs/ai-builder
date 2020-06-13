@@ -1,8 +1,7 @@
 ---
 title: Use the business card reader prebuilt model in Power Automate - AI Builder | Microsoft Docs
-description: Provides information about how to  use the AI Builder business card reader prebuilt model in Power Automate
+description: Provides information about how to use the AI Builder business card reader prebuilt model in Power Automate
 author: alanabrito
-
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
@@ -16,6 +15,7 @@ ms.reviewer: v-dehaas
 > [!IMPORTANT]
  > To use AI Builder models in Power Automate, you have to create the flow inside a solution. The steps below won't work if you don't follow these instructions first: [Create a flow in a solution](/flow/create-flow-solution).
 
+
 1. Sign in to [Power Automate](https://flow.microsoft.com/), select the **My flows** tab, and then select **New > +Instant-from blank**.
 1. Name your flow, select **Manually trigger a flow** under **Choose how to trigger this flow**, and then select **Create**.
 1. Expand **Manually trigger a flow**, select **+Add an input**, select **File** as the input type, and set as input title **My Image**.
@@ -26,8 +26,9 @@ ms.reviewer: v-dehaas
     > [!div class="mx-imgBorder"]
     > ![Specify my image](media/flow-bcr.png "Specify my image")
 
+1. Specify the **My Image** field from the trigger in the image input for your flow.
 
-Congratulations! You've created a flow that uses the business card reader AI model. Select  **Save**  on the top right, and then select  **Test**  to try out your flow.
+Congratulations! You've created a flow that uses the business card reader AI model. Select **Save** in the upper-right corner, and then select **Test** to try out your flow.
 
 ## Example business card reader flow
 The following example shows a new contact being created in Common Data Service using the business card data.
@@ -38,4 +39,6 @@ The following example shows a new contact being created in Common Data Service u
 
 ### Related topic
 
+
 [Business card reader overview](prebuilt-business-card.md)
+
