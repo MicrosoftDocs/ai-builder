@@ -45,7 +45,7 @@ To learn more about all the triggers and actions you can use, see [Power Automat
 ### Input
 |Name |Required |Type |Description |Values |
 |---------|---------|---------|---------|---------|
-|**AI Model** |Yes |list |Object detection model to use for analysis|Trained and published object detection models |
+|**AI Model** |Yes |model |Object detection model to use for analysis|Trained and published object detection models |
 |**Image** |Yes |file |Image to process| |
 
 
