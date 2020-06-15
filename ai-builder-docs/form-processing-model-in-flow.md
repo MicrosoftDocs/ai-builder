@@ -43,7 +43,7 @@ Congratulations! You've created a flow that uses an AI Builder form processing m
 ### Input
 |Name |Required |Type |Description |Values |
 |---------|---------|---------|---------|---------|
-|**AI Model** |Yes |list |Form processing model to use for analysis|Trained and published form processing models |
+|**AI Model** |Yes |model |Form processing model to use for analysis|Trained and published form processing models |
 |**Document type** |Yes |list |The file type of the form to analyze|PDF Document (.pdf), JPEG Image (.jpeg), PNG Image (.png) |
 |**Form** |Yes |file |Form to process| |
 
