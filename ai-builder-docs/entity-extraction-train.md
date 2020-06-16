@@ -10,9 +10,7 @@ ms.author: mfotedar
 ms.reviewer: v-dehaas
 ---
 
-# Train and publish your entity extraction custom model 
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
+# Train and publish your entity extraction custom model
 
 After you create your entity extraction model, you can train and publish it to make it available.
 
