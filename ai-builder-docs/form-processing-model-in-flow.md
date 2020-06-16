@@ -1,93 +1,40 @@
 ---
-title: Use form processing model in Microsoft Flow -  AI Builder | Microsoft Docs
-description: Provides information about how to use a form processing model in Microsoft Flow
+title: Use the form processing model in Power Automate - AI Builder | Microsoft Docs
+description: Provides information about how to use a form processing model in Power Automate
 author: JoeFernandezMS
-manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/06/2019
+ms.date: 12/30/2019
 ms.author: jofernan
 ms.reviewer: v-dehaas
 ---
 
-# Use form processing model in Microsoft Flow
+# Use a form-processing model in Power Automate
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
+ > [!IMPORTANT]
+ > To use AI Builder models in Power Automate, you have to create the flow inside a solution. The steps below won't work if you don't follow these instructions first: [Create a flow in a solution](/flow/create-flow-solution).
 
-## Create your flow
 
-1. Sign in to [Microsoft Flow](https://flow.microsoft.com/), select the **Solutions** tab, select a solution or create a new one then create a new flow.
-2. Search for *manually*, select **Manually trigger a flow** in the list of triggers, and then select **+Add an input**.
-3. Select **File** and set **My Document** as input title.
-4. Select **+ New step**, search for **Predict**, and then select **Predict Common Data Service (current Environment)** in the list of actions.
-6. Select the form processing model you want to use, and specify the following as **Request Payload**:
-    
-    -	For a .jpeg image of the form:
-
-        ```json
-        {
-            "base64Encoded": "EXPRESSION",
-    	    "mimeType": "image/jpeg"
-        }
-        ```
-
-    - 	For a .pdf document of the form:
-
-          ```json
-         {
-             "base64Encoded": "EXPRESSION",
-    	    "mimeType": "application/pdf"
-        }
-           ```
-
-    - In the formula bar on the right, replace **EXPRESSION** with the following expression:
-    
-        string(triggerBody()?['file']?['contentBytes'])
-
-        > [!div class="mx-imgBorder"]
-        > ![Replace expression screens](media/replace-expression.png "Replace expression screens")
-    
- > [!NOTE]
- > Depending on which connector the file comes from, the expression will need to be enclosed by base64() instead of string().
-
-## Test and edit your flow
-
-1. Select **Test** on the upper right, select **I’ll perform the trigger action**,  and then select **Save & Test**.
-10.	Import a document that can be processed by your trained form processing model and then select **Run flow**.
-12.	Copy the results to an editor like Visual Studio Code and remove all the " \\" characters.
-13.	Back on the Flow editor,  select **+ New step**, search for **Parse JSON**, and then select **Parse JSON – Data Operations** from the list of actions.
+1. Sign in to [Power Automate](https://flow.microsoft.com/), select the **My flows** tab, and then select **New > +Instant-from blank**.
+1. Name your flow, select **Manually trigger a flow** under **Choose how to trigger this flow**, and then select **Create**.
+1. Expand **Manually trigger a flow**, select **+Add an input**, select **File** as the input type, and set as input title **File Content**.
+1. Select **+ New step**, search for **AI Builder** in the Search for filters and actions box, and then select **Process and save information from forms** in the list of actions.
+1.	Select the form processing model you want to use, select the Document type, and in the **Document** field add **File Content** from the trigger:
 
     > [!div class="mx-imgBorder"]
-    > ![Parse JSON screens](media/parse-json-forms.png "Parse JSON screens")
+    > ![Select file content](media/flow-select-file-content-2.png "Select file content")
+
+1. In the successive actions, you can use any fields and tables extracted by the AI Builder model. For example, let's say that our model is trained to extract the *Invoice Id* and the *Total Amount* value, and we want to post those to a Microsoft Teams channel. Just add the **Post a message to Teams** action, and then select your fields from the list of tokens.
+
+    > [!NOTE]
+    >- To retreive the value for a field, select **<field_name> value** . For example, for the *INVOICE* field, select **INVOICE value**.
+    >- To retrieve the confidence score for a field, select **<field_name> confidence score** . For example, for the *INVOICE* field, select **INVOICE confidence score**.
     
-15.	In the Parse JSON screen, next to **Content**, select **Response Payload**.
-16. Select **Use sample payload to generate schema link**, paste the output from your test, and then select **Done**.
-18.	Copy the generated schema, paste it into an editor like Visual Studio Code, replace all instances of **integer** with **number**, and then copy the modified schema back into the Parse JSON screen in Microsoft Flow.
-
     > [!div class="mx-imgBorder"]
-    > ![Visual Studio  screen](media/visual-studio-replace-integer.png "Visual Studio screen")
+    > ![Form processing flow overview](media/flow-fp-overview-2.png "Form processing flow overview")
 
-    > [!div class="mx-imgBorder"]
-    > ![Paste schema](media/parse-json-schema.png "Paste schema")
 
-## Use form processing model output in Microsoft Flow
+### See also
 
-Now you can use the output of the form processing model in subsequent actions in Microsoft Flow.
-
-For example, to retrieve the value of a field named *Total*, you would use the following expression:  
-
-   ```json
-        body('Parse_JSON')?['predictionOutput']?['labels']?['Total']?['value']
-```
-
-To iterate over tables, put the entries value on an *Apply to each*' loop. To access the value of a column named *Amount*—for instance, inside the table—use the expression:
-    
-```json
-        items('Apply_to_each')?['Amount']?['value']
-
-```
-Congratulations! You have created a flow that leverages an AI Builder form processing model. Select **Save** on the top right, and then select **Test** to try out your flow.
-
-### Related topic
-[Form processing model overview](form-processing-model-overview.md)
+[Overview of the form-processing model](form-processing-model-overview.md)
