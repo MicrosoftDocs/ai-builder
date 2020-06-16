@@ -24,7 +24,7 @@ ms.reviewer: v-dehaas
     > [!div class="mx-imgBorder"]
     > ![Trigger text recognition flow](media/trigger-text-recognition-2.png "Trigger text recognition flow")
 
-1. To process results, select **+New step** and select **Appy to each**. In the field, select **lines** from the AI Builder model. This will automatically create another Apply to each action.
+1. To process results, select **+New step** and select **Apply to each**. In the field, select **lines** from the AI Builder model. This will automatically create another Apply to each action.
 1. In the successive actions, you can use any fields extracted by the AI Builder model. For example, you can extract **Text** field to a SharePoint list:
 
     > [!div class="mx-imgBorder"]
@@ -46,9 +46,9 @@ Congratulations! You've created a flow that uses a text recognition model. You c
 |---------|---------|---------|
 |**Text** |string |Strings containing the line of text detected|
 |**Page number** |string |Page number of the text detected|
-|**Coodinates** |float |Coodrinated of the text detected|
+|**Coodinates** |float |Coodrinates of the text detected|
 
 ### See also
 
-[Text recognitionn overview](prebuilt-text-recognition.md)
+[Text recognition overview](prebuilt-text-recognition.md)
 
