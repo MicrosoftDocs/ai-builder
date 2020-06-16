@@ -41,6 +41,26 @@ The following example shows the creation of a flow that is triggered by an image
 
 To learn more about all the triggers and actions you can use, see the [Power Automate documentation](/flow/getting-started).
 
+## Parameters
+### Input
+|Name |Required |Type |Description |Values |
+|---------|---------|---------|---------|---------|
+|**AI Model** |Yes |model |Object detection model to use for analysis|Trained and published object detection models |
+|**Image** |Yes |file |Image to process| |
+
+
+### Output
+|Name |Type |Description |Values |
+|---------|---------|---------|---------|
+|**Detected object name** |string |The detected object name|Among the tags defined at model creation |
+|**Detected object ID** |string |The detected object ID| |
+|**Confidence score** |float |How confident the model is in its prediction |Value in the range of 0 to 1. Values close to 1 indicate greater confidence that the extracted value is accurate |
+|**Coordinates height** |float |Coordinates left of the object| |
+|**Coordinates left** |float |Coordinates left of the object| |
+|**Coordinates top** |float |Coordinates top of the object| |
+|**Coordinates width** |float |Coordinates width of the object| |
+
+
 ### See also
 
 [Overview of the object detection model](object-detection-overview.md)

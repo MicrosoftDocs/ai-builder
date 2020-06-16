@@ -31,6 +31,21 @@ ms.reviewer: v-dehaas
     > ![Add key phrases screen](media/flow-add-phrase-2.png "Add key phrases in Common Data Service")
 
 
+
+## Parameters
+
+### Input
+|Name |Required |Type |Description |Values |
+|---------|---------|---------|---------|---------|
+|**Text** |Yes |string |Text to analyze |Text sentences |
+|**Language** |Yes |string | Language of the text to analyze | Item in a list of predefined languages or a language code (ex.: "en", "fr", "zh_chs", "ru")
+
+### Output
+|Name |Type |Description |
+|---------|---------|---------|
+|**Key phrase** |string |String denoting a key talking points in the analyzed text. As there could be multiple key phrases, selecting this parameter will create an apply to each loop |
+
+
 Congratulations! You have created a flow that uses your key phrase extraction AI model. Select **Save** on the top right and then select **Test** to try out your flow.
 
 ### See also

@@ -35,6 +35,20 @@ ms.reviewer: v-dehaas
 Congratulations! You've created a flow that uses a language detection model. Select **Save** on the top right and then select **Test** to try out your flow.
 
 
+## Parameters
+### Input
+|Name |Required |Type |Description |Values |
+|---------|---------|---------|---------|---------|
+|**Text** |Yes |string |Text to analyze|Text sentences |
+
+
+### Output
+|Name |Type |Description |Values |
+|---------|---------|---------|---------|
+|**results** |list |A list of languages detected in the input text |List of score and languages |
+|**Confidence score** |float |How confident the model is in its prediction|Value in the range of 0 to 1. Values close to 1 indicate greater confidence that the identified sentiment is accurate |
+|**Language** |string |Language inferred from the text| Language code (ex.: "en", "fr", "zh_chs", "ru") |
+
 ### See also
 
 [Language detection overview](prebuilt-language-detection.md)
