@@ -32,6 +32,22 @@ ms.reviewer: v-dehaas
 
 Congratulations! You've created a flow that uses a text recognition model. You can continue to build on this flow until it suits your needs. Select **Save** on the top right, and then select **Test** to try out your flow. 
 
+## Parameters
+### Input
+|Name |Required |Type |Description |
+|---------|---------|---------|---------|
+|**Image** |Yes |file |Image to analyze|
+
+### Output
+
+**Note:** The detected text is embedded into **lines** sub list of the **results** list. You first need to select the **lines** field from an **Apply to each** action to view all the following fields.
+
+|Name |Type |Description |
+|---------|---------|---------|
+|**Text** |string |Strings containing the line of text detected|
+|**Page number** |string |Page number of the text detected|
+|**Coodinates** |float |Coodrinated of the text detected|
+
 ### See also
 
 [Text recognitionn overview](prebuilt-text-recognition.md)

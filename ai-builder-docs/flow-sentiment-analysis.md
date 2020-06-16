@@ -37,6 +37,27 @@ ms.reviewer: v-dehaas
 
 Congratulations! You've created a flow that uses the sentiment analysis model. Select **Save** in the upper-right corner, and then select **Test** to try out your flow.
 
+## Parameters
+### Input
+|Name |Required |Type |Description |Values |
+|---------|---------|---------|---------|---------|
+|**Text** |Yes |string |Text to analyze |Text sentences |
+|**Language** |Yes |string | Language of the text to analyze | Item in a list of predefined languages or a language code (ex.: "en", "fr", "zh_chs", "ru")
+
+### Output
+|Name |Type |Description |Values |
+|---------|---------|---------|---------|
+|**Overall text sentiment** |string |Overall sentiment of the analyzed text|Positive, neutral or negative |
+|**Probability overall text is positive** |float |Probability of the positive sentiment in the analyzed text|Value in the range of 0 to 1. Values close to 1 indicate greater confidence that the identified sentiment is accurate |
+|**Probability overall text is negative** |float |Probability of the negative sentiment in the analyzed text|Value in the range of 0 to 1. Values close to 1 indicate greater confidence that the identified sentiment is accurate |
+|**Probability overall text is neutral** |float |Probability of the neutral sentiment in the analyzed text|Value in the range of 0 to 1. Values close to 1 indicate greater confidence that the identified sentiment is accurate |
+|**documentScores** |object |Object containing overall scores|Positive, neutral and negative scores |
+|**sentences** |List |List of sentence data structures containing sentences overall sentiment and scores |Sentence sentiment, positive, neutral and negative scores |
+|**Sentence sentiment** |string |Sentiment of the analyzed sentence|Positive, neutral or negative |
+|**Probability sentence is positive** |float |Probability of the positive sentiment in the analyzed sentence|Value in the range of 0 to 1. Values close to 1 indicate greater confidence that the identified sentiment is accurate |
+|**Probability sentence is negative** |float |Probability of the negative sentiment in the analyzed sentence|Value in the range of 0 to 1. Values close to 1 indicate greater confidence that the identified sentiment is accurate |
+|**Probability sentence is neutral** |float |Probability of the neutral sentiment in the analyzed sentence|Value in the range of 0 to 1. Values close to 1 indicate greater confidence that the identified sentiment is accurate |
+|**sentenceScores** |object |Data structure containing sentence scores|Positive, neutral and negative scores |
 
 ## Use sentiment analysis to analyze incoming Dynamics 365 emails
 
