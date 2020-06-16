@@ -10,9 +10,7 @@ ms.author: raaourik
 ms.reviewer: v-dehaas
 ---
 
-# Use a category classification custom model in Power Automate (preview)
-<!--Okay to add "preview"?-->
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
+# Use a category classification custom model in Power Automate
 
 > [!IMPORTANT]
  > To use AI Builder models in Power Automate, you have to create the flow inside a solution. The steps below won't work if you don't follow these instructions first: [Create a flow in a solution](/flow/create-flow-solution).

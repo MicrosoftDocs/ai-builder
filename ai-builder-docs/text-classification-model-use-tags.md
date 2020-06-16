@@ -10,8 +10,8 @@ ms.author: raaourik
 ms.reviewer: v-dehaas
 ---
 
-# Use a category classification model to generate tags (preview)
-<!--Title okay? This seems to be about the category classification model, but maybe it applies to the prediction model too?-->
+# Use a category classification model to generate tags
+
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
 ## Use in Power Automate

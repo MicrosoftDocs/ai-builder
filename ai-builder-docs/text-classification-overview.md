@@ -11,12 +11,9 @@ ms.author: raaourik
 ms.reviewer: v-dehaas
 ---
 
-# Overview of the category classification custom model (preview)
-<!--Okay to add "custom" to the title, to help distinguish it from the prebuilt model? -->
+# Overview of the category classification custom model
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
-
-The volume of text data is increasing exponentially for organizations. Channels such as email, documents, and social media<!--Via Writing Style Guide: you don't need "others" or "and so on" if you use "such as." --> contribute increasing amounts of text data. This data carries valuable information that—when extracted and acted on—helps you provide better products and services to your customers. Dealing with this ever-growing volume of<!--Suggested.--> data is often time-consuming and error-prone, and can lead<!--Suggested.--> to missed business opportunities and increased costs.
+The volume of text data is increasing exponentially for organizations. Channels such as email, documents, and social media contribute increasing amounts of text data. This data carries valuable information that—when extracted and acted on—helps you provide better products and services to your customers. Dealing with this ever-growing volume of data is often time-consuming and error-prone, and can lead to missed business opportunities and increased costs.
 
 Category classification is one of the fundamental natural language processing (NLP) challenges<!--Edit okay?-->. With category classification, you can identify text entries with tags to be used for things like:
 

@@ -12,8 +12,6 @@ ms.reviewer: v-dehaas
 
 # Understand category classification model performance
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
-
 After each training, AI Builder uses the test dataset to evaluate the quality and accuracy of your AI model. A summary page for your model shows your model training results, including a **Performance** score.
 
 AI Builder calculates your model's performance score based on the precision and recall of the prediction results:

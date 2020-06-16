@@ -12,8 +12,6 @@ ms.reviewer: v-dehaas
 
 # Use the entity extraction prebuilt model in Power Automate
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
-
 > [!IMPORTANT]
  > To use AI Builder models in Power Automate, you have to create the flow inside a solution. The steps below won't work if you don't follow these instructions first: [Create a flow in a solution](/flow/create-flow-solution).
 
@@ -53,4 +51,3 @@ Congratulations! You've created a flow that uses an entity extraction model. Sel
 
 [Entity extraction prebuilt model](prebuilt-entity-extraction.md)  
 [AI Builder in Power Automate overview](use-in-flow-overview.md)
-
