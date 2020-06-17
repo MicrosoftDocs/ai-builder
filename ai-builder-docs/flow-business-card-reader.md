@@ -50,7 +50,7 @@ The following example shows a new contact being created in Common Data Service u
 |---------|---------|---------|
 |**City** |string |The city address|
 |**Country** |string |The country address|
-|**Potal Code** |string |The postal code address|
+|**Postal Code** |string |The postal code address|
 |**PO Box** |string |The post office box address|
 |**State** |string |The state address|
 |**Street** |string |The street address|
