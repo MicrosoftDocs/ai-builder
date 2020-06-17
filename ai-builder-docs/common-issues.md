@@ -53,6 +53,6 @@ If this error occurs, decrease the concurrency level of your flow. For example, 
 
 If you get a **Dependency Timeout error (_408 – DependencyTimeout_)** when executing a form-processing model in Power Automate, the file you're trying to process might be too large in number of pages or file size. If the file has multiple pages, reduce the document to just the pages you need to process, or reduce the size of the file. 
 
-## Upload fails for documents and images in Form processing, Object detection models
+## Upload fails for documents and images in form processing, object detection models
 
 If documents or images fail to upload to your form processing or object detection models, it could be because Customer Managed Keys (CMK) is enabled on your tenant. CMK is not currently supported in AI Builder. You have to opt-out of CMK to train form processing or object detection models.  
