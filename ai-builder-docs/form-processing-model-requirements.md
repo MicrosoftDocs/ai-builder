@@ -20,6 +20,7 @@ Form processing works on input documents that meet the following requirements:
 - If your PDFs are password-locked, you must remove the lock before submitting them.
 - The combined file size of the documents used for training must not exceed 50 MB, and PDF documents shouldn't have more than 500 pages.
 - For images, dimensions must be between 530 &times; 100 and 4200 &times; 4200 pixels.
+- For PDFs, dimensions must be at most 17 x 17 inches, corresponding to Legal or A3 paper sizes and smaller.
 - If scanned from paper documents, scans should be high-quality images.
 - Must use the Latin alphabet (English characters).
 
