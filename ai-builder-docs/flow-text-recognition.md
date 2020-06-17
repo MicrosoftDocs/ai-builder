@@ -44,9 +44,10 @@ Congratulations! You've created a flow that uses a text recognition model. You c
 
 |Name |Type |Description |
 |---------|---------|---------|
-|**Text** |string |Strings containing the line of text detected|
-|**Page number** |string |Page number of the text detected|
-|**Coodinates** |float |Coodrinates of the text detected|
+
+|**Text** |string |Strings containing the line of text detected |
+|**Page number** |string |Page number of the text detected |
+|**Coordinates** |float |Coordinates of the text detected |
 
 ### See also
 
