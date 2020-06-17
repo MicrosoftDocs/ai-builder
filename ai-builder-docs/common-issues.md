@@ -55,4 +55,4 @@ If you get a **Dependency Timeout error (_408 – DependencyTimeout_)** when exe
 
 ## Upload fails for documents and images in Form processing, Object detection models
 
-If documents or images fail to upload to your Form processing or Object detection models it might be caused for having Customer Managed Keys (CMK) enabled on your tenant. CMK is not supported in AI Builder as of today so you will need to opt-out of CMK to be able to train Form processing or Object detection models.  
+If documents or images fail to upload to your form processing or object detection models, it could be because Customer Managed Keys (CMK) is enabled on your tenant. CMK is not currently supported in AI Builder. You have to opt-out of CMK to train form processing or object detection models.  
