@@ -20,9 +20,6 @@ After you publish your model, a **Use model** button appears in the **Performanc
 
 Create a schedule to generate predictions regularly in Common Data Service. To view the scheduling options available for your model type, see [Set a run schedule for your category classification model](text-classification-model-use-tags.md#set-run-schedule-on-common-data-service).
 
-> [!NOTE]
-> At this time, you can't use the schedule feature to run a category classification model.<!--Do you mean to mention some other kind of model here? If this is true, then this section really shouldn't be here, and text-classification-model-use-tags.md also needs to be modified.-->
-
 ## Run now
 
 Generate new predictions right away and save them to Common Data Service. To learn how to run your model immediately<!--I couldn't find anything that talked about the **Run now** command for different model types.-->, see [Run your prediction model](prediction-use.md#prediction-run).<!--Edit okay? The original link didn't seem to be right.-->
