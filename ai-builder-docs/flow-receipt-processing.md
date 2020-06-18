@@ -79,10 +79,10 @@ Congratulations! You've created a flow that uses the AI Builder receipt processi
 |**Confidence of total**|float|How confident the model is in its detection|
 |**Detected text**|string|Line of recognized text. Returned as a part of a list of text.|
 |**Page number of detected text**|integer|Which page the line of recognized text is found on. Returned as a part of a list of text.|
-|**Height of detected text**|float|Height of line of text. Returned as a part of a list of text.|
-|**Left position of detected text**|float|Left position of line of text. Returned as a part of a list of text.|
-|**Top position of detected text**|float|Top position of line of text. Returned as a part of a list of text.|
-|**Width of detected text**|float|Width of line of text. Returned as a part of a list of text.|
+|**Height of detected text**|float|Height of the line of text. Returned as a part of a list of text.|
+|**Left position of detected text**|float|Left position of the line of text. Returned as a part of a list of text.|
+|**Top position of detected text**|float|Top position of the line of text. Returned as a part of a list of text.|
+|**Width of detected text**|float|Width of the line of text. Returned as a part of a list of text.|
 
 
 ### Related topics
