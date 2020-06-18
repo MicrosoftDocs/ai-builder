@@ -15,11 +15,10 @@ ms.reviewer: v-dehaas
 > [!IMPORTANT]
  > To use AI Builder models in Power Automate, you have to create the flow inside a solution. The steps below won't work if you don't follow these instructions first: [Create a flow in a solution](/flow/create-flow-solution).
 
-
 1. Sign in to [Power Automate](https://flow.microsoft.com/), select the **My flows** tab, and then select **New > +Instant-from blank**.
 1. Name your flow, select **Manually trigger a flow** under **Choose how to trigger this flow**, and then select **Create**.
 1. Expand **Manually trigger a flow**, select **+Add an input**, select **File** as the input type, and set as input title **My Image**.
-1.	Select **+ New step**, search for **AI Builder** in the Search for filters and actions box, and then select **Read business card information** in the list of actions.
+1. Select **+ New step**, search for **AI Builder** in the Search for filters and actions box, and then select **Read business card information** in the list of actions.
 1. Leave **auto** in the **Image type** field as the type can be detected automatically.
 1. Specify the **My Image** field from the trigger in the **Image** input for your flow:
 
@@ -36,9 +35,10 @@ The following example shows a new contact being created in Common Data Service u
    > [!div class="mx-imgBorder"]
    > !['Create new record' screen](media/flow-business-card-overview-2.png "'Create new record' screen")
 
-
 ## Parameters
+
 ### Input
+
 |Name |Required |Type |Description |Values |
 |---------|---------|---------|---------|---------|
 |**Image type** |Yes |string |Mime type of the image|"auto" as default value. This field being obsolete, any value will be accepted. |
@@ -46,11 +46,12 @@ The following example shows a new contact being created in Common Data Service u
 
 
 ### Output
+
 |Name |Type |Description |
 |---------|---------|---------|
 |**City** |string |The city address|
 |**Country** |string |The country address|
-|**Potal Code** |string |The postal code address|
+|**Postal Code** |string |The postal code address|
 |**PO Box** |string |The post office box address|
 |**State** |string |The state address|
 |**Street** |string |The street address|
@@ -69,9 +70,6 @@ The following example shows a new contact being created in Common Data Service u
 |**Mobile phone** |string |The second phone or fax number|
 |**Website** |string |The website|
 
-
-## Related topic
-
+## See also
 
 [Business card reader overview](prebuilt-business-card.md)
-
