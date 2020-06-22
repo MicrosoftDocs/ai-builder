@@ -31,7 +31,7 @@ In order to get the best results, provide one clear photo or scan per receipt.
 - For PDF documents, only the first 200 pages are processed.
 
 >[!NOTE]
-> Different languages interpret **,** and **.** differently. When working with users from different geographies, you can specify the language of date and currency text using the [Value](/powerapps/maker/canvas-apps/functions/function-value), [DateValue](/powerapps/maker/canvas-apps/functions/function-datevalue-timevalue), and [TimeValue](/powerapps/maker/canvas-apps/functions/function-datevalue-timevalue) functions.
+> Different languages interpret **,** and **.** differently. When working with users from different geographies, you can specify the language of currency text using the [Value](/powerapps/maker/canvas-apps/functions/function-value) function. To interpret dates and times correctly, you can specify the language using the [DateValue](/powerapps/maker/canvas-apps/functions/function-datevalue-timevalue) and [TimeValue](/powerapps/maker/canvas-apps/functions/function-datevalue-timevalue) functions.
 
 ## Receipt properties
 |Property|Definition|
