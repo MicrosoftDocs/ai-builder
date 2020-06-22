@@ -30,6 +30,9 @@ In order to get the best results, provide one clear photo or scan per receipt.
 - PDF dimensions must be at most 17 x 17 inches, which is the equivalent of the Legal or A3 paper sizes or smaller.
 - For PDF documents, only the first 200 pages are processed.
 
+>[!NOTE]
+> Different languages interpret **,** and **.** differently. When working with users from different geographies, you can specify the language of date and currency text using the [Value](/powerapps/maker/canvas-apps/functions/function-value), [DateValue](/powerapps/maker/canvas-apps/functions/function-datevalue-timevalue), and [TimeValue](/powerapps/maker/canvas-apps/functions/function-datevalue-timevalue) functions.
+
 ## Receipt properties
 |Property|Definition|
 |---------|---------|
