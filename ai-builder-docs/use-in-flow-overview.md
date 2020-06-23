@@ -1,8 +1,7 @@
 ---
-title: AI Builder in Power Automate overview -  AI Builder | Microsoft Docs
+title: AI Builder in Power Automate overview - AI Builder | Microsoft Docs
 description: Provides an overview of how to create automated flows by using AI Builder in Power Automate.
 author: Dean-Haas
-
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
@@ -13,15 +12,15 @@ ms.reviewer: kvivek
 
 # AI Builder in Power Automate overview
 
-Power Automate is a service that helps you create automated workflows between your favorite apps and services to synchronize files, get notifications, collect data, and more. More information: [Power Automate docs](https://docs.microsoft.com/power-automate). 
+Power Automate is a service that helps you create automated workflows between your favorite apps and services to synchronize files, get notifications, collect data, and more. More information: [Power Automate docs](https://docs.microsoft.com/power-automate) 
 
-You can use your published AI models, as well as some AI Builder prebuilt models in Power Automate.
+You can use your published AI models in addition to some AI Builder prebuilt models in Power Automate.
 
 ### Next step
 
-- [Prerequisites](use-in-flow-prereq.md)
+[Prerequisites](use-in-flow-prereq.md)
 
-### Related content
+### See also
 
-- [Feature availability by region](availability-region.md)
-- [AI Builder in Power Apps](use-in-powerapps-overview.md)
+[Feature availability by region](availability-region.md)  
+[AI Builder in Power Apps overview](use-in-powerapps-overview.md)
