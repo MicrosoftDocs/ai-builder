@@ -30,9 +30,6 @@ In order to get the best results, provide one clear photo or scan per receipt.
 - PDF dimensions must be at most 17 x 17 inches, which is the equivalent of the Legal or A3 paper sizes or smaller.
 - For PDF documents, only the first 200 pages are processed.
 
->[!NOTE]
-> Different languages interpret **,** and **.** differently. When working with users from different geographies, you can specify the language of currency text using the [Value](/powerapps/maker/canvas-apps/functions/function-value) function. To interpret dates and times correctly, you can specify the language using the [DateValue](/powerapps/maker/canvas-apps/functions/function-datevalue-timevalue) and [TimeValue](/powerapps/maker/canvas-apps/functions/function-datevalue-timevalue) functions.
-
 ## Receipt properties
 |Property|Definition|
 |---------|---------|
@@ -46,6 +43,9 @@ In order to get the best results, provide one clear photo or scan per receipt.
 |**Tax**|Tax|
 |**Tip**|Tip|
 |**Total**|Total|
+
+>[!NOTE]
+> Receipt values are returned as strings. To manipulate them as numbers, you can use the [Value](/powerapps/maker/canvas-apps/functions/function-value) function. To manipulate them as dates or times, you can use the [DateValue](/powerapps/maker/canvas-apps/functions/function-datevalue-timevalue) and [TimeValue](/powerapps/maker/canvas-apps/functions/function-datevalue-timevalue) functions. You can also specify the language with a language tag, such as "en-US".
 
 ## Additional properties
 |Property|Definition|
