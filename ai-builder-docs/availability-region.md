@@ -31,13 +31,14 @@ The following table shows which AI Builder features are available in each region
 |Form processing |GA |GA |GA |GA |GA |GA |GA |GA |
 |Object detection|GA |GA |-|GA |GA |-| GA |GA |
 |Prediction|GA|GA|GA|GA|GA|GA|GA|GA|
-|Category classification|Preview |Preview |Preview |Preview |-|Preview |Preview |Preview |
+|Category classification|GA|GA |GA| - |GA |GA|GA |GA|
 |Business card reader    |GA|GA |GA|GA|GA |GA|GA |GA|
 |Key phrase extraction |GA|GA |GA |GA |GA |GA |GA |GA |
 |Language detection |GA |GA |GA |GA |GA |GA |GA |GA |
 |Text recognition   |GA |GA |GA |GA |GA |GA |GA |GA |
 |Sentiment analysis |GA |GA |GA |GA |GA |GA |GA |GA |
-|Entity Extraction |Preview |Preview |Preview |Preview |-|Preview |Preview |Preview |
+|Entity Extraction |GA|GA |GA|GA|GA |GA|GA |GA|
+|Prebuilt category classification|Preview |Preview |Preview |Preview |-|Preview |Preview |Preview |
 
 ### Related content
 
