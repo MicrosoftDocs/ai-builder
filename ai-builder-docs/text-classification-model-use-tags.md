@@ -22,9 +22,12 @@ If you want to use your trained model in Power Automate, see [Use a category cla
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
 
-Go to the **Run** view in the **Model settings** panel to set the run schedule. To configure your model to run on your database and generate predictions, select **Generate predictions when new data is added**. 
+Go to the **Run** view in the **Model settings** panel to set the run schedule. To configure your model to run on your database and generate predictions, select **Generate predictions when new data is added**.
 
 Your model runs whenever a new record is added to its entity.
+
+> [!NOTE]
+>You can’t set run schedule for imported category classification models.
 
 ## Use in Power Apps
 

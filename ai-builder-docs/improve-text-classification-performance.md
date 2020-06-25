@@ -37,7 +37,6 @@ Cleaning your data can avoid some types of training errors and improve model per
 
 ## More tips
 
-- There should be at least 100 text records per tag, meaning that each tag has been used to label at least 100 text entries.
 - Make sure your use of tags is balanced in your training data. For example: You have four tags for 100 text items. The two first tags (*tag1* and *tag2*) are used for 90 text items, but the other two (*tag3* and *tag4*) are only used on the remaining 10 text items. The lack of balance might cause your model to struggle to correctly predict *tag3* or *tag4*.
 - Make sure you train your model using data that's similar to the what you expect to use the model for.  
 
