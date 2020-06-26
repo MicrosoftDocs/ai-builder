@@ -10,7 +10,9 @@ ms.author: raaourik
 ms.reviewer: v-dehaas
 ---
 
+
 # Use a category classification model to generate tags
+
 
 ## Use in Power Automate
 

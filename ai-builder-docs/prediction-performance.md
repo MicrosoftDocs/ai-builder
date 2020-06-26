@@ -27,7 +27,6 @@ After each training, AI Builder shows a grade to help you  evaluate your model's
 |A|It might still be possible to improve the model, but this is the best grade you can get. |
 |B|The model is correct in a lot of the cases. Can it be improved? That depends on your unique circumstances, data, and requirements. |
 |C|The model is doing slightly better than a random guess. It might be acceptable for some applications, but in most cases, this is a model that you'd continue to tweak and improve.  |
-
 |D|Something's wrong. Your model is either performing worse than we'd expect a random guess to perform ([underfit model](manage-model.md#underfit-models)). Or, it's performing so well (at or near 100%) that you've probably got a data field that is directly correlated  to the result ([overfit model](manage-model.md#overfit-models)) .
 
 * More information about [underfit models](manage-model.md#underfit-models)
@@ -43,7 +42,7 @@ Let's say your model predicts whether a shipment will arrive on time. If your hi
 #### Binary historical data example
 
 This example shows the accuracy ranges for each grade when the historical data contains different on-time rates for a binary prediction.
-<!--note from editor: En dash for number ranges is via Writing Style Guide. -->
+
 | Grade | Accuracy range for historical 25% on-time rate | Accuracy range for historical 50% on-time rate | Accuracy range for historical 80% on-time rate | Accuracy range for historical 95% on-time rate |
 |-------|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|
 | A | 92.5 &ndash; <99.3% | 90 &ndash; 98% | 93 &ndash; <99% | 98.1 &ndash; <99.8% |
