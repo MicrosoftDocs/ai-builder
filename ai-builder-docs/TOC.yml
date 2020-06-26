@@ -54,7 +54,7 @@
         href: prediction-training-report.md
     - name: Use your prediction model
       href: prediction-use.md
-  - name: Category classification AI model (preview)
+  - name: Category classification AI model
     items:
     - name: Overview
       href: text-classification-overview.md
@@ -76,7 +76,7 @@
       href: text-classification-view-predictions.md
     - name: Use generated tags
       href: text-classification-model-use-tags.md
-  - name: Entity extraction AI model (preview)
+  - name: Entity extraction AI model
     items:
     - name: Overview
       href: entity-extraction-overview.md
@@ -120,9 +120,9 @@
     href: prebuilt-overview.md
   - name: Business card reader
     href: prebuilt-business-card.md 
-  - name: Category classification (preview)
+  - name: Category classification
     href: prebuilt-category-classification.md
-  - name: Entity extraction (preview)
+  - name: Entity extraction 
     href: prebuilt-entity-extraction.md
   - name: Key phrase extraction
     href: prebuilt-key-phrase.md
@@ -140,9 +140,9 @@
     href: use-in-flow-prereq.md
   - name: Use a custom AI Builder model in Power Automate
     items:
-    - name: Category classification model (preview)
+    - name: Category classification model
       href: text-classification-model-in-flow.md
-    - name: Entity extraction model (preview)
+    - name: Entity extraction model 
       href: entity-extraction-pwr-automate.md
     - name: Form processing model
       href: form-processing-model-in-flow.md
@@ -154,9 +154,9 @@
     items:
     - name: Business card reader model
       href: flow-business-card-reader.md
-    - name: Category classification model (preview)
+    - name: Category classification model 
       href: prebuilt-category-classification-pwr-automate.md    
-    - name: Entity extraction model (preview)
+    - name: Entity extraction model
       href: prebuilt-entity-extraction-pwr-automate.md
     - name: Key phrase extraction model
       href: flow-key-phrase-extraction.md
