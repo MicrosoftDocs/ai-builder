@@ -10,9 +10,7 @@ ms.author: mfotedar
 ms.reviewer: v-dehaas
 ---
 
-# Entity extraction prebuilt model (preview)
-<!--Edit to the title okay? To match its sister topic about category classification.-->
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
+# Entity extraction prebuilt model 
 
 The prebuilt entity extraction model recognizes specific data from text that's of interest to your business. The model identifies key elements from text, and then classifies them into predefined categories. This can help to transform unstructured data into structured data that's machine-readable. You can then apply processing to retrieve information, extract facts, and answer questions.
 

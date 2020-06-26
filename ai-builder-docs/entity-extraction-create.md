@@ -12,8 +12,6 @@ ms.reviewer: v-dehaas
 
 # Create an entity extraction custom model
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
-
 ## Create your model
 
 To create your custom entity extraction model:

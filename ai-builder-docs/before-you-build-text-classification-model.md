@@ -26,8 +26,9 @@ If you don't have training data and want to try AI Builder category classificati
 ## Data format
 
 - Text and tags should be stored in text fields under the same entity.
-- Tags should be separated by using a delimiter. The following delimiters are supported<!--Writing Style Guide says about "we": "In general, don't use." ("We recommend" is an exception to this.) -->: comma ( , ), semicolon ( ; ), tab character, or no separator.
-- Tags that contain fewer than 10 text items are ignored.
+- Tags should be separated by using a delimiter. The following delimiters are supported: comma ( , ), semicolon ( ; ), tab character, or no delimiter.
+- Tags that contain fewer than 10 distinct text items are ignored.
+- There can be up to 200 categories. 
 - Text must be fewer than 5,000 characters.
 
 If data is represented in a table, it looks like the following.
