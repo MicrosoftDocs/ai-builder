@@ -37,7 +37,7 @@ Congratulations! You've created a flow that uses an AI Builder entity extraction
 ### Input
 |Name |Required |Type |Description |Values |
 |---------|---------|---------|---------|---------|
-|**AI model** |Yes |model |Entity extraction model to use for analysis|Trained and published entity extraction models |
+|**AI model** |Yes |model |Entity extraction model to use for analysis|Trained and published entity extraction model |
 |**Text** |Yes |string |Text to analyze|Text sentences |
 |**Language** |Yes |string |Language of the text to analyze|"Detect automatically" or language code (ex.: "en", "fr", "zh_chs", "ru") |
 
