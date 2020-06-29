@@ -76,11 +76,11 @@ The  AI Builder capacity add-on can be purchased by a billing administrator in t
 
 The [AI Builder calculator](https://powerapps.microsoft.com/ai-builder-calculator/) helps estimate the required add-on capacity based on your estimated consumption.
 
-Some Microsoft products include some AI Builder capacity. Your environment admin can check entitlement in the Power Platform admin center in [Capacity add-ons](https://docs.microsoft.com/en-us/power-platform/admin/capacity-add-on). When this amount is not enough, you can complete it with 1 or several AI Builder capacity add-ons.
+Some Microsoft products include some AI Builder capacity. Your environment admin can check entitlement in the Power Platform admin center in [Capacity add-ons](https://docs.microsoft.com/power-platform/admin/capacity-add-on). When this amount is not enough, you can complete it with 1 or several AI Builder capacity add-ons.
 
 ### Allocate AI Builder capacity
 
-Once entitled to AI Builder capacity, an environment administrator has to allocate capacity for AI Builder to the environment before you can use it. Information about how to allocate capacity in the Power Platform admin center is available in [Capacity add-ons](https://docs.microsoft.com/en-us/power-platform/admin/capacity-add-on).
+Once entitled to AI Builder capacity, an environment administrator has to allocate capacity for AI Builder to the environment before you can use it. Information about how to allocate capacity in the Power Platform admin center is available in [Capacity add-ons](https://docs.microsoft.com/power-platform/admin/capacity-add-on).
 
 
 ### AI Builder paid licenses FAQ
