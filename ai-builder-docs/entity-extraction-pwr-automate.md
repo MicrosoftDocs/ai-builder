@@ -11,9 +11,7 @@ ms.author: mfotedar
 ms.reviewer: v-dehaas
 ---
 
-# Use an AI Builder custom entity extraction AI model in Power Automate (preview)
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
+# Use an AI Builder custom entity extraction AI model in Power Automate
 
 > [!IMPORTANT]
  > To use AI Builder models in Power Automate, you have to create the flow inside a solution. The steps below won't work if you don't follow these instructions first: [Create a flow in a solution](/flow/create-flow-solution).
@@ -35,6 +33,25 @@ ms.reviewer: v-dehaas
 Congratulations! You've created a flow that uses an AI Builder entity extraction model. Select **Save** on the top right, and then select **Test** to try out your flow.
 
 
-### Related topic
+## Parameters
+### Input
+|Name |Required |Type |Description |Values |
+|---------|---------|---------|---------|---------|
+|**AI model** |Yes |model |Entity extraction model to use for analysis|Trained and published entity extraction models |
+|**Text** |Yes |string |Text to analyze|Text sentences |
+|**Language** |Yes |string |Language of the text to analyze|"Detect automatically" or language code (ex.: "en", "fr", "zh_chs", "ru") |
+
+
+### Output
+|Name |Type |Description |Values |
+|---------|---------|---------|---------|
+|**Entity type** |string |Type of the entity|Example: DateTime or Organization |
+|**Entity value** |string |Content of the entity|Example: June 1 or Contoso |
+|**Confidence score** |float |How confident the model is in its prediction|Value in the range of 0 to 1. Values close to 1 indicate greater confidence that the extracted value is accurate |
+|**Starting location** |integer |Where the entity's first character appear in the line| |
+|**Character count** |integer |How long the entity is| |
+
+
+### See also
 
 [Entity extraction model overview](entity-extraction-overview.md)
