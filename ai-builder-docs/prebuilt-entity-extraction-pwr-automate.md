@@ -27,6 +27,9 @@ ms.reviewer: v-dehaas
 1. In the successive actions, you can use any fields extracted by the AI Builder model. For example, you can send an email using the **Entity type** and **Entity value** fields.
    > [!div class="mx-imgBorder"]
    > ![Choose an a action'](media/flow-eep-example.png "Send an email")
+   
+Congratulations! You've created a flow that uses an entity extraction model. Select **Save** in the upper-right corner, and then select **Test** to try out your flow.
+
 
 ## Parameters
 ### Input
@@ -44,8 +47,6 @@ ms.reviewer: v-dehaas
 |**Confidence score** |float |How confident the model is in its prediction|Value in the range of 0 to 1. Values close to 1 indicate greater confidence that the extracted value is accurate |
 |**Starting location** |integer |Where the entity's first character appear in the line| |
 |**Character count** |integer |How long the entity is| |
-
-Congratulations! You've created a flow that uses an entity extraction model. Select **Save** in the upper-right corner, and then select **Test** to try out your flow.
 
 ### See also
 
