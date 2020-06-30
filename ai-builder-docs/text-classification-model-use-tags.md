@@ -10,9 +10,9 @@ ms.author: raaourik
 ms.reviewer: v-dehaas
 ---
 
-# Use a category classification model to generate tags (preview)
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
+# Use a category classification model to generate tags
+
 
 ## Use in Power Automate
 
@@ -22,9 +22,14 @@ If you want to use your trained model in Power Automate, see [Use a category cla
 
 ## Set a run schedule on Common Data Service (preview)
 
-Go to the **Run** view in the **Model settings** panel to set the run schedule. To configure your model to run on your database and generate predictions, select **Generate predictions when new data is added**. 
-<!--I'm a bit confused. Is this is about prediction models or classification models? And, what entity does the next sentence refer to?-->
-Your model runs whenever a new record is added to that entity.
+[!INCLUDE [cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
+
+Go to the **Run** view in the **Model settings** panel to set the run schedule. To configure your model to run on your database and generate predictions, select **Generate predictions when new data is added**.
+
+Your model runs whenever a new record is added to its entity.
+
+> [!NOTE]
+>You can’t set run schedule for imported category classification models.
 
 ## Use in Power Apps
 

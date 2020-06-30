@@ -34,7 +34,6 @@ The documents you can scan with the text recognition model must have these chara
   - PNG
   - BMP
   - PDF
-  - TIFF
 - **Size**: 20 MB maximum
 
 ## Model output

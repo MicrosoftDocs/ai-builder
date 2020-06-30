@@ -12,10 +12,7 @@ ms.reviewer: v-dehaas
 
 # Entity extraction custom model requirements and limitations
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
-
 ## Data format 
-
 - Documents can't exceed 5,000 characters.
 
 ## Supported languages

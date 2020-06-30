@@ -28,6 +28,17 @@ The following table shows which AI Builder features are available in each region
 <!--In this table it might be nice to echo the order that the TOC follows, or maybe some other order? Alphabetical?-->
 |Feature |Asia |Australia |Canada |Europe |Japan |South America |United Kingdom  |United States |
 |:-------|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
+
+=======
+|**Custom models** |
+|Prediction|GA|GA|GA|GA|GA|GA|GA|GA|
+|Category classification|GA|GA |GA|GA |GA |GA|GA |GA|
+|Entity Extraction |GA|GA |GA|GA|GA |GA|GA |GA|
+|Object detection|GA |GA |-|GA |GA |-| GA |GA |
+|Form processing |GA |GA |GA |GA |GA |GA |GA |GA |
+||
+|**Prebuilt models** |
+
 |Business card reader    |GA|GA |GA|GA|GA |GA|GA |GA|
 |Category classification|Preview |Preview |Preview |Preview |-|Preview |Preview |Preview |
 |Entity extraction |Preview |Preview |Preview |Preview |-|Preview |Preview |Preview |
@@ -39,6 +50,7 @@ The following table shows which AI Builder features are available in each region
 |Receipt processing |Preview |Preview |Preview |Preview |Preview |Preview |Preview |Preview |
 |Sentiment analysis |GA |GA |GA |GA |GA |GA |GA |GA |
 |Text recognition   |GA |GA |GA |GA |GA |GA |GA |GA |
+
 
 ### Related content
 
