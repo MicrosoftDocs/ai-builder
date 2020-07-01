@@ -50,8 +50,6 @@ Congratulations! You've created a flow that uses a sentiment analysis model. Sel
 |---------|---------|---------|
 |Text |Translated version of the input text|Text sentences |
 |Detected language |Detected language of the input text if the field "Translated from" wasn't specified |Language code (ex.: "en", "fr", "zh_chs", "ru")|
-|Detected language confidence score |Probability of detected language of the input text |Value in the range of 0 to 1. Values close to 1 indicate greater confidence that the detected language is accurate |
-
 
 ### Related topic
 
