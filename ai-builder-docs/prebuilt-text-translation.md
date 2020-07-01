@@ -29,4 +29,3 @@ If you want to use this prebuilt model in Power Automate, you can find more info
 If text is detected and the target language defined, the text translation model will output the following information: 
 - **Text**:  Strings containing the translated text
 - **Detected language**: Script version of the language code (ex.: "en", "fr", "zh_chs", "ru") detected in the source text. The model will not detect the source language if it was specified by the user. 
-- **Detected language confidence**: Numeric value from 0 to 1 where values close to 1 indicate 100% confidence that the identified source language is true. The model will not detect the source language if it was specified by the user.
