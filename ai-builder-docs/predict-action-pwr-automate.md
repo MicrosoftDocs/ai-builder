@@ -58,29 +58,29 @@ The **Infer request** field value depends on the model type.
 ### Form processing model
 
 1. In the step **Manually trigger a flow**, add a **File** input and set its name to **File Content**.
-1. In the step **Manually trigger a flow**, add a **Text** input and set its name to **Mime Type**.
-1. In the step **Initialize variable**, enter a form processing model id.
-1. In the step **Predict**, enter following value in the **Infer request** field:
+2. In the step **Manually trigger a flow**, add a **Text** input and set its name to **Mime Type**.
+3. In the step **Initialize variable**, enter a form processing model id.
+4. In the step **Predict**, enter following value in the **Infer request** field:
 
-    {
-      "version": "2.0",
-      "requestv2": {
-        "@@odata.type": "Microsoft.Dynamics.CRM.expando",
-        "mimeType": "@{triggerBody()['text']}",
-        "base64Encoded": "@{string(triggerBody()?['file']?['contentBytes'])}"
-      }
-    }
+    *{*
+      *"version": "2.0",*
+      *"requestv2": {*
+        *"@@odata.type": "Microsoft.Dynamics.CRM.expando",*
+        *"mimeType": "@{triggerBody()['text']}",*
+        *"base64Encoded": "@{string(triggerBody()?['file']?['contentBytes'])}"*
+      *}*
+    *}*
 
-<<<Add image here>>>
+Add image here
 
-1. Select **Save** in the upper-right corner, and then select **Test** to try out your flow:
+5. Select **Save** in the upper-right corner, and then select **Test** to try out your flow:
 
-<<<Add image here>>>
+Add image here
 
-1. In the flow run details, get the model JSON output in the **OUTPUTS** section of the predict action. This is useful to build downstreams actions using values of the model.
+6. In the flow run details, get the model JSON output in the **OUTPUTS** section of the predict action. This is useful to build downstreams actions using values of the model.
 
-1. Go back to your flow in edit mode and select  **+ New step** and select the **Compose** action (or any other action to process your model output). Let's say your model output has the **Total** field, you can get it with the following formula:
+7. Go back to your flow in edit mode and select  **+ New step** and select the **Compose** action (or any other action to process your model output). Let's say your model output has the **Total** field, you can get it with the following formula:
 
-@{outputs('Predict')?['body/responsev2/predictionOutput/labels/Total/value']}
+  *@{outputs('Predict')?['body/responsev2/predictionOutput/labels/Total/value']}*
 
-<<<Add image here>>>
+Add image here
