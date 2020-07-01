@@ -18,6 +18,8 @@ ms.reviewer: v-dehaas
 
 You can use dedicated actions for each AI Builder model in Power Automate. However, the **Predict** action lets you use many AI Builder model types.
 
+## Use a custom of prebuilt model
+
 1. Sign in to [Power Automate](https://flow.microsoft.com/), select the **My flows** tab, and then select **New > +Instant-from blank**.
 1. Name your flow, select **Manually trigger a flow** under **Choose how to trigger this flow**, and then select **Create**.
 1. Select **+ New step**, search for **Predict** in the Search for filters and then select **Predict from AI Builder** or **Predict from Common Data Service**. Both actions offer the same features.
@@ -39,3 +41,46 @@ You can use dedicated actions for each AI Builder model in Power Automate. Howev
 >To learn more about the input and output parameters of each model, refer to the documentation explaining how to use the selected model in the following documentation sections:
 >- Use a custom AI Builder model in Power Automate
 >- Use a prebuilt AI Builder model in Power Automate
+
+## Use a dynamic model id (advanced usage)
+For some complex use cases, you may need to pass a model id dynamically to the predict action. For example if you want to process different type of invoices using multiple models, you may want to choose automatically a model depending on the type of invoice.
+
+In this section, we'll go though some examples to help you understand how  to configure the AI Builder predict action for this specifc purpose.
+
+1. Sign in to [Power Automate](https://flow.microsoft.com/), select the **My flows** tab, and then select **New > +Instant-from blank**.
+1. Name your flow, select **Manually trigger a flow** under **Choose how to trigger this flow**, and then select **Create**.
+1. Select **+ New step** and search for **Initialize variable**. Enter **Model id** as name, **String** as type, and the actual model id as value. 
+The model id can be found on the detail page of the model in Power Apps / AI Builder URL: *make.powerapps.com/environment/[environment id]/aibuilder/models/**[model id]*** 
+1. Select **+ New step**, search for **Predict** in the Search for filters and then select **Predict from AI Builder**. Select **Enter custom value** and enter **Model id** form previous step.
+
+The **Infer request** field value depends on the model type.
+
+### Form processing model
+
+1. In the step **Manually trigger a flow**, add a **File** input and set its name to **File Content**.
+1. In the step **Manually trigger a flow**, add a **Text** input and set its name to **Mime Type**.
+1. In the step **Initialize variable**, enter a form processing model id.
+1. In the step **Predict**, enter following value in the **Infer request** field:
+
+    {
+      "version": "2.0",
+      "requestv2": {
+        "@@odata.type": "Microsoft.Dynamics.CRM.expando",
+        "mimeType": "@{triggerBody()['text']}",
+        "base64Encoded": "@{string(triggerBody()?['file']?['contentBytes'])}"
+      }
+    }
+
+<<<Add image here>>>
+
+1. Select **Save** in the upper-right corner, and then select **Test** to try out your flow:
+
+<<<Add image here>>>
+
+1. In the flow run details, get the model JSON output in the **OUTPUTS** section of the predict action. This is useful to build downstreams actions using values of the model.
+
+1. Go back to your flow in edit mode and select  **+ New step** and select the **Compose** action (or any other action to process your model output). Let's say your model output has the **Total** field, you can get it with the following formula:
+
+@{outputs('Predict')?['body/responsev2/predictionOutput/labels/Total/value']}
+
+<<<Add image here>>>
