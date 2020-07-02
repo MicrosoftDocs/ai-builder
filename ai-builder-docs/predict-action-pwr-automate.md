@@ -42,6 +42,7 @@ You can use dedicated actions for each AI Builder model in Power Automate. Howev
 >- Use a custom AI Builder model in Power Automate
 >- Use a prebuilt AI Builder model in Power Automate
 
+
 ## Use a dynamic model id (advanced usage)
 For some complex use cases, you may need to pass a model id dynamically to the predict action. For example if you want to process different type of invoices using multiple models, you may want to choose automatically a model depending on the type of invoice.
 
@@ -71,16 +72,28 @@ The **Infer request** field value depends on the model type.
       *}*
     *}*
 
-Add image here
+Add image 1 here
 
 5. Select **Save** in the upper-right corner, and then select **Test** to try out your flow:
 
-Add image here
+Add image 2 here
 
 6. In the flow run details, get the model JSON output in the **OUTPUTS** section of the predict action. This is useful to build downstreams actions using values of the model.
+
+Add image 3 here
 
 7. Go back to your flow in edit mode and select  **+ New step** and select the **Compose** action (or any other action to process your model output). Let's say your model output has the **Total** field, you can get it with the following formula:
 
   *@{outputs('Predict')?['body/responsev2/predictionOutput/labels/Total/value']}*
 
-Add image here
+Add image 4 here
+
+
+### Object detection model
+
+Same process with following infer request at step 4:
+
+
+### Category classification model
+
+Same process with following infer request at step 4:
