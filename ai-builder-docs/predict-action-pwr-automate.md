@@ -18,7 +18,7 @@ ms.reviewer: v-dehaas
 
 You can use dedicated actions for each AI Builder model in Power Automate. However, the **Predict** action lets you use many AI Builder model types.
 
-## Use a custom of prebuilt model
+## Use a custom or prebuilt model
 
 1. Sign in to [Power Automate](https://flow.microsoft.com/), select the **My flows** tab, and then select **New > +Instant-from blank**.
 1. Name your flow, select **Manually trigger a flow** under **Choose how to trigger this flow**, and then select **Create**.
@@ -44,14 +44,17 @@ You can use dedicated actions for each AI Builder model in Power Automate. Howev
 
 
 ## Use a dynamic model id (advanced usage)
-For some complex use cases, you may need to pass a model id dynamically to the predict action. For example if you want to process different type of invoices using multiple models, you may want to choose automatically a model depending on the type of invoice.
+For some complex use cases, you may need to pass a model id dynamically to the predict action. For example, if you want to process different type of invoices using multiple models, you may want to choose automatically a model depending on the type of invoice.
 
-In this section, we'll go though some examples to help you understand how  to configure the AI Builder predict action for this specifc purpose.
+In this section, we'll explain you how to configure the AI Builder predict action for this specifc purpose depending on the model type.
 
 1. Sign in to [Power Automate](https://flow.microsoft.com/), select the **My flows** tab, and then select **New > +Instant-from blank**.
+
 1. Name your flow, select **Manually trigger a flow** under **Choose how to trigger this flow**, and then select **Create**.
+
 1. Select **+ New step** and search for **Initialize variable**. Enter **Model id** as name, **String** as type, and the actual model id as value. 
 The model id can be found on the detail page of the model in Power Apps / AI Builder URL: *make.powerapps.com/environment/[environment id]/aibuilder/models/**[model id]*** 
+
 1. Select **+ New step**, search for **Predict** in the Search for filters and then select **Predict from AI Builder**. Select **Enter custom value** and enter **Model id** form previous step.
 
 The **Infer request** field value depends on the model type.
