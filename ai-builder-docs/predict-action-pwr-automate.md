@@ -22,7 +22,7 @@ You can use dedicated actions for each AI Builder model in Power Automate. Howev
 
 1. Sign in to [Power Automate](https://flow.microsoft.com/), select the **My flows** tab, and then select **New > +Instant-from blank**.
 1. Name your flow, select **Manually trigger a flow** under **Choose how to trigger this flow**, and then select **Create**.
-1. Select **+ New step**, search for **Predict** in the Search for filters and then select **Predict from AI Builder** or **Predict from Common Data Service**. Both actions offer the same features.
+1. Select **+ New step**, search for **Predict** and select **Predict from AI Builder** or **Predict from Common Data Service**. Both actions offer the same features.
 
     > [!div class="mx-imgBorder"]
     > ![Predict action](media/predict-action.png "Predict action")
@@ -55,7 +55,7 @@ In this section, we'll explain you how to configure the AI Builder predict actio
 1. Select **+ New step** and search for **Initialize variable**. Enter **Model id** as name, **String** as type, and the actual model id as value. 
 The model id can be found in the URL of the model's detail page in Power Apps: *make.powerapps.com/environment/[environment id]/aibuilder/models/**[model id]*** 
 
-1. Select **+ New step**, search for **Predict** in the Search for filters and then select **Predict from AI Builder**. Select **Enter custom value** and enter **Model id** form previous step.
+1. Select **+ New step**, search for **Predict** and select **Predict from AI Builder**. Select **Enter custom value** and enter **Model id** form previous step.
 
 The **Infer request** field value depends on the model type.
 
@@ -66,41 +66,48 @@ The **Infer request** field value depends on the model type.
 3. In the step **Initialize variable**, enter a form processing model id.
 4. In the step **Predict**, enter following value in the **Infer request** field:
 
-    *{*
-      *"version": "2.0",*
-      *"requestv2": {*
-        *"@@odata.type": "Microsoft.Dynamics.CRM.expando",*
-        *"mimeType": "@{triggerBody()['text']}",*
-        *"base64Encoded": "@{string(triggerBody()?['file']?['contentBytes'])}"*
-      *}*
-    *}*
+*{"version": "2.0", "requestv2": {
+"@@odata.type": "Microsoft.Dynamics.CRM.expando",
+"mimeType": "@{triggerBody()['text']}",
+"base64Encoded": "@{string(triggerBody()?['file']?['contentBytes'])}"}}*
 
-    > [!div class="mx-imgBorder"]
-    > ![Predict action with dynamic model id](media/DynModelId-1.png "Predict action with dynamic model id")
+   > [!div class="mx-imgBorder"]
+   > ![Predict action with dynamic model id](media/DynModelId-1.png "Predict action with dynamic model id")
 
 5. Select **Save** in the upper-right corner, and then select **Test** to try out your flow:
 
-    > [!div class="mx-imgBorder"]
-    > ![Test predict action](media/DynModelId-2.png "Test predict action")
+   > [!div class="mx-imgBorder"]
+   > ![Test predict action](media/DynModelId-2.png "Test predict action")
 
 6. In the flow run details, get the model JSON output in the **OUTPUTS** section of the predict action. This is useful to build downstreams actions using values of the model.
 
-    > [!div class="mx-imgBorder"]
-    > ![Get output from run results](media/DynModelId-3.png "Get output from run results")
+   > [!div class="mx-imgBorder"]
+   > ![Get output from run results](media/DynModelId-3.png "Get output from run results")
 
 7. Go back to your flow in edit mode and select  **+ New step** and select the **Compose** action (or any other action to process your model output). Let's say your model output has the **Total** field, you can get it with the following formula:
 
-   *@{outputs('Predict')?['body/responsev2/predictionOutput/labels/Total/value']}*
+*@{outputs('Predict')?['body/responsev2/predictionOutput/labels/Total/value']}*
 
-    > [!div class="mx-imgBorder"]
-    > ![Use predict output](media/DynModelId-4.png "Use predict output")
+   > [!div class="mx-imgBorder"]
+   > ![Use predict output](media/DynModelId-4.png "Use predict output")
 
 
 ### Object detection model
 
-Same process with following infer request at step 4:
+Similar process with following infer request at step 4:
+
+*{"version": "2.0", "requestv2": {
+    "@@odata.type": "Microsoft.Dynamics.CRM.expando",
+    "base64Encoded": "@{string(triggerBody()?['file']?['contentBytes'])}"}}*
 
 
 ### Category classification model
 
-Same process with following infer request at step 4:
+Similar process with following infer request at step 4:
+
+*{"version": "2.0", "requestv2": {
+    "@@odata.type": "Microsoft.Dynamics.CRM.expando",
+    "language": "Detect automatically",
+    "text": "The text to categorize"}}*
+ 
+ 
