@@ -38,7 +38,8 @@ The following table shows which AI Builder features are available in each region
 |Language detection |GA |GA |GA |GA |GA |GA |GA |GA |
 |Text recognition   |GA |GA |GA |GA |GA |GA |GA |GA |
 |Sentiment analysis |GA |GA |GA |GA |GA |GA |GA |GA |
-|Entity Extraction |Preview |Preview |Preview |Preview |-|Preview |Preview |Preview |
+|Entity extraction |Preview |Preview |Preview |Preview |-|Preview |Preview |Preview |
+|Text translation |- |- |- |- |-|- |- |Preview |
 
 ### Related content
 
