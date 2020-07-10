@@ -26,6 +26,10 @@ See the data preparation section for your AI model type. Make sure your Common D
 
 Make sure that users of the business card reader component have access either to Common Data Service or to the AI Builder model entity configured in the business card reader component.
 
+## Code component removal
+
+This issue can occur with apps where AI Builder components were added using a faulty version of the component. By opening the app, the faulty components are removed. You should add again the AI builder components, solve any mapping issue you may have (renaming the newly added AI builder components with the name you have previously defined for the removed components may solve the mapping issues), then save and publish your app.
+
 ## When I scan images using AI Builder components in Power Apps, the output image rotation is wrong
 
 This issue can occur with the Google Chrome browser due to the way this browser handles image orientation. Some images in Power Apps might be rotated differently than you expect when using Chrome. To work around this issue, try a different browser.
