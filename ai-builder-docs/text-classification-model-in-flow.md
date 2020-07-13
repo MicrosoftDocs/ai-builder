@@ -1,8 +1,7 @@
 ---
-title: Use category classification model in Power Automate -  AI Builder | Microsoft Docs
+title: Use category classification model in Power Automate - AI Builder | Microsoft Docs
 description: Provides information about how to use a category classification model in Power Automate.
 author: raaourik
-
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
@@ -11,8 +10,8 @@ ms.author: raaourik
 ms.reviewer: v-dehaas
 ---
 
-# Use category classification model in Power Automate
 
+# Use a category classification custom model in Power Automate
 
 > [!IMPORTANT]
  > To use AI Builder models in Power Automate, you have to create the flow inside a solution. The steps below won't work if you don't follow these instructions first: [Create a flow in a solution](/flow/create-flow-solution).
@@ -50,6 +49,7 @@ Congratulations! You've created a flow that uses an AI Builder category classifi
 |**Confidence score** |float |How confident the model is in its prediction|Value in the range of 0 to 1. Values close to 1 indicate greater confidence that the extracted value is accurate |
 
 
+
 ### See also
 
-[Category classification model overview](text-classification-overview.md)
+[Overview of the category classification custom model](text-classification-overview.md)

@@ -1,8 +1,7 @@
 ---
-title: Use prebuilt category classification model in Power Automate -  AI Builder | Microsoft Docs
+title: Use prebuilt category classification model in Power Automate - AI Builder | Microsoft Docs
 description: Provides information about how to use a prebuilt category classification AI Builder model in Power Automate.
 author: nijemcevic
-
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
@@ -11,11 +10,11 @@ ms.author: tatn
 ms.reviewer: v-dehaas
 ---
 
-# Use prebuilt category classification model in Power Automate
-
+# Use the category classification prebuilt model in Power Automate
 
 > [!IMPORTANT]
  > To use AI Builder models in Power Automate, you have to create the flow inside a solution. The steps below won't work if you don't follow these instructions first: [Create a flow in a solution](/flow/create-flow-solution).
+
 
 1. Sign in to [Power Automate](https://flow.microsoft.com/), select the **My flows** tab, and then select **New > +Instant-from blank**.
 1. Name your flow, select **Manually trigger a flow** under **Choose how to trigger this flow**, and then select **Create**.
@@ -28,10 +27,13 @@ ms.reviewer: v-dehaas
 
 1. In the successive actions, you can use any fields and tables extracted by the AI Builder model. The following example, saves each inferred **Classification** and **Confidence score** into a SharePoint list.
 
+
     > [!div class="mx-imgBorder"]
     > ![Category classification prebuilt flow example](media/flow-ccp-example.png "Category classification prebuilt flow example")
 
+
 Congratulations! You've created a flow that uses an AI Builder prebuilt category classification model. Select **Save** on the top right and then select **Test** to try out your flow.
+
 
 
 ## Parameters
@@ -40,6 +42,8 @@ Congratulations! You've created a flow that uses an AI Builder prebuilt category
 |---------|---------|---------|---------|---------|
 |**Text** |Yes |string |Text to analyze|Text sentences |
 |**Language** |Yes |string |Language of the text to analyze|List of predefined languages or language code (ex.: "en", "fr", "zh_chs", "ru") |
+
+Congratulations! You've created a flow that uses a prebuilt category classification AI Builder model. Select **Save** in the upper-right corner, and then select **Test** to try out your flow.
 
 
 ### Output
@@ -52,3 +56,4 @@ Congratulations! You've created a flow that uses an AI Builder prebuilt category
 ### See also
 
 [Category classification prebuilt model](prebuilt-category-classification.md)
+
