@@ -10,37 +10,49 @@ ms.author: mfotedar
 ms.reviewer: v-dehaas
 ---
 
-# Use an entity extraction custom model in Power Automate (preview)
+
+# Use an AI Builder custom entity extraction AI model in Power Automate
 
 > [!IMPORTANT]
  > To use AI Builder models in Power Automate, you have to create the flow inside a solution. The steps below won't work if you don't follow these instructions first: [Create a flow in a solution](/flow/create-flow-solution).
 
-1. Sign in to [Power Automate](https://flow.microsoft.com/), select the **My flows** tab, and then select **Automated-from blank**.
+1. Sign in to [Power Automate](https://flow.microsoft.com/), select the **My flows** tab, and then select **New > +Instant-from blank**.
+1. Name your flow, select **Manually trigger a flow** under **Choose how to trigger this flow**, and then select **Create**.
+1. Expand **Manually trigger a flow**, select **+Add an input**, select **Text** as the input type, and set as input title **My Text**.
+1. Select **+ New step**, search for **AI Builder** in the Search for filters and actions box, and then select **Extract entities from text with one of your custom models** in the list of actions.
+1.	Select the entity extraction model you want to use, and in the **Text** field add **My Text** from the trigger.
 
-1. Search for the term **email**, select **When an email arrives (V3)** in the list of triggers, and then select  **Create**.
+    > [!div class="mx-imgBorder"]
+    > ![Select model content](media/flow-eec-overview.png "Select model content")
 
-1. Select **+ New step**, search for the term **html to text**, and then select **Html to text** in the list of actions.
+1. In the successive actions, you can use any fields and tables extracted by the AI Builder model. The following example saves each inferred **Entity type**, **Entity value** and **Confidence score** into an Excel table.
 
-1. Select the **Body** parameter. This tells the entity extraction model to only analyze actual email text.
+    > [!div class="mx-imgBorder"]
+    > ![Entity extraction flow example](media/flow-eec-example.png "Entity extraction flow example")
 
-   > [!div class="mx-imgBorder"]
-   > ![Select Html to text](media/html-to-text.png "Select Html to text")
+Congratulations! You've created a flow that uses an AI Builder entity extraction model. Select **Save** on the top right, and then select **Test** to try out your flow.
 
-1. Select **+ New step**, search for **predict**, and then select the **Predict Common Data Service (current Environment)** action.
 
-   > [!div class="mx-imgBorder"]
-   > ![Select Predict Common Data Service](media/predict-cds-2.png "Select Predict Common Data Service")
+## Parameters
+### Input
+|Name |Required |Type |Description |Values |
+|---------|---------|---------|---------|---------|
+|**AI model** |Yes |model |Entity extraction model to use for analysis|Trained and published entity extraction model |
+|**Text** |Yes |string |Text to analyze|Text sentences |
+|**Language** |Yes |string |Language of the text to analyze|"Detect automatically" or language code (ex.: "en", "fr", "zh_chs", "ru") |
 
-1. Select your published custom entity extraction model.
 
-   > [!div class="mx-imgBorder"]
-   > ![Extract entities screen](media/flow-extract-entity.png "Extract entities screen")
+### Output
+|Name |Type |Description |Values |
+|---------|---------|---------|---------|
+|**Entity type** |string |Type of the entity|Example: DateTime or Organization |
+|**Entity value** |string |Content of the entity|Example: June 1 or Contoso |
+|**Confidence score** |float |How confident the model is in its prediction|Value in the range of 0 to 1. Values close to 1 indicate greater confidence that the extracted value is accurate |
+|**Starting location** |integer |Where the entity's first character appear in the line| |
+|**Character count** |integer |How long the entity is| |
 
-1. Select **+ New step**, search for **Add a row into a table**, and then select the **Add a row into a table** action.
 
-1. Complete the necessary fields to find the location of your Excel table. Make sure you created a table and designated columns where you want to store the results of entity extraction. Find the results of entity extraction in the available dynamic content such as **Entity type** and **Entity value**, as shown in the following image.
+### See also
 
-   > [!div class="mx-imgBorder"]
-   > ![Add a row into a table'](media/flow-add-row2.png "Add a row into a table")
+[Entity extraction model overview](entity-extraction-overview.md)
 
-Congratulations! You've created a flow that uses an entity extraction model. Select **Save** in the upper-right corner, and then select **Test** to try out your flow.

@@ -10,36 +10,45 @@ ms.author: raaourik
 ms.reviewer: v-dehaas
 ---
 
+
 # Use a category classification custom model in Power Automate
 
 > [!IMPORTANT]
  > To use AI Builder models in Power Automate, you have to create the flow inside a solution. The steps below won't work if you don't follow these instructions first: [Create a flow in a solution](/flow/create-flow-solution).
 
-1. Sign in to [Power Automate](https://flow.microsoft.com/), select the **My flows** tab, and then select **Create from blank**.
-
-1. Search for **manually**, select **Manually trigger a flow** in the list of triggers, and then select **+Add an input**.
-
-1. Select **Text**, and enter **My Text** as the input title.
-1. Select **+ New step**, search for **Predict**, and then select **Predict Common Data Service (current Environment)** in the list of actions.
-    >[!NOTE]
-    > **Predict Common Data Service (current Environment)** doesn't appear unless you've followed these instructions first: [Create a flow in a solution](/flow/create-flow-solution).
-
-1. Select the category classification model you want to use, and then do the following:
-
-   - In the **Text** field, add **My Text** from the trigger.
-   - In the **Language** field, select the two-letter language code for the supported language you want to use.
-
-      > [!div class="mx-imgBorder"]
-      > ![Trigger a flow screen](media/trigger-flow.png "Trigger a flow screen")
-
-1. In your flow's successive actions, you can iterate through the outputs returned by the category classification model. In the following example, the model saves each inferred tag into a SharePoint list.<!--Can you add what's going on here to the alt text? Information should never be carried only in images, there needs to be a text explanation too.-->
+1. Sign in to [Power Automate](https://flow.microsoft.com/), select the **My flows** tab, and then select **New > +Instant-from blank**.
+1. Name your flow, select **Manually trigger a flow** under **Choose how to trigger this flow**, and then select **Create**.
+1. Expand **Manually trigger a flow**, select **+Add an input**, select **Text** as the input type, and set as input title **My Text**.
+1. Select **+ New step**, search for **AI Builder** in the Search for filters and actions box, and then select **Classify text into categories with one of your custom models** in the list of actions.
+1.	Select the category classification model you want to use, and in the **Text** field add **My Text** from the trigger.
 
     > [!div class="mx-imgBorder"]
-    > ![Trigger a flow example](media/trigger-flow-example.png "Trigger a flow example")
+    > ![Select model content](media/flow-ccc-overview.png "Select model content")
 
-Congratulations! You've created a flow that uses a category classification AI Builder model. Select **Save** in the upper-right corner, and then select **Test** to try out your flow.
+1. In the successive actions, you can use any fields and tables extracted by the AI Builder model. The following example, saves each inferred **Classification** and **Confidence score** into a SharePoint list.
 
-To learn more about triggers and actions, see [Get started with Power Automate](/flow/getting-started).
+    > [!div class="mx-imgBorder"]
+    > ![Category classification flow example](media/flow-ccc-example.png "Category classification flow example")
+
+Congratulations! You've created a flow that uses an AI Builder category classification model. Select **Save** on the top right, and then select **Test** to try out your flow.
+
+
+## Parameters
+### Input
+|Name |Required |Type |Description |Values |
+|---------|---------|---------|---------|---------|
+|**AI model** |Yes |model |Category classification model to use for analysis|Trained and published category classification model |
+|**Text** |Yes |string |Text to analyze|Text sentences |
+|**Language** |Yes |string |Language of the text to analyze|"Detect automatically" or language code (ex.: "en", "fr", "zh_chs", "ru") |
+
+
+### Output
+|Name |Type |Description |Values |
+|---------|---------|---------|---------|
+|**Classification** |string |Entity identified|Issues, compliment, customer service, documentation, price & billing, staff |
+|**Confidence score** |float |How confident the model is in its prediction|Value in the range of 0 to 1. Values close to 1 indicate greater confidence that the extracted value is accurate |
+
+
 
 ### See also
 
