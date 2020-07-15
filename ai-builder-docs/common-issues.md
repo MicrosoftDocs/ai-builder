@@ -71,6 +71,6 @@ If you get the error message **_“Fields could not be loaded for this document�
 
 ## Training failed and the model cannot be used error in Form processing
 
-If you get the error message **_“Training failed and the model cannot be used”_** error in Form processing after you have trained your Form processing model, this can be caused by:
-* A temporary error. You can retry by retraining your model again by selecting Edit model.
-* The documents that you have uploaded for training don’t meet the [following requirements](https://docs.microsoft.com/ai-builder/form-processing-model-requirements).
+If you get the error message **_“Training failed and the model cannot be used”_** error in form processing after you have trained your form processing model, this can be caused by:
+* A temporary error. You can retry by retraining your model again by selecting **Edit model**.
+* The documents that you uploaded for training don’t meet the [Form-processing model requirements](https://docs.microsoft.com/ai-builder/form-processing-model-requirements).
