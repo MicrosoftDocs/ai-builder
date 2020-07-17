@@ -10,7 +10,11 @@ ms.author: jofernan
 ms.reviewer: v-dehaas
 ---
 
-# Form-processing model requirements and limitations
+# Form processing model requirements and limitations
+
+## Languages supported
+
+Currently form processing works with documents in **English**.  
 
 ## Requirements
 

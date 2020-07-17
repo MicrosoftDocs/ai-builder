@@ -34,7 +34,7 @@ This issue can occur with apps where AI Builder components were added using a fa
 
 This issue can occur with the Google Chrome browser due to the way this browser handles image orientation. Some images in Power Apps might be rotated differently than you expect when using Chrome. To work around this issue, try a different browser.
 
-## The training document isn't displayed on the form-processing model details page
+## The training document isn't displayed on the form processing model details page
 
 When you create a form processing model, a preview of one of the training documents appears on the model details page after training is completed.
 
@@ -42,7 +42,7 @@ The training document might not appear if:
 
 * You don't have permissions to view training documents.
 * You aren't the owner of the model. 
-* You imported the model from another environment. When you import a form-processing model from another environment, the original training data isn't imported with it. Thus, the document preview can't be displayed.
+* You imported the model from another environment. When you import a form processing model from another environment, the original training data isn't imported with it. Thus, the document preview can't be displayed.
 
 ## Too Many Requests error in Power Automate
 
@@ -53,10 +53,28 @@ If this error occurs, decrease the concurrency level of your flow. For example, 
    > [!div class="mx-imgBorder"]
    > ![Reduce parallelism in a Power Automate action](media/too-many-requests-error-in-power-automate.gif "Reduce parallelism in a Power Automate action")
    
-## Dependency Timeout error when using a form-processing model in Power Automate
+## Dependency Timeout error when using a form processing model in Power Automate
 
-If you get a **Dependency Timeout error (_408 – DependencyTimeout_)** when executing a form-processing model in Power Automate, the file you're trying to process might be too large in number of pages or file size. If the file has multiple pages, reduce the document to just the pages you need to process, or reduce the size of the file. 
+If you get a **Dependency Timeout error (_408 – DependencyTimeout_)** when executing a form processing model in Power Automate, the file you're trying to process might be too large in number of pages or file size. If the file has multiple pages, reduce the document to just the pages you need to process, or reduce the size of the file. 
 
 ## Upload fails for documents and images in form processing, object detection models
 
 If documents or images fail to upload to your form processing or object detection models, it could be because Customer Managed Keys (CMK) is enabled on your tenant. CMK is not currently supported in AI Builder. You have to opt-out of CMK to train form processing or object detection models.  
+
+## The analysis failed for these documents error in Form processing 
+
+If you get the error message **_“The analysis failed for these documents”_** when you are creating your Form processing model. Make sure that:
+* The documents that you have uploaded meet the [following requirements](https://docs.microsoft.com/ai-builder/form-processing-model-requirements).
+* If the documents that you have uploaded are PDFs with multiple pages, split the PDF documents with only the pages you need the model to recognize and upload the reduced documents that have been split instead.
+
+## Fields could not be loaded for this document error in Form processing
+
+If you get the error message **_“Fields could not be loaded for this document”_** while you are creating your Form processing model, this can be caused by:
+* A temporary error, like poor internet connectivity. You can try again by clicking the Retry button.
+* The document you are trying to select fields from is too large. If it’s a PDF with multiple pages, split the PDF documents with only the pages you need the model to recognize and upload the reduced document that has been split instead. If it’s an image, reduce its dimensions and upload it to your model to replace the previous image uploaded. 
+
+## Training failed and the model cannot be used error in Form processing
+
+If you get the error message **_“Training failed and the model cannot be used”_** error in form processing after you have trained your form processing model, this can be caused by:
+* A temporary error. You can retry by retraining your model again by selecting **Edit model**.
+* The documents that you uploaded for training don’t meet the [Form-processing model requirements](https://docs.microsoft.com/ai-builder/form-processing-model-requirements).
