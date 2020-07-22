@@ -29,7 +29,8 @@ The images you’ll feed your object detection model need these characteristics:
   - BMP
   
 - **Size**:
-  - 6 MB maximum
+  - 6 MB maximum for training
+  - minimum width / height of 256 pixels x 256 pixels
 
 ## Data quantity and data balance
 
