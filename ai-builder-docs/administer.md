@@ -2,55 +2,65 @@
 title: Administer AI Builder - AI Builder | Microsoft Docs
 description: Provides information about supported regions, enabling or disabling the feature, and backup/restore in AI Builder.
 author: Dean-Haas
-manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/06/2019
+ms.date: 12/23/2019
 ms.author: antode
 ms.reviewer: v-dehaas
 ---
 
 # Administer AI Builder
 
-Power Platform administrators can use the [PowerApps admin center](https://admin.powerapps.com) and the [Power Platform Admin center](https://admin.powerplatform.microsoft.com) to manage environments and settings for PowerApps and AI Builder.
-
-For more information, see the [Power Platform Administrator Guide](https://docs.microsoft.com/power-platform/admin/admin-documentation).
+Microsoft Power Platform administrators can use the [Power Apps admin center](https://admin.powerapps.com) and the [Power Platform admin center](https://admin.powerplatform.microsoft.com) to manage environments and settings for Power Apps and AI Builder. More information: [Power Platform administrator guide](https://docs.microsoft.com/power-platform/admin/admin-documentation)
 
 ## Supported regions
 
-Your AI model is deployed in the region that hosts the environment. For example, if your environment is created in the Europe region, then your model is deployed in Europe datacenters. For an overview of environments, see [Environments overview](https://docs.microsoft.com/power-platform/admin/environments-overview).
+Your AI model is deployed in the region that hosts the environment. For example, if your environment is created in the Europe region, your model is deployed in datacenters in Europe<!--Suggested to avoid the question of whether to use "European."-->. More information: [Environments overview](https://docs.microsoft.com/power-platform/admin/environments-overview)<!--note from editor: I used the stripped-down cross-reference wording because the introduction to this cross-reference didn't add anything new. ("For an overview... see Overview...") The title of the article you're linking to already said it all.-->
 
-Currently, AI Builder is available in United States and Europe only. AI Builder features will not be available in environments created outside United States or Europe.
+The availability (release status) of AI Builder is dependent on your region. For a breakdown of AI Builder feature availability by region, see [Feature availability by region](availability-region.md). 
 
 ## Enable or disable AI Builder preview features
 
-Some AI Builder features are released for general availability. Others are considered in preview release status.
-Preview features are shown on the build page with the **Preview** label displayed. Power Platform administrators can use the Power Platform Admin center to control whether users can create and use preview features.
+Some AI Builder features are released for general availability. Others remain in preview release status.
 
-By default, the **AI Builder preview models** feature is set to **On** (enabled) for any eligible environment (environment must have Common Data Service and its region must be supported). If the environment is not eligible, the **AI Builder preview models** feature won't appear in the Power Platform Admin center. 
+Preview features appear on the build page with the **Preview** label. In the Power Platform admin center, administrators control whether users have access to preview features.
 
-To control the feature availability:
+By default, the **AI Builder preview models** feature is enabled for any eligible environment. Eligible environments must have Common Data Service and be in a [supported region](availability-region.md). If the environment isn't eligible, the **AI Builder preview models** feature doesn't appear in the Power Platform admin center.
 
-1. Sign in to the [Power Platform Admin center](https://admin.powerplatform.microsoft.com).
+To control AI Builder preview feature availability:
+
+1. Sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com).
 2. In the admin center, go to **Environments** > *[select an environment]* > **Settings** > **Features**.
-3. On the **Features** settings page, under **AI Builder**, enable or disable **AI Builder preview models**.  
-    
+3. On the **Features** settings page, under **AI Builder**, enable or disable **AI Builder preview models**.
+
 ### Important points related to enabling or disabling the feature
 
-- If you set **AI Builder preview models** to **Off** (disabled), it won't delete existing models that users of this environment have created. However, AI Builder components will be disabled, and existing experiences that leverage existing AI builder components will fail and/or return errors. Admin and Owners can delete AI models of this type.
+- If you disable **AI Builder preview models**:
+  - We don't delete existing models that users of this environment have created.
+  - AI Builder components are disabled.
+  - Existing experiences that use existing AI Builder components will fail or return errors.
+  - Admins and owners can delete preview models.<!--Is that what "of this type" meant?-->
 
-- If you set **AI Builder preview models** back to **On** (enabled), the AI Builder components will become visible again and function as they did before the feature was disabled, assuming nothing else is changed.
+- If you enable **AI Builder preview models** again:
+  - AI Builder components are available again.
+  - Components function as they did before the feature was disabled (assuming nothing else has changed).
 
-For more information about enabling/disabling features in the Power Platform Admin center, see [Manage feature settings](https://docs.microsoft.com/power-platform/admin/settings-features).
+For more information about enabling or disabling features in the Power Platform admin center, see [Manage feature settings](https://docs.microsoft.com/power-platform/admin/settings-features).
 
 ## Backup and restore
 
-Dynamics 365 allows protecting your apps data and providing continuous availability of service thanks to its built-in backup and restore capabilities. For more information, go to [Backup and restore instances](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances) in PowerApps docs. 
+Common Data Service has backup and restore capabilities to help protect your apps' data, providing continuous availability of service. System administrators and delegated admin users can use the standard capabilities described here: [Back up and restore environments](https://docs.microsoft.com/power-platform/admin/backup-restore-environments).
 
-> [!IMPORTANT]
-> Currently, AI Builder provides limited support for backup and restore.
+- Backup and restore is fully supported for prediction, object detection, and prebuilt models.
 
-A system administrator or delegated admin user can use the standard capabilities described in [Backup and restore instances](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances). 
+  >[!NOTE]
+  >For object detection models, the restore process might take some time to be completed. The AI Builder models list shows an "importing" status message while the restore operation is in progress.<!--Suggested.-->
 
-After a restore operation, they must manually retrain and republish existing models to make them available again. For more information, go to [Retrain and republish existing models](manage-model.md#retrain-and-republish-existing-models).
+- Backup and restore isn't currently supported for preview models and form-processing models. If you restore an environment, you'll have to retrain and republish these models to make them available again.
+
+## Move and copy environments
+
+- For prediction and prebuilt models, moving and copying environments is fully supported.<!--Suggested, to make the wording of these two bullet points parallel. -->
+
+- For other models, after you move or copy an environment, you have to retrain and republish existing models to make them available again.

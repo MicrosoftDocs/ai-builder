@@ -1,50 +1,184 @@
 ---
-title: Prediction model performance -  AI Builder | Microsoft Docs
+title: Prediction model performance - AI Builder | Microsoft Docs
 description: Provides information to help you better understand prediction model performance, and how performance scores are calculated
 author: Dean-Haas
-manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/06/2019
+ms.date: 04/10/2020
 ms.author: norliu
 ms.reviewer: v-dehaas
 ---
 
 # Prediction model performance
 
-After each training, AI Builder uses the test data set to evaluate the quality and accuracy of the new model. A summary page for your model shows your model training result, including a Performance score.
+After each training, AI Builder uses the test data set to evaluate the quality and fit of the new model. A summary page for your model shows your model training result. These results are expressed as a performance grade of A, B, C, or D.
 
-## Performance score calculations
+## Measuring performance
 
-AI Builder calculates the performance score for your model based on the precision and recall of the prediction results:
+### Performance grade
 
-- **Performance score**: This is the harmonic mean of the precision and recall scores. It balances both scores for an imbalanced class distribution. Performance score values are between 0–100 percent. Generally, the higher the performance score, the better your model performs.
-- **Precision**: The fraction of correct predictions among all the positive predictions.
-- **Recall**: The fraction of correct predictions among all true positive cases.
+After each training, AI Builder shows a grade to help you  evaluate your model's accuracy. The decision about whether your model is ready to publish is one you have to make based on your unique needs and circumstances. AI Builder provides the following performance grades to help you make that judgment call.
 
-For more information, go to [Evaluate your model](manage-model.md#evaluate-your-model).
+#### How to interpret each grade
 
-## Improve prediction model performance
+|Grade |Guidance   |
+|---------|---------|
+|A|It might still be possible to improve the model, but this is the best grade you can get. |
+|B|The model is correct in a lot of the cases. Can it be improved? That depends on your unique circumstances, data, and requirements. |
+|C|The model is doing slightly better than a random guess. It might be acceptable for some applications, but in most cases, this is a model that you'd continue to tweak and improve.  |
+|D|Something's wrong. Your model is either performing worse than we'd expect a random guess to perform ([underfit model](manage-model.md#underfit-models)). Or, it's performing so well (at or near 100%) that you've probably got a data field that is directly correlated  to the result ([overfit model](manage-model.md#overfit-models)) .
 
-After you've trained and evaluated your model, it's time to tweak your model to improve it's performance. Here are some things you can try to help improve your model's predictive power:
+* More information about [underfit models](manage-model.md#underfit-models)
+* More information about [overfit models](manage-model.md#overfit-models)
 
-### Add more correctly labeled training data
+#### Accuracy range varies depending on your data
 
-Even though the minimum requirement for training data is 50, it doesn't mean 50 data records can train a highly predictive model. For example, if your two option label is *Yes* or *No*, and most of your data record only has an *Yes* in this field. It’s hard for your model to learn all the signals from your data. And if your data is not correctly labeled, it will impact the accuracy in a negative way. Try to provide 1000 data records or more for better results. 
+
+If you are predicting 2 or more outcomes, the actual accuracy rates that correspond to the above grades can vary depending on the data distribution of your historical data. The difference accounts for the fact that the improvement relative to your baseline rate changes when you move that baseline.
+
+Let's say your model predicts whether a shipment will arrive on time. If your historical on-time rate is 80&nbsp;percent, a performance score of 92 would correspond to a B grade. But, if your historical on-time rate is only 50&nbsp;percent, 92 would correspond to an A grade. That's because 92 is a much better improvement over 50&nbsp;percent than it is over 80&nbsp;percent, and you'd expect a random guess to be close to those percentages.
+
+#### Binary historical data example
+
+This example shows the accuracy ranges for each grade when the historical data contains different on-time rates for a binary prediction.
+
+| Grade | Accuracy range for historical 25% on-time rate | Accuracy range for historical 50% on-time rate | Accuracy range for historical 80% on-time rate | Accuracy range for historical 95% on-time rate |
+|-------|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|
+| A | 92.5 &ndash; <99.3% | 90 &ndash; 98% | 93 &ndash; <99% | 98.1 &ndash; <99.8% |
+| B | 81.3 &ndash; <92.5% | 75 &ndash; <90% | 84 &ndash; <93% | 95.3 &ndash; <98.1% |
+| C | 66.3 &ndash; <81.3% | 55 &ndash; <75% | 71 &ndash; <84% | 91.5 &ndash; <95.3% |
+| D | <66.3% or ≥99.3% | <55% or ≥98% | <71% or ≥99% | <91.5% or ≥99.8% |
+
+
+#### Multiple outcome historical data example
+
+Accuracy rates that correspond to each grade can also vary when you’re predicting more than 2 outcomes. Let’s say your model predicts more than two options for delivery: early, on time or late.
+
+
+The accuracy ranges for each grade changes when your historical on-time rates change.
+
+Grade|Early (33.3%)|Early (20%)|Early (10%)
+:-----:|:-----:|:-----:|:-----:
+| |**On time (33.3%**)|**On time (40%**)|**On time (80%)**
+| |**Late (33.4%)**|**Late (40%)**|**Late (10%)**
+A|86.7 &ndash; <98.7%|87.2 &ndash; <98.7%|93.2 &ndash; <99.3%
+B|66.7 &ndash; <86.7%|68.0 &ndash; <87.2%|83.0 &ndash; <93.2%
+C|40.0 &ndash; <66.7%|42.4 &ndash; <68.0%|69.4 &ndash; <83.0%
+D|33.3 &ndash; <40.0%|36.0 &ndash; <42.4%|66.0 &ndash; <69.4%
+
+#### Numerical prediction example
+
+For numerical prediction, AI Builder uses the R-squared statistical measure to calculate your models accuracy grade. The following table shows the grades that correspond to each grade:
+
+|Grade  |R-squared |
+|---------|---------|
+|A    |    85% - <99%   |
+|B    |   60% - <85%      |
+|C   |  10% - <60%      |
+|D    |   ≥99% or <10%       |
+
+## Performance details
+
+For training details, select **See details** on the model's grade box. On the **Performance** tab, the following information is available:
+
+>[!NOTE]
+ >For information about additional features planned for this area, see [release plans](https://docs.microsoft.com/power-platform-release-plan/2020wave1/ai-builder/).
+
+
+* Performance grade
+* Accuracy score
+* R-squared
+
+#### Performance grade
+
+#### Accuracy score
+
+AI Builder calculates the accuracy score for your model based on prediction result of the test data set. Before training, AI Builder separates your dataset into separate training data and testing data sets. And after training, AI Builder applies your AI model to the testing data set, and then calculates your accuracy score. For example: if your test data set has 200 records, and AI Builder correctly predicts 192 of them, AI Builder shows an accuracy score of 96%.
+
+For more information, see [Evaluate your model](manage-model.md#evaluate-your-model).
+
+#### R -squared
+
+For numerical prediction, AI Builder calculates an r-squared score after each training. This score measures your model’s ‘goodness of fit’, and is used to determine your model’s performance grade.
+
+Let's say you're predicting the number of days to fulfill, ship, and deliver an order. The model predicts a set of numbers. The r-squared value is based on the distances between predicted values and actual values in your training data. This is expressed as a number between 0 – 100%, with higher values indicating the predicted value is closer to the real value. Typically, a higher score means the model performs better. Remember though, that perfect or near-perfect scores ([overfit models](https://docs.microsoft.com/ai-builder/manage-model#overfit-models)) are usually indicative of a problem with your training data.
+
+
+On the **Summary** tab, the following performance information is available
+
+
+* Training date
+* Data source
+* Historical outcome
+* Entity list used to do prediction.
+
+<!-- Coming later 2020 tentatively
+- Accuracy per outcome
+- Confusion matrix
+- Cumulative gains chart -->
+
+<!--
+### Accuracy per outcome
+This section shows the distribution of correct and incorrect results. You can use this to help you evaluate the model.
+AI Builder shows a bar chart to quantify the accuracy of your AI model. Let's still use the business loan application as an example. The "Approved" bar would show how many predictions match the actual result, compared to all the records processed. If the rate of the correctly predicted records is high, this information might help you decide to go ahead and use this model. 
+
+### Confusion matrix
+The confusion matrix describes the performance of the model as follows:
+
+- true positives
+- false positives
+- true negatives
+- false negatives
+
+True positives and true negatives are correctly predicted outcomes. False positives & false negatives are records that were incorrectly predicted.
+
+### Cumulative gains chart
+
+> [!Note]
+> This feature uses Highcharts (https://www.highcharts.com Copyright (c) Highsoft Solutions AS. All Rights Reserved)
+-->
+
+## Improve your prediction model performance
+
+After you've trained and evaluated your model, it's time to tweak your model to improve its performance. Here are some things you can try to help improve your model's predictive power.
+
+### Review errors and issues
+
+- If there are any errors after you finish training, fix them and retrain the model.
+- If there are no errors<!--note from editor: Would it be good to give a cross-reference here to prediction-training-report.md? It seems it might be useful.-->, check the training details. Try to address as many issues as possible, and then retrain the model.
+
+### Review top influencers
+
+After each training, a list of top influencers appears on the model details page. Each field used in the training has a score to represent its influence on the training. These scores combine to equal 100 percent.
+
+This helps show whether your model is trained as you expect. For example, if you want to predict online shoppers' intention and you're expecting Age, Product as the most influential field, you should see that in the most influential field list in model details page. If not, it might indicate that the training result is not as expected. In this case, you can either deselect the irrelevant or misleading fields and retrain the model, or check your training issues to see further details.<!--Edit okay? I wasn't sure what this was saying. -->
+
+### Add more data
+
+The minimum requirement for training data is 50 records, but this doesn't mean 50 data records will train a highly predictive model. Try to provide 1,000 or more data records, correctly labeled, with a realistic distribution between options.
+
+### Check your data distribution
+
+For example, if you're using two option labels of *Yes* or *No*, and most of your data records only have *Yes* in this field, it's hard for your model to learn from this data. Try to have a distribution of options in your data that roughly reflects the distribution of the options you might expect to see. For example, if you're looking at data fields for *cat_owner* and *dog_owner*, use a data distribution somewhere around 50&nbsp;percent. If you're looking at fraudulent transactions, use a more imbalanced distribution&mdash;perhaps 95&nbsp;percent to 5&nbsp;percent. Look to industry standards for this type of information if you don't know what to expect.
 
 ### Add more fields
 
-For example, if you want to predict which customer is more likely to return and buy your products. You can add more fields like how they rate the product, how much they use the product, are they returning users for other product under this brand, and so forth to make the training data richer.
+For example, you want to predict which customers are more likely to return and buy your products. You can add more fields to make the training data richer. For example:
+
+- How do they rate the product?
+- How much do they use the product?
+- Are they an existing customer?
 
 ### Narrow selected fields to relevant information
 
-You may already have a lot of correctly labeled training data, with lot of data fields. Then why might the model still not performing well? It could be that you're selecting fields that lead to unwanted bias. Make sure all the fields you select are relevant to influence what you want to predict. Deselect irrelevant or misleading fields.
+You might already have a lot of correctly labeled training data, with many data fields. Then why might the model still not perform well? It could be that you're selecting fields that lead to unwanted bias. Make sure all the fields you select are relevant to influence what you want to predict. Deselect irrelevant or misleading fields.
 
 ### Validate data
 
-Make sure the data fields  don't have high rate of missing values (>99%). Populate the missing values with default or remove the data field from the model training. If a data field has high correlation (>99%) with prediction outcome, remove the data field from the model training.  
+- Make sure the data fields don't have high rate of missing values (greater than 99&nbsp;percent). Populate the missing values with default data or remove the data field from the model training.
+- If a data field has a high correlation with prediction outcome, remove the data field from the model training.
 
-## Next step
+### Next step
 
-[Use your published prediction model in a model-driven app](prediction-model-driven-app.md)
+[Use your prediction model in Power Apps](prediction-model-driven-app.md)

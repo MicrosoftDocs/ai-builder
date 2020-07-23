@@ -1,114 +1,75 @@
 ---
-title: Use the business card reader prebuilt model in Microsoft Flow - AI Builder | Microsoft Docs
-description: Provides information about how to  use the AI Builder business card reader prebuilt model in Microsoft Flow
+title: Use the business card reader prebuilt model in Power Automate - AI Builder | Microsoft Docs
+description: Provides information about how to use the AI Builder business card reader prebuilt model in Power Automate
 author: alanabrito
-manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/04/2019
+ms.date: 12/12/2019
 ms.author: alanab
 ms.reviewer: v-dehaas
 ---
 
+# Use the business card reader prebuilt model in Power Automate
 
-# Use the business card reader prebuilt model in Microsoft Flow
+> [!IMPORTANT]
+ > To use AI Builder models in Power Automate, you have to create the flow inside a solution. The steps below won't work if you don't follow these instructions first: [Create a flow in a solution](/flow/create-flow-solution).
 
-1. [Sign in](https://flow.microsoft.com/signin) to Microsoft Flow, select the **My flows** tab, and then select **Create from blank**.
-1. Search for the term *manually*, select **Manually trigger a flow** in the list of triggers, and then select **+ Add an input**.
-1. Select **File**, and set **My Image** as the input title.
-1. Select **+ New step**, search for the term *Predict*, and then select **Predict - Common Data Service (Current Environment)** in the list of actions.
+1. Sign in to [Power Automate](https://flow.microsoft.com/), select the **My flows** tab, and then select **New > +Instant-from blank**.
+1. Name your flow, select **Manually trigger a flow** under **Choose how to trigger this flow**, and then select **Create**.
+1. Expand **Manually trigger a flow**, select **+Add an input**, select **File** as the input type, and set as input title **My Image**.
+1. Select **+ New step**, search for **AI Builder** in the Search for filters and actions box, and then select **Read business card information** in the list of actions.
+1. Leave **auto** in the **Image type** field as the type can be detected automatically.
+1. Specify the **My Image** field from the trigger in the **Image** input for your flow:
 
-5. Select the **BusinessCard model** and specify the following as Request Payload:
+    > [!div class="mx-imgBorder"]
+    > ![Specify my image](media/flow-bcr.png "Specify my image")
 
-    ```json
-    { 
-    "base64Encoded": "EXPRESSION", 
-    "mimeType": "image/jpeg" 
-    }
-    ```
-6. Replace *EXPRESSION* with the following expression string on the formula bar on the right: 
+1. Specify the **My Image** field from the trigger in the image input for your flow.
 
-    ```json
-    string(triggerBody()?['file']?['contentBytes'])
-    ```
-    > [!NOTE]
-    >  Depending on which connector the file comes from, the expression may need to be enclosed by base64() instead of string().
-7. Select **+ New step**, search for *Parse JSON*, and then select **Parse JSON – Data Operations** in the lists of actions.
-8. In the **Parse JSON** screen, next to **Content**, select **Response Payload**.
-9. Copy and paste the following JSON code into the **Schema** box:
+Congratulations! You've created a flow that uses the business card reader AI model. Select **Save** in the upper-right corner, and then select **Test** to try out your flow.
 
-    ```json
-    { 
-            "type": "object", 
-            "properties": { 
-                "predictionOutput": { 
-                    "type": "object", 
-                    "properties": { 
-                        "clbeanedImage": { 
-                            "type": "object", 
-                            "properties": { 
-                                "base64Encoded": { 
-                                    "type": "string" 
-                                }, 
-                                "mimeType": { 
-                                    "type": "string" 
-                                } 
-                            } 
-                        }, 
-                        "contact": { 
-                            "type": "object", 
-                            "properties": { 
-                                "fullName": { 
-                                    "type": "string" 
-                                }, 
-                                "firstName": { 
-                                    "type": "string" 
-                                }, 
-                                "lastName": { 
-                                    "type": "string" 
-                                }, 
-                                "title": { 
-                                    "type": "string" 
-                                }, 
-                                "phone1": { 
-                                    "type": "string" 
-                                }, 
-                                "email": { 
-                                    "type": "string" 
-                                }, 
-                                "companyName": { 
-                                    "type": "string" 
-                                }, 
-                                "department": { 
-                                    "type": "string" 
-                                }, 
-                                "fullAddress": { 
-                                    "type": "string" 
-                                }, 
-                                "addressStreet": { 
-                                    "type": "string" 
-                                }, 
-                                "city": { 
-                                    "type": "string" 
-                                }, 
-                                "country": { 
-                                    "type": "string" 
-                                } 
-                            } 
-                        } 
-                    } 
-                }, 
-                "operationStatus": { 
-                    "type": "string" 
-                }, 
-                "error": {} 
-            } 
-   }
+## Example business card reader flow
+The following example shows a new contact being created in Common Data Service using the business card data.
 
-   ```
-Congratulations! You've created a flow that leverages the Business Card model. Select **Save** on the top right, and then select **Test** to try out your flow.
+   > [!div class="mx-imgBorder"]
+   > !['Create new record' screen](media/flow-business-card-overview-2.png "'Create new record' screen")
 
-This should give you the basis from which you can continue to build your flow to suit your needs. The following example shows a new contact being created in Common Data Service using the business card data.
+## Parameters
 
-   > !['Create new record' screen](media/flow-create-record.png "'Create new record' screen")
+### Input
+
+|Name |Required |Type |Description |Values |
+|---------|---------|---------|---------|---------|
+|**Image type** |Yes |string |Mime type of the image|"auto" as default value. This field being obsolete, any value will be accepted. |
+|**Image** |Yes |file |Image file to analyze| |
+
+
+### Output
+
+|Name |Type |Description |
+|---------|---------|---------|
+|**City** |string |The city address|
+|**Country** |string |The country address|
+|**Postal Code** |string |The postal code address|
+|**PO Box** |string |The post office box address|
+|**State** |string |The state address|
+|**Street** |string |The street address|
+|**Work phone or other phone** |string |The first phone or fax number|
+|**Cleaned image** |file |The image after processing where the business card appears cropped and enhanced from the original image|
+|**Cleaned image type** |string |Type of the cleaned image|
+|**Company name** |string |The company name|
+|**Department** |string |The organization department found|
+|**Email** |string |The contact email found in the business card, if any|
+|**Fax** |string |The third phone or fax number|
+|**First name** |string |The contact first name|
+|**Full address** |string |The contact full address|
+|**Full name** |string |The contact full name|
+|**Title** |string |The contact job title|
+|**Last name** |string |The contact last name|
+|**Mobile phone** |string |The second phone or fax number|
+|**Website** |string |The website|
+
+## See also
+
+[Business card reader overview](prebuilt-business-card.md)

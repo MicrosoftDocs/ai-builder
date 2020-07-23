@@ -1,68 +1,55 @@
 ---
-title: Use the language detection prebuilt model in Microsoft Flow - AI Builder | Microsoft Docs
+title: Use the language detection prebuilt model in Power Automate - AI Builder | Microsoft Docs
 description: Provides information about how to use the AI Builder language detection prebuilt model in your flows
 author: alanabrito
-manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/04/2019
+ms.date: 12/30/2019
 ms.author: alanab
 ms.reviewer: v-dehaas
 ---
 
-# Use the language detection prebuilt model in Microsoft Flow
+# Use the language detection prebuilt model in Power Automate
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
+> [!IMPORTANT]
+ > To use AI Builder models in Power Automate, you have to create the flow inside a solution. The steps below won't work if you don't follow these instructions first: [Create a flow in a solution](/flow/create-flow-solution).
 
-1. [Sign in](https://flow.microsoft.com/signin) to Microsoft Flow, select the **My flows** tab, and then select **Create from blank**.
-1. Search for the term *manually*, select **Manually trigger a flow** in the list of triggers, and then select **+ Add an input**.
-1. Select **Text** and set as input title: **My Text**.
-1. Select **+ New step**, search for the term *Predict*, and then select **Predict Common Data Service (current Environment)** in the list of actions.
-1. Select  **LanguageDetection model**, and in the **Request Payload** field, enter *{“text”:”My Text”}*. Add the **My Text** field from the trigger: 
-   > ![Manually trigger flow screen](media/flow-trigger-flow2.png "Manually trigger flow screen")
-1. Select **+ New step**, search for Parse JSON, and then select **Parse JSON – Data Operations** in the lists of actions.
-1. In the **Content** field, select **Response Payload**.
-1. Copy the following JSON code and paste it into the **Schema** box: 
+1. Sign in to [Power Automate](https://flow.microsoft.com/signin), select the **My flows** tab, and then select **Create from blank**.
 
-    ```JSON
-          { 
-              "type": "object", 
-              "properties": { 
-                  "predictionOutput": { 
-                      "type": "object", 
-                      "properties": { 
-                          "results": { 
-                              "type": "array", 
-                              "items": { 
-                                  "type": "object", 
-                                  "properties": { 
-                                      "language": { 
-                                          "type": "string" 
-                                      }, 
-                                      "score": { 
-                                          "type": "number" 
-                                      } 
-                                  }, 
-                                  "required": [ 
-                                      "language", 
-                                      "score" 
-                                  ] 
-                              } 
-                          } 
-                      } 
-                  }, 
-                  "operationStatus": { 
-                      "type": "string" 
-                  }, 
-                  "error": {} 
-              } 
-        }
-    ```
-   > ![Parse JSON screen](media/flow-parse-json-2.png "Parse JSON screen")
 
-Now you can iterate through the detected languages returned by the language detection model. In the following example, we add the detected languages to an existing CDS record. 
+1. Sign in to [Power Automate](https://flow.microsoft.com/), select the **My flows** tab, and then select **New > +Instant-from blank**.
+1. Name your flow, select **Manually trigger a flow** under **Choose how to trigger this flow**, and then select **Create**.
+1. Expand **Manually trigger a flow**, select **+Add an input**, select **Text** as the input type, and set as input title **My Text**.
+1. Select **+ New step**, search for the term **AI Builder**, and then select **Detect the language being used in text** in the list of actions.
+1. Specify the **My Text** field from the trigger in the **Text** input for your flow:
 
-   > ![Apply to each screen](media/flow-apply-to-each.png "Apply to each screen")
+    > [!div class="mx-imgBorder"]
+    > ![Trigger text flow](media/trigger-text-flow-2.png "Manually trigger a flow screens")
 
-Congratulations! You have created a flow that leverages a language detection model. Select **Save** on the top right and then select **Test** to try out your flow.
+1. In the successive actions, you can use any fields extracted by the AI Builder model. For example, you can add lines to an Excel file using **Language** and **Confidence score**:
+
+    > [!div class="mx-imgBorder"]
+    > ![Example](media/text-flow-example-2.png "Example")
+
+Congratulations! You've created a flow that uses a language detection model. Select **Save** on the top right and then select **Test** to try out your flow.
+
+
+## Parameters
+### Input
+|Name |Required |Type |Description |Values |
+|---------|---------|---------|---------|---------|
+|**Text** |Yes |string |Text to analyze|Text sentences |
+
+
+### Output
+|Name |Type |Description |Values |
+|---------|---------|---------|---------|
+|**results** |list |A list of languages detected in the input text |List of score and languages |
+|**Confidence score** |float |How confident the model is in its prediction|Value in the range of 0 to 1. Values close to 1 indicate greater confidence that the identified sentiment is accurate |
+|**Language** |string |Language inferred from the text| Language code (ex.: "en", "fr", "zh_chs", "ru") |
+
+### See also
+
+[Language detection overview](prebuilt-language-detection.md)
+

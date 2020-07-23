@@ -1,4 +1,6 @@
-- name: "AI Builder: Get started"
+- name: AI Builder documentation
+  href: /ai-builder/
+- name: Get started
   items:
   - name: What is AI Builder?
     href: overview.md
@@ -16,88 +18,112 @@
     href: model-types.md
   - name: Build a model
     href: build-model.md
-  - name: Train a model
+  - name: Train your model
     href: train-model.md
-  - name: Manage a model
+  - name: Manage your model
     href: manage-model.md
-  - name: Publish a model
+  - name: Publish your model
     href: publish-model.md
   - name: Use your model
     href: use-model.md
-  - name: Share a model
+  - name: Share your model
     href: share-model.md
-  - name: Distribute a model
+  - name: Distribute your model
     href: distribute-model.md
-- name: Prediction AI model
+- name: Custom AI models
   items:
-  - name: Overview 
-    href: prediction-overview.md
-  - name: Prerequisites
-    href: prediction-prereq.md
-  - name: Data preparation
-    href: prediction-data-prep.md
-  - name: Create a prediction model
-    href: prediction-create-model.md
-  - name: Train and publish your prediction model
-    href: prediction-train-model.md
-  - name: Use sample data
-    href: prediction-sample-data.md
-  - name: Training errors and issues
-    href: prediction-training-report.md
-  - name: Prediction model performance
-    href: prediction-performance.md
-- name: Text classification AI model (Preview)
-  items:
-  - name: Overview
-    href: text-classification-overview.md
-  - name: Before you build a text classification model
-    href: before-you-build-text-classification-model.md
-  - name: Create a text classification model
-    href: create-text-classification-model.md
-  - name: Train your text classification model
-    href: train-text-classification-model.md
-  - name: Understand text classification model performance
-    href: text-classification-performance.md
-  - name: Improve text classification model performance
-    href: improve-text-classification-performance.md
-  - name: Publish your text classification model
-    href: publish-text-classification-model.md
-  - name: Use sample data
-    href: text-classification-sample-data.md
-  - name: View generated predictions
-    href: text-classification-view-predictions.md
-  - name: Use generated tags
-    href: text-classification-model-use-tags.md
-- name: Object detection AI model (Preview)
-  items: 
-  - name: Overview
-    href: object-detection-overview.md
-  - name: Collect images
-    href: collect-images.md
-  - name: Get started with object detection
-    href: get-started-with-object-detection.md
-  - name: Train and publish your object detection model
-    href: object-detection-train-model.md
-  - name: Use sample data
-    href: object-detection-sample-data.md
-- name: Form processing AI model (Preview)
-  items:
-  - name: Overview
-    href: form-processing-model-overview.md
-  - name: Requirements and limitations
-    href: form-processing-model-requirements.md
-  - name: Create a form processing model
-    href: create-form-processing-model.md
-  - name: Train and publish your form-processing model
-    href: form-processing-train.md
-  - name: Use sample data
-    href: form-processing-sample-data.md
+  - name: Prediction AI model
+    items:
+    - name: Overview 
+      href: prediction-overview.md
+    - name: Prerequisites
+      href: prediction-prereq.md
+    - name: Data preparation
+      href: prediction-data-prep.md
+    - name: Create a prediction model
+      href: prediction-create-model.md
+    - name: Train and publish your prediction model
+      items:
+      - name: Train and publish
+        href: prediction-train-model.md
+      - name: Use sample data
+        href: prediction-sample-data.md
+      - name: Prediction model performance
+        href: prediction-performance.md
+      - name: Training errors and issues
+        href: prediction-training-report.md
+    - name: Use your prediction model
+      href: prediction-use.md
+  - name: Category classification AI model
+    items:
+    - name: Overview
+      href: text-classification-overview.md
+    - name: Before you build a category classification model
+      href: before-you-build-text-classification-model.md
+    - name: Create a category classification model
+      href: create-text-classification-model.md
+    - name: Train your category classification model
+      href: train-text-classification-model.md
+    - name: Understand category classification model performance
+      href: text-classification-performance.md
+    - name: Improve category classification model performance
+      href: improve-text-classification-performance.md
+    - name: Publish your category classification model
+      href: publish-text-classification-model.md
+    - name: Use sample data
+      href: text-classification-sample-data.md
+    - name: View generated predictions
+      href: text-classification-view-predictions.md
+    - name: Use generated tags
+      href: text-classification-model-use-tags.md
+  - name: Entity extraction AI model
+    items:
+    - name: Overview
+      href: entity-extraction-overview.md
+    - name: Requirements and limitations
+      href: entity-extraction-requirements.md
+    - name: Create a custom entity extraction model
+      href: entity-extraction-create.md
+    - name: Train and publish your entity extraction model
+      href: entity-extraction-train.md 
+  - name: Object detection AI model
+    items: 
+    - name: Overview
+      href: object-detection-overview.md
+    - name: Collect images
+      href: collect-images.md
+    - name: Get started with object detection
+      href: get-started-with-object-detection.md
+    - name: Train and publish your object detection model
+      href: object-detection-train-model.md
+    - name: Use sample data
+      href: object-detection-sample-data.md
+    - name: Transition to the new model version 
+      href: object-detection-transition.md
+  - name: Form processing AI model
+    items:
+    - name: Overview
+      href: form-processing-model-overview.md
+    - name: Requirements and limitations
+      href: form-processing-model-requirements.md
+    - name: Create a form processing model
+      href: create-form-processing-model.md
+    - name: Train and publish your form-processing model
+      href: form-processing-train.md
+    - name: Use sample data
+      href: form-processing-sample-data.md
+    - name: Transition to the new model version 
+      href: form-processing-transition.md
 - name: Prebuilt AI models
   items:
   - name: Overview
     href: prebuilt-overview.md
   - name: Business card reader
-    href: prebuilt-business-card.md
+    href: prebuilt-business-card.md 
+  - name: Category classification
+    href: prebuilt-category-classification.md
+  - name: Entity extraction 
+    href: prebuilt-entity-extraction.md
   - name: Key phrase extraction
     href: prebuilt-key-phrase.md
   - name: Language detection
@@ -106,26 +132,32 @@
     href: prebuilt-text-recognition.md
   - name: Sentiment analysis
     href: prebuilt-sentiment-analysis.md
-- name: Use AI Builder in Microsoft Flow
+- name: Use AI Builder in Power Automate
   items:
   - name: Overview
     href: use-in-flow-overview.md
   - name: Prerequisites
     href: use-in-flow-prereq.md
-  - name: Use a custom AI Builder model in Flow
+  - name: Use a custom AI Builder model in Power Automate
     items:
-    - name: Prediction model 
-      href: prediction-model-in-flow.md
-    - name: Text classification model
+    - name: Category classification model
       href: text-classification-model-in-flow.md
+    - name: Entity extraction model 
+      href: entity-extraction-pwr-automate.md
     - name: Form processing model
       href: form-processing-model-in-flow.md
     - name: Object detection model
       href: object-detection-model-in-flow.md
-  - name: Use a prebuilt AI Builder model in Flow
+    - name: Prediction model
+      href: prediction-pwr-automate.md
+  - name: Use a prebuilt AI Builder model in Power Automate
     items:
     - name: Business card reader model
       href: flow-business-card-reader.md
+    - name: Category classification model 
+      href: prebuilt-category-classification-pwr-automate.md    
+    - name: Entity extraction model
+      href: prebuilt-entity-extraction-pwr-automate.md
     - name: Key phrase extraction model
       href: flow-key-phrase-extraction.md
     - name: Language detection model
@@ -134,17 +166,23 @@
       href: flow-sentiment-analysis.md
     - name: Text recognition model
       href: flow-text-recognition.md
-- name: Use AI Builder in PowerApps
+  - name: Use predict action in Power Automate
+    href: predict-action-pwr-automate.md
+- name: Use AI Builder in Power Apps
   items:
   - name: Overview
     href: use-in-powerapps-overview.md
-  - name: Use your prediction model in PowerApps
+  - name: Use the text recognizer component in Power Apps
+    href: prebuilt-text-recognizer-component-in-powerapps.md
+  - name: Use your prediction model in Power Apps
     href: prediction-model-driven-app.md
-  - name: Use the form processor component in PowerApps
+  - name: Use the form processor component in Power Apps
     href: form-processor-component-in-powerapps.md
-  - name: Use the object detector component in PowerApps
+  - name: Use the object detector component in Power Apps
     href: object-detector-component-in-powerapps.md
-  - name: Use the business card reader component in PowerApps
+  - name: Add text-based AI models in Power Apps using formulas (preview)
+    href: formula-bar.md
+  - name: Use the business card reader component in Power Apps
     items:
     - name: Use in a canvas app
       href: business-card-reader-component-in-powerapps.md
@@ -158,6 +196,8 @@
     href: administer-licensing.md
   - name: Security
     href: security.md
+  - name: Feature availability by region
+    href: availability-region.md
 - name: Troubleshoot
   items:
   - name: Common issues and resolutions
