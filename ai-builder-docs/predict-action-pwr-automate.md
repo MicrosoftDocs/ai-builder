@@ -6,7 +6,7 @@ manager: cdbellar
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 5/11/2020
+ms.date: 07/23/2020
 ms.author: antrod
 ms.reviewer: v-dehaas
 ---
@@ -43,10 +43,10 @@ You can use dedicated actions for each AI Builder model in Power Automate. Howev
 >- Use a prebuilt AI Builder model in Power Automate
 
 
-## Use a dynamic model id (advanced usage)
-For some complex use cases, you may need to pass a model id dynamically to the predict action. For example, if you want to process different type of invoices using multiple models, you may want to choose automatically a model depending on the type of invoice.
+## Use a dynamic model id (advanced)
+For some complex use cases, you may need to pass a model id dynamically to the predict action. For example, if you want to process different type of invoices using different models, you may want to automatically choose a model depending on the type of invoice.
 
-In this section, we'll explain you how to configure the AI Builder predict action for this specifc purpose depending on the model type.
+In this section, we'll explain you how to configure the AI Builder predict action for this specific purpose depending on the model type.
 
 1. Sign in to [Power Automate](https://flow.microsoft.com/), select the **My flows** tab, and then select **New > +Instant-from blank**.
 
@@ -61,8 +61,8 @@ The **Infer request** field value depends on the model type.
 
 ### Form processing model
 
-1. In the step **Manually trigger a flow**, add a **File** input and set its name to **File Content**.
-1. In the step **Manually trigger a flow**, add a **Text** input and set its name to **Mime Type**.
+1. In the step **Manually trigger a flow**, add a **File** input, and set its name to **File Content**.
+1. In the step **Manually trigger a flow**, add a **Text** input, and set its name to **Mime Type**.
 1. In the step **Initialize variable**, enter a form processing model id.
 1. In the step **Predict**, enter following value in the **Infer request** field:
 
@@ -80,17 +80,17 @@ The **Infer request** field value depends on the model type.
     > [!div class="mx-imgBorder"]
     > ![Predict action with dynamic model id](media/DynModelId-1.png "Predict action with dynamic model id")
 
-5. Select **Save** in the upper-right corner, and then select **Test** to try out your flow:
-    
+1. Select **Save** in the upper-right corner, and then select **Test** to try out your flow:
+
     > [!div class="mx-imgBorder"]
     > ![Test predict action](media/DynModelId-2.png "Test predict action")
 
-6. In the flow run details, get the model JSON output in the **OUTPUTS** section of the predict action. This is useful to build downstream actions using values of the model.
+1. In the flow run details, get the model JSON output in the **OUTPUTS** section of the predict action. This output is useful to build downstream actions using values of the model.
 
     > [!div class="mx-imgBorder"]
     > ![Get output from run results](media/DynModelId-3.png "Get output from run results")
 
-7. Go back to your flow in edit mode and select  **+ New step** and select the **Compose** action (or any other action to process your model output). Let's say your model output has the **Total** field, you can get it with the following formula:
+1. Go back to your flow in edit mode. Select  **+ New step** and select the **Compose** action (or any other action to process your model output). Let's say your model output has the **Total** field, you can get it with the following formula:
 
     ```
     @{outputs('Predict')?['body/responsev2/predictionOutput/labels/Total/value']}
