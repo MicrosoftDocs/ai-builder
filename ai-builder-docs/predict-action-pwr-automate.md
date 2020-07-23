@@ -77,8 +77,8 @@ The **Infer request** field value depends on the model type.
         }
     ```
 
-    >    [!div class="mx-imgBorder"]
-    >    ![Predict action with dynamic model id](media/DynModelId-1.png "Predict action with dynamic model id")
+    > [!div class="mx-imgBorder"]
+    > ![Predict action with dynamic model id](media/DynModelId-1.png "Predict action with dynamic model id")
 
 5. Select **Save** in the upper-right corner, and then select **Test** to try out your flow:
     
