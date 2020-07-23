@@ -66,19 +66,19 @@ The **Infer request** field value depends on the model type.
 1. In the step **Initialize variable**, enter a form processing model id.
 1. In the step **Predict**, enter following value in the **Infer request** field:
 
-```json
-    {
-        "version": "2.0",
-        "requestv2": {
-         "@@odata.type": "Microsoft.Dynamics.CRM.expando",
-         "mimeType": "@{triggerBody()['text']}",
-         "base64Encoded": "@{string(triggerBody()?['file']?['contentBytes'])}"
+    ```json
+        {
+            "version": "2.0",
+            "requestv2": {
+            "@@odata.type": "Microsoft.Dynamics.CRM.expando",
+            "mimeType": "@{triggerBody()['text']}",
+            "base64Encoded": "@{string(triggerBody()?['file']?['contentBytes'])}"
+            }
         }
-    }
-```
+    ```
 
->    [!div class="mx-imgBorder"]
->    ![Predict action with dynamic model id](media/DynModelId-1.png "Predict action with dynamic model id")
+    >    [!div class="mx-imgBorder"]
+    >    ![Predict action with dynamic model id](media/DynModelId-1.png "Predict action with dynamic model id")
 
 5. Select **Save** in the upper-right corner, and then select **Test** to try out your flow:
     
@@ -102,18 +102,30 @@ The **Infer request** field value depends on the model type.
 
 Similar process with following infer request at step 4:
 
-*{"version": "2.0", "requestv2": {
-    "@@odata.type": "Microsoft.Dynamics.CRM.expando",
-    "base64Encoded": "@{string(triggerBody()?['file']?['contentBytes'])}"}}*
+```json
+{
+    "version": "2.0",
+    "requestv2": {
+        "@@odata.type": "Microsoft.Dynamics.CRM.expando",
+        "base64Encoded": "@{string(triggerBody()?['file']?['contentBytes'])}"
+    }
+}
+```
 
 
 ### Category classification model
 
 Similar process with following infer request at step 4:
 
-*{"version": "2.0", "requestv2": {
-    "@@odata.type": "Microsoft.Dynamics.CRM.expando",
-    "language": "Detect automatically",
-    "text": "The text to categorize"}}*
+```json
+{
+    "version": "2.0",
+    "requestv2": {
+        "@@odata.type": "Microsoft.Dynamics.CRM.expando",
+        "language": "Detect automatically",
+        "text": "The text to categorize"
+    }
+}
+```
  
  
