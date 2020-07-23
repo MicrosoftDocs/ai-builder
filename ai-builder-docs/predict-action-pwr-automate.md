@@ -62,20 +62,26 @@ The **Infer request** field value depends on the model type.
 ### Form processing model
 
 1. In the step **Manually trigger a flow**, add a **File** input and set its name to **File Content**.
-2. In the step **Manually trigger a flow**, add a **Text** input and set its name to **Mime Type**.
-3. In the step **Initialize variable**, enter a form processing model id.
-4. In the step **Predict**, enter following value in the **Infer request** field:
+1. In the step **Manually trigger a flow**, add a **Text** input and set its name to **Mime Type**.
+1. In the step **Initialize variable**, enter a form processing model id.
+1. In the step **Predict**, enter following value in the **Infer request** field:
 
-    *{"version": "2.0", "requestv2": {
-    "@@odata.type": "Microsoft.Dynamics.CRM.expando",
-    "mimeType": "@{triggerBody()['text']}",
-    "base64Encoded": "@{string(triggerBody()?['file']?['contentBytes'])}"}}*
+```json
+    {
+        "version": "2.0",
+        "requestv2": {
+         "@@odata.type": "Microsoft.Dynamics.CRM.expando",
+         "mimeType": "@{triggerBody()['text']}",
+         "base64Encoded": "@{string(triggerBody()?['file']?['contentBytes'])}"
+        }
+    }
+```
 
-    > [!div class="mx-imgBorder"]
-    > ![Predict action with dynamic model id](media/DynModelId-1.png "Predict action with dynamic model id")
+>    [!div class="mx-imgBorder"]
+>    ![Predict action with dynamic model id](media/DynModelId-1.png "Predict action with dynamic model id")
 
 5. Select **Save** in the upper-right corner, and then select **Test** to try out your flow:
-
+    
     > [!div class="mx-imgBorder"]
     > ![Test predict action](media/DynModelId-2.png "Test predict action")
 
