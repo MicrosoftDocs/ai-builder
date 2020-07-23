@@ -92,7 +92,9 @@ The **Infer request** field value depends on the model type.
 
 7. Go back to your flow in edit mode and select  **+ New step** and select the **Compose** action (or any other action to process your model output). Let's say your model output has the **Total** field, you can get it with the following formula:
 
-    *@{outputs('Predict')?['body/responsev2/predictionOutput/labels/Total/value']}*
+    ```
+    @{outputs('Predict')?['body/responsev2/predictionOutput/labels/Total/value']}
+    ```
 
     > [!div class="mx-imgBorder"]
     > ![Use predict output](media/DynModelId-4.png "Use predict output")
