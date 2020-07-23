@@ -67,14 +67,14 @@ The **Infer request** field value depends on the model type.
 1. In the step **Predict**, enter following value in the **Infer request** field:
 
     ```json
-        {
-            "version": "2.0",
-            "requestv2": {
-            "@@odata.type": "Microsoft.Dynamics.CRM.expando",
-            "mimeType": "@{triggerBody()['text']}",
-            "base64Encoded": "@{string(triggerBody()?['file']?['contentBytes'])}"
-            }
+    {
+        "version": "2.0",
+        "requestv2": {
+        "@@odata.type": "Microsoft.Dynamics.CRM.expando",
+        "mimeType": "@{triggerBody()['text']}",
+        "base64Encoded": "@{string(triggerBody()?['file']?['contentBytes'])}"
         }
+    }
     ```
 
     > [!div class="mx-imgBorder"]
@@ -85,7 +85,7 @@ The **Infer request** field value depends on the model type.
     > [!div class="mx-imgBorder"]
     > ![Test predict action](media/DynModelId-2.png "Test predict action")
 
-6. In the flow run details, get the model JSON output in the **OUTPUTS** section of the predict action. This is useful to build downstreams actions using values of the model.
+6. In the flow run details, get the model JSON output in the **OUTPUTS** section of the predict action. This is useful to build downstream actions using values of the model.
 
     > [!div class="mx-imgBorder"]
     > ![Get output from run results](media/DynModelId-3.png "Get output from run results")
