@@ -23,7 +23,7 @@ Prebuilt models are available in Power Automate and&mdash;depending on the model
 |[Entity extraction](prebuilt-entity-extraction.md)    |    Power Automate    |
 |[Key phrase extraction](prebuilt-key-phrase.md)  |    Power Automate    |
 |[Language detection](prebuilt-language-detection.md)  |    Power Automate    |
-|[Text recognition](prebuilt-text-recognition.md)      |    Power Automate and Power Apps  |
+|[Receipt processing](prebuilt-receipt-processing.md)   |   Power Automate and Power Apps     |
 |[Sentiment analysis ](prebuilt-sentiment-analysis.md)    |    Power Automate    |
 
 ### See also
