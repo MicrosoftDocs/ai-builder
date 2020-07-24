@@ -131,7 +131,7 @@
 
   - name: Receipt processing (preview)
     href: prebuilt-receipt-processing.md
-  - name: Text translation
+  - name: Text translation (preview)
     href: prebuilt-text-translation.md
 - name: Use AI Builder in Power Automate
   items:
@@ -169,7 +169,7 @@
       href: flow-sentiment-analysis.md
     - name: Text recognition model
       href: flow-text-recognition.md
-    - name: Text translation model
+    - name: Text translation model (preview)
       href: flow-text-translation.md
   - name: Use predict action in Power Automate
     href: predict-action-pwr-automate.md
