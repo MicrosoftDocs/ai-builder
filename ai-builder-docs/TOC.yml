@@ -128,10 +128,12 @@
     href: prebuilt-key-phrase.md
   - name: Language detection
     href: prebuilt-language-detection.md
-  - name: Text recognition
-    href: prebuilt-text-recognition.md
+  - name: Receipt processing (preview)
+    href: prebuilt-receipt-processing.md
   - name: Sentiment analysis
     href: prebuilt-sentiment-analysis.md
+  - name: Text recognition
+    href: prebuilt-text-recognition.md
 - name: Use AI Builder in Power Automate
   items:
   - name: Overview
@@ -162,6 +164,8 @@
       href: flow-key-phrase-extraction.md
     - name: Language detection model
       href: flow-language-detection.md
+    - name: Receipt processing model (preview)
+      href: flow-receipt-processing.md
     - name: Sentiment analysis model
       href: flow-sentiment-analysis.md
     - name: Text recognition model
@@ -188,6 +192,16 @@
       href: business-card-reader-component-in-powerapps.md
     - name: Use in a model-driven app
       href: business-card-reader-component-model-driven.md
+  - name: Use the form processor component in Power Apps
+    href: form-processor-component-in-powerapps.md
+  - name: Use the object detector component in Power Apps
+    href: object-detector-component-in-powerapps.md
+  - name: Use the receipt processor component in Power Apps (preview)
+    href: prebuilt-receipt-processor-component-in-powerapps.md
+  - name: Use the text recognizer component in Power Apps
+    href: prebuilt-text-recognizer-component-in-powerapps.md
+  - name: Use your prediction model in Power Apps
+    href: prediction-model-driven-app.md
 - name: Administration and security
   items:
   - name: Administer AI Builder
