@@ -1,8 +1,7 @@
 ---
-title: Text recognition prebuilt AI model -  AI Builder | Microsoft Docs
+title: Text recognition prebuilt AI model - AI Builder | Microsoft Docs
 description: Describes the text recognition prebuilt AI models that are available in AI Builder.
 author: alanabrito
-
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
@@ -13,35 +12,34 @@ ms.reviewer: v-dehaas
 
 # Text recognition model
 
-Prebuilt text recognition models extract words from documents and images into machine-readable character streams. It uses state-of-the-art optical character recognition (OCR) to detect printed and handwritten text in images.
+The text recognition prebuilt model extracts words from documents and images into machine-readable character streams. It uses state-of-the-art optical character recognition (OCR) to detect printed and handwritten text in images.
 
-This prebuilt processes images and document files to extract lines of printed or handwritten text.
+This model processes images and document files to extract lines of printed or handwritten text.
 
 ## Use in Power Apps
 
-The text recognition prebuilt model is available in Power Apps by using the text recognizer component. For more information, see [Text recognizer component in Power Apps](prebuilt-text-recognizer-component-in-powerapps.md).
+The text recognition prebuilt model is available in Power Apps by using the text recognizer component. More information: [Use the text recognizer component in Power Apps](prebuilt-text-recognizer-component-in-powerapps.md)
 
 ## Use in Power Automate
 
-For information about how to use text recognition prebuilt model in Power Automate, see [Use text recognition model in Power Automate](flow-text-recognition.md).  
+For information about how to use this<!--Suggested.--> model in Power Automate, see [Use the text recognition prebuilt model in Power Automate](flow-text-recognition.md).
 
 ## Supported language, format, and size
 
-The documents you can scan with the text recognition model need these characteristics:
+The documents you can scan with the text recognition model must have these characteristics:
 
 - **Language**: English
 - **Format**:
-    - JPG
-    -.png
-    - BMP
-    - PDF
-    - TIFF
+  - JPG
+  - PNG
+  - BMP
+  - PDF
 - **Size**: 20 MB maximum
 
 ## Model output
 
-If a document is detected, the text recognition model will output the following information:
+If a document is detected, the text recognition model outputs the following information:
 
 - **Results**: A list of lines extracted from the input text.
 - **Text**: Strings containing the line of text detected.
-- **BoundingBox**: Four values representing the bounding box, described using the top and left positions along with its width and height.
+- **BoundingBox**: Four values representing the bounding box, described by using the top and left<!--What does "top and left" mean here?--> positions along with its width and height.

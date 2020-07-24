@@ -18,17 +18,17 @@
     href: model-types.md
   - name: Build a model
     href: build-model.md
-  - name: Train a model
+  - name: Train your model
     href: train-model.md
-  - name: Manage a model
+  - name: Manage your model
     href: manage-model.md
-  - name: Publish a model
+  - name: Publish your model
     href: publish-model.md
   - name: Use your model
     href: use-model.md
-  - name: Share a model
+  - name: Share your model
     href: share-model.md
-  - name: Distribute a model
+  - name: Distribute your model
     href: distribute-model.md
 - name: Custom AI models
   items:
@@ -54,7 +54,7 @@
         href: prediction-training-report.md
     - name: Use your prediction model
       href: prediction-use.md
-  - name: Category classification AI model (preview)
+  - name: Category classification AI model
     items:
     - name: Overview
       href: text-classification-overview.md
@@ -76,7 +76,7 @@
       href: text-classification-view-predictions.md
     - name: Use generated tags
       href: text-classification-model-use-tags.md
-  - name: Entity extraction AI model (preview)
+  - name: Entity extraction AI model
     items:
     - name: Overview
       href: entity-extraction-overview.md
@@ -119,19 +119,18 @@
   - name: Overview
     href: prebuilt-overview.md
   - name: Business card reader
-    href: prebuilt-business-card.md   
-  - name: Category classification (preview)
+    href: prebuilt-business-card.md 
+  - name: Category classification
     href: prebuilt-category-classification.md
-  - name: Entity extraction (preview)
+  - name: Entity extraction 
     href: prebuilt-entity-extraction.md
   - name: Key phrase extraction
     href: prebuilt-key-phrase.md
   - name: Language detection
     href: prebuilt-language-detection.md
-  - name: Sentiment analysis
-    href: prebuilt-sentiment-analysis.md
-  - name: Text recognition
-    href: prebuilt-text-recognition.md
+
+  - name: Receipt processing (preview)
+    href: prebuilt-receipt-processing.md
   - name: Text translation
     href: prebuilt-text-translation.md
 - name: Use AI Builder in Power Automate
@@ -142,28 +141,30 @@
     href: use-in-flow-prereq.md
   - name: Use a custom AI Builder model in Power Automate
     items:
-    - name: Category classification model (preview)
+    - name: Category classification model
       href: text-classification-model-in-flow.md
-    - name: Entity extraction model (preview)
+    - name: Entity extraction model 
       href: entity-extraction-pwr-automate.md
     - name: Form processing model
       href: form-processing-model-in-flow.md
     - name: Object detection model
       href: object-detection-model-in-flow.md
     - name: Prediction model
-      href: prediction-pwr-automate.md    
+      href: prediction-pwr-automate.md
   - name: Use a prebuilt AI Builder model in Power Automate
     items:
     - name: Business card reader model
       href: flow-business-card-reader.md
-    - name: Category classification model (preview)
+    - name: Category classification model 
       href: prebuilt-category-classification-pwr-automate.md    
-    - name: Entity extraction model (preview)
+    - name: Entity extraction model
       href: prebuilt-entity-extraction-pwr-automate.md
     - name: Key phrase extraction model
       href: flow-key-phrase-extraction.md
     - name: Language detection model
       href: flow-language-detection.md
+    - name: Receipt processing model (preview)
+      href: flow-receipt-processing.md
     - name: Sentiment analysis model
       href: flow-sentiment-analysis.md
     - name: Text recognition model
@@ -184,7 +185,7 @@
     href: form-processor-component-in-powerapps.md
   - name: Use the object detector component in Power Apps
     href: object-detector-component-in-powerapps.md
-  - name: Add text-based AI models in Power Apps using formulas (Preview)
+  - name: Add text-based AI models in Power Apps using formulas (preview)
     href: formula-bar.md
   - name: Use the business card reader component in Power Apps
     items:
@@ -192,6 +193,16 @@
       href: business-card-reader-component-in-powerapps.md
     - name: Use in a model-driven app
       href: business-card-reader-component-model-driven.md
+  - name: Use the form processor component in Power Apps
+    href: form-processor-component-in-powerapps.md
+  - name: Use the object detector component in Power Apps
+    href: object-detector-component-in-powerapps.md
+  - name: Use the receipt processor component in Power Apps (preview)
+    href: prebuilt-receipt-processor-component-in-powerapps.md
+  - name: Use the text recognizer component in Power Apps
+    href: prebuilt-text-recognizer-component-in-powerapps.md
+  - name: Use your prediction model in Power Apps
+    href: prediction-model-driven-app.md
 - name: Administration and security
   items:
   - name: Administer AI Builder
