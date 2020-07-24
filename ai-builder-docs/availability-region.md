@@ -25,20 +25,19 @@ The following table shows which AI Builder features are available in each region
 > [!NOTE]
 > For a view of what's planned for AI Builder, including new features, release status, and regional availability, check out the [AI Builder release plans](https://go.microsoft.com/fwlink/?linkid=2102828).
 
-
+### Custom models
 |Feature |Asia |Australia |Canada |Europe |Japan |South America |United Kingdom  |United States |
 |:-------|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
-
-=======
-|**Custom models** |
 |Prediction|GA|GA|GA|GA|GA|GA|GA|GA|
 |Category classification|GA|GA |GA|GA |GA |GA|GA |GA|
 |Entity Extraction |GA|GA |GA|GA|GA |GA|GA |GA|
 |Object detection|GA |GA |-|GA |GA |-| GA |GA |
 |Form processing |GA |GA |GA |GA |GA |GA |GA |GA |
 
+### Prebuilt models
 
-|**Prebuilt models** |
+|Feature |Asia |Australia |Canada |Europe |Japan |South America |United Kingdom  |United States |
+|:-------|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
 |Business card reader    |GA|GA |GA|GA|GA |GA|GA |GA|
 |Category classification|Preview |Preview |Preview |Preview |-|Preview |Preview |Preview |
 |Entity extraction |Preview |Preview |Preview |Preview |-|Preview |Preview |Preview |
@@ -53,9 +52,6 @@ The following table shows which AI Builder features are available in each region
 |Text recognition   |GA |GA |GA |GA |GA |GA |GA |GA |
 |Text translation |- |- |- |- |-|- |- |Preview |
 
-
-
 ### Related content
 
 [AI model types](model-types.md)
-
