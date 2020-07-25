@@ -128,12 +128,11 @@
     href: prebuilt-key-phrase.md
   - name: Language detection
     href: prebuilt-language-detection.md
+
   - name: Receipt processing (preview)
     href: prebuilt-receipt-processing.md
-  - name: Sentiment analysis
-    href: prebuilt-sentiment-analysis.md
-  - name: Text recognition
-    href: prebuilt-text-recognition.md
+  - name: Text translation (preview)
+    href: prebuilt-text-translation.md
 - name: Use AI Builder in Power Automate
   items:
   - name: Overview
@@ -170,6 +169,8 @@
       href: flow-sentiment-analysis.md
     - name: Text recognition model
       href: flow-text-recognition.md
+    - name: Text translation model (preview)
+      href: flow-text-translation.md
   - name: Use predict action in Power Automate
     href: predict-action-pwr-automate.md
 - name: Use AI Builder in Power Apps
