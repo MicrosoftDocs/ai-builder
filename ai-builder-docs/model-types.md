@@ -24,8 +24,8 @@ Different AI model types are designed for various business scenarios. With AI Bu
 ## Custom AI models
 
 Custom AI models are models that you build by choosing a model type in AI Builder, and then training the model to do a specific AI task by using your data. You select the model type, provide the data, build and train your own unique AI model, and then use or share the model. Build your own custom AI model by using the following AI model types.
-
-| AI model type  | Category<!--"Category" and its values of Prediction, Language, and Vision only seem to occur on this page. I kept expecting to see it used elsewhere or at least for its significance to be explained. Can you expand on it?-->  | Start here |
+<!--"Category" and its values of Prediction, Language, and Vision only seem to occur on this page. I kept expecting to see it used elsewhere or at least for its significance to be explained. Can you expand on it?-->  
+| AI model type  | Category| Start here |
 |---|---|---|
 | Category classification  |Language   | [Overview of the category classification custom model](text-classification-overview.md) |
 | Entity extraction  |Language   | [Overview of the entity extraction custom model](entity-extraction-overview.md) |
@@ -39,14 +39,13 @@ AI Builder features prebuilt AI models that you can use in Power Apps and Power 
 
 | AI model type | Category |Start here |
 |--------|--------|--------|
-|Business card reader |Vision | [Business card model](prebuilt-business-card.md)
-|Category classification |Language | [Category classification prebuilt model](prebuilt-category-classification.md)
-|Entity extraction| Language | [Entity extraction prebuilt model](prebuilt-entity-extraction.md)
-|Receipt processing |Vision | [Receipt processing model (preview)](prebuilt-receipt-processing.md)
-|Key phrase extraction |Language | [Key phrase extraction model](prebuilt-key-phrase.md)
-|Language detection |Language | [Language detection model](prebuilt-language-detection.md)
-|Sentiment analysis |Language | [Sentiment analysis model](prebuilt-sentiment-analysis.md)
-|Text recognition |Vision | [Text recognition model](prebuilt-text-recognition.md)
+|Business card reader |Vision | [Overview of business card reader](prebuilt-business-card.md)
+|Text recognition |Vision | [Overview of text recognition](prebuilt-text-recognition.md)
+|Category classification |Language | [Overview of category classification](prebuilt-category-classification.md)
+|Key phrase extraction |Language | [Overview of key phrase extraction](prebuilt-key-phrase.md)
+|Language detection |Language | [Overview of language detection](prebuilt-language-detection.md)
+|Sentiment analysis |Language | [Overview of sentiment analysis](prebuilt-sentiment-analysis.md)
+|Text translation |Language | [Overview of text translation](prebuilt-text-translation.md)
 
 ### Next step
 
