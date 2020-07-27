@@ -31,11 +31,17 @@ ms.reviewer: v-dehaas
 
 1. Select **File** as the input type, then set *My receipt* as the input title.
 
+    > [!div class="mx-imgBorder"]
+    > ![Trigger file flow](media/rp-flow-my-receipt.png "Manually trigger a flow screens")
+
 1. Select **+ New step**, search for *AI Builder*, and then select **Process and save information from receipts** in the list of actions.
 
 1. Specify the *My receipt* field from the trigger in the **Receipt file** input.
 
 1. In the successive actions, you can use any of the receipt values from the [model output](#output).
+
+    > [!div class="mx-imgBorder"]
+    > ![Flow example](media/rp-flow-example.png "Example flow screens")
 
 >[!NOTE]
 > Receipt values are returned as strings. To manipulate them as numbers, you can use the [float](https://docs.microsoft.com/azure/logic-apps/workflow-definition-language-functions-reference#float) or [int](https://docs.microsoft.com/azure/logic-apps/workflow-definition-language-functions-reference#int) conversion functions.
