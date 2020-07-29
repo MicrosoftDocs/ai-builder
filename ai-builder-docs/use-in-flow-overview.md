@@ -16,6 +16,26 @@ Power Automate is a service that helps you create automated workflows between yo
 
 You can use your published AI models in addition to some AI Builder prebuilt models in Power Automate.
 
+## Prebuilt AI models you can use in Power Automate right away
+
+* [Business card reader model](flow-business-card-reader.md)
+* [Category classification model](prebuilt-category-classification-pwr-automate)
+* [Entity extraction model]
+* [Key phrase extraction model]
+* [Language detection model]
+* [Receipt processing model (preview)]
+* [Sentiment analysis model]
+* [Text recognition model]
+* [Text translation model (preview)]
+
+## Custom AI models that you build and train:
+
+* [Category classification model]
+* [Entity extraction model]
+* [Form processing model]
+* [Object detection model]
+* [Prediction model]
+
 ### Next step
 
 [Prerequisites](use-in-flow-prereq.md)
