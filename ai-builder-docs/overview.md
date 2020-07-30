@@ -13,13 +13,18 @@ ms.reviewer: v-dehaas
 
 # What is AI Builder?
 
-AI Builder is a new<!--Would you say it's still "new"?--> Microsoft Power Platform capability you can use to<!--Suggested. Style Guide prefers us to focus on what the customer needs rather than saying the software helps, or allows, or lets them do something.--> improve business performance by automating processes and predicting outcomes. AI Builder is a turnkey solution that brings the power of AI through a point-and-click experience. With AI Builder, you can add intelligence to your apps even if you have no coding or data science skills.
+AI Builder is a Microsoft Power Platform capability you can use to improve business performance by automating processes and predicting outcomes. AI Builder is a turnkey solution that brings the power of AI through a point-and-click experience. With AI Builder, you can add intelligence to your apps even if you have no coding or data science skills.
 
  > [!IMPORTANT]
  >
  > - Some features in AI Builder haven't been released yet for general availability (GA) and remain in preview status. See [Release status](#release-status) later in this topic for more information.
  > - [!INCLUDE[cc_preview_features_definition](./includes/cc-preview-features-definition.md)]
- > - Administrators can control preview feature availability for their environment by using the Power Platform admin center. More information: [Enable or disable AI Builder preview features](administer.md#enable-or-disable-ai-builder-preview-features)<!--note from editor: The "More information: [link]** pattern doesn't take a trailing period. This is one reason it's always at the end of a paragraph. When the lead-in sentence has some specifics in it (as in line 30), the pattern does have a period after it. "For more information about some specific aspect of this thing, see [link]." -->
+ > - Administrators can control preview feature availability for their environment by using the Power Platform admin center. More information: [Enable or disable AI Builder preview features](administer.md#enable-or-disable-ai-builder-preview-features)
+
+To explore AI Builder, sign in to [Power Apps](https://make.powerapps.com), and then select **AI Builder** > **Build**.
+
+> [!div class="mx-imgBorder"]
+> ![AI Builder home page](media/ai-builder-home.png "AI Builder home page")
 
 ## Release status
 
