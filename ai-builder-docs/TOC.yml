@@ -128,9 +128,10 @@
     href: prebuilt-key-phrase.md
   - name: Language detection
     href: prebuilt-language-detection.md
-
   - name: Receipt processing (preview)
     href: prebuilt-receipt-processing.md
+  - name: Text recognition
+    href: prebuilt-text-recognition.md
   - name: Text translation (preview)
     href: prebuilt-text-translation.md
 - name: Use AI Builder in Power Automate
@@ -177,8 +178,6 @@
   items:
   - name: Overview
     href: use-in-powerapps-overview.md
-  - name: Use the text recognizer component in Power Apps
-    href: prebuilt-text-recognizer-component-in-powerapps.md
   - name: Use your prediction model in Power Apps
     href: prediction-model-driven-app.md
   - name: Use the form processor component in Power Apps
