@@ -128,9 +128,10 @@
     href: prebuilt-key-phrase.md
   - name: Language detection
     href: prebuilt-language-detection.md
-
   - name: Receipt processing (preview)
     href: prebuilt-receipt-processing.md
+  - name: Text recognition
+    href: prebuilt-text-recognition.md
   - name: Text translation (preview)
     href: prebuilt-text-translation.md
 - name: Use AI Builder in Power Automate
