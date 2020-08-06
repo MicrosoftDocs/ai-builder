@@ -22,7 +22,7 @@ Create a schedule to generate predictions regularly in Common Data Service. To v
 
 ## Run now
 
-Generate new predictions right away and save them to Common Data Service. To learn how to run your model immediately<!--I couldn't find anything that talked about the **Run now** command for different model types.-->, see [Run your prediction model](prediction-use.md#prediction-run).<!--Edit okay? The original link didn't seem to be right.-->
+Generate new predictions right away and save them to Common Data Service. To learn how to run your model immediately<!--I couldn't find anything that talked about the **Run now** command for different model types.-->, see [Run your prediction model](prediction-use.md#prediction-run).<!--Edit okay? The original [link]() didn't seem to be right.-->
 
 ## Create a new app
 
@@ -79,6 +79,18 @@ Concat(AIBuilder.CategorizeText(TextInput1, { modelId: GUID("\<yourModelId\>").c
 AIBuilder.DetectLanguage(TextInput1).language|Returns the two-letter language code (ISO 3166) of the text.
 Concat(AIBuilder.ExtractKeyPhrases(TextInput1).phrases, phrase & ",")|Extracts all key phrases from the text into a list.
 Concat(AIBuilder.ExtractTextEntities(TextInput1).entities, type & ", ")|Extracts the types of entities present in the text into a list.
+
+### Supported languages
+
+The AnalyzeSentiment, CategorizeText, ExtractKeyPhrases, and ExtractTextEntities formulas all support multiple languages. With the DetectLanguage formula, you can specify a country to narrow the languages that are included.
+
+|     Formula                          |     Example                                                                                                                   |     Languages   |
+|--------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|------------------------------|
+|     AIBuilder.AnalyzeSentiment       |     AIBuilder.AnalyzeSentiment(“Esta   fiesta es mi favorita”, { language: “es-ES”}).sentiment                                |     [Link](https://docs.microsoft.com/azure/cognitive-services/text-analytics/language-support?tabs=sentiment-analysis)                     |
+|     AIBuilder.CategorizeText         |     Concat(AIBuilder.CategorizeText(“Esta   fiesta es mi favorita”, { language: “es-ES”}).categories, type & “,”)             |     [Link](https://docs.microsoft.com/ai-builder/prebuilt-category-classification#supported-data-format-and-languages)                     |
+|     AIBuilder.ExtractKeyPhrases      |     Concat(AIBuilder.ExtractKeyPhrases(“Esta   fiesta es mi favorita”, { language: “es-ES”}).phrases, phrase & “,”)           |     [Link](https://docs.microsoft.com/azure/cognitive-services/text-analytics/language-support?tabs=key-phrase-extraction)                     |
+|     AIBuilder.ExtractTextEntities    |     Concat(AIBuilder.ExtractTextEntities(“Esta   fiesta es mi favorita”, { language: “es-ES”}).entities, type & “,”)          |     [Link](https://docs.microsoft.com/ai-builder/prebuilt-entity-extraction#supported-data-format-and-languages)                     |
+|     AIBuilder.DetectLanguage         |     AIBuilder.DetectLanguage("I   love seattle", {countryHint:"AU"}).language                                                 |     [Link](https://docs.microsoft.com/azure/cognitive-services/text-analytics/language-support?tabs=language-detection)                     |
 
 ### Example: Use formulas in a gallery control
 
