@@ -5,7 +5,7 @@ author: JoeFernandezMS
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/30/2019
+ms.date: 08/10/2020
 ms.author: jofernan
 ms.reviewer: v-dehaas
 ---
@@ -28,9 +28,10 @@ ms.reviewer: v-dehaas
 1. In the successive actions, you can use any fields and tables extracted by the AI Builder model. For example, let's say that our model is trained to extract the *Invoice Id* and the *Total Amount* value, and we want to post those to a Microsoft Teams channel. Just add the **Post a message to Teams** action, and then select your fields from the list of tokens.
 
     > [!NOTE]
-    >- To retreive the value for a field, select **<field_name> value** . For example, for the *INVOICE* field, select **INVOICE value**.
+    >
+    >- To retrieve the value for a field, select **<field_name> value** . For example, for the *INVOICE* field, select **INVOICE value**.
     >- To retrieve the confidence score for a field, select **<field_name> confidence score** . For example, for the *INVOICE* field, select **INVOICE confidence score**.
-    
+
     > [!div class="mx-imgBorder"]
     > ![Form processing flow overview](media/flow-fp-overview-2.png "Form processing flow overview")
 
@@ -53,6 +54,17 @@ ms.reviewer: v-dehaas
 |**{table}{column} confidence score** |float |How confident the model is in its prediction |Value in the range of 0 to 1. Values close to 1 indicate greater confidence that the extracted cell value is accurate |
 
 **Note:** More output parameters may be proposed such as field coordinates, polygons, bounding boxes and page numbers. These are not listed on purpose as mainly intended to advanced usage.
+
+## Common use cases
+
+### Remove currency symbols (€, $,…) in a form processing output in a flow
+
+Let’s imagine that the *Total* value extracted by the form processing model has a currency symbol, for example: $54. To remove the *$* sign, or any other symbols you want to omit, use the replace expression to remove it. Here is how to do it:
+
+`replace(<form processing output>, '$', '')`
+
+> [!div class="mx-imgBorder"]
+> !['Add expression' animation](media/form-processing-remove-currency.gif "Type the expression above into the **Body** field on the 'Send email notification. card.")
 
 ### See also
 
