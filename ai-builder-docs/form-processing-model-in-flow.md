@@ -57,14 +57,48 @@ ms.reviewer: v-dehaas
 
 ## Common use cases
 
-### Remove currency symbols (€, $,…) in a form processing output in a flow
+### Remove currency symbols (€, $,…) in a form processing output in Power Automate
 
 Let’s imagine that the *Total* value extracted by the form processing model has a currency symbol, for example: $54. To remove the *$* sign, or any other symbols you want to omit, use the replace expression to remove it. Here is how to do it:
 
 `replace(<form processing output>, '$', '')`
 
 > [!div class="mx-imgBorder"]
-> !['Add expression' animation](media/form-processing-remove-currency.gif "Type the expression above into the **Body** field on the 'Send email notification. card.")
+> !['Add expression' animation](media/form-processing-remove-currency.gif "Ad the expression above into the **Body** field on the 'Send email notification'card.")
+
+### Convert a form processing output string to a number in Power Automate
+
+AI Builder form processing returns all extracted values as strings. If the destination where you want to save a value extracted by AI Builder form processing requires a number, you can convert a value to number using the int or float expressions. Use int if the number has no decimals, use float if instead the number has decimals. Here is how to do it:
+
+`float('<form processing output>')`
+
+> [!div class="mx-imgBorder"]
+> !['Convert to number' animation](media/form-processing-convert-number.gif "Add the expression above into the **Total amount** field on the 'Create a new record' card.")
+
+### Remove blank spaces in a form processing output in Power Automate
+
+To remove blank spaces from output values, use the [replace](https://docs.microsoft.com/azure/logic-apps/workflow-definition-language-functions-reference#replace) function:
+
+> [!div class="mx-imgBorder"]
+> !['Add expression' animation](media/form-processing-remove-spaces.gif "Add the expression above into the **Body** field on the 'Send an email notification' card.")
+
+
+### Convert a form processing output string to a date in Power Automate
+
+AI Builder form processing returns all outputs as strings. If the destination where you want to save a value extracted by form processing requires to be in date format, you can convert a value that contains a date into date format by using the [formatDateTime](https://docs.microsoft.com/azure/logic-apps/workflow-definition-language-functions-reference#formatDateTime) expression. Here is how to do it:
+
+> [!div class="mx-imgBorder"]
+> !['Add expression' animation](media/form-processing-convert-date.gif "Add the expression above into the field on the 'Create a new record' card.")
+
+### Filter email signature from a flow so that is is not processed by the form processing model (Office 365 Outlook)
+
+For incoming emails from the Office 365 Outlook connector, email signatures are picked up by Power Automate as attachments. To keep these from being processed by the form processing model, create an action **When a new email arrives**, and configure as shown here:
+
+> [!div class="mx-imgBorder"]
+> ![Filter attachment condition](media/form-processing-filter-sig.png "Add condition 'attachment is inline' ")
+
+With this only email attachments that are not inline signatures will be processed.  
+
 
 ### See also
 
