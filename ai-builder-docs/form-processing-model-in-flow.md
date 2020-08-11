@@ -5,7 +5,7 @@ author: JoeFernandezMS
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 08/10/2020
+ms.date: 08/11/2020
 ms.author: jofernan
 ms.reviewer: v-dehaas
 ---
@@ -15,12 +15,11 @@ ms.reviewer: v-dehaas
  > [!IMPORTANT]
  > To use AI Builder models in Power Automate, you have to create the flow inside a solution. The steps below won't work if you don't follow these instructions first: [Create a flow in a solution](/flow/create-flow-solution).
 
-
 1. Sign in to [Power Automate](https://flow.microsoft.com/), select the **My flows** tab, and then select **New > +Instant-from blank**.
 1. Name your flow, select **Manually trigger a flow** under **Choose how to trigger this flow**, and then select **Create**.
 1. Expand **Manually trigger a flow**, select **+Add an input**, select **File** as the input type, and set as input title **File Content**.
 1. Select **+ New step**, search for **AI Builder** in the Search for filters and actions box, and then select **Process and save information from forms** in the list of actions.
-1.	Select the form processing model you want to use, select the Document type, and in the **Document** field add **File Content** from the trigger:
+1.Select the form processing model you want to use, select the Document type, and in the **Document** field add **File Content** from the trigger:
 
     > [!div class="mx-imgBorder"]
     > ![Select file content](media/flow-select-file-content-2.png "Select file content")
@@ -34,7 +33,6 @@ ms.reviewer: v-dehaas
 
     > [!div class="mx-imgBorder"]
     > ![Form processing flow overview](media/flow-fp-overview-2.png "Form processing flow overview")
-
 
 ## Parameters
 ### Input
@@ -84,7 +82,6 @@ To remove blank spaces from output values, use the [replace](https://docs.micros
 > [!div class="mx-imgBorder"]
 > !['Add expression' animation](media/form-processing-remove-spaces.gif "Add the expression above into the input field of an action in your flow. Remember to replace the first parameter of the expression by the form processing output you want to remove blank spaces.")
 
-
 ### Convert a form processing output string to a date in Power Automate
 
 AI Builder form processing returns all outputs as strings. If the destination where you want to save a value extracted by form processing requires to be in date format, you can convert a value that contains a date into date format by using the [formatDateTime](https://docs.microsoft.com/azure/logic-apps/workflow-definition-language-functions-reference#formatDateTime) expression. Here is how to do it:
@@ -101,10 +98,6 @@ For incoming emails from the Office 365 Outlook connector, email signatures are 
 > [!div class="mx-imgBorder"]
 > ![Filter attachment condition](media/form-processing-filter-sig.png "Add condition 'attachment is inline' ")
 
-With this only email attachments that are not inline signatures will be processed.  
-
-
 ### See also
 
 [Overview of the form-processing model](form-processing-model-overview.md)
-
