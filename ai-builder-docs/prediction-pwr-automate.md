@@ -12,10 +12,6 @@ ms.reviewer: v-dehaas
 
 # Use a prediction model in Power Automate
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
-
-> [!IMPORTANT]
- > To use AI Builder models in Power Automate, you have to create the flow inside a solution. The steps below won't work if you don't follow these instructions first: [Create a flow in a solution](/flow/create-flow-solution).
 
 1. Sign in to [Power Automate](https://flow.microsoft.com/).
 
