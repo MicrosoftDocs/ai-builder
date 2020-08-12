@@ -29,8 +29,8 @@ After you create your form processing model, you can train, test, and publish it
 
 If you have trouble training your model, try these suggestions:
 
-- Optimize your data by using the guidance in [Form-processing model requirements and limitations](form-processing-model-requirements.md).
-- If you're getting bad results or low confidence scores for certain fields, create a new form-processing model and upload more documents. The more documents you tag, the more AI Builder will learn how to better recognize the fields.
+- Make sure your data meets the guidelines listed in [form processing model requirements and limitations](form-processing-model-requirements.md).
+- Learn how you can [improve the performance of your form processing model](improve-form-processing-performance.md).
 - Download [sample material](https://go.microsoft.com/fwlink/?linkid=2103171) and use it for testing.
 
 ## Publish your model
