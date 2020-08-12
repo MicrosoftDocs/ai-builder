@@ -16,7 +16,7 @@ ms.reviewer: v-dehaas
 1. Name your flow, select **Manually trigger a flow** under **Choose how to trigger this flow**, and then select **Create**.
 1. Expand **Manually trigger a flow**, select **+Add an input**, select **File** as the input type, and set as input title **File Content**.
 1. Select **+ New step**, search for **AI Builder** in the Search for filters and actions box, and then select **Process and save information from forms** in the list of actions.
-1.Select the form processing model you want to use, select the Document type, and in the **Document** field add **File Content** from the trigger:
+1. Select the form processing model you want to use, select the Document type, and in the **Document** field add **File Content** from the trigger:
 
     > [!div class="mx-imgBorder"]
     > ![Select file content](media/flow-select-file-content-2.png "Select file content")
