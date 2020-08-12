@@ -13,8 +13,6 @@ ms.reviewer: v-dehaas
 
 # Use the predict action in Power Automate
 
-> [!IMPORTANT]
- > To use AI Builder models in Power Automate, you have to create the flow inside a solution. The steps below won't work if you don't follow these instructions first: [Create a flow in a solution](/flow/create-flow-solution).
 
 You can use dedicated actions for each AI Builder model in Power Automate. However, the **Predict** action lets you use many AI Builder model types.
 
