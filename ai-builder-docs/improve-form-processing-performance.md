@@ -23,8 +23,8 @@ The more documents you tag, the more AI Builder will learn how to better recogni
 
 ## More tips
 
-* If possible, use text-based PDF documents instead of image-based documents. Scanned PDFs are handled as images.
-* For filled-in forms, use examples that have all of their fields filled in.
-* Use forms with different values in each field.
-* If your form images are of lower quality, use a larger data set (10-15 images, for example).
-* When you create a form processing model, upload documents with the same layout where each document is a separate instance. For example, invoices from different months should be in separate documents and not all in the same one.
+- If possible, use text-based PDF documents instead of image-based documents. Scanned PDFs are handled as images.
+- For filled-in forms, use examples that have all of their fields filled in.
+- Use forms with different values in each field.
+- If your form images are of lower quality, use a larger data set (10-15 images, for example).
+- When you create a form processing model, upload documents with the same layout where each document is a separate instance. For example, invoices from different months should be in separate documents and not all in the same one.
