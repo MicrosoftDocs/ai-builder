@@ -10,7 +10,7 @@ ms.author: jofernan
 ms.reviewer: v-dehaas
 ---
 
-# Train and publish your form-processing model
+# Train and publish your form processing model
 
 After you create your form processing model, you can train, test, and publish it to make it available.
 
