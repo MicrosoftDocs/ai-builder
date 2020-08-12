@@ -28,13 +28,6 @@ Form processing works on input documents that meet the following requirements:
 - If scanned from paper documents, scans should be high-quality images.
 - Must use the Latin alphabet (English characters).
 
-## Optimization tips
-
-- Use forms with different values in each field.
-- When you create a new form-processing model, upload documents with the same layout where each document is a separate instance. For example, you might have invoices from the same provider, but each uploaded invoice is from a different month.
-- If you're getting bad results or low confidence scores for certain fields, create a new form-processing model and upload more documents. The more documents you tag, the more AI Builder will learn how to better recognize the fields. 
-- You can optimize PDF files by using the **Print** > **Print to PDF** option to select certain pages within your document.
-
  > [!NOTE]
  > AI Builder doesn't currently support the following types of form-processing input data:
  >
@@ -42,6 +35,11 @@ Form processing works on input documents that meet the following requirements:
  > - Check boxes or radio buttons
  > - Signatures
  > - Fillable PDFs 
+
+## Optimization tips
+
+Learn how to [improve the performance of form processing models](improve-form-processing-performance.md).
+
 
 ### Next step
 
