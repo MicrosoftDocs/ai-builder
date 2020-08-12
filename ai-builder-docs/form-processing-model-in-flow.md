@@ -5,7 +5,7 @@ author: JoeFernandezMS
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/30/2019
+ms.date: 08/11/2020
 ms.author: jofernan
 ms.reviewer: v-dehaas
 ---
@@ -15,12 +15,11 @@ ms.reviewer: v-dehaas
  > [!IMPORTANT]
  > To use AI Builder models in Power Automate, you have to create the flow inside a solution. The steps below won't work if you don't follow these instructions first: [Create a flow in a solution](/flow/create-flow-solution).
 
-
 1. Sign in to [Power Automate](https://flow.microsoft.com/), select the **My flows** tab, and then select **New > +Instant-from blank**.
 1. Name your flow, select **Manually trigger a flow** under **Choose how to trigger this flow**, and then select **Create**.
 1. Expand **Manually trigger a flow**, select **+Add an input**, select **File** as the input type, and set as input title **File Content**.
 1. Select **+ New step**, search for **AI Builder** in the Search for filters and actions box, and then select **Process and save information from forms** in the list of actions.
-1.	Select the form processing model you want to use, select the Document type, and in the **Document** field add **File Content** from the trigger:
+1.Select the form processing model you want to use, select the Document type, and in the **Document** field add **File Content** from the trigger:
 
     > [!div class="mx-imgBorder"]
     > ![Select file content](media/flow-select-file-content-2.png "Select file content")
@@ -28,12 +27,12 @@ ms.reviewer: v-dehaas
 1. In the successive actions, you can use any fields and tables extracted by the AI Builder model. For example, let's say that our model is trained to extract the *Invoice Id* and the *Total Amount* value, and we want to post those to a Microsoft Teams channel. Just add the **Post a message to Teams** action, and then select your fields from the list of tokens.
 
     > [!NOTE]
-    >- To retreive the value for a field, select **<field_name> value** . For example, for the *INVOICE* field, select **INVOICE value**.
+    >
+    >- To retrieve the value for a field, select **<field_name> value** . For example, for the *INVOICE* field, select **INVOICE value**.
     >- To retrieve the confidence score for a field, select **<field_name> confidence score** . For example, for the *INVOICE* field, select **INVOICE confidence score**.
-    
+
     > [!div class="mx-imgBorder"]
     > ![Form processing flow overview](media/flow-fp-overview-2.png "Form processing flow overview")
-
 
 ## Parameters
 ### Input
@@ -54,7 +53,51 @@ ms.reviewer: v-dehaas
 
 **Note:** More output parameters may be proposed such as field coordinates, polygons, bounding boxes and page numbers. These are not listed on purpose as mainly intended to advanced usage.
 
+## Common use cases
+
+### Remove currency symbols (€, $,…) in a form processing output in Power Automate
+
+Let’s imagine that the *Total* value extracted by the form processing model has a currency symbol, for example: $54. To remove the *$* sign, or any other symbols you want to omit, use the [replace](https://docs.microsoft.com/azure/logic-apps/workflow-definition-language-functions-reference#replace) expression to remove it. Here is how to do it:
+
+`replace(<form processing output>, '$', '')`
+
+> [!div class="mx-imgBorder"]
+> !['Add expression' animation](media/form-processing-remove-currency.gif "Add the expression above into the input field of an action in your flow. Remember to replace the first parameter of the expression by the form processing output you want to remove the currency symbol.")
+
+### Convert a form processing output string to a number in Power Automate
+
+AI Builder form processing returns all extracted values as strings. If the destination where you want to save a value extracted by AI Builder form processing requires a number, you can convert a value to number using the [int](https://docs.microsoft.com/azure/logic-apps/workflow-definition-language-functions-reference#int) or [float](https://docs.microsoft.com/azure/logic-apps/workflow-definition-language-functions-reference#float) expressions. Use int if the number has no decimals, use float if instead the number has decimals. Here is how to do it:
+
+`float('<form processing output>')`
+
+> [!div class="mx-imgBorder"]
+> !['Convert to number' animation](media/form-processing-convert-number.gif "Add the expression above into the input field of an action in your flow. Remember to replace the first parameter of the expression by the form processing output you want to convert to number.")
+
+### Remove blank spaces in a form processing output in Power Automate
+
+To remove blank spaces from output values, use the [replace](https://docs.microsoft.com/azure/logic-apps/workflow-definition-language-functions-reference#replace) function:
+
+`replace(<form processing output>, ' ', '')`
+
+> [!div class="mx-imgBorder"]
+> !['Add expression' animation](media/form-processing-remove-spaces.gif "Add the expression above into the input field of an action in your flow. Remember to replace the first parameter of the expression by the form processing output you want to remove blank spaces.")
+
+### Convert a form processing output string to a date in Power Automate
+
+AI Builder form processing returns all outputs as strings. If the destination where you want to save a value extracted by form processing requires to be in date format, you can convert a value that contains a date into date format by using the [formatDateTime](https://docs.microsoft.com/azure/logic-apps/workflow-definition-language-functions-reference#formatDateTime) expression. Here is how to do it:
+
+`formatDateTime(<form processing output>)`
+
+> [!div class="mx-imgBorder"]
+> !['Add expression' animation](media/form-processing-convert-date.gif "Add the expression above into the input field of an action in your flow. Remember to replace the first parameter of the expression by the form processing output you want to convert to date.")
+
+### Filter email signature from a flow so that is is not processed by the form processing model (Office 365 Outlook)
+
+For incoming emails from the Office 365 Outlook connector, email signatures are picked up by Power Automate as attachments. To keep these from being processed by the form processing model add a condition to your flow that checks if the output from the Office 365 Outlook connector named **Attachments is Inline** is equal to false. In the **If yes** branch of the condition add the form processing action. With this only email attachments that are not inline signatures will be processed. 
+
+> [!div class="mx-imgBorder"]
+> ![Filter attachment condition](media/form-processing-filter-sig.png "Add condition 'attachment is inline' ")
+
 ### See also
 
 [Overview of the form-processing model](form-processing-model-overview.md)
-
