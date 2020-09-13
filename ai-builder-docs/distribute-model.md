@@ -43,7 +43,6 @@ For object detection models, the import process might continue after the import 
 
 ## Limitations
 
-* Import of solutions containing form-processing models isn't currently available.
 * For object detection and form processing, only models trained after April 2nd, 2020, can be added to a solution.
 * Importing an object detection model or form-processing model should be done within one month of export. However, you can still import * After that period if the source model remains unchanged after its export.
 * Changes to imported models aren't recommended.
