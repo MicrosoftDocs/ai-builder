@@ -52,12 +52,12 @@ For more information about enabling or disabling features in the Power Platform 
 
 Common Data Service has backup and restore capabilities to help protect your apps' data, providing continuous availability of service. System administrators and delegated admin users can use the standard capabilities described here: [Back up and restore environments](https://docs.microsoft.com/power-platform/admin/backup-restore-environments).
 
-- Backup and restore is fully supported for prediction, object detection, and prebuilt models.
+- Backup and restore is fully supported for prediction, object detection, form processing and prebuilt models.
 
   >[!NOTE]
-  >For object detection models, the restore process might take some time to be completed. The AI Builder models list shows an "importing" status message while the restore operation is in progress.<!--Suggested.-->
+  >For object detection and form processing models, the restore process might take some time to be completed. The AI Builder models list shows an "importing" status message while the restore operation is in progress.<!--Suggested.-->
 
-- Backup and restore isn't currently supported for preview models and form-processing models. If you restore an environment, you'll have to retrain and republish these models to make them available again.
+- For models not supported by backup and restore: if you restore an environment, you'll have to retrain and republish these models to make them available again.
 
 ## Move and copy environments
 
