@@ -5,7 +5,7 @@ author: alanabrito
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/04/2019
+ms.date: 09/29/2020
 ms.author: alanab
 ms.reviewer: v-dehaas
 ---
@@ -14,8 +14,10 @@ ms.reviewer: v-dehaas
 
 You can use the business card prebuilt model to extract information from business card images. If it detects a business card in the image, the AI model extracts information such as the person's<!--Suggested.--> name, job title, address, email, company, and phone numbers.
 
-> [!NOTE]
-> The design and format of business cards varies widely. AI Builder is constantly improving the accuracy of the business card AI model, but it's possible there could be inaccurate or missing information in some cases. It's a good idea to verify that the output is as you expect!
+ > [!NOTE]
+>
+> - The design and format of business cards varies widely. AI Builder is constantly improving the accuracy of the business card AI model, but it's possible there could be inaccurate or missing information in some cases. It's a good idea to verify that the output is as you expect.
+> - The prebuilt business card reader only supports English language extraction at this time. Check back to see what languages are supported going forward.
 
 ## Licensing requirements
 
