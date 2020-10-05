@@ -12,10 +12,7 @@ ms.reviewer: v-dehaas
 ---
 
 
-# Use the text translation prebuilt model in Power Automate (preview)
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
-
+# Use the text translation prebuilt model in Power Automate
 
 1. Sign in to [Power Automate](https://flow.microsoft.com/), select the **My flows** tab, and then select **New > +Instant-from blank**.
 1. Name your flow, select **Manually trigger a flow** under **Choose how to trigger this flow**, and then select **Create**.

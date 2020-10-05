@@ -10,7 +10,7 @@ ms.author: jofernan
 ms.reviewer: v-dehaas
 ---
 
-# Create a form-processing model
+# Create a form processing model
 
 After you review the [requirements](form-processing-model-requirements.md), you can get started creating your form-processing model.
 
@@ -23,22 +23,22 @@ After you review the [requirements](form-processing-model-requirements.md), you 
 1. If you want to create your model by using your own documents, make sure that you have at least five examples that use the same layout. Otherwise, you can use sample data to create the model.
 1. Select **Create**.
 
+## Define fields and tables to extract
+
+In this step you define the fields and tables you want to teach your model how to extract.
+
+   > [!div class="mx-imgBorder"]
+   > ![Select Analyze](media/forms-choose-information.gif "Define fields and tables to extract")
+
 ## Upload and analyze documents
 
 You need some sample documents to train your model for the type of forms you'll be working with.
 
 1. Select **Add documents**.
- 
-   > [!div class="mx-imgBorder"]
-   > ![Add documents screen](media/form-add-documents.png "Add documents screen")
-
 1. Select at least five sample documents that represent the type of forms you you want to train the model for. Only JPG, PNG, and PDF files are accepted. 
 1. Verify the selection, and then select **Upload documents**.
 1. After the upload is completed, select **Close**.
-1. Select **Analyze**.
-
-   > [!div class="mx-imgBorder"]
-   > ![Select Analyze](media/form-analyze.png "Select Analyze")
+1. Select **Analyze** at the bottom of the screen.
 
 ### Analyze
 
@@ -46,69 +46,45 @@ During the analysis step, AI Builder examines the documents that you uploaded, a
 
 When the analysis has finished, select the thumbnail to open the field selection experience.
 
-## Select form fields
+## Tag documents
 
-### Fields and tables that are automatically detected
+### Tag fields
 
-To help you get started, some fields and tables have been automatically detected for you. They're shown by dotted rectangles. If you want your model to return those fields, you just have to click to select them and validate the selection.
-
-   > [!div class="mx-imgBorder"]
-   > ![Select detected fields](media/form-processing-detected-fields.gif "Select detected fields")
-
-### Fields that aren't detected automatically
-
-Some fields in your document might not have been automatically detected by AI Builder. Draw a rectangle around the field you're interested in, give it a name, and validate the selection. 
+To tag a field, simply draw a rectangle around the field you're interested in and select to which field name it corresponds to. 
 
    > [!div class="mx-imgBorder"]
-   > ![Draw fields](media/form-processing-undetected-fields.gif "Draw fields")
+   > ![Tag fields](media/forms-tag-fields.gif "Tag fields animation")
+
+At anytime you can resize to adjust your selection.
 
 When you hover over different words in your documents, light blue boxes appear. These indicate that you can draw a rectangle around those words to select a field.
 
    > [!div class="mx-imgBorder"]
-   > ![Select fields](media/form-select-fields.png "Select fields")
+   > ![Select fields close up](media/form-select-fields.png "Select fields close up")
 
-When you draw a rectangle to indicate a field, if your initial selection didn't pick up all the words you wanted&mdash;or it picked up additional ones&mdash;you can adjust your selection.
+### Tag tables
+
+AI Builder can detect tables in your documents. These are highlighted on a dotted rectangle. Select the detected table you want and assign it to the table you have defined on the previous step.
 
    > [!div class="mx-imgBorder"]
-   > ![Adjust drawn fields](media/form-processing-undetected-fields-2.gif "Adjust drawn fields")
+   > ![Tag tables](media/forms-tag-tables.gif "Tag tables animation")
 
 > [!NOTE] 
-> Adding tables that haven't been detected isn't currently supported.
+> Drawing tables that haven't been automatically detected isn't currently supported. If you defined a table that is not automatically detected, go back to the **Choose information to extract** step and remove that table.
 
-### Resizing fields that are automatically detected
+### Field or table not in document
 
-If a field that you want your model to return has been automatically detected, but doesn't contain all the values for that field, you can adjust the selection by selecting the field, resizing the selection, and then validating the selection.
-
-   > [!div class="mx-imgBorder"]
-   > ![Resize fields](media/form-processing-resize-selection.gif "Resize fields")
-
-### Hiding fields
-
-If you're finding it difficult to select fields because of automated detected field suggestions that are incorrect, or fields that are too close to each other, you can click a selected or suggested field and hide it. To show all the hidden fields, select the **Show hidden fields** option that appears at the top as you hide fields. 
+If a field or table is not present in one of the documents you have uploaded for training, just use the **Field not in document** (or Table not in document) option. 
 
    > [!div class="mx-imgBorder"]
-   > ![Hide fields](media/form-processing-hide-fields.gif "Hide fields")
+   > ![Field not in document](media/forms-not-in-document.png "Field not in document option on the right")
 
-### Rename fields
 
-Both for automatically detected fields and fields that you manually draw, you have the option to rename them so they're easier to reference.
+### Tag all documents 
 
-   > [!div class="mx-imgBorder"]
-   > ![Rename fields](media/form-processing-rename.gif "Rename fields")
+All the documents that you have uploaded are presented for you to tag. Some of the fields might be automatically detected in successive documents, in that case confirm that the selection is correct.
 
-> [!NOTE] 
-> Only fields can be renamed. Renaming tables isn't currently supported.
 
-### Confirming fields
-
-If you've drawn new fields or resized automatically detected fields, you'll be presented with all the documents that you've uploaded. In this step you'll need to draw the fields that are marked as pending in the right panel. By doing this, you're teaching your AI Builder model to recognize these fields in documents of this type.
-
-To draw a field on a document, just start drawing a selection on the document and you'll be asked which field it corresponds to. You can also select **Draw in document** on the fields list to the right to start the selection process for that field.
-
-If a field isn't present in one of the documents, select **Field not in document**. 
-
-   > [!div class="mx-imgBorder"]
-   > ![Confirm fields](media/form-processing-confirm-fields.gif "Confirm fields")
 
 ### Next step
 
