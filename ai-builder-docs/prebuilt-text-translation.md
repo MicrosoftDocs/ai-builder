@@ -11,9 +11,7 @@ ms.author: alanab
 ms.reviewer: v-dehaas
 ---
 
-# Text translation model (Preview)
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
+# Text translation model
 
 The text translation prebuilt model translates your text data in real time across more than 60 languages. This prebuilt model could help remove language barriers within your company. The text translation model can also detect the language of the text data you want to translate.
 
