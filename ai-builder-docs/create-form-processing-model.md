@@ -35,17 +35,10 @@ In this step you define the fields and tables you want to teach your model how t
 You need some sample documents to train your model for the type of forms you'll be working with.
 
 1. Select **Add documents**.
- 
-   > [!div class="mx-imgBorder"]
-   > ![Add documents screen](media/form-add-documents.png "Add documents screen")
-
 1. Select at least five sample documents that represent the type of forms you you want to train the model for. Only JPG, PNG, and PDF files are accepted. 
 1. Verify the selection, and then select **Upload documents**.
 1. After the upload is completed, select **Close**.
-1. Select **Analyze**.
-
-   > [!div class="mx-imgBorder"]
-   > ![Select Analyze](media/form-analyze.png "Select Analyze")
+1. Select **Analyze** at the bottom of the screen.
 
 ### Analyze
 
@@ -60,21 +53,21 @@ When the analysis has finished, select the thumbnail to open the field selection
 To tag a field, simply draw a rectangle around the field you're interested in and select to which field name it corresponds to. 
 
    > [!div class="mx-imgBorder"]
-   > ![Select fields](media/forms-tag-fields.gif "Tag fields")
+   > ![Tag fields](media/forms-tag-fields.gif "Tag fields animation")
 
 At anytime you can resize to adjust your selection.
 
 When you hover over different words in your documents, light blue boxes appear. These indicate that you can draw a rectangle around those words to select a field.
 
    > [!div class="mx-imgBorder"]
-   > ![Select fields](media/form-select-fields.png "Select fields")
+   > ![Select fields close up](media/form-select-fields.png "Select fields close up")
 
 ### Tag tables
 
 AI Builder can detect tables in your documents. These are highlighted on a dotted rectangle. Select the detected table you want and assign it to the table you have defined on the previous step.
 
    > [!div class="mx-imgBorder"]
-   > ![Select fields](media/forms-tag-tables.gif "Tag tables")
+   > ![Tag tables](media/forms-tag-tables.gif "Tag tables animation")
 
 > [!NOTE] 
 > Drawing tables that haven't been automatically detected isn't currently supported. If you defined a table that is not automatically detected, go back to the **Choose information to extract** step and remove that table.
@@ -84,7 +77,7 @@ AI Builder can detect tables in your documents. These are highlighted on a dotte
 If a field or table is not present in one of the documents you have uploaded for training, just use the **Field not in document** (or Table not in document) option. 
 
    > [!div class="mx-imgBorder"]
-   > ![Select fields](media/forms-not-in-document.png "Field not in document")
+   > ![Field not in document](media/forms-not-in-document.png "Field not in document option on the right")
 
 
 ### Tag all documents 
