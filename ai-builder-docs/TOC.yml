@@ -194,10 +194,6 @@
       href: business-card-reader-component-in-powerapps.md
     - name: Use in a model-driven app
       href: business-card-reader-component-model-driven.md
-  - name: Use the form processor component in Power Apps
-    href: form-processor-component-in-powerapps.md
-  - name: Use the object detector component in Power Apps
-    href: object-detector-component-in-powerapps.md
   - name: Use the receipt processor component in Power Apps (preview)
     href: prebuilt-receipt-processor-component-in-powerapps.md
   - name: Use the text recognizer component in Power Apps
