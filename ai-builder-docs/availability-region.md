@@ -39,7 +39,7 @@ The following table shows which AI Builder features are available in each region
 |Feature |Asia |Australia |Canada |Europe |Japan |South America |United Kingdom  |United States |
 |:-------|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
 |Business card reader    |GA|GA |GA|GA|GA |GA|GA |GA|
-|Category classification|GA |GA |GA |GA |-|GA |GA |GA |
+|Category classification |Preview |Preview |Preview |Preview |Preview |Preview |Preview |Preview |
 |Entity extraction |GA |GA |GA |GA |-|GA |GA |GA |
 |Key phrase extraction |GA|GA |GA |GA |GA |GA |GA |GA |
 |Language detection |GA |GA |GA |GA |GA |GA |GA |GA |
