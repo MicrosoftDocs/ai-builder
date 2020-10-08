@@ -5,7 +5,7 @@ author: Mrigankka
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/23/2019
+ms.date: 10/08/2020
 ms.author: mfotedar
 ms.reviewer: v-dehaas
 ---
@@ -18,6 +18,7 @@ For detailed information about AI Builder licensing:
 
 - [Microsoft Power Apps and Power Automate Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=2085130)<!--I don't think you want the locale identifier? -->
 - [AI Builder licensing FAQ](/power-platform/admin/powerapps-flow-licensing-faq#ai-builder)
+- [Estimate the AI Builder capacity that’s right for you](https://powerapps.microsoft.com/ai-builder-calculator/)
 
 ## Preview features and trial licenses
 
