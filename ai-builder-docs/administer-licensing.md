@@ -22,7 +22,7 @@ For detailed information about AI Builder licensing:
 
 ## Preview features and trial licenses
 
-Want to get started using AI Builder? Use premium features for a limited time with a trial license, or use preview features without obtaining a license at all.
+Want to get started using AI Builder? Use premium features for a limited time with a [trial license](https://web.powerapps.com/signup?redirect=marketing&email=), or use preview features without obtaining a license at all.
 
 ### Preview features
 
@@ -30,7 +30,7 @@ AI Builder features that are in preview release status are free to use. You don'
 
 ### AI Builder trial licenses
 
-An AI Builder trial license enables you to use AI Builder features for free during the 30-day trial period.
+An [AI Builder trial license](https://web.powerapps.com/signup?redirect=marketing&email=) enables you to use AI Builder features for free during the 30-day trial period.
 
 What you get with an AI Builder trial license:
 
