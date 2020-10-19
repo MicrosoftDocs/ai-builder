@@ -6,7 +6,7 @@ author: Dean-Haas
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/10/2020
+ms.date: 10/20/2020
 ms.author: cdbellar
 ms.reviewer: v-dehaas
 ---
@@ -14,12 +14,6 @@ ms.reviewer: v-dehaas
 # What is AI Builder?
 
 AI Builder is a Microsoft Power Platform capability that provides AI models that are designed to optimize your business processes. AI Builder enables your business to use AI to automate processes and glean insights from your data in [Power Apps](use-in-powerapps-overview.md) and [Power Automate](use-in-flow-overview.md). AI Builder is a turnkey solution that brings the power of AI through a point-and-click experience, so you don't need coding or data science skills to access the power of AI. With AI Builder, you can build custom models tailored to your needs, or choose a prebuilt model that is ready to use for many common business scenarios.
-
- > [!IMPORTANT]
- >
- > - Some features in AI Builder haven't been released yet for general availability (GA) and remain in preview status. See [Release status](#release-status) later in this topic for more information.
- > - [!INCLUDE[cc_preview_features_definition](./includes/cc-preview-features-definition.md)]
- > - Administrators can control preview feature availability for their environment by using the Power Platform admin center. More information: [Enable or disable AI Builder preview features](administer.md#enable-or-disable-ai-builder-preview-features)
 
 To explore AI Builder, sign in to [Power Apps](https://make.powerapps.com), and then select **AI Builder** > **Build**.
 
@@ -38,31 +32,34 @@ Using AI is easy thanks to integration with Power Apps and Power Automate. Addin
 
 ## How can I learn to use AI Builder?
 
-Getting started with AI Builder is easy thanks to the learning resources that we've made available:
-
+Getting started with AI Builder is easy thanks to the learning resources and information that we've made available:
 
 - [AI Builder learning paths and modules](https://aka.ms/learn-aib)
 - [AI Builder community](https://go.microsoft.com/fwlink/?linkid=2092048)
 - [AI Builder hands-on labs](https://go.microsoft.com/fwlink/?linkid=2103171)
 - [Work with sample data](samples.md)
-- [AI Builder capacity calculator](https://powerapps.microsoft.com/ai-builder-calculator/)
+- [AI Builder licensing](administer-licencing.md)
 
 ## Release status
 
-AI Builder was released for public preview on June 10, 2019, in Europe and the United States. The GA release will occur in a phased manner, with some features remaining in preview status while others are released for GA.
+ > [!IMPORTANT]
+ >
+ > - Some features in AI Builder haven't been released yet for general availability (GA) and remain in preview status. See [Release status](#release-status) later in this topic for more information.
+ > - [!INCLUDE[cc_preview_features_definition](./includes/cc-preview-features-definition.md)]
+ > - Administrators can control preview feature availability for their environment by using the Power Platform admin center. More information: [Enable or disable AI Builder preview features](administer.md#enable-or-disable-ai-builder-preview-features)
 
-Because of technical dependencies, features will be released differently in various locations. For a breakdown of the release status of AI Builder features and model types for your region, see [Feature availability by region](availability-region.md).
+AI Builder was released for public preview on June 10, 2019. Over time, most features have been released for general availability (GA). As new features are added, they may remain as preview features until they are ready for GA release.
+
+Because of technical dependencies, some features are released differently in various locations. For a breakdown of the release status of AI Builder features and model types for your region, see [Feature availability by region](availability-region.md).
 
 For information about license capacity, pricing, and restrictions, see [Find the right Power Apps plan for your business needs](https://powerapps.microsoft.com/pricing/).
-
-
 
 ### Next step
 
 [Learn about AI model types](model-types.md)
 
 ### See also
-<!--note from editor: The majority of Power Platform topics seem to use "See also," so I've used that here rather than "Related content" or "Related topics." The advantage is that sometimes the links don't go to content but to community forums, so "See also" covers everything.-->
+
 [AI Builder release plan](/power-platform-release-plan/2019wave2/ai-builder/planned-features)  
 [Power Apps docs](https://docs.microsoft.com/powerapps/)  
 [Power Automate docs](https://docs.microsoft.com/flow/getting-started)
