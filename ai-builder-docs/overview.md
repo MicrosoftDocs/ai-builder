@@ -31,10 +31,21 @@ To explore AI Builder, sign in to [Power Apps](https://make.powerapps.com), and 
 Using AI is easy thanks to integration with Power Apps and Power Automate. Adding intelligence to your business is simple:
 
 1. **Choose an AI model type**: Use the model type that suits your business need. Choose from a growing set of AI solutions.
-1. **Connect data**: Select your business-specific data from Common Data Service. AI Builder does the hard work for you, thanks to Common Data Model.
-1. **Tailor your AI model**: Filter your data, set scheduling, and tweak the AI model to optimize how your AI performs.
+1. **Connect data**: Select your business-specific data from the available options.
+1. **Tailor your AI model**: Depending on the type of model, you can tweak custom models to optimize how your AI performs.
 1. **Train your AI model**: Training is an automatic process, where AI Builder "teaches" your AI model how to resolve your business problem (for example, how to recognize your products on an image) thanks to your business data and tailoring. When trained, your AI model can generate insights such as the result of a prediction, or the list and number of objects detected in an image.
 1. **Use insights from your AI model**: Use the results from your AI model across Microsoft Power Platform to create solutions that meet your business needs, even if you have no coding skills. For example, you can create a flow that automates document processing in Power Automate or an app in Power Apps that predicts whether a supplier will be out of compliance.
+
+## How can I learn to use AI Builder?
+
+Getting started with AI Builder is easy thanks to the learning resources that we've made available:
+
+
+- [AI Builder learning paths and modules](https://aka.ms/learn-aib)
+- [AI Builder community](https://go.microsoft.com/fwlink/?linkid=2092048)
+- [AI Builder hands-on labs](https://go.microsoft.com/fwlink/?linkid=2103171)
+- [Work with sample data](samples.md)
+- [AI Builder capacity calculator](https://powerapps.microsoft.com/ai-builder-calculator/)
 
 ## Release status
 
