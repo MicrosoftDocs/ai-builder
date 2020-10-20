@@ -5,7 +5,7 @@ author: Dean-Haas
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/19/20
+ms.date: 10/19/2020
 ms.author: joshrenn
 ms.reviewer: v-dehaas
 ---
