@@ -15,7 +15,8 @@ ms.reviewer: v-dehaas
 
 AI Builder is a Microsoft Power Platform capability that provides AI models that are designed to optimize your business processes. AI Builder enables your business to use AI to automate processes and glean insights from your data in [Power Apps](use-in-powerapps-overview.md) and [Power Automate](use-in-flow-overview.md). AI Builder is a turnkey solution that brings the power of AI through a point-and-click experience, so you don't need coding or data science skills to access the power of AI. With AI Builder, you can build custom models tailored to your needs, or choose a prebuilt model that is ready to use for many common business scenarios.
 
-To explore AI Builder, sign in to [Power Apps](https://make.powerapps.com), and then select **AI Builder** > **Build**.
+- [Explore AI Builder in Power Automate](use-in-flow-overview.md)
+- [Explore AI Builder in Power Apps](use-in-powerapps-overview.md)
 
 > [!div class="mx-imgBorder"]
 > ![AI Builder home page](media/ai-builder-home.png "AI Builder home page")
