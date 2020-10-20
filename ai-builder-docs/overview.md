@@ -39,7 +39,7 @@ Getting started with AI Builder is easy thanks to the learning resources and inf
 - [AI Builder community](https://go.microsoft.com/fwlink/?linkid=2092048)
 - [AI Builder hands-on labs](https://go.microsoft.com/fwlink/?linkid=2103171)
 - [Work with sample data](samples.md)
-- [AI Builder licensing](administer-licencing.md)
+- [AI Builder licensing](administer-licensing.md)
 
 ## Release status
 
