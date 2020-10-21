@@ -92,7 +92,7 @@
       href: object-detection-overview.md
     - name: Collect images
       href: collect-images.md
-    - name: Get started with object detection
+    - name: Build your object detection model
       href: get-started-with-object-detection.md
     - name: Train and publish your object detection model
       href: object-detection-train-model.md
