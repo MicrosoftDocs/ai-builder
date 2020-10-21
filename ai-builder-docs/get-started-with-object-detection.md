@@ -20,9 +20,9 @@ ms.reviewer: v-dehaas
 
 The first thing you'll do when you create an AI Builder object detection model is to define its domain. The domain optimizes the model for specific use cases. There are three domains:
 
- - Common objects: The default value. Use this if your use cases doesn't fit the specific applications below. 
- - Objects on retail shelves: Detects products densely packed on shelves.
- - Brand logo: Optimized for logo detection.
+- **Common objects:** The default value. Use this if your use cases doesn't fit the specific applications below.
+- **Objects on retail shelves:** Detects products densely packed on shelves.
+- **Brand logo:** Optimized for logo detection.
 
 ## Provide object names
 
