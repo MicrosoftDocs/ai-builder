@@ -24,7 +24,8 @@ The first thing you'll do when you create an AI Builder object detection model i
 - **Objects on retail shelves:** Detects products densely packed on shelves.
 - **Brand logo:** Optimized for logo detection.
 
-> [!NOTE] Domain specific object detection uses more AI Builder credits than common object detection, and therefore costs more to use. To estimate the impact of using domain specific vs. common object on your organization, use the [AI Builder calculator](https://powerapps.microsoft.com/ai-builder-calculator/)
+> [!NOTE]
+> Domain specific object detection uses more AI Builder credits than common object detection, and therefore costs more to use. To estimate the impact of using domain specific vs. common object on your organization, use the [AI Builder calculator](https://powerapps.microsoft.com/ai-builder-calculator/)
 
 ## Provide object names
 
