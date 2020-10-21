@@ -1,16 +1,16 @@
 ---
-title: Get started with object detection - AI Builder | Microsoft Docs
+title: Build your object detection model - AI Builder | Microsoft Docs
 description: This topic lays out the first steps you'll perform to build an object detection AI model. 
 author: amina196
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/31/2019
+ms.date: 10/20/2020
 ms.author: aminab
 ms.reviewer: v-dehaas
 ---
 
-# Get started with object detection
+# Build your object detection model
 
 1. Sign in to [Power Apps](https://make.powerapps.com), and then in the left pane, select the down arrow to expand **AI Builder**. Select the **Object Detection** AI model type.
 
@@ -33,10 +33,10 @@ There are two ways to provide object names:
 - Enter object names directly in AI Builder.
 - Select names from your Common Data Service entity.
 
-As you build your model, you can switch between these two modes. In the top action bar, select the name of the other input mode.<!--Why do you suggest this, if it means the reader will lose their work?-->
+In the top action bar, select the input mode you want to use.
 
 > [!IMPORTANT]
-> When you change input mode, you lose any existing object names. In other words: if you type object names in AI Builder and then change to selecting from a database, all object names typed and their associated bounding boxes are deleted from your model. This is not recoverable. The same applies if you switch from selecting object names from a database to typing object names.<!--Can the reader circumvent this behavior by saving their work or something? The previous paragraph really doesn't seem to belong.-->
+> If you change input mode, you lose any existing object names. In other words: if you type object names in AI Builder and then change to selecting from a database, all object names typed and their associated bounding boxes are deleted from your model. This is not recoverable. The same applies if you switch from selecting object names from a database to typing object names.<!--Can the reader circumvent this behavior by saving their work or something? The previous paragraph really doesn't seem to belong.-->
 
 ### Enter names in AI Builder
 
@@ -59,9 +59,10 @@ If your data isn't in Common Data Service, see [Prerequisites](build-model.md#pr
 
 Now let's move on to the image upload step. The pictures you collected ahead of time will now come in handy because you need to upload them to AI Builder.
 
-1. Prepare your images in a folder on your computer, and make sure they follow the qualitative and quantitative [guidance](collect-images.md).
-1. In AI Builder, select **Add Images**.
-1. Browse your computer file system and select the images that contain your objects.
+1. Prepare your images in the storage location where you want to add them from. Currently you can add images from local storage, SharePoint, or Azure Blob Storage
+1. Make sure your images follow the qualitative and quantitative [guidance](collect-images.md).
+1. In AI Builder, select **+Add Images**.
+1. Select thedata source where your images are stored, and then select the images that contain your objects.
 1. Confirm the images that appear in AI Builder before you finish uploading them. Deselect any image you want to exclude.
 
    > [!div class="mx-imgBorder"]
