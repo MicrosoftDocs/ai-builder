@@ -59,10 +59,10 @@ If your data isn't in Common Data Service, see [Prerequisites](build-model.md#pr
 
 Now let's move on to the image upload step. The pictures you collected ahead of time will now come in handy because you need to upload them to AI Builder.
 
-1. Prepare your images in the storage location where you want to add them from. Currently you can add images from local storage, SharePoint, or Azure Blob Storage
+1. Prepare your images in the storage location where you want to add them from. Currently you can add images from local storage, SharePoint, or Azure Blob Storage.
 1. Make sure your images follow the qualitative and quantitative [guidance](collect-images.md).
 1. In AI Builder, select **+Add Images**.
-1. Select thedata source where your images are stored, and then select the images that contain your objects.
+1. Select the data source where your images are stored, and then select the images that contain your objects.
 1. Confirm the images that appear in AI Builder before you finish uploading them. Deselect any image you want to exclude.
 
    > [!div class="mx-imgBorder"]
