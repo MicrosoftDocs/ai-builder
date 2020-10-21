@@ -24,6 +24,9 @@ The first thing you'll do when you create an AI Builder object detection model i
 - **Objects on retail shelves:** Detects products densely packed on shelves.
 - **Brand logo:** Optimized for logo detection.
 
+> [!NOTE]
+> Domain specific object detection uses more AI Builder credits than common object detection, and therefore costs more to use. To estimate the impact of using domain specific vs. common object on your organization, use the [AI Builder calculator](https://powerapps.microsoft.com/ai-builder-calculator/).
+
 ## Provide object names
 
 Next, provide the names of the items you want to detect. You can provide up to 500 object names per model.
@@ -36,7 +39,7 @@ There are two ways to provide object names:
 In the top action bar, select the input mode you want to use.
 
 > [!IMPORTANT]
-> If you change input mode, you lose any existing object names. In other words: if you type object names in AI Builder and then change to selecting from a database, all object names typed and their associated bounding boxes are deleted from your model. This is not recoverable. The same applies if you switch from selecting object names from a database to typing object names.<!--Can the reader circumvent this behavior by saving their work or something? The previous paragraph really doesn't seem to belong.-->
+> If you change input mode, you lose any existing object names. In other words: if you type object names in AI Builder and then change to selecting from a database, all object names typed and their associated bounding boxes are deleted from your model. This is not recoverable. The same applies if you switch from selecting object names from a database to typing object names.
 
 ### Enter names in AI Builder
 
