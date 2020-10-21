@@ -43,7 +43,7 @@ In the top action bar, select the input mode you want to use.
 To provide object names directly in AI Builder, just enter the name in the space where the object is detected in the image. Then press **Enter** or select **Add new object** to continue.
 
 - To edit an object name, select the object name and then make your change.
-- To remove an object name, select the bin icon ![bin icon](media/bin-icon.png "bin icon").
+- To remove an object name, select the trashcan icon.
 
 ### Select names from a database
 
