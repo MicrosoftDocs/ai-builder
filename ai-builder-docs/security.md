@@ -25,7 +25,7 @@ These security roles have privileges to the AI Builder entities in Common Data S
 > [!div class="mx-imgBorder"]
 > ![Security roles screen](media/security-roles-screen.png "Security roles screen" )
 
-Scenarios such as object detection, category classification, and prediction require Read access to Common Data Service entities. Make sure environment makers have access to them. They need those entities for objects to detect, tagged text, and input data. For object detection and form processing, environment makers also need full organization privileges over the **Note** entity from **Core Records**.
+Scenarios such as object detection, category classification, and prediction require Read access to Common Data Service entities. Make sure environment makers have access to them. They need those entities for objects to detect, tagged text, and input data.
 
 Some features require system customizer privileges to publish your AI models and to allow them to be consumed. These actions can make changes to the Common Data Service schema. Administrators should assign system customizer privileges to users who want to create such AI models.
 
