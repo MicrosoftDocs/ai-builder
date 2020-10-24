@@ -206,6 +206,8 @@
     href: administer.md
   - name: Licensing
     href: administer-licensing.md
+  - name: Consumption report
+    href: administer-consumption-report.md
   - name: Security
     href: security.md
   - name: Feature availability by region
