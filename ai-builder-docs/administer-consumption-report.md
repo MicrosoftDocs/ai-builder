@@ -1,7 +1,7 @@
 ---
 title: AI Builder consumption report - AI Builder | Microsoft Docs
 description: Describes the consumption report that shows how your AI credits are being used in the Power Platform Admin Center.
-author: cdbellar
+author: CedrickBellarosa
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
