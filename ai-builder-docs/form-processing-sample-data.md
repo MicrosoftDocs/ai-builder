@@ -19,25 +19,9 @@ To explore the possibilities of form processing, you can get started by building
 
 Download [AI Builder Form Processing Sample Data.zip](https://go.microsoft.com/fwlink/?linkid=2128080), which contains the sample invoices.
 
-## Build your model
+## Guided experience on Microsoft Learn
 
-1. Extract the downloaded files, and then go to **AI Builder Form Processing Sample Data\Invoices**, where you'll see two folders: **Train** and **Test**.
-2. On the AI Builder **Build** screen, select **Form processing model**.
-3. Enter a name, and then create your model.
-4. When you're prompted to upload data, upload the five invoices from the **Train** folder.
-
-   > [!div class="mx-imgBorder"]
-   > ![Upload sample invoices](media/upload-forms.png "Upload sample invoices")
-
-5. Next, select the detected fields you want your model to return.
-
-   > [!div class="mx-imgBorder"]
-   > ![Select fields](media/select-form-fields.png "Select fields")
-
-6. After you train your model, do a quick test by using the invoice in the **Test** folder that you downloaded, to see how it works.
-
-   > [!div class="mx-imgBorder"]
-   > ![Quick test](media/quick-test-form.png "Quick test")
+The [Get started with Form processing in AI Builder](https://docs.microsoft.com/learn/modules/get-started-with-form-processing/2-create-first-model) in Microsoft Learn walks you through each step of the model creation process using the sample data.
 
 ### See also
 
