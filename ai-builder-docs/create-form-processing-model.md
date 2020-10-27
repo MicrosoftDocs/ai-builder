@@ -32,7 +32,7 @@ On the **Choose information to extract** screen, type the names of the fields an
    > [!div class="mx-imgBorder"]
    > ![Select Analyze](media/form-processing-multiple-layout-define-fields-only.gif "Define fields to extract")
 
-- To add tables type a name for the type of table, and define the columns you want the model to extract:
+- To add tables type a name for the table, and define the columns you want the model to extract:
 
    > [!div class="mx-imgBorder"]
    > ![Select Analyze](media/form-processing-multiple-layout-define-tables-only.gif "Define tables to extract")
@@ -58,7 +58,7 @@ For each collection that you create, you need to upload at least five sample doc
 
 ### Analyze
 
-During the analysis, AI Builder and detects the fields and tables in your documents. The time it takes to complete this operation depends on the number of documents provided. Usually, it only takes a few minutes.
+During the analysis, AI Builder examines the documents that you uploaded and detects the fields and tables in your documents. The time it takes to complete this operation depends on the number of documents provided. Usually, it only takes a few minutes.
 
 Once the analysis is complete, you will tag the uploaded documents.
 
@@ -96,7 +96,7 @@ When you select **Tag table**, you will need to tag the columns that you defined
 > [!NOTE] 
 > **Current limitations with tables**
 >
-> Drawing tables that haven't been automatically detected isn't currently supported. If you defined a table that is not automatically detected, you will need to mark it as **not >available** to continue. 
+> Drawing tables that haven't been automatically detected isn't currently supported. If you defined a table that is not automatically detected, you will need to mark it as **not available** to continue. 
 >
 > For AI Builder to detect tables, rows and columns need to be clearly delimited and be properly aligned. Nested tables and merged headers are not currently supported.
 
