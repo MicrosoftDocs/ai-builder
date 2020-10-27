@@ -94,7 +94,7 @@
       href: object-detection-overview.md
     - name: Collect images
       href: collect-images.md
-    - name: Get started with object detection
+    - name: Build your object detection model
       href: get-started-with-object-detection.md
     - name: Train and publish your object detection model
       href: object-detection-train-model.md
@@ -110,7 +110,7 @@
       href: form-processing-model-requirements.md
     - name: Create a form processing model
       href: create-form-processing-model.md
-    - name: Train and publish your form-processing model
+    - name: Train and publish your form processing model
       href: form-processing-train.md
     - name: Improve form processing model performance
       href: improve-form-processing-performance.md
@@ -206,6 +206,8 @@
   items:
   - name: Administer AI Builder
     href: administer.md
+  - name: Consumption report
+    href: administer-consumption-report.md
   - name: Security
     href: security.md
   - name: Feature availability by region
