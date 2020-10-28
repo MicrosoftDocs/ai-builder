@@ -46,15 +46,18 @@ The different types of AI models that AI Builder provides put a broad range of A
 
 | **Business scenario** | **Model type** |
 | ----- | ----- |
-Automate expense reports|Receipt processing
-Identify important customer feedback|Sentiment analysis; Key phrase extraction
-Translate customer emails into your language|Text translation
 Automate customer application processing|Form processing
+Automate expense reports|Receipt processing
+Categorize user feedback based on their focus | Category classification
+Extract insights from product reviews | Entity extraction
+Identify language of text | Language detection
+Identify & classify customer feedback|Sentiment analysis
+Translate support requests into your language|Text translation
 Identify fraudulent transactions|Prediction
-Get alerted to social media posts referencing your product|Key phrase extraction
+Get alerted to social media posts referencing your brand | Key phrase extraction
 Automate contact list |Business card reader
 Automate inventory taking|Object detection
-Automate data processing|Text recognition; Entity extraction, Category classification
+Take a photo of text and save it to a database |Text recognition
 
 ### Next step
 
