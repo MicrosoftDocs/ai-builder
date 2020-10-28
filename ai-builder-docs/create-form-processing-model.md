@@ -16,7 +16,7 @@ After you review the [requirements](form-processing-model-requirements.md), you 
 
 ## Sign in to AI Builder
 
-1. Go to [Power Apps](https://make.powerapps.com/) or [Power Automate](https://flow.microsoft.com/signin), and sign in with your organizational account.
+1. Sign in to [Power Apps](https://make.powerapps.com/) or [Power Automate](https://flow.microsoft.com/signin).
 1. In the left pane, select **AI Builder** > **Build**.
 1. Select **Form processing**.
 1. Type a name for your model.
@@ -25,72 +25,99 @@ After you review the [requirements](form-processing-model-requirements.md), you 
 
 ## Define fields and tables to extract
 
-In this step you define the fields and tables you want to teach your model how to extract.
+On the **Choose information to extract** screen, type the names of the fields and tables you want to teach your model to extract. Select the **Fields** and **Tables** tabs to switch between adding fields or tables.
+
+- To add fields, type the name for each type of field, and select the plus sign **+** to add it. 
 
    > [!div class="mx-imgBorder"]
-   > ![Select Analyze](media/forms-choose-information.gif "Define fields and tables to extract")
+   > ![Select Analyze](media/form-processing-multiple-layout-define-fields-only.gif "Define fields to extract")
 
-## Upload and analyze documents
+- To add tables type a name for the table, and define the columns you want the model to extract:
 
-You need some sample documents to train your model for the type of forms you'll be working with.
+   > [!div class="mx-imgBorder"]
+   > ![Select Analyze](media/form-processing-multiple-layout-define-tables-only.gif "Define tables to extract")
 
-1. Select **Add documents**.
-1. Select at least five sample documents that represent the type of forms you you want to train the model for. Only JPG, PNG, and PDF files are accepted. 
-1. Verify the selection, and then select **Upload documents**.
-1. After the upload is completed, select **Close**.
-1. Select **Analyze** at the bottom of the screen.
+## Group documents by collections
+
+A collection is a group of documents that share the same layout. Create as many collections as document layouts that you want your model to process. For example, if you are building an AI model to process invoices from two different vendors, each having their own invoice template, create two collections.
+
+   > [!div class="mx-imgBorder"]
+   > ![Select Analyze](media/form-processing-multiple-layout-create-collections.gif "Create collections")
+
+For each collection that you create, you need to upload at least five sample documents per collection. Files with formats JPG, PNG, and PDF files are currently accepted.
+
+   > [!div class="mx-imgBorder"]
+   > ![Select Analyze](media/form-processing-multiple-layout-add-documents.gif "Upload documents")
+
+> [!NOTE]
+> The functionality of having more than one collection in an AI model is currently in preview. This means:
+>* It is on track to become a permanent part of the product, but we don’t guarantee an SLA expected for GA functionalities. 
+>* A form processing model that has more than one collection, cannot be currently exported to another environment via a solution.
+>
+>Do let us know if you encounter any issues; this is the main reason the feature is in preview.
 
 ### Analyze
 
-During the analysis step, AI Builder examines the documents that you uploaded, and detects the fields and tables in your document. The time it takes to complete this operation depends on the number of documents provided, but in most cases, it should only take a few minutes.
+During the analysis, AI Builder examines the documents that you uploaded and detects the fields and tables in your documents. The time it takes to complete this operation depends on the number of documents provided. Usually, it only takes a few minutes.
 
-When the analysis has finished, select the thumbnail to open the field selection experience.
+Once the analysis is complete, you will tag the uploaded documents.
 
 ## Tag documents
 
+By tagging the documents you have uploaded, you are teaching your AI Builder model to extract the fields and tables you have specified.
+
+To start tagging, select one of the collections on the right panel.
+
 ### Tag fields
 
-To tag a field, simply draw a rectangle around the field you're interested in and select to which field name it corresponds to. 
+To tag a field, simply draw a rectangle around the field you're interested in and select to the field name that it corresponds to.
 
    > [!div class="mx-imgBorder"]
-   > ![Tag fields](media/forms-tag-fields.gif "Tag fields animation")
+   > ![Select Analyze](media/form-processing-multiple-layout-tag-fields.gif "Tag field in a document")
 
-At anytime you can resize to adjust your selection.
+At any time you can resize to adjust your selection.
 
-When you hover over different words in your documents, light blue boxes appear. These indicate that you can draw a rectangle around those words to select a field.
+When you hover over words in your documents, light blue boxes may appear. These indicate that you can draw a rectangle around those words to select a field.
 
    > [!div class="mx-imgBorder"]
    > ![Select fields close up](media/form-select-fields.png "Select fields close up")
 
+
 ### Tag tables
 
-AI Builder can detect tables in your documents. These are highlighted on a dotted rectangle. Select the detected table you want and assign it to the table you have defined on the previous step.
+AI Builder can detect tables in your documents. These are indicated by a rounded table button on the upper left of the table. When you select it, you have the possibility to preview the content detected by the table as well as tag the table.
+
+When you select **Tag table**, you will need to tag the columns that you defined by selecting them on the document. 
 
    > [!div class="mx-imgBorder"]
-   > ![Tag tables](media/forms-tag-tables.gif "Tag tables animation")
+   > ![Select Analyze](media/form-processing-multiple-layout-tag-tables.gif "Tag a table in a document")
+
 
 > [!NOTE] 
-> Drawing tables that haven't been automatically detected isn't currently supported. If you defined a table that is not automatically detected, go back to the **Choose information to extract** step and remove that table.
+> **Current limitations with tables**
+>
+> Drawing tables that haven't been automatically detected isn't currently supported. If you defined a table that is not automatically detected, you will need to mark it as **not available** to continue. 
+>
+> For AI Builder to detect tables, rows and columns need to be clearly delimited and be properly aligned. Nested tables and merged headers are not currently supported.
 
 ### Field or table not in document
 
-If a field or table is not present in one of the documents you have uploaded for training, just use the **Field not in document** (or Table not in document) option. 
+If a field or table is not present in one of the documents you have uploaded for training, just use the not available in document option on the right-side panel next to a field or table.
 
    > [!div class="mx-imgBorder"]
-   > ![Field not in document](media/forms-not-in-document.png "Field not in document option on the right")
+   > ![Select Analyze](media/form-processing-multiple-layout-not-available-in-document.gif "Field or table not in document")
 
+## Tag all documents across all collections
 
-### Tag all documents 
+All the documents that you have uploaded are presented for you to tag. Some of the fields might be automatically detected in successive documents. In that case confirm that the selection is correct.
 
-All the documents that you have uploaded are presented for you to tag. Some of the fields might be automatically detected in successive documents, in that case confirm that the selection is correct.
-
-
+If you have created multiple collections, tag all documents across all the collections
 
 ### Next step
 
-[Train and publish your form-processing model](form-processing-train.md)
+[Train and publish your form processing model](form-processing-train.md)
 
 ### See also
 
-[Use a form-processing model in Power Automate](form-processing-model-in-flow.md)  
-[Use the form-processor component in Power Apps](form-processor-component-in-powerapps.md)
+[Use a form processing model in Power Automate](form-processing-model-in-flow.md)  
+[Use the form processor component in Power Apps](form-processor-component-in-powerapps.md)
