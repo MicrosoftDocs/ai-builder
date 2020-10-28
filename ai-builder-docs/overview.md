@@ -6,7 +6,7 @@ author: Dean-Haas
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/20/2020
+ms.date: 10/28/2020
 ms.author: cdbellar
 ms.reviewer: v-dehaas
 ---
@@ -53,7 +53,11 @@ AI Builder was released for public preview on June 10, 2019. Over time, most fea
 
 Because of technical dependencies, some features are released differently in various locations. For a breakdown of the release status of AI Builder features and model types for your region, see [Feature availability by region](availability-region.md).
 
-For information about license capacity, pricing, and restrictions, see [Find the right Power Apps plan for your business needs](https://powerapps.microsoft.com/pricing/).
+For information about license capacity, pricing, and restrictions:
+
+-  [Find the right Power Apps plan for your business needs](https://powerapps.microsoft.com/pricing/).
+- [Power Automate pricing](https://flow.microsoft.com/pricing/)
+- [AI Builder licensing](administer-licensing.md)
 
 ### Next step
 
