@@ -4,7 +4,9 @@
   items:
   - name: What is AI Builder?
     href: overview.md
-  - name: Learning resources
+  - name: Licensing
+    href: administer-licensing.md
+  - name: Labs and sample data
     items:
     - name: Labs
       href: learn-ai-builder.md
@@ -204,8 +206,6 @@
   items:
   - name: Administer AI Builder
     href: administer.md
-  - name: Licensing
-    href: administer-licensing.md
   - name: Consumption report
     href: administer-consumption-report.md
   - name: Security
