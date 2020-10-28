@@ -44,8 +44,8 @@ AI Builder models are classified under the type of AI that they use (category), 
 
 The different types of AI models that AI Builder provides put a broad range of AI capabilities in the hands of businesses without the need for coding or data expertise. But if you’re not a developer or data scientist, you may be wondering what the practical applications of these model types are. While the possibilities are endless, here are some common business scenarios, and the AI model types that are suited to addressing them:
 
-**Business scenario**|**Model type**
------|-----
+| **Business scenario** | **Model type** |
+| ----- | ----- |
 Automate expense reports|Receipt processing
 Identify important customer feedback|Sentiment analysis; Key phrase extraction
 Translate customer emails into your language|Text translation
