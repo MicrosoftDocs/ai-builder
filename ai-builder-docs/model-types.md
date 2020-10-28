@@ -23,8 +23,8 @@ To build a model by using AI Builder, sign in to [Power Apps](https://make.power
 
 Let’s look at the different model types that are available in AI Builder, and how they are classified. Later, we’ll look at common business scenarios and the model types that are suited to them.
 
-|**Model type**|**Category**|**Build type**|
-|-----|-----|-----|
+| **Model type** | **Category** | **Build type** |
+| ----- | ----- | ----- |
 [Category classification](text-classification-overview.md)|Text|[Prebuilt](prebuilt-category-classification.md) and Custom
 [Entity extraction](entity-extraction-overview.md)|Text|[Prebuilt](prebuilt-entity-extraction.md) and Custom
 [Key phrase extraction](prebuilt-key-phrase.md)|Text|Prebuilt
