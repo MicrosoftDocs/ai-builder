@@ -55,7 +55,7 @@ Because of technical dependencies, some features are released differently in var
 
 For information about license capacity, pricing, and restrictions:
 
--  [Find the right Power Apps plan for your business needs](https://powerapps.microsoft.com/pricing/).
+- [Find the right Power Apps plan for your business needs](https://powerapps.microsoft.com/pricing/).
 - [Power Automate pricing](https://flow.microsoft.com/pricing/)
 - [AI Builder licensing](administer-licensing.md)
 
@@ -65,6 +65,6 @@ For information about license capacity, pricing, and restrictions:
 
 ### See also
 
-[AI Builder release plan](/power-platform-release-plan/2019wave2/ai-builder/planned-features)  
+[AI Builder release plan](https://docs.microsoft.com/power-platform-release-plan/2020wave2/ai-builder/planned-features)  
 [Power Apps docs](https://docs.microsoft.com/powerapps/)  
-[Power Automate docs](https://docs.microsoft.com/flow/getting-started)
+[Power Automate docs](https://docs.microsoft.com/power-automate)
