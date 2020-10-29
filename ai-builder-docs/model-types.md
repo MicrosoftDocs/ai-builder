@@ -5,7 +5,7 @@ author: Dean-Haas
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/10/2020
+ms.date: 10/29/2020
 ms.author: joshrenn
 ms.reviewer: v-dehaas
 ---
@@ -51,7 +51,7 @@ Automate expense reports|Receipt processing
 Categorize user feedback based on their focus | Category classification
 Extract insights from product reviews | Entity extraction
 Identify language of text | Language detection
-Identify & classify customer feedback|Sentiment analysis
+Identify and classify customer feedback|Sentiment analysis
 Translate support requests into your language|Text translation
 Identify fraudulent transactions|Prediction
 Get alerted to social media posts referencing your brand | Key phrase extraction
