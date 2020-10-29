@@ -5,7 +5,7 @@ author: Dean-Haas
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 08/27/2019
+ms.date: 10/19/2020
 ms.author: joshrenn
 ms.reviewer: v-dehaas
 ---
@@ -32,4 +32,4 @@ For features that have been released for general availability, you can use the P
 For more information about the Microsoft Power Platform **Help + Support** experience, see [Get Help + Support](/power-platform/admin/get-help-support).
 
  > [!NOTE]
- > You can't create a new support request to get support from Microsoft for preview features. Go to the AI Builder community forums to get help with any issue that's related to a preview feature.
+ > You can't create a new support request to get support from Microsoft for preview features. Go to the  [AI Builder community](https://go.microsoft.com/fwlink/?linkid=2092048) forums to get help with any issue that's related to a preview feature.
