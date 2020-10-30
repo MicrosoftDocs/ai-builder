@@ -38,8 +38,10 @@
     items:
     - name: Overview 
       href: prediction-overview.md
+      displayName: Prediction overview
     - name: Prerequisites
       href: prediction-prereq.md
+      displayName: Prediction prerequisites
     - name: Data preparation
       href: prediction-data-prep.md
     - name: Create a prediction model
