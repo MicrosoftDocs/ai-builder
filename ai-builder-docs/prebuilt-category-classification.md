@@ -10,12 +10,10 @@ ms.author: tatn
 ms.reviewer: v-dehaas
 ---
 
-# Category classification prebuilt model (preview)
-<!--Okay to add the disclaimer?-->
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
+# Category classification prebuilt model
 
 The prebuilt category classification model is a ready to use AI model that is configured to classify your text into categories that are useful for a specific business scenario. The first prebuilt category classification AI model is built around customer feedback uses. Check back for additional category classification prebuilt models, or check release plans to see what might be coming.
-<!--Edits to the following headings okay? I thought this should match the pattern of the entity extraction page, since they're otherwise structured so similarly. -->
+
 ## Use in Power Apps
 
 ### Explore category classification
@@ -30,7 +28,7 @@ You can see the category classification prebuilt model in action without the nee
 
 ### Use the formula bar
 
-You can integrate your AI Builder category classification model<!--Edit okay (here and in the sister articles)? Not sure why it's plural. --> in Power Apps Studio<!--Via Cloud Style Guide--> by using the formula bar. More information: [Use formulas for text AI models](use-model.md#use-formulas-for-text-ai-models)
+You can integrate your AI Builder category classification model in Power Apps Studio by using the formula bar. More information: [Use formulas for text AI models](use-model.md#use-formulas-for-text-ai-models)
 
 ## Use in Power Automate
 

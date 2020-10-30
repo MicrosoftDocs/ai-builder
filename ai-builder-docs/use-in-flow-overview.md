@@ -24,7 +24,7 @@ Power Automate is a service that helps you create automated workflows between yo
 * [Receipt processing model (preview)](flow-receipt-processing.md)
 * [Sentiment analysis model](flow-sentiment-analysis.md)
 * [Text recognition model](flow-text-recognition.md)
-* [Text translation model (preview)](flow-text-translation.md)
+* [Text translation model ](flow-text-translation.md)
 
 ## Custom AI models that you build and train:
 

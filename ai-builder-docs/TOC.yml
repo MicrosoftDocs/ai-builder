@@ -138,7 +138,7 @@
     href: prebuilt-receipt-processing.md
   - name: Text recognition
     href: prebuilt-text-recognition.md
-  - name: Text translation (preview)
+  - name: Text translation
     href: prebuilt-text-translation.md
 - name: Use AI Builder in Power Automate
   items:
