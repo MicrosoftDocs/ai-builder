@@ -6,6 +6,7 @@
     href: overview.md
   - name: Licensing
     href: administer-licensing.md
+    displayName: cost; pricing; trial
   - name: Labs and sample data
     items:
     - name: Labs
@@ -14,12 +15,15 @@
       href: samples.md
   - name: AI Builder community
     href: share-your-experience.md
+    displayName: forums; support; help
 - name: AI models
   items:
-  - name: AI model types
+  - name: AI models and business scenarios
     href: model-types.md
+    displayName: model types
   - name: Build a model
     href: build-model.md
+    displayName: create a model
   - name: Train your model
     href: train-model.md
   - name: Manage your model
@@ -94,6 +98,7 @@
     items: 
     - name: Overview
       href: object-detection-overview.md
+      displayName: image processing; inventory automation
     - name: Collect images
       href: collect-images.md
     - name: Build your object detection model
@@ -108,6 +113,7 @@
     items:
     - name: Overview
       href: form-processing-model-overview.md
+      displayName: automate data entry
     - name: Requirements and limitations
       href: form-processing-model-requirements.md
     - name: Create a form processing model
@@ -210,13 +216,16 @@
     href: administer.md
   - name: Consumption report
     href: administer-consumption-report.md
+    displayName: Usage report
   - name: Security
     href: security.md
   - name: Feature availability by region
     href: availability-region.md
+    displayName: Preview features; Release status
 - name: Troubleshoot
   items:
   - name: Common issues and resolutions
     href: common-issues.md
   - name: Support
     href: support.md
+    displayName: Help
