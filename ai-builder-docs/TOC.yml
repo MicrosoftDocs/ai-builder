@@ -208,8 +208,6 @@
     href: prebuilt-receipt-processor-component-in-powerapps.md
   - name: Use the text recognizer component in Power Apps
     href: prebuilt-text-recognizer-component-in-powerapps.md
-  - name: Use your prediction model in Power Apps
-    href: prediction-model-driven-app.md
 - name: Administration and security
   items:
   - name: Administer AI Builder
