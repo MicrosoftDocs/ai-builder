@@ -1,17 +1,17 @@
 ---
 title: Transition to the new form processing model version - AI Builder | Microsoft Docs
 description: Preview form processing model versions aren't compatible with updated model versions, so you have to re-create existing models. 
-author: Jarennert
+author: JoeFernandezMS
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
 ms.date: 05/19/2020
-ms.author: Jarennert
+ms.author: Jofernan
 ms.reviewer: v-dehaas
 ---
 
 # Transition to the new form-processing model version
-<!--Edits replicated from the object detection model article. -->
+
 AI Builder is improving its form processing model with a new model version. Your form-processing preview models created before March 5, 2020, are deprecated. More information: [Form processing and object detection preview models in AI Builder are deprecated](/power-platform/important-changes-coming#form-processing-and-object-detection-preview-models-in-ai-builder-are-deprecated)
 
 Starting March 5, 2020, you have to re-create your existing form processing models if you want to continue to use them. Models created after this date will automatically use the new model version. It's a good idea to transition to the new model version as soon as possible.

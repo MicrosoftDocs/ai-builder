@@ -1,12 +1,12 @@
 ---
 title: Train and publish your prediction model - AI Builder | Microsoft Docs
 description: Walks you through the steps needed to train your prediction model, and leads you to the next steps. 
-author: Dean-Haas
+author: antrodfr
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 01/03/2020
-ms.author: sdarapu; mfotedar
+ms.date: 11/02/2020
+ms.author: antrod
 ms.reviewer: v-dehaas
 ---
 
@@ -23,7 +23,7 @@ After you've selected your data fields, select **Next** to view a summary of tra
 
 ## Publish
 
-After the model is trained, you can [evaluate](manage-model.md#evaluate-your-model) the quality of its results<!--or "quality of its performance." "Model performance results" is a bit impenetrable.-->. Then [publish](publish-model.md) your model to start running predictions. After that, predictions run daily.
+After the model is trained, you can [evaluate](manage-model.md#evaluate-your-model) its performance. Then [publish](publish-model.md) your model to start running predictions. After that, predictions run daily.
 
 ### See also
 
