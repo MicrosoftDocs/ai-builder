@@ -6,7 +6,7 @@ ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
 ms.date: 12/31/2019
-ms.author: JoeFernandezMS
+ms.author: Jofernan
 ms.reviewer: v-dehaas
 ---
 
