@@ -5,7 +5,7 @@ author: JoeFernandezMS
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/28/2020
+ms.date: 11/03/2020
 ms.author: jofernan
 ms.reviewer: v-dehaas
 ---
@@ -30,24 +30,24 @@ On the **Choose information to extract** screen, type the names of the fields an
 - To add fields, type the name for each type of field, and select the plus sign **+** to add it. 
 
    > [!div class="mx-imgBorder"]
-   > ![Select Analyze](media/form-processing-multiple-layout-define-fields-only.gif "Define fields to extract")
+   > !['Define fields' animation](media/form-processing-multiple-layout-define-fields-only.gif "Define fields to extract")
 
 - To add tables type a name for the table, and define the columns you want the model to extract:
 
    > [!div class="mx-imgBorder"]
-   > ![Select Analyze](media/form-processing-multiple-layout-define-tables-only.gif "Define tables to extract")
+   > !['Define tables' animation](media/form-processing-multiple-layout-define-tables-only.gif "Define tables to extract")
 
 ## Group documents by collections (Preview)
 
 A collection is a group of documents that share the same layout. Create as many collections as document layouts that you want your model to process. For example, if you are building an AI model to process invoices from two different vendors, each having their own invoice template, create two collections.
 
    > [!div class="mx-imgBorder"]
-   > ![Select Analyze](media/form-processing-multiple-layout-create-collections.gif "Create collections")
+   > !['Add collections of documents' animation](media/form-processing-multiple-layout-create-collections.gif "Create collections")
 
 For each collection that you create, you need to upload at least five sample documents per collection. Files with formats JPG, PNG, and PDF files are currently accepted.
 
    > [!div class="mx-imgBorder"]
-   > ![Select Analyze](media/form-processing-multiple-layout-add-documents.gif "Upload documents")
+   > !['Select documents to upload' animation](media/form-processing-multiple-layout-add-documents.gif "Upload documents")
 
 > [!NOTE]
 > The functionality of having more than one collection in an AI model is currently in preview. This means:
@@ -73,14 +73,14 @@ To start tagging, select one of the collections on the right panel.
 To tag a field, simply draw a rectangle around the field you're interested in and select to the field name that it corresponds to.
 
    > [!div class="mx-imgBorder"]
-   > ![Select Analyze](media/form-processing-multiple-layout-tag-fields.gif "Tag field in a document")
+   > !['Draw a rectangle to select a field' animation](media/form-processing-multiple-layout-tag-fields.gif "Tag field in a document")
 
 At any time you can resize to adjust your selection.
 
 When you hover over words in your documents, light blue boxes may appear. These indicate that you can draw a rectangle around those words to select a field.
 
    > [!div class="mx-imgBorder"]
-   > ![Select fields close up](media/form-select-fields.png "Select fields close up")
+   > ![Select fields](media/form-select-fields.png "Select fields close up")
 
 
 ### Tag tables
@@ -90,7 +90,7 @@ AI Builder can detect tables in your documents. These are indicated by a rounded
 When you select **Tag table**, you will need to tag the columns that you defined by selecting them on the document. 
 
    > [!div class="mx-imgBorder"]
-   > ![Select Analyze](media/form-processing-multiple-layout-tag-tables.gif "Tag a table in a document")
+   > !['Tag tables' animation](media/form-processing-multiple-layout-tag-tables.gif "Tag a table in a document")
 
 
 > [!NOTE] 
