@@ -1,18 +1,18 @@
 ---
 title:  Feature availability by region - AI Builder | Microsoft Docs
 description: Breaks down which AI Builder features are available in each region. Lists the release status for each feature by region.
-author: Dean-Haas
+author: JoeFernandezMS
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/26/2019
+ms.date: 11/03/2020
 ms.author: jofernan
 ms.reviewer: v-dehaas
 ---
 
 # Feature availability by region
 
-AI Builder was initially released in Europe and the United States. Other regions continue to be added; however, the availability and release status of AI Builder<!--Via Writing Style Guide: "Don't use the possessive form of Microsoft trademarks and product, service, or feature names."--> features varies by location.
+AI Builder was initially released in Europe and the United States. Other regions continue to be added; however, the availability and release status of AI Builder features varies by location.
 
 ## Which region does my AI Builder subscription belong to?
 
@@ -48,6 +48,12 @@ The following table shows which AI Builder features are available in each region
 |Text recognition   |GA |GA |GA |GA |GA |GA |GA |GA |
 |Text translation |- |- |- |- |-|- |- |GA |
 
+## Government Community Cloud (GCC) availability
+
+AI Builder is not currently available in the GCC environment. For more information about this limitation, see these topics:
+
+- [Power Apps US Government feature limitations](https://docs.microsoft.com/power-platform/admin/powerapps-us-government#power-apps-us-government-feature-limitations)
+- [Power Automate US Government feature limitations](https://docs.microsoft.com/power-automate/us-govt#power-automate-us-government-feature-limitations)
 ### Related content
 
 [AI model types](model-types.md)
