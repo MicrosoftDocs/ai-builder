@@ -5,16 +5,16 @@ author: alanabrito
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/30/2019
+ms.date: 11/06/2020
 ms.author: alanab
 ms.reviewer: v-dehaas
 ---
 
 # Use the sentiment analysis prebuilt model in Power Automate
 
+[!INCLUDE [cc-data-platform-banner](includes/cc-data-platform-banner.md)]
 
 ## Create a flow that uses the AI Builder sentiment analysis prebuilt model
-
 
 1. Sign in to [Power Automate](https://flow.microsoft.com/), select the **My flows** tab, and then select **New > +Instant-from blank**.
 1. Name your flow, select **Manually trigger a flow** under **Choose how to trigger this flow**, and then select **Create**.
@@ -30,17 +30,19 @@ ms.reviewer: v-dehaas
     > [!div class="mx-imgBorder"]
     > ![Add row in Excel](media/flow-sentiment-analysis-22.png "Add row in Excel")
 
-
 Congratulations! You've created a flow that uses the sentiment analysis model. Select **Save** in the upper-right corner, and then select **Test** to try out your flow.
 
 ## Parameters
+
 ### Input
+
 |Name |Required |Type |Description |Values |
 |---------|---------|---------|---------|---------|
 |**Text** |Yes |string |Text to analyze |Text sentences |
 |**Language** |Yes |string | Language of the text to analyze | Item in a list of predefined languages or a language code (ex.: "en", "fr", "zh_chs", "ru")
 
 ### Output
+
 |Name |Type |Description |Values |
 |---------|---------|---------|---------|
 |**Overall text sentiment** |string |Overall sentiment of the analyzed text|Positive, neutral or negative |
@@ -80,10 +82,8 @@ If you want this field to be visible in your email grid view, follow these steps
 
 1. Go to the view/form designer, and add the custom field you created in step 1 of the preceding procedure<!--Is this what "prerequisite step" means?-->. For information about how to add the column to your view, see [Add a column to your view](/dynamics365/customerengagement/on-premises/customize/create-edit-views-app-designer#add-a-column-to-your-view).
 
-
 1. Then add a field to the form. For details, see [Add a field to a form](/dynamics365/customerengagement/on-premises/customize/add-field-form).
 
 ### See also
 
 [Sentiment analysis overview](prebuilt-sentiment-analysis.md)
-

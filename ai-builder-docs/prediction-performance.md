@@ -5,12 +5,14 @@ author: Dean-Haas
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/10/2020
+ms.date: 11/06/2020
 ms.author: norliu
 ms.reviewer: v-dehaas
 ---
 
 # Prediction model performance
+
+[!INCLUDE [cc-data-platform-banner](includes/cc-data-platform-banner.md)]
 
 After each training, AI Builder uses the test data set to evaluate the quality and fit of the new model. A summary page for your model shows your model training result. These results are expressed as a performance grade of A, B, C, or D.
 
@@ -104,40 +106,12 @@ For numerical prediction, AI Builder calculates an r-squared score after each tr
 
 Let's say you're predicting the number of days to fulfill, ship, and deliver an order. The model predicts a set of numbers. The r-squared value is based on the distances between predicted values and actual values in your training data. This is expressed as a number between 0 – 100%, with higher values indicating the predicted value is closer to the real value. Typically, a higher score means the model performs better. Remember though, that perfect or near-perfect scores ([overfit models](https://docs.microsoft.com/ai-builder/manage-model#overfit-models)) are usually indicative of a problem with your training data.
 
-
 On the **Summary** tab, the following performance information is available
-
 
 * Training date
 * Data source
 * Historical outcome
 * Entity list used to do prediction.
-
-<!-- Coming later 2020 tentatively
-- Accuracy per outcome
-- Confusion matrix
-- Cumulative gains chart -->
-
-<!--
-### Accuracy per outcome
-This section shows the distribution of correct and incorrect results. You can use this to help you evaluate the model.
-AI Builder shows a bar chart to quantify the accuracy of your AI model. Let's still use the business loan application as an example. The "Approved" bar would show how many predictions match the actual result, compared to all the records processed. If the rate of the correctly predicted records is high, this information might help you decide to go ahead and use this model. 
-
-### Confusion matrix
-The confusion matrix describes the performance of the model as follows:
-
-- true positives
-- false positives
-- true negatives
-- false negatives
-
-True positives and true negatives are correctly predicted outcomes. False positives & false negatives are records that were incorrectly predicted.
-
-### Cumulative gains chart
-
-> [!Note]
-> This feature uses Highcharts (https://www.highcharts.com Copyright (c) Highsoft Solutions AS. All Rights Reserved)
--->
 
 ## Improve your prediction model performance
 
@@ -145,8 +119,8 @@ After you've trained and evaluated your model, it's time to tweak your model to 
 
 ### Review errors and issues
 
-- If there are any errors after you finish training, fix them and retrain the model.
-- If there are no errors<!--note from editor: Would it be good to give a cross-reference here to prediction-training-report.md? It seems it might be useful.-->, check the training details. Try to address as many issues as possible, and then retrain the model.
+* If there are any errors after you finish training, fix them and retrain the model.
+* If there are no errors, check the training details. Try to address as many issues as possible, and then retrain the model.
 
 ### Review top influencers
 

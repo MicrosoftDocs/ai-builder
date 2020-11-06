@@ -5,12 +5,14 @@ author: Dean-Haas
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/27/2019
+ms.date: 11/06/2020
 ms.author: joshrenn
 ms.reviewer: v-dehaas
 ---
 
 # Common issues and resolutions for AI Builder
+
+[!INCLUDE [cc-data-platform-banner](includes/cc-data-platform-banner.md)]
 
 Here are some issues that have been seen in AI Builder. Where applicable, workarounds are provided.
 

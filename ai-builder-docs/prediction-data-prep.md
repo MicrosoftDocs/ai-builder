@@ -5,12 +5,14 @@ author: norliu
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/14/2020
+ms.date: 11/06/2020
 ms.author: norliu
 ms.reviewer: v-dehaas
 ---
 
 # Data preparation
+
+[!INCLUDE [cc-data-platform-banner](includes/cc-data-platform-banner.md)]
 
 Before you create your prediction model, you'll want to make sure your data is in Common Data Service and that it's in the correct format.
 

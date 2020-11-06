@@ -2,16 +2,17 @@
 title: Share your AI model - AI Builder | Microsoft Docs
 description: Walks you through the steps to share your model in AI Builder.
 author: Antoine2F
-manager: cdbellar
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 01/03/2020
+ms.date: 11/06/2020
 ms.author: antode
-ms.reviewer: cdbellar
+ms.reviewer: v-dehaas
 ---
 
 # Share your AI model
+
+[!INCLUDE [cc-data-platform-banner](includes/cc-data-platform-banner.md)]
 
 When you create and publish AI models in AI Builder, they're private&mdash;only you can run them. This allows you to test them and use them within apps or flows.
 
@@ -75,8 +76,7 @@ Yes. In advanced settings of your organization, an admin must create a security 
 
 Generic prediction models only work as part of a scheduled run. They can't be used in Power Apps or Power Automate, so the share action isn't available.
 
-<!--note from editor: To be parallel, I added this section, but I'm commenting it out for now because maybe it isn't actually part of the workflow that you recommend.
 ### Next step
 
 [Distribute your AI model](distribute-model.md)
--->
+

@@ -5,13 +5,15 @@ author: mustlaz
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/30/2019
+ms.date: 11/06/2020
 ms.author: mustlaz
 ms.reviewer: v-dehaas
 ---
 
 # Use the business card reader component in model-driven apps
-<!--Title edited to match its sister topic.-->
+
+[!INCLUDE [cc-data-platform-banner](includes/cc-data-platform-banner.md)]
+
 Use the AI Builder business card reader component to detect business cards and extract their information. You can take photos directly in the component or load images that you've taken. Data is extracted and identified<!--Edit okay?--> by using the properties listed below.
 
 For information about model-driven apps, see [What are model-driven apps in Power Apps?](/powerapps/maker/model-driven-apps/model-driven-app-overview)

@@ -5,14 +5,16 @@ author: Dean-Haas
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 01/03/2020
-ms.author: sdarapu
+ms.date: 11/06/2020
+ms.author: norliu
 ms.reviewer: v-dehaas
 ---
 
-# Training errors and issues
-<!--Is it all right that this heading doesn't mention the prediction model specifically? It probably should if similar topics for other types of models might be written someday.-->
-AI Builder reports errors and issues<!--Suggested, to avoid "issue messages" and also to echo the H2s below.--> on the model details page. These messages are explained here.
+# Prediction model training errors and issues
+
+[!INCLUDE [cc-data-platform-banner](includes/cc-data-platform-banner.md)]
+
+AI Builder reports errors and issues on the model details page. These messages are explained here.
 
 ## Errors
 

@@ -17,7 +17,7 @@ ms.reviewer: v-dehaas
 1. Name your flow, select **Manually trigger a flow** under **Choose how to trigger this flow**, and then select **Create**.
 1. Expand **Manually trigger a flow**, select **+Add an input**, select **Text** as the input type, and set as input title **My Text**.
 1. Select **+ New step**, search for **AI Builder** in the Search for filters and actions box, and then select **Extract entities from text with one of your custom models** in the list of actions.
-1.	Select the entity extraction model you want to use, and in the **Text** field add **My Text** from the trigger.
+1. Select the entity extraction model you want to use, and in the **Text** field add **My Text** from the trigger.
 
     > [!div class="mx-imgBorder"]
     > ![Select model content](media/flow-eec-overview.png "Select model content")
@@ -29,17 +29,18 @@ ms.reviewer: v-dehaas
 
 Congratulations! You've created a flow that uses an AI Builder entity extraction model. Select **Save** on the top right, and then select **Test** to try out your flow.
 
-
 ## Parameters
+
 ### Input
+
 |Name |Required |Type |Description |Values |
 |---------|---------|---------|---------|---------|
 |**AI model** |Yes |model |Entity extraction model to use for analysis|Trained and published entity extraction model |
 |**Text** |Yes |string |Text to analyze|Text sentences |
 |**Language** |Yes |string |Language of the text to analyze|"Detect automatically" or language code (ex.: "en", "fr", "zh_chs", "ru") |
 
-
 ### Output
+
 |Name |Type |Description |Values |
 |---------|---------|---------|---------|
 |**Entity type** |string |Type of the entity|Example: DateTime or Organization |

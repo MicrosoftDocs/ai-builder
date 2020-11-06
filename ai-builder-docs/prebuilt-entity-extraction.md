@@ -35,7 +35,7 @@ You can integrate your AI Builder entity extraction model in Power Apps Studio b
 ## Use in Power Automate
 
 If you want to use this prebuilt model in Power Automate, you can find more information in [Use the entity extraction prebuilt model in Power Automate](prebuilt-entity-extraction-pwr-automate.md).
- 
+
 ## Supported data format and languages
 
 - Documents can't exceed 5,000 characters.

@@ -5,12 +5,14 @@ author: Dean-Haas
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/06/2019
+ms.date: 11/06/2020
 ms.author: v-dehaas
 ms.reviewer: v-dehaas
 ---
 
 # Security in AI Builder
+
+[!INCLUDE [cc-data-platform-banner](includes/cc-data-platform-banner.md)]
 
 AI Builder relies on environment security and Common Data Service security roles and privileges to grant access to AI features in Power Apps. More information: [Security overview](/power-platform/admin/wp-security)
 

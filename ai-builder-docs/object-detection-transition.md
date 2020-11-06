@@ -5,12 +5,14 @@ author: JoeFernandezMS
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/06/2020
+ms.date: 11/06/2020
 ms.author: jofernan
 ms.reviewer: v-dehaas
 ---
 
 # Transition to the new object detection model version
+
+[!INCLUDE [cc-data-platform-banner](includes/cc-data-platform-banner.md)]
 
 AI Builder is including improvements to object detection in a new model version. Your object detection
 preview models created before March 5, 2020, are deprecated. More information: [Form processing and object detection preview models in AI Builder are deprecated](/power-platform/important-changes-coming#form-processing-and-object-detection-preview-models-in-ai-builder-are-deprecated)

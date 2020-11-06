@@ -5,12 +5,14 @@ author: JoeFernandezMS
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 01/03/2020
+ms.date: 11/06/2020
 ms.author: jofernan
 ms.reviewer: v-dehaas
 ---
 
 # Use your prediction model in Power Apps
+
+[!INCLUDE [cc-data-platform-banner](includes/cc-data-platform-banner.md)]
 
 This topic takes you through the process of creating a model-driven app that can sort your records by the probability value in the AI model output.
 

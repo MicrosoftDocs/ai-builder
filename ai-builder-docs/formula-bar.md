@@ -11,7 +11,7 @@ ms.reviewer: v-dehaas
 ---
 
 # Add text-based AI models using formulas (preview)
-<!--I assume this article should have the preview disclaimer?-->
+
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
 You can integrate some AI Builder models in [Power Apps Studio](https://create.powerapps.com) by using the formula bar. Currently, this functionality is available only for the following AI Builder model types:
@@ -21,7 +21,7 @@ You can integrate some AI Builder models in [Power Apps Studio](https://create.p
 * Key phrase extraction
 * Language detection
 
-For information about how to use formulas to add these AI models in<!--Not "to Power Apps." If you don't like this, it could be "to apps you create by using Power Apps" or something similar.--> Power Apps, see [Use formulas for text AI models](use-model.md#use-formulas-for-text-ai-models)
+For information about how to use formulas to add these AI models in Power Apps, see [Use formulas for text AI models](use-model.md#use-formulas-for-text-ai-models)
 
 ### See also
 

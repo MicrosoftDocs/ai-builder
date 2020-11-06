@@ -5,12 +5,14 @@ author: mfotedar
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/08/2020
+ms.date: 11/06/2020
 ms.author: mfotedar
 ms.reviewer: v-dehaas
 ---
 
 # Create an entity extraction custom model
+
+[!INCLUDE [cc-data-platform-banner](includes/cc-data-platform-banner.md)]
 
 ## Create your model
 
