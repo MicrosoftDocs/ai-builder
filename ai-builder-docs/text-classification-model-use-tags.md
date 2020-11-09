@@ -5,7 +5,7 @@ author: raaourik
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/11/2020
+ms.date: 11/06/2020
 ms.author: raaourik 
 ms.reviewer: v-dehaas
 ---
@@ -13,6 +13,7 @@ ms.reviewer: v-dehaas
 
 # Use a category classification model to generate tags
 
+[!INCLUDE [cc-data-platform-banner](includes/cc-data-platform-banner.md)]
 
 ## Use in Power Automate
 

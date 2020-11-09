@@ -5,13 +5,14 @@ author: amina196
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/06/2019
+ms.date: 11/06/2020
 ms.author: aminab
 ms.reviewer: v-dehaas
 ---
 
 # Use sample data to do object detection
 
+[!INCLUDE [cc-data-platform-banner](includes/cc-data-platform-banner.md)]
 
 To explore the possibilities of object detection in AI Builder, you can get started by building and training an object detection model using sample pictures and labels.
 
