@@ -17,6 +17,7 @@ SharePoint Syntex integration with  AI Builder and Power Automate allows you to 
 ### See also
 
 [AI Builder form processing models](form-processing-model-overview.md)
-[AI Builder in Power Automate](use-in-flow-overview.md)
-[Feature availability by region](availability-region.md)  
 
+[AI Builder in Power Automate](use-in-flow-overview.md)
+
+[Feature availability by region](availability-region.md)  
