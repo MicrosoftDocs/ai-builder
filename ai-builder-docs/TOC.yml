@@ -205,9 +205,7 @@
   - name: Use the text recognizer component in Power Apps
     href: prebuilt-text-recognizer-component-in-powerapps.md
 - name: Use AI Builder in SharePoint
-  items:
-  - name: Overview
-    href: sharepoint-overview.md
+  href: sharepoint-overview.md
 - name: Administration and security
   items:
   - name: Administer AI Builder
