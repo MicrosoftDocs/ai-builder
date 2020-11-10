@@ -204,6 +204,8 @@
     href: prebuilt-receipt-processor-component-in-powerapps.md
   - name: Use the text recognizer component in Power Apps
     href: prebuilt-text-recognizer-component-in-powerapps.md
+- name: Use AI Builder in SharePoint
+  href: sharepoint-overview.md
 - name: Administration and security
   items:
   - name: Administer AI Builder
