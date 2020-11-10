@@ -24,19 +24,19 @@ ms.reviewer: v-dehaas
 1. In the successive actions, you can use any fields extracted by the AI Builder model. For example, you can send an email using the **Entity type** and **Entity value** fields.
    > [!div class="mx-imgBorder"]
    > ![Choose an a action'](media/flow-eep-example.png "Send an email")
-   
+
 Congratulations! You've created a flow that uses an entity extraction model. Select **Save** in the upper-right corner, and then select **Test** to try out your flow.
 
-
 ## Parameters
+
 ### Input
 |Name |Required |Type |Description |Values |
 |---------|---------|---------|---------|---------|
 |**Text** |Yes |string |Text to analyze|Text sentences |
 |**Language** |Yes |string |Language of the text to analyze|List of predefined languages or language code (ex.: "en", "fr", "zh_chs", "ru") |
 
-
 ### Output
+
 |Name |Type |Description |Values |
 |---------|---------|---------|---------|
 |**Entity type** |string |Type of the entity|Example: DateTime or Organization |

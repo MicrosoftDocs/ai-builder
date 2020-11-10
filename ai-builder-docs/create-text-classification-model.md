@@ -5,12 +5,14 @@ author: mrigankka
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/30/2019
+ms.date: 11/06/2020
 ms.author: mfotedar
 ms.reviewer: v-dehaas
 ---
 
 # Create a category classification model
+
+[!INCLUDE [cc-data-platform-banner](includes/cc-data-platform-banner.md)]
 
 Now that you have your training data in Common Data Service, you can create a new model and configure it.
 

@@ -5,12 +5,14 @@ author: amina196
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/20/2020
+ms.date: 11/06/2020
 ms.author: aminab
 ms.reviewer: v-dehaas
 ---
 
 # Build your object detection model
+
+[!INCLUDE [cc-data-platform-banner](includes/cc-data-platform-banner.md)]
 
 1. Sign in to [Power Apps](https://make.powerapps.com), and then in the left pane, select the down arrow to expand **AI Builder**. Select the **Object Detection** AI model type.
 

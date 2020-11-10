@@ -5,12 +5,14 @@ author: raaourik
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/06/2019
+ms.date: 11/06/2020
 ms.author: raaourik
 ms.reviewer: v-dehaas
 ---
 
 # View results
+
+[!INCLUDE [cc-data-platform-banner](includes/cc-data-platform-banner.md)]
 
 This topic shows you how to see the output of your prediction model.
 
