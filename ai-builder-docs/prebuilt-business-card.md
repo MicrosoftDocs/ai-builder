@@ -25,7 +25,7 @@ AI Builder is licensed as an add-on to your Power Apps or Power Automate license
 
 ## Role requirements
 
-Users need to have the Common Data Service user role to consume the business card reader.
+Users need to have the Microsoft Dataverse user role to consume the business card reader.
 
 ## Use in Power Apps
 

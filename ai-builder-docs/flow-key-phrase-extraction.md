@@ -21,10 +21,10 @@ ms.reviewer: v-dehaas
     > [!div class="mx-imgBorder"]
     > ![Specify my text](media/flow-kpe.png "Specify my text")
 
-1. In the successive actions, you can use any fields extracted by the AI Builder model. For example, you can create a common data service record for each **Key phrase**:
+1. In the successive actions, you can use any fields extracted by the AI Builder model. For example, you can create a Microsoft Dataverse record for each **Key phrase**:
 
     > [!div class="mx-imgBorder"]
-    > ![Add key phrases screen](media/flow-add-phrase-2.png "Add key phrases in Common Data Service")
+    > ![Add key phrases screen](media/flow-add-phrase-2.png "Add key phrases in Dataverse")
 
 ## Parameters
 

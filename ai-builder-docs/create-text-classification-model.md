@@ -14,7 +14,7 @@ ms.reviewer: v-dehaas
 
 [!INCLUDE [cc-data-platform-banner](includes/cc-data-platform-banner.md)]
 
-Now that you have your training data in Common Data Service, you can create a new model and configure it.
+Now that you have your training data in Microsoft Dataverse, you can create a new model and configure it.
 
 1. Sign in to [Power Apps](https://make.powerapps.com/), and then select **AI Builder** > **Build**.
 
