@@ -26,7 +26,7 @@ Download [AIBuilder_Lab.zip](https://go.microsoft.com/fwlink/?linkid=2103171) fi
 > [!NOTE]
  > The AIBuilder_Lab.zip file also contains sample files for working with other AI Builder model types, in addition to some hands-on labs that you can use to learn more about AI Builder. For more information about the contents of the zip file, see the [readme.txt](https://go.microsoft.com/fwlink/?linkid=2108226) file that's included in the zip file.
 
-## Add labels in Common Data Service
+## Add labels in Microsoft Dataverse
 
 1. Go to [Power Apps](https://make.powerapps.com/), and then select **Data** > **Entities** in the left pane.
 2. Prepare an entity with one column in a text format, either by using an existing entity<!--Edit okay?--> or creating a new one.

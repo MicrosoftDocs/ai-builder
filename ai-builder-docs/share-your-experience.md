@@ -23,4 +23,4 @@ Read and post in the [AI Builder forum](https://go.microsoft.com/fwlink/?linkid=
 
 - [Power Apps community forums](https://powerusers.microsoft.com/t5/Forums/ct-p/PA_Comm_Forums)
 - [Power Automate community forums](https://powerusers.microsoft.com/t5/Microsoft-Power-Automate/ct-p/MPACommunity)
-- [Common Data Service community forums](https://powerusers.microsoft.com/t5/Common-Data-Services/ct-p/PA_CommonDataServices)  
+- [Microsoft Dataverse community forums](https://powerusers.microsoft.com/t5/Common-Data-Services/ct-p/PA_CommonDataServices)  

@@ -21,7 +21,7 @@ If you want to use your trained model in Power Automate, see [Use a category cla
 
 <a name="set-run-schedule-on-common-data-service"></a>
 
-## Set a run schedule on Common Data Service (preview)
+## Set a run schedule on Microsoft Dataverse (preview)
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -39,4 +39,4 @@ You can integrate your AI Builder category classification models in Power Apps S
 ## What if the model isn't writing new tag suggestions?
 
 - Check that you didn't exceed the number of runs for your Power Automate subscription.
-- Turn off the Common Data Service run setting, and then turn it back on.
+- Turn off the Dataverse run setting, and then turn it back on.

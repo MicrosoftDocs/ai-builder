@@ -26,7 +26,7 @@ Some AI Builder features are released for general availability. Others remain in
 
 Preview features appear on the build page with the **Preview** label. In the Power Platform admin center, administrators control whether users have access to preview features.
 
-By default, the **AI Builder preview models** feature is enabled for any eligible environment. Eligible environments must have Common Data Service and be in a [supported region](availability-region.md). If the environment isn't eligible, the **AI Builder preview models** feature doesn't appear in the Power Platform admin center.
+By default, the **AI Builder preview models** feature is enabled for any eligible environment. Eligible environments must have Microsoft Dataverse and be in a [supported region](availability-region.md). If the environment isn't eligible, the **AI Builder preview models** feature doesn't appear in the Power Platform admin center.
 
 To control AI Builder preview feature availability:
 
@@ -50,7 +50,7 @@ For more information about enabling or disabling features in the Power Platform 
 
 ## Backup and restore
 
-Common Data Service has backup and restore capabilities to help protect your apps' data, providing continuous availability of service. System administrators and delegated admin users can use the standard capabilities described here: [Back up and restore environments](https://docs.microsoft.com/power-platform/admin/backup-restore-environments).
+Dataverse has backup and restore capabilities to help protect your apps' data, providing continuous availability of service. System administrators and delegated admin users can use the standard capabilities described here: [Back up and restore environments](https://docs.microsoft.com/power-platform/admin/backup-restore-environments).
 
 - Backup and restore is fully supported for prediction, object detection, form processing and prebuilt models.
 

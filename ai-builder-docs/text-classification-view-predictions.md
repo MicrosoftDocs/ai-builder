@@ -16,7 +16,7 @@ ms.reviewer: v-dehaas
 
 This topic shows you how to see the output of your prediction model.
 
-1. After you select **Use Model** and configure it to run on Common Data Service, the output location appears in the **Settings** pane under the **Run** pivot.
+1. After you select **Use Model** and configure it to run on Microsoft Dataverse, the output location appears in the **Settings** pane under the **Run** pivot.
 
     The name shown in **Tags output** is the name of the entity and attribute that's created after publishing. It's a link that takes you to the entity viewer section where the new fields added by AI Builder appear.
 
