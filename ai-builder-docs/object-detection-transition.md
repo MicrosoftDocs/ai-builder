@@ -34,7 +34,7 @@ We understand that you might have spent significant time building your object de
 
 Object detection models are being upgraded for general availability. Your existing preview models won't be compatible with the new model version.
 
-Until March 5, 2020, object detection models stored images as attachments in the Note entity. With this update, these models now use the new [File and Image data types](https://powerapps.microsoft.com/blog/introducing-improvements-to-data-storage-in-common-data-services/) in Common Data Service, enabling a better and more optimized usage of capacity.
+Until March 5, 2020, object detection models stored images as attachments in the Note entity. With this update, these models now use the new [File and Image data types](https://powerapps.microsoft.com/blog/introducing-improvements-to-data-storage-in-common-data-services/) in Microsoft Dataverse, enabling a better and more optimized usage of capacity.
 
 ### See also
 

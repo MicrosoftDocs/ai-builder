@@ -24,7 +24,7 @@ Get started exploring AI Builder category classification by using sample data to
     > [!NOTE]
     > The AIBuilder_Lab.zip file also contains sample files for working with other AI Builder model types, in addition to some hands-on labs that you can use to learn more about AI Builder. For more information about the contents of the zip file, see the [readme.txt](https://go.microsoft.com/fwlink/?linkid=2108226) file that's included in the zip file.<!--By the way, this readme file needs some work. Please see learn-ai-builder.md for my markup.-->
 
-2. Import the **AIBuildetTextSample_1_0_0** solution to your Common Data Service environment. More information: [Import, update, and export solutions](/powerapps/maker/common-data-service/import-update-export-solutions)
+2. Import the **AIBuildetTextSample_1_0_0** solution to your Microsoft Dataverse environment. More information: [Import, update, and export solutions](/powerapps/maker/common-data-service/import-update-export-solutions)
 
 3. Upload data from **sampleData.zip** to the healthcare_feedback entity by following instructions in [Before you build a category classification model](before-you-build-text-classification-model.md).
 

@@ -1,6 +1,6 @@
 ---
 title: Data preparation - AI Builder | Microsoft Docs
-description: Provides the steps you'll need to follow to prepare your data for AI Builder in Common Data Service. 
+description: Provides the steps you'll need to follow to prepare your data for AI Builder in Microsoft Dataverse. 
 author: norliu
 ms.service: powerapps
 ms.topic: conceptual
@@ -14,11 +14,11 @@ ms.reviewer: v-dehaas
 
 [!INCLUDE [cc-data-platform-banner](includes/cc-data-platform-banner.md)]
 
-Before you create your prediction model, you'll want to make sure your data is in Common Data Service and that it's in the correct format.
+Before you create your prediction model, you'll want to make sure your data is in Microsoft Dataverse and that it's in the correct format.
 
 ## Create your custom entity
 
-Do you have data that you want to import into Common Data Service for training in AI Builder? First, you have to create an entity. In this example, we'll provide a solution that has predefined custom entities. To use your own data, [create a custom entity](/powerapps/maker/common-data-service/data-platform-create-entity) and substitute your own entity for the example used here.
+Do you have data that you want to import into Dataverse for training in AI Builder? First, you have to create an entity. In this example, we'll provide a solution that has predefined custom entities. To use your own data, [create a custom entity](/powerapps/maker/common-data-service/data-platform-create-entity) and substitute your own entity for the example used here.
 
 > [!NOTE]
 >For best results, use a dataset that is less than 1.5 GB in size. Otherwise, AI Builder uses only 1.5 GB of your data to train and predict. Since you can’t control which data exceeding the 1.5 GB limit is not used, you should optimize your data to stay under 1.5 GB.

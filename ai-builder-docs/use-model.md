@@ -18,11 +18,11 @@ After you publish your model, a **Use model** button appears in the **Performanc
 
 ## Set a run schedule
 
-Create a schedule to generate predictions regularly in Common Data Service. To view the scheduling options available for your model type, see [Set a run schedule for your category classification model](text-classification-model-use-tags.md#set-run-schedule-on-common-data-service).
+Create a schedule to generate predictions regularly in Microsoft Dataverse. To view the scheduling options available for your model type, see [Set a run schedule for your category classification model](text-classification-model-use-tags.md#set-run-schedule-on-common-data-service).
 
 ## Run now
 
-Generate new predictions right away and save them to Common Data Service. To learn how to run your model immediately<!--I couldn't find anything that talked about the **Run now** command for different model types.-->, see [Run your prediction model](prediction-use.md#prediction-run).<!--Edit okay? The original [link]() didn't seem to be right.-->
+Generate new predictions right away and save them to Dataverse. To learn how to run your model immediately<!--I couldn't find anything that talked about the **Run now** command for different model types.-->, see [Run your prediction model](prediction-use.md#prediction-run).<!--Edit okay? The original [link]() didn't seem to be right.-->
 
 ## Create a new app
 
@@ -44,7 +44,7 @@ For information about when this functionality might become available with other 
 
  > [!IMPORTANT]
  >* This is a preview feature. [!INCLUDE [cc-preview-features-definition](includes/cc-preview-features-definition.md)]
- >* [Data loss prevention policies](/power-platform/admin/wp-data-loss-prevention) that apply to Common Data Service also apply to AI Builder.
+ >* [Data loss prevention policies](/power-platform/admin/wp-data-loss-prevention) that apply to Dataverse also apply to AI Builder.
  >* To use formulas in an app that was created before May 7, 2020, go to **Settings** > **Advance Settings** > **Preview Features**, and set **AI Builder formulas** to **ON**. This step isn't necessary for newly created apps.
 
 To enable or disable this feature (for example, for data loss prevention), see **AI Builder formulas** under **Advanced Settings**. More information: [Controlling which features are enabled](/powerapps/maker/canvas-apps/working-with-experimental-preview#controlling-which-features-are-enabled)

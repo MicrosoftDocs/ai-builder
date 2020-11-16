@@ -14,15 +14,15 @@ ms.reviewer: v-dehaas
 
 [!INCLUDE [cc-data-platform-banner](includes/cc-data-platform-banner.md)]
 
-Before you build your category classification model, make sure your data is in Common Data Service and it's structured in the correct format.
+Before you build your category classification model, make sure your data is in Microsoft Dataverse and it's structured in the correct format.
 
 If you don't have training data and want to try AI Builder category classification, follow these [instructions](text-classification-sample-data.md) to use sample data.
 
 ## Prerequisites
 
-- Training data should be in a Common Data Service entity.
+- Training data should be in a Dataverse entity.
 - Make sure your administrator has assigned you a security role with Read privilege to training data.
-- You have appropriate permissions to create entities in your Common Data Service environment.
+- You have appropriate permissions to create entities in your Dataverse environment.
 - AI Builder category classification supports the following languages: English, French, German, Dutch, Italian, Spanish, and Portuguese. If you try to classify text items in other languages, your model might not work properly. 
 
 ## Data format
@@ -40,9 +40,9 @@ If data is represented in a table, it looks like the following.
 | Text data | Tag X, Tag Y        |
 | Text data | Tag X, Tag Y, Tag Z |
 
-## Import your data into Common Data Service
+## Import your data into Dataverse
 
-Common Data Service includes a powerful set of connectors to help you import data from many sources. More information: [Add data to an entity in Common Data Service by using Power Query](/powerapps/maker/common-data-service/data-platform-cds-newentity-pq)
+Dataverse includes a powerful set of connectors to help you import data from many sources. More information: [Add data to an entity in Dataverse by using Power Query](/powerapps/maker/common-data-service/data-platform-cds-newentity-pq)
 
 As an example, let's look at how to import training data from an Excel workbook. This example uses a file containing what's shown in the following table.
 
@@ -81,7 +81,7 @@ Note that tags data is separated by using a vertical bar or pipe ( \| ).
 
 1. On the **Refresh settings** page, select **Refresh manually**.
 
-You're all set. Power Query will import your data into your Common Data Service entity.
+You're all set. Power Query will import your data into your Dataverse entity.
 
 ### Next step
 

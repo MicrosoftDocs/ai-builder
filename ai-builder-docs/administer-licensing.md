@@ -12,7 +12,7 @@ ms.reviewer: v-dehaas
 
 # AI Builder licensing
 
-AI Builder is licensed as an add-on to your Power Apps, Power Automate, or Dynamics 365 license. This means you can start your AI Builder trial after you have a Power Apps, Power Automate, or Dynamics 365 license that allows you to create a Common Data Service environment.
+AI Builder is licensed as an add-on to your Power Apps, Power Automate, or Dynamics 365 license. This means you can start your AI Builder trial after you have a Power Apps, Power Automate, or Dynamics 365 license that allows you to create a Microsoft Dataverse environment.
 
 More information about AI Builder licensing:
 
@@ -52,7 +52,7 @@ An [AI Builder trial license](https://web.powerapps.com/signup?redirect=marketin
 What you get with an AI Builder trial license:
 
 - Create and use AI models in any environment (trial or production).
-- Store your AI model results in Common Data Service.
+- Store your AI model results in Dataverse.
 - Use AI model in your apps, flows, and more.
 
 > [!NOTE]

@@ -22,7 +22,7 @@ Category classification is one of the fundamental natural language processing (N
 - Customer request routing
 - Other business needs
 
-Automate and scale your business processes with AI Builder category classification in [Power Automate](https://flow.microsoft.com/) and [Power Apps](https://powerapps.microsoft.com/). AI Builder models help free your employees to act on new insights. Use the results as an input for other AI capabilities, like subscription user churn and predictive analysis. AI Builder learns from your previously labeled text items and enables you to classify unstructured text data stored in Common Data Service into your own business-specific categories.
+Automate and scale your business processes with AI Builder category classification in [Power Automate](https://flow.microsoft.com/) and [Power Apps](https://powerapps.microsoft.com/). AI Builder models help free your employees to act on new insights. Use the results as an input for other AI capabilities, like subscription user churn and predictive analysis. AI Builder learns from your previously labeled text items and enables you to classify unstructured text data stored in Microsoft Dataverse into your own business-specific categories.
 
 ### Next steps
 

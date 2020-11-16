@@ -36,7 +36,7 @@ Next, provide the names of the items you want to detect. You can provide up to 5
 There are two ways to provide object names:
 
 - Enter object names directly in AI Builder.
-- Select names from your Common Data Service entity.
+- Select names from your Microsoft Dataverse entity.
 
 In the top action bar, select the input mode you want to use.
 
@@ -52,7 +52,7 @@ To provide object names directly in AI Builder, just enter the name in the space
 
 ### Select names from a database
 
-If your data isn't in Common Data Service, see [Prerequisites](build-model.md#prerequisites) for information about how to import data into Common Data Service.
+If your data isn't in Dataverse, see [Prerequisites](build-model.md#prerequisites) for information about how to import data into Dataverse.
 
 1. Select **Select from database** to see entities in your environment.
 2. In the right-side pane, find the entity that contains your object names. Look through the list, or use the search bar, and then select that entity.

@@ -27,7 +27,7 @@ ms.reviewer: v-dehaas
 Congratulations! You've created a flow that uses the business card reader AI model. Select **Save** in the upper-right corner, and then select **Test** to try out your flow.
 
 ## Example business card reader flow
-The following example shows a new contact being created in Common Data Service using the business card data.
+The following example shows a new contact being created in Microsoft Dataverse using the business card data.
 
    > [!div class="mx-imgBorder"]
    > !['Create new record' screen](media/flow-business-card-overview-2.png "'Create new record' screen")
