@@ -20,7 +20,7 @@ You can use dedicated actions for each AI Builder model in Power Automate. Howev
 
 1. Sign in to [Power Automate](https://flow.microsoft.com/), select the **My flows** tab, and then select **New > +Instant-from blank**.
 1. Name your flow, select **Manually trigger a flow** under **Choose how to trigger this flow**, and then select **Create**.
-1. Select **+ New step**, search for **Predict** and select **Predict from AI Builder** or **Predict from Common Data Service**. Both actions offer the same features.
+1. Select **+ New step**, search for **Predict** and select **Predict from AI Builder** or **Predict from Microsoft Dataverse**. Both actions offer the same features.
 
     > [!div class="mx-imgBorder"]
     > ![Predict action](media/predict-action.png "Predict action")

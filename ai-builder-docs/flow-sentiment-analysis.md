@@ -59,11 +59,11 @@ Congratulations! You've created a flow that uses the sentiment analysis model. S
 
 ## Use sentiment analysis to analyze incoming Dynamics 365 emails
 
-Power Automate provides a template that enables you to analyze incoming Dynamics 365 emails by using AI Builder sentiment analysis. This template requires some customization of your Common Data Service email entity before you can use it.
+Power Automate provides a template that enables you to analyze incoming Dynamics 365 emails by using AI Builder sentiment analysis. This template requires some customization of your Microsoft Dataverse email entity before you can use it.
 
 1. Create an attribute in your Email Messages entity in which to save the sentiment analysis results.
 
-   For information about how to create an attribute, see [Create and edit fields for Common Data Service using Power Apps portal](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-field-portal).
+   For information about how to create an attribute, see [Create and edit fields for Dataverse using Power Apps portal](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-field-portal).
 
 1. Sign in to [Power Automate](https://flow.microsoft.com/signin).
 1. In the left pane, select **Templates**, and then search for **AI Builder sentiment**.

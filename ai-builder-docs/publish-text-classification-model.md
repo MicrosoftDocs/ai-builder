@@ -14,14 +14,14 @@ ms.reviewer: v-dehaas
 
 [!INCLUDE [cc-data-platform-banner](includes/cc-data-platform-banner.md)]
 
-When you're satisfied with your model, you can publish it. After it's published, your model is ready to run on your Common Data Service data or be used through Power Automate. It can take up to two hours for the results to be available.
+When you're satisfied with your model, you can publish it. After it's published, your model is ready to run on your Microsoft Dataverse data or be used through Power Automate. It can take up to two hours for the results to be available.
 
-In the **Model settings** pane on the right side of the screen, you can turn on Common Data Service and get important information about where the suggested tags will be stored.
+In the **Model settings** pane on the right side of the screen, you can turn on Dataverse and get important information about where the suggested tags will be stored.
 
 > [!IMPORTANT]
 >
-> - Currently, you can only schedule Common Data Service runs by using the input entity and field that you used for training. AI Builder creates a destination entity where the model will store the suggested tags and their confidence scores. This destination entity will have an N:1 (many-to-one)relationship with your source/input entity.
-> - AI Builder uses Power Automate to schedule and run tagging on your data. When you publish your model to run on your Common Data Service data, this will use Power Automate runs from your subscription.
+> - Currently, you can only schedule Dataverse runs by using the input entity and field that you used for training. AI Builder creates a destination entity where the model will store the suggested tags and their confidence scores. This destination entity will have an N:1 (many-to-one)relationship with your source/input entity.
+> - AI Builder uses Power Automate to schedule and run tagging on your data. When you publish your model to run on your Dataverse data, this will use Power Automate runs from your subscription.
 
 More information: [Publish your model in AI Builder](publish-model.md)
 
