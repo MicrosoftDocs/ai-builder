@@ -80,3 +80,9 @@ If you get the error message **_“Fields could not be loaded for this document�
 If you get the error message **_“Training failed and the model cannot be used”_** error in form processing after you have trained your form processing model, this can be caused by:
 * A temporary error. You can retry by retraining your model again by selecting **Edit model**.
 * The documents that you uploaded for training don’t meet the [Form-processing model requirements](https://docs.microsoft.com/ai-builder/form-processing-model-requirements).
+
+## "The current environment doesn’t meet the minimum requirements" error message
+
+The **_“The current environment doesn't meet the minimum requirements”_** error message occurs when the Microsoft Dataverse database in the environment where you are creating your model doesn't have the latest updates installed. To solve this, create a support request in the Power Platform admin center to request that the latest AI Builder updates be installed in your Dataverse database.
+
+Alternatively, you can [create a new Power Platform environment with a database](https://docs.microsoft.com/power-platform/admin/create-environment#create-an-environment-with-a-database), which will have the latest updates. 
