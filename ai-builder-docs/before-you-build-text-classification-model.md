@@ -20,14 +20,14 @@ If you don't have training data and want to try AI Builder category classificati
 
 ## Prerequisites
 
-- Training data should be in a Dataverse entity.
+- Training data should be in a Dataverse table.
 - Make sure your administrator has assigned you a security role with Read privilege to training data.
 - You have appropriate permissions to create entities in your Dataverse environment.
 - AI Builder category classification supports the following languages: English, French, German, Dutch, Italian, Spanish, and Portuguese. If you try to classify text items in other languages, your model might not work properly. 
 
 ## Data format
 
-- Text and tags should be stored in text fields under the same entity.
+- Text and tags should be stored in text fields under the same table.
 - Tags should be separated by using a delimiter. The following delimiters are supported: comma ( , ), semicolon ( ; ), tab character, or no delimiter.
 - Tags that contain fewer than 10 distinct text items are ignored.
 - There can be up to 200 categories. 
@@ -42,7 +42,7 @@ If data is represented in a table, it looks like the following.
 
 ## Import your data into Dataverse
 
-Dataverse includes a powerful set of connectors to help you import data from many sources. More information: [Add data to an entity in Dataverse by using Power Query](/powerapps/maker/common-data-service/data-platform-cds-newentity-pq)
+Dataverse includes a powerful set of connectors to help you import data from many sources. More information: [Add data to a table in Dataverse by using Power Query](/powerapps/maker/common-data-service/data-platform-cds-newentity-pq)
 
 As an example, let's look at how to import training data from an Excel workbook. This example uses a file containing what's shown in the following table.
 
@@ -60,7 +60,7 @@ Note that tags data is separated by using a vertical bar or pipe ( \| ).
 
 2. Under **Data**, select **Entities**, and then select **Get data** at the top of the screen.
 
-    If you need to create a new entity, see [Create a custom entity](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-create-entity).
+    If you need to create a new table, see [Create a custom table](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-create-entity).
 
 3. In the list of data sources, select **Excel**.
 
@@ -72,16 +72,16 @@ Note that tags data is separated by using a vertical bar or pipe ( \| ).
 
 1. Replace the vertical bar ( \| ) character with a semicolon ( ; ), and then select **OK**.
 
-1. Now that your data is in the correct format, select **Next** > **Load to new entity** (or **Next** > **Load to existing entity** if you already have a target entity).
+1. Now that your data is in the correct format, select **Next** > **Load to new entity** (or **Next** > **Load to existing entity** if you already have a target table).
 
-1. Use the drop-down menu to select your target entity, and then map your columns to the destination fields.<!--Edit okay?-->
+1. Use the drop-down menu to select your target table, and then map your columns to the destination columns.
 
     > [!div class="mx-imgBorder"]
     > ![Map your columns to the destination fields](media/create-text-model-map-columns.png "Map your columns to the destination fields")
 
 1. On the **Refresh settings** page, select **Refresh manually**.
 
-You're all set. Power Query will import your data into your Dataverse entity.
+You're all set. Power Query will import your data into your Dataverse table.
 
 ### Next step
 

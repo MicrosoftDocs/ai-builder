@@ -49,7 +49,7 @@ After you select the platform where the business card reader should appear (web,
 > ![Form editor binding properties screen](media/form-editor-binding-properties.png "Form editor binding properties screen")
 
 > [!NOTE]
-> The **Company Name** property can't be bound to a field of type **Lookup.Customer**. The only supported type is **SingleLine.Text**. More information: [Add code components to a field or entity in model-driven apps](/powerapps/developer/component-framework/add-custom-controls-to-a-field-or-entity)
+> The **Company Name** property can't be bound to a column of type **Lookup.Customer**. The only supported type is **SingleLine.Text**. More information: [Add code components to a column or table in model-driven apps](/powerapps/developer/component-framework/add-custom-controls-to-a-field-or-entity)
 
 ## Key properties
 
@@ -81,9 +81,6 @@ If a business card is detected, the business card reader will try to extract inf
 ## Customization properties
 
 The following properties are available for advanced customization:
-
-<!--from editor: Wondering if "overwrite" might be the correct word for the last line. -->
-<!--v-dehaas: I don't think so, although it wouldn't be incorrect. "override the default" makes more sense to me.  -->
 
 |Property |Definition  |
 |---------|---------|

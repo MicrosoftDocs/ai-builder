@@ -59,9 +59,9 @@ Congratulations! You've created a flow that uses the sentiment analysis model. S
 
 ## Use sentiment analysis to analyze incoming Dynamics 365 emails
 
-Power Automate provides a template that enables you to analyze incoming Dynamics 365 emails by using AI Builder sentiment analysis. This template requires some customization of your Microsoft Dataverse email entity before you can use it.
+Power Automate provides a template that enables you to analyze incoming Dynamics 365 emails by using AI Builder sentiment analysis. This template requires some customization of your Microsoft Dataverse email table before you can use it.
 
-1. Create an attribute in your Email Messages entity in which to save the sentiment analysis results.
+1. Create an attribute in your Email Messages table in which to save the sentiment analysis results.
 
    For information about how to create an attribute, see [Create and edit fields for Dataverse using Power Apps portal](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-field-portal).
 
@@ -70,13 +70,13 @@ Power Automate provides a template that enables you to analyze incoming Dynamics
 1. Select **Analyze sentiment of Dynamics emails using AI Builder**.
 1. Select your environment, then type **Email Messages** in the **Entity Name** field, and type **Organization** in the **Scope** field.
 
-   > ![Template settings screen](media/sentiment-analysis-template.png "Template settings screen")
+   > ![When an email message is created](media/sentiment-analysis-template.png "choose settings when an email message is created")
 
 1. Next, the template shows messages from **draft emails** and **received emails**. You can filter these if you want to perform sentiment analysis only on selected email statuses. For a list of status codes, see [email EntityType](/dynamics365/customer-engagement/web-api/email?view=dynamics-ce-odata-9).
 1. Select **Add sentiment to CDS Email Entity**, select **Show advanced options**, and then locate the attribute you added in step 1.
-1. Finally, add **Global sentiment** from the **Dynamic content** list.<!--Can you make this alt text different from the last image?-->
+1. Finally, add **Global sentiment** from the **Dynamic content** list.
 
-   > ![Template settings screen](media/sentiment-analysis-template2.png "Template settings screen")
+   > ![Template settings screen](media/sentiment-analysis-template2.png "Dynamic content on the settings screen")
 
 If you want this field to be visible in your email grid view, follow these steps:
 
