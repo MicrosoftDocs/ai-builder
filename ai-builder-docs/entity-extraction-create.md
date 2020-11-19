@@ -33,7 +33,7 @@ To upload your data:
 1. Sign in to [Power Apps](https://make.powerapps.com/) or [Power Automate](https://flow.microsoft.com/).
 1. In the left pane, select **AI Builder** > **Build**, and then select **Entity Extraction**.
 1. Enter a name for your model, and then select **Create**.
-1. Select the **Common Data Service** table and the field that contains your data.
+1. Select the **Common Data Service** table and the column that contains your data.
 
 ## Review and refine entities 
 

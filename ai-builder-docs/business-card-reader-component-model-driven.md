@@ -30,7 +30,7 @@ You need the Common Data Service user role to use the business card reader.
 
 Add the business card reader to a contact or lead form by using the form editor, and bind it to a placeholder **SingleLine.Text** or **Multiple** field.
 
-1. Select the placeholder field, and then select **Properties**.
+1. Select the placeholder column, and then select **Properties**.
 
 2. Select the **Controls** tab.
 

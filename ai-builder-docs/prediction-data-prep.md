@@ -64,7 +64,7 @@ Allow some time for the import to be completed. Then make sure the data is impor
 
 1. Select **Views**, and then select **Active Online Shopper Intention**.
 
-1. Add fields on the left side to validate that all the fields have been imported correctly.
+1. Add columns on the left side to validate that all the columns have been imported correctly.
 
 1. Select **Publish** to save the current view with the selected fields.
 
@@ -95,9 +95,9 @@ And you're done!
 
 1. Select **Next** until you get to the **Map Record Types** screen.
 
-1. Select **BC Customer** from the drop-down menu, and then select **Next**. Map the fields as shown in the following table.<!--Style Guide wants it to be "ZIP code." Would changing it break anything? -->
+1. Select **BC Customer** from the drop-down menu, and then select **Next**. Map the columns as shown in the following table.<!--Style Guide wants it to be "ZIP code." Would changing it break anything? -->
 
-    |**Source field**|**Map to**|
+    |**Source column**|**Map to**|
     |:-----|:-----|
     |customer\_id|ID |
     |customer\_city|City |
@@ -106,9 +106,9 @@ And you're done!
 
 1. Select **Next**, select **Submit**, and then select **Finish**.
 
-1. Repeat the process, but this time use **product.csv** and map it to **BC Product**. Map the fields as shown in the following table. <!--Please note the misspelled "lenght" in lines 113 and 116. Did that come in from the sample, or is it a transcription error we can fix here? -->
+1. Repeat the process, but this time use **product.csv** and map it to **BC Product**. Map the columns as shown in the following table. 
 
-    |**Source field**|**Map to**|
+    |**Source column**|**Map to**|
     |:-----|:-----|
     |product\_id|ID |
     |product\_category\_name|Category |
@@ -122,9 +122,9 @@ And you're done!
 
   Wait until both of these imports are complete before moving on to the next step.
 
-14. Repeat the process, but this time use **order.csv** and map it to **BC Order**. Map the fields like this:
+14. Repeat the process, but this time use **order.csv** and map it to **BC Order**. Map the columns like this:
 
-    |**Source field**|**Map to**|
+    |**Source column**|**Map to**|
     |:-----|:-----|
     |order\_id|ID  |
     |customer\_id|Customer (Lookup) |
@@ -136,7 +136,7 @@ And you're done!
     |price|Price |
     |product\_id|Product (Lookup) |
 
-In the **Lookup reference**<!--Via Writing Style Guide: don't include trailing punctuation in UI element labels.--> dialog box, make sure that the check box is selected and that the field is **ID**.
+In the **Lookup reference** dialog box, make sure that the check box is selected and that the column is **ID**.
 
    > [!div class="mx-imgBorder"]
    > ![Lookup reference dialog box'](media/lookup-reference.png "Lookup reference dialog box")
@@ -145,4 +145,4 @@ And you're done!
 
 ### Next step
 
-[Create a prediction model](prediction-create-model.md) 
+[Create a prediction model](prediction-create-model.md)

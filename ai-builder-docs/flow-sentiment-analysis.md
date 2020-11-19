@@ -20,7 +20,7 @@ ms.reviewer: v-dehaas
 1. Name your flow, select **Manually trigger a flow** under **Choose how to trigger this flow**, and then select **Create**.
 1. Expand **Manually trigger a flow**, select **+Add an input**, select **Text** as the input type, and set as input title **My Text**.
 1. Select **+ New step**, search for the term **AI Builder**, and then select **Analyze positive or negative sentiment** in text in the list of actions.
-1. Select the language in the **Language** input and specify the **My Text** field from the trigger in the **Text** input:
+1. Select the language in the **Language** input and specify the **My Text** column from the trigger in the **Text** input:
 
     > [!div class="mx-imgBorder"]
     > ![Manually trigger flow screen](media/flow-sentiment-analysis-12.png "Manually trigger flow screen")
@@ -63,12 +63,12 @@ Power Automate provides a template that enables you to analyze incoming Dynamics
 
 1. Create an attribute in your Email Messages table in which to save the sentiment analysis results.
 
-   For information about how to create an attribute, see [Create and edit fields for Dataverse using Power Apps portal](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-field-portal).
+   For information about how to create an attribute, see [Create and edit column for Dataverse using Power Apps portal](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-field-portal).
 
 1. Sign in to [Power Automate](https://flow.microsoft.com/signin).
 1. In the left pane, select **Templates**, and then search for **AI Builder sentiment**.
 1. Select **Analyze sentiment of Dynamics emails using AI Builder**.
-1. Select your environment, then type **Email Messages** in the **Entity Name** field, and type **Organization** in the **Scope** field.
+1. Select your environment, then type **Email Messages** in the **Entity Name** column, and type **Organization** in the **Scope** column.
 
    > ![When an email message is created](media/sentiment-analysis-template.png "choose settings when an email message is created")
 
@@ -78,9 +78,9 @@ Power Automate provides a template that enables you to analyze incoming Dynamics
 
    > ![Template settings screen](media/sentiment-analysis-template2.png "Dynamic content on the settings screen")
 
-If you want this field to be visible in your email grid view, follow these steps:
+If you want this column to be visible in your email grid view, follow these steps:
 
-1. Go to the view/form designer, and add the custom field you created in step 1 of the preceding procedure<!--Is this what "prerequisite step" means?-->. For information about how to add the column to your view, see [Add a column to your view](/dynamics365/customerengagement/on-premises/customize/create-edit-views-app-designer#add-a-column-to-your-view).
+1. Go to the view/form designer, and add the custom column you created in step 1 of the preceding procedure. For information about how to add the column to your view, see [Add a column to your view](/dynamics365/customerengagement/on-premises/customize/create-edit-views-app-designer#add-a-column-to-your-view).
 
 1. Then add a field to the form. For details, see [Add a field to a form](/dynamics365/customerengagement/on-premises/customize/add-field-form).
 
