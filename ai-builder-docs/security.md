@@ -31,9 +31,9 @@ Scenarios such as object detection, category classification, and prediction requ
 
 Some features require system customizer privileges to publish your AI models and to allow them to be consumed. These actions can make changes to the Dataverse schema. Administrators should assign system customizer privileges to users who want to create such AI models.
 
-When you create a prediction AI model, a new field is added to the input entity to store the prediction results. For this reason, you need at least system customizer rights to publish the model for the first time.
+When you create a prediction AI model, a new data column is added to the input table to store the prediction results. For this reason, you need at least system customizer rights to publish the model for the first time.
 
-For category classification AI models, an entity is created for every new model as soon as the model runs for the first time. Therefore, only system customizers or administrators can run the model. After the model runs, administrators must modify the access rights to the newly created category classification entity in Dataverse to allow users to use the results.
+For category classification AI models, a data table is created for every new model as soon as the model runs for the first time. Therefore, only system customizers or administrators can run the model. After the model runs, administrators must modify the access rights to the newly created category classification entity in Dataverse to allow users to use the results.
 
 ### See also
 
