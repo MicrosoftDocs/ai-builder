@@ -14,7 +14,7 @@ ms.reviewer: v-dehaas
 
 [!INCLUDE [cc-data-platform-banner](includes/cc-data-platform-banner.md)]
 
-Use the AI Builder business card reader component to detect business cards and extract their information. You can take photos directly in the component or load images that you've taken. Data is extracted and identified<!--Edit okay?--> by using the properties listed below.
+Use the AI Builder business card reader component to detect business cards and extract their information. You can take photos directly in the component or load images that you've taken. Data is extracted and identified by using the properties listed below.
 
 For information about model-driven apps, see [What are model-driven apps in Power Apps?](/powerapps/maker/model-driven-apps/model-driven-app-overview)
 
@@ -30,7 +30,7 @@ You need the Common Data Service user role to use the business card reader.
 
 Add the business card reader to a contact or lead form by using the form editor, and bind it to a placeholder **SingleLine.Text** or **Multiple** field.
 
-1. Select the placeholder column, and then select **Properties**.
+1. Select the placeholder field, and then select **Properties**.
 
 2. Select the **Controls** tab.
 
@@ -49,7 +49,7 @@ After you select the platform where the business card reader should appear (web,
 > ![Form editor binding properties screen](media/form-editor-binding-properties.png "Form editor binding properties screen")
 
 > [!NOTE]
-> The **Company Name** property can't be bound to a column of type **Lookup.Customer**. The only supported type is **SingleLine.Text**. More information: [Add code components to a column or table in model-driven apps](/powerapps/developer/component-framework/add-custom-controls-to-a-field-or-entity)
+> The **Company Name** property can't be bound to a field of type **Lookup.Customer**. The only supported type is **SingleLine.Text**. More information: [Add code components to a column or table in model-driven apps](/powerapps/developer/component-framework/add-custom-controls-to-a-field-or-entity)
 
 ## Key properties
 
