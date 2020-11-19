@@ -18,8 +18,8 @@ ms.reviewer: v-dehaas
 1. Name your flow, select **Manually trigger a flow** under **Choose how to trigger this flow**, and then select **Create**.
 1. Expand **Manually trigger a flow**, select **+Add an input**, select **Text** as the input type, and set as input title **My Text**.
 1. Select **+ New step**, search for the term **AI Builder**, and then select **Translate text into another language** in text in the list of actions.
-1. Select the target language in the **Translate to** input and specify the **My Text** field from the trigger in the **Text** input. 
-1. Optionionally, select the source language in the **Translate from** input after clicking at "Show More" to specify the language of the text in "My Text" field (if you don't specify this input, the model will automatically detect the source language for you).
+1. Select the target language in the **Translate to** input and specify the **My Text** column from the trigger in the **Text** input. 
+1. Optionionally, select the source language in the **Translate from** input after clicking at "Show More" to specify the language of the text in "My Text" column (if you don't specify this input, the model will automatically detect the source language for you).
 
     > [!div class="mx-imgBorder"]
     > ![Trigger text translation flow](media/trigger-text-translation.png "Trigger text translation flow")
@@ -45,7 +45,7 @@ Congratulations! You've created a flow that uses a sentiment analysis model. Sel
 |Name |Description |Values |
 |---------|---------|---------|
 |Text |Translated version of the input text|Text sentences |
-|Detected language |Detected language of the input text if the field "Translated from" wasn't specified |Language code (ex.: "en", "fr", "zh_chs", "ru")|
+|Detected language |Detected language of the input text if the column "Translated from" wasn't specified |Language code (ex.: "en", "fr", "zh_chs", "ru")|
 
 ### Related topic
 

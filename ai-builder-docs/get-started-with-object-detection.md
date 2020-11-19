@@ -56,7 +56,7 @@ If your data isn't in Dataverse, see [Prerequisites](build-model.md#prerequisite
 
 1. Select **Select from database** to see entities in your environment.
 2. In the right-side pane, find the entity that contains your object names. Look through the list, or use the search bar, and then select that entity.
-3. Locate the field that contains the names of your objects. Select that field, and then select **Select Field** at the bottom of the screen.
+3. Locate the column that contains the names of your objects. Select that column and then select **Select Field** at the bottom of the screen.
 4. From the list of strings in your table, select the ones that represent the objects you want to detect. 
 5. Select **Next** at the bottom of the screen.
 

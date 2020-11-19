@@ -55,14 +55,14 @@ The model id can be found in the URL of the model's detail page in Power Apps: *
 
 1. Select **+ New step**, search for **Predict** and select **Predict from AI Builder**. Select **Enter custom value** and enter **Model id** form previous step.
 
-The **Infer request** field value depends on the model type.
+The **Infer request** column value depends on the model type.
 
 ### Form processing model
 
 1. In the step **Manually trigger a flow**, add a **File** input, and set its name to **File Content**.
 1. In the step **Manually trigger a flow**, add a **Text** input, and set its name to **Mime Type**.
 1. In the step **Initialize variable**, enter a form processing model id.
-1. In the step **Predict**, enter following value in the **Infer request** field:
+1. In the step **Predict**, enter following value in the **Infer request** column:
 
     ```json
     {
@@ -88,7 +88,7 @@ The **Infer request** field value depends on the model type.
     > [!div class="mx-imgBorder"]
     > ![Get output from run results](media/DynModelId-3.png "Get output from run results")
 
-1. Go back to your flow in edit mode. Select  **+ New step** and select the **Compose** action (or any other action to process your model output). Let's say your model output has the **Total** field, you can get it with the following formula:
+1. Go back to your flow in edit mode. Select  **+ New step** and select the **Compose** action (or any other action to process your model output). Let's say your model output has the **Total** column, you can get it with the following formula:
 
     ```
     @{outputs('Predict')?['body/responsev2/predictionOutput/labels/Total/value']}
@@ -127,5 +127,3 @@ Similar process with following infer request at step 4:
     }
 }
 ```
- 
- 

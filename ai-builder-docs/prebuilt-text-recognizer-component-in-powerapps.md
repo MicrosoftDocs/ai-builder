@@ -44,7 +44,7 @@ Create a canvas app and add the text recognizer AI Builder component to your scr
 
 - **Text**: Text that appears on the button that activates the text recognizer.
 
-- **ImageDisplayed** (**Show image** in the properties panel): Determines whether the component displays the image. When set to **On**, rectangles are displayed around field values detected in the image.
+- **ImageDisplayed** (**Show image** in the properties panel): Determines whether the component displays the image. When set to **On**, rectangles are displayed around column values detected in the image.
 
 - **DisplayMode**:
 

@@ -16,13 +16,13 @@ ms.reviewer: v-dehaas
 1. Name your flow, select **Manually trigger a flow** under **Choose how to trigger this flow**, and then select **Create**.
 1. Expand **Manually trigger a flow**, select **+Add an input**, select **File** as the input type, and set as input title **My Image**.
 1. Select **+ New step**, search for **AI Builder** in the Search for filters and actions box, and then select **Read business card information** in the list of actions.
-1. Leave **auto** in the **Image type** field as the type can be detected automatically.
-1. Specify the **My Image** field from the trigger in the **Image** input for your flow:
+1. Leave **auto** in the **Image type** column as the type can be detected automatically.
+1. Specify the **My Image** column from the trigger in the **Image** input for your flow:
 
     > [!div class="mx-imgBorder"]
     > ![Specify my image](media/flow-bcr.png "Specify my image")
 
-1. Specify the **My Image** field from the trigger in the image input for your flow.
+1. Specify the **My Image** column from the trigger in the image input for your flow.
 
 Congratulations! You've created a flow that uses the business card reader AI model. Select **Save** in the upper-right corner, and then select **Test** to try out your flow.
 
@@ -38,7 +38,7 @@ The following example shows a new contact being created in Microsoft Dataverse u
 
 |Name |Required |Type |Description |Values |
 |---------|---------|---------|---------|---------|
-|**Image type** |Yes |string |Mime type of the image|"auto" as default value. This field being obsolete, any value will be accepted. |
+|**Image type** |Yes |string |Mime type of the image|"auto" as default value. This column being obsolete, any value will be accepted. |
 |**Image** |Yes |file |Image file to analyze| |
 
 
