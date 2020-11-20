@@ -34,7 +34,7 @@ ms.reviewer: v-dehaas
 
 1. Select **+ New step**, search for *AI Builder*, and then select **Process and save information from receipts** in the list of actions.
 
-1. Specify the *My receipt* field from the trigger in the **Receipt file** input.
+1. Specify the *My receipt* column from the trigger in the **Receipt file** input.
 
 1. In the successive actions, you can use any of the receipt values from the [model output](#output).
 

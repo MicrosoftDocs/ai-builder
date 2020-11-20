@@ -33,7 +33,7 @@ To upload your data:
 1. Sign in to [Power Apps](https://make.powerapps.com/) or [Power Automate](https://flow.microsoft.com/).
 1. In the left pane, select **AI Builder** > **Build**, and then select **Entity Extraction**.
 1. Enter a name for your model, and then select **Create**.
-1. Select the **Common Data Service** entity and the field that contains your data.
+1. Select the **Common Data Service** table and the column that contains your data.
 
 ## Review and refine entities 
 
@@ -45,7 +45,7 @@ You can customize your entity extraction model in these ways:
 
   You need to provide at least five examples to create a new entity type. For example, to create a new entity type named **size**, you can add an example like "The suitcase was {large}." The braces designate that "large" is of entity type **size**.
 
-- Modify an existing entity type. 
+- Modify an existing entity type.
 
   You need to add least five examples to an existing entity type to modify it.
 

@@ -24,7 +24,7 @@ For information about AI Builder requirements that aren't specific to this AI mo
 
 - Your data must be in [Microsoft Dataverse](/powerapps/maker/common-data-service/data-platform-intro).
 - Make sure your administrator has assigned you a security role with Read privilege over your data.
-- You need at least 10 records of historical outcome for each class of the **Label** data field to train a prediction model.
+- You need at least 10 records of historical outcome for each class of the **Label** data column to train a prediction model.
 - The minimum for training is 50 records, but for best results you should have at least 1,000 records.
 
 ## Work with sample data

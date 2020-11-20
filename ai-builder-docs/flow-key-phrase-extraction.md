@@ -16,7 +16,7 @@ ms.reviewer: v-dehaas
 1. Name your flow, select **Manually trigger a flow** under **Choose how to trigger this flow**, and then select **Create**.
 1. Expand **Manually trigger a flow**, select **+Add an input**, select **Text** as the input type, and set as input title **My Text**.
 1. Select **+ New step**, search for the term **AI Builder**, and then select **Extract the key phrases from text** in the list of actions.
-1. Select the language in the Language input and specify the **My Text** field from the trigger in the Text input:
+1. Select the language in the Language input and specify the **My Text** column from the trigger in the Text input:
 
     > [!div class="mx-imgBorder"]
     > ![Specify my text](media/flow-kpe.png "Specify my text")

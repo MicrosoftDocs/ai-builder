@@ -20,7 +20,7 @@ In the **Model settings** pane on the right side of the screen, you can turn on 
 
 > [!IMPORTANT]
 >
-> - Currently, you can only schedule Dataverse runs by using the input entity and field that you used for training. AI Builder creates a destination entity where the model will store the suggested tags and their confidence scores. This destination entity will have an N:1 (many-to-one)relationship with your source/input entity.
+> - Currently, you can only schedule Dataverse runs by using the input entity and column that you used for training. AI Builder creates a destination entity where the model will store the suggested tags and their confidence scores. This destination entity will have an N:1 (many-to-one)relationship with your source/input entity.
 > - AI Builder uses Power Automate to schedule and run tagging on your data. When you publish your model to run on your Dataverse data, this will use Power Automate runs from your subscription.
 
 More information: [Publish your model in AI Builder](publish-model.md)
@@ -29,10 +29,10 @@ More information: [Publish your model in AI Builder](publish-model.md)
 
 The following entity will be created when you publish a model: **TC_{*Model_Name*}**
 
-Tags will be stored in a field called **new_Tags** under this entity.
+Tags will be stored in a column called **new_Tags** under this entity.
 
 > [!NOTE]
-> Due to the character limitation of the field name, if the provided syntax creates text that is over the character limit, AI Builder cuts off the end of the text. This means that the model name might be incomplete or missing. You should choose shorter names so everything is visible.
+> Due to the character limitation of the column name, if the provided syntax creates text that is over the character limit, AI Builder cuts off the end of the text. This means that the model name might be incomplete or missing. You should choose shorter names so everything is visible.
 
 ### Next step
 

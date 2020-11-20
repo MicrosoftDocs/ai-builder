@@ -29,7 +29,7 @@ After each training, AI Builder shows a grade to help you  evaluate your model's
 |A|It might still be possible to improve the model, but this is the best grade you can get. |
 |B|The model is correct in a lot of the cases. Can it be improved? That depends on your unique circumstances, data, and requirements. |
 |C|The model is doing slightly better than a random guess. It might be acceptable for some applications, but in most cases, this is a model that you'd continue to tweak and improve.  |
-|D|Something's wrong. Your model is either performing worse than we'd expect a random guess to perform ([underfit model](manage-model.md#underfit-models)). Or, it's performing so well (at or near 100%) that you've probably got a data field that is directly correlated  to the result ([overfit model](manage-model.md#overfit-models)) .
+|D|Something's wrong. Your model is either performing worse than we'd expect a random guess to perform ([underfit model](manage-model.md#underfit-models)). Or, it's performing so well (at or near 100%) that you've probably got a data column that is directly correlated  to the result ([overfit model](manage-model.md#overfit-models)) .
 
 * More information about [underfit models](manage-model.md#underfit-models)
 * More information about [overfit models](manage-model.md#overfit-models)
@@ -124,9 +124,9 @@ After you've trained and evaluated your model, it's time to tweak your model to 
 
 ### Review top influencers
 
-After each training, a list of top influencers appears on the model details page. Each field used in the training has a score to represent its influence on the training. These scores combine to equal 100 percent.
+After each training, a list of top influencers appears on the model details page. Each column used in the training has a score to represent its influence on the training. These scores combine to equal 100 percent.
 
-This helps show whether your model is trained as you expect. For example, if you want to predict online shoppers' intention and you're expecting Age, Product as the most influential field, you should see that in the most influential field list in model details page. If not, it might indicate that the training result is not as expected. In this case, you can either deselect the irrelevant or misleading fields and retrain the model, or check your training issues to see further details.<!--Edit okay? I wasn't sure what this was saying. -->
+This helps show whether your model is trained as you expect. For example, if you want to predict online shoppers' intention and you're expecting Age, Product as the most influential column, you should see that in the most influential column list in model details page. If not, it might indicate that the training result is not as expected. In this case, you can either deselect the irrelevant or misleading columns and retrain the model, or check your training issues to see further details.
 
 ### Add more data
 
@@ -134,24 +134,24 @@ The minimum requirement for training data is 50 records, but this doesn't mean 5
 
 ### Check your data distribution
 
-For example, if you're using two option labels of *Yes* or *No*, and most of your data records only have *Yes* in this field, it's hard for your model to learn from this data. Try to have a distribution of options in your data that roughly reflects the distribution of the options you might expect to see. For example, if you're looking at data fields for *cat_owner* and *dog_owner*, use a data distribution somewhere around 50&nbsp;percent. If you're looking at fraudulent transactions, use a more imbalanced distribution&mdash;perhaps 95&nbsp;percent to 5&nbsp;percent. Look to industry standards for this type of information if you don't know what to expect.
+For example, if you're using two option labels of *Yes* or *No*, and most of your data records only have *Yes* in this column, it's hard for your model to learn from this data. Try to have a distribution of options in your data that roughly reflects the distribution of the options you might expect to see. For example, if you're looking at data columns for *cat_owner* and *dog_owner*, use a data distribution somewhere around 50&nbsp;percent. If you're looking at fraudulent transactions, use a more imbalanced distribution&mdash;perhaps 95&nbsp;percent to 5&nbsp;percent. Look to industry standards for this type of information if you don't know what to expect.
 
-### Add more fields
+### Add more column
 
-For example, you want to predict which customers are more likely to return and buy your products. You can add more fields to make the training data richer. For example:
+For example, you want to predict which customers are more likely to return and buy your products. You can add more columns to make the training data richer. For example:
 
 - How do they rate the product?
 - How much do they use the product?
 - Are they an existing customer?
 
-### Narrow selected fields to relevant information
+### Narrow selected columns to relevant information
 
-You might already have a lot of correctly labeled training data, with many data fields. Then why might the model still not perform well? It could be that you're selecting fields that lead to unwanted bias. Make sure all the fields you select are relevant to influence what you want to predict. Deselect irrelevant or misleading fields.
+You might already have a lot of correctly labeled training data, with many data columns. Then why might the model still not perform well? It could be that you're selecting columns that lead to unwanted bias. Make sure all the columns you select are relevant to influence what you want to predict. Deselect irrelevant or misleading columns.
 
 ### Validate data
 
-- Make sure the data fields don't have high rate of missing values (greater than 99&nbsp;percent). Populate the missing values with default data or remove the data field from the model training.
-- If a data field has a high correlation with prediction outcome, remove the data field from the model training.
+- Make sure the data columns don't have high rate of missing values (greater than 99&nbsp;percent). Populate the missing values with default data or remove the data column from the model training.
+- If a data column has a high correlation with prediction outcome, remove the data column from the model training.
 
 ### Next step
 

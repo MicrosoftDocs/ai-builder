@@ -17,12 +17,12 @@ ms.reviewer: v-dehaas
 1. Name your flow, select **Manually trigger a flow** under **Choose how to trigger this flow**, and then select **Create**.
 1. Expand **Manually trigger a flow**, select **+Add an input**, select **Text** as the input type, and set as input title **My Text**.
 1. Select **+ New step**, search for **AI Builder** in the Search for filters and actions box, and then select **Classify text into categories with one of your custom models** in the list of actions.
-1.	Select the category classification model you want to use, and in the **Text** field add **My Text** from the trigger.
+1.	Select the category classification model you want to use, and in the **Text** column add **My Text** from the trigger.
 
     > [!div class="mx-imgBorder"]
     > ![Select model content](media/flow-ccc-overview.png "Select model content")
 
-1. In the successive actions, you can use any fields and tables extracted by the AI Builder model. The following example, saves each inferred **Classification** and **Confidence score** into a SharePoint list.
+1. In the successive actions, you can use any columns and tables extracted by the AI Builder model. The following example, saves each inferred **Classification** and **Confidence score** into a SharePoint list.
 
     > [!div class="mx-imgBorder"]
     > ![Category classification flow example](media/flow-ccc-example.png "Category classification flow example")

@@ -18,12 +18,12 @@ ms.reviewer: v-dehaas
 1. Name your flow, select **Manually trigger a flow** under **Choose how to trigger this flow**, and then select **Create**.
 1. Expand **Manually trigger a flow**, select **+Add an input**, select **File** as the input type, and set as input title **My Image**.
 1.	Select **+ New step**, search for **AI Builder** in the Search for filters and actions box, and then select **Detect and count objects in images** in the list of actions.
-1.	Select the object detection model you want to use, and in the **Image** field, specify **My Image** from the trigger:
+1.	Select the object detection model you want to use, and in the **Image** column, specify **My Image** from the trigger:
 
     > [!div class="mx-imgBorder"]
     > ![Specify my image](media/flow-my-image-2.png "Specify my image")
 
-1.	To retrieve the name of the detected object or objects on the image, use the **Detected object name** field.
+1.	To retrieve the name of the detected object or objects on the image, use the **Detected object name** column.
 
 Congratulations! You've created a flow that uses an object detection AI Builder model. Select **Save** in the upper-right corner, and then select **Test** to try out your flow.
 
