@@ -14,15 +14,15 @@ ms.reviewer: v-dehaas
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
 
-The invoice processing prebuilt AI model extracts key invoice data to help automate the processing of invoices. The Invoice processing model is optimized to recognize common invoice elements like invoice id, invoice date, amount due and more.
+The invoice processing prebuilt AI model extracts key invoice data to help automate the processing of invoices. The invoice processing model is optimized to recognize common invoice elements like invoice id, invoice date, amount due and more.
 
 ## Use in Power Apps
 
-For information on how to use the receipt processing prebuilt model in Power Automate, see [Use the receipt processing prebuilt model in Power Automate]().
+For information on how to use the invoice processing prebuilt model in Power Automate, see [Use the invoice processing prebuilt model in Power Apps](prebuilt-invoice-processing-powerapps.md).
 
 ## Use in Power Automate
 
-For information on how to use the invoice processing prebuilt model in Power Automate, see [Use the invoice processing prebuilt model in Power Automate](powerautomate-invoice-processing.md).  
+For information on how to use the invoice processing prebuilt model in Power Automate, see [Use the invoice processing prebuilt model in Power Automate](flow-invoice-processing.md).  
 
 
 ## Supported languages and files
@@ -35,8 +35,6 @@ In order to get the best results, provide one clear photo or scan per invoice.
 - The file size must be less than 20 MB.
 - The image dimensions must be between 50 x 50 pixels and 10000 x 10000 pixels.
 - PDF dimensions must be at most 17 x 17 inches, which is the equivalent of the Legal or A3 paper sizes or smaller.
-
-
 
 ## Model output
 
@@ -109,7 +107,7 @@ The invoice processing prebuilt AI model is designed to extract common fields fo
 - Every time the invoice processing prebuilt AI model processes a file you provide, it also does an OCR operation to extract every word written on the file. You can access the raw OCR results on the detected text output provided by the model. A simple search on the content returned by detected text might be enough to get the data you need.
 - With AI Builder, you can also build your own custom AI model to extract specific fields and tables you need for the documents you work with. Just [create a form processing model](form-processing-model-overview.md) and train it to extract all the information from an invoice that doesn’t work well with the invoice extraction model.
 
-Once you train your custom form processing model you can combine it with the invoice processing prebuilt model in a Power Automate flow. 
+Once you train your custom form processing model you can combine it with the invoice processing prebuilt model in a Power Automate flow.
 
 Here are some examples:
 
