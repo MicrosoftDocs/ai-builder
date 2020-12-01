@@ -100,7 +100,7 @@ If an invoice is detected, the invoice processing model will output the followin
 >[!NOTE]
 >Extraction of line items and invoice tables is currently not supported.
 
-## Build a customized invoice processing model using form processing
+## Create a custom invoice processing solution by using form processing & invoice processing together
 
 The invoice processing prebuilt AI model is designed to extract common fields found in invoices, and that are used in common business processes. But every business is unique, and you might want to extract  fields other than those included automatically in this prebuilt model. It can also be the case that some standard fields are not well extracted for a particular type of invoice you work with. To address this, there are two options:
 
