@@ -204,7 +204,7 @@
       href: business-card-reader-component-in-powerapps.md
     - name: Use in a model-driven app
       href: business-card-reader-component-model-driven.md
-  - name: Use the invoice processor component in Power Apps (preview)
+  - name: Use invoice processing in Power Apps (preview)
     href: prebuilt-invoice-processing-powerapps.md
   - name: Use the receipt processor component in Power Apps (preview)
     href: prebuilt-receipt-processor-component-in-powerapps.md
