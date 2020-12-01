@@ -132,6 +132,8 @@
     href: prebuilt-category-classification.md
   - name: Entity extraction 
     href: prebuilt-entity-extraction.md
+  - name: Invoice processing (preview)
+    href: prebuilt-invoice-processing.md
   - name: Key phrase extraction
     href: prebuilt-key-phrase.md
   - name: Language detection
@@ -168,6 +170,8 @@
       href: prebuilt-category-classification-pwr-automate.md    
     - name: Entity extraction model
       href: prebuilt-entity-extraction-pwr-automate.md
+    - name: Invoice processing model (preview)
+      href: flow-invoice-processing.md
     - name: Key phrase extraction model
       href: flow-key-phrase-extraction.md
     - name: Language detection model
@@ -200,6 +204,8 @@
       href: business-card-reader-component-in-powerapps.md
     - name: Use in a model-driven app
       href: business-card-reader-component-model-driven.md
+  - name: Use the invoice processor component in Power Apps (preview)
+    href: prebuilt-invoice-processing-powerapps.md
   - name: Use the receipt processor component in Power Apps (preview)
     href: prebuilt-receipt-processor-component-in-powerapps.md
   - name: Use the text recognizer component in Power Apps
