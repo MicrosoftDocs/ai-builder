@@ -43,7 +43,7 @@ Currently, there is no invoice processing control available for canvas apps in P
 1. Select **+Create** in the left-side navigation pane.
 1. Select the **Canvas app from blank** tile. Give a name to your app and select either **Tablet** or **Phone** format.
 1. In the app editor, select **Insert** > **Media** > **Add picture** to insert a control intro your app where users can upload a picture from a device or  camera.
-1. Select the **AddMediaButton1**control on the left.  Then on the formula bar on the top, select the **OnSelect** event. 
+1. Select the **AddMediaButton1** control on the left.  Then on the formula bar on the top, select the **OnSelect** event. 
 
 
 1. Select the **Action** menu and select **Power Automate**. Choose the flow that we created in the previous steps. If you don’t see the flow, make sure you are on the same Power Platform environment as where you created the flow, you can check the environment on the top right of the page.
@@ -54,13 +54,16 @@ Currently, there is no invoice processing control available for canvas apps in P
 
    The name of the variables and name of your flow might be different depending on how you configured it when building the flow:
 
-   - *Set(FlowResults, Invoiceprocessingflow.Run(AddMediaButton1.Media));*
-   - *Set(InvoiceId, FlowResults.invoice_id);*
-   - *Set(InvoiceTotal, FlowResults.invoice_total);*
+   > *Set(FlowResults, Invoiceprocessingflow.Run(AddMediaButton1.Media));*
+   >
+   > *Set(InvoiceId, FlowResults.invoice_id);*
+   >
+   > *Set(InvoiceTotal, FlowResults.invoice_total);*
+
    > [!div class="mx-imgBorder"]
    > ![Formula menu](media/canvas-app-formula.png "Enter the formula")
 
-1. . Now let’s add two labels and two text inputs to display the results we will get from the flow. Change the Default property for each text input to take the values from the variables we have defined in the previous step.
+1. Now let’s add two labels and two text inputs to display the results we will get from the flow. Change the Default property for each text input to take the values from the variables we have defined in the previous step.
    > [!div class="mx-imgBorder"]
    > ![Add labels and text inputs](media/canvas-app-add-labels.png "Add two labels and two text inputs")
 
