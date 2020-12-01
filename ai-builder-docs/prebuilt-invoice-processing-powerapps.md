@@ -14,7 +14,7 @@ ms.reviewer: v-dehaas
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
 
-Currently, there is no invoice processing control available for canvas apps in Power Apps. But you can have an app that calls a Power Automate flow that uses the invoice processing prebuilt AI model, and then returns the results back to your app. The following example shows you how you can achieve this:
+Currently, there is no invoice processing control available for canvas apps in Power Apps. But you can create an app that calls a Power Automate flow that uses the invoice processing prebuilt AI model, and then return the results back to your app. The following example shows how to do this:
 
 ## Build your flow
 
