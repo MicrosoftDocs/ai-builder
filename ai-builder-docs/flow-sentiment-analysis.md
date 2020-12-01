@@ -5,14 +5,12 @@ author: joefernandezms
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 11/18/2020
-ms.author: joefernan
+ms.date: 12/01/2020
+ms.author: jofernan
 ms.reviewer: v-dehaas
 ---
 
 # Use the sentiment analysis prebuilt model in Power Automate
-
-[!INCLUDE [cc-data-platform-banner](includes/cc-data-platform-banner.md)]
 
 ## Create a flow that uses the AI Builder sentiment analysis prebuilt model
 
