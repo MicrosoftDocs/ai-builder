@@ -16,9 +16,9 @@ ms.reviewer: v-dehaas
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
 
-1. [Sign in](https://flow.microsoft.com/signin) to Power Automate and select the **My flows** tab.
+1. Sign in to [Power Automate](https://flow.microsoft.com/signin) and select **My flows** in the left-side navigation pane.
 
-1. Select **New**, then select **Instant—from blank**.
+1. Select **New** > **Instant—from blank**.
 
 1. Name your flow, then select **Manually trigger a flow** under **Choose how to trigger this flow**.
 
