@@ -6,8 +6,8 @@ author: joefernandezms
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 11/18/2020
-ms.author: joefernan
+ms.date: 12/01/2020
+ms.author: jofernan
 ms.reviewer: v-dehaas
 ---
 
