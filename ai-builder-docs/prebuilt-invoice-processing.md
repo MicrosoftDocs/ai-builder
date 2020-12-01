@@ -100,12 +100,12 @@ If an invoice is detected, the invoice processing model will output the followin
 >[!NOTE]
 >Extraction of line items and invoice tables is currently not supported.
 
-## Create a custom invoice processing solution by using form processing & invoice processing together
+## Create a custom invoice processing solution
 
 The invoice processing prebuilt AI model is designed to extract common fields found in invoices, and that are used in common business processes. But every business is unique, and you might want to extract  fields other than those included automatically in this prebuilt model. It can also be the case that some standard fields are not well extracted for a particular type of invoice you work with. To address this, there are two options:
 
-- Every time the invoice processing prebuilt AI model processes a file you provide, it also does an OCR operation to extract every word written on the file. You can access the raw OCR results on the detected text output provided by the model. A simple search on the content returned by detected text might be enough to get the data you need.
-- With AI Builder, you can also build your own custom AI model to extract specific fields and tables you need for the documents you work with. Just [create a form processing model](form-processing-model-overview.md) and train it to extract all the information from an invoice that doesn’t work well with the invoice extraction model.
+- **View raw OCR results**: Every time the invoice processing prebuilt AI model processes a file you provide, it also does an OCR operation to extract every word written on the file. You can access the raw OCR results on the detected text output provided by the model. A simple search on the content returned by detected text might be enough to get the data you need.
+- **Use form processing**: With AI Builder, you can also build your own custom AI model to extract specific fields and tables you need for the documents you work with. Just [create a form processing model](form-processing-model-overview.md) and train it to extract all the information from an invoice that doesn’t work well with the invoice extraction model.
 
 Once you train your custom form processing model you can combine it with the invoice processing prebuilt model in a Power Automate flow.
 
