@@ -15,6 +15,7 @@ ms.reviewer: v-dehaas
 AI Builder prebuilt models help you add intelligence to apps and flows without having to gather data and then build, train, and publish your own models. For example, in Power Apps you can add a component based on a prebuilt model that recognizes contact information from business cards. You can use a prebuilt model in Power Automate to analyze whether customer feedback was positive or negative.
 
 Prebuilt models are available in Power Automate and&mdash;depending on the model&mdash; in Power Apps. The following prebuilt models are currently available in AI Builder.
+
 |   Model type  | Availability  |
 | -------- | --------- |
 | [Business card reader](prebuilt-business-card.md)   |   Power Automate and Power Apps     |
