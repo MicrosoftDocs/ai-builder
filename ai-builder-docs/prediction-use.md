@@ -45,9 +45,7 @@ You can set the run or retrain cadence to daily, weekly, or monthly. If you don'
 
 If you make any changes to the AI Builder **Schedule** > **Retrain** settings, the associated flow is replaced with a new one.
 
-## Real-time prediction (preview)
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
+## Real-time prediction
 
 In addition to scheduled prediction inferences, AI Builder supports real-time prediction. Although scheduled prediction on a daily cadence might work for some scenarios, there are times when prediction needs to run in real time. Let's say that your retail company wants to know whether an order will be delivered on time. If the order creation and fulfillment processes occur in a short timeframe, you need the delivery prediction during the fulfillment process. Then you can decide whether to use a faster shipment type. Real-time prediction provides you the information at the time you need it.
 
