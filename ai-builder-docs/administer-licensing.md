@@ -118,6 +118,6 @@ After your AI Builder trial license expires, or if you exceed capacity:
 
 For more information, see [About trial environments](https://docs.microsoft.com/power-platform/admin/trial-environments).
 
-#### Can I block users in my organization from signup up for AI Builder trials?
+#### Can I block users in my organization from signing up up for an AI Builder trial?
 
 Any individual can try out the features of AI Builder for 30 days and incur no costs to your company. This option is available to any user in a tenant and cannot be disabled by an admin.
