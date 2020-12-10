@@ -42,60 +42,60 @@ If an invoice is detected, the invoice processing model will output the followin
 
 |     Property                                        |     Definition                                                                                                      |
 |-----------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-|     Amount due   (text)                             |     Amount due as   it written on the invoice                                                                       |
-|     Amount due   (number)                           |     Amount due in   standardized number format. Example: 1234.98                                                    |
-|     Confidence of   amount due                      |     How   confidence the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).    |
+|     Amount due   (text)                             |     Amount due as written on the invoice                                                                            |
+|     Amount due   (number)                           |     Amount due in standardized number format. Example: 1234.98                                                      |
+|     Confidence of   amount due                      |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).       |
 |     Billing   address                               |     Billing   address                                                                                               |
-|     Confidence of   billing address                 |     How   confidence the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).    |
+|     Confidence of   billing address                 |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).       |
 |     Billing   address recipient                     |     Billing   address recipient                                                                                     |
-|     Confidence of   billing address recipient       |     How   confidence the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).    |
+|     Confidence of   billing address recipient       |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).       |
 |     Customer   address                              |     Customer address                                                                                                |
-|     Confidence of   customer address                |     How   confidence the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).    |
-|     Customer   address recipient                    |     Customer   address recipient                                                                                    |
-|     Confidence of   customer address recipient      |     How confidence   the model is in its prediction. Score between 0 (low confidence) and 1 (high   confidence).    |
+|     Confidence of   customer address                |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).       |
+|     Customer   address recipient                    |     Customer address recipient                                                                                      |
+|     Confidence of   customer address recipient      |     How confident the model is in its prediction. Score between 0 (low confidence) and 1 (high   confidence).       |
 |     Customer ID                                     |     Customer ID                                                                                                     |
-|     Confidence of   customer ID                     |     How   confidence the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).    |
+|     Confidence of   customer ID                     |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).       |
 |     Customer name                                   |     Customer name                                                                                                   |
-|     Confidence of   customer name                   |     How   confidence the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).    |
-|     Due date   (text)                               |     Due date as   written on the invoice                                                                            |
+|     Confidence of   customer name                   |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).       |
+|     Due date   (text)                               |     Due date as written on the invoice                                                                              |
 |     Due date   (date)                               |     Due date in standardized   date format. Example: 2019-05-31T00:00:00Z                                           |
-|     Confidence of   due date                        |     How   confidence the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).    |
+|     Confidence of   due date                        |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).       |
 |     Invoice date   (text)                           |     Invoice date   as written on the invoice                                                                        |
 |     Invoice date   (date)                           |     Invoice date   in standardized date format. Example: 2019-05-31T00:00:00Z                                       |
-|     Confidence of   invoice date                    |     How   confidence the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).    |
+|     Confidence of   invoice date                    |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).       |
 |     Invoice ID                                      |     Invoice ID                                                                                                      |
-|     Confidence of   invoice ID                      |     How   confidence the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).    |
+|     Confidence of   invoice ID                      |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).       |
 |     Invoice total   (text)                          |     Invoice total   as written on the invoice                                                                       |
 |     Invoice total   (number)                        |     Invoice total   in standardized date format. Example: 2019-05-31T00:00:00Z                                      |
-|     Confidence of   invoice total                   |     How   confidence the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).    |
+|     Confidence of   invoice total                   |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).       |
 |     Purchase   order                                |     Purchase   order                                                                                                |
-|     Confidence of   purchase order                  |     How   confidence the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).    |
+|     Confidence of   purchase order                  |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).       |
 |     Remittance   address                            |     Remittance   address                                                                                            |
-|     Confidence of   remittance address              |     How   confidence the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).    |
+|     Confidence of   remittance address              |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).       |
 |     Remittance   address recipient                  |     Remittance   address recipient                                                                                  |
-|     Confidence of   remittance address recipient    |     How   confidence the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).    |
+|     Confidence of   remittance address recipient    |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).       |
 |     Service   address                               |     Service   address                                                                                               |
-|     Confidence of   service address                 |     How   confidence the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).    |
+|     Confidence of   service address                 |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).       |
 |     Service   address recipient                     |     Service   address recipient                                                                                     |
-|     Confidence of   service address recipient       |     How   confidence the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).    |
+|     Confidence of   service address recipient       |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).       |
 |     Shipping   address                              |     Shipping   address                                                                                              |
-|     Confidence of   shipping address                |     How   confidence the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).    |
+|     Confidence of   shipping address                |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).       |
 |     Shipping   address recipient                    |     Shipping   address recipient                                                                                    |
-|     Confidence of   shipping address recipient      |     How   confidence the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).    |
-|     Subtotal   (text)                               |     Subtotal as   it written on the invoice                                                                         |
-|     Subtotal   (number)                             |     Subtotal in   standardized number format. Example: 1234.98                                                      |
-|     Confidence of   subtotal                        |     How   confidence the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).    |
-|     Total tax   (text)                              |     Total tax as   it written on the invoice                                                                        |
-|     Total tax   (number)                            |     Total tax in   standardized number format. Example: 1234.98                                                     |
-|     Confidence of   total tax                       |     How   confidence the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).    |
+|     Confidence of   shipping address recipient      |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).       |
+|     Subtotal   (text)                               |     Subtotal as written on the invoice                                                                              |
+|     Subtotal   (number)                             |     Subtotal in standardized number format. Example: 1234.98                                                        |
+|     Confidence of   subtotal                        |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).       |
+|     Total tax   (text)                              |     Total tax as written on the invoice                                                                             |
+|     Total tax   (number)                            |     Total tax in standardized number format. Example: 1234.98                                                       |
+|     Confidence of   total tax                       |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).       |
 |     Vendor   address                                |     Vendor   address                                                                                                |
-|     Confidence of   vendor address                  |     How   confidence the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).    |
+|     Confidence of   vendor address                  |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).       |
 |     Vendor   address recipient                      |     Vendor   address recipient                                                                                      |
-|     Confidence of   vendor address recipient        |     How   confidence the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).    |
+|     Confidence of   vendor address recipient        |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).       |
 |     Vendor name                                     |     Vendor name                                                                                                     |
-|     Confidence of   vendor name                     |     How   confidence the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).    |
-|     Detected text                                   |     Line of recognized   text from running OCR on an invoice. Returned as a part of a list of text.                 |
-|     Page number   of detected text                  |     Which page   the line of recognized text is found on. Returned as a part of a list of   text.                   |
+|     Confidence of   vendor name                     |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).       |
+|     Detected text                                   |     Line of recognized text from running OCR on an invoice. Returned as a part of a list of text.                   |
+|     Page number   of detected text                  |     Page on which the line of recognized text was found. Returned as a part of a list of text.                      |
 
 >[!NOTE]
 >Extraction of line items and invoice tables is currently not supported.
