@@ -58,15 +58,15 @@ If an invoice is detected, the invoice processing model will output the followin
 |     Customer name                                   |     Customer name                                                                                                   |
 |     Confidence of   customer name                   |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).       |
 |     Due date   (text)                               |     Due date as written on the invoice                                                                              |
-|     Due date   (date)                               |     Due date in standardized   date format. Example: 2019-05-31T00:00:00Z                                           |
+|     Due date   (date)                               |     Due date in standardized   date format. Example: 2019-05-31                                           |
 |     Confidence of   due date                        |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).       |
 |     Invoice date   (text)                           |     Invoice date   as written on the invoice                                                                        |
-|     Invoice date   (date)                           |     Invoice date   in standardized date format. Example: 2019-05-31T00:00:00Z                                       |
+|     Invoice date   (date)                           |     Invoice date   in standardized date format. Example: 2019-05-31                                       |
 |     Confidence of   invoice date                    |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).       |
 |     Invoice ID                                      |     Invoice ID                                                                                                      |
 |     Confidence of   invoice ID                      |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).       |
 |     Invoice total   (text)                          |     Invoice total   as written on the invoice                                                                       |
-|     Invoice total   (number)                        |     Invoice total   in standardized date format. Example: 2019-05-31T00:00:00Z                                      |
+|     Invoice total   (number)                        |     Invoice total   in standardized date format. Example: 2019-05-31                                      |
 |     Confidence of   invoice total                   |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).       |
 |     Purchase   order                                |     Purchase   order                                                                                                |
 |     Confidence of   purchase order                  |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).       |
