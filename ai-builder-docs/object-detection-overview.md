@@ -2,7 +2,7 @@
 title: Overview of the object detection model - AI Builder | Microsoft Docs
 description: Provides an overview of how you can use object detection models in AI Builder to add intelligence to your apps
 author: amina196
-ms.service: powerapps
+ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
 ms.date: 09/06/2019

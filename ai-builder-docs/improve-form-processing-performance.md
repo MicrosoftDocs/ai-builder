@@ -2,7 +2,7 @@
 title: Improve the performance of your form processing model - AI Builder | Microsoft Docs
 description: Provides tips to help you improve form processing model performance in AI Builder.
 author: JoeFernandezMS
-ms.service: powerapps
+ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
 ms.date: 08/12/2019

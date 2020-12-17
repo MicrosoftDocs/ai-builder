@@ -3,7 +3,7 @@ title: Distribute your model - AI Builder | Microsoft Docs
 description: Describes how to distribute your AI Builder model in a packaged solution.
 author: Dean-Haas
 manager: cdbellar
-ms.service: powerapps
+ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
 ms.date: 10/26/2020
