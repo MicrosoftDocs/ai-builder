@@ -2,7 +2,7 @@
 title: Language detection prebuilt AI model - AI Builder | Microsoft Docs
 description: Describes the prebuilt language detection AI Builder model.
 author: alanabrito
-ms.service: powerapps
+ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
 ms.date: 05/11/2020

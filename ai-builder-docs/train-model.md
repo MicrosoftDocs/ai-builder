@@ -2,7 +2,7 @@
 title: Train your AI Builder model - AI Builder| Microsoft Docs
 description: Provides an overview of what it means to train your AI model, and provides steps to do so
 author: Dean-Haas
-ms.service: powerapps
+ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
 ms.date: 09/06/2019

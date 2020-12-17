@@ -2,7 +2,7 @@
 title: Support - AI Builder | Microsoft Docs
 description: Shows where to get help with AI Builder.
 author: Dean-Haas
-ms.service: powerapps
+ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
 ms.date: 10/19/2020

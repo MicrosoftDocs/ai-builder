@@ -2,7 +2,7 @@
 title: AI Builder in SharePoint overview - AI Builder | Microsoft Docs
 description: Provides an overview of how to use your AI models in SharePoint.
 author: paulnog
-ms.service: powerapps
+ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
 ms.date: 11/10/2020

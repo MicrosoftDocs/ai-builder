@@ -2,7 +2,7 @@
 title: Before you build a category classification model - AI Builder | Microsoft Docs
 description: Describes the steps and requirements that you have to consider before you build your model.
 author: paulnog
-ms.service: powerapps
+ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
 ms.date: 11/18/2020

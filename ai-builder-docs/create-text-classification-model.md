@@ -2,7 +2,7 @@
 title: Create a category classification model - AI Builder | Microsoft Docs
 description: Provides step-by-step instructions on how to create a category classification model
 author: paulnog
-ms.service: powerapps
+ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
 ms.date: 11/18/2020

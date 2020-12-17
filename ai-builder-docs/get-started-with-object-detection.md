@@ -2,7 +2,7 @@
 title: Build your object detection model - AI Builder | Microsoft Docs
 description: This topic lays out the first steps you'll perform to build an object detection AI model. 
 author: amina196
-ms.service: powerapps
+ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
 ms.date: 11/06/2020
