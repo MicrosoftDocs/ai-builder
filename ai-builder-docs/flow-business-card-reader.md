@@ -2,7 +2,7 @@
 title: Use the business card reader prebuilt model in Power Automate - AI Builder | Microsoft Docs
 description: Provides information about how to use the AI Builder business card reader prebuilt model in Power Automate
 author: alanabrito
-ms.service: powerapps
+ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
 ms.date: 12/12/2019

@@ -3,7 +3,7 @@ title: Use the invoice processing prebuilt model in Power Automate - AI Builder 
 description: Provides information about how to invoice processing prebuilt model in Power Automate 
 author: JoeFernandezMS
 
-ms.service: powerapps
+ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
 ms.date: 12/01/2020

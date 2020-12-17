@@ -2,7 +2,7 @@
 title: Use the text recognition prebuilt model in Power Automate - AI Builder | Microsoft Docs
 description: Provides information about how to text recognition prebuilt model in Power Automate 
 author: alanabrito
-ms.service: powerapps
+ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
 ms.date: 12/30/2019

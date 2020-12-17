@@ -3,7 +3,7 @@ title: What is AI Builder? - AI Builder | Microsoft Docs
 description: Provides an overview of AI Builder and high-level steps to add intelligence to your apps
 author: Dean-Haas
 
-ms.service: powerapps
+ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
 ms.date: 10/28/2020

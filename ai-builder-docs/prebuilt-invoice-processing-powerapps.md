@@ -2,7 +2,7 @@
 title: Use invoice processing in Power Apps -  AI Builder | Microsoft Docs
 description: Provides information about how to use the invoice processing in Power Apps
 author: JoeFernandezMS
-ms.service: powerapps
+ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
 ms.date: 12/01/2020

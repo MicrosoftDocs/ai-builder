@@ -2,7 +2,7 @@
 title: Sentiment analysis prebuilt AI model - AI Builder | Microsoft Docs
 description: Describes the prebuilt sentiment analysis AI model in AI Builder.
 author: alanabrito
-ms.service: powerapps
+ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
 ms.date: 12/12/2019
