@@ -88,3 +88,10 @@ Perform these steps on each of your AI Builder models to get your AI models up a
 ### Next step
 
 [Publish your model in AI Builder](publish-model.md)
+
+### See also
+
+- [AI Builder community forums](https://go.microsoft.com/fwlink/?linkid=2092048)
+- [Microsoft Dataverse community forums](https://powerusers.microsoft.com/t5/Common-Data-Services/ct-p/PA_CommonDataServices)
+- [Power Apps community forums](https://powerusers.microsoft.com/t5/AI-Builder/bd-p/AIBuilder1)
+- [Power Automate community forums](https://powerusers.microsoft.com/t5/AI-Builder/bd-p/AIBuilder)

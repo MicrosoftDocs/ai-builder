@@ -36,7 +36,7 @@ Using AI is easy thanks to integration with Power Apps and Power Automate. Addin
 Getting started with AI Builder is easy thanks to the learning resources and information that we've made available:
 
 - [AI Builder learning paths and modules](https://aka.ms/learn-aib)
-- [AI Builder community](https://go.microsoft.com/fwlink/?linkid=2092048)
+- [AI Builder community forums](https://go.microsoft.com/fwlink/?linkid=2092048)
 - [AI Builder hands-on labs](https://go.microsoft.com/fwlink/?linkid=2103171)
 - [Work with sample data](samples.md)
 - [AI Builder licensing](administer-licensing.md)
@@ -65,6 +65,8 @@ For information about license capacity, pricing, and restrictions:
 
 ### See also
 
-[AI Builder release plan](https://docs.microsoft.com/power-platform-release-plan/2020wave2/ai-builder/planned-features)  
-[Power Apps docs](https://docs.microsoft.com/powerapps/)  
-[Power Automate docs](https://docs.microsoft.com/power-automate)
+- [AI Builder release plan](https://docs.microsoft.com/power-platform-release-plan/2020wave2/ai-builder/planned-features)  
+- [Power Apps docs](https://docs.microsoft.com/powerapps/)  
+- [Power Automate docs](https://docs.microsoft.com/power-automate)
+- [Power Apps community forums](https://powerusers.microsoft.com/t5/AI-Builder/bd-p/AIBuilder1)
+- [Power Automate community forums](https://powerusers.microsoft.com/t5/AI-Builder/bd-p/AIBuilder) 

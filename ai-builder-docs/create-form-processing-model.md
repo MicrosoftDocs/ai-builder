@@ -119,5 +119,7 @@ If you have created multiple collections, tag all documents across all the colle
 
 ### See also
 
-[Use a form processing model in Power Automate](form-processing-model-in-flow.md)  
-[Use the form processor component in Power Apps](form-processor-component-in-powerapps.md)
+- [Use a form processing model in Power Automate](form-processing-model-in-flow.md)  
+- [Use the form processor component in Power Apps](form-processor-component-in-powerapps.md)
+- [Power Apps community forums](https://powerusers.microsoft.com/t5/AI-Builder/bd-p/AIBuilder1)
+- [Power Automate community forums](https://powerusers.microsoft.com/t5/AI-Builder/bd-p/AIBuilder)

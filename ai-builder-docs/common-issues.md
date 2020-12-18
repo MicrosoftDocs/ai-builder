@@ -85,4 +85,11 @@ If you get the error message **_“Training failed and the model cannot be used�
 
 The **_“The current environment doesn't meet the minimum requirements”_** error message occurs when the Microsoft Dataverse database in the environment where you are creating your model doesn't have the latest updates installed. To solve this, create a support request in the Power Platform admin center to request that the latest AI Builder updates be installed in your Dataverse database.
 
-Alternatively, you can [create a new Power Platform environment with a database](https://docs.microsoft.com/power-platform/admin/create-environment#create-an-environment-with-a-database), which will have the latest updates. 
+Alternatively, you can [create a new Power Platform environment with a database](https://docs.microsoft.com/power-platform/admin/create-environment#create-an-environment-with-a-database), which will have the latest updates.
+
+### See also
+
+- [AI Builder community forums](https://go.microsoft.com/fwlink/?linkid=2092048)
+- [Microsoft Dataverse community forums](https://powerusers.microsoft.com/t5/Common-Data-Services/ct-p/PA_CommonDataServices)
+- [Power Apps community forums](https://powerusers.microsoft.com/t5/AI-Builder/bd-p/AIBuilder1)
+- [Power Automate community forums](https://powerusers.microsoft.com/t5/AI-Builder/bd-p/AIBuilder)

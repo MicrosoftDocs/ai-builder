@@ -19,7 +19,7 @@ AI Builder reports errors and issues on the model details page. These messages a
 ## Errors
 
 When an error occurs, you can't continue until you resolve it. Here are some error messages that might occur:
-<!--Suggest using full HTML. Some strings dropped out of these messages in the published version! I think it was just too complex for markdown.-->
+
 - *The model needs at least **\<ThresholdValue>** records to train. **\<EntityName>** has only **\<ActualValue>** records. Add data or select another entity.*
 
     If you only have 50 records or less, you can't train the model. Ideally, you should have at least 1,000 records.
@@ -48,7 +48,13 @@ These messages don't prevent you from continuing to train and publish your model
 
     For best results, populate data for the data fields that have a high rate of missing values.
 
-<!--Can you do something about the grammar of this message? It needs to be passive voice. I'm not sure whether the model or the data is suspected of causing the target leak, but a model can't actually suspect anything.-->
 - ***\<EntityName>.\<AttributeName>** has **\<ThresholdValue>** percent correlation **\<CorrelationName>** with **\<OutcomeAttributeName>** and model might suspect to cause target leak.*
 
     Data fields that have a high correlation with the outcome of a prediction are dropped in model training.
+
+## See also
+
+- [AI Builder community forums](https://go.microsoft.com/fwlink/?linkid=2092048)
+- [Microsoft Dataverse community forums](https://powerusers.microsoft.com/t5/Common-Data-Services/ct-p/PA_CommonDataServices)
+- [Power Apps community forums](https://powerusers.microsoft.com/t5/AI-Builder/bd-p/AIBuilder1)
+- [Power Automate community forums](https://powerusers.microsoft.com/t5/AI-Builder/bd-p/AIBuilder)

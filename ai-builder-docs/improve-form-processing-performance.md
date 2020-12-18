@@ -28,3 +28,10 @@ The more documents you tag, the more AI Builder will learn how to better recogni
 - Use forms with different values in each field.
 - If your form images are of lower quality, use a larger data set (10-15 images, for example).
 - When you create a form processing model, upload documents with the same layout where each document is a separate instance. For example, invoices from different months should be in separate documents and not all in the same one.
+
+### See also
+
+- [AI Builder community forums](https://go.microsoft.com/fwlink/?linkid=2092048)
+- [Microsoft Dataverse community forums](https://powerusers.microsoft.com/t5/Common-Data-Services/ct-p/PA_CommonDataServices)
+- [Power Apps community forums](https://powerusers.microsoft.com/t5/AI-Builder/bd-p/AIBuilder1)
+- [Power Automate community forums](https://powerusers.microsoft.com/t5/AI-Builder/bd-p/AIBuilder)
