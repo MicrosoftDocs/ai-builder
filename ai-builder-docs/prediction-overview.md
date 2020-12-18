@@ -12,7 +12,7 @@ ms.reviewer: v-dehaas
 
 # Overview of the prediction model
 
-AI Builder prediction models analyze patterns in your historical data that you provide.  Prediction models learn to associate those patterns with outcomes. Then, we use the power of AI to detect learned patterns in new data, and use them to predict future outcomes.
+AI Builder prediction models analyze patterns in historical data that you provide. Prediction models learn to associate those patterns with outcomes. Then, we use the power of AI to detect learned patterns in new data, and use them to predict future outcomes.
 
 Use the prediction model to explore business questions that can be answered as one the following ways:
 
@@ -44,7 +44,6 @@ Numerical prediction is when the question is answered with a number. Examples of
 - How many calls should an agent handle in a day?
 - How many items do we need to keep in inventory?
 - How many leads should a sales team convert in a month?
-
 
 ### See also
 
