@@ -5,14 +5,14 @@ author: JoeFernandezMS
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 08/12/2019
+ms.date: 12/18/2020
 ms.author: jofernan
 ms.reviewer: v-dehaas
 ---
 
 # Improve the performance of your form processing model
 
-If your model performance isn't where you want it to be, for example you're getting bad results or low confidence scores, there are a few things you can try. 
+If your model performance isn't where you want it to be, for example you're getting bad results or low confidence scores, there are a few things you can try.
 
 ## Add more documents to the training data
 
