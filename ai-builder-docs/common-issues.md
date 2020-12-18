@@ -5,7 +5,7 @@ author: paulnog
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 11/18/2020
+ms.date: 12/18/2020
 ms.author: paulnog
 ms.reviewer: v-dehaas
 ---
@@ -78,6 +78,7 @@ If you get the error message **_“Fields could not be loaded for this document�
 ## Training failed and the model cannot be used error in Form processing
 
 If you get the error message **_“Training failed and the model cannot be used”_** error in form processing after you have trained your form processing model, this can be caused by:
+
 * A temporary error. You can retry by retraining your model again by selecting **Edit model**.
 * The documents that you uploaded for training don’t meet the [Form-processing model requirements](https://docs.microsoft.com/ai-builder/form-processing-model-requirements).
 
@@ -89,7 +90,4 @@ Alternatively, you can [create a new Power Platform environment with a database]
 
 ### See also
 
-- [AI Builder community forums](https://go.microsoft.com/fwlink/?linkid=2092048)
-- [Microsoft Dataverse community forums](https://powerusers.microsoft.com/t5/Common-Data-Services/ct-p/PA_CommonDataServices)
-- [Power Apps community forums](https://powerusers.microsoft.com/t5/AI-Builder/bd-p/AIBuilder1)
-- [Power Automate community forums](https://powerusers.microsoft.com/t5/AI-Builder/bd-p/AIBuilder)
+- [Get support for AI Builder](support.md)
