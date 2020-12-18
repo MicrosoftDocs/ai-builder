@@ -6,7 +6,7 @@ ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
 ms.date: 04/24/2020
-ms.author: tatn
+ms.author: norliu
 ms.reviewer: v-dehaas
 ---
 
