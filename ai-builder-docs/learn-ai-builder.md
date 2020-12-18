@@ -29,3 +29,7 @@ The zip file that contains the hands-on labs includes the following folders and 
 - Lab scripts
 - AIBuilderLabSolution_1_0_0_0.zip
 - ProcessFeedback_Flow.zip
+
+### See also
+
+[Work with sample data](samples.md)

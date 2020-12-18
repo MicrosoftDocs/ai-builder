@@ -5,8 +5,8 @@ author: Dean-Haas
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 01/03/2020
-ms.author: tatn
+ms.date: 12/18/2020
+ms.author: norliu
 ms.reviewer: v-dehaas
 ---
 
@@ -34,3 +34,7 @@ To help you get started quickly with prediction, AI Builder provides sample data
 ### Next step
 
 [Data preparation](prediction-data-prep.md)
+
+### See also
+
+[AI model prerequisites](build-model.md#prerequisites)

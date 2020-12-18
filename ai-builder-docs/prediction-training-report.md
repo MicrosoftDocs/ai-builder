@@ -1,11 +1,11 @@
 ---
 title: Training errors and issues - AI Builder | Microsoft Docs
 description: Describes the errors and issues that appear on the AI Builder prediction model details page
-author: Dean-Haas
+author: norliu
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 11/06/2020
+ms.date: 12/18/2020
 ms.author: norliu
 ms.reviewer: v-dehaas
 ---
@@ -19,7 +19,7 @@ AI Builder reports errors and issues on the model details page. These messages a
 ## Errors
 
 When an error occurs, you can't continue until you resolve it. Here are some error messages that might occur:
-<!--Suggest using full HTML. Some strings dropped out of these messages in the published version! I think it was just too complex for markdown.-->
+
 - *The model needs at least **\<ThresholdValue>** records to train. **\<EntityName>** has only **\<ActualValue>** records. Add data or select another entity.*
 
     If you only have 50 records or less, you can't train the model. Ideally, you should have at least 1,000 records.
@@ -34,7 +34,7 @@ When an error occurs, you can't continue until you resolve it. Here are some err
 
 ## Issues
 
-These messages don't prevent you from continuing to train and publish your model; instead, they show you issues that might cause your model to underperform.
+These messages don't prevent you from continuing to train and publish your model; instead, they show you issues that might cause your model to under perform.
 
 - *The model might produce better performance with optimum records of **\<ThresholdValue>** or more to train the model. **\<EntityName>** has **\<ActualValue>** records. Add data for better model performance.*
 
@@ -48,7 +48,10 @@ These messages don't prevent you from continuing to train and publish your model
 
     For best results, populate data for the data fields that have a high rate of missing values.
 
-<!--Can you do something about the grammar of this message? It needs to be passive voice. I'm not sure whether the model or the data is suspected of causing the target leak, but a model can't actually suspect anything.-->
 - ***\<EntityName>.\<AttributeName>** has **\<ThresholdValue>** percent correlation **\<CorrelationName>** with **\<OutcomeAttributeName>** and model might suspect to cause target leak.*
 
     Data fields that have a high correlation with the outcome of a prediction are dropped in model training.
+
+## See also
+
+[Common issues and resolutions for AI Builder](common-issues.md)
