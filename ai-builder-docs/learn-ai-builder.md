@@ -32,7 +32,4 @@ The zip file that contains the hands-on labs includes the following folders and 
 
 ### See also
 
-- [AI Builder community forums](https://go.microsoft.com/fwlink/?linkid=2092048)
-- [Microsoft Dataverse community forums](https://powerusers.microsoft.com/t5/Common-Data-Services/ct-p/PA_CommonDataServices)
-- [Power Apps community forums](https://powerusers.microsoft.com/t5/AI-Builder/bd-p/AIBuilder1)
-- [Power Automate community forums](https://powerusers.microsoft.com/t5/AI-Builder/bd-p/AIBuilder) 
+[Work with sample data](samples.md)

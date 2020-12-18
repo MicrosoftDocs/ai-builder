@@ -1,12 +1,12 @@
 ---
 title: Add text-based AI models in Power Apps using formulas (preview) - AI Builder | Microsoft Docs
 description: Provides information about how to use formulas to add text AI models (preview).
-author: nijemcevic
+author: norliu
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/24/2020
-ms.author: tatn
+ms.date: 12/18/2020
+ms.author: norliu
 ms.reviewer: v-dehaas
 ---
 

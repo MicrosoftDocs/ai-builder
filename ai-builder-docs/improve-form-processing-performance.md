@@ -31,7 +31,5 @@ The more documents you tag, the more AI Builder will learn how to better recogni
 
 ### See also
 
-- [AI Builder community forums](https://go.microsoft.com/fwlink/?linkid=2092048)
-- [Microsoft Dataverse community forums](https://powerusers.microsoft.com/t5/Common-Data-Services/ct-p/PA_CommonDataServices)
-- [Power Apps community forums](https://powerusers.microsoft.com/t5/AI-Builder/bd-p/AIBuilder1)
-- [Power Automate community forums](https://powerusers.microsoft.com/t5/AI-Builder/bd-p/AIBuilder)
+- [Invoice processing prebuilt model](prebuilt-invoice-processing.md)
+- [Receipt processing prebuilt model](prebuilt-receipt-processing.md)
