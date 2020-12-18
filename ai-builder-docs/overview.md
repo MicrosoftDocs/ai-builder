@@ -1,13 +1,13 @@
 ---
 title: What is AI Builder? - AI Builder | Microsoft Docs
 description: Provides an overview of AI Builder and high-level steps to add intelligence to your apps
-author: Dean-Haas
+author: paulnog
 
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/28/2020
-ms.author: cdbellar
+ms.date: 12/18/2020
+ms.author: paulnog
 ms.reviewer: v-dehaas
 ---
 
@@ -62,11 +62,3 @@ For information about license capacity, pricing, and restrictions:
 ### Next step
 
 [Learn about AI model types](model-types.md)
-
-### See also
-
-- [AI Builder release plan](https://docs.microsoft.com/power-platform-release-plan/2020wave2/ai-builder/planned-features)  
-- [Power Apps docs](https://docs.microsoft.com/powerapps/)  
-- [Power Automate docs](https://docs.microsoft.com/power-automate)
-- [Power Apps community forums](https://powerusers.microsoft.com/t5/AI-Builder/bd-p/AIBuilder1)
-- [Power Automate community forums](https://powerusers.microsoft.com/t5/AI-Builder/bd-p/AIBuilder) 

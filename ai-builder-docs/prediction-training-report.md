@@ -1,11 +1,11 @@
 ---
 title: Training errors and issues - AI Builder | Microsoft Docs
 description: Describes the errors and issues that appear on the AI Builder prediction model details page
-author: Dean-Haas
+author: norliu
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 11/06/2020
+ms.date: 12/18/2020
 ms.author: norliu
 ms.reviewer: v-dehaas
 ---
@@ -34,7 +34,7 @@ When an error occurs, you can't continue until you resolve it. Here are some err
 
 ## Issues
 
-These messages don't prevent you from continuing to train and publish your model; instead, they show you issues that might cause your model to underperform.
+These messages don't prevent you from continuing to train and publish your model; instead, they show you issues that might cause your model to under perform.
 
 - *The model might produce better performance with optimum records of **\<ThresholdValue>** or more to train the model. **\<EntityName>** has **\<ActualValue>** records. Add data for better model performance.*
 
@@ -54,7 +54,4 @@ These messages don't prevent you from continuing to train and publish your model
 
 ## See also
 
-- [AI Builder community forums](https://go.microsoft.com/fwlink/?linkid=2092048)
-- [Microsoft Dataverse community forums](https://powerusers.microsoft.com/t5/Common-Data-Services/ct-p/PA_CommonDataServices)
-- [Power Apps community forums](https://powerusers.microsoft.com/t5/AI-Builder/bd-p/AIBuilder1)
-- [Power Automate community forums](https://powerusers.microsoft.com/t5/AI-Builder/bd-p/AIBuilder)
+[Common issues and resolutions for AI Builder](common-issues.md)
