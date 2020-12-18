@@ -5,7 +5,7 @@ author: norliu
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/11/2020
+ms.date: 12/18/2020
 ms.author: norliu
 ms.reviewer: v-dehaas
 ---
