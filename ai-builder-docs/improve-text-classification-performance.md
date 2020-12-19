@@ -1,12 +1,12 @@
 ---
 title: Improve the performance of the category classification model - AI Builder | Microsoft Docs
 description: Provides tips to help you improve the performance of the category classification model in AI Builder.
-author: raaourik 
+author: norliu
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/31/2019
-ms.author: raaourik 
+ms.date: 12/18/2020
+ms.author: norliu
 ms.reviewer: v-dehaas
 ---
 
@@ -29,4 +29,4 @@ The more correctly labeled training data you have, the better your model will pe
 
 ### See also
 
-[Publish your model in AI Builder](publish-model.md)
+[Category classification prebuilt model](prebuilt-category-classification.md)

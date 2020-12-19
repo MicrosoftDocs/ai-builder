@@ -116,8 +116,3 @@ If you have created multiple collections, tag all documents across all the colle
 ### Next step
 
 [Train and publish your form processing model](form-processing-train.md)
-
-### See also
-
-[Use a form processing model in Power Automate](form-processing-model-in-flow.md)  
-[Use the form processor component in Power Apps](form-processor-component-in-powerapps.md)
