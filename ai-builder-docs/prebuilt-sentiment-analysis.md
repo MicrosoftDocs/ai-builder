@@ -60,3 +60,11 @@ If text is detected, the sentiment analysis model outputs the following informat
     - Mixed
 
   - **SentenceScores**: Value in the range from 0 through 1<!--as above-->. Values close to 1 indicate greater confidence that the sentiment is accurate.
+
+## Limits
+
+The following applies to calls made per environment across the following prebuilt models: language detection, sentiment analysis, and key phrase extraction.
+
+**Action**|**Limit**|**Renewal Period**
+:-----:|:-----:|:-----:
+Calls (per environment)|400|60 seconds

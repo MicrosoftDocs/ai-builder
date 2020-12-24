@@ -45,3 +45,11 @@ If text is detected, the key phrase extraction model outputs the following infor
 
 - **Results**: A list of phrases from the document
 - **Phrase**: Strings denoting the key talking points in the document text
+
+## Limits
+
+The following applies to calls made per environment across the following prebuilt models: language detection, sentiment analysis, and key phrase extraction.
+
+**Action**|**Limit**|**Renewal Period**
+:-----:|:-----:|:-----:
+Calls (per environment)|400|60 seconds

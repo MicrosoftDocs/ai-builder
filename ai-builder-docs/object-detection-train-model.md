@@ -39,7 +39,13 @@ Model performance scores are more reliable when you have more than 50 images per
 
 ## Publish your object detection model
 
-From here<!--Edit okay? I didn't see what "there" meant.-->, you can run more tests with other pictures. If you're happy with the results, you can [publish](publish-model.md) your model to use it in Power Apps or Power Automate.
+From here, you can run more tests with other pictures. If you're happy with the results, you can [publish](publish-model.md) your model to use it in Power Apps or Power Automate.
+
+## Limits
+
+**Action**|**Limit**|**Renewal Period**
+:-----:|:-----:|:-----:
+Object detection calls (per environment)|4800|60 seconds
 
 ### See also
 
