@@ -43,9 +43,9 @@ After you've published your form-processing model, you can use it in a [Power Ap
 
 The following applies to calls made per environment across form processing models including prebuilt models: receipt processing and invoice processing.
 
-**Action**|**Limit**|**Renewal Period**
-:-----:|:-----:|:-----:
-Calls (per environment)|360|60 seconds
+|**Action**|**Limit**|**Renewal period**|
+|:-----|:-----|-----:|
+|Calls (per environment)|360|60 seconds|
 
 ### See also
 
