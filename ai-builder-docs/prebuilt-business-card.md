@@ -72,3 +72,9 @@ If a business card is detected, the business card model will try to locate and e
 | **MobilePhone**| The second phone or fax number|
 | **OriginalImage**| The original image before processing|
 | **Website**| The website|
+
+## Limits
+
+|**Action**|**Limit**|**Renewal period**|
+|:-----|:-----|-----:|
+|Business card reader calls (per environment)|24|60 seconds|
