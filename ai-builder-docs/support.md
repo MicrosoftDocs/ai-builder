@@ -5,8 +5,8 @@ author: Dean-Haas
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/19/2020
-ms.author: joshrenn
+ms.date: 01/05/2021
+ms.author: paulnog
 ms.reviewer: v-dehaas
 ---
 
@@ -18,10 +18,8 @@ You can get support for AI Builder on the AI Builder community forums. Features 
 
 Check Microsoft community forums to see if other users have posted a solution that might help you.
 
-- [AI Builder community forums](https://go.microsoft.com/fwlink/?linkid=2092048)
-- [Microsoft Dataverse community forums](https://powerusers.microsoft.com/t5/Common-Data-Services/ct-p/PA_CommonDataServices)
-- [Power Apps community forums](https://powerusers.microsoft.com/t5/AI-Builder/bd-p/AIBuilder1)
-- [Power Automate community forums](https://powerusers.microsoft.com/t5/AI-Builder/bd-p/AIBuilder)
+- [AI Builder in Power Apps community forum](https://go.microsoft.com/fwlink/?linkid=2092048)
+- [AI Builder in Power Automate community forum](https://powerusers.microsoft.com/t5/AI-Builder/bd-p/AIBuilder)
 
 ## Microsoft support
 
@@ -34,3 +32,8 @@ For more information about the Microsoft Power Platform **Help + Support** exper
 
  > [!NOTE]
  > You can't create a new support request to get support from Microsoft for preview features. Go to the  [AI Builder community forums](https://go.microsoft.com/fwlink/?linkid=2092048) to get help with any issue that's related to a preview feature.
+
+## See also
+
+- [Microsoft Dataverse in Power Apps community forum](https://powerusers.microsoft.com/t5/Microsoft-Dataverse/bd-p/CDS_Apps)
+- [Connect To Data in Power Automate community forum](https://powerusers.microsoft.com/t5/Connecting-To-Data/bd-p/ConnectingToData)
