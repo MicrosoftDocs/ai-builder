@@ -43,3 +43,9 @@ If a document is detected, the text recognition model outputs the following info
 - **Results**: A list of lines extracted from the input text.
 - **Text**: Strings containing the line of text detected.
 - **BoundingBox**: Four values representing the bounding box, described by using the top and left<!--What does "top and left" mean here?--> positions along with its width and height.
+
+## Limits
+
+|**Action**|**Limit**|**Renewal period**|
+|:-----|:-----|-----:|
+|Text recognition calls (per environment)|480|60 seconds|
