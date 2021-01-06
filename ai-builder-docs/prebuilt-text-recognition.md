@@ -46,6 +46,6 @@ If a document is detected, the text recognition model outputs the following info
 
 ## Limits
 
-**Action**|**Limit**|**Renewal Period**
-:-----:|:-----:|:-----:
-Text recognition calls (per environment)|480|60 seconds
+|**Action**|**Limit**|**Renewal period**|
+|:-----|:-----|-----:|
+|Text recognition calls (per environment)|480|60 seconds|

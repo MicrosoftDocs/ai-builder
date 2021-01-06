@@ -43,9 +43,9 @@ From here, you can run more tests with other pictures. If you're happy with the 
 
 ## Limits
 
-**Action**|**Limit**|**Renewal Period**
-:-----:|:-----:|:-----:
-Object detection calls (per environment)|4800|60 seconds
+|**Action**|**Limit**|**Renewal period**|
+|:-----|:-----|-----:|
+|Object detection calls (per environment)|4800|60 seconds|
 
 ### See also
 

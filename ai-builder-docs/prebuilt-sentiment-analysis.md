@@ -65,6 +65,6 @@ If text is detected, the sentiment analysis model outputs the following informat
 
 The following applies to calls made per environment across the following prebuilt models: language detection, sentiment analysis, and key phrase extraction.
 
-**Action**|**Limit**|**Renewal Period**
-:-----:|:-----:|:-----:
-Calls (per environment)|400|60 seconds
+|**Action**|**Limit**|**Renewal period**|
+|:-----|:-----|-----:|
+|Calls (per environment)|400|60 seconds|

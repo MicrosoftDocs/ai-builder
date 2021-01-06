@@ -75,6 +75,6 @@ If a business card is detected, the business card model will try to locate and e
 
 ## Limits
 
-**Action**|**Limit**|**Renewal Period**
-:-----:|:-----:|:-----:
-Business card reader calls (per environment)|24|60 seconds
+|**Action**|**Limit**|**Renewal period**|
+|:-----|:-----|-----:|
+|Business card reader calls (per environment)|24|60 seconds|

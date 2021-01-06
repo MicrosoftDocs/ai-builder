@@ -104,9 +104,9 @@ If an invoice is detected, the invoice processing model will output the followin
 
 The following applies to calls made per environment across form processing models including prebuilt models: receipt processing and invoice processing.
 
-**Action**|**Limit**|**Renewal Period**
-:-----:|:-----:|:-----:
-Calls (per environment)|360|60 seconds
+|**Action**|**Limit**|**Renewal period**|
+|:-----|:-----|-----:|
+|Calls (per environment)|360|60 seconds|
 
 ## Create a custom invoice processing solution
 
