@@ -1,6 +1,6 @@
 ---
 title: Use invoice processing in Power Apps -  AI Builder | Microsoft Docs
-description: Provides information about how to use the invoice processing in Power Apps
+description: Provides information about how to use AI Builder invoice processing in Power Apps.
 author: JoeFernandezMS
 ms.service: aibuilder
 ms.topic: conceptual
@@ -39,7 +39,7 @@ Currently, there is no invoice processing control available for canvas apps in P
 ## Build your canvas app
 
 1. Sign in to [Power Apps](https://make.powerapps.com/). 
-1. Make sure you are on the same Power Platform environment where you created the flow on the top right of the page. 
+1. Make sure you are on the same Microsoft Power Platform environment where you created the flow on the top right of the page. 
 1. Select **+Create** in the left-side navigation pane.
 1. Select the **Canvas app from blank** tile. Give a name to your app and select either **Tablet** or **Phone** format.
 1. In the app editor, select **Insert** > **Media** > **Add picture** to insert a control intro your app where users can upload a picture from a device or  camera.

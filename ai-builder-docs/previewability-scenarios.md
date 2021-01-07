@@ -20,7 +20,7 @@ AI Builder is released and is generally available. But, some of its features are
 
 ## Block preview scenarios
 
-The environment administrator can decide to hide accesses to preview features. In the Power Platform admin center under **Settings** > **Features**, a toggle switch lets the admin<!--Edit okay? This seems to be an admin's prerogative.--> specify whether preview features are displayed.
+The environment administrator can decide to hide accesses to preview features. In the Microsoft Power Platform admin center, under **Settings** > **Features**, a toggle switch lets the admin<!--Edit okay? This seems to be an admin's prerogative.--> specify whether preview features are displayed.
 
 ## FAQ
 
