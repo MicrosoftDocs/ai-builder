@@ -52,6 +52,25 @@ ms.reviewer: v-dehaas
 
 ## Common use cases
 
+### Iterate a form processing table output in Power Automate 
+
+To illustrate this procedure, we use the following example where we have trained a form processing model to extract a table that we have named **Items** with three columns: **Quantity**, **Description** and **Total**. We wish to store each line item from the table into an excel file. 
+
+> [!div class="mx-imgBorder"]
+> ![Table extracted by form processing](media/form-processing-table-example.png "Example of a table extracted by a form processing model.")
+
+1. Click on the field you wish to write the cell for a table, the dynamic content panel will open showing everything that the form processing model knows how to extract. Search for **{your table name} {you column name} value**. In our example from above it’s *Items Quantity value*.
+
+> [!div class="mx-imgBorder"]
+> !['Process and save information from forms' screen](media/form-processing-iterate-table-1.png "Select a column from an extracted table to add to a flow.")
+
+2. Once you add this value, the action where you added it is automatically inserted into an **Apply to each** control. This way, every row in the table will be processed when the flow is run.
+
+3. Keep adding any additional columns you want to iterate. 
+
+> [!div class="mx-imgBorder"]
+> !['Add a row into a table' card](media/form-processing-iterate-table-2.png "A flow that iterates over a table extracted by a form processing model.")
+
 ### Remove currency symbols (€, $,…) in a form processing output in Power Automate
 
 Let’s imagine that the *Total* value extracted by the form processing model has a currency symbol, for example: $54. To remove the *$* sign, or any other symbols you want to omit, use the [replace](https://docs.microsoft.com/azure/logic-apps/workflow-definition-language-functions-reference#replace) expression to remove it. Here is how to do it:
@@ -59,7 +78,7 @@ Let’s imagine that the *Total* value extracted by the form processing model ha
 `replace(<form processing output>, '$', '')`
 
 > [!div class="mx-imgBorder"]
-> !['Add expression' animation](media/form-processing-remove-currency.gif "Add the expression above into the input field of an action in your flow. Remember to replace the first parameter of the expression by the form processing output you want to remove the currency symbol.")
+> !['Add *replace* expression' to remove currency symbol animation](media/form-processing-remove-currency.gif "Add the expression above into the input field of an action in your flow. Remember to replace the first parameter of the expression by the form processing output you want to remove the currency symbol.")
 
 ### Convert a form processing output string to a number in Power Automate
 
@@ -77,7 +96,7 @@ To remove blank spaces from output values, use the [replace](https://docs.micros
 `replace(<form processing output>, ' ', '')`
 
 > [!div class="mx-imgBorder"]
-> !['Add expression' animation](media/form-processing-remove-spaces.gif "Add the expression above into the input field of an action in your flow. Remember to replace the first parameter of the expression by the form processing output you want to remove blank spaces.")
+> !['Add *replace* expression' to remove blank spaces animation ](media/form-processing-remove-spaces.gif "Add the expression above into the input field of an action in your flow. Remember to replace the first parameter of the expression by the form processing output you want to remove blank spaces.")
 
 ### Convert a form processing output string to a date in Power Automate
 
@@ -86,7 +105,7 @@ AI Builder form processing returns all outputs as strings. If the destination wh
 `formatDateTime(<form processing output>)`
 
 > [!div class="mx-imgBorder"]
-> !['Add expression' animation](media/form-processing-convert-date.gif "Add the expression above into the input field of an action in your flow. Remember to replace the first parameter of the expression by the form processing output you want to convert to date.")
+> !['Add *replace* expression' to convert to date animation](media/form-processing-convert-date.gif "Add the expression above into the input field of an action in your flow. Remember to replace the first parameter of the expression by the form processing output you want to convert to date.")
 
 ### Filter email signature from a flow so that is is not processed by the form processing model (Office 365 Outlook)
 
