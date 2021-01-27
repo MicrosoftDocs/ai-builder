@@ -25,9 +25,9 @@ Power Automate will orchestrate the overall process while AI Builder will bring 
 
 You can access the [document automation toolkit](https://flow.microsoft.com) in Power Automate. 
 
-### Learn more
+## Learn about the toolkit
 
-Step-by-step instructions on how to install the document automation kit can be found in the [Microsoft Learn module](https://docs.microsoft.com/learn/modules/get-started-ai-builder-document-automation/)
+Step-by-step instructions on how to install and use the document automation kit can be found here: [Microsoft Learn: Get started with AI Builder document automation](https://docs.microsoft.com/learn/modules/get-started-ai-builder-document-automation/).
 
 ### See also
 
