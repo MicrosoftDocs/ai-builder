@@ -8,6 +8,8 @@
       href: learn-ai-builder.md
     - name: Sample data
       href: samples.md
+  - name: Document automation toolkit
+    href: doc-automation.md
   - name: AI Builder community
     href: share-your-experience.md
 - name: AI models
