@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 11/18/2020
 ms.author: paulnog
-ms.reviewer: v-dehaas
+ms.reviewer: kvivek
 ---
 
 # Before you build a category classification model

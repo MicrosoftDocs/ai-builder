@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 10/29/2020
 ms.author: joshrenn
-ms.reviewer: v-dehaas
+ms.reviewer: kvivek
 ---
 
 # AI models and business scenarios

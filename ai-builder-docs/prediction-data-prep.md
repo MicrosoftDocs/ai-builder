@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 11/06/2020
 ms.author: norliu
-ms.reviewer: v-dehaas
+ms.reviewer: kvivek
 ---
 
 # Data preparation

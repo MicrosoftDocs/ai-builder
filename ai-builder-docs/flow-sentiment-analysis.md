@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 12/01/2020
 ms.author: jofernan
-ms.reviewer: v-dehaas
+ms.reviewer: kvivek
 ---
 
 # Use the sentiment analysis prebuilt model in Power Automate

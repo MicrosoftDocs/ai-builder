@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 09/06/2019
 ms.author: aminab
-ms.reviewer: v-dehaas
+ms.reviewer: kvivek
 ---
 
 # Overview of the object detection model

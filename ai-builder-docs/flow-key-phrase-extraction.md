@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 03/10/2020
 ms.author: alanab
-ms.reviewer: v-dehaas
+ms.reviewer: kvivek
 ---
 
 # Use the key phrase extraction prebuilt model in Power Automate

@@ -7,8 +7,8 @@ ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
 ms.date: 12/12/2019
-ms.author: v-dehaas
-ms.reviewer: v-dehaas
+ms.author: kvivek
+ms.reviewer: kvivek
 ---
 
 # Use the object detection model in Power Automate

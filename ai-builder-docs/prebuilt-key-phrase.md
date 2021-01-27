@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 05/11/2020
 ms.author: alanab
-ms.reviewer: v-dehaas
+ms.reviewer: kvivek
 ---
 
 # Key phrase extraction model

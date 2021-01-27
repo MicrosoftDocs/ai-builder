@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 03/10/2020
 ms.author: raaourik 
-ms.reviewer: v-dehaas
+ms.reviewer: kvivek
 ---
 
 # Overview of the category classification custom model

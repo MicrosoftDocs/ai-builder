@@ -6,8 +6,8 @@ ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
 ms.date: 11/06/2020
-ms.author: v-dehaas
-ms.reviewer: v-dehaas
+ms.author: kvivek
+ms.reviewer: kvivek
 ---
 
 # Publish your category classification model

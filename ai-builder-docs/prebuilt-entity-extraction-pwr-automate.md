@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 3/19/2019
 ms.author: mfotedar
-ms.reviewer: v-dehaas
+ms.reviewer: kvivek
 ---
 
 # Use the entity extraction prebuilt model in Power Automate
