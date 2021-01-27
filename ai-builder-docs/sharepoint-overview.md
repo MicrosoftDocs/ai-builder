@@ -12,7 +12,9 @@ ms.reviewer: kvivek
 
 # AI Builder in SharePoint
 
-SharePoint Syntex integration with  AI Builder and Power Automate allows you to create and use AI Builder form processing models directly from your SharePoint document library, and to automate the processing of forms. For more information about requirements and step by step instructions to use this feature, see [Create a form processing model in Microsoft SharePoint Syntex](/microsoft-365/contentunderstanding/create-a-form-processing-model)
+SharePoint Syntex integration with  AI Builder and Power Automate allows you to create and use AI Builder form processing models directly from your SharePoint document library, and to automate the processing of forms. 
+
+For information about requirements and step by step instructions to use this feature, see [Create a form processing model in Microsoft SharePoint Syntex](/microsoft-365/contentunderstanding/create-a-form-processing-model) in the SharePoint documentation.
 
 ### See also
 
