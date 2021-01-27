@@ -12,9 +12,7 @@
     - name: Labs
       href: learn-ai-builder.md
     - name: Sample data
-      href: samples.md
-  - name: Document automation toolkit
-    href: doc-automation.md
+      href: samples.md  
   - name: AI Builder community
     href: share-your-experience.md
     displayName: forums; support; help
@@ -214,6 +212,8 @@
     href: prebuilt-text-recognizer-component-in-powerapps.md
 - name: Use AI Builder in SharePoint
   href: sharepoint-overview.md
+- name: Use document automation toolkit
+  href: doc-automation.md
 - name: Administration and security
   items:
   - name: Administer AI Builder
