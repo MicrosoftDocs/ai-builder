@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 04/13/2020
 ms.author: rajvirk
-ms.reviewer: v-dehaas
+ms.reviewer: kvivek
 ---
 
 # Use a prediction model in Power Automate

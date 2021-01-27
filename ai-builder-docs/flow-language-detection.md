@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 11/10/2020
 ms.author: jofernan
-ms.reviewer: v-dehaas
+ms.reviewer: kvivek
 ---
 
 # Use the language detection prebuilt model in Power Automate

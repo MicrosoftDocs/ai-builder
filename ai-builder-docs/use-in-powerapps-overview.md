@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 09/30/2019
 ms.author: mustlaz
-ms.reviewer: v-dehaas
+ms.reviewer: kvivek
 ---
 
 # AI Builder in Power Apps overview

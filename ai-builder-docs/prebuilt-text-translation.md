@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 08/31/2020
 ms.author: alanab
-ms.reviewer: v-dehaas
+ms.reviewer: kvivek
 ---
 
 # Text translation model

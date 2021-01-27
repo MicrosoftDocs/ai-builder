@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 12/12/2019
 ms.author: alanab
-ms.reviewer: v-dehaas
+ms.reviewer: kvivek
 ---
 
 # Use the business card reader prebuilt model in Power Automate

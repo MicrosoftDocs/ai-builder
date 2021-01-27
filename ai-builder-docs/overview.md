@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 12/18/2020
 ms.author: paulnog
-ms.reviewer: v-dehaas
+ms.reviewer: kvivek
 ---
 
 # What is AI Builder?

@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 09/06/2019
 ms.author: raaourik 
-ms.reviewer: v-dehaas
+ms.reviewer: kvivek
 ---
 
 # Train your category classification model

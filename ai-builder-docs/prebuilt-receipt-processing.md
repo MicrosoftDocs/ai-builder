@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 05/20/2020
 ms.author: joshrenn
-ms.reviewer: v-dehaas
+ms.reviewer: kvivek
 ---
 
 # Receipt processing model (preview)

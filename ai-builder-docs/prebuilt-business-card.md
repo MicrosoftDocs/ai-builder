@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 09/29/2020
 ms.author: alanab
-ms.reviewer: v-dehaas
+ms.reviewer: kvivek
 ---
 
 # Business card model

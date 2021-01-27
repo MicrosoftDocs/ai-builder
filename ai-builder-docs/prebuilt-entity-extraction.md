@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 05/11/2020
 ms.author: mfotedar
-ms.reviewer: v-dehaas
+ms.reviewer: kvivek
 ---
 
 # Entity extraction prebuilt model 

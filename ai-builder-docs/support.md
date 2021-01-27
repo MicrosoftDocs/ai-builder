@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 01/05/2021
 ms.author: paulnog
-ms.reviewer: v-dehaas
+ms.reviewer: kvivek
 ---
 
 # Get support for AI Builder

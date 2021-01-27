@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 12/23/2019
 ms.author: antode
-ms.reviewer: v-dehaas
+ms.reviewer: kvivek
 ---
 
 # Administer AI Builder

@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 12/18/2020
 ms.author: norliu
-ms.reviewer: v-dehaas
+ms.reviewer: kvivek
 ---
 
 # Prediction model prerequisites

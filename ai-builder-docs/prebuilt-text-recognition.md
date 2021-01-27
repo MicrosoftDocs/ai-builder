@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 10/04/2019
 ms.author: alanab
-ms.reviewer: v-dehaas
+ms.reviewer: kvivek
 ---
 
 # Text recognition model
