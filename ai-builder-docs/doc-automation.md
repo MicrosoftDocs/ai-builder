@@ -13,7 +13,7 @@ ms.reviewer: kvivek
 
 # Document automation toolkit
 
-The Document automation toolkit allows you to easily set up a rich and robust document processing solution using Power Automate, AI Builder, Power Apps and Microsoft Dataverse.
+The Document automation toolkit allows you to easily set up a rich and robust document processing solution using Power Automate, AI Builder, Power Apps, and Microsoft Dataverse.
 
 > [!div class="mx-imgBorder"]
 > ![process diagram](media/doc-automation.png "Diagram showing the stages of document automation")
