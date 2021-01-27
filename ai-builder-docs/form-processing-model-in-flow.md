@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 08/11/2020
 ms.author: jofernan
-ms.reviewer: v-dehaas
+ms.reviewer: kvivek
 ---
 
 # Use a form-processing model in Power Automate

@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 10/25/2020
 ms.author: cdbellar
-ms.reviewer: v-dehaas
+ms.reviewer: kvivek
 ---
 
 # AI Builder consumption report

@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 07/23/2020
 ms.author: antrod
-ms.reviewer: v-dehaas
+ms.reviewer: kvivek
 ---
 
 # Use the predict action in Power Automate

@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 10/26/2020
 ms.author: antode
-ms.reviewer: v-dehaas
+ms.reviewer: kvivek
 ---
 
 # Distribute your AI model

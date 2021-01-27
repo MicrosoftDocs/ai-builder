@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 11/10/2020
 ms.author: paulnog
-ms.reviewer: v-dehaas
+ms.reviewer: kvivek
 ---
 
 # AI Builder in SharePoint

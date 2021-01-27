@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 01/03/2020
 ms.author: norliu
-ms.reviewer: v-dehaas
+ms.reviewer: kvivek
 ---
 
 # Overview of the prediction model

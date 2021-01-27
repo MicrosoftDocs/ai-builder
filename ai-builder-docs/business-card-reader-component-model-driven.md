@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 12/02/2020
 ms.author: jofernan
-ms.reviewer: v-dehaas
+ms.reviewer: kvivek
 ---
 
 # Use the business card reader component in model-driven apps

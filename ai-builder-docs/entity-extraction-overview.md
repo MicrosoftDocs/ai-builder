@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 04/08/2020
 ms.author: mfotedar
-ms.reviewer: v-dehaas
+ms.reviewer: kvivek
 ---
 
 # Overview of the entity extraction custom model (preview)

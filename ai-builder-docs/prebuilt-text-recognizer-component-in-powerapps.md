@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 12/19/2019
 ms.author: paulnog
-ms.reviewer: v-dehaas
+ms.reviewer: kvivek
 ---
 
 # Use the text recognizer component in Power Apps

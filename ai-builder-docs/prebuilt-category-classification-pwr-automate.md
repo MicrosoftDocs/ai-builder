@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 04/24/2020
 ms.author: norliu
-ms.reviewer: v-dehaas
+ms.reviewer: kvivek
 ---
 
 # Use the category classification prebuilt model in Power Automate
