@@ -5,7 +5,7 @@ author: Antoine2F
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 11/06/2020
+ms.date: 01/29/2021
 ms.author: antode
 ms.reviewer: kvivek
 ---
@@ -70,13 +70,13 @@ Reassign this model to another user. _Reassign_ means changing ownership in the 
 
 To change the ownership of a model:
 
-1.	Navigate to the [Power Platform Admin Center](https://admin.powerplatform.microsoft.com/).
-2. Select the environment where the model you want to change ownership is located and click on **Settings**, then **Resources** and lastly **All legacy settings**.
-3. Click on **Advanced Find** on the top right of the page.
+1.	Sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
+2. Select the environment where the model you want to change ownership is located and select **Settings** > **Resources** > **All legacy settings**.
+3. Select **Advanced Find** on the top right corner.
     > [!div class="mx-imgBorder"]
     > ![Advanced Find](media/change-model-ownership-advanced-find.png "Advanced Find")
     
-4.	Select **AI Models** on the **Look for** dropdown and then click on **Results**.
+4.	From the **Look for** list, select **AI Models**, and then select **Results**.
     > [!div class="mx-imgBorder"]
     > ![List AI Models](media/change-model-ownership-settings.png "List AI Models")
 
