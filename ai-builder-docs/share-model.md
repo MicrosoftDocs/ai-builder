@@ -68,6 +68,21 @@ Yes. In the advanced settings of your organization, an admin has to select your 
 
 Reassign this model to another user. _Reassign_ means changing ownership in the advanced settings of your organization in AI Builder. You also need to give access to the data used to train the model.
 
+To change the ownership of a model:
+
+1.	Navigate to the [Power Platform Admin Center](https://admin.powerplatform.microsoft.com/).
+2. Select the environment where the model you want to change ownership is located and click on **Settings**, then **Resources** and lastly **All legacy settings**.
+3. Click on **Advanced Find** on the top right of the page.
+    > [!div class="mx-imgBorder"]
+    > ![Advanced Find](media/change-model-ownership-advanced-find.png "Advanced Find")
+    
+4.	Select **AI Models** on the dropdown and then click on **Results**.
+    > [!div class="mx-imgBorder"]
+    > ![List AI Models](media/change-model-ownership-settings.png "List AI Models")
+
+5. You will get a list of all the AI models in the environment. Select the one you wish to reassign and click on **Assing AI Models**. A window will open where you can change the owner of the model.
+
+
 ### Can I disable the sharing feature for AI model makers and only allow admins to do it?
 
 Yes. In advanced settings of your organization, an admin must create a security role where the share privilege is disabled for the **AI Model** custom entity. Assign this role to AI model makers.
