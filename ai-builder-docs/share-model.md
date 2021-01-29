@@ -76,7 +76,7 @@ To change the ownership of a model:
     > [!div class="mx-imgBorder"]
     > ![Advanced Find](media/change-model-ownership-advanced-find.png "Advanced Find")
     
-4.	Select **AI Models** on the dropdown and then click on **Results**.
+4.	Select **AI Models** on the **Look for** dropdown and then click on **Results**.
     > [!div class="mx-imgBorder"]
     > ![List AI Models](media/change-model-ownership-settings.png "List AI Models")
 
