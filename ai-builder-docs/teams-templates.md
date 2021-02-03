@@ -29,9 +29,10 @@ You can use Power Automate templates in Teams that solve a specific business pur
 
 ## AI Builder templates list
 
-# Track YouTube activity
+### Track YouTube activity
 
 **Full name**
+
 Track YouTube activity on a search query and add results in Teams
 
 **Parameters**
