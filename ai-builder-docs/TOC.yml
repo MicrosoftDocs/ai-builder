@@ -186,6 +186,8 @@
       href: flow-text-translation.md
   - name: Use predict action in Power Automate
     href: predict-action-pwr-automate.md
+  - name: Use AI Builder templates in Teams
+    href: teams-templates.md
 - name: Use AI Builder in Power Apps
   items:
   - name: Overview
