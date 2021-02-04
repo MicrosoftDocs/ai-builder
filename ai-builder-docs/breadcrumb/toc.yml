@@ -1,3 +1,11 @@
 - name: Docs
-  tocHref: /
+  href: /
   topicHref: /
+  items:
+  - name: Power Platform
+    href: /power-platform/
+    topicHref: /power-platform/
+    items:
+    - name: AI Builder
+      tocHref: /ai-builder/
+      topicHref: /ai-builder/

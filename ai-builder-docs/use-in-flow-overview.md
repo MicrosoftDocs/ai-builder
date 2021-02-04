@@ -1,28 +1,48 @@
 ---
-title: AI Builder in Microsoft Flow overview -  AI Builder | Microsoft Docs
-description: Provides an overview of how to create automated flows by using AI Builder in Microsoft Flow.
-author: Dean-Haas
-manager: kvivek
-ms.service: powerapps
+title: AI Builder in Power Automate overview - AI Builder | Microsoft Docs
+description: Provides an overview of how to create automated flows by using AI Builder in Power Automate.
+author: JoeFernandezMS
+ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/04/2019
-ms.author: v-dehaas
+ms.date: 11/03/2020
+ms.author: jofernan
 ms.reviewer: kvivek
 ---
 
-# AI Builder in Microsoft Flow overview
+# AI Builder in Power Automate overview
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
+Power Automate is a service that helps you create automated workflows between your favorite apps and services to synchronize files, get notifications, collect data, and more. More information: [Power Automate docs](https://docs.microsoft.com/power-automate) 
 
-Microsoft Flow is a service that helps you create automated workflows between your favorite apps and services to synchronize files, get notifications, collect data, and more. Find more information about Microsoft Flow [here](/flow/getting-started). 
+## Prebuilt AI models you can use in Power Automate right away
 
-You can use your published AI models, as well as some AI Builder prebuilt models in Microsoft Flow.
+* [Business card reader model](flow-business-card-reader.md)
+* [Category classification model](prebuilt-category-classification-pwr-automate.md)
+* [Entity extraction model](prebuilt-entity-extraction-pwr-automate.md)
+* [Key phrase extraction model](flow-key-phrase-extraction.md)
+* [Language detection model](flow-language-detection.md)
+* [Receipt processing model (preview)](flow-receipt-processing.md)
+* [Sentiment analysis model](flow-sentiment-analysis.md)
+* [Text recognition model](flow-text-recognition.md)
+* [Text translation model ](flow-text-translation.md)
+
+## Custom AI models that you build and train:
+
+* [Category classification model](text-classification-model-in-flow.md)
+* [Entity extraction model](entity-extraction-pwr-automate.md)
+* [Form processing model](form-processing-model-in-flow.md)
+* [Object detection model](object-detection-model-in-flow.md)
+* [Prediction model](prediction-pwr-automate.md)
+
+## Predict action
+
+You can use the predict action in Power Automate with many different model types: [Use the predict action in Power Automate](predict-action-pwr-automate.md)
 
 ### Next step
 
 [Prerequisites](use-in-flow-prereq.md)
 
-### Related topic
+### See also
 
-[AI Builder in PowerApps](use-in-powerapps-overview.md)
+[Feature availability by region](availability-region.md)  
+[AI Builder in Power Apps overview](use-in-powerapps-overview.md)

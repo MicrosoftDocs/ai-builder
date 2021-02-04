@@ -1,34 +1,42 @@
 ---
-title: Use model to generate tags -  AI Builder | Microsoft Docs
-description: Provides information about how to use text classification model–generated tags, and some troubleshooting information
+title: Use a model to generate tags - AI Builder | Microsoft Docs
+description: Provides information about how to use category classification model–generated tags, and some troubleshooting information
 author: raaourik 
-manager: kvivek
-ms.service: powerapps
+ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/06/2019
+ms.date: 11/06/2020
 ms.author: raaourik 
-ms.reviewer: v-dehaas
+ms.reviewer: kvivek
 ---
 
-# Use model to generate tags
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
+# Use a category classification model to generate tags
 
-## Microsoft Flow
+[!INCLUDE [cc-data-platform-banner](includes/cc-data-platform-banner.md)]
 
-If you want to use your trained model in Microsoft Flow, you can find more information in [Use text classification model in Microsoft Flow](text-classification-model-in-flow.md).
+## Use in Power Automate
 
-## Set run schedule on Common Data Service
+If you want to use your trained model in Power Automate, see [Use a category classification custom model in Power Automate](text-classification-model-in-flow.md).
 
-You can set the run schedule by navigating to the **Run** view in the **Model settings** panel. You can configure your model to run on your database to predict tags by choosing the following option:
+<a name="set-run-schedule-on-common-data-service"></a>
 
-**Generate predictions when new data is added**
+## Set a run schedule on Microsoft Dataverse (preview)
 
-Your model runs once on all existing data in your text entity, and then again whenever a new record is added to that entity.
+[!INCLUDE [cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
 
+Go to the **Run** view in the **Model settings** panel to set the run schedule. To configure your model to run on your database and generate predictions, select **Generate predictions when new data is added**.
 
-## What if the model is not writing new tag suggestions?
+Your model runs whenever a new record is added to its entity.
 
-- Check that you didn’t exceed the number of runs for your Microsoft Flow subscription.
-- Turn off the Common Data Service run setting, and then turn it back on.
+> [!NOTE]
+>You can’t set run schedule for imported category classification models.
+
+## Use in Power Apps
+
+You can integrate your AI Builder category classification models in Power Apps Studio by using the formula bar. More information: [Use formulas for text AI models](use-model.md#use-formulas-for-text-ai-models)
+
+## What if the model isn't writing new tag suggestions?
+
+- Check that you didn't exceed the number of runs for your Power Automate subscription.
+- Turn off the Dataverse run setting, and then turn it back on.

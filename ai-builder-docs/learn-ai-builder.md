@@ -1,26 +1,35 @@
 ---
-title: AI Builder labs| Microsoft Docs
+title: AI Builder labs - AI Builder | Microsoft Docs
 description: Provides information about resources to help you learn more about AI Builder 
 author: Dean-Haas
-manager: kvivek
-ms.service: powerapps
+ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/05/2019
-ms.author: npouhaer; mfotedar
-ms.reviewer: v-dehaas
+ms.date: 11/02/2020
+ms.author: paulnog
+ms.reviewer: kvivek
 ---
 
 # AI Builder labs
 
-This page contains links to resources that you can use to gain experience with AI Builder and to learn more about it. Links are added here as new resources become available.
+Use AI Builder labs to gain experience with AI Builder and learn more about it. Links are added here as new resources become available.
 
-AI Builder [hands-on-labs](https://go.microsoft.com/fwlink/?linkid=2103171)  walk through object detection, prediction, text classification, form processing & business card reader scenarios in AI Builder.
+AI Builder [hands-on labs](https://go.microsoft.com/fwlink/?linkid=2103171) walk through these features:
 
-The [hands-on-lab](https://go.microsoft.com/fwlink/?linkid=2103171) is contained in a zip file that contains the following folders and zip files:
+- Object detection
+- Prediction
+- Category classification
+- Form processing
+- Business card reader
+
+The zip file that contains the hands-on labs includes the following folders and zip files:
+
 - Lab data
 - Lab images
 - Lab scripts
 - AIBuilderLabSolution_1_0_0_0.zip
 - ProcessFeedback_Flow.zip
 
+### See also
+
+[Work with sample data](samples.md)

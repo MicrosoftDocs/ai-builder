@@ -1,26 +1,35 @@
 ---
-title: Overview of prebuilt AI models -  AI Builder | Microsoft Docs
+title: Overview of prebuilt AI models - AI Builder | Microsoft Docs
 description: Describes the prebuilt AI models that are available in AI Builder.
-author: alanabrito
-manager: kvivek
-ms.service: powerapps
+author: paulnog
+ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/04/2019
-ms.author: alanab
-ms.reviewer: v-dehaas
+ms.date: 11/18/2020
+ms.author: paulnog
+ms.reviewer: kvivek
 ---
 
 # Overview of prebuilt AI models
 
-AI Builder includes a set of prebuilt models that allow to add intelligence to your apps and flows without having to gather data, build, and train your models. For example, you can add a component in PowerApps based on prebuilt model that recognizes contact information from business cards, or use  a prebuilt model in Flow to analyze whether customer feedback was positive or negative.
+AI Builder prebuilt models help you add intelligence to apps and flows without having to gather data and then build, train, and publish your own models. For example, in Power Apps you can add a component based on a prebuilt model that recognizes contact information from business cards. You can use a prebuilt model in Power Automate to analyze whether customer feedback was positive or negative.
 
-The prebuilt models are available in Microsoft Flow and/or PowerApps, depending on the model. The following prebuilt models are currently available in AI Builder:
+Prebuilt models are available in Power Automate and&mdash;depending on the model&mdash; in Power Apps. The following prebuilt models are currently available in AI Builder.
 
-|Model |Availability  |
-|---------|---------|
-|Business card reader   |    Microsoft Flow and Power Apps     |
-|Key phrase extraction  |     Microsoft Flow    |
-|Language detection  |     Microsoft Flow    |
-|Text recognition      |     Microsoft Flow and Power Apps    |
-|Sentiment analysis     |     Microsoft Flow    |
+|   Model type  | Availability  |
+| -------- | --------- |
+| [Business card reader](prebuilt-business-card.md)   |   Power Automate and Power Apps     |
+| [Category classification](prebuilt-category-classification.md) | Power Automate and Power Apps |
+| [Entity extraction](prebuilt-entity-extraction.md)    |    Power Automate    |
+|[Key phrase extraction](prebuilt-key-phrase.md)  |    Power Automate    |
+|[Language detection](prebuilt-language-detection.md)  |    Power Automate    |
+|[Receipt processing](prebuilt-receipt-processing.md)   |   Power Automate and Power Apps     |
+|[Sentiment analysis ](prebuilt-sentiment-analysis.md)    |    Power Automate    |
+|[Text recognition ](prebuilt-text-recognition.md)    |    Power Automate and Power Apps     |
+|[Text translation ](prebuilt-text-translation.md)    |    Power Automate    |
+
+### See also
+
+[AI Builder in Power Automate overview](use-in-flow-overview.md)  
+[AI Builder in Power Apps overview](use-in-powerapps-overview.md)  
+[Feature availability by region](availability-region.md)
