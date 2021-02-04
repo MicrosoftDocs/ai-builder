@@ -79,6 +79,10 @@ Sometimes the AI model incorrectly learns characteristics that your images have 
 
 To correct this, use the above guidance on training with more varied images: provide images with different angles, backgrounds, object size, groups, and other variants.
 
+## Need help collecting images?
+
+You can leverage [Project Trove](https://www.microsoft.com/en-us/ai/trove?activetab=pivot1:primaryr3) to gather images for your projects. Project Trove is an app that connects you directly with photo takers, allowing you to collect more relevant and accurate photos. Using Trove, you can post your project descriptions, outline the types of photos you are looking for, and only approve the photos that you want. Trove provides licensing and privacy frameworks, so you can collect high quality data responsibly and safely. You can sign up for Trove [here](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR26BnXQJjdxKoQHFv2BPxAVUQUZSQU9MNDkxUFdFMDNLSklVRU9BVEo1Qi4u).
+
 ### Next step
 
 [Get started](get-started-with-object-detection.md) with object detection.
