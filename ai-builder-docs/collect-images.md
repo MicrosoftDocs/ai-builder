@@ -2,16 +2,13 @@
 title: Collect images -  AI Builder | Microsoft Docs
 description: Provides guidance on how to effectively collect images to build an object detection model in AI Builder.
 author: amina196
-manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/06/2019
+ms.date: 02/04/2021
 ms.author: aminab
-ms.reviewer: v-dehaas
+ms.reviewer: kvivek
 ---
-
-
 
 # Collect images
 
@@ -78,6 +75,12 @@ Sometimes the AI model incorrectly learns characteristics that your images have 
 > ![Unexpected results](media/image-unexpected-results.png "Unexpected results")
 
 To correct this, use the above guidance on training with more varied images: provide images with different angles, backgrounds, object size, groups, and other variants.
+
+## Need help collecting images?
+
+You can leverage [Trove](https://www.microsoft.com/ai/trove?activetab=pivot1:primaryr3) to gather images for your projects. Trove is an app that connects you directly with photo takers, allowing you to collect more relevant and accurate photos. Using Trove, you can post your project descriptions, outline the types of photos you are looking for, and only approve the photos that you want. Trove provides licensing and privacy frameworks, so you can collect high quality data responsibly and safely. 
+
+You can sign up for Trove [here](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR26BnXQJjdxKoQHFv2BPxAVUQUZSQU9MNDkxUFdFMDNLSklVRU9BVEo1Qi4u).
 
 ### Next step
 
