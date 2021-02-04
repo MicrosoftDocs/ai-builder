@@ -37,12 +37,24 @@ Track YouTube activity on a search query and add results in Teams
 
 **Parameters**
 - YouTube search query to apply
-- Team id and channel in whcih the results will be sent
+- Team and channel in whcih the results will be sent
 
 **Description**
 - Get newly posted YouTube videos that correspond to your search query
 - Apply AI Builder sentiment analysis and text translation on the videos' descriptions
 - Post a message in Teams for each new video returned by the query with the video title, video link, description sentiment, description language, description original text and description translated text (english only for now)
 
-Add image to illustrate
+
+### Process receipts
+
+**Full name**
+
+Process receipts received in Teams and add results in Excel
+
+**Parameters**
+- Team and channel in whcih the receipts are sent
+- Excel file parameters: a file containing a table with specific columns in required. You can download a sample here and point at this your online storage.
+
+**Description**
+
 
