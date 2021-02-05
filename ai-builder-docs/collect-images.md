@@ -79,7 +79,7 @@ To correct this, use the above guidance on training with more varied images: pro
 
 You can use [Trove](https://www.microsoft.com/ai/trove?activetab=pivot1:primaryr3) to gather images for your projects. Trove is an app that connects you directly with photo takers, allowing you to collect more relevant and accurate photos. Using Trove, you can post your project descriptions, outline the types of photos you are looking for, and only approve the photos that you want. Trove provides licensing and privacy frameworks, so you can collect high quality data responsibly and safely. 
 
-You can sign up for Trove [here](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR26BnXQJjdxKoQHFv2BPxAVUQUZSQU9MNDkxUFdFMDNLSklVRU9BVEo1Qi4u).
+You can sign up for Trove [here](http://aka.ms/t-aib).
 
 ### Next step
 
