@@ -50,3 +50,6 @@ Congratulations! You've created a flow that uses a sentiment analysis model. Sel
 ### Related topic
 
 [Text translation overview](prebuilt-text-translation.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -46,3 +46,6 @@ You can use the predict action in Power Automate with many different model types
 
 [Feature availability by region](availability-region.md)  
 [AI Builder in Power Apps overview](use-in-powerapps-overview.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

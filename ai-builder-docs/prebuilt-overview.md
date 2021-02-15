@@ -33,3 +33,6 @@ Prebuilt models are available in Power Automate and&mdash;depending on the model
 [AI Builder in Power Automate overview](use-in-flow-overview.md)  
 [AI Builder in Power Apps overview](use-in-powerapps-overview.md)  
 [Feature availability by region](availability-region.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

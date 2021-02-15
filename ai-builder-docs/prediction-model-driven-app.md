@@ -38,3 +38,6 @@ This topic takes you through the process of creating a model-driven app that can
     > ![Model-driven app complete screen](media/model-driven-app-scr.png "Model-driven app complete screen")
 
 Congratulations, you've created your first model-driven app that uses an AI Builder prediction model.
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

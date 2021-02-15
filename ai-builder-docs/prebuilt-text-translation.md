@@ -30,3 +30,6 @@ If text is detected and the target language defined, the text translation model 
 
 - **Text**:  Strings containing the translated text
 - **Detected language**: Script version of the language code (ex.: "en", "fr", "zh_chs", "ru") detected in the source text. The model will not detect the source language if it was specified by the user.
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

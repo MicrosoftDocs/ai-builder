@@ -26,3 +26,6 @@ After you train and [publish](publish-model.md) your model, you can use it in a 
 
 [Feature availability by region](availability-region.md)  
 [AI model types](model-types.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

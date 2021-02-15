@@ -37,3 +37,6 @@ Tags will be stored in a column called **new_Tags** under this entity.
 ### Next step
 
 [View predictions](text-classification-view-predictions.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

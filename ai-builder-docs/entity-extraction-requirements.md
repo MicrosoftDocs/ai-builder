@@ -28,3 +28,6 @@ ms.reviewer: kvivek
 ### Next step
 
 [Create an entity extraction custom model](entity-extraction-create.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

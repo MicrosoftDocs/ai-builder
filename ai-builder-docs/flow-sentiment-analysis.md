@@ -85,3 +85,6 @@ If you want this column to be visible in your email grid view, follow these step
 ### See also
 
 [Sentiment analysis overview](prebuilt-sentiment-analysis.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

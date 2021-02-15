@@ -116,3 +116,6 @@ If you have created multiple collections, tag all documents across all the colle
 ### Next step
 
 [Train and publish your form processing model](form-processing-train.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

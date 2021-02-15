@@ -56,3 +56,6 @@ You can customize your entity extraction model in these ways:
 ### Next step
 
 [Train and publish your entity extraction custom model](entity-extraction-train.md).
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

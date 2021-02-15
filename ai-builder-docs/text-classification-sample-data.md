@@ -36,3 +36,6 @@ Get started exploring AI Builder category classification by using sample data to
 4. Select **Tags:** choose the **tags** attribute.<!--Same question as step 3.-->
 5. Select **English** as the language for classification.
 6. Select **Train** to train your model.
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

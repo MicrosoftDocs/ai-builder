@@ -49,3 +49,6 @@ Numerical prediction is when the question is answered with a number. Examples of
 
 [Feature availability by region](availability-region.md)  
 [Prediction model prerequisites](prediction-prereq.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

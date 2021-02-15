@@ -156,3 +156,6 @@ You might already have a lot of correctly labeled training data, with many data 
 ### Next step
 
 [Use your prediction model in Power Apps](prediction-model-driven-app.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -37,3 +37,6 @@ Until March 5, 2020, form-processing models stored documents as attachments in t
 
 [Use a form-processing model in Power Automate](form-processing-model-in-flow.md)  
 [Use the form-processor component in Power Apps](form-processor-component-in-powerapps.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -40,3 +40,6 @@ You can integrate your AI Builder category classification models in Power Apps S
 
 - Check that you didn't exceed the number of runs for your Power Automate subscription.
 - Turn off the Dataverse run setting, and then turn it back on.
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

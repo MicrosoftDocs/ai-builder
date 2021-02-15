@@ -50,3 +50,6 @@ From here, you can run more tests with other pictures. If you're happy with the 
 ### See also
 
 [Manage your model in AI Builder](manage-model.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

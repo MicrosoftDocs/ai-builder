@@ -55,3 +55,6 @@ These messages don't prevent you from continuing to train and publish your model
 ## See also
 
 [Common issues and resolutions for AI Builder](common-issues.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

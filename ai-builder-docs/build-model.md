@@ -39,3 +39,6 @@ Do you want to explore AI Builder by using sample data provided by Microsoft? En
 ### Next step
 
 [Train your model in AI Builder](train-model.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

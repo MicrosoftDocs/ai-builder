@@ -41,3 +41,5 @@ After you've published your model, you can use it in a Power Apps canvas app or 
 ### See also
 
 [Feature availability by region](availability-region.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

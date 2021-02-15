@@ -37,3 +37,6 @@ Congratulations! You've created a flow that uses the real-time prediction featur
 [Use your prediction model](prediction-use.md)  
 [Train your model in AI Builder](train-model.md)  
 [Publish your model in AI Builder](publish-model.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -32,3 +32,6 @@ That's it! Now you can train your AI model.
 ### Next step
 
 [Train your category classification model](train-text-classification-model.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

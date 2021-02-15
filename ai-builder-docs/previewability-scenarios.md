@@ -27,3 +27,6 @@ The environment administrator can decide to hide accesses to preview features. I
 ### What happens if a model linked to a scenario in Preview mode is created and published, then the admin decides to hide all access to scenarios in Preview?
 
  In that case, this model will be blocked: it can't be edited or retrained, and it can't be used to compute new predictions. It will be displayed in the list of models, but it will be disabled and the only action that will be allowed is Delete.
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

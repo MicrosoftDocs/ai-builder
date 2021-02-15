@@ -50,3 +50,6 @@ Congratulations! You've created a flow that uses an AI Builder category classifi
 ### See also
 
 [Overview of the category classification custom model](text-classification-overview.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

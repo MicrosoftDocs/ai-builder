@@ -33,3 +33,5 @@ The more documents you tag, the more AI Builder will learn how to better recogni
 
 - [Invoice processing prebuilt model](prebuilt-invoice-processing.md)
 - [Receipt processing prebuilt model](prebuilt-receipt-processing.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

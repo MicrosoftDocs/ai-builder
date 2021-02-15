@@ -42,3 +42,6 @@ If you're satisfied with your model, you can publish it to make it available. Be
 
 [AI Builder in Power Automate overview](use-in-flow-overview.md)  
 [AI Builder in Power Apps overview](use-in-powerapps-overview.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

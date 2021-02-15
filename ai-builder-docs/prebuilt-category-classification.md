@@ -64,3 +64,6 @@ For information about how to use this prebuilt model in Power Automate, see [Use
 ### See also
 
 [Overview of the category classification custom model](text-classification-overview.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
