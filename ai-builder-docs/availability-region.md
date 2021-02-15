@@ -57,3 +57,6 @@ AI Builder is not currently available in the GCC environment. For more informati
 ### Related content
 
 [AI model types](model-types.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

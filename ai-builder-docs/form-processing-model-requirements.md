@@ -44,3 +44,6 @@ Learn how to [improve the performance of form processing models](improve-form-pr
 ### Next step
 
 [Create a form-processing model](create-form-processing-model.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

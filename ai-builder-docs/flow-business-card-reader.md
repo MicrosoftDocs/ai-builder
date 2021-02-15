@@ -70,3 +70,6 @@ The following example shows a new contact being created in Microsoft Dataverse u
 ## See also
 
 [Business card reader overview](prebuilt-business-card.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

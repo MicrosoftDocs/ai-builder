@@ -66,3 +66,6 @@ Take a photo of text and save it to a database |Text recognition
 ### See also
 
 [Feature availability by region](availability-region.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

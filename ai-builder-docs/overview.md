@@ -62,3 +62,6 @@ For information about license capacity, pricing, and restrictions:
 ### Next step
 
 [Learn about AI model types](model-types.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

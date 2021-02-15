@@ -61,3 +61,6 @@ To learn more about all the triggers and actions you can use, see the [Power Aut
 ### See also
 
 [Overview of the object detection model](object-detection-overview.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

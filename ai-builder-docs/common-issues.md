@@ -91,3 +91,6 @@ Alternatively, you can [create a new Power Platform environment with a database]
 ### See also
 
 - [Get support for AI Builder](support.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

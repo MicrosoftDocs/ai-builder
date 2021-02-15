@@ -145,3 +145,6 @@ This flow is triggered when a new invoice is added to a SharePoint folder. It th
 
    > [!div class="mx-imgBorder"]
    > ![Invoice and form processing flow for new invoices](media/invoice-and-form-process-flow3.png "Create a flow that uses a form processing model for new invoices")
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

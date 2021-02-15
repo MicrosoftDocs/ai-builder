@@ -29,3 +29,6 @@ For information about how to use formulas to add these AI models in Power Apps, 
 [Entity extraction prebuilt model](prebuilt-entity-extraction.md)  
 [Key phrase extraction model](prebuilt-key-phrase.md)  
 [Language detection model](prebuilt-language-detection.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

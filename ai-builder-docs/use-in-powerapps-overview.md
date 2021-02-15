@@ -65,3 +65,6 @@ If your app uses a **data table** component to display results from the **object
 [AI Builder in Power Automate](use-in-flow-overview.md)  
 [What are canvas apps?](https://docs.microsoft.com/powerapps/maker/canvas-apps/getting-started)  
 [What are model-driven apps?](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

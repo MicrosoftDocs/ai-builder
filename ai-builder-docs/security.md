@@ -38,3 +38,6 @@ For category classification AI models, a data table is created for every new mod
 ### See also
 
 [Security concepts in Dataverse](/power-platform/admin/wp-security-cds)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

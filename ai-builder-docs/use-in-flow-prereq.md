@@ -20,3 +20,6 @@ Before you can use AI Builder in Power Automate, you need:
 ### See also
 
 [AI Builder prerequisites](build-model.md#prerequisites)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

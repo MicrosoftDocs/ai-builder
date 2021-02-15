@@ -27,3 +27,6 @@ This topic shows you how to see the output of your prediction model.
 ### Next step
 
 [Use a category classification model to generate tags](text-classification-model-use-tags.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

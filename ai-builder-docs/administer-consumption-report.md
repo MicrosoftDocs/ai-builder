@@ -52,3 +52,6 @@ The report shows AI credits consumed by date for each environment.
 
 - [Microsoft Power Apps and Power Automate Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=2085130)<!--I don't think you want the locale identifier? -->
 - [AI Builder licensing FAQ](/power-platform/admin/powerapps-flow-licensing-faq#ai-builder)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

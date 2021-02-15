@@ -44,3 +44,6 @@ The following applies to calls made per environment across the following prebuil
 |**Action**|**Limit**|**Renewal period**|
 |:-----|:-----|-----:|
 |Calls (per environment)|400|60 seconds|
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

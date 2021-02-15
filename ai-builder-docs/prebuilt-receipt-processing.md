@@ -61,3 +61,6 @@ The following applies to calls made per environment across form processing model
 |**Action**|**Limit**|**Renewal period**|
 |:-----|:-----|-----:|
 |Calls (per environment)|360|60 seconds|
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

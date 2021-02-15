@@ -78,3 +78,6 @@ If a business card is detected, the business card model will try to locate and e
 |**Action**|**Limit**|**Renewal period**|
 |:-----|:-----|-----:|
 |Business card reader calls (per environment)|24|60 seconds|
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

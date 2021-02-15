@@ -117,3 +117,6 @@ Some AI models, like key phrase or entity extraction, return more than one resul
 
 [AI Builder in Power Automate overview](use-in-flow-overview.md) <br>
 [AI Builder in Power Apps overview](use-in-powerapps-overview.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

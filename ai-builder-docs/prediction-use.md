@@ -63,3 +63,6 @@ To use real-time prediction, create a flow in Power Automate. More information: 
 
 [Train your model in AI Builder](train-model.md)  
 [Publish your model in AI Builder](publish-model.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

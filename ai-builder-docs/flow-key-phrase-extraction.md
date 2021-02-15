@@ -46,3 +46,6 @@ Congratulations! You have created a flow that uses your key phrase extraction AI
 ### See also
 
 [Key phrase extraction overview](prebuilt-key-phrase.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

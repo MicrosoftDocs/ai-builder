@@ -39,3 +39,6 @@ Until March 5, 2020, object detection models stored images as attachments in the
 ### See also
 
 [Manage your model in AI Builder](manage-model.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
