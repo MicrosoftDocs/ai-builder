@@ -27,3 +27,6 @@ You can also select **Quick Test** to assess the quality of the model. Just ente
 ### Next step
 
 [Improve the performance of your category classification model](improve-text-classification-performance.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

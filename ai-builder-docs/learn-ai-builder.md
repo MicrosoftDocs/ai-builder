@@ -33,3 +33,6 @@ The zip file that contains the hands-on labs includes the following folders and 
 ### See also
 
 [Work with sample data](samples.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

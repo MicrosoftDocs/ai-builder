@@ -93,3 +93,6 @@ Congratulations! You've created a flow that uses the AI Builder receipt processi
 ### Related topics
 
 [Receipt processing overview](prebuilt-receipt-processing.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -112,3 +112,6 @@ Congratulations! You've created a flow that uses the AI Builder invoice processi
 ### Related topics
 
 [Invoice processing overview](prebuilt-invoice-processing.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

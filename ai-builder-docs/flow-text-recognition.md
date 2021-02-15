@@ -50,3 +50,6 @@ Congratulations! You've created a flow that uses a text recognition model. You c
 
 [Text recognition overview](prebuilt-text-recognition.md)
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

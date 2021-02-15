@@ -34,3 +34,6 @@ Automate and scale your business processes with AI Builder category classificati
 [Use a category classification custom model in Power Automate](text-classification-model-in-flow.md)  
 [Use the text recognizer component in Power Apps](prebuilt-text-recognizer-component-in-powerapps.md)  
 [Feature availability by region](availability-region.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

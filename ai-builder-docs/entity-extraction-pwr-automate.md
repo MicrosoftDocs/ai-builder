@@ -54,3 +54,6 @@ Congratulations! You've created a flow that uses an AI Builder entity extraction
 
 [Entity extraction model overview](entity-extraction-overview.md)
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

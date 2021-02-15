@@ -23,3 +23,6 @@ You can also train a new version of your model. Select **New version** > **From 
 ### Next step
 
 [Understand category classification model performance](text-classification-performance.md) 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

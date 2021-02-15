@@ -51,3 +51,6 @@ For object detection models, the import process might continue after the import 
 * You can't create a new version of an imported entity extraction model because the training dataset isn't part of the imported solution. You should create a new model instead.
 * You can’t set run schedule on imported category classification models.
 * You can't create a new AI Builder model in solution explorer.
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

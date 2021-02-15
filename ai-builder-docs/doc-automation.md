@@ -32,3 +32,6 @@ Step-by-step instructions on how to install and use the document automation kit 
 ### See also
 
 [Create a form processing model](create-form-processing-model.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

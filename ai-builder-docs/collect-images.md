@@ -84,3 +84,6 @@ You can sign up for Trove [here](http://aka.ms/t-aib).
 ### Next step
 
 [Get started with object detection](get-started-with-object-detection.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -82,3 +82,6 @@ Select the column, the operator, and the value that represents a filter conditio
 ### Next step
 
 [Train and publish your prediction model](prediction-train-model.md)<br/>
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

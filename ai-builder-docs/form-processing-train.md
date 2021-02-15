@@ -51,3 +51,6 @@ The following applies to calls made per environment across form processing model
 
 [Use a form processing model in Power Automate](form-processing-model-in-flow.md)  
 [Use the form processor component in Power Apps](form-processor-component-in-powerapps.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

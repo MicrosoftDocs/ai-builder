@@ -49,3 +49,6 @@ Congratulations! You've created a flow that uses an entity extraction model. Sel
 
 [Entity extraction prebuilt model](prebuilt-entity-extraction.md)  
 [AI Builder in Power Automate overview](use-in-flow-overview.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -88,3 +88,6 @@ Perform these steps on each of your AI Builder models to get your AI models up a
 ### Next step
 
 [Publish your model in AI Builder](publish-model.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

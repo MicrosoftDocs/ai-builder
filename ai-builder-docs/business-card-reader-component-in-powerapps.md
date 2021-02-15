@@ -76,3 +76,6 @@ These [guidelines](/powerapps/maker/canvas-apps/controls/control-button) for the
 ### See also
 
 [Core properties in Power Apps](/powerapps/maker/canvas-apps/controls/properties-core)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

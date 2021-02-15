@@ -37,3 +37,6 @@ For more information about the Microsoft Power Platform **Help + Support** exper
 
 - [Microsoft Dataverse in Power Apps community forum](https://powerusers.microsoft.com/t5/Microsoft-Dataverse/bd-p/CDS_Apps)
 - [Connect To Data in Power Automate community forum](https://powerusers.microsoft.com/t5/Connecting-To-Data/bd-p/ConnectingToData)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

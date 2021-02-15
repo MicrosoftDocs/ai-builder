@@ -70,3 +70,6 @@ Currently, there is no invoice processing control available for canvas apps in P
 1. The app is now ready to run! Select the **Play** icon on the top right to test it.
    > [!div class="mx-imgBorder"]
    > ![Finished app](media/canvas-app-done.png "Finished app screen")
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

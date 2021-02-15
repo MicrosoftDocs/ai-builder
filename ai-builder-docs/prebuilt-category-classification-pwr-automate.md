@@ -54,3 +54,6 @@ Congratulations! You've created a flow that uses a prebuilt category classificat
 
 [Category classification prebuilt model](prebuilt-category-classification.md)
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

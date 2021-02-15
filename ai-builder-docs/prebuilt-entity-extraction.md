@@ -94,3 +94,6 @@ The model output shows the identified entities and their entity types. For examp
 ### Next step
 
 [Use the entity extraction prebuilt model in Power Automate](prebuilt-entity-extraction-pwr-automate.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

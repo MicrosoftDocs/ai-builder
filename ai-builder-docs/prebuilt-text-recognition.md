@@ -49,3 +49,6 @@ If a document is detected, the text recognition model outputs the following info
 |**Action**|**Limit**|**Renewal period**|
 |:-----|:-----|-----:|
 |Text recognition calls (per environment)|480|60 seconds|
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

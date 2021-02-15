@@ -127,3 +127,6 @@ Similar process with following infer request at step 4:
     }
 }
 ```
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

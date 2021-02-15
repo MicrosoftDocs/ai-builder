@@ -64,3 +64,6 @@ Dataverse has backup and restore capabilities to help protect your apps' data, p
 - For prediction and prebuilt models, moving and copying environments is fully supported.<!--Suggested, to make the wording of these two bullet points parallel. -->
 
 - For other models, after you move or copy an environment, you have to retrain and republish existing models to make them available again.
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

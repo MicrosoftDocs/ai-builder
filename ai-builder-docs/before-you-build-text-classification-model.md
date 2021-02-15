@@ -86,3 +86,6 @@ You're all set. Power Query will import your data into your Dataverse table.
 ### Next step
 
 [Create a category classification model](create-text-classification-model.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

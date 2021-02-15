@@ -29,3 +29,6 @@ After the model is trained, you can [evaluate](manage-model.md#evaluate-your-mod
 
 [Train your model in AI Builder](train-model.md)  
 [Publish your model in AI Builder](publish-model.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

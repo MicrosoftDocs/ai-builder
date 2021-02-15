@@ -30,3 +30,6 @@ On the details page, training results appear in the **Last trained version** sec
 
 - [Manage your model in AI Builder](manage-model.md)
 - [Publish your model in AI Builder](publish-model.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

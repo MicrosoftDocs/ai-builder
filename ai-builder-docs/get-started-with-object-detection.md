@@ -110,3 +110,6 @@ That's it! Congratulations, you've created a training set for object detection.
 ### See also
 
 [Use an object detection model in Power Automate](object-detection-model-in-flow.md) 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

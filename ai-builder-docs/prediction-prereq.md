@@ -38,3 +38,6 @@ To help you get started quickly with prediction, AI Builder provides sample data
 ### See also
 
 [AI model prerequisites](build-model.md#prerequisites)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

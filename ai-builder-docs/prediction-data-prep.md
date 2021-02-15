@@ -146,3 +146,6 @@ And you're done!
 ### Next step
 
 [Create a prediction model](prediction-create-model.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

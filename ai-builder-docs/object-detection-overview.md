@@ -24,3 +24,6 @@ Organizations of any size can use AI Builder object detection to add these capab
 
 [Feature availability by region](availability-region.md)  
 [Use an object detection model in Power Automate](object-detection-model-in-flow.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

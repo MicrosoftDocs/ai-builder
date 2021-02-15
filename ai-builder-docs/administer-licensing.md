@@ -121,3 +121,6 @@ For more information, see [About trial environments](https://docs.microsoft.com/
 #### Can I block users in my organization from signing up for an AI Builder trial?
 
 Any individual can try out the features of AI Builder for 30 days and incur no costs to your company. This option is available to any user in a tenant and cannot be disabled by an admin.
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

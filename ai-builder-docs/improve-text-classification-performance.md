@@ -30,3 +30,5 @@ The more correctly labeled training data you have, the better your model will pe
 ### See also
 
 [Category classification prebuilt model](prebuilt-category-classification.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

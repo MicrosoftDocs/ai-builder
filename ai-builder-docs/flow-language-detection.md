@@ -47,3 +47,6 @@ Congratulations! You've created a flow that uses a language detection model. Sel
 
 [Language detection overview](prebuilt-language-detection.md)
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
