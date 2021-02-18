@@ -28,17 +28,17 @@ ms.reviewer: kvivek
 
 1. Select **File** as the input type, then set *My invoice* as the input title.
 
-    > [!div class="mx-imgBorder"]
-    > ![Trigger file flow](media/ip-flow-my-invoice.png "Manually trigger a flow screens")
-
 1. Select **+ New step**, search for *AI Builder*, and then select **Process and save information from invoices** in the list of actions.
 
 1. Specify the *My invoice* column from the trigger in the **Invoice file** input.
 
+    > [!div class="mx-imgBorder"]
+    > ![Trigger file flow](media/ip-flow-my-invoice.png "Manually trigger a flow screens")
+
 1. In the successive actions, you can use any of the invoice values from the [model output](#output).
 
     > [!div class="mx-imgBorder"]
-    > ![Flow example](media/rp-flow-example.png "Example flow screens")
+    > ![Flow example](media/ip-flow-example.png "Example flow screens")
 
 Congratulations! You've created a flow that uses the AI Builder invoice processing model. Select **Save** on the top right, and then select **Test** to try out your flow.
 
