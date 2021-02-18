@@ -88,6 +88,30 @@ The **_“The current environment doesn't meet the minimum requirements”_** er
 
 Alternatively, you can [create a new Power Platform environment with a database](https://docs.microsoft.com/power-platform/admin/create-environment#create-an-environment-with-a-database), which will have the latest updates.
 
+## AI Builder actions are disabled/deactivated
+
+AI Builder cannot be used if its actions have been deactivated. To active them, the administrator of the environment needs to perform the following steps:
+
+1.	Sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
+2.	Select the environment where the actions are deactivated and select **Settings** > **Resources** > **All legacy settings**.
+3.	Select **Processes** from the Settings menu.
+4.	Select to display **All Processes** and activate all the following AI Builder processes:
+> * IsPaiEnabled
+> * Predict
+> * PredictionSchema
+> * Train
+> * QuickTest
+> * BatchPrediction
+> * ScheduleTraining
+> * SchedulePrediction
+> * ScheduleRetrain
+> * UnschedulePrediction
+> * UnscheduleTraining
+> * CancelTraining
+> * PublishAIConfiguration
+> * UnpublishAIConfiguration
+
+
 ### See also
 
 - [Get support for AI Builder](support.md)
