@@ -96,20 +96,20 @@ AI Builder cannot be used if its actions have been deactivated. To active them, 
 2.	Select the environment where the actions are deactivated and select **Settings** > **Resources** > **All legacy settings**.
 3.	Select **Processes** from the Settings menu.
 4.	Select to display **All Processes** and activate all the following AI Builder processes:
-> * IsPaiEnabled
-> * Predict
-> * PredictionSchema
-> * Train
-> * QuickTest
-> * BatchPrediction
-> * ScheduleTraining
-> * SchedulePrediction
-> * ScheduleRetrain
-> * UnschedulePrediction
-> * UnscheduleTraining
-> * CancelTraining
-> * PublishAIConfiguration
-> * UnpublishAIConfiguration
+    - IsPaiEnabled
+    - Predict
+    - PredictionSchema
+    - Train
+    - QuickTest
+    - BatchPrediction
+    - ScheduleTraining
+    - SchedulePrediction
+    - ScheduleRetrain
+    - UnschedulePrediction
+    - UnscheduleTraining
+    - CancelTraining
+    - PublishAIConfiguration
+    - UnpublishAIConfiguration
 
 
 ### See also
