@@ -111,6 +111,14 @@ AI Builder cannot be used if its actions have been deactivated. To active them, 
     - PublishAIConfiguration
     - UnpublishAIConfiguration
 
+## AI models fail to be imported in a new environment
+If your AI models are in error state after importing them in a new environment, here is a sequence of actions you can try to resolve the issue:
+- Uninstall the solution containing the model(s)
+- Wait around 10 minutes
+- Re-install the solution containing the model(s)
+- Wait for the end of the "Importing" state for each model
+
+If one of the imported models is still in error, retry the sequence of actions. If the problem persists, contact the support team.
 
 ### See also
 
