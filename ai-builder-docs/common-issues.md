@@ -5,7 +5,7 @@ author: paulnog
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/18/2020
+ms.date: 02/21/2021
 ms.author: paulnog
 ms.reviewer: kvivek
 ---
@@ -87,6 +87,30 @@ If you get the error message **_“Training failed and the model cannot be used�
 The **_“The current environment doesn't meet the minimum requirements”_** error message occurs when the Microsoft Dataverse database in the environment where you are creating your model doesn't have the latest updates installed. To solve this, create a support request in the Power Platform admin center to request that the latest AI Builder updates be installed in your Dataverse database.
 
 Alternatively, you can [create a new Power Platform environment with a database](https://docs.microsoft.com/power-platform/admin/create-environment#create-an-environment-with-a-database), which will have the latest updates.
+
+## AI Builder actions are disabled/deactivated
+
+AI Builder cannot be used if its actions have been deactivated. To active them, the administrator of the environment needs to perform the following steps:
+
+1.	Sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
+2.	Select the environment where the actions are deactivated and select **Settings** > **Resources** > **All legacy settings**.
+3.	Select **Processes** from the Settings menu.
+4.	Select to display **All Processes** and activate all the following AI Builder processes:
+    - IsPaiEnabled
+    - Predict
+    - PredictionSchema
+    - Train
+    - QuickTest
+    - BatchPrediction
+    - ScheduleTraining
+    - SchedulePrediction
+    - ScheduleRetrain
+    - UnschedulePrediction
+    - UnscheduleTraining
+    - CancelTraining
+    - PublishAIConfiguration
+    - UnpublishAIConfiguration
+
 
 ### See also
 
