@@ -118,7 +118,7 @@ If your AI models are in error state after importing them in a new environment, 
 - Re-install the solution containing the model(s)
 - Wait for the end of the "Importing" state for each model
 
-If one of the imported models is still in error, retry the sequence of actions. If the problem persists, contact the support team.
+If one of the imported models is still in error, retry the sequence of actions. If the problem persists (no new model gets fixed by this sequence), contact the support team.
 
 ### See also
 
