@@ -5,20 +5,20 @@ author: Dean-Haas
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/11/2020
+ms.date: 03/02/2021
 ms.author: joshrenn
-ms.reviewer: kvivek
+ms.reviewer: v-aangie
 ---
 
 # Use your AI model
 
 After you publish your model, you can use it across Microsoft Power Platform to create end-to-end solutions that meet your business needs. In this topic, you'll learn all of the different ways you can use your model.
 
-After you publish your model, a **Use model** button appears in the **Performance** section. This opens a pane that shows all the ways you can use your model. These options vary based on your AI model type.
+After you publish your model, a **Use model** button appears in the **Performance** section. This opens a pane that shows all the ways you can use your model. These choices vary based on your AI model type.
 
 ## Set a run schedule
 
-Create a schedule to generate predictions regularly in Microsoft Dataverse. To view the scheduling options available for your model type, see [Set a run schedule for your category classification model](text-classification-model-use-tags.md#set-run-schedule-on-common-data-service).
+Create a schedule to generate predictions regularly in Microsoft Dataverse. To view the scheduling choices available for your model type, see [Set a run schedule for your category classification model](text-classification-model-use-tags.md#set-run-schedule-on-common-data-service).
 
 ## Run now
 
@@ -78,7 +78,7 @@ Concat(AIBuilder.CategorizeText (TextInput1).categories , type & ",")|Returns 
 Concat(AIBuilder.CategorizeText(TextInput1, { modelId: GUID("\<yourModelId\>").categories, type & ",")|Uses your custom AI Builder model to return all categories that belong to the text, in list form.
 AIBuilder.DetectLanguage(TextInput1).language|Returns the two-letter language code (ISO 3166) of the text.
 Concat(AIBuilder.ExtractKeyPhrases(TextInput1).phrases, phrase & ",")|Extracts all key phrases from the text into a list.
-Concat(AIBuilder.ExtractTextEntities(TextInput1).entities, type & ", ")|Extracts the types of entities present in the text into a list.
+Concat(AIBuilder.ExtractTextEntities(TextInput1).entities, type & ", ")|Extracts the types of tables present in the text into a list.
 
 ### Supported languages
 

@@ -5,9 +5,9 @@ author: Antoine2F
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 01/29/2021
+ms.date: 03/02/2021
 ms.author: antode
-ms.reviewer: kvivek
+ms.reviewer: v-aangie
 ---
 
 # Share your AI model
@@ -20,7 +20,7 @@ If you want other users to use your model in apps or flows, or even use a direct
 
 ## Share action
 
-The share action is available on the **Models** page in AI Builder for each model where you're the owner. It's also available for the system administrator in the environment, or for any security role that has Share permissions on AI Builder system entities.
+The share action is available on the **Models** page in AI Builder for each model where you're the owner. It's also available for the system administrator in the environment, or for any security role that has Share permissions on AI Builder system tables.
 
 The share action is also available on the model detail screen in AI Builder, with the same conditions.
 

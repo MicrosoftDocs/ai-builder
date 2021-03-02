@@ -5,9 +5,9 @@ author: paulnog
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/18/2020
+ms.date: 03/02/2021
 ms.author: paulnog
-ms.reviewer: kvivek
+ms.reviewer: v-aangie
 ---
 
 # Manage your model in AI Builder
@@ -27,7 +27,7 @@ Each AI model type has a different explanation for how the score is calculated a
 
 Some AI model types include a feature to quickly test the performance for your trained version<!--Edit okay? I got a bit lost here.--> with real data of your choosing. Select **Quick test** to see your model in action.
 
-After you finish evaluating your newly trained model, you have two options:
+After you finish evaluating your newly trained model, you have two choices:
 
 - **Publish your model**: For more information about when to publish a model, see [When should I publish my model?](publish-model.md#when-should-i-publish-my-model).
 - **Create a new version**: For more information about when to create a new version, see [When should I create a new version?](#when-should-i-create-a-new-version).
