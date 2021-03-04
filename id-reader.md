@@ -40,9 +40,9 @@ If you want to use this prebuilt model in Power Automate, you can find more info
 The images you can process with the ID reader/model must have these characteristics:
 
 - Format:
-  -	jpg
-  -	png
-  - pdf
+   - jpg
+   - png
+   - pdf
 
 - Size: 20 MB maximum (use small images for fastest processing time)
 
