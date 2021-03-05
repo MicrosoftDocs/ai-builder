@@ -22,15 +22,15 @@ ms.reviewer: v-aangie
     > [!div class="mx-imgBorder"]
     > ![Trigger identity document flow](media/flow-identity-docs.png "Trigger identity document flow")
 
-Congratulations! You've created a flow that uses the ID reader AI model. Select **Save** in the upper-right corner, and then select **Test** to try out your flow and see information extracted from a file.
+Congratulations! You've created a flow that uses the ID reader AI model. Select **Save** in the upper-right corner, and then select **Test**  to try out your flow and see information extracted from a file.
 
 ## Example ID reader flow
 
 The following example shows how you can set up a flow that sends you an email with extracted information from passports:
 
 > [!div class="mx-imgBorder"]
-> ![Trigger identity document flow](media/flow-id-reader-email.png "Trigger identity document flow")
+> ![Trigger identity document email flow](media/flow-id-reader-email.png "Trigger identity document email flow")
 
 ## See also
 
-[Identity document reader overview](prebuilt-id-reader.md)
+[ID reader overview](prebuilt-id-reader.md)
