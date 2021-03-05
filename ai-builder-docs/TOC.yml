@@ -132,6 +132,8 @@
     href: prebuilt-category-classification.md
   - name: Entity extraction 
     href: prebuilt-entity-extraction.md
+  - name: ID reader (preview)
+    href: prebuilt-id-reader.md
   - name: Invoice processing (preview)
     href: prebuilt-invoice-processing.md
   - name: Key phrase extraction
@@ -170,6 +172,8 @@
       href: prebuilt-category-classification-pwr-automate.md    
     - name: Entity extraction model
       href: prebuilt-entity-extraction-pwr-automate.md
+    - name: ID reader model (preview)
+      href: id-reader.md  
     - name: Invoice processing model (preview)
       href: flow-invoice-processing.md
     - name: Key phrase extraction model

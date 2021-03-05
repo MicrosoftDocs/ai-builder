@@ -1,71 +1,36 @@
 ---
-title: Identity document (ID) reader - AI Builder | Microsoft Docs
-description: Describes the ID reader prebuilt AI Builder model.
+title: Use the ID reader model in Power Automate - AI Builder | Microsoft Docs
+description: Describes how to use the ID reader prebuilt AI Builder model.
 author: paulnog
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/04/2021
+ms.date: 03/05/2021
 ms.author: paulnog
 ms.reviewer: v-aangie
 ---
 
-# Identity document (ID) reader
+# Use the ID reader model in Power Automate
 
-You can use the identity document (ID) reader to extract information from passports and US driver licenses. The model will extract information such as the person’s first name, date of birth, or gender.
+1. Sign in to [Power Automate](https://flow.microsoft.com/).
+1. Select the **My flows** tab, and then select **New > +Instant-from blank**.
+1. Name your flow, select **Manually trigger a flow** under **Choose how to trigger this flow**, and then select **Create**.
+1. Expand **Manually trigger a flow**, select **+Add an input**, and select **File Content** as the input type.
+1. Select **+ New step**, search for **AI Builder** in the Search for filters and actions box, and then select **Process and save information from identity documents** in the list of actions.
+1. Specify **File Content** as the Identity document file you want to process in your flow:
 
-Images such as scans or pictures of the identity documents are deleted once processed by the model.
+    > [!div class="mx-imgBorder"]
+    > ![Trigger identity document flow](media/flow-identity-docs.png "Trigger identity document flow")
 
-> [!NOTE]
-> - The design and format of identity documents varies widely. AI Builder is constantly improving the accuracy of the ID reader model, but it's possible there could be inaccurate or missing information in some cases. It's a good idea to verify that the output is as you expect.
-> - The prebuilt ID reader only supports Latin character extraction at this time.
+Congratulations! You've created a flow that uses the ID reader AI model. Select **Save** in the upper-right corner, and then select **Test** to try out your flow and see information extracted from a file.
 
-## Licensing requirements
+## Example ID reader flow
 
-AI Builder is licensed as an add-on to your Power Apps or Power Automate licenses. For information about license capacity, pricing, and restrictions, see [AI Builder licensing](/ai-builder/administer-licensing).
+The following example shows how you can set up a flow that sends you an email with extracted information from passports:
 
-## Role requirements
+> [!div class="mx-imgBorder"]
+> ![Trigger identity document flow](media/flow-id-reader-email.png "Trigger identity document flow")
 
-Users need to have the Basic User role to consume the ID reader.
+## See also
 
-<!-- **Use in Power Apps** (we’ll light up this section when Power Apps will show the ID reader)
-If you want to use this prebuilt model in Power Apps, you use the business card reader component. More information: Use the business card reader component in canvas apps and Use the business card reader component in model-driven apps -->
-
-## Use in Power Automate
-
-If you want to use this prebuilt model in Power Automate, you can find more information in Use the ID reader prebuilt model in Power Automate. <!-- Angie will link to id-reader-use.md when it's created. -->
-
-## Supported language, format, and size
-
-The images you can process with the ID reader/model must have these characteristics:
-
-- Format:
-   - jpg
-   - png
-   - pdf
-
-- Size: 20 MB maximum (use small images for fastest processing time)
-
-## Model output
-
-If a valid identity document is detected, the model will try to locate and extract the following properties.
-
-|Property  |Note  |
-|---------|---------|
-|First name     |         |
-|Last name     |         |
-|Gender     |         |
-|Date of birth     |         |
-|Region     | US driver license only        |
-|Country     |         |
-|Nationality     | Passport only        |
-|Street address     | US driver license only        |
-|Identity document number     |         |
-|Identity document expiration date     |         |
-
-## Limits
-
-|  |  |LIMITS  |
-|---------|---------|---------|
-|**Action**     |    **Limits**     | **Renewal period**        |
-|Identity document reader calls (per environment)    | 24        | 60 seconds        |
+[Identity document reader overview](prebuilt-id-reader.md)
