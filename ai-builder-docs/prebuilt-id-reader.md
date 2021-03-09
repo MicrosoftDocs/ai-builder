@@ -51,16 +51,16 @@ If a valid identity document is detected, the model will try to locate and extra
 
 |Property  |Note  |
 |---------|---------|
-|First name     |         |
-|Last name     |         |
-|Gender     |         |
-|Date of birth     |         |
+|First name     |    N/A     |
+|Last name     |   N/A      |
+|Gender     |    N/A     |
+|Date of birth     |    N/A     |
 |Region     | US driver license only        |
-|Country     |         |
+|Country     |    N/A     |
 |Nationality     | Passport only        |
 |Street address     | US driver license only        |
-|Identity document number     |         |
-|Identity document expiration date     |         |
+|Identity document number     |    N/A     |
+|Identity document expiration date     |    N/A     |
 
 ## Limits
 
