@@ -18,7 +18,7 @@ Here are some issues that have been seen in AI Builder. Where applicable, workar
 
 ## AI Builder isn't set up correctly in your environment
 
-AI Builder might not work in some environments created before the release of AI Builder. To work around this issue, [create a new environment](https://docs.microsoft.com/power-platform/admin/create-environment). If you need to use a particular environment, [contact support](https://docs.microsoft.com/power-platform/admin/get-help-support) for more options.
+AI Builder might not work in some environments created before the release of AI Builder. To work around this issue, [create a new environment](/power-platform/admin/create-environment). If you need to use a particular environment, [contact support](/power-platform/admin/get-help-support) for more options.
 
 ## AI Builder gets errors trying to read data from your Microsoft Dataverse table
 
@@ -66,7 +66,7 @@ If documents or images fail to upload to your form processing or object detectio
 ## The analysis failed for these documents error in Form processing 
 
 If you get the error message **_“The analysis failed for these documents”_** when you are creating your Form processing model. Make sure that:
-* The documents that you have uploaded meet the [following requirements](https://docs.microsoft.com/ai-builder/form-processing-model-requirements).
+* The documents that you have uploaded meet the [following requirements](./form-processing-model-requirements.md).
 * If the documents that you have uploaded are PDFs with multiple pages, split the PDF documents with only the pages you need the model to recognize and upload the reduced documents that have been split instead.
 
 ## Fields could not be loaded for this document error in Form processing
@@ -80,13 +80,13 @@ If you get the error message **_“Fields could not be loaded for this document�
 If you get the error message **_“Training failed and the model cannot be used”_** error in form processing after you have trained your form processing model, this can be caused by:
 
 * A temporary error. You can retry by retraining your model again by selecting **Edit model**.
-* The documents that you uploaded for training don’t meet the [Form-processing model requirements](https://docs.microsoft.com/ai-builder/form-processing-model-requirements).
+* The documents that you uploaded for training don’t meet the [Form-processing model requirements](./form-processing-model-requirements.md).
 
 ## "The current environment doesn’t meet the minimum requirements" error message
 
 The **_“The current environment doesn't meet the minimum requirements”_** error message occurs when the Microsoft Dataverse database in the environment where you are creating your model doesn't have the latest updates installed. To solve this, create a support request in the Power Platform admin center to request that the latest AI Builder updates be installed in your Dataverse database.
 
-Alternatively, you can [create a new Power Platform environment with a database](https://docs.microsoft.com/power-platform/admin/create-environment#create-an-environment-with-a-database), which will have the latest updates.
+Alternatively, you can [create a new Power Platform environment with a database](/power-platform/admin/create-environment#create-an-environment-with-a-database), which will have the latest updates.
 
 ## AI Builder actions are disabled/deactivated
 

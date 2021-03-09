@@ -27,7 +27,7 @@ You can access the [document automation toolkit](https://flow.microsoft.com/mana
 
 ## Learn about the toolkit
 
-Step-by-step instructions on how to install and use the document automation kit is available here: [Microsoft Learn: Get started with AI Builder document automation](https://docs.microsoft.com/learn/modules/get-started-ai-builder-document-automation/).
+Step-by-step instructions on how to install and use the document automation kit is available here: [Microsoft Learn: Get started with AI Builder document automation](/learn/modules/get-started-ai-builder-document-automation/).
 
 ### See also
 

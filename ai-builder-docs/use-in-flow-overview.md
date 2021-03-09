@@ -12,7 +12,7 @@ ms.reviewer: kvivek
 
 # AI Builder in Power Automate overview
 
-Power Automate is a service that helps you create automated workflows between your favorite apps and services to synchronize files, get notifications, collect data, and more. More information: [Power Automate docs](https://docs.microsoft.com/power-automate) 
+Power Automate is a service that helps you create automated workflows between your favorite apps and services to synchronize files, get notifications, collect data, and more. More information: [Power Automate docs](/power-automate) 
 
 ## Prebuilt AI models you can use in Power Automate right away
 
