@@ -23,7 +23,7 @@ Your AI Builder models are deployed in the region that hosts your Microsoft Data
 The following table shows which AI Builder features are available in each region, and the release status (general availability or preview) for each feature.  
 
 > [!NOTE]
-> For a view of what's planned for AI Builder, including new features, release status, and regional availability, check out the [AI Builder release plans](https://go.microsoft.com/fwlink/?linkid=2102828).
+> For a view of what's planned for AI Builder, including new features, release status, and regional availability, check out the [AI Builder release plans](/power-platform-release-plan/2020wave1/ai-builder/).
 
 ### Custom models
 |Feature |Asia |Australia |Canada |Europe |Japan |South America |United Kingdom  |United States |
@@ -52,8 +52,8 @@ The following table shows which AI Builder features are available in each region
 
 AI Builder is not currently available in the GCC environment. For more information about this limitation, see these topics:
 
-- [Power Apps US Government feature limitations](https://docs.microsoft.com/power-platform/admin/powerapps-us-government#power-apps-us-government-feature-limitations)
-- [Power Automate US Government feature limitations](https://docs.microsoft.com/power-automate/us-govt#power-automate-us-government-feature-limitations)
+- [Power Apps US Government feature limitations](/power-platform/admin/powerapps-us-government#power-apps-us-government-feature-limitations)
+- [Power Automate US Government feature limitations](/power-automate/us-govt#power-automate-us-government-feature-limitations)
 ### Related content
 
 [AI model types](model-types.md)

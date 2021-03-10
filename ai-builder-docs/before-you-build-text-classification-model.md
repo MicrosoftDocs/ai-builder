@@ -60,7 +60,7 @@ Note that tags data is separated by using a vertical bar or pipe ( \| ).
 
 2. Under **Data**, select **Entities**, and then select **Get data** at the top of the screen.
 
-    If you need to create a new table, see [Create a custom table](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-create-entity).
+    If you need to create a new table, see [Create a custom table](/powerapps/maker/common-data-service/data-platform-create-entity).
 
 3. In the list of data sources, select **Excel**.
 

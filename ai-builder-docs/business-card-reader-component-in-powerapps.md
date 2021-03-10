@@ -19,7 +19,7 @@ For information about canvas apps, see [What are canvas apps in Power Apps?](/po
 
 ## Licensing requirements
 
-AI Builder is licensed as an add-on to your Power Apps or Power Automate licenses. For information about license capacity, pricing, and restrictions, see [AI Builder licensing](/ai-builder/administer-licensing).
+AI Builder is licensed as an add-on to your Power Apps or Power Automate licenses. For information about license capacity, pricing, and restrictions, see [AI Builder licensing](./administer-licensing.md).
 
 ## Role requirements
 
