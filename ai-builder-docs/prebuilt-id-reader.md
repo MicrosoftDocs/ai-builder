@@ -65,7 +65,7 @@ If a valid identity document is detected, the model will try to locate and extra
 ## Limits
 
 |Action|Limit|Renewal periods|
-|--|--|
+|--|--|--|
 |Identity document reader calls (per environment)|24|60 seconds|
 
 
