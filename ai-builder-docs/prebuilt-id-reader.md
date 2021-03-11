@@ -64,8 +64,10 @@ If a valid identity document is detected, the model will try to locate and extra
 
 ## Limits
 
-> [!div class="mx-imgBorder"]
-> ![ID reader limits](media/id-reader-limits.png "ID reader limits")
+|Action|Limit|Renewal periods|
+|--|--|
+|Identity document reader calls (per environment)|24|60 seconds|
+
 
 ## See also
 
