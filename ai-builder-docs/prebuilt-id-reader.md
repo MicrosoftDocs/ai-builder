@@ -5,7 +5,7 @@ author: paulnog
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/11/2021
+ms.date: 03/23/2021
 ms.author: paulnog
 ms.reviewer: v-aangie
 ---
@@ -28,7 +28,7 @@ AI Builder is licensed as an add-on to your Power Apps or Power Automate license
 
 Users need to have the Basic User role to consume the ID reader prebuilt model.
 
-<!-- **Use in Power Apps** (we’ll light up this section when Power Apps will show the ID reader)
+<!-- H2 **Use in Power Apps** (we’ll light up this section when Power Apps will show the ID reader)
 If you want to use this prebuilt model in Power Apps, you use the business card reader component. More information: Use the business card reader component in canvas apps and Use the business card reader component in model-driven apps -->
 
 ## Use in Power Automate
