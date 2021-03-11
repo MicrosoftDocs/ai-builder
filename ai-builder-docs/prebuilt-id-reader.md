@@ -64,7 +64,7 @@ If a valid identity document is detected, the model will try to locate and extra
 
 ## Limits
 
-> [ID reader limits](media/id-reader-limits.png "ID reader limits")
+![ID reader limits](media/id-reader-limits.png "ID reader limits")
 
 ## See also
 
