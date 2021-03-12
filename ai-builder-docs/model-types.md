@@ -1,52 +1,71 @@
 ---
-title: AI model types -  AI Builder | Microsoft Docs
-description: Provides an overview of the AI model types that you can create in AI Builder.
+title: AI models and business scenarios - AI Builder | Microsoft Docs
+description: Provides an overview ofhow the AI model types that you can create in AI Builder relate to various business scenraios.
 author: Dean-Haas
-manager: kvivek
-ms.service: powerapps
+ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/06/2019
+ms.date: 10/29/2020
 ms.author: joshrenn
-ms.reviewer: v-dehaas
+ms.reviewer: kvivek
 ---
 
-# AI model types
+# AI models and business scenarios
 
-In AI Builder, AI is based on model types that you choose from, based on your business needs. For example, build an object detection model that recognizes your products in an image, or a prediction model that predicts business outcomes based on patterns the AI learns from your historical data.  Train and publish the model, and it's ready for use in your business.
+In AI Builder, you can choose from several model types that are suited to different business scenarios. For example, if you want to use AI to detect your products in images; you’d build, train, and publish  a custom AI Builder object detection model. If you want to use AI to automate your expense reports by scanning and processing business receipts, you could use AI Builder’s prebuilt receipt scanning model, which is ready to use out of the box. To design a marketing campaign based on patterns in your historical data; you’d build, train, and publish a custom prediction model in AI Builder tailored to your business and using your own historical data. These are just a few of the ways you can use AI Builder to add intelligence to your business processes.
 
-To build a model using AI Builder, sign in to [PowerApps](https://web.powerapps.com) and, in the the left navigation pane, select **AI Builder > Build**. Select the model type that matches what you want to do, and you are ready to get started.
+To build a model by using AI Builder, sign in to [Power Apps](https://make.powerapps.com) and, in the left pane, select **AI Builder** > **Build**. Select the model type that matches what you want to do, and you're ready to get started.
 
 > [!div class="mx-imgBorder"]
 > ![AI Builder home page](media/ai-builder-home.png "AI Builder home page")
 
-## List of AI model types
+## Model types
 
-AI model types give you the ability to tailor a scenario to the needs of your business. With AI Builder, you can build and train your own AI model suited to your needs, or you choose from several prebuilt models that you use in PowerApps and Flow without having to build and train the model. 
+Let’s look at the different model types that are available in AI Builder, and how they are classified. Later, we’ll look at common business scenarios and the model types that are suited to them.
 
-### Custom AI models
+| **Model type** | **Category** | **Build type** |
+| ----- | ----- | ----- |
+[Category classification](text-classification-overview.md)|Text|[Prebuilt](prebuilt-category-classification.md) and Custom
+[Entity extraction](entity-extraction-overview.md)|Text|[Prebuilt](prebuilt-entity-extraction.md) and Custom
+[Key phrase extraction](prebuilt-key-phrase.md)|Text|Prebuilt
+[Language detection](prebuilt-language-detection.md)|Text|Prebuilt
+[Sentiment analysis](prebuilt-sentiment-analysis.md)|Text|Prebuilt
+[Text translation](prebuilt-text-translation.md)|Text|Prebuilt
+[Prediction](prediction-overview.md)|Prediction|Custom
+[Form processing](form-processing-model-overview.md)|Vision|Custom
+[Object detection](object-detection-overview.md)|Vision|Custom
+[Business card reader](prebuilt-business-card.md)|Vision|Prebuilt
+[Text recognition](prebuilt-text-recognition.md)|Vision|Prebuilt
+[Receipt processing](prebuilt-receipt-processing.md)|Vision|Prebuilt
 
-Custom AI models are models that you build choosing a model type in AI Builder, and that you train to perform a specific AI task using your data. You select the model type, provide the data, build and train your own unique AI model, and then use or share the model. Build your own custom AI model using these AI model types:
+AI Builder models are classified under the type of AI that they use (category), and the built type of the model. The build type indicates whether it’s a customizable model that you have to build, train, and publish for your intended use, or whether it is a prebuilt model  that’s ready to use out of the box. Generally speaking, custom AI Builder models are suited for applications where you are working with data that’s unique to your business. Prebuilt models are available for scenarios that are common across different types of businesses. 
 
-| AI model type  | Category  | Start here
-|---|---|---|
-| Prediction   | Prediction  | [Overview of prediction model](prediction-overview.md)
-| Form processing  | Vision   | [Overview of form classification model](form-processing-model-overview.md)
-| Object detection  | Vision   | [Overview of object detection model](object-detection-overview.md)
-| Text classification  |Language   | [Overview of text classification model](text-classification-overview.md)
+## Common business scenarios
 
-### Prebuilt AI models
+The different types of AI models that AI Builder provides put a broad range of AI capabilities in the hands of businesses without the need for coding or data expertise. But if you’re not a developer or data scientist, you may be wondering what the practical applications of these model types are. While the possibilities are endless, here are some common business scenarios, and the AI model types that are suited to addressing them:
 
-AI Builder features prebuilt AI models that you can use in PowerApps and Flow. With a prebuilt model, you get an AI model that Microsoft has built and trained to perform a specific task. You don't need to build or train the model yourself to use it. The following prebuilt AI models are available:
+| **Business scenario** | **Model type** |
+| ----- | ----- |
+Automate customer application processing|Form processing
+Automate expense reports|Receipt processing
+Categorize user feedback based on their focus | Category classification
+Extract insights from product reviews | Entity extraction
+Identify language of text | Language detection
+Identify and classify customer feedback|Sentiment analysis
+Translate support requests into your language|Text translation
+Identify fraudulent transactions|Prediction
+Get alerted to social media posts referencing your brand | Key phrase extraction
+Automate contact list |Business card reader
+Automate inventory taking|Object detection
+Take a photo of text and save it to a database |Text recognition
 
-| AI model type | Category |Start here |
-|--------|--------|--------|
-|Business card reader |Vision | [Overview of business card reader](prebuilt-business-card.md)
-|Key phrase extraction |Language | [Overview of key phrase extraction](prebuilt-key-phrase.md)
-|Language detection |Language | [Overview of language detection](prebuilt-language-detection.md)
-|Text recognition |Vision | [Overview of text recognition](prebuilt-text-recognition.md)
-|Sentiment analysis |Language | [Overview of sentiment analysis](prebuilt-sentiment-analysis.md)
-
-### Related topic
+### Next step
 
 [Build a model](build-model.md)
+
+### See also
+
+[Feature availability by region](availability-region.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
