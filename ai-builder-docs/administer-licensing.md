@@ -63,6 +63,10 @@ More information about licenses and license management in PowerApps is available
 
 For more information about trial environments in PowerApps read this [topic](/power-platform/admin/trial-environments)
 
+### What can I do with the 5,000 AI credits included in the per user plan with attended RPA?
+
+Each user license grants you 5000 credits, allowing you to assess the capabilities in AI Builder. For instance, you could use these credits to extract data from a few documents with *form processing* or perform hundreds of basic OCR extractions with *text recognition*.
+
 ### More information
 
 [Microsoft PowerApps and Microsoft Flow Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=2085130&clcid=0x409)
