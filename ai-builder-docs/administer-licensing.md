@@ -62,6 +62,13 @@ What you get with an AI Builder trial license:
 
 AI Builder features that are in preview release status are free to use. You don't need to obtain a license to use AI Builder preview features.
 
+### Get or renew your trial license
+
+To get or renew your AI Builder trial license, you need to go the AI Builder build page within either PowerApps or Power Automate.
+
+> [!div class="mx-imgBorder"]
+> ![Get or renew your trial license](media/add-renew-license.png "Get or renew your trial license")
+
 ### After the trial expires
 
 Your AI Builder trial license expires after 30 days.
