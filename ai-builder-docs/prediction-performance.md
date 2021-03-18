@@ -5,14 +5,12 @@ author: Dean-Haas
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 11/06/2020
+ms.date: 03/19/2021
 ms.author: norliu
-ms.reviewer: kvivek
+ms.reviewer: v-aangie
 ---
 
 # Prediction model performance
-
-[!INCLUDE [cc-data-platform-banner](includes/cc-data-platform-banner.md)]
 
 After each training, AI Builder uses the test data set to evaluate the quality and fit of the new model. A summary page for your model shows your model training result. These results are expressed as a performance grade of A, B, C, or D.
 
@@ -96,7 +94,7 @@ For training details, select **See details** on the model's grade box. On the **
 
 #### Accuracy score
 
-AI Builder calculates the accuracy score for your model based on prediction result of the test data set. Before training, AI Builder separates your dataset into separate training data and testing data sets. And after training, AI Builder applies your AI model to the testing data set, and then calculates your accuracy score. For example: if your test data set has 200 records, and AI Builder correctly predicts 192 of them, AI Builder shows an accuracy score of 96%.
+AI Builder calculates the accuracy score for your model based on prediction result of the test dataset. Before training, AI Builder separates your dataset into separate training data and testing data sets. And after training, AI Builder applies your AI model to the testing dataset, and then calculates your accuracy score. For example: if your test dataset has 200 rows, and AI Builder correctly predicts 192 of them, AI Builder shows an accuracy score of 96 percent.
 
 For more information, see [Evaluate your model](manage-model.md#evaluate-your-model).
 
@@ -111,7 +109,7 @@ On the **Summary** tab, the following performance information is available
 * Training date
 * Data source
 * Historical outcome
-* Entity list used to do prediction.
+* Table list used to do prediction.
 
 ## Improve your prediction model performance
 
@@ -130,11 +128,11 @@ This helps show whether your model is trained as you expect. For example, if you
 
 ### Add more data
 
-The minimum requirement for training data is 50 records, but this doesn't mean 50 data records will train a highly predictive model. Try to provide 1,000 or more data records, correctly labeled, with a realistic distribution between options.
+The minimum requirement for training data is 50 rows, but this doesn't mean 50 data rows will train a highly predictive model. Try to provide 1,000 or more data rows, correctly labeled, with a realistic distribution between options.
 
 ### Check your data distribution
 
-For example, if you're using two option labels of *Yes* or *No*, and most of your data records only have *Yes* in this column, it's hard for your model to learn from this data. Try to have a distribution of options in your data that roughly reflects the distribution of the options you might expect to see. For example, if you're looking at data columns for *cat_owner* and *dog_owner*, use a data distribution somewhere around 50&nbsp;percent. If you're looking at fraudulent transactions, use a more imbalanced distribution&mdash;perhaps 95&nbsp;percent to 5&nbsp;percent. Look to industry standards for this type of information if you don't know what to expect.
+For example, if you're using two option labels of *Yes* or *No*, and most of your data rows only have *Yes* in this column, it's hard for your model to learn from this data. Try to have a distribution of options in your data that roughly reflects the distribution of the options you might expect to see. For example, if you're looking at data columns for *cat_owner* and *dog_owner*, use a data distribution somewhere around 50&nbsp;percent. If you're looking at fraudulent transactions, use a more imbalanced distribution&mdash;perhaps 95&nbsp;percent to 5&nbsp;percent. Look to industry standards for this type of information if you don't know what to expect.
 
 ### Add more column
 

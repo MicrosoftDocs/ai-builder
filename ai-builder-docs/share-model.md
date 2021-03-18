@@ -5,14 +5,12 @@ author: Antoine2F
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/02/2021
+ms.date: 03/19/2021
 ms.author: antode
 ms.reviewer: v-aangie
 ---
 
 # Share your AI model
-
-[!INCLUDE [cc-data-platform-banner](includes/cc-data-platform-banner.md)]
 
 When you create and publish AI models in AI Builder, they're private&mdash;only you can run them. This allows you to test them and use them within apps or flows.
 
@@ -20,7 +18,7 @@ If you want other users to use your model in apps or flows, or even use a direct
 
 ## Share action
 
-The share action is available on the **Models** page in AI Builder for each model where you're the owner. It's also available for the system administrator in the environment, or for any security role that has Share permissions on AI Builder system entities.
+The share action is available on the **Models** page in AI Builder for each model where you're the owner. It's also available for the system administrator in the environment, or for any security role that has Share permissions on AI Builder system tables.
 
 The share action is also available on the model detail screen in AI Builder, with the same conditions.
 

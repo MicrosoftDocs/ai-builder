@@ -5,14 +5,12 @@ author: paulnog
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 11/18/2020
+ms.date: 03/19/2021
 ms.author: paulnog
 ms.reviewer: kvivek
 ---
 
 # Before you build a category classification model
-
-[!INCLUDE [cc-data-platform-banner](includes/cc-data-platform-banner.md)]
 
 Before you build your category classification model, make sure your data is in Microsoft Dataverse and it's structured in the correct format.
 
@@ -21,8 +19,8 @@ If you don't have training data and want to try AI Builder category classificati
 ## Prerequisites
 
 - Training data should be in a Dataverse table.
-- Make sure your administrator has assigned you a security role with Read privilege to training data.
-- You have appropriate permissions to create entities in your Dataverse environment.
+- Make sure your administrator has assigned you a security role with read privilege to training data.
+- You have appropriate permissions to create tables in your Dataverse environment.
 - AI Builder category classification supports the following languages: English, French, German, Dutch, Italian, Spanish, and Portuguese. If you try to classify text items in other languages, your model might not work properly. 
 
 ## Data format
@@ -58,13 +56,13 @@ Note that tags data is separated by using a vertical bar or pipe ( \| ).
 
 1. Sign in to [Power Apps](https://make.powerapps.com/), and then select the down arrow to expand **Data** in the left pane.
 
-2. Under **Data**, select **Entities**, and then select **Get data** at the top of the screen.
+2. Under **Data**, select **Tables**, and then select **Data** > **Get data** at the top of the screen.
 
     If you need to create a new table, see [Create a custom table](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-create-entity).
 
 3. In the list of data sources, select **Excel**.
 
-4. Select **Browse** to upload your Excel workbook, and then select the sheet or sheets your data is in.
+4. Select **Browse OneDrive** to upload your Excel workbook, select **Next**, and then select your sheet or sheets your data is in.
 
     You might have to allow third-party cookies for your browser to perform this step.
 
@@ -72,9 +70,11 @@ Note that tags data is separated by using a vertical bar or pipe ( \| ).
 
 1. Replace the vertical bar ( \| ) character with a semicolon ( ; ), and then select **OK**.
 
-1. Now that your data is in the correct format, select **Next** > **Load to new entity** (or **Next** > **Load to existing entity** if you already have a target table).
+1. Now that your data is in the correct format, select **Next** > **Load to new table** (or **Next** > **Load to existing table** if you already have a target table).
 
 1. Use the drop-down menu to select your target table, and then map your columns to the destination columns.
+
+   <!--replace screenshot-->
 
     > [!div class="mx-imgBorder"]
     > ![Map your columns to the destination fields](media/create-text-model-map-columns.png "Map your columns to the destination fields")

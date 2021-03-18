@@ -5,9 +5,9 @@ author: Dean-Haas
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/02/2020
+ms.date: 03/19/2021
 ms.author: rajvirk
-ms.reviewer: kvivek
+ms.reviewer: v-aangie
 ---
 
 # Use your prediction model
@@ -24,7 +24,7 @@ To run your prediction model, go to the model settings page and select **Run now
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-You can use the schedule retrain feature to train prediction models so that their performance doesn't degrade over time. Users can use the schedule run feature to infer records based on their own conditions and app use. This helps users to use AI Builder units more effectively.
+You can use the schedule retrain feature to train prediction models so that their performance doesn't degrade over time. Users can use the schedule run feature to infer rows based on their own conditions and app use. This helps users to use AI Builder units more effectively.
 
 For example, if your data changes weekly, you can schedule the model to train on a weekly basis. It doesn't make sense to keep inferring the same data every day, so you'd probably schedule weekly inference to align with the training schedule.
 
