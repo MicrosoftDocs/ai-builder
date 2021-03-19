@@ -66,7 +66,9 @@ Note that tags data is separated by using a vertical bar or pipe ( \| ).
 
     You might have to allow third-party cookies for your browser to perform this step.
 
-6. On the **Edit Queries** screen, select **Transform table** > **Use first row as headers**. Next, select the **Tags** column, and then select **Transform Column** > **Replace values**.
+6. On the **Power Query** screen, select **Transform table** > **Transform** > **Use first row as headers**. 
+
+1. Select the **Tags** column, and then select **Transform Column** > **Replace values**.
 
 1. Replace the vertical bar ( \| ) character with a semicolon ( ; ), and then select **OK**.
 

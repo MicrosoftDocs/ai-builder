@@ -5,18 +5,16 @@ author: amina196
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 11/06/2020
+ms.date: 03/19/2021
 ms.author: aminab
 ms.reviewer: kvivek
 ---
 
 # Build your object detection model
 
-[!INCLUDE [cc-data-platform-banner](includes/cc-data-platform-banner.md)]
-
-1. Sign in to [Power Apps](https://make.powerapps.com), and then in the left pane, select the down arrow to expand **AI Builder**. Select the **Object Detection** AI model type.
-
-2. Enter a name for your model, and then select **Create**.
+1. Sign in to [Power Apps](https://make.powerapps.com), and then select **AI Builder** > **Build**.
+1. Select the **Object Detection** AI Builder AI model type.
+1. Enter a name for your model, and then select **Create**.
 
 ## Select the model domain
 
@@ -27,7 +25,7 @@ The first thing you'll do when you create an AI Builder object detection model i
 - **Brand logo:** Optimized for logo detection.
 
 > [!NOTE]
-> Domain specific object detection uses more AI Builder credits than common object detection, and therefore costs more to use. To estimate the impact of using domain specific vs. common object on your organization, use the [AI Builder calculator](https://powerapps.microsoft.com/ai-builder-calculator/).
+> Domain specific object detection uses more AI Builder credits than common object detection, and therefore costs more to use. To estimate the impact of using domain specific versus common object on your organization, use the [AI Builder calculator](https://powerapps.microsoft.com/ai-builder-calculator/).
 
 ## Provide object names
 
@@ -36,12 +34,12 @@ Next, provide the names of the items you want to detect. You can provide up to 5
 There are two ways to provide object names:
 
 - Enter object names directly in AI Builder.
-- Select names from your Microsoft Dataverse entity.
+- Select names from your Microsoft Dataverse table.
 
 In the top action bar, select the input mode you want to use.
 
 > [!IMPORTANT]
-> If you change input mode, you lose any existing object names. In other words: if you type object names in AI Builder and then change to selecting from a database, all object names typed and their associated bounding boxes are deleted from your model. This is not recoverable. The same applies if you switch from selecting object names from a database to typing object names.
+> If you change input mode, you lose any existing object names. In other words, if you type object names in AI Builder and then change to selecting from a database, all object names typed and their associated bounding boxes are deleted from your model. This is not recoverable. The same applies if you switch from selecting object names from a database to typing object names.
 
 ### Enter names in AI Builder
 
@@ -54,9 +52,9 @@ To provide object names directly in AI Builder, just enter the name in the space
 
 If your data isn't in Dataverse, see [Prerequisites](build-model.md#prerequisites) for information about how to import data into Dataverse.
 
-1. Select **Select from database** to see entities in your environment.
-2. In the right-side pane, find the entity that contains your object names. Look through the list, or use the search bar, and then select that entity.
-3. Locate the column that contains the names of your objects. Select that column and then select **Select Field** at the bottom of the screen.
+1. Select **Select from database** to see tables in your environment.
+2. In the right-side pane, find the table that contains your object names. Look through the list, or use the search bar, and then select that table.
+3. Locate the column that contains the names of your objects. Select that column and then choose **Select Field** at the bottom of the screen.
 4. From the list of strings in your table, select the ones that represent the objects you want to detect. 
 5. Select **Next** at the bottom of the screen.
 

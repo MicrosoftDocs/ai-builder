@@ -5,7 +5,7 @@ author: JoeFernandezMS
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/31/2019
+ms.date: 03/19/2021
 ms.author: jofernan
 ms.reviewer: kvivek
 ---
@@ -14,7 +14,7 @@ ms.reviewer: kvivek
 
 ## Languages supported
 
-Currently form processing works with documents in **English**.  
+Currently form processing works with documents in English.  
 
 ## Requirements
 
@@ -23,7 +23,7 @@ Form processing works on input documents that meet the following requirements:
 - JPG, PNG, or PDF format (text or scanned). Text-embedded PDFs are better, because there won't be any errors in character extraction and location.
 - If your PDFs are password-locked, you must remove the lock before submitting them.
 - The combined file size of the documents used for training per collection must not exceed 50 MB, and PDF documents shouldn't have more than 500 pages. 
-- For images, dimensions must be between 50 &times; 50 and 10000 &times; 10000 pixels.
+- For images, dimensions must be between 50 &times; 50 and 10,000 &times; 10,000 pixels.
 - For PDF files, dimensions must be at most 17 x 17 inches, corresponding to Legal or A3 paper sizes and smaller.
 - If scanned from paper documents, scans should be high-quality images.
 - Must use the Latin alphabet (English characters).

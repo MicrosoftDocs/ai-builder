@@ -5,14 +5,12 @@ author: paulnog
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 11/18/2020
+ms.date: 03/18/2021
 ms.author: paulnog
 ms.reviewer: kvivek
 ---
 
 # Create a category classification model
-
-[!INCLUDE [cc-data-platform-banner](includes/cc-data-platform-banner.md)]
 
 Now that you have your training data in Microsoft Dataverse, you can create a new model and configure it.
 

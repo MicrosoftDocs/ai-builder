@@ -5,14 +5,14 @@ author: JoeFernandezMS
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/31/2019
+ms.date: 03/19/2021
 ms.author: Jofernan
 ms.reviewer: kvivek
 ---
 
 # Use sample data to do form processing
 
-To explore the possibilities of form processing, you can get started by building and training a form-processing model that uses sample invoices.
+To explore the possibilities of form processing, you can get started by building and training a form processing model that uses sample invoices.
 
 
 ## Get the sample data
@@ -21,12 +21,12 @@ Download [AI Builder Form Processing Sample Data.zip](https://go.microsoft.com/f
 
 ## Guided experience on Microsoft Learn
 
-The [Get started with Form processing in AI Builder](https://docs.microsoft.com/learn/modules/get-started-with-form-processing/2-create-first-model) in Microsoft Learn walks you through each step of the model creation process using the sample data.
+The [Get started with form processing in AI Builder](https://docs.microsoft.com/learn/modules/get-started-with-form-processing/2-create-first-model) in Microsoft Learn walks you through each step of the model creation process using the sample data.
 
 ### See also
 
-[Use a form-processing model in Power Automate](form-processing-model-in-flow.md)  
-[Use the form-processor component in Power Apps](form-processor-component-in-powerapps.md)
+[Use a form processing model in Power Automate](form-processing-model-in-flow.md)  
+[Use the form processor component in Power Apps](form-processor-component-in-powerapps.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

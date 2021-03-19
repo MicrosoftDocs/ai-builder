@@ -5,7 +5,7 @@ author: amina196
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 02/04/2021
+ms.date: 03/19/2021
 ms.author: aminab
 ms.reviewer: kvivek
 ---
@@ -47,7 +47,7 @@ Use images of your objects in front of different backgrounds&mdash;for example, 
 
 ### Lighting
 
-Use training images that have different lighting, especially if the images used for detection might have different lighting. For example, include images images taken with flash, high exposure, and so on. It's also helpful to include images with varied saturation, hue, and brightness. Your device camera probably lets you control these settings.
+Use training images that have different lighting, especially if the images used for detection might have different lighting. For example, include images taken with flash, high exposure, and so on. It's also helpful to include images with varied saturation, hue, and brightness. Your device camera probably lets you control these settings.
 
 > [!div class="mx-imgBorder"]
 > ![Image lighting](media/image-lighting.png "Image lighting")
