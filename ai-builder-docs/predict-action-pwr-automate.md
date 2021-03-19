@@ -1,14 +1,14 @@
 ---
 title: Use predict action in Power Automate -  AI Builder | Microsoft Docs
-description: Provides information about how to use an object detection model in Power Automate
-author: Antonio-Rodrigues
+description: Provides information about how to use the predict action in Power Automate
+author:a Antonio-Rodrigues
 manager: cdbellar
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
 ms.date: 03/19/2021
 ms.author: antrod
-ms.reviewer: kvivek
+ms.reviewer: v-aangie
 ---
 
 # Use the predict action in Power Automate

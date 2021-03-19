@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 03/19/2021
 ms.author: paulnog
-ms.reviewer: kvivek
+ms.reviewer: v-aangie
 ---
 
 # Before you build a category classification model
@@ -44,7 +44,7 @@ Dataverse includes a powerful set of connectors to help you import data from man
 
 As an example, let's look at how to import training data from an Excel workbook. This example uses a file containing what's shown in the following table.
 
-|   |   |   |
+| Number  | Tag text  | Tags  |
 |---|---|---|
 |326589    |It's a powerful tool that helps make quick changes   |Good \| Quick \| Powerful |
 |326590    |This program is great and has lots of potential. The user interface is intuitive and makes it easy to filter results. However, when I try to edit a link, I get an error.    |Potential, Easy \| Good, Ease of Use \| filters \| bug  |
@@ -52,7 +52,7 @@ As an example, let's look at how to import training data from an Excel workbook.
 |326592    |Easy to view data        |Easy \| Ease of use                                |
 |326593    |I like how you made feature X easy to use. This reduces many complexities when I want to onboard new customers. | Easy \|  Good \| Feature X                             |
 
-Note that tags data is separated by using a vertical bar or pipe ( \| ).
+Note that tags data is separated by using a vertical bar or pipe ( | ).
 
 1. Sign in to [Power Apps](https://make.powerapps.com/), and then select the down arrow to expand **Data** in the left pane.
 
@@ -62,7 +62,7 @@ Note that tags data is separated by using a vertical bar or pipe ( \| ).
 
 3. In the list of data sources, select **Excel**.
 
-4. Select **Browse OneDrive** to upload your Excel workbook, select **Next**, and then select your sheet or sheets your data is in.
+4. Select **Browse OneDrive** to upload your Excel workbook, select **Next**, and then select the sheet or sheets your data is in.
 
     You might have to allow third-party cookies for your browser to perform this step.
 
@@ -70,7 +70,7 @@ Note that tags data is separated by using a vertical bar or pipe ( \| ).
 
 1. Select the **Tags** column, and then select **Transform Column** > **Replace values**.
 
-1. Replace the vertical bar ( \| ) character with a semicolon ( ; ), and then select **OK**.
+1. Replace the vertical bar ( | ) character with a semicolon ( ; ), and then select **OK**.
 
 1. Now that your data is in the correct format, select **Next** > **Load to new table** (or **Next** > **Load to existing table** if you already have a target table).
 

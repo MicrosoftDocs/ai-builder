@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 03/19/2021
 ms.author: aminab
-ms.reviewer: kvivek
+ms.reviewer: v-aangie
 ---
 
 # Use sample data to do category classification

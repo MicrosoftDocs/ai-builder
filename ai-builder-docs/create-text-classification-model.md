@@ -5,9 +5,9 @@ author: paulnog
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/18/2021
+ms.date: 03/19/2021
 ms.author: paulnog
-ms.reviewer: kvivek
+ms.reviewer: v-aangie
 ---
 
 # Create a category classification model

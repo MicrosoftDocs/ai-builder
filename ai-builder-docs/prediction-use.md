@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 03/19/2021
 ms.author: rajvirk
-ms.reviewer: kvivek
+ms.reviewer: v-aangiek
 ---
 
 # Use your prediction model

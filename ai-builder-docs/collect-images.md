@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 03/19/2021
 ms.author: aminab
-ms.reviewer: kvivek
+ms.reviewer: v-aangie
 ---
 
 # Collect images
@@ -79,7 +79,7 @@ To correct this, use the above guidance on training with more varied images: pro
 
 You can use [Trove](https://www.microsoft.com/ai/trove?activetab=pivot1:primaryr3) to gather images for your projects. Trove is an app that connects you directly with photo takers, allowing you to collect more relevant and accurate photos. Using Trove, you can post your project descriptions, outline the types of photos you are looking for, and only approve the photos that you want. Trove provides licensing and privacy frameworks, so you can collect high quality data responsibly and safely. 
 
-You can sign up for Trove [here](http://aka.ms/t-aib).
+To use Trove, [sign up and add your AI project](https://aka.ms/t-aib).
 
 ### Next step
 
