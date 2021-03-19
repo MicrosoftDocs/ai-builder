@@ -1,5 +1,5 @@
 - name: AI Builder documentation
-  href: /ai-builder/
+  href: ./index.yml
 - name: Get started
   items:
   - name: What is AI Builder?

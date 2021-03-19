@@ -35,7 +35,7 @@ Using AI is easy thanks to integration with Power Apps and Power Automate. Addin
 
 Getting started with AI Builder is easy thanks to the learning resources and information that we've made available:
 
-- [AI Builder learning paths and modules](https://aka.ms/learn-aib)
+- [AI Builder learning paths and modules](/learn/browse/?expanded=power-platform&products=ai-builder)
 - [AI Builder community forums](https://go.microsoft.com/fwlink/?linkid=2092048)
 - [AI Builder hands-on labs](https://go.microsoft.com/fwlink/?linkid=2103171)
 - [Work with sample data](samples.md)

@@ -83,7 +83,7 @@ For numerical prediction, AI Builder uses the R-squared statistical measure to c
 For training details, select **See details** on the model's grade box. On the **Performance** tab, the following information is available:
 
 >[!NOTE]
- >For information about additional features planned for this area, see [release plans](https://docs.microsoft.com/power-platform-release-plan/2020wave1/ai-builder/).
+ >For information about additional features planned for this area, see [release plans](/power-platform-release-plan/2020wave1/ai-builder/).
 
 
 * Performance grade
@@ -102,7 +102,7 @@ For more information, see [Evaluate your model](manage-model.md#evaluate-your-mo
 
 For numerical prediction, AI Builder calculates an r-squared score after each training. This score measures your model’s ‘goodness of fit’, and is used to determine your model’s performance grade.
 
-Let's say you're predicting the number of days to fulfill, ship, and deliver an order. The model predicts a set of numbers. The r-squared value is based on the distances between predicted values and actual values in your training data. This is expressed as a number between 0 – 100%, with higher values indicating the predicted value is closer to the real value. Typically, a higher score means the model performs better. Remember though, that perfect or near-perfect scores ([overfit models](https://docs.microsoft.com/ai-builder/manage-model#overfit-models)) are usually indicative of a problem with your training data.
+Let's say you're predicting the number of days to fulfill, ship, and deliver an order. The model predicts a set of numbers. The r-squared value is based on the distances between predicted values and actual values in your training data. This is expressed as a number between 0 – 100%, with higher values indicating the predicted value is closer to the real value. Typically, a higher score means the model performs better. Remember though, that perfect or near-perfect scores ([overfit models](./manage-model.md#overfit-models)) are usually indicative of a problem with your training data.
 
 On the **Summary** tab, the following performance information is available
 

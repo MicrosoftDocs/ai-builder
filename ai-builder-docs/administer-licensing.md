@@ -35,11 +35,11 @@ The  AI Builder capacity add-on can be purchased by a billing administrator in t
 
 The <a href="https://powerapps.microsoft.com/ai-builder-calculator/" target="_blank">AI Builder calculator</a> helps estimate the required add-on capacity based on your estimated consumption.
 
-Some Microsoft products include some AI Builder capacity. Your environment admin can check entitlement in the Power Platform admin center in [Capacity add-ons](https://docs.microsoft.com/power-platform/admin/capacity-add-on). When this amount is not enough, you can complete it with 1 or several AI Builder capacity add-ons.
+Some Microsoft products include some AI Builder capacity. Your environment admin can check entitlement in the Power Platform admin center in [Capacity add-ons](/power-platform/admin/capacity-add-on). When this amount is not enough, you can complete it with 1 or several AI Builder capacity add-ons.
 
 ### Allocate capacity
 
-Once entitled to AI Builder capacity, an environment administrator has to allocate capacity for AI Builder to the environment before you can use it. Information about how to allocate capacity in the Power Platform admin center is available in [Capacity add-ons](https://docs.microsoft.com/power-platform/admin/capacity-add-on).
+Once entitled to AI Builder capacity, an environment administrator has to allocate capacity for AI Builder to the environment before you can use it. Information about how to allocate capacity in the Power Platform admin center is available in [Capacity add-ons](/power-platform/admin/capacity-add-on).
 
 ## Trial licenses
 
@@ -67,6 +67,11 @@ AI Builder features that are in preview release status are free to use. You don'
 Your AI Builder trial license expires after 30 days.
 
 To continue using AI Builder, purchase AI Builder add-on capacity and allocate AI Builder capacity to your environments. You may also be able to extend the trial period. Trials can be extended a limited number of times. Extension can only occur after the trial expires.
+
+To renew your AI Builder trial license, sign in to Power Apps or Power Automate, select **AI Builder** > **Build**, and then select **Extend trial** in the banner on the top.
+
+> [!div class="mx-imgBorder"]
+> ![Extend your trial license](media/extend-trial.png "Extend your trial license")
 
 ### Trial capacity
 
@@ -116,11 +121,17 @@ After your AI Builder trial license expires, or if you exceed capacity:
 
 #### How do I convert my trial environment to a production environment?
 
-For more information, see [About trial environments](https://docs.microsoft.com/power-platform/admin/trial-environments).
+For more information, see [About trial environments](/power-platform/admin/trial-environments).
 
 #### Can I block users in my organization from signing up for an AI Builder trial?
 
 Any individual can try out the features of AI Builder for 30 days and incur no costs to your company. This option is available to any user in a tenant and cannot be disabled by an admin.
+
+### What can I do with the 5,000 AI credits included in the per user plan with attended RPA?
+
+Each user license grants you 5000 credits, allowing you to assess the capabilities in AI Builder. For instance, you could use these credits to extract data from a few documents with *form processing* or perform hundreds of basic OCR extractions with *text recognition*.
+
+### More information
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -61,7 +61,7 @@ Power Automate provides a template that enables you to analyze incoming Dynamics
 
 1. Create an attribute in your Email Messages table in which to save the sentiment analysis results.
 
-   For information about how to create an attribute, see [Create and edit column for Dataverse using Power Apps portal](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-field-portal).
+   For information about how to create an attribute, see [Create and edit column for Dataverse using Power Apps portal](/powerapps/maker/common-data-service/create-edit-field-portal).
 
 1. Sign in to [Power Automate](https://flow.microsoft.com/signin).
 1. In the left pane, select **Templates**, and then search for **AI Builder sentiment**.
