@@ -21,7 +21,7 @@ Download [AI Builder Form Processing Sample Data.zip](https://go.microsoft.com/f
 
 ## Guided experience on Microsoft Learn
 
-The [Get started with form processing in AI Builder](https://docs.microsoft.com/learn/modules/get-started-with-form-processing/2-create-first-model) in Microsoft Learn walks you through each step of the model creation process using the sample data.
+The [Get started with Form processing in AI Builder](/learn/modules/get-started-with-form-processing/2-create-first-model) in Microsoft Learn walks you through each step of the model creation process using the sample data.
 
 ### See also
 

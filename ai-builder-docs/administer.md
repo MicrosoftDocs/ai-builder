@@ -12,11 +12,11 @@ ms.reviewer: kvivek
 
 # Administer AI Builder
 
-Microsoft Power Platform administrators can use the [Power Apps admin center](https://admin.powerapps.com) and the [Power Platform admin center](https://admin.powerplatform.microsoft.com) to manage environments and settings for Power Apps and AI Builder. More information: [Power Platform administrator guide](https://docs.microsoft.com/power-platform/admin/admin-documentation)
+Microsoft Power Platform administrators can use the [Power Apps admin center](https://admin.powerapps.com) and the [Power Platform admin center](https://admin.powerplatform.microsoft.com) to manage environments and settings for Power Apps and AI Builder. More information: [Power Platform administrator guide](/power-platform/admin/admin-documentation)
 
 ## Supported regions
 
-Your AI model is deployed in the region that hosts the environment. For example, if your environment is created in the Europe region, your model is deployed in datacenters in Europe<!--Suggested to avoid the question of whether to use "European."-->. More information: [Environments overview](https://docs.microsoft.com/power-platform/admin/environments-overview)<!--note from editor: I used the stripped-down cross-reference wording because the introduction to this cross-reference didn't add anything new. ("For an overview... see Overview...") The title of the article you're linking to already said it all.-->
+Your AI model is deployed in the region that hosts the environment. For example, if your environment is created in the Europe region, your model is deployed in datacenters in Europe<!--Suggested to avoid the question of whether to use "European."-->. More information: [Environments overview](/power-platform/admin/environments-overview)<!--note from editor: I used the stripped-down cross-reference wording because the introduction to this cross-reference didn't add anything new. ("For an overview... see Overview...") The title of the article you're linking to already said it all.-->
 
 The availability (release status) of AI Builder is dependent on your region. For a breakdown of AI Builder feature availability by region, see [Feature availability by region](availability-region.md). 
 
@@ -46,11 +46,11 @@ To control AI Builder preview feature availability:
   - AI Builder components are available again.
   - Components function as they did before the feature was disabled (assuming nothing else has changed).
 
-For more information about enabling or disabling features in the Power Platform admin center, see [Manage feature settings](https://docs.microsoft.com/power-platform/admin/settings-features).
+For more information about enabling or disabling features in the Power Platform admin center, see [Manage feature settings](/power-platform/admin/settings-features).
 
 ## Backup and restore
 
-Dataverse has backup and restore capabilities to help protect your apps' data, providing continuous availability of service. System administrators and delegated admin users can use the standard capabilities described here: [Back up and restore environments](https://docs.microsoft.com/power-platform/admin/backup-restore-environments).
+Dataverse has backup and restore capabilities to help protect your apps' data, providing continuous availability of service. System administrators and delegated admin users can use the standard capabilities described here: [Back up and restore environments](/power-platform/admin/backup-restore-environments).
 
 - Backup and restore is fully supported for prediction, object detection, form processing and prebuilt models.
 

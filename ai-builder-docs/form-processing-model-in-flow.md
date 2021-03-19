@@ -73,7 +73,7 @@ To illustrate this procedure, we use the following example where we have trained
 
 ### Remove currency symbols (€, $,…) in a form processing output in Power Automate
 
-Let’s imagine that the *Total* value extracted by the form processing model has a currency symbol, for example: $54. To remove the *$* sign, or any other symbols you want to omit, use the [replace](https://docs.microsoft.com/azure/logic-apps/workflow-definition-language-functions-reference#replace) expression to remove it. Here is how to do it:
+Let’s imagine that the *Total* value extracted by the form processing model has a currency symbol, for example: $54. To remove the *$* sign, or any other symbols you want to omit, use the [replace](/azure/logic-apps/workflow-definition-language-functions-reference#replace) expression to remove it. Here is how to do it:
 
 `replace(<form processing output>, '$', '')`
 
@@ -82,7 +82,7 @@ Let’s imagine that the *Total* value extracted by the form processing model ha
 
 ### Convert a form processing output string to a number in Power Automate
 
-AI Builder form processing returns all extracted values as strings. If the destination where you want to save a value extracted by AI Builder form processing requires a number, you can convert a value to number using the [int](https://docs.microsoft.com/azure/logic-apps/workflow-definition-language-functions-reference#int) or [float](https://docs.microsoft.com/azure/logic-apps/workflow-definition-language-functions-reference#float) expressions. Use int if the number has no decimals, use float if instead the number has decimals. Here is how to do it:
+AI Builder form processing returns all extracted values as strings. If the destination where you want to save a value extracted by AI Builder form processing requires a number, you can convert a value to number using the [int](/azure/logic-apps/workflow-definition-language-functions-reference#int) or [float](/azure/logic-apps/workflow-definition-language-functions-reference#float) expressions. Use int if the number has no decimals, use float if instead the number has decimals. Here is how to do it:
 
 `float('<form processing output>')`
 
@@ -91,7 +91,7 @@ AI Builder form processing returns all extracted values as strings. If the desti
 
 ### Remove blank spaces in a form processing output in Power Automate
 
-To remove blank spaces from output values, use the [replace](https://docs.microsoft.com/azure/logic-apps/workflow-definition-language-functions-reference#replace) function:
+To remove blank spaces from output values, use the [replace](/azure/logic-apps/workflow-definition-language-functions-reference#replace) function:
 
 `replace(<form processing output>, ' ', '')`
 
@@ -100,7 +100,7 @@ To remove blank spaces from output values, use the [replace](https://docs.micros
 
 ### Convert a form processing output string to a date in Power Automate
 
-AI Builder form processing returns all outputs as strings. If the destination where you want to save a value extracted by form processing requires to be in date format, you can convert a value that contains a date into date format by using the [formatDateTime](https://docs.microsoft.com/azure/logic-apps/workflow-definition-language-functions-reference#formatDateTime) expression. Here is how to do it:
+AI Builder form processing returns all outputs as strings. If the destination where you want to save a value extracted by form processing requires to be in date format, you can convert a value that contains a date into date format by using the [formatDateTime](/azure/logic-apps/workflow-definition-language-functions-reference#formatDateTime) expression. Here is how to do it:
 
 `formatDateTime(<form processing output>)`
 

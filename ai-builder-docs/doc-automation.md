@@ -3,7 +3,7 @@ title: Document automation toolkit -  AI Builder | Microsoft Docs
 description: Provides guidance on how to automate document processing in AI Builder.
 author: paulnog
 manager: kvivek
-ms.service: powerapps
+ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
 ms.date: 01/26/2021
@@ -27,7 +27,7 @@ You can access the [document automation toolkit](https://flow.microsoft.com/mana
 
 ## Learn about the toolkit
 
-Step-by-step instructions on how to install and use the document automation kit is available here: [Microsoft Learn: Get started with AI Builder document automation](https://docs.microsoft.com/learn/modules/get-started-ai-builder-document-automation/).
+Step-by-step instructions on how to install and use the document automation kit is available here: [Microsoft Learn: Get started with AI Builder document automation](/learn/modules/get-started-ai-builder-document-automation/).
 
 ### See also
 
