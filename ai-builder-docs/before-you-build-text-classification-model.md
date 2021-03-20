@@ -76,10 +76,10 @@ Note that tags data is separated by using a vertical bar or pipe ( | ).
 
 1. Use the drop-down menu to select your target table, and then map your columns to the destination columns.
 
-   <!--replace screenshot-->
+   <!--verify screenshot accuracy-->
 
     > [!div class="mx-imgBorder"]
-    > ![Map your columns to the destination fields](media/create-text-model-map-columns.png "Map your columns to the destination fields")
+    > ![Map your columns to the destination fields](media/create-text-model-map-columns-temp.png "Map your columns to the destination fields")
 
 1. On the **Refresh settings** page, select **Refresh manually**.
 

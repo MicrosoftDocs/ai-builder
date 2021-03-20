@@ -43,9 +43,9 @@ Get started exploring AI Builder category classification by using sample data to
     > [!div class="mx-imgBorder"]
     > ![Select tags](media/text-class-create-tags.png "Select tags")
 
-1. Choose **Select column**. Verify that the correct separator (comma) is chosen and select **Next**.
-1. Review your text and tags and select **Next**.
-1. Select **English** as the text language and then select **Next**.
-1. Review the model summary and then select **Train** to train your model.
+1. Choose **Select column**, verify that the correct separator (comma) is chosen, and then select **Next**.
+1. Review your text and tags, and select **Next**.
+1. Select **English** as the text language, and then select **Next**.
+1. Review the model summary, and then select **Train** to train your model.
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
