@@ -74,7 +74,7 @@ Note that tags data is separated by using a vertical bar or pipe ( | ).
 
 1. Now that your data is in the correct format, select **Next** > **Load to new table** (or **Next** > **Load to existing table** if you already have a target table).
 
-1. Use the drop-down menu to select your target table, and then map your columns to the destination columns.
+1. Use the drop-down menu to select your target table, and then map your columns to the destination fields.
 
    <!--verify screenshot accuracy-->
 
