@@ -1,7 +1,7 @@
 ---
 title: Use predict action in Power Automate -  AI Builder | Microsoft Docs
 description: Provides information about how to use the predict action in Power Automate
-author:a Antonio-Rodrigues
+author: Antonio-Rodrigues
 manager: cdbellar
 ms.service: aibuilder
 ms.topic: conceptual
@@ -12,7 +12,6 @@ ms.reviewer: v-aangie
 ---
 
 # Use the predict action in Power Automate
-
 
 You can use dedicated actions for each AI Builder model in Power Automate. However, the **Predict** action lets you use many AI Builder model types.
 
