@@ -85,14 +85,20 @@ When you hover over words in your documents, light blue boxes may appear. These 
 
 ### Tag tables
 
-To tag a table, draw a rectangle around the table in the document you are interested in and select the table name that it corresponds to.
+To tag a table:
 
-The content of the panel on the right will change. Select a cell from the table on the right panel and tag it on the document. Once you have tagged one cell, come back to the right panel, and select another cell to tag. 
+1. Draw a rectangle around the table in the document you are interested in, and then select the table name that it corresponds to. The content of the panel on the right will change.
 
-Repeat this process until you have tagged all rows for all the columns you are interested in. The following animation illustrates the process:
+1. Select a cell from the table on the right panel, and then tag it on the document.
+
+1. Once you have tagged one cell, come back to the right panel, and select another cell to tag.
+
+1. Repeat this process until you have tagged all rows for all the columns you are interested in.
+
+The following animation illustrates the process:
 
    > [!div class="mx-imgBorder"]
-   > !['Tag tables' animation](media/form-processing-tag-table.gif "Tag a table in a document")
+   > !['Tag table' animation](media/form-processing-tag-table.gif "Tag a table in a document")
 
 The header of a table doesn’t have to be tagged.
 
