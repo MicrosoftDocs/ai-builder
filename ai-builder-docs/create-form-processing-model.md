@@ -5,9 +5,9 @@ author: JoeFernandezMS
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 11/03/2020
+ms.date: 03/22/2021
 ms.author: jofernan
-ms.reviewer: kvivek
+ms.reviewer: a-aangie
 ---
 
 # Create a form processing model
@@ -98,7 +98,7 @@ To tag a table:
 The following animation illustrates the process:
 
    > [!div class="mx-imgBorder"]
-   > !['Tag table' animation](media/form-processing-tag-table.gif "Tag a table in a document")
+   > !['Tag tables' animation](media/form-processing-tag-table.gif "Tag a table in a document")
 
 The header of a table doesn’t have to be tagged.
 
