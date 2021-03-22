@@ -98,7 +98,7 @@ To tag a table:
 The following animation illustrates the process:
 
    > [!div class="mx-imgBorder"]
-   > !['Tag tables' animation](media/form-processing-tag-table.gif "Tag a table in a document")
+   > !['Tag table' animation](media/form-processing-tag-table.gif "Tag a table in a document")
 
 The header of a table doesn’t have to be tagged.
 
