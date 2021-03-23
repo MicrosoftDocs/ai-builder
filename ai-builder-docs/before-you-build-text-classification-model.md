@@ -54,19 +54,19 @@ As an example, let's look at how to import training data from an Excel workbook.
 
 Note that tags data is separated by using a vertical bar or pipe ( | ).
 
-1. Sign in to [Power Apps](https://make.powerapps.com/), and then select the down arrow to expand **Data** in the left pane.
+1. Sign in to [Power Apps](https://make.powerapps.com/).
 
-2. Under **Data**, select **Tables**, and then select **Data** > **Get data** at the top of the screen.
+1. Select **Data** > **Tables** in the left panel, and then select **Data** > **Get data** from the menu at the top.
 
     If you need to create a new table, see [Create a custom table](/powerapps/maker/common-data-service/data-platform-create-entity).
 
-3. In the list of data sources, select **Excel**.
+1. In the list of data sources, select **Excel**.
 
-4. Select **Browse OneDrive** to upload your Excel workbook, select **Next**, and then select the sheet or sheets your data is in.
+1. Select **Browse OneDrive** to upload your Excel workbook, select **Next**, and then select the sheet or sheets your data is in.
 
     You might have to allow third-party cookies for your browser to perform this step.
 
-6. On the **Power Query** screen, select **Transform table** > **Transform** > **Use first row as headers**. 
+1. On the **Power Query** screen, select **Transform table** > **Transform** > **Use first row as headers**.
 
 1. Select the **Tags** column, and then select **Transform Column** > **Replace values**.
 
