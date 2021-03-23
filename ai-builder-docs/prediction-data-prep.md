@@ -153,7 +153,7 @@ In the **Lookup reference** dialog box, make sure that the check box is selected
    > [!div class="mx-imgBorder"]
    > ![Lookup reference dialog box'](media/lookup-reference.png "Lookup reference dialog box")
 
-And you're done!
+And you're done! 
 
 ### Next step
 
