@@ -19,7 +19,7 @@ If you don't have training data and want to try AI Builder category classificati
 ## Prerequisites
 
 - Training data should be in a Dataverse table.
-- Make sure your administrator has assigned you a security role with read privilege to training data.
+- Make sure your administrator has assigned you a security role with **Read** privilege to training data.
 - You have appropriate permissions to create tables in your Dataverse environment.
 - AI Builder category classification supports the following languages: English, French, German, Dutch, Italian, Spanish, and Portuguese. If you try to classify text items in other languages, your model might not work properly. 
 
@@ -75,8 +75,6 @@ Note that tags data is separated by using a vertical bar or pipe ( | ).
 1. Now that your data is in the correct format, select **Next** > **Load to new table** (or **Next** > **Load to existing table** if you already have a target table).
 
 1. Use the drop-down menu to select your target table, and then map your columns to the destination fields.
-
-   <!--verify screenshot accuracy-->
 
     > [!div class="mx-imgBorder"]
     > ![Map your columns to the destination fields](media/create-text-model-map-columns-temp.png "Map your columns to the destination fields")

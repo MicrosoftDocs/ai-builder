@@ -43,7 +43,9 @@ Next, import the sample data into the table. In this example, we use the **aib_o
 
 1. Copy the URL from the address bar in your browser. In this case, the URL to copy is: https://raw.githubusercontent.com/microsoft/PowerApps-Samples/master/ai-builder/aib_onlineshopperintention.csv
 
-1. In Power Apps, select **Tables** in the left pane under Data, select **Data** > **Get data** from the menu at the top, select **Text/CSV**, and then paste the copied URL from the last step into the **File path  or URL** box.
+1. In Power Apps, select **Data** > **Tables** in the left panel, and then select **Data** > **Get data** from the menu at the top.
+
+1. Select **Text/CSV**, and then paste the copied URL from step 2 into the **File path  or URL** box.
 
 1. Set the following properties:
 
@@ -105,7 +107,7 @@ And you're done!
 
 1. Select **Next** until you get to the **Map Record Types** screen.
 
-1. Select **BC Customer** from the drop-down menu, and then select **Next**. Map the columns as shown in the following table.<!--Style Guide wants it to be "ZIP code." Would changing it break anything? -->
+1. Select **BC Customer** from the drop-down menu, and then select **Next**. Map the columns as shown in the following table.
 
     |**Source column**|**Map to**|
     |:-----|:-----|
@@ -156,6 +158,5 @@ And you're done!
 ### Next step
 
 [Create a prediction model](prediction-create-model.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
