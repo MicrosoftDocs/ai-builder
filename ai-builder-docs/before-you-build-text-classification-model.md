@@ -44,7 +44,7 @@ Dataverse includes a powerful set of connectors to help you import data from man
 
 As an example, let's look at how to import training data from an Excel workbook. This example uses a file containing what's shown in the following table.
 
-| Number  | Tag text  | Tags  |
+| Comment ID  | User comment  | Tags  |
 |---|---|---|
 |326589    |It's a powerful tool that helps make quick changes   |Good \| Quick \| Powerful |
 |326590    |This program is great and has lots of potential. The user interface is intuitive and makes it easy to filter results. However, when I try to edit a link, I get an error.    |Potential, Easy \| Good, Ease of Use \| filters \| bug  |
