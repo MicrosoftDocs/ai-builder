@@ -5,12 +5,12 @@ author: alanabrito
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/11/2020
+ms.date: 03/29/2021
 ms.author: alanab
-ms.reviewer: kvivek
+ms.reviewer: v-aangie
 ---
 
-# Language detection model
+# Language detection prebuilt model
 
 The language detection prebuilt model identifies the predominant language of a text document. The model analyzes the text and returns the detected language and a numeric score from 0 through 1. Scores close to 1 indicate higher confidence in the result. The detected language is returned as the "script" of the language. For instance, for the phrase "I have a dog", it will return "en" instead of "en-US". The response for languages that can't be detected is **unknown**.
 
@@ -34,7 +34,7 @@ If you want to use this prebuilt model in Power Automate, you can find more info
 If text is detected, the language detection model outputs the following information:
 
 - **Results**: A list of languages detected in the input text.
-- **Language**: Script version of the language code (for example, "en", "fr", "zh_chs", "ru")
+- **Language**: Script version of the language code (for example, "en", "fr", "zh_chs", "ru").
 - **Score**: Numeric value from 0 through 1, where values close to 1 indicate higher confidence.
 
 ## Limits
