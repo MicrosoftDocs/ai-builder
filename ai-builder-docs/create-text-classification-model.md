@@ -1,5 +1,5 @@
 ---
-title: Create a category classification model - AI Builder | Microsoft Docs
+title: Create a category classification custom model - AI Builder | Microsoft Docs
 description: Provides step-by-step instructions on how to create a category classification model
 author: paulnog
 ms.service: aibuilder
@@ -10,7 +10,7 @@ ms.author: paulnog
 ms.reviewer: v-aangie
 ---
 
-# Create a category classification model
+# Create a category classification custom model
 
 Now that you have your training data in Microsoft Dataverse, you can create a new model and configure it.
 
