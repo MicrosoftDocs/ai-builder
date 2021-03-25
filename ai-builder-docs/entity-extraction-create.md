@@ -1,5 +1,5 @@
 ---
-title: Create a custom entity extraction AI model - AI Builder | Microsoft Docs
+title: Create an entity extraction custom AI model - AI Builder | Microsoft Docs
 description: Provides steps to create a custom entity extraction AI model in AI Builder.
 author: mfotedar
 ms.service: aibuilder
@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 03/19/2021
 ms.author: mfotedar
-ms.reviewer: kvivek
+ms.reviewer: v-aangie
 ---
 
 # Create an entity extraction custom model
