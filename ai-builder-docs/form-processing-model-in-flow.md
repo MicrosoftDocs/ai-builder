@@ -5,18 +5,28 @@ author: JoeFernandezMS
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 08/11/2020
+ms.date: 03/29/2021
 ms.author: jofernan
-ms.reviewer: kvivek
+ms.reviewer: v-aangie
 ---
 
-# Use a form-processing model in Power Automate
+# Use a form processing model in Power Automate
 
-1. Sign in to [Power Automate](https://flow.microsoft.com/), select the **My flows** tab, and then select **New > +Instant-from blank**.
+1. Sign in to [Power Automate](https://flow.microsoft.com/).
+
+1. Select **My flows** in the left pane, and then select **New flow** > **Instant cloud flow**.
+
 1. Name your flow, select **Manually trigger a flow** under **Choose how to trigger this flow**, and then select **Create**.
-1. Expand **Manually trigger a flow**, select **+Add an input**, select **File** as the input type, and set as input title **File Content**.
-1. Select **+ New step**, search for **AI Builder** in the Search for filters and actions box, and then select **Process and save information from forms** in the list of actions.
-1. Select the form processing model you want to use, select the Document type, and in the **Document** field add **File Content** from the trigger:
+
+1. Expand **Manually trigger a flow**, and then select **+Add an input** > **File** as the input type.
+
+1. Replace the word **Input** with **File Content** (also known as the title).
+
+1. Select **+ New step** > **AI Builder**, and then select **Process and save information from forms** in the list of actions.
+
+1. Select the form processing model you want to use, and then select the document type.
+
+1. In the **Form** field, add **File Content** from the trigger:
 
     > [!div class="mx-imgBorder"]
     > ![Select file content](media/flow-select-file-content-2.png "Select file content")
@@ -48,18 +58,20 @@ ms.reviewer: kvivek
 |**{table}{column} value** |string |The value extracted by the AI model for a cell in a table| |
 |**{table}{column} confidence score** |float |How confident the model is in its prediction |Value in the range of 0 to 1. Values close to 1 indicate greater confidence that the extracted cell value is accurate |
 
-**Note:** More output parameters may be proposed such as field coordinates, polygons, bounding boxes and page numbers. These are not listed on purpose as mainly intended to advanced usage.
+
+> [!NOTE]
+> More output parameters may be proposed such as field coordinates, polygons, bounding boxes and page numbers. These are not listed on purpose as mainly intended for advanced use.
 
 ## Common use cases
 
 ### Iterate a form processing table output in Power Automate 
 
-To illustrate this procedure, we use the following example where we have trained a form processing model to extract a table that we have named **Items** with three columns: **Quantity**, **Description** and **Total**. We wish to store each line item from the table into an excel file. 
+To illustrate this procedure, we use the following example where we have trained a form processing model to extract a table that we have named **Items** with three columns: **Quantity**, **Description** and **Total**. We wish to store each line item from the table into an Excel file.
 
 > [!div class="mx-imgBorder"]
 > ![Table extracted by form processing](media/form-processing-table-example.png "Example of a table extracted by a form processing model.")
 
-1. Click on the field you wish to write the cell for a table, the dynamic content panel will open showing everything that the form processing model knows how to extract. Search for **{your table name} {you column name} value**. In our example from above it’s *Items Quantity value*.
+1. Select the field you wish to write the cell for a table. The dynamic content panel will open showing everything that the form processing model knows how to extract. Search for **{your table name} {your column name} value**. In our example from above, it’s *Items Quantity value*.
 
 > [!div class="mx-imgBorder"]
 > !['Process and save information from forms' screen](media/form-processing-iterate-table-1.png "Select a column from an extracted table to add to a flow.")
@@ -73,7 +85,7 @@ To illustrate this procedure, we use the following example where we have trained
 
 ### Remove currency symbols (€, $,…) in a form processing output in Power Automate
 
-Let’s imagine that the *Total* value extracted by the form processing model has a currency symbol, for example: $54. To remove the *$* sign, or any other symbols you want to omit, use the [replace](/azure/logic-apps/workflow-definition-language-functions-reference#replace) expression to remove it. Here is how to do it:
+Let’s imagine that the *Total* value extracted by the form processing model has a currency symbol, for example: $54. To remove the *$* sign, or any other symbols you want to omit, use the [replace](/azure/logic-apps/workflow-definition-language-functions-reference#replace) expression to remove it. Here's how to do it:
 
 `replace(<form processing output>, '$', '')`
 
@@ -82,7 +94,7 @@ Let’s imagine that the *Total* value extracted by the form processing model ha
 
 ### Convert a form processing output string to a number in Power Automate
 
-AI Builder form processing returns all extracted values as strings. If the destination where you want to save a value extracted by AI Builder form processing requires a number, you can convert a value to number using the [int](/azure/logic-apps/workflow-definition-language-functions-reference#int) or [float](/azure/logic-apps/workflow-definition-language-functions-reference#float) expressions. Use int if the number has no decimals, use float if instead the number has decimals. Here is how to do it:
+AI Builder form processing returns all extracted values as strings. If the destination where you want to save a value extracted by AI Builder form processing requires a number, you can convert a value to number using the [int](/azure/logic-apps/workflow-definition-language-functions-reference#int) or [float](/azure/logic-apps/workflow-definition-language-functions-reference#float) expression. Use int if the number has no decimals. Use float if the number does have decimals. Here's how to do it:
 
 `float('<form processing output>')`
 
@@ -100,7 +112,7 @@ To remove blank spaces from output values, use the [replace](/azure/logic-apps/w
 
 ### Convert a form processing output string to a date in Power Automate
 
-AI Builder form processing returns all outputs as strings. If the destination where you want to save a value extracted by form processing requires to be in date format, you can convert a value that contains a date into date format by using the [formatDateTime](/azure/logic-apps/workflow-definition-language-functions-reference#formatDateTime) expression. Here is how to do it:
+AI Builder form processing returns all outputs as strings. If the destination where you want to save a value extracted by form processing requires to be in date format, you can convert a value that contains a date into date format by using the [formatDateTime](/azure/logic-apps/workflow-definition-language-functions-reference#formatDateTime) expression. Here's how to do it:
 
 `formatDateTime(<form processing output>)`
 
@@ -109,14 +121,14 @@ AI Builder form processing returns all outputs as strings. If the destination wh
 
 ### Filter email signature from a flow so that is is not processed by the form processing model (Office 365 Outlook)
 
-For incoming emails from the Office 365 Outlook connector, email signatures are picked up by Power Automate as attachments. To keep these from being processed by the form processing model add a condition to your flow that checks if the output from the Office 365 Outlook connector named **Attachments is Inline** is equal to false. In the **If yes** branch of the condition add the form processing action. With this only email attachments that are not inline signatures will be processed. 
+For incoming emails from the Office 365 Outlook connector, email signatures are picked up by Power Automate as attachments. To keep these from being processed by the form processing model, add a condition to your flow that checks if the output from the Office 365 Outlook connector named **Attachments is Inline** is equal to false. In the **If yes** branch of the condition, add the form processing action. With this only email attachments that are not inline signatures will be processed.
 
 > [!div class="mx-imgBorder"]
 > ![Filter attachment condition](media/form-processing-filter-sig.png "Add condition 'attachment is inline' ")
 
 ### See also
 
-[Overview of the form-processing model](form-processing-model-overview.md)
+[Overview of the form processing model](form-processing-model-overview.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
