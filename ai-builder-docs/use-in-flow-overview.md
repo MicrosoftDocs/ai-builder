@@ -5,9 +5,9 @@ author: JoeFernandezMS
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 11/03/2020
+ms.date: 03/25/2021
 ms.author: jofernan
-ms.reviewer: kvivek
+ms.reviewer: v-aangie
 ---
 
 # AI Builder in Power Automate overview
@@ -19,6 +19,7 @@ Power Automate is a service that helps you create automated workflows between yo
 * [Business card reader model](flow-business-card-reader.md)
 * [Category classification model](prebuilt-category-classification-pwr-automate.md)
 * [Entity extraction model](prebuilt-entity-extraction-pwr-automate.md)
+* [ID reader model (preview)](prebuilt-id-reader.md)
 * [Key phrase extraction model](flow-key-phrase-extraction.md)
 * [Language detection model](flow-language-detection.md)
 * [Receipt processing model (preview)](flow-receipt-processing.md)
@@ -26,7 +27,7 @@ Power Automate is a service that helps you create automated workflows between yo
 * [Text recognition model](flow-text-recognition.md)
 * [Text translation model ](flow-text-translation.md)
 
-## Custom AI models that you build and train:
+## Custom AI models that you build and train
 
 * [Category classification model](text-classification-model-in-flow.md)
 * [Entity extraction model](entity-extraction-pwr-automate.md)
