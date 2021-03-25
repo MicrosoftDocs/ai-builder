@@ -27,8 +27,8 @@ Download [AIBuilder_Lab.zip](https://go.microsoft.com/fwlink/?linkid=2103171) fi
 ## Add labels in Microsoft Dataverse
 
 1. Go to [Power Apps](https://make.powerapps.com/), and then select **Data** > **Tables** in the left pane.
-2. Prepare a table with one column in a text format, either by using an existing table<!--Edit okay?--> or creating a new one.
-    If you need to create a new table, use [this guide](/powerapps/maker/common-data-service/data-platform-create-entity).
+2. Prepare a table with one column in a text format, either by using an existing table or creating a new one.
+    If you need to create a new table, see [Create a table](/powerapps/maker/common-data-service/data-platform-create-entity).
 3. On the top menu, select **Get data**.
 4. In the list of data sources, select **Excel**.
 5. Select **Browse** to upload your Excel workbook, and then select the sheet or sheets that your data is in.
