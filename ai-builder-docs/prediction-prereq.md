@@ -5,9 +5,9 @@ author: Dean-Haas
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/18/2020
+ms.date: 03/19/2021
 ms.author: norliu
-ms.reviewer: kvivek
+ms.reviewer: v-aangie
 ---
 
 # Prediction model prerequisites
@@ -24,8 +24,8 @@ For information about AI Builder requirements that aren't specific to this AI mo
 
 - Your data must be in [Microsoft Dataverse](/powerapps/maker/common-data-service/data-platform-intro).
 - Make sure your administrator has assigned you a security role with Read privilege over your data.
-- You need at least 10 records of historical outcome for each class of the **Label** data column to train a prediction model.
-- The minimum for training is 50 records, but for best results you should have at least 1,000 records.
+- You need at least 10 rows of historical outcome for each class of the **Label** data column to train a prediction model.
+- The minimum for training is 50 rows, but for best results you should have at least 1,000 rows.
 
 ## Work with sample data
 

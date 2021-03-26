@@ -5,9 +5,9 @@ author: Dean-Haas
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/11/2020
+ms.date: 03/02/2021
 ms.author: joshrenn
-ms.reviewer: kvivek
+ms.reviewer: v-aangie
 ---
 
 # Use your AI model

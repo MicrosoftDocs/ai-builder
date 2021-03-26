@@ -5,9 +5,9 @@ author: amina196
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/06/2019
+ms.date: 03/19/2021
 ms.author: aminab
-ms.reviewer: kvivek
+ms.reviewer: v-aangie
 ---
 
 # Use sample data to do category classification
@@ -32,10 +32,20 @@ Get started exploring AI Builder category classification by using sample data to
 
 1. Go to the AI Builder build screen, and select **Category classification**.
 2. Enter a name, and then create your model.
-3. Select **Text:** pick the **healthcare_feedback** entity and the **text** attribute.<!--What does "Select **Text:**" signify? Is it orienting the reader to the UI, or is it a summary of the step that's then followed by the actual step? Can you provide a screenshot, or at least make this a regular procedure step?-->
-4. Select **Tags:** choose the **tags** attribute.<!--Same question as step 3.-->
-5. Select **English** as the language for classification.
-6. Select **Train** to train your model.
+3. Choose **Select text**, pick the **healthcare_feedback** table, and then select the **text** column.
 
+    > [!div class="mx-imgBorder"]
+    > ![Select text](media/text-class-create-text.png "Select text")
+
+1. Choose **Select column**, preview the tagged text, and then select **Next**.
+1. Choose **Select tags** and then select the **tags** column.
+
+    > [!div class="mx-imgBorder"]
+    > ![Select tags](media/text-class-create-tags.png "Select tags")
+
+1. Choose **Select column**, verify that the correct separator (comma) is chosen, and then select **Next**.
+1. Review your text and tags, and select **Next**.
+1. Select **English** as the text language, and then select **Next**.
+1. Review the model summary, and then select **Train** to train your model.
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

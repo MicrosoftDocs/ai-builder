@@ -5,7 +5,7 @@ author: norliu
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/18/2020
+ms.date: 03/19/2021
 ms.author: norliu
 ms.reviewer: kvivek
 ---
@@ -16,7 +16,7 @@ If your model performance isn't where you want it to be, there are a few things 
 
 ## Add more correctly labeled training data
 
-The more correctly labeled training data you have, the better your model will perform. For example, let's say your two-option label is *Yes* or *No*. If most of your data only has a *Yes* in this column, your AI model probably won't learn much from this data. If your data isn't correctly labeled, the model is probably not going to learn very well. It's ideal to begin with a small set of correctly labeled examples - perhaps 100 or less. From there, you can continue to double the number of examples iteratively and retrain each time, noting the performance change. Generally speaking, more data is better, but there are diminishing returns for adding data the larger your dataset gets.
+The more correctly labeled training data you have, the better your model will perform. For example, let's say you have a Yes/No label. If most of your data only has a *Yes* in this column, your AI model probably won't learn much from this data. If your data isn't correctly labeled, the model is probably not going to learn very well. It's ideal to begin with a small set of correctly labeled examples - perhaps 100 or less. From there, you can continue to double the number of examples iteratively and retrain each time, noting the performance change. Generally speaking, more data is better, but there are diminishing returns for adding data the larger your dataset gets.
 
 ## More tips
 
