@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 03/19/2021
 ms.author: norliu
-ms.reviewer: kvivek
+ms.reviewer: v-aangie
 ---
 
 # Data preparation
