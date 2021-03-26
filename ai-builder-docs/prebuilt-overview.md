@@ -5,7 +5,7 @@ author: paulnog
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 11/18/2020
+ms.date: 03/05/2021
 ms.author: paulnog
 ms.reviewer: kvivek
 ---
@@ -21,12 +21,13 @@ Prebuilt models are available in Power Automate and&mdash;depending on the model
 | [Business card reader](prebuilt-business-card.md)   |   Power Automate and Power Apps     |
 | [Category classification](prebuilt-category-classification.md) | Power Automate and Power Apps |
 | [Entity extraction](prebuilt-entity-extraction.md)    |    Power Automate    |
-|[Key phrase extraction](prebuilt-key-phrase.md)  |    Power Automate    |
-|[Language detection](prebuilt-language-detection.md)  |    Power Automate    |
-|[Receipt processing](prebuilt-receipt-processing.md)   |   Power Automate and Power Apps     |
-|[Sentiment analysis ](prebuilt-sentiment-analysis.md)    |    Power Automate    |
-|[Text recognition ](prebuilt-text-recognition.md)    |    Power Automate and Power Apps     |
-|[Text translation ](prebuilt-text-translation.md)    |    Power Automate    |
+| [ID reader](prebuilt-id-reader.md)    |    Power Automate    |
+| [Key phrase extraction](prebuilt-key-phrase.md)  |    Power Automate    |
+| [Language detection](prebuilt-language-detection.md)  |    Power Automate    |
+| [Receipt processing](prebuilt-receipt-processing.md)   |   Power Automate and Power Apps     |
+| [Sentiment analysis ](prebuilt-sentiment-analysis.md)    |    Power Automate    |
+| [Text recognition ](prebuilt-text-recognition.md)    |    Power Automate and Power Apps     |
+| [Text translation ](prebuilt-text-translation.md)    |    Power Automate    |
 
 ### See also
 
