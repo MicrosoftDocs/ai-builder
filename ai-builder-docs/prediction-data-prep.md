@@ -5,20 +5,18 @@ author: norliu
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 11/06/2020
+ms.date: 03/19/2021
 ms.author: norliu
-ms.reviewer: kvivek
+ms.reviewer: v-aangie
 ---
 
 # Data preparation
 
-[!INCLUDE [cc-data-platform-banner](includes/cc-data-platform-banner.md)]
-
 Before you create your prediction model, you'll want to make sure your data is in Microsoft Dataverse and that it's in the correct format.
 
-## Create your custom entity
+## Create your custom table
 
-Do you have data that you want to import into Dataverse for training in AI Builder? First, you have to create an entity. In this example, we'll provide a solution that has predefined custom entities. To use your own data, [create a custom entity](/powerapps/maker/common-data-service/data-platform-create-entity) and substitute your own entity for the example used here.
+Do you have data that you want to import into Dataverse for training in AI Builder? First, you have to create a table. In this example, we'll provide a solution that has predefined custom tables. To use your own data, [create a custom table](/powerapps/maker/common-data-service/data-platform-create-entity) and substitute your own table for the example used here.
 
 > [!NOTE]
 >For best results, use a dataset that is less than 1.5 GB in size. Otherwise, AI Builder uses only 1.5 GB of your data to train and predict. Since you can’t control which data exceeding the 1.5 GB limit is not used, you should optimize your data to stay under 1.5 GB.
@@ -31,40 +29,54 @@ Use the following dataset if you want to predict true/false outcomes, or for num
 
 1. In Power Apps, select **Solutions** in the left pane, and then select **Import** at the top of the screen.
 
-1. In the pop-up window, select **Choose File**, and then select **AIBuilderOnlineShopperIntention_1_0_0_0.zip**, which you downloaded in step 1.
+1. In the pop-up window, select **Browse**.
+
+1. Select **AIBuilderOnlineShopperIntention_1_0_0_0.zip**, which you downloaded in step 1, select **Open**, and then click **Next**.
+
+1. Read the details and then select **Import**.
 
 1. Follow the on-screen instructions to import the solution, and then select **Close** after you finish.
 
-Next, import the sample data into the entity. In this example, we use the **aib_onlineshopperintention.csv** file.
+Next, import the sample data into the table. In this example, we use the **aib_onlineshopperintention.csv** file.
 
 1. In the list of [AI Builder samples](https://go.microsoft.com/fwlink/?linkid=2093415), select the **aib_onlineshopperintention.csv** file, and then select **Download** to open the raw version of the file.
 
 1. Copy the URL from the address bar in your browser. In this case, the URL to copy is: https://raw.githubusercontent.com/microsoft/PowerApps-Samples/master/ai-builder/aib_onlineshopperintention.csv
 
-1. In Power Apps, select **Entities** in the left pane, select **Get data** > **Text/CSV**, and then paste the copied URL from the last step into the **File path** or **URL** box.
+1. In Power Apps, select **Data** > **Tables** in the left panel, and then select **Data** > **Get data** from the menu at the top.
 
-1. Set the following properties: 
+1. Select **Text/CSV**, and then paste the copied URL from step 2 into the **File path  or URL** box.
+
+1. Set the following properties:
 
     - **On-premises data gateway** = *(none)*
     - **Authentication kind** = *Anonymous*
+ 
+    > [!div class="mx-imgBorder"]
+    > ![Text/CSV connection settings](media/predict-properties.png "Text/CSV connection settings")
 
-    Then select **Next**.
+1. Select **Next**.
 
-1. On the **Map entities** screen, make sure **Load to existing entity** is selected, and under **Destination entity**, select **aib_onlineshopperintention** in the drop-down menu.
+1. Review the file data, select **Transform data**, and then select **Next**.
+
+1. On the **Map tables** screen, make sure **Load to existing table** is selected, and under **Destination table**, select **aib_onlineshopperintention** in the drop-down menu.
 
 1. Select the **Delete rows that no longer exist in the query output** check box.
 
 1. Select the **Automap** function in the upper-right corner of the **Field-mapping** screen, and then select **Next**.
 
+    > [!div class="mx-imgBorder"]
+    > ![Map tables](media/map-tables.png "Map tables")
+
 1. On the **Refresh settings** screen, select the **Refresh manually** check box, and then select **Create** to start the import process.
 
 Allow some time for the import to be completed. Then make sure the data is imported correctly.
 
-1. In Power Apps, go back to **Entities** under **Data**, and select **Online Shopper Intention**.
+1. In Power Apps, go back to **Tables** under **Data**, and select **Online Shopper Intention**.
 
 1. Select **Views**, and then select **Active Online Shopper Intention**.
 
-1. Add columns on the left side to validate that all the columns have been imported correctly.
+1. Select **New table column**, enter a table name, and them select **Done** to add a column to validate that all the columns have been imported correctly.
 
 1. Select **Publish** to save the current view with the selected fields.
 
@@ -76,9 +88,9 @@ And you're done!
 
 1. In Power Apps, select **Solutions** in the left pane, and then select **Import** at the top of the screen.
 
-1. In the pop-up window, select **Choose File**, and then select **BrazilianCommerce_1_0_0_4_managed.zip**, which you downloaded in step 1.
+1. In the pop-up window, select **Browse**, select **BrazilianCommerce_1_0_0_4_managed.zip**, which you downloaded in step 1, and then select **Next**.
 
-1. Follow the on-screen instructions to import the solution, and then select **Close** after you finish.
+1. Select **Import** and follow the on-screen instructions to import the solution, and then select **Close** after you finish.
 
 1. Download **customer.csv**, **order.csv**, and **product.csv** from AI Builder samples.
 
@@ -89,13 +101,13 @@ And you're done!
    > [!div class="mx-imgBorder"]
    > ![Select Data management](media/smpl-settings-data-mgmt.png "Select Data management")
 
-1. Select **IMPORT DATA** from the top menu bar.
+1. Select **Imports** from the top menu bar.
 
 1. In the **Data file name** section, select **customer.csv**, and then select **Next**.
 
 1. Select **Next** until you get to the **Map Record Types** screen.
 
-1. Select **BC Customer** from the drop-down menu, and then select **Next**. Map the columns as shown in the following table.<!--Style Guide wants it to be "ZIP code." Would changing it break anything? -->
+1. Select **BC Customer** from the drop-down menu, and then select **Next**. Map the columns as shown in the following table.
 
     |**Source column**|**Map to**|
     |:-----|:-----|
@@ -141,11 +153,10 @@ In the **Lookup reference** dialog box, make sure that the check box is selected
    > [!div class="mx-imgBorder"]
    > ![Lookup reference dialog box'](media/lookup-reference.png "Lookup reference dialog box")
 
-And you're done!
+And you're done! 
 
 ### Next step
 
 [Create a prediction model](prediction-create-model.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
