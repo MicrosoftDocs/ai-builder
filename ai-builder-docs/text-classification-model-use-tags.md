@@ -5,15 +5,13 @@ author: raaourik
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 11/06/2020
+ms.date: 03/19/2021
 ms.author: raaourik 
 ms.reviewer: kvivek
 ---
 
 
 # Use a category classification model to generate tags
-
-[!INCLUDE [cc-data-platform-banner](includes/cc-data-platform-banner.md)]
 
 ## Use in Power Automate
 
@@ -27,7 +25,7 @@ If you want to use your trained model in Power Automate, see [Use a category cla
 
 Go to the **Run** view in the **Model settings** panel to set the run schedule. To configure your model to run on your database and generate predictions, select **Generate predictions when new data is added**.
 
-Your model runs whenever a new record is added to its entity.
+Your model runs whenever a new row is added to its table.
 
 > [!NOTE]
 >You can’t set run schedule for imported category classification models.
@@ -40,6 +38,5 @@ You can integrate your AI Builder category classification models in Power Apps S
 
 - Check that you didn't exceed the number of runs for your Power Automate subscription.
 - Turn off the Dataverse run setting, and then turn it back on.
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

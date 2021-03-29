@@ -1,16 +1,16 @@
 ---
-title: Create a form processing model - AI Builder | Microsoft Docs
+title: Create a form processing custom model - AI Builder | Microsoft Docs
 description: Provides step-by-step instructions on how to create a form processing model in AI Builder.
 author: JoeFernandezMS
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 11/03/2020
+ms.date: 03/29/2021
 ms.author: jofernan
-ms.reviewer: kvivek
+ms.reviewer: v-aangie
 ---
 
-# Create a form processing model
+# Create a form processing custom model
 
 After you review the [requirements](form-processing-model-requirements.md), you can get started creating your form-processing model.
 
@@ -27,17 +27,17 @@ After you review the [requirements](form-processing-model-requirements.md), you 
 
 On the **Choose information to extract** screen, type the names of the fields and tables you want to teach your model to extract. Select the **Fields** and **Tables** tabs to switch between adding fields or tables.
 
-- To add fields, type the name for each type of field, and select the plus sign **+** to add it. 
+- To add fields, type the name for each type of field, and select the plus sign **+** to add it.
 
    > [!div class="mx-imgBorder"]
    > !['Define fields' animation](media/form-processing-multiple-layout-define-fields-only.gif "Define fields to extract")
 
-- To add tables type a name for the table, and define the columns you want the model to extract:
+- To add tables, type a name for the table, and define the columns you want the model to extract.
 
    > [!div class="mx-imgBorder"]
    > !['Define tables' animation](media/form-processing-multiple-layout-define-tables-only.gif "Define tables to extract")
 
-## Group documents by collections (Preview)
+## Group documents by collections (preview)
 
 A collection is a group of documents that share the same layout. Create as many collections as document layouts that you want your model to process. For example, if you are building an AI model to process invoices from two different vendors, each having their own invoice template, create two collections.
 
@@ -111,7 +111,7 @@ If a field or table is not present in one of the documents you have uploaded for
 
 All the documents that you have uploaded are presented for you to tag. Some of the fields might be automatically detected in successive documents. In that case confirm that the selection is correct.
 
-If you have created multiple collections, tag all documents across all the collections
+If you have created multiple collections, tag all documents across all the collections.
 
 ### Next step
 

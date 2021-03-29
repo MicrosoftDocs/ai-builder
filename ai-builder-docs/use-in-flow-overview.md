@@ -19,6 +19,7 @@ Power Automate is a service that helps you create automated workflows between yo
 * [Business card reader model](flow-business-card-reader.md)
 * [Category classification model](prebuilt-category-classification-pwr-automate.md)
 * [Entity extraction model](prebuilt-entity-extraction-pwr-automate.md)
+* [ID reader model (preview)](prebuilt-id-reader.md)
 * [Key phrase extraction model](flow-key-phrase-extraction.md)
 * [Language detection model](flow-language-detection.md)
 * [Receipt processing model (preview)](flow-receipt-processing.md)
