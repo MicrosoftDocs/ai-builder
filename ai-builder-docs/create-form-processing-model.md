@@ -37,7 +37,7 @@ On the **Choose information to extract** screen, type the names of the fields an
    > [!div class="mx-imgBorder"]
    > !['Define tables' animation](media/form-processing-multiple-layout-define-tables-only.gif "Define tables to extract")
 
-## Group documents by collections (Preview)
+## Group documents by collections (preview)
 
 A collection is a group of documents that share the same layout. Create as many collections as document layouts that you want your model to process. For example, if you are building an AI model to process invoices from two different vendors, each having their own invoice template, create two collections.
 
