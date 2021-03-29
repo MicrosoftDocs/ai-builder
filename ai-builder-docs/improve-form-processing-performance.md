@@ -5,7 +5,7 @@ author: JoeFernandezMS
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/19/2021
+ms.date: 03/29/2021
 ms.author: jofernan
 ms.reviewer: v-aangie
 ---
@@ -23,11 +23,14 @@ The more documents you tag, the more AI Builder will learn how to better recogni
 
 ## More tips
 
-- If possible, use text-based PDF documents instead of image-based documents. Scanned PDFs are handled as images.
 - For filled-in forms, use examples that have all of their fields filled in.
 - Use forms with different values in each field.
 - If your form images are of lower quality, use a larger data set (10-15 images, for example).
+- If possible, use text-based PDF documents instead of image-based documents. Scanned PDFs are handled as images.
 - When you create a form processing model, upload documents with the same layout where each document is a separate instance. For example, invoices from different months should be in separate documents and not all in the same one.
+- Documents that have different layouts should go [into different collections](create-form-processing-model.md#group-documents-by-collections-preview) when you upload samples for training. 
+- If the form processing model is extracting values from neighboring fields from the one you want the model to extract, edit the model and tag adjacent values that are being wrongly picked up as being different fields. That way the model will better learn the boundaries for each field. 
+
 
 ### See also
 
