@@ -48,7 +48,7 @@ The following table shows which AI Builder features are available in each region
 |Receipt processing |Preview |Preview |Preview |Preview |Preview |Preview |Preview |Preview |Preview |Preview |Preview |Preview |
 |Sentiment analysis |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |
 |Text recognition   |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |
-|Text translation |- |- |- |- |-|- |-|- |-|- |- |GA |
+|Text translation |- |- |- |GA |-|- |-|- |-|- |- |GA |
 
 ## Government Community Cloud (GCC) availability
 
