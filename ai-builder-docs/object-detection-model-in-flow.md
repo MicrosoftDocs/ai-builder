@@ -6,37 +6,44 @@ author: Dean-Haas
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/12/2019
+ms.date: 04/05/2021
 ms.author: kvivek
-ms.reviewer: kvivek
+ms.reviewer: v-aangie
 ---
 
 # Use the object detection model in Power Automate
 
+1. Sign in to [Power Automate](https://flow.microsoft.com/).
 
-1. Sign in to [Power Automate](https://flow.microsoft.com/), select the **My flows** tab, and then select **New > +Instant-from blank**.
+1. Select **My flows** in the left pane, and then select **New flow** > **Instant cloud flow**.
+
 1. Name your flow, select **Manually trigger a flow** under **Choose how to trigger this flow**, and then select **Create**.
-1. Expand **Manually trigger a flow**, select **+Add an input**, select **File** as the input type, and set as input title **My Image**.
-1.	Select **+ New step**, search for **AI Builder** in the Search for filters and actions box, and then select **Detect and count objects in images** in the list of actions.
-1.	Select the object detection model you want to use, and in the **Image** column, specify **My Image** from the trigger:
+
+1. Expand **Manually trigger a flow**, and then select **+Add an input** > **File** as the input type.
+
+1. Replace  **File Content** with **My image** (also known as the title).
+
+1. Select **+ New step** > **AI Builder**, and then select **Detect and count objects in images** in the list of actions.
+
+1. Select the object detection model you want to use.
+
+1. In the **Image** field, add **My Image** from the trigger:
 
     > [!div class="mx-imgBorder"]
     > ![Specify my image](media/flow-my-image-2.png "Specify my image")
 
-1.	To retrieve the name of the detected object or objects on the image, use the **Detected object name** column.
+1. To retrieve the name of the detected object or objects on the image, use the **Detected object name** column. <!-- I don't see this column. Deon suggests that I ask Vivek -->
 
-Congratulations! You've created a flow that uses an object detection AI Builder model. Select **Save** in the upper-right corner, and then select **Test** to try out your flow.
-
+Congratulations! You've created a flow that uses an object detection AI Builder model. Select **Save** on the top right, and then select **Test** to try out your flow.
 
 ## Example object detection flow
-
 
 The following example shows the creation of a flow that is triggered by an image. This flow counts the number of green tea bottles in the image.
 
 > [!div class="mx-imgBorder"]
 > ![Green tea object detection flow example](media/green-tea-example-2.png "Example of an object detection flow")
 
-To learn more about all the triggers and actions you can use, see the [Power Automate documentation](/flow/getting-started).
+To learn more about the triggers and actions you can use, see the [Power Automate documentation](/flow/getting-started).
 
 ## Parameters
 ### Input
@@ -44,7 +51,6 @@ To learn more about all the triggers and actions you can use, see the [Power Aut
 |---------|---------|---------|---------|---------|
 |**AI Model** |Yes |model |Object detection model to use for analysis|Trained and published object detection models |
 |**Image** |Yes |file |Image to process| |
-
 
 ### Output
 |Name |Type |Description |Values |

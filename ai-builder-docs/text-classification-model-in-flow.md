@@ -5,7 +5,7 @@ author: raaourik
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/29/2021
+ms.date: 04/05/2021
 ms.author: raaourik
 ms.reviewer: v-aangie
 ---
@@ -37,8 +37,7 @@ The following example saves each inferred **Classification** and **Confidence sc
 > [!div class="mx-imgBorder"]
 > ![Category classification flow example](media/flow-ccc-example.png "Category classification flow example")
 
-Congratulations! You've created a flow that uses an AI Builder category classification model. Select **Save**, and then select **Test** in the upper-right corner to try out your flow.
-
+Congratulations! You've created a flow that uses an AI Builder category classification model. Select **Save** on the top right, and then select **Test** to try out your flow.
 
 ## Parameters
 ### Input
@@ -52,7 +51,7 @@ Congratulations! You've created a flow that uses an AI Builder category classifi
 ### Output
 |Name |Type |Description |Values |
 |---------|---------|---------|---------|
-|**Classification** |string |Entity identified|Issues, compliment, customer service, documentation, price & billing, staff |
+|**Classification** |string |Table identified|Issues, compliment, customer service, documentation, price & billing, staff |
 |**Confidence score** |float |How confident the model is in its prediction|Value in the range of 0 to 1. Values close to 1 indicate greater confidence that the extracted value is accurate |
 
 ### See also

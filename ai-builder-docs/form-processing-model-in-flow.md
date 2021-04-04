@@ -5,7 +5,7 @@ author: JoeFernandezMS
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/29/2021
+ms.date: 04/05/2021
 ms.author: jofernan
 ms.reviewer: v-aangie
 ---
@@ -31,12 +31,12 @@ ms.reviewer: v-aangie
     > [!div class="mx-imgBorder"]
     > ![Select file content](media/flow-select-file-content-2.png "Select file content")
 
-1. In the successive actions, you can use any fields and tables extracted by the AI Builder model. For example, let's say that our model is trained to extract the *Invoice Id* and the *Total Amount* value, and we want to post those to a Microsoft Teams channel. Just add the **Post a message to Teams** action, and then select your fields from the list of tokens.
+1. In the successive actions, you can use any columns and tables extracted by the AI Builder model. For example, let's say that our model is trained to extract the *Invoice Id* and the *Total Amount* values, and we want to post those to a Microsoft Teams channel. Just add the **Post a message to Teams** action, and then select your columns from the list of tokens.
 
     > [!NOTE]
     >
-    >- To retrieve the value for a field, select **<field_name> value** . For example, for the *INVOICE* field, select **INVOICE value**.
-    >- To retrieve the confidence score for a field, select **<field_name> confidence score** . For example, for the *INVOICE* field, select **INVOICE confidence score**.
+    >- To retrieve the value for a column, select **<field_name> value** . For example, for the *INVOICE* column, select **INVOICE value**.
+    >- To retrieve the confidence score for a column, select **<field_name> confidence score** . For example, for the *INVOICE* column, select **INVOICE confidence score**.
 
     > [!div class="mx-imgBorder"]
     > ![Form processing flow overview](media/flow-fp-overview-2.png "Form processing flow overview")
