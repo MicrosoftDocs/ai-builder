@@ -5,9 +5,9 @@ author: JoeFernandezMS
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/01/2020
+ms.date: 04/05/2021
 ms.author: jofernan
-ms.reviewer: kvivek
+ms.reviewer: v-aangie
 ---
 
 # Use invoice processing in Power Apps (preview)

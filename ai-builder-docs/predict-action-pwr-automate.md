@@ -45,9 +45,9 @@ You can use dedicated actions for each AI Builder model in Power Automate. Howev
 >- Use a custom AI Builder model in Power Automate
 >- Use a prebuilt AI Builder model in Power Automate
 
-## Use a dynamic model id (advanced)
+## Use a dynamic model ID (advanced)
 
-For some complex use cases, you may need to pass a model id dynamically to the predict action. For example, if you want to process different types of invoices using different models, you may want to automatically choose a model depending on the type of invoice.
+For some complex use cases, you may need to pass a model ID dynamically to the predict action. For example, if you want to process different types of invoices using different models, you may want to automatically choose a model depending on the type of invoice.
 
 In this section, we'll explain how to configure the AI Builder predict action for this specific purpose depending on the model type.
 
@@ -61,14 +61,15 @@ In this section, we'll explain how to configure the AI Builder predict action fo
 
 1. Enter **Initialize variable** in the search bar, and then select it in the **Actions** tab.
 
-1. Enter **Model id** in the **Name** input, **String** in the **Type** input, and the actual model id in the **Value** input.
+1. Enter **model id** in the **Name** input, **String** in the **Type** input, and the actual model ID in the **Value** input.
 
-   The model id can be found in the URL of the model's detail page in Power Apps:
+<!-- DEON: I get "Sorry, there's been a disconnect" error when I click the link. -->
+   The model ID can be found in the URL of the model's detail page in Power Apps:
    *make.powerapps.com/environment/[environment id]/aibuilder/models/**[model id]***
 
 1. Select **+ New step**, search for **predict** and then select **Predict from AI Builder**.
 
-1. Select the input > **Enter custom value**, and then enter **Model id** from step 6.
+1. Select the input > **Enter custom value**, and then enter **model id** from step 6.
 
 1. The **Infer request** column value depends on the model type. <!--DEON: What does this mean? -->
 
@@ -76,7 +77,7 @@ In this section, we'll explain how to configure the AI Builder predict action fo
 
 1. In the step **Manually trigger a flow**, add a **File** input, and set its name to **File Content**.
 1. In the step **Manually trigger a flow**, add a **Text** input, and set its name to **Mime Type**.
-1. In the step **Initialize variable**, enter a form processing model id.
+1. In the step **Initialize variable**, enter a form processing model ID.
 1. In the step **Predict**, enter following value in the **Infer request** column:
 
     ```json
@@ -91,7 +92,7 @@ In this section, we'll explain how to configure the AI Builder predict action fo
     ```
 
     > [!div class="mx-imgBorder"]
-    > ![Predict action with dynamic model id](media/DynModelId-1.png "Predict action with dynamic model id")
+    > ![Predict action with dynamic model ID](media/DynModelId-1.png "Predict action with dynamic model ID")
 
 1. Select **Save** in the upper-right corner, and then select **Test** to try out your flow:
 
