@@ -15,22 +15,24 @@ ms.reviewer: v-aangie
 
 1. Sign in to [Power Automate](https://flow.microsoft.com/).
 
-1. Select **My flows** in the left pane, and then select **New flow** > **Automated cloud flow**.
+1. Select **My flows** in the left pane.
+
+1. Select **New flow** from the menu at the top, and then select a flow in the **Build your own from blank** section. (The example uses **Automated cloud flow**.)
 
 1. Name your flow, and then select **Skip**. Instead of using this screen, you'll select you flow's trigger in the next step by filtering a list.
 
-1. Select **Microsoft Dataverse**, and then select **When a row is added, modified, or deleted**.
+1. Find your trigger by typing it in the search bar and then selecting it in the **Triggers** list. (The example uses the **When a row is added, modified, or deleted** trigger.)
 
-1. Configure the trigger, select **Show advanced options** (**Show** is replaced with **Hide**), and then add any additional steps to prepare data.
+1. Configure the trigger.
+
+1. If you want to add any steps to prepare your data, select **Next step**.
 
     > [!div class="mx-imgBorder"]
     > ![Configure the trigger](media/predict-configure-trigger.png "Configure the trigger")
 
-<!--DEON: Can't save. What configs need to be fixed? See TIP screen.-->
+1. Select **Next step**, enter **predict** in the search bar, and select **Predict** in the **Actions** list.
 
-1. Add the **Predict** action in a new step.
-
-1. Complete the fields using your data, or data from previous steps in the flow.
+1. Select your model in the input, and then complete the fields using your data or data from previous steps in the flow.
 
 1. Update the row by using prediction output.
 
