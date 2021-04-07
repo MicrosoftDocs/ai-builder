@@ -23,9 +23,8 @@ You can use Power Automate templates in Teams that solve a specific business pur
 1. Look for the app named **Power Automate** and install it. The app appears on the left menu of Teams. You can pin the app to keep it there when you reopen Teams
 1. Click on the Power Automate app and go to **Create** tab. From there you can search for the AI Builder templates listed in the next section of this documentation
     
-    Add image to illustrate
     > [!div class="mx-imgBorder"]
-    > ![Predict action](media/predict-action.png "Predict action")
+    > ![Templates list](media/templates-list.png "Predict action")
 
 ## Create a flow from a template
 From the list of AI Builder templates, pick the one that fits the most to your business case (note that you can edit the template in advanced mode to apply personal changes):
