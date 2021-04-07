@@ -27,34 +27,41 @@ You can use Power Automate templates in Teams that solve a specific business pur
     > [!div class="mx-imgBorder"]
     > ![Predict action](media/predict-action.png "Predict action")
 
-## AI Builder templates list
+## Create a flow from a template
+From the list of AI Builder templates, pick the one that fits the most to your business case (note that you can edit the template in advanced mode to apply personal changes):
 
-### Track YouTube activity
+  Add image to illustrate
+    > [!div class="mx-imgBorder"]
+    > ![Predict action](media/predict-action.png "Predict action")
 
-**Full name**
+If you don't have Microsoft Dataverse you will see the following dialog:
 
-Track YouTube activity on a search query and add results in Teams
+When clicking on the **Continue** button, Dataverse will be installed. It usually takes couple of minutes (it some particular cases in cas take more than 1h).
 
-**Parameters**
-- YouTube search query to apply
-- Team and channel in whcih the results will be sent
+If Dataveserse is already installed, you will land on the simplified template experience for Teams. The first screen asks you to validate connections:
 
-**Description**
-- Get newly posted YouTube videos that correspond to your search query
-- Apply AI Builder sentiment analysis and text translation on the videos' descriptions
-- Post a message in Teams for each new video returned by the query with the video title, video link, description sentiment, description language, description original text and description translated text (english only for now)
+ Add image to illustrate
+    > [!div class="mx-imgBorder"]
+    > ![Predict action](media/predict-action.png "Predict action")
+
+Note: An AI Builder trial will be started or extended if needed. This action will be performed silentely upon clicking on the **Continue** button.
+
+Once all your connections are valid you can click on **Continue**.
+
+This is now time for you to enter the parameters required by the template to create the flow:
+
+ Add image to illustrate
+    > [!div class="mx-imgBorder"]
+    > ![Predict action](media/predict-action.png "Predict action")
+
+Note: there it is also possible to click on "Edit in advanced mode". This will open the full flow editor within Teams. 
+
+Once you filled all the parameters, your can click on **Create**. After few seconds, your flow will be created and ready to use.
 
 
-### Process receipts
 
-**Full name**
 
-Process receipts received in Teams and add results in Excel
 
-**Parameters**
-- Team and channel in whcih the receipts are sent
-- Excel file parameters: a file containing a table with specific columns in required. You can download a sample here and point at this your online storage.
 
-**Description**
 
 
