@@ -24,16 +24,15 @@ You can use Power Automate templates in Teams that solve a specific business pur
 1. Click on the Power Automate app and go to **Create** tab. From there you can search for the AI Builder templates listed in the next section of this documentation
     
     > [!div class="mx-imgBorder"]
-    > ![Templates list](media/templates-list.png "Predict action")
+    > ![Templates list](media/templates-list.png "Templates list")
 
 ## Create a flow from a template
-From the list of AI Builder templates, pick the one that fits the most to your business case (note that you can edit the template in advanced mode to apply personal changes):
+From the list of AI Builder templates, pick the one that fits the most to your business case. If you don't have Microsoft Dataverse installed, you will see the following dialog:
 
-  Add image to illustrate
+ 
     > [!div class="mx-imgBorder"]
-    > ![Predict action](media/predict-action.png "Predict action")
+    > ![No Dataverse list](media/no-dataverse.png "No Dataverse action")
 
-If you don't have Microsoft Dataverse you will see the following dialog:
 
 When clicking on the **Continue** button, Dataverse will be installed. It usually takes couple of minutes (it some particular cases in cas take more than 1h).
 
