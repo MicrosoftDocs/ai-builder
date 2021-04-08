@@ -32,7 +32,7 @@ ms.reviewer: v-aangie
     > [!div class="mx-imgBorder"]
     > ![Specify my image](media/flow-my-image-2.png "Specify my image")
 
-1. To retrieve the name of the detected object or objects on the image, use the **Detected object name** column. <!-- I don't see this column. Deon suggests that I ask Vivek -->
+1. To retrieve the name of the detected object or objects on the image, use the **Detected object name** column.
 
 Congratulations! You've created a flow that uses an object detection AI Builder model. Select **Save** on the top right, and then select **Test** to try out your flow.
 
