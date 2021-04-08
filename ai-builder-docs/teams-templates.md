@@ -11,7 +11,7 @@ ms.author: antrod
 ms.reviewer: kvivek
 ---
 
-# Use AI Builder templates in Teams
+# Use AI Builder in Teams
 
 
 You can use Power Automate templates in Teams that solve a specific business purpose using AI Builder actions.
