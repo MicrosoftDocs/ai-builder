@@ -37,7 +37,7 @@ When clicking on the **Continue** button, Dataverse will be installed. It usuall
 If Dataveserse is already installed, you will land on the simplified template experience for Teams. The first screen asks you to validate connections:
  
 > [!div class="mx-imgBorder"]
-> ![Predict action](media/predict-action.png "Predict action")
+> ![Start trial](media/start-trial.png "Start trial")
 
 >[!NOTE]
 >
@@ -48,14 +48,16 @@ Once all your connections are valid you can click on **Continue**.
 This is now time for you to enter the parameters required by the template to create the flow:
 
  > [!div class="mx-imgBorder"]
- > ![Predict action](media/predict-action.png "Predict action")
+ > ![Create flow](media/create-flow.png "Create flow")
 
 >[!NOTE]
 >
 >It is also possible to click on "Edit in advanced mode". This will open the full flow editor within Teams. 
 
 
-Once you filled all the parameters, your can click on **Create**. After few seconds, your flow will be created and ready to use.
+Once you filled all the parameters, your can click on **Create flow**. After few seconds, your flow will be created and ready to use.
+
+Created flows are visible and can be modified from the home page of the Power Automate application.
 
 
 
