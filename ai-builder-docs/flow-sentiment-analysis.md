@@ -82,7 +82,7 @@ Power Automate provides a template that enables you to analyze incoming Dynamics
 
    > ![When an email message is created](media/sentiment-analysis-template.png "choose settings when an email message is created")
 
-1. Next, the template shows messages from **draft emails** and **received emails**. You can filter these if you want to perform sentiment analysis only on selected email statuses. For a list of status codes, see [email EntityType](/dynamics365/customer-engagement/web-api/email?view=dynamics-ce-odata-9).
+1. Next, the template shows messages from **draft emails** and **received emails**. You can filter these if you want to perform sentiment analysis only on selected email statuses. For a list of status codes, see [StatusCode choices](/powerapps/developer/data-platform/reference/entities/email#statuscode-choicesoptions).
 1. Select **Add sentiment to CDS Email Entity**, select **Show advanced options**, and then locate the attribute you added in step 1.
 1. Finally, add **Global sentiment** from the **Dynamic content** list.
 
