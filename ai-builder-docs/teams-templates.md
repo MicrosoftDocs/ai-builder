@@ -27,12 +27,12 @@ You can use Power Automate templates in Teams that solve a specific business pur
 > ![Templates list](media/templates-list.png "Templates list")
 
 ## Create a flow from a template
-From the list of AI Builder templates, pick the one that fits the most to your business case. If you don't have Microsoft Dataverse installed, you will see the following dialog:
+From the list of AI Builder templates, pick the one that fits the most to your need. If you don't have [Microsoft Dataverse](https://docs.microsoft.com/en-us/powerapps/maker/data-platform/data-platform-intro), you will see the following dialog:
 
 > [!div class="mx-imgBorder"]
 > ![No Dataverse list](media/no-dataverse.png "No Dataverse action")
 
-When clicking on the **Continue** button, Dataverse will be installed. It usually takes couple of minutes (it some particular cases in cas take more than 1h).
+When clicking on the **Continue** button, Dataverse will be installed. It usually takes couple of minutes (it some particular cases in can take more than 1h) and has to be done only once.
 
 If Dataveserse is already installed, you will land on the simplified template experience for Teams. The first screen asks you to validate connections:
  
@@ -60,6 +60,9 @@ Once you filled all the parameters, your can click on **Create flow**. After few
 Created flows are visible and can be modified from the home page of the Power Automate application.
 
 
+### See also
+
+[Use flows in Microsoft Teams](https://docs.microsoft.com/en-us/power-automate/teams/overview)
 
 
 
