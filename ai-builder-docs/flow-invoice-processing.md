@@ -6,9 +6,9 @@ author: JoeFernandezMS
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/01/2020
+ms.date: 4/5/2021
 ms.author: jofernan
-ms.reviewer: kvivek
+ms.reviewer: v-aangie
 ---
 
 
@@ -16,21 +16,19 @@ ms.reviewer: kvivek
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
 
-1. Sign in to [Power Automate](https://flow.microsoft.com/signin) and select **My flows** in the left-side navigation pane.
+1. Sign in to [Power Automate](https://flow.microsoft.com/).
 
-1. Select **New** > **Instant—from blank**.
+1. Select **My flows** in the left pane, and then select **New flow** > **Instant cloud flow**.
 
-1. Name your flow, then select **Manually trigger a flow** under **Choose how to trigger this flow**.
+1. Name your flow, select **Manually trigger a flow** under **Choose how to trigger this flow**, and then select **Create**.
 
-1. Select **Create**.
+1. Expand **Manually trigger a flow**, and then select **+Add an input** > **File** as the input type.
 
-1. Expand **Manually trigger a flow**, then select **+ Add an input**.
+1. Replace  **File Content** with **My invoice** (also known as the title).
 
-1. Select **File** as the input type, then set *My invoice* as the input title.
+1. Select **+ New step** > **AI Builder**, and then select **Process and save information from invoices (preview)** in the list of actions.
 
-1. Select **+ New step**, search for *AI Builder*, and then select **Process and save information from invoices** in the list of actions.
-
-1. Specify the *My invoice* column from the trigger in the **Invoice file** input.
+1. Specify **My invoice** from the trigger in the **Invoice file** input.
 
     > [!div class="mx-imgBorder"]
     > ![Trigger file flow](media/ip-flow-my-invoice.png "Manually trigger a flow screens")
