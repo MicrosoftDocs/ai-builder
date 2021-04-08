@@ -12,7 +12,7 @@ ms.reviewer: v-aangie
 
 # Use the sentiment analysis prebuilt model in Power Automate
 
-## Create a flow that uses the AI Builder sentiment analysis prebuilt model
+In this article, we will create a flow that uses the AI Builder sentiment analysis prebuilt model.
 
 1. Sign in to [Power Automate](https://flow.microsoft.com/).
 
