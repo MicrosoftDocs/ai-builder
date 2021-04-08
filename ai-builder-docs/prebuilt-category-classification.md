@@ -1,13 +1,13 @@
 ---
-title: Prebuilt category classification model - AI Builder | Microsoft Docs
+title: Category classification prebuilt model - AI Builder | Microsoft Docs
 description: Describes the prebuilt category classification AI Builder model.
 author: norliu
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/18/2020
+ms.date: 03/29/2021
 ms.author: norliu
-ms.reviewer: kvivek
+ms.reviewer: v-aangie
 ---
 
 # Category classification prebuilt model
@@ -22,9 +22,9 @@ You can see the category classification prebuilt model in action without the nee
 
 1. Sign in to [Power Apps](https://make.powerapps.com).
 1. In the left pane, select **AI Builder** > **Build**.
-1. Under **Get straight to productivity**, select **Category classification model**.
+1. Under **Get straight to productivity**, select **Category classification (preview)**.
 1. In the **Category classification** window, select **Try it out**. 
-1. Select predefined text samples to analyze, or add your own text in the **Add your own here** box to see how the model analyzes your text.
+1. Select predefined text samples to analyze, or add your own text in the **Or add your own here** box to see how the model analyzes your text.
 
 ### Use the formula bar
 

@@ -5,30 +5,40 @@ author: joefernandezms
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/01/2020
+ms.date: 04/05/2021
 ms.author: jofernan
-ms.reviewer: kvivek
+ms.reviewer: v-aangie
 ---
 
 # Use the sentiment analysis prebuilt model in Power Automate
 
-## Create a flow that uses the AI Builder sentiment analysis prebuilt model
+In this article, we will create a flow that uses the AI Builder sentiment analysis prebuilt model.
 
-1. Sign in to [Power Automate](https://flow.microsoft.com/), select the **My flows** tab, and then select **New > +Instant-from blank**.
+1. Sign in to [Power Automate](https://flow.microsoft.com/).
+
+1. Select **My flows** in the left pane, and then select **New flow** > **Instant cloud flow**.
+
 1. Name your flow, select **Manually trigger a flow** under **Choose how to trigger this flow**, and then select **Create**.
-1. Expand **Manually trigger a flow**, select **+Add an input**, select **Text** as the input type, and set as input title **My Text**.
-1. Select **+ New step**, search for the term **AI Builder**, and then select **Analyze positive or negative sentiment** in text in the list of actions.
-1. Select the language in the **Language** input and specify the **My Text** column from the trigger in the **Text** input:
+
+1. Expand **Manually trigger a flow**, and then select **+Add an input** > **Text**.
+
+1. Replace **Input** with **My Text** (also known as the title).
+
+1. Select **+ New step** > **AI Builder**, and then select **Analyze positive or negative sentiment** in the list of actions.
+
+1. In the **Language** input, select or enter your language.
+
+1. In the **Text** input, select **My Text** from the **Dynamic content** list:
 
     > [!div class="mx-imgBorder"]
     > ![Manually trigger flow screen](media/flow-sentiment-analysis-12.png "Manually trigger flow screen")
 
-1. In the successive actions, you can use any fields extracted by the AI Builder model. For example, you can add lines to an Excel file for each sentence using **Sentence sentiment**, **Probability sentence is positive** and **Probability sentence is negative**:
+1. In the successive actions, you can use any columns extracted by the AI Builder model. For example, you can add lines to an Excel file for each sentence using **Sentence sentiment**, **Probability sentence is positive** and **Probability sentence is negative**:
 
     > [!div class="mx-imgBorder"]
     > ![Add row in Excel](media/flow-sentiment-analysis-22.png "Add row in Excel")
 
-Congratulations! You've created a flow that uses the sentiment analysis model. Select **Save** in the upper-right corner, and then select **Test** to try out your flow.
+Congratulations! You've created a flow that uses the sentiment analysis model. Select **Save** on the top right, and then select **Test** to try out your flow.
 
 ## Parameters
 
@@ -53,7 +63,7 @@ Congratulations! You've created a flow that uses the sentiment analysis model. S
 |**Probability sentence is positive** |float |Probability of the positive sentiment in the analyzed sentence|Value in the range of 0 to 1. Values close to 1 indicate greater confidence that the identified sentiment is accurate |
 |**Probability sentence is negative** |float |Probability of the negative sentiment in the analyzed sentence|Value in the range of 0 to 1. Values close to 1 indicate greater confidence that the identified sentiment is accurate |
 |**Probability sentence is neutral** |float |Probability of the neutral sentiment in the analyzed sentence|Value in the range of 0 to 1. Values close to 1 indicate greater confidence that the identified sentiment is accurate |
-|**sentenceScores** |object |Data structure containing sentence scores|Positive, neutral and negative scores |
+|**sentenceScores** |object |Data structure containing sentence scores|Positive, neutral, and negative scores |
 
 ## Use sentiment analysis to analyze incoming Dynamics 365 emails
 
@@ -64,13 +74,15 @@ Power Automate provides a template that enables you to analyze incoming Dynamics
    For information about how to create an attribute, see [Create and edit column for Dataverse using Power Apps portal](/powerapps/maker/common-data-service/create-edit-field-portal).
 
 1. Sign in to [Power Automate](https://flow.microsoft.com/signin).
-1. In the left pane, select **Templates**, and then search for **AI Builder sentiment**.
+1. In the left pane, select **Templates**, and then search for **ai builder sentiment**.
 1. Select **Analyze sentiment of Dynamics emails using AI Builder**.
-1. Select your environment, then type **Email Messages** in the **Entity Name** column, and type **Organization** in the **Scope** column.
+1. Select your environment, and then select **Continue**.
+1. Type **Email Messages** in the **Entity Name** input.
+1. Type **Organization** in the **Scope** input.
 
    > ![When an email message is created](media/sentiment-analysis-template.png "choose settings when an email message is created")
 
-1. Next, the template shows messages from **draft emails** and **received emails**. You can filter these if you want to perform sentiment analysis only on selected email statuses. For a list of status codes, see [email EntityType](/dynamics365/customer-engagement/web-api/email?view=dynamics-ce-odata-9).
+1. Next, the template shows messages from **draft emails** and **received emails**. You can filter these if you want to perform sentiment analysis only on selected email statuses. For a list of status codes, see [StatusCode choices](/powerapps/developer/data-platform/reference/entities/email#statuscode-choicesoptions).
 1. Select **Add sentiment to CDS Email Entity**, select **Show advanced options**, and then locate the attribute you added in step 1.
 1. Finally, add **Global sentiment** from the **Dynamic content** list.
 
@@ -80,7 +92,7 @@ If you want this column to be visible in your email grid view, follow these step
 
 1. Go to the view/form designer, and add the custom column you created in step 1 of the preceding procedure. For information about how to add the column to your view, see [Add a column to your view](/dynamics365/customerengagement/on-premises/customize/create-edit-views-app-designer#add-a-column-to-your-view).
 
-1. Then add a field to the form. For details, see [Add a field to a form](/dynamics365/customerengagement/on-premises/customize/add-field-form).
+1. Add a field to the form. For details, see [Add a field to a form](/dynamics365/customerengagement/on-premises/customize/add-field-form).
 
 ### See also
 

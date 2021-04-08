@@ -5,18 +5,26 @@ author: mfotedar
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/08/2020
+ms.date: 04/05/2021
 ms.author: mfotedar
-ms.reviewer: kvivek
+ms.reviewer: v-aangie
 ---
 
 
 # Use an AI Builder custom entity extraction AI model in Power Automate
 
-1. Sign in to [Power Automate](https://flow.microsoft.com/), select the **My flows** tab, and then select **New > +Instant-from blank**.
+1. Sign in to [Power Automate](https://flow.microsoft.com/).
+
+1. Select **My flows** in the left pane, and then select **New flow** > **Instant cloud flow**.
+
 1. Name your flow, select **Manually trigger a flow** under **Choose how to trigger this flow**, and then select **Create**.
-1. Expand **Manually trigger a flow**, select **+Add an input**, select **Text** as the input type, and set as input title **My Text**.
-1. Select **+ New step**, search for **AI Builder** in the Search for filters and actions box, and then select **Extract entities from text with one of your custom models** in the list of actions.
+
+1. Expand **Manually trigger a flow**, and then select **+Add an input** > **Text** as the input type.
+
+1. Replace the word **Input** with **My Text** (also known as the title).
+
+1. Select **+ New step** > **AI Builder**, and then select **Extract entities from text with one of your custom models** in the list of actions.
+
 1. Select the entity extraction model you want to use, and in the **Text** column add **My Text** from the trigger.
 
     > [!div class="mx-imgBorder"]

@@ -5,12 +5,12 @@ author: JoeFernandezMS
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/01/2020
+ms.date: 03/29/2021
 ms.author: jofernan
-ms.reviewer: kvivek
+ms.reviewer: v-aangie
 ---
 
-# Invoice processing model (preview)
+# Invoice processing prebuilt model (preview)
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -33,7 +33,7 @@ To get the best results, provide one clear photo or scan per invoice.
 
 - The image format must be JPEG, PNG, or PDF.
 - The file size must be less than 20 MB.
-- The image dimensions must be between 50 x 50 pixels and 10000 x 10000 pixels.
+- The image dimensions must be between 50 x 50 pixels and 10,000 x 10,000 pixels.
 - PDF dimensions must be at most 17 x 17 inches, which is the equivalent of the Legal or A3 paper sizes or smaller.
 
 ## Model output

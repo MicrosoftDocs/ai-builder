@@ -5,14 +5,14 @@ author: alanabrito
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/29/2020
+ms.date: 03/29/2021
 ms.author: alanab
-ms.reviewer: kvivek
+ms.reviewer: v-aangie
 ---
 
-# Business card model
+# Business card prebuilt model
 
-You can use the business card prebuilt model to extract information from business card images. If it detects a business card in the image, the AI model extracts information such as the person's<!--Suggested.--> name, job title, address, email, company, and phone numbers.
+You can use the business card prebuilt model to extract information from business card images. If it detects a business card in the image, the AI model extracts information such as the person's name, job title, address, email, company, and phone numbers.
 
  > [!NOTE]
 >
@@ -25,11 +25,11 @@ AI Builder is licensed as an add-on to your Power Apps or Power Automate license
 
 ## Role requirements
 
-Users need to have the Common Data Service user role to consume the business card reader.
+Users need to have the Basic User role to consume the business card reader.
 
 ## Use in Power Apps
 
-If you want to use this prebuilt model in Power Apps, you use the business card reader component. More information: [Use the business card reader component in canvas apps](business-card-reader-component-in-powerapps.md) and [Use the business card reader component in model-driven apps](business-card-reader-component-model-driven.md)<!--Edit okay?-->
+If you want to use this prebuilt model in Power Apps, you use the business card reader component. More information: [Use the business card reader component in canvas apps](business-card-reader-component-in-powerapps.md) and [Use the business card reader component in model-driven apps](business-card-reader-component-model-driven.md)
 
 ## Use in Power Automate
 
