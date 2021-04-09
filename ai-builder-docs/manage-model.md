@@ -25,7 +25,7 @@ Depending on your AI model type, a performance score might appear for each train
 
 Each AI model type has a different explanation for how the score is calculated and how the score should be interpreted. View the tooltip next to **Performance** to learn more.
 
-Some AI model types include a feature to quickly test the performance for your trained version<!--Edit okay? I got a bit lost here.--> with real data of your choosing. Select **Quick test** to see your model in action.
+Some AI model types include a feature to quickly test the performance for your trained version with real data of your choosing. Select **Quick test** to see your model in action.
 
 After you finish evaluating your newly trained model, you have two options:
 
@@ -61,7 +61,7 @@ A new version is created only after you've successfully trained it. If you leave
 
 After training, your training results appear under the **Last trained version** section of the **Details** page.
 
-If you're satisfied with your last trained version, you can publish your model to make it available. Otherwise, you can always create a new version.<!--Suggested. There are too many cross-references to the same topic in here.-->
+If you're satisfied with your last trained version, you can publish your model to make it available. Otherwise, you can always create a new version.
 
 ## When should I create a new version?
 

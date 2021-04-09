@@ -5,14 +5,12 @@ author: paulnog
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 02/21/2021
+ms.date: 04/09/2021
 ms.author: paulnog
-ms.reviewer: kvivek
+ms.reviewer: v-aangie
 ---
 
 # Common issues and resolutions for AI Builder
-
-[!INCLUDE [cc-data-platform-banner](includes/cc-data-platform-banner.md)]
 
 Here are some issues that have been seen in AI Builder. Where applicable, workarounds are provided.
 
@@ -69,8 +67,9 @@ If you get the error message **_“The analysis failed for these documents”_**
 * The documents that you have uploaded meet the [following requirements](./form-processing-model-requirements.md).
 * If the documents that you have uploaded are PDFs with multiple pages, split the PDF documents with only the pages you need the model to recognize and upload the reduced documents that have been split instead.
 
-## Fields could not be loaded for this document error in Form processing
+## Fields could not be loaded for this document error in Form processing 
 
+<!-- VIVEK: I can't duplicate so I can't test. Did error change "fields" change to "columns" in the error? -->
 If you get the error message **_“Fields could not be loaded for this document”_** while you are creating your Form processing model, this can be caused by:
 * A temporary error, like poor internet connectivity. You can try again by clicking the Retry button.
 * The document you are trying to select fields from is too large. If it’s a PDF with multiple pages, split the PDF documents with only the pages you need the model to recognize and upload the reduced document that has been split instead. If it’s an image, reduce its dimensions and upload it to your model to replace the previous image uploaded. 
@@ -90,11 +89,11 @@ Alternatively, you can [create a new Power Platform environment with a database]
 
 ## AI Builder actions are disabled/deactivated
 
-AI Builder cannot be used if its actions have been deactivated. To active them, the administrator of the environment needs to perform the following steps:
+AI Builder cannot be used if its actions have been deactivated. To activate them, the administrator of the environment needs to perform the following steps:
 
 1.	Sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
 2.	Select the environment where the actions are deactivated and select **Settings** > **Resources** > **All legacy settings**.
-3.	Select **Processes** from the Settings menu.
+3.	Select **Processes** from the **Settings** menu.
 4.	Select to display **All Processes** and activate all the following AI Builder processes:
     - IsPaiEnabled
     - Predict

@@ -5,9 +5,9 @@ author: JoeFernandezMS
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/31/2019
+ms.date: 04/09/2021
 ms.author: jofernan
-ms.reviewer: kvivek
+ms.reviewer: v-aangie
 ---
 
 # Use the form processor component in Power Apps
@@ -21,7 +21,7 @@ You can add the AI Builder form processor component to your screen in your canva
 
 ## Prerequisites
 
-This component requires a published AI Builder form-processing model. Then that model must be bound to the component by using the AI model property in the properties panel.
+This component requires a published AI Builder form processing model. Then that model must be bound to the component by using the AI model property in the properties panel.
 
 When you add the component to the screen, it automatically opens the AI models pane. There, you select a model that has been published in your environment. The component is initialized after an AI model is bound to it.
 
@@ -54,7 +54,7 @@ When you add the component to the screen, it automatically opens the AI models p
 
 - **ImageDisplayed** (**Show image** in the properties panel): Determines whether the component displays the image. When set to **On**, rectangles are displayed around field values detected in the image.
 
-  Three different colors can be used to draw the rectangle depending on the confidence level:
+  Three colors can be used to draw the rectangle depending on the confidence level:
   - **Red**: Confidence level is between 0 percent and 39 percent.
   - **Orange**: Confidence level is between 40 percent and 59 percent.
   - **Blue**: Confidence level is between 60 percent and 100 percent.
@@ -67,7 +67,7 @@ When you add the component to the screen, it automatically opens the AI models p
 
   - **View**: Only displays data.
 
-  - **Disabled** is disabled.
+  - **Disabled**: Is disabled.
 
 - **Height**: The height of the component.
 
@@ -82,6 +82,7 @@ When you add the component to the screen, it automatically opens the AI models p
 Additional design properties are available in the **Advanced** panel.
 
 ## Accessibility guidelines
+
 These [guidelines](/powerapps/maker/canvas-apps/controls/control-button) for the Power Apps button control also apply to the form processor component.
 
 ### See also
