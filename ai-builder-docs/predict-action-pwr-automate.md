@@ -63,7 +63,6 @@ In this section, we'll explain how to configure the AI Builder predict action fo
 
 1. Enter **model id** in the **Name** input, **String** in the **Type** input, and the actual model ID in the **Value** input.
 
-<!-- DEON: I get "Sorry, there's been a disconnect" error when I click the link. -->
    The model ID can be found in the URL of the model's detail page in Power Apps:
    *make.powerapps.com/environment/[environment id]/aibuilder/models/**[model id]***
 
@@ -71,7 +70,7 @@ In this section, we'll explain how to configure the AI Builder predict action fo
 
 1. Select the input > **Enter custom value**, and then enter **model id** from step 6.
 
-1. The **Infer request** column value depends on the model type. <!--DEON: What does this mean? -->
+   The **Infer request** column value depends on the model type.
 
 ### Form processing model
 

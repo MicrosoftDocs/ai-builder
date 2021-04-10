@@ -16,7 +16,7 @@ ms.reviewer: v-aangie
 
 1. Select **My flows** in the left pane, and then select **New flow** > **Automated cloud flow**.
 
-1. Name your flow, select **When a new email arrives V3 (Office 365 Outlook)** under **Choose your trigger's flow**, and then select **Create**.
+1. Name your flow, select **When a new email arrives V3 (Office 365 Outlook)** under **Choose your flow's trigger**, and then select **Create**.
 
 1.	Select **+ New step**.
 
@@ -32,8 +32,6 @@ ms.reviewer: v-aangie
 
    > [!div class="mx-imgBorder"]
    > ![Choose an action'](media/flow-EE-prebuilt1.png "Specify Text")
-
-<!-- DEON: Need to find Initialize variable-->
 
 1. In the successive actions, you can use any columns extracted by the AI Builder model. For example, you can send an email using the **Entity type** and **Entity value** columns.
    > [!div class="mx-imgBorder"]

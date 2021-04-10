@@ -5,7 +5,7 @@ author: JoeFernandezMS
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/29/2021
+ms.date: 03/30/2021
 ms.author: jofernan
 ms.reviewer: v-aangie
 ---
@@ -85,20 +85,35 @@ When you hover over words in your documents, light blue boxes may appear. These 
 
 ### Tag tables
 
-AI Builder can detect tables in your documents. These are indicated by a rounded table button on the upper left of the table. When you select it, you have the possibility to preview the content detected by the table as well as tag the table.
+To tag a table:
 
-When you select **Tag table**, you will need to tag the columns that you defined by selecting them on the document. 
+1. Draw a rectangle around the table in the document you are interested in, and then select the table name that it corresponds to. The content of the panel on the right will change.
+
+1. Select a cell from the table on the right panel, and then tag it on the document.
+
+1. Once you have tagged one cell, come back to the right panel, and select another cell to tag.
+
+1. Repeat this process until you have tagged all rows for all the columns you are interested in.
+
+The following animation illustrates the process:
 
    > [!div class="mx-imgBorder"]
-   > !['Tag tables' animation](media/form-processing-multiple-layout-tag-tables.gif "Tag a table in a document")
+   > !['Tag table' animation](media/form-processing-tag-table.gif "Tag a table in a document")
+
+The header of a table doesn’t have to be tagged.
+
+**Multipage tables** 
+
+AI Builder doesn’t currently support extracting tables than span across multiple pages as a single table. To extract tables from different pages, these will need to be defined as separate tables in the [Choose information to extract step](https://docs.microsoft.com/ai-builder/create-form-processing-model#define-fields-and-tables-to-extract). For example, if you have a document with a table than spans over two pages, you will need to define them as two separate tables.
 
 
-> [!NOTE] 
-> **Current limitations with tables**
->
-> Drawing tables that haven't been automatically detected isn't currently supported. If you defined a table that is not automatically detected, you will need to mark it as **not available** to continue. 
->
-> For AI Builder to detect tables, rows and columns need to be clearly delimited and be properly aligned. Nested tables and merged headers are not currently supported.
+**Nested items in tables**
+
+You can tag items that are nested within a row by defining these as columns. Given the table from the example below, to extract the unit price, we will define it as a separate column on the [Choose information to extract step](https://docs.microsoft.com/ai-builder/create-form-processing-model#define-fields-and-tables-to-extract). We define Description, Unit price, Quantity and Amount each as a column of the table and tag them accordingly. 
+
+   > [!div class="mx-imgBorder"]
+   > !['Tag tables' animation](media/form-processing-tag-table-nested-items.png "Tag nested items in tables")
+
 
 ### Field or table not in document
 

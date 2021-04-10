@@ -12,7 +12,7 @@ ms.reviewer: v-aangie
 
 # Use the sentiment analysis prebuilt model in Power Automate
 
-## Create a flow that uses the AI Builder sentiment analysis prebuilt model
+In this article, we will create a flow that uses the AI Builder sentiment analysis prebuilt model.
 
 1. Sign in to [Power Automate](https://flow.microsoft.com/).
 
@@ -74,7 +74,7 @@ Power Automate provides a template that enables you to analyze incoming Dynamics
    For information about how to create an attribute, see [Create and edit column for Dataverse using Power Apps portal](/powerapps/maker/common-data-service/create-edit-field-portal).
 
 1. Sign in to [Power Automate](https://flow.microsoft.com/signin).
-1. In the left pane, select **Templates**, and then search for **AI Builder sentiment**.
+1. In the left pane, select **Templates**, and then search for **ai builder sentiment**.
 1. Select **Analyze sentiment of Dynamics emails using AI Builder**.
 1. Select your environment, and then select **Continue**.
 1. Type **Email Messages** in the **Entity Name** input.
@@ -82,7 +82,7 @@ Power Automate provides a template that enables you to analyze incoming Dynamics
 
    > ![When an email message is created](media/sentiment-analysis-template.png "choose settings when an email message is created")
 
-1. <!-- DEON: I don't see this. --> Next, the template shows messages from **draft emails** and **received emails**. You can filter these if you want to perform sentiment analysis only on selected email statuses. For a list of status codes, see [email EntityType](/dynamics365/customer-engagement/web-api/email?view=dynamics-ce-odata-9).
+1. Next, the template shows messages from **draft emails** and **received emails**. You can filter these if you want to perform sentiment analysis only on selected email statuses. For a list of status codes, see [StatusCode choices](/powerapps/developer/data-platform/reference/entities/email#statuscode-choicesoptions).
 1. Select **Add sentiment to CDS Email Entity**, select **Show advanced options**, and then locate the attribute you added in step 1.
 1. Finally, add **Global sentiment** from the **Dynamic content** list.
 
@@ -92,7 +92,7 @@ If you want this column to be visible in your email grid view, follow these step
 
 1. Go to the view/form designer, and add the custom column you created in step 1 of the preceding procedure. For information about how to add the column to your view, see [Add a column to your view](/dynamics365/customerengagement/on-premises/customize/create-edit-views-app-designer#add-a-column-to-your-view).
 
-1. Then add a field to the form. For details, see [Add a field to a form](/dynamics365/customerengagement/on-premises/customize/add-field-form).
+1. Add a field to the form. For details, see [Add a field to a form](/dynamics365/customerengagement/on-premises/customize/add-field-form).
 
 ### See also
 
