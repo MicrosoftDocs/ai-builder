@@ -27,12 +27,15 @@ ms.reviewer: v-aangie
 
 1. Select the object detection model you want to use.
 
-1. In the **Image** field, add **My Image** from the trigger:
+1. In the **Image** input, select **My Image** from the **Dynamic content** list:
 
     > [!div class="mx-imgBorder"]
     > ![Specify my image](media/flow-my-image-2.png "Specify my image")
 
-1. To retrieve the name of the detected object or objects on the image, use the **Detected object name** column. <!-- I don't see this column. Deon suggests that I ask Vivek -->
+1. To retrieve the name of the detected object or objects on the image:
+   1. Select **New step**.
+   1. Search for and select **Compose**.
+   1. Select the **Inputs** input, and then select **Detected object name**  in the **Dynamic content** list.
 
 Congratulations! You've created a flow that uses an object detection AI Builder model. Select **Save** on the top right, and then select **Test** to try out your flow.
 
