@@ -61,7 +61,7 @@ You can compare the aggregated consumption for the current calendar month on eac
 
 ## See also
 
-- [Microsoft Power Apps and Power Automate Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=2085130)<!--VIVEK: Please help with this old note - I (not Angie) don't think you want the locale identifier? -->
+- [Microsoft Power Apps and Power Automate Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=2085130)<br/>
 - [AI Builder licensing FAQ](/power-platform/admin/powerapps-flow-licensing-faq#ai-builder)
 
 
