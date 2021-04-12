@@ -6,9 +6,9 @@ manager: kvivek
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 01/26/2021
+ms.date: 04/09/2021
 ms.author: paulnog
-ms.reviewer: kvivek
+ms.reviewer: v-aangie
 ---
 
 # Document automation toolkit
@@ -27,7 +27,7 @@ You can access the [document automation toolkit](https://flow.microsoft.com/mana
 
 ## Learn about the toolkit
 
-Step-by-step instructions on how to install and use the document automation kit is available here: [Microsoft Learn: Get started with AI Builder document automation](/learn/modules/get-started-ai-builder-document-automation/).
+Step-by-step instructions on how to install and use the document automation kit are available here: [Microsoft Learn: Get started with AI Builder document automation](/learn/modules/get-started-ai-builder-document-automation/).
 
 ### See also
 
