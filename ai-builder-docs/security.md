@@ -20,7 +20,7 @@ Some privileges are set by default in Dataverse. This allows built-in security r
 - Dataverse users can access data by using the models embedded in Power Apps.
 - Administrators and system customizers can access all AI models created in the environment.
 
-These security roles have privileges to the AI Builder tables in Dataverse. Custom security roles can create AI models if they have the same access to the AI Builder tables as the environment maker role. <!-- VIVEK - Screenshot looks old; I can't test because I can't get here. It says Missing entities (tab) and Entity (row). -->
+These security roles have privileges to the AI Builder tables in Dataverse. Custom security roles can create AI models if they have the same access to the AI Builder tables as the environment maker role.
 
 > [!div class="mx-imgBorder"]
 > ![Security roles screen](media/security-roles-screen.png "Security roles screen" )

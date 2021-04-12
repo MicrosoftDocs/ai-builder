@@ -69,9 +69,8 @@ If you get the error message **_“The analysis failed for these documents”_**
 
 ## Fields could not be loaded for this document error in Form processing 
 
-<!-- VIVEK: I can't duplicate so I can't test. Did error change "fields" change to "columns" in the error? -->
 If you get the error message **_“Fields could not be loaded for this document”_** while you are creating your Form processing model, this can be caused by:
-* A temporary error, like poor internet connectivity. You can try again by clicking the Retry button.
+* A temporary error, like poor internet connectivity. You can try again by clicking the **Retry** button.
 * The document you are trying to select fields from is too large. If it’s a PDF with multiple pages, split the PDF documents with only the pages you need the model to recognize and upload the reduced document that has been split instead. If it’s an image, reduce its dimensions and upload it to your model to replace the previous image uploaded. 
 
 ## Training failed and the model cannot be used error in Form processing

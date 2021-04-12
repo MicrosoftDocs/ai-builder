@@ -34,8 +34,8 @@ ms.reviewer: v-aangie
 
 1. To retrieve the name of the detected object or objects on the image:
    1. Select **New step**.
-   1. Search for and select **Compose**.
-   1. Select the **Inputs** input, and then select **Detected object name**  in the **Dynamic content** list.
+   1. Search for the successive action you want your flow to perform, for example add a row into an Excel table or send an email.
+   1. Select any of the successive actions' inputs, and then select **Detected object name**  in the **Dynamic content** list.
 
 Congratulations! You've created a flow that uses an object detection AI Builder model. Select **Save** on the top right, and then select **Test** to try out your flow.
 
