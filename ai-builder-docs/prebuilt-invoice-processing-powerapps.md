@@ -19,31 +19,57 @@ Currently, there is no invoice processing control available for canvas apps in P
 ## Build your flow
 
 1. Sign in to [Power Automate](https://flow.microsoft.com).
-1. Make sure you are in the same Power Platform environment where you will have your canvas app. Check the environment on the top right of the page. Next select **My flows** in the left-side navigation pane.
-1. Select **New** > **Instant – from blank**.
-1. Name your flow: “Invoice processing flow”, then select **Power Apps** under **Choose how to trigger this flow**.
+
+1. Make sure you are in the same Power Platform environment where you will have your canvas app. Check the environment on the top right of the page.
+
+1. Select **My flows** in the left-side navigation pane.
+
+1. Select **New flow** > **Instant cloud flow**.
+
+1. Name your flow “Invoice processing flow”, and then select **Power Apps** under **Choose how to trigger this flow**.
+
 1. Select **Create**.
-1. Select **+ New step**, search for AI Builder, and then select **Process and save information from invoices** in the list of actions.
-1. Select the **Invoice file** input and then select **Ask in Power Apps** in the **Dynamic content** menu.
+
+1. Select **+ New step** > **AI Builder**, and then select **Process and save information from invoices (preview)** in the **Actions** list.
+
+1. Select the **Invoice file** input and then select **Ask in Power Apps** in the **Dynamic content** list.
+
    > [!div class="mx-imgBorder"]
    > ![Process and save information](media/flow-process-and-save.png "Choose dynamic content")
 
-1. Select **+ New step**, search for *respond to a powerapp*, and then select **Respond to a PowerApp or flow** in the list of actions.
-1. Select **+Add an output** and for this example we’re going to add two Text outputs: *Invoice ID* and *Invoice Total*. You might want to add more or different outputs based on the extracted invoice fields you want to send back to your canvas app.
-   > [!div class="mx-imgBorder"]
-   > ![Respond to a Power App tile](media/flow-respond-to-power-app.png "Configure the 'Respond to Power App' screen")
+1. Select **+ New step**, search for *respond to a powerapp*, and then select **Respond to a PowerApp or flow** in the **Actions** list.
 
-1. Select the **Enter a value to respond** field next to each defined output and then select from the dynamic content menu: **Invoice ID** and **Invoice Total (text)**.
-1. Save your flow. 
+   For this example we’re going to add two text outputs: *Invoice ID* and *Invoice Total*. You might want to add more or different outputs based on the extracted invoice fields you want to send back to your canvas app.
+
+   To add the inputs:
+
+   1. Select **+Add an output** > **Text**. 
+
+   1. Replace **Enter title** with **Invoice ID**.
+
+   1. Select the new **Invoice ID** input, and then select **Invoice ID** from the **Dynamic content** list.
+
+   1. Select **+ Add an input** > **Text**.
+
+   1. Replace **Enter title** with **Invoice Total**.
+
+   1. Select the new **Invoice Total** input, and then select **Invoice total (text)** from the **Dynamic content** list.
+
+      > [!div class="mx-imgBorder"]
+      > ![Respond to a Power App tile](media/flow-respond-to-power-app.png "Configure the 'Respond to Power App' screen")
+
+1. Save your flow.
 
 ## Build your canvas app
 
 1. Sign in to [Power Apps](https://make.powerapps.com/). 
 1. Make sure you are on the same Microsoft Power Platform environment where you created the flow on the top right of the page. 
 1. Select **+Create** in the left-side navigation pane.
-1. Select the **Canvas app from blank** tile. Give a name to your app and select either **Tablet** or **Phone** format.
-1. In the app editor, select **Insert** > **Media** > **Add picture** to insert a control intro your app where users can upload a picture from a device or  camera.
-1. Select the **AddMediaButton1** control on the left.  Then on the formula bar on the top, select the **OnSelect** event. 
+1. Select the **Canvas app from blank** tile. 
+1. Name your app, select either **Tablet** or **Phone** format, and then select **Create**.
+1. In the app editor, select **Insert** > **Media** > **Add picture** to insert a control into your app where users can upload a picture from a device or camera.
+1. Select the **AddMediaButton1** control on the left. 
+1. On the formula bar on the top, select the **OnSelect** event.
 
 
 1. Select the **Action** menu and select **Power Automate**. Choose the flow that we created in the previous steps. If you don’t see the flow, make sure you are on the same Power Platform environment as where you created the flow, you can check the environment on the top right of the page.

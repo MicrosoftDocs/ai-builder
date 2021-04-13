@@ -5,9 +5,9 @@ author: mustlaz
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/30/2019
+ms.date: 04/09/2021
 ms.author: mustlaz
-ms.reviewer: kvivek
+ms.reviewer: v-aangie
 ---
 
 # AI Builder in Power Apps overview
@@ -57,7 +57,13 @@ With the [AI Builder component improvements](https://powerapps.microsoft.com/blo
     |{Control Name}.VisionObjects.displayName |{Control Name}.GroupedResults.TagName |
     |{Control Name}.VisionObjects.count |{Control Name}.GroupedResults.ObjectCount |
 
-If your app uses a **data table** component to display results from the **object detector** component, and you don't see the content after this update, remove the **data table** component from your app, and then add it again. Next, reset the item's property to correctly display the content from the **object detector** component.
+If your app uses a **data table** component to display results from the **object detector** component, and you don't see the content after this update:
+
+1. Remove the **data table** component from your app.
+
+1. Add it again.
+
+1. Reset the item's property to correctly display the content from the **object detector** component.
 
 ### See also
 

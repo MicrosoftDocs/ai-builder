@@ -5,14 +5,12 @@ author: JoeFernandezMS
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/02/2020
+ms.date: 04/09/2021
 ms.author: jofernan
-ms.reviewer: kvivek
+ms.reviewer: v-aangie
 ---
 
-# Use the business card reader component in model-driven apps
-
-[!INCLUDE [cc-data-platform-banner](includes/cc-data-platform-banner.md)]
+# Use the business card reader component in model-driven apps in Power Apps
 
 Use the AI Builder business card reader component to detect business cards and extract their information. You can take photos directly in the component or load images that you've taken. Data is extracted and identified by using the properties listed below.
 
@@ -24,7 +22,7 @@ AI Builder is licensed as an add-on to your Power Apps or Power Automate license
 
 ## Role requirements
 
-You need the Common Data Service user role to use the business card reader.
+You need the Basic User role to use the business card reader.
 
 ## Add the business card reader
 

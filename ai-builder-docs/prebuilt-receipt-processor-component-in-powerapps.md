@@ -6,9 +6,9 @@ author: jarennert
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/20/2020
+ms.date: 04/09/2021
 ms.author: joshrenn
-ms.reviewer: kvivek
+ms.reviewer: v-aangie
 ---
 
 # Use the receipt processor component in Power Apps (preview)
@@ -18,7 +18,7 @@ The AI Builder receipt processor component scans and extracts information from r
 For more information about canvas apps, see [What are canvas apps in Power Apps?](/powerapps/maker/canvas-apps/getting-started)
 
 ## Requirements
-The receipt processor component works best with sales receipts, those commonly used by restaurants, gas stations, and retailers, among others. Both print and handwritten text can be detected.
+The receipt processor component works best with sales receipts, those commonly used by restaurants, gas stations, and retailers, and others. Both print and handwritten text can be detected.
 
 Only English receipts from the United States are currently supported.
 
@@ -26,8 +26,8 @@ In order to get the best results, provide one clear photo or scan per receipt.
 
 - The image format must be JPEG, PNG, or PDF.
 - The file size must be less than 20 MB.
-- The image dimensions must be between 50 x 50 pixels and 10000 x 10000 pixels.
-- PDF dimensions must be at most 17 x 17 inches, which is the equivalent of the Legal or A3 paper sizes or smaller.
+- The image dimensions must be between 50 x 50 pixels and 10,000 x 10,000 pixels.
+- PDF dimensions must be at most 17 x 17 inches, which is the equivalent of the legal or A3 paper sizes or smaller.
 - For PDF documents, only the first 200 pages are processed.
 
 ## Receipt properties

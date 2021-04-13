@@ -5,13 +5,13 @@ author: amina196
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/06/2019
+ms.date: 04/09/2021
 ms.author: aminab
-ms.reviewer: kvivek
+ms.reviewer: v-aangie
 ---
 
 # Use the object detector component in Power Apps
-<!--I used "object detector" to be parallel with the other references to components in this section, also to follow the majority of uses in the docset.-->
+
 The object detector component takes a photo or loads an image file to do an object detection scan. On a mobile device, the user chooses between taking a photo or selecting one already available in the device user interface. When an image is selected, the component automatically scans it to identify objects.
 
  > [!NOTE]
