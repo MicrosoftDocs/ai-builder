@@ -18,22 +18,23 @@ You can use Power Automate templates in Teams that solve a specific business pur
 
 ## Discover AI Builder templates in Teams
 
-- Go to your Teams app or [Teams web](https://teams.microsoft.com).
+1. Go to your Teams app or [Teams web](https://teams.microsoft.com).
 
-- Select the **Apps** icon on the bottom left.
+1. Select the **Apps** icon on the bottom left.
 
-- Look for the app named **Power Automate** and install it. The app appears on the left menu of Teams.
+1. Look for the app named **Power Automate** and install it. The app appears on the left menu of Teams.
 
-  You can pin the app to keep it there when you reopen Teams.
+   You can pin the app to keep it there when you reopen Teams.
 
-- Select the Power Automate app, and then select the **Create** tab.
+1. Select the Power Automate app, and then select the **Create** tab.
 
-  From there you can search for the AI Builder templates listed in the next section in this article.
-    
-> [!div class="mx-imgBorder"]
-> ![Templates list](media/templates-list.png "Templates list")
+   From there you can search for the AI Builder templates listed in the next section in this article.
+
+   > [!div class="mx-imgBorder"]
+   > ![Templates list](media/templates-list.png "Templates list")
 
 ## Create a flow from a template
+
 From the list of AI Builder templates, choose the one that fits you need the most. If you don't have [Microsoft Dataverse](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro), you will see the following dialog:
 
 > [!div class="mx-imgBorder"]
