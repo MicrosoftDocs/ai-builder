@@ -6,7 +6,7 @@ manager: cdbellar
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/23//2021
+ms.date: 4/23/2021
 ms.author: antrod
 ms.reviewer: v-aangie
 ---
@@ -18,23 +18,23 @@ You can use Power Automate templates in Teams that solve a specific business pur
 
 ## Discover AI Builder templates in Teams
 
-1. Go to your Teams app or [Teams web](https://teams.microsoft.com).
+- Go to your Teams app or [Teams web](https://teams.microsoft.com).
 
-3. Select the **Apps** icon on the bottom left.
+- Select the **Apps** icon on the bottom left.
 
-5. Look for the app named **Power Automate** and install it. The app appears on the left menu of Teams.
+- Look for the app named **Power Automate** and install it. The app appears on the left menu of Teams.
 
-   You can pin the app to keep it there when you reopen Teams.
+  You can pin the app to keep it there when you reopen Teams.
 
-3. Select the Power Automate app, and then select the **Create** tab.
+- Select the Power Automate app, and then select the **Create** tab.
 
-   From there you can search for the AI Builder templates listed in the next section in this article.
+  From there you can search for the AI Builder templates listed in the next section in this article.
     
 > [!div class="mx-imgBorder"]
 > ![Templates list](media/templates-list.png "Templates list")
 
 ## Create a flow from a template
-From the list of AI Builder templates, choose the one that fits the most to your need. If you don't have [Microsoft Dataverse](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro), you will see the following dialog:
+From the list of AI Builder templates, choose the one that fits you need the most. If you don't have [Microsoft Dataverse](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro), you will see the following dialog:
 
 > [!div class="mx-imgBorder"]
 > ![No Dataverse list](media/no-dataverse.png "No Dataverse action")
@@ -61,17 +61,10 @@ This is now the time for you to enter the parameters required by the template to
 >
 >It's also possible to select "Edit in advanced mode". This will open the full flow editor within Teams. 
 
-Once you filled all the parameters, your can select **Create flow**. After few seconds, your flow will be created and ready to use.
+Once you filled all the parameters, you can select **Create flow**. After few seconds, your flow will be created and ready to use.
 
-Created flows are visible and can be modified from the home page of the Power Automate application.
-
+Created flows are visible and can be modified from the Power Automate home page.
 
 ### See also
 
 [Use flows in Microsoft Teams](https://docs.microsoft.com/power-automate/teams/overview)
-
-
-
-
-
-
