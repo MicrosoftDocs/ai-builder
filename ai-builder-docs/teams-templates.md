@@ -42,7 +42,7 @@ From the list of AI Builder templates, choose the one that fits your needs the m
     > [!div class="mx-imgBorder"]
     > ![No Dataverse list](media/no-dataverse.png "No Dataverse action")
 
-   If Dataveserse is already installed, you will land on the simplified template experience for Teams. The first screen asks you to validate connections.
+   If Dataverse is already installed, you will land on the simplified template experience for Teams. The first screen asks you to validate connections.
 
 1. Once your connections are valid, select **Continue**.
 
