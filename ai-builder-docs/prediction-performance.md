@@ -100,7 +100,7 @@ For numerical prediction, AI Builder calculates an r-squared score after each tr
 
 Let's say you're predicting the number of days to fulfill, ship, and deliver an order. The model predicts a set of numbers. The r-squared value is based on the distances between predicted values and actual values in your training data. This is expressed as a number between 0 – 100%, with higher values indicating the predicted value is closer to the real value. Typically, a higher score means the model performs better. Remember though, that perfect or near-perfect scores ([overfit models](./manage-model.md#overfit-models)) are usually indicative of a problem with your training data.
 
-On the **Summary** tab, the following performance information is available
+On the **Summary** tab, the following performance information is available:
 
 * Training date
 * Data source
