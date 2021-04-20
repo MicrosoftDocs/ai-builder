@@ -85,7 +85,6 @@ For training details, select **See details** on the model's grade box. On the **
 >[!NOTE]
  >For information about additional features planned for this area, see [release plans](/power-platform-release-plan/2020wave1/ai-builder/).
 
-* Performance grade
 * Accuracy score
 * R-squared
 
