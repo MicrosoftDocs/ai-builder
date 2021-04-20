@@ -5,7 +5,7 @@ author: Dean-Haas
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/19/2021
+ms.date: 4/20/2021
 ms.author: norliu
 ms.reviewer: v-aangie
 ---
@@ -85,20 +85,17 @@ For training details, select **See details** on the model's grade box. On the **
 >[!NOTE]
  >For information about additional features planned for this area, see [release plans](/power-platform-release-plan/2020wave1/ai-builder/).
 
-
 * Performance grade
 * Accuracy score
 * R-squared
 
-#### Performance grade
-
-#### Accuracy score
+### Accuracy score
 
 AI Builder calculates the accuracy score for your model based on prediction result of the test dataset. Before training, AI Builder separates your dataset into separate training data and testing data sets. And after training, AI Builder applies your AI model to the testing dataset, and then calculates your accuracy score. For example: if your test dataset has 200 rows, and AI Builder correctly predicts 192 of them, AI Builder shows an accuracy score of 96 percent.
 
 For more information, see [Evaluate your model](manage-model.md#evaluate-your-model).
 
-#### R -squared
+### R -squared
 
 For numerical prediction, AI Builder calculates an r-squared score after each training. This score measures your model’s ‘goodness of fit’, and is used to determine your model’s performance grade.
 
