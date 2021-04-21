@@ -36,6 +36,30 @@
     href: share-model.md
   - name: Distribute your model
     href: distribute-model.md
+- name: Prebuilt AI models
+  items:
+  - name: Overview
+    href: prebuilt-overview.md
+  - name: Business card reader
+    href: prebuilt-business-card.md 
+  - name: Category classification (preview)
+    href: prebuilt-category-classification.md
+  - name: Entity extraction 
+    href: prebuilt-entity-extraction.md
+  - name: ID reader (preview)
+    href: prebuilt-id-reader.md
+  - name: Invoice processing (preview)
+    href: prebuilt-invoice-processing.md
+  - name: Key phrase extraction
+    href: prebuilt-key-phrase.md
+  - name: Language detection
+    href: prebuilt-language-detection.md
+  - name: Receipt processing (preview)
+    href: prebuilt-receipt-processing.md
+  - name: Text recognition
+    href: prebuilt-text-recognition.md
+  - name: Text translation
+    href: prebuilt-text-translation.md
 - name: Custom AI models
   items:
   - name: Prediction AI model
@@ -122,30 +146,6 @@
       href: improve-form-processing-performance.md
     - name: Use sample data
       href: form-processing-sample-data.md
-- name: Prebuilt AI models
-  items:
-  - name: Overview
-    href: prebuilt-overview.md
-  - name: Business card reader
-    href: prebuilt-business-card.md 
-  - name: Category classification (preview)
-    href: prebuilt-category-classification.md
-  - name: Entity extraction 
-    href: prebuilt-entity-extraction.md
-  - name: ID reader (preview)
-    href: prebuilt-id-reader.md
-  - name: Invoice processing (preview)
-    href: prebuilt-invoice-processing.md
-  - name: Key phrase extraction
-    href: prebuilt-key-phrase.md
-  - name: Language detection
-    href: prebuilt-language-detection.md
-  - name: Receipt processing (preview)
-    href: prebuilt-receipt-processing.md
-  - name: Text recognition
-    href: prebuilt-text-recognition.md
-  - name: Text translation
-    href: prebuilt-text-translation.md
 - name: Use AI Builder in Power Automate
   items:
   - name: Overview
