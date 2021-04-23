@@ -62,7 +62,7 @@ From the list of AI Builder templates, choose the one that fits your needs the m
    > [!div class="mx-imgBorder"]
    > ![Create flow](media/create-flow.png "Create flow")
 
-Created flows are visible and can be modified from the Power Automate home page.
+Created flows are visible and can be modified from the Power Automate home page. 
 
 ### See also
 
