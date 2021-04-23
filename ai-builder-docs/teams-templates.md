@@ -39,8 +39,8 @@ You can use Power Automate templates in Teams that solve a specific business pur
 
     - If you don't have [Microsoft Dataverse](/powerapps/maker/data-platform/data-platform-intro), you will see the following dialog. Select **Continue** to install Dataverse. It usually takes a couple of minutes (in some cases it can take more than 1 hour) and has to be done only once.
 
-    > [!div class="mx-imgBorder"]
-    > ![No Dataverse list](media/no-dataverse.png "No Dataverse action")
+        > [!div class="mx-imgBorder"]
+        > ![No Dataverse list](media/no-dataverse.png "No Dataverse action")
 
     - If Dataverse is already installed, you will land on the simplified template experience for Teams. The first screen asks you to validate connections.
 
