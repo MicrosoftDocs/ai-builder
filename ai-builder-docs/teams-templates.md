@@ -1,5 +1,5 @@
 ---
-title: Use AI Builder templates in Teams -  AI Builder | Microsoft Docs
+title: Use AI Builder in Teams -  AI Builder | Microsoft Docs
 description: Provides information about how to use AI Builder templates in Teams
 author: Antonio-Rodrigues
 manager: cdbellar
@@ -35,7 +35,7 @@ You can use Power Automate templates in Teams that solve a specific business pur
 
 ## Create a flow from a template
 
-From the list of AI Builder templates, choose the one that fits your needs the most. If you don't have [Microsoft Dataverse](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro), you will see the following dialog.
+From the list of AI Builder templates, choose the one that fits your needs the most. If you don't have [Microsoft Dataverse](/powerapps/maker/data-platform/data-platform-intro), you will see the following dialog.
 
 1. Select **Continue** to install Dataverse. It usually takes a couple of minutes (in some cases it can take more than 1 hour) and has to be done only once.
 
@@ -47,15 +47,15 @@ From the list of AI Builder templates, choose the one that fits your needs the m
 1. Once your connections are valid, select **Continue**.
 
    > [!NOTE]
-   >An AI Builder trial will be started or extended if needed. This action will be performed silently upon selecting **Continue**.
+   > An AI Builder trial will be started or extended if needed. This action will be performed silently upon selecting **Continue**.
 
    > [!div class="mx-imgBorder"]
    > ![Start trial](media/start-trial.png "Start trial")
 
 1. Enter the parameters required by the template to create the flow.
 
-   >[!NOTE]
-   >It's also possible to select "Edit in advanced mode". This will open the full flow editor within Teams. 
+   > [!NOTE]
+   > It's also possible to select **Edit in advanced mode**. This will open the full flow editor within Teams. 
 
 1. Once you filled all the parameters, select **Create flow**. After few seconds, your flow will be created and ready to use.
 
@@ -66,4 +66,4 @@ Created flows are visible and can be modified from the Power Automate home page.
 
 ### See also
 
-[Use flows in Microsoft Teams](https://docs.microsoft.com/power-automate/teams/overview)
+[Use flows in Microsoft Teams](/power-automate/teams/overview)
