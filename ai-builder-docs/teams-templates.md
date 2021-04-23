@@ -49,12 +49,8 @@ From the list of AI Builder templates, choose the one that fits your needs the m
    > [!NOTE]
    >An AI Builder trial will be started or extended if needed. This action will be performed silently upon selecting **Continue**.
 
- 
    > [!div class="mx-imgBorder"]
    > ![Start trial](media/start-trial.png "Start trial")
-
-
-
 
 1. Enter the parameters required by the template to create the flow.
 
@@ -63,9 +59,8 @@ From the list of AI Builder templates, choose the one that fits your needs the m
 
 1. Once you filled all the parameters, select **Create flow**. After few seconds, your flow will be created and ready to use.
 
-
- > [!div class="mx-imgBorder"]
- > ![Create flow](media/create-flow.png "Create flow")
+   > [!div class="mx-imgBorder"]
+   > ![Create flow](media/create-flow.png "Create flow")
 
 Created flows are visible and can be modified from the Power Automate home page.
 
