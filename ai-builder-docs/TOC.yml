@@ -189,7 +189,7 @@
     - name: Text translation model
       href: flow-text-translation.md
   - name: Use predict action in Power Automate
-    href: predict-action-pwr-automate.md
+    href: predict-action-pwr-automate.md  
 - name: Use AI Builder in Power Apps
   items:
   - name: Overview
@@ -216,6 +216,8 @@
     href: prebuilt-text-recognizer-component-in-powerapps.md
 - name: Use AI Builder in SharePoint
   href: sharepoint-overview.md
+- name: Use AI Builder in Teams
+  href: teams-templates.md
 - name: Use document automation toolkit
   href: doc-automation.md
 - name: Administration and security
