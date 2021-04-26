@@ -21,7 +21,7 @@ If you don't have training data and want to try AI Builder category classificati
 - Training data should be in a Dataverse table.
 - Make sure your administrator has assigned you a security role with **Read** privilege to training data.
 - You have appropriate permissions to create tables in your Dataverse environment.
-- AI Builder category classification supports the following languages: English, French, German, Dutch, Italian, Spanish, and Portuguese. If you try to classify text items in other languages, your model might not work properly. 
+- AI Builder category classification supports the following languages: English, French, German, Italian, Spanish, and Portuguese. If you try to classify text items in other languages, your model might not work properly. 
 
 ## Data format
 
