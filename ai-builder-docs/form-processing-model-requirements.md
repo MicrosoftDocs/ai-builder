@@ -31,7 +31,6 @@ Form processing works on input documents that meet the following requirements:
  > [!NOTE]
  > AI Builder doesn't currently support the following types of form processing input data:
  >
- > - Complex tables (nested tables, merged headers or cells, and so on)
  > - Check boxes or radio buttons
  > - Signatures
  > - Fillable PDFs 
