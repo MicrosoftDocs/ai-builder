@@ -5,9 +5,9 @@ author: Dean-Haas
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 01/03/2020
+ms.date: 5/3/2021
 ms.author: norliu
-ms.reviewer: kvivek
+ms.reviewer: v-aangie
 ---
 
 # Overview of the prediction model
@@ -22,7 +22,7 @@ Use the prediction model to explore business questions that can be answered as o
 
 ## Binary prediction
 
-Binary prediction is when the question asked has two possible answers. For example: yes/no, tru/false, on-time/late, go/no-go, and so on. Examples of question that use binary prediction include:
+Binary prediction is when the question asked has two possible answers. For example: yes/no, true/false, on-time/late, go/no-go, and so on. Examples of question that use binary prediction include:
 
 - Is an applicant eligible for membership?
 - Is this transaction likely to be fraudulent?
