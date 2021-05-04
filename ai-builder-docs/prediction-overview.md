@@ -43,7 +43,7 @@ Numerical prediction is when the question is answered with a number. Examples of
 - How many days for a shipment to arrive?
 - How many calls should an agent handle in a day?
 - How many items do we need to keep in inventory?
-- How many leads should a sales team convert in a month?
+- How many leads should a sales team convert in a month? 
 
 ### See also
 
