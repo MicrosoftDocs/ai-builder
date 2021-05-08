@@ -4,10 +4,10 @@ description: Describes the requirements and limitations of the custom entity ext
 author: mfotedar
 ms.service: aibuilder
 ms.topic: conceptual
-ms.custom: 
+ms.custom: intro-internal
 ms.date: 04/08/2020
 ms.author: mfotedar
-ms.reviewer: kvivek
+ms.reviewer: v-aangie
 ---
 
 # Entity extraction custom model requirements and limitations

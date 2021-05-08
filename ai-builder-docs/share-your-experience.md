@@ -5,10 +5,10 @@ author: paulnog
 
 ms.service: aibuilder
 ms.topic: conceptual
-ms.custom: 
+ms.custom: intro-internal
 ms.date: 11/02/2020
 ms.author: paulnog
-ms.reviewer: kvivek
+ms.reviewer: v-aangie
 ---
 
 # AI Builder community

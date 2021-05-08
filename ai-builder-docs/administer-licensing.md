@@ -4,10 +4,10 @@ description: Provides information about licensing in AI Builder.
 author: Mrigankka
 ms.service: aibuilder
 ms.topic: conceptual
-ms.custom: 
+ms.custom: intro-internal
 ms.date: 10/08/2020
 ms.author: mfotedar
-ms.reviewer: kvivek
+ms.reviewer: v-aangie
 ---
 
 # AI Builder licensing

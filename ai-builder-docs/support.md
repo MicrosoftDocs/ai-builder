@@ -4,10 +4,10 @@ description: Shows where to get help with AI Builder.
 author: Dean-Haas
 ms.service: aibuilder
 ms.topic: conceptual
-ms.custom: 
+ms.custom: intro-internal
 ms.date: 01/05/2021
 ms.author: paulnog
-ms.reviewer: kvivek
+ms.reviewer: v-aangie
 ---
 
 # Get support for AI Builder
