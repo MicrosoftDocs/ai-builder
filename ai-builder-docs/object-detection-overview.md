@@ -4,10 +4,10 @@ description: Provides an overview of how you can use object detection models in 
 author: amina196
 ms.service: aibuilder
 ms.topic: conceptual
-ms.custom: 
+ms.custom: intro-internal
 ms.date: 09/06/2019
 ms.author: aminab
-ms.reviewer: kvivek
+ms.reviewer: v-aangie
 ---
 
 # Overview of the object detection model

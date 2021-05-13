@@ -4,10 +4,10 @@ description: Describes the prebuilt AI models that are available in AI Builder.
 author: paulnog
 ms.service: aibuilder
 ms.topic: conceptual
-ms.custom: 
+ms.custom: intro-internal
 ms.date: 03/05/2021
 ms.author: paulnog
-ms.reviewer: kvivek
+ms.reviewer: v-aangie
 ---
 
 # Overview of prebuilt AI models

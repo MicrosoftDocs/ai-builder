@@ -1,10 +1,10 @@
 ---
 title: Prediction model prerequisites - AI Builder | Microsoft Docs
 description: Describes what you should know and what data you need before you can build a prediction model in AI Builder.
-author: Dean-Haas
+author: v-aangie
 ms.service: aibuilder
 ms.topic: conceptual
-ms.custom: 
+ms.custom:
 ms.date: 03/19/2021
 ms.author: norliu
 ms.reviewer: v-aangie

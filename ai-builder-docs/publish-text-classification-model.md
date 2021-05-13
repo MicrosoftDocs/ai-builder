@@ -1,7 +1,7 @@
 ---
 title: Publish your category classification model - AI Builder | Microsoft Docs
 description: Provides the information you need to know to publish your category classification model in AI Builder.
-author: Dean-Haas
+author: v-aangie
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 

@@ -4,10 +4,10 @@ description: Provides the information you need to know before you can use AI Bui
 author: JoeFernandezMS
 ms.service: aibuilder
 ms.topic: conceptual
-ms.custom: 
+ms.custom:
 ms.date: 11/03/2020
 ms.author: jofernan
-ms.reviewer: kvivek
+ms.reviewer: v-aangie
 ---
 
 # Prerequisites for using AI Builder in Power Automate

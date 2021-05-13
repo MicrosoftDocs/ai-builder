@@ -4,7 +4,7 @@ description: Provides an overview of the AI Builder components that are availabl
 author: mustlaz
 ms.service: aibuilder
 ms.topic: conceptual
-ms.custom: 
+ms.custom: intro-internal
 ms.date: 04/09/2021
 ms.author: mustlaz
 ms.reviewer: v-aangie

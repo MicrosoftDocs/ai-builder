@@ -4,10 +4,10 @@ description: This topic provides information about how to build and use form pro
 author: JoeFernandezMS
 ms.service: aibuilder
 ms.topic: conceptual
-ms.custom: 
+ms.custom: intro-internal
 ms.date: 12/31/2019
 ms.author: jofernan
-ms.reviewer: kvivek
+ms.reviewer: v-aangie
 ---
 
 # Overview of the form processing model

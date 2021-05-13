@@ -1,13 +1,13 @@
 ---
 title: AI Builder labs - AI Builder | Microsoft Docs
 description: Provides information about resources to help you learn more about AI Builder 
-author: Dean-Haas
+author: v-aangie
 ms.service: aibuilder
 ms.topic: conceptual
-ms.custom: 
+ms.custom:
 ms.date: 11/02/2020
 ms.author: paulnog
-ms.reviewer: kvivek
+ms.reviewer: v-aangie
 ---
 
 # AI Builder labs
