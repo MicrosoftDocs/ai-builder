@@ -5,7 +5,7 @@ author: paulnog
 
 ms.service: aibuilder
 ms.topic: conceptual
-ms.custom: intro-internal
+ms.custom:
 ms.date: 11/02/2020
 ms.author: paulnog
 ms.reviewer: v-aangie

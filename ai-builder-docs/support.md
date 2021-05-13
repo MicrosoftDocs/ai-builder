@@ -4,7 +4,7 @@ description: Shows where to get help with AI Builder.
 author: Dean-Haas
 ms.service: aibuilder
 ms.topic: conceptual
-ms.custom: intro-internal
+ms.custom:
 ms.date: 01/05/2021
 ms.author: paulnog
 ms.reviewer: v-aangie

@@ -4,7 +4,7 @@ description: Describes the requirements and limitations of the custom entity ext
 author: mfotedar
 ms.service: aibuilder
 ms.topic: conceptual
-ms.custom: intro-internal
+ms.custom:
 ms.date: 04/08/2020
 ms.author: mfotedar
 ms.reviewer: v-aangie

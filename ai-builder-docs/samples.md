@@ -4,7 +4,7 @@ description: Shows where you can obtain sample data to start using AI Builder.
 author: Dean-Haas
 ms.service: aibuilder
 ms.topic: conceptual
-ms.custom: intro-internal
+ms.custom:
 ms.date: 01/03/2020
 ms.author: joshrenn
 ms.reviewer: v-aangie
