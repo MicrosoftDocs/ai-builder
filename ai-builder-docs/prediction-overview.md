@@ -4,7 +4,7 @@ description: Describes the prediction model in AI Builder, and gives some exampl
 author: Dean-Haas
 ms.service: aibuilder
 ms.topic: conceptual
-ms.custom: 
+ms.custom: intro-internal
 ms.date: 5/3/2021
 ms.author: norliu
 ms.reviewer: v-aangie

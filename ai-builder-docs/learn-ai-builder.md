@@ -4,10 +4,10 @@ description: Provides information about resources to help you learn more about A
 author: Dean-Haas
 ms.service: aibuilder
 ms.topic: conceptual
-ms.custom: 
+ms.custom:
 ms.date: 11/02/2020
 ms.author: paulnog
-ms.reviewer: kvivek
+ms.reviewer: v-aangie
 ---
 
 # AI Builder labs

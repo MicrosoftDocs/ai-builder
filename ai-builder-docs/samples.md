@@ -4,10 +4,10 @@ description: Shows where you can obtain sample data to start using AI Builder.
 author: Dean-Haas
 ms.service: aibuilder
 ms.topic: conceptual
-ms.custom: 
+ms.custom:
 ms.date: 01/03/2020
 ms.author: joshrenn
-ms.reviewer: kvivek
+ms.reviewer: v-aangie
 ---
 
 # Start using AI Builder with sample data

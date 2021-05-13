@@ -5,10 +5,10 @@ author: raaourik
 
 ms.service: aibuilder
 ms.topic: conceptual
-ms.custom: 
+ms.custom: intro-internal
 ms.date: 03/10/2020
 ms.author: raaourik 
-ms.reviewer: kvivek
+ms.reviewer: v-aangie
 ---
 
 # Overview of the category classification custom model

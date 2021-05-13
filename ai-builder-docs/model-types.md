@@ -4,10 +4,10 @@ description: Provides an overview ofhow the AI model types that you can create i
 author: Dean-Haas
 ms.service: aibuilder
 ms.topic: conceptual
-ms.custom: 
+ms.custom:
 ms.date: 10/29/2020
 ms.author: joshrenn
-ms.reviewer: kvivek
+ms.reviewer: v-aangie
 ---
 
 # AI models and business scenarios

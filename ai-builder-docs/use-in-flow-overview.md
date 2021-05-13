@@ -4,7 +4,7 @@ description: Provides an overview of how to create automated flows by using AI B
 author: JoeFernandezMS
 ms.service: aibuilder
 ms.topic: conceptual
-ms.custom: 
+ms.custom: intro-internal
 ms.date: 03/29/2021
 ms.author: jofernan
 ms.reviewer: v-aangie
