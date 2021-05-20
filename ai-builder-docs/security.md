@@ -33,6 +33,12 @@ When you create a prediction AI model, a new data column is added to the input t
 
 For category classification AI models, a data table is created for every new model as soon as the model runs for the first time. Therefore, only system customizers or administrators can run the model. After the model runs, administrators must modify the access rights to the newly created category classification table in Dataverse to allow users to use the results.
 
+## Roles
+Microsoft Dataverse permissions have been mapped to the Dataverse standard roles. Assigning these roles to a 
+user will provide the necessary privileges to use AI Builder features like described in this table:
+
+![image](https://user-images.githubusercontent.com/20269762/119011237-23fd4a80-b995-11eb-91ee-b0e36a4ae89e.png)
+
 ### See also
 
 [Security concepts in Dataverse](/power-platform/admin/wp-security-cds)
