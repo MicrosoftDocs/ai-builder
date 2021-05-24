@@ -34,6 +34,7 @@ To upload your data:
 1. Select the Microsoft Dataverse **Table** and the **Column** that contains your data.
 
    Here's an example of a selected table and column:
+
     > [!div class="mx-imgBorder"]
     > ![Add data](media/add-data.png "Add data")
 
