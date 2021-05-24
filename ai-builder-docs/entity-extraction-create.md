@@ -33,6 +33,10 @@ To upload your data:
 1. Enter a name for your model, and then select **Create**.
 1. Select the Microsoft Dataverse **Table** and the **Column** that contains your data.
 
+   Here's an example of a selected table and column:
+    > [!div class="mx-imgBorder"]
+    > ![Add data](media/add-data.png "Add data")
+
 ## Review and refine entities 
 
 AI Builder will automatically extract the prebuilt entity types from your uploaded examples. If the results are satisfactory, you don't need to customize a model and can use the [prebuilt entity extraction](prebuilt-entity-extraction.md) model out of the box.
