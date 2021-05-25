@@ -5,7 +5,7 @@ author: mfotedar
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/19/2021
+ms.date: 5/24/2021
 ms.author: mfotedar
 ms.reviewer: v-aangie
 ---
@@ -31,7 +31,12 @@ To upload your data:
 1. Sign in to [Power Apps](https://make.powerapps.com/) or [Power Automate](https://flow.microsoft.com/).
 1. In the left pane, select **AI Builder** > **Build**, and then select **Entity Extraction**.
 1. Enter a name for your model, and then select **Create**.
-1. Select the Microsoft Dataverse table and the column that contains your data.
+1. Select the Microsoft Dataverse **Table** and the **Column** that contains your data.
+
+   Here's an example of a selected table and column:
+
+    > [!div class="mx-imgBorder"]
+    > ![Add data](media/add-data.png "Add data")
 
 ## Review and refine entities 
 
