@@ -35,10 +35,17 @@ For category classification AI models, a data table is created for every new mod
 
 ## Roles
 Microsoft Dataverse permissions have been mapped to the Dataverse standard roles. Assigning these roles to a 
-user will provide the necessary privileges to use AI Builder features like described in this table:
+user will provide the necessary privileges to use AI Builder features like described in this table
 
-> [!div class="mx-imgBorder"]
-> ![AI Builder roles](media/ai-builder-roles.png "AI Builder roles")
+|                             |System Administrator/Customizer|Environment Maker                                  |Dataverse User                                     |None|
+|-----------------------------|:-----------------------------:|:-------------------------------------------------:|:-------------------------------------------------:|:--:|
+|View AI Builder build page   |:heavy_check_mark:             |:heavy_check_mark:                                 |:heavy_check_mark:                                 |:x: |
+|Create a model               |:heavy_check_mark:             |:heavy_check_mark:                                 |:x:                                                |:x: |
+|View and use a created model |:heavy_check_mark:             |owned or shared model                              |owned or shared model                              |:x: |
+|Create a flow to call a model|:heavy_check_mark:             |:heavy_check_mark:                                 |:x:                                                |:x: |
+|Create an app to call a model|:heavy_check_mark:             |:heavy_check_mark:                                 |:x:                                                |:x: |
+|Run a flow using a model     |:heavy_check_mark:             |owned or shared flow using an owned or shared model|owned or shared flow using an owned or shared model|:x: |
+|Run an app using a model     |:heavy_check_mark:             |owned or shared app using an owned or shared model |owned or shared app using an owned or shared model |:x: |
 
 ### See also
 
