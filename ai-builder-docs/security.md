@@ -39,12 +39,12 @@ Microsoft Dataverse permissions have been mapped to the Dataverse standard roles
 | Privilege                            |System Administrator/Customizer|Environment Maker                                  |Basic User                                     |No privilege|
 |-----------------------------|:-----------------------------:|:-------------------------------------------------:|:-------------------------------------------------:|:--:|
 |View AI Builder build page   |&check;              |&check;                                  |&check;                                  |&cross;  |
-|Create a model               |:heavy_check_mark:             |:heavy_check_mark:                                 |:x:                                                |:x: |
-|View and use a created model |:heavy_check_mark:             |owned or shared model                              |owned or shared model                              |:x: |
-|Create a flow to call a model|:heavy_check_mark:             |:heavy_check_mark:                                 |:x:                                                |:x: |
-|Create an app to call a model|:heavy_check_mark:             |:heavy_check_mark:                                 |:x:                                                |:x: |
-|Run a flow using a model     |:heavy_check_mark:             |owned or shared flow using an owned or shared model|owned or shared flow using an owned or shared model|:x: |
-|Run an app using a model     |:heavy_check_mark:             |owned or shared app using an owned or shared model |owned or shared app using an owned or shared model |:x: |
+|Create a model               |&check;             |&check;                                 |&cross;                                                |&cross; |
+|View and use a created model |&check;             |owned or shared model                              |owned or shared model                              |&cross; |
+|Create a flow to call a model|&check;             |&check;                                 |&cross;                                                |&cross; |
+|Create an app to call a model|&check;             |&check;                                 |&cross;                                                |&cross; |
+|Run a flow using a model     |&check;             |owned or shared flow using an owned or shared model|owned or shared flow using an owned or shared model|&cross; |
+|Run an app using a model     |&check;             |owned or shared app using an owned or shared model |owned or shared app using an owned or shared model |&cross; |
 
 ### See also
 
