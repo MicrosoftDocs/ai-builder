@@ -38,7 +38,7 @@ Microsoft Dataverse permissions have been mapped to the Dataverse standard roles
 
 | Privilege                            |System Administrator/Customizer|Environment Maker                                  |Basic User                                     |No privilege|
 |-----------------------------|:-----------------------------:|:-------------------------------------------------:|:-------------------------------------------------:|:--:|
-|View AI Builder build page   |:heavy_check_mark:             |:heavy_check_mark:                                 |:heavy_check_mark:                                 |:x: |
+|View AI Builder build page   |&check;              |&check;                                  |&check;                                  |&cross;  |
 |Create a model               |:heavy_check_mark:             |:heavy_check_mark:                                 |:x:                                                |:x: |
 |View and use a created model |:heavy_check_mark:             |owned or shared model                              |owned or shared model                              |:x: |
 |Create a flow to call a model|:heavy_check_mark:             |:heavy_check_mark:                                 |:x:                                                |:x: |
