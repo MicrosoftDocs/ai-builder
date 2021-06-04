@@ -56,6 +56,8 @@
     href: prebuilt-language-detection.md
   - name: Receipt processing (preview)
     href: prebuilt-receipt-processing.md
+  - name: Sentiment analysis
+    href: prebuilt-sentiment-analysis.md
   - name: Text recognition
     href: prebuilt-text-recognition.md
   - name: Text translation
