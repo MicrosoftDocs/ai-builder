@@ -23,9 +23,9 @@ The receipt processing prebuilt model is available in Power Apps by using the re
 
 For information on how to use the receipt processing prebuilt model in Power Automate, see [Use the receipt processing prebuilt model in Power Automate](flow-receipt-processing.md).  
 
-## Supported languages and files
+## Supported languages, markets and files
 
-Only English receipts from the United States are currently supported.
+English sales receipts from Australia, Canada, United States, Great Britain, and India are currently supported.
 
 In order to get the best results, provide one clear photo or scan per receipt.
 
