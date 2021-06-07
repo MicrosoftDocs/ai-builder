@@ -36,8 +36,8 @@ If you want to use this prebuilt model in Power Automate, you can find more info
   
 ## Supported language and data format
 
+- **Language**: German German, Spanish, Engligh, French, Hindi, Italian, Japanese, Korean, Dutch, Norwegian, Portuguese (Brazil), Portuguese (Portugal), Turkish, Chinese (Simplified), Chinese (Traditional)
 - Documents can't exceed 5,120 characters.
-- For information about language support, see [Text Analytics API v3 language support](/azure/cognitive-services/text-analytics/language-support?tabs=sentiment-analysis).
 
 ## Model output
 
