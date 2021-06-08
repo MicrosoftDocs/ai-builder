@@ -24,7 +24,7 @@ The text recognition prebuilt model is available in Power Apps by using the text
 
 For information about how to use this model in Power Automate, see [Use the text recognition prebuilt model in Power Automate](flow-text-recognition.md).
 
-## Supported languages, format, and size
+## Supported language, format, and size
 
 The files you can scan with the text recognition model must have these characteristics:
 
