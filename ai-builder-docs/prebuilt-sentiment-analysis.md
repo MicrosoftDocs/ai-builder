@@ -36,7 +36,7 @@ If you want to use this prebuilt model in Power Automate, you can find more info
   
 ## Supported language and data format
 
-- **Language**: German, Spanish, Engligh, French, Hindi, Italian, Japanese, Korean, Dutch, Norwegian, Portuguese (Brazil), Portuguese (Portugal), Turkish, Chinese (Simplified), Chinese (Traditional)
+- **Language**: German, Spanish, English, French, Hindi, Italian, Japanese, Korean, Dutch, Norwegian, Portuguese (Brazil), Portuguese (Portugal), Turkish, Chinese (Simplified), Chinese (Traditional)
 - Documents can't exceed 5,120 characters.
 
 ## Model output
