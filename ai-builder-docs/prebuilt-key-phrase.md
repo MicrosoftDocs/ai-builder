@@ -34,7 +34,7 @@ You can integrate your AI Builder key phrase extraction model in Power Apps Stud
 
 If you want to use this prebuilt model in Power Automate, you can find more information in [Use the key phrase extraction prebuilt model in Power Automate](flow-key-phrase-extraction.md).
  
-## Supported languages and data format
+## Supported language and data format
 
 - **Language**: Danish, German, Engligh, Spanish, Finnish, French, Italian, Japanese, Korean, Dutch, Norwegian, Polish, Portuguese (Brazil), Portuguese (Portugal), Russian, Swedish
 - Documents can't exceed 5,120 characters.
