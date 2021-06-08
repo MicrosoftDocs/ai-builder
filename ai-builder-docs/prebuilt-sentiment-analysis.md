@@ -34,7 +34,7 @@ You can integrate your AI Builder sentiment analysis models in Power Apps Studio
 
 If you want to use this prebuilt model in Power Automate, you can find more information in [Use the sentiment analysis prebuilt model in Power Automate](flow-sentiment-analysis.md).
   
-## Supported languages and data format
+## Supported language and data format
 
 - **Language**: German, Spanish, English, French, Hindi, Italian, Japanese, Korean, Dutch, Norwegian, Portuguese (Brazil), Portuguese (Portugal), Turkish, Chinese (Simplified), Chinese (Traditional)
 - Documents can't exceed 5,120 characters.
