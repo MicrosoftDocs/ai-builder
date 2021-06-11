@@ -24,11 +24,11 @@ The text recognition prebuilt model is available in Power Apps by using the text
 
 For information about how to use this model in Power Automate, see [Use the text recognition prebuilt model in Power Automate](flow-text-recognition.md).
 
-## Supported languages, format, and size
+## Supported language, format, and size
 
 The files you can scan with the text recognition model must have these characteristics:
 
-- **Language**: Dutch, English, French, German, Italian, Portuguese, Spanish
+- **Language**: Afrikaans, Albanian, Arabic, Asturian, Basque, Bislama, Breton, Catalan, Cebuano, Chamorro, Chinese (Simplified), Chinese (Traditional), Cornish, Corsican, Crimean Tatar (Latin), Czech, Danish, Dutch, English, Estonian, Fijian, Filipino, Finnish, French, Friulian, Galician, German, Gilbertese, Greek, Greenlandic, Haitian Creole, Hani, Hmong Daw (Latin), Hungarian, Indonesian, Interlingua, Inuktitut (Latin), Irish, Italian, Japanese, Javanese, K'iche', Kabuverdianu, Kachin (Latin), Kara-Kalpak, Kashubian, Khasi, Korean, Kurdish (latin), Luxembourgish, Malay (Latin), Manx, Neapolitan, Norwegian, Norwegian, Occitan, Polish, Portuguese, Romanian, Romansh, Russian, Scots, Scottish Gaelic, Serbian (Cyrillic), Serbian (Latin), Slovak, Slovenian, Spanish, Swahili (Latin), Swedish, Tatar (Latin), Tetum, Turkish, Upper Sorbian, Uzbek (Latin), Volapük, Walser, Western Frisian, Yucatec Maya, Zhuang, Zulu
 - **Format**:
   - JPG
   - PNG
