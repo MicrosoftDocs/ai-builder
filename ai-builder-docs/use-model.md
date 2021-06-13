@@ -5,7 +5,7 @@ author: v-aangie
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/02/2021
+ms.date: 06/30/2021
 ms.author: joshrenn
 ms.reviewer: v-aangie
 ---
@@ -16,6 +16,7 @@ After you publish your model, you can use it across Microsoft Power Platform to 
 
 After you publish your model, a **Use model** button appears in the **Performance** section. This opens a pane that shows all the ways you can use your model. These options vary based on your AI model type.
 
+<!-- Angie: Move Set a run schedule, Run now, and Create a new map - where? -->
 ## Set a run schedule
 
 Create a schedule to generate predictions regularly in Microsoft Dataverse. To view the scheduling options available for your model type, see [Set a run schedule for your category classification model](text-classification-model-use-tags.md#set-run-schedule-on-common-data-service).

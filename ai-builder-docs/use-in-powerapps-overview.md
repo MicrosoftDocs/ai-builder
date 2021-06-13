@@ -1,26 +1,41 @@
 ---
 title: Overview of AI Builder in Power Apps - AI Builder | Microsoft Docs
-description: Provides an overview of the AI Builder components that are available to use with canvas and model-driven apps in Power Apps
+description: Provides an overview of the AI Builder components that are available to use with canvas and model-driven apps in Power Apps.
 author: mustlaz
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: intro-internal
-ms.date: 04/09/2021
+ms.date: 06/30/2021
 ms.author: mustlaz
 ms.reviewer: v-aangie
 ---
 
 # AI Builder in Power Apps overview
 
-AI Builder provides two kinds of Power Apps components, depending on the models you want to use:
+To use AI Builder in Microsoft Power Apps, you'll need to add an AI Builder component depending on the model you will be using. This also enables you to integrate AI models through the formula bar in Power Apps canvas apps.
 
-- Components that use prebuilt AI models that are ready to use right away:
+You can get support for the following AI Builder models that use Power Apps through the formula bar:
+
+<!-- Angie - maybe add links -->
+- Category classification
+- Entity extraction
+- Key phrase extraction
+- Language detection
+- Sentiment analysis
+
+To learn more about these models, see [Use formulas for text AI models](use-model.md#use-formulas-for-text-ai-models).
+
+## AI Builder components
+
+AI Builder provides two kinds of Power Apps components. Choose your component based on the models you want to use.
+
+- Components that use prebuilt AI models that are ready to use right away are:
   - [Business card reader (canvas app)](business-card-reader-component-in-powerapps.md)
   - [Business card reader (model-driven app)](business-card-reader-component-model-driven.md)
   - [Receipt processor component (canvas app)](prebuilt-receipt-processor-component-in-powerapps.md)
   - [Text recognizer component (canvas app)](prebuilt-text-recognizer-component-in-powerapps.md)
 
-- Components that use custom AI models that you build and train:
+- Components that use custom AI models that you build and train are:
 
   - [Form processor](form-processor-component-in-powerapps.md)
   - [Object detector](object-detector-component-in-powerapps.md)
