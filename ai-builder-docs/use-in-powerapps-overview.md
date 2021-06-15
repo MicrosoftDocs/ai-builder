@@ -16,26 +16,25 @@ To use AI Builder in Microsoft Power Apps, you'll need to add an AI Builder comp
 
 You can get support for the following AI Builder models that use Power Apps through the formula bar:
 
-<!-- Angie - maybe add links -->
-- Category classification
-- Entity extraction
-- Key phrase extraction
-- Language detection
-- Sentiment analysis
+- [Sentiment analysis](formula-bar.md#sentiment-analysis)
+- [Entity extraction](formula-bar.md#entity-extraction)
+- [Key phrase extraction](formula-bar.md#key-phrase-extraction)
+- [Language detection](formula-bar.md#language-detection)
+- [Category classification](formula-bar.md#category-classification)
 
-To learn more about these models, see [Use formulas for text AI models](use-model.md#use-formulas-for-text-ai-models).
+To learn more about these models, see [Use formulas for text AI models](formula-bar).
 
 ## AI Builder components
 
 AI Builder provides two kinds of Power Apps components. Choose your component based on the models you want to use.
 
-- Components that use prebuilt AI models that are ready to use right away are:
+- Components that use prebuilt AI models that are ready to use right away:
   - [Business card reader (canvas app)](business-card-reader-component-in-powerapps.md)
   - [Business card reader (model-driven app)](business-card-reader-component-model-driven.md)
-  - [Receipt processor component (canvas app)](prebuilt-receipt-processor-component-in-powerapps.md)
-  - [Text recognizer component (canvas app)](prebuilt-text-recognizer-component-in-powerapps.md)
+  - [Receipt processor (canvas app)](prebuilt-receipt-processor-component-in-powerapps.md)
+  - [Text recognizer (canvas app)](prebuilt-text-recognizer-component-in-powerapps.md)
 
-- Components that use custom AI models that you build and train are:
+- Components that use custom AI models that you build and train:
 
   - [Form processor](form-processor-component-in-powerapps.md)
   - [Object detector](object-detector-component-in-powerapps.md)

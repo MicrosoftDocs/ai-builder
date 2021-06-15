@@ -18,9 +18,9 @@ After you publish your model, a **Use model** button appears in the detail secti
 
 ## AI Builder components
 
-AI Builder offers many *prebuilt* components and a few *custom* components to help you build a model. [Prebuilt](prebuilt-overview.md) components are ready to use, whereas custom components require that you gather data and then build, train, and publish your own models.
+AI Builder offers many *prebuilt* and *custom* components to help you build a model. [Prebuilt](prebuilt-overview.md) components are ready to use, whereas custom components require that you gather data and then build, train, and publish your own models.
 
-Not all components are available in both Microsoft Power Automate and Microsoft Power Apps. For instructions on how to use each IA component in the appropriate application, select one of the following:
+Not all components are available in both Microsoft Power Automate and Microsoft Power Apps. For instructions on how to use each AI component in the appropriate application, select one of the following:
 
 - [Use AI Builder in Power Automate](use-in-flow-overview.md) 
 - [Use AI Builder in Power Apps](use-in-powerapps-overview.md)
@@ -28,8 +28,6 @@ Not all components are available in both Microsoft Power Automate and Microsoft 
 ## Create a new app
 
 Insert an AI Builder component into a canvas app. For more information, see [AI Builder in Power Apps overview](use-in-powerapps-overview.md).
-
-<a name="use-formulas-for-text-ai-models"></a>
 
 <!-- Angie: Can I delete all this? 
 
