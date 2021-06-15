@@ -1,35 +1,37 @@
 ---
 title: Use your AI Builder model - AI Builder | Microsoft Docs
 description: Provides steps by step instructions about how to use your model in AI Builder.
-author: v-aangie
+author: paulnog
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
 ms.date: 06/30/2021
-ms.author: joshrenn
+ms.author: paulnog
 ms.reviewer: v-aangie
 ---
 
 # Use your AI model
 
-After you publish your model, you can use it across Microsoft Power Platform to create end-to-end solutions that meet your business needs. In this topic, you'll learn all of the different ways you can use your model.
+After you publish your model, you can use it across Microsoft Power Platform to create end-to-end solutions that meet your business needs.
 
-After you publish your model, a **Use model** button appears in the **Performance** section. This opens a pane that shows all the ways you can use your model. These options vary based on your AI model type.
+After you publish your model, a **Use model** button appears in the detail section. Select it to open a pane that shows all the ways you can use your model. These options vary based on your AI model type.
 
-<!-- Angie: Move Set a run schedule, Run now, and Create a new map - where? -->
-## Set a run schedule
+## AI Builder components
 
-Create a schedule to generate predictions regularly in Microsoft Dataverse. To view the scheduling options available for your model type, see [Set a run schedule for your category classification model](text-classification-model-use-tags.md#set-run-schedule-on-common-data-service).
+AI Builder offers many *prebuilt* components and a few *custom* components to help you build a model. [Prebuilt](prebuilt-overview.md) components are ready to use, whereas custom components require that you gather data and then build, train, and publish your own models.
 
-## Run now
+Not all components are available in both Microsoft Power Automate and Microsoft Power Apps. For instructions on how to use each IA component in the appropriate application, select one of the following:
 
-Generate new predictions right away and save them to Dataverse. To learn how to run your model immediately<!--I couldn't find anything that talked about the **Run now** command for different model types.-->, see [Run your prediction model](prediction-use.md#prediction-run).<!--Edit okay? The original [link]() didn't seem to be right.-->
+- [Use AI Builder in Power Automate](use-in-flow-overview.md) 
+- [Use AI Builder in Power Apps](use-in-powerapps-overview.md)
 
 ## Create a new app
 
-Insert an AI Builder component into a canvas app. More information: [AI Builder in Power Apps overview](use-in-powerapps-overview.md)
+Insert an AI Builder component into a canvas app. For more information, see [AI Builder in Power Apps overview](use-in-powerapps-overview.md).
 
 <a name="use-formulas-for-text-ai-models"></a>
+
+<!-- Angie: Can I delete all this? 
 
 ## Use formulas for text AI models (preview)
 
@@ -60,7 +62,7 @@ In this example, we use a **Text Input** control and a **Label** control to invo
 
 1. Insert a **Text Input** control, select it, select **Advanced Properties**, and then set **DelayOutput** to true. The **Text Input** in this case contains the text we want to analyze.
 
-1. Insert a **Label** control, and then enter the AI Builder formula `AIBuilder.AnalyzeSentiment(TextInput1).sentiment` as shown in the image below<!--We don't want the image to carry any information that isn't also available in text.-->. The results of sentiment analysis will automatically appear in the **Label** control after you apply the AI Builder formula.
+1. Insert a **Label** control, and then enter the AI Builder formula `AIBuilder.AnalyzeSentiment(TextInput1).sentiment` as shown in the image below<!--We don't want the image to carry any information that isn't also available in text.) The results of sentiment analysis will automatically appear in the **Label** control after you apply the AI Builder formula.
 
     > [!div class="mx-imgBorder"]
     > ![Insert label screen](media/formula-insert-label.png "Insert label screen")
@@ -108,16 +110,15 @@ Some AI models, like key phrase or entity extraction, return more than one resul
 1. Select the label control in the gallery control, and then enter the formula `AIBuilder.AnalyzeSentiment(ThisItem.feedback).sentiment` as shown in the following image:
 
     > [!div class="mx-imgBorder"]
-    > ![Enter a formula in the label control](media/formula-select-control.png "Enter a formula in the label control")
+    > ![Enter a formula in the label control](media/formula-select-control.png "Enter a formula in the label control") -->
 
 ### Next step
 
 [Share your AI model](share-model.md)
 
-### See also
+<!-- ### See also
 
 [AI Builder in Power Automate overview](use-in-flow-overview.md) <br>
-[AI Builder in Power Apps overview](use-in-powerapps-overview.md)
-
+[AI Builder in Power Apps overview](use-in-powerapps-overview.md) -->
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

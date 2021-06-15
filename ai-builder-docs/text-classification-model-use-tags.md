@@ -5,9 +5,9 @@ author: raaourik
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/19/2021
+ms.date: 06/30/2021
 ms.author: raaourik 
-ms.reviewer: kvivek
+ms.reviewer: v-aangie
 ---
 
 
@@ -19,20 +19,26 @@ If you want to use your trained model in Power Automate, see [Use a category cla
 
 <a name="set-run-schedule-on-common-data-service"></a>
 
+## Use in Power Apps
+
+You can integrate your AI Builder category classification models in Power Apps Studio by using the formula bar. More information: [Use formulas for text AI models](use-model.md#use-formulas-for-text-ai-models)
+
 ## Set a run schedule on Microsoft Dataverse (preview)
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
 
-Go to the **Run** view in the **Model settings** panel to set the run schedule. To configure your model to run on your database and generate predictions, select **Generate predictions when new data is added**.
+Create a schedule to generate predictions regularly in Microsoft Dataverse.
+
+1. To set the run schedule, go to the **Run** view in the **Model settings** panel.
+
+1. To configure your model to run on your database and generate predictions, select **Generate predictions when new data is added**.
 
 Your model runs whenever a new row is added to its table.
 
+For more information, see [Run your prediction model](prediction-use.md#prediction-run).
+
 > [!NOTE]
 >You can’t set run schedule for imported category classification models.
-
-## Use in Power Apps
-
-You can integrate your AI Builder category classification models in Power Apps Studio by using the formula bar. More information: [Use formulas for text AI models](use-model.md#use-formulas-for-text-ai-models)
 
 ## What if the model isn't writing new tag suggestions?
 
