@@ -1,5 +1,5 @@
 ---
-title: Use formulas for tex AI models - AI Builder | Microsoft Docs
+title: Use formulas for text AI models - AI Builder | Microsoft Docs
 description: Provides examples of formulas you can use in AI Builder text models.
 author: norliu
 ms.service: aibuilder
