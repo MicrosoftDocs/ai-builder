@@ -34,7 +34,7 @@ AI Builder provides two kinds of Power Apps components. Choose your component ba
   - [Receipt processor (canvas app)](prebuilt-receipt-processor-component-in-powerapps.md)
   - [Text recognizer (canvas app)](prebuilt-text-recognizer-component-in-powerapps.md)
 
-   For more information on canvas apps, see [[What are canvas apps in Power Apps?](/powerapps/maker/canvas-apps/getting-started)]
+   For more information on canvas apps, see [What are canvas apps in Power Apps?](/powerapps/maker/canvas-apps/getting-started)
 
 - Components that use custom AI models that you build and train:
 
