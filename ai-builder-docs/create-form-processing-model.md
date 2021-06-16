@@ -104,12 +104,12 @@ The header of a table doesn’t have to be tagged.
 
 **Multipage tables** 
 
-AI Builder doesn’t currently support extracting tables than span across multiple pages as a single table. To extract tables from different pages, these will need to be defined as separate tables in the [Choose information to extract step](https://docs.microsoft.com/ai-builder/create-form-processing-model#define-fields-and-tables-to-extract). For example, if you have a document with a table that spans over two pages, you'll need to define them as two separate tables.
+AI Builder doesn’t currently support extracting tables than span across multiple pages as a single table. To extract tables from different pages, these will need to be defined as separate tables in the [Choose information to extract step](create-form-processing-model.md#define-fields-and-tables-to-extract). For example, if you have a document with a table that spans over two pages, you'll need to define them as two separate tables.
 
 
 **Nested items in tables**
 
-You can tag items that are nested within a row by defining these as columns. Given the table from the example below, to extract the unit price, we will define it as a separate column on the [Choose information to extract step](https://docs.microsoft.com/ai-builder/create-form-processing-model#define-fields-and-tables-to-extract). We define Description, Unit price, Quantity, and Amount each as a column of the table and tag them accordingly. 
+You can tag items that are nested within a row by defining these as columns. Given the table from the example below, to extract the unit price, we will define it as a separate column on the [Choose information to extract step](create-form-processing-model.md#define-fields-and-tables-to-extract). We define Description, Unit price, Quantity, and Amount each as a column of the table and tag them accordingly. 
 
    > [!div class="mx-imgBorder"]
    > !['Tag tables' animation](media/form-processing-tag-table-nested-items.png "Tag nested items in tables")
