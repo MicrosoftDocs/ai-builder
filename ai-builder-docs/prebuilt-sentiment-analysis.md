@@ -32,7 +32,7 @@ You can try out the sentiment analysis model before you import it into your flow
 
 ### Use the formula bar
 
-You can integrate your AI Builder sentiment analysis models in Power Apps Studio by using the formula bar. For more information, see [Use formulas for text AI models](use-model.md#sentiment-analysis).
+You can integrate your AI Builder sentiment analysis models in Power Apps Studio by using the formula bar. For more information, see [Use formulas for text AI models](formula-bar.md#sentiment-analysis).
 
 ## Use in Power Automate
 
@@ -53,7 +53,7 @@ If text is detected, the sentiment analysis model outputs the following informat
   - Neutral
   - Mixed
 
-- **DocumentScores**: Value in the range from 0 through 1.<!--Edit assumes that 0 and 1 are possible values.--> Values close to 1 indicate greater confidence that the identified sentiment is accurate.
+- **DocumentScores**: Value in the range from 0 through 1. Values close to 1 indicate greater confidence that the identified sentiment is accurate.
 
 - **Sentences**: List of sentences from the input text, with analysis of its sentiments.
 

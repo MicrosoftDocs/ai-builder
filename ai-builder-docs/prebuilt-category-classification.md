@@ -28,7 +28,7 @@ You can see the category classification prebuilt model in action without the nee
 
 ### Use the formula bar
 
-You can integrate your AI Builder category classification model in Power Apps Studio by using the formula bar. More information. For more information, see [Use formulas for text AI models](formula-bar.md#category-classsification).
+You can integrate your AI Builder category classification model in Power Apps Studio by using the formula bar. More information. For more information, see [Use formulas for text AI models](formula-bar.md#category-classification).
 
 ## Use in Power Automate
 

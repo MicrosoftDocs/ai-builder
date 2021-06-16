@@ -30,7 +30,7 @@ You can try out the entity extraction model before you import it into your flow 
 
 ### Use the formula bar
 
-You can integrate your AI Builder entity extraction model in Power Apps Studio by using the formula bar. For more information, see [Use formulas for text AI models](use-model.md#entity-extravtion).
+You can integrate your AI Builder entity extraction model in Power Apps Studio by using the formula bar. For more information, see [Use formulas for text AI models](use-model.md#entity-extraction).
 
 ## Use in Power Automate
 

@@ -20,7 +20,7 @@ If you want to use your trained model in Power Automate, see [Use a category cla
 
 ## Use in Power Apps
 
-You can integrate your AI Builder category classification models in Power Apps Studio by using the formula bar. For more information, see [Use formulas for text AI models](formula-bar.md#categgory-classification).
+You can integrate your AI Builder category classification models in Power Apps Studio by using the formula bar. For more information, see [Use formulas for text AI models](formula-bar.md#category-classification).
 
 ## Set a run schedule on Microsoft Dataverse (preview)
 
@@ -42,6 +42,7 @@ For more information, see [Run your prediction model](prediction-use.md#predicti
 ## What if the model isn't writing new tag suggestions?
 
 - Check that you didn't exceed the number of runs for your Power Automate subscription.
+
 - Turn off the Dataverse run setting, and then turn it back on.
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
