@@ -20,19 +20,19 @@ After you review the [requirements](form-processing-model-requirements.md), you 
 1. In the left pane, select **AI Builder** > **Build**.
 1. Select **Form processing**.
 1. Type a name for your model.
-1. If you want to create your model by using your own documents, make sure that you have at least five examples that use the same layout. Otherwise, you can use sample data to create the model.
+1. If you want to create your model by using your own documents, make sure that you have at least five examples that use the same layout. Otherwise, you can [use sample data](form-processing-sample-data.md) to create the model.
 1. Select **Create**.
 
 ## Define fields and tables to extract
 
-On the **Choose information to extract** screen, type the names of the fields and tables you want to teach your model to extract. Select the **Fields** and **Tables** tabs to switch between adding fields or tables.
+On the **Choose information to extract** screen, you define the fields and tables you want to teach your model to extract. Click on the **+Add** button to start defining fields and tables.
 
-- To add fields, type the name for each type of field, and select the plus sign **+** to add it.
+- For each field, provide a name you would like the field to have in the model.
 
    > [!div class="mx-imgBorder"]
    > !['Define fields' animation](media/form-processing-multiple-layout-define-fields-only.gif "Define fields to extract")
 
-- To add tables, type a name for the table, and define the columns you want the model to extract.
+- For each table, provide the name you would like the table to have and define the different columns that the model should extract. 
 
    > [!div class="mx-imgBorder"]
    > !['Define tables' animation](media/form-processing-multiple-layout-define-tables-only.gif "Define tables to extract")
