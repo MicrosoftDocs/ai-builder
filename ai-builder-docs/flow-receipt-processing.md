@@ -51,7 +51,7 @@ For large documents, it's possible to specify the page range to process.
 You can enter a page or a range of pages. Example: 1 or 3-5.
 
 >[!NOTE]
-> Only the data of the first receipt found within the page range wil be returned by the Power Automate action. Example:
+> Only the data of the **first receipt found** within the page range wil be returned by the Power Automate action. Example:
 > A document contains a first receipt that spans over page 2 and 3 and another receipt in page 4 only:
 > - If you enter page range 2, it will return only the data in page 2 of the first receipt
 > - If you enter page range 2-3, it will return the full data of the first receipt
