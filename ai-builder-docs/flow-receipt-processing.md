@@ -45,8 +45,9 @@ Congratulations! You've created a flow that uses the AI Builder receipt processi
 
 ## Page range
 For large documents, it's possible to specify the page range to process.
-    > [!div class="mx-imgBorder"]
-    > ![Page range](media/rp-pagerange.png "Page range example")
+ 
+   > [!div class="mx-imgBorder"]
+   > ![Page range](media/rp-pagerange.png "Page range example")
 
 You can enter a page or a range of pages. Example: 1 or 3-5.
 
