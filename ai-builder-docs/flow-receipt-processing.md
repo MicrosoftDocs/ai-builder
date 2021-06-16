@@ -43,12 +43,27 @@ ms.reviewer: v-aangie
 
 Congratulations! You've created a flow that uses the AI Builder receipt processing model. Select **Save** on the top right, and then select **Test** to try out your flow.
 
+## Page range
+For large documents, it's possible to specify the page range to process.
+    > [!div class="mx-imgBorder"]
+    > ![Page range](media/rp-pagerange.png "Page range example")
+
+You can enter a page or a range of pages. Example: 1 or 3-5.
+
+>[!NOTE]
+> Only the data of the first receipt found within the page range wil be returned by the Power Automate action. Example:
+> A document contains a first receipt that spans over page 2 and 3 and another receipt in page 4 only:
+> - If you enter page range 2, it will return only the data in page 2 of the first receipt
+> - If you enter page range 2-3, it will return the full data of the first receipt
+> - If you enter page range 2-4, it will only return data of the first receipt, not the data of the second receipt
+
 
 ## Parameters
 ### Input
 |Name|Required|Type|Description|
 |---------|---------|---------|---------|
 |**Receipt file**|Yes|string|The receipt file to process|
+|**Pages**|Yes|string|Pages to process within the document|
 
 ### Output
 |Name|Type|Description|
