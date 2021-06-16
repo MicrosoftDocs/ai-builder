@@ -22,7 +22,7 @@ You can get support for the following AI Builder models that use Power Apps thro
 - [Language detection](formula-bar.md#language-detection)
 - [Category classification](formula-bar.md#category-classification)
 
-To learn more about these models, see [Use formulas for text AI models](formula-bar).
+To learn more about these models, see [Use formulas for text AI models](formula-bar.md).
 
 ## AI Builder components
 
@@ -34,12 +34,14 @@ AI Builder provides two kinds of Power Apps components. Choose your component ba
   - [Receipt processor (canvas app)](prebuilt-receipt-processor-component-in-powerapps.md)
   - [Text recognizer (canvas app)](prebuilt-text-recognizer-component-in-powerapps.md)
 
+   For more information on canvas apps, see [[What are canvas apps in Power Apps?](/powerapps/maker/canvas-apps/getting-started)]
+
 - Components that use custom AI models that you build and train:
 
   - [Form processor](form-processor-component-in-powerapps.md)
   - [Object detector](object-detector-component-in-powerapps.md)
 
-The AI Builder components for canvas apps are available in Power Apps Studio and appear on the **Insert** tab when you build your canvas app.
+The AI Builder components for [canvas apps](/powerapps/maker/canvas-apps/getting-started) are available in [Power Apps Studio](/powerapps/teams/understand-power-apps-studio) and appear on the **Insert** tab when you build your canvas app.
 
 > [!div class="mx-imgBorder"]
 > ![Power Apps Studio](media/canvas-studio.png "Power Apps Studio")

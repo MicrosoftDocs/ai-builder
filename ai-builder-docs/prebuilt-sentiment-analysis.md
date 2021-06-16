@@ -21,14 +21,18 @@ The sentiment analysis prebuilt model detects positive or negative sentiment in 
 You can try out the sentiment analysis model before you import it into your flow by using the "try it out" feature.
 
 1. Sign in to [Power Apps](https://make.powerapps.com).
+
 1. In the left pane, select **AI Builder** > **Build**.
+
 1. Under **Get straight to productivity**, select **Sentiment Analysis**.
+
 1. In the **Sentiment Analysis** window, select **Try it out**.
+
 1. Select predefined text samples to analyze, or add your own text in the **Add your own here** box to see how the model analyzes your text.
 
 ### Use the formula bar
 
-You can integrate your AI Builder sentiment analysis models in Power Apps Studio by using the formula bar. More information: [Use formulas for text AI models](use-model.md#use-formulas-for-text-ai-models)
+You can integrate your AI Builder sentiment analysis models in Power Apps Studio by using the formula bar. For more information, see [Use formulas for text AI models](use-model.md#sentiment-analysis).
 
 ## Use in Power Automate
 
@@ -66,7 +70,7 @@ If text is detected, the sentiment analysis model outputs the following informat
 The following applies to calls made per environment across the following prebuilt models: language detection, sentiment analysis, and key phrase extraction.
 
 |**Action**|**Limit**|**Renewal period**|
-|:-----|:-----|-----:|
+|:-----|:-----:|:-----:|
 |Calls (per environment)|400|60 seconds|
 
 
