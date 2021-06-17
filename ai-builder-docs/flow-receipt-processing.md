@@ -54,8 +54,7 @@ You can enter a page value or page range in the *Pages* parameter. Example: 1 or
 >[!NOTE]
 > If you have a big document with only one receipt, we strongly recommend to **use this *Pages* parameter to aim at your receipt and therefore reduce the cost of model prediction**. However, note that only the data of the **first receipt page** within the page range wil be returned by the Power Automate action. 
 > 
-> Example:
-> > A document contains a first receipt in page 2 and a second receipt that spans overs page 3 and 4:
+> Example: A document contains a first receipt in page 2 and a second receipt that spans overs page 3 and 4:
 > - If you enter value 2, it will return the data of the first receipt
 > - If you enter value 3-4, it will only return the data of the first page of the second receipt
 > - If you enter value 2-4, it will only return data of the first receipt, not the data of the second receipt
