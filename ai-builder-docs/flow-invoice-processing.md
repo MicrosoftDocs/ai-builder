@@ -40,13 +40,31 @@ ms.reviewer: v-aangie
 
 Congratulations! You've created a flow that uses the AI Builder invoice processing model. Select **Save** on the top right, and then select **Test** to try out your flow.
 
+## Page range
+For large documents, it's possible to specify the page range to process.
+ 
+   > [!div class="mx-imgBorder"]
+   > ![Page range](media/ip-pagerange.png "Page range example")
+
+You can enter a page value or page range in the *Pages* parameter. Example: 1 or 3-5.
+
+>[!NOTE]
+> If you have a big document with only one invoice, we strongly recommend to **use this *Pages* parameter to aim at your invoice and therefore reduce the cost of model prediction**. However, the page range should contain a **unique invoice** for the action to return correct data.
+> 
+> Example: A document contains a first invoice in page 2 and a second invoice that spans overs page 3 and 4:
+> - If you enter page range 2, it will return the data of the first invoice
+> - If you enter page range 3-4, it will only return the data of the second invoice
+> - If you enter page range 2-4, it will return partial data of first and second invoices (should be avoided)
+
+
 ## Parameters
 
 ### Input
 
 |Name|Required|Type|Description|
 |---------|---------|---------|---------|
-|Receipt file|Yes|file|The invoice file to process|
+|Invoice file|Yes|file|The invoice file to process|
+|Pages|Yes|string|Pages to process within the document|
 
 ### Output
 
