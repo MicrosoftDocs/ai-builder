@@ -46,10 +46,10 @@ For large documents, it's possible to specify the page range to process.
    > [!div class="mx-imgBorder"]
    > ![Page range](media/ip-pagerange.png "Page range example")
 
-You can enter a page value or page range in the *Pages* parameter. Example: 1 or 3-5.
+You can enter a page value or page range in the **Pages** parameter. Example: 1 or 3-5.
 
 >[!NOTE]
-> If you have a large document with only one invoice, we strongly recommend to **use this *Pages* parameter to aim at your invoice and therefore reduce the cost of model prediction**. However, the page range should contain a **unique invoice** for the action to return correct data.
+> If you have a large document with only one invoice, we strongly recommend to **use the Pages parameter to aim at your invoice and therefore reduce the cost of model prediction**. However, the page range should contain a **unique invoice** for the action to return correct data.
 > 
 > Example: A document contains a first invoice in page 2 and a second invoice that spans overs page 3 and 4:
 > - If you enter page range 2, it will return the data of the first invoice
@@ -65,7 +65,7 @@ You can enter a page value or page range in the *Pages* parameter. Example: 1 or
 |Name|Required|Type|Description|
 |---------|---------|---------|---------|
 |Invoice file|Yes|file|The invoice file to process|
-|Pages|Yes|string|Pages to process within the document|
+|Pages|No|string|Pages to process within the document|
 
 ### Output
 
