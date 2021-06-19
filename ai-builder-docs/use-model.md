@@ -14,20 +14,31 @@ ms.reviewer: v-aangie
 
 After you publish your model, you can use it across Microsoft Power Platform to create end-to-end solutions that meet your business needs.
 
-After you publish your model, a **Use model** button appears in the detail section. Select it to open a pane that shows all the ways you can use your model. These options vary based on your AI model type.
+You can create AI models to automate processes and find insights in one of two ways:
 
-## AI Builder components
+- Use a [prebuilt](prebuilt-overview.md) model to begin using it in productivity quickly, with little to no customization.
+- Use a custom model when you want to customize it to meet your specific needs. With a custom model, you need time to gather data, build the model, and then train it.
 
-AI Builder offers many *prebuilt* and *custom* components to help you build a model. [Prebuilt](prebuilt-overview.md) components are ready to use, whereas custom components require that you gather data and then build, train, and publish your own models.
+## Get straight to productivity
 
-Not all components are available in both Microsoft Power Automate and Microsoft Power Apps. For instructions on how to use each AI component in the appropriate application, select one of the following:
+When you select a model from **Get straight to productivity**, you can choose  how you want to use the model and then AI Builder will provide you with the steps to build it:
+
+> [!div class="mx-imgBorder"]
+> ![How your model is used.](media/select-productivity.png "How your model is used.")
+
+## Refine a model for your business needs
+
+Unlike a prebuilt model, a custom model allows you to customize your own steps. You can see how your model is used in the detail page:
+
+> [!div class="mx-imgBorder"]
+> ![How your model is used.](media/model-used-box.png "How your model is used.")
+
+
+
+For details on how to use each AI Builder model in Power Automate or Power Apps, select one of the following:
 
 - [Use AI Builder in Power Automate](use-in-flow-overview.md) 
 - [Use AI Builder in Power Apps](use-in-powerapps-overview.md)
-
-## Create a new app
-
-Insert an AI Builder component into a canvas app. For more information, see [AI Builder in Power Apps overview](use-in-powerapps-overview.md).
 
 <!-- Angie: Can I delete all this? 
 

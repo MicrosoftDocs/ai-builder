@@ -35,92 +35,107 @@ If you want, you can select the **Label** control, enter **AIBuilder**, an
 
 ## Sentiment analysis
 
-The formula in the sentiment analysis model returns the sentiment of the text, such as negative or positive.
+The basic input formula in the sentiment analysis model returns the sentiment of the text, such as negative or positive:
 
-### Formula examples
+```
+AIBuilder.AnalyzeSentiment(TextInput1.Text).sentiment
+```
 
-- **AIBuilder.AnalyzeSentiment(TextInput1.Text).sentiment**
+### Input/output variation
 
-- To ensure the text is interpreted in context of a specific language, you can provide the language code in IETF [BCP-47 format](/openspecs/office_standards/ms-oe376/6c085406-a698-4e12-9d4d-c3b0ee3dbc4a):
+- To ensure the text is interpreted in context of a specific language, you can provide the language code in IETF [BCP-47 format](/openspecs/office_standards/ms-oe376/6c085406-a698-4e12-9d4d-c3b0ee3dbc4a). 
+In the **Input** column, "en-us" is the language code of English (United States).
 
-   **AIBuilder.AnalyzeSentiment(TextInput1.Text,{language:"en-us"}).sentiment**
-
-   In this example, **en-us** is the language code of English (United States).
+  |Input  |Output  |
+  |---------|---------|
+  |**AIBuilder.AnalyzeSentiment(TextInput1.Text,{language:<br/>"en-us"}).sentiment** |<span style="color: red;">SCREENSHOT OF OUTPUT</span>   |
 
 ## Entity extraction
 
-The formula in the entity extraction model extracts the types of entities present in the text into a list.
+The basic input formula in the entity extraction model extracts the types of entities present in the text into a list:
 
-### Formula examples
+```
+Concat(AIBuilder.ExtractTextEntities(TextInput1.Text).entities, type & ", ")
+```
+### Input/output variations
 
-- **Concat(AIBuilder.ExtractTextEntities(TextInput1.Text).entities, type & ", ")**
+- This formula uses your custom AI Builder model to return all entities that belong to the text, in list form.
 
-- The following formula uses your custom AI Builder model to return all entities that belong to the text, in list form:
+  |Input  |Output  |
+  |---------|---------|
+  |**Concat(AIBuilder.ExtractTextEntities CategorizeText(TextInput1.<br/>Text, { modelId: GUID("<yourModelId>").entities, type & ",")**  | <span style="color: red;">SCREENSHOT OF OUTPUT</span> |
 
-   **Concat(AIBuilder.ExtractTextEntities CategorizeText(TextInput1.Text, { modelId: GUID("<yourModelId>").entities, type & ",")**
+- This formula uses specific language to interpret the text and return all types of entities into a list. In the **Input** column, "en-us" is the language code of English (United States). For a complete list of language code in IETF, see [BCP-47 format](/openspecs/office_standards/ms-oe376/6c085406-a698-4e12-9d4d-c3b0ee3dbc4a).
 
-- Use specific language to interpret the text and return all types of entities into a list:
-
-   **Concat(AIBuilder.ExtractTextEntities(TextInput1.Text,{language:"en-us"}).entities, type & ", ")**
-
-   In this example, **en-us** is the language code of English (United States).
-
-For a complete list of language code in IETF, see [BCP-47 format](/openspecs/office_standards/ms-oe376/6c085406-a698-4e12-9d4d-c3b0ee3dbc4a).
+  |Input  |Output  |
+  |---------|---------|
+  | **Concat(AIBuilder.ExtractTextEntities(TextInput1.Text,{language:<br/>"en-us"}).entities, type & ", ")**  |<span style="color: red;">SCREENSHOT OF OUTPUT</span> |
 
 ## Key phrase extraction
 
-The formula in the key phrase extraction model extracts all key phrases from the text into a list.
+The basic input formula in the key phrase extraction model extracts all key phrases from the text into a list:
 
-### Formula examples
+```
+Concat(AIBuilder.ExtractKeyPhrases(TextInput1.Text).phrases, phrase & ",")
+```
 
-- **Concat(AIBuilder.ExtractKeyPhrases(TextInput1.Text).phrases, phrase & ",")**
+### Input/output variation
 
-- Use specific language and extract all key phrases from the text into a list:
+- This formula uses specific language and extracts all key phrases from the text into a list. In the **Input** column, "en-us" is the language code of English (United States). For a complete list of language code IETF, see [BCP-47 format](/openspecs/office_standards/ms-oe376/6c085406-a698-4e12-9d4d-c3b0ee3dbc4a).  
 
-   **Concat(AIBuilder.ExtractKeyPhrases(TextInput1.Text, ,{language:"en-us"}).phrases, phrase & ",")**
-
-   In this example, **en-us** is the language code of English (United States).
-
-For a complete list of language code IETF, see [BCP-47 format](/openspecs/office_standards/ms-oe376/6c085406-a698-4e12-9d4d-c3b0ee3dbc4a).
+|Input  |Output  |
+|---------|---------|
+|**Concat(AIBuilder.ExtractKeyPhrases(TextInput1.Text, ,{language:<br/>"en-us"}).phrases, phrase & ",")**   |<span style="color: red;">SCREENSHOT OF OUTPUT</span>         |
 
 ## Language detection
 
-The formula in the language detection model returns the two-letter language code (ISO 639) of the text.
+The basic input formula formula in the language detection model returns the two-letter language code (ISO 639) of the text:
 
-### Formula examples
-
-- **AIBuilder.DetectLanguage(TextInput1.Text).language**
+```
+AIBuilder.DetectLanguage(TextInput1.Text).language
+```
 
    |Text  |Language  |
    |---------|:---------:|
-   |How are you    |    en     |
-   |Comment allez-vous    |    fr     |
+   |How are you    |en   |
+   |Comment allez-vous  |fr  |
 
-- To narrow down the prediction in context of a specific country, provide the country code in ISO-3166 format:
+### Input/output variations
 
-   **AIBuilder.DetectLanguage(TextInput1.Text,{countryHint:"DK"}).language**  
+- To narrow down the prediction in context of a specific country, provide the country code in ISO-3166 format.
 
-   In this example, country **DK** refers to the ISO-3166 country code for Denmark.
+  |Input  |Output  |
+  |---------|---------|
+  |**AIBuilder.DetectLanguage(TextInput1.Text,{countryHint:"DK"}).language**<br/><br/>In this example, country **DK** refers to the ISO-3166 country code for Denmark.   | <span style="color: red;">SCREENSHOT OF OUTPUT</span>        |
+  |If you provide **hvordan har du det** in **textinput1**, it returns **da** which is the<br/>language code for Danish. Without country code provided it would return **no**,<br/>which is the language code for Norwegian where this text is also valid.     | <span style="color: red;">SCREENSHOT OF OUTPUT</span>        |
 
-- If you provide **hvordan har du det** in **textinput1**, it returns **da** which is the language code for Danish. Without country code provided it would return **no**, which is the language code for Norwegian where this text is also valid.
+- This formula returns the confidence score of the detected language. This returns a number in the range of 0 to 1. The greater the value, the higher the confidence is in the predictions made by the AI model.
 
-- The following example returns the confidence score of the detected language. This returns a number in the range of 0 to 1. The greater the value, the higher the confidence is in the predictions made by the AI model.
-
-   **AIBuilder.DetectLanguage(TextInput1.Text).score**  
+  |Input  |Output  |
+  |---------|---------|
+  | **AIBuilder.DetectLanguage(TextInput1.Text).score** | <span style="color: red;">SCREENSHOT OF OUTPUT</span>  | 
 
 ## Category classification
 
-The formula in the category classification model returns all categories that belong to the text, in list form.
+The basic input formula in the category classification model returns all categories that belong to the text, in list form:
 
-- **Concat(AIBuilder.CategorizeText (TextInput1.Text).categories , type & ",")**
+```
+Concat(AIBuilder.CategorizeText (TextInput1.Text).categories , type & ",")
+```
 
-- This formula uses your custom AI Builder model to return all categories that belong to the text, in list form:
+### Input/output variations
 
-   **Concat(AIBuilder.CategorizeText(TextInput1, { modelId: GUID("<yourModelId>").categories, type & ",")Concat( AIBuilder.CategorizeText(TextInput1.Text ,{modelId:GUID("<your model id>" )}).categories,type,",")**
+- This formula uses your custom AI Builder model to return all categories that belong to the text, in list form.
+
+  |Input  |Output  |
+  |---------|---------|
+    |**Concat(AIBuilder.CategorizeText(TextInput1.Text,{modelId:GUID("<your model id>"<br/>)}).categories,type,",")**    | <span style="color: red;">SCREENSHOT OF OUTPUT</span>         |
 
 - This formula uses English (United States) as the language for interpretation to return all categories that belong to the text, in list form:
 
-   **Concat( AIBuilder.CategorizeText(TextInput1.Text ,{language:"en-us"}).categories,type,","));**
+  |Input  |Output  |
+  |---------|---------|
+  | **Concat(AIBuilder.CategorizeText(TextInput1.Text ,{language:<br/>"en-us"}).categories,type,","));**  | <span style="color: red;">SCREENSHOT OF OUTPUT</span> |
 
 ### See also
 
