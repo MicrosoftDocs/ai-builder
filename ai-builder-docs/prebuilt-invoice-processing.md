@@ -68,6 +68,7 @@ If an invoice is detected, the invoice processing model will output the followin
 |     Invoice total   (text)                          |     Invoice total   as written on the invoice                                                                       |
 |     Invoice total   (number)                        |     Invoice total   in standardized date format. Example: 2019-05-31                                      |
 |     Confidence of   invoice total                   |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).       |
+|     Line Items                                      |     The linne items extracted from the invoice. Confidence scores are available for each column.  <ul><li>**Line item amount**: Amount for a line item. Returned in text and number format.</li><li>**Line item description**: Description for a line item. Returned in text format.</li><li>**Line item quantity**: Quantity for a line item. Returned in text and number format.</li><li>**Line item unit price**: Unit price for a line item. Returned in text and number format.</li><li>**Line item product code**: Product code for a line item. Returned in text format.</li><li>**Line item unit**: Unit for a line item, e.g, kg, lb, etc. Returned in text format.</li><li>**Line item date**: Date for a line item. Returned in text and date format.</li><li>**Line item tax**: Tax for a line item. Returned in text and number format.</li></ul>                                               |
 |     Purchase   order                                |     Purchase   order                                                                                                |
 |     Confidence of   purchase order                  |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).       |
 |     Remittance   address                            |     Remittance   address                                                                                            |
@@ -97,8 +98,6 @@ If an invoice is detected, the invoice processing model will output the followin
 |     Detected text                                   |     Line of recognized text from running OCR on an invoice. Returned as a part of a list of text.                   |
 |     Page number   of detected text                  |     Page on which the line of recognized text was found. Returned as a part of a list of text.                      |
 
->[!NOTE]
->Extraction of line items and invoice tables is currently not supported.
 
 ## Limits
 
