@@ -24,7 +24,7 @@ You can create AI models to automate processes and find insights in one of two w
 When you select a model from **Get straight to productivity**, you can choose  how you want to use the model and then AI Builder will provide you with the steps to build it:
 
 > [!div class="mx-imgBorder"]
-> ![How your model is used.](media/select-productivity.png "How your model is used.")
+> ![Choose how to use your model.](media/select-productivity.png "Choose how to use your model.")
 
 ## Refine a model for your business needs
 
@@ -32,8 +32,6 @@ Unlike a prebuilt model, a custom model allows you to customize your own steps. 
 
 > [!div class="mx-imgBorder"]
 > ![How your model is used.](media/model-used-box.png "How your model is used.")
-
-
 
 For details on how to use each AI Builder model in Power Automate or Power Apps, select one of the following:
 

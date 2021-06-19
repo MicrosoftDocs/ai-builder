@@ -83,9 +83,9 @@ Concat(AIBuilder.ExtractKeyPhrases(TextInput1.Text).phrases, phrase & ",")
 
 - This formula uses specific language and extracts all key phrases from the text into a list. In the **Input** column, "en-us" is the language code of English (United States). For a complete list of language code IETF, see [BCP-47 format](/openspecs/office_standards/ms-oe376/6c085406-a698-4e12-9d4d-c3b0ee3dbc4a).  
 
-|Input  |Output  |
-|---------|---------|
-|**Concat(AIBuilder.ExtractKeyPhrases(TextInput1.Text, ,{language:<br/>"en-us"}).phrases, phrase & ",")**   |<span style="color: red;">SCREENSHOT OF OUTPUT</span>         |
+  |Input  |Output  |
+  |---------|---------|
+  |**Concat(AIBuilder.ExtractKeyPhrases(TextInput1.Text, ,{language:<br/>"en-us"}).phrases, phrase & ",")**   |<span style="color: red;">SCREENSHOT OF OUTPUT</span>         |
 
 ## Language detection
 
@@ -131,18 +131,10 @@ Concat(AIBuilder.CategorizeText (TextInput1.Text).categories , type & ",")
   |---------|---------|
     |**Concat(AIBuilder.CategorizeText(TextInput1.Text,{modelId:GUID("<your model id>"<br/>)}).categories,type,",")**    | <span style="color: red;">SCREENSHOT OF OUTPUT</span>         |
 
-- This formula uses English (United States) as the language for interpretation to return all categories that belong to the text, in list form:
+- This formula uses English (United States) as the language for interpretation to return all categories that belong to the text, in list form.
 
   |Input  |Output  |
   |---------|---------|
   | **Concat(AIBuilder.CategorizeText(TextInput1.Text ,{language:<br/>"en-us"}).categories,type,","));**  | <span style="color: red;">SCREENSHOT OF OUTPUT</span> |
-
-### See also
-
-[Sentiment analysis model](prebuilt-sentiment-analysis.md)  
-[Entity extraction prebuilt model](prebuilt-entity-extraction.md)  
-[Key phrase extraction model](prebuilt-key-phrase.md)  
-[Language detection model](prebuilt-language-detection.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
