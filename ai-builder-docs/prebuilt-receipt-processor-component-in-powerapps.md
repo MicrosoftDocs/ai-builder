@@ -1,5 +1,5 @@
 ---
-title: Use the receipt processor component in Power Apps -  AI Builder | Microsoft Docs
+title: Use the receipt processor component in Power Apps (preview) -  AI Builder | Microsoft Docs
 description: Provides information about how to use the receipt processor component in Power Apps
 author: jarennert
 
@@ -13,9 +13,16 @@ ms.reviewer: v-aangie
 
 # Use the receipt processor component in Power Apps (preview)
 
+[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
+
 The AI Builder receipt processor component scans and extracts information from receipts. You can take photos directly within the component or load images that have already taken. The data is recognized and extracted using the properties below.
 
 For more information about canvas apps, see [What are canvas apps in Power Apps?](/powerapps/maker/canvas-apps/getting-started)
+
+> [!IMPORTANT]
+> - This is a preview feature.
+>
+> - [!INCLUDE[cc_preview_features_definition](includes/cc-preview-features-definition.md)]
 
 ## Requirements
 The receipt processor component works best with sales receipts, those commonly used by restaurants, gas stations, and retailers, and others. Both print and handwritten text can be detected.
@@ -70,8 +77,7 @@ These [guidelines](/powerapps/maker/canvas-apps/controls/control-button) for the
 
 ### Related topics
 
-[Receipt processing overview](prebuilt-receipt-processing.md)
-
+[Receipt processing overview](prebuilt-receipt-processing.md)<br/> 
 [Core properties in Power Apps](/powerapps/maker/canvas-apps/controls/properties-core)
 
 

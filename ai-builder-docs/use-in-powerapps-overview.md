@@ -12,15 +12,20 @@ ms.reviewer: v-aangie
 
 # AI Builder in Power Apps overview
 
-To use AI Builder in Microsoft Power Apps, you'll need to add an AI Builder component depending on the model you will be using. This also enables you to integrate AI models through the formula bar in Power Apps canvas apps.
+You can use AI Builder in Microsoft Power Apps in one of two ways, depending on the model you will be using. You can:
+
+- Add an AI Builder component, or
+- Use an AI Builder formula in formula bar
 
 You can get support for the following AI Builder models that use Power Apps through the formula bar:
 
-- [Sentiment analysis](formula-bar.md#sentiment-analysis)
-- [Entity extraction](formula-bar.md#entity-extraction)
-- [Key phrase extraction](formula-bar.md#key-phrase-extraction)
-- [Language detection](formula-bar.md#language-detection)
-- [Category classification](formula-bar.md#category-classification)
+|Model type | Build type  |
+|---------|---------|
+|[Sentiment analysis](formula-bar.md#sentiment-analysis)  | Prebuilt     |
+|[Entity extraction](formula-bar.md#entity-extraction) | Prebuilt and Custom  |
+|[Key phrase extraction](formula-bar.md#key-phrase-extraction)   | Prebuilt        |
+|[Language detection](formula-bar.md#language-detection)   | Prebuilt     |
+|[Category classification](formula-bar.md#category-classification)  | Prebuilt and Custom   |
 
 To learn more about these models, see [Use formulas for text AI models](formula-bar.md).
 

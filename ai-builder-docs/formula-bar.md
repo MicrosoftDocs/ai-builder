@@ -16,11 +16,23 @@ ms.reviewer: v-aangie
 
 You can integrate some AI Builder models in [Power Apps Studio](https://create.powerapps.com) by using the formula bar. This functionality is available only for the following AI Builder model types:
 
-- [Sentiment analysis](#sentiment-analysis)
-- [Entity extraction](#entity-extraction)
-- [Key phrase extraction](#key-phrase-extraction)
-- [Language detection](#language-detection)
-- [Category classification](#category-classification)
+|Model type | Build type  |
+|---------|---------|
+|[Sentiment analysis](#sentiment-analysis)  | Prebuilt     |
+|[Entity extraction](#entity-extraction)    | Prebuilt and Custom    |
+|[Key phrase extraction](#key-phrase-extraction)   | Prebuilt        |
+|[Language detection](#language-detection)   | Prebuilt     |
+|[Category classification](#category-classification)  | Prebuilt and Custom   |
+
+> [!IMPORTANT]
+ >* This is a preview feature. [!INCLUDE [cc-preview-features-definition](includes/cc-preview-features-definition.md)]
+>
+ >* [Data loss prevention policies](/power-platform/admin/wp-data-loss-prevention) that apply to Dataverse also apply to AI Builder.
+ >* To use formulas in an app that was created before May 7, 2020, go to **Settings** > **Advance Settings** > **Preview Features**, and set **AI Builder formulas** to **ON**. This step isn't necessary for newly created apps.
+
+When you enter **AIBuilder** in an app, it might take a few seconds to load its functions. After it loads, enter a period (**.**) to view the available functions. For detailed information about how to use formulas in canvas apps, see [Get started with canvas-app formulas in Power Apps](/powerapps/maker/canvas-apps/working-with-formulas).
+
+To enable or disable this feature (for example, for data loss prevention), see **AI Builder formulas** under **Advanced Settings**. More information, see [Controlling which features are enabled](/powerapps/maker/canvas-apps/working-with-experimental-preview#controlling-which-features-are-enabled).
 
  > [!NOTE]
  > To improve the prediction score of the text AI models listed above and to narrow down the language in which they are interpreted, you can provide language code as an additional parameter. The language code needs to be provided in IETF [BCP-47 format](/openspecs/office_standards/ms-oe376/6c085406-a698-4e12-9d4d-c3b0ee3dbc4a).
