@@ -59,13 +59,8 @@ AIBuilder.AnalyzeSentiment(*String*[, *Language*]).sentiment
 
 ### Example
 
-<<<<<<< Updated upstream
 ```powerapps-dot
 AIBuilder.AnalyzeSentiment(TextInput1.Text).sentiment
-=======
-```
-AIBuilder.AnalyzeSentiment("I love AI Builder").sentiment
->>>>>>> Stashed changes
 ```
 
 ### Input/output variation
