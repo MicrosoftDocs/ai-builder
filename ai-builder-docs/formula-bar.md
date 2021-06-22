@@ -50,7 +50,7 @@ If you want, you can select the **Label** control, enter **AIBuilder**, an
 
 The basic input formula in the sentiment analysis model returns the sentiment of the text, such as negative or positive:
 
-```
+```powerapps-dot
 AIBuilder.AnalyzeSentiment(TextInput1.Text).sentiment
 ```
 
@@ -67,7 +67,7 @@ In the **Input** column, "en-us" is the language code of English (United States)
 
 The basic input formula in the entity extraction model extracts the types of entities present in the text into a list:
 
-```
+```powerapps-dot
 Concat(AIBuilder.ExtractTextEntities(TextInput1.Text).entities, type & ", ")
 ```
 ### Input/output variations
@@ -88,7 +88,7 @@ Concat(AIBuilder.ExtractTextEntities(TextInput1.Text).entities, type & ", ")
 
 The basic input formula in the key phrase extraction model extracts all key phrases from the text into a list:
 
-```
+```powerapps-dot
 Concat(AIBuilder.ExtractKeyPhrases(TextInput1.Text).phrases, phrase & ",")
 ```
 
@@ -104,7 +104,7 @@ Concat(AIBuilder.ExtractKeyPhrases(TextInput1.Text).phrases, phrase & ",")
 
 The basic input formula formula in the language detection model returns the two-letter language code (ISO 639) of the text:
 
-```
+```powerapps-dot
 AIBuilder.DetectLanguage(TextInput1.Text).language
 ```
 
@@ -132,7 +132,7 @@ AIBuilder.DetectLanguage(TextInput1.Text).language
 
 The basic input formula in the category classification model returns all categories that belong to the text, in list form:
 
-```
+```powerapps-dot
 Concat(AIBuilder.CategorizeText (TextInput1.Text).categories , type & ",")
 ```
 
