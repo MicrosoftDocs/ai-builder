@@ -48,20 +48,34 @@ If you want, you can select the **Label** control, enter **AIBuilder**, an
 
 ## Sentiment analysis
 
-The basic input formula in the sentiment analysis model returns the sentiment of the text, such as negative or positive:
+If you specify a single string as the argument, the return value is the sentiment of the string as a text, such as negative, positive or neutral:
 
+### Syntax
+
+AIBuilder.AnalyzeSentiment(*String*[, *Language*]).sentiment
+
+- **String** - Required. This is the string to analyze sentiment for.
+- **Language** - Optional. You can specify the language for your string to get the best result.
+
+### Example
+
+<<<<<<< Updated upstream
 ```powerapps-dot
 AIBuilder.AnalyzeSentiment(TextInput1.Text).sentiment
+=======
+```
+AIBuilder.AnalyzeSentiment("I love AI Builder").sentiment
+>>>>>>> Stashed changes
 ```
 
 ### Input/output variation
 
-- To ensure the text is interpreted in context of a specific language, you can provide the language code in IETF [BCP-47 format](/openspecs/office_standards/ms-oe376/6c085406-a698-4e12-9d4d-c3b0ee3dbc4a). 
+To ensure the text is interpreted in context of a specific language, you can provide the language code in IETF [BCP-47 format](/openspecs/office_standards/ms-oe376/6c085406-a698-4e12-9d4d-c3b0ee3dbc4a). 
 In the **Input** column, "en-us" is the language code of English (United States):
 
-  |Input  |Output  |
-  |---------|---------|
-  |**AIBuilder.AnalyzeSentiment(TextInput1.Text,{language:<br/>"en-us"}).sentiment** |<span style="color: red;">SCREENSHOT OF OUTPUT</span>   |
+|Input  |Output  |
+|---------|---------|
+|**AIBuilder.AnalyzeSentiment(TextInput1.Text,{language:<br/>"en-us"}).sentiment** |positive   |
 
 ## Entity extraction
 

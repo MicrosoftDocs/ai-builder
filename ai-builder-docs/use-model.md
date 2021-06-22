@@ -14,15 +14,6 @@ ms.reviewer: v-aangie
 
 After you publish your model, you can use it across Microsoft Power Platform to create end-to-end solutions that meet your business needs.
 
-> [!IMPORTANT]
- >* This is a preview feature. [!INCLUDE [cc-preview-features-definition](includes/cc-preview-features-definition.md)]
- >* [Data loss prevention policies](/power-platform/admin/wp-data-loss-prevention) that apply to Dataverse also apply to AI Builder.
- >* To use formulas in an app that was created before May 7, 2020, go to **Settings** > **Advance Settings** > **Preview Features**, and set **AI Builder formulas** to **ON**. This step isn't necessary for newly created apps.
-
-When you enter **AIBuilder** in an app, it might take a few seconds to load its functions. After it loads, enter a period (**.**) to view the available functions. For detailed information about how to use formulas in canvas apps, see [Get started with canvas-app formulas in Power Apps](/powerapps/maker/canvas-apps/working-with-formulas).
-
-To enable or disable this feature (for example, for data loss prevention), see **AI Builder formulas** under **Advanced Settings**. More information, see [Controlling which features are enabled](/powerapps/maker/canvas-apps/working-with-experimental-preview#controlling-which-features-are-enabled).
-
 ## Get straight to productivity
 
 When you select a model from **Get straight to productivity**, you can choose  how you want to use the model and then AI Builder will provide you with the steps to build it:
@@ -54,8 +45,9 @@ You can integrate some AI Builder models in [Power Apps Studio](https://create.p
 * Language detection
 * Category classification
 
-For information about when this functionality might become available with other model types, see [What's new and planned for AI Builder](/power-platform-release-plan/2019wave2/ai-builder/planned-features).  
- 
+For information about when this functionality might become available with other model types, see [What's new and planned for AI Builder](/power-platform-release-plan/2019wave2/ai-builder/planned-features).
+
+
 ### Example: Sentiment analysis
 
 In this example, we use a **Text Input** control and a **Label** control to invoke sentiment analysis.
