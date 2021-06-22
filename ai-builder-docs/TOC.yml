@@ -46,15 +46,15 @@
     href: prebuilt-category-classification.md
   - name: Entity extraction 
     href: prebuilt-entity-extraction.md
-  - name: ID reader (preview)
+  - name: ID reader
     href: prebuilt-id-reader.md
-  - name: Invoice processing (preview)
+  - name: Invoice processing
     href: prebuilt-invoice-processing.md
   - name: Key phrase extraction
     href: prebuilt-key-phrase.md
   - name: Language detection
     href: prebuilt-language-detection.md
-  - name: Receipt processing (preview)
+  - name: Receipt processing
     href: prebuilt-receipt-processing.md
   - name: Sentiment analysis
     href: prebuilt-sentiment-analysis.md

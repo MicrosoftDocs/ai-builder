@@ -1,18 +1,16 @@
 ---
-title: Use the ID reader prebuilt model in Power Automate (preview) - AI Builder | Microsoft Docs
+title: Use the ID reader prebuilt model in Power Automate - AI Builder | Microsoft Docs
 description: Describes how to use the ID reader prebuilt AI Builder model.
 author: paulnog
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/23/2021
+ms.date: 06/22/2021
 ms.author: paulnog
 ms.reviewer: v-aangie
 ---
 
-# Use the ID reader prebuilt model in Power Automate (preview)
-
-[This topic is pre-release documentation and is subject to change.]
+# Use the ID reader prebuilt model in Power Automate
 
 1. Sign in to [Power Automate](https://flow.microsoft.com/).
 1. In the left pane, select **My flows**, and then select **New flow** > **Instant cloud flow** in the menu at the top.

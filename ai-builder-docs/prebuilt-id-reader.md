@@ -1,18 +1,16 @@
 ---
-title: ID reader prebuilt model (preview) - AI Builder | Microsoft Docs
+title: ID reader prebuilt model - AI Builder | Microsoft Docs
 description: Describes the ID reader prebuilt AI Builder model.
 author: paulnog
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/23/2021
+ms.date: 06/22/2021
 ms.author: paulnog
 ms.reviewer: v-aangie
 ---
 
-# ID reader prebuilt model (preview)
-
-[This topic is pre-release documentation and is subject to change.]
+# ID reader prebuilt model
 
 You can use the identity document (ID) reader prebuilt model to extract information from passports and US driver licenses. The model will extract information such as the person’s first name, date of birth, or gender.
 
