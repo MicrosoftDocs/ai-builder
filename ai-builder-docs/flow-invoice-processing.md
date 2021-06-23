@@ -6,15 +6,12 @@ author: JoeFernandezMS
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 4/5/2021
+ms.date: 6/23/2021
 ms.author: jofernan
 ms.reviewer: v-aangie
 ---
 
-
-# Use the invoice processing prebuilt model in Power Automate (preview)
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
+# Use the invoice processing prebuilt model in Power Automate
 
 1. Sign in to [Power Automate](https://flow.microsoft.com/).
 
@@ -51,80 +48,78 @@ You can enter a page value or page range in the **Pages** parameter. Example: 1 
 >[!NOTE]
 > If you have a large document with only one invoice, we strongly recommend to **use the Pages parameter to aim at your invoice and therefore reduce the cost of model prediction**. However, the page range should contain a **unique invoice** for the action to return correct data.
 > 
-> Example: A document contains a first invoice in page 2 and a second invoice that spans overs page 3 and 4:
-> - If you enter page range 2, it will return the data of the first invoice
-> - If you enter page range 3-4, it will only return the data of the second invoice
-> - If you enter page range 2-4, it will return partial data of first and second invoices (should be avoided)
-
-
+> Example: A document contains a first invoice in page 2 and a second invoice that spans over pages 3 and 4:
+> - If you enter page range 2, it will return the data of the first invoice.
+> - If you enter page range 3-4, it will only return the data of the second invoice.
+> - If you enter page range 2-4, it will return partial data of first and second invoices (should be avoided).
 
 ## Parameters
 
 ### Input
 
 |Name|Required|Type|Description|
-|---------|---------|---------|---------|
+|:---------|:---------|:---------|:---------|
 |Invoice file|Yes|file|The invoice file to process|
 |Pages|No|string|Pages to process within the document|
 
 ### Output
 
 |     Name                                            |     Type       |     Definition                                                                                                      |
-|-----------------------------------------------------|----------------|---------------------------------------------------------------------------------------------------------------------|
-|     Amount due   (text)                             |     string     |     Amount due as   it written on the invoice                                                                       |
-|     Amount due   (number)                           |     float      |     Amount due in   standardized number format. Example: 1234.98                                                    |
-|     Confidence   of amount due                      |     float      |     How   confidence the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).    |
-|     Billing   address                               |     string     |     Billing   address                                                                                               |
-|     Confidence   of billing address                 |     float      |     How   confidence the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).    |
-|     Billing   address recipient                     |     string     |     Billing   address recipient                                                                                     |
-|     Confidence   of billing address recipient       |     float      |     How   confidence the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).    |
-|     Customer   address                              |     string     |     Customer   address                                                                                              |
-|     Confidence   of customer address                |     float      |     How confidence   the model is in its prediction. Score between 0 (low confidence) and 1 (high   confidence).    |
-|     Customer   address recipient                    |     string     |     Customer   address recipient                                                                                    |
-|     Confidence   of customer address recipient      |     float      |     How   confidence the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).    |
+|:----------------------------------------------------|:---------------|:------------------------------------------------------------------------------------------------------|
+|     Amount due   (text)                             |     string     |     Amount due as it is written on the invoice                                                                       |
+|     Amount due   (number)                           |     float      |     Amount due in standardized number format. Example: 1234.98                                                    |
+|     Confidence   of amount due                      |     float      |     How confident the model is in its prediction. Score between 0 (low confidence) and 1 (high confidence).    |
+|     Billing   address                               |     string     |     Billing address                                                                                               |
+|     Confidence   of billing address                 |     float      |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).    |
+|     Billing   address recipient                     |     string     |     Billing address recipient                                                                                     |
+|     Confidence   of billing address recipient       |     float      |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).    |
+|     Customer   address                              |     string     |     Customer address                                                                                              |
+|     Confidence   of customer address                |     float      |     How confident the model is in its prediction. Score between 0 (low confidence) and 1 (high   confidence).    |
+|     Customer   address recipient                    |     string     |     Customer address recipient                                                                                    |
+|     Confidence   of customer address recipient      |     float      |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).    |
 |     Customer   ID                                   |     string     |     Customer ID                                                                                                     |
-|     Confidence   of customer ID                     |     float      |     How   confidence the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).    |
+|     Confidence   of customer ID                     |     float      |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).    |
 |     Customer   name                                 |     string     |     Customer name                                                                                                   |
-|     Confidence   of customer name                   |     float      |     How   confidence the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).    |
-|     Due date   (text)                               |     string     |     Due date as   written on the invoice                                                                            |
-|     Due date   (date)                               |                |     Due date in   standardized date format. Example: 2019-05-31T00:00:00Z                                           |
-|     Confidence   of due date                        |     float      |     How   confidence the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).    |
-|     Invoice   date (text)                           |     string     |     Invoice date   as written on the invoice                                                                        |
-|     Invoice   date (date)                           |     date       |     Invoice date   in standardized date format. Example: 2019-05-31T00:00:00Z                                       |
-|     Confidence   of invoice date                    |     float      |     How   confidence the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).    |
+|     Confidence   of customer name                   |     float      |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).    |
+|     Due date   (text)                               |     string     |     Due date as written on the invoice                                                                            |
+|     Due date   (date)                               |                |     Due date in standardized date format. Example: 2019-05-31T00:00:00Z                                           |
+|     Confidence   of due date                        |     float      |     How confident the model is in its prediction. Score between 0 (low confidence) and 1 (high confidence).    |
+|     Invoice   date (text)                           |     string     |     Invoice date as written on the invoice                                                                        |
+|     Invoice   date (date)                           |     date       |     Invoice date in standardized date format. Example: 2019-05-31T00:00:00Z                                       |
+|     Confidence   of invoice date                    |     float      |     How confident the model is in its prediction. Score between 0 (low confidence) and 1 (high confidence).    |
 |     Invoice ID                                      |     string     |     Invoice ID                                                                                                      |
-|     Confidence   of invoice ID                      |     float      |     How   confidence the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).    |
-|     Invoice   total (text)                          |     string     |     Invoice total   as written on the invoice                                                                       |
-|     Invoice   total (number)                        |     float      |     Invoice total   in standardized date format. Example: 2019-05-31T00:00:00Z                                      |
-|     Confidence   of invoice total                   |     float      |     How   confidence the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).    |
-|     Purchase   order                                |     string     |     Purchase   order                                                                                                |
-|     Confidence   of purchase order                  |     float      |     How   confidence the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).    |
-|     Remittance   address                            |     string     |     Remittance   address                                                                                            |
-|     Confidence   of remittance address              |     float      |     How confidence   the model is in its prediction. Score between 0 (low confidence) and 1 (high   confidence).    |
-|     Remittance   address recipient                  |     string     |     Remittance   address recipient                                                                                  |
-|     Confidence   of remittance address recipient    |     float      |     How   confidence the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).    |
-|     Service   address                               |     string     |     Service   address                                                                                               |
-|     Confidence   of service address                 |     float      |     How   confidence the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).    |
-|     Service   address recipient                     |     string     |     Service   address recipient                                                                                     |
-|     Confidence   of service address recipient       |     float      |     How   confidence the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).    |
-|     Shipping   address                              |     string     |     Shipping   address                                                                                              |
-|     Confidence   of shipping address                |     float      |     How   confidence the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).    |
-|     Shipping   address recipient                    |     string     |     Shipping   address recipient                                                                                    |
-|     Confidence   of shipping address recipient      |     float      |     How   confidence the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).    |
-|     Subtotal   (text)                               |     string     |     Subtotal as   it written on the invoice                                                                         |
-|     Subtotal   (number)                             |     float      |     Subtotal in   standardized number format. Example: 1234.98                                                      |
-|     Confidence   of subtotal                        |     float      |     How   confidence the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).    |
-|     Total tax   (text)                              |     string     |     Total tax as   it written on the invoice                                                                        |
-|     Total tax   (number)                            |     float      |     Total tax in   standardized number format. Example: 1234.98                                                     |
-|     Confidence   of total tax                       |     float      |     How   confidence the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).    |
-|     Vendor   address                                |     string     |     Vendor   address                                                                                                |
-|     Confidence   of vendor address                  |     float      |     How   confidence the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).    |
-|     Vendor   address recipient                      |     string     |     Vendor   address recipient                                                                                      |
-|     Confidence   of vendor address recipient        |     float      |     How   confidence the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).    |
+|     Confidence   of invoice ID                      |     float      |     How confident the model is in its prediction. Score between 0 (low confidence) and 1 (high confidence).    |
+|     Invoice   total (text)                          |     string     |     Invoice total as written on the invoice                                                                       |
+|     Invoice   total (number)                        |     float      |     Invoice total in standardized date format. Example: 2019-05-31T00:00:00Z                                      |
+|     Confidence   of invoice total                   |     float      |     How confident the model is in its prediction. Score between 0 (low confidence) and 1 (high confidence).    |
+|     Purchase order                                  |     string     |     Purchase order                                                                                                |
+|     Confidence of purchase order                    |     float      |     How confident the model is in its prediction. Score between 0 (low confidence) and 1 (high confidence).    |
+|     Remittance   address                            |     string     |     Remittance address                                                                                            |
+|     Confidence   of remittance address              |     float      |     How confident the model is in its prediction. Score between 0 (low confidence) and 1 (high   confidence).    |
+|     Remittance   address recipient                  |     string     |     Remittance address recipient                                                                                  |
+|     Confidence   of remittance address recipient    |     float      |     How confident the model is in its prediction. Score between 0 (low confidence) and 1 (high confidence).    |
+|     Service   address                               |     string     |     Service address                                                                                               |
+|     Confidence   of service address                 |     float      |     How confident the model is in its prediction. Score between 0 (low confidence) and 1 (high confidence).    |
+|     Service   address recipient                     |     string     |     Service address recipient                                                                                     |
+|     Confidence   of service address recipient       |     float      |     How confident the model is in its prediction. Score between 0 (low confidence) and 1 (high confidence).    |
+|     Shipping   address                              |     string     |     Shipping address                                                                                              |
+|     Confidence   of shipping address                |     float      |     How confident the model is in its prediction. Score between 0 (low confidence) and 1 (high confidence).    |
+|     Shipping   address recipient                    |     string     |     Shipping address recipient                                                                                    |
+|     Confidence   of shipping address recipient      |     float      |     How confident the model is in its prediction. Score between 0 (low confidence) and 1 (high confidence).    |
+|     Subtotal   (text)                               |     string     |     Subtotal as it written on the invoice                                                                         |
+|     Subtotal   (number)                             |     float      |     Subtotal in standardized number format. Example: 1234.98                                                      |
+|     Confidence of subtotal                          |     float      |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).    |
+|     Total tax   (text)                              |     string     |     Total tax as it written on the invoice                                                                        |
+|     Total tax   (number)                            |     float      |     Total tax in standardized number format. Example: 1234.98                                                     |
+|     Confidence   of total tax                       |     float      |     How confident the model is in its prediction. Score between 0 (low confidence) and 1 (high confidence).    |
+|     Vendor   address                                |     string     |     Vendor address                                                                                                |
+|     Confidence   of vendor address                  |     float      |     How confident the model is in its prediction. Score between 0 (low confidence) and 1 (high confidence).    |
+|     Vendor   address recipient                      |     string     |     Vendor address recipient                                                                                      |
+|     Confidence   of vendor address recipient        |     float      |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).    |
 |     Vendor   name                                   |     string     |     Vendor name                                                                                                     |
-|     Confidence   of vendor name                     |     float      |     How   confidence the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).    |
-|     Detected   text                                 |     string     |     Line of   recognized text from running OCR on an invoice. Returned as a part of a list   of text.               |
-|     Page   number of detected text                  |     integer    |     Which page   the line of recognized text is found on. Returned as a part of a list of   text.                   |
+|     Confidence   of vendor name                     |     float      |     How confident the model is in its prediction. Score between 0 (low confidence) and 1 (high confidence).    |
+|     Detected   text                                 |     string     |     Line of recognized text from running OCR on an invoice. Returned as a part of a list of text.               |
+|     Page   number of detected text                  |     integer    |     Which page the line of recognized text is found on. Returned as a part of a list of text.                   |
 
 ### Related topics
 
