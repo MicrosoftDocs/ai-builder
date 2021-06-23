@@ -1,18 +1,16 @@
 ---
-title: Use invoice processing in Power Apps -  AI Builder | Microsoft Docs
+title: Use invoice processing in Power Apps - AI Builder | Microsoft Docs
 description: Provides information about how to use AI Builder invoice processing in Power Apps.
 author: JoeFernandezMS
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/05/2021
+ms.date: 06/22/2021
 ms.author: jofernan
 ms.reviewer: v-aangie
 ---
 
-# Use invoice processing in Power Apps (preview)
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
+# Use invoice processing in Power Apps
 
 Currently, there is no invoice processing control available for canvas apps in Power Apps. But you can create an app that calls a Power Automate flow that uses the invoice processing prebuilt AI model, and then return the results back to your app. The following example shows how to do this:
 
@@ -30,7 +28,7 @@ Currently, there is no invoice processing control available for canvas apps in P
 
 1. Select **Create**.
 
-1. Select **+ New step** > **AI Builder**, and then select **Process and save information from invoices (preview)** in the **Actions** list.
+1. Select **+ New step** > **AI Builder**, and then select **Process and save information from invoices** in the **Actions** list.
 
 1. Select the **Invoice file** input and then select **Ask in Power Apps** in the **Dynamic content** list.
 
