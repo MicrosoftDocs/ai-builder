@@ -11,10 +11,7 @@ ms.author: joshrenn
 ms.reviewer: v-aangie
 ---
 
-
-# Use the receipt processing prebuilt model in Power Automate (preview)
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
+# Use the receipt processing prebuilt model in Power Automate
 
 1. Sign in to [Power Automate](https://flow.microsoft.com/).
 
