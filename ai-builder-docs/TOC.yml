@@ -174,15 +174,15 @@
       href: prebuilt-category-classification-pwr-automate.md    
     - name: Entity extraction model
       href: prebuilt-entity-extraction-pwr-automate.md
-    - name: ID reader model (preview)
+    - name: ID reader model
       href: id-reader.md  
-    - name: Invoice processing model (preview)
+    - name: Invoice processing model
       href: flow-invoice-processing.md
     - name: Key phrase extraction model
       href: flow-key-phrase-extraction.md
     - name: Language detection model
       href: flow-language-detection.md
-    - name: Receipt processing model (preview)
+    - name: Receipt processing model
       href: flow-receipt-processing.md
     - name: Sentiment analysis model
       href: flow-sentiment-analysis.md
