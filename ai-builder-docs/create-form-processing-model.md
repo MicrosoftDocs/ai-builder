@@ -37,7 +37,7 @@ On the **Choose information to extract** screen, you define the fields and table
    > [!div class="mx-imgBorder"]
    > !['Define tables' animation](media/form-processing-multiple-layout-define-tables-only.gif "Define tables to extract")
 
-## Group documents by collections (preview)
+## Group documents by collections
 
 A collection is a group of documents that share the same layout. Create as many collections as document layouts that you want your model to process. For example, if you're building an AI model to process invoices from two different vendors, each having their own invoice template, create two collections.
 
@@ -48,13 +48,6 @@ For each collection that you create, you need to upload at least five sample doc
 
    > [!div class="mx-imgBorder"]
    > !['Select documents to upload' animation](media/form-processing-multiple-layout-add-documents.gif "Upload documents")
-
-> [!NOTE]
-> The functionality of having more than one collection in an AI model is currently in preview. This means:
->- It is on track to become a permanent part of the product, but we don’t guarantee an SLA expected for GA functionalities. 
->- A form processing model that has more than one collection, cannot be currently exported to another environment via a solution.
->
->If you face any issues while using this feature, report it here: [AI Builder community forums](https://powerusers.microsoft.com/t5/AI-Builder/bd-p/AIBuilder1).
 
 ### Analyze
 
