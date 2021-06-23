@@ -5,9 +5,9 @@ author: JoeFernandezMS
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 11/03/2020
+ms.date: 06/23/2021
 ms.author: jofernan
-ms.reviewer: kvivek
+ms.reviewer: v-aangie
 ---
 
 # Feature availability by region
@@ -28,9 +28,9 @@ The following table shows which AI Builder features are available in each region
 ### Custom models
 |Feature |Asia |Australia |Canada |Europe |France |Germany |India |Japan |South America |United Arab Emirates |United Kingdom |United States |
 |:-------|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
-|Prediction|GA|GA|GA|GA|-|-|-|GA|GA|-|GA|GA|
-|Category classification|GA|GA |GA|GA |-|-|-|GA|GA|-|GA |GA|
-|Entity Extraction |GA|GA |GA|GA|-|-|-|GA|GA|-|GA |GA|
+|Prediction|GA|GA|GA|GA|GA|GA|GA|GA|GA|GA|GA|GA|
+|Category classification|GA|GA |GA|GA |GA|GA|GA|GA|GA|GA|GA |GA|
+|Entity Extraction |GA|GA |GA|GA|GA|GA|GA|GA|GA|GA|GA |GA|
 |Object detection|GA |GA |-|GA |- |-|GA|GA|-|-|GA |GA |
 |Form processing |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |
 
@@ -39,8 +39,8 @@ The following table shows which AI Builder features are available in each region
 |Feature |Asia |Australia |Canada |Europe |France |Germany |India |Japan |South America |United Arab Emirates |United Kingdom |United States |
 |:-------|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
 |Business card reader    |GA|GA |GA|GA|GA |GA|GA |GA|GA|GA|GA|GA
-|Category classification |Preview |Preview |Preview |Preview|-|-|-|Preview |Preview |-|Preview |Preview |
-|Entity extraction |GA |GA |GA |GA |-|-|-|-|GA |- |GA |GA|
+|Category classification |Preview |Preview |Preview |Preview|Preview|Preview|Preview|Preview |Preview |Preview|Preview |Preview |
+|Entity extraction |GA |GA |GA |GA |GA|GA|GA|-|GA |GA |GA |GA|
 |Identity document reader |Preview |Preview |Preview |Preview |Preview |Preview |Preview |Preview |Preview |Preview |Preview |Preview |
 |Invoice processing |Preview |Preview |Preview |Preview |Preview |Preview |Preview |Preview |Preview |Preview |Preview |Preview |
 |Key phrase extraction |GA|GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |
