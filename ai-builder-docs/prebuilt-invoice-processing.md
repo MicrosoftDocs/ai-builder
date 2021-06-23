@@ -10,9 +10,7 @@ ms.author: jofernan
 ms.reviewer: v-aangie
 ---
 
-# Invoice processing prebuilt model (preview)
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
+# Invoice processing prebuilt model
 
 The invoice processing prebuilt AI model extracts key invoice data to help automate the processing of invoices. The invoice processing model is optimized to recognize common invoice elements like invoice ID, invoice date, amount due and more.
 
