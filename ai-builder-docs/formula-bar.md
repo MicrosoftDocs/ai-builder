@@ -48,14 +48,14 @@ If you want, you can select the **Label** control, enter **AIBuilder**, an
 
 ## Sentiment analysis
 
-If you specify a single string as the argument, the return value is the sentiment of the string as a text, such as negative, positive or neutral:
+If you specify a single string as the argument, the return value is the sentiment of the string as a text, such as negative, positive or neutral.
 
 ### Syntax
 
 AIBuilder.AnalyzeSentiment(*String*[, *Language*]).sentiment
 
-- **String** - Required. This is the string to analyze sentiment for.
-- **Language** - Optional. You can specify the language for your string to get the best result.
+- **String** - (*Required*) This is the string to analyze sentiment for.
+- **Language** - (*Optional*) You can specify the language for your string to get the best result.
 
 ### Example
 
@@ -65,37 +65,58 @@ AIBuilder.AnalyzeSentiment(TextInput1.Text).sentiment
 
 ### Input/output variation
 
-To ensure the text is interpreted in context of a specific language, you can provide the language code in IETF [BCP-47 format](/openspecs/office_standards/ms-oe376/6c085406-a698-4e12-9d4d-c3b0ee3dbc4a). 
+To ensure the text is interpreted in context of a specific language, you can provide the language code in IETF [BCP-47 format](/openspecs/office_standards/ms-oe376/6c085406-a698-4e12-9d4d-c3b0ee3dbc4a).
 In the **Input** column, "en-us" is the language code of English (United States):
 
 |Input  |Output  |
 |---------|---------|
-|**AIBuilder.AnalyzeSentiment(TextInput1.Text,{language:<br/>"en-us"}).sentiment** |positive   |
+|AIBuilder.AnalyzeSentiment(TextInput1.Text,{language:<br/>"en-us"}).sentiment  |Positive   |
 
 ## Entity extraction
 
-The basic input formula in the entity extraction model extracts the types of entities present in the text into a list:
+If you specify a single string as the argument, the return values are the types of entities present in the text in a list.
+
+### Syntax
+
+AIBuilder.ExtractTextEntities(*String*).entities, type & ", ") ***VERIFY THIS***
+
+- **String** - (*Required*) This is the string to extract the tables.
+- **Model ID** - (*Optional*) ***COMPLETE THIS***
+- **Language** - (*Optional*) You can specify the language for your string to get the best result.
+
+### Example
 
 ```powerapps-dot
-Concat(AIBuilder.ExtractTextEntities(TextInput1.Text).entities, type & ", ")
+Concat(AIBuilder.ExtractTextEntities(TextInput1.Text).entities, type & ",")
 ```
+
 ### Input/output variations
 
 - This formula uses your custom AI Builder model to return all entities that belong to the text, in list form:
 
   |Input  |Output  |
   |---------|---------|
-  |**Concat(AIBuilder.ExtractTextEntities CategorizeText(TextInput1.<br/>Text, { modelId: GUID("<yourModelId>").entities, type & ",")**  | <span style="color: red;">SCREENSHOT OF OUTPUT</span> |
+  *Concat(AIBuilder.ExtractTextEntities CategorizeText(TextInput1.<br/>Text, { modelId: GUID("<yourModelId>").entities, type & ",")  | ***EXAMPLE***  |
 
 - This formula uses specific language to interpret the text and return all types of entities into a list. In the **Input** column, "en-us" is the language code of English (United States). For a complete list of language code in IETF, see [BCP-47 format](/openspecs/office_standards/ms-oe376/6c085406-a698-4e12-9d4d-c3b0ee3dbc4a):
 
   |Input  |Output  |
   |---------|---------|
-  | **Concat(AIBuilder.ExtractTextEntities(TextInput1.Text,{language:<br/>"en-us"}).entities, type & ", ")**  |<span style="color: red;">SCREENSHOT OF OUTPUT</span> |
+  | Concat(AIBuilder.ExtractTextEntities(TextInput1.Text,{language:<br/>"en-us"}).entities, type & ", ")  | ***EXAMPLE***   |
 
 ## Key phrase extraction
 
-The basic input formula in the key phrase extraction model extracts all key phrases from the text into a list:
+If you specify a single string as the argument, the return values are all key phrases from the text in a list.
+
+### Syntax
+
+AIBuilder.ExtractKeyPhrases(*String*[, *Language*]).phrases, phrase & ",") ***VERIFY THIS***
+
+- **String** - (*Required*) This is the string to extract the key phrases.
+- **Phrases** - (*Required*) ***COMPLETE THIS***
+- **Language** - (*Optional*) You can specify the language for your string to get the best result.
+
+### Example
 
 ```powerapps-dot
 Concat(AIBuilder.ExtractKeyPhrases(TextInput1.Text).phrases, phrase & ",")
@@ -103,24 +124,33 @@ Concat(AIBuilder.ExtractKeyPhrases(TextInput1.Text).phrases, phrase & ",")
 
 ### Input/output variation
 
-- This formula uses specific language and extracts all key phrases from the text into a list. In the **Input** column, "en-us" is the language code of English (United States). For a complete list of language code IETF, see [BCP-47 format](/openspecs/office_standards/ms-oe376/6c085406-a698-4e12-9d4d-c3b0ee3dbc4a):  
+This formula uses specific language and extracts all key phrases from the text into a list. In the **Input** column, "en-us" is the language code of English (United States). For a complete list of language code IETF, see [BCP-47 format](/openspecs/office_standards/ms-oe376/6c085406-a698-4e12-9d4d-c3b0ee3dbc4a):  
 
-  |Input  |Output  |
-  |---------|---------|
-  |**Concat(AIBuilder.ExtractKeyPhrases(TextInput1.Text, ,{language:<br/>"en-us"}).phrases, phrase & ",")**   |<span style="color: red;">SCREENSHOT OF OUTPUT</span>         |
+|Input  |Output  |
+|---------|---------|
+|Concat(AIBuilder.ExtractKeyPhrases(TextInput1.Text, ,{language:<br/>"en-us"}).phrases, phrase & ",")   |***EXAMPLE***      |
 
 ## Language detection
 
-The basic input formula formula in the language detection model returns the two-letter language code (ISO 639) of the text:
-
-```powerapps-dot
-AIBuilder.DetectLanguage(TextInput1.Text).language
-```
+If you specify a single string as the argument, the return value is the two-letter language code (ISO 639) of the text:
 
    |Text  |Language  |
    |---------|:---------:|
    |How are you    |en   |
    |Comment allez-vous  |fr  |
+
+### Syntax
+
+AIBuilder.DetectLanguage(*String*).language ***VERIFY THIS***
+
+- **String** - (*Required*) This is the string that finds the two-letter language code.
+- **Language** - (*Required*) This is the language for your string.
+
+### Example
+
+```powerapps-dot
+AIBuilder.DetectLanguage(TextInput1.Text).language
+```
 
 ### Input/output variations
 
@@ -128,18 +158,28 @@ AIBuilder.DetectLanguage(TextInput1.Text).language
 
   |Input  |Output  |
   |---------|---------|
-  |**AIBuilder.DetectLanguage(TextInput1.Text,{countryHint:"DK"}).language**<br/><br/>In this example, country **DK** refers to the ISO-3166 country code for Denmark.   | <span style="color: red;">SCREENSHOT OF OUTPUT</span>        |
-  |If you provide **hvordan har du det** in **textinput1**, it returns **da** which is the<br/>language code for Danish. Without country code provided it would return **no**,<br/>which is the language code for Norwegian where this text is also valid.     | <span style="color: red;">SCREENSHOT OF OUTPUT</span>        |
+  |AIBuilder.DetectLanguage(TextInput1.Text,{countryHint:"DK"}).language<br/><br/>In this example, country **DK** refers to the ISO-3166 country code for Denmark.   | ***EXAMPLE***       |
+  |If you provide **hvordan har du det** in **textinput1**, it returns **da** which is the<br/>language code for Danish. Without country code provided it would return **no**,<br/>which is the language code for Norwegian where this text is also valid.     | ***EXAMPLE***       |
 
 - This formula returns the confidence score of the detected language. This returns a number in the range of 0 to 1. The greater the value, the higher the confidence is in the predictions made by the AI model:
 
   |Input  |Output  |
   |---------|---------|
-  | **AIBuilder.DetectLanguage(TextInput1.Text).score** | <span style="color: red;">SCREENSHOT OF OUTPUT</span>  | 
+  | AIBuilder.DetectLanguage(TextInput1.Text).score | ***EXAMPLE***  | 
 
 ## Category classification
 
-The basic input formula in the category classification model returns all categories that belong to the text, in list form:
+If you specify a single string as the argument, the return values are the categories that belong to the text, in list form.
+
+### Syntax
+
+AIBuilder.CategorizeText(*String*).categorize
+
+- **String** - (*Required*) This is the string to extract the tables.
+- **Model ID** - (*Optional*) **COMPLETE THIS**
+- **Language** - (*Optional*) You can specify the language for your string to get the best result.
+
+### Example
 
 ```powerapps-dot
 Concat(AIBuilder.CategorizeText (TextInput1.Text).categories , type & ",")
@@ -151,12 +191,12 @@ Concat(AIBuilder.CategorizeText (TextInput1.Text).categories , type & ",")
 
   |Input  |Output  |
   |---------|---------|
-    |**Concat(AIBuilder.CategorizeText(TextInput1.Text,{modelId:GUID("<your model id>"<br/>)}).categories,type,",")**    | <span style="color: red;">SCREENSHOT OF OUTPUT</span>         |
+    |Concat(AIBuilder.CategorizeText(TextInput1.Text,{modelId:GUID("<your model id>"<br/>)}).categories,type,",")    | ***EXAMPLE***      |
 
 - This formula uses English (United States) as the language for interpretation to return all categories that belong to the text, in list form:
 
   |Input  |Output  |
   |---------|---------|
-  | **Concat(AIBuilder.CategorizeText(TextInput1.Text ,{language:<br/>"en-us"}).categories,type,","));**  | <span style="color: red;">SCREENSHOT OF OUTPUT</span> |
+  | Concat(AIBuilder.CategorizeText(TextInput1.Text ,{language:<br/>"en-us"}).categories,type,","));  | ***EXAMPLE*** |
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

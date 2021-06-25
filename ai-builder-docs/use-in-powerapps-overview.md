@@ -14,8 +14,10 @@ ms.reviewer: v-aangie
 
 You can use AI Builder in Microsoft Power Apps in one of two ways, depending on the model you will be using. You can:
 
-- Add an AI Builder component, or
-- Use an AI Builder formula in formula bar
+- Use AI models in the formula bar, or
+- Add AI Builder components
+
+## Use AI models in the formula bar
 
 You can get support for the following AI Builder models that use Power Apps through the formula bar:
 
@@ -29,7 +31,7 @@ You can get support for the following AI Builder models that use Power Apps thro
 
 To learn more about these models, see [Use formulas for text AI models](formula-bar.md).
 
-## AI Builder components
+## Add AI Builder components
 
 AI Builder provides two kinds of Power Apps components. Choose your component based on the models you want to use.
 
