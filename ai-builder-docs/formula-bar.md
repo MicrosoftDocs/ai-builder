@@ -70,25 +70,28 @@ In the **Input** column, "en-us" is the language code of English (United States)
 
 |Input  |Output  |
 |---------|---------|
-|AIBuilder.AnalyzeSentiment(TextInput1.Text,{language:<br/>"en-us"}).sentiment  |Positive   |
+|AIBuilder.AnalyzeSentiment(TextInput1.Text,{language: "en-us"}).sentiment  |Positive   |
 
 ## Entity extraction
 
-If you specify a single string as the argument, the return values are the types of entities present in the text in a list.
+If you specify a single string as the argument, the entity extraction formula will extract and return the types of entities present in the string into a list. You can use the following formula to display the result in a label control.
 
 ### Syntax
 
-AIBuilder.ExtractTextEntities(*String*).entities, type & ", ") ***VERIFY THIS***
+AIBuilder.ExtractTextEntities (String[, ModelId, Language]).entities
 
-- **String** - (*Required*) This is the string to extract the tables.
-- **Model ID** - (*Optional*) ***COMPLETE THIS***
+- **String** - (*Required*) This is the string to extract entities from.
+- **ModelId** - (*Optional*) If you want to use your custom entity extraction model instead of the prebuilt one, you need to include your model GUID in the formula. Model GUID can be found in the URL by visiting your model details page in **AI Builder** > **Models**.
 - **Language** - (*Optional*) You can specify the language for your string to get the best result.
 
 ### Example
 
 ```powerapps-dot
-Concat(AIBuilder.ExtractTextEntities(TextInput1.Text).entities, type & ",")
+AIBuilder.ExtractTextEntities(“Let’s meet at the Central Park tomorrow 10am.”).entities
 ```
+
+> [!div class="mx-imgBorder"]
+> ![Entity extraction formula](media/formula-entities.png "Entity extraction formula")
 
 ### Input/output variations
 
@@ -96,13 +99,14 @@ Concat(AIBuilder.ExtractTextEntities(TextInput1.Text).entities, type & ",")
 
   |Input  |Output  |
   |---------|---------|
-  *Concat(AIBuilder.ExtractTextEntities CategorizeText(TextInput1.<br/>Text, { modelId: GUID("<yourModelId>").entities, type & ",")  | ***EXAMPLE***  |
+  | AIBuilder.ExtractTextEntities("Let’s meet at the Central Park tomorrow 10am.", {modelId:GUID("")}).entities  | ***EXAMPLE***  |
+  | Concat(AIBuilder.ExtractTextEntities("Let’s meet at the Central Park tomorrow 10am.", {modelId:GUID("")}).entities, value & "," & type & ";")  |  ***EXAMPLE***  |
 
-- This formula uses specific language to interpret the text and return all types of entities into a list. In the **Input** column, "en-us" is the language code of English (United States). For a complete list of language code in IETF, see [BCP-47 format](/openspecs/office_standards/ms-oe376/6c085406-a698-4e12-9d4d-c3b0ee3dbc4a):
+- This formula uses specific language to interpret the text and return all types of entities into a list. In the **Input** column, "es-ES" is the language code of Spanish. For a complete list of language code in IETF, see [BCP-47 format](/openspecs/office_standards/ms-oe376/6c085406-a698-4e12-9d4d-c3b0ee3dbc4a):<!-- Angie: Update link? -->
 
   |Input  |Output  |
   |---------|---------|
-  | Concat(AIBuilder.ExtractTextEntities(TextInput1.Text,{language:<br/>"en-us"}).entities, type & ", ")  | ***EXAMPLE***   |
+  | Concat(AIBuilder.ExtractTextEntities("Nos vemos en el Central Park mañana a las 10 a. M.", {language:"es-ES"}).entities, value & "," & type & ";") | ***EXAMPLE***   |
 
 ## Key phrase extraction
 
