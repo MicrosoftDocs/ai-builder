@@ -6,7 +6,7 @@ author: jarennert
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/05/2021
+ms.date: 06/28/2021
 ms.author: joshrenn
 ms.reviewer: v-aangie
 ---
@@ -40,6 +40,22 @@ ms.reviewer: v-aangie
 
 Congratulations! You've created a flow that uses the AI Builder receipt processing model. Select **Save** on the top right, and then select **Test** to try out your flow.
 
+## Page range
+
+For large documents, it's possible to specify the page range to process.
+
+   > [!div class="mx-imgBorder"]
+   > ![Page range](media/rp-pagerange.png "Page range example")
+
+You can enter a page value or page range in the **Pages** parameter. Example: 1 or 3-5.
+
+>[!NOTE]
+> If you have a large document with only one receipt, we strongly recommend to **use the Pages parameter to aim at your receipt and therefore reduce the cost of model prediction**. However, note that only the data of the **first receipt** within the page range will be returned and that multi-page receipts are not supported. 
+> 
+> Example: A document contains a first receipt in page 2 and a second receipt that spans overs page 3 and 4:
+> - If you enter value 2, it will return the data of the first receipt
+> - If you enter value 3-4, it will only return the data of the first page of the second receipt
+> - If you enter value 2-4, it will only return data of the first receipt, not the data of the second receipt
 
 ## Parameters
 ### Input
