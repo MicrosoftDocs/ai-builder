@@ -41,11 +41,11 @@ The following table shows which AI Builder features are available in each region
 |Business card reader    |GA|GA |GA|GA|GA |GA|GA |GA|GA|GA|GA|GA
 |Category classification |Preview |Preview |Preview |Preview|Preview|Preview|Preview|Preview |Preview |Preview|Preview |Preview |
 |Entity extraction |GA |GA |GA |GA |GA|GA|GA|-|GA |GA |GA |GA|
-|Identity document reader |Preview |Preview |Preview |Preview |Preview |Preview |Preview |Preview |Preview |Preview |Preview |Preview |
-|Invoice processing |Preview |Preview |Preview |Preview |Preview |Preview |Preview |Preview |Preview |Preview |Preview |Preview |
+|Identity document reader |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |
+|Invoice processing |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |
 |Key phrase extraction |GA|GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |
 |Language detection |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |
-|Receipt processing |Preview |Preview |Preview |Preview |Preview |Preview |Preview |Preview |Preview |Preview |Preview |Preview |
+|Receipt processing |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |
 |Sentiment analysis |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |
 |Text recognition   |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |
 |Text translation |- |- |- |GA |-|- |-|- |-|- |- |GA |
