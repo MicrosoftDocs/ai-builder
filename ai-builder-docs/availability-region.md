@@ -5,7 +5,7 @@ author: JoeFernandezMS
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/23/2021
+ms.date: 06/30/2021
 ms.author: jofernan
 ms.reviewer: v-aangie
 ---
@@ -41,18 +41,18 @@ The following table shows which AI Builder features are available in each region
 |Business card reader    |GA|GA |GA|GA|GA |GA|GA |GA|GA|GA|GA|GA
 |Category classification |Preview |Preview |Preview |Preview|Preview|Preview|Preview|Preview |Preview |Preview|Preview |Preview |
 |Entity extraction |GA |GA |GA |GA |GA|GA|GA|-|GA |GA |GA |GA|
-|Identity document reader |Preview |Preview |Preview |Preview |Preview |Preview |Preview |Preview |Preview |Preview |Preview |Preview |
-|Invoice processing |Preview |Preview |Preview |Preview |Preview |Preview |Preview |Preview |Preview |Preview |Preview |Preview |
+|Identity document reader |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |
+|Invoice processing |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |
 |Key phrase extraction |GA|GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |
 |Language detection |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |
-|Receipt processing |Preview |Preview |Preview |Preview |Preview |Preview |Preview |Preview |Preview |Preview |Preview |Preview |
+|Receipt processing |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |
 |Sentiment analysis |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |
 |Text recognition   |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |
 |Text translation |- |- |- |GA |-|- |-|- |-|- |- |GA |
 
 ## Government Community Cloud (GCC) availability
 
-AI Builder is not currently available in the GCC environment. For more information about this limitation, see these topics: 
+AI Builder isn't currently available in the GCC environment. For more information about this limitation, see these topics: 
 
 - [Power Apps US Government feature limitations](/power-platform/admin/powerapps-us-government#power-apps-us-government-feature-limitations)
 - [Power Automate US Government feature limitations](/power-automate/us-govt#power-automate-us-government-feature-limitations)
