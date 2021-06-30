@@ -5,7 +5,7 @@ author: JoeFernandezMS
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/23/2021
+ms.date: 06/30/2021
 ms.author: jofernan
 ms.reviewer: v-aangie
 ---
@@ -52,7 +52,7 @@ The following table shows which AI Builder features are available in each region
 
 ## Government Community Cloud (GCC) availability
 
-AI Builder is not currently available in the GCC environment. For more information about this limitation, see these topics: 
+AI Builder isn't currently available in the GCC environment. For more information about this limitation, see these topics: 
 
 - [Power Apps US Government feature limitations](/power-platform/admin/powerapps-us-government#power-apps-us-government-feature-limitations)
 - [Power Automate US Government feature limitations](/power-automate/us-govt#power-automate-us-government-feature-limitations)
