@@ -1,5 +1,5 @@
 ---
-title: Use formulas for text AI models - AI Builder | Microsoft Docs
+title: Use formulas for text AI models (preview) in Power Apps - AI Builder | Microsoft Docs
 description: Provides examples of formulas you can use in AI Builder text models.
 author: norliu
 ms.service: aibuilder
@@ -54,8 +54,8 @@ If you specify a single string as the argument, the return value is the sentimen
 
 AIBuilder.AnalyzeSentiment(*String*[, *Language*]).sentiment
 
-- **String** - (*Required*) This is the string to analyze sentiment for.
-- **Language** - (*Optional*) You can specify the language for your string to get the best result.
+- **String**: (*Required*) This is the string to analyze sentiment for.
+- **Language**: (*Optional*) You can specify the language for your string to get the best result.
 
 ### Example
 
@@ -74,21 +74,23 @@ In the **Input** column, "en-us" is the language code of English (United States)
 
 ## Entity extraction
 
-If you specify a single string as the argument, the entity extraction formula will extract and return the types of entities present in the string into a list. You can use the following formula to display the result in a label control.
+If you specify a single string as the argument, the entity extraction formula will extract and return the types of entities present in the string into a list. You can use the following formula to display the result in a **Label** control.
 
 ### Syntax
 
-AIBuilder.ExtractTextEntities (String[, ModelId, Language]).entities
+AIBuilder.ExtractTextEntities (*String*[, *ModelId*, *Language*]).entities
 
-- **String** - (*Required*) This is the string to extract entities from.
-- **ModelId** - (*Optional*) If you want to use your custom entity extraction model instead of the prebuilt one, you need to include your model GUID in the formula. Model GUID can be found in the URL by visiting your model details page in **AI Builder** > **Models**.
-- **Language** - (*Optional*) You can specify the language for your string to get the best result.
+- **String**: (*Required*) This is the string to extract entities from.
+- **ModelId**: (*Optional*) If you want to use your custom entity extraction model instead of the prebuilt one, you need to include your model GUID in the formula. Model GUID can be found in the URL by visiting your model details page in **AI Builder** > **Models**.
+- **Language**: (*Optional*) You can specify the language for your string to get the best result.
 
 ### Example
 
 ```powerapps-dot
 AIBuilder.ExtractTextEntities(“Let’s meet at the Central Park tomorrow 10am.”).entities
 ```
+
+<br/>
 
 > [!div class="mx-imgBorder"]
 > ![Entity extraction formula](media/formula-entities.png "Entity extraction formula")
@@ -98,32 +100,31 @@ AIBuilder.ExtractTextEntities(“Let’s meet at the Central Park tomorrow 10am.
 - This formula uses your custom AI Builder model to return all entities that belong to the text, in list form:
 
   |Input  |Output  |
-  |---------|---------|
-  | AIBuilder.ExtractTextEntities("Let’s meet at the Central Park tomorrow 10am.", {modelId:GUID("")}).entities  | ***EXAMPLE***  |
-  | Concat(AIBuilder.ExtractTextEntities("Let’s meet at the Central Park tomorrow 10am.", {modelId:GUID("")}).entities, value & "," & type & ";")  |  ***EXAMPLE***  |
+  |---------|:---------:|
+  | AIBuilder.ExtractTextEntities("Let’s meet at the Central Park tomorrow 10am.", {modelId:GUID("")}).entities  | ![Entity extraction table](media/entity-box.png "Entity extraction table")     |
+  | Concat(AIBuilder.ExtractTextEntities("Let’s meet at the Central Park tomorrow 10am.", {modelId:GUID("")}).entities, value & "," & type & ";")  |  ![Entity extraction English text](media/entity-text.png "Entity extraction English text")  |
 
 - This formula uses specific language to interpret the text and return all types of entities into a list. In the **Input** column, "es-ES" is the language code of Spanish. For a complete list of language code in IETF, see [BCP-47 format](/openspecs/office_standards/ms-oe376/6c085406-a698-4e12-9d4d-c3b0ee3dbc4a):<!-- Angie: Update link? -->
 
   |Input  |Output  |
-  |---------|---------|
-  | Concat(AIBuilder.ExtractTextEntities("Nos vemos en el Central Park mañana a las 10 a. M.", {language:"es-ES"}).entities, value & "," & type & ";") | ***EXAMPLE***   |
+  |---------|:---------:|
+  | Concat(AIBuilder.ExtractTextEntities("Nos vemos en el Central Park mañana a las 10 a. M.", {language:"es-ES"}).entities, value & "," & type & ";") | ![Entity extraction Spanish text](media/entity-spanish.png "Entity extraction Spanish text")  |
 
 ## Key phrase extraction
 
-If you specify a single string as the argument, the return values are all key phrases from the text in a list.
+If you specify a single string as the argument, the entity extraction formula will extract and return the types of entities present in the string into a list. You can use the following formula to display the result in a **Label** control.
 
 ### Syntax
 
-AIBuilder.ExtractKeyPhrases(*String*[, *Language*]).phrases, phrase & ",") ***VERIFY THIS***
+AIBuilder.ExtractTextEntities (*String*[, *Language*]).entities
 
-- **String** - (*Required*) This is the string to extract the key phrases.
-- **Phrases** - (*Required*) ***COMPLETE THIS***
-- **Language** - (*Optional*) You can specify the language for your string to get the best result.
+- **String**: (*Required*) This is the string to extract entities from.
+- **Language**: (*Optional*) You can specify the language for your string to get the best result.
 
 ### Example
 
 ```powerapps-dot
-Concat(AIBuilder.ExtractKeyPhrases(TextInput1.Text).phrases, phrase & ",")
+Concat(AIBuilder.ExtractKeyPhrases("I want to refinance my car loan this year to reduce cost").phrases, phrase & ",")
 ```
 
 ### Input/output variation
@@ -132,29 +133,31 @@ This formula uses specific language and extracts all key phrases from the text i
 
 |Input  |Output  |
 |---------|---------|
-|Concat(AIBuilder.ExtractKeyPhrases(TextInput1.Text, ,{language:<br/>"en-us"}).phrases, phrase & ",")   |***EXAMPLE***      |
+| Concat(AIBuilder.ExtractKeyPhrases("I want to refinance my car loan this year to reduce cost", {language:"en-US"}).phrases, phrase & ",")   | ![Key phrase formula](media/key-phrase.png "Key phrase formula")    |
 
 ## Language detection
 
-If you specify a single string as the argument, the return value is the two-letter language code (ISO 639) of the text:
-
-   |Text  |Language  |
-   |---------|:---------:|
-   |How are you    |en   |
-   |Comment allez-vous  |fr  |
+If you specify a single string as the argument, the Language detection formula will detect and return the two-letter language code (ISO 639) of the string. You can use the following formula to display the result in a **Label** control.
 
 ### Syntax
 
-AIBuilder.DetectLanguage(*String*).language ***VERIFY THIS***
+AIBuilder.ExtractTextEntities (*String*[, *CountryHint*]).entities
 
-- **String** - (*Required*) This is the string that finds the two-letter language code.
-- **Language** - (*Required*) This is the language for your string.
+- **String**: (*Required*) This is the string to extract entities from.
+- **CountryHint**: (*Optional*) You can provide a country code in ISO-3166 formal to narrow down the prediction in context of a specific country.
 
 ### Example
 
 ```powerapps-dot
-AIBuilder.DetectLanguage(TextInput1.Text).language
+AIBuilder.DetectLanguage("I love Power Apps.").language
 ```
+<br/>
+
+   |String  |Language  |
+   |---------|:---------:|
+   |How are you    |en   |
+   |Comment allez-vous  |fr  |
+
 
 ### Input/output variations
 
@@ -162,31 +165,31 @@ AIBuilder.DetectLanguage(TextInput1.Text).language
 
   |Input  |Output  |
   |---------|---------|
-  |AIBuilder.DetectLanguage(TextInput1.Text,{countryHint:"DK"}).language<br/><br/>In this example, country **DK** refers to the ISO-3166 country code for Denmark.   | ***EXAMPLE***       |
-  |If you provide **hvordan har du det** in **textinput1**, it returns **da** which is the<br/>language code for Danish. Without country code provided it would return **no**,<br/>which is the language code for Norwegian where this text is also valid.     | ***EXAMPLE***       |
+  |AIBuilder.DetectLanguage(TextInput1.Text,{countryHint:"DK"}).language<br/><br/>In this example, country **DK** refers to the ISO-3166 country code for Denmark.   | ***Screenshot***       |
+  |If you provide **hvordan har du det** in **textinput1**, it returns **da** which is the<br/>language code for Danish. Without country code provided it would return **no**,<br/>which is the language code for Norwegian where this text is also valid.     | ***Screenshot***       |
 
 - This formula returns the confidence score of the detected language. This returns a number in the range of 0 to 1. The greater the value, the higher the confidence is in the predictions made by the AI model:
 
   |Input  |Output  |
   |---------|---------|
-  | AIBuilder.DetectLanguage(TextInput1.Text).score | ***EXAMPLE***  | 
+  | AIBuilder.DetectLanguage(TextInput1.Text).score | ***Screenshot***  | 
 
 ## Category classification
 
-If you specify a single string as the argument, the return values are the categories that belong to the text, in list form.
+If you specify a single string as the argument, the Category classification formula will predict and return all categories present in the string into a list. You can use the following formula to display the result in a **Label** control.
 
 ### Syntax
 
-AIBuilder.CategorizeText(*String*).categorize
+AIBuilder.CategorizeText (*String*[, *ModelId*, *Language*]).categories
 
-- **String** - (*Required*) This is the string to extract the tables.
-- **Model ID** - (*Optional*) **COMPLETE THIS**
-- **Language** - (*Optional*) You can specify the language for your string to get the best result.
+- **String**: (*Required*) This is the string to predict categories for.
+- **ModelId**: (*Optional*) If you want to use your custom category classification model instead of the prebuilt one, you need to include your model GUID in the formula. Model GUID can be found in the URL by visiting your model details page in **AI Builder** > **Models**.
+- **Language**: (*Optional*) You can specify the language for your string to narrow down the prediction.
 
 ### Example
 
 ```powerapps-dot
-Concat(AIBuilder.CategorizeText (TextInput1.Text).categories , type & ",")
+Concat(AIBuilder.CategorizeText("I want to refinance my car loan this year to reduce cost").categories, type & ",")
 ```
 
 ### Input/output variations
@@ -195,12 +198,20 @@ Concat(AIBuilder.CategorizeText (TextInput1.Text).categories , type & ",")
 
   |Input  |Output  |
   |---------|---------|
-    |Concat(AIBuilder.CategorizeText(TextInput1.Text,{modelId:GUID("<your model id>"<br/>)}).categories,type,",")    | ***EXAMPLE***      |
+    | Concat(AIBuilder.CategorizeText("I want to refinance my car loan this year to reduce cost", {modelId:GUID("")}).categories, type & ",")   | ![Key phrase formula](media/category-class-formula.png "Key phrase formula")      |
 
 - This formula uses English (United States) as the language for interpretation to return all categories that belong to the text, in list form:
 
   |Input  |Output  |
   |---------|---------|
-  | Concat(AIBuilder.CategorizeText(TextInput1.Text ,{language:<br/>"en-us"}).categories,type,","));  | ***EXAMPLE*** |
+  | Concat(AIBuilder.CategorizeText("I want to refinance my car loan this year to reduce cost", {modelId:GUID(""), language:"en-US"}).categories, type & ",")  | ![Key phrase formula](media/category-class-english.png "Key phrase formula") |
+
+### See also
+
+[Sentiment analysis model](prebuilt-sentiment-analysis.md)<br/>
+[Entity extraction prebuilt model](prebuilt-entity-extraction.md)<br/>
+[Key phrase extraction model](prebuilt-key-phrase.md)<br/>
+[Language detection model](prebuilt-language-detection.md)<br/>
+[Category classification model](prebuilt-category-classification.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
