@@ -198,13 +198,13 @@ Concat(AIBuilder.CategorizeText("I want to refinance my car loan this year to re
 
   |Input  |Output  |
   |---------|---------|
-    | Concat(AIBuilder.CategorizeText("I want to refinance my car loan this year to reduce cost", {modelId:GUID("")}).categories, type & ",")   | ![Key phrase formula](media/category-class-formula.png "Key phrase formula")      |
+    | Concat(AIBuilder.CategorizeText("I want to refinance my car loan this year to reduce cost", {modelId:GUID("")}).categories, type & ",")   | ![Category classification formula](media/category-class-formula.png "Category classification formula")      |
 
 - This formula uses English (United States) as the language for interpretation to return all categories that belong to the text, in list form:
 
   |Input  |Output  |
   |---------|---------|
-  | Concat(AIBuilder.CategorizeText("I want to refinance my car loan this year to reduce cost", {modelId:GUID(""), language:"en-US"}).categories, type & ",")  | ![Key phrase formula](media/category-class-english.png "Key phrase formula") |
+  | Concat(AIBuilder.CategorizeText("I want to refinance my car loan this year to reduce cost", {modelId:GUID(""), language:"en-US"}).categories, type & ",")  | ![Category classification with language formula](media/category-class-english.png "Category classification with language formula") |
 
 ### See also
 
