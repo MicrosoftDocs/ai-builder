@@ -51,6 +51,10 @@ For large documents, it's possible to specify the page range to process.
 
 You can enter a page value or page range in the **Pages** parameter. Example: 1 or 3-5.
 
+>[!IMPORTANT]
+> Models trained and published before 8/4/2021 may fail at flow save or run time when using **Pages** parameter. If such error happens, you will need to retrain and republish your model.
+
+
 >[!NOTE]
 > If you have a large document with only one form, we strongly recommend to **use the Pages parameter to aim at your form and therefore reduce the cost of model prediction and increase performance**. However, the page range should contain a **unique form** for the action to return correct data.
 > 
