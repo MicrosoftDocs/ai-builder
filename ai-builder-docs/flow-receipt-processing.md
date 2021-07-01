@@ -50,7 +50,7 @@ For large documents, it's possible to specify the page range to process.
 You can enter a page value or page range in the **Pages** parameter. Example: 1 or 3-5.
 
 >[!NOTE]
-> If you have a large document with only one receipt, we strongly recommend to **use the Pages parameter to aim at your receipt and therefore reduce the cost of model prediction**. However, note that only the data of the **first receipt** within the page range will be returned and that multi-page receipts are not supported. 
+> If you have a large document with only one receipt, we strongly recommend to **use the Pages parameter to aim at your receipt and therefore reduce the cost of model prediction and increase performance**. However, note that only the data of the **first receipt** within the page range will be returned and that multi-page receipts are not supported. 
 > 
 > Example: A document contains a first receipt in page 2 and a second receipt that spans overs page 3 and 4:
 > - If you enter value 2, it will return the data of the first receipt
@@ -62,6 +62,7 @@ You can enter a page value or page range in the **Pages** parameter. Example: 1 
 |Name|Required|Type|Description|
 |---------|---------|---------|---------|
 |**Receipt file**|Yes|string|The receipt file to process|
+|**Pages**|No|string|Page range to process|
 
 ### Output
 |Name|Type|Description|
