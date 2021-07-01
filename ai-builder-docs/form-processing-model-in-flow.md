@@ -52,7 +52,7 @@ For large documents, it's possible to specify the page range to process.
 You can enter a page value or page range in the **Pages** parameter. Example: 1 or 3-5.
 
 >[!IMPORTANT]
-> Models trained and published before 8/4/2021 may fail at flow save or run time when using **Pages** parameter. If such error happens, you will need to retrain and republish your model.
+> **Models published before 8/1/2021 will fail at flow save time when using Pages parameter**. If such error happens, you will need to republish your model.
 
 
 >[!NOTE]
