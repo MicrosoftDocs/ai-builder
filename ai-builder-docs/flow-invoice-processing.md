@@ -47,7 +47,7 @@ For large documents, it's possible to specify the page range to process.
 You can enter a page value or page range in the **Pages** parameter. Example: 1 or 3-5.
 
 >[!NOTE]
-> If you have a large document with only one invoice, we strongly recommend to **use the Pages parameter to aim at your invoice and therefore reduce the cost of model prediction**. However, the page range should contain a **unique invoice** for the action to return correct data.
+> If you have a large document with only one invoice, we strongly recommend to **use the Pages parameter to aim at your invoice and therefore reduce the cost of model prediction and increase performance**. However, the page range should contain a **unique invoice** for the action to return correct data.
 > 
 > Example: A document contains a first invoice in page 2 and a second invoice that spans over pages 3 and 4:
 > - If you enter page range 2, it will return the data of the first invoice.
@@ -61,6 +61,7 @@ You can enter a page value or page range in the **Pages** parameter. Example: 1 
 |Name|Required|Type|Description|
 |---------|---------|---------|---------|
 |Receipt file|Yes|file|The invoice file to process|
+|Pages|No|string|Page range to process|
 
 ### Output
 
@@ -69,9 +70,9 @@ You can enter a page value or page range in the **Pages** parameter. Example: 1 
 |     Amount due   (text)                             |     string     |     Amount due as it's written on the invoice                                                                       |
 |     Amount due   (number)                           |     float      |     Amount due in standardized number format. Example: 1234.98                                                    |
 |     Confidence of amount due                      |     float      |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).    |
-|     Billing   address                               |     string     |     Billing   address                                                                                               |
+|     Billing   address                               |     string     |     Billing address                                                                                               |
 |     Confidence   of billing address                 |     float      |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).    |
-|     Billing   address recipient                     |     string     |     Billing   address recipient                                                                                     |
+|     Billing   address recipient                     |     string     |     Billing address recipient                                                                                     |
 |     Confidence   of billing address recipient       |     float      |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).    |
 |     Customer   address                              |     string     |     Customer address     |
 |     Confidence   of customer address                |     float      |     How confident the model is in its prediction. Score between 0 (low confidence) and 1 (high   confidence).    |
