@@ -80,7 +80,7 @@ If you get the error message **_“Training failed and the model cannot be used�
 * A temporary error. You can retry by retraining your model again by selecting **Edit model**.
 * The documents that you uploaded for training don’t meet the [Form-processing model requirements](./form-processing-model-requirements.md).
 
-## Error when using Pages parameter in a Form processing flow
+## Pages parameter generates an error when saving a Form processing flow
 If you get the error message **_“Flow save failed with code 'WorkflowOperationParametersExtraParameter' and message 'The API operation does not contain a definition for parameter 'item/requestv2/pages'.'”_** when saving a form processing flow with **Pages** parameter specified, it means your model needs to be republished.
 To solve that issue, go to your model's page in AI Builder, unpublish and republish your model.
 
