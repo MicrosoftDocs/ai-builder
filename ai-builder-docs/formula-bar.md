@@ -87,7 +87,7 @@ AIBuilder.ExtractTextEntities (*String*[, *ModelId*, *Language*]).entities
 ### Example
 
 ```powerapps-dot
-AIBuilder.ExtractTextEntities(“Let’s meet at the Central Park tomorrow 10am.”).entities
+AIBuilder.ExtractTextEntities("Let’s meet at the Central Park tomorrow 10am.").entities
 ```
 
 <br/>
@@ -165,14 +165,14 @@ AIBuilder.DetectLanguage("I love Power Apps.").language
 
   |Input  |Output  |
   |---------|---------|
-  |AIBuilder.DetectLanguage(TextInput1.Text,{countryHint:"DK"}).language<br/><br/>In this example, country **DK** refers to the ISO-3166 country code for Denmark.   | ***Screenshot***       |
-  |If you provide **hvordan har du det** in **textinput1**, it returns **da** which is the<br/>language code for Danish. Without country code provided it would return **no**,<br/>which is the language code for Norwegian where this text is also valid.     | ***Screenshot***       |
+  |AIBuilder.DetectLanguage(TextInput1.Text,{countryHint:"DK"}).language<br/><br/>In this example, country **DK** refers to the ISO-3166 country code for Denmark.   | ![Country is Denmark](media/language-da.png "Country is Denmark")        |
+  |If you provide **hvordan har du det** in **textinput1**, it returns **da** which is the<br/>language code for Danish. Without country code provided it would return **no**,<br/>which is the language code for Norwegian where this text is also valid.     | ![Language is Danish](media/language-no.png "Language is Danish")       |
 
 - This formula returns the confidence score of the detected language. This returns a number in the range of 0 to 1. The greater the value, the higher the confidence is in the predictions made by the AI model:
 
   |Input  |Output  |
   |---------|---------|
-  | AIBuilder.DetectLanguage(TextInput1.Text).score | ***Screenshot***  | 
+  | AIBuilder.DetectLanguage(TextInput1.Text).score | ![Language confidence score](media/language-score.png "Language confidence score")   |
 
 ## Category classification
 
