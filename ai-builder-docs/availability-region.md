@@ -50,12 +50,51 @@ The following table shows which AI Builder features are available in each region
 |Text recognition   |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |
 |Text translation |- |- |- |GA |-|- |-|- |-|- |- |GA |
 
-## Government Community Cloud (GCC) availability
+## US Government
 
-AI Builder isn't currently available in the GCC environment. For more information about this limitation, see these topics: 
+AI Builder is available in US Government environments with the following features.
+
+> [!NOTE]
+> For more information on the Power Platform US Government environments and features, see these topics:
+> - [Power Apps US Government](/power-platform/admin/powerapps-us-government)
+> - [Power Automate US Government](/power-automate/us-govt)
+
+### Custom models
+|Feature |Government Community Cloud (GCC) |Government Community Cloud – High (GCC High) |Department of Defense (DoD) |
+|:-------|:-------:|:-------:|:-------:|
+|Prediction|-|-|-|
+|Category classification|-|-|-|
+|Entity Extraction|-|-|-|
+|Object detection|GA|GA|-|
+|Form processing |GA|GA|-|
+
+### Prebuilt models
+|Feature |Government Community Cloud (GCC) |Government Community Cloud – High (GCC High) |Department of Defense (DoD) |
+|:-------|:-------:|:-------:|:-------:|
+|Business card reader    |-|-|-|
+|Category classification |-|-|-|
+|Entity extraction |-|-|-|
+|Identity document reader |GA|GA|-|
+|Invoice processing |GA|GA|-|
+|Key phrase extraction |GA|GA|-|
+|Language detection |GA|GA|-|
+|Receipt processing |GA|GA|-|
+|Sentiment analysis |GA|GA|-|
+|Text recognition   |GA|GA|-|
+|Text translation   |GA|GA|-|
+
+### US Government feature limitations
+
+The following features available in the commercial version of AI Builder are not available to US Government customers.
+
+- 30-day user trials
+- AI model copy across cloud boundaries (for example between Public and GCC or between GCC and GCC High)
+
+For more information about other limitations of Power Platform US Government, see these topics: 
 
 - [Power Apps US Government feature limitations](/power-platform/admin/powerapps-us-government#power-apps-us-government-feature-limitations)
 - [Power Automate US Government feature limitations](/power-automate/us-govt#power-automate-us-government-feature-limitations)
+
 ### Related content
 
 [AI model types](model-types.md)
