@@ -28,7 +28,7 @@ You can try out the key phrase extraction model before you import it into your f
 
 ### Use the formula bar
 
-You can integrate your AI Builder key phrase extraction model in Power Apps Studio by using the formula bar. More information: [Use formulas for text AI models](use-model.md#use-formulas-for-text-ai-models)
+You can integrate your AI Builder key phrase extraction model in Power Apps Studio by using the formula bar. For more information, see [Use formulas for text AI models](formula-bar.md#key-phrase-extraction).
 
 ## Use in Power Automate
 

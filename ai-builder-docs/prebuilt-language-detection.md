@@ -18,7 +18,7 @@ The language detection prebuilt model identifies the predominant language of a t
 
 ### Use the formula bar
 
-You can integrate your AI Builder language detection model by using the formula bar. More information: [Use formulas for text AI models](use-model.md#use-formulas-for-text-ai-models)
+You can integrate your AI Builder language detection model by using the formula bar. For more information, see [Use formulas for text AI models](formula-bar.md#language-detection).
 
 ## Use in Power Automate
 

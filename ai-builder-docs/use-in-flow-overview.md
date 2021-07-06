@@ -37,7 +37,7 @@ Power Automate is a service that helps you create automated workflows between yo
 
 ## Predict action
 
-You can use the predict action in Power Automate with many different model types: [Use the predict action in Power Automate](predict-action-pwr-automate.md)
+You can use the predict action in Power Automate with many different model types. For more information, see [Use the predict action in Power Automate](predict-action-pwr-automate.md).
 
 ### Next step
 
