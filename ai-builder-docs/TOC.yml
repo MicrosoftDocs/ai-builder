@@ -229,7 +229,7 @@
   - name: Consumption report
     href: administer-consumption-report.md
     displayName: Usage report
-  - name: Security
+  - name: Roles and security
     href: security.md
   - name: Feature availability by region
     href: availability-region.md
