@@ -6,7 +6,7 @@ author: paulnog
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: intro-internal
-ms.date: 12/18/2020
+ms.date: 07/12/2021
 ms.author: paulnog
 ms.reviewer: v-aangie
 ---
@@ -58,6 +58,12 @@ For information about license capacity, pricing, and restrictions:
 - [Find the right Power Apps plan for your business needs](https://powerapps.microsoft.com/pricing/).
 - [Power Automate pricing](https://flow.microsoft.com/pricing/)
 - [AI Builder licensing](administer-licensing.md)
+
+## For administrators
+
+- If you are an administrator and want information on model and environments, go to [Administer AI Builder](administer.md).
+
+- For information on security for administrators, go to [Roles and security in AI Builder](security.md).
 
 ### Next step
 
