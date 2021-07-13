@@ -130,8 +130,9 @@ Connectors can be listed in three (3) categories: *Business*, *Non-business*, an
 
 - Business and Non-business connectors can’t share data within the same consumption experience in the Power Platform.
 
-  - For example, if you add the Dataverse connector in *Business* category, and Microsoft Outlook in the "Non-business* category, you won’t be able to create a Power Automate flow that gets the output of an AI Builder model and send it to a recipient in Outlook.
-•	Blocked connectors can’t be used in Power Platform consumption experiences.
+  - For example, if you add the Dataverse connector in *Business* category, and Microsoft Outlook in the *Non-business* category, you won’t be able to create a Power Automate flow that gets the output of an AI Builder model and send it to a recipient in Outlook.
+
+- Blocked connectors can’t be used in Power Platform consumption experiences.
 
 To learn more, go to [Data loss prevention policies](/power-platform/admin/wp-data-loss-prevention).
 
