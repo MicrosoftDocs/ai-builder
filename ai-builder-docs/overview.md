@@ -45,13 +45,13 @@ Getting started with AI Builder is easy thanks to the learning resources and inf
 
  > [!IMPORTANT]
  >
- > - Some features in AI Builder haven't been released yet for general availability (GA) and remain in preview status. See [Release status](#release-status) later in this topic for more information.
+ > - Some features in AI Builder haven't been released yet for general availability (GA) and remain in preview status. For more information, go to [Release status](#release-status) later in this topic.
  > - [!INCLUDE[cc_preview_features_definition](./includes/cc-preview-features-definition.md)]
  > - Administrators can control preview feature availability for their environment by using the Power Platform admin center. More information: [Enable or disable AI Builder preview features](administer.md#enable-or-disable-ai-builder-preview-features)
 
 AI Builder was released for public preview on June 10, 2019. Over time, most features have been released for general availability (GA). As new features are added, they may remain as preview features until they are ready for GA release.
 
-Because of technical dependencies, some features are released differently in various locations. For a breakdown of the release status of AI Builder features and model types for your region, see [Feature availability by region](availability-region.md).
+Because of technical dependencies, some features are released differently in various locations. For a breakdown of the release status of AI Builder features and model types for your region, go to [Feature availability by region](availability-region.md).
 
 For information about license capacity, pricing, and restrictions:
 

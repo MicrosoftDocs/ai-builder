@@ -48,7 +48,7 @@ After restore and copy operations, form processing and object detection models m
 
 Microsoft Dataverse has backup and restore capabilities to help protect your apps' data, providing continuous availability of service. System administrators and delegated admin users can use the standard capabilities described in [Back up and restore environments](/power-platform/admin/backup-restore-environments).
 
-- Backup and restore is fully supported for prediction, object detection, form processing, and prebuilt models.
+- Backup and restore are fully supported for prediction, object detection, form processing, and prebuilt models.
 
   >[!NOTE]
   >For object detection and form processing models, the restore process might take some time to be completed. The AI Builder models list shows an "importing" status message while the restore operation is in progress.
@@ -74,17 +74,17 @@ By default, the credits are unallocated and available as a pool on the tenant. T
 > [!NOTE]
 > This is how administrators stay in control of *where* AI is used in their organization, and with the role assignments described in [Roles and security in AI Builder](security.md#roles), *who* is using it.
 
- As an administrator, you'll assess which environments must consume AI Builder credits. Using the [AI Builder calculator](https://powerapps.microsoft.com/ai-builder-calculator/), you can define how many predictions will happen in a monthly period on each one and so the credits to allocate.
+ As an administrator, you'll assess which environments must consume AI Builder credits. Use the [AI Builder calculator](https://powerapps.microsoft.com/ai-builder-calculator/) to define how many predictions will happen in a monthly period on each one and assess the credits to allocate.
 
 To learn how to allocate credits in the Power Platform admin center, go to [Allocate or change capacity in an environment](/power-platform/admin/capacity-add-on#allocate-or-change-capacity-in-an-environment).
 
 ### Monitor usage
 
-As an administrator, you have access to a consumption report that provides the AI credits consumption on a chosen period per environment. This will allow you to fine tune the credits allocation which can be updated any time.
+As an administrator, you have access to a consumption report that provides the AI credits consumption on a chosen period per environment. This will allow you to fine-tune the credits allocation, which can be updated anytime.
 
 To learn how to download reports, go to [Allocate or change capacity in an environment](/power-platform/admin/capacity-add-on#allocate-or-change-capacity-in-an-environment).
 
-## Where and how are data are stored in Dataverse?
+## Where and how are data stored in Dataverse?
 
 Your AI model is deployed in the region that hosts the environment. For example, if your environment is created in the Europe region, your model is deployed in datacenters in Europe. For more information, go to [Environments overview](/power-platform/admin/environments-overview).
 

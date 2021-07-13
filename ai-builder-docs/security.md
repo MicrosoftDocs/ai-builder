@@ -56,7 +56,7 @@ By default, a model is only accessible by the owner of the model, so it must be 
 
 1. Select **Share** in the top left corner.
 
-The following table shows the AI Builder system tables, which are installed by default on every new environment. They are used to store the model configuration and training data. Each table shows the Dataverse privilege applied by AI Builder, including when a user shares a model.
+The following table shows the AI Builder system tables, which are installed by default on every new environment. They're used to store the model configuration and training data. Each table shows the Dataverse privilege applied by AI Builder, including when a user shares a model.
 
   ![Tables and Dataverse privileges](media/security-tables.png "Tables and Dataverse privileges")
 
