@@ -39,7 +39,9 @@ Some Microsoft products include some AI Builder capacity. Your environment admin
 
 ### Allocate capacity
 
-Once entitled to AI Builder capacity, an environment administrator has to allocate capacity for AI Builder to the environment before you can use it. Information about how to allocate capacity in the Power Platform admin center is available in [Capacity add-ons](/power-platform/admin/capacity-add-on).
+Once entitled to AI Builder capacity, an environment administrator has to allocate capacity for AI Builder to the environment before you can use it.
+
+For information about how to allocate capacity in the Power Platform admin center, go to [Capacity add-ons](/power-platform/admin/capacity-add-on). For information on how to allocate credits, go to [Manage capacity](administer.md#manage-capacity).
 
 ## Trial licenses
 
