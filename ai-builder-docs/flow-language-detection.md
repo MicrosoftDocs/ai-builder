@@ -27,12 +27,12 @@ ms.reviewer: v-aangie
 1. Select the **Text** input, and then select **My Text** from the **Dynamic content** list:
 
     > [!div class="mx-imgBorder"]
-    > ![Trigger text flow](media/trigger-text-flow-2.png "Manually trigger a flow screens")
+    > ![Trigger text flow.](media/trigger-text-flow-2.png "Manually trigger a flow screens")
 
 1. In the successive actions, you can use any columns extracted by the AI Builder model. For example, you can add lines to an Excel file using **Language** and **Confidence score**:
 
     > [!div class="mx-imgBorder"]
-    > ![Example](media/text-flow-example-2.png "Example")
+    > ![Example.](media/text-flow-example-2.png "Example")
 
 Congratulations! You've created a flow that uses a language detection model. Select **Save** on the top right and then select **Test** to try out your flow.
 

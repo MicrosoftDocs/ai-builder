@@ -51,7 +51,7 @@ If you perform too many executions in a short timeframe on a given model you mig
 If this error occurs, decrease the concurrency level of your flow. For example, if your flow is triggered by the action "When a file is created in a folder" when using the SharePoint trigger, you can reduce the degree of parallelism in the action settings.
 
    > [!div class="mx-imgBorder"]
-   > ![Reduce parallelism in a Power Automate action](media/too-many-requests-error-in-power-automate.gif "Reduce parallelism in a Power Automate action")
+   > ![Reduce parallelism in a Power Automate action.](media/too-many-requests-error-in-power-automate.gif "Reduce parallelism in a Power Automate action")
    
 ## Dependency Timeout error when using a form processing model in Power Automate
 

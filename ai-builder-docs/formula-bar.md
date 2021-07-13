@@ -44,7 +44,7 @@ To enable or disable this feature (for example, for data loss prevention), see *
 If you want, you can select the **Label** control, enter **AIBuilder**, and try out the various AI models, using **TextInput1** as the text.
 
 > [!div class="mx-imgBorder"]
-> ![Available formulas](media/formula-menu.png "Available formulas")
+> ![Available formulas.](media/formula-menu.png "Available formulas")
 
 ## Sentiment analysis
 
@@ -93,7 +93,7 @@ AIBuilder.ExtractTextEntities("Let’s meet at the Central Park tomorrow 10am.")
 <br/>
 
 > [!div class="mx-imgBorder"]
-> ![Entity extraction formula](media/formula-entities.png "Entity extraction formula")
+> ![Entity extraction formula.](media/formula-entities.png "Entity extraction formula")
 
 ### Input/output variations
 
@@ -101,14 +101,14 @@ AIBuilder.ExtractTextEntities("Let’s meet at the Central Park tomorrow 10am.")
 
   |Input  |Output  |
   |---------|:---------:|
-  | AIBuilder.ExtractTextEntities("Let’s meet at the Central Park tomorrow 10am.", {modelId:GUID("")}).entities  | ![Entity extraction table](media/entity-box.png "Entity extraction table")     |
-  | Concat(AIBuilder.ExtractTextEntities("Let’s meet at the Central Park tomorrow 10am.", {modelId:GUID("")}).entities, value & "," & type & ";")  |  ![Entity extraction English text](media/entity-text.png "Entity extraction English text")  |
+  | AIBuilder.ExtractTextEntities("Let’s meet at the Central Park tomorrow 10am.", {modelId:GUID("")}).entities  | ![Entity extraction table.](media/entity-box.png "Entity extraction table")     |
+  | Concat(AIBuilder.ExtractTextEntities("Let’s meet at the Central Park tomorrow 10am.", {modelId:GUID("")}).entities, value & "," & type & ";")  |  ![Entity extraction English text.](media/entity-text.png "Entity extraction English text")  |
 
 - This formula uses specific language to interpret the text and return all types of entities into a list. In the **Input** column, "es-ES" is the language code of Spanish. For a complete list of language code in IETF, see [BCP-47 format](/openspecs/office_standards/ms-oe376/6c085406-a698-4e12-9d4d-c3b0ee3dbc4a):<!-- Angie: Update link? -->
 
   |Input  |Output  |
   |---------|:---------:|
-  | Concat(AIBuilder.ExtractTextEntities("Nos vemos en el Central Park mañana a las 10 a. M.", {language:"es-ES"}).entities, value & "," & type & ";") | ![Entity extraction Spanish text](media/entity-spanish.png "Entity extraction Spanish text")  |
+  | Concat(AIBuilder.ExtractTextEntities("Nos vemos en el Central Park mañana a las 10 a. M.", {language:"es-ES"}).entities, value & "," & type & ";") | ![Entity extraction Spanish text.](media/entity-spanish.png "Entity extraction Spanish text")  |
 
 ## Key phrase extraction
 
@@ -133,7 +133,7 @@ This formula uses specific language and extracts all key phrases from the text i
 
 |Input  |Output  |
 |---------|---------|
-| Concat(AIBuilder.ExtractKeyPhrases("I want to refinance my car loan this year to reduce cost", {language:"en-US"}).phrases, phrase & ",")   | ![Key phrase formula](media/key-phrase.png "Key phrase formula")    |
+| Concat(AIBuilder.ExtractKeyPhrases("I want to refinance my car loan this year to reduce cost", {language:"en-US"}).phrases, phrase & ",")   | ![Key phrase formula.](media/key-phrase.png "Key phrase formula")    |
 
 ## Language detection
 
@@ -165,14 +165,14 @@ AIBuilder.DetectLanguage("I love Power Apps.").language
 
   |Input  |Output  |
   |---------|---------|
-  |AIBuilder.DetectLanguage(TextInput1.Text,{countryHint:"DK"}).language<br/><br/>In this example, country **DK** refers to the ISO-3166 country code for Denmark.   | ![Country is Denmark](media/language-da.png "Country is Denmark")        |
-  |If you provide **hvordan har du det** in **textinput1**, it returns **da** which is the<br/>language code for Danish. Without country code provided it would return **no**,<br/>which is the language code for Norwegian where this text is also valid.     | ![Language is Danish](media/language-no.png "Language is Danish")       |
+  |AIBuilder.DetectLanguage(TextInput1.Text,{countryHint:"DK"}).language<br/><br/>In this example, country **DK** refers to the ISO-3166 country code for Denmark.   | ![Country is Denmark.](media/language-da.png "Country is Denmark")        |
+  |If you provide **hvordan har du det** in **textinput1**, it returns **da** which is the<br/>language code for Danish. Without country code provided it would return **no**,<br/>which is the language code for Norwegian where this text is also valid.     | ![Language is Danish.](media/language-no.png "Language is Danish")       |
 
 - This formula returns the confidence score of the detected language. This returns a number in the range of 0 to 1. The greater the value, the higher the confidence is in the predictions made by the AI model:
 
   |Input  |Output  |
   |---------|---------|
-  | AIBuilder.DetectLanguage(TextInput1.Text).score | ![Language confidence score](media/language-score.png "Language confidence score")   |
+  | AIBuilder.DetectLanguage(TextInput1.Text).score | ![Language confidence score.](media/language-score.png "Language confidence score")   |
 
 ## Category classification
 
@@ -198,13 +198,13 @@ Concat(AIBuilder.CategorizeText("I want to refinance my car loan this year to re
 
   |Input  |Output  |
   |---------|---------|
-    | Concat(AIBuilder.CategorizeText("I want to refinance my car loan this year to reduce cost", {modelId:GUID("")}).categories, type & ",")   | ![Category classification formula](media/category-class-formula.png "Category classification formula")      |
+    | Concat(AIBuilder.CategorizeText("I want to refinance my car loan this year to reduce cost", {modelId:GUID("")}).categories, type & ",")   | ![Category classification formula.](media/category-class-formula.png "Category classification formula")      |
 
 - This formula uses English (United States) as the language for interpretation to return all categories that belong to the text, in list form:
 
   |Input  |Output  |
   |---------|---------|
-  | Concat(AIBuilder.CategorizeText("I want to refinance my car loan this year to reduce cost", {modelId:GUID(""), language:"en-US"}).categories, type & ",")  | ![Category classification with language formula](media/category-class-english.png "Category classification with language formula") |
+  | Concat(AIBuilder.CategorizeText("I want to refinance my car loan this year to reduce cost", {modelId:GUID(""), language:"en-US"}).categories, type & ",")  | ![Category classification with language formula.](media/category-class-english.png "Category classification with language formula") |
 
 ### See also
 

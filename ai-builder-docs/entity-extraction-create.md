@@ -36,7 +36,7 @@ To upload your data:
    Here's an example of a selected table and column:
 
     > [!div class="mx-imgBorder"]
-    > ![Add data](media/add-data.png "Add data")
+    > ![Add data.](media/add-data.png "Add data")
 
 ## Review and refine entities 
 

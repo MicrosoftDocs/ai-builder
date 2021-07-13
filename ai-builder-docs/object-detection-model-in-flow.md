@@ -30,7 +30,7 @@ ms.reviewer: v-aangie
 1. In the **Image** input, select **My Image** from the **Dynamic content** list:
 
     > [!div class="mx-imgBorder"]
-    > ![Specify my image](media/flow-my-image-2.png "Specify my image")
+    > ![Specify my image.](media/flow-my-image-2.png "Specify my image")
 
 1. To retrieve the name of the detected object or objects on the image:
    1. Select **New step**.
@@ -44,7 +44,7 @@ Congratulations! You've created a flow that uses an object detection AI Builder 
 The following example shows the creation of a flow that is triggered by an image. This flow counts the number of green tea bottles in the image.
 
 > [!div class="mx-imgBorder"]
-> ![Green tea object detection flow example](media/green-tea-example-2.png "Example of an object detection flow")
+> ![Green tea object detection flow example.](media/green-tea-example-2.png "Example of an object detection flow")
 
 To learn more about the triggers and actions you can use, see the [Power Automate documentation](/flow/getting-started).
 

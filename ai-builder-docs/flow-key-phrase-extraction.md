@@ -29,12 +29,12 @@ ms.reviewer: v-aangie
 1. In the **Text** input, select **My Text** from the **Dynamic content** list:
 
     > [!div class="mx-imgBorder"]
-    > ![Specify my text](media/flow-kpe.png "Specify my text")
+    > ![Specify my text.](media/flow-kpe.png "Specify my text")
 
 1. In the successive actions, you can use any columns extracted by the AI Builder model. For example, you can create a Microsoft Dataverse row for each **Key phrase**:
 
     > [!div class="mx-imgBorder"]
-    > ![Add key phrases screen](media/flow-add-phrase-2.png "Add key phrases in Dataverse")
+    > ![Add key phrases screen.](media/flow-add-phrase-2.png "Add key phrases in Dataverse")
 
 ## Parameters
 
