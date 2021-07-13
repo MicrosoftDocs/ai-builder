@@ -28,14 +28,14 @@ ms.reviewer: v-aangie
 1. Select the category classification model you want to use, and in the **Text** column add **My Text** from the trigger.
 
     > [!div class="mx-imgBorder"]
-    > ![Select model content](media/flow-ccc-overview.png "Select model content")
+    > ![Select model content.](media/flow-ccc-overview.png "Select model content")
 
 1. In the successive actions, use any columns and tables extracted by the AI Builder model.
 
 The following example saves each inferred **Classification** and **Confidence score** into a SharePoint list.
 
 > [!div class="mx-imgBorder"]
-> ![Category classification flow example](media/flow-ccc-example.png "Category classification flow example")
+> ![Category classification flow example.](media/flow-ccc-example.png "Category classification flow example")
 
 Congratulations! You've created a flow that uses an AI Builder category classification model. Select **Save** on the top right, and then select **Test** to try out your flow.
 

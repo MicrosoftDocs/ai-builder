@@ -123,7 +123,7 @@ In this example, we have trained a custom form processing model to extract a ‘
 The flow is triggered when a new invoice is added to a SharePoint folder. It then calls the invoice processing prebuilt AI model to extract its data. Next, we check if the vendor for the invoice that has been processed is either from ‘Adatum’ or ‘Contoso’. If it’s the case, we then call a custom form processing model that we’ve trained to get that loyalty number. Finally, we save the extracted data from the invoice in an Excel file.
 
    > [!div class="mx-imgBorder"]
-   > ![Invoice and form processing flow](media/invoice-and-form-process-flow.png "Create a flow that uses a form processing model")
+   > ![Invoice and form processing flow.](media/invoice-and-form-process-flow.png "Create a flow that uses a form processing model")
 
 ### Use a custom form processing model if the confidence score for a field returned by the invoice processing prebuilt model is low
 
@@ -132,7 +132,7 @@ In this example, we have trained a custom form processing model to extract the t
 The flow is triggered when a new invoice is added to a SharePoint folder. It then calls the invoice processing prebuilt AI model to extract its data. Next, we check if the confidence score for the 'Invoice total value' property is less than 0.65. If it’s the case, we then call a custom form processing model that we’ve trained with invoices where we usually get a low confidence score for the total field. Finally, we save the extracted data from the invoice into an Excel file.
 
    > [!div class="mx-imgBorder"]
-   > ![Invoice and form processing flow for low scores](media/invoice-and-form-process-flow2.png "Create a flow that uses a form processing model for low scores")
+   > ![Invoice and form processing flow for low scores.](media/invoice-and-form-process-flow2.png "Create a flow that uses a form processing model for low scores")
  
 ### Use the invoice processing prebuilt model to handle invoices that a custom form processing model hasn’t been trained to handle
 
@@ -141,7 +141,7 @@ One way to use the invoice processing prebuilt model is to use it as a fallback 
 This flow is triggered when a new invoice is added to a SharePoint folder. It then calls a custom form processing model to extract its data. Next, we check if the confidence score for the detected collection is less than 0.65. If it’s the case, it probably means the provided invoice is not a good match for the custom model, so we then call the prebuilt invoice processing model. Finally we save the extracted data from the invoice in an Excel file.
 
    > [!div class="mx-imgBorder"]
-   > ![Invoice and form processing flow for new invoices](media/invoice-and-form-process-flow3.png "Create a flow that uses a form processing model for new invoices")
+   > ![Invoice and form processing flow for new invoices.](media/invoice-and-form-process-flow3.png "Create a flow that uses a form processing model for new invoices")
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

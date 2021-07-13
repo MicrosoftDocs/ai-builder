@@ -72,11 +72,11 @@ To change the ownership of a model:
 2. Select the environment where the model you want to change ownership is located and select **Settings** > **Resources** > **All legacy settings**.
 3. Select **Advanced Find** on the top right corner.
     > [!div class="mx-imgBorder"]
-    > ![Advanced Find](media/change-model-ownership-advanced-find.png "Advanced Find")
+    > ![Advanced Find.](media/change-model-ownership-advanced-find.png "Advanced Find")
     
 4.	From the **Look for** list, select **AI Models**, and then select **Results**.
     > [!div class="mx-imgBorder"]
-    > ![List AI Models](media/change-model-ownership-settings.png "List AI Models")
+    > ![List AI Models.](media/change-model-ownership-settings.png "List AI Models")
 
 5. You will get a list of all the AI models in the environment. Select the one you wish to reassign and click on **Assing AI Models**. A window will open where you can change the owner of the model.
 

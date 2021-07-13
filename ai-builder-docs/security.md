@@ -23,7 +23,7 @@ Some privileges are set by default in Dataverse. This allows built-in security r
 These security roles have privileges to the AI Builder tables in Dataverse. Custom security roles can create AI models if they have the same access to the AI Builder tables as the Environment Maker role.
 
 > [!div class="mx-imgBorder"]
-> ![Security roles screen](media/security-roles-screen.png "Security roles screen")
+> ![Security roles screen.](media/security-roles-screen.png "Security roles screen")
 
 Scenarios such as object detection, category classification, and prediction need read access to Dataverse tables. Make sure Environment Makers have access to them. They need those tables for objects to detect, tagged text, and input data.
 

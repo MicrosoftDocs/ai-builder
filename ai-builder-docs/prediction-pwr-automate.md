@@ -28,7 +28,7 @@ ms.reviewer: v-aangie
 1. If you want to add any steps to prepare your data, select **Next step**.
 
     > [!div class="mx-imgBorder"]
-    > ![Configure the trigger](media/predict-configure-trigger.png "Configure the trigger")
+    > ![Configure the trigger.](media/predict-configure-trigger.png "Configure the trigger")
 
 1. Select **Next step**, enter **predict** in the search bar, and select **Predict** in the **Actions** list.
 

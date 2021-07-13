@@ -31,11 +31,11 @@ ms.reviewer: v-aangie
 1. In the **Text** input, select **The plain text content** from the **Dynamic content** list.
 
    > [!div class="mx-imgBorder"]
-   > ![Choose an action'](media/flow-EE-prebuilt1.png "Specify Text")
+   > ![Choose an action'.](media/flow-EE-prebuilt1.png "Specify Text")
 
 1. In the successive actions, you can use any columns extracted by the AI Builder model. For example, you can send an email using the **Entity type** and **Entity value** columns.
    > [!div class="mx-imgBorder"]
-   > ![Choose an a action'](media/flow-eep-example.png "Send an email")
+   > ![Choose an a action'.](media/flow-eep-example.png "Send an email")
 
 Congratulations! You've created a flow that uses an entity extraction model. Select **Save** on the top right, and then select **Test** to try out your flow.
 

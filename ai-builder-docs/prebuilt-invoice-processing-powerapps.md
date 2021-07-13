@@ -33,7 +33,7 @@ Currently, there is no invoice processing control available for canvas apps in P
 1. Select the **Invoice file** input and then select **Ask in Power Apps** in the **Dynamic content** list.
 
    > [!div class="mx-imgBorder"]
-   > ![Process and save information](media/flow-process-and-save.png "Choose dynamic content")
+   > ![Process and save information.](media/flow-process-and-save.png "Choose dynamic content")
 
 1. Select **+ New step**, search for *respond to a powerapp*, and then select **Respond to a PowerApp or flow** in the **Actions** list.
 
@@ -54,7 +54,7 @@ Currently, there is no invoice processing control available for canvas apps in P
    1. Select the new **Invoice Total** input, and then select **Invoice total (text)** from the **Dynamic content** list.
 
       > [!div class="mx-imgBorder"]
-      > ![Respond to a Power App tile](media/flow-respond-to-power-app.png "Configure the 'Respond to Power App' screen")
+      > ![Respond to a Power App tile.](media/flow-respond-to-power-app.png "Configure the 'Respond to Power App' screen")
 
 1. Save your flow.
 
@@ -72,7 +72,7 @@ Currently, there is no invoice processing control available for canvas apps in P
 
 1. Select the **Action** menu and select **Power Automate**. Choose the flow that we created in the previous steps. If you don’t see the flow, make sure you are on the same Power Platform environment as where you created the flow, you can check the environment on the top right of the page.
    > [!div class="mx-imgBorder"]
-   > ![Action menu](media/canvas-app-action-menu.png "Select the 'Action' menu")
+   > ![Action menu.](media/canvas-app-action-menu.png "Select the 'Action' menu")
 
 1. Enter the following formula on the **OnSelect** event for the **AddMediaButton1** control. This formula tells the app to call the flow we’ve built once a new image is uploaded and saves the results we received from the flow in variables.
 
@@ -85,15 +85,15 @@ Currently, there is no invoice processing control available for canvas apps in P
    > *Set(InvoiceTotal, FlowResults.invoice_total);*
 
    > [!div class="mx-imgBorder"]
-   > ![Formula menu](media/canvas-app-formula.png "Enter the formula")
+   > ![Formula menu.](media/canvas-app-formula.png "Enter the formula")
 
 1. Now let’s add two labels and two text inputs to display the results we will get from the flow. Change the Default property for each text input to take the values from the variables we have defined in the previous step.
    > [!div class="mx-imgBorder"]
-   > ![Add labels and text inputs](media/canvas-app-add-labels.png "Add two labels and two text inputs")
+   > ![Add labels and text inputs.](media/canvas-app-add-labels.png "Add two labels and two text inputs")
 
 1. The app is now ready to run! Select the **Play** icon on the top right to test it.
    > [!div class="mx-imgBorder"]
-   > ![Finished app](media/canvas-app-done.png "Finished app screen")
+   > ![Finished app.](media/canvas-app-done.png "Finished app screen")
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

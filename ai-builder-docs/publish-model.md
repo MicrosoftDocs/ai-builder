@@ -19,7 +19,7 @@ After you successfully train your model, you have to publish it to make it avail
 On the details page, under **Last trained version**, select **Publish**.
 
 > [!div class="mx-imgBorder"]
-> ![Publish model screen](media/publish-model.png "Publish model screen")
+> ![Publish model screen.](media/publish-model.png "Publish model screen")
 
 After you publish your last trained version, it appears as the published version. For certain AI model types, you might need to take additional steps to use your model in Power Apps or Microsoft Dataverse.
 

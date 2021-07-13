@@ -28,12 +28,12 @@ ms.reviewer: v-aangie
 1. Select the entity extraction model you want to use, and in the **Text** column add **My Text** from the trigger.
 
     > [!div class="mx-imgBorder"]
-    > ![Select model content](media/flow-eec-overview.png "Select model content")
+    > ![Select model content.](media/flow-eec-overview.png "Select model content")
 
 1. In the successive actions, you can use any columns and tables extracted by the AI Builder model. The following example saves each inferred **Entity type**, **Entity value** and **Confidence score** into an Excel table.
 
     > [!div class="mx-imgBorder"]
-    > ![Entity extraction flow example](media/flow-eec-example.png "Entity extraction flow example")
+    > ![Entity extraction flow example.](media/flow-eec-example.png "Entity extraction flow example")
 
 Congratulations! You've created a flow that uses an AI Builder entity extraction model. Select **Save** on the top right, and then select **Test** to try out your flow.
 

@@ -29,7 +29,7 @@ ms.reviewer: v-aangie
 1. Select **Show advanced options** and verify that **Detect automatically** is in the **Image type** input.
 
     > [!div class="mx-imgBorder"]
-    > ![Specify my image](media/flow-bcr.png "Specify my image")
+    > ![Specify my image.](media/flow-bcr.png "Specify my image")
 
 Congratulations! You've created a flow that uses the business card reader AI model. Select **Save**, and then select **Test** in the upper-right corner to try out your flow.
 
@@ -40,7 +40,7 @@ The following example shows a new contact being created in Microsoft Dataverse u
 To add the **Add a new row** step, select **+ New step** > **Microsoft Dataverse** > **Add a new row**.
 
    > [!div class="mx-imgBorder"]
-   > !['Create new record' screen](media/flow-business-card-overview-2.png "'Create new record' screen")
+   > !['Create new record' screen.](media/flow-business-card-overview-2.png "'Create new record' screen")
 
 ## Parameters
 

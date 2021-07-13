@@ -28,7 +28,7 @@ You can use dedicated actions for each AI Builder model in Power Automate. Howev
 1. Select **Predict from AI Builder** or **Predict using AI Builder models from Microsoft Dataverse**. Both actions offer the same features.
 
     > [!div class="mx-imgBorder"]
-    > ![Predict action](media/predict-action.png "Predict action")
+    > ![Predict action.](media/predict-action.png "Predict action")
 
 1. In the **Model** input, select a custom model you created or choose a prebuilt model. Here is the list of the prebuilt models available:
    - Business card reader: BusinessCard model
@@ -91,17 +91,17 @@ In this section, we'll explain how to configure the AI Builder predict action fo
     ```
 
     > [!div class="mx-imgBorder"]
-    > ![Predict action with dynamic model ID](media/DynModelId-1.png "Predict action with dynamic model ID")
+    > ![Predict action with dynamic model ID.](media/DynModelId-1.png "Predict action with dynamic model ID")
 
 1. Select **Save** in the upper-right corner, and then select **Test** to try out your flow:
 
     > [!div class="mx-imgBorder"]
-    > ![Test predict action](media/DynModelId-2.png "Test predict action")
+    > ![Test predict action.](media/DynModelId-2.png "Test predict action")
 
 1. In the flow run details, get the model JSON output in the **OUTPUTS** section of the predict action. This output is useful to build downstream actions using values of the model.
 
     > [!div class="mx-imgBorder"]
-    > ![Get output from run results](media/DynModelId-3.png "Get output from run results")
+    > ![Get output from run results.](media/DynModelId-3.png "Get output from run results")
 
 1. Go back to your flow in edit mode. 
 
@@ -112,7 +112,7 @@ In this section, we'll explain how to configure the AI Builder predict action fo
     ```
 
     > [!div class="mx-imgBorder"]
-    > ![Use predict output](media/DynModelId-4.png "Use predict output")
+    > ![Use predict output.](media/DynModelId-4.png "Use predict output")
 
 
 ### Object detection model

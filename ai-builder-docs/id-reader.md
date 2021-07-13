@@ -20,7 +20,7 @@ ms.reviewer: v-aangie
 1. Specify **File Content** as the Identity document file you want to process in your flow:
 
     > [!div class="mx-imgBorder"]
-    > ![Trigger identity document flow](media/flow-identity-docs.png "Trigger identity document flow")
+    > ![Trigger identity document flow.](media/flow-identity-docs.png "Trigger identity document flow")
 
 Congratulations! You've created a flow that uses the ID reader AI model. Select the **Save** button below the input, and then select **Test**  in the upper-right corner to try out your flow and see information extracted from a file.
 
@@ -29,7 +29,7 @@ Congratulations! You've created a flow that uses the ID reader AI model. Select 
 The following example shows how you can set up a flow that sends you an email with extracted information from passports:
 
 > [!div class="mx-imgBorder"]
-> ![Trigger identity document email flow](media/flow-id-reader-email.png "Trigger identity document email flow")
+> ![Trigger identity document email flow.](media/flow-id-reader-email.png "Trigger identity document email flow")
 
 ## See also
 

@@ -53,7 +53,7 @@ Next, import the sample data into the table. In this example, we use the **aib_o
     - **Authentication kind** = *Anonymous*
  
     > [!div class="mx-imgBorder"]
-    > ![Text/CSV connection settings](media/predict-properties.png "Text/CSV connection settings")
+    > ![Text/CSV connection settings.](media/predict-properties.png "Text/CSV connection settings")
 
 1. Select **Next**.
 
@@ -66,7 +66,7 @@ Next, import the sample data into the table. In this example, we use the **aib_o
 1. Select the **Automap** function in the upper-right corner of the **Field-mapping** screen, and then select **Next**.
 
     > [!div class="mx-imgBorder"]
-    > ![Map tables](media/map-tables.png "Map tables")
+    > ![Map tables.](media/map-tables.png "Map tables")
 
 1. On the **Refresh settings** screen, select the **Refresh manually** check box, and then select **Create** to start the import process.
 
@@ -99,7 +99,7 @@ And you're done!
 1. Select **Settings**, and then select **Data Management**.
 
    > [!div class="mx-imgBorder"]
-   > ![Select Data management](media/smpl-settings-data-mgmt.png "Select Data management")
+   > ![Select Data management.](media/smpl-settings-data-mgmt.png "Select Data management")
 
 1. Select **Imports** from the top menu bar.
 
@@ -151,7 +151,7 @@ And you're done!
 In the **Lookup reference** dialog box, make sure that the check box is selected and that the column is **ID**.
 
    > [!div class="mx-imgBorder"]
-   > ![Lookup reference dialog box'](media/lookup-reference.png "Lookup reference dialog box")
+   > ![Lookup reference dialog box'.](media/lookup-reference.png "Lookup reference dialog box")
 
 And you're done! 
 

@@ -19,7 +19,7 @@ If your model performance isn't where you want it to be, for example you're gett
 The more documents you tag, the more AI Builder will learn how to better recognize the fields. To add more documents, edit your form processing model and upload more documents. You will find the option to edit the model on the details page of the model.
 
 > [!div class="mx-imgBorder"]
-> ![AI Builder home page](media/form-processing-edit-model.png "Edit a form processing model")
+> ![AI Builder home page.](media/form-processing-edit-model.png "Edit a form processing model")
 
 ## More tips
 

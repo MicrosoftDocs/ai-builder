@@ -31,7 +31,7 @@ You can use Power Automate templates in Teams that solve a specific business pur
    From there you can search for the AI Builder templates listed in the next section in this article.
 
    > [!div class="mx-imgBorder"]
-   > ![Templates list](media/templates-list.png "Templates list")
+   > ![Templates list.](media/templates-list.png "Templates list")
 
 ## Create a flow from a template
 
@@ -40,7 +40,7 @@ You can use Power Automate templates in Teams that solve a specific business pur
     - If you don't have [Dataverse environment with database](/power-platform/admin/create-environment#create-an-environment-with-a-database), you will see the following dialog. Select **Continue** to add a database. It usually takes a couple of minutes (in some cases it can take more than 1 hour) and has to be done only once.
 
         > [!div class="mx-imgBorder"]
-        > ![No Dataverse list](media/no-dataverse.png "No Dataverse action")
+        > ![No Dataverse list.](media/no-dataverse.png "No Dataverse action")
 
     - If you already have a Dataverse environment with database, you will land on the simplified template experience for Teams. The first screen asks you to validate connections.
 
@@ -50,7 +50,7 @@ You can use Power Automate templates in Teams that solve a specific business pur
    > An AI Builder trial will be started or extended if needed. This action will be performed silently upon selecting **Continue**.
 
    > [!div class="mx-imgBorder"]
-   > ![Start trial](media/start-trial.png "Start trial")
+   > ![Start trial.](media/start-trial.png "Start trial")
 
 1. Enter the parameters required by the template to create the flow.
 
@@ -60,7 +60,7 @@ You can use Power Automate templates in Teams that solve a specific business pur
 1. Once you filled all the parameters, select **Create flow**. After few seconds, your flow will be created and ready to use.
 
    > [!div class="mx-imgBorder"]
-   > ![Create flow](media/create-flow.png "Create flow")
+   > ![Create flow.](media/create-flow.png "Create flow")
 
 Created flows are visible and can be modified from the Power Automate home page. 
 

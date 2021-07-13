@@ -15,7 +15,7 @@ ms.reviewer: kvivek
 In AI Builder, we guide you through each step to create your AI model.
 
 > [!div class="mx-imgBorder"]
-> ![Build a model screen](media/ai-builder-home.png "Build a model screen")
+> ![Build a model screen.](media/ai-builder-home.png "Build a model screen")
 
 ## Prerequisites
 
@@ -27,7 +27,7 @@ AI Builder requires the use of [Microsoft Dataverse](/powerapps/maker/common-dat
 
 Do you want to explore AI Builder by using sample data provided by Microsoft? Enable the **Deploy sample apps and data** setting when you create your environment to add sample data to your environment automatically. You can also [download sample data](samples.md), and then upload it to your environment.
 
-![Deploy samples setting](media/deploy-samples-setting.png "Deploy samples setting")
+![Deploy samples setting.](media/deploy-samples-setting.png "Deploy samples setting")
 
 ## Get started
 

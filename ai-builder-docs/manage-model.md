@@ -15,7 +15,7 @@ ms.reviewer: v-aangie
 Creating the optimal model for your business can be a rather iterative process. Results can vary depending on the configurations you set and the training data you provide. Updating these factors can improve the performance of your model. In some cases, however, performance might be degraded. Each AI model type has a set of guidelines to help you with the process of creating the best model, tailored to your needs.
 
 > [!div class="mx-imgBorder"]
-> ![Manage AI model screen](media/manage-model.png "Manage AI model screen")
+> ![Manage AI model screen.](media/manage-model.png "Manage AI model screen")
 
 ## Evaluate your model
 
@@ -55,7 +55,7 @@ You can have up to two trained versions available at a time: one **Published ver
 When you create a new version, your model is based on the configuration from an existing version—your published version, or your last trained version. If you have both, you have to choose which one you want to create the new version from.
 
 > [!div class="mx-imgBorder"]
-> ![New version menu](media/new-version-menu.png "New version menu")
+> ![New version menu.](media/new-version-menu.png "New version menu")
 
 A new version is created only after you've successfully trained it. If you leave without finishing your changes and training your model, your progress is saved as a draft. Certain actions, such as creating a new version or retraining, might be disabled until you train or discard your draft. You can only have one draft available at a time, so you have to select either **Resume draft** to pick up where you left off or **Discard draft** to get rid of the changes before you can continue.
 
