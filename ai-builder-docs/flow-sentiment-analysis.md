@@ -31,12 +31,12 @@ In this article, we will create a flow that uses the AI Builder sentiment analys
 1. In the **Text** input, select **My Text** from the **Dynamic content** list:
 
     > [!div class="mx-imgBorder"]
-    > ![Manually trigger flow screen](media/flow-sentiment-analysis-12.png "Manually trigger flow screen")
+    > ![Manually trigger flow screen.](media/flow-sentiment-analysis-12.png "Manually trigger flow screen")
 
 1. In the successive actions, you can use any columns extracted by the AI Builder model. For example, you can add lines to an Excel file for each sentence using **Sentence sentiment**, **Probability sentence is positive** and **Probability sentence is negative**:
 
     > [!div class="mx-imgBorder"]
-    > ![Add row in Excel](media/flow-sentiment-analysis-22.png "Add row in Excel")
+    > ![Add row in Excel.](media/flow-sentiment-analysis-22.png "Add row in Excel")
 
 Congratulations! You've created a flow that uses the sentiment analysis model. Select **Save** on the top right, and then select **Test** to try out your flow.
 
@@ -80,13 +80,13 @@ Power Automate provides a template that enables you to analyze incoming Dynamics
 1. Type **Email Messages** in the **Entity Name** input.
 1. Type **Organization** in the **Scope** input.
 
-   > ![When an email message is created](media/sentiment-analysis-template.png "choose settings when an email message is created")
+   > ![When an email message is created.](media/sentiment-analysis-template.png "choose settings when an email message is created")
 
 1. Next, the template shows messages from **draft emails** and **received emails**. You can filter these if you want to perform sentiment analysis only on selected email statuses. For a list of status codes, see [StatusCode choices](/powerapps/developer/data-platform/reference/entities/email#statuscode-choicesoptions).
 1. Select **Add sentiment to CDS Email Entity**, select **Show advanced options**, and then locate the attribute you added in step 1.
 1. Finally, add **Global sentiment** from the **Dynamic content** list.
 
-   > ![Template settings screen](media/sentiment-analysis-template2.png "Dynamic content on the settings screen")
+   > ![Template settings screen.](media/sentiment-analysis-template2.png "Dynamic content on the settings screen")
 
 If you want this column to be visible in your email grid view, follow these steps:
 

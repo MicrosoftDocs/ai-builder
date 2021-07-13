@@ -27,13 +27,13 @@ ms.reviewer: v-aangie
 1. Select the language in the **Language** input and specify the **My Text** column from the trigger in the **Text** input:
 
     > [!div class="mx-imgBorder"]
-    > ![Select model content](media/flow-ccp-overview.png "Select model content")
+    > ![Select model content.](media/flow-ccp-overview.png "Select model content")
 
 1. In the successive actions, you can use any columns and tables extracted by the AI Builder model. The following example, saves each inferred **Classification** and **Confidence score** into a SharePoint list.
 
 
     > [!div class="mx-imgBorder"]
-    > ![Category classification prebuilt flow example](media/flow-ccp-example.png "Category classification prebuilt flow example")
+    > ![Category classification prebuilt flow example.](media/flow-ccp-example.png "Category classification prebuilt flow example")
 
 
 Congratulations! You've created a flow that uses an AI Builder prebuilt category classification model. Select **Save** on the top right and then select **Test** to try out your flow.

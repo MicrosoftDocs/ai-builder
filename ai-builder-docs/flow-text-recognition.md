@@ -27,7 +27,7 @@ ms.reviewer: v-aangie
 1. Select the **Image** input, and then select **My Image** from the **Dynamic content** list:
 
     > [!div class="mx-imgBorder"]
-    > ![Trigger text recognition flow](media/trigger-text-recognition-2.png "Trigger text recognition flow")
+    > ![Trigger text recognition flow.](media/trigger-text-recognition-2.png "Trigger text recognition flow")
 
 1. To process results, select **+New step** > **Control**, and then select **Apply to each**.
 
@@ -36,7 +36,7 @@ ms.reviewer: v-aangie
 1. In the successive actions, you can use any columns extracted by the AI Builder model. For example, you can extract **Text** column to a SharePoint list:
 
     > [!div class="mx-imgBorder"]
-    > ![Text recognition flow example](media/text-flow-example2-2.png "Text recognition flow example")
+    > ![Text recognition flow example.](media/text-flow-example2-2.png "Text recognition flow example")
 
 Congratulations! You've created a flow that uses a text recognition model. You can continue to build on this flow until it suits your needs. Select **Save** on the top right, and then select **Test** to try out your flow. 
 

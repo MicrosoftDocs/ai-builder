@@ -28,12 +28,12 @@ ms.reviewer: v-aangie
 1. Specify **My invoice** from the trigger in the **Invoice file** input.
 
     > [!div class="mx-imgBorder"]
-    > ![Trigger file flow](media/ip-flow-my-invoice.png "Manually trigger a flow screens")
+    > ![Trigger file flow.](media/ip-flow-my-invoice.png "Manually trigger a flow screens")
 
 1. In the successive actions, you can use any of the invoice values from the [model output](#output).
 
     > [!div class="mx-imgBorder"]
-    > ![Flow example](media/ip-flow-example.png "Example flow screens")
+    > ![Flow example.](media/ip-flow-example.png "Example flow screens")
 
 Congratulations! You've created a flow that uses the AI Builder invoice processing model. Select **Save** on the top right, and then select **Test** to try out your flow.
 
@@ -42,7 +42,7 @@ Congratulations! You've created a flow that uses the AI Builder invoice processi
 For large documents, it's possible to specify the page range to process.
 
    > [!div class="mx-imgBorder"]
-   > ![Page range](media/ip-pagerange.png "Page range example")
+   > ![Page range.](media/ip-pagerange.png "Page range example")
 
 You can enter a page value or page range in the **Pages** parameter. Example: 1 or 3-5.
 

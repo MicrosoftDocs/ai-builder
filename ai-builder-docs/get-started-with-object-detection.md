@@ -71,7 +71,7 @@ Now let's move on to the image upload step. The pictures you collected ahead of 
 1. Confirm the images that appear in AI Builder before you upload them. Deselect any image you want to exclude.
 
    > [!div class="mx-imgBorder"]
-   > ![Select images screen](media/select-images.png "Select images screen")
+   > ![Select images screen.](media/select-images.png "Select images screen")
 
 1.  Select **Upload** <*number*> **images**.
 1. When the upload is complete, select **Close**, and then select **Next**.
@@ -86,12 +86,12 @@ This section explains the tagging process that's a key part of object detection.
 1. After you draw a rectangle, you can associate a name to the object from the list of names you already selected.
 
    > [!div class="mx-imgBorder"]
-   > ![Associate name screen](media/tag-image-associate-name.png "Associate name screen")
+   > ![Associate name screen.](media/tag-image-associate-name.png "Associate name screen")
 
 1. Your tag is created when you see it surrounding an object.
 
    > [!div class="mx-imgBorder"]
-   > ![Tag created screen](media/tag-created.png "Tag created screen")
+   > ![Tag created screen.](media/tag-created.png "Tag created screen")
 
 1. Navigate from image to image, and tag at least 15 images per object name to build a model.
 1. After you're done tagging your images, select **Done tagging**. Your data is saved as you create rectangles.

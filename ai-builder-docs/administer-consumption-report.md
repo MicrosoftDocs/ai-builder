@@ -30,28 +30,28 @@ To download and view an Excel file showing your AI credit consumption report:
 1. On the **Summary** tab, select **Download reports** in the **Add-ons** section.
 
     > [!div class="mx-imgBorder"]
-    > ![Power Platform admin center capacity screen](media/ppac-capacity-screen.png "AI Builder credits is located in the 'Add-ons' section")
+    > ![Power Platform admin center capacity screen.](media/ppac-capacity-screen.png "AI Builder credits is located in the 'Add-ons' section")
 
 1. Select **AI Builder** in the **Choose a report** box.
 
 1. Select the target date that you want to get the data for the preceding 30 days, and then select **Submit**.
 
     > [!div class="mx-imgBorder"]
-    > ![Power Platform admin center 'request report' screen](media/ppac-request-report-screen.png "Choose your settings in the 'Request a report' section")
+    > ![Power Platform admin center 'request report' screen.](media/ppac-request-report-screen.png "Choose your settings in the 'Request a report' section")
 
 1. Read the notification message at the top of the screen when the report is ready.
 
 1. Select **download** to download the report as an Excel file.
 
     > [!div class="mx-imgBorder"]
-    > ![Power Platform admin center 'download report' message](media/ppac-download-message.png "Select 'download' in the message")
+    > ![Power Platform admin center 'download report' message.](media/ppac-download-message.png "Select 'download' in the message")
 
 ## Understanding the consumption report
 
 The report shows AI credits consumed by date for each environment.
 
  > [!div class="mx-imgBorder"]
- > ![Consumption report](media/consumption-report.png "Excel file showing your consumption")
+ > ![Consumption report.](media/consumption-report.png "Excel file showing your consumption")
 
 
 - **EnvironmentId** is the identifier visible in your Power Apps or Power Automate URL (e.g., https://make.powerapps.com/environments/%GUID%).

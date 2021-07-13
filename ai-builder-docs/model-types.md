@@ -17,7 +17,7 @@ In AI Builder, you can choose from several model types that are suited to differ
 To build a model by using AI Builder, sign in to [Power Apps](https://make.powerapps.com) and, in the left pane, select **AI Builder** > **Build**. Select the model type that matches what you want to do, and you're ready to get started.
 
 > [!div class="mx-imgBorder"]
-> ![AI Builder home page](media/ai-builder-home.png "AI Builder home page")
+> ![AI Builder home page.](media/ai-builder-home.png "AI Builder home page")
 
 ## Model types
 

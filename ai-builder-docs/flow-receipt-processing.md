@@ -28,12 +28,12 @@ ms.reviewer: v-aangie
 1. Select the **Receipt file** input, and then select **My receipt** from the **Dynamic content** list:
 
     > [!div class="mx-imgBorder"]
-    > ![Trigger file flow](media/rp-flow-my-receipt.png "Manually trigger a flow screens")
+    > ![Trigger file flow.](media/rp-flow-my-receipt.png "Manually trigger a flow screens")
 
 1. In the successive actions, you can use any of the receipt values from the [model output](#output) section below.
 
     > [!div class="mx-imgBorder"]
-    > ![Flow example](media/rp-flow-example.png "Example flow screens")
+    > ![Flow example.](media/rp-flow-example.png "Example flow screens")
 
 >[!NOTE]
 > Receipt values are returned as strings. To manipulate them as numbers, you can use the [float](/azure/logic-apps/workflow-definition-language-functions-reference#float) or [int](/azure/logic-apps/workflow-definition-language-functions-reference#int) conversion functions.
@@ -45,7 +45,7 @@ Congratulations! You've created a flow that uses the AI Builder receipt processi
 For large documents, it's possible to specify the page range to process.
 
    > [!div class="mx-imgBorder"]
-   > ![Page range](media/rp-pagerange.png "Page range example")
+   > ![Page range.](media/rp-pagerange.png "Page range example")
 
 You can enter a page value or page range in the **Pages** parameter. Example: 1 or 3-5.
 

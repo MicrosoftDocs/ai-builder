@@ -37,14 +37,14 @@ Add the business card reader to a contact or lead form by using the form editor,
 4. Select **AI Builder Business Card Control**.
 
 > [!div class="mx-imgBorder"]
-> ![Form editor Add Control screen](media/form-editor-add-control.png "Form editor Add Control screen")
+> ![Form editor Add Control screen.](media/form-editor-add-control.png "Form editor Add Control screen")
 
 ## Configure the business card reader
 
 After you select the platform where the business card reader should appear (web, phone, or tablet), you can bind the component properties that you need.
 
 > [!div class="mx-imgBorder"]
-> ![Form editor binding properties screen](media/form-editor-binding-properties.png "Form editor binding properties screen")
+> ![Form editor binding properties screen.](media/form-editor-binding-properties.png "Form editor binding properties screen")
 
 > [!NOTE]
 > The **Company Name** property can't be bound to a field of type **Lookup.Customer**. The only supported type is **SingleLine.Text**. More information: [Add code components to a column or table in model-driven apps](/powerapps/developer/component-framework/add-custom-controls-to-a-field-or-entity)

@@ -43,35 +43,35 @@ Provide images that are representative of what will be submitted to the model du
 Use images of your objects in front of different backgrounds&mdash;for example, fruit on plates, in hands, and on trees. Photos in context are better than photos in front of neutral backgrounds because they provide more information for the classifier.
 
 > [!div class="mx-imgBorder"]
-> ![Image backgrounds](media/image-background.png "Image backgrounds")
+> ![Image backgrounds.](media/image-background.png "Image backgrounds")
 
 ### Lighting
 
 Use training images that have different lighting, especially if the images used for detection might have different lighting. For example, include images taken with flash, high exposure, and so on. It's also helpful to include images with varied saturation, hue, and brightness. Your device camera probably lets you control these settings.
 
 > [!div class="mx-imgBorder"]
-> ![Image lighting](media/image-lighting.png "Image lighting")
+> ![Image lighting.](media/image-lighting.png "Image lighting")
 
 ### Object size
 
 Provide images in which the objects are of varied sizes, capturing different parts of the object&mdash;for example, a photo of bunches of bananas and a closeup of a single banana. Different sizing helps the model generalize better.
 
 > [!div class="mx-imgBorder"]
-> ![Object sizes](media/image-object-size.png "Object sizes")
+> ![Object sizes.](media/image-object-size.png "Object sizes")
 
 ### Camera angle
 
 Try to provide images taken from different angles. If all your photos are from a set of fixed cameras such as surveillance cameras, assign a different label to each camera. This can help avoid modeling unrelated objects such as lampposts as the key feature. Assign camera labels even if the cameras capture the same objects.
 
 > [!div class="mx-imgBorder"]
-> ![Camera angles](media/image-camera-angle.png "Camera angles")
+> ![Camera angles.](media/image-camera-angle.png "Camera angles")
 
 ### Unexpected results
 
 AI models can incorrectly learn characteristics that your images have in common. Let's say you want to create a  model to distinguish apples from citrus. If you use images of apples in hands and of citrus on white plates, the model might train for hands versus white plates instead of apples versus citrus.
 
 > [!div class="mx-imgBorder"]
-> ![Unexpected results](media/image-unexpected-results.png "Unexpected results")
+> ![Unexpected results.](media/image-unexpected-results.png "Unexpected results")
 
 To correct this, use the above guidance on training with more varied images: provide images with different angles, backgrounds, object size, groups, and other variants.
 

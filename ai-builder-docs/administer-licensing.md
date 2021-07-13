@@ -71,7 +71,7 @@ To continue using AI Builder, purchase AI Builder add-on capacity and allocate A
 To renew your AI Builder trial license, sign in to Power Apps or Power Automate, select **AI Builder** > **Build**, and then select **Extend trial** in the banner on the top.
 
 > [!div class="mx-imgBorder"]
-> ![Extend your trial license](media/extend-trial.png "Extend your trial license")
+> ![Extend your trial license.](media/extend-trial.png "Extend your trial license")
 
 ### Trial capacity
 

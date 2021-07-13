@@ -35,13 +35,13 @@ Get started exploring AI Builder category classification by using sample data to
 3. Choose **Select text**, pick the **healthcare_feedback** table, and then select the **text** column.
 
     > [!div class="mx-imgBorder"]
-    > ![Select text](media/text-class-create-text.png "Select text")
+    > ![Select text.](media/text-class-create-text.png "Select text")
 
 1. Choose **Select column**, preview the tagged text, and then select **Next**.
 1. Choose **Select tags** and then select the **tags** column.
 
     > [!div class="mx-imgBorder"]
-    > ![Select tags](media/text-class-create-tags.png "Select tags")
+    > ![Select tags.](media/text-class-create-tags.png "Select tags")
 
 1. Choose **Select column**, verify that the correct separator (comma) is chosen, and then select **Next**.
 1. Review your text and tags, and select **Next**.

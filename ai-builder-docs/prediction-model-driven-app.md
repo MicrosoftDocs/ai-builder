@@ -50,7 +50,7 @@ This topic takes you through the process of creating a model-driven app that can
 1. Select **Play**. Your output should look something like the following image.
 
     > [!div class="mx-imgBorder"]
-    > ![Model-driven app complete screen](media/model-driven-app-scr.png "Model-driven app complete screen")
+    > ![Model-driven app complete screen.](media/model-driven-app-scr.png "Model-driven app complete screen")
 
 Congratulations, you've created your first model-driven app that uses an AI Builder prediction model.
 
