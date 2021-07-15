@@ -56,9 +56,25 @@ By default, a model is only accessible by the owner of the model, so it must be 
 
 1. Select **Share** in the top left corner.
 
-The following table shows the AI Builder system tables, which are installed by default on every new environment. They're used to store the model configuration and training data. Each table shows the Dataverse privilege applied by AI Builder, including when a user shares a model.
+The following table shows the AI Builder system tables, which are installed by default on every new environment. They're used to store the model configuration and training data. Each table shows the Dataverse privilege applied by AI Builder, including when a user shares a model.<br/><br/>
 
-  ![Tables and Dataverse privileges](media/security-tables.png "Tables and Dataverse privileges")
+|Dataverse table  |Contains  |Create<br/> Dataverse privilege  |Use<br/> Dataverse privilege  |
+|---------|---------|:---------:|:---------:|
+|AI Builder Dataset (FP, OD, EE)   |Model’s training configuration         | ![Users have access to the rows they've created](media/circle-no-fill.png "Users have access to the rows they've created")       |         |
+|AI Builder Dataset File (FP, OD)     |Model’s training configuration         | ![Users have access to the rows they've created](media/circle-no-fill.png "Users have access to the rows they've created")        |         |
+|AI Builder Dataset Record (EE)     |Model’s training data         | ![Users have access to the rows they've created](media/circle-no-fill.png "Users have access to the rows they've created")        |         |
+|AI Builder Dataset Container (FP, OD, EE)    |Model’s training configuration         | ![Users have access to the rows they've created](media/circle-no-fill.png "Users have access to the rows they've created")        |         |
+|AI Builder File (FP, OD)    | Model’s training files        | ![Users have access to the rows they've created](media/circle-no-fill.png "Users have access to the rows they've created")        |         |
+|AI Builder File Attached Data (FP, OD)   |Model’s training configuration         | ![Users have access to the rows they've created](media/circle-no-fill.png "Users have access to the rows they've created")        |         |
+|AI Configuration    | Model's versions        | ![Users have access to the rows they've created](media/circle-no-fill.png "Users have access to the rows they've created")        | ![Users have access to the rows they've created](media/circle-no-fill.png "Users have access to the rows they've created")(when shared)        |
+|AI Model   | Model        | ![Users have access to the rows they've created](media/circle-no-fill.png "Users have access to the rows they've created")        | ![Users have access to the rows they've created](media/circle-no-fill.png "Users have access to the rows they've created")(when shared)         |
+|AI Template     | Model type stereotype        | ![Users have access to all the rows of the table](media/circle-fill.png "[Users have access to all the rows of the table")        | ![Users have access to all the rows of the table](media/circle-fill.png "[Users have access to all the rows of the table")        |
+|User defined table to be predicted<br/>(batch P & CC only)     |         | ![Users must be granted access to the subset of rows required for the business](media/circle-dot.png "[Users must be granted access to the subset of rows required for the business")        | ![Users must be granted access to the subset of rows required for the business](media/circle-dot.png "[Users must be granted access to the subset of rows required for the business")        |
+
+![Users have access to the rows they've created](media/circle-no-fill.png "Users have access to the rows they've created") Users have access to the rows they've created<br/>
+![Users must be granted access to the subset of rows required for the business](media/circle-dot.png "[Users must be granted access to the subset of rows required for the business") Users must be granted access to the subset of rows required for the business<br/>
+![Users have access to all the rows of the table](media/circle-fill.png "[Users have access to all the rows of the table") Users have access to all the rows of the table<br/>
+**FP:** form processing **OD:** object detection  **EE:** entity extraction  **P:** prediction  **CC:** category classification<br/><br/>
 
 The training files stored in the AI Builder File table are accessible only by the person who has created the model. The exception is the administrator, who can view and delete any model, related data, and configuration.
 

@@ -5,7 +5,7 @@ author: v-aangie
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 07/12/2021
+ms.date: 07/16/2021
 ms.author: antode
 ms.reviewer: v-aangie
 ---
@@ -63,7 +63,10 @@ AI Builder offers a subscription model allowing you to purchase add-ons.
 
 Only certain actions in the product consume credits. Preview scenarios don't consume credits.
 
-![Consumption model](media/consumption-model.png "Consumption model")
+|AI Builder Studio  |Power Apps  |Power Apps  |
+|---------|---------|---------|
+| Train an Object Detection model.<br/><br/>Perform a **Quick test** on a trained Object Detection and Form Processing model.<br/><br/>Use the **Try it out** of models with custom documents (appearing in the **Get straight to productivity** section).<br/><br/>Batch runs of the prediction and trainable category classification models for each row to be predicted.  | Select...<br/><br/>**Scan a business card** with the Business Card reader.<br/><br/>**Analyze** with the form processor.<br/><br/>**Detect** with the object detector.<br/><br/>**+ New image** with the text recognizer.  |Run a flow using any of the actions inside the **AI Builder** category.<br/><br/>Run the generic action **Perform a bound action** of Dataverse on the entity AI Models and action name **Predict**.   |
+
 
 Each AI Builder model has a different credit consumption mechanism. To perform an assessment, go to the [AI Builder calculator](https://powerapps.microsoft.com/ai-builder-calculator/).
 
