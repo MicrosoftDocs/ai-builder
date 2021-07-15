@@ -38,11 +38,17 @@ Managing new versions of a model often requires going through different environm
 > [!div class="mx-imgBorder"]
 > ![Application lifecycle management](media/app-lifecycle.png "Application lifecycle management")
 
+In AI Builder, all the environments need to be provided with a Microsoft Dataverse database.
+
+Moving models between environments can be done through the solution concept. Solutions are vehicles to move components between Power Platform environments. For more information, go to [Introduction to solutions](/powerapps/developer/data-platform/introduction-solutions/).
+
+For more information on how to distribute an AI model as a solution component, go to [Distribute your AI model](distribute-model.md).
+
 ### Environment lifecycle
 
 AI Builder models are fully moved, along with user data, during environment backup/restore and environment copy operations.
 
-After restore and copy operations, form processing and object detection models may be under the *importing* state. This is due to the backend copy of binary models between Azure storages (which is the same principle as model import).
+After restore and copy operations, form processing and object detection models may be under the *importing* state for a few minutes while copies are made in the backend.
 
 ## Backup and restore
 
@@ -61,12 +67,11 @@ Microsoft Dataverse has backup and restore capabilities to help protect your app
 
 AI Builder offers a subscription model allowing you to purchase add-ons.
 
-Only certain actions in the product consume credits. Preview scenarios don't consume credits.
+Only certain actions in the product consume credits. The following list is non-inclusive and Preview scenarios don't consume credits.
 
 |AI Builder Studio  |Power Apps  |Power Apps  |
 |---------|---------|---------|
 | Train an Object Detection model.<br/><br/>Perform a **Quick test** on a trained Object Detection and Form Processing model.<br/><br/>Use the **Try it out** of models with custom documents (appearing in the **Get straight to productivity** section).<br/><br/>Batch runs of the prediction and trainable category classification models for each row to be predicted.  | Select...<br/><br/>**Scan a business card** with the Business Card reader.<br/><br/>**Analyze** with the form processor.<br/><br/>**Detect** with the object detector.<br/><br/>**+ New image** with the text recognizer.  |Run a flow using any of the actions inside the **AI Builder** category.<br/><br/>Run the generic action **Perform a bound action** of Dataverse on the entity AI Models and action name **Predict**.   |
-
 
 Each AI Builder model has a different credit consumption mechanism. To perform an assessment, go to the [AI Builder calculator](https://powerapps.microsoft.com/ai-builder-calculator/).
 
@@ -83,7 +88,7 @@ To learn how to allocate credits in the Power Platform admin center, go to [Allo
 
 ### Monitor usage
 
-As an administrator, you have access to a consumption report that provides the AI credits consumption on a chosen period per environment. This will allow you to fine-tune the credits allocation, which can be updated anytime.
+As an administrator, you have access to a [consumption report](administer-consumption-report.md) that provides the AI credits consumption on a chosen period per environment. This will allow you to fine-tune the credits allocation, which can be updated anytime.
 
 To learn how to download reports, go to [Allocate or change capacity in an environment](/power-platform/admin/capacity-add-on#allocate-or-change-capacity-in-an-environment).
 
@@ -91,7 +96,7 @@ To learn how to download reports, go to [Allocate or change capacity in an envir
 
 Your AI model is deployed in the region that hosts the environment. For example, if your environment is created in the Europe region, your model is deployed in datacenters in Europe. For more information, go to [Environments overview](/power-platform/admin/environments-overview).
 
-Images used for training purposes in object detection and form processing models are persisted in Dataverse. In contrast, images used at prediction time aren't persisted. Examples of non-persisted images are those in a Power Apps component framework (PCF) control and in Power Automate.
+Images and documents used for training purposes in object detection and form processing models are persisted in Dataverse. In contrast, images and documents used at prediction time aren't persisted. Examples of non-persisted images and documents are those in a Power Apps component framework (PCF) control and in Power Automate.
 
 ## Enable or disable AI Builder preview features
 
@@ -139,11 +144,15 @@ Connectors can be listed in three (3) categories: *Business*, *Non-business*, an
 
 To learn more, go to [Data loss prevention policies](/power-platform/admin/wp-data-loss-prevention).
 
-<!-- Is this putdated? ## Move and copy environments
+## Move and copy environments
 
-- For prediction and prebuilt models, moving and copying environments is fully supported.
+For prediction and prebuilt models, moving and copying environments is fully supported. For other models, after you move or copy an environment, you have to retrain and republish existing models to make them available again.
 
-- For other models, after you move or copy an environment, you have to retrain and republish existing models to make them available again. -->
+### See also
+
+[Roles and security in AI Builder](security.md)<br/>
+[Feature availability by region](availability-region.md)<br/>
+[AI Builder consumption report](administer-consumption-report.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

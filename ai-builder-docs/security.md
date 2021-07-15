@@ -5,7 +5,7 @@ author: v-aangie
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 07/09/2021
+ms.date: 07/16/2021
 ms.author: kvivek
 ms.reviewer: v-aangie
 ---
@@ -54,7 +54,7 @@ By default, a model is only accessible by the owner of the model, so it must be 
 
 1. Find and select the model’s name to access its details page.
 
-1. Select **Share** in the top left corner.
+1. Select **Share** in the top-left corner.
 
 The following table shows the AI Builder system tables, which are installed by default on every new environment. They're used to store the model configuration and training data. Each table shows the Dataverse privilege applied by AI Builder, including when a user shares a model.<br/><br/>
 
@@ -69,11 +69,11 @@ The following table shows the AI Builder system tables, which are installed by d
 |AI Configuration    | Model's versions        | ![Users have access to the rows they've created](media/circle-no-fill.png "Users have access to the rows they've created")        | ![Users have access to the rows they've created](media/circle-no-fill.png "Users have access to the rows they've created")(when shared)        |
 |AI Model   | Model        | ![Users have access to the rows they've created](media/circle-no-fill.png "Users have access to the rows they've created")        | ![Users have access to the rows they've created](media/circle-no-fill.png "Users have access to the rows they've created")(when shared)         |
 |AI Template     | Model type stereotype        | ![Users have access to all the rows of the table](media/circle-fill.png "[Users have access to all the rows of the table")        | ![Users have access to all the rows of the table](media/circle-fill.png "[Users have access to all the rows of the table")        |
-|User defined table to be predicted<br/>(batch P & CC only)     |         | ![Users must be granted access to the subset of rows required for the business](media/circle-dot.png "[Users must be granted access to the subset of rows required for the business")        | ![Users must be granted access to the subset of rows required for the business](media/circle-dot.png "[Users must be granted access to the subset of rows required for the business")        |
+|User-defined table to be predicted<br/>(batch P & CC only)     |         | ![Users must be granted access to the subset of rows required for the business](media/circle-dot.png "[Users must be granted access to the subset of rows required for the business")        | ![Users must be granted access to the subset of rows required for the business](media/circle-dot.png "[Users must be granted access to the subset of rows required for the business")        |
 
-![Users have access to the rows they've created](media/circle-no-fill.png "Users have access to the rows they've created") Users have access to the rows they've created<br/>
-![Users must be granted access to the subset of rows required for the business](media/circle-dot.png "[Users must be granted access to the subset of rows required for the business") Users must be granted access to the subset of rows required for the business<br/>
-![Users have access to all the rows of the table](media/circle-fill.png "[Users have access to all the rows of the table") Users have access to all the rows of the table<br/>
+![Users have access to the rows they've created](media/circle-no-fill.png "Users have access to the rows they've created")Users have access to the rows they've created.<br/>
+![Users must be granted access to the subset of rows required for the business](media/circle-dot.png "[Users must be granted access to the subset of rows required for the business") Users must be granted access to the subset of rows required for the business.<br/>
+![Users have access to all the rows of the table](media/circle-fill.png "[Users have access to all the rows of the table") Users have access to all the rows of the table.<br/>
 **FP:** form processing **OD:** object detection  **EE:** entity extraction  **P:** prediction  **CC:** category classification<br/><br/>
 
 The training files stored in the AI Builder File table are accessible only by the person who has created the model. The exception is the administrator, who can view and delete any model, related data, and configuration.
