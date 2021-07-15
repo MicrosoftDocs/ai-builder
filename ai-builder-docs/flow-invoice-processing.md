@@ -1,12 +1,11 @@
 ---
 title: Use the invoice processing prebuilt model in Power Automate - AI Builder | Microsoft Docs
-description: Provides information about how to invoice processing prebuilt model in Power Automate 
+description: Provides information about how to use the invoice processing prebuilt model in Power Automate 
 author: JoeFernandezMS
-
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/28/2021
+ms.date: 07/16/2021
 ms.author: jofernan
 ms.reviewer: v-aangie
 ---
@@ -47,12 +46,12 @@ For large documents, it's possible to specify the page range to process.
 You can enter a page value or page range in the **Pages** parameter. Example: 1 or 3-5.
 
 >[!NOTE]
-> If you have a large document with only one invoice, we strongly recommend to **use the Pages parameter to aim at your invoice and therefore reduce the cost of model prediction and increase performance**. However, the page range should contain a **unique invoice** for the action to return correct data.
+> If you have a large document with only one invoice, we strongly recommend to **use the Pages parameter to aim at your invoice, and therefore reduce the cost of model prediction and increase performance**. However, the page range should contain a **unique invoice** for the action to return correct data.
 > 
 > Example: A document contains a first invoice in page 2 and a second invoice that spans over pages 3 and 4:
 > - If you enter page range 2, it will return the data of the first invoice.
 > - If you enter page range 3-4, it will only return the data of the second invoice.
-> - If you enter page range 2-4, it will return partial data of first and second invoices (should be avoided).
+> - If you enter page range 2-4, it will return partial data of the first and second invoices (should be avoided).
 
 ## Parameters
 
