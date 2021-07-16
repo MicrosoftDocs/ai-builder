@@ -69,7 +69,7 @@ AI Builder offers a subscription model allowing you to purchase add-ons.
 
 Only certain actions in the product consume credits. The following list is not all-inclusive and preview scenarios don't consume credits.<!-- Edit note: Not sure how to read this table. What is the significance of the two Power Apps columns. -->
 
-|AI Builder Studio  |Power Apps  |Power Apps  |
+|AI Builder Studio  |Power Apps  |Power Automate  |
 |---------|---------|---------|
 | Train an Object Detection model.<br/><br/>Perform a **Quick test** on a trained Object Detection and Form Processing model.<br/><br/>Use the **Try it out** of models with custom documents (appearing in the **Get straight to productivity** section).<br/><br/>Batch runs of the prediction and trainable category classification models for each row to be predicted.  | Select...<br/><br/>**Scan a business card** with the Business Card reader.<br/><br/>**Analyze** with the form processor.<br/><br/>**Detect** with the object detector.<br/><br/>**+ New image** with the text recognizer.  |Run a flow using any of the actions inside the **AI Builder** category.<br/><br/>Run the generic action **Perform a bound action** of Dataverse on the entity AI Models and action name **Predict**.   |
 
