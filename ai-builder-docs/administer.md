@@ -67,7 +67,7 @@ Microsoft Dataverse has backup and restore capabilities to help protect your app
 
 AI Builder offers a subscription model allowing you to purchase add-ons.
 
-Only certain actions in the product consume credits. The following list is not all-inclusive and preview scenarios don't consume credits.<!-- Edit note: Not sure how to read this table. What is the significance of the two Power Apps columns. -->
+Only certain actions in the product consume credits. The following list is not all-inclusive and preview scenarios don't consume credits.
 
 |AI Builder Studio  |Power Apps  |Power Automate  |
 |---------|---------|---------|
