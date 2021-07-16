@@ -5,7 +5,7 @@ author: paulnog
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/09/2021
+ms.date: 07/16/2021
 ms.author: paulnog
 ms.reviewer: v-aangie
 ---
@@ -61,24 +61,29 @@ If you get a **Dependency Timeout error (_408 – DependencyTimeout_)** when exe
 
 If documents or images fail to upload to your form processing or object detection models, it could be because Customer Managed Keys (CMK) is enabled on your tenant. CMK is not currently supported in AI Builder. You have to opt-out of CMK to train form processing or object detection models.  
 
-## The analysis failed for these documents error in Form processing 
+## The analysis failed for these documents error in form processing 
 
-If you get the error message **_“The analysis failed for these documents”_** when you are creating your Form processing model. Make sure that:
+If you get the error message **_“The analysis failed for these documents”_** when you are creating your form processing model. Make sure that:
 * The documents that you have uploaded meet the [following requirements](./form-processing-model-requirements.md).
 * If the documents that you have uploaded are PDFs with multiple pages, split the PDF documents with only the pages you need the model to recognize and upload the reduced documents that have been split instead.
 
-## Fields could not be loaded for this document error in Form processing 
+## Fields could not be loaded for this document error in form processing 
 
 If you get the error message **_“Fields could not be loaded for this document”_** while you are creating your Form processing model, this can be caused by:
 * A temporary error, like poor internet connectivity. You can try again by clicking the **Retry** button.
 * The document you are trying to select fields from is too large. If it’s a PDF with multiple pages, split the PDF documents with only the pages you need the model to recognize and upload the reduced document that has been split instead. If it’s an image, reduce its dimensions and upload it to your model to replace the previous image uploaded. 
 
-## Training failed and the model cannot be used error in Form processing
+## Training failed and the model cannot be used error in form processing
 
 If you get the error message **_“Training failed and the model cannot be used”_** error in form processing after you have trained your form processing model, this can be caused by:
 
 * A temporary error. You can retry by retraining your model again by selecting **Edit model**.
 * The documents that you uploaded for training don’t meet the [Form-processing model requirements](./form-processing-model-requirements.md).
+
+## Pages parameter generates an error when saving a form processing flow
+If you get the error message **_“Flow save failed with code 'WorkflowOperationParametersExtraParameter' and message 'The API operation does not contain a definition for parameter 'item/requestv2/pages'.'”_** when saving a form processing flow with **Pages** parameter specified, it means your model needs to be republished.
+To solve that issue, go to your model's page in AI Builder, unpublish and republish your model.
+
 
 ## "The current environment doesn’t meet the minimum requirements" error message
 

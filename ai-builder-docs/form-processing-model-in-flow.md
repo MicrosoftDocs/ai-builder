@@ -5,7 +5,7 @@ author: JoeFernandezMS
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/05/2021
+ms.date: 07/16/2021
 ms.author: jofernan
 ms.reviewer: v-aangie
 ---
@@ -41,6 +41,24 @@ ms.reviewer: v-aangie
     > [!div class="mx-imgBorder"]
     > ![Form processing flow overview.](media/flow-fp-overview-2.png "Form processing flow overview")
 
+## Page range
+
+For documents that have multiple pages, it's possible to specify the page range to process.
+
+   > [!div class="mx-imgBorder"]
+   > ![Page range](media/fp-pagerange.png "Page range example")
+
+You can enter a page value or page range in the **Pages** parameter. Example: 1 or 3-5.
+
+>[!NOTE]
+> If you have a large document with only one form, we strongly recommend to **use the Pages parameter to aim at your form and therefore reduce the cost of model prediction and increase performance**. However, the page range should contain a **unique form** for the action to return correct data.
+> 
+> Example: A document contains a first form in page 2 and a second form that spans over pages 3 and 4:
+> - If you enter page range 2, it will return the data of the first form.
+> - If you enter page range 3-4, it will only return the data of the second form.
+> - If you enter page range 2-4, it will return partial data of first and second form (should be avoided).
+
+
 ## Parameters
 ### Input
 |Name |Required |Type |Description |Values |
@@ -48,6 +66,7 @@ ms.reviewer: v-aangie
 |**AI Model** |Yes |model |Form processing model to use for analysis|Trained and published form processing models |
 |**Document type** |Yes |list |The file type of the form to analyze|PDF Document (.pdf), JPEG Image (.jpeg), PNG Image (.png) |
 |**Form** |Yes |file |Form to process| |
+|**Pages** |No |string |Page range to process| |
 
 
 ### Output
