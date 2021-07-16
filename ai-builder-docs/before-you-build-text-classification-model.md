@@ -65,13 +65,12 @@ If you don't have training data and want to try AI Builder category classificati
 
 This section provides examples of the training data format in a Dataverse table.
 
-
 |Columns  |Data type  |Size  |
 |---------|---------|---------|
 |Comments     | Text        | 3,000        |
 |Tags     | Text        | 100        |
-<br/>
 
+<br/><br/>
 
 |Comments  |Tags  |
 |---------|---------|
@@ -122,7 +121,7 @@ In the example, the tags are separated by comma (,). As an alternative, you can 
    > [!div class="mx-imgBorder"]
    > ![Upload an Excel file](media/upload-excel.png "Upload an Excel file")
 
-1. Select **Map Columns** and review the field mappings in the **Column mappings for Text Category** screen.
+1. To review the field mappings in the **Column mappings for Text Category** screen, select **Map Columns**.
 
    > [!div class="mx-imgBorder"]
    > ![Review the field mappings](media/map-excel.png "Review the field mappings")
@@ -131,12 +130,12 @@ In the example, the tags are separated by comma (,). As an alternative, you can 
 
     Map the **Tags**, **Text**, and **Id** columns from Excel to the respective columns in the table.
 
-1. Once you have mapped the columns select **Save changes** at the top-right to get back to the import step. 
+1. Once you have mapped the columns, go back to the import step by selecting **Save changes** at the top-right.
 
    > [!div class="mx-imgBorder"]
    > ![Review the field mappings](media/map-columns.png "Review the field mappings")
 
-1. Once you see the **Mapping status** as successful, select **Import** in the upper-right corner to begin import process.
+1. Once you see the **Mapping status** as successful, begin the import process by selecting **Import** in the upper-right corner.
 
    > [!div class="mx-imgBorder"]
    > ![Begin the import process by selecting the Import button](media/select-import.png "Begin the import process by selecting the Import button")
