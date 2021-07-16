@@ -1,6 +1,6 @@
 ---
 title: Administer AI Builder - AI Builder | Microsoft Docs
-description: Provides information for an administrator about AI custom models and environment lifecycle, backup and restore, managing capacity, enabling or disabling the feature, and data loss prevention in AI Builder.
+description: "Provides information for an administrator about AI custom models and environment lifecycle, backup and restore, managing capacity, enabling or disabling the feature, and data loss prevention in AI Builder."
 author: v-aangie
 ms.service: aibuilder
 ms.topic: conceptual
@@ -24,7 +24,7 @@ This section applies to AI Builder custom models. It does not apply to prebuilt 
 
 A model can go through different states depending on the makers’ actions. The model states are stored through configurations within the AI Configuration table.
 
-The states are draft; training (transient); trained; publishing (transient); published; unpublishing (transient); training error; importing (transient), and import error.
+The states are draft, training (transient), trained, publishing (transient), published, unpublishing (transient), training error, importing (transient), and import error.
 
 > [!div class="mx-imgBorder"]
 > ![Lifecycle states of a model](media/model-lifecycle.png "Lifecycle states of a model")
@@ -33,14 +33,14 @@ The states are draft; training (transient); trained; publishing (transient); pub
 
 Makers should be able to continuously update and deploy their models across single or multiple environments.
 
-Managing new versions of a model often requires going through different environments. A typical scenario would be to make model changes in a *development environment*, qualify in a *test environment*, and predict in a *production environment*.
+Managing new versions of a model often requires going through different environments. A typical scenario would be to make model changes in a *development environment*, qualify the model in a *test environment*, and predict in a *production environment*.
 
 > [!div class="mx-imgBorder"]
 > ![Application lifecycle management](media/app-lifecycle.png "Application lifecycle management")
 
 In AI Builder, all the environments need to be provided with a Microsoft Dataverse database.
 
-Moving models between environments can be done through the solution concept. Solutions are vehicles to move components between Power Platform environments. For more information, go to [Introduction to solutions](/powerapps/developer/data-platform/introduction-solutions/).
+Moving models between environments can be done through the solution concept. Solutions are vehicles to move components between Microsoft Power Platform environments. For more information, go to [Introduction to solutions](/powerapps/developer/data-platform/introduction-solutions/).
 
 For more information on how to distribute an AI model as a solution component, go to [Distribute your AI model](distribute-model.md).
 
@@ -48,7 +48,7 @@ For more information on how to distribute an AI model as a solution component, g
 
 AI Builder models are fully moved, along with user data, during environment backup/restore and environment copy operations.
 
-After restore and copy operations, form processing and object detection models may be under the *importing* state for a few minutes while copies are made in the backend.
+After restore and copy operations, form processing and object detection models may be in the importing state for a few minutes while copies are made in the back end.
 
 ## Backup and restore
 
@@ -67,9 +67,9 @@ Microsoft Dataverse has backup and restore capabilities to help protect your app
 
 AI Builder offers a subscription model allowing you to purchase add-ons.
 
-Only certain actions in the product consume credits. The following list is non-inclusive and Preview scenarios don't consume credits.
+Only certain actions in the product consume credits. The following list is not all-inclusive and preview scenarios don't consume credits.
 
-|AI Builder Studio  |Power Apps  |Power Apps  |
+|AI Builder Studio  |Power Apps  |Power Automate  |
 |---------|---------|---------|
 | Train an Object Detection model.<br/><br/>Perform a **Quick test** on a trained Object Detection and Form Processing model.<br/><br/>Use the **Try it out** of models with custom documents (appearing in the **Get straight to productivity** section).<br/><br/>Batch runs of the prediction and trainable category classification models for each row to be predicted.  | Select...<br/><br/>**Scan a business card** with the Business Card reader.<br/><br/>**Analyze** with the form processor.<br/><br/>**Detect** with the object detector.<br/><br/>**+ New image** with the text recognizer.  |Run a flow using any of the actions inside the **AI Builder** category.<br/><br/>Run the generic action **Perform a bound action** of Dataverse on the entity AI Models and action name **Predict**.   |
 
@@ -80,7 +80,7 @@ Each AI Builder model has a different credit consumption mechanism. To perform a
 By default, the credits are unallocated and available as a pool on the tenant. They must be allocated to an environment. If they aren't, users won't be able to consume credits.
 
 > [!NOTE]
-> This is how administrators stay in control of *where* AI is used in their organization, and with the role assignments described in [Roles and security in AI Builder](security.md#roles), *who* is using it.
+> This is how administrators stay in control of *where* AI is used in their organization and, with the role assignments described in [Roles and security in AI Builder](security.md#roles), *who* is using it.
 
  As an administrator, you'll assess which environments must consume AI Builder credits. Use the [AI Builder calculator](https://powerapps.microsoft.com/ai-builder-calculator/) to define how many predictions will happen in a monthly period on each one and assess the credits to allocate.
 
@@ -88,7 +88,7 @@ To learn how to allocate credits in the Power Platform admin center, go to [Allo
 
 ### Monitor usage
 
-As an administrator, you have access to a [consumption report](administer-consumption-report.md) that provides the AI credits consumption on a chosen period per environment. This will allow you to fine-tune the credits allocation, which can be updated anytime.
+As an administrator, you have access to a [consumption report](administer-consumption-report.md) that provides the AI credits consumption on a chosen period per environment. This will allow you to fine-tune the credits allocation, which can be updated at any time.
 
 To learn how to download reports, go to [Allocate or change capacity in an environment](/power-platform/admin/capacity-add-on#allocate-or-change-capacity-in-an-environment).
 
@@ -130,17 +130,17 @@ For more information about enabling or disabling features in the Power Platform 
 
 ## Data loss prevention (DLP)
 
-You can control DLP policies within Power Platform admin center, **Data policies** menu item.
+You can control data loss prevention (DLP) policies within Power Platform admin center, **Data policies** menu item.
 
-Connectors can be listed in three (3) categories: *Business*, *Non-business*, and *blocked*.
+Connectors can be listed in three (3) categories: *Business*, *Non-business*, and *blocked*.<!-- Edit note: Normally would not make these italic but assume it is because one is not capped. -->
 
 - AI Builder is part of the Dataverse connector.
 
-- Business and Non-business connectors can’t share data within the same consumption experience in the Power Platform.
+- Business and Non-business connectors can’t share data within the same consumption experience in Microsoft Power Platform.
 
-  - For example, if you add the Dataverse connector in *Business* category, and Microsoft Outlook in the *Non-business* category, you won’t be able to create a Power Automate flow that gets the output of an AI Builder model and send it to a recipient in Outlook.
+  - For example, if you add the Dataverse connector in the *Business* category, and Microsoft Outlook in the *Non-business* category, you won’t be able to create a Power Automate flow that gets the output of an AI Builder model and sends it to a recipient in Outlook.
 
-- Blocked connectors can’t be used in Power Platform consumption experiences.
+- *Blocked* connectors can’t be used in Power Platform consumption experiences.
 
 To learn more, go to [Data loss prevention policies](/power-platform/admin/wp-data-loss-prevention).
 
