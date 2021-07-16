@@ -1,6 +1,6 @@
 ---
 title: Roles and security in AI Builder - AI Builder | Microsoft Docs
-description: Describes security information related to roles, privileges, and access in AI Builder and the services it connects to. 
+description: "Describes security information related to roles, privileges, and access in AI Builder and the services it connects to." 
 author: v-aangie
 ms.service: aibuilder
 ms.topic: conceptual
@@ -50,13 +50,13 @@ Microsoft Dataverse permissions have been mapped to the Dataverse standard roles
 
 By default, a model is only accessible by the owner of the model, so it must be shared to be used by other users. To share a model:
 
-1. Select **AI Builder** > **Models** in the left panel.
+1. In the left panel, select **AI Builder** > **Models**.
 
 1. Find and select the model’s name to access its details page.
 
 1. Select **Share** in the top-left corner.
 
-The following table shows the AI Builder system tables, which are installed by default on every new environment. They're used to store the model configuration and training data. Each table shows the Dataverse privilege applied by AI Builder, including when a user shares a model.<br/><br/>
+The following table shows the AI Builder system tables, which are installed by default on every new environment. The tables are used to store the model configuration and training data. Each table shows the Dataverse privilege applied by AI Builder, including when a user shares a model. See the legend below the table.<br/><br/>
 
 |Dataverse table  |Contains  |Create<br/> Dataverse privilege  |Use<br/> Dataverse privilege  |
 |---------|---------|:---------:|:---------:|
