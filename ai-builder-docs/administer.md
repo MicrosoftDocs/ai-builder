@@ -16,6 +16,8 @@ Microsoft Power Platform administrators can use the [Power Apps admin center](ht
 
 The availability, which is also known as the release status, of AI Builder is dependent on your region. For a breakdown of AI Builder feature availability by region, go to [Feature availability by region](availability-region.md).
 
+For more information, go to the [AI Builder governance whitepaper](https://www.microsoft.com/en-us/download/details.aspx?id=103317) and select **Download**.
+
 ## AI custom model and environment lifecycle
 
 This section applies to AI Builder custom models. It does not apply to prebuilt models.
@@ -132,7 +134,7 @@ For more information about enabling or disabling features in the Power Platform 
 
 You can control data loss prevention (DLP) policies within Power Platform admin center, **Data policies** menu item.
 
-Connectors can be listed in three (3) categories: *Business*, *Non-business*, and *blocked*.<!-- Edit note: Normally would not make these italic but assume it is because one is not capped. -->
+Connectors can be listed in three (3) categories: *Business*, *Non-business*, and *Blocked*.
 
 - AI Builder is part of the Dataverse connector.
 
@@ -140,7 +142,7 @@ Connectors can be listed in three (3) categories: *Business*, *Non-business*, an
 
   - For example, if you add the Dataverse connector in the *Business* category, and Microsoft Outlook in the *Non-business* category, you won’t be able to create a Power Automate flow that gets the output of an AI Builder model and sends it to a recipient in Outlook.
 
-- *Blocked* connectors can’t be used in Power Platform consumption experiences.
+- Blocked connectors can’t be used in Power Platform consumption experiences.
 
 To learn more, go to [Data loss prevention policies](/power-platform/admin/wp-data-loss-prevention).
 
