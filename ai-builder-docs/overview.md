@@ -6,7 +6,7 @@ author: paulnog
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: intro-internal
-ms.date: 12/18/2020
+ms.date: 07/12/2021
 ms.author: paulnog
 ms.reviewer: v-aangie
 ---
@@ -45,19 +45,25 @@ Getting started with AI Builder is easy thanks to the learning resources and inf
 
  > [!IMPORTANT]
  >
- > - Some features in AI Builder haven't been released yet for general availability (GA) and remain in preview status. See [Release status](#release-status) later in this topic for more information.
+ > - Some features in AI Builder haven't been released yet for general availability (GA) and remain in preview status. For more information, go to [Release status](#release-status) later in this topic.
  > - [!INCLUDE[cc_preview_features_definition](./includes/cc-preview-features-definition.md)]
  > - Administrators can control preview feature availability for their environment by using the Power Platform admin center. More information: [Enable or disable AI Builder preview features](administer.md#enable-or-disable-ai-builder-preview-features)
 
 AI Builder was released for public preview on June 10, 2019. Over time, most features have been released for general availability (GA). As new features are added, they may remain as preview features until they are ready for GA release.
 
-Because of technical dependencies, some features are released differently in various locations. For a breakdown of the release status of AI Builder features and model types for your region, see [Feature availability by region](availability-region.md).
+Because of technical dependencies, some features are released differently in various locations. For a breakdown of the release status of AI Builder features and model types for your region, go to [Feature availability by region](availability-region.md).
 
 For information about license capacity, pricing, and restrictions:
 
 - [Find the right Power Apps plan for your business needs](https://powerapps.microsoft.com/pricing/).
 - [Power Automate pricing](https://flow.microsoft.com/pricing/)
 - [AI Builder licensing](administer-licensing.md)
+
+## For administrators
+
+- If you are an administrator and want information on model and environments, go to [Administer AI Builder](administer.md).
+
+- For information on security for administrators, go to [Roles and security in AI Builder](security.md).
 
 ### Next step
 
