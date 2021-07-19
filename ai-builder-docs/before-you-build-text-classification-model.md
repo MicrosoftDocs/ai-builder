@@ -16,10 +16,22 @@ Before you build your category classification model, make sure your data is in M
 
 ## Prerequisites
 
-- Training data should be in a Dataverse table.
-- Make sure your administrator has assigned you a security role with **Read** privilege to training data.
-- You have appropriate permissions to create tables in your Dataverse environment.
-- AI Builder category classification supports the following languages: English, French, German, Italian, Spanish, and Portuguese. If you try to classify text items in other languages, your model might not work properly.
+- This model requires the training data to be available within a Dataverse table. Support for data from external sources is currently unavailable.
+
+- Make sure your administrator has assigned you a security role with Read privilege for the table that has the training data.
+
+- Make sure you have appropriate permissions to create tables in your Dataverse environment. You could use either the System Customizer or System Administrator [built-in security roles](security.md).
+
+### Supported languages
+
+AI Builder category classification supports the following languages. If you try to classify text in other languages, your model might not work properly.
+
+- English
+- French
+- German
+- Italian
+- Spanish
+- Portuguese  
 
 ## Data preparation
 
@@ -133,7 +145,7 @@ In the example, the tags are separated by comma (,). As an alternative, you can 
 1. Once you have mapped the columns, go back to the import step by selecting **Save changes** at the top-right.
 
    > [!div class="mx-imgBorder"]
-   > ![Review the field mappings](media/map-columns.png "Review the field mappings")
+   > ![Save your changes](media/map-columns.png "SAve your changes")
 
 1. Once you see the **Mapping status** as successful, begin the import process by selecting **Import** in the upper-right corner.
 
