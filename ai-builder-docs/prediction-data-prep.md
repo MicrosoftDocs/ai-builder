@@ -16,16 +16,16 @@ Before you create your prediction model, you'll want to make sure your data is i
 
 ## Create your custom table
 
-Do you have data that you want to import into Dataverse for training in AI Builder? First, you have to create a table. In this example, we'll provide a solution that has predefined custom tables. To use your own data, [create a custom table](/powerapps/maker/common-data-service/data-platform-create-entity) and substitute your own table for the example used here.
+Do you have data that you want to import into Dataverse for training in AI Builder? First, you have to create a table. In this example, we'll provide a solution that has predefined custom tables. To use your own data, [create a custom table](/powerapps/maker/common-data-service/data-platform-create-entity) and use your own table instead of the the example used here.
 
 > [!NOTE]
->For best results, use a dataset that is less than 1.5 GB in size. Otherwise, AI Builder uses only 1.5 GB of your data to train and predict. Since you can’t control which data exceeding the 1.5 GB limit is not used, you should optimize your data to stay under 1.5 GB.
+>For best results, use a dataset that is less than 1.5 GB in size. Otherwise, AI Builder uses only 1.5 GB of your data to train and predict. Since you can’t control which data exceeding the 1.5 GB limit isn't used, you should optimize your data to stay under 1.5 GB.
 
 ## Sample dataset for prediction model
 
 1. Download the AI Builder sample dataset package: [AIBPredictionSample_simpledeploy_v4.21.3.zip](https://microsoft.sharepoint.com/:u:/t/PowerAppsAI/EaBYOtfuvc5OqK4qh1-drvoBD_mCfM4hyLz3zJ0EwDqGjg?e=aI2aue)
 
-1. Ensure the file is not blocked after download. To do this:
+1. Ensure the file isn't blocked after download. To do this:
    1. Locate the downloaded zip file, right-click, and select **Properties**.
    1. Place a check in the **Unblock** checkbox and select **Apply**.
 
@@ -49,7 +49,7 @@ Do you have data that you want to import into Dataverse for training in AI Build
    > [!div class="mx-imgBorder"]
    > ![Login to Package Deployer screen](media/prep-dp-login.png "Login to Package Deployer screen")
 
-1. Enter the credentials that you use to login to the Power Apps maker portal and then select **Next**.
+1. Enter the credentials that you use to log in to the Power Apps maker portal and then select **Next**.
 
    > [!div class="mx-imgBorder"]
    > ![Enter your credentials screen](media/prep-credentials.png "Enter your credentials screen")
@@ -59,7 +59,7 @@ Do you have data that you want to import into Dataverse for training in AI Build
    > [!div class="mx-imgBorder"]
    > ![Install the AI Builder prediction sample dataset screen](media/prep-welcome.png "Install the AI Builder prediction sample dataset screen")
 
-1. In the **Ready to Intall** screen, make sure you're installing the solution in the correct environment and then select **Next**.
+1. In the **Ready to Install** screen, make sure you're installing the solution in the correct environment and then select **Next**.
 
    > [!div class="mx-imgBorder"]
    > ![Screen showing the solution package to be installed and organization name](media/prep-install.png "Ssreen showing the solution package to be installed and organization name")
@@ -76,7 +76,7 @@ Do you have data that you want to import into Dataverse for training in AI Build
    > [!div class="mx-imgBorder"]
    > ![Installation complete screen](media/prep-finish.png "Installation complete screen")
 
-## How you can use the solutions you just installed
+## How you can use the solutions you installed
 
 The sample dataset installs two (2) solutions in your environment. It also installs sample data for the included entities:
 

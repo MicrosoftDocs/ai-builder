@@ -53,9 +53,9 @@ The training data used to train the model from the Dataverse table should confor
 
 - In the previous example, there should be minimum 10 rows each that have been tagged with the **Dining** and **Room** tags. 
 
-- If **Room** has been tagged to fewer than 10 rows in the data, it'll be ignored. The model will not be trained to categorize data for that tag.
+- If **Room** has been tagged to fewer than 10 rows in the data, it will be ignored. The model won't be trained to categorize data for that tag.
 
-- For every tag there should be a minimum of 10 text samples where they have not been used.
+- For every tag, there should be a minimum of 10 text samples where they haven't been used.
 
   |Text  |Tags  |
   |---------|---------|
@@ -86,7 +86,7 @@ This section provides examples of the training data format in a Dataverse table.
 
 |Comments  |Tags  |
 |---------|---------|
-|During my stay I was completely ignored. The staff failed to pick up on me<br/>aspirating and having a UTI. I also had pneumonia.      |  Care       |
+|During my stay, I was completely ignored. The staff failed to pick up on me<br/>aspirating and having a UTI. I also had pneumonia.      |  Care       |
 |I was seen very soon after arriving each time and all the staff, nurse, doctor,<br/>and anesthetist were very helpful. There seems to be a good sense of teamwork.     | Staff, Check-in        |
 |The equipment seemed up to date. The nurse/healthcare assistant seemed<br/>quite caring.     | Facilities, Staff         |
 
@@ -129,7 +129,6 @@ In the example, the tags are separated by comma (,). As an alternative, you can 
 
 1. In the **Import data** screen, select the Excel file that has the data referred above in the [Examples of training data format](#examples-of-training-data-format) screen and then select **Upload**.
 
-
    > [!div class="mx-imgBorder"]
    > ![Upload an Excel file](media/upload-excel.png "Upload an Excel file")
 
@@ -138,11 +137,11 @@ In the example, the tags are separated by comma (,). As an alternative, you can 
    > [!div class="mx-imgBorder"]
    > ![Review the field mappings](media/map-excel.png "Review the field mappings")
 
-    The left side lists all columns defined in the table and the dropdown on the right list the columns available in the Excel file. 
+    The left side lists all columns defined in the table. The dropdown on the right list the columns available in the Excel file.
 
     Map the **Tags**, **Text**, and **Id** columns from Excel to the respective columns in the table.
 
-1. Once you have mapped the columns, go back to the import step by selecting **Save changes** at the top-right.
+1. Once you've mapped the columns, go back to the import step by selecting **Save changes** at the top-right.
 
    > [!div class="mx-imgBorder"]
    > ![Save your changes](media/map-columns.png "SAve your changes")
