@@ -16,7 +16,7 @@ Before you create your prediction model, you'll want to make sure your data is i
 
 ## Create your custom table
 
-Do you have data that you want to import into Dataverse for training in AI Builder? First, you have to create a table. In this example, we'll provide a solution that has predefined custom tables. To use your own data, [create a custom table](/powerapps/maker/common-data-service/data-platform-create-entity) and use your own table instead of the the example used here.
+Do you have data that you want to import into Dataverse for training in AI Builder? First, you have to create a table. In this example, we'll provide a solution that has predefined custom tables. To use your own data, [create a custom table](/powerapps/maker/common-data-service/data-platform-create-entity) and use your own table instead of the example used here.
 
 > [!NOTE]
 >For best results, use a dataset that is less than 1.5 GB in size. Otherwise, AI Builder uses only 1.5 GB of your data to train and predict. Since you can’t control which data exceeding the 1.5 GB limit isn't used, you should optimize your data to stay under 1.5 GB.
@@ -82,7 +82,7 @@ The sample dataset installs two (2) solutions in your environment. It also insta
 
 - **Brazilian Commerce:** Use for predicting multiple outcomes.
 
-- **AI Builder Online Shopper Intention:** Use for binary prediction and numerical prediction
+- **AI Builder Online Shopper Intention:** Use for binary prediction and numerical prediction.
 
 > [!div class="mx-imgBorder"]
 > ![Solution details screen](media/prep-solutions.png "Solution details screen")
