@@ -39,7 +39,9 @@ Some Microsoft products include some AI Builder capacity. Your environment admin
 
 ### Allocate capacity
 
-Once entitled to AI Builder capacity, an environment administrator has to allocate capacity for AI Builder to the environment before you can use it. Information about how to allocate capacity in the Power Platform admin center is available in [Capacity add-ons](/power-platform/admin/capacity-add-on).
+Once entitled to AI Builder capacity, an environment administrator has to allocate capacity for AI Builder to the environment before you can use it.
+
+For information about how to allocate capacity in the Power Platform admin center, go to [Capacity add-ons](/power-platform/admin/capacity-add-on). For information on how to allocate credits, go to [Manage capacity](administer.md#manage-capacity).
 
 ## Trial licenses
 
@@ -77,15 +79,15 @@ To renew your AI Builder trial license, sign in to Power Apps or Power Automate,
 
 An AI Builder trial license includes a limited amount of AI Builder capacity. You use this capacity when running or training models.
 
-If you exceed your AI Builder capacity, you’ll receive a over-capacity  notification. These notifications appear as banners in AI Builder pages or when using the model.
+If you exceed your AI Builder capacity, you’ll receive an over-capacity  notification. These notifications appear as banners in AI Builder pages or when using the model.
 
 The following functions aren't available when you exceed capacity:
 
 - Create a model or a new version of a model
-- Run a model within Power Apps or a in a Power Automate flow.
+- Run a model within Power Apps or in a Power Automate flow.
   - You can still share your model with another user. They can run it using their own AI Builder capacity. 
 - Scheduled model run or retrain
-  - Some scenarios allow scheduled run or retrain, which is configured on the model settings panel. These scheduled tasks will fail when you exceed capacity. Therefore, data won’t be refreshed , and the model won’t be retrained.
+  - Some scenarios allow scheduled run or retrain, which is configured on the model settings panel. These scheduled tasks will fail when you exceed capacity. Therefore, data won’t be refreshed, and the model won’t be retrained.
 
 To continue using AI Builder when you exceed capacity, purchase AI Builder add-on capacity, and allocate it to your environments.
 >[!NOTE]
