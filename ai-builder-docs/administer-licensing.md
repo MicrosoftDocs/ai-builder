@@ -129,11 +129,8 @@ For more information, see [About trial environments](/power-platform/admin/trial
 
 Any individual can try out the features of AI Builder for 30 days and incur no costs to your company. This option is available to any user in a tenant and cannot be disabled by an admin.
 
-### What can I do with the 5,000 AI credits included in the per user plan with attended RPA?
+#### What can I do with the 5,000 AI credits included in the per user plan with attended RPA?
 
 Each user license grants you 5000 credits, allowing you to assess the capabilities in AI Builder. For instance, you could use these credits to extract data from a few documents with *form processing* or perform hundreds of basic OCR extractions with *text recognition*.
-
-### More information
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
