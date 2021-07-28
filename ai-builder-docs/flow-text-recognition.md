@@ -20,7 +20,7 @@ ms.reviewer: v-aangie
 
 1. Expand **Manually trigger a flow**, and then select **+Add an input** > **File** as the input type.
 
-1. Select **+ New step** > **AI Builder**, and then select **Recognize text in an image or a PDF document** in the list of actions.
+1. Select **+New step** > **AI Builder**, and then select **Recognize text in an image or a PDF document** in the list of actions.
 
 1. Select the **Image** input, and then select **File Content** from the **Dynamic content** list:
 
