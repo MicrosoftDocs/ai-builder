@@ -25,36 +25,36 @@ Do you have data that you want to import into Dataverse for training in AI Build
 
 1. Download the AI Builder sample dataset package: [AIBPredictionSample_simpledeploy_v4.21.3.zip](https://github.com/microsoft/PowerApps-Samples/blob/master/ai-builder/AIBPredictionSample_simpledeploy_v4.21.3.zip)
 
-1. Ensure the file isn't blocked after download. To do this:
-   1. Locate the downloaded zip file, right-click, and select **Properties**.
-   1. On the General tab, place a check in the **Unblock** checkbox and select **Apply**.
+1. Ensure that the file isn't blocked after download. To do this:
+   1. Locate the downloaded zip file, right-click, and then select **Properties**.
+   1. On the General tab, select the **Unblock** checkbox, and then select **Apply**.
 
    > [!div class="mx-imgBorder"]
-   > ![Properties dialog, General tab](media/prep-block.png "Properties screen")
+   > ![Screenshot of the .zip file Properties.](media/prep-block.png "Properties screen")
 
-1. Extract the .zip and look for **PackageDeployer.exe** in the extracted folder.
-
-   > [!div class="mx-imgBorder"]
-   > ![The extracted folder file names](media/prep-exe.png "The extracted folder file names")
-
-1. Run **PackageDeployer.exe**. You'll see the following screen:
+1. Extract the .zip file, and look for **PackageDeployer.exe** in the extracted folder.
 
    > [!div class="mx-imgBorder"]
-   > ![Package Deployer landing page](media/prep-run-dp.png "Package Deployer landing page")
+   > ![Screenshot showing PackageDeployer.exe selected.](media/prep-exe.png "The extracted folder file names")
+
+1. Run **PackageDeployer.exe**. The following screen will appear.
+
+   > [!div class="mx-imgBorder"]
+   > ![Screenshot of the Package Deployer landing page.](media/prep-run-dp.png "Package Deployer landing page")
 
 1. Select **Continue**.
 
-1. Select **Office 365** > **Login**.
+1. Select **Office 365**, and then select **Login**.
 
    > [!div class="mx-imgBorder"]
-   > ![Login to Package Deployer screen](media/prep-dp-login.png "Login to Package Deployer screen")
+   > ![Screenshot of signing in to the Package Deployer.](media/prep-dp-login.png "Login to Package Deployer screen")
 
-1. Enter the credentials that you use to log in to the Power Apps maker portal and then select **Next**.
+1. Enter the credentials that you use to sign in to the Power Apps maker portal, and then select **Next**.
 
    > [!div class="mx-imgBorder"]
-   > ![Enter your credentials screen](media/prep-credentials.png "Enter your credentials screen")
+   > ![Screenshot of entering your credentials.](media/prep-credentials.png "Enter your credentials screen")
 
-1. If the login is successful, you'll see the Welcome screen. Read the message, and then select **Next**.
+1. If the sign-in is successful, you'll see the Welcome screen. Read the message, and then select **Next**.
 
    > [!div class="mx-imgBorder"]
    > ![Screenshot of installing the AI Builder prediction sample dataset.](media/prep-welcome.png "Install the AI Builder prediction sample dataset screen")
@@ -62,19 +62,19 @@ Do you have data that you want to import into Dataverse for training in AI Build
 1. On the **Ready to Install** screen, make sure you're installing the solution in the correct environment and then select **Next**.
 
    > [!div class="mx-imgBorder"]
-   > ![Screenshot showing the solution package to be installed and organization name.](media/prep-install.png "Ssreen showing the solution package to be installed and organization name")
+   > ![Screenshot showing the solution package to be installed and the organization name.](media/prep-install.png "Ssreen showing the solution package to be installed and organization name")
 
 1. On the **Reading AIB Prediction Dataset Installer Configuration** screen, read the summary information for the data and solutions being imported and then select **Next**.
 
    It will take a few minutes to import the data. As each step is completed successfully, you'll see a green circle with a check mark next to the step.  
 
    > [!div class="mx-imgBorder"]
-   > ![Summary of the AI Builder prediction dataset installer configuration](media/prep-config.png "Summary of the AI Builder prediction dataset installer configuration")
+   > ![Screenshot of the summary of the AI Builder prediction dataset installer configuration.](media/prep-config.png "Summary of the AI Builder prediction dataset installer configuration")
 
-1. On the **Installation Complete** screen, complete the process by selecting **Finish**.
+1. On the **Installation Complete** screen, select **Finish**.
 
    > [!div class="mx-imgBorder"]
-   > ![Installation complete screen](media/prep-finish.png "Installation complete screen")
+   > ![Screenshot showing installation complete.](media/prep-finish.png "Installation complete screen")
 
 ## How you can use the solutions you installed
 
@@ -89,9 +89,9 @@ The sample dataset installs two solutions in your environment. It also installs 
 If you need help with creating a prediction model, follow the instructions in [Create a prediction model](prediction-create-model.md).
 
 > [!div class="mx-imgBorder"]
-> ![Solution details screen](media/prep-solutions.png "Solution details screen")
+> ![Screenshot of solution details.](media/prep-solutions.png "Solution details screen")
 
-You'are now ready to go to the next step.
+You're now ready to go to the next step.
 
 ### Next step
 
