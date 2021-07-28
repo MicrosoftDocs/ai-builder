@@ -20,9 +20,7 @@ ms.reviewer: v-aangie
 
 1. Expand **Manually trigger a flow**, and then select **+Add an input** > **File** as the input type.
 
-1. Replace the word **Input** with **File Content** (also known as the title).
-
-1. Select **+ New step** > **AI Builder**, and then select **Process and save information from forms** in the list of actions.
+1. Select **+New step** > **AI Builder**, and then select **Extract information from forms** in the list of actions.
 
 1. Select the form processing model you want to use, and then select the document type.
 
@@ -31,15 +29,17 @@ ms.reviewer: v-aangie
     > [!div class="mx-imgBorder"]
     > ![Select file content.](media/flow-select-file-content-2.png "Select file content")
 
-1. In the successive actions, you can use any columns and tables extracted by the AI Builder model. For example, let's say that our model is trained to extract the *Invoice Id* and the *Total Amount* values, and we want to post those to a Microsoft Teams channel. Just add the **Post a message to Teams** action, and then select your columns from the list of tokens.
+1. In the successive actions, you can use any of the fields and tables extracted by the AI Builder model. For example, let's say that our model is trained to extract the *Lot number*, the *Net weight*, and the *Gross weight* values. We also want to post these to a Microsoft Teams channel after AI Builder has extracted them from the document. Just add the **Post a message** action from the Microsoft Teams connector, and then select your fields from the list of tokens.
 
     > [!NOTE]
     >
-    >- To retrieve the value for a column, select **<field_name> value** . For example, for the *INVOICE* column, select **INVOICE value**.
-    >- To retrieve the confidence score for a column, select **<field_name> confidence score** . For example, for the *INVOICE* column, select **INVOICE confidence score**.
+    >- To retrieve the value for a field, select **<field_name> value** . For example, for the *Lot number* field, select **Lot number value**.
+    >- To retrieve the confidence score for a field, select **<field_name> confidence score**. For example, for the *Lot number* field, select **Lot number confidence score**.
 
     > [!div class="mx-imgBorder"]
     > ![Form processing flow overview.](media/flow-fp-overview-2.png "Form processing flow overview")
+
+Congratulations! You've created a flow that uses an AI Builder form processing model. Select **Save** on the top right, and then select **Test** to try out your flow.
 
 ## Page range
 
@@ -90,7 +90,7 @@ To illustrate this procedure, we use the following example where we have trained
 > [!div class="mx-imgBorder"]
 > ![Table extracted by form processing.](media/form-processing-table-example.png "Example of a table extracted by a form processing model.")
 
-1. Select the field you wish to write the cell for a table. The dynamic content panel will open showing everything that the form processing model knows how to extract. Search for **{your table name} {your column name} value**. In our example from above, it’s *Items Quantity value*.
+1. Select the field you wish to write the cell for a table. The dynamic content panel will open showing everything that the form processing model knows how to extract. Search for **{your table name} {your column name} value**. Our example uses *Items Quantity value*.
 
 > [!div class="mx-imgBorder"]
 > !['Process and save information from forms' screen.](media/form-processing-iterate-table-1.png "Select a column from an extracted table to add to a flow.")
@@ -134,7 +134,7 @@ To remove blank spaces from output values, use the [replace](/azure/logic-apps/w
 
 ### Convert a form processing output string to a date in Power Automate
 
-AI Builder form processing returns all outputs as strings. If the destination where you want to save a value extracted by form processing requires to be in date format, you can convert a value that contains a date into date format by using the [formatDateTime](/azure/logic-apps/workflow-definition-language-functions-reference#formatDateTime) expression. Here's how to do it:
+AI Builder form processing returns all outputs as strings. If the destination where you want to save a value extracted by form processing is required to be in date format, you can convert a value that contains a date into date format. Do this by using the [formatDateTime](/azure/logic-apps/workflow-definition-language-functions-reference#formatDateTime) expression. Here's how to do it:
 
 `formatDateTime(<form processing output>)`
 
