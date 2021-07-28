@@ -29,12 +29,12 @@ ms.reviewer: v-aangie
     > [!div class="mx-imgBorder"]
     > ![Select file content.](media/flow-select-file-content-2.png "Select file content")
 
-1. In the successive actions, you can use any of the fields and tables extracted by the AI Builder model. For example, let's say that our model is trained to extract the *Lot number*, the *Net weight* and the *Gross weight* values, and we want to post these to a Microsoft Teams channel after AI Builder has extracted them from the document. Just add the **Post a message** action from the Microsoft Teams connector, and then select your fields from the list of tokens.
+1. In the successive actions, you can use any of the fields and tables extracted by the AI Builder model. For example, let's say that our model is trained to extract the *Lot number*, the *Net weight*, and the *Gross weight* values. We also want to post these to a Microsoft Teams channel after AI Builder has extracted them from the document. Just add the **Post a message** action from the Microsoft Teams connector, and then select your fields from the list of tokens.
 
     > [!NOTE]
     >
     >- To retrieve the value for a field, select **<field_name> value** . For example, for the *Lot number* field, select **Lot number value**.
-    >- To retrieve the confidence score for a field, select **<field_name> confidence score** . For example, for the *Lot number* field, select **Lot number confidence score**.
+    >- To retrieve the confidence score for a field, select **<field_name> confidence score**. For example, for the *Lot number* field, select **Lot number confidence score**.
 
     > [!div class="mx-imgBorder"]
     > ![Form processing flow overview.](media/flow-fp-overview-2.png "Form processing flow overview")
