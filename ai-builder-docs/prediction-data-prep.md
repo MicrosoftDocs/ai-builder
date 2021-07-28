@@ -5,7 +5,7 @@ author: norliu
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 07/29/2021
+ms.date: 07/28/2021
 ms.author: norliu
 ms.reviewer: v-aangie
 ---
@@ -16,10 +16,10 @@ Before you create your prediction model, you'll want to make sure your data is i
 
 ## Create your custom table
 
-Do you have data that you want to import into Dataverse for training in AI Builder? First, you have to create a table. In this example, we'll provide a solution that has predefined custom tables. To use your own data, [create a custom table](/powerapps/maker/common-data-service/data-platform-create-entity) and use your own table instead of the example used here.
+Do you have data that you want to import into Dataverse for training in AI Builder? First, you have to create a table. In this example, we'll provide a solution that has predefined custom tables. To use your own data, [create a custom table](/powerapps/maker/common-data-service/data-platform-create-entity) and use it instead of the example used here.
 
 > [!NOTE]
->For best results, use a dataset that is less than 1.5 GB in size. Otherwise, AI Builder uses only 1.5 GB of your data to train and predict. Since you can’t control which data exceeding the 1.5 GB limit isn't used, you should optimize your data to stay under 1.5 GB.
+> For best results, use a dataset that is less than 1.5 GB in size. Otherwise, AI Builder will use only 1.5 GB of your data to train and predict. Because you can’t control which data that exceeds the 1.5 GB limit won't be used, you should optimize your data to stay under 1.5 GB.
 
 ## Sample dataset for prediction model
 
@@ -27,10 +27,10 @@ Do you have data that you want to import into Dataverse for training in AI Build
 
 1. Ensure the file isn't blocked after download. To do this:
    1. Locate the downloaded zip file, right-click, and select **Properties**.
-   1. Place a check in the **Unblock** checkbox and select **Apply**.
+   1. On the General tab, place a check in the **Unblock** checkbox and select **Apply**.
 
    > [!div class="mx-imgBorder"]
-   > ![Properties screen](media/prep-block.png "Properties screen")
+   > ![Properties dialog, General tab](media/prep-block.png "Properties screen")
 
 1. Extract the .zip and look for **PackageDeployer.exe** in the extracted folder.
 
@@ -54,33 +54,33 @@ Do you have data that you want to import into Dataverse for training in AI Build
    > [!div class="mx-imgBorder"]
    > ![Enter your credentials screen](media/prep-credentials.png "Enter your credentials screen")
 
-1. If the login is successful, you'll see the Welcome screen. Read the message and select **Next**.
+1. If the login is successful, you'll see the Welcome screen. Read the message, and then select **Next**.
 
    > [!div class="mx-imgBorder"]
-   > ![Install the AI Builder prediction sample dataset screen](media/prep-welcome.png "Install the AI Builder prediction sample dataset screen")
+   > ![Screenshot of installing the AI Builder prediction sample dataset.](media/prep-welcome.png "Install the AI Builder prediction sample dataset screen")
 
-1. In the **Ready to Install** screen, make sure you're installing the solution in the correct environment and then select **Next**.
+1. On the **Ready to Install** screen, make sure you're installing the solution in the correct environment and then select **Next**.
 
    > [!div class="mx-imgBorder"]
-   > ![Screen showing the solution package to be installed and organization name](media/prep-install.png "Ssreen showing the solution package to be installed and organization name")
+   > ![Screenshot showing the solution package to be installed and organization name.](media/prep-install.png "Ssreen showing the solution package to be installed and organization name")
 
-1. In the **Reading AIB Prediction Dataset Installer Configuration** screen, read the summary information for the data and solutions being imported and then select **Next**.
+1. On the **Reading AIB Prediction Dataset Installer Configuration** screen, read the summary information for the data and solutions being imported and then select **Next**.
 
    It will take a few minutes to import the data. As each step is completed successfully, you'll see a green circle with a check mark next to the step.  
 
    > [!div class="mx-imgBorder"]
    > ![Summary of the AI Builder prediction dataset installer configuration](media/prep-config.png "Summary of the AI Builder prediction dataset installer configuration")
 
-1. In the **Installation Complete** screen, complete the process by selecting **Finish**.
+1. On the **Installation Complete** screen, complete the process by selecting **Finish**.
 
    > [!div class="mx-imgBorder"]
    > ![Installation complete screen](media/prep-finish.png "Installation complete screen")
 
 ## How you can use the solutions you installed
 
-The sample dataset installs two (2) solutions in your environment. It also installs sample data for the included entities:
+The sample dataset installs two solutions in your environment. It also installs sample data for the included entities:
 
-- **Brazilian Commerce:** Use for predicting multiple outcomes. Select **BC Orders** as the table, and **Delivery Timeliness** as the column when you pick what do you want to predict.
+- **Brazilian Commerce:** Use for predicting multiple outcomes. Select **BC Orders** as the table, and **Delivery Timeliness** as the column when you pick what you want to predict.
 
 - **AI Builder Online Shopper Intention:** Use for binary prediction and numerical prediction.
    - Select **Online Shopper Intentions** as the table, and **Revenue (Label)** as the column if you want to try out binary prediction.

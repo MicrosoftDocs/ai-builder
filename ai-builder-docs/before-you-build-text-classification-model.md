@@ -5,7 +5,7 @@ author: norliu
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 07/29/2021
+ms.date: 07/28/2021
 ms.author: norliu
 ms.reviewer: v-aangie
 ---
@@ -125,12 +125,12 @@ In the example, the tags are separated by a comma (,). As an alternative, you ca
    > [!div class="mx-imgBorder"]
    > ![Screenshot showing Get data from Excel.](media/get-excel.png "Get data from Excel")
 
-1. In the **Import data** screen, select the Excel file that has the data referred to in the [Examples of training data format](#examples-of-training-data-format) section earlier in this topic, and then select **Upload**.
+1. On the **Import data** screen, select the Excel file that has the data referred to in the [Examples of training data format](#examples-of-training-data-format) section earlier in this topic, and then select **Upload**.
 
    > [!div class="mx-imgBorder"]
    > ![Screenshot of uploading an Excel file.](media/upload-excel.png "Upload an Excel file")
 
-1. To review the field mappings in the **Column mappings for Text Category** screen, select **Map Columns**.
+1. To review the field mappings on the **Column mappings for Text Category** screen, select **Map Columns**.
 
    > [!div class="mx-imgBorder"]
    > ![Screenshot showing Column mappings for text category.](media/map-excel.png "Review the field mappings")
