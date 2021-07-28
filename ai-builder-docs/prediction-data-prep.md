@@ -5,7 +5,7 @@ author: norliu
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 07/23/2021
+ms.date: 07/29/2021
 ms.author: norliu
 ms.reviewer: v-aangie
 ---
@@ -23,7 +23,7 @@ Do you have data that you want to import into Dataverse for training in AI Build
 
 ## Sample dataset for prediction model
 
-1. Download the AI Builder sample dataset package: [AIBPredictionSample_simpledeploy_v4.21.3.zip](https://microsoft.sharepoint.com/:u:/t/PowerAppsAI/EaBYOtfuvc5OqK4qh1-drvoBD_mCfM4hyLz3zJ0EwDqGjg?e=aI2aue)
+1. Download the AI Builder sample dataset package: [AIBPredictionSample_simpledeploy_v4.21.3.zip](https://github.com/microsoft/PowerApps-Samples/blob/master/ai-builder/AIBPredictionSample_simpledeploy_v4.21.3.zip)
 
 1. Ensure the file isn't blocked after download. To do this:
    1. Locate the downloaded zip file, right-click, and select **Properties**.
@@ -80,9 +80,13 @@ Do you have data that you want to import into Dataverse for training in AI Build
 
 The sample dataset installs two (2) solutions in your environment. It also installs sample data for the included entities:
 
-- **Brazilian Commerce:** Use for predicting multiple outcomes.
+- **Brazilian Commerce:** Use for predicting multiple outcomes. Select **BC Orders** as the table, and **Delivery Timeliness** as the column when you pick what do you want to predict.
 
 - **AI Builder Online Shopper Intention:** Use for binary prediction and numerical prediction.
+   - Select **Online Shopper Intentions** as the table, and **Revenue (Label)** as the column if you want to try out binary prediction.
+   - Select **Online Shopper Intentions** as the table. Also select **ExitRates** or **BounceRates** as the column if you want to try out numerical prediction.
+
+If you need help with creating a prediction model, follow the instructions in [Create a prediction model](prediction-create-model.md).
 
 > [!div class="mx-imgBorder"]
 > ![Solution details screen](media/prep-solutions.png "Solution details screen")

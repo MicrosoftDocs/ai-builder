@@ -1,17 +1,17 @@
 ---
-title: Category classification model considerations - AI Builder | Microsoft Docs
+title: Before you build a category classification model - AI Builder | Microsoft Docs
 description: Describes the steps and requirements that you have to consider before you build your model.
 author: norliu
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 07/23/2021
+ms.date: 07/29/2021
 ms.author: norliu
 ms.reviewer: v-aangie
 ---
 
 # Before you build a category classification model
-<!--note from editor: Please note (and double-check) that I changed the title so it isn't the same as the H1.-->
+
 Before you build your category classification model, make sure your data is in Microsoft Dataverse and it's structured in the correct format.
 
 ## Prerequisites
@@ -37,9 +37,9 @@ AI Builder category classification supports the following languages. If you try 
 
 The training data used to train the model from the Dataverse table should conform to the following:
 
-- Store text and tags as two columns in the same table. Each row must have data in the **Text** column.<!--note from editor: Edits suggested, here and throughout, to avoid "should" (I assume these aren't recommendations, but actually requirements?).-->
+- Store text and tags as two columns in the same table. Each row must have data in the **Text** column.
 
-- You can provide one or more tags for a single sample of<!--note from editor: Edit okay? "A single text data" just doesn't sound right to me. If you don't like, maybe it could be "a single string of text data"?--> text data in a row. You can also leave the **Tags** column empty.
+- You can provide one or more tags to data in the same row in the **Text** column. You can also leave the **Tags** column empty.
 
 - If you've identified multiple tags within the text sample, provide them as delimited text in the **Tags** fields. Currently, commas (,), semicolons (;), and tab characters are supported separators.
 
@@ -53,7 +53,7 @@ The training data used to train the model from the Dataverse table should confor
 
 - If **Room** has been tagged in fewer than 10 rows in the data, it will be ignored. The model won't be trained to categorize data for that tag.
 
-- For every tag, in addition to providing a minimum of 10 text samples where it's used, you also need to provide a minimum of 10 text samples where it *isn't* used.<!--note from editor: Edit okay? Maybe it would be sufficient to italicize "haven't been" in your original. I was trying to make it clear that this is in addition to the other requirements.-->
+- For every tag that is used, provide a minimum of 10 text samples where it *isn't* used.
 
   |Text  |Tags  |
   |---------|---------|
@@ -63,7 +63,7 @@ The training data used to train the model from the Dataverse table should confor
 
   If all rows in the table are tagged to **Room**, and there are no rows—or fewer than 10 rows—that have been tagged to another label, the model will fail the training process.
 
-- You need at least two tags in the table, and each one must have ten text samples.<!--note from editor: This is just repetitive info, correct? I keep rereading to see if it says anything new, but if it doesn't, I think it's actually confusing. Maybe it could say something like "In summary..." or "In other words..."-->
+- A table must have at least two tags, and each one must have ten text samples.
 
 - You can define up to 200 distinct tags. Each tag is a category that will be identified and extracted from the given text.
 
