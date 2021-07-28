@@ -29,7 +29,7 @@ ms.reviewer: v-aangie
     > [!div class="mx-imgBorder"]
     > ![Select file content.](media/flow-select-file-content-2.png "Select file content")
 
-1. In the successive actions, you can use any of the fields and tables extracted by the AI Builder model. For example, let's say that our model is trained to extract the *Lot number* and the *Net weight* values, and we want to post those to a Microsoft Teams channel. Just add the **Post a message** action from the Microsoft Teams connector, and then select your fields from the list of tokens.
+1. In the successive actions, you can use any of the fields and tables extracted by the AI Builder model. For example, let's say that our model is trained to extract the *Lot number*, the *Net weight* and the *Gross weight* values, and we want to post these to a Microsoft Teams channel after AI Builder has extracted them from the document. Just add the **Post a message** action from the Microsoft Teams connector, and then select your fields from the list of tokens.
 
     > [!NOTE]
     >
