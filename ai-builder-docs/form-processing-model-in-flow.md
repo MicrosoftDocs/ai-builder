@@ -31,7 +31,7 @@ ms.reviewer: v-aangie
     > [!div class="mx-imgBorder"]
     > ![Select file content.](media/flow-select-file-content-2.png "Select file content")
 
-1. In the successive actions, you can use any columns and tables extracted by the AI Builder model. For example, let's say that our model is trained to extract the *Invoice Id* and the *Total Amount* values, and we want to post those to a Microsoft Teams channel. Just add the **Post a message to Teams** action, and then select your columns from the list of tokens.
+1. In the successive actions, you can use any columns and tables extracted by the AI Builder model. For example, let's say that our model is trained to extract the *Invoice Id* and the *Total Amount* values, and we want to post these values to a Microsoft Teams channel. Just add the **Post a message to Teams** action, and then select your columns from the list of tokens.
 
     > [!NOTE]
     >
@@ -90,7 +90,7 @@ To illustrate this procedure, we use the following example where we have trained
 > [!div class="mx-imgBorder"]
 > ![Table extracted by form processing.](media/form-processing-table-example.png "Example of a table extracted by a form processing model.")
 
-1. Select the field you wish to write the cell for a table. The dynamic content panel will open showing everything that the form processing model knows how to extract. Search for **{your table name} {your column name} value**. In our example from above, it’s *Items Quantity value*.
+1. Select the field you wish to write the cell for a table. The dynamic content panel will open showing everything that the form processing model knows how to extract. Search for **{your table name} {your column name} value**. Our example uses **Items Quantity value**.
 
 > [!div class="mx-imgBorder"]
 > !['Process and save information from forms' screen.](media/form-processing-iterate-table-1.png "Select a column from an extracted table to add to a flow.")
@@ -134,16 +134,16 @@ To remove blank spaces from output values, use the [replace](/azure/logic-apps/w
 
 ### Convert a form processing output string to a date in Power Automate
 
-AI Builder form processing returns all outputs as strings. If the destination where you want to save a value extracted by form processing requires to be in date format, you can convert a value that contains a date into date format by using the [formatDateTime](/azure/logic-apps/workflow-definition-language-functions-reference#formatDateTime) expression. Here's how to do it:
+AI Builder form processing returns all outputs as strings. If the destination where you want to save a value extracted by form processing is required to be in date format, you can convert a value that contains a date into date format. Do this by using the [formatDateTime](/azure/logic-apps/workflow-definition-language-functions-reference#formatDateTime) expression. Here's how to do it:
 
 `formatDateTime(<form processing output>)`
 
 > [!div class="mx-imgBorder"]
 > !['Add *replace* expression' to convert to date animation.](media/form-processing-convert-date.gif "Add the expression above into the input field of an action in your flow. Remember to replace the first parameter of the expression by the form processing output you want to convert to date.")
 
-### Filter email signature from a flow so that is not processed by the form processing model (Office 365 Outlook)
+### Filter email signature from a flow so that's not processed by the form processing model (Office 365 Outlook)
 
-For incoming emails from the Office 365 Outlook connector, email signatures are picked up by Power Automate as attachments. To keep these from being processed by the form processing model, add a condition to your flow that checks if the output from the Office 365 Outlook connector named **Attachments is Inline** is equal to false. In the **If yes** branch of the condition, add the form processing action. With this, only email attachments that are not inline signatures will be processed.
+For incoming emails from the Office 365 Outlook connector, email signatures are picked up by Power Automate as attachments. To keep these from being processed by the form processing model, add a condition to your flow that checks if the output from the Office 365 Outlook connector named **Attachments is Inline** is equal to false. In the **If yes** branch of the condition, add the form processing action. With this, only email attachments that aren't inline signatures will be processed.
 
 > [!div class="mx-imgBorder"]
 > ![Filter attachment condition.](media/form-processing-filter-sig.png "Add condition 'attachment is inline' ")
