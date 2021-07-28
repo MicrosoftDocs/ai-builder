@@ -102,6 +102,10 @@ To illustrate this procedure, we use the following example where we have trained
 > [!div class="mx-imgBorder"]
 > !['Add a row into a table' card.](media/form-processing-iterate-table-2.png "A flow that iterates over a table extracted by a form processing model.")
 
+### Get confidence scores for tables 
+
+Tables extracted by Form Processing currently don't return a confidence score.
+
 ### Remove currency symbols (€, $,…) in a form processing output in Power Automate
 
 Let’s imagine that the *Total* value extracted by the form processing model has a currency symbol, for example: $54. To remove the *$* sign, or any other symbols you want to omit, use the [replace](/azure/logic-apps/workflow-definition-language-functions-reference#replace) expression to remove it. Here's how to do it:
