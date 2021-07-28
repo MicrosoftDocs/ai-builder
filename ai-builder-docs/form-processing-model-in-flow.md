@@ -20,7 +20,7 @@ ms.reviewer: v-aangie
 
 1. Expand **Manually trigger a flow**, and then select **+Add an input** > **File** as the input type.
 
-1. Select **+ New step** > **AI Builder**, and then select **Extract information from forms** in the list of actions.
+1. Select **+New step** > **AI Builder**, and then select **Extract information from forms** in the list of actions.
 
 1. Select the form processing model you want to use, and then select the document type.
 
