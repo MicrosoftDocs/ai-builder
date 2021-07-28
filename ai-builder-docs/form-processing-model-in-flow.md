@@ -90,7 +90,7 @@ To illustrate this procedure, we use the following example where we have trained
 > [!div class="mx-imgBorder"]
 > ![Table extracted by form processing.](media/form-processing-table-example.png "Example of a table extracted by a form processing model.")
 
-1. Select the field you wish to write the cell for a table. The dynamic content panel will open showing everything that the form processing model knows how to extract. Search for **{your table name} {your column name} value**. In our example from above, it’s *Items Quantity value*.
+1. Select the field you wish to write the cell for a table. The dynamic content panel will open showing everything that the form processing model knows how to extract. Search for **{your table name} {your column name} value**. Our example uses *Items Quantity value*.
 
 > [!div class="mx-imgBorder"]
 > !['Process and save information from forms' screen.](media/form-processing-iterate-table-1.png "Select a column from an extracted table to add to a flow.")
@@ -131,7 +131,7 @@ To remove blank spaces from output values, use the [replace](/azure/logic-apps/w
 
 ### Convert a form processing output string to a date in Power Automate
 
-AI Builder form processing returns all outputs as strings. If the destination where you want to save a value extracted by form processing requires to be in date format, you can convert a value that contains a date into date format by using the [formatDateTime](/azure/logic-apps/workflow-definition-language-functions-reference#formatDateTime) expression. Here's how to do it:
+AI Builder form processing returns all outputs as strings. If the destination where you want to save a value extracted by form processing is required to be in date format, you can convert a value that contains a date into date format. Do this by using the [formatDateTime](/azure/logic-apps/workflow-definition-language-functions-reference#formatDateTime) expression. Here's how to do it:
 
 `formatDateTime(<form processing output>)`
 
