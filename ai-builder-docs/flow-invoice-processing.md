@@ -22,7 +22,7 @@ ms.reviewer: v-aangie
 
 1. Replace  **File Content** with **My invoice** (also known as the title).
 
-1. Select **+ New step** > **AI Builder**, and then select **Extract information from invoices** in the list of actions.
+1. Select **+New step** > **AI Builder**, and then select **Extract information from invoices** in the list of actions.
 
 1. Specify **My invoice** from the trigger in the **Invoice file** input.
 
