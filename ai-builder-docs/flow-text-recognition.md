@@ -31,7 +31,7 @@ ms.reviewer: v-aangie
 
 1. Select the input, and then select **lines** from the Dynamic content list. This will add **results** to the input and automatically create another **Apply to each** action.
 
-1. In the successive actions, you can use any columns extracted by the AI Builder model. For example, you can extract **Text** into a variable and then post all the extracted text in a Teams channel:
+1. In the successive actions, you can use any columns extracted by the AI Builder model. For example, you can extract **Text** into a variable, and then post all the extracted text in a Teams channel:
 
     > [!div class="mx-imgBorder"]
     > ![Text recognition flow example.](media/text-flow-example2-2.png "Text recognition flow example")
