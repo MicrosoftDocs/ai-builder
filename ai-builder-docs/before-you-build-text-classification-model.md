@@ -63,7 +63,7 @@ The training data used to train the model from the Dataverse table should confor
 
   If all rows in the table are tagged to **Room**, and there are no rows—or fewer than 10 rows—that have been tagged to another label, the model will fail the training process.
 
-- A table must have at least two tags, and each one must have ten text samples.
+- A table must have at least two tags, and each one must have 10 text samples.
 
 - You can define up to 200 distinct tags. Each tag is a category that will be identified and extracted from the given text.
 
