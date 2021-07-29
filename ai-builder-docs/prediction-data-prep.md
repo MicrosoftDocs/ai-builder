@@ -5,7 +5,7 @@ author: norliu
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/19/2021
+ms.date: 07/29/2021
 ms.author: norliu
 ms.reviewer: v-aangie
 ---
@@ -16,144 +16,86 @@ Before you create your prediction model, you'll want to make sure your data is i
 
 ## Create your custom table
 
-Do you have data that you want to import into Dataverse for training in AI Builder? First, you have to create a table. In this example, we'll provide a solution that has predefined custom tables. To use your own data, [create a custom table](/powerapps/maker/common-data-service/data-platform-create-entity) and substitute your own table for the example used here.
+Do you have data that you want to import into Dataverse for training in AI Builder? First, you have to create a table. In this example, we'll provide a solution that has predefined custom tables. To use your own data, [create a custom table](/powerapps/maker/data-platform/data-platform-create-entity) and use it instead of the example used here.
 
 > [!NOTE]
->For best results, use a dataset that is less than 1.5 GB in size. Otherwise, AI Builder uses only 1.5 GB of your data to train and predict. Since you can’t control which data exceeding the 1.5 GB limit is not used, you should optimize your data to stay under 1.5 GB.
+> For best results, use a dataset that is less than 1.5 GB in size. Otherwise, AI Builder will use only 1.5 GB of your data to train and predict. Because you can’t control which data that exceeds the 1.5 GB limit won't be used, you should optimize your data to stay under 1.5 GB.
 
-## Example dataset for binary prediction and numerical prediction
+## Sample dataset for prediction model
 
-Use the following dataset if you want to predict true/false outcomes, or for numerical prediction.
+1. Download the AI Builder sample dataset package:
+   1. Select [AIBPredictionSample_simpledeploy_v4.21.3.zip](https://github.com/microsoft/PowerApps-Samples/blob/master/ai-builder/AIBPredictionSample_simpledeploy_v4.21.3.zip).
+   1. Select the **Download** button.
+   > [!div class="mx-imgBorder"]
+   > ![Screenshot of the download screen in GitHub.](media/prep-download.png "Download screen in GitHub")
 
-1. Download the AI Builder sample datasets solution: [AIBuilderOnlineShopperIntention_1_0_0_0.zip](https://go.microsoft.com/fwlink/?linkid=2093415).
-
-1. In Power Apps, select **Solutions** in the left pane, and then select **Import** at the top of the screen.
-
-1. In the pop-up window, select **Browse**.
-
-1. Select **AIBuilderOnlineShopperIntention_1_0_0_0.zip**, which you downloaded in step 1, select **Open**, and then click **Next**.
-
-1. Read the details and then select **Import**.
-
-1. Follow the on-screen instructions to import the solution, and then select **Close** after you finish.
-
-Next, import the sample data into the table. In this example, we use the **aib_onlineshopperintention.csv** file.
-
-1. In the list of [AI Builder samples](https://go.microsoft.com/fwlink/?linkid=2093415), select the **aib_onlineshopperintention.csv** file, and then select **Download** to open the raw version of the file.
-
-1. Copy the URL from the address bar in your browser. In this case, the URL to copy is: https://raw.githubusercontent.com/microsoft/PowerApps-Samples/master/ai-builder/aib_onlineshopperintention.csv
-
-1. In Power Apps, select **Data** > **Tables** in the left panel, and then select **Data** > **Get data** from the menu at the top.
-
-1. Select **Text/CSV**, and then paste the copied URL from step 2 into the **File path  or URL** box.
-
-1. Set the following properties:
-
-    - **On-premises data gateway** = *(none)*
-    - **Authentication kind** = *Anonymous*
- 
-    > [!div class="mx-imgBorder"]
-    > ![Text/CSV connection settings.](media/predict-properties.png "Text/CSV connection settings")
-
-1. Select **Next**.
-
-1. Review the file data, select **Transform data**, and then select **Next**.
-
-1. On the **Map tables** screen, make sure **Load to existing table** is selected, and under **Destination table**, select **aib_onlineshopperintention** in the drop-down menu.
-
-1. Select the **Delete rows that no longer exist in the query output** check box.
-
-1. Select the **Automap** function in the upper-right corner of the **Field-mapping** screen, and then select **Next**.
-
-    > [!div class="mx-imgBorder"]
-    > ![Map tables.](media/map-tables.png "Map tables")
-
-1. On the **Refresh settings** screen, select the **Refresh manually** check box, and then select **Create** to start the import process.
-
-Allow some time for the import to be completed. Then make sure the data is imported correctly.
-
-1. In Power Apps, go back to **Tables** under **Data**, and select **Online Shopper Intention**.
-
-1. Select **Views**, and then select **Active Online Shopper Intention**.
-
-1. Select **New table column**, enter a table name, and them select **Done** to add a column to validate that all the columns have been imported correctly.
-
-1. Select **Publish** to save the current view with the selected fields.
-
-And you're done!
-
-## Example dataset for predicting multiple outcomes
-
-1. In the list of AI Builder samples, download the AI Builder sample datasets solution: [BrazilianCommerce_1_0_0_4_managed.zip](https://go.microsoft.com/fwlink/?linkid=2093415)
-
-1. In Power Apps, select **Solutions** in the left pane, and then select **Import** at the top of the screen.
-
-1. In the pop-up window, select **Browse**, select **BrazilianCommerce_1_0_0_4_managed.zip**, which you downloaded in step 1, and then select **Next**.
-
-1. Select **Import** and follow the on-screen instructions to import the solution, and then select **Close** after you finish.
-
-1. Download **customer.csv**, **order.csv**, and **product.csv** from AI Builder samples.
-
-   After the solution is imported, select the gear icon in the upper-right corner of the Power Apps screen, and then select **Advanced settings**.
-
-1. Select **Settings**, and then select **Data Management**.
+1. Ensure that the file isn't blocked after you download. To do this:
+   1. In the Downloads folder, find the downloaded zip file, right-click, and then select **Properties**.
+   1. On the General tab, select the **Unblock** checkbox, and then select **Apply**.
 
    > [!div class="mx-imgBorder"]
-   > ![Select Data management.](media/smpl-settings-data-mgmt.png "Select Data management")
+   > ![Screenshot of the .zip file Properties.](media/prep-block.png "Properties screen")
 
-1. Select **Imports** from the top menu bar.
-
-1. In the **Data file name** section, select **customer.csv**, and then select **Next**.
-
-1. Select **Next** until you get to the **Map Record Types** screen.
-
-1. Select **BC Customer** from the drop-down menu, and then select **Next**. Map the columns as shown in the following table.
-
-    |**Source column**|**Map to**|
-    |:-----|:-----|
-    |customer\_id|ID |
-    |customer\_city|City |
-    |customer\_state|State |
-    |customer\_zip\_code\_prefix|Zip code |
-
-1. Select **Next**, select **Submit**, and then select **Finish**.
-
-1. Repeat the process, but this time use **product.csv** and map it to **BC Product**. Map the columns as shown in the following table. 
-
-    |**Source column**|**Map to**|
-    |:-----|:-----|
-    |product\_id|ID |
-    |product\_category\_name|Category |
-    |product\_description\_lenght|Description Length |
-    |product\_height\_cm|Height cm |
-    |product\_length\_cm|Length cm |
-    |product\_name\_lenght|Name Length |
-    |product\_photos\_qty|Photos Quantity |
-    |product\_weight\_g|Weight g |
-    |product\_width\_cm|Width cm |
-
-  Wait until both of these imports are complete before moving on to the next step.
-
-14. Repeat the process, but this time use **order.csv** and map it to **BC Order**. Map the columns like this:
-
-    |**Source column**|**Map to**|
-    |:-----|:-----|
-    |order\_id|ID  |
-    |customer\_id|Customer (Lookup) |
-    |freight\_value|Freight Value |
-    |order\_delivered\_customer\_date|Delivered Date |
-    |order\_estimated\_delivery\_date|Estimated Delivery Date |
-    |order\_purchase\_timestamp|Purchase Date |
-    |order\_status|Order Status |
-    |price|Price |
-    |product\_id|Product (Lookup) |
-
-In the **Lookup reference** dialog box, make sure that the check box is selected and that the column is **ID**.
+1. Extract the .zip file, and look for **PackageDeployer.exe** in the extracted folder.
 
    > [!div class="mx-imgBorder"]
-   > ![Lookup reference dialog box'.](media/lookup-reference.png "Lookup reference dialog box")
+   > ![Screenshot showing PackageDeployer.exe selected.](media/prep-exe.png "The extracted folder file names")
 
-And you're done! 
+1. Run **PackageDeployer.exe**. The following screen will appear.
+
+   > [!div class="mx-imgBorder"]
+   > ![Screenshot of the Package Deployer landing page.](media/prep-run-dp.png "Package Deployer landing page")
+
+1. Select **Continue**.
+
+1. Select **Office 365**, and then select **Login**.
+
+   > [!div class="mx-imgBorder"]
+   > ![Screenshot of signing in to the Package Deployer.](media/prep-dp-login.png "Login to Package Deployer screen")
+
+1. Enter the credentials that you use to sign in to the Power Apps maker portal, and then select **Next**.
+
+   > [!div class="mx-imgBorder"]
+   > ![Screenshot of entering your credentials.](media/prep-credentials.png "Enter your credentials screen")
+
+1. If the sign-in is successful, you'll see the Welcome screen. Read the message, and then select **Next**.
+
+   > [!div class="mx-imgBorder"]
+   > ![Screenshot of installing the AI Builder prediction sample dataset.](media/prep-welcome.png "Install the AI Builder prediction sample dataset screen")
+
+1. On the **Ready to Install** screen, make sure you're installing the solution in the correct environment and then select **Next**.
+
+   > [!div class="mx-imgBorder"]
+   > ![Screenshot showing the solution package to be installed and the organization name.](media/prep-install.png "Ssreen showing the solution package to be installed and organization name")
+
+1. On the **Reading AIB Prediction Dataset Installer Configuration** screen, read the summary information for the data and solutions being imported and then select **Next**.
+
+   It will take a few minutes to import the data. As each step is completed successfully, you'll see a green circle with a check mark next to the step.  
+
+   > [!div class="mx-imgBorder"]
+   > ![Screenshot of the summary of the AI Builder prediction dataset installer configuration.](media/prep-config.png "Summary of the AI Builder prediction dataset installer configuration")
+
+1. On the **Installation Complete** screen, select **Finish**.
+
+   > [!div class="mx-imgBorder"]
+   > ![Screenshot showing installation complete.](media/prep-finish.png "Installation complete screen")
+
+## How you can use the solutions you installed
+
+The sample dataset installs two solutions in your environment. It also installs sample data for the included entities:
+
+- **Brazilian Commerce:** Use for predicting multiple outcomes. Select **BC Orders** as the table, and **Delivery Timeliness** as the column when you pick what you want to predict.
+
+- **AI Builder Online Shopper Intention:** Use for binary prediction and numerical prediction.
+   - Select **Online Shopper Intentions** as the table, and **Revenue (Label)** as the column if you want to try out binary prediction.
+   - Select **Online Shopper Intentions** as the table. Also select **ExitRates** or **BounceRates** as the column if you want to try out numerical prediction.
+
+If you need help with creating a prediction model, follow the instructions in [Create a prediction model](prediction-create-model.md).
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of solution details.](media/prep-solutions.png "Solution details screen")
+
+You're now ready to go to the next step.
 
 ### Next step
 
