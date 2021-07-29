@@ -5,7 +5,7 @@ author: norliu
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 07/28/2021
+ms.date: 07/29/2021
 ms.author: norliu
 ms.reviewer: v-aangie
 ---
@@ -95,7 +95,7 @@ This section provides examples of the training data format in a Dataverse table.
 
 Because training data for a category classification model needs to be available as a Dataverse table, let's begin with preparing data in Dataverse table.  
 
-Dataverse includes a powerful set of connectors to help you import data from many sources. More information: [Add data to a table in Microsoft Dataverse by using Power Query](/powerapps/maker/data-platform/add-data-power-query)
+Dataverse includes a powerful set of connectors to help you import data from many sources. More information: [Add data to a table in Microsoft Dataverse by using Power Query](/powerapps/maker/data-platform/add-data-power-query).
 
 As an example, let's look at how to import training data from an Excel workbook. This example uses a file containing what's shown in the following table.
 

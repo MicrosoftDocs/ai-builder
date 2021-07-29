@@ -5,7 +5,7 @@ author: norliu
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 07/28/2021
+ms.date: 07/29/2021
 ms.author: norliu
 ms.reviewer: v-aangie
 ---
@@ -16,17 +16,21 @@ Before you create your prediction model, you'll want to make sure your data is i
 
 ## Create your custom table
 
-Do you have data that you want to import into Dataverse for training in AI Builder? First, you have to create a table. In this example, we'll provide a solution that has predefined custom tables. To use your own data, [create a custom table](/powerapps/maker/common-data-service/data-platform-create-entity) and use it instead of the example used here.
+Do you have data that you want to import into Dataverse for training in AI Builder? First, you have to create a table. In this example, we'll provide a solution that has predefined custom tables. To use your own data, [create a custom table](/powerapps/maker/data-platform/data-platform-create-entity) and use it instead of the example used here.
 
 > [!NOTE]
 > For best results, use a dataset that is less than 1.5 GB in size. Otherwise, AI Builder will use only 1.5 GB of your data to train and predict. Because you can’t control which data that exceeds the 1.5 GB limit won't be used, you should optimize your data to stay under 1.5 GB.
 
 ## Sample dataset for prediction model
 
-1. Download the AI Builder sample dataset package: [AIBPredictionSample_simpledeploy_v4.21.3.zip](https://github.com/microsoft/PowerApps-Samples/blob/master/ai-builder/AIBPredictionSample_simpledeploy_v4.21.3.zip)
+1. Download the AI Builder sample dataset package:
+   1. Select [AIBPredictionSample_simpledeploy_v4.21.3.zip](https://github.com/microsoft/PowerApps-Samples/blob/master/ai-builder/AIBPredictionSample_simpledeploy_v4.21.3.zip).
+   1. Select the **Download** button.
+   > [!div class="mx-imgBorder"]
+   > ![Screenshot of the download screen in GitHub.](media/prep-download.png "Download screen in GitHub")
 
-1. Ensure that the file isn't blocked after download. To do this:
-   1. Locate the downloaded zip file, right-click, and then select **Properties**.
+1. Ensure that the file isn't blocked after you download. To do this:
+   1. In the Downloads folder, find the downloaded zip file, right-click, and then select **Properties**.
    1. On the General tab, select the **Unblock** checkbox, and then select **Apply**.
 
    > [!div class="mx-imgBorder"]
