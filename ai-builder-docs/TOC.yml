@@ -84,7 +84,7 @@
         href: prediction-sample-data.md
       - name: Prediction model performance
         href: prediction-performance.md
-      - name: Training errors and issues
+      - name: Training errors and warnings
         href: prediction-training-report.md
     - name: Use your prediction model
       href: prediction-use.md
@@ -98,6 +98,8 @@
       href: create-text-classification-model.md
     - name: Train your category classification model
       href: train-text-classification-model.md
+    - name: Training errors and warnings
+      href: category-classification-training-report.md
     - name: Understand category classification model performance
       href: text-classification-performance.md
     - name: Improve category classification model performance

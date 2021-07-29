@@ -1,0 +1,68 @@
+---
+title: Category classification model training errors and warnings - AI Builder | Microsoft Docs
+description: Describes the errors and warnings that might appear on the AI Builder category classification model details page
+author: norliu
+ms.service: aibuilder
+ms.topic: conceptual
+ms.custom: 
+ms.date: 07/30/2021
+ms.author: norliu
+ms.reviewer: v-aangie
+---
+
+# Category classification model training errors and warnings
+
+While training the category classification model, you might come across the messages in this article that may be reported by AI builder. Messages are either *errors* or *warnings*. Each is represented by an icon.
+
+|Message |Icon  |
+|---------|---------|
+|Error   | ![Error icon](media/predict-icon-error.png "Error icon")        |
+|Warning | ![Warning icon](media/predict-icon-warn.png "Warning icon")
+
+ When an error occurs, you can't continue until you resolve it. If the system doesn't know how to correct a problem, it will show you an error.
+
+Warnings are messages reported as informational and don't stop you from proceeding ahead. They warn you of possible performance issues when training the model.
+
+## Error: InvalidTrainingInput
+
+> [!div class="mx-imgBorder"]
+> ![Errors and warnings message](media/cclass-error-invalid.png "Errors and warnings message")
+
+### Cause
+
+You'll receive this error if you have supplied fewer than 10 distinct training records in your table per tag.
+
+### Resolution
+
+Add a minimum of 10 distinct training records for each of the tags to be identified. Follow the guidelines provided in Data Preparation.
+
+## Error: No tags recommended
+
+In the training step, you're prompted to choose **No separator** as the tag separator.
+
+> [!div class="mx-imgBorder"]
+> ![Errors and warnings message](media/cclass-tags.png "Errors and warnings message")
+
+### Cause
+
+This error will occur if the tag separator used a mix of more than one separator.
+
+### Resolution
+
+If you know you have data tagged with multiple tags, make sure to recheck the tag separator for each of them. You must use a single tag separator across all data rows.
+
+## Warning: Missing tags for some records
+
+For the new records being created, you find that tags are missing for some records.
+
+### Cause 
+
+This will happen if you didn't provide a minimum of 10 sample text records for the tag while training the model.
+
+### Resolution
+
+Add more sample text for the tag with missing data and retrain the model.
+
+### See also
+
+[Train your category classification model](train-text-classification-model.md)
