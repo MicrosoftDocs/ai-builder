@@ -20,11 +20,9 @@ ms.reviewer: v-aangie
 
 1. Expand **Manually trigger a flow**, and then select **+Add an input** > **File** as the input type.
 
-1. Replace  **File Content** with **My Image** (also known as the title).
+1. Select **+New step** > **AI Builder**, and then select **Recognize text in an image or a PDF document** in the list of actions.
 
-1. Select **+ New step** > **AI Builder**, and then select **Recognize text in an image** in the list of actions.
-
-1. Select the **Image** input, and then select **My Image** from the **Dynamic content** list:
+1. Select the **Image** input, and then select **File Content** from the **Dynamic content** list:
 
     > [!div class="mx-imgBorder"]
     > ![Trigger text recognition flow.](media/trigger-text-recognition-2.png "Trigger text recognition flow")
@@ -33,7 +31,7 @@ ms.reviewer: v-aangie
 
 1. Select the input, and then select **lines** from the Dynamic content list. This will add **results** to the input and automatically create another **Apply to each** action.
 
-1. In the successive actions, you can use any columns extracted by the AI Builder model. For example, you can extract **Text** column to a SharePoint list:
+1. In the successive actions, you can use any columns extracted by the AI Builder model. For example, you can extract **Text** into a variable, and then post all the extracted text in a Teams channel:
 
     > [!div class="mx-imgBorder"]
     > ![Text recognition flow example.](media/text-flow-example2-2.png "Text recognition flow example")
