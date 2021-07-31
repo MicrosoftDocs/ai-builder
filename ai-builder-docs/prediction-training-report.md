@@ -5,7 +5,7 @@ author: norliu
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 07/30/2021
+ms.date: 08/03/2021
 ms.author: norliu
 ms.reviewer: v-aangie
 ---
@@ -24,7 +24,7 @@ While training the prediction model, you might come across the messages in this 
 Warnings are messages reported as informational and don't stop you from proceeding ahead. They warn you of possible performance issues when training the model.
 
 > [!div class="mx-imgBorder"]
-> ![Errors and warnings message](media/predict-errors.png "Errors and warnings message")
+> ![Screenshot of error and warning messages](media/predict-errors.png "Errors and warnings message")
 
 
 ## Error: No AI Builder license
@@ -44,7 +44,7 @@ To use AI Builder models, make sure you have the AI Builder license assigned.
 *The model needs at least 50 rows to train. \<TableName> has only \<ActualValue> rows. Add data or select another table.*
 
 > [!div class="mx-imgBorder"]
-> ![Insufficient number of rows to train message](media/predict-rows.png "Insufficient number of rows to train")
+> ![Screenshot of error message for insufficient number of rows to train.](media/predict-rows.png "Insufficient number of rows to train error message")
 
 ### Cause 
 
@@ -59,7 +59,7 @@ Add a minimum of 50 rows to the table. Use a minimum of 1,000 rows for better pr
 *The model needs at least 10 historical outcome rows of each outcome value to train. Add data or select another table.*
 
 > [!div class="mx-imgBorder"]
-> ![Errors and warnings message](media/predict-history-rows.png "Errors and warnings message")
+> ![Screenshot of error message for insufficient historical outcome.](media/predict-history-rows.png "Insufficient historical outcome error message")
 
 ### Cause
 
@@ -74,7 +74,7 @@ Make sure you have 10 rows of each possible outcome value that you would like th
 *The model might produce better performance with optimum rows of 1,000 or more to train the model. Online Shopper Intention has \<Actualcount> rows. Add data for better model performance.*
 
 > [!div class="mx-imgBorder"]
-> ![Add data to improve model performance message](media/predict-warn-perf.png "Add data to improve model performance message")
+> ![screenshot with warning message to add data to improve model performance.](media/predict-warn-perf.png "Add data to improve model performance warning message")
 
 ### Cause
 
@@ -89,7 +89,7 @@ We recommend 1,000 rows or more of historical data with outcomes to predict outc
 *\<TableName>.\<AttributeName> might get dropped from training as it has a single value and does not contribute to training the model.*
 
 > [!div class="mx-imgBorder"]
-> ![Column might get dropped message](media/predict-warn-drop.png "Column might get dropped message")
+> ![Screenshot of warning message that a column might get dropped.](media/predict-warn-drop.png "Column might get dropped warning message")
 
 ### Cause
 

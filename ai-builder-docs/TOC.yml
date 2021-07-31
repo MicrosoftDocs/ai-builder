@@ -121,7 +121,9 @@
     - name: Create a custom entity extraction model
       href: entity-extraction-create.md
     - name: Train and publish your entity extraction model
-      href: entity-extraction-train.md 
+      href: entity-extraction-train.md
+    - name: Use sample data
+      href: entity-extraction-sample-data.md 
   - name: Object detection AI model
     items: 
     - name: Overview

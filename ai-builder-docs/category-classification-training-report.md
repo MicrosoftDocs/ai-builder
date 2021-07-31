@@ -5,7 +5,7 @@ author: norliu
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 07/30/2021
+ms.date: 08/03/2021
 ms.author: norliu
 ms.reviewer: v-aangie
 ---
@@ -26,7 +26,7 @@ Warnings are messages reported as informational and don't stop you from proceedi
 ## Error: InvalidTrainingInput
 
 > [!div class="mx-imgBorder"]
-> ![Errors and warnings message](media/cclass-error-invalid.png "Errors and warnings message")
+> ![Screenshot of InvalidTrainingInput error message.](media/cclass-error-invalid.png "InvalidTrainingInput error message")
 
 ### Cause
 
@@ -36,12 +36,12 @@ You'll receive this error if you have supplied fewer than 10 distinct training r
 
 Add a minimum of 10 distinct training records for each of the tags to be identified. Follow the guidelines provided in Data Preparation.
 
-## Error: No tags recommended
+## Error: No tag separator recommended
 
 In the training step, you're prompted to choose **No separator** as the tag separator.
 
 > [!div class="mx-imgBorder"]
-> ![Errors and warnings message](media/cclass-tags.png "Errors and warnings message")
+> ![Screenshot of the Select your tags screen with recommendation of no tag separator.](media/cclass-tags.png "Error message for recommendation of no tag separator")
 
 ### Cause
 
