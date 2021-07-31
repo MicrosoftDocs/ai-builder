@@ -61,4 +61,4 @@ You can get started with the entity extraction model using sample data. The samp
 1. Go to the **Data** tab of the Travel Feedback table in the solution to view all the records imported.
 
    > [!div class="mx-imgBorder"]
-   > ![Screenshot of the Import data screen showing that mapping was successful.](media/entity-import-map-view.png "Import data screen showing that mapping was successful")
+   > ![Screenshot of the imported records in the Data tab.](media/entity-import-map-view.png "Imported records in the Data tab")
