@@ -1,12 +1,12 @@
 ---
 title: Train your category classification model - AI Builder | Microsoft Docs
 description: Provides step-by-step instructions on how to train your category classification model
-author: raaourik 
+author: norliu 
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 07/29/2021
-ms.author: raaourik 
+ms.date: 08/02/2021
+ms.author: norliu 
 ms.reviewer: v-aangie
 ---
 
@@ -16,13 +16,15 @@ Before you can use your category classification model, you must train it to perf
 
 ## Train
 
-You're now ready to run your training. Review your configuration, and then select **Train** to begin training your category classification model. When it's ready, you'll be notified.
+You're now ready to run your training:
 
-To retrain and existing version of the model, choose **Retrain now** from the ellipsis in the model summary performance.
+- To begin training your category classification model, review your configuration, and then select **Train**. When it's ready, you'll be notified.
 
-You can also train a new version of your model. Select **Edit Model** to create a new draft of your model that you can configure and train.	
+- To retrain an existing version of the model, select **Retrain now** from the ellipsis in the model summary performance.
 
-## Troubleshooting tips 
+- To train a new version of the model, select **Edit Model**. This will create a new draft of your model that you can configure and train.
+
+## Troubleshooting tips
 
 If you have difficulty training your model, try these suggestions:
 
@@ -30,7 +32,7 @@ If you have difficulty training your model, try these suggestions:
 
 - Learn how you can [improve category classification model performance](improve-text-classification-performance.md).  
 
-Download [sample material](text-classification-sample-data.md) and use it for testing.
+- Download [sample material](text-classification-sample-data.md) and use it for testing.
 
 ## Next step
 

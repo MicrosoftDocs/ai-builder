@@ -5,7 +5,7 @@ author: norliu
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 08/03/2021
+ms.date: 08/02/2021
 ms.author: norliu
 ms.reviewer: v-aangie
 ---
@@ -30,7 +30,7 @@ Warnings are messages reported as informational and don't stop you from proceedi
 
 ### Cause
 
-You'll receive this error if you have supplied fewer than 10 distinct training records in your table per tag.
+You'll receive this error if you've supplied fewer than 10 distinct training records in your table per tag.
 
 ### Resolution
 
@@ -49,7 +49,7 @@ This error will occur if the tag separator used a mix of more than one separator
 
 ### Resolution
 
-If you know you have data tagged with multiple tags, make sure to recheck the tag separator for each of them. You must use a single tag separator across all data rows.
+If you know you have data tagged with multiple tags, recheck the tag separator for each of them. You must use a single tag separator across all data rows.
 
 ## Warning: Missing tags for some records
 

@@ -5,7 +5,7 @@ author: v-aangie
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom:
-ms.date: 08/03/2021
+ms.date: 08/02/2021
 ms.author: joshrenn
 ms.reviewer: v-aangie
 ---

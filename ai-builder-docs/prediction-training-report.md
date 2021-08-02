@@ -5,7 +5,7 @@ author: norliu
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 08/03/2021
+ms.date: 08/02/2021
 ms.author: norliu
 ms.reviewer: v-aangie
 ---
@@ -48,7 +48,7 @@ To use AI Builder models, make sure you have the AI Builder license assigned.
 
 ### Cause 
 
-The table that you've selected as the historical outcome doesn't have enough rows in it for the model to be able to train itself to predict future outcomes.
+The table that you've selected as the historical outcome doesn't have enough rows in it for the model to train itself to predict future outcomes.
 
 ### Resolution
 
@@ -105,25 +105,25 @@ Make sure that all columns selected as being related to the outcome column have 
 
 ### Cause
 
-The AI model processes the data in the columns related to the outcome that will influence the prediction. Of the various columns selected, the model found that the specified column had data in very few rows in the table. Since the data won't impact the prediction, it won't help training the model.
+The AI model processes the data in the columns related to the outcome that will influence the prediction. Of the various columns selected, the model found that the specified column had data in few rows in the table. Since the data won't impact the prediction, it won't help training the model.
 
 ### Resolution
 
-Make sure the columns that are selected as being related to the outcome have data for them across a majority of the rows in historical data.
+Make sure the columns that are selected as being related to the outcome have data for them across most of the rows in historical data.
 
 ## Warning: High percent correlation to the outcome column
 
-*\<TableName>.\<AttributeName> has \<ThresholdValue> percent orrelation \<CorrelationName> with \<OutcomeAttributeName> and model might suspect to cause target leak.*
+*\<TableName>.\<AttributeName> has \<ThresholdValue> percent correlation \<CorrelationName> with \<OutcomeAttributeName> and model might suspect to cause target leak.*
 
 ### Cause
 
-The AI model processes the data in the columns related to the outcome that will influence the prediction. Of the various columns selected, it found that the specified column has a very high correlation with the outcome column, which might impact the prediction result. Because if this, it won't be included in training the model.
+The AI model processes the data in the columns related to the outcome that will influence the prediction. Of the various columns selected, it found that the specified column has a high correlation with the outcome column, which might impact the prediction result. Because if this, it won't be included in training the model.
 
-*Target leakage*, sometimes called *data leakage*, is when you train your model on a dataset that includes information that wouldn't be available at the time of prediction. This might result in unrealistic data.
+*Target leakage* is when you train your model on a dataset that includes information that wouldn't be available at the time of prediction. This might result in unrealistic data.
 
 ### Resolution
 
-Make sure that the columns selected as being related to the outcome don't have a very high correlation with the outcome column for a fair prediction.
+Make sure the columns selected as being related to the outcome don't have a high correlation with the outcome column for a fair prediction.
 
 ### See also
 
