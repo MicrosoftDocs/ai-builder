@@ -74,4 +74,4 @@ You can get started with the entity extraction model using sample data. The samp
 
 ### See also
 
-[Use formulas for text AI models in Power Apps](formula-bar.md#entity-extraction)
+[Entity extraction](formula-bar.md#entity-extraction)
