@@ -101,7 +101,7 @@ Make sure that all columns selected as being related to the outcome column have 
 
 ## Warning: High ratio of missing values
 
-*\<TableName>.\<ColumnName> has a high ratio of missing values, greater than <ThresholdValue> percentage and might not contribute to train the model.*
+*\<TableName>.\<ColumnName> has a high ratio of missing values, greater than \<ThresholdValue> percentage and might not contribute to train the model.*
 
 ### Cause
 
