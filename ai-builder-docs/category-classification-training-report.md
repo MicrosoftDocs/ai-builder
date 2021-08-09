@@ -1,6 +1,6 @@
 ---
 title: Category classification model training errors and warnings - AI Builder | Microsoft Docs
-description: Describes the errors and warnings that might appear on the AI Builder category classification model details page
+description: Describes the errors and warnings that might appear on the AI Builder category classification model details page.
 author: norliu
 ms.service: aibuilder
 ms.topic: conceptual
@@ -19,9 +19,9 @@ While training the category classification model, you might come across the mess
 |Error   | ![Error icon](media/predict-icon-error.png "Error icon")        |
 |Warning | ![Warning icon](media/predict-icon-warn.png "Warning icon")
 
- When an error occurs, you can't continue until you resolve it. If the system doesn't know how to correct a problem, it will show you an error.
+When an error occurs, you can't continue until you resolve it. If the system doesn't know how to correct a problem, it will show you an error.
 
-Warnings are messages reported as informational and don't stop you from proceeding ahead. They warn you of possible performance issues when training the model.
+Warnings are messages reported as informational. They don't stop you from proceeding. They warn you of possible performance issues when training the model.
 
 ## Error: InvalidTrainingInput
 
@@ -49,7 +49,7 @@ This error will occur if the tag separator used a mix of more than one separator
 
 ### Resolution
 
-If you know you have data tagged with multiple tags, recheck the tag separator for each of them. You must use a single tag separator across all data rows.
+If you know you have data tagged with multiple tags, recheck the tag separator for each. You must use a single tag separator across all data rows.
 
 ## Warning: Missing tags for some records
 
