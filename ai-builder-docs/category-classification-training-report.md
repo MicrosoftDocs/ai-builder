@@ -12,14 +12,14 @@ ms.reviewer: v-aangie
 
 # Category classification model training errors and warnings
 
-While training the category classification model, you might come across the messages in this article that may be reported by AI builder. Messages are either *errors* or *warnings*. Each is represented by an icon.
+While training the category classification model, you might come across the messages in this article that AI Builder might report. Messages are either *errors* or *warnings*. Each is represented by an icon.
 
 |Message |Icon  |
 |---------|---------|
 |Error   | ![Error icon](media/predict-icon-error.png "Error icon")        |
 |Warning | ![Warning icon](media/predict-icon-warn.png "Warning icon")
 
-When an error occurs, you can't continue until you resolve it. If the system doesn't know how to correct a problem, it will show you an error.
+When an error occurs, you can't continue until you resolve it. If the system is unable to correct a problem, it will show you an error.
 
 Warnings are messages reported as informational. They don't stop you from proceeding. They warn you of possible performance issues when training the model.
 
