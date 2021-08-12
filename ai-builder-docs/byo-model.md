@@ -6,7 +6,7 @@ ms.service: aibuilder
 ms.topic: conceptual
 ms.custom:
 ms.date: 08/16/2021
-ms.author: Raj-Virk
+ms.author: rajvirk
 ms.reviewer: v-aangie
 ---
 
@@ -20,9 +20,9 @@ When you use your own model, it's sometimes referred to as a *model endpoint*, w
 
 ## Create your own model
 
-Apart from AI Builder, you can create your own model using Azure or *\<example>*. 
+Apart from AI Builder, you can create your own model using Azure or any model created on a machine language platform. <!--- Any, or just Azure? -->
 
-To be able to register and use your custom model in AI Builder, it has to meet certain requirements:
+To register and use your custom model in AI Builder, it has to meet certain requirements:
 
 - Existing model in any machine language platform with an endpoint.
 
@@ -30,7 +30,7 @@ To be able to register and use your custom model in AI Builder, it has to meet c
 
 ## Register your own model
 
-The first step in bringing your own model into AI Builder is to register it. To register, follow the procedure in [Bring your own model tutorial](https://github.com/microsoft/PowerApps-Samples/tree/master/ai-builder/BringYourOwnModelTutorial), which is in GitHub. <!-- Where do you find RegisterModel.ipynb notebook in tutorial? -->
+The first step in bringing your own model into AI Builder is to register it. To register, follow the procedure in [Bring your own model tutorial](https://github.com/microsoft/PowerApps-Samples/tree/master/ai-builder/BringYourOwnModelTutorial) (in GitHub). <!-- Where do you find RegisterModel.ipynb notebook in the tutorial? -->
 
 Once you register the model, you'll see it in the list of AI Builder models. On the model details page, the **Model source** will be **Imported** to show that the external model is registered to AI Builder using your imported model endpoint.
 
@@ -39,7 +39,7 @@ Once you register the model, you'll see it in the list of AI Builder models. On 
 
 ## Limitations
 
-- The only authentication mechanism supported is [API keys](/azure/machine-learning/how-to-authenticate-web-service) using [Azure Machine Learning](/azure/machine-learning/overview-what-is-azure-machine-learning). <!--API keys is not a product. Is link correct? -->
+- The only authentication mechanism supported is [API keys](/azure/machine-learning/how-to-authenticate-web-service) using [Azure Machine Learning](/azure/machine-learning/overview-what-is-azure-machine-learning)
 
 - Swagger version 2.0 is supported.
 
@@ -53,7 +53,7 @@ Once you register the model, you'll see it in the list of AI Builder models. On 
    - Boolean
    - String
 
-- Base64 encoded image is supported only for real-time prediction (not supported for batch prediction). <!-- MSFT doesn't eo real-time, right? -->
+- If your model takes an image as an input in Base64, it can be used for real-time prediction only, for consumption in Power Automate or Microsoft Power Fx (the formula language for canvas apps). Batch prediction isn't supported.
    - The name of the field should end with **image** (case insensitive).
    - The data type should be **String**.
 
