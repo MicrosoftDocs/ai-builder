@@ -154,9 +154,9 @@
       href: form-processing-sample-data.md
 - name: Bring your own AI model
   items:
-  -name: Create your own model
-   href: byo-model.md
-  -name: Application lifecycle management
+  - name: Create your own model
+    href: byo-model.md
+  - name: Application lifecycle management
     href: byom-alm.md 
 - name: Use AI Builder in Power Automate
   items:
