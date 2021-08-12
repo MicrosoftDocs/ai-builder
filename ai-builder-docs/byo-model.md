@@ -61,4 +61,4 @@ You're now ready to use your own model in AI Builder. You can perform applicatio
 
 ### See also
 
-[Application lifecycle management](byom-apl.md)
+[Application lifecycle management](byom-alm.md)

@@ -36,7 +36,7 @@ For solution features, go to [Solutions](/power-platform/alm/basics-alm).
    1. Select **Create**.
 
    > [!div class="mx-imgBorder"]
-   > ![Screenshot of a how to create anew solution.](media/byom-alm/alm-solution.png "Create a new solution")
+   > ![Screenshot of a how to create a solution to store the custom connector.](media/byom-alm/alm-solution.png "Create a solution to store the custom connector")
 
 1. Add an existing custom connector by selecting **Add** > **Automation** > **Custom connector**.
 
@@ -60,7 +60,7 @@ For solution features, go to [Solutions](/power-platform/alm/basics-alm).
    1. Select **Create**.
 
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of a how to create anew solution.](media/byom-alm/alm-solution-new.png "Create a new solution")
+    > ![Screenshot of a how to create a new solution to add the model and any other components.](media/byom-alm/alm-solution-new.png "Create a new solution to add the model and any other components")
 
 1. Add an existing connection reference by selecting **Add** > **More** > **Connection Reference (preview)**.
 
