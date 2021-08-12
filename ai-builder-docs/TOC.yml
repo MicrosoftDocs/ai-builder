@@ -152,11 +152,11 @@
       href: improve-form-processing-performance.md
     - name: Use sample data
       href: form-processing-sample-data.md
-- name: Bring your own AI model
+- name: Bring your own AI model (preview)
   items:
-  - name: Create your own model
+  - name: Create your own model (preview)
     href: byo-model.md
-  - name: Application lifecycle management
+  - name: Application lifecycle management (preview)
     href: byom-alm.md 
 - name: Use AI Builder in Power Automate
   items:
