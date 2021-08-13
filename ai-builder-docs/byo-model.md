@@ -5,7 +5,7 @@ author: Raj-Virk
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom:
-ms.date: 08/16/2021
+ms.date: 08/23/2021
 ms.author: rajvirk
 ms.reviewer: v-aangie
 ---
@@ -20,13 +20,11 @@ When you use your own model, it's sometimes referred to as a *model endpoint*, w
 
 ## Create your own model
 
-Outside of AI Builder, you can create your own model using Azure machine learning platform. To use your own model in AI Builder, it must meet certain requirements:
+Outside of AI Builder, you can create your own model using Azure machine learning platform. To use it in AI Builder, it must meet certain requirements:
 
-- You have an existing model that's in Azure machine learning platform with an endpoint.
+- Your own model contains an API definition that adheres to OpenAPI specifications (also known as swagger).
 
-- Your model contains an API definition that adheres to OpenAPI specifications (also known as swagger).
-
-- You've registered your model in AI Builder using a Python package.
+- You've registered your own model in AI Builder using a Python package.
 
 ## Register your own model
 
@@ -53,7 +51,7 @@ Once you register the model, you'll see it in the list of AI Builder models. On 
    - Boolean
    - String
 
-- If your model takes an image as an input in Base64, it can be used for real-time prediction only, for consumption in Power Automate or [Microsoft Power Fx](/power-platform/power-fx/overview). Batch prediction isn't supported.
+- If your model takes an image as an input in Base64, it can be used for real-time prediction only, for consumption in [Power Automate](/power-automate/getting-started) or [Microsoft Power Fx](/power-platform/power-fx/overview). Batch prediction isn't supported.
    - The name of the field should end with **image** (case insensitive).
    - The data type should be **String**.
 

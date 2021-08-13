@@ -5,7 +5,7 @@ author: Raj-Virk
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom:
-ms.date: 08/16/2021
+ms.date: 08/23/2021
 ms.author: rajvirk
 ms.reviewer: v-aangie
 ---
@@ -14,7 +14,7 @@ ms.reviewer: v-aangie
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-After you've [registered](byo-model.md#register-your-own-model) your own model in the AI Builder software development kit (SDK), you can package your model using solutions to perform application lifecycle management (ALM) tasks, such as:
+After you've [registered](byo-model.md#register-your-own-model) your own model in AI Builder using a Python package, you can package your model using solutions to perform application lifecycle management (ALM) tasks, such as:
 
 - [Export your own model using a solution](#export-your-own-model-using-a-solution).
 - [Import your own model into the target environment](#import-your-own-model-into-the-target-environment).
@@ -30,7 +30,9 @@ In this example, you'll export two solutions:
    - The solution containing only the custom connector.
    - The solution containing the model, connection reference, and any other components.
 
-1. Make sure you've registered your own model in the source environment using the AI Builder SDK.
+For help on how to export solutions, go to [Export solutions](/powerapps/maker/data-platform/export-solutions) for Power Apps, or [Export solutions](/power-automate/export-flow-solution) for Power Automate.
+
+1. Make sure you've registered your own model in the source environment using a Python package. For detailed instructions, go to [Bring your own model tutorial](https://github.com/microsoft/PowerApps-Samples/tree/master/ai-builder/BringYourOwnModelTutorial) (in GitHub).
 
     If you haven't already registered, follow the procedure in [Bring your own model tutorial](https://github.com/microsoft/PowerApps-Samples/tree/master/ai-builder/BringYourOwnModelTutorial) (in GitHub).
 
@@ -102,7 +104,11 @@ In this example, you'll import two solutions that you created in the previous se
    - The solution containing only the custom connector.
    - The solution containing the model, connection reference, and any other components.
 
-1.	Create the connection to your external endpoint.<!-- How do you get to this screen? -->
+1. Sign in to [Power Apps](https://make.powerapps.com) or [Power Automeate](https://flow.microsoft.com).
+
+    For help on how to import solutions, go to [Import solutions](/powerapps/maker/data-platform/import-update-export-solutions) for Power Apps, or [Import solutions](/power-automate/import-flow-solution) for Power Automate.
+
+1.	Create the connection to your external endpoint.
       - If your endpoint is unsecured, select **Create**.
       -  If your endpoint is secured with an API key, enter it in the **API Key** field, and then select **Create**.
 
@@ -126,11 +132,15 @@ For more information on upgrading, go to [Upgrade or update a solution](/powerap
 
 ### Upgrade your own model in the source environment
 
-1. Make you've registered your own model in the source environment using the AI Builder SDK. Use the same model name and pass **override=True**. <!-- Where is the override? Not in the tutorial. 8/13: ... registered your upgraded model. Add link to tutorial. -->
+1. Make sure you've registered your upgraded model in the source environment using a Python package. For detailed instructions, go to [Bring your own model tutorial](https://github.com/microsoft/PowerApps-Samples/tree/master/ai-builder/BringYourOwnModelTutorial) (in GitHub).
 
    If you haven't already registered, follow the procedure in [Bring your own model tutorial](https://github.com/microsoft/PowerApps-Samples/tree/master/ai-builder/BringYourOwnModelTutorial) (in GitHub).
 
-1.	Select the solution containing only the custom connector.
+    For help on how to upgrade, go to [Upgrade a solution](/powerapps/maker/data-platform/update-solutions).
+
+1.	Sign in to [Power Apps](https://make.powerapps.com) or [Power Automeate](https://flow.microsoft.com).
+
+1. Select the solution containing only the custom connector.
     1. Add a new existing custom connector by selecting **Add**.
     1. Complete the fields and enter the new version. In this example, it's v2 since this is the second version.
     
@@ -150,6 +160,8 @@ For more information on upgrading, go to [Upgrade or update a solution](/powerap
 1. Export the solution by selecting **Export**. The AI model and any component referencing the model are automatically updated to point to the latest version.
 
 ### Upgrade your own model in the target environment
+
+1. Sign in to [Power Apps](https://make.powerapps.com) or [Power Automeate](https://flow.microsoft.com).
 
 1. Import the solution containing only the connector by selecting **Import**.
 
@@ -172,9 +184,13 @@ The model now will reference the new endpoint in the target environment.
 
 You'll want to stage your model for upgrade so the newest version of the model is referenced in all components in the environment.
 
+For help on how to import solutions, go to [Import solutions](/powerapps/maker/data-platform/import-update-export-solutions) for Power Apps, or [Import solutions](/power-automate/import-flow-solution) for Power Automate.
+
+1. Sign in to [Power Apps](https://make.powerapps.com) or [Power Automeate](https://flow.microsoft.com).
+
 1. Import the solution containing only the connector by selecting **Import**. 
 
-1. Accept the default action, **Upgrade**. <!--I don't see this. -->
+1. Accept the default action, **Upgrade**.
 
 1. Import the solution containing the model, connection reference, and any other components by selecting **Import**.
 
