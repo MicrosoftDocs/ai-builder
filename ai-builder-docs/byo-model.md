@@ -45,7 +45,7 @@ Once you register the model, you'll see it in the list of AI Builder models. On 
 
 - The only authentication mechanism supported is [API keys](/azure/machine-learning/how-to-authenticate-web-service) using [Azure Machine Learning](/azure/machine-learning/overview-what-is-azure-machine-learning).
 
-- Swagger version 2.0 is supported.
+- Only Swagger 2.0 is supported.
 
 - Maximum allowed batch size is 500 rows.
 
@@ -57,7 +57,7 @@ Once you register the model, you'll see it in the list of AI Builder models. On 
    - Boolean
    - String
 
-- If your model takes an image as an input in Base64, it can be used for real-time prediction only, for consumption in Power Automate or Microsoft Power Fx (the formula language for canvas apps). Batch prediction isn't supported.
+- If your model takes an image as an input in Base64, it can be used for real-time prediction only, for consumption in Power Automate or [Microsoft Power Fx](/power-platform/power-fx/overview). Batch prediction isn't supported.
    - The name of the field should end with **image** (case insensitive).
    - The data type should be **String**.
 
