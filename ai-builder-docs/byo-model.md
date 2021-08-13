@@ -22,15 +22,19 @@ When you use your own model, it's sometimes referred to as a *model endpoint*, w
 
 Apart from AI Builder, you can create your own model using Azure or any model created on a machine language platform. <!--- Any, or just Azure? -->
 
-To register and use your custom model in AI Builder, it has to meet certain requirements:
+To use your own model in AI Builder, it must meet certain requirements:
 
-- Existing model in any machine language platform with an endpoint.
+- You have an existing model that's in any machine language platform with an endpoint.
 
-- API definition (also known as swagger).
+- Your model contains an API definition (also known as swagger).
+
+- You've registered your model in the AI Builder SDK.
+
+
 
 ## Register your own model
 
-The first step in bringing your own model into AI Builder is to register it. To register, follow the procedure in [Bring your own model tutorial](https://github.com/microsoft/PowerApps-Samples/tree/master/ai-builder/BringYourOwnModelTutorial) (in GitHub). <!-- Where do you find RegisterModel.ipynb notebook in the tutorial? -->
+The first step in bringing your own model into AI Builder is to register it. To register, follow the procedure in [Bring your own model tutorial](https://github.com/microsoft/PowerApps-Samples/tree/master/ai-builder/BringYourOwnModelTutorial) (in GitHub).
 
 Once you register the model, you'll see it in the list of AI Builder models. On the model details page, the **Model source** will be **Imported** to show that the external model is registered to AI Builder using your imported model endpoint.
 
@@ -39,7 +43,7 @@ Once you register the model, you'll see it in the list of AI Builder models. On 
 
 ## Limitations
 
-- The only authentication mechanism supported is [API keys](/azure/machine-learning/how-to-authenticate-web-service) using [Azure Machine Learning](/azure/machine-learning/overview-what-is-azure-machine-learning)
+- The only authentication mechanism supported is [API keys](/azure/machine-learning/how-to-authenticate-web-service) using [Azure Machine Learning](/azure/machine-learning/overview-what-is-azure-machine-learning).
 
 - Swagger version 2.0 is supported.
 
@@ -57,7 +61,7 @@ Once you register the model, you'll see it in the list of AI Builder models. On 
    - The name of the field should end with **image** (case insensitive).
    - The data type should be **String**.
 
-You're now ready to use your own model in AI Builder. You can perform application lifecycle management tasks such as package your model in a solution, import your model into a target environment, and upgrade your model in source/target environments.
+You're now ready to use your own model in AI Builder. You can perform application lifecycle management tasks such as package your model in a solution, import your model into the target environment, and upgrade your model in source/target environments.
 
 ### See also
 

@@ -154,7 +154,7 @@
       href: form-processing-sample-data.md
 - name: Bring your own AI model (preview)
   items:
-  - name: Create your own model (preview)
+  - name: Create and register your own model (preview)
     href: byo-model.md
   - name: Application lifecycle management (preview)
     href: byom-alm.md 
