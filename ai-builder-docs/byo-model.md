@@ -20,15 +20,13 @@ When you use your own model, it's sometimes referred to as a *model endpoint*, w
 
 ## Create your own model
 
-Apart from AI Builder, you can create your own model using Azure or any model created on a machine language platform. <!--- Any, or just Azure? -->
+Outside of AI Builder, you can create your own model using Azure machine learning platform. To use your own model in AI Builder, it must meet certain requirements:
 
-To use your own model in AI Builder, it must meet certain requirements:
+- You have an existing model that's in Azure machine learning platform with an endpoint.
 
-- You have an existing model that's in any machine language platform with an endpoint.
+- Your model contains an API definition that adheres to OpenAPI specifications (also known as swagger).
 
-- Your model contains an API definition (also known as swagger).
-
-- You've registered your model in the AI Builder SDK.
+- You've registered your model in AI Builder using a Python package.
 
 ## Register your own model
 
