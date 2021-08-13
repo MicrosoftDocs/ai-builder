@@ -1,6 +1,6 @@
 ---
-title: Application lifecycle management - AI Builder (preview) | Microsoft Docs
-description: Provides information on how to use application lifecycle management in your own model imported into AI Builder.
+title: Package your model using solutions (preview) | Microsoft Docs
+description: Provides information on how to package your model using solutions to export, import, upgrade, and stage these models across environments.
 author: Raj-Virk
 ms.service: aibuilder
 ms.topic: conceptual
@@ -10,32 +10,31 @@ ms.author: rajvirk
 ms.reviewer: v-aangie
 ---
 
-# Application lifecycle management (preview)
+# Package your model using solutions (preview)
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-After you've [registered](byo-model.md#register-your-own-model) your own model in the AI Builder software development kit (SDK), you can perform application lifecycle management (ALM) tasks, such as:
+After you've [registered](byo-model.md#register-your-own-model) your own model in the AI Builder software development kit (SDK), you can package your model using solutions to perform application lifecycle management (ALM) tasks, such as:
 
-- [Package your model in a solution](#package-your-own-model-in-a-solution).
+- [Export your model using a solution](#export-your-own-model-using-a-solution).
 - [Import your own model into the target environment](#import-your-own-model-into-the-target-environment).
 - [Upgrade your own model in source/target environments](#upgrade-your-own-model).
 - [Stage your own model for upgrade](#stage-your-own-model-for-upgrade).
 
-For ALM concepts in Microsoft Power Platform, go to [Overview of application lifecycle management](/power-platform/alm/overview-alm). To understand the components, tools, and processes needed to implement ALM with Power Platform, go to [ALM basics](/power-platform/alm/basics-alm).
+Solutions are used to transport apps and components from one environment to another. They are also used to apply a set of customizations to existing apps. For detailed information about solutions and how it's used to apply ALM concepts across Microsoft Power Platform, go to [Overview of application lifecycle management](/power-platform/alm/overview-alm).
 
-## Package your own model in a solution
+## Export your own model using a solution
 
-Solutions are used to transport apps and components from one environment to another. They are also used to apply a set of customizations to existing apps.
 
-For solution features, go to [Solutions](/power-platform/alm/basics-alm).
 
-1. Make you've registered your own model in the source environment using the AI Builder SDK.
+1. Make sure you've registered your own model in the source environment using the AI Builder SDK.
 
     If you haven't already registered, follow the procedure in [Bring your own model tutorial](https://github.com/microsoft/PowerApps-Samples/tree/master/ai-builder/BringYourOwnModelTutorial) (in GitHub).
 
 1. Create a solution to store the custom connector that is associated with the model:
-   1. Select **Solutions** > **New solutions**.
-   1. In the **New solution** dialog, complete the fields.
+   1. Sign in to [Power Apps](https://make.powerapps.com) or [Power Automeate](https://flow.microsoft.com).
+   1. In the left navigation pane, select **Solutions** > **New solution**.
+   1. In the **New solution** dialog, complete the fields. For detailed information about filling each field, see [Create a solution](/powerapps/maker/data-platform/create-solution).
    1. Select **Create**.
 
    > [!div class="mx-imgBorder"]
@@ -95,7 +94,7 @@ For solution features, go to [Solutions](/power-platform/alm/basics-alm).
 
 ## Import your own model into the target environment
 
-In this example, you'll import two solutions.
+In this example, you'll import two solutions that you created in the previous section.
 
    - The solution containing only the custom connector.
    - The solution containing the model, connection reference, and any other components.
