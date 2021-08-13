@@ -126,7 +126,7 @@ For more information on upgrading, go to [Upgrade or update a solution](/powerap
 
 ### Upgrade your own model in the source environment
 
-1. Make you've registered your own model in the source environment using the AI Builder SDK. Use the same model name and pass **override=True**. <!-- Where is the override? Not in the tutorial. --> 
+1. Make you've registered your own model in the source environment using the AI Builder SDK. Use the same model name and pass **override=True**. <!-- Where is the override? Not in the tutorial. 8/13: ... registered your upgraded model. Add link to tutorial. -->
 
    If you haven't already registered, follow the procedure in [Bring your own model tutorial](https://github.com/microsoft/PowerApps-Samples/tree/master/ai-builder/BringYourOwnModelTutorial) (in GitHub).
 
