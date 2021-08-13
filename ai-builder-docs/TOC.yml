@@ -156,7 +156,7 @@
   items:
   - name: Create and register your own model (preview)
     href: byo-model.md
-  - name: Package your model using solutions (preview)
+  - name: Package your own model using solutions (preview)
     href: byom-alm.md 
 - name: Use AI Builder in Power Automate
   items:

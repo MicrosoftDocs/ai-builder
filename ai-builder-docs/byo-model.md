@@ -30,8 +30,6 @@ To use your own model in AI Builder, it must meet certain requirements:
 
 - You've registered your model in the AI Builder SDK.
 
-
-
 ## Register your own model
 
 The first step in bringing your own model into AI Builder is to register it. To register, follow the procedure in [Bring your own model tutorial](https://github.com/microsoft/PowerApps-Samples/tree/master/ai-builder/BringYourOwnModelTutorial) (in GitHub).
@@ -65,4 +63,4 @@ You're now ready to use your own model in AI Builder. You can perform applicatio
 
 ### See also
 
-[Package your model using solutions](byom-alm.md)
+[Package your own model using solutions](byom-alm.md)

@@ -1,6 +1,6 @@
 ---
-title: Package your model using solutions (preview) | Microsoft Docs
-description: Provides information on how to package your model using solutions to export, import, upgrade, and stage these models across environments.
+title: Package your own model using solutions (preview) | Microsoft Docs
+description: Provides information on how to package your own model using solutions to export, import, upgrade, and stage these models across environments.
 author: Raj-Virk
 ms.service: aibuilder
 ms.topic: conceptual
@@ -10,13 +10,13 @@ ms.author: rajvirk
 ms.reviewer: v-aangie
 ---
 
-# Package your model using solutions (preview)
+# Package your own model using solutions (preview)
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
 After you've [registered](byo-model.md#register-your-own-model) your own model in the AI Builder software development kit (SDK), you can package your model using solutions to perform application lifecycle management (ALM) tasks, such as:
 
-- [Export your model using a solution](#export-your-own-model-using-a-solution).
+- [Export your own model using a solution](#export-your-own-model-using-a-solution).
 - [Import your own model into the target environment](#import-your-own-model-into-the-target-environment).
 - [Upgrade your own model in source/target environments](#upgrade-your-own-model).
 - [Stage your own model for upgrade](#stage-your-own-model-for-upgrade).
@@ -25,7 +25,10 @@ Solutions are used to transport apps and components from one environment to anot
 
 ## Export your own model using a solution
 
+In this example, you'll export two solutions:
 
+   - The solution containing only the custom connector.
+   - The solution containing the model, connection reference, and any other components.
 
 1. Make sure you've registered your own model in the source environment using the AI Builder SDK.
 
@@ -94,7 +97,7 @@ Solutions are used to transport apps and components from one environment to anot
 
 ## Import your own model into the target environment
 
-In this example, you'll import two solutions that you created in the previous section.
+In this example, you'll import two solutions that you created in the previous section:
 
    - The solution containing only the custom connector.
    - The solution containing the model, connection reference, and any other components.
