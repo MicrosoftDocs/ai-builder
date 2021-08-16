@@ -55,7 +55,7 @@ Once you register the model, you'll see it in the list of AI Builder models. On 
    - The name of the field should end with **image** (case insensitive).
    - The data type should be **String**.
 
-You're now ready to use your own model in AI Builder. You can perform application lifecycle management tasks such as package your model in a solution, import your model into the target environment, and upgrade your model in source/target environments.
+You're now ready to use your own model in AI Builder. You can perform application lifecycle management tasks such as export your own model using a solution, import your model into the target environment, and upgrade your model in source/target environments.
 
 ### See also
 
