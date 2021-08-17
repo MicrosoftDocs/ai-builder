@@ -1,6 +1,6 @@
 ---
-title: Package your own model using solutions (preview) | Microsoft Docs
-description: Provides information on how to package your own model using solutions to export, import, upgrade, and stage these models across environments.
+title: Package your own model by using solutions (preview) | Microsoft Docs
+description: Provides information on how to package your own model by using solutions to export, import, upgrade, and stage these models across environments.
 author: Raj-Virk
 ms.service: aibuilder
 ms.topic: conceptual
@@ -10,67 +10,67 @@ ms.author: rajvirk
 ms.reviewer: v-aangie
 ---
 
-# Package your own model using solutions (preview)
+# Package your own model by using solutions (preview)
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-After you've [registered](byo-model.md#register-your-own-model) your own model in AI Builder using a Python package, you can package your model using solutions to perform application lifecycle management (ALM) tasks, such as:
+After you've [registered](byo-model.md#register-your-own-model) your own model in AI Builder by using a Python package, you can package your model by using solutions to perform application lifecycle management (ALM) tasks, such as:
 
-- [Export your own model using a solution](#export-your-own-model-using-a-solution).
+- [Export your own model by using a solution](#export-your-own-model-by-using-a-solution).
 - [Import your own model into the target environment](#import-your-own-model-into-the-target-environment).
-- [Upgrade your own model in source/target environments](#upgrade-your-own-model).
+- [Upgrade your own model in source or target environments](#upgrade-your-own-model).
 - [Stage your own model for upgrade](#stage-your-own-model-for-upgrade).
 
-Solutions are used to transport apps and components from one environment to another. They are also used to apply a set of customizations to existing apps. For detailed information about solutions and how they're used to apply ALM concepts across Microsoft Power Platform, go to [Overview of application lifecycle management](/power-platform/alm/overview-alm).
+Solutions are used to transport apps and components from one environment to another. They're also used to apply a set of customizations to existing apps. For detailed information about solutions and how they're used to apply ALM concepts across Microsoft Power Platform, go to [Overview of application lifecycle management](/power-platform/alm/overview-alm).
 
-## Export your own model using a solution
+## Export your own model by using a solution
 
 In this example, you'll export two solutions:
 
-   - The solution that contains only the custom connector.
-   - The solution that contains the model, connection reference, and any other components.
+- The solution that contains only the custom connector
+- The solution that contains the model, connection reference, and any other components
 
-For help on how to export solutions, go to [Export solutions](/powerapps/maker/data-platform/export-solutions) for Power Apps, or [Export solutions](/power-automate/export-flow-solution) for Power Automate.
+For help on how to export solutions, go to [Export solutions for Power Apps](/powerapps/maker/data-platform/export-solutions) or [Export solutions for Power Automate](/power-automate/export-flow-solution).<!--note from editor: Suggest making the whole phrase a link. I think it makes it a bit clearer where to click.-->
 
-1. Make sure you've registered your own model in the source environment using a Python package. If you haven't already registered, follow the procedure in [Bring your own model tutorial](https://github.com/microsoft/PowerApps-Samples/tree/master/ai-builder/BringYourOwnModelTutorial) (in GitHub).
+1. Make sure you've registered your own model in the source environment by using a Python package. If you haven't already registered it, follow the procedure in [Bring your own model tutorial](https://github.com/microsoft/PowerApps-Samples/tree/master/ai-builder/BringYourOwnModelTutorial) (on GitHub).<!--note from editor: Style Guide says "use *on* to refer to material existing on the web", but if you don't like this, just plain "(GitHub)" would also work, here and on line 139. This would be analogous to using "(blog)" after blog post links, which we do just to let people know where they'll land when they follow the link.-->
 
-1. Create a solution to store the custom connector that is associated with the model:
+1. Create a solution to store the custom connector that's associated with the model:
    1. Sign in to [Power Apps](https://make.powerapps.com) or [Power Automate](https://flow.microsoft.com).
-   1. In the left navigation pane, select **Solutions** > **New solution**.
-   1. In the **New solution** dialog, complete the fields. For detailed information about filling each field, see [Create a solution](/powerapps/maker/data-platform/create-solution).
+   1. On the left pane, select **Solutions** > **New solution**.
+   1. In the **New solution** dialog, complete the fields. For detailed information about each field, go to [Create a solution](/powerapps/maker/data-platform/create-solution).
    1. Select **Create**.
 
    > [!div class="mx-imgBorder"]
-   > ![Screenshot of a how to create a solution to store the custom connector.](media/byom-alm/alm-solution.png "Create a solution to store the custom connector")
+   > ![Screenshot of how to create a solution to store the custom connector.](media/byom-alm/alm-solution.png "Create a solution to store the custom connector")
 
 1. Add an existing custom connector by selecting **Add** > **Automation** > **Custom connector**.
 
    > [!div class="mx-imgBorder"]
    > ![Screenshot of how to add an existing custom connector.](media/byom-alm/alm-add.png "Add an existing custom connector")
 
-1. Select the custom connector that is associated with the model.
+1. Select the custom connector that's associated with the model.
 
-    The name will be in this format: \<model_name>-\<random number>-v\<version>. The version helps distinguish which connector to add when updating a model.
+    The name will be in this format: \<model_name>-\<random number>-v\<version>. The version helps distinguish which connector to add when you update the model.
 
    > [!div class="mx-imgBorder"]
    > ![Screenshot of the custom connector naming format.](media/byom-alm/alm-format.png "Custom connector naming format")
 
 1. Export the solution:
-   1. Select **Run** > **Next**. (If the solution isn't yet published, you must select **Publish** first.)
+   1. Select **Run** > **Next**. (If the solution hasn't been published yet, you must select **Publish** first.)
    1. Select **Managed** > **Export**.
 
-1. Create a new solution to add the model and any other components.
+1. Create a new solution to add the model and any other components:
    1. Select **Solutions** > **New solutions**.
    1. In the **New solution** dialog, complete the fields.
    1. Select **Create**.
 
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of a how to create a new solution to add the model and any other components.](media/byom-alm/alm-solution-new.png "Create a new solution to add the model and any other components")
+    > ![Screenshot of how to create a new solution to add the model and any other components.](media/byom-alm/alm-solution-new.png "Create a new solution to add the model and any other components")
 
 1. Add an existing connection reference by selecting **Add** > **More** > **Connection Reference (preview)**.
 
    > [!div class="mx-imgBorder"]
-   > ![Screenshot of how to add an existing connsection reference.](media/byom-alm/alm-add-ref.png "Add an existing connection reference")
+   > ![Screenshot of how to add an existing connection reference.](media/byom-alm/alm-add-ref.png "Add an existing connection reference")
 
 1. Add the existing connection reference associated with the model.
 
@@ -82,33 +82,34 @@ For help on how to export solutions, go to [Export solutions](/powerapps/maker/d
 1. Add the AI model by selecting **Add** > **AI Model**.
 
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of a how to add your AI model to AI Builder.](media/byom-alm/alm-add-model.png "Add your AI model to AI Builder")
+    > ![Screenshot of how to add your AI model to AI Builder.](media/byom-alm/alm-add-model.png "Add your AI model to AI Builder")
 
-   Your solution should contain the following components:
+   Your solution should contain the components shown in the following image.<!--note from editor: Please verify the alt text.-->
 
    > [!div class="mx-imgBorder"]
-   > ![Screenshot of your model components.](media/byom-alm/alm-components.png "Model components")
+   > ![Screenshot of three components: An AI model, a connection reference, and a custom connector.](media/byom-alm/alm-components.png "Model components")
 
-1. (*Optional*) Add any desired components.
+1. (*Optional*) Add any components you want.
 
 1. Export the solution:
-   1. Select **Run** > **Next**. (If the solution isn't yet published, you must select **Publish** first.)
+   1. Select **Run** > **Next**. (If the solution hasn't been published yet, you must select **Publish** first.)
    1. Select **Managed** > **Export**.  
 
 ## Import your own model into the target environment
 
 In this example, you'll import two solutions that you created in the previous section:
 
-   - The solution that contains only the custom connector.
-   - The solution that contains the model, connection reference, and any other components.
+- The solution that contains only the custom connector
+- The solution that contains the model, connection reference, and any other components
 
-For help on how to import solutions, go to [Import solutions](/powerapps/maker/data-platform/import-update-export-solutions) for Power Apps, or [Import solutions](/power-automate/import-flow-solution) for Power Automate.
+For help on how to import solutions, go to [Import solutions for Power Apps](/powerapps/maker/data-platform/import-update-export-solutions), or [Import solutions for Power Automate](/power-automate/import-flow-solution).
 
 1. Sign in to [Power Apps](https://make.powerapps.com) or [Power Automate](https://flow.microsoft.com).
 
-1.	Create the connection to your external endpoint.
-      - If your endpoint is unsecured, select **Create**.
-      -  If your endpoint is secured with an API key, enter it in the **API Key** field, and then select **Create**.
+1.	Create the connection to your external endpoint:
+
+      - If your endpoint is not secured, select **Create**.
+      - If your endpoint is secured with an API key, enter it in the **API Key** field, and then select **Create**.
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of the connection to an external endpoint.](media/byom-alm/alm-key.png "connection to an external endpoint")
@@ -124,37 +125,38 @@ If you experience issues with your import, go to [Troubleshooting solution impor
 
 ## Upgrade your own model
 
-Upgrade your solution to the latest version number so that it rolls up all previous patches in one step. Any components associated to the previous solution version that are not in the newer solution version will be deleted. This will ensure components that are no longer part of the solution are removed.
+Upgrade your solution to the latest version number so that it rolls up all previous patches in one step. Any components that were associated with the previous version of the solution and aren't in the newer version will be deleted. This ensures that outdated components won't be included in the solution.<!--note from editor: Suggested.-->
 
 In the examples, you'll upgrade two solutions:
 
-   - The solution that contains only the custom connector.
-   - The solution that contains the model, connection reference, and any other components.
+- The solution that contains only the custom connector
+- The solution that contains the model, connection reference, and any other components
 
 For help on how to upgrade, go to [Upgrade or update a solution](/powerapps/maker/data-platform/update-solutions).
 
 ### Upgrade your own model in the source environment
 
-1. Make sure you've registered your upgraded model in the source environment using a Python package. If you haven't already registered, follow the procedure in [Bring your own model tutorial](https://github.com/microsoft/PowerApps-Samples/tree/master/ai-builder/BringYourOwnModelTutorial) (in GitHub).
+1. Make sure you've registered your upgraded model in the source environment by using a Python package. If you haven't already registered it, follow the procedure in [Bring your own model tutorial](https://github.com/microsoft/PowerApps-Samples/tree/master/ai-builder/BringYourOwnModelTutorial) (on GitHub).
 
 1.	Sign in to [Power Apps](https://make.powerapps.com) or [Power Automate](https://flow.microsoft.com).
 
 1. In the solution that contains only the custom connector, add a new existing custom connector by selecting **Add**.
 
-1. Complete the fields and enter the new version. In this example, it's v2 since this is the second version.
-    
+1. Complete the fields and enter the new version. In this example, it's v2 because this is the second version.
+
 1. Remove the older version of the custom connector from the solution:
-    1. Select the three dots next to the older version.
+    1. Select the vertical ellipsis (&vellip;) next to the older version.
     1. Select **Remove** > **Remove from this solution**.
 
    > [!div class="mx-imgBorder"]
    > ![Screenshot of removing an older version from a solution.](media/byom-alm/alm-remove.png "Remove an older version from a solution")
 
-1.	Export the solution by selecting **Export**. The version is incremented by default when exporting.
+1.	Export the solution by selecting **Export**. By default, the version will be incremented by during export.<!--note from editor: Suggested.-->
 
-1.	In the solution that contains the model, connection reference, and any other components, update the connection reference to the latest version. Match the custom connector name from step 3. In this example, v2 is the latest version.
+1.	In the solution that contains the model, connection reference, and any other components, update the connection reference to point to the latest version:<!--note from editor: The following edits are suggested. I got a bit confused in here.-->
 
-    To do this, remove the older version of the connection reference from the solution by selecting the name to remove, and then selecting **Remove** > **Remove from this solution**.
+    1. Find the same custom connector name you added in step 3. In this example, v2 is the latest version so you'll remove v1.
+    1. Remove the older version of the connection reference from the solution by selecting the name to remove (in this example v1), and then selecting **Remove** > **Remove from this solution**.
 
 1. Export the solution by selecting **Export**. The AI model and any component referencing the model are automatically updated to point to the latest version.
 
@@ -166,8 +168,8 @@ For help on how to upgrade, go to [Upgrade or update a solution](/powerapps/make
 
 1.	Import the solution that contains the model, connection reference, and any other component by selecting **Import** > **Upgrade**.
 
-1. Create new connections to the new endpoint.
-    1. If your endpoint is unsecured, select **Create**.
+1. Create new connections to the new endpoint:
+    1. If your endpoint is not secured, select **Create**.
     1. If your endpoint is secured with an API key, enter it in the **API Key** field, and then select **Create**.
 
     > [!div class="mx-imgBorder"]
@@ -176,13 +178,13 @@ For help on how to upgrade, go to [Upgrade or update a solution](/powerapps/make
 The model now will reference the new endpoint in the target environment.
 
    > [!div class="mx-imgBorder"]
-   > ![Screenshot of the model referencing the new endpoint in the target environment.](media/byom-alm/alm-stage-2.png "Model referencing the new endpoint in te target environment")
+   > ![Screenshot of the model referencing the new endpoint in the target environment.](media/byom-alm/alm-stage-2.png "Model referencing the new endpoint in the target environment")
 
 ## Stage your own model for upgrade
 
 You'll want to stage your model for upgrade so the newest version of the model is referenced in all components in the environment.
 
-For help on how to import solutions, go to [Import solutions](/powerapps/maker/data-platform/import-update-export-solutions) for Power Apps, or [Import solutions](/power-automate/import-flow-solution) for Power Automate.
+For help on how to import solutions, go to [Import solutions for Power Apps](/powerapps/maker/data-platform/import-update-export-solutions) or [Import solutions for Power Automate](/power-automate/import-flow-solution).
 
 1. Sign in to [Power Apps](https://make.powerapps.com) or [Power Automate](https://flow.microsoft.com).
 
@@ -190,8 +192,8 @@ For help on how to import solutions, go to [Import solutions](/powerapps/maker/d
 
 1. Import the solution that contains the model, connection reference, and any other components by selecting **Import** > **Stage for Upgrade**.
 
-1. Create new connections to the new endpoint.
-    1. If your endpoint is unsecured, select **Create**.
+1. Create new connections to the new endpoint:
+    1. If your endpoint is not secured, select **Create**.
     1. If your endpoint is secured with an API key, enter it in the **API Key** field, and then select **Create**.
 
     > [!div class="mx-imgBorder"]
@@ -202,7 +204,7 @@ For help on how to import solutions, go to [Import solutions](/powerapps/maker/d
     In the following example, the cloud flow in the base solution references the old version and the cloud flow in the new solution references the new version.
 
    > [!div class="mx-imgBorder"]
-   > ![Screenshot of components before they are staged for upgrade.](media/byom-alm/alm-stage-1.png "Components before they are staged for upgrade")
+   > ![Screenshot of components before they're staged for upgrade.](media/byom-alm/alm-stage-1.png "Components before they're staged for upgrade")
 
 1. To upgrade the old version, select **Apply upgrade**.
 
