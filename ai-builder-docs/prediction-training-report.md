@@ -5,14 +5,10 @@ author: norliu
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 08/02/2021
+ms.date: 08/09/2021
 ms.author: norliu
 ms.reviewer: v-aangie
 ---
-
-
-<!-- Please check the warning text in line 120. "might suspect to cause target leak" doesn't sound right. -->
-
 
 # Prediction model training errors and warnings
 
@@ -37,7 +33,7 @@ Warnings are messages reported as informational. They don't stop you from procee
 
 ### Cause
 
-You either don't have an active AI Builder license, or the existing trial has expired.
+You either don't have an active [AI Builder license](administer-licensing.md), or the existing trial has expired.
 
 ### Resolution
 
@@ -90,7 +86,7 @@ We recommend 1,000 rows or more of historical data with outcomes to predict outc
 
 ## Warning: Column might be dropped from training model
 
-*\<TableName>.\<AttributeName> might get dropped from training as it has a single value and does not contribute to training the model.*
+*\<TableName>.\<ColumnName> might get dropped from training as it has a single value and does not contribute to training the model.*
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of warning message that a column might get dropped.](media/predict-warn-drop.png "Column might get dropped warning message")
@@ -105,7 +101,7 @@ Make sure that all columns selected as being related to the outcome column have 
 
 ## Warning: High ratio of missing values
 
-*\<TableName>.\<AttributeName> has a high ratio of missing values, greater than \<ThresholdValue> percentage and might not contribute to train the model.*
+*\<TableName>.\<ColumnName> has a high ratio of missing values, greater than \<ThresholdValue> percentage and might not contribute to train the model.*
 
 ### Cause
 
@@ -117,13 +113,11 @@ Make sure the columns that are selected as being related to the outcome have dat
 
 ## Warning: High percent correlation to the outcome column
 
-*\<TableName>.\<AttributeName> has \<ThresholdValue> percent correlation \<CorrelationName> with \<OutcomeAttributeName> and model might suspect to cause target leak.*
+*\<TableName>.\<ColumnName> has \<ThresholdValue> percent correlation \<CorrelationName> with \<OutcomeAttributeName> and model might suspect to cause target leak.*
 
 ### Cause
 
 The AI model processes the data in the columns related to the outcome that will influence the prediction. Of the various columns selected, it found that the specified column has a high correlation with the outcome column, which might impact the prediction result. Because of this, it won't be included in training the model.
-
-*Target leakage* is when you train your model on a dataset that includes information that wouldn't be available at the time of prediction. This might result in unrealistic data.
 
 ### Resolution
 

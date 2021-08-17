@@ -5,7 +5,7 @@ author: norliu
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 08/02/2021
+ms.date: 08/09/2021
 ms.author: norliu
 ms.reviewer: v-aangie
 ---
@@ -30,11 +30,17 @@ Warnings are messages reported as informational. They don't stop you from procee
 
 ### Cause
 
-You'll receive this error if you've supplied fewer than 10 distinct training records in your table per tag.
+Following are the possible causes for receiving this error:
+
+- You've supplied fewer than 10 distinct training records per tag in your table.
+
+- You've supplied fewer than two tags, where each has 10 or more distinct training records in your table.
+
+- For each of your tags, you've supplied fewer than 10 distinct training records that don't contain the tag.
 
 ### Resolution
 
-Add a minimum of 10 distinct training records for each of the tags to be identified. Follow the guidelines provided in Data Preparation.
+Add a minimum of 10 distinct training records for each of the tags to be identified. Follow the guidelines in [Before you build a category classification model](before-you-build-text-classification-model.md#data-preparation) to do the data preparation.
 
 ## Error: No tag separator recommended
 

@@ -16,7 +16,7 @@ ms.reviewer: v-aangie
 1. In the left pane, select **My flows**, and then select **New flow** > **Instant cloud flow** in the menu at the top.
 1. Name your flow, select **Manually trigger a flow** under **Choose how to trigger this flow**, and then select the **Create** button.
 1. Expand **Manually trigger a flow**, select **+Add an input**, and select **File** as the input type.
-1. Select **+New step**, search for **AI Builder** in the **Actions** tab, and then select **Process and save information from identity documents**.
+1. Select **+New step**, search for **AI Builder** in the **Actions** tab, and then select **Extract information from identity documents**.
 1. Specify **File Content** as the Identity document file you want to process in your flow:
 
     > [!div class="mx-imgBorder"]

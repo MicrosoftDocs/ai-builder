@@ -5,7 +5,7 @@ author: norliu
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 08/02/2021
+ms.date: 08/09/2021
 ms.author: norliu 
 ms.reviewer: v-aangie
 ---
@@ -22,7 +22,9 @@ You're now ready to run your training:
 
 - To retrain an existing version of the model, select **Retrain now** from the ellipsis in the model summary performance.
 
-- To train a new version of the model, select **Edit Model**. This will create a new draft of your model that you can configure and train.
+   Retraining will train the model based on the same set of configurations you've done when you're creating your category classification model, and on the same dataset. If you want to change the training configurations before retrain, select **Edit model**.
+
+- To train a new version of the model, select **Edit model**. This will create a new draft of your model that you can configure and train.
 
 ## Troubleshooting tips
 

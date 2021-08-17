@@ -5,7 +5,7 @@ author: norliu
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 08/03/2021
+ms.date: 08/09/2021
 ms.author: norliu
 ms.reviewer: v-aangie
 ---
@@ -16,7 +16,8 @@ You can get started with the entity extraction model using sample data. The samp
 
 ## Get the sample data
 
-1. Download [AIBuilderLab.zip](https://github.com/microsoft/PowerApps-Samples/blob/master/ai-builder/labs/AIBuilder_Lab.zip).
+1. Download **AIBuilderLab.zip**.
+<!--[AIBuilderLab.zip](https://github.com/microsoft/PowerApps-Samples/blob/master/ai-builder/labs/AIBuilder_Lab.zip). -->
 
    > [!div class="mx-imgBorder"]
    > ![Screenshot of AIBuilder_Lab.zip download screen.](media/entity-download.png "AIBuilder_Lab.zip download screen")
