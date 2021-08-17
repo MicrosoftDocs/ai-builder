@@ -24,7 +24,7 @@ You can get started with the entity extraction model using sample data. The samp
 
 1. Look for **AIBuilderLabSolution_1_0_0_1.zip** that contains the sample table, *Travel Feedback*.
 
-   Sample data for this table can be found in the Lab Data\EntityClassification\aib_travelfeedback.csv,
+   Sample data for this table can be found in the Lab Data\EntityClassification\aib_travelfeedback.csv.
 
 1. Sign in to [Power Apps](https://make.powerapps.com/) and choose the environment where you've imported the solution from step 1.
 
@@ -33,12 +33,12 @@ You can get started with the entity extraction model using sample data. The samp
    > [!div class="mx-imgBorder"]
    > ![Screenshot of AI Builder Lab Solution screen showing Travel Feedback table.](media/entity-solution.png "AI Builder Lab Solution screen showing Travel Feedback table")
 
-1. Select **Data** > **Get Data** > **Get data from Excel** from the ribbon.
+1. Select **Data** > **Get data** > **Get data from Excel** from the ribbon.
 
    > [!div class="mx-imgBorder"]
    > ![Screenshot of Travel Feedback screen with import option to get data from Excel.](media/entity-excel.png "Travel Feedback screen with import option to get data from Excel")
 
-      You'll see the Import data screen:
+     You'll see the Import data screen:
 
    > [!div class="mx-imgBorder"]
    > ![Screenshot of the Import data screen.](media/entity-import.png "Import data screen")
@@ -75,4 +75,4 @@ You can get started with the entity extraction model using sample data. The samp
 
 ### See also
 
-[Use formulas for text AI models in Power Apps](formula-bar.md#entity-extraction)
+[Entity extraction](formula-bar.md#entity-extraction)
