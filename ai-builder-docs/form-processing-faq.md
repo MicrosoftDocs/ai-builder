@@ -18,7 +18,7 @@ This article consists of frequently asked questions about the form processing mo
 
 ### What can I do with form processing?
 
-With form processing, you can build a custom AI model to extract information from standard documents. Examples of standard documents include invoices, purchase orders, delivery orders, tax forms, and other structured and semi-structured documents. Learn more: [Overview of the form processing model](form-processing-model-overview.md).
+With form processing, you can build a custom AI model to extract information from standard documents. Examples of standard documents include invoices, purchase orders, delivery orders, tax forms, and other structured and semi-structured documents. Learn more: [Overview of the form processing model](form-processing-model-overview.md)
 
 ### What types of documents can form processing handle?
 
@@ -26,7 +26,7 @@ Supported file types are PDF, JPG, and PNG.
 
 ### What data can I extract from documents using form processing?
 
-Form processing can extract fields and tables from documents. Learn more: [Define fields and tables to extract](create-form-processing-model.md).
+Form processing can extract fields and tables from documents. Learn more: [Define fields and tables to extract](create-form-processing-model.md)
 
 ### Can I extract handwritten text from documents?
 
@@ -37,32 +37,32 @@ Coming soon -->
 
 ### How many samples do I need to train a form processing model?
 
-For high quality documents using the same layout, five sample documents should be sufficient. For low quality documents (for example, poorly scanned documents), more sample documents might be necessary. To improve results, use 15 to 20 sample documents.
+For high-quality documents using the same layout, five sample documents should be sufficient. For low-quality documents (for example, poorly scanned documents), more sample documents might be necessary. To improve results, use 15 to 20 sample documents.
 
 ### Can a single form processing model extract information from documents that have different layouts or templates?
 
-Yes. By using the collections feature, you train a single form processing model to handle documents that have different layouts. Learn more: [Group documents by collections](create-form-processing-model.md).
+Yes. By using the collections feature, you train a single form processing model to handle documents that have different layouts. Learn more: [Group documents by collections](create-form-processing-model.md)
 
 ### Can form processing handle *multiple* forms that are in the same *single* document?
 
 Each form should be a separate file. For example, if you have a PDF document with multiple invoices in it, each invoice should be in a separate file before sending it to the form processing model.
 
-You can also specify which pages a form processing model should handle. This allows you to leverage this functionality to loop page-by-page. and process one form at a time. Learn more: [Page ranges](form-processing-model-in-flow.md).
+You can also specify which pages a form processing model should handle. This allows you to leverage this functionality to loop page-by-page. and process one form at a time. Learn more: [Page ranges](form-processing-model-in-flow.md)
 
 ### I’ve trained a form processing model but I’m not getting good results when it comes to extracted data. How can I improve the model?
 
-If your model is returning poor results after training it, edit the model and provide more samples for training. The more samples you provide, the more the AI model will learn how to extract data from your documents. Learn more: [Improve the performance of your form processing model](improve-form-processing-performance.md).
+If your model is returning poor results after training it, edit the model and provide more samples for training. The more samples you provide, the more the AI model will learn how to extract data from your documents. Learn more: [Improve the performance of your form processing model](improve-form-processing-performance.md)
 
 
 ## Limitations
 
-### What are the limits in terms of maximum number of documents I can process?
+### What are the limits for maximum number of documents I can process?
 
-You can process up to 360 documents, per environment, every 60 seconds.
+You can process up to 360 documents per environment, every 60 seconds.
 
 ### Can I use contracts and letters in my form processing model?
 
-Form processing isn't optimized for free form documents like contracts and letters.
+Form processing isn't optimized for free-form documents like contracts and letters.
 
 ## Comparisons
 
@@ -95,4 +95,4 @@ AI Builder form processing is built on top of Azure Form Recognizer. This provid
 
 ### How much does AI Builder form processing cost?
 
-You can start trying out form processing for free by starting a [trial](administer-licensing.md). After you've evaluated it, you'll need to purchase AI Builder credits to use form processing. Every page you process with form processing will consume AI Builder credits. AI Builder credits can be purchased through AI Builder add-ons. Learn more: [AI Builder licensing](administer-licensing.md).
+You can start trying out form processing for free by starting a [trial](administer-licensing.md). After you've evaluated it, you'll need to purchase AI Builder credits to use form processing. Every page you process with form processing will consume AI Builder credits. AI Builder credits can be purchased through AI Builder add-ons. Learn more: [AI Builder licensing](administer-licensing.md)
