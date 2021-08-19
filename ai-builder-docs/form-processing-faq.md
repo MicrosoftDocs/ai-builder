@@ -47,7 +47,7 @@ Yes. By using the collections feature, you train a single form processing model 
 
 Each form should be a separate file. For example, if you have a PDF document with multiple invoices in it, each invoice should be in a separate file before sending it to the form processing model.
 
-You can also specify which pages a form processing model should handle. This allows you to leverage this functionality to loop page-by-page. and process one form at a time. Learn more: [Page ranges](form-processing-model-in-flow.md#page-range)
+You can also specify which pages a form processing model should handle. This allows you to leverage this functionality to loop page-by-page. and process one form at a time. Learn more: [Page range](form-processing-model-in-flow.md#page-range)
 
 ### I’ve trained a form processing model but I’m not getting good results when it comes to extracted data. How can I improve the model?
 
