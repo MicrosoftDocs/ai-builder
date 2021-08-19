@@ -5,14 +5,14 @@ author: JoeFernandezMS
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/01/2021
+ms.date: 08/19/2021
 ms.author: jofernan
 ms.reviewer: v-aangie
 ---
 
 # FAQ for form processing
 
-This article consists of frequently asked questions about the form processing model in AI Builder. If you don't see your question here, review the [Form processing AI model](form-processing-model-overview.md) section, or submit your question to the [Power Apps Community for AI Builder](https://powerusers.microsoft.com/t5/AI-Builder/bd-p/AIBuilder1).
+This article consists of frequently asked questions about the form processing model in AI Builder. If you don't find your question here, review the [Form processing AI model](form-processing-model-overview.md) section, or submit your question to the [Power Automate Community for AI Builder](https://powerusers.microsoft.com/t5/AI-Builder/bd-p/AIBuilder).
 
 ## Functionality
 
@@ -26,7 +26,7 @@ Supported file types are PDF, JPG, and PNG.
 
 ### What data can I extract from documents using form processing?
 
-Form processing can extract fields and tables from documents. Learn more: [Define fields and tables to extract](create-form-processing-model.md)
+Form processing can extract fields and tables from documents. Learn more: [Define fields and tables to extract](create-form-processing-model.md#define-fields-and-tables-to-extract)
 
 ### Can I extract handwritten text from documents?
 
@@ -41,13 +41,13 @@ For high-quality documents using the same layout, five sample documents should b
 
 ### Can a single form processing model extract information from documents that have different layouts or templates?
 
-Yes. By using the collections feature, you train a single form processing model to handle documents that have different layouts. Learn more: [Group documents by collections](create-form-processing-model.md)
+Yes. By using the collections feature, you train a single form processing model to handle documents that have different layouts. Learn more: [Group documents by collections](create-form-processing-model.md#group-documents-by-collections)
 
 ### Can form processing handle *multiple* forms that are in the same *single* document?
 
 Each form should be a separate file. For example, if you have a PDF document with multiple invoices in it, each invoice should be in a separate file before sending it to the form processing model.
 
-You can also specify which pages a form processing model should handle. This allows you to leverage this functionality to loop page-by-page. and process one form at a time. Learn more: [Page ranges](form-processing-model-in-flow.md)
+You can also specify which pages a form processing model should handle. This allows you to leverage this functionality to loop page-by-page. and process one form at a time. Learn more: [Page ranges](form-processing-model-in-flow.md#page-range)
 
 ### I’ve trained a form processing model but I’m not getting good results when it comes to extracted data. How can I improve the model?
 
