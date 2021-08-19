@@ -152,6 +152,8 @@
       href: improve-form-processing-performance.md
     - name: Use sample data
       href: form-processing-sample-data.md
+    - name: FAQ for form processing
+      href: form-processing-faq.md
 - name: Use AI Builder in Power Automate
   items:
   - name: Overview
