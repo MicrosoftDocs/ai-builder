@@ -5,7 +5,7 @@ author: Raj-Virk
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom:
-ms.date: 08/23/2021
+ms.date: 08/24/2021
 ms.author: rajvirk
 ms.reviewer: v-aangie
 ---
@@ -14,7 +14,7 @@ ms.reviewer: v-aangie
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-You can bring your own model into AI Builder so that it can function like any AI Builder custom model. You can use your model in Microsoft Power Platform by using Power Automate, or you can build apps with<!--note from editor: Suggested, because I know the "by using" phrase is pretty ponderous. Via MWSG, it's okay to say "with" with product names.--> Power Apps.
+You can bring your own model into AI Builder so that it can function like any AI Builder custom model. You can use your model in Microsoft Power Platform by using Power Automate, or you can build apps with Power Apps.
 
 When you use your own model, it's sometimes referred to as a *model endpoint*, which enables communication. When you use your own model, limitations apply. These [limitations](#limitations) are described later in this article.
 
@@ -52,7 +52,7 @@ After you register the model, you'll see it in the list of AI Builder models. On
    - String
 
 - If your model takes an image as an input in Base64, it can be used for real-time prediction only, for consumption in [Power Automate](/power-automate/getting-started) or [Microsoft Power Fx](/power-platform/power-fx/overview). Batch prediction isn't supported.
-   - The name of the field must end with **image** (not case-sensitive).<!--note from editor: Or should this be "We recommend that the name of the field..."?-->
+   - The name of the field must end with **image** (not case-sensitive).
    - The data type must be **String**.
 
 You're now ready to use your own model in AI Builder. You can perform application lifecycle management tasks such as export your own model by using a solution, import your model into the target environment, and upgrade your model in source or target environments.

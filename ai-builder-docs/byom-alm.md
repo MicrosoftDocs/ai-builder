@@ -5,7 +5,7 @@ author: Raj-Virk
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom:
-ms.date: 08/23/2021
+ms.date: 08/24/2021
 ms.author: rajvirk
 ms.reviewer: v-aangie
 ---
@@ -30,9 +30,9 @@ In this example, you'll export two solutions:
 - The solution that contains only the custom connector
 - The solution that contains the model, connection reference, and any other components
 
-For help on how to export solutions, go to [Export solutions for Power Apps](/powerapps/maker/data-platform/export-solutions) or [Export solutions for Power Automate](/power-automate/export-flow-solution).<!--note from editor: Suggest making the whole phrase a link. I think it makes it a bit clearer where to click.-->
+For help on how to export solutions, go to [Export solutions for Power Apps](/powerapps/maker/data-platform/export-solutions) or [Export solutions for Power Automate](/power-automate/export-flow-solution).
 
-1. Make sure you've registered your own model in the source environment by using a Python package. If you haven't already registered it, follow the procedure in [Bring your own model tutorial](https://github.com/microsoft/PowerApps-Samples/tree/master/ai-builder/BringYourOwnModelTutorial) (on GitHub).<!--note from editor: Style Guide says "use *on* to refer to material existing on the web", but if you don't like this, just plain "(GitHub)" would also work, here and on line 139. This would be analogous to using "(blog)" after blog post links, which we do just to let people know where they'll land when they follow the link.-->
+1. Make sure you've registered your own model in the source environment by using a Python package. If you haven't already registered it, follow the procedure in [Bring your own model tutorial](https://github.com/microsoft/PowerApps-Samples/tree/master/ai-builder/BringYourOwnModelTutorial) (on GitHub).
 
 1. Create a solution to store the custom connector that's associated with the model:
    1. Sign in to [Power Apps](https://make.powerapps.com) or [Power Automate](https://flow.microsoft.com).
@@ -84,10 +84,10 @@ For help on how to export solutions, go to [Export solutions for Power Apps](/po
     > [!div class="mx-imgBorder"]
     > ![Screenshot of how to add your AI model to AI Builder.](media/byom-alm/alm-add-model.png "Add your AI model to AI Builder")
 
-   Your solution should contain the components shown in the following image.<!--note from editor: Please verify the alt text.-->
+   Your solution should contain the components shown in the following image.
 
    > [!div class="mx-imgBorder"]
-   > ![Screenshot of three components: An AI model, a connection reference, and a custom connector.](media/byom-alm/alm-components.png "Model components")
+   > ![Screenshot of the three components that were added: An AI model, a connection reference, and a custom connector.](media/byom-alm/alm-components.png "Model components")
 
 1. (*Optional*) Add any components you want.
 
@@ -125,7 +125,7 @@ If you experience issues with your import, go to [Troubleshooting solution impor
 
 ## Upgrade your own model
 
-Upgrade your solution to the latest version number so that it rolls up all previous patches in one step. Any components that were associated with the previous version of the solution and aren't in the newer version will be deleted. This ensures that outdated components won't be included in the solution.<!--note from editor: Suggested.-->
+Upgrade your solution to the latest version number so that it rolls up all previous patches in one step. Any components that were associated with the previous version of the solution and aren't in the newer version will be deleted. This ensures that outdated components won't be included in the solution.
 
 In the examples, you'll upgrade two solutions:
 
@@ -151,9 +151,9 @@ For help on how to upgrade, go to [Upgrade or update a solution](/powerapps/make
    > [!div class="mx-imgBorder"]
    > ![Screenshot of removing an older version from a solution.](media/byom-alm/alm-remove.png "Remove an older version from a solution")
 
-1.	Export the solution by selecting **Export**. By default, the version will be incremented by during export.<!--note from editor: Suggested.-->
+1.	Export the solution by selecting **Export**. By default, the version will be incremented by during export.
 
-1.	In the solution that contains the model, connection reference, and any other components, update the connection reference to point to the latest version:<!--note from editor: The following edits are suggested. I got a bit confused in here.-->
+1.	In the solution that contains the model, connection reference, and any other components, update the connection reference to point to the latest version:
 
     1. Find the same custom connector name you added in step 3. In this example, v2 is the latest version so you'll remove v1.
     1. Remove the older version of the connection reference from the solution by selecting the name to remove (in this example v1), and then selecting **Remove** > **Remove from this solution**.
