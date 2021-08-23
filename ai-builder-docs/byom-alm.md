@@ -10,7 +10,7 @@ ms.author: rajvirk
 ms.reviewer: v-aangie
 ---
 
-# Package your own model by using solutions (preview)
+# Package your own model using solutions (preview)
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
