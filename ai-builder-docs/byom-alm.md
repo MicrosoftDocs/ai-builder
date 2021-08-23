@@ -14,16 +14,16 @@ ms.reviewer: v-aangie
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-After you've [registered](byo-model.md#register-your-own-model) your own model in AI Builder by using a Python package, you can package your model using solutions to perform application lifecycle management (ALM) tasks, such as:
+After you've [registered](byo-model.md#register-your-own-model) your own model in AI Builder using a Python package, you can package your model using solutions to perform application lifecycle management (ALM) tasks, such as:
 
-- [Export your own model by using a solution](#export-your-own-model-by-using-a-solution).
+- [Export your own model using a solution](#export-your-own-model-using-a-solution).
 - [Import your own model into the target environment](#import-your-own-model-into-the-target-environment).
 - [Upgrade your own model in source or target environments](#upgrade-your-own-model).
 - [Stage your own model for upgrade](#stage-your-own-model-for-upgrade).
 
 Solutions are used to transport apps and components from one environment to another. They're also used to apply a set of customizations to existing apps. For detailed information about solutions and how they're used to apply ALM concepts across Microsoft Power Platform, go to [Overview of application lifecycle management](/power-platform/alm/overview-alm).
 
-## Export your own model by using a solution
+## Export your own model using a solution
 
 In this example, you'll export two solutions:
 
@@ -32,7 +32,7 @@ In this example, you'll export two solutions:
 
 For help on how to export solutions, go to [Export solutions for Power Apps](/powerapps/maker/data-platform/export-solutions) or [Export solutions for Power Automate](/power-automate/export-flow-solution).
 
-1. Make sure you've registered your own model in the source environment by using a Python package. If you haven't already registered it, follow the procedure in [Bring your own model tutorial](https://github.com/microsoft/PowerApps-Samples/tree/master/ai-builder/BringYourOwnModelTutorial) (on GitHub).
+1. Make sure you've registered your own model in the source environment using a Python package. If you haven't already registered it, follow the procedure in [Bring your own model tutorial](https://github.com/microsoft/PowerApps-Samples/tree/master/ai-builder/BringYourOwnModelTutorial) (on GitHub).
 
 1. Create a solution to store the custom connector that's associated with the model:
    1. Sign in to [Power Apps](https://make.powerapps.com) or [Power Automate](https://flow.microsoft.com).
