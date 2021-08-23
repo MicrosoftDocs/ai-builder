@@ -12,19 +12,19 @@ ms.reviewer: v-aangie
 
 # Prediction model training errors and warnings
 
-While training the prediction model, you might come across the messages in this article that may be reported by AI builder. Messages are either *errors* or *warnings*. Each is represented by an icon.
+While training the prediction model, you might come across the messages in this article that AI Builder might report. Messages are either *errors* or *warnings*. Each is represented by an icon.
 
 |Message |Icon  |
 |---------|---------|
 |Error   | ![Error icon](media/predict-icon-error.png "Error icon")        |
 |Warning | ![Warning icon](media/predict-icon-warn.png "Warning icon")
 
- When an error occurs, you can't continue until you resolve it. If the system doesn't know how to correct a problem, it will show you an error.
+When an error occurs, you can't continue until you resolve it. If the system is unable to correct a problem, it will show you an error.
 
-Warnings are messages reported as informational and don't stop you from proceeding ahead. They warn you of possible performance issues when training the model.
+Warnings are messages reported as informational. They don't stop you from proceeding. They warn you of possible performance issues when training the model.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of error and warning messages](media/predict-errors.png "Errors and warnings message")
+> ![Screenshot of error and warning messages.](media/predict-errors.png "Error and warning messages")
 
 
 ## Error: No AI Builder license
@@ -117,7 +117,7 @@ Make sure the columns that are selected as being related to the outcome have dat
 
 ### Cause
 
-The AI model processes the data in the columns related to the outcome that will influence the prediction. Of the various columns selected, it found that the specified column has a high correlation with the outcome column, which might impact the prediction result. Because if this, it won't be included in training the model.
+The AI model processes the data in the columns related to the outcome that will influence the prediction. Of the various columns selected, it found that the specified column has a high correlation with the outcome column, which might impact the prediction result. Because of this, it won't be included in training the model.
 
 ### Resolution
 
