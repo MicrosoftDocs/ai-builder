@@ -56,7 +56,7 @@ For help on how to export solutions, go to [Export solutions for Power Apps](/po
    > ![Screenshot of the custom connector naming format.](media/byom-alm/alm-format.png "Custom connector naming format")
 
 1. Export the solution:
-   1. Select **Run** > **Next**. (If the solution hasn't been published yet, you must select **Publish** first.)
+   1. Select **Run** > **Next**.
    1. Select **Managed** > **Export**.
 
 1. Create a new solution to add the model and any other components:
@@ -106,6 +106,8 @@ For help on how to import solutions, go to [Import solutions for Power Apps](/po
 
 1. Sign in to [Power Apps](https://make.powerapps.com) or [Power Automate](https://flow.microsoft.com).
 
+1. Import the solution containing only the custom connector.
+
 1.	Create the connection to your external endpoint:
 
       - If your endpoint is not secured, select **Create**.
@@ -118,6 +120,9 @@ For help on how to import solutions, go to [Import solutions for Power Apps](/po
 
    > [!div class="mx-imgBorder"]
    > ![Screenshot of the imported solution.](media/byom-alm/alm-import.png "Imported solution")
+
+
+1.	Import the solution containing the model, connection reference, and any other components.
 
 Your model is now ready to be consumed in your target environment.
 
@@ -138,7 +143,7 @@ For help on how to upgrade, go to [Upgrade or update a solution](/powerapps/make
 
 1. Make sure you've registered your upgraded model in the source environment by using a Python package. If you haven't already registered it, follow the procedure in [Bring your own model tutorial](https://github.com/microsoft/PowerApps-Samples/tree/master/ai-builder/BringYourOwnModelTutorial) (on GitHub).
 
-1.	Sign in to [Power Apps](https://make.powerapps.com) or [Power Automate](https://flow.microsoft.com).
+1. Sign in to [Power Apps](https://make.powerapps.com) or [Power Automate](https://flow.microsoft.com).
 
 1. In the solution that contains only the custom connector, add a new existing custom connector by selecting **Add**.
 
@@ -151,11 +156,11 @@ For help on how to upgrade, go to [Upgrade or update a solution](/powerapps/make
    > [!div class="mx-imgBorder"]
    > ![Screenshot of removing an older version from a solution.](media/byom-alm/alm-remove.png "Remove an older version from a solution")
 
-1.	Export the solution by selecting **Export**. By default, the version will be incremented by during export.
+1.	Export the solution by selecting **Export**. By default, the version will be incremented during export.
 
 1.	In the solution that contains the model, connection reference, and any other components, update the connection reference to point to the latest version:
 
-    1. Find the same custom connector name you added in step 3. In this example, v2 is the latest version so you'll remove v1.
+    1. Find the same custom connector name (with its own unique connection reference type) you added in step 3. In this example, v2 is the latest version so you'll remove v1.
     1. Remove the older version of the connection reference from the solution by selecting the name to remove (in this example v1), and then selecting **Remove** > **Remove from this solution**.
 
 1. Export the solution by selecting **Export**. The AI model and any component referencing the model are automatically updated to point to the latest version.
@@ -182,7 +187,7 @@ The model now will reference the new endpoint in the target environment.
 
 ## Stage your own model for upgrade
 
-You'll want to stage your model for upgrade so the newest version of the model is referenced in all components in the environment.
+Staging your model for upgrade only imports it into the organization. It doesn't make it active. In this scenario, components that reference the model in the environment will reference the old version until you complete this procedure by applying the upgrade.
 
 For help on how to import solutions, go to [Import solutions for Power Apps](/powerapps/maker/data-platform/import-update-export-solutions) or [Import solutions for Power Automate](/power-automate/import-flow-solution).
 
