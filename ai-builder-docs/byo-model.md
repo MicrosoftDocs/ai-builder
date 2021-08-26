@@ -5,7 +5,7 @@ author: Raj-Virk
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom:
-ms.date: 08/24/2021
+ms.date: 08/26/2021
 ms.author: rajvirk
 ms.reviewer: v-aangie
 ---

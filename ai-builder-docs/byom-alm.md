@@ -5,7 +5,7 @@ author: Raj-Virk
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom:
-ms.date: 08/24/2021
+ms.date: 08/26/2021
 ms.author: rajvirk
 ms.reviewer: v-aangie
 ---
@@ -88,7 +88,7 @@ In this example, you'll export two solutions:
 1. (*Optional*) Add any components you want. In this example, we'll add a cloud flow that uses the model.
 
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of how to add your AI model to AI Builder.](media/byom-alm/alm-optional-export.png "Add your AI model to AI Builder")
+    > ![Screenshot of new components added.](media/byom-alm/alm-optional-export.png "Add a cloud flow component")
 
 1. Export the solution. For help on how to export solutions, go to [Export solutions for Power Apps](/powerapps/maker/data-platform/export-solutions) or [Export solutions for Power Automate](/power-automate/export-flow-solution).  
 
