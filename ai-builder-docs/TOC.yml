@@ -154,6 +154,12 @@
       href: form-processing-sample-data.md
     - name: FAQ for form processing
       href: form-processing-faq.md
+- name: Bring your own AI model (preview)
+  items:
+  - name: Create and register your own model (preview)
+    href: byo-model.md
+  - name: Package your own model using solutions (preview)
+    href: byom-alm.md 
 - name: Use AI Builder in Power Automate
   items:
   - name: Overview
