@@ -43,11 +43,11 @@ For high-quality documents that use the same layout, five sample documents shoul
 
 Yes. By using the collections feature, you train a single form-processing model to handle documents that have different layouts. Learn more: [Group documents by collections](create-form-processing-model.md#group-documents-by-collections)
 
-### Can form processing handle *multiple* forms in a *single* document?<!--note from editor: Suggested.-->
+### Can form processing handle *multiple* forms in a *single* document?
 
-Each form needs to<!--note from editor: Here and elsewhere, edited to avoid "should."--> be in a separate file. For example, if you have a PDF document with multiple invoices in it, create a separate file for each invoice before you send it to the form processing model.
+Each form needs to be in a separate file. For example, if you have a PDF document with multiple invoices in it, create a separate file for each invoice before you send it to the form processing model.
 
-You can also specify pages for the form processing model to handle. This way you can take advantage of the model's functionality<!--note from editor: Suggested.--> to loop page by page, and process one form at a time. Learn more: [Page range](form-processing-model-in-flow.md#page-range)
+You can also specify pages for the form processing model to handle. This way you can take advantage of the model's functionality to loop page by page, and process one form at a time. Learn more: [Page range](form-processing-model-in-flow.md#page-range)
 
 ### I've trained a form processing model but I'm not getting good results when it comes to extracted data. How can I improve the model?
 
@@ -56,7 +56,7 @@ If your model is returning poor results after you've trained it, edit the model 
 
 ## Limitations
 
-### What is the maximum number of documents I can process?<!--note from editor: Suggested.-->
+### What is the maximum number of documents I can process?
 
 You can process up to 360 documents per environment, every 60 seconds.
 
