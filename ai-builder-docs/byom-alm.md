@@ -30,8 +30,6 @@ In this example, you'll export two solutions:
 - The solution that contains only the custom connector
 - The solution that contains the model, connection reference, and any other components
 
-For help on how to export solutions, go to [Export solutions for Power Apps](/powerapps/maker/data-platform/export-solutions) or [Export solutions for Power Automate](/power-automate/export-flow-solution).
-
 1. Make sure you've registered your own model in the source environment using a Python package. If you haven't already registered it, follow the procedure in [Bring your own model tutorial](https://github.com/microsoft/PowerApps-Samples/tree/master/ai-builder/BringYourOwnModelTutorial) (on GitHub).
 
 1. Create a solution to store the custom connector that's associated with the model:
@@ -55,9 +53,7 @@ For help on how to export solutions, go to [Export solutions for Power Apps](/po
    > [!div class="mx-imgBorder"]
    > ![Screenshot of the custom connector naming format.](media/byom-alm/alm-format.png "Custom connector naming format")
 
-1. Export the solution:
-   1. Select **Run** > **Next**.
-   1. Select **Managed** > **Export**.
+1. Export the solution. For help on how to export solutions, go to [Export solutions for Power Apps](/powerapps/maker/data-platform/export-solutions) or [Export solutions for Power Automate](/power-automate/export-flow-solution).
 
 1. Create a new solution to add the model and any other components:
    1. Select **Solutions** > **New solutions**.
@@ -91,9 +87,7 @@ For help on how to export solutions, go to [Export solutions for Power Apps](/po
 
 1. (*Optional*) Add any components you want.
 
-1. Export the solution:
-   1. Select **Run** > **Next**. (If the solution hasn't been published yet, you must select **Publish** first.)
-   1. Select **Managed** > **Export**.  
+1. Export the solution. For help on how to export solutions, go to [Export solutions for Power Apps](/powerapps/maker/data-platform/export-solutions) or [Export solutions for Power Automate](/power-automate/export-flow-solution).  
 
 ## Import your own model into the target environment
 
