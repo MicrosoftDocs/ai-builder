@@ -108,6 +108,8 @@ For help on how to import solutions, go to [Import solutions for Power Apps](/po
 
 1. Import the solution containing only the custom connector.
 
+1. Upload the solution and begin the import process.
+
 1.	Create the connection to your external endpoint:
 
       - If your endpoint is not secured, select **Create**.
@@ -116,15 +118,12 @@ For help on how to import solutions, go to [Import solutions for Power Apps](/po
     > [!div class="mx-imgBorder"]
     > ![Screenshot of the connection to an external endpoint.](media/byom-alm/alm-key.png "connection to an external endpoint")
 
-1. Select **Import**.
-
-   > [!div class="mx-imgBorder"]
-   > ![Screenshot of the imported solution.](media/byom-alm/alm-import.png "Imported solution")
-
-
 1.	Import the solution containing the model, connection reference, and any other components.
 
 Your model is now ready to be consumed in your target environment.
+
+  > [!div class="mx-imgBorder"]
+  > ![Screenshot of the imported solutions.](media/byom-alm/alm-import.png "Imported solutions")
 
 If you experience issues with your import, go to [Troubleshooting solution import](/powerapps/maker/data-platform/import-update-export-solutions).
 
@@ -213,10 +212,11 @@ For help on how to import solutions, go to [Import solutions for Power Apps](/po
 
 1. To upgrade the old version, select **Apply upgrade**.
 
-    In the following example, all components in the environment now reference the new version of the model.
-
    > [!div class="mx-imgBorder"]
    > ![Screenshot of components after the upgrade is applied.](media/byom-alm/alm-stage-2.png "Components after the upgrade is applied")
+
+All components in the environment now reference the new version of the model.
+
 
 ### See also
 
