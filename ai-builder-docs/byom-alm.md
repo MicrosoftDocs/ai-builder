@@ -85,7 +85,10 @@ In this example, you'll export two solutions:
    > [!div class="mx-imgBorder"]
    > ![Screenshot of the three components that were added: An AI model, a connection reference, and a custom connector.](media/byom-alm/alm-components.png "Model components")
 
-1. (*Optional*) Add any components you want.
+1. (*Optional*) Add any components you want. In this example, we'll add a cloud flow that uses the model.
+
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of how to add your AI model to AI Builder.](media/byom-alm/alm-optional-export.png "Add your AI model to AI Builder")
 
 1. Export the solution. For help on how to export solutions, go to [Export solutions for Power Apps](/powerapps/maker/data-platform/export-solutions) or [Export solutions for Power Automate](/power-automate/export-flow-solution).  
 
@@ -102,17 +105,15 @@ For help on how to import solutions, go to [Import solutions for Power Apps](/po
 
 1. Import the solution containing only the custom connector.
 
-1. Upload the solution and begin the import process.
+1. Import the solution containing the model, connection reference, and any other components.
 
-1.	Create the connection to your external endpoint:
+1.	During the import process, create the connection to your external endpoint:
 
       - If your endpoint is not secured, select **Create**.
       - If your endpoint is secured with an API key, enter it in the **API Key** field, and then select **Create**.
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of the connection to an external endpoint.](media/byom-alm/alm-key.png "connection to an external endpoint")
-
-1.	Import the solution containing the model, connection reference, and any other components.
 
 Your model is now ready to be consumed in your target environment.
 
@@ -153,7 +154,7 @@ For help on how to upgrade, go to [Upgrade or update a solution](/powerapps/make
 
 1.	In the solution that contains the model, connection reference, and any other components, update the connection reference to point to the latest version:
 
-    1. Find the same custom connector name (with its own unique connection reference type) you added in step 3. In this example, v2 is the latest version so you'll remove v1.
+    1. The custom connection will have the same name as the custom connector you added in step 4. In this example, v2 is the latest version.
     1. Remove the older version of the connection reference from the solution by selecting the name to remove (in this example v1), and then selecting **Remove** > **Remove from this solution**.
 
 1. Export the solution by selecting **Export**. The AI model and any component referencing the model are automatically updated to point to the latest version.
