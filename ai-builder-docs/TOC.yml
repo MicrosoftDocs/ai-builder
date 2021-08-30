@@ -160,6 +160,16 @@
     href: byo-model.md
   - name: Package your own model using solutions (preview)
     href: byom-alm.md 
+- name: Lobe machine learning (preview)
+  items:
+  - name: Overview (preview)
+    href: lobe-overview.md
+  - name: Collect images (preview)
+    href: lobe-collect-images.md
+  - name: Build and train your machine learning model (preview)
+    href: lobe-build-train.md
+  - name: Export and use your machine learning model (preview)
+    href: lobe-export-use.md  
 - name: Use AI Builder in Power Automate
   items:
   - name: Overview
