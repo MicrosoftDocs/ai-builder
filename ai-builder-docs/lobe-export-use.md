@@ -6,7 +6,7 @@ ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: intro-internal
 ms.date: 09/01/2021
-ms.author: jacob.cohen
+ms.author: jacohe
 ms.reviewer: v-aangie
 ---
 # Export and use your machine learning model
