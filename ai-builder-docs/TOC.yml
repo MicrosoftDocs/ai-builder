@@ -160,7 +160,7 @@
     href: byo-model.md
   - name: Package your own model using solutions (preview)
     href: byom-alm.md 
-- name: Lobe machine learning (preview)
+- name: Image classification for machine learning (preview)
   items:
   - name: Overview (preview)
     href: lobe-overview.md
