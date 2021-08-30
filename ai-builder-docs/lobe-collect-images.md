@@ -10,4 +10,6 @@ ms.author: jacohe
 ms.reviewer: v-aangie
 ---
 
-# Collect images for your machine learning model
+# Collect images for your machine learning model (preview)
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]

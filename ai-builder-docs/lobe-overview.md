@@ -10,4 +10,6 @@ ms.author: jacohe
 ms.reviewer: v-aangie
 ---
 
-# Overview of image classification for machine learning
+# Overview of image classification for machine learning (preview)
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]

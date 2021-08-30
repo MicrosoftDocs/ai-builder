@@ -9,4 +9,6 @@ ms.date: 09/01/2021
 ms.author: jacohe
 ms.reviewer: v-aangie
 ---
-# Export and use your machine learning model
+# Export and use your machine learning model (preview)
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]

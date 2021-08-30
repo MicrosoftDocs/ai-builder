@@ -156,21 +156,21 @@
       href: form-processing-faq.md
 - name: Bring your own AI model (preview)
   items:
-  - name: Azure machine learning models
+  - name: Azure machine learning models (preview)
     items:
-    - name: Create and register your own model (preview)
+    - name: Create and register your own model
       href: byo-model.md
-    - name: Package your own model using solutions (preview)
+    - name: Package your own model using solutions
       href: byom-alm.md 
-  - name: Lobe models
+  - name: Lobe models (preview)
     items:
-    - name: Overview (preview)
+    - name: Overview
       href: lobe-overview.md
-    - name: Collect images (preview)
+    - name: Collect images
       href: lobe-collect-images.md
-    - name: Build and train your machine learning model (preview)
+    - name: Build and train your machine learning model
       href: lobe-build-train.md
-    - name: Export and use your machine learning model (preview)
+    - name: Export and use your machine learning model
       href: lobe-export-use.md  
 - name: Use AI Builder in Power Automate
   items:
