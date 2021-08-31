@@ -170,8 +170,8 @@
       href: lobe-collect-images.md
     - name: Build and train your machine learning model
       href: lobe-build-train.md
-    - name: Export and use your machine learning model
-      href: lobe-export-use.md  
+    - name: Export your machine learning model
+      href: lobe-export.md  
 - name: Use AI Builder in Power Automate
   items:
   - name: Overview
