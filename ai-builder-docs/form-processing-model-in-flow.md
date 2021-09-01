@@ -115,7 +115,7 @@ One way you can check its value is with a **Condition** action. If the checkbox 
 > [!div class="mx-imgBorder"]
 > ![Retreive checkbox value in a condition](media/form-processing-retreive-checkbox.png "Check for the value returned for an extracted checkbox in a condition in a cloud flow.")
 
-Another option is to map the `true`/`false` output of the checkbox to other values of your choice by using the [if](https://docs.microsoft.com/azure/logic-apps/workflow-definition-language-functions-reference#if) expression. For example, let’s imagine we have a column in an Excel file where we want to write ‘Priority’ if one of the checkbox in the document is selected, or ‘Non-priority’ in the other case. To do this we can use the following expression: `if(<form processing output>'Priority', 'Non-priority')`. The animation below shows an example.
+Another option is to map the `true`/`false` output of the checkbox to other values of your choice by using the [if](https://docs.microsoft.com/azure/logic-apps/workflow-definition-language-functions-reference#if) expression. For example, let’s imagine we have a column in an Excel file where we want to write ‘Priority’ if one of the checkbox in the document is selected, or ‘Non-priority’ in the other case. To do this we can use the following expression: `if(<form processing output>, 'Priority', 'Non-priority')`. The animation below shows an example.
 
 > [!div class="mx-imgBorder"]
 > ![Map checkbox value with an expression](media/form-processing-retreive-checkbox-2.gif "Using an expression to map the Boolean value returned by a checkbox.")
