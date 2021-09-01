@@ -110,7 +110,7 @@ To illustrate this procedure, we use the following example where we have trained
 
 Checkboxes values are of type Boolean: `true` if the checkbox is marked as selected in the document, `false` if it’s not.
 
-One way you can check its value if with a **Condition** action. If the checkbox value is equal to `true`, then execute one action, if `false` another action. The illustration below shows an example.
+One way you can check its value is with a **Condition** action. If the checkbox value is equal to `true`, then execute one action, if `false` another action. The illustration below shows an example.
 
 > [!div class="mx-imgBorder"]
 > ![Retreive checkbox value in a condition](media/form-processing-retreive-checkbox.png "Check for the value returned for an extracted checkbox in a condition in a cloud flow.")
