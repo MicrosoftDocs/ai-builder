@@ -34,7 +34,8 @@ ms.reviewer: v-aangie
     > [!NOTE]
     >
     >- To retrieve the value for a field, select **<field_name> value** . For example, for the *Lot number* field, select **Lot number value**.
-    >- To retrieve the confidence score for a field, select **<field_name> confidence score**. For example, for the *Lot number* field, select **Lot number confidence score**.
+    >- To retrieve the value for a checkbox, select **<checkbox_name> value** . For example, for a checkbox named *Priority shipping*, select *Priority shipping value*. The return value is of type Boolean: `true` if the checkbox is marked as selected in the document, `false` if it’s not.
+    >- To retrieve the confidence score for an extracted item, select **<field_name> confidence score**. For example, for the *Lot number* field, select **Lot number confidence score**.
 
     > [!div class="mx-imgBorder"]
     > ![Form processing flow overview.](media/flow-fp-overview-2.png "Form processing flow overview")
@@ -104,6 +105,21 @@ To illustrate this procedure, we use the following example where we have trained
 
 > [!NOTE]
 > Tables extracted by form processing currently don't return a confidence score.
+
+### Process outputs of checkboxes in Power Automate 
+
+Checkboxes values are of type Boolean: `true` if the checkbox is marked as selected in the document, `false` if it’s not.
+
+One way you can check its value if with a **Condition** action. If the checkbox value is equal to `true`, then execute one action, if `false` another action. The illustration below shows an example.
+
+> [!div class="mx-imgBorder"]
+> ![Retreive checkbox value in a condition](media/form-processing-retreive-checkbox.png "Check for the value returned for an extracted checkbox in a condition in a cloud flow.")
+
+Another option is to map the `true`/`false` output of the checkbox to other values of your choice by using the [if](https://docs.microsoft.com/azure/logic-apps/workflow-definition-language-functions-reference#if) expression. For example, let’s imagine we have a column in an Excel file where we want to write ‘Priority’ if one of the checkbox in the document is selected, or ‘Non-priority’ in the other case. To do this we can use the following expression: `if(<form processing output>'Priority', 'Non-priority')`. The animation below shows an example.
+
+> [!div class="mx-imgBorder"]
+> ![Map checkbox value with an expression](media/form-processing-retreive-checkbox-2.gif "Using an expression to map the Boolean value returned by a checkbox.")
+
 
 ### Remove currency symbols (€, $,…) in a form processing output in Power Automate
 
