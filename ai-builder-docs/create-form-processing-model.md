@@ -23,9 +23,9 @@ After you review the [requirements](form-processing-model-requirements.md), you 
 1. If you want to create your model by using your own documents, make sure that you have at least five examples that use the same layout. Otherwise, you can [use sample data](form-processing-sample-data.md) to create the model.
 1. Select **Create**.
 
-## Define fields and tables to extract
+## Define information to extract
 
-On the **Choose information to extract** screen, you define the fields and tables you want to teach your model to extract. Select the **+Add** button to start defining fields and tables.
+On the **Choose information to extract** screen, you define the fields, tables and checkboxes you want to teach your model to extract. Select the **+Add** button to start defining these.
 
 - For each field, provide a name you would like the field to have in the model.
 
@@ -36,6 +36,11 @@ On the **Choose information to extract** screen, you define the fields and table
 
    > [!div class="mx-imgBorder"]
    > !['Define tables' animation.](media/form-processing-multiple-layout-define-tables-only.gif "Define tables to extract")
+
+- For each checkbox, provide a name you would like the checkbox to have in the model. Define separate checkboxes for each item that can be checked in a document.
+
+   > [!div class="mx-imgBorder"]
+   > !['Define checkboxes' animation.](media/form-processing-define-checkboxes-only.gif "Define checkboxes to extract")
 
 ## Group documents by collections
 
@@ -106,6 +111,18 @@ You can tag items that are nested within a row by defining these as columns. Giv
 
    > [!div class="mx-imgBorder"]
    > !['Tag tables' animation.](media/form-processing-tag-table-nested-items.png "Tag nested items in tables")
+
+
+### Tag checkboxes
+
+To tag a checkbox, simply draw a rectangle around the checkbox you're interested in extracting and select the checkbox name that it corresponds to.
+
+   > [!div class="mx-imgBorder"]
+   > !['Tag checkbox' animation.](media/form-processing-checkbox-tag.gif "Tag a checkbox")
+
+If the quality of the document is low, AI Builder might not be able to detect the checkbox. If you are unable to tag a checkbox, go to the panel on the right, select the three dots next to the checkbox you want to extract and select ‘Not available in document’.
+
+AI Builder supports detection and extraction of selection marks such as checkboxes and radio buttons, with different markers to indicate whether the selection is marked or not.
 
 
 ### Field or table not in document
