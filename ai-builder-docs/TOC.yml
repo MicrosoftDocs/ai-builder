@@ -154,6 +154,16 @@
       href: form-processing-sample-data.md
     - name: FAQ for form processing
       href: form-processing-faq.md
+  - name: Image detection AI model by Lobe (preview)
+    items:
+    - name: Overview
+      href: lobe-overview.md
+    - name: Collect images
+      href: lobe-collect-images.md
+    - name: Build and train your machine learning model
+      href: lobe-build-train.md
+    - name: Export your machine learning model
+      href: lobe-export.md
 - name: Bring your own AI model (preview)
   items:
   - name: Azure machine learning models (preview)
@@ -161,17 +171,7 @@
     - name: Create and register your own model
       href: byo-model.md
     - name: Package your own model using solutions
-      href: byom-alm.md 
-- name: Use Lobe models in AI Builder (preview)
-  items:
-  - name: Overview
-    href: lobe-overview.md
-  - name: Collect images
-    href: lobe-collect-images.md
-  - name: Build and train your machine learning model
-    href: lobe-build-train.md
-  - name: Export your machine learning model
-    href: lobe-export.md  
+      href: byom-alm.md   
 - name: Use AI Builder in Power Automate
   items:
   - name: Overview
