@@ -97,8 +97,9 @@ The header of a table doesn’t have to be tagged.
 
 **Multipage tables** 
 
-AI Builder doesn’t currently support extracting tables than span across multiple pages as a single table. To extract tables from different pages, these will need to be defined as separate tables in the [Choose information to extract step](create-form-processing-model.md#define-fields-and-tables-to-extract). For example, if you have a document with a table that spans over two pages, you'll need to define them as two separate tables.
+AI Builder supports extracting tables that span across multiple pages as a single table with an experimental feature. For details, go to [Process multipage tables in form processor (experimental)](form-processing-multipage.md).
 
+If you don't want to try the experimental feature, you can extract tables from different pages by defining each page as a separate table in the [Choose information to extract step](create-form-processing-model.md#define-fields-and-tables-to-extract). For example, if you have a document with a table that spans over two pages, you'll need to define them as two separate tables.
 
 **Nested items in tables**
 

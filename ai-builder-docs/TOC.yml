@@ -154,6 +154,8 @@
       href: form-processing-sample-data.md
     - name: FAQ for form processing
       href: form-processing-faq.md
+    - name: Process multipage tables (experimental)
+      href: form-processing-multipage.md  
 - name: Bring your own AI model (preview)
   items:
   - name: Create and register your own model (preview)
