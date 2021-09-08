@@ -154,7 +154,7 @@
       href: form-processing-sample-data.md
     - name: FAQ for form processing
       href: form-processing-faq.md
-  - name: Image detection AI model by Lobe (preview)
+  - name: Image classification AI model by Lobe (preview)
     items:
     - name: Overview
       href: lobe-overview.md
