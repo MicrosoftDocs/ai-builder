@@ -1,5 +1,5 @@
 ---
-title: Package your own model using solutions (preview) | Microsoft Docs
+title: Package your own model using solutions - AI Builder | Microsoft Docs
 description: Provides information on how to package your own model using solutions to export, import, upgrade, and stage these models across environments.
 author: Raj-Virk
 ms.service: aibuilder
@@ -10,9 +10,7 @@ ms.author: rajvirk
 ms.reviewer: v-aangie
 ---
 
-# Package your own model using solutions (preview)
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
+# Package your own model using solutions
 
 After you've [registered](byo-model.md#register-your-own-model) your own model in AI Builder using a Python package, you can package your model using solutions to perform application lifecycle management (ALM) tasks, such as:
 
