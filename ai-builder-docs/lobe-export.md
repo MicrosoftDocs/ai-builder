@@ -1,5 +1,5 @@
 ---
-title: Export your machine learning model - AI Builder | Microsoft Docs
+title: Export your machine learning model to AI Builder - AI Builder | Microsoft Docs
 description: Provides instructions for how export your machine learning model in AI Builder.
 author: JakeCohenMicrosoft
 ms.service: aibuilder
@@ -9,6 +9,6 @@ ms.date: 09/01/2021
 ms.author: jacohe
 ms.reviewer: v-aangie
 ---
-# Export your machine learning model (preview)
+# Export your machine learning model to AI Builder (preview)
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
