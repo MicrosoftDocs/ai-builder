@@ -1,11 +1,11 @@
 ---
 title: Process multipage tables in form processor (experimental) - AI Builder | Microsoft Docs
-description: This topic provides information about how to build and use form processing models in AI Builder.
+description: This topic provides information on how extract tables from an invoice and tables that span fewer or greater than two pages in AI Builder.
 author: JoeFernandezMS
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: intro-internal
-ms.date: 09/09/2021
+ms.date: 09/10/2021
 ms.author: jofernan
 ms.reviewer: v-aangie
 ---
@@ -16,13 +16,14 @@ ms.reviewer: v-aangie
 
 > [!IMPORTANT]
 > - This is an experimental feature, meaning it’s a work in progress.
-> - Experimental features aren’t meant for production use and may have restricted functionality. These features are available before moving up to the preview stage so that early adopter customers can try out something useful or help test the feature.
+<br/>
+> - Experimental features aren’t meant for production use and might have restricted functionality. These features are available before moving up to the preview stage so that early adopter customers can try out something useful or help test the feature.
 
 Depending on how many pages your table can span, there are many options you can leverage. If the table you want to extract:
 
-- Is fom an invoice
-- Spans up to two pages
-- Spans more than two pages
+- [Is from an invoice](#extract-a-table-from-an-invoice)
+- [Spans up to two pages](#extract-a-table-that-spans-up-to-two-pages)
+- [Spans more than two pages](#extract-a-table-that-spans-more-than-two-pages)
 
 ## Extract a table from an invoice
 
@@ -32,31 +33,37 @@ For instructions, go to [Invoice processing prebuilt model](prebuilt-invoice-pro
 
 ## Extract a table that spans up to two pages
 
-By enabling the multipage table experimental feature, you can train a form processing model to extract data from tables than span up to two pages.
+With the multipage table experimental feature, you can train a form processing model to extract data from tables than span up to two pages.
 
 1. [Create a new form processing model](create-form-processing-model.md).
 
 1. The first step is to [define fields and tables to extract](create-form-processing-model.md#define-fields-and-tables-to-extract). On the **Choose information to extract** screen, select **Add** > **Multipage table (experimental)** to enable the experimental feature.
 
+    Rows that cut across pages aren't supported.
+
 1. Follow all steps in [Create a new form processing model](create-form-processing-model.md) before you train your model.
 
-    When uploading sample documents to train, upload as many documents with tables spanning up to two pages as possible.
+    When uploading sample documents to train, upload as many documents with tables that span up to two pages as possible.
 
 ## Extract a table that spans more than two pages
 
-For tables that span beyond two pages, do the following:
+For tables that span more than two pages, we recommend that you do the following:
 
 1. [Tag the table](create-form-processing-model.md#tag-tables) on the first page where it's present.
 
 1. After the model has been trained, process the document page by page by leveraging the [page range](form-processing-model-in-flow.md#page-range) feature.
 
+    Rows that cut across pages aren't supported.
+
 1. Capture all the tables across all pages and merge them in a single table.
 
-The following steps will guide you on how to achieve this:
+The following steps will guide you on how to do this:
 
 1.	[Create a new form processing model](create-form-processing-model.md).
 
-2.	The first step is to [define fields and tables to extract](create-form-processing-model.md#define-fields-and-tables-to-extract). Depending on how your table is placed on the document, do one of the following in the first step on the **Choose information to extract** screen:
+2.	The first step is to [define fields and tables to extract](create-form-processing-model.md#define-fields-and-tables-to-extract).
+
+    Depending on how your table is placed on the document, do one of the following on the **Choose information to extract** screen:
 
     - If the first occurrence of the table has different surrounding elements than the tables in the following pages, select **Add** > **Multipage table (experimental)** to enable the experimental feature.
 
@@ -68,6 +75,8 @@ The following steps will guide you on how to achieve this:
         > [!div class="mx-imgBorder"]
         > ![Screenshot of all pages with similar surrounding elements.](media/form-processing-multipage/table-all-pages.png "All pages with similar surrounding elements")
 
+    This sample template iterates through all the pages in the document. If you know the page range where to iterate, you can update the logic on the **Do until** loop. 
+
 1.	Follow all the steps to [train the form processing model](form-processing-train.md). 
     - If you selected **Multipage table (experimental)**, tag the first two pages of the document where the table is present. 
     
@@ -77,29 +86,52 @@ The following steps will guide you on how to achieve this:
 
 Here's an example that iterates across all pages on the document.
 
-1.	Go to the following [cloud flow template](https://preview.flow.microsoft.com/en-us/galleries/public/templates/59284c1735b745dda07032720f31de47/use-form-processing-to-extract-tables-than-span-across-multiple-pages/) and select **Continue**.
+1. Select [cloud flow template](https://preview.flow.microsoft.com/en-us/galleries/public/templates/59284c1735b745dda07032720f31de47/use-form-processing-to-extract-tables-than-span-across-multiple-pages/) > **Continue**.
 
-1. Specify the form processing model you have trained on the **Extract information from forms** action.
-
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of all pages with similar surrounding elements.](media/form-processing-multipage/extract-info.png "All pages with similar surrounding elements")
-
-1. On the first **Apply to each** action, add the entries from your table in the input.
-    - You should select **{table name} entries**.
-    - Replace **{table name}** with the name of the table in your model.
+1. Specify the form processing model you've trained on the **Extract information from forms** action.
 
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of all pages with similar surrounding elements.](media/form-processing-multipage/apply-to-each.png "All pages with similar surrounding elements")
+    > ![Screenshot of the AI model you've trained on the Extract information from forms action.](media/form-processing-multipage/extract-info.png "AI model you've trained on the **Extract information from forms** action")
+
+1. On the first **Apply to each** action, add the input entries from your table.
+    - You should select *{table name}* entries.
+    - Replace *{table name}* with the name of the table in your model.
+
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of output in the Apply to each action.](media/form-processing-multipage/apply-to-each.png "Output in the **Apply to each** action")
 
 1. The last **Apply to each 2** action iterates through the table that contains all the rows that have been extracted across all pages. Here you can add any action where you want to save the extracted data. To reference the columns you want to extract, you must use the following expression:
 
-    **items('Apply_to_each_2')?['{column name}']?['value']**
+    items('Apply_to_each_2')?['*{column name}*']?['value']
 
-    Replace **{column name}** by the name of the column in your table.
+    Replace *{column name}* with the name of the column in your table.
 
-   > [!div class="mx-imgBorder"]
-    > ![Screenshot of all pages with similar surrounding elements.](media/form-processing-multipage/apply-to-each-2.png "All pages with similar surrounding elements")
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of the last Apply to each 2 action.](media/form-processing-multipage/apply-to-each-2.png "The last **Apply to each 2** action")
 
 You can now save and test this flow to see it in action. You can then customize it to meet your needs.
 
 For information on testing, go to [Quick-test your model](form-processing-train.md).
+
+## Extract fields for specific pages
+
+You can extract fields for specific pages. For example, you might want header fields from the first page.
+
+To extract fields for specific pages:
+
+1. Add a **Do until** loop after the **Extract information from forms** action.
+
+1. Select the **Current Iteration Index** condition.
+
+1. Select **is equal to** from the dropdown.
+
+1. Enter the *{page number}* - 1.
+
+For example, the condition for the first page would be **Current Iteration Index is equal to 0**.
+
+ > [!div class="mx-imgBorder"]
+ > ![Screenshot of the last Apply to each 2 action.](media/form-processing-multipage/do-until.png "The last **Apply to each 2** action")
+
+### See also
+
+[Use a form processing model in Power Automate](form-processing-model-in-flow.md)
