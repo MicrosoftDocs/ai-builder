@@ -25,15 +25,17 @@ Depending on how many pages your table can span, there are many options you can 
 - [Spans up to two pages](#extract-a-table-that-spans-up-to-two-pages)
 - [Spans more than two pages](#extract-a-table-that-spans-more-than-two-pages)
 
+You can also [specify specific fields for your table pages](#extract-fields-for-specific-pages), such as headers.
+
 ## Extract a table from an invoice
 
-If the invoice you are looking to process is an English invoice from the United States, the invoice processing prebuilt model can extract line items than span multiple pages without to need to train a model.
+If the invoice you are looking to process is an English invoice from the United States, the invoice processing prebuilt model can extract line items, and then span multiple pages without to need to train a model.
 
 For instructions, go to [Invoice processing prebuilt model](prebuilt-invoice-processing.md).
 
 ## Extract a table that spans up to two pages
 
-With the multipage table experimental feature, you can train a form processing model to extract data from tables than span up to two pages.
+With the multipage table experimental feature, you can train a form processing model to extract data from tables then span up to two pages.
 
 1. [Create a new form processing model](create-form-processing-model.md).
 
@@ -43,7 +45,7 @@ With the multipage table experimental feature, you can train a form processing m
 
 1. Follow all steps in [Create a new form processing model](create-form-processing-model.md) before you train your model.
 
-    When uploading sample documents to train, upload as many documents with tables that span up to two pages as possible.
+    When uploading sample documents to train, upload as many documents as possible with tables that span up to two pages.
 
 ## Extract a table that spans more than two pages
 
@@ -51,7 +53,7 @@ For tables that span more than two pages, we recommend that you do the following
 
 1. [Tag the table](create-form-processing-model.md#tag-tables) on the first page where it's present.
 
-1. After the model has been trained, process the document page by page by leveraging the [page range](form-processing-model-in-flow.md#page-range) feature.
+1. After the model has been trained, process the document page-by-page by leveraging the [page range](form-processing-model-in-flow.md#page-range) feature.
 
     Rows that cut across pages aren't supported.
 
@@ -91,14 +93,14 @@ Here's an example that iterates across all pages on the document.
 1. Specify the form processing model you've trained on the **Extract information from forms** action.
 
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of the AI model you've trained on the Extract information from forms action.](media/form-processing-multipage/extract-info.png "AI model you've trained on the **Extract information from forms** action")
+    > ![Screenshot of the AI model you've trained on the Extract information from forms action.](media/form-processing-multipage/extract-info.png "AI model you've trained on the 'Extract information from forms' action")
 
 1. On the first **Apply to each** action, add the input entries from your table.
     - You should select *{table name}* entries.
     - Replace *{table name}* with the name of the table in your model.
 
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of output in the Apply to each action.](media/form-processing-multipage/apply-to-each.png "Output in the **Apply to each** action")
+    > ![Screenshot of output in the Apply to each action.](media/form-processing-multipage/apply-to-each.png "Output in the 'Apply to each' action")
 
 1. The last **Apply to each 2** action iterates through the table that contains all the rows that have been extracted across all pages. Here you can add any action where you want to save the extracted data. To reference the columns you want to extract, you must use the following expression:
 
@@ -107,7 +109,7 @@ Here's an example that iterates across all pages on the document.
     Replace *{column name}* with the name of the column in your table.
 
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of the last Apply to each 2 action.](media/form-processing-multipage/apply-to-each-2.png "The last **Apply to each 2** action")
+    > ![Screenshot of the last Apply to each 2 action.](media/form-processing-multipage/apply-to-each-2.png "The last 'Apply to each 2' action")
 
 You can now save and test this flow to see it in action. You can then customize it to meet your needs.
 
@@ -130,7 +132,7 @@ To extract fields for specific pages:
 For example, the condition for the first page would be **Current Iteration Index is equal to 0**.
 
  > [!div class="mx-imgBorder"]
- > ![Screenshot of the last Apply to each 2 action.](media/form-processing-multipage/do-until.png "The last **Apply to each 2** action")
+ > ![Screenshot of a Do until loop.](media/form-processing-multipage/do-until.png "Example of the 'Do until' loop")
 
 ### See also
 
