@@ -15,9 +15,9 @@ ms.reviewer: v-aangie
 [This topic is pre-release documentation and is subject to change.]
 
 > [!IMPORTANT]
-> - This is an experimental feature, meaning it’s a work in progress.
-<br/>
-> - Experimental features aren’t meant for production use and might have restricted functionality. These features are available before moving up to the preview stage so that early adopter customers can try out something useful or help test the feature.
+> - This is an experimental feature. Experimental features aren’t meant for production use and might have restricted functionality. These features are available before moving up to the preview stage so that early adopter customers can try out something useful or help test the feature.
+> 
+> - For more information about experimental feature and how to enable it, see [Understand experimental, preview, and retired features in Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/working-with-experimental-preview) 
 
 Depending on how many pages your table can span, there are many options you can leverage. If the table you want to extract:
 
