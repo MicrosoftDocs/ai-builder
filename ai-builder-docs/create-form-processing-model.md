@@ -5,7 +5,7 @@ author: JoeFernandezMS
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/16/2021
+ms.date: 9/28/2021
 ms.author: jofernan
 ms.reviewer: v-aangie
 ---
@@ -80,7 +80,6 @@ When you hover over words in your documents, light blue boxes may appear. These 
    > [!div class="mx-imgBorder"]
    > ![Select fields.](media/form-select-fields.png "Select fields close up")
 
-
 ### Tag tables
 
 To tag a table:
@@ -102,45 +101,45 @@ The header of a table doesn’t have to be tagged.
 
 **Multipage tables** 
 
-AI Builder doesn’t currently support extracting tables than span across multiple pages as a single table. To extract tables from different pages, these will need to be defined as separate tables in the [Choose information to extract step](create-form-processing-model.md#define-fields-and-tables-to-extract). For example, if you have a document with a table that spans over two pages, you'll need to define them as two separate tables.
-
+AI Builder doesn’t currently support extracting tables than span across multiple pages as a single table. To extract tables from different pages, these will need to be defined as separate tables in the [Choose information to extract step](create-form-processing-model.md#define-information-to-extract). For example, if you have a document with a table that spans over two pages, you'll need to define them as two separate tables.
 
 **Nested items in tables**
 
-You can tag items that are nested within a row by defining these as columns. Given the table from the example below, to extract the unit price, we will define it as a separate column on the [Choose information to extract step](create-form-processing-model.md#define-fields-and-tables-to-extract). We define Description, Unit price, Quantity, and Amount each as a column of the table and tag them accordingly. 
+You can tag items that are nested within a row by defining these as columns. Given the table in the following example, to extract the unit price, we will define it as a separate column on the [Choose information to extract step](create-form-processing-model.md#define-information-to-extract). We define Description, Unit price, Quantity, and Amount each as a column of the table and tag them accordingly.
 
    > [!div class="mx-imgBorder"]
    > !['Tag tables' animation.](media/form-processing-tag-table-nested-items.png "Tag nested items in tables")
 
-
 ### Tag checkboxes
 
-To tag a checkbox, simply draw a rectangle around the checkbox you're interested in extracting and select the checkbox name that it corresponds to.
+To tag a checkbox, draw a rectangle around the checkbox you're interested in extracting and select the checkbox name that it corresponds to.
 
    > [!div class="mx-imgBorder"]
    > !['Tag checkbox' animation.](media/form-processing-checkbox-tag.gif "Tag a checkbox")
 
-If the quality of the document is low, AI Builder might not be able to detect the checkbox. If you are unable to tag a checkbox, go to the panel on the right, select the three dots next to the checkbox you want to extract and select ‘Not available in document’.
+If the quality of the document is low, AI Builder might not be able to detect the checkbox. If you are unable to tag a checkbox, do the following:
+
+1. On the panel on the right, select the three dots next to the checkbox you want to extract.
+
+1. Select **Not available in document**.
 
 AI Builder supports detection and extraction of selection marks such as checkboxes and radio buttons, with different markers to indicate whether the selection is marked or not.
 
-
 ### Field or table not in document
 
-If a field or table isn't present in one of the documents you've uploaded for training, just use the not available in document option on the right-side panel next to a field or table.
+If a field or table isn't present in one of the documents you've uploaded for training, use the **Not available in document** option on the right-side panel next to a field or table.
 
    > [!div class="mx-imgBorder"]
    > ![Select Analyze.](media/form-processing-multiple-layout-not-available-in-document.gif "Field or table not in document")
 
 ## Tag all documents across all collections
 
-All the documents that you've uploaded are presented for you to tag. Some of the fields might be automatically detected in successive documents. In that case confirm that the selection is correct.
+All the documents that you've uploaded are presented for you to tag. Some of the fields might be automatically detected in successive documents. In that case, confirm that the selection is correct.
 
 If you've created multiple collections, tag all documents across all the collections.
 
 ### Next step
 
 [Train and publish your form processing model](form-processing-train.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

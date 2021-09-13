@@ -84,7 +84,7 @@ You can enter a page value or page range in the **Pages** parameter. Example: 1 
 
 ## Common use cases
 
-### Iterate a form processing table output in Power Automate 
+### Iterate a form processing table output in Power Automate
 
 To illustrate this procedure, we use the following example where we have trained a form processing model to extract a table that we have named **Items** with three columns: **Quantity**, **Description** and **Total**. We wish to store each line item from the table into an Excel file.
 
@@ -106,7 +106,7 @@ To illustrate this procedure, we use the following example where we have trained
 > [!NOTE]
 > Tables extracted by form processing currently don't return a confidence score.
 
-### Process outputs of checkboxes in Power Automate 
+### Process outputs of checkboxes in Power Automate
 
 Checkboxes values are of type Boolean: `true` if the checkbox is marked as selected in the document, `false` if it’s not.
 
@@ -115,20 +115,19 @@ One way you can check its value is with a **Condition** action. If the checkbox 
 > [!div class="mx-imgBorder"]
 > ![Retreive checkbox value in a condition](media/form-processing-retreive-checkbox.png "Check for the value returned for an extracted checkbox in a condition in a cloud flow.")
 
-Another option is to map the `true`/`false` output of the checkbox to other values of your choice by using the [if](https://docs.microsoft.com/azure/logic-apps/workflow-definition-language-functions-reference#if) expression. For example, let’s imagine we have a column in an Excel file where we want to write ‘Priority’ if one of the checkbox in the document is selected, or ‘Non-priority’ in the other case. To do this we can use the following expression: `if(<form processing output>, 'Priority', 'Non-priority')`. The animation below shows an example.
+Another option is to map the `true`/`false` output of the checkbox to other values of your choice by using the [if](/azure/logic-apps/workflow-definition-language-functions-reference#if) expression. For example, you might have a column in an Excel file where you want to write ‘Priority’ if one of the checkboxes in the document is selected, or ‘Non-priority’ in the other case. To do this, you can use the following expression: `if(<form processing output>, 'Priority', 'Non-priority')`. The following animation shows an example.
 
 > [!div class="mx-imgBorder"]
 > ![Map checkbox value with an expression](media/form-processing-retreive-checkbox-2.gif "Using an expression to map the Boolean value returned by a checkbox.")
 
-
 ### Remove currency symbols (€, $,…) in a form processing output in Power Automate
 
-Let’s imagine that the *Total* value extracted by the form processing model has a currency symbol, for example: $54. To remove the *$* sign, or any other symbols you want to omit, use the [replace](/azure/logic-apps/workflow-definition-language-functions-reference#replace) expression to remove it. Here's how to do it:
+To illustrate, the *Total* value extracted by the form processing model might have a currency symbol, for example, \$54. To remove the *$* sign, or any other symbols you want to omit, use the [replace](/azure/logic-apps/workflow-definition-language-functions-reference#replace) expression to remove it. Here's how:
 
 `replace(<form processing output>, '$', '')`
 
 > [!div class="mx-imgBorder"]
-> !['Add *replace* expression' to remove currency symbol animation.](media/form-processing-remove-currency.gif "Add the expression above into the input field of an action in your flow. Remember to replace the first parameter of the expression by the form processing output you want to remove the currency symbol.")
+> !['Add *replace* expression' to remove currency symbol animation.](media/form-processing-remove-currency.gif "Add the 'replace' expression into the input field of an action in your flow. Remember to replace the first parameter of the expression by the form processing output you want to remove the currency symbol.")
 
 ### Convert a form processing output string to a number in Power Automate
 
@@ -167,6 +166,5 @@ For incoming emails from the Office 365 Outlook connector, email signatures are 
 ### See also
 
 [Overview of the form processing model](form-processing-model-overview.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
