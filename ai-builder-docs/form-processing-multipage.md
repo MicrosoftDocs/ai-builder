@@ -25,8 +25,6 @@ Depending on how many pages your table can span, there are many options you can 
 - [Spans up to two pages](#extract-a-table-that-spans-up-to-two-pages)
 - [Spans more than two pages](#extract-a-table-that-spans-more-than-two-pages)
 
-You can also [specify specific fields for your table pages](#extract-fields-for-specific-pages), such as headers.
-
 ## Extract a table from an invoice
 
 If the invoice you are looking to process is an English invoice from the United States, the invoice processing prebuilt model can extract line items, and then span multiple pages without to need to train a model.
@@ -41,8 +39,6 @@ With the multipage table experimental feature, you can train a form processing m
 
 1. The first step is to [define fields and tables to extract](create-form-processing-model.md#define-fields-and-tables-to-extract). On the **Choose information to extract** screen, select **Add** > **Multipage table (experimental)** to enable the experimental feature.
 
-    Rows that cut across pages aren't supported.
-
 1. Follow all steps in [Create a new form processing model](create-form-processing-model.md) before you train your model.
 
     When uploading sample documents to train, upload as many documents as possible with tables that span up to two pages.
@@ -54,8 +50,6 @@ For tables that span more than two pages, we recommend that you do the following
 1. [Tag the table](create-form-processing-model.md#tag-tables) on the first page where it's present.
 
 1. After the model has been trained, process the document page-by-page by leveraging the [page range](form-processing-model-in-flow.md#page-range) feature.
-
-    Rows that cut across pages aren't supported.
 
 1. Capture all the tables across all pages and merge them in a single table.
 
@@ -76,8 +70,6 @@ The following steps will guide you on how to do this:
 
         > [!div class="mx-imgBorder"]
         > ![Screenshot of all pages with similar surrounding elements.](media/form-processing-multipage/table-all-pages.png "All pages with similar surrounding elements")
-
-    This sample template iterates through all the pages in the document. If you know the page range where to iterate, you can update the logic on the **Do until** loop. 
 
 1.	Follow all the steps to [train the form processing model](form-processing-train.md). 
     - If you selected **Multipage table (experimental)**, tag the first two pages of the document where the table is present. 
@@ -113,9 +105,9 @@ Here's an example that iterates across all pages on the document.
 
 You can now save and test this flow to see it in action. You can then customize it to meet your needs.
 
-For information on testing, go to [Quick-test your model](form-processing-train.md).
+This sample template iterates through all the pages in the document. If you know the page range where to iterate, you can update the logic on the **Do until** loop.
 
-## Extract fields for specific pages
+### Extract fields for specific pages
 
 You can extract fields for specific pages. For example, you might want header fields from the first page.
 
@@ -133,6 +125,10 @@ For example, the condition for the first page would be **Current Iteration Index
 
  > [!div class="mx-imgBorder"]
  > ![Screenshot of a Do until loop.](media/form-processing-multipage/do-until.png "Example of the 'Do until' loop")
+
+## Limitation
+
+Rows that cut across pages aren't supported.
 
 ### See also
 
