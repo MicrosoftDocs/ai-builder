@@ -17,10 +17,15 @@ After you review the [requirements](form-processing-model-requirements.md), you 
 ## Sign in to AI Builder
 
 1. Sign in to [Power Apps](https://make.powerapps.com/) or [Power Automate](https://flow.microsoft.com/signin).
+
 1. In the left pane, select **AI Builder** > **Build**.
+
 1. Select **Form processing**.
+
 1. Type a name for your model.
+
 1. If you want to create your model by using your own documents, make sure that you have at least five examples that use the same layout. Otherwise, you can [use sample data](form-processing-sample-data.md) to create the model.
+
 1. Select **Create**.
 
 ## Define information to extract
@@ -68,7 +73,7 @@ To start tagging, select one of the collections on the right panel.
 
 ### Tag fields
 
-To tag a field, simply draw a rectangle around the field you're interested in and select to the field name that it corresponds to.
+To tag a field, draw a rectangle around the field you're interested in and select the field name that it corresponds to.
 
    > [!div class="mx-imgBorder"]
    > !['Draw a rectangle to select a field' animation.](media/form-processing-multiple-layout-tag-fields.gif "Tag field in a document")
