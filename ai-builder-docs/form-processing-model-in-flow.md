@@ -34,7 +34,7 @@ ms.reviewer: v-aangie
     > [!NOTE]
     >
     >- To retrieve the value for a field, select **<field_name> value** . For example, for the *Lot number* field, select **Lot number value**.
-    >- To retrieve the value for a checkbox, select **<checkbox_name> value** . For example, for a checkbox named *Priority shipping*, select *Priority shipping value*. The return value is of type Boolean: `true` if the checkbox is marked as selected in the document, `false` if it’s not.
+    >- To retrieve the value for a checkbox, select **<checkbox_name> value** . For example, for a checkbox named *Priority shipping*, select **Priority shipping value**. The return value is of type Boolean: `true` if the checkbox is marked as selected in the document, `false` if it’s not.
     >- To retrieve the confidence score for an extracted item, select **<field_name> confidence score**. For example, for the *Lot number* field, select **Lot number confidence score**.
 
     > [!div class="mx-imgBorder"]
@@ -78,7 +78,6 @@ You can enter a page value or page range in the **Pages** parameter. Example: 1 
 |**{table}{column} value** |string |The value extracted by the AI model for a cell in a table| |
 |**{table}{column} confidence score** |float |How confident the model is in its prediction |Value in the range of 0 to 1. Values close to 1 indicate greater confidence that the extracted cell value is accurate |
 
-
 > [!NOTE]
 > More output parameters may be proposed such as field coordinates, polygons, bounding boxes and page numbers. These are not listed on purpose as mainly intended for advanced use.
 
@@ -108,14 +107,14 @@ To illustrate this procedure, we use the following example where we have trained
 
 ### Process outputs of checkboxes in Power Automate
 
-Checkboxes values are of type Boolean: `true` if the checkbox is marked as selected in the document, `false` if it’s not.
+Checkboxe values are of type Boolean: `true` means the checkbox is marked as selected in the document, and `false` means it’s not.
 
-One way you can check its value is with a **Condition** action. If the checkbox value is equal to `true`, then execute one action, if `false` another action. The illustration below shows an example.
+One way you can check its value is with a **Condition** action. If the checkbox value is equal to `true`, then execute one action. If the value is `false`, execute a different action. The following illustration shows an example.
 
 > [!div class="mx-imgBorder"]
 > ![Retreive checkbox value in a condition](media/form-processing-retreive-checkbox.png "Check for the value returned for an extracted checkbox in a condition in a cloud flow.")
 
-Another option is to map the `true`/`false` output of the checkbox to other values of your choice by using the [if](/azure/logic-apps/workflow-definition-language-functions-reference#if) expression. For example, you might have a column in an Excel file where you want to write ‘Priority’ if one of the checkboxes in the document is selected, or ‘Non-priority’ in the other case. To do this, you can use the following expression: `if(<form processing output>, 'Priority', 'Non-priority')`. The following animation shows an example.
+Another option is to map the `true`/`false` output of the checkbox to other values of your choice by using the [if](/azure/logic-apps/workflow-definition-language-functions-reference#if) expression. For example, you might have a column in an Excel file where you want to write ‘Priority’ if one of the checkboxes in the document is selected, or ‘Non-priority’ if not selected. To do this, you can use the following expression: `if(<form processing output>, 'Priority', 'Non-priority')`. The following animation shows an example.
 
 > [!div class="mx-imgBorder"]
 > ![Map checkbox value with an expression](media/form-processing-retreive-checkbox-2.gif "Using an expression to map the Boolean value returned by a checkbox.")
