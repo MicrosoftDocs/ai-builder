@@ -107,7 +107,7 @@ To illustrate this procedure, we use the following example where we have trained
 
 ### Process outputs of checkboxes in Power Automate
 
-Checkboxe values are of type Boolean: `true` means the checkbox is marked as selected in the document, and `false` means it’s not.
+Checkbox values are of type Boolean: `true` means the checkbox is marked as selected in the document, and `false` means it’s not.
 
 One way you can check its value is with a **Condition** action. If the checkbox value is equal to `true`, then execute one action. If the value is `false`, execute a different action. The following illustration shows an example.
 
