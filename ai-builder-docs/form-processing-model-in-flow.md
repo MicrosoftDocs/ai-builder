@@ -5,7 +5,7 @@ author: JoeFernandezMS
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 07/16/2021
+ms.date: 09/28/2021
 ms.author: jofernan
 ms.reviewer: v-aangie
 ---
@@ -34,7 +34,7 @@ ms.reviewer: v-aangie
     > [!NOTE]
     >
     >- To retrieve the value for a field, select **<field_name> value** . For example, for the *Lot number* field, select **Lot number value**.
-    >- To retrieve the value for a checkbox, select **<checkbox_name> value** . For example, for a checkbox named *Priority shipping*, select **Priority shipping value**. The return value is of type Boolean: `true` if the checkbox is marked as selected in the document, `false` if it’s not.
+    >- To retrieve the value for a checkbox, select **<checkbox_name> value**. For example, for a checkbox named *Priority shipping*, select **Priority shipping value**. The return value is of type Boolean: `true` if the checkbox is marked as selected in the document, `false` if it’s not.
     >- To retrieve the confidence score for an extracted item, select **<field_name> confidence score**. For example, for the *Lot number* field, select **Lot number confidence score**.
 
     > [!div class="mx-imgBorder"]
@@ -121,7 +121,7 @@ Another option is to map the `true`/`false` output of the checkbox to other valu
 
 ### Remove currency symbols (€, $,…) in a form processing output in Power Automate
 
-To illustrate, the *Total* value extracted by the form processing model might have a currency symbol, for example, \$54. To remove the *$* sign, or any other symbols you want to omit, use the [replace](/azure/logic-apps/workflow-definition-language-functions-reference#replace) expression to remove it. Here's how:
+To illustrate, the *Total* value extracted by the form processing model might have a currency symbol, for example, \$54. To remove the $ sign, or any other symbols you want to omit, use the [replace](/azure/logic-apps/workflow-definition-language-functions-reference#replace) expression to remove it. Here's how:
 
 `replace(<form processing output>, '$', '')`
 
