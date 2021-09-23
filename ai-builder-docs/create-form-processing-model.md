@@ -30,7 +30,7 @@ After you review the [requirements](form-processing-model-requirements.md), you 
 
 ## Define information to extract
 
-On the **Choose information to extract** screen, you define the fields, tables and checkboxes you want to teach your model to extract. Select the **+Add** button to start defining these.
+On the **Choose information to extract** screen, you define the fields, tables, and checkboxes you want to teach your model to extract. Select the **+Add** button to start defining these.
 
 - For each field, provide a name you would like the field to have in the model.
 
