@@ -75,7 +75,7 @@ The following steps will guide you on how to achieve this:
 
 The sample template in this procedure iterates through all the pages in the document. If you know the page range where you'd like to iterate, you can update the logic on the **Do until** loop.
 
-1. Select [this cloud flow template](https://preview.flow.microsoft.com/galleries/public/templates/59284c1735b745dda07032720f31de47/use-form-processing-to-extract-tables-than-span-across-multiple-pages/) > **Continue**.
+1. Select [this cloud flow template](https://flow.microsoft.com/en-us/galleries/public/templates/59284c1735b745dda07032720f31de47) > **Continue**.
 
 1. On the **Extract information from forms** action, specify the form processing model you've trained.
 
