@@ -1,5 +1,5 @@
 ---
-title: Process multipage tables in form processor (experimental) - AI Builder | Microsoft Docs
+title: Process multipage tables in form processing (experimental) - AI Builder | Microsoft Docs
 description: This topic provides information on how extract tables from an invoice, and tables that span fewer or greater than two pages, in AI Builder.
 author: JoeFernandezMS
 ms.service: aibuilder
@@ -10,7 +10,7 @@ ms.author: jofernan
 ms.reviewer: v-aangie
 ---
 
-# Process multipage tables in form processor (experimental)
+# Process multipage tables in form processing (experimental)
 
 [This topic is pre-release documentation and is subject to change.]
 
