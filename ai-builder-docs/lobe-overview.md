@@ -14,15 +14,13 @@ ms.reviewer: v-aangie
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-Lobe has everything you need to bring your machine learning ideas to life. Just show it examples of what you want it to learn, and it automatically trains a custom machine learning model that can be shipped in your app.
+Image classification is a machine learning approach that categorizes images to represent their content. This can be used to gain insights from large sets of images, or automatically alert you with new incoming videos or images. Image classification is similar to [object detection](object-detection-overview.md) in the AI Builder custom object detection AI model.
 
-Lobe is a free, easy to use Desktop app to train machine learning models. All the training happens on your computer, so it doesn't require AI Builder credits to train models. Lobe is integrated with Power Platform, adding the ability to export your model to AI Builder to use in [canvas apps](/powerapps/maker/canvas-apps/getting-started) and [Power Automate flows](/power-automate/flow-types).
-
-To learn how to use Lobe, go to [Lobe help](https://www.lobe.ai/docs/welcome/welcome).
+With Lobe, you train all your models on your computer. When you train this way, you don't use AI Builder credits. Lobe is integrated with Power Platform, which adds the ability to export your model to AI Builder to use in [canvas apps](/powerapps/maker/canvas-apps/getting-started) and [Power Automate flows](/power-automate/flow-types).
 
 ## Business scenarios
 
-Image classification can help organize, sort, classify, or alert you for issues or important insights. If there are business processes where you are working with cameras or large sets of images, there is an opportunity to automate processes with computer vision.
+Image classification can help organize, sort, classify, or alert you for issues or important insights. If there are business processes where you're working with cameras or large sets of images, there's an opportunity to automate processes with computer vision.
 
 Some common business scenarios are:
 
@@ -34,4 +32,14 @@ Some common business scenarios are:
 
 - Collect images in the field.  
 
-To watch a video of Lobe, go to the [Lobe home page](https://www.lobe.ai/) and select **Watch Tour**.
+## Learn to use Lobe
+
+- To learn how to use Lobe, go to [Lobe Help site](https://www.lobe.ai/docs/welcome/welcome).
+
+- To watch a video of Lobe, go to the [Lobe home page](https://www.lobe.ai/) and select **Watch Tour**.
+
+## Next step
+
+[Collect images for your machine learning model in Lobe](lobe-collect-images)
+
+ 
