@@ -57,7 +57,7 @@ To start tagging, select one of the collections on the right panel.
 
 ### Tag fields
 
-To tag a field, simply draw a rectangle around the field you're interested in and select to the field name that it corresponds to.
+To tag a field, draw a rectangle around the field you're interested in and select to the field name that it corresponds to.
 
    > [!div class="mx-imgBorder"]
    > !['Draw a rectangle to select a field' animation.](media/form-processing-multiple-layout-tag-fields.gif "Tag field in a document")
@@ -91,7 +91,7 @@ The header of a table doesn’t have to be tagged.
 
 **Multipage tables** 
 
-AI Builder doesn’t currently support extracting tables than span across multiple pages as a single table. To extract tables from different pages, these will need to be defined as separate tables in the [Choose information to extract step](create-form-processing-model.md#define-fields-and-tables-to-extract). For example, if you have a document with a table that spans over two pages, you'll need to define them as two separate tables.
+AI Builder doesn’t currently support extracting tables that span across multiple pages as a single table. To extract tables from different pages, these will need to be defined as separate tables in the [Choose information to extract step](create-form-processing-model.md#define-fields-and-tables-to-extract). For example, if you have a document with a table that spans over two pages, you'll need to define them as two separate tables.
 
 
 **Nested items in tables**
