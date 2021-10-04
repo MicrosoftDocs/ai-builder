@@ -14,7 +14,7 @@ ms.reviewer: v-aangie
 
 ## Languages supported
 
-Currently form processing works with documents in English.  
+Afrikaans, Albanian, Asturian, Basque, Bislama, Breton, Catalan, Cebuano, Chamorro, Chinese (Simplified), Chinese (Traditional), Cornish, Corsican, Crimean Tatar (Latin), Czech, Danish, Dutch, English, Estonian, Fijian, Filipino, Finnish, French, Friulian, Galician, German, Gilbertese, Greenlandic, Haitian Creole, Hani, Hmong Daw (Latin), Hungarian, Indonesian, Interlingua, Inuktitut (Latin), Irish, Italian, Japanese, Javanese, K’iche’, Kabuverdianu, Kachin (Latin), Kara-Kalpak, Kashubian, Khasi, Korean, Kurdish (latin), Luxembourgish, Malay (Latin), Manx, Neapolitan, Norwegian, Occitan, Polish, Portuguese, Romansh, Scots, Scottish Gaelic, Slovenian, Spanish, Swahili (Latin), Swedish, Tatar (Latin), Tetum, Turkish, Upper Sorbian, Uzbek (Latin), Volapük, Walser, Western Frisian, Yucatec Maya, Zhuang, Zulu.
 
 ## Requirements
 
@@ -26,7 +26,6 @@ Form processing works on input documents that meet the following requirements:
 - For images, dimensions must be between 50 &times; 50 and 10,000 &times; 10,000 pixels.
 - For PDF files, dimensions must be at most 17 x 17 inches, corresponding to Legal or A3 paper sizes and smaller.
 - If scanned from paper documents, scans should be high-quality images.
-- Must use the Latin alphabet (English characters).
 
  > [!NOTE]
  > AI Builder doesn't currently support the following types of form processing input data:
