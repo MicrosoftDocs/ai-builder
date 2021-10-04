@@ -49,12 +49,6 @@ For each collection that you create, you need to upload at least five sample doc
    > [!div class="mx-imgBorder"]
    > !['Select documents to upload' animation.](media/form-processing-multiple-layout-add-documents.gif "Upload documents")
 
-### Analyze
-
-During the analysis, AI Builder examines the documents that you uploaded and detects the fields and tables in your documents. The time it takes to complete this operation depends on the number of documents provided. Usually, it only takes a few minutes.
-
-Once the analysis is complete, you'll tag the uploaded documents.
-
 ## Tag documents
 
 By tagging the documents you've uploaded, you're teaching your AI Builder model to extract the fields and tables you've specified.
@@ -63,7 +57,7 @@ To start tagging, select one of the collections on the right panel.
 
 ### Tag fields
 
-To tag a field, simply draw a rectangle around the field you're interested in and select to the field name that it corresponds to.
+To tag a field, draw a rectangle around the field you're interested in and select to the field name that it corresponds to.
 
    > [!div class="mx-imgBorder"]
    > !['Draw a rectangle to select a field' animation.](media/form-processing-multiple-layout-tag-fields.gif "Tag field in a document")
@@ -97,7 +91,7 @@ The header of a table doesn’t have to be tagged.
 
 **Multipage tables** 
 
-AI Builder doesn’t currently support extracting tables than span across multiple pages as a single table. To extract tables from different pages, these will need to be defined as separate tables in the [Choose information to extract step](create-form-processing-model.md#define-fields-and-tables-to-extract). For example, if you have a document with a table that spans over two pages, you'll need to define them as two separate tables.
+AI Builder doesn’t currently support extracting tables that span across multiple pages as a single table. To extract tables from different pages, these will need to be defined as separate tables in the [Choose information to extract step](create-form-processing-model.md#define-fields-and-tables-to-extract). For example, if you have a document with a table that spans over two pages, you'll need to define them as two separate tables.
 
 
 **Nested items in tables**
