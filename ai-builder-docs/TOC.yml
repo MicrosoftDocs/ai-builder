@@ -161,7 +161,7 @@
     - name: Collect images
       href: lobe-collect-images.md
     - name: Build and train your machine learning model
-      href: lobe-build-train.md
+      href: lobe-train.md
     - name: Export your machine learning model
       href: lobe-export.md
 - name: Bring your own AI model (preview)
