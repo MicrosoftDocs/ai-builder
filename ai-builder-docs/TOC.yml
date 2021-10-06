@@ -188,6 +188,8 @@
       href: form-processing-model-in-flow.md
     - name: Object detection model
       href: object-detection-model-in-flow.md
+    - name: Image classification model
+      href: image-classification-model-in-flow.md  
     - name: Prediction model
       href: prediction-pwr-automate.md
   - name: Use a prebuilt AI Builder model in Power Automate
@@ -226,6 +228,8 @@
     href: form-processor-component-in-powerapps.md
   - name: Use the object detector component in Power Apps
     href: object-detector-component-in-powerapps.md
+  - name: Use the image classification component in Power Apps
+    href: image-classification-component-in-powerapps.md
   - name: Use formulas for text AI models in Power Apps (preview)
     href: formula-bar.md
   - name: Use the business card reader component in Power Apps
