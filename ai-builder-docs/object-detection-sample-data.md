@@ -6,8 +6,8 @@ ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: intro-internal
 ms.date: 03/19/2021
-ms.author: aminab
-ms.reviewer: rajvirk
+ms.author: rajvirk
+ms.reviewer: v-aangie
 ---
 
 # Use sample data to do object detection
