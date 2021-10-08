@@ -35,12 +35,12 @@ Download [AIBuilder_Lab.zip](https://go.microsoft.com/fwlink/?linkid=2103171) fi
     You might have to allow third-party cookies for your browser to complete this step.
 6. On the **Edit Queries** screen, select **Transform table** > **Use first row as headers**.
 7. Select **Next** > **Load to new entity**.
-8. Use the drop-down menu to select your target table, and then map your columns to the destination fields<!--Plural okay?-->.
+8. Use the drop-down menu to select your target table, and then map your columns to the destination fields.
 9. Select **Next** to finish.
 
 ### See also
 
-[Use the object detector component in Power Apps](object-detector-component-in-powerapps.md)
+[Use the object detection component in Power Apps](object-detector-component-in-powerapps.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
