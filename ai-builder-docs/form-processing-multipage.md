@@ -43,7 +43,7 @@ For instructions, go to [Invoice processing prebuilt model](prebuilt-invoice-pro
 
 ## Extract a table that spans more than two pages
 
-For tables that go beyond two pages, [tag the table](create-form-processing-model.md#tag-tables) on the first page where it is present. Once the model has been trained, process the document page-by-page using the [page range](form-processing-model-in-flow.md#page-range) feature to capture all the tables across all pages and merge them in a single table.
+For tables that go beyond two pages, [tag the table](create-form-processing-model.md#tag-documents) on the first page where it's present. Once the model has been trained, process the document page-by-page using the [page range](form-processing-model-in-flow.md#page-range) feature to capture all the tables across all pages and merge them in a single table.
 
 The following steps will guide you on how to achieve this:
 
