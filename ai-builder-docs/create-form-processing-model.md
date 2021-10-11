@@ -75,7 +75,7 @@ When you hover over words in your documents, light blue boxes may appear. These 
 
 1. Draw *rows* by left-clicking between row separators.
 
-1. Draw *columns* by pressing **Ctrl** + left click.
+1. Draw *columns* by pressing **Ctrl** + left-click.
 
 1. Once the rows and columns have been set, assign the headers to extract by selecting the header column and mapping it to the desired one.
 
@@ -93,7 +93,7 @@ The following animation illustrates the process:
 An alternative way to define the rows and columns for a table is by selecting **Delimit rows and columns** at the top of the screen.
 
    > [!div class="mx-imgBorder"]
-   > !['Tag tables' animation.](media/form-processing-delimit.png "Tag nested items in tables using advanced tagging mode")
+   > ![Screenshot of Delimit rows and columns option.](media/form-processing-delimit.png "Delimit rows and columns")
 
 ### Use the advanced tagging mode
 
