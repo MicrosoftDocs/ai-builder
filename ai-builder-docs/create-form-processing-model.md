@@ -69,46 +69,49 @@ When you hover over words in your documents, light blue boxes may appear. These 
    > [!div class="mx-imgBorder"]
    > ![Select fields.](media/form-select-fields.png "Select fields close up")
 
-### Tag tables
-
-To tag a table:
+### Tag a table with a mouse
 
 1. Draw a rectangle around the table in the document you're interested in, and then select the table name that it corresponds to. The content of the panel on the right will change.
 
-1. Draw **rows** by doing a **left click** between row separators.
+1. Draw *rows* by left-clicking between row separators.
 
-1. Draw **columns** by pressing **Ctrl + left click**.
+1. Draw *columns* by pressing **Ctrl** + left click.
 
 1. Once the rows and columns have been set, assign the headers to extract by selecting the header column and mapping it to the desired one.
 
 1. A preview of how the table will be extracted appears on the panel on the right.
 
-1. If the header of the table has been tagged, select the option to **Ignore first row** so the header of the table is not extracted as the table content. 
+1. If the header of the table has been tagged, select the option to **Ignore first row** so the header of the table isn't extracted as the table content.
 
 The following animation illustrates the process:
 
    > [!div class="mx-imgBorder"]
    > !['Tag table' animation.](media/form-processing-grid-tagging.gif "Tag a table in a document")
 
-**Advanced tagging mode**
+### Tag a table with an alternative pointing device
 
-Advanced tagging mode allows to tag tables at the cell level. Use this mode for complex tables like:
+An alternative way to define the rows and columns for a table is by selecting the **Delimit rows and columns** option available on the top bar.
+
+   > [!div class="mx-imgBorder"]
+   > !['Tag tables' animation.](media/form-processing-delimit.png "Tag nested items in tables using advanced tagging mode")
+
+### Use the advanced tagging mode
+
+Advanced tagging mode allows you to tag tables at the cell level. Use this mode for complex tables like:
 
 - Tables that are skewed, where tagging with a grid is not possible.
 - When you need to extract nested items, like an item within a cell. 
 
-Given the table from the example below, to extract the unit price, we will define it as a separate column on the [Choose information to extract step](create-form-processing-model.md#define-fields-and-tables-to-extract). We define Description, Unit price, Quantity, and Amount each as a column of the table and tag them accordingly using advanced tagging mode as shown in the animation below.
+Given the table from the example below, to extract the unit price, we will define it as a separate column on the [Choose information to extract step](create-form-processing-model.md#define-fields-and-tables-to-extract). We define **Description**, **Unit price**, **Quantity**, and **Amount** each as a column of the table and tag them accordingly using advanced tagging mode. See the animation below.
 
    > [!div class="mx-imgBorder"]
    > !['Tag tables' animation.](media/form-processing-advanced-tagging-mode.gif "Tag nested items in tables using advanced tagging mode")
 
-You can start tagging in the default mode to quickly capture all rows and columns, and then switch to advanced mode to adjust each cell and tag nested items. 
+You can start tagging in the default mode to quickly capture all rows and columns. Then switch to advanced mode to adjust each cell and tag nested items. 
 
-**Multipage tables** 
+### Multipage tables
 
 AI Builder doesn’t currently support extracting tables that span across multiple pages as a single table. To extract tables from different pages, these will need to be defined as separate tables in the [Choose information to extract step](create-form-processing-model.md#define-fields-and-tables-to-extract). For example, if you have a document with a table that spans over two pages, you'll need to define them as two separate tables.
-
-
 
 ### Field or table not in document
 
