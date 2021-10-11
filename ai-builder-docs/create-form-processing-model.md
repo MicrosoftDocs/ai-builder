@@ -105,9 +105,9 @@ Advanced tagging mode allows you to tag tables at the cell level. Use this mode 
 Given the table from the example below, to extract the unit price, we will define it as a separate column on the [Choose information to extract step](create-form-processing-model.md#define-fields-and-tables-to-extract). We define **Description**, **Unit price**, **Quantity**, and **Amount** each as a column of the table and tag them accordingly using advanced tagging mode. See the animation below.
 
    > [!div class="mx-imgBorder"]
-   > !['Tag tables' animation.](media/form-processing-advanced-tagging-mode.gif "Tag nested items in tables using advanced tagging mode")
+   > ![Screenshot of delimit rows and columns screen.](media/form-processing-advanced-tagging-mode.gif "Delimit rows and columns")
 
-You can start tagging in the default mode to quickly capture all rows and columns. Then switch to advanced mode to adjust each cell and tag nested items. 
+You can start tagging in the default mode to quickly capture all rows and columns. Then switch to advanced mode to adjust each cell and tag nested items.
 
 ### Multipage tables
 
