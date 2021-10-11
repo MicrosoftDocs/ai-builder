@@ -12,7 +12,7 @@ ms.reviewer: v-aangie
 
 # Create a form processing custom model
 
-After you review the [requirements](form-processing-model-requirements.md), you can get started creating your form-processing model.
+After you review the [requirements](form-processing-model-requirements.md), you can get started creating your form processing model.
 
 ## Sign in to AI Builder
 
@@ -81,7 +81,7 @@ When you hover over words in your documents, light blue boxes may appear. These 
 
 1. A preview of how the table will be extracted appears on the panel on the right.
 
-1. If the header of the table has been tagged, select the option to **Ignore first row** so the header of the table isn't extracted as the table content.
+1. If the header of the table has been tagged, select **Ignore first row** so the header of the table isn't extracted as the table content.
 
 The following animation illustrates the process:
 
@@ -90,7 +90,7 @@ The following animation illustrates the process:
 
 ### Tag a table with an alternative pointing device
 
-An alternative way to define the rows and columns for a table is by selecting the **Delimit rows and columns** option available on the top bar.
+An alternative way to define the rows and columns for a table is by selecting **Delimit rows and columns** at the top of the screen.
 
    > [!div class="mx-imgBorder"]
    > !['Tag tables' animation.](media/form-processing-delimit.png "Tag nested items in tables using advanced tagging mode")
@@ -115,7 +115,7 @@ AI Builder doesn’t currently support extracting tables that span across multip
 
 ### Field or table not in document
 
-If a field or table isn't present in one of the documents you've uploaded for training, use the **Not available in document** option on the right-side panel next to a field or table.
+If a field or table isn't present in one of the documents you've uploaded for training, select **Not available in document** on the panel to the right, next to a field or table.
 
    > [!div class="mx-imgBorder"]
    > ![Select Analyze.](media/form-processing-multiple-layout-not-available-in-document.gif "Field or table not in document")
