@@ -5,7 +5,7 @@ author: JoeFernandezMS
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/16/2021
+ms.date: 10/11/2021
 ms.author: jofernan
 ms.reviewer: v-aangie
 ---
@@ -32,7 +32,7 @@ On the **Choose information to extract** screen, you define the fields and table
    > [!div class="mx-imgBorder"]
    > !['Define fields' animation.](media/form-processing-multiple-layout-define-fields-only.gif "Define fields to extract")
 
-- For each table, provide the name you would like the table to have and define the different columns that the model should extract. 
+- For each table, provide the name you would like the table to have. Also, define the different columns that the model should extract.
 
    > [!div class="mx-imgBorder"]
    > !['Define tables' animation.](media/form-processing-multiple-layout-define-tables-only.gif "Define tables to extract")
@@ -69,7 +69,6 @@ When you hover over words in your documents, light blue boxes may appear. These 
    > [!div class="mx-imgBorder"]
    > ![Select fields.](media/form-select-fields.png "Select fields close up")
 
-
 ### Tag tables
 
 To tag a table:
@@ -90,7 +89,6 @@ The following animation illustrates the process:
 
    > [!div class="mx-imgBorder"]
    > !['Tag table' animation.](media/form-processing-grid-tagging.gif "Tag a table in a document")
-
 
 **Advanced tagging mode**
 
@@ -114,7 +112,7 @@ AI Builder doesn’t currently support extracting tables that span across multip
 
 ### Field or table not in document
 
-If a field or table isn't present in one of the documents you've uploaded for training, just use the not available in document option on the right-side panel next to a field or table.
+If a field or table isn't present in one of the documents you've uploaded for training, use the **Not available in document** option on the right-side panel next to a field or table.
 
    > [!div class="mx-imgBorder"]
    > ![Select Analyze.](media/form-processing-multiple-layout-not-available-in-document.gif "Field or table not in document")
