@@ -5,7 +5,7 @@ author: JoeFernandezMS
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/16/2021
+ms.date: 10/11/2021
 ms.author: jofernan
 ms.reviewer: v-aangie
 ---
@@ -32,7 +32,7 @@ On the **Choose information to extract** screen, you define the fields and table
    > [!div class="mx-imgBorder"]
    > !['Define fields' animation.](media/form-processing-multiple-layout-define-fields-only.gif "Define fields to extract")
 
-- For each table, provide the name you would like the table to have and define the different columns that the model should extract. 
+- For each table, provide the name you would like the table to have. Also, define the different columns that the model should extract.
 
    > [!div class="mx-imgBorder"]
    > !['Define tables' animation.](media/form-processing-multiple-layout-define-tables-only.gif "Define tables to extract")
@@ -69,7 +69,6 @@ When you hover over words in your documents, light blue boxes may appear. These 
    > [!div class="mx-imgBorder"]
    > ![Select fields.](media/form-select-fields.png "Select fields close up")
 
-
 ### Tag tables
 
 To tag a table:
@@ -97,7 +96,7 @@ If you don't want to try the experimental feature, you can extract tables from d
 
 **Nested items in tables**
 
-You can tag items that are nested within a row by defining these as columns. Given the table from the example below, to extract the unit price, we will define it as a separate column on the [Choose information to extract step](create-form-processing-model.md#define-fields-and-tables-to-extract). We define Description, Unit price, Quantity, and Amount each as a column of the table and tag them accordingly. 
+You can tag items that are nested within a row by defining these as columns. Given the table from the example below, to extract the unit price, we will define it as a separate column on the [Choose information to extract step](create-form-processing-model.md#define-fields-and-tables-to-extract) earlier in this topic. We define **Description**, **Unit price**, **Quantity**, and **Amount** each as a column of the table and tag them accordingly.
 
    > [!div class="mx-imgBorder"]
    > !['Tag tables' animation.](media/form-processing-tag-table-nested-items.png "Tag nested items in tables")
@@ -105,7 +104,7 @@ You can tag items that are nested within a row by defining these as columns. Giv
 
 ### Field or table not in document
 
-If a field or table isn't present in one of the documents you've uploaded for training, just use the not available in document option on the right-side panel next to a field or table.
+If a field or table isn't present in one of the documents you've uploaded for training, use the **Unavailable in document** option on the right-side panel next to a field or table.
 
    > [!div class="mx-imgBorder"]
    > ![Select Analyze.](media/form-processing-multiple-layout-not-available-in-document.gif "Field or table not in document")
