@@ -104,7 +104,7 @@ You can tag items that are nested within a row by defining these as columns. Giv
 
 ### Field or table not in document
 
-If a field or table isn't present in one of the documents you've uploaded for training, use the **Unavailable in document** option on the right-side panel next to a field or table.
+If a field or table isn't present in one of the documents you've uploaded for training, use the **Not available in document** option on the right-side panel next to a field or table.
 
    > [!div class="mx-imgBorder"]
    > ![Select Analyze.](media/form-processing-multiple-layout-not-available-in-document.gif "Field or table not in document")
