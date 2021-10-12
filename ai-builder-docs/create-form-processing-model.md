@@ -69,7 +69,7 @@ When you hover over words in your documents, light blue boxes may appear. These 
    > [!div class="mx-imgBorder"]
    > ![Select fields.](media/form-select-fields.png "Select fields close up")
 
-### Tag a table with a mouse
+### Tag tables
 
 1. Draw a rectangle around the table in the document you're interested in, and then select the table name that it corresponds to. The content of the panel on the right will change.
 
@@ -87,8 +87,6 @@ The following animation illustrates the process:
 
    > [!div class="mx-imgBorder"]
    > !['Tag table' animation.](media/form-processing-grid-tagging.gif "Tag a table in a document")
-
-### Tag a table with an alternative pointing device
 
 An alternative way to define the rows and columns for a table is by selecting **Delimit rows and columns** at the top of the screen.
 
