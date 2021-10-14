@@ -26,7 +26,7 @@ Get started exploring AI Builder category classification by using sample data to
 
 2. Import the **AIBuildetTextSample_1_0_0** solution to your Microsoft Dataverse environment. More information: [Import, update, and export solutions](/powerapps/maker/common-data-service/import-update-export-solutions)
 
-3. Upload data from **sampleData.zip** to the healthcare_feedback entity by following instructions in [Before you build a category classification model](before-you-build-text-classification-model.md).
+3. Go to Lab Data/Text Classification folder within the lab files and then upload data from pai_healthcare_feedbacks. 
 
 ## Create your model
 

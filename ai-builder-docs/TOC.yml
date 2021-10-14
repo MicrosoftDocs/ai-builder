@@ -84,7 +84,7 @@
         href: prediction-sample-data.md
       - name: Prediction model performance
         href: prediction-performance.md
-      - name: Training errors and issues
+      - name: Training errors and warnings
         href: prediction-training-report.md
     - name: Use your prediction model
       href: prediction-use.md
@@ -98,6 +98,8 @@
       href: create-text-classification-model.md
     - name: Train your category classification model
       href: train-text-classification-model.md
+    - name: Training errors and warnings
+      href: category-classification-training-report.md
     - name: Understand category classification model performance
       href: text-classification-performance.md
     - name: Improve category classification model performance
@@ -119,7 +121,9 @@
     - name: Create a custom entity extraction model
       href: entity-extraction-create.md
     - name: Train and publish your entity extraction model
-      href: entity-extraction-train.md 
+      href: entity-extraction-train.md
+    - name: Use sample data
+      href: entity-extraction-sample-data.md 
   - name: Object detection AI model
     items: 
     - name: Overview
@@ -148,6 +152,16 @@
       href: improve-form-processing-performance.md
     - name: Use sample data
       href: form-processing-sample-data.md
+    - name: FAQ for form processing
+      href: form-processing-faq.md
+    - name: Process multipage tables (experimental)
+      href: form-processing-multipage.md  
+- name: Bring your own AI model
+  items:
+  - name: Create and register your own model
+    href: byo-model.md
+  - name: Package your own model using solutions
+    href: byom-alm.md 
 - name: Use AI Builder in Power Automate
   items:
   - name: Overview
@@ -200,7 +214,7 @@
     href: prediction-model-driven-app.md
   - name: Use the form processor component in Power Apps
     href: form-processor-component-in-powerapps.md
-  - name: Use the object detector component in Power Apps
+  - name: Use the object detection component in Power Apps
     href: object-detector-component-in-powerapps.md
   - name: Use formulas for text AI models in Power Apps (preview)
     href: formula-bar.md

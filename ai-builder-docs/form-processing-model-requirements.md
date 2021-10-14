@@ -1,20 +1,20 @@
 ---
-title: Requirements and limitations - AI Builder | Microsoft Docs
+title: Requirements and limitations for form processing models - AI Builder | Microsoft Docs
 description: Describes the requirements and limitations of form processing models in AI Builder.
 author: JoeFernandezMS
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom:
-ms.date: 03/19/2021
+ms.date: 10/06/2021
 ms.author: jofernan
 ms.reviewer: v-aangie
 ---
 
-# Form processing model requirements and limitations
+# Requirements and limitations for a form processing model
 
 ## Languages supported
 
-Currently form processing works with documents in English.  
+English
 
 ## Requirements
 
@@ -26,7 +26,6 @@ Form processing works on input documents that meet the following requirements:
 - For images, dimensions must be between 50 &times; 50 and 10,000 &times; 10,000 pixels.
 - For PDF files, dimensions must be at most 17 x 17 inches, corresponding to Legal or A3 paper sizes and smaller.
 - If scanned from paper documents, scans should be high-quality images.
-- Must use the Latin alphabet (English characters).
 
  > [!NOTE]
  > AI Builder doesn't currently support the following types of form processing input data:

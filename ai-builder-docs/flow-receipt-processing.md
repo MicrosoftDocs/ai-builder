@@ -22,7 +22,7 @@ ms.reviewer: v-aangie
 
 1. Replace  **File Content** with **My receipt** (also known as the title).
 
-1. Select **+ New step** > **AI Builder**, and then select **Process and save information from receipts (preview)** in the list of actions.
+1. Select **+New step** > **AI Builder**, and then select **Extract information from receipts** in the list of actions.
 
 1. Select the **Receipt file** input, and then select **My receipt** from the **Dynamic content** list:
 
