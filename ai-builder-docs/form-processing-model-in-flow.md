@@ -14,7 +14,7 @@ ms.reviewer: v-aangie
 
 1. Sign in to [Power Automate](https://flow.microsoft.com/).
 
-1. Select **My flows** in the left pane, and then select **New flow** > **Instant cloud flow**.
+1. Select **My flows** in theF left pane, and then select **New flow** > **Instant cloud flow**.
 
 1. Name your flow, select **Manually trigger a flow** under **Choose how to trigger this flow**, and then select **Create**.
 
@@ -85,7 +85,7 @@ You can enter a page value or page range in the **Pages** parameter. Example: 1 
 
 ### Iterate a form processing table output in Power Automate 
 
-To illustrate this procedure, we use the following example where we have trained a form processing model to extract a table that we have named **Items** with three columns: **Quantity**, **Description** and **Total**. We wish to store each line item from the table into an Excel file.
+To illustrate this procedure, we use the following example where we've trained a form processing model to extract a table that we've named **Items** with three columns: **Quantity**, **Description** and **Total**. We wish to store each line item from the table into an Excel file.
 
 > [!div class="mx-imgBorder"]
 > ![Table extracted by form processing.](media/form-processing-table-example.png "Example of a table extracted by a form processing model.")
@@ -141,7 +141,7 @@ AI Builder form processing returns all outputs as strings. If the destination wh
 > [!div class="mx-imgBorder"]
 > !['Add *replace* expression' to convert to date animation.](media/form-processing-convert-date.gif "Add the expression above into the input field of an action in your flow. Remember to replace the first parameter of the expression by the form processing output you want to convert to date.")
 
-### Filter email signature from a flow so that's not processed by the form processing model (Office 365 Outlook)
+### Filter email signature from a flow so that it's not processed by the form processing model (Office 365 Outlook)
 
 For incoming emails from the Office 365 Outlook connector, email signatures are picked up by Power Automate as attachments. To keep these from being processed by the form processing model, add a condition to your flow that checks if the output from the Office 365 Outlook connector named **Attachments is Inline** is equal to false. In the **If yes** branch of the condition, add the form processing action. With this, only email attachments that aren't inline signatures will be processed.
 

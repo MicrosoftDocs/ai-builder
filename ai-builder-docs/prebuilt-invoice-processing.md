@@ -116,7 +116,7 @@ The following applies to calls made per environment across form processing model
 
 ## Create a custom invoice processing solution
 
-The invoice processing prebuilt AI model is designed to extract common fields found in invoices. Because every business is unique, you might want to extract fields other than those included in this prebuilt model. It can also be the case that some standard fields are not well extracted for a particular type of invoice you work with. To address this, there are two options:
+The invoice processing prebuilt AI model is designed to extract common fields found in invoices. Because every business is unique, you might want to extract fields other than those included in this prebuilt model. It can also be the case that some standard fields aren't well extracted for a particular type of invoice you work with. To address this, there are two options:
 
 - **View raw OCR results**: Every time the invoice processing prebuilt AI model processes a file you provide, it also does an OCR operation to extract every word written on the file. You can access the raw OCR results on the detected text output provided by the model. A simple search on the content returned by detected text might be enough to get the data you need.
 - **Use form processing**: With AI Builder, you can also build your own custom AI model to extract specific fields and tables you need for the documents you work with. Just [create a form processing model](form-processing-model-overview.md) and train it to extract all the information from an invoice that doesn’t work well with the invoice extraction model.
@@ -147,7 +147,7 @@ The flow is triggered when a new invoice is added to a SharePoint folder. It the
 
 One way to use the invoice processing prebuilt model is to use it as a fallback model to handle invoices that you haven’t trained in your custom form processing model. For example, let's say you built a form processing model, and trained it to extract data from your top 20 invoice providers. You could then use the invoice processing prebuilt model to process all new invoices or lower volume invoices. Here’s an example of how you could do it:
 
-This flow is triggered when a new invoice is added to a SharePoint folder. It then calls a custom form processing model to extract its data. Next, we check if the confidence score for the detected collection is less than 0.65. If it’s the case, it probably means the provided invoice is not a good match for the custom model, so we then call the prebuilt invoice processing model. Finally, we save the extracted data from the invoice in an Excel file.
+This flow is triggered when a new invoice is added to a SharePoint folder. It then calls a custom form processing model to extract its data. Next, we check if the confidence score for the detected collection is less than 0.65. If it’s the case, it probably means the provided invoice isn't a good match for the custom model. We then call the prebuilt invoice processing model. Finally, we save the extracted data from the invoice in an Excel file.
 
    > [!div class="mx-imgBorder"]
    > ![Invoice and form processing flow for new invoices.](media/invoice-and-form-process-flow3.png "Create a flow that uses a form processing model for new invoices")
