@@ -14,13 +14,13 @@ ms.reviewer: v-aangie
 
 In AI Builder, you can choose from several model types that are suited to different business scenarios. For example, if you want to use AI to detect your products in images; you’d build, train, and publish  a custom AI Builder object detection model. If you want to use AI to automate your expense reports by scanning and processing business receipts, you could use AI Builder’s prebuilt receipt scanning model, which is ready to use out of the box. To design a marketing campaign based on patterns in your historical data; you’d build, train, and publish a custom prediction model in AI Builder tailored to your business and using your own historical data. These are just a few of the ways you can use AI Builder to add intelligence to your business processes.
 
-To build a model by using AI Builder, sign in to [Power Apps](https://make.powerapps.com) and, in the left pane, select **AI Builder** > **Build**. Select the model type that matches what you want to do, and you're ready to get started.
+To build a model by using AI Builder, sign in to [Power Apps](https://make.powerapps.com) and, in the left pane, select **AI Builder** > **Build**. Here's an advanced view of the new AI Builder home page:
 
 > [!div class="mx-imgBorder"]
-> ![AI Builder home page.](media/ai-builder-home.png "AI Builder home page")
+> ![AI Builder home page.](media/ai-builder-home-explore.png "AI Builder home page")
 
 > [!IMPORTANT]
-> We're changing the look of the AI Builder home page to improve your experience for learning how AI Builder can help you and your company. We'll first roll it out to a random group, and then to all customers the week of October 24, 2021.
+> This is an advanced view of the new home page. We're changing the look to improve your experience for learning how AI Builder can help you and your company. We'll first roll it out to a random group, and then to all customers the week of October 24, 2021.
 >
 > For an overview of AI Builder, go to [What is AI Builder?](overview.md)
 

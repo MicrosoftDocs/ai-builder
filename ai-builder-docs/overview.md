@@ -24,7 +24,7 @@ AI Builder is a Microsoft Power Platform capability that provides AI models that
 > [!IMPORTANT]
 > We're changing the look of the AI Builder home page to improve your experience for learning how AI Builder can help you and your company. We'll first roll it out to a random group, and then to all customers the week of October 24, 2021.
 >
-> To learn more about AI Builder, go to [AI models and business scenarios](model-types.md).
+> For an advanced view of the new screen, go to [AI models and business scenarios](model-types.md).
 
 ## How can I add intelligence to my business?
 
