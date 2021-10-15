@@ -19,6 +19,12 @@ To build a model by using AI Builder, sign in to [Power Apps](https://make.power
 > [!div class="mx-imgBorder"]
 > ![AI Builder home page.](media/ai-builder-home.png "AI Builder home page")
 
+> [!IMPORTANT]
+> We're changing the look of the AI Builder home page to improve your experience for learning how AI Builder can help you and your company. We'll first roll it out to a random group, and then to all customers the week of October 24, 2021.
+>
+> For an overview of AI Builder, go to [What is AI Builder?](overview.md)
+
+
 ## Model types
 
 Let’s look at the different model types that are available in AI Builder, and how they are classified. Later, we’ll look at common business scenarios and the model types that are suited to them.
