@@ -1,12 +1,12 @@
 ---
 title: AI models and business scenarios - AI Builder | Microsoft Docs
-description: Provides an overview ofhow the AI model types that you can create in AI Builder relate to various business scenraios.
-author: v-aangie
+description: Provides an overview of how the AI model types that you can create in AI Builder relate to various business scenarios.
+author: paulnog
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom:
-ms.date: 10/29/2020
-ms.author: joshrenn
+ms.date: 10/18/2020
+ms.author: paulnog
 ms.reviewer: v-aangie
 ---
 
