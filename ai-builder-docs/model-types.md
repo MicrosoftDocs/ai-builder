@@ -33,12 +33,6 @@ To build a model with AI Builder:
 > [!div class="mx-imgBorder"]
 > ![Screenshot of AI Builder home page.](media/ai-builder-home.png "AI Builder home page")
 
-## New home page for AI Builder
-
-We're changing the look of the home page to improve your experience for discovering how AI Builder can help you and your company. We'll first roll it out to a random group, and then to all customers the week of October 24, 2021.
-
-To learn more about adding intelligence to your business, go to [Overview of AI Builder](overview.md).
-
 ## Model types
 
 The following table lists the model types, their category, and build type. The AI *category* describes the type of AI that they use (for example, text, prediction, or vision). The *build type* indicates whether it’s customizable (custom) or ready to use (prebuilt).
@@ -80,6 +74,20 @@ Get alerted to social media posts referencing your brand | Key phrase extraction
 Automate contact list |Business card reader
 Automate inventory taking|Object detection
 Take a photo of text and save it to a database |Text recognition
+
+## New home page for AI Builder
+
+We're changing the look of the home page to improve your experience for discovering how AI Builder can help you and your company. We are rolling out the new experience to a random set of users starting October, 2021, and it will eventually be available to all users by the end of calendar year, 2021.
+
+<Add screen of new experience>
+  
+The new experience enables you to:
+- Blah 1
+- Blah 2
+
+
+
+
 
 ### Next step
 
