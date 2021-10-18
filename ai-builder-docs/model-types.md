@@ -16,7 +16,7 @@ In AI Builder, you can choose from several model types that are suited to differ
 
 - If you want to use intelligence to detect your products in images, you can refine a *custom* AI Builder object detection model. With a customizable model, you'll build, train, and publish it for your intended use.
 
-- If you want to use intelligence to automate your expense reports by scanning and processing business receipts, you can use a *prebuilt* AI Builder receipt scanning model. All prebuilt models allow you go straight to productivity.
+- If you want to use intelligence to automate your expense reports by scanning and processing business receipts, you can use a *prebuilt* AI Builder receipt scanning model. All prebuilt models allow you to go straight to productivity.
 
 - If you want to design a marketing campaign based on patterns in your historical data, you can use a *custom* prediction model tailored to your business, using your own historical data.
 
@@ -43,7 +43,7 @@ To learn more about adding intelligence to your business, go to [Overview AI Bui
 
 The following table lists the model types, their category, and build type. The AI *category* describes the type of AI that they use (for example, text, prediction, or vision). The *build type* indicates whether it’s customizable (custom) or ready to use (prebuilt).
 
-The build type indicates whether it’s a customizable model that you'll have to build, train, and publish for your intended use, or if it's a prebuilt model that’s ready to use. In general, use custom AI Builder models for applications where you're working with data that’s unique to your business. Use prebuilt models for scenarios that are common across different types of businesses.
+The build type indicates whether it’s a customizable model that you'll need to build, train, and publish for your intended use, or if it's a prebuilt model that’s ready to use. In general, use custom AI Builder models for applications where you're working with data that’s unique to your business. Use prebuilt models for scenarios that are common across different types of businesses.
 
 [Common business scenarios](#common-business-scenarios) and the model types that are suited to them are described later in this topic.
 
