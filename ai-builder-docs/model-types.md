@@ -37,7 +37,7 @@ To build a model with AI Builder:
 
 We're changing the look of the home page to improve your experience for discovering how AI Builder can help you and your company. We'll first roll it out to a random group, and then to all customers the week of October 24, 2021.
 
-To learn more about adding intelligence to your business, go to [Overview AI Builder](overview.md).
+To learn more about adding intelligence to your business, go to [Overview of AI Builder](overview.md).
 
 ## Model types
 
