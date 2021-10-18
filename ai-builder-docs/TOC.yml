@@ -154,11 +154,13 @@
       href: form-processing-sample-data.md
     - name: FAQ for form processing
       href: form-processing-faq.md
-- name: Bring your own AI model (preview)
+    - name: Process multipage tables (experimental)
+      href: form-processing-multipage.md  
+- name: Bring your own AI model
   items:
-  - name: Create and register your own model (preview)
+  - name: Create and register your own model
     href: byo-model.md
-  - name: Package your own model using solutions (preview)
+  - name: Package your own model using solutions
     href: byom-alm.md 
 - name: Use AI Builder in Power Automate
   items:
@@ -212,7 +214,7 @@
     href: prediction-model-driven-app.md
   - name: Use the form processor component in Power Apps
     href: form-processor-component-in-powerapps.md
-  - name: Use the object detector component in Power Apps
+  - name: Use the object detection component in Power Apps
     href: object-detector-component-in-powerapps.md
   - name: Use formulas for text AI models in Power Apps (preview)
     href: formula-bar.md

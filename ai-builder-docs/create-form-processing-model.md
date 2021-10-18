@@ -5,14 +5,14 @@ author: JoeFernandezMS
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 9/28/2021
+ms.date: 10/11/2021
 ms.author: jofernan
 ms.reviewer: v-aangie
 ---
 
 # Create a form processing custom model
 
-After you review the [requirements](form-processing-model-requirements.md), you can get started creating your form-processing model.
+After you review the [requirements](form-processing-model-requirements.md), you can get started creating your form processing model.
 
 ## Sign in to AI Builder
 
@@ -37,7 +37,7 @@ On the **Choose information to extract** screen, you define the fields, tables, 
    > [!div class="mx-imgBorder"]
    > !['Define fields' animation.](media/form-processing-multiple-layout-define-fields-only.gif "Define fields to extract")
 
-- For each table, provide the name you would like the table to have and define the different columns that the model should extract. 
+- For each table, provide the name you would like the table to have. Also, define the different columns that the model should extract.
 
    > [!div class="mx-imgBorder"]
    > !['Define tables' animation.](media/form-processing-multiple-layout-define-tables-only.gif "Define tables to extract")
@@ -58,12 +58,6 @@ For each collection that you create, you need to upload at least five sample doc
 
    > [!div class="mx-imgBorder"]
    > !['Select documents to upload' animation.](media/form-processing-multiple-layout-add-documents.gif "Upload documents")
-
-### Analyze
-
-During the analysis, AI Builder examines the documents that you uploaded and detects the fields and tables in your documents. The time it takes to complete this operation depends on the number of documents provided. Usually, it only takes a few minutes.
-
-Once the analysis is complete, you'll tag the uploaded documents.
 
 ## Tag documents
 
@@ -87,33 +81,47 @@ When you hover over words in your documents, light blue boxes may appear. These 
 
 ### Tag tables
 
-To tag a table:
-
 1. Draw a rectangle around the table in the document you're interested in, and then select the table name that it corresponds to. The content of the panel on the right will change.
 
-1. Select a cell from the table on the right panel, and then tag it on the document.
+1. Draw *rows* by left-clicking between row separators.
 
-1. Once you've tagged one cell, come back to the right panel, and select another cell to tag.
+1. Draw *columns* by pressing **Ctrl** + left-click.
 
-1. Repeat this process until you've tagged all rows for all the columns you're interested in.
+1. Once the rows and columns have been set, assign the headers to extract by selecting the header column and mapping it to the desired one.
+
+1. A preview of how the table will be extracted appears on the panel on the right.
+
+1. If the header of the table has been tagged, select **Ignore first row** so the header of the table isn't extracted as the table content.
 
 The following animation illustrates the process:
 
    > [!div class="mx-imgBorder"]
-   > !['Tag table' animation.](media/form-processing-tag-table.gif "Tag a table in a document")
+   > !['Tag table' animation.](media/form-processing-grid-tagging.gif "Tag a table in a document")
 
-The header of a table doesn’t have to be tagged.
-
-**Multipage tables** 
-
-AI Builder doesn’t currently support extracting tables than span across multiple pages as a single table. To extract tables from different pages, these will need to be defined as separate tables in the [Choose information to extract step](create-form-processing-model.md#define-information-to-extract). For example, if you have a document with a table that spans over two pages, you'll need to define them as two separate tables.
-
-**Nested items in tables**
-
-You can tag items that are nested within a row by defining these as columns. Given the table in the following example, to extract the unit price, we will define it as a separate column on the [Choose information to extract step](create-form-processing-model.md#define-information-to-extract). We define Description, Unit price, Quantity, and Amount each as a column of the table and tag them accordingly.
+An alternative way to define the rows and columns for a table is by selecting **Delimit rows and columns** at the top of the screen.
 
    > [!div class="mx-imgBorder"]
-   > !['Tag tables' animation.](media/form-processing-tag-table-nested-items.png "Tag nested items in tables")
+   > ![Screenshot of Delimit rows and columns option.](media/form-processing-delimit.png "Delimit rows and columns")
+
+### Use the advanced tagging mode
+
+Advanced tagging mode allows you to tag tables at the cell level. Use this mode for complex tables like:
+
+- Tables that are skewed, where tagging with a grid is not possible.
+- When you need to extract nested items, like an item within a cell. 
+
+Given the table from the example below, to extract the unit price, we will define it as a separate column on the [Choose information to extract step](create-form-processing-model.md#define-fields-and-tables-to-extract). We define **Description**, **Unit price**, **Quantity**, and **Amount** each as a column of the table and tag them accordingly using advanced tagging mode. See the animation below.
+
+   > [!div class="mx-imgBorder"]
+   > ![Screenshot of delimit rows and columns screen.](media/form-processing-advanced-tagging-mode.gif "Delimit rows and columns")
+
+You can start tagging in the default mode to quickly capture all rows and columns. Then switch to advanced mode to adjust each cell and tag nested items.
+
+### Multipage tables
+
+AI Builder supports extracting tables that span across multiple pages as a single table with an experimental feature. For details, go to [Process multipage tables in form processor (experimental)](form-processing-multipage.md).
+
+If you don't want to try the experimental feature, you can extract tables from different pages by defining each page as a separate table in the [Choose information to extract step](create-form-processing-model.md#define-fields-and-tables-to-extract). For example, if you have a document with a table that spans over two pages, you'll need to define them as two separate tables.
 
 ### Tag checkboxes
 
@@ -132,7 +140,7 @@ AI Builder supports detection and extraction of selection marks such as checkbox
 
 ### Field or table not in document
 
-If a field or table isn't present in one of the documents you've uploaded for training, use the **Not available in document** option on the right-side panel next to a field or table.
+If a field or table isn't present in one of the documents you've uploaded for training, select **Not available in document** on the panel to the right, next to a field or table.
 
    > [!div class="mx-imgBorder"]
    > ![Select Analyze.](media/form-processing-multiple-layout-not-available-in-document.gif "Field or table not in document")
