@@ -138,7 +138,7 @@ AI Builder supports detection and extraction of selection marks such as checkbox
 
 ### Field or table not in document
 
-If a field or table isn't present in one of the documents you've uploaded for training, use the **Not available in document** option on the right-side panel next to a field or table.
+If a field or table isn't present in one of the documents you've uploaded for training, select **Not available in document** on the panel to the right, next to a field or table.
 
    > [!div class="mx-imgBorder"]
    > ![Select Analyze.](media/form-processing-multiple-layout-not-available-in-document.gif "Field or table not in document")
