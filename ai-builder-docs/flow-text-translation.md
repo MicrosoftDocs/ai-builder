@@ -39,7 +39,7 @@ ms.reviewer: v-aangie
     > [!div class="mx-imgBorder"]
     > ![Text translation flow example.](media/text-translation-flow-example.png "Text translation flow example")
     
-Congratulations! You've created a flow that uses a sentiment analysis model. Select **Save** on the top right and then select **Test** to try out your flow.
+Congratulations! You've created a flow that uses a text translation model. Select **Save** on the top right and then select **Test** to try out your flow.
 
 ## Parameters
 ### Input
