@@ -121,6 +121,15 @@ You can start tagging in the default mode to quickly capture all rows and column
 
 AI Builder supports extracting tables that span across multiple pages as a single table with an experimental feature. For details, go to [Process multipage tables in form processor (experimental)](form-processing-multipage.md).
 
+If you don't want to try the experimental feature, you can extract tables from different pages by defining each page as a separate table in the [Choose information to extract step](create-form-processing-model.md#define-information-to-extract). For example, if you have a document with a table that spans over two pages, you'll need to define them as two separate tables.
+
+**Nested items in tables**
+
+You can tag items that are nested within a row by defining these as columns. Given the table from the example below, to extract the unit price, define it as a separate column on the [Choose information to extract step](create-form-processing-model.md#define-information-to-extract) earlier in this topic. Define **Description**, **Unit price**, **Quantity**, and **Amount** each as a column of the table and then tag them accordingly.
+
+   > [!div class="mx-imgBorder"]
+   > !['Tag tables' animation.](media/form-processing-tag-table-nested-items.png "Tag nested items in tables")
+
 ### Tag checkboxes
 
 To tag a checkbox, draw a rectangle around the checkbox you're interested in extracting and select the checkbox name that it corresponds to.
