@@ -115,7 +115,7 @@ You can extract fields for specific pages. For example, you might want header fi
 
 ## Limitation
 
-Rows that cut across pages, (for example, row 30 starts at the bottom of page 1 and ends at the top of page 2), aren't supported.
+Rows that cut across pages (for example, row 30 starts at the bottom of page 1 and ends at the top of page 2), aren't supported.
 
 ### See also
 
