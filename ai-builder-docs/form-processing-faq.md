@@ -26,7 +26,7 @@ Supported file types are PDF, JPG, and PNG.
 
 ### What data can I extract from documents by using form processing?
 
-Form processing can extract fields and tables from documents. Learn more: [Define fields and tables to extract](create-form-processing-model.md#define-information-to-extract)
+Form processing can extract fields, tables and checkboxes from documents. Learn more: [Define information to extract](create-form-processing-model.md#define-information-to-extract)
 
 ### Can I extract handwritten text from documents?
 
