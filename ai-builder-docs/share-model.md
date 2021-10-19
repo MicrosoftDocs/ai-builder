@@ -96,7 +96,7 @@ If the model you're changing the ownership is a *form processing* model or an *o
 
 1.	Select the row associated to the model you are reassigning.
 
-1. Select **AI Builder Datasets Containers**. A window will open where you can change the owner. 
+1. Select **Assing AI Builder Datasets Containers**. A window will open where you can change the owner. 
 
 ### Can I disable the sharing feature for AI model makers and only allow admins to do it?
 
