@@ -1,29 +1,29 @@
 ---
 title: Use the business card reader component in canvas apps in Power Apps - AI Builder | Microsoft Docs
 description: Provides information about the properties, and information extracted by the business card reader component in a canvas app.
-author: alanabrito
+author: joefernandezms
 
-ms.service: powerapps
+ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/27/2019
-ms.author: alanab
-ms.reviewer: v-dehaas
+ms.date: 04/09/2021
+ms.author: jofernan
+ms.reviewer: v-aangie
 ---
 
-# Use the business card reader component in a canvas app
+# Use the business card reader component in a canvas app in Power Apps
 
-Use the AI Builder business card reader component to detect business cards and extract their information. You can take photos directly in the component or load images that you've taken. Data is extracted and identified<!--Edit okay? --> by using the properties listed below.
+Use the AI Builder business card reader component to detect business cards and extract their information. You can take photos directly in the component or load images that you've taken. Data is extracted and identified by using the properties listed below.
 
-For information about canvas apps, see [What are canvas apps in Power Apps?](/powerapps/maker/canvas-apps/getting-started).
+For information about canvas apps, see [What are canvas apps in Power Apps?](/powerapps/maker/canvas-apps/getting-started)
 
 ## Licensing requirements
 
-AI Builder is licensed as an add-on to your Power Apps or Power Automate licenses. For information about license capacity, pricing, and restrictions, see [AI Builder licensing](/ai-builder/administer-licensing).
+AI Builder is licensed as an add-on to your Power Apps or Power Automate licenses. For information about license capacity, pricing, and restrictions, see [AI Builder licensing](./administer-licensing.md).
 
 ## Role requirements
 
-You need the Common Data Service user role to use the business card reader.
+You need the Basic User role to use the business card reader.
 
 ## Key properties
 
@@ -76,3 +76,6 @@ These [guidelines](/powerapps/maker/canvas-apps/controls/control-button) for the
 ### See also
 
 [Core properties in Power Apps](/powerapps/maker/canvas-apps/controls/properties-core)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

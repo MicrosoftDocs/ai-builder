@@ -1,13 +1,13 @@
 ---
 title: Publish a model in AI Builder - AI Builder | Microsoft Docs
 description: Provides step-by-step instructions for publishing your model in AI Builder.
-author: Dean-Haas
-ms.service: powerapps
+author: v-aangie
+ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
 ms.date: 01/03/2020
 ms.author: joshrenn
-ms.reviewer: v-dehaas
+ms.reviewer: kvivek
 ---
 
 # Publish your model in AI Builder
@@ -19,9 +19,9 @@ After you successfully train your model, you have to publish it to make it avail
 On the details page, under **Last trained version**, select **Publish**.
 
 > [!div class="mx-imgBorder"]
-> ![Publish model screen](media/publish-model.png "Publish model screen")
+> ![Publish model screen.](media/publish-model.png "Publish model screen")
 
-After you publish your last trained version, it appears as the published version. For certain AI model types, you might need to take additional steps to use your model in Power Apps or Common Data Service.
+After you publish your last trained version, it appears as the published version. For certain AI model types, you might need to take additional steps to use your model in Power Apps or Microsoft Dataverse.
 
 > [!NOTE]
 >
@@ -42,3 +42,6 @@ If you're satisfied with your model, you can publish it to make it available. Be
 
 [AI Builder in Power Automate overview](use-in-flow-overview.md)  
 [AI Builder in Power Apps overview](use-in-powerapps-overview.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

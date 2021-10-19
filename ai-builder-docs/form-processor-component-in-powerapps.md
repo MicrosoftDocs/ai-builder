@@ -2,12 +2,12 @@
 title: Use the form processor component in Power Apps - AI Builder | Microsoft Docs
 description: Provides information about how to use the form processor component in Power Apps
 author: JoeFernandezMS
-ms.service: powerapps
+ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/31/2019
+ms.date: 04/09/2021
 ms.author: jofernan
-ms.reviewer: v-dehaas
+ms.reviewer: v-aangie
 ---
 
 # Use the form processor component in Power Apps
@@ -15,13 +15,13 @@ ms.reviewer: v-dehaas
 You can add the AI Builder form processor component to your screen in your canvas apps. This component takes a photo or loads your image. Then it extracts text based on your trained AI model. If it detects a form that the AI model is trained for, the form processor extracts the field values and identifies them by using rectangles.
 
  > [!NOTE]
- > For more information about creating a new form processing model, see [Get started with Form processing in AI Builder](https://docs.microsoft.com/learn/modules/get-started-with-form-processing/)
+ > For more information about creating a new form processing model, see [Get started with Form processing in AI Builder](/learn/modules/get-started-with-form-processing/)
  >
  > For more information about canvas apps, see [What are canvas apps in Power Apps?](/powerapps/maker/canvas-apps/getting-started).
 
 ## Prerequisites
 
-This component requires a published AI Builder form-processing model. Then that model must be bound to the component by using the AI model property in the properties panel.
+This component requires a published AI Builder form processing model. Then that model must be bound to the component by using the AI model property in the properties panel.
 
 When you add the component to the screen, it automatically opens the AI models pane. There, you select a model that has been published in your environment. The component is initialized after an AI model is bound to it.
 
@@ -54,7 +54,7 @@ When you add the component to the screen, it automatically opens the AI models p
 
 - **ImageDisplayed** (**Show image** in the properties panel): Determines whether the component displays the image. When set to **On**, rectangles are displayed around field values detected in the image.
 
-  Three different colors can be used to draw the rectangle depending on the confidence level:
+  Three colors can be used to draw the rectangle depending on the confidence level:
   - **Red**: Confidence level is between 0 percent and 39 percent.
   - **Orange**: Confidence level is between 40 percent and 59 percent.
   - **Blue**: Confidence level is between 60 percent and 100 percent.
@@ -67,7 +67,7 @@ When you add the component to the screen, it automatically opens the AI models p
 
   - **View**: Only displays data.
 
-  - **Disabled** is disabled.
+  - **Disabled**: Is disabled.
 
 - **Height**: The height of the component.
 
@@ -82,9 +82,13 @@ When you add the component to the screen, it automatically opens the AI models p
 Additional design properties are available in the **Advanced** panel.
 
 ## Accessibility guidelines
+
 These [guidelines](/powerapps/maker/canvas-apps/controls/control-button) for the Power Apps button control also apply to the form processor component.
 
 ### See also
 
 [Overview of the object detection model](object-detection-overview.md)  
 [Core properties in Power Apps](/powerapps/maker/canvas-apps/controls/properties-core)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

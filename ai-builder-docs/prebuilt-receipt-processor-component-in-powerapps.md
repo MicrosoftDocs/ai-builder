@@ -1,24 +1,30 @@
 ---
-title: Use the receipt processor component in Power Apps -  AI Builder | Microsoft Docs
+title: Use the receipt processor component in Power Apps - AI Builder | Microsoft Docs
 description: Provides information about how to use the receipt processor component in Power Apps
 author: jarennert
-
-ms.service: powerapps
+ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/20/2020
+ms.date: 06/22/2021
 ms.author: joshrenn
-ms.reviewer: v-dehaas
+ms.reviewer: v-aangie
 ---
 
-# Use the receipt processor component in Power Apps (preview)
+# Use the receipt processor component in Power Apps
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
 The AI Builder receipt processor component scans and extracts information from receipts. You can take photos directly within the component or load images that have already taken. The data is recognized and extracted using the properties below.
 
 For more information about canvas apps, see [What are canvas apps in Power Apps?](/powerapps/maker/canvas-apps/getting-started)
 
+> [!IMPORTANT]
+> - This is a preview feature.
+>
+> - [!INCLUDE[cc_preview_features_definition](includes/cc-preview-features-definition.md)]
+
 ## Requirements
-The receipt processor component works best with sales receipts, those commonly used by restaurants, gas stations, and retailers, among others. Both print and handwritten text can be detected.
+The receipt processor component works best with sales receipts, those commonly used by restaurants, gas stations, and retailers, and others. Both print and handwritten text can be detected.
 
 Only English receipts from the United States are currently supported.
 
@@ -26,8 +32,8 @@ In order to get the best results, provide one clear photo or scan per receipt.
 
 - The image format must be JPEG, PNG, or PDF.
 - The file size must be less than 20 MB.
-- The image dimensions must be between 50 x 50 pixels and 10000 x 10000 pixels.
-- PDF dimensions must be at most 17 x 17 inches, which is the equivalent of the Legal or A3 paper sizes or smaller.
+- The image dimensions must be between 50 x 50 pixels and 10,000 x 10,000 pixels.
+- PDF dimensions must be at most 17 x 17 inches, which is the equivalent of the legal or A3 paper sizes or smaller.
 - For PDF documents, only the first 200 pages are processed.
 
 ## Receipt properties
@@ -70,6 +76,8 @@ These [guidelines](/powerapps/maker/canvas-apps/controls/control-button) for the
 
 ### Related topics
 
-[Receipt processing overview](prebuilt-receipt-processing.md)
-
+[Receipt processing overview](prebuilt-receipt-processing.md)<br/> 
 [Core properties in Power Apps](/powerapps/maker/canvas-apps/controls/properties-core)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

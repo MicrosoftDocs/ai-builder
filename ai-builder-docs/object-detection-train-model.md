@@ -2,12 +2,12 @@
 title: Train and publish your object detection model - AI Builder | Microsoft Docs
 description: Provides steps to train and publish your object detection model in AI Builder.
 author: amina196
-ms.service: powerapps
+ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
 ms.date: 09/06/2019
 ms.author: aminab
-ms.reviewer: v-dehaas
+ms.reviewer: kvivek
 ---
 
 # Train and publish your object detection model
@@ -27,7 +27,7 @@ After your model is trained, you can see it in action from its details page. Mor
 4. After your model has finished running, the rectangles found will be drawn directly on the picture.
 
     > [!div class="mx-imgBorder"]
-    > ![Quick-test screen](media/quick-test.png "Quick-test screen")
+    > ![Quick-test screen.](media/quick-test.png "Quick-test screen")
 
 ## How to interpret your model performance score
 
@@ -39,8 +39,17 @@ Model performance scores are more reliable when you have more than 50 images per
 
 ## Publish your object detection model
 
-From here<!--Edit okay? I didn't see what "there" meant.-->, you can run more tests with other pictures. If you're happy with the results, you can [publish](publish-model.md) your model to use it in Power Apps or Power Automate.
+From here, you can run more tests with other pictures. If you're happy with the results, you can [publish](publish-model.md) your model to use it in Power Apps or Power Automate.
+
+## Limits
+
+|**Action**|**Limit**|**Renewal period**|
+|:-----|:-----|-----:|
+|Object detection calls (per environment)|4800|60 seconds|
 
 ### See also
 
 [Manage your model in AI Builder](manage-model.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

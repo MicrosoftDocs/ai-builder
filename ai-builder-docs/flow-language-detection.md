@@ -1,37 +1,44 @@
 ---
 title: Use the language detection prebuilt model in Power Automate - AI Builder | Microsoft Docs
 description: Provides information about how to use the AI Builder language detection prebuilt model in your flows
-author: alanabrito
-ms.service: powerapps
+author: JoefernandezMS
+ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/30/2019
-ms.author: alanab
-ms.reviewer: v-dehaas
+ms.date: 04/05/2021
+ms.author: jofernan
+ms.reviewer: v-aangie
 ---
 
 # Use the language detection prebuilt model in Power Automate
 
+1. Sign in to [Power Automate](https://flow.microsoft.com/).
 
-1. Sign in to [Power Automate](https://flow.microsoft.com/signin), select the **My flows** tab, and then select **Create from blank**.
-1. Sign in to [Power Automate](https://flow.microsoft.com/), select the **My flows** tab, and then select **New > +Instant-from blank**.
+1. Select **My flows** in the left pane, and then select **New flow** > **Instant cloud flow**.
+
 1. Name your flow, select **Manually trigger a flow** under **Choose how to trigger this flow**, and then select **Create**.
-1. Expand **Manually trigger a flow**, select **+Add an input**, select **Text** as the input type, and set as input title **My Text**.
-1. Select **+ New step**, search for the term **AI Builder**, and then select **Detect the language being used in text** in the list of actions.
-1. Specify the **My Text** field from the trigger in the **Text** input for your flow:
+
+1. Expand **Manually trigger a flow**, and then select **+Add an input** > **Text** as the input type.
+
+1. Replace  **Input** with **My Text** (also known as the title).
+
+1. Select **+ New step** > **AI Builder**, and then select **Detect the language being used in text** in the list of actions.
+
+1. Select the **Text** input, and then select **My Text** from the **Dynamic content** list:
 
     > [!div class="mx-imgBorder"]
-    > ![Trigger text flow](media/trigger-text-flow-2.png "Manually trigger a flow screens")
+    > ![Trigger text flow.](media/trigger-text-flow-2.png "Manually trigger a flow screens")
 
-1. In the successive actions, you can use any fields extracted by the AI Builder model. For example, you can add lines to an Excel file using **Language** and **Confidence score**:
+1. In the successive actions, you can use any columns extracted by the AI Builder model. For example, you can add lines to an Excel file using **Language** and **Confidence score**:
 
     > [!div class="mx-imgBorder"]
-    > ![Example](media/text-flow-example-2.png "Example")
+    > ![Example.](media/text-flow-example-2.png "Example")
 
 Congratulations! You've created a flow that uses a language detection model. Select **Save** on the top right and then select **Test** to try out your flow.
 
 
 ## Parameters
+
 ### Input
 |Name |Required |Type |Description |Values |
 |---------|---------|---------|---------|---------|
@@ -49,3 +56,6 @@ Congratulations! You've created a flow that uses a language detection model. Sel
 
 [Language detection overview](prebuilt-language-detection.md)
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

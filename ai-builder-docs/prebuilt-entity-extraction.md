@@ -2,12 +2,12 @@
 title: Entity extraction prebuilt AI model - AI Builder | Microsoft Docs
 description: Describes the prebuilt entity extraction AI Builder model.
 author: mfotedar
-ms.service: powerapps
+ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/11/2020
+ms.date: 04/05/2021
 ms.author: mfotedar
-ms.reviewer: v-dehaas
+ms.reviewer: v-aangie
 ---
 
 # Entity extraction prebuilt model 
@@ -23,19 +23,23 @@ The prebuilt model is ready to use out of the box. For information about customi
 You can try out the entity extraction model before you import it into your flow by using the "try it out" feature.
 
 1. Sign in to [Power Apps](https://make.powerapps.com).
+
 1. In the left pane, select **AI Builder** > **Build**.
+
 1. Under **Get straight to productivity**, select **Entity Extraction**.
-1. In the **Entity Extraction** window, select **Try it out**. 
-1. Select predefined text samples to analyze, or add your own text in the **Add your own here** box to see how the model analyzes your text.
+
+1. In the **Entity Extraction** window, select **Try it out**.
+
+1. Select predefined text samples to analyze, or add your own text in the **Or add your own here** box to see how the model analyzes your text.
 
 ### Use the formula bar
 
-You can integrate your AI Builder entity extraction model in Power Apps Studio by using the formula bar. More information: [Use formulas for text AI models](use-model.md#use-formulas-for-text-ai-models)
+You can integrate your AI Builder entity extraction model in Power Apps Studio by using the formula bar. For more information, see [Use formulas for text AI models](formula-bar.md#entity-extraction).
 
 ## Use in Power Automate
 
 If you want to use this prebuilt model in Power Automate, you can find more information in [Use the entity extraction prebuilt model in Power Automate](prebuilt-entity-extraction-pwr-automate.md).
- 
+
 ## Supported data format and languages
 
 - Documents can't exceed 5,000 characters.
@@ -94,3 +98,6 @@ The model output shows the identified entities and their entity types. For examp
 ### Next step
 
 [Use the entity extraction prebuilt model in Power Automate](prebuilt-entity-extraction-pwr-automate.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

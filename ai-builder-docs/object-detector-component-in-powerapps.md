@@ -1,18 +1,18 @@
 ---
-title: Use the object detector component in Power Apps - AI Builder | Microsoft Docs
+title: Use the object detection component in Power Apps - AI Builder | Microsoft Docs
 description: Provides information about how to use an object detection component in Power Apps
-author: amina196
-ms.service: powerapps
+author: Raj-Virk
+ms.service: aibuilder
 ms.topic: conceptual
-ms.custom: 
-ms.date: 09/06/2019
-ms.author: aminab
-ms.reviewer: v-dehaas
+ms.custom: intro-internal
+ms.date: 04/09/2021
+ms.author: rajvirk
+ms.reviewer: v-aangie
 ---
 
-# Use the object detector component in Power Apps
-<!--I used "object detector" to be parallel with the other references to components in this section, also to follow the majority of uses in the docset.-->
-The object detector component takes a photo or loads an image file to do an object detection scan. On a mobile device, the user chooses between taking a photo or selecting one already available in the device user interface. When an image is selected, the component automatically scans it to identify objects.
+# Use the object detection component in Power Apps
+
+The object detection component takes a photo or loads an image file to do an object detection scan. On a mobile device, the user chooses between taking a photo or selecting one already available in the device user interface. When an image is selected, the component automatically scans it to identify objects.
 
  > [!NOTE]
  > For information about canvas apps, see [What are canvas apps in Power Apps?](/powerapps/maker/canvas-apps/getting-started).
@@ -87,3 +87,6 @@ These [guidelines](/powerapps/maker/canvas-apps/controls/control-button) for the
 [Overview of the object detection model](object-detection-overview.md)  
 [Use the object detection model in Power Automate](object-detection-model-in-flow.md)  
 [Core properties in Power Apps](/powerapps/maker/canvas-apps/controls/properties-core)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

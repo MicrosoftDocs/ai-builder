@@ -1,16 +1,18 @@
 ---
 title: Transition to the new object detection model version - AI Builder | Microsoft Docs
 description: Preview object detection model versions won't be compatible with updated model versions, so you have to re-create existing models.
-author: Jarennert
-ms.service: powerapps
+author: JoeFernandezMS
+ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/06/2020
-ms.author: Jarennert
-ms.reviewer: v-dehaas
+ms.date: 11/06/2020
+ms.author: jofernan
+ms.reviewer: kvivek
 ---
 
 # Transition to the new object detection model version
+
+[!INCLUDE [cc-data-platform-banner](includes/cc-data-platform-banner.md)]
 
 AI Builder is including improvements to object detection in a new model version. Your object detection
 preview models created before March 5, 2020, are deprecated. More information: [Form processing and object detection preview models in AI Builder are deprecated](/power-platform/important-changes-coming#form-processing-and-object-detection-preview-models-in-ai-builder-are-deprecated)
@@ -32,8 +34,11 @@ We understand that you might have spent significant time building your object de
 
 Object detection models are being upgraded for general availability. Your existing preview models won't be compatible with the new model version.
 
-Until March 5, 2020, object detection models stored images as attachments in the Note entity. With this update, these models now use the new [File and Image data types](https://powerapps.microsoft.com/blog/introducing-improvements-to-data-storage-in-common-data-services/) in Common Data Service, enabling a better and more optimized usage of capacity.
+Until March 5, 2020, object detection models stored images as attachments in the Note entity. With this update, these models now use the new [File and Image data types](https://powerapps.microsoft.com/blog/introducing-improvements-to-data-storage-in-common-data-services/) in Microsoft Dataverse, enabling a better and more optimized usage of capacity.
 
 ### See also
 
 [Manage your model in AI Builder](manage-model.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

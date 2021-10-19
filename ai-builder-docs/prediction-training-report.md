@@ -1,52 +1,130 @@
 ---
-title: Training errors and issues - AI Builder | Microsoft Docs
-description: Describes the errors and issues that appear on the AI Builder prediction model details page
-author: Dean-Haas
-ms.service: powerapps
+title: Prediction model training errors and warnings - AI Builder | Microsoft Docs
+description: Describes the errors and warnings that might appear on the AI Builder prediction model details page.
+author: norliu
+ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 01/03/2020
-ms.author: sdarapu
-ms.reviewer: v-dehaas
+ms.date: 08/09/2021
+ms.author: norliu
+ms.reviewer: v-aangie
 ---
 
-# Training errors and issues
-<!--Is it all right that this heading doesn't mention the prediction model specifically? It probably should if similar topics for other types of models might be written someday.-->
-AI Builder reports errors and issues<!--Suggested, to avoid "issue messages" and also to echo the H2s below.--> on the model details page. These messages are explained here.
+# Prediction model training errors and warnings
 
-## Errors
+While training the prediction model, you might come across the messages in this article that AI Builder might report. Messages are either *errors* or *warnings*. Each is represented by an icon.
 
-When an error occurs, you can't continue until you resolve it. Here are some error messages that might occur:
-<!--Suggest using full HTML. Some strings dropped out of these messages in the published version! I think it was just too complex for markdown.-->
-- *The model needs at least **\<ThresholdValue>** records to train. **\<EntityName>** has only **\<ActualValue>** records. Add data or select another entity.*
+|Message |Icon  |
+|---------|---------|
+|Error   | ![Error icon](media/predict-icon-error.png "Error icon")        |
+|Warning | ![Warning icon](media/predict-icon-warn.png "Warning icon")
 
-    If you only have 50 records or less, you can't train the model. Ideally, you should have at least 1,000 records.
+When an error occurs, you can't continue until you resolve it. If the system is unable to correct a problem, it will show you an error.
 
-- *The model needs at least **\<ThresholdValue>** historical outcome records of each outcome value to train. Add data or select another entity.*
+Warnings are messages reported as informational. They don't stop you from proceeding. They warn you of possible performance issues when training the model.
 
-    You need at least 10 records of historical outcome for each class to train the model and predict the outcome.
+> [!div class="mx-imgBorder"]
+> ![Screenshot of error and warning messages.](media/predict-errors.png "Error and warning messages")
 
-- *The model requires at least **\<ThresholdValue>** features to train the model. Select the required fields.*
 
-    You don't have any relevant features generated to train the model.
+## Error: No AI Builder license
 
-## Issues
+*You need an AI Builder license to use this feature. Start or extend a trial or contact your admin to upgrade.*
 
-These messages don't prevent you from continuing to train and publish your model; instead, they show you issues that might cause your model to underperform.
+### Cause
 
-- *The model might produce better performance with optimum records of **\<ThresholdValue>** or more to train the model. **\<EntityName>** has **\<ActualValue>** records. Add data for better model performance.*
+You either don't have an active [AI Builder license](administer-licensing.md), or the existing trial has expired.
 
-    You have fewer than 1,000 records. Ideally, you should provide at least 1,000 records to train the model.
+### Resolution
 
-- ***\<EntityName>.\<AttributeName>** might get dropped from training as it has a single value and does not contribute to training the model.*
+To use AI Builder models, make sure you have the AI Builder license assigned.
 
-    Data fields that have less relevance for training the model are dropped&mdash;for example, data fields that all have the same value in each record.
+## Error: Insufficient number of rows to train
 
-- ***\<EntityName>.\<AttributeName>** has a high ratio of missing values, greater than **\<ThresholdValue>** percentage and might not contribute to train the model.*
+*The model needs at least 50 rows to train. \<TableName> has only \<ActualValue> rows. Add data or select another table.*
 
-    For best results, populate data for the data fields that have a high rate of missing values.
+> [!div class="mx-imgBorder"]
+> ![Screenshot of error message for insufficient number of rows to train.](media/predict-rows.png "Insufficient number of rows to train error message")
 
-<!--Can you do something about the grammar of this message? It needs to be passive voice. I'm not sure whether the model or the data is suspected of causing the target leak, but a model can't actually suspect anything.-->
-- ***\<EntityName>.\<AttributeName>** has **\<ThresholdValue>** percent correlation **\<CorrelationName>** with **\<OutcomeAttributeName>** and model might suspect to cause target leak.*
+### Cause 
 
-    Data fields that have a high correlation with the outcome of a prediction are dropped in model training.
+The table that you've selected as the historical outcome doesn't have enough rows in it for the model to train itself to predict future outcomes.
+
+### Resolution
+
+Add a minimum of 50 rows to the table. Use a minimum of 1,000 rows for better prediction results. More information: [Prediction model prerequisites](prediction-prereq.md)
+
+## Error: Insufficient historical outcome rows to train
+
+*The model needs at least 10 historical outcome rows of each outcome value to train. Add data or select another table.*
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of error message for insufficient historical outcome.](media/predict-history-rows.png "Insufficient historical outcome error message")
+
+### Cause
+
+The column that you selected to let AI Builder study the historical outcome doesn't have enough rows for each possible outcome. For example, in a Boolean field where the possible outcomes can be either true or false, there should be a minimum 10 rows of historical data where the outcome is set to **True** and another 10 rows set to **False**.
+
+### Resolution
+
+Make sure you have 10 rows of each possible outcome value that you would like the model to predict. More information: [Prediction model prerequisites](prediction-prereq.md)
+
+## Warning: Add data to improve model performance
+
+*The model might produce better performance with optimum rows of 1,000 or more to train the model. Online Shopper Intention has \<Actualcount> rows. Add data for better model performance.*
+
+> [!div class="mx-imgBorder"]
+> ![screenshot with warning message to add data to improve model performance.](media/predict-warn-perf.png "Add data to improve model performance warning message")
+
+### Cause
+
+The AI model found that the number of rows might not result in optimal model performance.
+
+### Resolution
+
+We recommend 1,000 rows or more of historical data with outcomes to predict outcomes with a high level of accuracy. However, 50 rows is the minimum limit to process the prediction model.
+
+## Warning: Column might be dropped from training model
+
+*\<TableName>.\<ColumnName> might get dropped from training as it has a single value and does not contribute to training the model.*
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of warning message that a column might get dropped.](media/predict-warn-drop.png "Column might get dropped warning message")
+
+### Cause
+
+The AI model processes data in the columns related to the outcome that will influence the prediction. Of the various columns selected, it found that the specified column had only a single value across all rows in the table. Because of this, it won't impact the prediction and won't help training the model.
+
+### Resolution
+
+Make sure that all columns selected as being related to the outcome column have multiple values in the column. This will help with the training of the model.
+
+## Warning: High ratio of missing values
+
+*\<TableName>.\<ColumnName> has a high ratio of missing values, greater than \<ThresholdValue> percentage and might not contribute to train the model.*
+
+### Cause
+
+The AI model processes the data in the columns related to the outcome that will influence the prediction. Of the various columns selected, the model found that the specified column had data in few rows in the table. Since the data won't impact the prediction, it won't help training the model.
+
+### Resolution
+
+Make sure the columns that are selected as being related to the outcome have data for them across most of the rows in historical data.
+
+## Warning: High percent correlation to the outcome column
+
+*\<TableName>.\<ColumnName> has \<ThresholdValue> percent correlation \<CorrelationName> with \<OutcomeAttributeName> and model might suspect to cause target leak.*
+
+### Cause
+
+The AI model processes the data in the columns related to the outcome that will influence the prediction. Of the various columns selected, it found that the specified column has a high correlation with the outcome column, which might impact the prediction result. Because of this, it won't be included in training the model.
+
+### Resolution
+
+Make sure the columns selected as being related to the outcome don't have a high correlation with the outcome column for a fair prediction.
+
+### See also
+
+[Common issues and resolutions for AI Builder](common-issues.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
