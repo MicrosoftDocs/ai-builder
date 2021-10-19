@@ -5,7 +5,7 @@ author: Antoine2F
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/19/2021
+ms.date: 10/19/2021
 ms.author: antode
 ms.reviewer: v-aangie
 ---
@@ -69,20 +69,24 @@ Reassign this model to another user. _Reassign_ means changing ownership in the 
 To change the ownership of a model:
 
 1.	Sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
-2. Select the environment where the model you want to change ownership is located and select **Settings** > **Resources** > **All legacy settings**.
-3. Select **Advanced Find** on the top right corner.
+
+1. Select the environment where the model you want to change ownership is located.
+
+1. Select **Settings** > **Resources** > **All legacy settings**.
+
+1. Select **Advanced Find** on the top right corner.
     > [!div class="mx-imgBorder"]
     > ![Advanced Find.](media/change-model-ownership-advanced-find.png "Advanced Find")
     
-4.	From the **Look for** list, select **AI Models**, and then select **Results**.
+1.	From the **Look for** list, select **AI Models**, and then select **Results**.
     > [!div class="mx-imgBorder"]
     > ![List AI Models.](media/change-model-ownership-settings.png "List AI Models")
 
-5. You will get a list of all the AI models in the environment. Select the one you wish to reassign and select **Assing AI Models**. A window will open where you can change the owner of the model.
+1. You'll will get a list of the AI models in the environment. Select the model you want to reassign, and select **Assign AI Models**. A window will open where you can change the owner of the model.
 
-If the model you are changing the ownership is a **Form processing** model or an **Object detection** model you will also need to reassign the associated **AI Builder Dataset Container** associated to the model. To do this:
+If the model you're changing the ownership is a *form processing* model or an *object detection* model, you'll also need to reassign the **AI Builder Dataset Container** associated with the model. To do this:
 
-1.	On the **Advanced Find** menu, select **AI Builder Dataset Containers** from the **Look for** list. To make easier to identity which AI models it corresponds to, select **Edit Columns**, and add the **AI Model** column to the view. Then select **Results**. 
+1.	On the **Advanced Find** menu, select **AI Builder Datasets Containers** from the **Look for** list. To make it easier to identify which AI models it corresponds to, select **Edit Columns** > **AI Model** > **Results**. 
 
     > [!div class="mx-imgBorder"]
     > ![Advanced Find AI Builder Dataset Container.](media/change-model-ownership-ai-builder-dataset-container.png "Advanced Find AI Builder Dataset Container")
@@ -90,8 +94,9 @@ If the model you are changing the ownership is a **Form processing** model or an
     > [!div class="mx-imgBorder"]
     > ![Change view.](media/change-model-ownership-view.png "Change view")
 
-2.	Select the row associated to the model you a reassign and select Assing **AI Builder Datasets Containers**. A window will open where you can change the owner. 
+1.	Select the row associated to the model you are reassigning.
 
+1. Select **AI Builder Dataset Containers**. A window will open where you can change the owner. 
 
 ### Can I disable the sharing feature for AI model makers and only allow admins to do it?
 
