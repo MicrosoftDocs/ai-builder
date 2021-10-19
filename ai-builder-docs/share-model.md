@@ -82,7 +82,7 @@ To change the ownership of a model:
 
 If the model you are changing the ownership is a **Form processing** model or an **Object detection** model you will also need to reassign the associated **AI Builder Dataset Container** associated to the model. To do this:
 
-1.	On the **vanced Find** menu, select **AI Builder Dataset Containers** from the **Look for** list. To make easier to identity which AI models it corresponds to, select **Edit Columns**, and add the **AI Model** column to the view. Then select **Results**. 
+1.	On the **Advanced Find** menu, select **AI Builder Dataset Containers** from the **Look for** list. To make easier to identity which AI models it corresponds to, select **Edit Columns**, and add the **AI Model** column to the view. Then select **Results**. 
 
     > [!div class="mx-imgBorder"]
     > ![Advanced Find AI Builder Dataset Container.](media/change-model-ownership-ai-builder-dataset-container.png "Advanced Find AI Builder Dataset Container")
