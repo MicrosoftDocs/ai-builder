@@ -2,12 +2,12 @@
 title: Overview of form processing model - AI Builder | Microsoft Docs
 description: This topic provides information about how to build and use form processing models in AI Builder.
 author: JoeFernandezMS
-ms.service: powerapps
+ms.service: aibuilder
 ms.topic: conceptual
-ms.custom: 
+ms.custom: intro-internal
 ms.date: 12/31/2019
 ms.author: jofernan
-ms.reviewer: v-dehaas
+ms.reviewer: v-aangie
 ---
 
 # Overview of the form processing model
@@ -26,3 +26,6 @@ After you train and [publish](publish-model.md) your model, you can use it in a 
 
 [Feature availability by region](availability-region.md)  
 [AI model types](model-types.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,13 +1,13 @@
 ---
 title: Manage your model in AI Builder - AI Builder | Microsoft Docs
 description: Provides detailed information about how to manage your AI models in AI Builder.
-author: Dean-Haas
-ms.service: powerapps
+author: paulnog
+ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/06/2019
-ms.author: joshrenn
-ms.reviewer: v-dehaas
+ms.date: 03/02/2021
+ms.author: paulnog
+ms.reviewer: v-aangie
 ---
 
 # Manage your model in AI Builder
@@ -15,7 +15,7 @@ ms.reviewer: v-dehaas
 Creating the optimal model for your business can be a rather iterative process. Results can vary depending on the configurations you set and the training data you provide. Updating these factors can improve the performance of your model. In some cases, however, performance might be degraded. Each AI model type has a set of guidelines to help you with the process of creating the best model, tailored to your needs.
 
 > [!div class="mx-imgBorder"]
-> ![Manage AI model screen](media/manage-model.png "Manage AI model screen")
+> ![Manage AI model screen.](media/manage-model.png "Manage AI model screen")
 
 ## Evaluate your model
 
@@ -25,7 +25,7 @@ Depending on your AI model type, a performance score might appear for each train
 
 Each AI model type has a different explanation for how the score is calculated and how the score should be interpreted. View the tooltip next to **Performance** to learn more.
 
-Some AI model types include a feature to quickly test the performance for your trained version<!--Edit okay? I got a bit lost here.--> with real data of your choosing. Select **Quick test** to see your model in action.
+Some AI model types include a feature to quickly test the performance for your trained version with real data of your choosing. Select **Quick test** to see your model in action.
 
 After you finish evaluating your newly trained model, you have two options:
 
@@ -38,7 +38,7 @@ An _underfit_ model is a model that actually performs worse than a random guess.
 
 ### Overfit models
 
-An _overfit_ model appears to perform very well&mdash;if not perfectly&mdash;when run on your training data. That can be because there's a field in your training data that directly corresponds to outcome. For example, let's say you have a prediction model that predicts whether a shipment will arrive on time. If your historical data includes the actual delivery date, your model would predict perfectly when run against your historical data. It probably wouldn't do so well when run on real data in your business environment, because the delivery date field wouldn't be populated yet.<!--Excellent explanation!-->  <!--Thanks! I'll just leave this here.  :)-->
+An _overfit_ model appears to perform very well&mdash;if not perfectly&mdash;when run on your training data. That can be because there's a column in your training data that directly corresponds to outcome. For example, let's say you have a prediction model that predicts whether a shipment will arrive on time. If your historical data includes the actual delivery date, your model would predict perfectly when run against your historical data. It probably wouldn't do so well when run on real data in your business environment, because the delivery date column wouldn't be populated yet.
 
 ## Edit the model name
 
@@ -55,13 +55,13 @@ You can have up to two trained versions available at a time: one **Published ver
 When you create a new version, your model is based on the configuration from an existing version—your published version, or your last trained version. If you have both, you have to choose which one you want to create the new version from.
 
 > [!div class="mx-imgBorder"]
-> ![New version menu](media/new-version-menu.png "New version menu")
+> ![New version menu.](media/new-version-menu.png "New version menu")
 
 A new version is created only after you've successfully trained it. If you leave without finishing your changes and training your model, your progress is saved as a draft. Certain actions, such as creating a new version or retraining, might be disabled until you train or discard your draft. You can only have one draft available at a time, so you have to select either **Resume draft** to pick up where you left off or **Discard draft** to get rid of the changes before you can continue.
 
 After training, your training results appear under the **Last trained version** section of the **Details** page.
 
-If you're satisfied with your last trained version, you can publish your model to make it available. Otherwise, you can always create a new version.<!--Suggested. There are too many cross-references to the same topic in here.-->
+If you're satisfied with your last trained version, you can publish your model to make it available. Otherwise, you can always create a new version.
 
 ## When should I create a new version?
 
@@ -88,3 +88,6 @@ Perform these steps on each of your AI Builder models to get your AI models up a
 ### Next step
 
 [Publish your model in AI Builder](publish-model.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

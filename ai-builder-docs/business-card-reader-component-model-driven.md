@@ -1,28 +1,28 @@
 ---
 title: Use the business card reader component in model-driven apps in Power Apps - AI Builder | Microsoft Docs
 description: Provides information about how to set up and use the AI Builder business card reader in model-driven apps 
-author: mustlaz
-ms.service: powerapps
+author: JoeFernandezMS
+ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/30/2019
-ms.author: mustlaz
-ms.reviewer: v-dehaas
+ms.date: 04/09/2021
+ms.author: jofernan
+ms.reviewer: v-aangie
 ---
 
-# Use the business card reader component in model-driven apps
-<!--Title edited to match its sister topic.-->
-Use the AI Builder business card reader component to detect business cards and extract their information. You can take photos directly in the component or load images that you've taken. Data is extracted and identified<!--Edit okay?--> by using the properties listed below.
+# Use the business card reader component in model-driven apps in Power Apps
+
+Use the AI Builder business card reader component to detect business cards and extract their information. You can take photos directly in the component or load images that you've taken. Data is extracted and identified by using the properties listed below.
 
 For information about model-driven apps, see [What are model-driven apps in Power Apps?](/powerapps/maker/model-driven-apps/model-driven-app-overview)
 
 ## Licensing requirements
 
-AI Builder is licensed as an add-on to your Power Apps or Power Automate licenses. For information about license capacity, pricing, and restrictions, see [AI Builder licensing](/ai-builder/administer-licensing).
+AI Builder is licensed as an add-on to your Power Apps or Power Automate licenses. For information about license capacity, pricing, and restrictions, see [AI Builder licensing](./administer-licensing.md).
 
 ## Role requirements
 
-You need the Common Data Service user role to use the business card reader.
+You need the Basic User role to use the business card reader.
 
 ## Add the business card reader
 
@@ -37,17 +37,17 @@ Add the business card reader to a contact or lead form by using the form editor,
 4. Select **AI Builder Business Card Control**.
 
 > [!div class="mx-imgBorder"]
-> ![Form editor Add Control screen](media/form-editor-add-control.png "Form editor Add Control screen")
+> ![Form editor Add Control screen.](media/form-editor-add-control.png "Form editor Add Control screen")
 
 ## Configure the business card reader
 
 After you select the platform where the business card reader should appear (web, phone, or tablet), you can bind the component properties that you need.
 
 > [!div class="mx-imgBorder"]
-> ![Form editor binding properties screen](media/form-editor-binding-properties.png "Form editor binding properties screen")
+> ![Form editor binding properties screen.](media/form-editor-binding-properties.png "Form editor binding properties screen")
 
 > [!NOTE]
-> The **Company Name** property can't be bound to a field of type **Lookup.Customer**. The only supported type is **SingleLine.Text**. More information: [Add code components to a field or entity in model-driven apps](/powerapps/developer/component-framework/add-custom-controls-to-a-field-or-entity)
+> The **Company Name** property can't be bound to a field of type **Lookup.Customer**. The only supported type is **SingleLine.Text**. More information: [Add code components to a column or table in model-driven apps](/powerapps/developer/component-framework/add-custom-controls-to-a-field-or-entity)
 
 ## Key properties
 
@@ -80,10 +80,10 @@ If a business card is detected, the business card reader will try to extract inf
 
 The following properties are available for advanced customization:
 
-<!--from editor: Wondering if "overwrite" might be the correct word for the last line. -->
-<!--v-dehaas: I don't think so, although it wouldn't be incorrect. "override the default" makes more sense to me.  -->
-
 |Property |Definition  |
 |---------|---------|
  |**Default Image**| To replace the default placeholder image with a different one. The image (JPEG or PNG) should be encoded with base-64 digits.
  |**Text**| To override the default button text.
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -2,13 +2,12 @@
 title: Share your AI model - AI Builder | Microsoft Docs
 description: Walks you through the steps to share your model in AI Builder.
 author: Antoine2F
-manager: cdbellar
-ms.service: powerapps
+ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 01/03/2020
+ms.date: 03/19/2021
 ms.author: antode
-ms.reviewer: cdbellar
+ms.reviewer: v-aangie
 ---
 
 # Share your AI model
@@ -19,13 +18,13 @@ If you want other users to use your model in apps or flows, or even use a direct
 
 ## Share action
 
-The share action is available on the **Models** page in AI Builder for each model where you're the owner. It's also available for the system administrator in the environment, or for any security role that has Share permissions on AI Builder system entities.
+The share action is available on the **Models** page in AI Builder for each model where you're the owner. It's also available for the system administrator in the environment, or for any security role that has Share permissions on AI Builder system tables.
 
 The share action is also available on the model detail screen in AI Builder, with the same conditions.
 
 ## Share panel
 
-When you select the share action, a share panel is displayed. The share panel is where you select Common Data Service users and teams in your organization, and share your model with them. Note the following:
+When you select the share action, a share panel is displayed. The share panel is where you select Microsoft Dataverse users and teams in your organization, and share your model with them. Note the following:
 
 - Sharing your model with a user or team gives the user or team the ability to see and run your model.
 - Sharing your model doesn't give the user or team permission to edit, retrain, or publish the model.
@@ -67,6 +66,21 @@ Yes. In the advanced settings of your organization, an admin has to select your 
 
 Reassign this model to another user. _Reassign_ means changing ownership in the advanced settings of your organization in AI Builder. You also need to give access to the data used to train the model.
 
+To change the ownership of a model:
+
+1.	Sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
+2. Select the environment where the model you want to change ownership is located and select **Settings** > **Resources** > **All legacy settings**.
+3. Select **Advanced Find** on the top right corner.
+    > [!div class="mx-imgBorder"]
+    > ![Advanced Find.](media/change-model-ownership-advanced-find.png "Advanced Find")
+    
+4.	From the **Look for** list, select **AI Models**, and then select **Results**.
+    > [!div class="mx-imgBorder"]
+    > ![List AI Models.](media/change-model-ownership-settings.png "List AI Models")
+
+5. You will get a list of all the AI models in the environment. Select the one you wish to reassign and click on **Assing AI Models**. A window will open where you can change the owner of the model.
+
+
 ### Can I disable the sharing feature for AI model makers and only allow admins to do it?
 
 Yes. In advanced settings of your organization, an admin must create a security role where the share privilege is disabled for the **AI Model** custom entity. Assign this role to AI model makers.
@@ -75,8 +89,10 @@ Yes. In advanced settings of your organization, an admin must create a security 
 
 Generic prediction models only work as part of a scheduled run. They can't be used in Power Apps or Power Automate, so the share action isn't available.
 
-<!--note from editor: To be parallel, I added this section, but I'm commenting it out for now because maybe it isn't actually part of the workflow that you recommend.
 ### Next step
 
 [Distribute your AI model](distribute-model.md)
--->
+
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

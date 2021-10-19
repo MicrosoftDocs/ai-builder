@@ -1,13 +1,13 @@
 ---
 title: Prediction model prerequisites - AI Builder | Microsoft Docs
 description: Describes what you should know and what data you need before you can build a prediction model in AI Builder.
-author: Dean-Haas
-ms.service: powerapps
+author: v-aangie
+ms.service: aibuilder
 ms.topic: conceptual
-ms.custom: 
-ms.date: 01/03/2020
-ms.author: tatn
-ms.reviewer: v-dehaas
+ms.custom:
+ms.date: 03/19/2021
+ms.author: norliu
+ms.reviewer: v-aangie
 ---
 
 # Prediction model prerequisites
@@ -22,10 +22,10 @@ For information about AI Builder requirements that aren't specific to this AI mo
 
 ## What data do I need?
 
-- Your data must be in [Common Data Service](/powerapps/maker/common-data-service/data-platform-intro).
+- Your data must be in [Microsoft Dataverse](/powerapps/maker/common-data-service/data-platform-intro).
 - Make sure your administrator has assigned you a security role with Read privilege over your data.
-- You need at least 10 records of historical outcome for each class of the **Label** data field to train a prediction model.
-- The minimum for training is 50 records, but for best results you should have at least 1,000 records.
+- You need at least 10 rows of historical outcome for each class of the **Label** data column to train a prediction model.
+- The minimum for training is 50 rows, but for best results you should have at least 1,000 rows.
 
 ## Work with sample data
 
@@ -34,3 +34,10 @@ To help you get started quickly with prediction, AI Builder provides sample data
 ### Next step
 
 [Data preparation](prediction-data-prep.md)
+
+### See also
+
+[AI model prerequisites](build-model.md#prerequisites)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -2,17 +2,15 @@
 title: Use a model to generate tags - AI Builder | Microsoft Docs
 description: Provides information about how to use category classification model–generated tags, and some troubleshooting information
 author: raaourik 
-ms.service: powerapps
+ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/11/2020
+ms.date: 06/30/2021
 ms.author: raaourik 
-ms.reviewer: v-dehaas
+ms.reviewer: v-aangie
 ---
 
-
 # Use a category classification model to generate tags
-
 
 ## Use in Power Automate
 
@@ -20,22 +18,31 @@ If you want to use your trained model in Power Automate, see [Use a category cla
 
 <a name="set-run-schedule-on-common-data-service"></a>
 
-## Set a run schedule on Common Data Service (preview)
+## Use in Power Apps
+
+You can integrate your AI Builder category classification models in Power Apps Studio by using the formula bar. For more information, see [Use formulas for text AI models](formula-bar.md#category-classification).
+
+## Set a run schedule on Microsoft Dataverse (preview)
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
 
-Go to the **Run** view in the **Model settings** panel to set the run schedule. To configure your model to run on your database and generate predictions, select **Generate predictions when new data is added**.
+Create a schedule to generate predictions regularly in Microsoft Dataverse.
 
-Your model runs whenever a new record is added to its entity.
+1. To set the run schedule, go to the **Run** view in the **Model settings** panel.
+
+1. To configure your model to run on your database and generate predictions, select **Generate predictions when new data is added**.
+
+Your model runs whenever a new row is added to its table.
+
+For more information, see [Run your prediction model](prediction-use.md#prediction-run).
 
 > [!NOTE]
 >You can’t set run schedule for imported category classification models.
 
-## Use in Power Apps
-
-You can integrate your AI Builder category classification models in Power Apps Studio by using the formula bar. More information: [Use formulas for text AI models](use-model.md#use-formulas-for-text-ai-models)
-
 ## What if the model isn't writing new tag suggestions?
 
 - Check that you didn't exceed the number of runs for your Power Automate subscription.
-- Turn off the Common Data Service run setting, and then turn it back on.
+
+- Turn off the Dataverse run setting, and then turn it back on.
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

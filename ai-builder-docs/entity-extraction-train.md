@@ -2,12 +2,12 @@
 title: Train and publish your custom entity extraction AI model - AI Builder | Microsoft Docs
 description: Provides steps to train and publish your custom entity extraction AI model in AI Builder.
 author: mfotedar
-ms.service: powerapps
+ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
 ms.date: 04/08/2020
 ms.author: mfotedar
-ms.reviewer: v-dehaas
+ms.reviewer: kvivek
 ---
 
 # Train and publish your entity extraction custom model
@@ -41,3 +41,5 @@ After you've published your model, you can use it in a Power Apps canvas app or 
 ### See also
 
 [Feature availability by region](availability-region.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

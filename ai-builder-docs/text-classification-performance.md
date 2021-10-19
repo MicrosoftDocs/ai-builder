@@ -2,12 +2,12 @@
 title: Understand category classification model performance - AI Builder | Microsoft Docs
 description: Provides an understanding of how to evaluate and understand category classification model performance
 author: raaourik 
-ms.service: powerapps
+ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
 ms.date: 09/06/2019
 ms.author: raaourik 
-ms.reviewer: v-dehaas
+ms.reviewer: kvivek
 ---
 
 # Understand category classification model performance
@@ -27,3 +27,6 @@ You can also select **Quick Test** to assess the quality of the model. Just ente
 ### Next step
 
 [Improve the performance of your category classification model](improve-text-classification-performance.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

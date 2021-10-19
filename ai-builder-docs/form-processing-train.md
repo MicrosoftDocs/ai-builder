@@ -2,12 +2,12 @@
 title: Train and publish your form processing model - AI Builder | Microsoft Docs
 description: Walks you through the steps to train, validate, and test your form processing model in AI Builder.
 author: JoeFernandezMS
-ms.service: powerapps
+ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
 ms.date: 12/31/2019
 ms.author: jofernan
-ms.reviewer: v-dehaas
+ms.reviewer: kvivek
 ---
 
 # Train and publish your form processing model
@@ -37,9 +37,20 @@ If you have trouble training your model, try these suggestions:
 
 If you're happy with your model, you can select **Publish** to publish it. When publishing is complete, your model is promoted as **Published** and is ready to be used. More information: [Publish your model in AI Builder](publish-model.md)
 
-After you've published your form-processing model, you can use it in a [Power Apps canvas app](/ai-builder/form-processor-component-in-powerapps) or in [Power Automate](/ai-builder/form-processing-model-in-flow).
+After you've published your form-processing model, you can use it in a [Power Apps canvas app](./form-processor-component-in-powerapps.md) or in [Power Automate](./form-processing-model-in-flow.md).
+
+## Limits
+
+The following applies to calls made per environment across form processing models including prebuilt models: receipt processing and invoice processing.
+
+|**Action**|**Limit**|**Renewal period**|
+|:-----|:-----|-----:|
+|Calls (per environment)|360|60 seconds|
 
 ### See also
 
-[Use a form-processing model in Power Automate](form-processing-model-in-flow.md)  
-[Use the form-processor component in Power Apps](form-processor-component-in-powerapps.md)
+[Use a form processing model in Power Automate](form-processing-model-in-flow.md)  
+[Use the form processor component in Power Apps](form-processor-component-in-powerapps.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

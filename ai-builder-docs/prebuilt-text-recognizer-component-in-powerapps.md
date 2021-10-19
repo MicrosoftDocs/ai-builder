@@ -1,13 +1,13 @@
 ---
 title: Use the text recognizer component in Power Apps - AI Builder | Microsoft Docs
 description: Provides information about how to use the text recognizer component in Power Apps
-author: alanabrito
-ms.service: powerapps
+author: paulnog
+ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/19/2019
-ms.author: alanabrito
-ms.reviewer: v-dehaas
+ms.date: 04/09/2021
+ms.author: paulnog
+ms.reviewer: v-aangie
 ---
 
 # Use the text recognizer component in Power Apps
@@ -15,7 +15,7 @@ ms.reviewer: v-dehaas
 Create a canvas app and add the text recognizer AI Builder component to your screen. This component takes a photo or loads an image from the local device, and then processes it to detect and extract text based on the text recognition prebuilt model. If it detects text in the image, the component outputs the text and identifies the instances by showing a rectangle for each instance in the image.
 
  > [!NOTE]
- > For information about canvas apps, see [What are canvas apps in Power Apps?](/powerapps/maker/canvas-apps/getting-started).
+ > For information about canvas apps, see [What are canvas apps in Power Apps?](/powerapps/maker/canvas-apps/getting-started)
 
 ## Key properties
 
@@ -44,7 +44,7 @@ Create a canvas app and add the text recognizer AI Builder component to your scr
 
 - **Text**: Text that appears on the button that activates the text recognizer.
 
-- **ImageDisplayed** (**Show image** in the properties panel): Determines whether the component displays the image. When set to **On**, rectangles are displayed around field values detected in the image.
+- **ImageDisplayed** (**Show image** in the properties panel): Determines whether the component displays the image. When set to **On**, rectangles are displayed around column values detected in the image.
 
 - **DisplayMode**:
 
@@ -74,3 +74,6 @@ These [guidelines](/powerapps/maker/canvas-apps/controls/control-button) for the
 
 [Text recognition model](prebuilt-text-recognition.md)  
 [Core properties in Power Apps](/powerapps/maker/canvas-apps/controls/properties-core)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
