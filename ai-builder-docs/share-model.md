@@ -84,7 +84,7 @@ To change the ownership of a model:
 
 1. You'll get a list of the AI models in the environment. Select the model you want to reassign, and select **Assign AI Models**. A window will open where you can change the owner of the model.
 
-If the model you're changing the ownership is a *form processing* model or an *object detection* model, you'll also need to reassign the **AI Builder Dataset Container** associated with the model. To do this:
+If the model you're changing the ownership is a *form processing* model or an *object detection* model, you'll also need to reassign the **AI Builder Datasets Container** associated with the model. To do this:
 
 1.	On the **Advanced Find** tab, select **AI Builder Datasets Containers** from the **Look for** list. To make it easier to identify which AI models it corresponds to, select **Edit Columns** > **AI Model** > **Results**. 
 
