@@ -28,10 +28,7 @@ Form processing works on input documents that meet the following requirements:
 - If scanned from paper documents, scans should be high-quality images.
 
  > [!NOTE]
- > AI Builder doesn't currently support the following types of form processing input data:
- >
- > - Check boxes or radio buttons
- > - Signatures
+ > AI Builder doesn't currently support signatures as a type of form processing input data.
 
 ## Optimization tips
 

@@ -17,15 +17,20 @@ After you review the [requirements](form-processing-model-requirements.md), you 
 ## Sign in to AI Builder
 
 1. Sign in to [Power Apps](https://make.powerapps.com/) or [Power Automate](https://flow.microsoft.com/signin).
+
 1. In the left pane, select **AI Builder** > **Build**.
+
 1. Select **Form processing**.
+
 1. Type a name for your model.
+
 1. If you want to create your model by using your own documents, make sure that you have at least five examples that use the same layout. Otherwise, you can [use sample data](form-processing-sample-data.md) to create the model.
+
 1. Select **Create**.
 
-## Define fields and tables to extract
+## Define information to extract
 
-On the **Choose information to extract** screen, you define the fields and tables you want to teach your model to extract. Select the **+Add** button to start defining fields and tables.
+On the **Choose information to extract** screen, you define the fields, tables, and checkboxes you want to teach your model to extract. Select the **+Add** button to start defining these.
 
 - For each field, provide a name you would like the field to have in the model.
 
@@ -36,6 +41,11 @@ On the **Choose information to extract** screen, you define the fields and table
 
    > [!div class="mx-imgBorder"]
    > !['Define tables' animation.](media/form-processing-multiple-layout-define-tables-only.gif "Define tables to extract")
+
+- For each checkbox, provide a name you would like the checkbox to have in the model. Define separate checkboxes for each item that can be checked in a document.
+
+   > [!div class="mx-imgBorder"]
+   > !['Define checkboxes' animation.](media/form-processing-define-checkboxes-only.gif "Define checkboxes to extract")
 
 ## Group documents by collections
 
@@ -57,7 +67,7 @@ To start tagging, select one of the collections on the right panel.
 
 ### Tag fields
 
-To tag a field, draw a rectangle around the field you're interested in and select to the field name that it corresponds to.
+To tag a field, draw a rectangle around the field you're interested in and select the field name that it corresponds to.
 
    > [!div class="mx-imgBorder"]
    > !['Draw a rectangle to select a field' animation.](media/form-processing-multiple-layout-tag-fields.gif "Tag field in a document")
@@ -100,7 +110,7 @@ Advanced tagging mode allows you to tag tables at the cell level. Use this mode 
 - Tables that are skewed, where tagging with a grid is not possible.
 - When you need to extract nested items, like an item within a cell. 
 
-Given the table from the example below, to extract the unit price, we will define it as a separate column on the [Choose information to extract step](create-form-processing-model.md#define-fields-and-tables-to-extract). We define **Description**, **Unit price**, **Quantity**, and **Amount** each as a column of the table and tag them accordingly using advanced tagging mode. See the animation below.
+Given the table from the following example, to extract the unit price, we'll define it as a separate column on the [Choose information to extract step](create-form-processing-model.md#define-information-to-extract). We define **Description**, **Unit price**, **Quantity**, and **Amount** each as a column of the table and tag them accordingly using advanced tagging mode. See the animation below.
 
    > [!div class="mx-imgBorder"]
    > ![Screenshot of delimit rows and columns screen.](media/form-processing-advanced-tagging-mode.gif "Delimit rows and columns")
@@ -111,24 +121,36 @@ You can start tagging in the default mode to quickly capture all rows and column
 
 AI Builder supports extracting tables that span across multiple pages as a single table with an experimental feature. For details, go to [Process multipage tables in form processor (experimental)](form-processing-multipage.md).
 
-If you don't want to try the experimental feature, you can extract tables from different pages by defining each page as a separate table in the [Choose information to extract step](create-form-processing-model.md#define-fields-and-tables-to-extract). For example, if you have a document with a table that spans over two pages, you'll need to define them as two separate tables.
+### Tag checkboxes
 
-### Field or table not in document
+To tag a checkbox, draw a rectangle around the checkbox you're interested in extracting and select the checkbox name that it corresponds to.
 
-If a field or table isn't present in one of the documents you've uploaded for training, select **Not available in document** on the panel to the right, next to a field or table.
+   > [!div class="mx-imgBorder"]
+   > !['Tag checkbox' animation.](media/form-processing-checkbox-tag.gif "Tag a checkbox")
+
+If the quality of the document is low, AI Builder might not be able to detect the checkbox. If you're unable to tag a checkbox, do the following:
+
+1. On the panel on the right, select the three dots next to the checkbox you want to extract.
+
+1. Select **Not available in document**.
+
+AI Builder supports detection and extraction of selection marks such as checkboxes and radio buttons, with different markers to indicate whether the selection is marked or not.
+
+### Field, checkbox, or table not in document
+
+If a field, checkbox, or table isn't present in one of the documents you've uploaded for training, select **Not available in document** on the panel to the right, next to a field, checkbox, or table.
 
    > [!div class="mx-imgBorder"]
    > ![Select Analyze.](media/form-processing-multiple-layout-not-available-in-document.gif "Field or table not in document")
 
 ## Tag all documents across all collections
 
-All the documents that you've uploaded are presented for you to tag. Some of the fields might be automatically detected in successive documents. In that case confirm that the selection is correct.
+All the documents that you've uploaded are presented for you to tag. Some of the fields might be automatically detected in successive documents. In that case, confirm that the selection is correct.
 
 If you've created multiple collections, tag all documents across all the collections.
 
 ### Next step
 
 [Train and publish your form processing model](form-processing-train.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

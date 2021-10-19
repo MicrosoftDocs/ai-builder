@@ -35,7 +35,7 @@ For instructions, go to [Invoice processing prebuilt model](prebuilt-invoice-pro
 
 1. [Create a new form processing model](create-form-processing-model.md).
 
-1. Perform the steps in [Define fields and tables to extract](create-form-processing-model.md#define-fields-and-tables-to-extract). On the **Choose information to extract** screen, select **Add** > **Multipage table (experimental)** to enable the experimental feature.
+1. Perform the steps in [Define fields and tables to extract](create-form-processing-model.md#define-information-to-extract). On the **Choose information to extract** screen, select **Add** > **Multipage table (experimental)** to enable the experimental feature.
 
 1. Follow the rest of the steps in [Create a new form processing model](create-form-processing-model.md) before you train your model.
 
@@ -49,7 +49,7 @@ The following steps will guide you on how to achieve this:
 
 1. [Create a new form processing model](create-form-processing-model.md).
 
-1. Perform the steps in [Define fields and tables to extract](create-form-processing-model.md#define-fields-and-tables-to-extract).
+1. Perform the steps in [Define fields and tables to extract](create-form-processing-model.md#define-information-to-extract).
 
     On the **Choose information to extract** screen, do one of the following:
 
