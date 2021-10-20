@@ -126,7 +126,7 @@ To illustrate, the *Total* value extracted by the form processing model might ha
 `replace(<form processing output>, '$', '')`
 
 > [!div class="mx-imgBorder"]
-> !['Add *replace* expression' to remove currency symbol animation.](media/form-processing-remove-currency.gif "Add the 'replace' expression into the input field of an action in your flow. Remember to replace the first parameter of the expression by the form processing output you want to remove the currency symbol.")
+> ![Animation of the Replace currency expression.](media/form-processing-remove-currency.gif "Add the expression above into the input field of an action in your flow. Remember to replace the first parameter of the expression by the form processing output you want to remove the currency symbol.")
 
 ### Convert a form processing output string to a number in Power Automate
 
@@ -144,7 +144,7 @@ To remove blank spaces from output values, use the [replace](/azure/logic-apps/w
 `replace(<form processing output>, ' ', '')`
 
 > [!div class="mx-imgBorder"]
-> !['Add *replace* expression' to remove blank spaces animation .](media/form-processing-remove-spaces.gif "Add the expression above into the input field of an action in your flow. Remember to replace the first parameter of the expression by the form processing output you want to remove blank spaces.")
+> ![Animation of the Replace spaces expression.](media/form-processing-remove-spaces.gif "Add the expression above into the input field of an action in your flow. Remember to replace the first parameter of the expression by the form processing output you want to remove blank spaces.")
 
 ### Convert a form processing output string to a date in Power Automate
 
@@ -153,11 +153,11 @@ AI Builder form processing returns all outputs as strings. If the destination wh
 `formatDateTime(<form processing output>)`
 
 > [!div class="mx-imgBorder"]
-> !['Add *replace* expression' to convert to date animation.](media/form-processing-convert-date.gif "Add the expression above into the input field of an action in your flow. Remember to replace the first parameter of the expression by the form processing output you want to convert to date.")
+> ![Animation of the formatDateTime expression.](media/form-processing-convert-date.gif "Add the expression above into the input field of an action in your flow. Remember to replace the first parameter of the expression by the form processing output you want to convert to date.")
 
-### Filter email signature from a flow so that it's not processed by the form processing model (Office 365 Outlook)
+### Filter email signature from a flow so that is is not processed by the form processing model (Microsoft 365 Outlook)
 
-For incoming emails from the Office 365 Outlook connector, email signatures are picked up by Power Automate as attachments. To keep these from being processed by the form processing model, add a condition to your flow that checks if the output from the Office 365 Outlook connector named **Attachments is Inline** is equal to false. In the **If yes** branch of the condition, add the form processing action. With this, only email attachments that aren't inline signatures will be processed.
+For incoming emails from the Microsoft 365 Outlook connector, email signatures are picked up by Power Automate as attachments. To keep these from being processed by the form processing model add a condition to your flow that checks if the output from the Microsoft 365 Outlook connector named **Attachments is Inline** is equal to false. In the **If yes** branch of the condition add the form processing action. With this only email attachments that are not inline signatures will be processed. 
 
 > [!div class="mx-imgBorder"]
 > ![Filter attachment condition.](media/form-processing-filter-sig.png "Add condition 'attachment is inline' ")
