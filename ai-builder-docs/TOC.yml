@@ -2,7 +2,7 @@
   href: ./index.yml
 - name: Get started
   items:
-  - name: What is AI Builder?
+  - name: Overview of AI Builder
     href: overview.md
   - name: Licensing
     href: administer-licensing.md
