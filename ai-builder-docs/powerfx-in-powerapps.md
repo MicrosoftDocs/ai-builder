@@ -1,6 +1,6 @@
 ---
 title: Use Power Fx in AI Builder models in Power Apps (preview) - AI Builder | Microsoft Docs
-description: Provides information about how to use Power Fx expressiond in AI Builder models in Power Apps
+description: Provides information about how to use Power Fx expressions in AI Builder models in Power Apps
 author: billba
 ms.service: aibuilder
 ms.topic: conceptual
@@ -14,7 +14,7 @@ ms.reviewer: v-aangie
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-Power Fx AI integration is a new approach that lets you reference AI models in any Power Apps control using the Power Fx formula language. If you've used [canvas apps](/powerapps/maker/canvas-apps/getting-started), you're already familiar with Power Fx. This is the same open-source low code formula language, only it's been updated so that you can customize your AI Builder models. For example, you can modify the language your text appears in.
+Power Fx AI integration is a new approach that lets you reference AI models in any Power Apps control using the Power Fx formula language. If you've used [canvas apps](/powerapps/maker/canvas-apps/getting-started), you're already familiar with Power Fx. This is the same open-source low code formula language, only it's been updated so that you can use expressions to customize your AI Builder models. For example, you can modify the language your text appears in.
 
 To learn more, go to [Microsoft Power Fx overview](/power-platform/power-fx/overview).
 
