@@ -30,7 +30,7 @@ The Power Fx feature is enabled by default in Microsoft Power Apps. If it's been
 1. On the toolbar at the top, select **Settings**.
 
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of Upcoming features enabled.](media/powerfx-in-powerapps/canvas-toolbar.png "Upcoming features enabled")
+    > ![Screenshot of the toolbar with Settings link.](media/powerfx-in-powerapps/canvas-toolbar.png "toolbar")
 
 1. Select **Upcoming features** > **Preview**.
 
@@ -48,7 +48,7 @@ AI Builder lets you customize many types of models. Link to Build page. You can 
 1. Select **Data tab** > **Add data** > **AI Models**.
 
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of Upcoming features enabled.](media/powerfx-in-powerapps/add-model.png "Upcoming features enabled")
+    > ![Screenshot of how to open your model.](media/powerfx-in-powerapps/add-model.png "Open your model")
 
 1. If you don’t see **AI Models** in the **Add Data** list, do the following:
 
@@ -57,7 +57,7 @@ AI Builder lets you customize many types of models. Link to Build page. You can 
     1. Scroll to the bottom and make sure that **AI models as data sources** is **On**.
 
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of Upcoming features enabled.](media/powerfx-in-powerapps/data-sources.png "Upcoming features enabled")
+    > ![Screenshot of AI models as data sources turned on.](media/powerfx-in-powerapps/data-sources.png "AI models as data sources turned on")
 
 1. Select one or more models to add.
 
@@ -69,13 +69,11 @@ For a list of AI models, go to [AI models and business scenarios](model-types.md
 
 ## Input/output variation
 
- Caio.Monteiro@microsoft.com
-
 In this preview, every model is invoked using the *predict* verb. For example, a language detection model takes text as an input and returns a table of possible languages, ordered by that language’s score. The score says how likely the model thinks it is that the indicated language is correct.
 
 |Input  |Output  |
 |---------|---------|
-|'Language detection (preview)'.Predict("Bonjour").results     | *Needs to be completed*        |
+|'Language detection (preview)'.Predict("Bonjour").results     | *Ask Caio Duarte Diniz Monteiro*        |
 
 To return the most likely language:
 
