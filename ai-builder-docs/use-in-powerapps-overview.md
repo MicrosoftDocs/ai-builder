@@ -17,6 +17,8 @@ You can use AI Builder in Microsoft Power Apps in one of two ways, depending on 
 - Use AI models in the formula bar, or
 - Add AI Builder components
 
+You can now use [Power Fx](/power-platform/power-fx/overview) expressions to customize AI Builder models in Power Apps. This feature is available in preview, so you can try it out in a non-production environment.
+
 ## Use AI models in the formula bar
 
 You can get support for the following AI Builder models that use Power Apps through the formula bar:
@@ -52,6 +54,12 @@ The AI Builder components for [canvas apps](/powerapps/maker/canvas-apps/getting
 
 > [!div class="mx-imgBorder"]
 > ![Power Apps Studio.](media/canvas-studio.png "Power Apps Studio")
+
+## Use Power Fx to customize AI models in Power apps (preview)
+
+The easiest, most versatile way you can build expressions for AI Builder models in Power Apps is with [Power Fx](/power-platform/power-fx/overview). This is the low-code expression language that works much like Excel. Power Fx in Power Apps supports all prebuilt and custom AI models. It also supports models built on the Microsoft Azure Machine Learning platform.
+
+To learn more, go to [Use Power Fx in AI Builder models in Power Apps (preview)](powerfx-in-powerapps.md).
 
 ## Property name changes in AI Builder components for canvas apps
 
