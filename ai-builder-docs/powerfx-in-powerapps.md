@@ -64,8 +64,6 @@ The Power Fx feature is enabled by default in Microsoft Power Apps. If it's been
 
 ## Use an AI model with Power Fx
 
-An AI model is similar to a canvas app and has its own inputs and outputs. You'll need to create a canvas app, choose a control, and then assign an expression to it. 
-
 USing an AI model with Power Fx is similar to using a canvas app in that you'll need to create a canvas app, choose a control, assign an expression to it, and then create its inputs and outputs. 
 
 For a list of AI Builder models you can use, go to [AI models and business scenarios](model-types.md). You can also customize models built in Microsoft Azure Machine Learning with the [bring your own model](byo-model.md) feature.
