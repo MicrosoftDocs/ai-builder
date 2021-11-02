@@ -62,7 +62,7 @@ The Power Fx feature is enabled by default in Microsoft Power Apps. If it's been
     > [!div class="mx-imgBorder"]
     > ![Screenshot of Upcoming features enabled.](media/powerfx-in-powerapps/settings.png "Upcoming features enabled")
 
-## Use an AI model with Power Fx
+## Select a model in canvas apps
 
 USing an AI model with Power Fx is similar to using a canvas app in that you'll need to create a canvas app, choose a control, assign an expression to it, and then create its inputs and outputs. 
 
@@ -79,16 +79,33 @@ If you're in a production environment, there are alternative methods for using t
 
 1. Select one or more models to add.
 
-### Use a model in controls
+## Use a model in controls
 
-*(Ask Caio to walk me thru creating the app for screenshot.)*
+The canvas app in this language detection model shows you the country code for the language of the text you type.
 
+1. Create a canvas app by following steps 1 and 2 in [Select a model in canvas apps](#select-a-model-in-canvas-apps).
 
+1. In the **AI models list**, select a language detection model.
+
+1. Place a text input and a text label on the canvas:
+    1. Select **+** > **Text input** and select where you want to place it on the canvas.
+    1. Rename the text input to **TextInput1**.
+    1. Select **+** > **Text label** and select where you want to place it on the canvas.
+    1. Rename the text label to **Language**.
+
+1. Select the **Text Input** field and enter the following Power Fx formula:
+
+    ````csharp
+    First('Language detection'.Predict("Bonjour").results).language 
+    ````
+
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of how to open your model.](media/powerfx-in-powerapps/bonjour-fx.png "Open your model")
+<br/>
 > [!NOTE]
 > If you move your app to a different environment, the model must be manually re-added to the app in the new environment.
 
-
-## Input/output examples
+### Input/output examples
 
 In this preview, every model is invoked using the *predict* verb. For example, a language detection model takes text as an input and returns a table of possible languages, ordered by that language’s score. The score says how likely the model thinks it is that the indicated language is correct.
 
@@ -98,7 +115,7 @@ To.... (Ask Caio)
 |---------|---------|
 |'Language detection (preview)'.Predict("Bonjour").results     | *Ask Caio*        |
 
-To return the most likely language countr code:
+To return the most likely language country code:
 
 |Input  |Output  |
 |---------|---------|
