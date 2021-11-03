@@ -62,7 +62,7 @@ The Power Fx feature is enabled by default in Microsoft Power Apps. If it's been
 
 ## Select a model in canvas apps
 
-USing an AI model with Power Fx is similar to using a canvas app in that you'll need to create a canvas app, choose a control, assign an expression to it, and then create inputs produce the outputs. 
+Comsuming an AI model with Power Fx is similar to using a canvas app in that you'll need to create a canvas app, choose a control, assign an expression to it, and then create inputs produce the outputs. 
 
 For a list of AI Builder models you can consume, go to [AI models and business scenarios](model-types.md). You can also consume models built in Microsoft Azure Machine Learning with the [bring your own model](byo-model.md) feature.
 
@@ -102,7 +102,7 @@ The canvas app in this language detection model example shows you the country co
     > [!div class="mx-imgBorder"]
     > ![Screenshot of the Power Fx formula.](media/powerfx-in-powerapps/bonjour-fx.png "Power Fx formula")
 
-1. Try out your app by select the **Preview the app** icon in the upper-right corner.
+1. Try out your app by selecting the **Preview the app** icon in the upper-right corner.
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of how to open your model.](media/powerfx-in-powerapps/preview-app.png "Open your model")
