@@ -14,7 +14,7 @@ ms.reviewer: v-aangie
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-Power Fx AI integration is a new approach that lets you reference AI models in any Power Apps control using the Power Fx formula language. If you've used [canvas apps](/powerapps/maker/canvas-apps/getting-started), you're already familiar with Power Fx. This is the same open-source low code formula language, only it's been updated so that you can use expressions to customize your AI Builder models. For example, you can modify the language your text appears in.
+Power Fx AI integration is a new approach that lets you reference AI models in any Power Apps control using the Power Fx formula language. If you've used [canvas apps](/powerapps/maker/canvas-apps/getting-started), you're already familiar with Power Fx. This is the same open-source low code formula language, only it's been updated so that you can use expressions to consume your AI Builder models. For example, you can modify the language your text appears in.
 
 > [!IMPORTANT]
 > - This is a preview feature.
@@ -40,7 +40,7 @@ The Power Fx feature is enabled by default in Microsoft Power Apps. If it's been
 1. Create a canvas app by selecting **Create** > **Canvas app from blank**.
 
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of Upcoming features enabled.](media/powerfx-in-powerapps/create-blank.png "Upcoming features enabled")
+    > ![Screenshot of create a canvas app from blank.](media/powerfx-in-powerapps/create-blank.png "Create a canvas app from blank")
 
 1. In the **App name** field, enter a name and select **Create**.
 
@@ -49,7 +49,7 @@ The Power Fx feature is enabled by default in Microsoft Power Apps. If it's been
 1. On the toolbar at the top, select **Settings**.
 
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of the toolbar with Settings link.](media/powerfx-in-powerapps/canvas-toolbar.png "toolbar")
+    > ![Screenshot of the toolbar with Settings link.](media/powerfx-in-powerapps/canvas-toolbar.png "Toolbar with Settings link")
 
 1. Select **Upcoming features** > **Preview**.
 
@@ -57,16 +57,14 @@ The Power Fx feature is enabled by default in Microsoft Power Apps. If it's been
 
     Make sure you scroll to the bottom to see all features. **All data models as sources** is the last feature and should be turned **On**.
 
-1. (Optional) You can leave **Optimize for Microsoft Teams meetings** and **Enable Power Automate pane** in the **Off** position.
-
     > [!div class="mx-imgBorder"]
     > ![Screenshot of Upcoming features enabled.](media/powerfx-in-powerapps/settings.png "Upcoming features enabled")
 
 ## Select a model in canvas apps
 
-USing an AI model with Power Fx is similar to using a canvas app in that you'll need to create a canvas app, choose a control, assign an expression to it, and then create its inputs and outputs. 
+USing an AI model with Power Fx is similar to using a canvas app in that you'll need to create a canvas app, choose a control, assign an expression to it, and then create inputs produce the outputs. 
 
-For a list of AI Builder models you can use, go to [AI models and business scenarios](model-types.md). You can also customize models built in Microsoft Azure Machine Learning with the [bring your own model](byo-model.md) feature.
+For a list of AI Builder models you can consume, go to [AI models and business scenarios](model-types.md). You can also consume models built in Microsoft Azure Machine Learning with the [bring your own model](byo-model.md) feature.
 
 If you're in a production environment, there are alternative methods for using the formula bar that will allow you to set behaviors of a control. For details, go to [Use AI models in the formula bar](use-in-powerapps-overview.md#use-ai-models-in-the-formula-bar).
 
@@ -75,15 +73,17 @@ If you're in a production environment, there are alternative methods for using t
 1. Select **Data tab** > **Add data** > **AI Models**.
 
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of how to open your model.](media/powerfx-in-powerapps/add-model.png "Open your model")
+    > ![Screenshot of how to select your model.](media/powerfx-in-powerapps/add-model.png "Select your model")
 
 1. Select one or more models to add.
 
+    If you don’t see your model in this list, then you might not have permissions to use it in Power Apps. Contact your administrator to resolve this.
+
 ## Use a model in controls
 
-The canvas app in this language detection model shows you the country code for the language of the text you type.
+The canvas app in this language detection model example shows you the country code for the language of the text you type.
 
-1. Create a canvas app by following steps 1 and 2 in [Select a model in canvas apps](#select-a-model-in-canvas-apps).
+1. Create a canvas app by following steps 1 and 2 in [Screenshot of ](#select-a-model-in-canvas-apps).
 
 1. In the **AI models list**, select a language detection model.
 
@@ -95,13 +95,25 @@ The canvas app in this language detection model shows you the country code for t
 
 1. Select the **Text Input** field and enter the following Power Fx formula:
 
-    ````csharp
-    First('Language detection'.Predict("Bonjour").results).language 
+    ````
+    First('Language detection'.Predict(TextInput1.Text).results).language 
     ````
 
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of how to open your model.](media/powerfx-in-powerapps/bonjour-fx.png "Open your model")
-<br/>
+    > ![Screenshot of the Power Fx formula.](media/powerfx-in-powerapps/bonjour-fx.png "Power Fx formula")
+
+1. Try out your app by select the **Preview the app** icon in the upper-right corner.
+
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of how to open your model.](media/powerfx-in-powerapps/preview-app.png "Open your model")
+
+1. In the textbox, type **bonjour**. Notice the country code for France (**fr**) appears above the textbox.
+
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of trying out the app you created.](media/powerfx-in-powerapps/bonjour-output.png "Try out the app you created")
+
+1. Try out your app again by typing **guten tag**. Notice the country code for Germany (**de**) appears above the textbox.
+
 > [!NOTE]
 > If you move your app to a different environment, the model must be manually re-added to the app in the new environment.
 
@@ -109,15 +121,18 @@ The canvas app in this language detection model shows you the country code for t
 
 In this preview, every model is invoked using the *predict* verb. For example, a language detection model takes text as an input and returns a table of possible languages, ordered by that language’s score. The score says how likely the model thinks it is that the indicated language is correct.
 
-To.... (Ask Caio)
-
 |Input  |Output  |
 |---------|---------|
-|'Language detection (preview)'.Predict("Bonjour").results     | *Ask Caio*        |
+|'Language detection'.Predict("Bonjour").results     | *(Caio will follow up,)*        |
 
 To return the most likely language country code:
 
 |Input  |Output  |
 |---------|---------|
-|First('Language detection (preview)'.Predict("Bonjour").results).language  | "fr" (country code for French)       |
-|
+|First('Language detection'.Predict("Bonjour").results).language  | "fr" (country code for French)       |
+
+To save time and resources, save the result of a model call so that you can use it in multiple places. You can save an output into a global variable (for example,  *lang*). If you do this, you can use *lang* elsewhere in your app, to show, for example, the national flag associated with the language.
+
+|Input  |Output  |
+|---------|---------|
+|Set(lang, First('Language detection'.Predict(TextInput1.OnChange).results).language)       | (*Caio - Please verify the code in the **Input** column and add an output.*)
