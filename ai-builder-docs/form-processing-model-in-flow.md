@@ -5,7 +5,7 @@ author: JoeFernandezMS
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 07/16/2021
+ms.date: 09/28/2021
 ms.author: jofernan
 ms.reviewer: v-aangie
 ---
@@ -14,7 +14,7 @@ ms.reviewer: v-aangie
 
 1. Sign in to [Power Automate](https://flow.microsoft.com/).
 
-1. Select **My flows** in the left pane, and then select **New flow** > **Instant cloud flow**.
+1. Select **My flows** in theF left pane, and then select **New flow** > **Instant cloud flow**.
 
 1. Name your flow, select **Manually trigger a flow** under **Choose how to trigger this flow**, and then select **Create**.
 
@@ -34,7 +34,8 @@ ms.reviewer: v-aangie
     > [!NOTE]
     >
     >- To retrieve the value for a field, select **<field_name> value** . For example, for the *Lot number* field, select **Lot number value**.
-    >- To retrieve the confidence score for a field, select **<field_name> confidence score**. For example, for the *Lot number* field, select **Lot number confidence score**.
+    >- To retrieve the value for a checkbox, select **<checkbox_name> value**. For example, for a checkbox named *Priority shipping*, select **Priority shipping value**. The return value is of type Boolean: `true` if the checkbox is marked as selected in the document, `false` if it’s not.
+    >- To retrieve the confidence score for an extracted item, select **<field_name> confidence score**. For example, for the *Lot number* field, select **Lot number confidence score**.
 
     > [!div class="mx-imgBorder"]
     > ![Form processing flow overview.](media/flow-fp-overview-2.png "Form processing flow overview")
@@ -77,15 +78,14 @@ You can enter a page value or page range in the **Pages** parameter. Example: 1 
 |**{table}{column} value** |string |The value extracted by the AI model for a cell in a table| |
 |**{table}{column} confidence score** |float |How confident the model is in its prediction |Value in the range of 0 to 1. Values close to 1 indicate greater confidence that the extracted cell value is accurate |
 
-
 > [!NOTE]
 > More output parameters may be proposed such as field coordinates, polygons, bounding boxes and page numbers. These are not listed on purpose as mainly intended for advanced use.
 
 ## Common use cases
 
-### Iterate a form processing table output in Power Automate 
+### Iterate a form processing table output in Power Automate
 
-To illustrate this procedure, we use the following example where we have trained a form processing model to extract a table that we have named **Items** with three columns: **Quantity**, **Description** and **Total**. We wish to store each line item from the table into an Excel file.
+To illustrate this procedure, we use the following example where we've trained a form processing model to extract a table that we've named **Items** with three columns: **Quantity**, **Description** and **Total**. We wish to store each line item from the table into an Excel file.
 
 > [!div class="mx-imgBorder"]
 > ![Table extracted by form processing.](media/form-processing-table-example.png "Example of a table extracted by a form processing model.")
@@ -105,14 +105,28 @@ To illustrate this procedure, we use the following example where we have trained
 > [!NOTE]
 > Tables extracted by form processing currently don't return a confidence score.
 
+### Process outputs of checkboxes in Power Automate
+
+Checkbox values are of type Boolean: `true` means the checkbox is marked as selected in the document, and `false` means it’s not.
+
+One way you can check its value is with a **Condition** action. If the checkbox value is equal to `true`, then execute one action. If the value is `false`, execute a different action. The following illustration shows an example.
+
+> [!div class="mx-imgBorder"]
+> ![Retreive checkbox value in a condition](media/form-processing-retreive-checkbox.png "Check for the value returned for an extracted checkbox in a condition in a cloud flow.")
+
+Another option is to map the `true`/`false` output of the checkbox to other values of your choice by using the [if](/azure/logic-apps/workflow-definition-language-functions-reference#if) expression. For example, you might have a column in an Excel file where you want to write ‘Priority’ if one of the checkboxes in the document is selected, or ‘Non-priority’ if not selected. To do this, you can use the following expression: `if(<form processing output>, 'Priority', 'Non-priority')`. The following animation shows an example.
+
+> [!div class="mx-imgBorder"]
+> ![Map checkbox value with an expression](media/form-processing-retreive-checkbox-2.gif "Using an expression to map the Boolean value returned by a checkbox.")
+
 ### Remove currency symbols (€, $,…) in a form processing output in Power Automate
 
-Let’s imagine that the *Total* value extracted by the form processing model has a currency symbol, for example: $54. To remove the *$* sign, or any other symbols you want to omit, use the [replace](/azure/logic-apps/workflow-definition-language-functions-reference#replace) expression to remove it. Here's how to do it:
+To illustrate, the *Total* value extracted by the form processing model might have a currency symbol, for example, \$54. To remove the $ sign, or any other symbols you want to omit, use the [replace](/azure/logic-apps/workflow-definition-language-functions-reference#replace) expression to remove it. Here's how:
 
 `replace(<form processing output>, '$', '')`
 
 > [!div class="mx-imgBorder"]
-> !['Add *replace* expression' to remove currency symbol animation.](media/form-processing-remove-currency.gif "Add the expression above into the input field of an action in your flow. Remember to replace the first parameter of the expression by the form processing output you want to remove the currency symbol.")
+> ![Animation of the Replace currency expression.](media/form-processing-remove-currency.gif "Add the expression above into the input field of an action in your flow. Remember to replace the first parameter of the expression by the form processing output you want to remove the currency symbol.")
 
 ### Convert a form processing output string to a number in Power Automate
 
@@ -130,7 +144,7 @@ To remove blank spaces from output values, use the [replace](/azure/logic-apps/w
 `replace(<form processing output>, ' ', '')`
 
 > [!div class="mx-imgBorder"]
-> !['Add *replace* expression' to remove blank spaces animation .](media/form-processing-remove-spaces.gif "Add the expression above into the input field of an action in your flow. Remember to replace the first parameter of the expression by the form processing output you want to remove blank spaces.")
+> ![Animation of the Replace spaces expression.](media/form-processing-remove-spaces.gif "Add the expression above into the input field of an action in your flow. Remember to replace the first parameter of the expression by the form processing output you want to remove blank spaces.")
 
 ### Convert a form processing output string to a date in Power Automate
 
@@ -139,11 +153,11 @@ AI Builder form processing returns all outputs as strings. If the destination wh
 `formatDateTime(<form processing output>)`
 
 > [!div class="mx-imgBorder"]
-> !['Add *replace* expression' to convert to date animation.](media/form-processing-convert-date.gif "Add the expression above into the input field of an action in your flow. Remember to replace the first parameter of the expression by the form processing output you want to convert to date.")
+> ![Animation of the formatDateTime expression.](media/form-processing-convert-date.gif "Add the expression above into the input field of an action in your flow. Remember to replace the first parameter of the expression by the form processing output you want to convert to date.")
 
-### Filter email signature from a flow so that is not processed by the form processing model (Office 365 Outlook)
+### Filter email signature from a flow so that is is not processed by the form processing model (Microsoft 365 Outlook)
 
-For incoming emails from the Office 365 Outlook connector, email signatures are picked up by Power Automate as attachments. To keep these from being processed by the form processing model, add a condition to your flow that checks if the output from the Office 365 Outlook connector named **Attachments is Inline** is equal to false. In the **If yes** branch of the condition, add the form processing action. With this, only email attachments that are not inline signatures will be processed.
+For incoming emails from the Microsoft 365 Outlook connector, email signatures are picked up by Power Automate as attachments. To keep these from being processed by the form processing model add a condition to your flow that checks if the output from the Microsoft 365 Outlook connector named **Attachments is Inline** is equal to false. In the **If yes** branch of the condition add the form processing action. With this only email attachments that are not inline signatures will be processed. 
 
 > [!div class="mx-imgBorder"]
 > ![Filter attachment condition.](media/form-processing-filter-sig.png "Add condition 'attachment is inline' ")
@@ -151,6 +165,5 @@ For incoming emails from the Office 365 Outlook connector, email signatures are 
 ### See also
 
 [Overview of the form processing model](form-processing-model-overview.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

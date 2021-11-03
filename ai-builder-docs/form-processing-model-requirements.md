@@ -14,7 +14,7 @@ ms.reviewer: v-aangie
 
 ## Languages supported
 
-English
+Afrikaans, Albanian, Asturian, Basque, Bislama, Breton, Catalan, Cebuano, Chamorro, Chinese (Simplified), Chinese (Traditional), Cornish, Corsican, Crimean Tatar (Latin), Czech, Danish, Dutch, English, Estonian, Fijian, Filipino, Finnish, French, Friulian, Galician, German, Gilbertese, Greenlandic, Haitian Creole, Hani, Hmong Daw (Latin), Hungarian, Indonesian, Interlingua, Inuktitut (Latin), Irish, Italian, Japanese, Javanese, K’iche’, Kabuverdianu, Kachin (Latin), Kara-Kalpak, Kashubian, Khasi, Korean, Kurdish (latin), Luxembourgish, Malay (Latin), Manx, Neapolitan, Norwegian, Occitan, Polish, Portuguese, Romansh, Scots, Scottish Gaelic, Slovenian, Spanish, Swahili (Latin), Swedish, Tatar (Latin), Tetum, Turkish, Upper Sorbian, Uzbek (Latin), Volapük, Walser, Western Frisian, Yucatec Maya, Zhuang, Zulu.
 
 ## Requirements
 
@@ -28,10 +28,7 @@ Form processing works on input documents that meet the following requirements:
 - If scanned from paper documents, scans should be high-quality images.
 
  > [!NOTE]
- > AI Builder doesn't currently support the following types of form processing input data:
- >
- > - Check boxes or radio buttons
- > - Signatures
+ > AI Builder doesn't currently support signatures as a type of form processing input data.
 
 ## Optimization tips
 
