@@ -53,12 +53,10 @@ The Power Fx feature is enabled by default in Microsoft Power Apps. If it's been
 
 1. Select **Upcoming features** > **Preview**.
 
-1. Enable all features by selecting **On**.
-
-    Make sure you scroll to the bottom to see all features. **All data models as sources** is the last feature and should be turned **On**.
+1. Enable the **All data models as sources** feature by scrolling to the end  and selecting **On**.
 
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of Upcoming features enabled.](media/powerfx-in-powerapps/settings.png "Upcoming features enabled")
+    > ![Screenshot of Upcoming features enabled.](media/powerfx-in-powerapps/data-sources.png "Upcoming features enabled")
 
 ## Select a model in canvas apps
 
@@ -66,7 +64,7 @@ Comsuming an AI model with Power Fx is similar to using a canvas app in that you
 
 For a list of AI Builder models you can consume, go to [AI models and business scenarios](model-types.md). You can also consume models built in Microsoft Azure Machine Learning with the [bring your own model](byo-model.md) feature.
 
-If you're in a production environment, there are alternative methods for using the formula bar that will allow you to set behaviors of a control. For details, go to [Use AI models in the formula bar](use-in-powerapps-overview.md#use-ai-models-in-the-formula-bar).
+For alternative methods of using the formula to set behaviors of a control, go to [Use AI models in the formula bar](use-in-powerapps-overview.md#use-ai-models-in-the-formula-bar).
 
 1. Create an app by following steps 1 through 4 in [Enable the Power Fx feature](#enable-the-power-fx-feature).
 
@@ -77,13 +75,13 @@ If you're in a production environment, there are alternative methods for using t
 
 1. Select one or more models to add.
 
-    If you don’t see your model in this list, then you might not have permissions to use it in Power Apps. Contact your administrator to resolve this.
+    If you don’t see your model in this list, you might not have permissions to use it in Power Apps. Contact your administrator to resolve this.
 
 ## Use a model in controls
 
 The canvas app in this language detection model example shows you the country code for the language of the text you type.
 
-1. Create a canvas app by following steps 1 and 2 in [Screenshot of ](#select-a-model-in-canvas-apps).
+1. Create a canvas app by following steps 1 and 2 in [Select a model in canvas apps](#select-a-model-in-canvas-apps) (the previous procedure).
 
 1. In the **AI models list**, select a language detection model.
 
@@ -95,7 +93,7 @@ The canvas app in this language detection model example shows you the country co
 
 1. Select the **Text Input** field and enter the following Power Fx formula:
 
-    ````
+    ````powerapps-dot
     First('Language detection'.Predict(TextInput1.Text).results).language 
     ````
 
@@ -123,16 +121,16 @@ In this preview, every model is invoked using the *predict* verb. For example, a
 
 |Input  |Output  |
 |---------|---------|
-|'Language detection'.Predict("Bonjour").results     | *(Caio will follow up,)*        |
+|`'Language detection'.Predict("Bonjour").results`     | *(Caio will follow up.)*        |
 
 To return the most likely language country code:
 
 |Input  |Output  |
 |---------|---------|
-|First('Language detection'.Predict("Bonjour").results).language  | "fr" (country code for French)       |
+|`First('Language detection'.Predict("Bonjour").results).language`  | "fr" (country code for French)       |
 
 To save time and resources, save the result of a model call so that you can use it in multiple places. You can save an output into a global variable (for example,  *lang*). If you do this, you can use *lang* elsewhere in your app, to show, for example, the national flag associated with the language.
 
 |Input  |Output  |
 |---------|---------|
-|Set(lang, First('Language detection'.Predict(TextInput1.OnChange).results).language)       | (*Caio - Please verify the code in the **Input** column and add an output.*)
+|`Set(lang, First('Language detection'.Predict(TextInput1.OnChange).results).language)`       | (*Caio - Please verify the code in the **Input** column and add an output.*)
