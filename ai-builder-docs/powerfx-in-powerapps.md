@@ -14,7 +14,7 @@ ms.reviewer: v-aangie
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-Power Fx AI integration is a new approach that lets you reference AI models in any Power Apps control using the Power Fx open-source low code formula language. For example, you can you can detect the language of any user-contributed text and translate it to another language. If you've used canvas apps, you're already familiar with Power Fx.
+Power Fx AI integration is a new approach that lets you reference AI models in any Power Apps control using the Power Fx open-source low code formula language. For example, you can detect the language of any user-contributed text and translate it to another language. If you've used canvas apps, you're already familiar with Power Fx.
 
 > [!IMPORTANT]
 >
@@ -133,9 +133,9 @@ This section provides inputs and outputs for custom and prebuilt models by model
 |Model type  |Input  | Output
 |---------|---------|---------|
 | Business card reader | Image type (mime type), image encoded as base64. | Contact record (object containing all possible fields that can be identified by the model), and `contactFields` (array containing all identified fields in the input image, with `value`, `boundingBox`, `name`, and `parentName`). |
-| Identity document reader | Image encoded as base64. | `result` Result is a record that contains a context property&mdash;with some fields that really don't seem useful for a end-user&mdash;and a fields property, which is a record that holds all the possible fields from the model. Each field has value, location, and confidence information.  |
+| Identity document reader | Image encoded as base64. | `result` Result is a record that contains a context property&mdash;with some fields that really don't seem useful for an end-user&mdash;and a fields property, which is a record that holds all the possible fields from the model. Each field has value, location, and confidence information.  |
 | Invoice processing | Image encoded as base64. | Property is called `result` and contains the fields and items properties, where fields is a record with all possible fields, and `items` is an array with identified items from the invoice.  |
-| Key phrase extraction | Language code, text. | `results` Results is an array of objects, which have a single property called `phrase`, which is the extracted keyphrase. |
+| Key phrase extraction | Language code, text. | `results` Results is an array of objects, which have a single property called `phrase`, which is the extracted key phrase. |
 |Language detection  | text |  `results` Results is an array where each element has a language and a score. |
 | Receipt processing | Image encoded as base64. | Property is called `result` and contains the fields and items properties, where fields is a record with all possible fields, and `items` is an array with identified items from the invoice.  |
 | Sentiment analysis | Language code, text. | `result` Result is an object that contains `sentiment`, `documentScores`, and `sentences` properties. `sentiment` has the overall sentiment of the whole text input, `documentScores` are the computed "confidences" of each possible sentiment (positive, neutral, negative), and `sentences` is an array with the same results but at a sentence level. |
