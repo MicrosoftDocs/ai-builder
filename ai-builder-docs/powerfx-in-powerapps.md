@@ -14,9 +14,10 @@ ms.reviewer: v-aangie
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-Power Fx AI integration is a new approach that lets you reference AI models in any Power Apps control using the Power Fx formula language. If you've used [canvas apps](/powerapps/maker/canvas-apps/getting-started), you're already familiar with Power Fx. This is the same open-source low code formula language, only it's been updated so that you can use expressions to consume your AI Builder models. For example, you can modify the language your text appears in.
+Power Fx AI integration is a new approach that lets you reference AI models in any Power Apps control using the Power Fx formula language. If you've used canvas apps, you're already familiar with Power Fx. This is the same open-source low code formula language, only it's been updated so that you can use expressions to consume your AI Builder models. For example, you can modify the language your text appears in.
 
 > [!IMPORTANT]
+>
 > - This is a preview feature.
 >
 > - [!INCLUDE[cc_preview_features_definition](includes/cc-preview-features-definition.md)]
@@ -60,7 +61,7 @@ The Power Fx feature is enabled by default in Microsoft Power Apps. If it's been
 
 ## Select a model in canvas apps
 
-Comsuming an AI model with Power Fx is similar to using a canvas app in that you'll need to create a canvas app, choose a control, assign an expression to it, and then create inputs produce the outputs. 
+Consuming an AI model with Power Fx is similar to using a canvas app in that you'll need to create a canvas app, choose a control, assign an expression to it, and then create inputs produce the outputs.
 
 For a list of AI Builder models you can consume, go to [AI models and business scenarios](model-types.md). You can also consume models built in Microsoft Azure Machine Learning with the [bring your own model](byo-model.md) feature.
 
@@ -115,7 +116,7 @@ The canvas app in this language detection model example shows you the country co
 > [!NOTE]
 > If you move your app to a different environment, the model must be manually re-added to the app in the new environment.
 
-### Input/output examples
+## Input/output examples
 
 In this preview, every model is invoked using the *predict* verb. For example, a language detection model takes text as an input and returns a table of possible languages, ordered by that language’s score. The score says how likely the model thinks it is that the indicated language is correct.
 
@@ -134,3 +135,7 @@ To save time and resources, save the result of a model call so that you can use 
 |Input  |Output  |
 |---------|---------|
 |`Set(lang, First('Language detection'.Predict(TextInput1.OnChange).results).language)`       | (*Caio - Please verify the code in the **Input** column and add an output.*)
+
+### See also
+
+[What are canvas apps?](/powerapps/maker/canvas-apps/getting-started)
