@@ -4,5 +4,17 @@
         "MD025": {
             "front_matter_title": ""
         }
+    },
+    "cSpell.words": [
+        "guten",
+        "powerfx"
+    ],
+    "cSpell.customDictionaries": {
+        "custom-dictionary-workspace": {
+            "name": "custom-dictionary-workspace",
+            "path": "${workspaceFolder:ai-builder-pr}/.cspell/custom-dictionary-workspace.txt",
+            "addWords": true,
+            "scope": "workspace"
+        }
     }
 }
