@@ -83,7 +83,7 @@ The canvas app in this language detection model example shows you the country co
 > [!NOTE]
 > This feature is being gradually rolled out across regions and might not be available yet in your region.
 
-1. Create a canvas app by following steps 1 and 2 in [Select a model in canvas apps](#select-a-model-in-canvas-apps) (the previous procedure).
+1. Create a canvas app by following steps 1 and 2 in the previous section, [Select a model in canvas apps](#select-a-model-in-canvas-apps).
 
 1. In the **AI models list**, select a language detection model.
 
