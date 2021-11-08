@@ -76,44 +76,6 @@ For a list of AI Builder models you can consume, go to [AI models and business s
 
     If you don’t see your model in this list, you might not have permissions to use it in Power Apps. Contact your administrator to resolve this.
 
-## Use a model in controls
-
-The canvas app in this language detection model example shows you the country code for the language of the text you type.
-
-1. Create a canvas app by following steps 1 and 2 in [Select a model in canvas apps](#select-a-model-in-canvas-apps) (the previous procedure).
-
-1. In the **AI models list**, select a language detection model.
-
-1. Place a text input and a text label on the canvas:
-    1. Select **+** > **Text input** and select where you want to place it on the canvas.
-    1. Rename the text input to **TextInput1**.
-    1. Select **+** > **Text label** and select where you want to place it on the canvas.
-    1. Rename the text label to **Language**.
-
-1. Select the **Text Input** field and enter the following Power Fx formula:
-
-    ````powerapps-dot
-    First('Language detection'.Predict(TextInput1.Text).results).language 
-    ````
-
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of the Power Fx formula.](media/powerfx-in-powerapps/bonjour-fx.png "Power Fx formula")
-
-1. Try out your app by selecting the **Preview the app** icon in the upper-right corner.
-
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of how to open your model.](media/powerfx-in-powerapps/preview-app.png "Open your model")
-
-1. In the textbox, type **bonjour**. Notice the country code for France (**fr**) appears above the textbox.
-
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of trying out the app you created.](media/powerfx-in-powerapps/bonjour-output.png "Try out the app you created")
-
-1. Try out your app again by typing **guten tag**. Notice the country code for Germany (**de**) appears above the textbox.
-
-> [!NOTE]
-> If you move your app to a different environment, the model must be manually re-added to the app in the new environment.
-
 ## Input/output by model type
 
 This section provides inputs and outputs for custom and prebuilt models by model type. 
@@ -125,7 +87,7 @@ This section provides inputs and outputs for custom and prebuilt models by model
 |Category classification | Language code, text. | `results` Results is a table where each element has a type and a score. |
 |Entity Extraction |Language code, text. | `entities` Entities is a table where each element has a type, score, startIdx, length, and value (string represented from startIdx to startIdx+length). |
 |Form processing |Document type (mime type string), Document (base64 encoded string). | 4 properties. `layoutName` (string), `layoutConfidenceScore` (number), `labels` (record containing the fields that can be identified in the form), and `tables` (record containing tables identified in the form). |
-|Object detection |Image encoded as base64. | `results` Results is a table with the different objects found in the picture. Each has a `boundingBox`, confidence value, and `tagId`. |
+|Object detection |Image encoded as base64. | `results` Results is a table with the different objects found in the picture. Each has a `boundingBox`, `confidence` value, and `tagId`. |
 |Prediction | Properties defined when creating the model. Canvas receives these properties as a record. | A record with `Explanation`, `Likelihood`, and `Prediction` as properties. |
 
 ### Prebuilt models
@@ -160,7 +122,7 @@ To save time and resources, save the result of a model call so that you can use 
 
 |Input  |Output  |
 |---------|---------|
-|`Set(lang, First('Language detection'.Predict(TextInput1.OnChange).results).language)`       | Use these formulas:<br/>`lang.score`<br/>`lang.language`
+|`Set(lang, First('Language detection'.Predict(TextInput1.OnChange).results))`       | Use these formulas:<br/>`lang.score`<br/>`lang.language`
 
 
 ### See also
