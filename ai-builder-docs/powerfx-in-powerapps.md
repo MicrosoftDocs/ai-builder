@@ -144,7 +144,7 @@ This section provides inputs and outputs for custom and prebuilt models by model
 
 ## Input/output examples
 
-In this preview, every model is invoked using the *predict* verb. For example, a language detection model takes text as an input and returns a table of possible languages, ordered by that language’s score The score indicates how confident the model is on its prediction.
+In this preview, every model is invoked using the *predict* verb. For example, a language detection model takes text as an input and returns a table of possible languages, ordered by that language’s score. The score indicates how confident the model is with its prediction.
 
 |Input  |Output  |
 |---------|---------|
