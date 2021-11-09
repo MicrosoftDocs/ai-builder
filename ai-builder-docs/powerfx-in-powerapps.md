@@ -19,8 +19,8 @@ Power Fx AI integration is a new approach that lets you reference AI models in a
 > [!IMPORTANT]
 >
 > - This is a preview feature.
->
 > - [!INCLUDE[cc_preview_features_definition](includes/cc-preview-features-definition.md)]
+> - This feature is being gradually rolled out across regions and might not be available yet in your region.
 
 ## Requirements
 
@@ -79,9 +79,6 @@ For a list of AI Builder models you can consume, go to [AI models and business s
 ## Use a model in controls
 
 The canvas app in this language detection model example shows you the country code for the language of the text you type.
-
-> [!NOTE]
-> This feature is being gradually rolled out across regions and might not be available yet in your region.
 
 1. Create a canvas app by following steps 1 and 2 in the previous section, [Select a model in canvas apps](#select-a-model-in-canvas-apps).
 
