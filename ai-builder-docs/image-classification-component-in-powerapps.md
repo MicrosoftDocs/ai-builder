@@ -24,7 +24,7 @@ To use your image classification model with Power Fx, first you need to register
 >
 > - This feature is being gradually rolled out across regions and might not be available yet in your region.
 
-## Create a canvas app
+## Use your classification model in a canvas app
 
 1. Sign in to [Power Apps](https://make.powerapps.com).
 
@@ -37,14 +37,14 @@ To use your image classification model with Power Fx, first you need to register
 
 1. If you see the **Welcome to Power Apps Studio** screen, select **Skip**.
 
-## Add images and descriptions
-
 1. Select **Data** > **Add data** > **AI Models**.
 
 1. On the dropdown, select the image classification model you want to add.
 
     > [!div class="mx-imgBorder"]
     > ![Animation of adding an AI model as a data source.](media/image-classification-component-in-powerapps/add-ai-as-data-source.gif "Add an AI model as a data source")
+
+## Add images and descriptions
 
 1. Add an image by selecting an area on the canvas.
 
@@ -61,7 +61,7 @@ To use your image classification model with Power Fx, first you need to register
 
 1. On the formula bar, type **'Model Name'.Predict(Image).Prediction**.
 
-    In the following example, you'd type this:
+    In the following example, you would type this:
 
     ````powerapps-dot
     'Car Damage Classifier'.Predict(AddMediaButton.Media).Prediction
