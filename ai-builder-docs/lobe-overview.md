@@ -60,7 +60,7 @@ Image classification is categorizing an image into a single label to represent i
 For example, a project named *Vehicle Damage* might have labels named *Dent*, *Scratch* and *Broken glass* to indicate the type of damage to cars and trucks. An insurance claims adjuster might use these images determine the insurance company's liability.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of an car dent image in the vehicle label.](media/lobe-overview/dent.png "Car dent image in the vehicle label")
+> ![Screenshot of a car dent image in the vehicle label.](media/lobe-overview/dent.png "Car dent image in the vehicle label")
 
 With image classification by Lobe, you train all your models on your computer. When you train this way, you don't use AI Builder credits. Lobe is integrated with Power Platform, which adds the ability to export your model to AI Builder to use in [canvas apps](/powerapps/maker/canvas-apps/getting-started) and [Power Automate flows](/power-automate/flow-types).
 
@@ -69,7 +69,7 @@ With image classification by Lobe, you train all your models on your computer. W
 To get started with Lobe, create a new project and import your images by selecting **New Project** > **Import**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of an car dent image in the vehicle label.](media/lobe-overview/lobe-splash.png "Car dent image in the vehicle label")
+> ![Screenshot of Lobe import screen.](media/lobe-overview/lobe-splash.png "Lobe import screen")
 
 After you've imported images, you'll need to label your images and train the classification model. To learn more, go to the [Lobe Help site](https://www.lobe.ai/docs/welcome/welcome).
 

@@ -44,4 +44,4 @@ For [ALM](/power-platform/alm/overview-alm) users, you can [create a solution fr
 After you exported an image classification model to your Power Platform environment, you can use it in Power Apps or Power Automate.
 
 - [Use an image classification model by Lobe in Power Apps](image-classification-component-in-powerapps.md)
-- [Use an image classification model by Lobe in Power Automate](image-classification-model-in-flow)
+- [Use an image classification model by Lobe in Power Automate](image-classification-model-in-flow.md)
