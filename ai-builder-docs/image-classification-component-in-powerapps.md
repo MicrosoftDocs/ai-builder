@@ -14,17 +14,16 @@ ms.reviewer: v-aangie
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-To use your image classification model with Power Fx, first you need to register it as a data source in your app. To learn how to do this, go to [Integrate the registered model](https://github.com/microsoft/PowerApps-Samples/tree/master/ai-builder/BringYourOwnModelTutorial#step-32-integrate-the-registered-model).
+To use your image classification model with Power Fx, first you need to add it as a data source in your app. To learn how to do this, go to [Enable the Power Fx feature](powerfx-in-powerapps.md#enable-the-power-fx-feature).
 
-*(Markus: Is third bullet point needed?)*
 > [!IMPORTANT]
 > - This is a preview feature.
->
 > - [!INCLUDE[cc_preview_features_definition](includes/cc-preview-features-definition.md)]
->
 > - This feature is being gradually rolled out across regions and might not be available yet in your region.
 
-## Use your classification model in a canvas app
+## Create a canvas app
+
+This section describes how to create a new canvas app for your image classification model. If your model is already in a canvas app, select **AI Builder** > **Models**. Select your model and then go to [Add the Power Fx Prediction formula](#add-the-power-fx-prediction-formula).
 
 1. Sign in to [Power Apps](https://make.powerapps.com).
 
@@ -44,18 +43,7 @@ To use your image classification model with Power Fx, first you need to register
     > [!div class="mx-imgBorder"]
     > ![Animation of adding an AI model as a data source.](media/image-classification-component-in-powerapps/add-ai-as-data-source.gif "Add an AI model as a data source")
 
-## Add images and descriptions
-
-1. Add an image by selecting an area on the canvas.
-
-1. In the box below **Prediction**, type a description.
-
-1. Select **Submit**.
-
-    > [!div class="mx-imgBorder"]
-    > ![Animation of adding an image and description.](media/image-classification-component-in-powerapps/ai-in-canvas-app.gif "Add an image and description")
-
-## Add a Power Fx formula
+## Add the Power Fx Prediction formula
 
 1. Select the control area next to **Prediction**.
 
@@ -74,3 +62,10 @@ To use your image classification model with Power Fx, first you need to register
     ````powerapps-dot
     'Model Name'.Predict(Image).Labels
     ````
+
+## Use a canvas app with a classification model
+
+This animation shows how users of your new app can add their own images in Power Apps and have the appropriate label automatically predicted. For example, if the user is an insurance claim adjuster, they can upload an image of a broken window in a car. The app will then predict and assign the **Broken Glass** label to it. The user might also want to enter more detail on a claim, such as *Window broken on the driver's side*.
+
+> [!div class="mx-imgBorder"]
+    > ![Animation of adding an image and description.](media/image-classification-component-in-powerapps/ai-in-canvas-app.gif "Add an image and description")

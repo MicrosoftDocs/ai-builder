@@ -14,49 +14,29 @@ ms.reviewer: v-aangie
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-To use your image classification model in a Power Automate flow, you'll need to either create a new model or edit an existing model.
-
-*(Markus: No need to register as in Power Apps?)*
+To use your image classification model in a Power Automate flow, you'll need to create a new model or edit an existing model. Then you can add the Power Fx `Prediction` formula to generate results that can help you solve a variety of business problems.
 
 > [!IMPORTANT]
 > - This is a preview feature.
->
 > - [!INCLUDE[cc_preview_features_definition](includes/cc-preview-features-definition.md)]
+> - This feature is being gradually rolled out across regions and might not be available yet in your region.
 
+## Create a flow in Power Automate
 
-## Download the Lobe application on your desktop
-
-*(Markus: Can you download from Power Apps?)*
-
-1. Sign in to [Power Automate](https://flow.microsoft.com/).
-
-1. On the left navigation pane, select **AI Builder** > **Build**.
-
-1. On the right pane, select **Image Classification**.
-
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of the Power Automate home screen.](media/image-classification-model-in-flow/power-automate-home.png "Power Automate home")
-
-1. On the Image Classification with Lobe screen, you can:
-    1. Download the Lobe app to your desktop.
-    1. Learn about Lobe.
-    1. Watch a tour of Lobe.
-    1. Close the screen.
-
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of the Image Classification with Lobe screen.](media/image-classification-model-in-flow/image-classification-help.png "Image Classification with Lobe")
-
-## Use an image classification model by Lobe in Power Automate
+This section describes how to create a flow in your image classification model. If you are editing an existing flow type with images, go to [Add the Power Fx Prediction formula](#add-the-power-fx-prediction-formula).
 
 1. Sign in to [Power Automate](https://flow.microsoft.com/).
 
-1. *(Markus-Are steps 2&3 accurate?)* If you have an existing flow, select **AI Builder** > **Models**, and then go to step 6.
+1. Select **My flows** > **New flow**.
 
-1. If you are creating a new flow, select **My flows** on the left pane and then go to step 4.
+1. Select the type of flow you want to create.
 
-1. Select **New flow** > **Instant cloud flow**.
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of the creating a new flow.](media/image-classification-model-in-flow/new-flow.png "Create a new flow")
 
-1. Name your flow, select **Manually trigger a flow** under **Choose how to trigger this flow**, and then select **Create**.
+1. Name your flow, select how to trigger your flow under **Choose how to trigger this flow**, and then select **Create**.
+
+## Add the Power Fx Prediction formula
 
 1. Select **+New step**, and then type **predict** on the **Choose your operation** search bar.
 
@@ -72,35 +52,25 @@ To use your image classification model in a Power Automate flow, you'll need to 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of the Predict action.](media/image-classification-model-in-flow/lobe-predict.png "Predict action")
 
-*(Marcus/Angie: Find a better place for the following.)*<br/>
+## Use a flow with a classification model
 
-The output contains:
+A flow that uses a classification model can help you solve a variety of business problems.
 
-- **Prediction:** The predicted label of the input image from your model (text).
+The output of your flow contains *prediction* and *label*. A prediction is the predicted label of the input image from your model (text). Labels is the list of *labels* (text) and *confidence* (number) for each label you have. This shows the model’s resulting confidence for each label on the image. You'll need to loop this output to process the individual labels and confidences.
 
-- **Labels:** The list of *label* (text) and *confidence* (number) for each label you have, showing the model’s resulting confidence for that label on the image. You will need to loop over this output to process the individual labels and confidences.
+When you use the *prediction* output, you can:
 
-## View your Lobe models in AI Builder
+- Arrange images into folders by label.
 
-*(Markus - Is this leftover from the old doc & does it still belong?)*
+- Create an Excel spreadsheet to send out as a report.
 
-If you already exported your image classification model from the Lobe application, it exists in your list of AI Builder models and an image classification model type.
+- Apply filtering.
 
-### View your list of models
+When you use the *labels* output, you can:
 
-1. Sign in to [Power Automate](https://flow.microsoft.com/).
+- Determine actions of images with certain confidence scores.
 
-1. On the left navigation pane, select **AI Builder** > **Models**.
- 
-    You'll see a list of you models. Models that were exported from Lobe are listed in the **Model** column as **Image Classification**.
+- Send alerts based on confidence scores. For example, you might want to send an alert if scores are above 90 percent and a different alert if they are below 90 percent.
 
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of your list of models.](media/image-classification-model-in-flow/my-models.png "A list of your models")
-
-### View model detail
-
-You'll see the details page. This is where you can... *(Markus: if we use this, let's add more)*.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the Details page.](media/image-classification-model-in-flow/details-page.png "Details page")
+- Send an email with various images.
 

@@ -13,12 +13,12 @@ ms.reviewer: v-aangie
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-You'll need to export your image classification model from Lobe to Microsoft Power Platform so that you can use it in [Power Apps](https://make.powerapps.com) and [Power Automate](https://flow.microsoft.com/).
+You'll need to export your image classification model from Lobe to Microsoft Power Platform so that you can use it in  Power Apps and Power Automate.
 
 > [!IMPORTANT]
 > - This is a preview feature.
->
 > - [!INCLUDE[cc_preview_features_definition](includes/cc-preview-features-definition.md)]
+> - This feature is being gradually rolled out across regions and might not be available yet in your region.
 
 ## Export a model to Power Platform
 
@@ -38,6 +38,18 @@ You'll need to export your image classification model from Lobe to Microsoft Pow
 ### For Application Lifecycle Management (ALM) users
 
 For [ALM](/power-platform/alm/overview-alm) users, you can [create a solution from the model in AI Builder](byom-alm.md) to transfer it between environments. As an alternative, you can re-export the model to your environment of choice after validation in your app or flow.
+
+## View your Lobe models in AI Builder
+
+After you've exported your image classification model from Lobe, it appears in your list of models in AI Builder. Models that were exported from Lobe are listed in the **Model** column as **Image Classification**.
+
+1. Sign in to [Power Automate](https://flow.microsoft.com/).
+
+1. To view a list of models, select **AI Builder** > **Models** on the left pane.
+
+1. To see details, select the model. This is where you can see project details, a summary of images with their test results, and a breakdown of labels. This information can help you decide to test your app or publish it.
+
+For more information
 
 ## Next step
 

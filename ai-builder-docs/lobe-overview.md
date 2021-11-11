@@ -14,14 +14,14 @@ ms.reviewer: v-aangie
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-> [!IMPORTANT]
-> - This is a preview feature.
->
-> - [!INCLUDE[cc_preview_features_definition](includes/cc-preview-features-definition.md)]
-
 Lobe is a free, easy-to-use Microsoft desktop application that allows you to build, manage, and use custom machine learning models. With Lobe, you can create an image classification model to categorize images into *labels* that represent their content. You can directly upload Lobe models to AI Builder for use with Microsoft Power Apps and Microsoft Power Automate.
 
-Here are some examples of how Lobe can take your machine learning ideas to production:
+> [!IMPORTANT]
+> - This is a preview feature.
+> - [!INCLUDE[cc_preview_features_definition](includes/cc-preview-features-definition.md)]
+> - This feature is being gradually rolled out across regions and might not be available yet in your region.
+
+Here's a summary of preparing a model in Lobe:
 
 - Import and label images.
 
@@ -37,7 +37,7 @@ If you're familiar with the AI Builder [object detection](object-detection-overv
 
 ## Business scenarios
 
- Apps that use image classification can:
+Here are some examples of how Lobe can take your machine learning ideas to production with Power Apps and Power Automate:
 
 - Identify defects in a manufacturing line.
 
@@ -55,32 +55,34 @@ If you're familiar with the AI Builder [object detection](object-detection-overv
 
 ## What is image classification?
 
-Image classification is categorizing an image into a single label to represent its content overall. Image classification models learn to find patterns such as textures, colors and shapes, from your images. These patterns can then be used to identify your labels.
+Image classification is categorizing an image into a label to represent its content overall. Image classification models learn to find patterns such as textures, colors, and shapes from your images. These patterns can then be used to identify your labels.
 
-For example, a project named *Vehicle Damage* might have labels named *Dent*, *Scratch* and *Broken glass* to indicate the type of damage to cars and trucks. An insurance claims adjuster might use these images determine the insurance company's liability.
+For example, a project named *Contoso Insurance Claims* might have labels named *Dent*, *Scratch* and *Broken Glass* to indicate types of damage to vehicles. A claims adjuster might use these images determine the insurance company's liability.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a car dent image in the vehicle label.](media/lobe-overview/dent.png "Car dent image in the vehicle label")
 
-With image classification by Lobe, you train all your models on your computer. When you train this way, you don't use AI Builder credits. Lobe is integrated with Power Platform, which adds the ability to export your model to AI Builder to use in [canvas apps](/powerapps/maker/canvas-apps/getting-started) and [Power Automate flows](/power-automate/flow-types).
+With image classification by Lobe, you train all your models on your computer. When you train this way, you don't use AI Builder credits. Lobe is integrated with Microsoft Power Platform, which adds the ability to export your model to AI Builder for use in Power Apps and Power Automate.
 
 ## Use image classification by Lobe
 
-To get started with Lobe, create a new project and import your images by selecting **New Project** > **Import**.
+1. Download Lobe on you desktop from the [Lobe home page](https://www.lobe.ai/).
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Lobe import screen.](media/lobe-overview/lobe-splash.png "Lobe import screen")
+1. Create a new project by selecting **New Project** > **Import**.
 
-After you've imported images, you'll need to label your images and train the classification model. To learn more, go to the [Lobe Help site](https://www.lobe.ai/docs/welcome/welcome).
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of Lobe import screen.](media/lobe-overview/lobe-splash.png "Lobe import screen")
 
-To watch a video of image classification by Lobe, go to the [Lobe home page](https://www.lobe.ai/) and select **Watch Tour**.
+1. Import and label your images, and train the classification model. To learn how to do this, go to the [Lobe Help site](https://www.lobe.ai/docs/welcome/welcome).
+
+1. (Optional) Watch a video of image classification by Lobe on the [Lobe home page](https://www.lobe.ai/).
 
 ### Consider image quantity and object balance
 
 You'll want to upload enough images to train your model accurately. You'll also want to make sure there are enough images to represent each object.
 This will increase consistency when training your model.
 
-For tips on choosing enough images so that you represent all your objects, go to [Data quantity and data balance](collect-images.md#data-quantity-and-data-balance).
+For tips on choosing enough images, go to [Data quantity and data balance](collect-images.md#data-quantity-and-data-balance).
 
 ### Adjust your model architecture
 
