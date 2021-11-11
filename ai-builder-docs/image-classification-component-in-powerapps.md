@@ -68,4 +68,4 @@ This section describes how to create a new canvas app for your image classificat
 This animation shows how users of your new app can add their own images in Power Apps and have the appropriate label automatically predicted. For example, if the user is an insurance claim adjuster, they can upload an image of a broken window in a car. The app will then predict and assign the **Broken Glass** label to it. The user might also want to enter more detail on a claim, such as *Window broken on the driver's side*.
 
 > [!div class="mx-imgBorder"]
-    > ![Animation of adding an image and description.](media/image-classification-component-in-powerapps/ai-in-canvas-app.gif "Add an image and description")
+> ![Animation of adding an image and description.](media/image-classification-component-in-powerapps/ai-in-canvas-app.gif "Add an image and description")
