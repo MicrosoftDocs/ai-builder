@@ -13,7 +13,7 @@ ms.reviewer: v-aangie
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-You'll need to export your image classification model from Lobe to Microsoft Power Platform so that you can use it in  Power Apps and Power Automate.
+Lobe is integrated with Microsoft Power Platform, which adds the ability to export your model to AI Builder for use in Power Apps and Power Automate.
 
 > [!IMPORTANT]
 > - This is a preview feature.
@@ -48,8 +48,6 @@ After you've exported your image classification model from Lobe, it appears in y
 1. To view a list of models, select **AI Builder** > **Models** on the left pane.
 
 1. To see details, select the model. This is where you can see project details, a summary of images with their test results, and a breakdown of labels. This information can help you decide to test your app or publish it.
-
-For more information
 
 ## Next step
 
