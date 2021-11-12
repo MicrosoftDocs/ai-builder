@@ -98,11 +98,13 @@ The canvas app in this language detection model example shows you the country co
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of the Power Fx formula.](media/powerfx-in-powerapps/bonjour-fx.png "Power Fx formula")
+
 1. Try out your app by selecting the **Preview the app** icon in the upper-right corner.
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of how to open your model.](media/powerfx-in-powerapps/preview-app.png "Open your model")
-1. In the textbox, type **bonjour**. Notice the country code for France (**fr**) appears above the textbox.
+
+1. In the textbox, type **Bonjour**. Notice the country code for France (**fr**) appears above the textbox.
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of trying out the app you created.](media/powerfx-in-powerapps/bonjour-output.png "Try out the app you created")
