@@ -158,7 +158,7 @@
     items:
     - name: Overview
       href: lobe-overview.md
-    - name: Export your your image classification model
+    - name: Export your image classification model
       href: lobe-export.md
 - name: Bring your own AI model (preview)
   items:

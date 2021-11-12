@@ -27,13 +27,14 @@ Lobe is integrated with Microsoft Power Platform, which adds the ability to expo
     > [!div class="mx-imgBorder"]
     > ![Screenshot of the Lobe Export screen.](media/lobe-export/lobe-export.png "Lobe Export screen")
 
-    You'll be taken to a Power Platform environment where you'll be asked for sign-in credentials. If you have access to multiple environments, you'll also need to make sure you're in the correct environment for your model to be exported.
-
 1. Sign in with the credentials you use to sign in to the Power Platform environment.
 
 1. Name your model, and then choose the environment where you'll use your model.
 
 1. Select **Export**.
+
+> [!NOTE]
+> If you have access to multiple environments, make sure you're in the correct environment for your model to be exported.
 
 ### For Application Lifecycle Management (ALM) users
 
@@ -43,7 +44,7 @@ For [ALM](/power-platform/alm/overview-alm) users, you can [create a solution fr
 
 After you've exported your image classification model from Lobe, it appears in your list of models in AI Builder. Models that were exported from Lobe are listed in the **Model** column as **Image Classification**.
 
-1. Sign in to [Power Automate](https://flow.microsoft.com/).
+1. Sign in to Sign in to [Power Apps](https://make.powerapps.com) or [Power Automate](https://flow.microsoft.com/).
 
 1. To view a list of models, select **AI Builder** > **Models** on the left pane.
 

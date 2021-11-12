@@ -23,7 +23,7 @@ To use your image classification model with Power Fx, first you need to add it a
 
 ## Create a canvas app
 
-This section describes how to create a new canvas app for your image classification model. If your model is already in a canvas app, select **AI Builder** > **Models**. Select your model and then go to [Add the Power Fx Prediction formula](#add-the-power-fx-prediction-formula).
+This section describes how to create a new canvas app for your image classification model. If your model is already in a canvas app, skip this section and go to [Add the Power Fx Prediction formula](#add-the-power-fx-prediction-formula) in this topic.
 
 1. Sign in to [Power Apps](https://make.powerapps.com).
 

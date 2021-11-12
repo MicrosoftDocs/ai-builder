@@ -64,9 +64,20 @@ For example, a project named *Contoso Insurance Claims* might have labels named 
 
 With image classification by Lobe, you train all your models on your computer. When you train this way, you don't use AI Builder credits. Lobe is integrated with Microsoft Power Platform, which adds the ability to export your model to AI Builder for use in Power Apps and Power Automate.
 
-## Use image classification by Lobe
+## Download Lobe
 
-1. Download Lobe on you desktop from the [Lobe home page](https://www.lobe.ai/).
+There are two ways to download Lobe to your desktop. If you have access to the [new AI Builder home page experience](https://docs.microsoft.com/en-us/ai-builder/model-types#new-home-page-for-ai-builder):
+
+1. Sign in to [Power Apps](https://make.powerapps.com) or [Power Automate](https://flow.microsoft.com/).
+
+1. Select **AI Builder** > **Build** > **Image Classification (preview)**.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Image Classification (preview).](media/lobe-overview/lobe-tile.png "Image Classification (preview)")
+
+If your region doesn't have access yet to the new AI Builder home page experience, go to the [Lobe home page](https://www.lobe.ai/) to download Lobe.
+
+## Use image classification by Lobe
 
 1. Create a new project by selecting **New Project** > **Import**.
 
