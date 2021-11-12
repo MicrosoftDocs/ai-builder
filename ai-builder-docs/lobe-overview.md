@@ -66,7 +66,7 @@ With image classification by Lobe, you train all your models on your computer. W
 
 ## Download Lobe
 
-There are two ways to download Lobe to your desktop. If you have access to the [new AI Builder home page experience](https://docs.microsoft.com/en-us/ai-builder/model-types#new-home-page-for-ai-builder):
+There are two ways to download Lobe to your desktop. If you have access to the [new AI Builder home page experience](model-types.md#new-home-page-for-ai-builder):
 
 1. Sign in to [Power Apps](https://make.powerapps.com) or [Power Automate](https://flow.microsoft.com/).
 
