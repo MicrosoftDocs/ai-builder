@@ -154,14 +154,20 @@
       href: form-processing-sample-data.md
     - name: FAQ for form processing
       href: form-processing-faq.md
-    - name: Process multipage tables (experimental)
-      href: form-processing-multipage.md  
-- name: Bring your own AI model
+  - name: Image classification AI model by Lobe (preview)
+    items:
+    - name: Overview
+      href: lobe-overview.md
+    - name: Export your image classification model
+      href: lobe-export.md
+- name: Bring your own AI model (preview)
   items:
-  - name: Create and register your own model
-    href: byo-model.md
-  - name: Package your own model using solutions
-    href: byom-alm.md 
+  - name: Azure machine learning models (preview)
+    items:
+    - name: Create and register your own model
+      href: byo-model.md
+    - name: Package your own model using solutions
+      href: byom-alm.md   
 - name: Use AI Builder in Power Automate
   items:
   - name: Overview
@@ -178,6 +184,8 @@
       href: form-processing-model-in-flow.md
     - name: Object detection model
       href: object-detection-model-in-flow.md
+    - name: Image classification model (preview)
+      href: image-classification-model-in-flow.md  
     - name: Prediction model
       href: prediction-pwr-automate.md
   - name: Use a prebuilt AI Builder model in Power Automate
@@ -216,6 +224,8 @@
     href: form-processor-component-in-powerapps.md
   - name: Use the object detection component in Power Apps
     href: object-detector-component-in-powerapps.md
+  - name: Use the image classification component in Power Apps (preview)
+    href: image-classification-component-in-powerapps.md
   - name: Use formulas for text AI models in Power Apps (preview)
     href: formula-bar.md
   - name: Use the business card reader component in Power Apps
