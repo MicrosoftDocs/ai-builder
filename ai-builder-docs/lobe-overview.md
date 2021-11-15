@@ -1,13 +1,15 @@
 ---
 title: Overview of image classification by Lobe (preview) - AI Builder | Microsoft Docs
 description: Provides an overview of how you can use image classification models by Lobe in AI Builder to add intelligence to your apps.
-author: JakeCohenMicrosoft
+author: mbeissinger
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: intro-internal
 ms.date: 11/15/2021
-ms.author: jacohe
-ms.reviewer: v-aangie
+ms.author: markus.beissinger
+contributors:
+    - JakeCohenMicrosoft
+    - v-aangie
 ---
 
 # Overview of  image classification by Lobe (preview)

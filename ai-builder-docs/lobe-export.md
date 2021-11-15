@@ -1,13 +1,15 @@
 ---
 title: Export your image classification model by Lobe to AI Builder (preview) - AI Builder | Microsoft Docs
 description: Provides instructions for how export your image classification model by Lobe in AI Builder.
-author: JakeCohenMicrosoft
+author: mbeissinger
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: intro-internal
 ms.date: 11/15/2021
-ms.author: jacohe
-ms.reviewer: v-aangie
+ms.author: markus.beissinger
+contributors:
+    - JakeCohenMicrosoft
+    - v-aangie
 ---
 # Export your image classification model from Lobe to AI Builder (preview)
 
