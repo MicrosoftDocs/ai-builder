@@ -84,17 +84,22 @@ The canvas app in this language detection model example shows you the country co
 
 1. In the **AI models list**, select a language detection model.
 
-1. Place a text input and a text label on the canvas:
-    1. Select **+** > **Text input** and select where you want to place it on the canvas.
+1. Place a text input and two text labels on the canvas:
+    1. Select **+** > **Text input** and place it on the canvas.
     1. Rename the text input to **TextInput1**.
-    1. Select **+** > **Text label** and select where you want to place it on the canvas.
+    1. Select **Text label** and place it on the canvas.
     1. Rename the text label to **Language**.
+    1. Add another text label by selecting **Text label** and place it to the right of the **Language** text label.
+     
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of the canvas apps labels.](media/powerfx-in-powerapps/unknown.png "Canvas apps labels")
 
-1. Select the **Text Input** field and enter the following Power Fx formula:
+1. Select the text label you added in step 3e and enter the following Power Fx formula:
 
     ````powerapps-dot
     First('Language detection'.Predict(TextInput1.Text).results).language 
     ````
+    Notice that the label changes to **(Unknown)**.
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of the Power Fx formula.](media/powerfx-in-powerapps/bonjour-fx.png "Power Fx formula")
@@ -104,10 +109,11 @@ The canvas app in this language detection model example shows you the country co
     > [!div class="mx-imgBorder"]
     > ![Screenshot of how to open your model.](media/powerfx-in-powerapps/preview-app.png "Open your model")
 
-1. In the textbox, type **Bonjour**. Notice the country code for France (**fr**) appears above the textbox.
+1. In the textbox, type **bonjour**. Notice that the country code for France (**fr**) appears above the textbox.
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of trying out the app you created.](media/powerfx-in-powerapps/bonjour-output.png "Try out the app you created")
+
 1. Try out your app again by typing **guten tag**. Notice the country code for Germany (**de**) appears above the textbox.
 
 > [!NOTE]
