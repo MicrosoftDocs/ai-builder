@@ -27,8 +27,6 @@ The following tables show which AI Builder features are available in each region
 
 ### Custom models
 
-*(Marcus: Custom only?)*
-
 |Feature |Asia |Australia |Canada |Europe |France |Germany |India |Japan |South America |Switzerland |United Arab Emirates |United Kingdom |United States |
 |:-------|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
 |Prediction|GA|GA|GA|GA|GA|GA|GA|GA|GA|GA|GA|GA|GA|
