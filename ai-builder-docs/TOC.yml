@@ -184,7 +184,7 @@
       href: form-processing-model-in-flow.md
     - name: Object detection model
       href: object-detection-model-in-flow.md
-    - name: Image classification model
+    - name: Image classification model (preview)
       href: image-classification-model-in-flow.md  
     - name: Prediction model
       href: prediction-pwr-automate.md
@@ -224,7 +224,7 @@
     href: form-processor-component-in-powerapps.md
   - name: Use the object detection component in Power Apps
     href: object-detector-component-in-powerapps.md
-  - name: Use the image classification component in Power Apps
+  - name: Use the image classification component in Power Apps (preview)
     href: image-classification-component-in-powerapps.md
   - name: Use formulas for text AI models in Power Apps (preview)
     href: formula-bar.md
