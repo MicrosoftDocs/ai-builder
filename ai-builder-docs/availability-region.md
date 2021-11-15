@@ -5,7 +5,7 @@ author: JoeFernandezMS
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/30/2021
+ms.date: 11/15/2021
 ms.author: jofernan
 ms.reviewer: v-aangie
 ---
@@ -26,6 +26,7 @@ The following tables show which AI Builder features are available in each region
 > For a view of what's planned for AI Builder, including new features, release status, and regional availability, go to the [AI Builder release plans](/power-platform-release-plan/2020wave1/ai-builder/).
 
 ### Custom models
+
 |Feature |Asia |Australia |Canada |Europe |France |Germany |India |Japan |South America |Switzerland |United Arab Emirates |United Kingdom |United States |
 |:-------|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
 |Prediction|GA|GA|GA|GA|GA|GA|GA|GA|GA|GA|GA|GA|GA|
@@ -33,6 +34,7 @@ The following tables show which AI Builder features are available in each region
 |Entity extraction |GA|GA |GA|GA|GA|GA|GA|GA|GA|GA|GA |GA|GA|
 |Object detection|GA |GA |-|GA |- |-|GA|GA|-|-|-|GA |GA |
 |Form processing |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |
+|Image classification |Preview |Preview |- |Preview |- |Preview |Preview |Preview |Preview |Preview |Preview |Preview |Preview |
 
 ### Prebuilt models
 
@@ -67,6 +69,7 @@ AI Builder is available in US Government environments with the features listed i
 |Entity extraction|-|-|-|
 |Object detection|GA|GA|-|
 |Form processing |GA|GA|-|
+|Image classification | - | - | - |
 
 ### Prebuilt models
 |Feature |Government Community Cloud (GCC) |Government Community Cloud – High (GCC High) |Department of Defense (DoD) |
