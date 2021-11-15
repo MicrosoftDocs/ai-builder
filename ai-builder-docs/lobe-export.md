@@ -46,7 +46,7 @@ For [ALM](/power-platform/alm/overview-alm) users, you can [create a solution fr
 
 After you've exported your image classification model from Lobe, it appears in your list of models in AI Builder. Models that were exported from Lobe are listed in the **Model** column as **Image Classification**.
 
-1. Sign in to Sign in to [Power Apps](https://make.powerapps.com) or [Power Automate](https://flow.microsoft.com/).
+1. Sign in to [Power Apps](https://make.powerapps.com) or [Power Automate](https://flow.microsoft.com/).
 
 1. To view a list of models, select **AI Builder** > **Models** on the left pane.
 

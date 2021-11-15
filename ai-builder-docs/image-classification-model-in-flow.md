@@ -16,7 +16,7 @@ contributors:
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-To use your image classification model in a Power Automate flow, you'll need to create a new model or edit an existing model. Then you can add the Power Fx `Prediction` formula to generate results that can help you solve a variety of business problems.
+To use your image classification model in a Power Automate flow, you'll need to create a new model or edit an existing model. Then you can add the Power Fx `Prediction` formula to generate results that can help you solve various business problems.
 
 > [!IMPORTANT]
 > - This is a preview feature.
