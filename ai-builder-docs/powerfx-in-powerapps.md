@@ -94,7 +94,7 @@ The canvas app in this language detection model example shows you the country co
     > [!div class="mx-imgBorder"]
     > ![Screenshot of the canvas apps labels.](media/powerfx-in-powerapps/unknown.png "Canvas apps labels")
 
-1. Select the **Text Input** label you added in step 3e and enter the following Power Fx formula:
+1. Select the text label you added in step 3e and enter the following Power Fx formula:
 
     ````powerapps-dot
     First('Language detection'.Predict(TextInput1.Text).results).language 
@@ -113,6 +113,7 @@ The canvas app in this language detection model example shows you the country co
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of trying out the app you created.](media/powerfx-in-powerapps/bonjour-output.png "Try out the app you created")
+
 1. Try out your app again by typing **guten tag**. Notice the country code for Germany (**de**) appears above the textbox.
 
 > [!NOTE]
