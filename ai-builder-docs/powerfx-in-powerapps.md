@@ -107,12 +107,12 @@ The canvas app in this language detection model example shows you the country co
 1. Try out your app by selecting the **Preview the app** icon in the upper-right corner.
 
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of how to open your model.](media/powerfx-in-powerapps/preview-app.png "Open your model")
+    > ![Screenshot of how to preview your app.](media/powerfx-in-powerapps/preview-app.png "Preview your app")
 
 1. In the textbox, type **bonjour**. Notice that the country code for France (**fr**) appears below the textbox.
 
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of trying out the app you created.](media/powerfx-in-powerapps/bonjour-output.png "Try out the app you created")
+    > ![Screenshot of how to try out the app you created.](media/powerfx-in-powerapps/bonjour-output.png "Try out the app you created")
 
 1. Try out your app again by typing **guten tag**. Notice the country code for Germany (**de**) appears below the textbox.
 
