@@ -117,11 +117,11 @@ AI Builder cannot be used if its actions have been deactivated. To activate them
 ## AI models fail to be imported in a new environment
 If your AI models are in error state after importing them in a new environment, here is a sequence of actions you can try to resolve the issue:
 - Uninstall the solution containing the model(s).
-- Wait around 10 minutes.
+- If your solution is unmanaged, delete manually the models in the AI Builder model page.
 - Re-install the solution containing the model(s).
 - Wait for the end of the "Importing" state for each model.
 
-If one of the imported models is still in error, retry the sequence of actions. If the problem persists (no new model gets fixed by this sequence), contact the support team.
+If the problem persists (no new model gets fixed by this sequence), contact the support team.
 
 ### See also
 
