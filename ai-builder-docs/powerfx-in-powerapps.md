@@ -26,15 +26,15 @@ Power Fx AI integration is a new approach that lets you reference AI models in a
 
 To use Power Fx in AI Builder models, you must have:
 
-- Access to a [Dataverse environment with a database](/power-platform/admin/create-environment#create-an-environment-with-a-database).
+- Access to a [Dataverse environment with a database](/power-platform/admin/create-environment#create-an-environment-with-a-database)
 
-- AI Builder license (trial or paid).
+- AI Builder license (trial or paid)
 
-- (For non-preview models) Starter or purchased AI credits.
+- Starter or purchased AI credits (for non-preview models) 
 
 ## Enable the Power Fx feature
 
-The Power Fx feature is enabled by default in Microsoft Power Apps. If it's been disabled and you want to enable it again, you can do this in canvas apps.
+The Power Fx feature is enabled by default in Microsoft Power Apps. If it's been disabled and you want to enable it again, you can do this from the canvas apps creation page.
 
 1. Sign in to [Power Apps](https://make.powerapps.com).
 
@@ -54,10 +54,10 @@ The Power Fx feature is enabled by default in Microsoft Power Apps. If it's been
 
 1. Select **Upcoming features** > **Preview**.
 
-1. Enable the **All data models as sources** feature by scrolling to the end  and selecting **On**.
+1. Enable the **AI models as data sources** feature by scrolling to the end  and selecting **On**.
 
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of Upcoming features enabled.](media/powerfx-in-powerapps/data-sources.png "Upcoming features enabled")
+    > ![Screenshot of AI models as data sources enabled.](media/powerfx-in-powerapps/data-sources.png "Enable AI models as data sources")
 
 ## Select a model in canvas apps
 
@@ -67,7 +67,7 @@ For a list of AI Builder models you can consume, go to [AI models and business s
 
 1. Create an app by following steps 1 through 4 in [Enable the Power Fx feature](#enable-the-power-fx-feature).
 
-1. Select **Data tab** > **Add data** > **AI Models**.
+1. Select **Data tab** > **Add data** > **AI models**.
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of how to select your model.](media/powerfx-in-powerapps/add-model.png "Select your model")
@@ -78,7 +78,7 @@ For a list of AI Builder models you can consume, go to [AI models and business s
 
 ## Use a model in controls
 
-The canvas app in this language detection model example shows you the country code for the language of the text you type.
+In this example of a language detection model, the canvas app shows you the country code for the language of the text you type.
 
 1. Create a canvas app by following steps 1 and 2 in the previous section, [Select a model in canvas apps](#select-a-model-in-canvas-apps).
 
@@ -127,24 +127,24 @@ This section provides inputs and outputs for custom and prebuilt models by model
 
 |Model type  |Input  | Output
 |---------|---------|---------|
-|Category classification | Language code, text. | `results` Results is a table where each element has a type and a score. |
-|Entity Extraction |Language code, text. | `entities` Entities is a table where each element has a type, score, startIdx, length, and value (string represented from startIdx to startIdx+length). |
-|Form processing |Document type (mime type string), Document (base64 encoded string). | 4 properties. `layoutName` (string), `layoutConfidenceScore` (number), `labels` (record containing the fields that can be identified in the form), and `tables` (record containing tables identified in the form). |
-|Object detection |Image encoded as base64. | `results` Results is a table with the different objects found in the picture. Each has a `boundingBox`, `confidence` value, and `tagId`. |
+|Category classification | Language code, text. | `results` A table where each element has a type and a score. |
+|Entity extraction |Language code, text. | `entities` A table where each element has a type, score, startIdx, length, and value (string represented from startIdx to startIdx+length). |
+|Form processing |Document type (mime type string), document (base64 encoded string). | Four properties. `layoutName` (string), `layoutConfidenceScore` (number), `labels` (record containing the fields that can be identified in the form), and `tables` (record containing tables identified in the form). |
+|Object detection |Image encoded as base64. | `results` A table with the different objects found in the picture. Each has a `boundingBox`, `confidence` value, and `tagId`. |
 |Prediction | Properties defined when creating the model. Canvas receives these properties as a record. | A record with `Explanation`, `Likelihood`, and `Prediction` as properties. |
 
 ### Prebuilt models
 
 |Model type  |Input  | Output
 |---------|---------|---------|
-| Business card reader | Image type (mime type), image encoded as base64. | `contact` Contact contains all possible fields that can be identified by the model, and `contactFields` (table that contains all identified fields in the input image, with `value`, `boundingBox`, `name`, and `parentName`). |
-| Identity document reader | Image encoded as base64. | `result` Result is a record that contains a fields property, which holds all possible fields from the model. Each field has value, location, and confidence information.  |
-| Invoice processing | Image encoded as base64. | `result` Result is a record that contains the fields and items properties, where `fields` is a record with all possible fields, and `items` is a table with identified items from the invoice.  |
-| Key phrase extraction | Language code, text. | `results` Results is a table of records, which have a single property called `phrase`, which is the extracted key phrase. |
-|Language detection  | text |  `results` Results is a table where each element has a language and a score. |
-| Receipt processing | Image encoded as base64. | `result` Result is a record that contains the fields and items properties, where `fields` is a record with all possible fields, and `items` is a table with identified items from the invoice.  |
-| Sentiment analysis | Language code, text. | `result` Result is a record that contains `sentiment`, `documentScores`, and `sentences` properties. `sentiment` has the overall sentiment of the whole text input, `documentScores` are the computed "confidences" of each possible sentiment (positive, neutral, negative), and `sentences` is a table with the same results but at a sentence level. |
-| Text recognition | Image encoded as base64. | `results` Results is a table where each element has a lines table (with text and bounding box information). |
+| Business card reader | Image type (mime type), image encoded as base64. | `contact` Contains all possible fields that can be identified by the model, and `contactFields` (table that contains all identified fields in the input image, with `value`, `boundingBox`, `name`, and `parentName`). |
+| Identity document reader | Image encoded as base64. | `result` A record that contains a fields property, which holds all possible fields from the model. Each field has value, location, and confidence information.  |
+| Invoice processing | Image encoded as base64. | `result` A record that contains the fields and items properties, where `fields` is a record with all possible fields, and `items` is a table with identified items from the invoice.  |
+| Key phrase extraction | Language code, text. | `results` A table of records that have a single property called `phrase`, which is the extracted key phrase. |
+|Language detection  | Text |  `results` Results is a table where each element has a language and a score. |
+| Receipt processing | Image encoded as base64. | `result` A record that contains the fields and items properties, where `fields` is a record with all possible fields, and `items` is a table with identified items from the invoice.  |
+| Sentiment analysis | Language code, text. | `result` A record that contains `sentiment`, `documentScores`, and `sentences` properties. `sentiment` has the overall sentiment of the whole text input, `documentScores` are the computed "confidences" of each possible sentiment (positive, neutral, negative), and `sentences` is a table with the same results but at the sentence level. |
+| Text recognition | Image encoded as base64. | `results` A table where each element has a lines table (with text and bounding box information). |
 | Text translation | Language code for `translateTo`, language code for `translateFrom`, text | Text property (which contains translated input). | 
 
 ## Input/output examples
@@ -159,9 +159,9 @@ To return the most likely language country code:
 
 |Input  |Output  |
 |---------|---------|
-|`First('Language detection'.Predict("Bonjour").results).language`  | **fr** (country code for French)       |
+|`First('Language detection'.Predict("Bonjour").results).language`  | **fr** (country code for France)       |
 
-To save time and resources, save the result of a model call so that you can use it in multiple places. You can save an output into a global variable (for example,  *lang*). If you do this, you can use *lang* elsewhere in your app, for example, to show the identified language and its confidence score in two different labels.
+To save time and resources, save the result of a model call so you can use it in multiple places. You can save an output into a global variable (for example,  *lang*). If you do this, you can use *lang* elsewhere in your app to show the identified language and its confidence score in two different labels.
 
 |Input  |Output  |
 |---------|---------|
