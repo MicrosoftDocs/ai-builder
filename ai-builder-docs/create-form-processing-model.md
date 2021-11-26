@@ -59,6 +59,9 @@ For each collection that you create, you need to upload at least five sample doc
    > [!div class="mx-imgBorder"]
    > !['Select documents to upload' animation.](media/form-processing-multiple-layout-add-documents.gif "Upload documents")
 
+ > [!NOTE]
+ > You can create up to 200 collections per model.
+
 ## Tag documents
 
 By tagging the documents you've uploaded, you're teaching your AI Builder model to extract the fields and tables you've specified.
