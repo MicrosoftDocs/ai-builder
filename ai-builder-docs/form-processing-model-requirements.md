@@ -26,6 +26,7 @@ Form processing works on input documents that meet the following requirements:
 - For images, dimensions must be between 50 &times; 50 and 10,000 &times; 10,000 pixels.
 - For PDF files, dimensions must be at most 17 x 17 inches, corresponding to Legal or A3 paper sizes and smaller.
 - If scanned from paper documents, scans should be high-quality images.
+- You can create up to 200 collections per model.
 
  > [!NOTE]
  > AI Builder doesn't currently support signatures as a type of form processing input data.

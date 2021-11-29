@@ -1,6 +1,6 @@
 ---
-title: Overview of image classification by Lobe (preview) - AI Builder | Microsoft Docs
-description: Provides an overview of how you can use image classification models by Lobe in AI Builder to add intelligence to your apps.
+title: Overview of image classification model by Lobe (preview) - AI Builder | Microsoft Docs
+description: With Lobe, you can use image classification models in AI Builder to categorize images and add intelligence to your apps.
 author: mbeissinger
 ms.service: aibuilder
 ms.topic: conceptual
@@ -12,18 +12,18 @@ contributors:
     - v-aangie
 ---
 
-# Overview of  image classification by Lobe (preview)
+# Overview of image classification model by Lobe (preview)
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-Lobe is a free, easy-to-use Microsoft desktop application that allows you to build, manage, and use custom machine learning models. With Lobe, you can create an image classification model to categorize images into *labels* that represent their content. You can directly upload Lobe models to AI Builder for use with Microsoft Power Apps and Microsoft Power Automate.
+Lobe is a free, easy-to-use Microsoft desktop application that allows you to build, manage, and use custom machine learning models. With Lobe, you can create an image classification model to categorize images into *labels* that represent their content. You can directly upload Lobe models to AI Builder for use with Microsoft Power Apps and Power Automate.
 
 > [!IMPORTANT]
 > - This is a preview feature.
 > - [!INCLUDE[cc_preview_features_definition](includes/cc-preview-features-definition.md)]
 > - This feature is being gradually rolled out across regions and might not be available yet in your region.
 
-Here's a summary of preparing a model in Lobe:
+Here's a summary of how to prepare a model in Lobe:
 
 - Import and label images.
 
@@ -35,11 +35,11 @@ Here's a summary of preparing a model in Lobe:
 
 - Export and use your model in an app.
 
-If you're familiar with the AI Builder [object detection](object-detection-overview.md) custom object detection model, you're already familiar with Lobe.
+If you've previously used the AI Builder [custom object detection model](object-detection-overview.md), you're already familiar with Lobe.
 
 ## Business scenarios
 
-Here are some examples of how Lobe can take your machine learning ideas to production with Power Apps and Power Automate:
+Below are some examples of how Lobe can take your machine learning ideas to production with Power Apps and Power Automate:
 
 - Identify defects in a manufacturing line.
 
@@ -57,9 +57,9 @@ Here are some examples of how Lobe can take your machine learning ideas to produ
 
 ## What is image classification?
 
-Image classification is categorizing an image into a label to represent its content overall. Image classification models learn to find patterns such as textures, colors, and shapes from your images. These patterns can then be used to identify your labels.
+Image classification is the categorization of images into labels that represent their content overall. Image classification models learn to find patterns such as textures, colors, and shapes from your images. These patterns can then be used to identify your labels.
 
-For example, a project named *Contoso Insurance Claims* might have labels named *Dent*, *Scratch* and *Broken Glass* to indicate types of damage to vehicles. A claims adjuster might use these images determine the insurance company's liability.
+For example, a project named *Contoso Insurance Claims* might have labels named *Dent*, *Scratch*, and *Broken Glass* to indicate types of damage to vehicles. A claims adjuster might use these images to determine the insurance company's liability.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a car dent image in the vehicle label.](media/lobe-overview/dent.png "Car dent image in the vehicle label")
@@ -81,32 +81,31 @@ If your region doesn't have access yet to the new AI Builder home page experienc
 
 ## Use image classification by Lobe
 
-1. Create a new project by selecting **New Project** > **Import**.
+1. Within Lobe, create a new project by selecting **New Project** > **Import**.
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of Lobe import screen.](media/lobe-overview/lobe-splash.png "Lobe import screen")
 
 1. Import and label your images, and train the classification model. To learn how to do this, go to the [Lobe Help site](https://www.lobe.ai/docs/welcome/welcome).
 
-1. (Optional) Watch a video of image classification by Lobe on the [Lobe home page](https://www.lobe.ai/).
+1. (Optional) Tour Lobe and better understand image classification by watching the video on the [Lobe home page](https://www.lobe.ai/).
 
 ### Consider image quantity and object balance
 
-You'll want to upload enough images to train your model accurately. You'll also want to make sure there are enough images to represent each object.
-This will increase consistency when training your model.
+You'll want to upload enough images to train your model accurately, and make sure there are enough images to represent each object. This will increase consistency when training your model.
 
 For tips on choosing enough images, go to [Data quantity and data balance](collect-images.md#data-quantity-and-data-balance).
 
 ### Adjust your model architecture
 
-Lobe determines the best model architecture for your project, but you have the option to change it. Changing your project will reset any training completed and automatically train a new model.
+Lobe determines the best model architecture for your project, but you have the option to change it. Changing your project will reset any training that's been completed and automatically train a new model.
 
-Following are recommendations for Power Platform users:
+The following are recommendations for Microsoft Power Platform users:
 
 - **Speed:** Use this setting as default for apps or flows that require quick response times.
 
-- **Accuracy:** Use this setting for apps or flows that batch jobs or slower processing requirements.
+- **Accuracy:** Use this setting for apps or flows that batch jobs or have slower processing requirements.
 
 ## Next step
 
-[Export your image classification model from Lobe to AI Builder (preview)](lobe-export.md)
+[Export image classification model from Lobe to AI Builder (preview)](lobe-export.md)
