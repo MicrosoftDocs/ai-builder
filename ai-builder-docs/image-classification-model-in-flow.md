@@ -1,6 +1,6 @@
 ---
-title: Use an image classification model by Lobe in Power Automate (preview) - AI Builder | Microsoft Docs
-description: Provides information about how to use an image classification model by Lobe in AI Builder.
+title: Use image classification model by Lobe in Power Automate (preview) - AI Builder | Microsoft Docs
+description: Learn how to use the image classification model from Lobe to predict labels and categorize images in Power Automate.
 author: mbeissinger
 ms.service: aibuilder
 ms.topic: conceptual
@@ -16,7 +16,7 @@ contributors:
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-To use your image classification model in a Power Automate flow, you'll need to create a new model or edit an existing model. Then you can add the Power Fx `Prediction` formula to generate results that can help you solve various business problems.
+To use your image classification model in a Power Automate flow, you'll need to create a new model or edit an existing one. Then you can add the Power Fx `Prediction` formula to generate results that can help you solve a variety of business problems.
 
 > [!IMPORTANT]
 > - This is a preview feature.
@@ -25,7 +25,7 @@ To use your image classification model in a Power Automate flow, you'll need to 
 
 ## Create a flow in Power Automate
 
-This section describes how to create a flow in your image classification model. If you are editing an existing flow type with images, go to [Add the Power Fx Prediction formula](#add-the-power-fx-prediction-formula).
+Create a flow in your image classification model. (If you're editing an existing flow type with images, skip this section and go to [Add the Power Fx Prediction formula](#add-the-power-fx-prediction-formula).
 
 1. Sign in to [Power Automate](https://flow.microsoft.com/).
 
@@ -36,18 +36,18 @@ This section describes how to create a flow in your image classification model. 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of the creating a new flow.](media/image-classification-model-in-flow/new-flow.png "Create a new flow")
 
-1. Name your flow, select how to trigger your flow under **Choose how to trigger this flow**, and then select **Create**.
+1. Name your flow, select how you want to trigger your flow under **Choose how to trigger this flow**, and then select **Create**.
 
 ## Add the Power Fx Prediction formula
 
-1. Select **+New step**, and then type **predict** on the **Choose your operation** search bar.
+1. From the flow, select **+New step**, and then type **Predict** on the **Choose an operation** search bar.
 
 1. Select **Predict AI Builder**.
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of the Choose an operation screen.](media/image-classification-model-in-flow/operation.png "Choose an operation")
 
-1. In the **Model** field, choose the model you exported from the dropdown.
+1. From the **Model** field dropdown, choose the model you exported.
 
 1. Select the image content from your flow to predict the labels and confidences.
 
@@ -58,21 +58,21 @@ This section describes how to create a flow in your image classification model. 
 
 A flow that uses a classification model can help you solve a variety of business problems.
 
-The output of your flow contains *prediction* and *label*. A prediction is the predicted label of the input image from your model (text). Labels is the list of *labels* (text) and *confidence* (number) for each label you have. This shows the model’s resulting confidence for each label on the image. You'll need to loop this output to process the individual labels and confidences.
+The output of your flow contains *prediction* and *labels*. A *prediction* is the predicted label (text) of the input image from your model. *Labels* is the list of labels (text) and the model's confidence (number) for each label on the image. You'll need to loop this output to process the individual labels and confidences.
 
 When you use the *prediction* output, you can:
 
-- Arrange images into folders by label.
+- Arrange images into folders by label
 
-- Create an Excel spreadsheet to send out as a report.
+- Create an Excel spreadsheet to send out as a report
 
-- Apply filtering.
+- Apply filtering
 
 When you use the *labels* output, you can:
 
-- Determine actions of images with certain confidence scores.
+- Determine actions of images with certain confidence scores
 
-- Send alerts based on confidence scores. For example, you might want to send an alert if scores are above 90 percent and a different alert if they are below 90 percent.
+- Send alerts based on confidence scores (for example, different alerts for when scores are above or below 90 percent)
 
-- Send an email with various images.
+- Send an email with various images
 
