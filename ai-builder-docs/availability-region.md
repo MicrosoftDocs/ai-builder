@@ -5,7 +5,7 @@ author: JoeFernandezMS
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 11/15/2021
+ms.date: 02/12/2021
 ms.author: jofernan
 ms.reviewer: v-aangie
 ---
@@ -64,9 +64,9 @@ AI Builder is available in US Government environments with the features listed i
 ### Custom models
 |Feature |Government Community Cloud (GCC) |Government Community Cloud – High (GCC High) |Department of Defense (DoD) |
 |:-------|:-------:|:-------:|:-------:|
-|Prediction|-|-|-|
-|Category classification|-|-|-|
-|Entity extraction|-|-|-|
+|Prediction|GA|GA|-|
+|Category classification|GA|GA|-|
+|Entity extraction|GA|GA|-|
 |Object detection|GA|GA|-|
 |Form processing |GA|GA|-|
 |Image classification | - | - | - |
@@ -75,8 +75,8 @@ AI Builder is available in US Government environments with the features listed i
 |Feature |Government Community Cloud (GCC) |Government Community Cloud – High (GCC High) |Department of Defense (DoD) |
 |:-------|:-------:|:-------:|:-------:|
 |Business card reader    |-|-|-|
-|Category classification |-|-|-|
-|Entity extraction |-|-|-|
+|Category classification |Preview|Preview|-|
+|Entity extraction |GA|GA|-|
 |Identity document reader |GA|GA|-|
 |Invoice processing |GA|GA|-|
 |Key phrase extraction |GA|GA|-|
