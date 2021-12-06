@@ -31,7 +31,7 @@ First, you have to purchase AI Builder capacity add-on for your Power Apps or Po
 
 ### Purchase AI Builder capacity
 
-The  AI Builder capacity add-on can be purchased by a billing administrator in the Microsoft Power Platform admin center, or by using your usual channel.
+The  AI Builder capacity add-on can be purchased by a billing administrator in the Microsoft 365 admin center, or by using your usual channel.
 
 The <a href="https://powerapps.microsoft.com/ai-builder-calculator/" target="_blank">AI Builder calculator</a> helps estimate the required add-on capacity based on your estimated consumption.
 
