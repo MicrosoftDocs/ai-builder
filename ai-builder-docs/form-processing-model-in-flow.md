@@ -14,7 +14,7 @@ ms.reviewer: v-aangie
 
 1. Sign in to [Power Automate](https://flow.microsoft.com/).
 
-1. Select **My flows** in theF left pane, and then select **New flow** > **Instant cloud flow**.
+1. Select **My flows** in the left pane, and then select **New flow** > **Instant cloud flow**.
 
 1. Name your flow, select **Manually trigger a flow** under **Choose how to trigger this flow**, and then select **Create**.
 
