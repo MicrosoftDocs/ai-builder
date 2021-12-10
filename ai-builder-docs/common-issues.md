@@ -55,7 +55,11 @@ If this error occurs, decrease the concurrency level of your flow. For example, 
    
 ## Dependency Timeout error when using a form processing model in Power Automate
 
-If you get a **Dependency Timeout error (_408 – DependencyTimeout_)** when executing a form processing model in Power Automate, the file you're trying to process might be too large in number of pages or file size. If the file has multiple pages, reduce the document to just the pages you need to process, or reduce the size of the file. 
+If you get a **Dependency Timeout error (_408 – DependencyTimeout_)** when executing a form processing model in Power Automate, the file you're trying to process might be too large in number of pages or file size. There are a few actions that can be done to improve this:
+-	If the file has multiple pages, reduce the document to just the pages you need to process. You can use the **Page range** input in Power Automate to only process the pages you need. [Use page range in Power Automate](./form-processing-model-in-flow.md#page-range)
+-	Reduce the size of the file.
+-	Retry after some time. You can configure in the flow an automatic retry after failure loop. Ensure to leave a certain time delay interval between each execution after a failure. 
+
 
 ## Upload fails for documents and images in form processing, object detection models
 
