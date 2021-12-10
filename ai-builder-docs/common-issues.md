@@ -123,6 +123,9 @@ If your AI models are in error state after importing them in a new environment, 
 
 If the problem persists (no new model gets fixed by this sequence), contact the support team.
 
+## AI Builder form processing is not extracting tables than span across multiple pages
+Support for extracting tables than span across multiple pages is currently experimental. Experimental features aren't meant for production usage and have restricted functionality; therefore, we cannot provide support for experimental features. Please see the [latest guidance with regards to multipage tables support in AI Builder today](./form-processing-multipage.md)
+
 ### See also
 
 - [Get support for AI Builder](support.md)
