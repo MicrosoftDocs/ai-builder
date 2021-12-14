@@ -18,8 +18,7 @@ Here are some issues that have been found in AI Builder. Where applicable, worka
 
 AI Builder might not work in some environments created before the release of AI Builder. To work around this issue, [create a new environment](/power-platform/admin/create-environment). If you need to use a particular environment, [contact support](/power-platform/admin/get-help-support) for more options.
 
-## AI Builder gets 
-ors trying to read data from your Microsoft Dataverse table
+## AI Builder gets errors trying to read data from your Microsoft Dataverse table
 
 Go to the data preparation section for your AI model type. Make sure your Dataverse environment is configured correctly so that your model can access it.
 
