@@ -18,7 +18,8 @@ Here are some issues that have been found in AI Builder. Where applicable, worka
 
 AI Builder might not work in some environments created before the release of AI Builder. To work around this issue, [create a new environment](/power-platform/admin/create-environment). If you need to use a particular environment, [contact support](/power-platform/admin/get-help-support) for more options.
 
-## AI Builder gets errors trying to read data from your Microsoft Dataverse table
+## AI Builder gets 
+ors trying to read data from your Microsoft Dataverse table
 
 Go to the data preparation section for your AI model type. Make sure your Dataverse environment is configured correctly so that your model can access it.
 
@@ -46,7 +47,7 @@ The training document might not appear if:
 
 ## Too Many Requests error in Power Automate
 
-If you perform too many executions in a short timeframe on a given model, you might receive this erroe message: **error: _429 – TooManyRequests_**.
+If you perform too many executions in a short timeframe on a given model, you might receive this error message: **error: _429 – TooManyRequests_**.
 
 If this error occurs, decrease the concurrency level of your flow. For example, if your flow is triggered by the action "When a file is created in a folder" when using the SharePoint trigger, you can reduce the degree of parallelism in the action settings.
 
@@ -122,13 +123,13 @@ AI Builder can't be used if its actions have been deactivated. To activate them,
 If your AI models are in error state after importing them in a new environment, here is a sequence of actions you can try to resolve the issue:
 - Uninstall the solution containing the model(s).
 - If your solution is unmanaged, manually delete the models in the AI Builder model page.
-- Re-install the solution containing the model(s).
+- Reinstall the solution containing the model(s).
 - Wait for the end of the "Importing" state for each model.
 
 If the problem persists (no new model gets fixed by this sequence), contact the support team.
 
 ## AI Builder form processing is not extracting tables that span across multiple pages
-Support for extracting tables that span across multiple pages is currently experimental. Experimental features aren't meant for production usage and have restricted functionality; therefore, we can't provide support for experimental features. To learn more, go to the [latest guidance with regard to multipage tables support in AI Builder today](./form-processing-multipage.md).
+Support for extracting tables that span across multiple pages is currently experimental. Experimental features aren't meant for production usage and have restricted functionality; therefore, we can't provide support for experimental features. To learn more, go to the [latest guidance regarding multipage tables support in AI Builder today](./form-processing-multipage.md).
 
 ### See also
 
