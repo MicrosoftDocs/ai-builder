@@ -1,6 +1,6 @@
 ---
 title:  Common issues and resolutions for AI Builder - AI Builder | Microsoft Docs
-description: Provides a list of common issues that have been seen AI Builder, and potential workarounds where applicable.
+description: Provides a list of common issues in AI Builder, and their potential workarounds.
 author: paulnog
 ms.service: aibuilder
 ms.topic: conceptual
@@ -12,7 +12,7 @@ ms.reviewer: v-aangie
 
 # Common issues and resolutions for AI Builder
 
-Here are some issues that have been seen in AI Builder. Where applicable, workarounds are provided.
+Here are some issues that have been found in AI Builder. Where applicable, workarounds are provided.
 
 ## AI Builder isn't set up correctly in your environment
 
@@ -20,7 +20,7 @@ AI Builder might not work in some environments created before the release of AI 
 
 ## AI Builder gets errors trying to read data from your Microsoft Dataverse table
 
-See the data preparation section for your AI model type. Make sure your Dataverse environment is configured correctly so that your model can access it.
+Go to the data preparation section for your AI model type. Make sure your Dataverse environment is configured correctly so that your model can access it.
 
 ## AI Builder business card reader doesn't work for some users
 
@@ -46,7 +46,7 @@ The training document might not appear if:
 
 ## Too Many Requests error in Power Automate
 
-If you perform too many executions in a short timeframe on a given model you might see **error: _429 – TooManyRequests_**.
+If you perform too many executions in a short timeframe on a given model, you might receive this error message: **error: _429 – TooManyRequests_**.
 
 If this error occurs, decrease the concurrency level of your flow. For example, if your flow is triggered by the action "When a file is created in a folder" when using the SharePoint trigger, you can reduce the degree of parallelism in the action settings.
 
@@ -55,7 +55,11 @@ If this error occurs, decrease the concurrency level of your flow. For example, 
    
 ## Dependency Timeout error when using a form processing model in Power Automate
 
-If you get a **Dependency Timeout error (_408 – DependencyTimeout_)** when executing a form processing model in Power Automate, the file you're trying to process might be too large in number of pages or file size. If the file has multiple pages, reduce the document to just the pages you need to process, or reduce the size of the file. 
+If you get a **Dependency Timeout error (_408 – DependencyTimeout_)** when executing a form processing model in Power Automate, the file you're trying to process might be too large in number of pages or file size. There are a few actions that can be done to improve this:
+-	If the file has multiple pages, reduce the document to just the pages you need to process. You can use the **Page range** input in Power Automate to only process the pages you need. For more information, go to [page range](./form-processing-model-in-flow.md#page-range) in Power Automate.
+-	Reduce the size of the file.
+-	Retry after some time. You can configure in the flow an automatic retry after failure loop. Ensure to leave a certain time delay interval between each execution after a failure. 
+
 
 ## Upload fails for documents and images in form processing, object detection models
 
@@ -70,10 +74,10 @@ If you get the error message **_“The analysis failed for these documents”_**
 ## Fields could not be loaded for this document error in form processing 
 
 If you get the error message **_“Fields could not be loaded for this document”_** while you are creating your Form processing model, this can be caused by:
-* A temporary error, like poor internet connectivity. You can try again by clicking the **Retry** button.
+* A temporary error, like poor internet connectivity. You can try again by selecting the **Retry** button.
 * The document you are trying to select fields from is too large. If it’s a PDF with multiple pages, split the PDF documents with only the pages you need the model to recognize and upload the reduced document that has been split instead. If it’s an image, reduce its dimensions and upload it to your model to replace the previous image uploaded. 
 
-## Training failed and the model cannot be used error in form processing
+## Training failed and the model can't be used error in form processing
 
 If you get the error message **_“Training failed and the model cannot be used”_** error in form processing after you have trained your form processing model, this can be caused by:
 
@@ -93,7 +97,7 @@ Alternatively, you can [create a new Power Platform environment with a database]
 
 ## AI Builder actions are disabled/deactivated
 
-AI Builder cannot be used if its actions have been deactivated. To activate them, the administrator of the environment needs to perform the following steps:
+AI Builder can't be used if its actions have been deactivated. To activate them, the administrator of the environment needs to perform the following steps:
 
 1.	Sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
 2.	Select the environment where the actions are deactivated and select **Settings** > **Resources** > **All legacy settings**.
@@ -118,10 +122,13 @@ AI Builder cannot be used if its actions have been deactivated. To activate them
 If your AI models are in error state after importing them in a new environment, here is a sequence of actions you can try to resolve the issue:
 - Uninstall the solution containing the model(s).
 - If your solution is unmanaged, manually delete the models in the AI Builder model page.
-- Re-install the solution containing the model(s).
+- Reinstall the solution containing the model(s).
 - Wait for the end of the "Importing" state for each model.
 
 If the problem persists (no new model gets fixed by this sequence), contact the support team.
+
+## AI Builder form processing is not extracting tables that span across multiple pages
+Support for extracting tables that span across multiple pages is currently experimental. Experimental features aren't meant for production usage and have restricted functionality; therefore, we can't provide support for experimental features. To learn more, go to the [latest guidance regarding multipage tables support in AI Builder today](./form-processing-multipage.md).
 
 ### See also
 
