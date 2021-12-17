@@ -16,6 +16,8 @@ ms.reviewer: v-aangie
 
 > [!IMPORTANT]
 > - This is an experimental feature. Experimental features aren't meant for production use and might have restricted functionality. These features are available before moving up to the preview stage so that early adopter customers can try out something useful or help test the feature.
+>
+> - This experimental feature is not supported by Microsoft Support.
 > 
 > - For more information about experimental features and how to enable them, go to [Understand experimental, preview, and retired features in Power Apps](/powerapps/maker/canvas-apps/working-with-experimental-preview).
 
