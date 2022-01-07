@@ -84,7 +84,7 @@ We're changing the look of the home page to improve your experience for discover
 
 The new experience enables you to:
 
-- Save time by by finding a solution for your business need in the area you're focused on: documents, text, structured data, or images.
+- Save time by finding a solution for your business need in the area you're focused on: documents, text, structured data, or images.
 
 - Get a brief description of what each solution does when you select it in your area.
 
