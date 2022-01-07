@@ -5,7 +5,7 @@ author: paulnog
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom:
-ms.date: 10/19/2021
+ms.date: 1/7/2022
 ms.author: paulnog
 ms.reviewer: v-aangie
 ---
@@ -77,14 +77,14 @@ Take a photo of text and save it to a database |Text recognition
 
 ## New home page for AI Builder
 
-We're changing the look of the home page to improve your experience for discovering how AI Builder can help you and your company. We are rolling out the new experience to a random set of users starting October 2021. It will eventually be available to all users by the end of calendar year 2021.
+We're changing the look of the home page to improve your experience for discovering how AI Builder can help you and your company. We are rolling out the new experience to a random set of users starting October 2021. It will eventually be available to all users in the first quarter of 2022.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Explore AI Builder home page.](media/ai-builder-home-explore.png "Explore AI Builder home page")
 
 The new experience enables you to:
 
-- Save time by by finding a solution for your business need in the area you're focused on: documents, text, structured data, or images.
+- Save time by finding a solution for your business need in the area you're focused on: documents, text, structured data, or images.
 
 - Get a brief description of what each solution does when you select it in your area.
 
