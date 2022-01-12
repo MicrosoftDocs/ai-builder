@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.custom: intro-internal
 ms.date: 11/08/2021
 ms.author: billba
-ms.reviewer: v-aangie
+ms.reviewer: tapanm
 ---
 
 # Use Power Fx in AI Builder models in Power Apps (preview)
