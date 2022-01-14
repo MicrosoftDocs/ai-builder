@@ -67,7 +67,7 @@ What you get with an AI Builder trial license:
    >![Screenshot of Create my database.](media/administer-licensing/create-db.png "Create my database")
 
 1. Refresh the build page.
-1. At the top of the screen, select the **Start free trial** banner.
+1. At the top of the screen, select **Start free trial**.
 
    >[!div class="mx-imgBorder"]
    >![Screenshot of Start free trial.](media/administer-licensing/start-free-trial.png "Start free trial")
