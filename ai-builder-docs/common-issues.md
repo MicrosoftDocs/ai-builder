@@ -61,13 +61,13 @@ If you get a **Dependency Timeout error (_408 – DependencyTimeout_)** when exe
 -	Retry after some time. You can configure in the flow an automatic retry after failure loop. Ensure to leave a certain time delay interval between each execution after a failure. The following illustrations show an example on how to setup a retry logic in a cloud flow. Make sure you set the _'Configure run after'_ settings accordingly. 
 
    > [!div class="mx-imgBorder"]
-   > ![Retry logic in a Power Automate cloud flow.](media/retry-pattern-aib-1.png "Retry logic in a Power Automate cloud flow")
+   > ![Retry logic in a Power Automate cloud flow example 1.](media/retry-pattern-aib-1.png "Retry logic in a Power Automate cloud flow")
 
    > [!div class="mx-imgBorder"]
-   > ![Retry logic in a Power Automate cloud flow.](media/retry-pattern-aib-2.png "Retry logic in a Power Automate cloud flow")
+   > ![Retry logic in a Power Automate cloud flow example 2.](media/retry-pattern-aib-2.png "Retry logic in a Power Automate cloud flow")
 
    > [!div class="mx-imgBorder"]
-   > ![Retry logic in a Power Automate cloud flow.](media/retry-pattern-aib-3.png "Retry logic in a Power Automate cloud flow")
+   > ![Retry logic in a Power Automate cloud flow example 3.](media/retry-pattern-aib-3.png "Retry logic in a Power Automate cloud flow")
 
 
 ## Upload fails for documents and images in form processing, object detection models
