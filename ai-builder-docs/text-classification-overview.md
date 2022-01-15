@@ -4,8 +4,8 @@ description: Describes category classification models. Gives an overview of how 
 author: raaourik 
 
 ms.service: aibuilder
-ms.topic: conceptual
-ms.custom: intro-internal
+ms.topic: overview
+
 ms.date: 03/10/2020
 ms.author: raaourik 
 ms.reviewer: v-aangie

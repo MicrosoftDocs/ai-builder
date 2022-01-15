@@ -3,8 +3,8 @@ title: Overview of prebuilt AI models - AI Builder | Microsoft Docs
 description: Describes the prebuilt AI models that are available in AI Builder.
 author: paulnog
 ms.service: aibuilder
-ms.topic: conceptual
-ms.custom: intro-internal
+ms.topic: overview
+
 ms.date: 03/05/2021
 ms.author: paulnog
 ms.reviewer: v-aangie
