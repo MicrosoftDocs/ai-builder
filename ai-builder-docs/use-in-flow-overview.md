@@ -14,9 +14,8 @@ ms.reviewer: v-aangie
 
 Power Automate is a service that helps you create automated workflows between your favorite apps and services to synchronize files, get notifications, collect data, and more. More information: [Power Automate docs](/power-automate) 
 
-## ⚠ Before Adding AI Builder Actions to your Flows
-
-Make sure you do not disable the Asynchronous Pattern on Predict Actions. You might get empty results if you do.
+ > [!NOTE]
+ > For any AI Builder action in a cloud flow, please ensure you leave the default **Asynchronous Pattern** setting to On. This will ensure results from the AI models are returned properly.
 
 ## Prebuilt AI models you can use in Power Automate right away
 
