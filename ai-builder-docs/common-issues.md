@@ -127,6 +127,48 @@ AI Builder can't be used if its actions have been deactivated. To activate them,
     - PublishAIConfiguration
     - UnpublishAIConfiguration
 
+## AI Builder actions are disabled/deactivated in portal
+
+AI Builder can't be used if its Plug-in steps and Processes have been turned off.
+To turn them on, go to the organisation's portal, select 'Solutions' on the left list, 
+Then select 'Default Solution', click on the 3 dots, and select 'Edit'.
+
+On the left list, select 'Plug-in steps', and find all the ones starting with 'Microsoft.Dynamics.AI.Plugins', ensure they are turned on.
+Also check the status of 'PreValidate: AlmHandler'. (required for import/export).
+Those must show 'On' Status , (you can select the ones turned off and do a right click on the selection, then select 'Turn On')
+
+On the left list , select 'Processes'
+Select 'AlmHandler' and then turn it on.
+Select 'IsPaiEnabled' and then turn it on.
+
+Also all those processes are required for AI Builder, and should be turned on:
+
+AlmHandler
+AnalyzeSentiment
+BatchPrediction
+CancelTraining
+CategorizeText
+DetectLanguage
+ExtractKeyPhrases
+ExtractTextEntities
+GetJobStatus
+IsPaiEnabled
+Predict
+PredictByReference
+PredictionSchema
+PublishAIConfiguration
+QuickTest
+RecognizeText
+SchedulePrediction
+ScheduleRetrain
+ScheduleTraining
+Train
+UnpublishAIConfiguration
+UnschedulePrediction
+UnscheduleTraining
+ValidateAIConfiguration
+
+
 ## AI models fail to be imported in a new environment
 If your AI models are in error state after importing them in a new environment, here is a sequence of actions you can try to resolve the issue:
 - Uninstall the solution containing the model(s).
