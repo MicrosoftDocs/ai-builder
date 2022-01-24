@@ -152,7 +152,7 @@ Those must show 'On' Status (you can select the ones turned off and do a right c
 4. On the left list , select '**Processes**'
 5. Select 'AlmHandler' and then turn it on.
 6. Select 'IsPaiEnabled' and then turn it on.
-7. Additionally check all those processes which are required for AI Builder, and should be turned on:
+7. Additionally check all those processes which are required for AI Builder and should be turned on:
     - AlmHandler
     - AnalyzeSentiment
     - BatchPrediction
