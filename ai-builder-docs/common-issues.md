@@ -134,7 +134,9 @@ To turn them on, go to the organisation's portal, select 'Solutions' on the left
 Then select 'Default Solution', click on the 3 dots, and select 'Edit'.
 
 On the left list, select 'Plug-in steps', and find all the ones starting with 'Microsoft.Dynamics.AI.Plugins', ensure they are turned on.
-Also check the status of :
+
+Also check the status of:
+
     - 'PreValidate: AlmHandler'. (required for import/export).
     - 'PreValidate: isPaiEnabled'. 
     - 'ValidateAIConfiguration'
