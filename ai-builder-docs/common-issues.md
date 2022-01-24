@@ -147,7 +147,7 @@ AI Builder can't be used if its Plug-in steps and Processes have been turned off
     - 'PostOperation: UnscheduleTraining'
     - all the Microsoft.Dynamics.AI.Plugins
     
-Those must show 'On' Status, (you can select the ones turned off and do a right click on the selection, then select 'Turn On').
+Those must show 'On' Status (you can select the ones turned off and do a right click on the selection, then select 'Turn On').
 
 4. On the left list , select '**Processes**'
 5. Select 'AlmHandler' and then turn it on.
