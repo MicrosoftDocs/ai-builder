@@ -127,15 +127,15 @@ AI Builder can't be used if its actions have been deactivated. To activate them,
     - PublishAIConfiguration
     - UnpublishAIConfiguration
 
-## AI Builder Processes and Plug-in step are turned off in default solution
+## AI Builder Processes and Plug-in steps are turned off in default solution
 
 AI Builder can't be used if its Plug-in steps and Processes have been turned off.
 To turn them on, go to the organisation's portal, select 'Solutions' on the left list, 
 Then select 'Default Solution', click on the 3 dots, and select 'Edit'.
 
-On the left list, select 'Plug-in steps', and find all the ones starting with 'Microsoft.Dynamics.AI.Plugins', ensure they are turned on.
+On the left list, select '**Plug-in steps**', and find all the ones starting with 'Microsoft.Dynamics.AI.Plugins', ensure they are turned on.
 
-Also check the status of:
+Also check the status of those plug-in steps:
 
     - 'PreValidate: AlmHandler'. (required for import/export).
     - 'PreValidate: isPaiEnabled'. 
@@ -148,10 +148,11 @@ Also check the status of:
     - 'PostOperation: Train'
     - 'PostOperation: UnpublishAIConfiguration'
     - 'PostOperation: UnscheduleTraining'
+    - all the Microsoft.Dynamics.AI.Plugins
     
-Those must show 'On' Status , (you can select the ones turned off and do a right click on the selection, then select 'Turn On')
+Those must show 'On' Status, (you can select the ones turned off and do a right click on the selection, then select 'Turn On').
 
-On the left list , select 'Processes'
+On the left list , select '**Processes**'
 Select 'AlmHandler' and then turn it on.
 Select 'IsPaiEnabled' and then turn it on.
 
