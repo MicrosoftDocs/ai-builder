@@ -130,13 +130,10 @@ AI Builder can't be used if its actions have been deactivated. To activate them,
 ## AI Builder Processes and Plug-in steps are turned off in default solution
 
 AI Builder can't be used if its Plug-in steps and Processes have been turned off.
-To turn them on, go to the organisation's portal, select 'Solutions' on the left list, 
-Then select 'Default Solution', click on the 3 dots, and select 'Edit'.
 
-On the left list, select '**Plug-in steps**', and find all the ones starting with 'Microsoft.Dynamics.AI.Plugins', ensure they are turned on.
-
-Also check the status of those plug-in steps:
-
+1. To turn them on, go to the organisation's portal, select 'Solutions' on the left list, 
+2. Then select '**Default Solution**', click on the 3 dots, and select 'Edit'.
+3. On the left list, select '**Plug-in steps**', ensure all listed steps are turned on:
     - 'PreValidate: AlmHandler'. (required for import/export).
     - 'PreValidate: isPaiEnabled'. 
     - 'ValidateAIConfiguration'
@@ -152,12 +149,10 @@ Also check the status of those plug-in steps:
     
 Those must show 'On' Status, (you can select the ones turned off and do a right click on the selection, then select 'Turn On').
 
-On the left list , select '**Processes**'
-Select 'AlmHandler' and then turn it on.
-Select 'IsPaiEnabled' and then turn it on.
-
-Also all those processes are required for AI Builder, and should be turned on:
-
+4. On the left list , select '**Processes**'
+5. Select 'AlmHandler' and then turn it on.
+6. Select 'IsPaiEnabled' and then turn it on.
+7. Additionally check all those processes which are required for AI Builder, and should be turned on:
     - AlmHandler
     - AnalyzeSentiment
     - BatchPrediction
