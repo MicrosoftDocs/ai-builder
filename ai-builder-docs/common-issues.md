@@ -131,8 +131,8 @@ AI Builder can't be used if its actions have been deactivated. To activate them,
 
 AI Builder can't be used if its Plug-in steps and Processes have been turned off.
 
-1. To turn them on, go to the organisation's portal, select 'Solutions' on the left list, 
-2. Then select '**Default Solution**', click on the 3 dots, and select 'Edit'.
+1. To turn them on, go to the organization's portal, select '**Solutions**' on the left list, 
+2. Select '**Default Solution**', then select '**Edit**'.
 3. On the left list, select '**Plug-in steps**', ensure all listed steps are turned on:
     - 'PreValidate: AlmHandler'. (required for import/export).
     - 'PreValidate: isPaiEnabled'. 
@@ -150,8 +150,8 @@ AI Builder can't be used if its Plug-in steps and Processes have been turned off
 Those must show 'On' Status (you can select the ones turned off and do a right click on the selection, then select 'Turn On').
 
 4. On the left list , select '**Processes**'
-5. Select 'AlmHandler' and then turn it on.
-6. Select 'IsPaiEnabled' and then turn it on.
+5. Select '**AlmHandler**' and then '**Turn On**'.
+6. Select '**IsPaiEnabled**' and then '**Turn On**'.
 7. Additionally check all those processes which are required for AI Builder and should be turned on:
     - AlmHandler
     - AnalyzeSentiment
