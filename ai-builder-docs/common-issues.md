@@ -5,7 +5,7 @@ author: paulnog
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/1/2021
+ms.date: 1/24/2022
 ms.author: paulnog
 ms.reviewer: v-aangie
 ---
@@ -126,6 +126,58 @@ AI Builder can't be used if its actions have been deactivated. To activate them,
     - CancelTraining
     - PublishAIConfiguration
     - UnpublishAIConfiguration
+
+## AI Builder processes and plug-in steps are turned off in default solution
+
+AI Builder can't be used if its plug-in steps and processes have been turned off.
+
+1. To turn them on, sign in to [Power Apps](https://make.powerapps.com), and select the appropriate environment from the top-right corner.
+2. In the left pane, select **Solutions**. 
+3. Select **Default Solution**, then select **Edit**.
+4. On the left list, select **Plug-in steps**, and ensure all listed steps are turned on:
+    - PreValidate: AlmHandler. (required for import/export).
+    - PreValidate: isPaiEnabled. 
+    - ValidateAIConfiguration
+    - PostOperation: CancelTraining
+    - PostOperation: PublishAIConfiguration
+    - PostOperation: PublishAIConfiguration Async
+    - PostOperation: ScheduleRetrain
+    - PostOperation: ScheduleTraining
+    - PostOperation: Train
+    - PostOperation: UnpublishAIConfiguration
+    - PostOperation: UnscheduleTraining
+    - all the Microsoft.Dynamics.AI.Plugins
+    
+    These must show the status as **On**. You can select the ones that are turned off, right-click and then **Turn On**.
+
+4. In the left pane, select **Processes**.
+5. Select **AlmHandler**, and then select **Turn On**.
+6. Select **IsPaiEnabled**, and then **Turn On**.
+7. Additionally, check all those processes that are required for AI Builder to ensure they are turned on:
+    - AlmHandler
+    - AnalyzeSentiment
+    - BatchPrediction
+    - CancelTraining
+    - CategorizeText
+    - DetectLanguage
+    - ExtractKeyPhrases
+    - ExtractTextEntities
+    - GetJobStatus
+    - IsPaiEnabled
+    - Predict
+    - PredictByReference
+    - PredictionSchema
+    - PublishAIConfiguration
+    - QuickTest
+    - RecognizeText
+    - SchedulePrediction
+    - ScheduleRetrain
+    - ScheduleTraining
+    - Train
+    - UnpublishAIConfiguration
+    - UnschedulePrediction
+    - UnscheduleTraining
+    - ValidateAIConfiguration
 
 ## AI models fail to be imported in a new environment
 If your AI models are in error state after importing them in a new environment, here is a sequence of actions you can try to resolve the issue:
