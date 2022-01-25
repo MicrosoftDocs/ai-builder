@@ -4,8 +4,7 @@ description: Provides an overview of how to create automated flows by using AI B
 author: JoeFernandezMS
 ms.service: aibuilder
 ms.topic: overview
-
-ms.date: 03/29/2021
+ms.date: 1/24/2022
 ms.author: jofernan
 ms.reviewer: v-aangie
 ---
@@ -13,6 +12,9 @@ ms.reviewer: v-aangie
 # AI Builder in Power Automate overview
 
 Power Automate is a service that helps you create automated workflows between your favorite apps and services to synchronize files, get notifications, collect data, and more. More information: [Power Automate docs](/power-automate) 
+
+ > [!NOTE]
+ > For any AI Builder action in a cloud flow, ensure that you leave the default **Asynchronous Pattern** setting to **On**. This will ensure that results from the AI models are returned properly.
 
 ## Prebuilt AI models you can use in Power Automate right away
 
