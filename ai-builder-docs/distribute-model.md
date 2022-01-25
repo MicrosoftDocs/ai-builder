@@ -44,7 +44,7 @@ For object detection models, the import process might continue after the import 
 ## Limitations
 
 * For object detection and form processing, only models trained after April 2nd, 2020, can be added to a solution.
-* Importing an object detection model or form-processing model should be done within one month of export. However, you can still import * After that period if the source model remains unchanged after its export.
+* Importing an object detection model or form-processing model should be done within one month of export. However, you can still import after that period if the source model remains unchanged after its export.
 * Changes to imported models aren't recommended.
 * If you're using a model within an app or a Power Automate flow, you need to explicitly add the app and the model to the solution. The model isn't considered an app or flow dependency.
 * You can't create a new version of an imported form processing, object detection or entity extraction model, because the training dataset isn't part of the imported solution. You should create a new model instead.
