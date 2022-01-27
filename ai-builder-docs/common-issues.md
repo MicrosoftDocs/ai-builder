@@ -53,9 +53,11 @@ If this error occurs, decrease the concurrency level of your flow. For example, 
    > [!div class="mx-imgBorder"]
    > ![Reduce parallelism in a Power Automate action.](media/too-many-requests-error-in-power-automate.gif "Reduce parallelism in a Power Automate action")
 
-## The result of a predict action is empty in Power Automate
+## The result of an AI Builder action is empty in Power Automate
 
 Make sure that the asynchrounous pattern is not disabled for this action. If it is disabled, enable it and re-try your flow.
+
+   > ![Flow Async Pattern Activated in a Power Automate action.](media/flow-async-pattern.png "Flow Async Pattern Activated in a Power Automate action")
 
 ## Dependency Timeout error when using a form processing model in Power Automate
 
