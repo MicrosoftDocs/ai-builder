@@ -55,7 +55,7 @@ If this error occurs, decrease the concurrency level of your flow. For example, 
 
 ## The result of an AI Builder action is empty in Power Automate
 
-Make sure that the asynchrounous pattern is not disabled for this action. If it is disabled, enable it and re-try your flow.
+Make sure that the asynchronous pattern is not disabled for this action. If it is disabled, enable it and re-try your flow.
 
    > ![Flow Async Pattern Activated in a Power Automate action.](media/flow-async-pattern.png "Flow Async Pattern Activated in a Power Automate action")
 
