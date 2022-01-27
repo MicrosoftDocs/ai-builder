@@ -52,7 +52,11 @@ If this error occurs, decrease the concurrency level of your flow. For example, 
 
    > [!div class="mx-imgBorder"]
    > ![Reduce parallelism in a Power Automate action.](media/too-many-requests-error-in-power-automate.gif "Reduce parallelism in a Power Automate action")
-   
+
+## The result of a predict action is empty in Power Automate
+
+Make sure that the asynchrounous pattern is not disabled for this action. If it is disabled, enable it and re-try your flow.
+
 ## Dependency Timeout error when using a form processing model in Power Automate
 
 If you get a **Dependency Timeout error (_408 – DependencyTimeout_)** when executing a form processing model in Power Automate, the file you're trying to process might be too large in number of pages or file size. There are a few actions that can be done to improve this:
