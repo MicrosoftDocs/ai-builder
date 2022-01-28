@@ -53,8 +53,9 @@ If this error occurs, decrease the concurrency level of your flow. For example, 
    > [!div class="mx-imgBorder"]
    > ![Reduce parallelism in a Power Automate action.](media/too-many-requests-error-in-power-automate.gif "Reduce parallelism in a Power Automate action")
 
-## The result of an AI Builder action is empty in Power Automate
+## The output of an AI Builder action is empty in Power Automate or the next action returns an error "Unable to process template language expressions in action..."
 
+When looking at the output of the AI bulider action, you'll see a json starting with "statusCode": 202.
 Make sure that the asynchronous pattern is not disabled for this action. If it is disabled, enable it and run your flow again.
 
    > [!div class="mx-imgBorder"]
