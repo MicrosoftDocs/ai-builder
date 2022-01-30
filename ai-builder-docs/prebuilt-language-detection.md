@@ -35,7 +35,7 @@ If text is detected, the language detection model outputs the following informat
 
 - **Results**: A list of languages detected in the input text.
 - **Language**: Script version of the language code (for example, "en", "fr", "zh_chs", "ru").
-- **Score**: Numeric value from 0 through 1, where values close to 1 indicate higher confidence.
+- **Confidence score**: Numeric value from 0 through 1, where values close to 1 indicate higher confidence.
 
 ## Limits
 
