@@ -79,7 +79,7 @@ Each AI Builder model has a different credit consumption mechanism. To perform a
 
 ### Allocate credits
 
-By default, the credits are unallocated and available as a pool on the tenant which can be used on any environment. The administrator can restrict usage by allocating all credits to specific environments.
+By default, the credits are unallocated and available as a pool on the tenant, which can be used on any environment. The administrator can restrict usage by allocating all credits to specific environments.
 
 > [!NOTE]
 > This is how administrators stay in control of *where* AI is used in their organization and, with the role assignments described in [Roles and security in AI Builder](security.md#roles), *who* is using it.
