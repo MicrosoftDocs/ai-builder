@@ -53,7 +53,7 @@ If text is detected, the sentiment analysis model outputs the following informat
   - Neutral
   - Mixed
 
-- **DocumentScores**: Value in the range from 0 through 1. Values close to 1 indicate greater confidence that the identified sentiment is accurate.
+- **Confidence score**: Value in the range from 0 through 1. Values close to 1 indicate greater confidence that the identified sentiment is accurate.
 
 - **Sentences**: List of sentences from the input text, with analysis of its sentiments.
 
@@ -63,7 +63,7 @@ If text is detected, the sentiment analysis model outputs the following informat
     - Neutral
     - Mixed
 
-  - **SentenceScores**: Value in the range from 0 through 1<!--as above-->. Values close to 1 indicate greater confidence that the sentiment is accurate.
+  - **Sentence confidence score**: Value in the range from 0 through 1<!--as above-->. Values close to 1 indicate greater confidence that the sentiment is accurate.
 
 ## Limits
 
