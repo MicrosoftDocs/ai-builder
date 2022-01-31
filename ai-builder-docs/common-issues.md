@@ -55,7 +55,7 @@ If this error occurs, decrease the concurrency level of your flow. For example, 
 
 ## The output of an AI Builder action is empty in Power Automate or the next action returns an error "Unable to process template language expressions in action..."
 
-When looking at the output of the AI bulider action, you'll see a json starting with "statusCode": 202.
+When looking at the output of the AI bulider action, you'll see a json starting with `"statusCode": 202`.
 Make sure that the asynchronous pattern is not disabled for this action. If it is disabled, enable it and run your flow again.
 
    > [!div class="mx-imgBorder"]
