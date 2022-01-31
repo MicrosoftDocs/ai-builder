@@ -21,7 +21,7 @@ If you want to use this prebuilt model in Power Automate, you can find more info
   
 ## Supported language and data format
 
-- Documents can't exceed 5,120 characters.
+- Test can't exceed 10,000 characters.
 - For information on language support, see [Language and region support for the text translation API](/azure/cognitive-services/translator/language-support#translation).
 
 ## Model output
