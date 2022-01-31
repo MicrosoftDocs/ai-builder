@@ -5,7 +5,7 @@ author: paulnog
 ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: intro-internal
-ms.date: 01/14/2022
+ms.date: 01/31/2022
 ms.author: paulnog
 ms.reviewer: v-aangie
 ---
@@ -38,13 +38,16 @@ Some Microsoft products include some AI Builder capacity. Your environment admin
 
 ### Allocate capacity
 
-Once entitled to AI Builder capacity, an environment administrator has to allocate capacity for AI Builder to the environment before you can use it.
+Once entitled to AI Builder capacity, credits are unallocated and available as a pool on the tenant, which can be used on any environment. The administrator can restrict usage by allocating all credits to specific environments.
 
 For information about how to allocate capacity in the Power Platform admin center, go to [Capacity add-ons](/power-platform/admin/capacity-add-on). For information on how to allocate credits, go to [Manage capacity](administer.md#manage-capacity).
 
 ## Trial licenses
 
 Want to get started using AI Builder? Use premium features for a limited time with a [trial license](https://web.powerapps.com/signup?redirect=marketing&email=), or use preview features without obtaining a license at all.
+
+> [!NOTE]
+> You can start an AI Builder trial only if you haven’t previously purchased AI Builder credits or got AI Builder credits though other products.
 
 ### Benefits of a trial license
 
