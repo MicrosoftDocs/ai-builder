@@ -16,7 +16,7 @@ contributors:
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-Lobe is a free, easy-to-use Microsoft desktop application that allows you to build, manage, and use custom machine learning models. With Lobe, you can create an image classification model to categorize images into *labels* that represent their content. You can directly upload Lobe models to AI Builder for use with Microsoft Power Apps and Power Automate.
+Lobe is a free, easy-to-use Microsoft desktop application that allows you to build, manage, and use custom machine learning models. With Lobe, you can create an image classification model to categorize images into *labels* that represent their content. You can directly upload Lobe models to AI Builder for use with Power Apps and Power Automate.
 
 > [!IMPORTANT]
 > - This is a preview feature.
@@ -68,16 +68,18 @@ With image classification by Lobe, you train all your models on your computer. W
 
 ## Download Lobe
 
-There are two ways to download Lobe to your desktop. If you have access to the [new AI Builder home page experience](model-types.md#new-home-page-for-ai-builder):
+There are two ways to download Lobe to your desktop. 
 
-1. Sign in to [Power Apps](https://make.powerapps.com) or [Power Automate](https://flow.microsoft.com/).
+- If you have access to the [new AI Builder home page experience](model-types.md#new-home-page-for-ai-builder):
 
-1. Select **AI Builder** > **Build** > **Image Classification (preview)**.
+    1. Sign in to [Power Apps](https://make.powerapps.com) or [Power Automate](https://flow.microsoft.com/).
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Image Classification (preview).](media/lobe-overview/lobe-tile.png "Image Classification (preview)")
+    1. Select **AI Builder** > **Build** > **Image Classification (preview)**.
 
-If your region doesn't have access yet to the new AI Builder home page experience, go to the [Lobe home page](https://www.lobe.ai/) to download Lobe.
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of Image Classification (preview).](media/lobe-overview/lobe-tile.png "Image Classification (preview)")
+
+- If your region doesn't have access yet to the new AI Builder home page experience, go to the [Lobe home page](https://www.lobe.ai/) to download Lobe.
 
 ## Use image classification by Lobe
 
