@@ -30,7 +30,7 @@ Form processing works on input documents that meet the following requirements:
 - You can create up to 200 collections per model.
 
  > [!NOTE]
- > AI Builder doesn't currently support signatures as a type of form processing input data.
+ > Extracting signatures from documents is currently not supported.
 
 ## Optimization tips
 
