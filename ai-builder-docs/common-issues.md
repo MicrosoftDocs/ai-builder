@@ -199,6 +199,21 @@ If the problem persists (no new model gets fixed by this sequence), contact the 
 ## AI Builder form processing is not extracting tables that span across multiple pages
 Support for extracting tables that span across multiple pages is currently experimental. Experimental features aren't meant for production usage and have restricted functionality; therefore, we can't provide support for experimental features. To learn more, go to the [latest guidance regarding multipage tables support in AI Builder today](./form-processing-multipage.md).
 
+## Error when processing a document using the FormProcessor control in Canvas
+
+If you get an error message and the following conditions are met:
+-	The AI Model you’re using contains at least one table
+-	The name of the column tables contains non alphanumeric characters (such as Japanese or Chinese characters)
+
+Try the following steps:
+1. Go to https://create.powerapps.com
+2. Click on Account
+3. Click on Change authoring version
+4. Select the most recent authoring version (likely at the top)
+5. Click on "Reload and apply version"
+6. Finally create a new app, insert the for processor control targeting the same model.
+
+
 ### See also
 
 - [Get support for AI Builder](support.md)
