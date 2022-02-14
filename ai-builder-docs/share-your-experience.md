@@ -3,7 +3,6 @@ title: Share your experience - AI Builder | Microsoft Docs
 description: Provides information about Microsoft forums where you can read and contribute to discussions about AI Builder 
 author: paulnog
 
-ms.service: aibuilder
 ms.topic: conceptual
 ms.custom:
 ms.date: 11/02/2020

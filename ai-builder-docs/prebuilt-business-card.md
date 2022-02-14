@@ -2,7 +2,6 @@
 title: Business card prebuilt AI model- AI Builder | Microsoft Docs
 description: Describes the business card prebuilt AI Builder model.
 author: alanabrito
-ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
 ms.date: 03/29/2021

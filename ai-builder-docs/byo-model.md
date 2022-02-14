@@ -2,7 +2,6 @@
 title: Bring your own model into AI Builder - AI Builder | Microsoft Docs
 description: Provides information on how to use your own model in AI Builder.
 author: Raj-Virk
-ms.service: aibuilder
 ms.topic: conceptual
 ms.custom:
 ms.date: 08/26/2021

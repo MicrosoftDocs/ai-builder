@@ -3,7 +3,6 @@ title: Use the text translation prebuilt model in Power Automate - AI Builder | 
 description: Provides information about how to use the text translation prebuilt model in your Flows
 author: alanabrito
 
-ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
 ms.date: 04/05/2021

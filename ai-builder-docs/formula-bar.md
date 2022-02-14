@@ -2,7 +2,6 @@
 title: Use formulas for text AI models (preview) in Power Apps - AI Builder | Microsoft Docs
 description: Provides examples of formulas you can use in AI Builder text models.
 author: norliu
-ms.service: aibuilder
 ms.topic: conceptual 
 ms.custom: 
 ms.date: 07/06/2021

@@ -2,7 +2,6 @@
 title: Overview of image classification model by Lobe (preview) - AI Builder | Microsoft Docs
 description: With Lobe, you can use image classification models in AI Builder to categorize images and add intelligence to your apps.
 author: mbeissinger
-ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: intro-internal
 ms.date: 11/15/2021

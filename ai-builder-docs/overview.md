@@ -2,7 +2,6 @@
 title: Overview of AI Builder - AI Builder | Microsoft Docs
 description: This topic provides an overview of AI Builder and high-level steps to add intelligence to your apps.
 author: paulnog
-ms.service: aibuilder
 ms.topic: overview
 
 ms.date: 10/18/2021

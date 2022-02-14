@@ -2,7 +2,6 @@
 title: Category classification prebuilt model (preview) - AI Builder | Microsoft Docs
 description: Describes the prebuilt category classification AI Builder model.
 author: norliu
-ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
 ms.date: 03/29/2021
