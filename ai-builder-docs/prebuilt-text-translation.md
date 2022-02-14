@@ -3,7 +3,6 @@ title: Text translation prebuilt AI model -  AI Builder | Microsoft Docs
 description: Describes the prebuilt text translation AI model in AI Builder.
 author: alanabrito
 
-ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
 ms.date: 03/29/2021

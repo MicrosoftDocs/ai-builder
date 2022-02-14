@@ -2,7 +2,6 @@
 title: Frequently asked questions (FAQ) for form processing - AI Builder | Microsoft Docs
 description: This topic provides answers to frequently asked questions about the form processing model in AI Builder.
 author: JoeFernandezMS
-ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
 ms.date: 08/19/2021

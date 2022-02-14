@@ -2,7 +2,6 @@
 title: Improve the performance of the category classification model - AI Builder | Microsoft Docs
 description: Provides tips to help you improve the performance of the category classification model in AI Builder.
 author: norliu
-ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
 ms.date: 03/19/2021

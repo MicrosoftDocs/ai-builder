@@ -2,7 +2,6 @@
 title: Share your AI model - AI Builder | Microsoft Docs
 description: Walks you through the steps to share your model in AI Builder.
 author: Antoine2F
-ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
 ms.date: 10/19/2021

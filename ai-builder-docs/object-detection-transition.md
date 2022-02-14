@@ -2,7 +2,6 @@
 title: Transition to the new object detection model version - AI Builder | Microsoft Docs
 description: Preview object detection model versions won't be compatible with updated model versions, so you have to re-create existing models.
 author: JoeFernandezMS
-ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
 ms.date: 11/06/2020
