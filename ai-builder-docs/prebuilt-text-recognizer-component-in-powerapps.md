@@ -2,7 +2,6 @@
 title: Use the text recognizer component in Power Apps - AI Builder | Microsoft Docs
 description: Provides information about how to use the text recognizer component in Power Apps
 author: paulnog
-ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
 ms.date: 04/09/2021

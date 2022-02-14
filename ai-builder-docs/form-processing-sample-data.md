@@ -2,7 +2,6 @@
 title: Use sample data to do form processing - AI Builder | Microsoft Docs
 description: Provides the information you need to try out a form processing model with sample data AI Builder.
 author: JoeFernandezMS
-ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
 ms.date: 03/19/2021

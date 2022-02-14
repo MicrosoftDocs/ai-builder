@@ -3,7 +3,6 @@ title: Use the business card reader component in canvas apps in Power Apps - AI 
 description: Provides information about the properties, and information extracted by the business card reader component in a canvas app.
 author: joefernandezms
 
-ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
 ms.date: 04/09/2021

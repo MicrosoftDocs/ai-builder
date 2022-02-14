@@ -2,7 +2,6 @@
 title: Data preparation - AI Builder | Microsoft Docs
 description: Provides the steps you'll need to follow to prepare your data for AI Builder in Microsoft Dataverse. 
 author: norliu
-ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
 ms.date: 07/29/2021
