@@ -2,7 +2,6 @@
 title: Use the ID reader prebuilt model in Power Automate - AI Builder | Microsoft Docs
 description: Describes how to use the ID reader prebuilt AI Builder model.
 author: paulnog
-ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
 ms.date: 06/22/2021

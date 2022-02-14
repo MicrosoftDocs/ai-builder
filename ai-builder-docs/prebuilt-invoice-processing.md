@@ -2,7 +2,6 @@
 title: Invoice processing prebuilt AI model -  AI Builder | Microsoft Docs
 description: Describes the invoice processing prebuilt AI model from AI Builder.
 author: JoeFernandezMS
-ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: intro-internal
 ms.date: 03/29/2021

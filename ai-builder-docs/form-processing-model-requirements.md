@@ -2,7 +2,6 @@
 title: Requirements and limitations for form processing models - AI Builder | Microsoft Docs
 description: Describes the requirements and limitations of form processing models in AI Builder.
 author: JoeFernandezMS
-ms.service: aibuilder
 ms.topic: conceptual
 ms.custom:
 ms.date: 10/06/2021

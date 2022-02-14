@@ -2,7 +2,6 @@
 title: Understand category classification model performance - AI Builder | Microsoft Docs
 description: Provides an understanding of how to evaluate and understand category classification model performance
 author: raaourik 
-ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
 ms.date: 09/06/2019

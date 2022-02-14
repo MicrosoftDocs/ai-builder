@@ -2,7 +2,6 @@
 title: AI Builder Licensing - AI Builder | Microsoft Docs
 description: Provides information about licensing in AI Builder.
 author: paulnog
-ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: intro-internal
 ms.date: 01/31/2022

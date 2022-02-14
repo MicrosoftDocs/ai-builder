@@ -2,7 +2,6 @@
 title: Use your AI Builder model - AI Builder | Microsoft Docs
 description: Provides steps by step instructions about how to use your model in AI Builder.
 author: paulnog
-ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
 ms.date: 06/30/2021

@@ -2,7 +2,6 @@
 title: Build your object detection custom model - AI Builder | Microsoft Docs
 description: This topic lays out the first steps you'll perform to build an object detection AI model. 
 author: amina196
-ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
 ms.date: 03/19/2021

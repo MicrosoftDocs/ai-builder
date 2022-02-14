@@ -2,7 +2,6 @@
 title: Use image classification model by Lobe in Power Apps (preview) - AI Builder | Microsoft Docs
 description: Learn how to use the image classification model from Lobe to predict labels and categorize images in Power Apps.
 author: mbeissinger
-ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: intro-internal
 ms.date: 11/15/2021

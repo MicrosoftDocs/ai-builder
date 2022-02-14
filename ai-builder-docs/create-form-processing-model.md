@@ -2,7 +2,6 @@
 title: Create a form processing custom model - AI Builder | Microsoft Docs
 description: Provides step-by-step instructions on how to create a form processing model in AI Builder.
 author: JoeFernandezMS
-ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
 ms.date: 10/11/2021

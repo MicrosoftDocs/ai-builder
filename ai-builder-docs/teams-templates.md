@@ -3,7 +3,6 @@ title: Use AI Builder in Teams -  AI Builder | Microsoft Docs
 description: Provides information about how to use AI Builder templates in Teams
 author: Antonio-Rodrigues
 manager: cdbellar
-ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
 ms.date: 4/23/2021

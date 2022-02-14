@@ -2,7 +2,6 @@
 title: Administer AI Builder - AI Builder | Microsoft Docs
 description: "Provides information for an administrator about AI custom models and environment lifecycle, backup and restore, managing capacity, enabling or disabling the feature, and data loss prevention in AI Builder."
 author: v-aangie
-ms.service: aibuilder
 ms.topic: conceptual
 ms.custom: 
 ms.date: 07/16/2021
