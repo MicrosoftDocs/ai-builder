@@ -29,16 +29,16 @@ To build a model with AI Builder:
 
 1. On the right pane, select the model type that matches what you want to do. Then, you're ready to get started.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of AI Builder home page.](media/ai-builder-home.png "AI Builder home page")
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of AI Builder home page.](media/ai-builder-home.png "AI Builder home page")
 
 ## Model types
 
 The following table lists the data type, models type, and build type. 
 
-- The *data type* describes the type of AI that they use (for example, documents, text, structured data, or images). 
+- The *data type* describes the type of AI that the models use (for example, documents, text, structured data, or images). 
 
-- The *build type* indicates whether it’s a customizable model that you'll need to build, train, and publish for your intended use, or if it's a prebuilt model that’s ready to use. In general, use custom AI Builder models for applications where you're working with data that’s unique to your business. Use prebuilt models for scenarios that are common across different types of businesses.
+- The *build type* indicates whether it’s a customizable model that you'll need to build, train, and publish for your intended use, or if it's a prebuilt model that’s ready to use. In general, use *custom* AI Builder models for applications where you're working with data that’s unique to your business. Use *prebuilt* models for scenarios that are common across different types of businesses.
 
 [Common business scenarios](#common-business-scenarios) and the model types that are suited to them are described later in this topic.
 
