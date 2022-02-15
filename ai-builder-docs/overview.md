@@ -3,8 +3,7 @@ title: Overview of AI Builder - AI Builder | Microsoft Docs
 description: This topic provides an overview of AI Builder and high-level steps to add intelligence to your apps.
 author: paulnog
 ms.topic: overview
-
-ms.date: 10/18/2021
+ms.date: 02/14/2022
 ms.author: paulnog
 ms.reviewer: v-aangie
 ---
@@ -20,8 +19,6 @@ AI Builder is a Microsoft Power Platform capability that provides AI models that
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the AI Builder home page.](media/ai-builder-home.png "AI Builder home page")
 
-> [!IMPORTANT]
-> We're changing the look of the AI Builder home page. For more information, go to [New home page for AI Builder](model-types.md#new-home-page-for-ai-builder).
 
 ## Add intelligence to your business
 
