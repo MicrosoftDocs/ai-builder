@@ -205,11 +205,11 @@ You'll get an error message if the AI model you’re using contains at least one
 
 To resolve, try the following steps:
 1. Sign in to [Power Apps Studio](https://create.powerapps.com).
-2. In the left navigation pane, select **Account**.
-3. In the **Settings** page, select Support in teh left navigation pane.
-4. Select **Edit** under **Authoring version**, and select the most recent authoring version for the **Authoring version** list.
-6. Select "Reload + apply version".
-7. Finally, create a new app and insert the form processor control targeting the same model.
+1. In the left navigation pane, select **Account**.
+1. In the **Settings** page, select Support in teh left navigation pane.
+1. Select **Edit** under **Authoring version**, and select the most recent authoring version for the **Authoring version** list.
+1. Select "Reload + apply version".
+1. Finally, create a new app and insert the form processor control targeting the same model.
 
 
 ### See also
