@@ -4,7 +4,7 @@ description: This topic provides an overview of how the AI model types that you 
 author: paulnog
 ms.topic: conceptual
 ms.custom:
-ms.date: 1/7/2022
+ms.date: 2/14/2022
 ms.author: paulnog
 ms.reviewer: v-aangie
 ---
@@ -23,43 +23,46 @@ These models are only a few of the ways you can use AI Builder to add intelligen
 
 To build a model with AI Builder:
 
-1. Sign in to [Power Apps](https://make.powerapps.com).
+1. Sign in to [Power Apps](https://make.powerapps.com) or [Power Automate](https://flow.microsoft.com).
 
 1. On the left pane, select **AI Builder** > **Build**.
 
 1. On the right pane, select the model type that matches what you want to do. Then, you're ready to get started.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of AI Builder home page.](media/ai-builder-home.png "AI Builder home page")
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of AI Builder home page.](media/ai-builder-home.png "AI Builder home page")
 
 ## Model types
 
-The following table lists the model types, their category, and build type. The AI *category* describes the type of AI that they use (for example, text, prediction, or vision). The *build type* indicates whether it’s customizable (custom) or ready to use (prebuilt).
+The following table lists the data type, models type, and build type. 
 
-The build type indicates whether it’s a customizable model that you'll need to build, train, and publish for your intended use, or if it's a prebuilt model that’s ready to use. In general, use custom AI Builder models for applications where you're working with data that’s unique to your business. Use prebuilt models for scenarios that are common across different types of businesses.
+- The *data type* describes the type of AI that the models use (for example, documents, text, structured data, or images). 
+
+- The *build type* indicates whether it’s a customizable model that you'll need to build, train, and publish for your intended use, or if it's a prebuilt model that’s ready to use. In general, use *custom* AI Builder models for applications where you're working with data that’s unique to your business. Use *prebuilt* models for scenarios that are common across different types of businesses.
 
 [Common business scenarios](#common-business-scenarios) and the model types that are suited to them are described later in this topic.
 
-| **Model type** | **Category** | **Build type** |
-| ----- | ----- | ----- |
-| Category classification  |Text|[Prebuilt](prebuilt-category-classification.md) and [custom](text-classification-overview.md)  |
-| Entity extraction  |Text|[Prebuilt](prebuilt-entity-extraction.md) and [custom](entity-extraction-overview.md)  |
-| [Key phrase extraction](prebuilt-key-phrase.md)|Text|Prebuilt |
-| [Language detection](prebuilt-language-detection.md)|Text|Prebuilt |
-| [Sentiment analysis](prebuilt-sentiment-analysis.md)|Text|Prebuilt |
-| [Text translation](prebuilt-text-translation.md)|Text|Prebuilt |
-| [Prediction](prediction-overview.md)|Prediction|Custom |
-| [Form processing](form-processing-model-overview.md)|Vision|Custom |
-| [Object detection](object-detection-overview.md)|Vision|Custom |
-| [Business card reader](prebuilt-business-card.md)|Vision|Prebuilt |
-| [Text recognition](prebuilt-text-recognition.md)|Vision|Prebuilt |
-| [Receipt processing](prebuilt-receipt-processing.md)|Vision|Prebuilt |
+| Data Type       | Model type              | Build type          |
+|-----------------|-------------------------|---------------------|
+| Documents       | [Business card reader](prebuilt-business-card.md)    | Prebuilt            |
+| Documents       | [Form processing](form-processing-model-overview.md)         | Custom              |
+| Documents       | [Text recognition](prebuilt-text-recognition.md)        | Prebuilt            |
+| Documents       | [Receipt processing](prebuilt-receipt-processing.md)      | Prebuilt            |
+| Text            | Category classification | [Prebuilt](prebuilt-category-classification.md) and [custom](text-classification-overview.md) |
+| Text            | Entity extraction       | [Prebuilt](prebuilt-entity-extraction.md) and [custom](entity-extraction-overview.md) |
+| Text            | [Key phrase extraction](prebuilt-key-phrase.md)   | Prebuilt            |
+| Text            | [Language detection](prebuilt-language-detection.md)      | Prebuilt            |
+| Text            | [Sentiment analysis](prebuilt-sentiment-analysis.md)      | Prebuilt            |
+| Text            | [Text translation](prebuilt-text-translation.md)        | Prebuilt            |
+| Structured data | [Prediction](prediction-overview.md)              | Custom              |
+| Images          | [Image classification (by Lobe)](lobe-overview.md)        | Custom              |
+| Images          | [Object detection](object-detection-overview.md)        | Custom              |
 
 ## Common business scenarios
 
 The different types of AI models in AI Builder provide you with a broad range of AI capabilities without the need for coding or data expertise. Here are some common business scenarios, and the preferred AI model types for addressing them:
 
-| **Business scenario** | **Model type** |
+| Business scenario | Model type |
 | ----- | ----- |
 Automate customer application processing|Form processing
 Automate expense reports|Receipt processing
@@ -73,23 +76,6 @@ Get alerted to social media posts referencing your brand | Key phrase extraction
 Automate contact list |Business card reader
 Automate inventory taking|Object detection
 Take a photo of text and save it to a database |Text recognition
-
-## New home page for AI Builder
-
-We're changing the look of the home page to improve your experience for discovering how AI Builder can help you and your company. We are rolling out the new experience to a random set of users starting October 2021. It will eventually be available to all users in the first quarter of 2022.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Explore AI Builder home page.](media/ai-builder-home-explore.png "Explore AI Builder home page")
-
-The new experience enables you to:
-
-- Save time by finding a solution for your business need in the area you're focused on: documents, text, structured data, or images.
-
-- Get a brief description of what each solution does when you select it in your area.
-
-- See an image of what a model looks like, and then immediately upload your own data on the same screen.
-
-- Read customer stories on how others are using the new experience.
 
 ### Next step
 
