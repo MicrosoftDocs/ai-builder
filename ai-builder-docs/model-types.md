@@ -55,6 +55,7 @@ The following table lists the data type, models type, and build type.
 | Text            | [Sentiment analysis](prebuilt-sentiment-analysis.md)      | Prebuilt            |
 | Text            | [Text translation](prebuilt-text-translation.md)        | Prebuilt            |
 | Structured data | [Prediction](prediction-overview.md)              | Custom              |
+| Images          | [Image classification (by Lobe)](lobe-overview.md)        | Custom              |
 | Images          | [Object detection](object-detection-overview.md)        | Custom              |
 
 ## Common business scenarios
