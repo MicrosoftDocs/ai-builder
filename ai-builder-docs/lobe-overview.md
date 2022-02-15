@@ -4,7 +4,7 @@ description: With Lobe, you can use image classification models in AI Builder to
 author: mbeissinger
 ms.topic: conceptual
 ms.custom: intro-internal
-ms.date: 11/15/2021
+ms.date: 02/14/2022
 ms.author: mabeis
 contributors:
     - JakeCohenMicrosoft
@@ -73,7 +73,7 @@ There are two ways to download Lobe to your desktop.
 
     1. Sign in to [Power Apps](https://make.powerapps.com) or [Power Automate](https://flow.microsoft.com/).
 
-    1. Select **AI Builder** > **Build** > **Images** > **Image Classification**.
+    1. Select **AI Builder** > **Build** > **Images** > **Image classification**.
 
         > [!div class="mx-imgBorder"]
         > ![Screenshot of Image Classification (preview).](media/lobe-overview/lobe-tile.png "Image Classification (preview)")
