@@ -214,7 +214,7 @@ To resolve, try the following steps:
 
 ### See also
 
-- [Get support for AI Builder](support.md)
+[Get support for AI Builder](support.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
