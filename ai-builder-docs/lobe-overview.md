@@ -67,8 +67,6 @@ With image classification by Lobe, you train all your models on your computer. W
 
 ## Download Lobe
 
-There are two ways to download Lobe to your desktop. 
-
 1. Sign in to [Power Apps](https://make.powerapps.com) or [Power Automate](https://flow.microsoft.com/).
 
 1. Select **AI Builder** > **Build** > **Images** > **Image classification**.
@@ -76,6 +74,7 @@ There are two ways to download Lobe to your desktop.
     > [!div class="mx-imgBorder"]
     > ![Screenshot of Image Classification](media/lobe-overview/lobe-tile.png "Image Classification")
 
+1. On the next page, select **Download Lobe** to download and install the Lobe app on your computer.
 
 
 ## Use image classification by Lobe
