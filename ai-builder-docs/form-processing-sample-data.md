@@ -16,7 +16,7 @@ To explore the possibilities of form processing, you can get started by building
 
 ## Get the sample data
 
-Download [AI Builder Form Processing Sample Data.zip](https://go.microsoft.com/fwlink/?linkid=2128080), which contains the sample invoices.
+Download sample documents for AI Builder form processing: [English version](https://go.microsoft.com/fwlink/?linkid=2128080) or [Japanese version](https://go.microsoft.com/fwlink/?linkid=2186887)
 
 ## Guided experience on Microsoft Learn
 
