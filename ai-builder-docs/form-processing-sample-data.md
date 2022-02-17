@@ -4,7 +4,7 @@ description: Provides the information you need to try out a form processing mode
 author: JoeFernandezMS
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/19/2021
+ms.date: 02/17/2022
 ms.author: Jofernan
 ms.reviewer: v-aangie
 ---
@@ -16,7 +16,7 @@ To explore the possibilities of form processing, you can get started by building
 
 ## Get the sample data
 
-Download [AI Builder Form Processing Sample Data.zip](https://go.microsoft.com/fwlink/?linkid=2128080), which contains the sample invoices.
+Download sample documents for AI Builder form processing: [English version](https://go.microsoft.com/fwlink/?linkid=2128080) or [Japanese version](https://go.microsoft.com/fwlink/?linkid=2186887)
 
 ## Guided experience on Microsoft Learn
 
