@@ -23,7 +23,7 @@ After you review the [requirements](form-processing-model-requirements.md), you 
 
 1. Click on Get Started..
 
-1. A step-by-step wizard will walk you through the process by asking you to list all data you want to extract from your document, make sure that you have at least five examples that use the same layout. Otherwise, you can [use sample data](form-processing-sample-data.md) to create the model.
+1. A step-by-step wizard will walk you through the process by asking you to list all data you want to extract from your document. If you want to create your model by using your own documents, make sure that you have at least five examples that use the same layout. Otherwise, you can [use sample data](form-processing-sample-data.md) to create the model.
 
 1. Click on Train.
  
