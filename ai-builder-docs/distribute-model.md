@@ -28,7 +28,11 @@ A model can only be added in a solution when a trained version of the model has 
 
 ## Disabling AI model customizations
 
-Before you export your model, it's a good idea to disable customization in the managed properties of the model. This overrides the default setting, where users can make changes to the model after they import it. After you've disabled customization, your model will include a note that you have limited the possible actions on it.
+Before you export your model, it's a good idea to disable customization in the managed properties of the model. From within the Solution, click on "Managed properties" in the top menu and unselect "Allow customizations":
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the managed properties.](media/ai-builder-managed-properties.png "Managed properties")
+
+This overrides the default setting, where users can make changes to the model after they import it. After you've disabled customization, your model will include a note that you have limited the possible actions on it.
 
 ## Changing imported models
 
