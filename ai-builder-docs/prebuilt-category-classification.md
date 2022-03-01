@@ -27,7 +27,7 @@ The prebuilt category classification model is a ready to use AI model that is co
 You can see the category classification prebuilt model in action without the need to build a flow by using the "try it out" feature.
 
 1. Sign in to [Power Apps](https://make.powerapps.com).
-1. In the left pane, select **AI Builder** > **Build**.
+1. In the left pane, select **AI Builder** > **Explore**.
 1. Under **Get straight to productivity**, select **Category classification (preview)**.
 1. In the **Category classification** window, select **Try it out**. 
 1. Select predefined text samples to analyze, or add your own text in the **Or add your own here** box to see how the model analyzes your text.

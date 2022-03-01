@@ -21,7 +21,7 @@ You can try out the sentiment analysis model before you import it into your flow
 
 1. Sign in to [Power Apps](https://make.powerapps.com).
 
-1. In the left pane, select **AI Builder** > **Build**.
+1. In the left pane, select **AI Builder** > **Explore**.
 
 1. Under **Get straight to productivity**, select **Sentiment Analysis**.
 

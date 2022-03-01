@@ -69,7 +69,7 @@ With image classification by Lobe, you train all your models on your computer. W
 
 1. Sign in to [Power Apps](https://make.powerapps.com) or [Power Automate](https://flow.microsoft.com/).
 
-1. Select **AI Builder** > **Build** > **Images** > **Image classification**.
+1. Select **AI Builder** > **Explore** > **Images** > **Image classification**.
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of Image Classification](media/lobe-overview/lobe-tile.png "Image Classification")
