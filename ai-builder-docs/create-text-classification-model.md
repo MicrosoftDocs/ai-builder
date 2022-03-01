@@ -13,7 +13,7 @@ ms.reviewer: v-aangie
 
 Now that you have your training data in Microsoft Dataverse, you can create a new model and configure it.
 
-1. Sign in to [Power Apps](https://make.powerapps.com/), and then select **AI Builder** > **Build**.
+1. Sign in to [Power Apps](https://make.powerapps.com/), and then select **AI Builder** > **Explore**.
 
     > [!div class="mx-imgBorder"]
     > ![Build a category classification model screen.](media/build-text-classification-model.png "Build a category classification model screen")

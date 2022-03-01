@@ -17,7 +17,7 @@ After you review the [requirements](form-processing-model-requirements.md), you 
 
 1. Sign in to [Power Apps](https://make.powerapps.com/) or [Power Automate](https://flow.microsoft.com/signin).
 
-1. In the left pane, select **AI Builder** > **Build**.
+1. In the left pane, select **AI Builder** > **Explore**.
 
 1. Select **Form processing**.
 

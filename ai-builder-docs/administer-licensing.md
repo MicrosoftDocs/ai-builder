@@ -61,7 +61,7 @@ What you get with an AI Builder trial license:
 ### Activate an AI Builder trial license
 
 1. Sign in to	[Power Apps](https://make.powerapps.com) or [Power Automate](https://flow.microsoft.com).
-1. Select **AI Builder** > **Build**.
+1. Select **AI Builder** > **Explore**.
 1. (If requested) Select **Create a database** and choose a currency and language.
 1. Select **Create my database**.
 
@@ -87,7 +87,7 @@ Your AI Builder trial license expires after 30 days.
 
 To continue using AI Builder, purchase AI Builder add-on capacity and allocate AI Builder capacity to your environments. You may also be able to extend the trial period. Trials can be extended a limited number of times. Extension can only occur after the trial expires.
 
-To renew your AI Builder trial license, sign in to Power Apps or Power Automate, select **AI Builder** > **Build**, and then select **Extend trial** in the banner on the top.
+To renew your AI Builder trial license, sign in to Power Apps or Power Automate, select **AI Builder** > **Explore**, and then select **Extend trial** in the banner on the top.
 
 ### Trial capacity
 
