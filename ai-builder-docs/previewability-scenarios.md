@@ -14,7 +14,7 @@ ms.reviewer: kvivek
 
 AI Builder is released and is generally available. But, some of its features are still in preview status. These features display a **Preview** tag near their names:
 
- - On the AI Builder **Build** page.
+ - On the AI Builder **Explore** page.
  - In the Maker Studio > **Insert** > **AI Builder** menu.
 
 ## Block preview scenarios

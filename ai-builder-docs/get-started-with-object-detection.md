@@ -3,16 +3,15 @@ title: Build your object detection custom model - AI Builder | Microsoft Docs
 description: This topic lays out the first steps you'll perform to build an object detection AI model. 
 author: amina196
 ms.topic: conceptual
-ms.custom: 
 ms.date: 03/19/2021
 ms.custom: intro-internal
-ms.author: aminab
+ms.author: angieandrews
 ms.reviewer: v-aangie
 ---
 
 # Build your object detection custom model
 
-1. Sign in to [Power Apps](https://make.powerapps.com), and then select **AI Builder** > **Build**.
+1. Sign in to [Power Apps](https://make.powerapps.com), and then select **AI Builder** > **Explore**.
 1. Select the **Object Detection** AI Builder AI model type.
 1. Enter a name for your model, and then select **Create**.
 

@@ -13,7 +13,7 @@ ms.reviewer: v-aangie
 
 This example creates a Power Apps prediction AI model that uses the Online Shopper Intention table in Microsoft Dataverse. To get this sample data into your Dataverse environment, enable the **Deploy sample apps and data** setting when you create an environment as described in [Build a model in AI Builder](build-model.md). Or, follow the more detailed instructions in [Data preparation](prediction-data-prep.md). After your sample data is in Dataverse, follow these steps to create your model.
 
-1. Sign in to [Power Apps](https://make.powerapps.com), and then select **AI Builder** > **Build**.
+1. Sign in to [Power Apps](https://make.powerapps.com), and then select **AI Builder** > **Explore**.
 
 1. Select **Prediction**. Enter a name for your model, and then select **Create**.
 
