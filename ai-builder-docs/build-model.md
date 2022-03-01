@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 12/27/2019
 ms.author: joshrenn
-ms.reviewer: kvivek
+ms.reviewer: angieandrews
 ---
 
 # Build a model in AI Builder
