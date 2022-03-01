@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.custom:
 ms.date: 11/02/2020
 ms.author: paulnog
-ms.reviewer: v-aangie
+ms.reviewer: angieandrews
 ---
 
 # AI Builder community

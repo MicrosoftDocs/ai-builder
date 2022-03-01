@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 4/23/2021
 ms.author: antrod
-ms.reviewer: v-aangie
+ms.reviewer: angieandrews
 ---
 
 # Use AI Builder in Teams

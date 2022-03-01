@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 06/22/2021
 ms.author: paulnog
-ms.reviewer: v-aangie
+ms.reviewer: angieandrews
 ---
 
 # Use the ID reader prebuilt model in Power Automate

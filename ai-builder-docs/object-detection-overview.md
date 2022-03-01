@@ -6,7 +6,7 @@ ms.topic: overview
 
 ms.date: 09/06/2019
 ms.author: aminab
-ms.reviewer: v-aangie
+ms.reviewer: angieandrews
 ---
 
 # Overview of the object detection model

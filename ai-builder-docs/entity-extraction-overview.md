@@ -6,7 +6,7 @@ ms.topic: overview
 
 ms.date: 04/08/2020
 ms.author: mfotedar
-ms.reviewer: v-aangie
+ms.reviewer: angieandrews
 ---
 
 # Overview of the entity extraction custom model (preview)

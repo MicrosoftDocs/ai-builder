@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.custom:
 ms.date: 08/26/2021
 ms.author: rajvirk
-ms.reviewer: v-aangie
+ms.reviewer: angieandrews
 ---
 
 # Package your own model using solutions

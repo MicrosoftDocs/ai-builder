@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 04/05/2021
 ms.author: rajvirk
-ms.reviewer: v-aangie
+ms.reviewer: angieandrews
 ---
 
 # Use a prediction model in Power Automate

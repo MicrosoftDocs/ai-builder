@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 06/22/2021
 ms.author: joshrenn
-ms.reviewer: v-aangie
+ms.reviewer: angieandrews
 ---
 
 # Use the receipt processor component in Power Apps

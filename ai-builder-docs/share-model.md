@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 10/19/2021
 ms.author: antode
-ms.reviewer: v-aangie
+ms.reviewer: angieandrews
 ---
 
 # Share your AI model

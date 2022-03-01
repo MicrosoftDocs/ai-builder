@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 02/12/2021
 ms.author: jofernan
-ms.reviewer: v-aangie
+ms.reviewer: angieandrews
 ---
 
 # Feature availability by region

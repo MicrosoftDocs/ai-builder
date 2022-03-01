@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 06/30/2021
 ms.author: paulnog
-ms.reviewer: v-aangie
+ms.reviewer: angieandrews
 ---
 
 # Use your AI model

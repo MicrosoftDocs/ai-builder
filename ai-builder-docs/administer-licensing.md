@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.custom: intro-internal
 ms.date: 01/31/2022
 ms.author: paulnog
-ms.reviewer: v-aangie
+ms.reviewer: angieandrews
 ---
 
 # AI Builder licensing

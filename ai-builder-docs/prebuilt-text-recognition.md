@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 03/29/2021
 ms.author: alanab
-ms.reviewer: v-aangie
+ms.reviewer: angieandrews
 ---
 
 # Text recognition prebuilt model

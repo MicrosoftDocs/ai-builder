@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 07/06/2021
 ms.author: norliu
-ms.reviewer: v-aangie
+ms.reviewer: angieandrews
 ---
 
 # Use formulas for text AI models in Power Apps (preview)

@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.custom: intro-internal
 ms.date: 04/09/2021
 ms.author: rajvirk
-ms.reviewer: v-aangie
+ms.reviewer: angieandrews
 ---
 
 # Use the object detection component in Power Apps

@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 06/22/2021
 ms.author: joshrenn
-ms.reviewer: v-aangie
+ms.reviewer: angieandrews
 ---
 
 # Receipt processing prebuilt model

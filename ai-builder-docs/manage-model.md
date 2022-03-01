@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 03/02/2021
 ms.author: paulnog
-ms.reviewer: v-aangie
+ms.reviewer: angieandrews
 ---
 
 # Manage your model in AI Builder

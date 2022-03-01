@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 07/16/2021
 ms.author: kvivek
-ms.reviewer: v-aangie
+ms.reviewer: angieandrews
 ---
 
 # Roles and security in AI Builder
