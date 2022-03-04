@@ -1,11 +1,11 @@
 ---
 title: Start using AI Builder with sample data - AI Builder | Microsoft Docs
 description: Shows where you can obtain sample data to start using AI Builder.
-author: v-aangie
+author: paulnog
 ms.topic: conceptual
 ms.custom:
 ms.date: 08/09/2021
-ms.author: joshrenn
+ms.author: paulnog
 ms.reviewer: angieandrews
 ---
 

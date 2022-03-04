@@ -1,11 +1,11 @@
 ---
 title: Use the receipt processor component in Power Apps - AI Builder | Microsoft Docs
 description: Provides information about how to use the receipt processor component in Power Apps
-author: jarennert
+author: paulnog
 ms.topic: conceptual
 ms.custom: 
 ms.date: 06/22/2021
-ms.author: joshrenn
+ms.author: paulnog
 ms.reviewer: angieandrews
 ---
 
