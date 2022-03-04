@@ -6,7 +6,7 @@ ms.topic: overview
 
 ms.date: 03/05/2021
 ms.author: paulnog
-ms.reviewer: v-aangie
+ms.reviewer: angieandrews
 ---
 
 # Overview of prebuilt AI models

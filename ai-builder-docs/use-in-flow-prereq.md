@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.custom:
 ms.date: 11/03/2020
 ms.author: jofernan
-ms.reviewer: v-aangie
+ms.reviewer: angieandrews
 ---
 
 # Prerequisites for using AI Builder in Power Automate

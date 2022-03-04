@@ -1,13 +1,11 @@
 ---
 title: Overview of category classification model - AI Builder | Microsoft Docs
 description: Describes category classification models. Gives an overview of how to build and use category classification models in AI Builder. 
-author: raaourik 
-
+author: paulnog
 ms.topic: overview
-
 ms.date: 03/10/2020
-ms.author: raaourik 
-ms.reviewer: v-aangie
+ms.author: paulnog 
+ms.reviewer: angieandrews
 ---
 
 # Overview of the category classification custom model

@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 07/29/2021
 ms.author: norliu
-ms.reviewer: v-aangie
+ms.reviewer: angieandrews
 ---
 
 # Before you build a category classification model

@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 04/05/2021
 ms.author: alanab
-ms.reviewer: v-aangie
+ms.reviewer: angieandrews
 ---
 
 # Language detection prebuilt model

@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.custom:
 ms.date: 2/14/2022
 ms.author: paulnog
-ms.reviewer: v-aangie
+ms.reviewer: angieandrews
 ---
 
 # AI models and business scenarios

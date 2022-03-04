@@ -6,7 +6,7 @@ ms.topic: overview
 
 ms.date: 5/3/2021
 ms.author: norliu
-ms.reviewer: v-aangie
+ms.reviewer: angieandrews
 ---
 
 # Overview of the prediction model

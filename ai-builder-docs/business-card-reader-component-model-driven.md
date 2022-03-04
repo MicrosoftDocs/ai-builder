@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 04/09/2021
 ms.author: jofernan
-ms.reviewer: v-aangie
+ms.reviewer: angieandrews
 ---
 
 # Use the business card reader component in model-driven apps in Power Apps
