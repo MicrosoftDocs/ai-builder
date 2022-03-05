@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 03/19/2021
 ms.author: paulnog
-ms.reviewer: v-aangie
+ms.reviewer: angieandrews
 ---
 
 # Create a category classification custom model

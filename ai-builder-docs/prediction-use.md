@@ -1,12 +1,12 @@
 ---
 title: Use your prediction model - AI Builder | Microsoft Docs
 description: Describes how to run your model. Provides information about the schedule feature, which allows you to automatically retrain and run your prediction model at the cadence you choose. 
-author: v-aangie
+author: billba
 ms.topic: conceptual
 ms.custom: 
 ms.date: 03/19/2021
-ms.author: rajvirk
-ms.reviewer: v-aangie
+ms.author: billba
+ms.reviewer: angieandrews
 ---
 
 # Use your prediction model

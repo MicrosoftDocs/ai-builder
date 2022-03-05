@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 08/09/2021
 ms.author: norliu
-ms.reviewer: v-aangie
+ms.reviewer: angieandrews
 ---
 
 # Prediction model training errors and warnings

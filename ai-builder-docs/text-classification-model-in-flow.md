@@ -1,12 +1,12 @@
 ---
 title: Use category classification model in Power Automate - AI Builder | Microsoft Docs
 description: Provides information about how to use a category classification model in Power Automate.
-author: raaourik
+author: paulnog
 ms.topic: conceptual
 ms.custom: 
 ms.date: 04/05/2021
-ms.author: raaourik
-ms.reviewer: v-aangie
+ms.author: paulnog
+ms.reviewer: angieandrews
 ---
 
 

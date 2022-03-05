@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 02/14/2022
 ms.author: paulnog
-ms.reviewer: v-aangie
+ms.reviewer: angieandrews
 ---
 
 # Common issues and resolutions for AI Builder

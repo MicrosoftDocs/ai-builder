@@ -6,7 +6,7 @@ ms.topic: overview
 
 ms.date: 11/08/2021
 ms.author: norliu
-ms.reviewer: v-aangie
+ms.reviewer: angieandrews
 ---
 
 # AI Builder in Power Apps overview

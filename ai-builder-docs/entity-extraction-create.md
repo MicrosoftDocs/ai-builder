@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 5/24/2021
 ms.author: mfotedar
-ms.reviewer: v-aangie
+ms.reviewer: angieandrews
 ---
 
 # Create an entity extraction custom model

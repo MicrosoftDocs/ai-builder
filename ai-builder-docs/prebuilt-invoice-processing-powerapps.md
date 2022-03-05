@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 06/22/2021
 ms.author: jofernan
-ms.reviewer: v-aangie
+ms.reviewer: angieandrews
 ---
 
 # Use invoice processing in Power Apps

@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 04/05/2021
 ms.author: alanab
-ms.reviewer: v-aangie
+ms.reviewer: angieandrews
 ---
 
 # Use the text translation prebuilt model in Power Automate
