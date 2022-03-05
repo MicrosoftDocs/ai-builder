@@ -6,7 +6,7 @@ ms.topic: overview
 ms.custom: 
 ms.date: 04/09/2021
 ms.author: paulnog
-ms.reviewer: v-aangie
+ms.reviewer: angieandrews
 ---
 
 # AI Builder in SharePoint

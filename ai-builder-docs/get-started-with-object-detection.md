@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.date: 03/19/2021
 ms.custom: intro-internal
 ms.author: angieandrews
-ms.reviewer: v-aangie
+ms.reviewer: angieandrews
 ---
 
 # Build your object detection custom model

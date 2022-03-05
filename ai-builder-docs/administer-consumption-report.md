@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 04/09/2021
 ms.author: cdbellar
-ms.reviewer: v-aangie
+ms.reviewer: angieandrews
 ---
 
 # AI Builder consumption report

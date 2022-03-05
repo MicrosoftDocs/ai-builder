@@ -5,7 +5,7 @@ author: JoeFernandezMS
 ms.topic: overview
 ms.date: 1/24/2022
 ms.author: jofernan
-ms.reviewer: v-aangie
+ms.reviewer: angieandrews
 ---
 
 # AI Builder in Power Automate overview

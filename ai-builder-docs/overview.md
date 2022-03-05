@@ -5,7 +5,7 @@ author: paulnog
 ms.topic: overview
 ms.date: 02/14/2022
 ms.author: paulnog
-ms.reviewer: v-aangie
+ms.reviewer: angieandrews
 ---
 
 # Overview of AI Builder

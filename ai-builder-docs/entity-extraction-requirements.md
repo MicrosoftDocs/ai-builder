@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.custom:
 ms.date: 04/08/2020
 ms.author: mfotedar
-ms.reviewer: v-aangie
+ms.reviewer: angieandrews
 ---
 
 # Entity extraction custom model requirements and limitations
