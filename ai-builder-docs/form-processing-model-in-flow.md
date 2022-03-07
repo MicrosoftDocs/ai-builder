@@ -154,7 +154,7 @@ AI Builder form processing returns all outputs as strings. If the destination wh
 > [!div class="mx-imgBorder"]
 > ![Animation of the formatDateTime expression.](media/form-processing-convert-date.gif "Add the expression above into the input field of an action in your flow. Remember to replace the first parameter of the expression by the form processing output you want to convert to date.")
 
-### Filter email signature from a flow so that is not processed by the form processing model (Microsoft 365 Outlook)
+### Filter email signature from a flow so that it is not processed by the form processing model (Microsoft 365 Outlook)
 
 For incoming emails from the Microsoft 365 Outlook connector, email signatures are picked up by Power Automate as attachments. To keep these from being processed by the form processing model add a condition to your flow that checks if the output from the Microsoft 365 Outlook connector named **Attachments is Inline** is equal to false. In the **If yes** branch of the condition add the form processing action. With this only email attachments that are not inline signatures will be processed. 
 
