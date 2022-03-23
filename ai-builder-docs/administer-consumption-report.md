@@ -18,6 +18,8 @@ AI Builder is licensed as a capacity add-on that must be allocated to a Microsof
 
 In addition, administrators can download an Excel report that shows the actual capacity consumption in your tenant. The consumption report shows the capacity used in the 30 days preceding the selected target date for each environment. This makes it easier to compare your allocated capacity with the actual capacity consumption of your organization so you can fine tune your capacity allocation.
 
+Consumption reports are not available in Government Community Cloud (GCC and GCC High).
+
 ## View the consumption report
 
 To download and view an Excel file showing your AI credit consumption report:
