@@ -154,6 +154,8 @@
       href: form-processing-sample-data.md
     - name: FAQ for form processing
       href: form-processing-faq.md
+    - name: Process multipage tables in form processing (experimental)
+      href: form-processing-multipage.md  
   - name: Image classification AI model by Lobe (preview)
     items:
     - name: Overview
