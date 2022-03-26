@@ -1,11 +1,10 @@
 ---
-title: Share your experience - AI Builder | Microsoft Docs
+title: AI Builder Community | Microsoft Docs
 description: Provides information about Microsoft forums where you can read and contribute to discussions about AI Builder 
 author: paulnog
-
 ms.topic: conceptual
 ms.custom:
-ms.date: 11/02/2020
+ms.date: 03/25/2022
 ms.author: paulnog
 ms.reviewer: angieandrews
 ---
