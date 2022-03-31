@@ -13,9 +13,11 @@ ms.reviewer: angieandrews
 
 If your model performance isn't where you want it to be, for example you're getting bad results or low confidence scores, there are some things you can try.
 
-## Evaluate your accuracy score
+## How to interpret your model accuracy score
 
 Evaluate your accuracy score to identify what your model is struggling to extract. Model evaluations include recommendations for raising the score.
+
+To learn how an accuracy score is calculated, go to [Accuracy score](prediction-performance.md#accuracy-score).
 
 1. Sign in to [Power Apps](https://make.powerapps.com/) or [Power Automate](https://flow.microsoft.com/signin).
 
