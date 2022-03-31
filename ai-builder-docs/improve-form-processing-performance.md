@@ -13,7 +13,7 @@ ms.reviewer: angieandrews
 
 If your model performance isn't where you want it to be, for example you're getting bad results or low confidence scores, there are some things you can try.
 
-## How to interpret your model accuracy score
+## Interpret your model accuracy score
 
 Evaluate your accuracy score to identify what your model is struggling to extract. Model evaluations include recommendations for raising the score.
 
