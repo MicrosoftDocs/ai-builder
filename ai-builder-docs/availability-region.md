@@ -39,7 +39,7 @@ The following tables show which AI Builder features are available in each region
 
 |Feature |Asia |Australia |Canada |Europe |France |Germany |India |Japan |South America |Switzerland |United Arab Emirates |United Kingdom |United States |
 |:-------|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
-|Business card reader    |GA|GA |GA|GA|GA |GA|GA |GA|GA|-|GA|GA|GA
+|Business card reader    |GA|GA |GA|GA|GA |GA|GA |GA|GA|GA|GA|GA|GA
 |Category classification |Preview |Preview |Preview |Preview|Preview|Preview|Preview|Preview |Preview |Preview|Preview |Preview |Preview |
 |Entity extraction |GA |GA |GA |GA |GA|GA|GA|-|GA |GA |GA |GA |GA|
 |Identity document reader |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |
@@ -73,7 +73,7 @@ AI Builder is available in US Government environments with the features listed i
 ### Prebuilt models
 |Feature |Government Community Cloud (GCC) |Government Community Cloud – High (GCC High) |Department of Defense (DoD) |
 |:-------|:-------:|:-------:|:-------:|
-|Business card reader    |-|-|-|
+|Business card reader    |GA|GA|-|
 |Category classification |Preview|Preview|-|
 |Entity extraction |GA|GA|-|
 |Identity document reader |GA|GA|-|
@@ -91,6 +91,7 @@ The following features available in the commercial version of AI Builder are not
 
 - 30-day user trials
 - AI model copy across cloud boundaries (for example between Public and GCC or between GCC and GCC High)
+- [Document Automation](doc-automation.md) is not available in GCC and GCC High
 
 For more information about other limitations of Power Platform US Government, go to these topics: 
 
