@@ -91,7 +91,7 @@ The following features available in the commercial version of AI Builder are not
 
 - 30-day user trials
 - AI model copy across cloud boundaries (for example between Public and GCC or between GCC and GCC High)
-- [Document Automation](https://docs.microsoft.com/ai-builder/doc-automation) is not available in GCC and GCC High
+- [Document Automation](doc-automation.md) is not available in GCC and GCC High
 
 For more information about other limitations of Power Platform US Government, go to these topics: 
 
