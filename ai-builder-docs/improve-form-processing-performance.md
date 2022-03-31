@@ -4,21 +4,52 @@ description: Provides tips to help you improve form processing model performance
 author: JoeFernandezMS
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/29/2021
+ms.date: 03/31/2022
 ms.author: jofernan
 ms.reviewer: angieandrews
 ---
 
 # Improve the performance of your form processing model
 
-If your model performance isn't where you want it to be, for example you're getting bad results or low confidence scores, there are a few things you can try.
+If your model performance isn't where you want it to be, for example you're getting bad results or low confidence scores, there are some things you can try.
+
+## Evaluate your accuracy score
+
+Evaluate your accuracy score to identify what your model is struggling to extract. Model evaluations include recommendations for raising the score.
+
+1. Sign in to [Power Apps](https://make.powerapps.com/) or [Power Automate](https://flow.microsoft.com/signin).
+
+1. In the left pane, select **AI Builder** > **Models**.
+
+1. Open the model you want to investigate. You should see the accuracy score.
+
+    If you don't see the accuracy score, your model might not have been trained since Jan 1, 2022 or it includes functionality that's in preview. We recommend that you retrain your model and go back to the page once done.
+
+1. On the model details page, you should see the general accuracy score. <!--Is this the same score as in step 2-->
+
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of the accuracy score.](media/improve-the-performance-of-your-form-processing-model/accuracy-score.png "Accuracy score")
+
+1. To get details, select **review full evaluation**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of the Model evaluation screen, Overview tab.](media/improve-the-performance-of-your-form-processing-model/model-evaluation.png "Model evaluation screen, Overview tab")
+
+    In this panel, you can navigate among different tabs to identify what your model is struggling to extract. You can browse the **Collection**, **Field**, **Table**, and **Checkbox** tabs to find what isn’t processed properly.
+
+    Here's an example of the information in the **Field** tab.
+
+    In this example, you'll want to improve the accuracy of the **Vendor** information. You can do this by adding more documents to the training data. You can learn how to do this in the next section in this article.
+
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of the Model evaluation screen, Field tab.](media/improve-the-performance-of-your-form-processing-model/field-evaluation.png "Model evaluation screen, Field tab")
 
 ## Add more documents to the training data
 
-The more documents you tag, the more AI Builder will learn how to better recognize the fields. To add more documents, edit your form processing model and upload more documents. You will find the option to edit the model on the details page of the model.
+The more documents you tag, the more AI Builder will learn how to better recognize the fields. To add more documents, edit your form processing model and upload more documents. You'll find the option to edit the model on the details page of the model.
 
 > [!div class="mx-imgBorder"]
-> ![AI Builder home page.](media/form-processing-edit-model.png "Edit a form processing model")
+> ![Screenshot of the details page with the option to edit a form processing model.](media/improve-the-performance-of-your-form-processing-model/form-processing-edit-model.png "Details page with the option to edit a form processing model")
 
 ## More tips
 
@@ -28,8 +59,7 @@ The more documents you tag, the more AI Builder will learn how to better recogni
 - If possible, use text-based PDF documents instead of image-based documents. Scanned PDFs are handled as images.
 - When you create a form processing model, upload documents with the same layout where each document is a separate instance. For example, invoices from different months should be in separate documents and not all in the same one.
 - Documents that have different layouts should go [into different collections](create-form-processing-model.md#group-documents-by-collections) when you upload samples for training. 
-- If the form processing model is extracting values from neighboring fields from the one you want the model to extract, edit the model and tag adjacent values that are being wrongly picked up as being different fields. That way the model will better learn the boundaries for each field. 
-
+- If the form processing model is extracting values from neighboring fields from the one you want the model to extract, edit the model and tag adjacent values that are being wrongly picked up as being different fields. By doing this, the model will better learn the boundaries for each field.
 
 ### See also
 
