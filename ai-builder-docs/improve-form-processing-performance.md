@@ -25,7 +25,7 @@ To learn how an accuracy score is calculated, go to [Accuracy score](prediction-
 
 1. Open the model you want to investigate. You should see the accuracy score.
 
-    If you don't see the accuracy score, your model might not have been trained since Jan 1, 2022 or it includes functionality that's in preview. We recommend that you retrain your model and go back to the page once done.
+    If you don't see the accuracy score, your model might not have been trained since January 1, 2022 or it includes functionality that's in preview. We recommend that you retrain your model and go back to the page once done.
 
 1. On the model details page, you should see the general accuracy score. <!--Is this the same score as in step 2-->
 
