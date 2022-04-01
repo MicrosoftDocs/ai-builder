@@ -47,7 +47,7 @@ To learn how an accuracy score is calculated, go to [Accuracy score](prediction-
     In this example, you'll want to improve the accuracy of the **Vendor** information.
 
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of the Model evaluation screen, Field tab.](media/improve-the-performance-of-your-form-processing-model/field-evaluation-poor.png "Model evaluation screen, Field tab")
+    > ![Screenshot of a poor accuracy score in the Field tab.](media/improve-the-performance-of-your-form-processing-model/field-evaluation-poor.png "Poor accuracy score in the Field tab")
 
     You can improve the accuracy score by adding more documents to the training data. You can learn how to do this in the next section in this article.
 
@@ -76,7 +76,7 @@ The more documents you tag, the more AI Builder will learn how to better recogni
 - If possible, use text-based PDF documents instead of image-based documents. Scanned PDFs are handled as images.
 - When you create a form processing model, upload documents with the same layout where each document is a separate instance. For example, invoices from different months should be in separate documents and not all in the same one.
 - Documents that have different layouts should go [into different collections](create-form-processing-model.md#group-documents-by-collections) when you upload samples for training. 
-- If the form processing model is extracting values from neighboring fields from the one you want the model to extract, edit the model and tag adjacent values that are being wrongly picked up as being different fields. By doing this, the model will better learn the boundaries for each field.
+- If the form processing model is extracting values from neighboring fields from the one you want the model to extract, edit the model and tag adjacent values that are being picked up incorrectly as being different fields. By doing this, the model will better learn the boundaries for each field.
 
 ### See also
 
