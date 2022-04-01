@@ -41,10 +41,25 @@ To learn how an accuracy score is calculated, go to [Accuracy score](prediction-
 
     Here's an example of the information in the **Field** tab.
 
-    In this example, you'll want to improve the accuracy of the **Vendor** information. You can do this by adding more documents to the training data. You can learn how to do this in the next section in this article.
-
     > [!div class="mx-imgBorder"]
     > ![Screenshot of the Model evaluation screen, Field tab.](media/improve-the-performance-of-your-form-processing-model/field-evaluation.png "Model evaluation screen, Field tab")
+
+    In this example, you'll want to improve the accuracy of the **Vendor** information.
+
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of the Model evaluation screen, Field tab.](media/improve-the-performance-of-your-form-processing-model/field-evaluation-poor.png "Model evaluation screen, Field tab")
+
+    You can improve the accuracy score by adding more documents to the training data. You can learn how to do this in the next section in this article.
+
+**What can I do if I have a low accuracy score for a field, table, or checkbox?**
+
+1. Check that the field, table, or checkbox has been tagged correctly in all the documents.
+
+1. Provide more sample documents for training where the field, table, or checkbox is present. 
+
+**What can I do if I have a low accuracy score for a collection?**
+
+Check that the documents within the collection all have the same layout. To learn more about collections, go to [Group documents by collections](create-form-processing-model.md#group-documents-by-collections). 
 
 ## Add more documents to the training data
 
