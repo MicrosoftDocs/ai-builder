@@ -3,7 +3,7 @@ title: Improve the performance of your form processing model - AI Builder | Micr
 description: Provides tips to help you improve form processing model performance in AI Builder.
 author: JoeFernandezMS
 ms.topic: conceptual
-ms.custom: 
+ms.custom: intro-internal
 ms.date: 03/31/2022
 ms.author: jofernan
 ms.reviewer: angieandrews
