@@ -51,6 +51,9 @@ To learn how an accuracy score is calculated, go to [Accuracy score](prediction-
 
     You can improve the accuracy score by adding more documents to the training data. You can learn how to do this in the next section in this article.
 
+
+### Common questions
+
 **What can I do if I have a low accuracy score for a field, table, or checkbox?**
 
 1. Check that the field, table, or checkbox has been tagged correctly in all the documents.
