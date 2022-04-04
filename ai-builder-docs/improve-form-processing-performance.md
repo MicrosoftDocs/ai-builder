@@ -49,8 +49,7 @@ To learn how an accuracy score is calculated, go to [Accuracy score](prediction-
     > [!div class="mx-imgBorder"]
     > ![Screenshot of a poor accuracy score in the Field tab.](media/improve-the-performance-of-your-form-processing-model/field-evaluation-poor.png "Poor accuracy score in the Field tab")
 
-    You can improve the accuracy score by adding more documents to the training data. You can learn how to do this in the next section in this article.
-
+    See suggestions on what you can do to improve your model by hovering over items with a poor accuracy score. For example, you might see a recommendation to [provide more sample documents](#add-more-documents-to-the-training-data) for training.
 
 ### Common questions
 
