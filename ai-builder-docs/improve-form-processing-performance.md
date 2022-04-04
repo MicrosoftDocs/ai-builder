@@ -21,13 +21,13 @@ Interpret your accuracy score to identify what your model is struggling to extra
 
 1. In the left pane, select **AI Builder** > **Models**.
 
-1. Open the form processing model you want to investigate. You should see the accuracy score. If you don’t see the accuracy score, your model might not have been trained since January 1, 2022. In this case, you can retrain it. Another reason you won't see the accuracy score is that your model has been imported from another environment.
+1. Open the form processing model you want to investigate. You should see the accuracy score.
 
     > [!NOTE]
     >
-    > If you don't see the accuracy score, your model might not have been trained since January 1, 2022 or it includes functionality that's in preview. We recommend that you retrain your model and go back to the page once done.
+    > If you don’t see the accuracy score, your model might not have been trained since January 1, 2022. In this case, you can retrain it. Another reason you won't see the accuracy score is that your model has been imported from another environment.
 
-1. On the model details page, you should see the general accuracy score. <!--Is this the same score as in step 2-->
+1. On the model details page, you should see the general accuracy score.
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of the accuracy score.](media/improve-the-performance-of-your-form-processing-model/accuracy-score.png "Accuracy score")
