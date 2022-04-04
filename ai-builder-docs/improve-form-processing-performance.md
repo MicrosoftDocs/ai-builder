@@ -17,8 +17,6 @@ If your model performance isn't where you want it to be, for example you're gett
 
 Interpret your accuracy score to identify what your model is struggling to extract. Model evaluations include recommendations for raising the score.
 
-To learn how an accuracy score is calculated, go to [Accuracy score](prediction-performance.md#accuracy-score).
-
 1. Sign in to [Power Apps](https://make.powerapps.com/) or [Power Automate](https://flow.microsoft.com/signin).
 
 1. In the left pane, select **AI Builder** > **Models**.
