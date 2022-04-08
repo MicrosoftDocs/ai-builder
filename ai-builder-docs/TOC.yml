@@ -162,9 +162,9 @@
       href: lobe-overview.md
     - name: Export your image classification model
       href: lobe-export.md
-- name: Bring your own AI model (preview)
+- name: Bring your own AI model
   items:
-  - name: Azure machine learning models (preview)
+  - name: Azure machine learning models
     items:
     - name: Create and register your own model
       href: byo-model.md
