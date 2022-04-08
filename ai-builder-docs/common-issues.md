@@ -54,7 +54,7 @@ If this error occurs, decrease the concurrency level of your flow. For example, 
 
 ## The output of an AI Builder action is empty in Power Automate or the next action returns an error "Unable to process template language expressions in action..."
 
-When looking at the output of the AI bulider action, you'll see a json starting with `"statusCode": 202`.
+When looking at the output of the AI builder action, you'll see a json starting with `"statusCode": 202`.
 Make sure that the asynchronous pattern is not disabled for this action. If it is disabled, enable it and run your flow again.
 
    > [!div class="mx-imgBorder"]
@@ -206,7 +206,7 @@ You'll get an error message if the AI model you’re using contains at least one
 To resolve, try the following steps:
 1. Sign in to [Power Apps Studio](https://create.powerapps.com).
 1. In the left navigation pane, select **Account**.
-1. In the **Settings** page, select Support in teh left navigation pane.
+1. In the **Settings** page, select Support in the left navigation pane.
 1. Select **Edit** under **Authoring version**, and select the most recent authoring version from the **Authoring version** list.
 1. Select **Reload + apply version**.
 1. Finally, create a new app and insert the form processor control targeting the same model.
