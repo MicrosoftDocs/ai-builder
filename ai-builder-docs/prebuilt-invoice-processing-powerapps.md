@@ -27,7 +27,7 @@ Currently, there is no invoice processing control available for canvas apps in P
 
 1. Select **Create**.
 
-1. Select **+ New step** > **AI Builder**, and then select **Process and save information from invoices** in the **Actions** list.
+1. Select **+ New step** > **AI Builder**, and then select **Extract information from invoices** in the **Actions** list.
 
 1. Select the **Invoice file** input and then select **Ask in Power Apps** in the **Dynamic content** list.
 
