@@ -59,9 +59,17 @@ We added the share action to help with privacy concerns. Now, you can build a mo
 
 ### Can I allow other users to edit my model?
 
+**Prerequisite**: a user with an **Environment Maker** role privilege will be able to perform this action.
+
+[Learn more with Roles](https://docs.microsoft.com/ai-builder/security#roles)
+
 Yes. In the advanced settings of your organization, an admin has to select your AI model and share it with other users by giving Write and Append privileges.
 
 ### The owner of a model has left the company. How can we allow non-admin users to edit this model?
+
+**Prerequisite**: a user with an **Environment Maker** role privilege will be able to perform this action.
+
+[Learn more with Roles](https://docs.microsoft.com/ai-builder/security#roles)
 
 Reassign this model to another user. _Reassign_ means changing ownership in the advanced settings of your organization in AI Builder. You also need to give access to the data used to train the model.
 
