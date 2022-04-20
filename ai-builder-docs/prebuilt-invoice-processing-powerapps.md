@@ -11,13 +11,13 @@ ms.reviewer: angieandrews
 
 # Use invoice processing in Power Apps
 
-Currently, there is no invoice processing control available for canvas apps in Power Apps. But you can create an app that calls a Power Automate flow that uses the invoice processing prebuilt AI model, and then return the results back to your app. The following example shows how to do this:
+Currently, there's no invoice processing control available for canvas apps in Power Apps. But you can create an app that calls a Power Automate flow that uses the invoice processing prebuilt AI model, and then return the results back to your app. The following example shows how to do this:
 
 ## Build your flow
 
 1. Sign in to [Power Automate](https://flow.microsoft.com).
 
-1. Make sure you are in the same Power Platform environment where you will have your canvas app. Check the environment on the top right of the page.
+1. Make sure you are in the same Power Platform environment where you'll have your canvas app. Check the environment on the top right of the page.
 
 1. Select **My flows** in the left-side navigation pane.
 
@@ -86,7 +86,7 @@ Currently, there is no invoice processing control available for canvas apps in P
    > [!div class="mx-imgBorder"]
    > ![Formula menu.](media/canvas-app-formula.png "Enter the formula")
 
-1. Now let’s add two labels and two text inputs to display the results we will get from the flow. Change the Default property for each text input to take the values from the variables we have defined in the previous step.
+1. Now let’s add two labels and two text inputs to display the results we'll get from the flow. Change the Default property for each text input to take the values from the variables we've defined in the previous step.
    > [!div class="mx-imgBorder"]
    > ![Add labels and text inputs.](media/canvas-app-add-labels.png "Add two labels and two text inputs")
 
