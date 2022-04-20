@@ -59,17 +59,17 @@ We added the share action to help with privacy concerns. Now, you can build a mo
 
 ### Can I allow other users to edit my model?
 
-**Prerequisite**: a user with an **Environment Maker** role privilege will be able to perform this action.
+*Prerequisite*: a user with an **Environment Maker** role privilege can perform this action.
 
-[Learn more with Roles](https://docs.microsoft.com/ai-builder/security#roles)
+[Learn more with roles](security.md#roles)
 
 Yes. In the advanced settings of your organization, an admin has to select your AI model and share it with other users by giving Write and Append privileges.
 
 ### The owner of a model has left the company. How can we allow non-admin users to edit this model?
 
-**Prerequisite**: a user with an **Environment Maker** role privilege will be able to perform this action.
+*Prerequisite*: a user with an **Environment Maker** role privilege can perform this action.
 
-[Learn more with Roles](https://docs.microsoft.com/ai-builder/security#roles)
+[Learn more with roles](security.md#roles)
 
 Reassign this model to another user. _Reassign_ means changing ownership in the advanced settings of your organization in AI Builder. You also need to give access to the data used to train the model.
 
@@ -91,7 +91,9 @@ To change the ownership of a model:
 
 1. You'll get a list of the AI models in the environment. Select the model you want to reassign, and select **Assign AI Models**. A window will open where you can change the owner of the model.
 
-If the model you're changing the ownership is a *form processing* model or an *object detection* model, you'll also need to reassign the **AI Builder Datasets Container** associated with the model. To do this:
+If the model you're changing the ownership is a *form processing* model or an *object detection* model, you'll also need to reassign the **AI Builder Datasets Container** associated with the model.
+
+ To reassign **AI Builder Datasets Containers**:
 
 1.	On the **Advanced Find** tab, select **AI Builder Datasets Containers** from the **Look for** list. To make it easier to identify which AI models it corresponds to, select **Edit Columns** > **Add Columns** > **AI Model**. 
 
@@ -103,7 +105,7 @@ If the model you're changing the ownership is a *form processing* model or an *o
 
 1.	Select the row associated to the model you are reassigning.
 
-1. Select **Assing AI Builder Datasets Containers**. A window will open where you can change the owner. 
+1. Select **Assign AI Builder Datasets Containers**. A window will open where you can change the owner. 
 
 ### Can I disable the sharing feature for AI model makers and only allow admins to do it?
 
