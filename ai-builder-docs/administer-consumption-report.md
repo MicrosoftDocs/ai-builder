@@ -56,6 +56,7 @@ The report shows AI credits consumed by date for each environment.
 
 
 - **EnvironmentId** is the identifier visible in your Power Apps or Power Automate URL (e.g., https://make.powerapps.com/environments/%GUID%).
+- **UserId** is the identifier visible in the Dataverse "User" table.
 - **<1K** in the **AIConsumption** column means that you have consumed less than 1,000 credits on that day and that environment.
 
 You can compare the aggregated consumption for the current calendar month on each environment with what has been allocated. Using this information, you can take action to allocate more credits to environments that are in overage. Remember, the number of allocated credits by environment is visible and can be changed in the Power Platform admin center [Add-ons](https://admin.powerplatform.microsoft.com/resources/capacity#add-ons) page.
