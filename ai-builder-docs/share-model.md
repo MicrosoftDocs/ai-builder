@@ -103,7 +103,7 @@ If the model you're changing the ownership is a *form processing* model or an *o
     > [!div class="mx-imgBorder"]
     > ![Change view.](media/change-model-ownership-view.png "Change view")
 
-1.	Select the row associated to the model you are reassigning.
+1.	Select the row associated to the model you're reassigning.
 
 1. Select **Assign AI Builder Datasets Containers**. A window will open where you can change the owner. 
 
