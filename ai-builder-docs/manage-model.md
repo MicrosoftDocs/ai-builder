@@ -76,9 +76,11 @@ For more information about the nuances of improving your model performance, see 
 
 Whereas training creates a new version by updating your configuration, retraining creates a new version that uses the same configuration as your current version. The benefit of retraining is that it will study any new data so that your model stays accurate over time. This action is only applicable to certain AI model types.
 
-1. Sign in to [Power Apps](https://make.powerapps.com/) and then, in the left pane, select **AI Builder** > **Models**.
-1. Follow the steps for your model type:<!--This organization is pretty awkward. Is it just a way to make this section easy to expand when other model types get this functionality? I think it might be better to preface this whole procedure with a note that it applies to prediction and category classification models only, then switch it around when other models get on board.-->
-    - For prediction and category classification models, in the **Performance** section, select the **…** menu, and then select **Retrain now**.
+1. Sign in to [Power Apps](https://make.powerapps.com/).
+1. On the left pane, select **AI Builder** > **Models**.
+1. Follow the steps for your model type.
+
+    For prediction and category classification models, in the **Performance** section, select the (**…**) menu, and then select **Retrain now**.
 
 1. This replaces your last trained version. If you're ready, publish this version.
 
