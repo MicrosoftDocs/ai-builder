@@ -47,7 +47,7 @@ An _overfit_ model appears to perform very well&mdash;if not perfectly&mdash;whe
 
 ## Create a new version
 
-To create a new version, select **New version** at the top of the page.
+To create a new version, select **Edit model** at the top of the page.
 
 You can have up to two trained versions available at a time: one **Published version** and one **Last trained version** that isn't published. If you train a new version when a last trained version already exists, the existing last trained version is overwritten.
 
