@@ -159,9 +159,7 @@ If a field, checkbox, or table isn't present in one of the documents you've uplo
 
 ## Tag all documents across all collections
 
-All the documents that you've uploaded are presented for you to tag. Some of the fields might be automatically detected in successive documents. In that case, confirm that the selection is correct.
-
-If you've created multiple collections, tag all documents across all the collections.
+All the documents that you've uploaded are presented for you to tag. If you've created multiple collections, tag all documents across all the collections.
 
 ### Next step
 

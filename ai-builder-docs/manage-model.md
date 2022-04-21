@@ -1,11 +1,11 @@
 ---
 title: Manage your model in AI Builder - AI Builder | Microsoft Docs
 description: Provides detailed information about how to manage your AI models in AI Builder.
-author: paulnog
+author: phil-cmd
 ms.topic: conceptual
 ms.custom: 
 ms.date: 03/02/2021
-ms.author: paulnog
+ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
@@ -14,7 +14,7 @@ ms.reviewer: angieandrews
 Creating the optimal model for your business can be a rather iterative process. Results can vary depending on the configurations you set and the training data you provide. Updating these factors can improve the performance of your model. In some cases, however, performance might be degraded. Each AI model type has a set of guidelines to help you with the process of creating the best model, tailored to your needs.
 
 > [!div class="mx-imgBorder"]
-> ![Manage AI model screen.](media/manage-model.png "Manage AI model screen")
+> ![Screenshot of the screen to manage an AI model.](media/manage-model.png "Manage an AI model screen")
 
 ## Evaluate your model
 
@@ -47,14 +47,14 @@ An _overfit_ model appears to perform very well&mdash;if not perfectly&mdash;whe
 
 ## Create a new version
 
-To create a new version, select **New version** at the top of the page.
+To create a new version, select **Edit model** at the top of the page.
 
 You can have up to two trained versions available at a time: one **Published version** and one **Last trained version** that isn't published. If you train a new version when a last trained version already exists, the existing last trained version is overwritten.
 
 When you create a new version, your model is based on the configuration from an existing version—your published version, or your last trained version. If you have both, you have to choose which one you want to create the new version from.
 
 > [!div class="mx-imgBorder"]
-> ![New version menu.](media/new-version-menu.png "New version menu")
+> ![Screenshot of the Edit model menu.](media/new-version-menu.png "Edit model menu")
 
 A new version is created only after you've successfully trained it. If you leave without finishing your changes and training your model, your progress is saved as a draft. Certain actions, such as creating a new version or retraining, might be disabled until you train or discard your draft. You can only have one draft available at a time, so you have to select either **Resume draft** to pick up where you left off or **Discard draft** to get rid of the changes before you can continue.
 
@@ -76,9 +76,11 @@ For more information about the nuances of improving your model performance, see 
 
 Whereas training creates a new version by updating your configuration, retraining creates a new version that uses the same configuration as your current version. The benefit of retraining is that it will study any new data so that your model stays accurate over time. This action is only applicable to certain AI model types.
 
-1. Sign in to [Power Apps](https://make.powerapps.com/) and then, in the left pane, select **AI Builder** > **Models**.
-1. Follow the steps for your model type:<!--This organization is pretty awkward. Is it just a way to make this section easy to expand when other model types get this functionality? I think it might be better to preface this whole procedure with a note that it applies to prediction and category classification models only, then switch it around when other models get on board.-->
-    - For prediction and category classification models, in the **Performance** section, select the **…** menu, and then select **Retrain now**.
+1. Sign in to [Power Apps](https://make.powerapps.com/).
+1. On the left pane, select **AI Builder** > **Models**.
+1. Follow the steps for your model type.
+
+    For prediction and category classification models, in the **Performance** section, select the (**…**) menu, and then select **Retrain now**.
 
 1. This replaces your last trained version. If you're ready, publish this version.
 
