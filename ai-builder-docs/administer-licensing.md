@@ -5,7 +5,7 @@ author: paulnog
 ms.topic: conceptual
 ms.custom: intro-internal
 ms.date: 01/31/2022
-ms.author: paulnog
+ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
@@ -48,7 +48,7 @@ For information about how to allocate capacity in Power Platform admin center, g
 Want to get started using AI Builder? Use premium features for a limited time with a [trial license](https://web.powerapps.com/signup?redirect=marketing&email=), or use preview features without obtaining a license at all.
 
 > [!NOTE]
-> You can start an AI Builder trial only if you haven’t previously purchased AI Builder credits or got AI Builder credits though other products.
+> You *can't start an AI Builder trial* if you have AI Builder credits already on your tenant by purchasing a capacity add-on or through other products.
 
 ### Benefits of a trial license
 
@@ -106,8 +106,6 @@ The following functions aren't available when you exceed capacity:
   - Some scenarios allow scheduled run or retrain, which is configured on the model settings panel. These scheduled tasks will fail when you exceed capacity. Therefore, data won’t be refreshed, and the model won’t be retrained.
 
 To continue using AI Builder when you exceed capacity, purchase AI Builder add-on capacity, and allocate it to your environments.
->[!NOTE]
->When you have an active trial and you’re working within an environment that has allocated AI Builder capacity, then you consume the environment allocated capacity, not trial capacity.
 
 If you extend a trial after expiration, capacity is reset. You can again run and train your models, and create new ones. Scheduled run and retrain instances will resume according to the existing settings.
 
