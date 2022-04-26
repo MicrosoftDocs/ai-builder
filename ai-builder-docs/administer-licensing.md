@@ -5,7 +5,7 @@ author: paulnog
 ms.topic: conceptual
 ms.custom: intro-internal
 ms.date: 01/31/2022
-ms.author: paulnog
+ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
@@ -48,7 +48,7 @@ For information about how to allocate capacity in Power Platform admin center, g
 Want to get started using AI Builder? Use premium features for a limited time with a [trial license](https://web.powerapps.com/signup?redirect=marketing&email=), or use preview features without obtaining a license at all.
 
 > [!NOTE]
-> You **can't start an AI Builder trial** if you have already AI Builder credits on your tenant by purchasing a capacity add-on or through other products.
+> You *can't start an AI Builder trial* if you have AI Builder credits already on your tenant by purchasing a capacity add-on or through other products.
 
 ### Benefits of a trial license
 
