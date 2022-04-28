@@ -59,16 +59,16 @@ We added the share action to help with privacy concerns. Now, you can build a mo
 
 ### Can I allow other users to edit my model?
 
-Sharing models for edit is not supported by AI Builder.
+Sharing models for editing purposes isn't supported by AI Builder.
 
-Hovewer, users with **System customizers** role can edit models from other users. Note that this workaround is not supported by AI Builder team and you may face unexpected issues.
+However, users with the **System Customizer** role can edit models from other users. This workaround isn't supported by the AI Builder team and you may face unexpected issues.
 
 
 ### The owner of a model has left the company. How can we allow non-admin users to edit this model?
 
-*Prerequisite*: a user with an **System Customizer** role can perform this action.
+*Prerequisite*: A user with the **System Customizer** role can perform this action.
 
-[Learn more with roles](security.md#roles)
+To learn more about roles, go to [Roles and security](security.md#roles).
 
 Reassign this model to another user. _Reassign_ means changing ownership in the advanced settings of your organization in AI Builder. You also need to give access to the data used to train the model.
 
