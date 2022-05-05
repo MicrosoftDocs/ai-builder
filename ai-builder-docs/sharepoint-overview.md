@@ -23,5 +23,4 @@ For information about requirements and step-by-step instructions to use this fea
 
 [Feature availability by region](availability-region.md)  
 
-
 [!INCLUDE[footer-include](includes/footer-banner.md)]
