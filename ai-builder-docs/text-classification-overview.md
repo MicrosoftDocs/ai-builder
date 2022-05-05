@@ -1,10 +1,10 @@
 ---
 title: Overview of category classification model - AI Builder | Microsoft Docs
 description: Describes category classification models. Gives an overview of how to build and use category classification models in AI Builder. 
-author: paulnog
+author: v-aangie
 ms.topic: overview
-ms.date: 03/10/2020
-ms.author: paulnog 
+ms.date: 05/05/2022
+ms.author: angieandrews 
 ms.reviewer: angieandrews
 ---
 
@@ -21,16 +21,16 @@ Category classification is one of the fundamental natural language processing (N
 
 Automate and scale your business processes with AI Builder category classification in [Power Automate](https://flow.microsoft.com/) and [Power Apps](https://powerapps.microsoft.com/). AI Builder models help free your employees to act on new insights. Use the results as an input for other AI capabilities, like subscription user churn and predictive analysis. AI Builder learns from your previously labeled text items and enables you to classify unstructured text data stored in Microsoft Dataverse into your own business-specific categories.
 
-### Next steps
+## Next steps
 
 - [Before you build a category classification model](before-you-build-text-classification-model.md)
 - [Create a category classification model](create-text-classification-model.md)
 
-### See also
+## See also
 
-[Use a category classification custom model in Power Automate](text-classification-model-in-flow.md)  
-[Use the text recognizer component in Power Apps](prebuilt-text-recognizer-component-in-powerapps.md)  
-[Feature availability by region](availability-region.md)
+- [Use a category classification custom model in Power Automate](text-classification-model-in-flow.md)  
+- [Use the text recognizer component in Power Apps](prebuilt-text-recognizer-component-in-powerapps.md)  
+- [Feature availability by region](availability-region.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
