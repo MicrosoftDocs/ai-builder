@@ -1,12 +1,11 @@
 ---
 title: Document automation toolkit -  AI Builder | Microsoft Docs
 description: Provides guidance on how to automate document processing in AI Builder.
-author: paulnog
-manager: kvivek
+author: v-aangie
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/09/2021
-ms.author: paulnog
+ms.date: 05/05/2021
+ms.author: angieandrews
 ms.reviewer: angieandrews
 ---
 
