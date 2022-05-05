@@ -1,11 +1,11 @@
 ---
 title:  Common issues and resolutions for AI Builder - AI Builder | Microsoft Docs
 description: Provides a list of common issues in AI Builder, and their potential workarounds.
-author: paulnog
+author: v-aangie
 ms.topic: conceptual
 ms.custom: 
-ms.date: 02/14/2022
-ms.author: paulnog
+ms.date: 05/05/2022
+ms.author: angieandrews
 ms.reviewer: angieandrews
 ---
 
