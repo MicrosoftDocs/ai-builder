@@ -4,9 +4,9 @@ description: Shows where to get help with AI Builder.
 author: v-aangie
 ms.topic: conceptual
 ms.custom:
-ms.date: 01/05/2021
-ms.author: paulnog
-ms.reviewer: v-aangie
+ms.date: 05/05/2022
+ms.author: angieandrews
+ms.reviewer: angieandrews
 ---
 
 # Get support for AI Builder

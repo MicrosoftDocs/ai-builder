@@ -1,11 +1,11 @@
 ---
 title: Use the receipt processing prebuilt model in Power Automate - AI Builder | Microsoft Docs
 description: Provides information about how to receipt processing prebuilt model in Power Automate 
-author: paulnog
+author: v-aangie
 ms.topic: conceptual
 ms.custom: 
-ms.date: 07/16/2021
-ms.author: paulnog
+ms.date: 05/05/2022
+ms.author: angieandrews
 ms.reviewer: angieandrews
 ---
 
