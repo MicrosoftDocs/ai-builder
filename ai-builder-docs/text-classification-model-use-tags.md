@@ -1,11 +1,11 @@
 ---
 title: Use a model to generate tags - AI Builder | Microsoft Docs
 description: Provides information about how to use category classification model–generated tags, and some troubleshooting information
-author: paulnog 
+author: v-aangie 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/30/2021
-ms.author: paulnog 
+ms.date: 05/05/2022
+ms.author: angieandrews 
 ms.reviewer: angieandrews
 ---
 
