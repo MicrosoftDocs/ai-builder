@@ -25,7 +25,10 @@ Interpret your accuracy score to identify what your model is struggling to extra
 
     > [!NOTE]
     >
-    > If you don’t see the accuracy score, your model might not have been trained since January 1, 2022. In this case, you can retrain it. Another reason you won't see the accuracy score is that your model has been imported from another environment.
+    > In the following cases you won’t see accuracy scores for document processing models:
+    > - If the model was trained selecting ‘Unstructured and free-form documents’ as document type. Currently, accuracy scores are only returned for models of type ‘Structured and semi-structured documents’.
+    > - Your model has been imported from another environment.
+    > - If your model was trained before January 1, 2022. In this case, you can retrain it.
 
 1. On the model details page, you should see the general accuracy score.
 
