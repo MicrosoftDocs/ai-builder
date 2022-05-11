@@ -14,13 +14,13 @@ ms.reviewer: angieandrews
 You can add the AI Builder form processor component to your screen in your canvas apps. This component takes a photo or loads your image. Then it extracts text based on your trained AI model. If it detects a form that the AI model is trained for, the form processor extracts the field values and identifies them by using rectangles.
 
  > [!NOTE]
- > For more information about creating a new form processing model, see [Get started with Form processing in AI Builder](/learn/modules/get-started-with-form-processing/)
+ > For more information about creating a new document processing model, see [Get started with document processing in AI Builder](/learn/modules/get-started-with-form-processing/)
  >
  > For more information about canvas apps, see [What are canvas apps in Power Apps?](/powerapps/maker/canvas-apps/getting-started).
 
 ## Prerequisites
 
-This component requires a published AI Builder form processing model. Then that model must be bound to the component by using the AI model property in the properties panel.
+This component requires a published AI Builder document processing model. Then that model must be bound to the component by using the AI model property in the properties panel.
 
 When you add the component to the screen, it automatically opens the AI models pane. There, you select a model that has been published in your environment. The component is initialized after an AI model is bound to it.
 

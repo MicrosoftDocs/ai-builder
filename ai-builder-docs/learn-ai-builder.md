@@ -18,7 +18,7 @@ AI Builder [hands-on labs](https://go.microsoft.com/fwlink/?linkid=2103171) walk
 - Object detection
 - Prediction
 - Category classification
-- Form processing
+- Document processing
 - Business card reader
 
 The zip file that contains the hands-on labs includes the following folders and zip files:

@@ -1,6 +1,6 @@
 ---
-title: Transition to the new form processing model version - AI Builder | Microsoft Docs
-description: Preview form processing model versions aren't compatible with updated model versions, so you have to re-create existing models. 
+title: Transition to the new document processing model version - AI Builder | Microsoft Docs
+description: Preview document processing model versions aren't compatible with updated model versions, so you have to re-create existing models. 
 author: JoeFernandezMS
 ms.topic: conceptual
 ms.custom: 
@@ -11,13 +11,13 @@ ms.reviewer: angieandrews
 
 # Transition to the new form-processing model version
 
-AI Builder is improving its form processing model with a new model version. Your form-processing preview models created before March 5, 2020, are deprecated. More information: [Form processing and object detection preview models in AI Builder are deprecated](/power-platform/important-changes-coming#form-processing-and-object-detection-preview-models-in-ai-builder-are-deprecated)
+AI Builder is improving its document processing model with a new model version. Your form-processing preview models created before March 5, 2020, are deprecated. More information: [Document processing and object detection preview models in AI Builder are deprecated](/power-platform/important-changes-coming#form-processing-and-object-detection-preview-models-in-ai-builder-are-deprecated)
 
-Starting March 5, 2020, you have to re-create your existing form processing models if you want to continue to use them. Models created after this date will automatically use the new model version. It's a good idea to transition to the new model version as soon as possible.
+Starting March 5, 2020, you have to re-create your existing document processing models if you want to continue to use them. Models created after this date will automatically use the new model version. It's a good idea to transition to the new model version as soon as possible.
 
 ## What do I need to do?
 
-**You must re-create form processing models created before March 5, 2020** 
+**You must re-create document processing models created before March 5, 2020** 
 
 1. Identify any form-processing models created before March 5, 2020, that you want to continue using.
 1. For each model, [create a new form-processing model](create-form-processing-model.md) with the same training documents you used in the original model.

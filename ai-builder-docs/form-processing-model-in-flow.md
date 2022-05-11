@@ -1,6 +1,6 @@
 ---
-title: Use the form processing model in Power Automate - AI Builder | Microsoft Docs
-description: Provides information about how to use a form processing model in Power Automate
+title: Use the document processing model in Power Automate - AI Builder | Microsoft Docs
+description: Provides information about how to use a document processing model in Power Automate
 author: JoeFernandezMS
 ms.topic: conceptual
 ms.custom: 
@@ -9,7 +9,7 @@ ms.author: jofernan
 ms.reviewer: angieandrews
 ---
 
-# Use a form processing model in Power Automate
+# Use a document processing model in Power Automate
 
 1. Sign in to [Power Automate](https://flow.microsoft.com/).
 
@@ -19,9 +19,9 @@ ms.reviewer: angieandrews
 
 1. Expand **Manually trigger a flow**, and then select **+Add an input** > **File** as the input type.
 
-1. Select **+New step** > **AI Builder**, and then select **Extract information from forms** in the list of actions.
+1. Select **+New step** > **AI Builder**, and then select **Extract information from documents** in the list of actions.
 
-1. Select the form processing model you want to use, and then select the document type.
+1. Select the document processing model you want to use, and then select the document type.
 
 1. In the **Form** field, add **File Content** from the trigger:
 
@@ -37,9 +37,9 @@ ms.reviewer: angieandrews
     >- To retrieve the confidence score for an extracted item, select **<field_name> confidence score**. For example, for the *Lot number* field, select **Lot number confidence score**.
 
     > [!div class="mx-imgBorder"]
-    > ![Form processing flow overview.](media/flow-fp-overview-2.png "Form processing flow overview")
+    > ![Document processing flow overview.](media/flow-fp-overview-2.png "Document processing flow overview")
 
-Congratulations! You've created a flow that uses an AI Builder form processing model. Select **Save** on the top right, and then select **Test** to try out your flow.
+Congratulations! You've created a flow that uses an AI Builder document processing model. Select **Save** on the top right, and then select **Test** to try out your flow.
 
 ## Page range
 
@@ -63,7 +63,7 @@ You can enter a page value or page range in the **Pages** parameter. Example: 1 
 ### Input
 |Name |Required |Type |Description |Values |
 |---------|---------|---------|---------|---------|
-|**AI Model** |Yes |model |Form processing model to use for analysis|Trained and published form processing models |
+|**AI Model** |Yes |model |Document processing model to use for analysis|Trained and published document processing models |
 |**Document type** |Yes |list |The file type of the form to analyze|PDF Document (.pdf), JPEG Image (.jpeg), PNG Image (.png) |
 |**Form** |Yes |file |Form to process| |
 |**Pages** |No |string |Page range to process| |
@@ -82,14 +82,14 @@ You can enter a page value or page range in the **Pages** parameter. Example: 1 
 
 ## Common use cases
 
-### Iterate a form processing table output in Power Automate
+### Iterate a document processing table output in Power Automate
 
-To illustrate this procedure, we use the following example where we've trained a form processing model to extract a table that we've named **Items** with three columns: **Quantity**, **Description** and **Total**. We wish to store each line item from the table into an Excel file.
+To illustrate this procedure, we use the following example where we've trained a document processing model to extract a table that we've named **Items** with three columns: **Quantity**, **Description** and **Total**. We wish to store each line item from the table into an Excel file.
 
 > [!div class="mx-imgBorder"]
-> ![Table extracted by form processing.](media/form-processing-table-example.png "Example of a table extracted by a form processing model.")
+> ![Table extracted by document processing.](media/form-processing-table-example.png "Example of a table extracted by a document processing model.")
 
-1. Select the field you wish to write the cell for a table. The dynamic content panel will open showing everything that the form processing model knows how to extract. Search for **{your table name} {your column name} value**. Our example uses *Items Quantity value*.
+1. Select the field you wish to write the cell for a table. The dynamic content panel will open showing everything that the document processing model knows how to extract. Search for **{your table name} {your column name} value**. Our example uses *Items Quantity value*.
 
 > [!div class="mx-imgBorder"]
 > !['Process and save information from forms' screen.](media/form-processing-iterate-table-1.png "Select a column from an extracted table to add to a flow.")
@@ -99,10 +99,10 @@ To illustrate this procedure, we use the following example where we've trained a
 3. Keep adding columns you want to iterate.
 
 > [!div class="mx-imgBorder"]
-> !['Add a row into a table' card.](media/form-processing-iterate-table-2.png "A flow that iterates over a table extracted by a form processing model.")
+> !['Add a row into a table' card.](media/form-processing-iterate-table-2.png "A flow that iterates over a table extracted by a document processing model.")
 
 > [!NOTE]
-> Tables extracted by form processing currently don't return a confidence score.
+> Tables extracted by document processing currently don't return a confidence score.
 
 ### Process outputs of checkboxes in Power Automate
 
@@ -113,56 +113,56 @@ One way you can check its value is with a **Condition** action. If the checkbox 
 > [!div class="mx-imgBorder"]
 > ![Retreive checkbox value in a condition](media/form-processing-retreive-checkbox.png "Check for the value returned for an extracted checkbox in a condition in a cloud flow.")
 
-Another option is to map the `true`/`false` output of the checkbox to other values of your choice by using the [if](/azure/logic-apps/workflow-definition-language-functions-reference#if) expression. For example, you might have a column in an Excel file where you want to write ‘Priority’ if one of the checkboxes in the document is selected, or ‘Non-priority’ if not selected. To do this, you can use the following expression: `if(<form processing output>, 'Priority', 'Non-priority')`. The following animation shows an example.
+Another option is to map the `true`/`false` output of the checkbox to other values of your choice by using the [if](/azure/logic-apps/workflow-definition-language-functions-reference#if) expression. For example, you might have a column in an Excel file where you want to write ‘Priority’ if one of the checkboxes in the document is selected, or ‘Non-priority’ if not selected. To do this, you can use the following expression: `if(<document processing output>, 'Priority', 'Non-priority')`. The following animation shows an example.
 
 > [!div class="mx-imgBorder"]
 > ![Map checkbox value with an expression](media/form-processing-retreive-checkbox-2.gif "Using an expression to map the Boolean value returned by a checkbox.")
 
-### Remove currency symbols (€, $,…) in a form processing output in Power Automate
+### Remove currency symbols (€, $,…) in a document processing output in Power Automate
 
-To illustrate, the *Total* value extracted by the form processing model might have a currency symbol, for example, \$54. To remove the $ sign, or any other symbols you want to omit, use the [replace](/azure/logic-apps/workflow-definition-language-functions-reference#replace) expression to remove it. Here's how:
+To illustrate, the *Total* value extracted by the document processing model might have a currency symbol, for example, \$54. To remove the $ sign, or any other symbols you want to omit, use the [replace](/azure/logic-apps/workflow-definition-language-functions-reference#replace) expression to remove it. Here's how:
 
-`replace(<form processing output>, '$', '')`
-
-> [!div class="mx-imgBorder"]
-> ![Animation of the Replace currency expression.](media/form-processing-remove-currency.gif "Add the expression above into the input field of an action in your flow. Remember to replace the first parameter of the expression by the form processing output you want to remove the currency symbol.")
-
-### Convert a form processing output string to a number in Power Automate
-
-AI Builder form processing returns all extracted values as strings. If the destination where you want to save a value extracted by AI Builder form processing requires a number, you can convert a value to number using the [int](/azure/logic-apps/workflow-definition-language-functions-reference#int) or [float](/azure/logic-apps/workflow-definition-language-functions-reference#float) expression. Use int if the number has no decimals. Use float if the number does have decimals. Here's how to do it:
-
-`float('<form processing output>')`
+`replace(<document processing output>, '$', '')`
 
 > [!div class="mx-imgBorder"]
-> !['Convert to number' animation.](media/form-processing-convert-number.gif "Add the expression above into the input field of an action in your flow. Remember to replace the first parameter of the expression by the form processing output you want to convert to number.")
+> ![Animation of the Replace currency expression.](media/form-processing-remove-currency.gif "Add the expression above into the input field of an action in your flow. Remember to replace the first parameter of the expression by the document processing output you want to remove the currency symbol.")
 
-### Remove blank spaces in a form processing output in Power Automate
+### Convert a document processing output string to a number in Power Automate
+
+AI Builder document processing returns all extracted values as strings. If the destination where you want to save a value extracted by AI Builder document processing requires a number, you can convert a value to number using the [int](/azure/logic-apps/workflow-definition-language-functions-reference#int) or [float](/azure/logic-apps/workflow-definition-language-functions-reference#float) expression. Use int if the number has no decimals. Use float if the number does have decimals. Here's how to do it:
+
+`float('<document processing output>')`
+
+> [!div class="mx-imgBorder"]
+> !['Convert to number' animation.](media/form-processing-convert-number.gif "Add the expression above into the input field of an action in your flow. Remember to replace the first parameter of the expression by the document processing output you want to convert to number.")
+
+### Remove blank spaces in a document processing output in Power Automate
 
 To remove blank spaces from output values, use the [replace](/azure/logic-apps/workflow-definition-language-functions-reference#replace) function:
 
-`replace(<form processing output>, ' ', '')`
+`replace(<document processing output>, ' ', '')`
 
 > [!div class="mx-imgBorder"]
-> ![Animation of the Replace spaces expression.](media/form-processing-remove-spaces.gif "Add the expression above into the input field of an action in your flow. Remember to replace the first parameter of the expression by the form processing output you want to remove blank spaces.")
+> ![Animation of the Replace spaces expression.](media/form-processing-remove-spaces.gif "Add the expression above into the input field of an action in your flow. Remember to replace the first parameter of the expression by the document processing output you want to remove blank spaces.")
 
-### Convert a form processing output string to a date in Power Automate
+### Convert a document processing output string to a date in Power Automate
 
-AI Builder form processing returns all outputs as strings. If the destination where you want to save a value extracted by form processing is required to be in date format, you can convert a value that contains a date into date format. Do this by using the [formatDateTime](/azure/logic-apps/workflow-definition-language-functions-reference#formatDateTime) expression. Here's how to do it:
+AI Builder document processing returns all outputs as strings. If the destination where you want to save a value extracted by document processing is required to be in date format, you can convert a value that contains a date into date format. Do this by using the [formatDateTime](/azure/logic-apps/workflow-definition-language-functions-reference#formatDateTime) expression. Here's how to do it:
 
-`formatDateTime(<form processing output>)`
+`formatDateTime(<document processing output>)`
 
 > [!div class="mx-imgBorder"]
-> ![Animation of the formatDateTime expression.](media/form-processing-convert-date.gif "Add the expression above into the input field of an action in your flow. Remember to replace the first parameter of the expression by the form processing output you want to convert to date.")
+> ![Animation of the formatDateTime expression.](media/form-processing-convert-date.gif "Add the expression above into the input field of an action in your flow. Remember to replace the first parameter of the expression by the document processing output you want to convert to date.")
 
-### Filter email signature from a flow so that it is not processed by the form processing model (Microsoft 365 Outlook)
+### Filter email signature from a flow so that it is not processed by the document processing model (Microsoft 365 Outlook)
 
-For incoming emails from the Microsoft 365 Outlook connector, email signatures are picked up by Power Automate as attachments. To keep these from being processed by the form processing model add a condition to your flow that checks if the output from the Microsoft 365 Outlook connector named **Attachments is Inline** is equal to false. In the **If yes** branch of the condition add the form processing action. With this only email attachments that are not inline signatures will be processed. 
+For incoming emails from the Microsoft 365 Outlook connector, email signatures are picked up by Power Automate as attachments. To keep these from being processed by the document processing model add a condition to your flow that checks if the output from the Microsoft 365 Outlook connector named **Attachments is Inline** is equal to false. In the **If yes** branch of the condition add the document processing action. With this only email attachments that are not inline signatures will be processed. 
 
 > [!div class="mx-imgBorder"]
 > ![Filter attachment condition.](media/form-processing-filter-sig.png "Add condition 'attachment is inline' ")
 
 ### See also
 
-[Overview of the form processing model](form-processing-model-overview.md)
+[Overview of the document processing model](form-processing-model-overview.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

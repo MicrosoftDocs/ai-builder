@@ -182,7 +182,7 @@
       href: text-classification-model-in-flow.md
     - name: Entity extraction model 
       href: entity-extraction-pwr-automate.md
-    - name: Form processing model
+    - name: Document processing model
       href: form-processing-model-in-flow.md
     - name: Object detection model
       href: object-detection-model-in-flow.md

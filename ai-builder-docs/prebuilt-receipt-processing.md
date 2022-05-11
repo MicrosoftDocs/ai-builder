@@ -54,7 +54,7 @@ If a receipt is detected, the receipt processing model will output the following
 
 ## Limits 
 
-The following applies to calls made per environment across form processing models including prebuilt models: receipt processing and invoice processing.
+The following applies to calls made per environment across document processing models including prebuilt models: receipt processing and invoice processing.
 
 |**Action**|**Limit**|**Renewal period**|
 |:-----|:-----|-----:|

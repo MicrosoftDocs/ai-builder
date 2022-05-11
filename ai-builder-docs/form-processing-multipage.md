@@ -1,5 +1,5 @@
 ---
-title: Process multipage tables in form processing (experimental) - AI Builder | Microsoft Docs
+title: Process multipage tables in document processing (experimental) - AI Builder | Microsoft Docs
 description: This topic provides information on how extract tables from an invoice, and tables that span fewer or greater than two pages, in AI Builder.
 author: JoeFernandezMS
 ms.topic: conceptual
@@ -9,7 +9,7 @@ ms.author: jofernan
 ms.reviewer: angieandrews
 ---
 
-# Process multipage tables in form processing (experimental)
+# Process multipage tables in document processing (experimental)
 
 [This topic is pre-release documentation and is subject to change.]
 
@@ -34,11 +34,11 @@ For instructions, go to [Invoice processing prebuilt model](prebuilt-invoice-pro
 
 ## Extract a table that spans up to two pages
 
-1. [Create a new form processing model](create-form-processing-model.md).
+1. [Create a new document processing model](create-form-processing-model.md).
 
 1. Perform the steps in [Define fields and tables to extract](create-form-processing-model.md#define-information-to-extract). On the **Choose information to extract** screen, select **Add** > **Multipage table (experimental)** to enable the experimental feature.
 
-1. Follow the rest of the steps in [Create a new form processing model](create-form-processing-model.md) before you train your model.
+1. Follow the rest of the steps in [Create a new document processing model](create-form-processing-model.md) before you train your model.
 
     When uploading sample documents to train, upload as many documents as possible with tables that span up to two pages.
 
@@ -48,7 +48,7 @@ For tables that go beyond two pages, [tag the table](create-form-processing-mode
 
 The following steps will guide you on how to achieve this:
 
-1. [Create a new form processing model](create-form-processing-model.md).
+1. [Create a new document processing model](create-form-processing-model.md).
 
 1. Perform the steps in [Define fields and tables to extract](create-form-processing-model.md#define-information-to-extract).
 
@@ -64,13 +64,13 @@ The following steps will guide you on how to achieve this:
         > [!div class="mx-imgBorder"]
         > ![Screenshot of all pages with similar surrounding elements.](media/form-processing-multipage/table-all-pages.png "All pages with similar surrounding elements")
 
-1. Follow all the steps to train the form processing model.
+1. Follow all the steps to train the document processing model.
 
     - If you selected **Multipage table (experimental)**, tag the first two pages of the document where the table is present. 
 
     - If you selected **Single page table**, tag only the first page where the table is present.
 
-1. After your form processing model is trained and published, you can use it in a cloud flow in Power Automate and process documents one page at a time to extract the tables for all pages.
+1. After your document processing model is trained and published, you can use it in a cloud flow in Power Automate and process documents one page at a time to extract the tables for all pages.
 
 ### Use a cloud flow to process all pages in the document
 
@@ -78,7 +78,7 @@ The sample template in this procedure iterates through all the pages in the docu
 
 1. Select [this cloud flow template](https://flow.microsoft.com/en-us/galleries/public/templates/59284c1735b745dda07032720f31de47) > **Continue**.
 
-1. On the **Extract information from forms** action, specify the form processing model you've trained.
+1. On the **Extract information from forms** action, specify the document processing model you've trained.
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of the AI model you've trained on the Extract information from forms action.](media/form-processing-multipage/extract-info.png "AI model you've trained on the 'Extract information from forms' action")
@@ -120,4 +120,4 @@ Rows that cut across pages (for example, row 30 starts at the bottom of page 1 a
 
 ### See also
 
-[Use a form processing model in Power Automate](form-processing-model-in-flow.md)
+[Use a document processing model in Power Automate](form-processing-model-in-flow.md)

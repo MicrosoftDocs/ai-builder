@@ -32,7 +32,7 @@ The following tables show which AI Builder features are available in each region
 |Category classification|GA|GA |GA|GA |GA|GA|GA|GA|GA|GA|GA |GA|GA|
 |Entity extraction |GA|GA |GA|GA|GA|GA|GA|GA|GA|GA|GA |GA|GA|
 |Object detection|GA |GA |-|GA |- |-|GA|GA|-|-|-|GA |GA |
-|Form processing |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |
+|Document processing |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |
 |Image classification |Preview |Preview |- |Preview |- |Preview |Preview |Preview |Preview |Preview |Preview |Preview |Preview |
 
 ### Prebuilt models
@@ -67,7 +67,7 @@ AI Builder is available in US Government environments with the features listed i
 |Category classification|GA|GA|-|
 |Entity extraction|GA|GA|-|
 |Object detection|GA|GA|-|
-|Form processing |GA|GA|-|
+|Document processing |GA|GA|-|
 |Image classification | - | - | - |
 
 ### Prebuilt models

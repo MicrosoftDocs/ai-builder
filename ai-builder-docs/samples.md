@@ -19,7 +19,7 @@ Sample data is available for several AI Builder model types, together with instr
 - [Use sample data to do category classification](text-classification-sample-data.md)
 - [Use sample data to do entity extraction](entity-extraction-sample-data.md)
 - [Use sample data to do object detection](object-detection-sample-data.md)
-- [Use sample data to do form processing](form-processing-sample-data.md)
+- [Use sample data to do document processing](form-processing-sample-data.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

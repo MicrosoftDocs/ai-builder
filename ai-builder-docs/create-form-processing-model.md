@@ -1,6 +1,6 @@
 ---
-title: Create a form processing custom model - AI Builder | Microsoft Docs
-description: Provides step-by-step instructions on how to create a form processing model in AI Builder.
+title: Create a document processing custom model - AI Builder | Microsoft Docs
+description: Provides step-by-step instructions on how to create a document processing model in AI Builder.
 author: JoeFernandezMS
 ms.topic: conceptual
 ms.custom: 
@@ -9,9 +9,9 @@ ms.author: jofernan
 ms.reviewer: angieandrews
 ---
 
-# Create a form processing custom model
+# Create a document processing custom model
 
-After you review the [requirements](form-processing-model-requirements.md), you can get started creating your form processing model.
+After you review the [requirements](form-processing-model-requirements.md), you can get started creating your document processing model.
 
 ## Sign in to AI Builder
 
@@ -163,6 +163,6 @@ All the documents that you've uploaded are presented for you to tag. If you've c
 
 ### Next step
 
-[Train and publish your form processing model](form-processing-train.md)
+[Train and publish your document processing model](form-processing-train.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

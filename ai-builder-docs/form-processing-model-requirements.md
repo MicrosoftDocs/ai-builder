@@ -1,6 +1,6 @@
 ---
-title: Requirements and limitations for form processing models - AI Builder | Microsoft Docs
-description: Describes the requirements and limitations of form processing models in AI Builder.
+title: Requirements and limitations for document processing models - AI Builder | Microsoft Docs
+description: Describes the requirements and limitations of document processing models in AI Builder.
 author: JoeFernandezMS
 ms.topic: conceptual
 ms.custom:
@@ -9,7 +9,7 @@ ms.author: jofernan
 ms.reviewer: angieandrews
 ---
 
-# Requirements and limitations for a form processing model
+# Requirements and limitations for a document processing model
 
 ## Languages supported
 
@@ -17,7 +17,7 @@ Afrikaans, Albanian, Asturian, Basque, Bislama, Breton, Catalan, Cebuano, Chamor
 
 ## Requirements
 
-Form processing works on input documents that meet the following requirements:
+Document processing works on input documents that meet the following requirements:
 
 - JPG, PNG, or PDF format (text or scanned). Text-embedded PDFs are better, because there won't be any errors in character extraction and location.
 - TIFF files cannot be used for training. You will need to use documents in PDF, JPG or PNG format to train a model. Once the model has been trained, it can extract data from TIFF files when the model is used in a Power Automate cloud flow.
@@ -33,7 +33,7 @@ Form processing works on input documents that meet the following requirements:
 
 ## Optimization tips
 
-Learn how to [improve the performance of form processing models](improve-form-processing-performance.md).
+Learn how to [improve the performance of document processing models](improve-form-processing-performance.md).
 
 
 ### Next step

@@ -145,6 +145,6 @@ Any individual can try out the features of AI Builder for 30 days and incur no c
 
 #### What can I do with the 5,000 AI credits included in the per user plan with attended RPA?
 
-Each user license grants you 5000 credits, allowing you to assess the capabilities in AI Builder. For instance, you could use these credits to extract data from a few documents with *form processing* or perform hundreds of basic OCR extractions with *text recognition*.
+Each user license grants you 5000 credits, allowing you to assess the capabilities in AI Builder. For instance, you could use these credits to extract data from a few documents with *document processing* or perform hundreds of basic OCR extractions with *text recognition*.
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

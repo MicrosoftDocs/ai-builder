@@ -1,6 +1,6 @@
 ---
-title: Train and publish your form processing model - AI Builder | Microsoft Docs
-description: Walks you through the steps to train, validate, and test your form processing model in AI Builder.
+title: Train and publish your document processing model - AI Builder | Microsoft Docs
+description: Walks you through the steps to train, validate, and test your document processing model in AI Builder.
 author: JoeFernandezMS
 ms.topic: conceptual
 ms.custom: 
@@ -9,9 +9,9 @@ ms.author: jofernan
 ms.reviewer: kvivek
 ---
 
-# Train and publish your form processing model
+# Train and publish your document processing model
 
-After you create your form processing model, you can train, test, and publish it to make it available.
+After you create your document processing model, you can train, test, and publish it to make it available.
 
 ## Train and validate your model
 
@@ -28,8 +28,8 @@ After you create your form processing model, you can train, test, and publish it
 
 If you have trouble training your model, try these suggestions:
 
-- Make sure your data meets the guidelines listed in [form processing model requirements and limitations](form-processing-model-requirements.md).
-- Learn how you can [improve the performance of your form processing model](improve-form-processing-performance.md).
+- Make sure your data meets the guidelines listed in [document processing model requirements and limitations](form-processing-model-requirements.md).
+- Learn how you can [improve the performance of your document processing model](improve-form-processing-performance.md).
 - Download [sample material](https://go.microsoft.com/fwlink/?linkid=2103171) and use it for testing.
 
 ## Publish your model
@@ -40,7 +40,7 @@ After you've published your form-processing model, you can use it in a [Power Ap
 
 ## Limits
 
-The following applies to calls made per environment across form processing models including prebuilt models: receipt processing and invoice processing.
+The following applies to calls made per environment across document processing models including prebuilt models: receipt processing and invoice processing.
 
 |**Action**|**Limit**|**Renewal period**|
 |:-----|:-----|-----:|
@@ -48,7 +48,7 @@ The following applies to calls made per environment across form processing model
 
 ### See also
 
-[Use a form processing model in Power Automate](form-processing-model-in-flow.md)  
+[Use a document processing model in Power Automate](form-processing-model-in-flow.md)  
 [Use the form processor component in Power Apps](form-processor-component-in-powerapps.md)
 
 

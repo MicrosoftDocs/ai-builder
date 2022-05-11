@@ -73,7 +73,7 @@ The following table shows the AI Builder system tables, which are installed by d
 ![Users have access to the rows they've created](media/circle-no-fill.png "Users have access to the rows they've created")Users have access to the rows they've created.<br/>
 ![Users must be granted access to the subset of rows required for the business](media/circle-dot.png "[Users must be granted access to the subset of rows required for the business") Users must be granted access to the subset of rows required for the business.<br/>
 ![Users have access to all the rows of the table](media/circle-fill.png "[Users have access to all the rows of the table") Users have access to all the rows of the table.<br/>
-**FP:** form processing **OD:** object detection  **EE:** entity extraction  **P:** prediction  **CC:** category classification<br/><br/>
+**FP:** document processing **OD:** object detection  **EE:** entity extraction  **P:** prediction  **CC:** category classification<br/><br/>
 
 The training files stored in the AI Builder File table are accessible only by the person who has created the model. The exception is the administrator, who can view and delete any model, related data, and configuration.
 
