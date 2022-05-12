@@ -17,6 +17,9 @@ Document processing lets you read and save information from standard documents s
 
 After you train and [publish](publish-model.md) your model, you can use it in a flow in [Power Automate](form-processing-model-in-flow.md) or in a canvas app in [Power Apps](form-processor-component-in-powerapps.md).
 
+ > [!NOTE]
+ > Document processing name used to be form processing until June 2022.
+
 ### Next step
 
 [Create a form-processing model](create-form-processing-model.md)
