@@ -46,6 +46,7 @@ For object detection models, the import process might continue after the import 
 
 ## Limitations
 
+* Document processing models where **Unstructured and free-form documents** has been selected as document type cannot be exported while the functionality is in preview. 
 * For object detection and document processing, only models trained after April 2nd, 2020, can be added to a solution.
 * Importing an object detection model or form-processing model should be done within one month of export. However, you can still import after that period if the source model remains unchanged after its export.
 * Changes to imported models aren't recommended.
