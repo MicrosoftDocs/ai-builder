@@ -28,7 +28,7 @@ Prebuilt models are available in Power Automate and&mdash;depending on the model
 | [Text recognition ](prebuilt-text-recognition.md)    |    Power Automate and Power Apps*     |
 | [Text translation ](prebuilt-text-translation.md)    |    Power Automate and Power Apps*     |
 
-Power Apps*  [Use Power Fx in AI Builder models in Power Apps (preview)](https://docs.microsoft.com/ai-builder/powerfx-in-powerapps)
+**Power Apps\*:** To learn more, go to [Use Power Fx in AI Builder models in Power Apps (preview)](/ai-builder/powerfx-in-powerapps).
 
 ### See also
 
