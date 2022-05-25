@@ -26,7 +26,7 @@ The following tables show which AI Builder features are available in each region
 
 ### Custom models
 
-|Feature |Asia |Australia |Canada |Europe |France |Germany |India |Japan |Norway |South America |South Koera |Switzerland |United Arab Emirates |United Kingdom |United States |
+|Feature |Asia |Australia |Canada |Europe |France |Germany |India |Japan |Norway |South America |South Korea |Switzerland |United Arab Emirates |United Kingdom |United States |
 |:-------|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
 |Prediction|GA|GA|GA|GA| GA|GA|GA|GA|-|GA|-|GA|GA|GA|GA|
 |Category classification|GA|GA|GA|GA| GA|GA|GA|GA|-|GA|-|GA|GA|GA|GA|
@@ -37,7 +37,7 @@ The following tables show which AI Builder features are available in each region
 
 ### Prebuilt models
 
-|Feature |Asia |Australia |Canada |Europe |France |Germany |India |Japan |Norway |South America |South Koera |Switzerland |United Arab Emirates |United Kingdom |United States |
+|Feature |Asia |Australia |Canada |Europe |France |Germany |India |Japan |Norway |South America |South Korea |Switzerland |United Arab Emirates |United Kingdom |United States |
 |:-------|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
 |Business card reader    |GA|GA |GA|GA|GA |GA|GA |GA|GA|GA|GA|GA|GA|GA||GA|
 |Category classification |Preview |Preview |Preview |Preview|Preview|Preview|Preview|Preview |-|Preview|-|Preview|Preview |Preview |Preview |
