@@ -4,7 +4,7 @@ description: Provides an overview of how to use your AI models in SharePoint.
 author: v-aangie
 ms.topic: overview
 ms.custom: 
-ms.date: 05/05/2022
+ms.date: 05/31/2022
 ms.author: angieandrews
 ms.reviewer: angieandrews
 ---
