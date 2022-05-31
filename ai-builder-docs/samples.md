@@ -4,7 +4,7 @@ description: Shows where you can obtain sample data to start using AI Builder.
 author: v-aangie
 ms.topic: conceptual
 ms.custom:
-ms.date: 05/05/2022
+ms.date: 05/31/2022
 ms.author: angieandrews
 ms.reviewer: angieandrews
 ---
@@ -19,7 +19,7 @@ Sample data is available for several AI Builder model types, together with instr
 - [Use sample data to do category classification](text-classification-sample-data.md)
 - [Use sample data to do entity extraction](entity-extraction-sample-data.md)
 - [Use sample data to do object detection](object-detection-sample-data.md)
-- [Use sample data to do form processing](form-processing-sample-data.md)
+- [Use sample data to do document processing](form-processing-sample-data.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

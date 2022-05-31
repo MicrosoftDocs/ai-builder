@@ -4,7 +4,7 @@ description: Describes the receipt processing prebuilt AI model from AI Builder.
 author: v-aangie
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/05/2022
+ms.date: 05/31/2022
 ms.author: angieandrews
 ms.reviewer: angieandrews
 ---
@@ -54,7 +54,7 @@ If a receipt is detected, the receipt processing model will output the following
 
 ## Limits 
 
-The following applies to calls made per environment across form processing models including prebuilt models: receipt processing and invoice processing.
+The following applies to calls made per environment across document processing models including prebuilt models: receipt processing and invoice processing.
 
 |**Action**|**Limit**|**Renewal period**|
 |:-----|:-----|-----:|

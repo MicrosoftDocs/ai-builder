@@ -1,30 +1,30 @@
 ---
-title: Use sample data to do form processing - AI Builder | Microsoft Docs
-description: Provides the information you need to try out a form processing model with sample data AI Builder.
+title: Use sample data to do document processing - AI Builder | Microsoft Docs
+description: Provides the information you need to try out a document processing model with sample data AI Builder.
 author: JoeFernandezMS
 ms.topic: conceptual
 ms.custom: 
-ms.date: 02/17/2022
+ms.date: 05/31/2022
 ms.author: Jofernan
 ms.reviewer: angieandrews
 ---
 
-# Use sample data to do form processing
+# Use sample data to do document processing
 
-To explore the possibilities of form processing, you can get started by building and training a form processing model that uses sample invoices.
+To explore the possibilities of document processing, you can get started by building and training a document processing model that uses sample invoices.
 
 
 ## Get the sample data
 
-Download sample documents for AI Builder form processing: [English version](https://go.microsoft.com/fwlink/?linkid=2128080) or [Japanese version](https://go.microsoft.com/fwlink/?linkid=2186887)
+Download sample documents for AI Builder document processing: [English version](https://go.microsoft.com/fwlink/?linkid=2128080) or [Japanese version](https://go.microsoft.com/fwlink/?linkid=2186887)
 
 ## Guided experience on Microsoft Learn
 
-The [Get started with Form processing in AI Builder](/learn/modules/get-started-with-form-processing/2-create-first-model) in Microsoft Learn walks you through each step of the model creation process using the sample data.
+The [Get started with Document processing in AI Builder](/learn/modules/get-started-with-form-processing/2-create-first-model) in Microsoft Learn walks you through each step of the model creation process using the sample data.
 
 ### See also
 
-[Use a form processing model in Power Automate](form-processing-model-in-flow.md)  
+[Use a document processing model in Power Automate](form-processing-model-in-flow.md)  
 [Use the form processor component in Power Apps](form-processor-component-in-powerapps.md)
 
 

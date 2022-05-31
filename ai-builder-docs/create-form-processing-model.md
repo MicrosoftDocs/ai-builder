@@ -1,17 +1,17 @@
 ---
-title: Create a form processing custom model - AI Builder | Microsoft Docs
-description: Provides step-by-step instructions on how to create a form processing model in AI Builder.
+title: Create a document processing custom model - AI Builder | Microsoft Docs
+description: Provides step-by-step instructions on how to create a document processing model in AI Builder.
 author: JoeFernandezMS
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/11/2021
+ms.date: 05/31/2022
 ms.author: jofernan
 ms.reviewer: angieandrews
 ---
 
-# Create a form processing custom model
+# Create a document processing custom model
 
-After you review the [requirements](form-processing-model-requirements.md), you can get started creating your form processing model.
+After you review the [requirements](form-processing-model-requirements.md), you can get started creating your document processing model.
 
 ## Sign in to AI Builder
 
@@ -29,6 +29,16 @@ After you review the [requirements](form-processing-model-requirements.md), you 
  
 1. Test the model by selecting Quick test.
 
+## Select the type of document
+
+On the **Choose document type** step, you select the type of document you want to build an AI model to automate data extraction. There are two options:
+
+- **Structured and semi-structured documents**. Structured and semi-structured documents are those where for a given layout, the fields, tables, checkboxes, and other items can be found in similar places. Examples of structured and semi-structured documents are invoices, purchase orders, delivery orders, tax documents, etc.
+
+- **Unstructured and free-form documents** (preview). Unstructured documents are those where there is no set structure, usually free documents with a varying number of paragraphs. Examples of unstructured documents are contracts, statement of work, letters, etc. This document type is currently in preview. We welcome your feedback on this new preview functionality. You can post your feedback on the [AI Builder forum](https://powerusers.microsoft.com/t5/AI-Builder/bd-p/AIBuilder?msclkid=ff04e163d11711ecb0ef6b46226eb8e6)
+
+   > [!div class="mx-imgBorder"]
+   > ![Choose document type](media/document-processing-choose-document-type.png "Select the type of document")
 
 ## Define information to extract
 
@@ -43,6 +53,9 @@ On the **Choose information to extract** screen, you define the fields, tables, 
 
    > [!div class="mx-imgBorder"]
    > !['Define tables' animation.](media/form-processing-multiple-layout-define-tables-only.gif "Define tables to extract")
+
+   > [!NOTE]
+   > Table extraction is currently not available when choosing ‘Unstructured and free-form documents’ as document type.
 
 - For each checkbox, provide a name you would like the checkbox to have in the model. Define separate checkboxes for each item that can be checked in a document.
 
@@ -78,6 +91,13 @@ To tag a field, draw a rectangle around the field you're interested in and selec
    > !['Draw a rectangle to select a field' animation.](media/form-processing-multiple-layout-tag-fields.gif "Tag field in a document")
 
 At any time, you can resize to adjust your selection.
+
+If a field ends in one line and begins in another one, you can tag it using the **‘Continue tagging’** option. 
+
+   > [!div class="mx-imgBorder"]
+   > ![Continue tagging](media/document-processing-continue-tagging.gif "Tag multiple words and line breaks")
+
+You can also use the **Control** key in Windows or **Command ⌘** in macOS to tag multiple words at once. You can also use the **Shift** key to select the first and last word to tag all words between the two.
 
 When you hover over words in your documents, light blue boxes may appear. These indicate that you can draw a rectangle around those words to select a field.
 
@@ -163,6 +183,6 @@ All the documents that you've uploaded are presented for you to tag. If you've c
 
 ### Next step
 
-[Train and publish your form processing model](form-processing-train.md)
+[Train and publish your document processing model](form-processing-train.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

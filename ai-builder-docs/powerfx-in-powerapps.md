@@ -1,12 +1,12 @@
 ---
 title: Use Power Fx in AI Builder models in Power Apps (preview) - AI Builder | Microsoft Docs
 description: Use Power Fx AI integration to reference AI models in any Power Apps control using the Power Fx low-code formula language.
-author: billba
+author: v-aangie
 ms.topic: conceptual
 ms.custom: intro-internal
-ms.date: 11/08/2021
-ms.author: billba
-ms.reviewer: tapanm
+ms.date: 05/31/2022
+ms.author: angieandrews
+ms.reviewer: angieandrews
 ---
 
 # Use Power Fx in AI Builder models in Power Apps (preview)
@@ -128,7 +128,7 @@ This section provides inputs and outputs for custom and prebuilt models by model
 |---------|---------|---------|
 |Category classification | Language code, text. | `results` A table where each element has a type and a score. |
 |Entity extraction |Language code, text. | `entities` A table where each element has a type, score, startIdx, length, and value (string represented from startIdx to startIdx+length). |
-|Form processing |Document type (mime type string), document (base64 encoded string). | Four properties. `layoutName` (string), `layoutConfidenceScore` (number), `labels` (record containing the fields that can be identified in the form), and `tables` (record containing tables identified in the form). |
+|Document processing |Document type (mime type string), document (base64 encoded string). | Four properties. `layoutName` (string), `layoutConfidenceScore` (number), `labels` (record containing the fields that can be identified in the form), and `tables` (record containing tables identified in the form). |
 |Object detection |Image encoded as base64. | `results` A table with the different objects found in the picture. Each has a `boundingBox`, `confidence` value, and `tagId`. |
 |Prediction | Properties defined when creating the model. Canvas receives these properties as a record. | A record with `Explanation`, `Likelihood`, and `Prediction` as properties. |
 

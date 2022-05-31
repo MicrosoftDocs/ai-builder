@@ -4,7 +4,7 @@ description: Walks you through the steps to share your model in AI Builder.
 author: Antoine2F
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/19/2021
+ms.date: 05/31/2022
 ms.author: antode
 ms.reviewer: angieandrews
 ---
@@ -90,7 +90,7 @@ To change the ownership of a model:
 
 1. You'll get a list of the AI models in the environment. Select the model you want to reassign, and select **Assign AI Models**. A window will open where you can change the owner of the model.
 
-If the model you're changing the ownership is a *form processing* model or an *object detection* model, you'll also need to reassign the **AI Builder Datasets Container** associated with the model.
+If the model you're changing the ownership is a *document processing* model or an *object detection* model, you'll also need to reassign the **AI Builder Datasets Container** associated with the model.
 
  To reassign **AI Builder Datasets Containers**:
 
@@ -114,7 +114,7 @@ Yes. In advanced settings of your organization, an admin must create a security 
 
 Generic prediction models only work as part of a scheduled run. They can't be used in Power Apps or Power Automate, so the share action isn't available.
 
-### Next step
+## Next step
 
 [Distribute your AI model](distribute-model.md)
 
