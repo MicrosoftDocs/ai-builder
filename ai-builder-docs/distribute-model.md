@@ -5,9 +5,9 @@ author: v-aangie
 manager: cdbellar
 ms.topic: conceptual
 ms.custom: 
-ms.date: 02/25/2022
+ms.date: 05/31/2022
 ms.author: antode
-ms.reviewer: kvivek
+ms.reviewer: angieandrews
 ---
 
 # Distribute your AI model
