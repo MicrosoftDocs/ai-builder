@@ -4,7 +4,7 @@ description: Describes the requirements and limitations of document processing m
 author: JoeFernandezMS
 ms.topic: conceptual
 ms.custom:
-ms.date: 10/06/2021
+ms.date: 05/31/2022
 ms.author: jofernan
 ms.reviewer: angieandrews
 ---
@@ -38,9 +38,8 @@ Document processing works on input documents that meet the following requirement
 Learn how to [improve the performance of document processing models](improve-form-processing-performance.md).
 
 
-### Next step
+## Next step
 
 [Create a form-processing model](create-form-processing-model.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
