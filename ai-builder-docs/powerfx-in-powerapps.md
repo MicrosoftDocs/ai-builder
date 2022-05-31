@@ -1,12 +1,12 @@
 ---
 title: Use Power Fx in AI Builder models in Power Apps (preview) - AI Builder | Microsoft Docs
 description: Use Power Fx AI integration to reference AI models in any Power Apps control using the Power Fx low-code formula language.
-author: billba
+author: v-aangie
 ms.topic: conceptual
 ms.custom: intro-internal
-ms.date: 11/08/2021
-ms.author: billba
-ms.reviewer: tapanm
+ms.date: 05/31/2022
+ms.author: angieandrews
+ms.reviewer: angieandrews
 ---
 
 # Use Power Fx in AI Builder models in Power Apps (preview)
