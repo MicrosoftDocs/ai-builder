@@ -4,7 +4,7 @@ description: "Provides information for an administrator about AI custom models a
 author: v-aangie
 ms.topic: conceptual
 ms.custom: 
-ms.date: 07/16/2021
+ms.date: 05/31/2021
 ms.author: antode
 ms.reviewer: angieandrews
 ---
