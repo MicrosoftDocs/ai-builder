@@ -4,7 +4,7 @@ description: Provides guidance on how to automate document processing in AI Buil
 author: v-aangie
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/05/2021
+ms.date: 05/31/2022
 ms.author: angieandrews
 ms.reviewer: angieandrews
 ---
@@ -29,7 +29,7 @@ Step-by-step instructions on how to install and use the document automation kit 
 
 ### See also
 
-[Create a form processing model](create-form-processing-model.md)
+[Create a document processing model](create-form-processing-model.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
