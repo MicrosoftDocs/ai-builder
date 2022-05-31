@@ -4,7 +4,7 @@ description: Describes the invoice processing prebuilt AI model from AI Builder.
 author: JoeFernandezMS
 ms.topic: conceptual
 ms.custom: intro-internal
-ms.date: 03/29/2021
+ms.date: 05/31/2022
 ms.author: jofernan
 ms.reviewer: angieandrews
 ---
