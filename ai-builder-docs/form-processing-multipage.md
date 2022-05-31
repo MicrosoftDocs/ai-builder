@@ -4,7 +4,7 @@ description: This topic provides information on how extract tables from an invoi
 author: JoeFernandezMS
 ms.topic: conceptual
 ms.custom: intro-internal
-ms.date: 09/28/2021
+ms.date: 05/31/2022
 ms.author: jofernan
 ms.reviewer: angieandrews
 ---
