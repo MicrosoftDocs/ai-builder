@@ -4,7 +4,7 @@ description: This topic provides answers to frequently asked questions about the
 author: JoeFernandezMS
 ms.topic: conceptual
 ms.custom: 
-ms.date: 08/19/2021
+ms.date: 05/31/2022
 ms.author: jofernan
 ms.reviewer: angieandrews
 ---
@@ -51,7 +51,6 @@ You can also specify pages for the document processing model to handle. This way
 ### I've trained a document processing model but I'm not getting good results when it comes to extracted data. How can I improve the model?
 
 If your model is returning poor results after you've trained it, edit the model and provide more samples for training. The more samples you provide, the more the AI model will learn how to extract data from your documents. Learn more: [Improve the performance of your document processing model](improve-form-processing-performance.md)
-
 
 ## Limitations
 
