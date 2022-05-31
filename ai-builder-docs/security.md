@@ -4,8 +4,8 @@ description: "Describes security information related to roles, privileges, and a
 author: v-aangie
 ms.topic: conceptual
 ms.custom: 
-ms.date: 07/16/2021
-ms.author: kvivek
+ms.date: 05/31/2022
+ms.author: angieandrews
 ms.reviewer: angieandrews
 ---
 
