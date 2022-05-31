@@ -4,9 +4,9 @@ description: Walks you through the steps to train, validate, and test your docum
 author: JoeFernandezMS
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/31/2019
+ms.date: 05/31/2022
 ms.author: jofernan
-ms.reviewer: kvivek
+ms.reviewer: angieandrews
 ---
 
 # Train and publish your document processing model
