@@ -4,7 +4,7 @@ description: Provides guidance on how to automate document processing in AI Buil
 author: v-aangie
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/05/2021
+ms.date: 05/31/2022
 ms.author: angieandrews
 ms.reviewer: angieandrews
 ---
