@@ -4,19 +4,17 @@ description: Preview object detection model versions won't be compatible with up
 author: JoeFernandezMS
 ms.topic: conceptual
 ms.custom: 
-ms.date: 11/06/2020
+ms.date: 05/31/2022
 ms.author: jofernan
-ms.reviewer: kvivek
+ms.reviewer: angieandrews
 ---
 
 # Transition to the new object detection model version
 
-
-
 AI Builder is including improvements to object detection in a new model version. Your object detection
 preview models created before March 5, 2020, are deprecated. More information: [Document processing and object detection preview models in AI Builder are deprecated](/power-platform/important-changes-coming#form-processing-and-object-detection-preview-models-in-ai-builder-are-deprecated)
 
-Starting March 5, 2020,you have to re-create your existing object detection models if you want to continue to use them. Models created after this date will automatically use the new model version. It's a good idea to transition to the new model version as soon as possible.
+Starting March 5, 2020, you have to re-create your existing object detection models if you want to continue to use them. Models created after this date will automatically use the new model version. It's a good idea to transition to the new model version as soon as possible.
 
 ## What do I need to do?
 
