@@ -4,7 +4,7 @@ description: Describes the invoice processing prebuilt AI model from AI Builder.
 author: JoeFernandezMS
 ms.topic: conceptual
 ms.custom: intro-internal
-ms.date: 03/29/2021
+ms.date: 05/31/2022
 ms.author: jofernan
 ms.reviewer: angieandrews
 ---
@@ -107,7 +107,7 @@ If an invoice is detected, the invoice processing model will output the followin
 
 ## Limits
 
-The following applies to calls made per environment across form processing models including prebuilt models: receipt processing and invoice processing.
+The following applies to calls made per environment across document processing models including prebuilt models: receipt processing and invoice processing.
 
 |**Action**|**Limit**|**Renewal period**|
 |:-----|:-----|-----:|
@@ -118,38 +118,38 @@ The following applies to calls made per environment across form processing model
 The invoice processing prebuilt AI model is designed to extract common fields found in invoices. Because every business is unique, you might want to extract fields other than those included in this prebuilt model. It can also be the case that some standard fields aren't well extracted for a particular type of invoice you work with. To address this, there are two options:
 
 - **View raw OCR results**: Every time the invoice processing prebuilt AI model processes a file you provide, it also does an OCR operation to extract every word written on the file. You can access the raw OCR results on the detected text output provided by the model. A simple search on the content returned by detected text might be enough to get the data you need.
-- **Use form processing**: With AI Builder, you can also build your own custom AI model to extract specific fields and tables you need for the documents you work with. Just [create a form processing model](form-processing-model-overview.md) and train it to extract all the information from an invoice that doesn’t work well with the invoice extraction model.
+- **Use document processing**: With AI Builder, you can also build your own custom AI model to extract specific fields and tables you need for the documents you work with. Just [create a document processing model](form-processing-model-overview.md) and train it to extract all the information from an invoice that doesn’t work well with the invoice extraction model.
 
-Once you train your custom form processing model, you can combine it with the invoice processing prebuilt model in a Power Automate flow.
+Once you train your custom document processing model, you can combine it with the invoice processing prebuilt model in a Power Automate flow.
 
 Here are some examples:
 
-### Use a custom form processing model to extract additional fields that aren't returned by the invoice processing prebuilt model
+### Use a custom document processing model to extract additional fields that aren't returned by the invoice processing prebuilt model
 
-In this example, we've trained a custom form processing model to extract a *loyalty program number*, only present in invoices from providers Adatum and Contoso.
+In this example, we've trained a custom document processing model to extract a *loyalty program number*, only present in invoices from providers Adatum and Contoso.
 
-The flow is triggered when a new invoice is added to a SharePoint folder. It then calls the invoice processing prebuilt AI model to extract its data. Next, we check if the vendor for the invoice that has been processed is either from Adatum or Contoso. If it’s the case, we then call a custom form processing model that we’ve trained to get that loyalty number. Finally, we save the extracted data from the invoice in an Excel file.
-
-   > [!div class="mx-imgBorder"]
-   > ![Invoice and form processing flow.](media/invoice-and-form-process-flow.png "Create a flow that uses a form processing model")
-
-### Use a custom form processing model if the confidence score for a field returned by the invoice processing prebuilt model is low
-
-In this example, we've trained a custom form processing model to extract the total amount from invoices where we usually get a low confidence score when using the invoice processing prebuilt model.
-
-The flow is triggered when a new invoice is added to a SharePoint folder. It then calls the invoice processing prebuilt AI model to extract its data. Next, we check if the confidence score for the *Invoice total value* property is less than 0.65. If it’s the case, we then call a custom form processing model that we’ve trained with invoices where we usually get a low confidence score for the total field. Finally, we save the extracted data from the invoice into an Excel file.
+The flow is triggered when a new invoice is added to a SharePoint folder. It then calls the invoice processing prebuilt AI model to extract its data. Next, we check if the vendor for the invoice that has been processed is either from Adatum or Contoso. If it’s the case, we then call a custom document processing model that we’ve trained to get that loyalty number. Finally, we save the extracted data from the invoice in an Excel file.
 
    > [!div class="mx-imgBorder"]
-   > ![Invoice and form processing flow for low scores.](media/invoice-and-form-process-flow2.png "Create a flow that uses a form processing model for low scores")
+   > ![Invoice and document processing flow.](media/invoice-and-form-process-flow.png "Create a flow that uses a document processing model")
+
+### Use a custom document processing model if the confidence score for a field returned by the invoice processing prebuilt model is low
+
+In this example, we've trained a custom document processing model to extract the total amount from invoices where we usually get a low confidence score when using the invoice processing prebuilt model.
+
+The flow is triggered when a new invoice is added to a SharePoint folder. It then calls the invoice processing prebuilt AI model to extract its data. Next, we check if the confidence score for the *Invoice total value* property is less than 0.65. If it’s the case, we then call a custom document processing model that we’ve trained with invoices where we usually get a low confidence score for the total field. Finally, we save the extracted data from the invoice into an Excel file.
+
+   > [!div class="mx-imgBorder"]
+   > ![Invoice and document processing flow for low scores.](media/invoice-and-form-process-flow2.png "Create a flow that uses a document processing model for low scores")
  
-### Use the invoice processing prebuilt model to handle invoices that a custom form processing model hasn’t been trained to handle
+### Use the invoice processing prebuilt model to handle invoices that a custom document processing model hasn’t been trained to handle
 
-One way to use the invoice processing prebuilt model is to use it as a fallback model to handle invoices that you haven’t trained in your custom form processing model. For example, let's say you built a form processing model, and trained it to extract data from your top 20 invoice providers. You could then use the invoice processing prebuilt model to process all new invoices or lower volume invoices. Here’s an example of how you could do it:
+One way to use the invoice processing prebuilt model is to use it as a fallback model to handle invoices that you haven’t trained in your custom document processing model. For example, let's say you built a document processing model, and trained it to extract data from your top 20 invoice providers. You could then use the invoice processing prebuilt model to process all new invoices or lower volume invoices. Here’s an example of how you could do it:
 
-This flow is triggered when a new invoice is added to a SharePoint folder. It then calls a custom form processing model to extract its data. Next, we check if the confidence score for the detected collection is less than 0.65. If it’s the case, it probably means the provided invoice isn't a good match for the custom model. We then call the prebuilt invoice processing model. Finally, we save the extracted data from the invoice in an Excel file.
+This flow is triggered when a new invoice is added to a SharePoint folder. It then calls a custom document processing model to extract its data. Next, we check if the confidence score for the detected collection is less than 0.65. If it’s the case, it probably means the provided invoice isn't a good match for the custom model. We then call the prebuilt invoice processing model. Finally, we save the extracted data from the invoice in an Excel file.
 
    > [!div class="mx-imgBorder"]
-   > ![Invoice and form processing flow for new invoices.](media/invoice-and-form-process-flow3.png "Create a flow that uses a form processing model for new invoices")
+   > ![Invoice and document processing flow for new invoices.](media/invoice-and-form-process-flow3.png "Create a flow that uses a document processing model for new invoices")
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

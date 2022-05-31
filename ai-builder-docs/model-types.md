@@ -4,7 +4,7 @@ description: This topic provides an overview of how the AI model types that you 
 author: v-aangie
 ms.topic: conceptual
 ms.custom:
-ms.date: 05/05/2022
+ms.date: 05/31/2022
 ms.author: angieandrews
 ms.reviewer: angieandrews
 ---
@@ -45,7 +45,7 @@ The following table lists the data type, models type, and build type.
 | Data Type       | Model type              | Build type          |
 |-----------------|-------------------------|---------------------|
 | Documents       | [Business card reader](prebuilt-business-card.md)    | Prebuilt            |
-| Documents       | [Form processing](form-processing-model-overview.md)         | Custom              |
+| Documents       | [Document processing](form-processing-model-overview.md)         | Custom              |
 | Documents       | [Text recognition](prebuilt-text-recognition.md)        | Prebuilt            |
 | Documents       | [Receipt processing](prebuilt-receipt-processing.md)      | Prebuilt            |
 | Text            | Category classification | [Prebuilt](prebuilt-category-classification.md) and [custom](text-classification-overview.md) |
@@ -64,7 +64,7 @@ The different types of AI models in AI Builder provide you with a broad range of
 
 | Business scenario | Model type |
 | ----- | ----- |
-Automate customer application processing|Form processing
+Automate customer application processing|Document processing
 Automate expense reports|Receipt processing
 Categorize user feedback based on their focus | Category classification
 Extract insights from product reviews | Entity extraction

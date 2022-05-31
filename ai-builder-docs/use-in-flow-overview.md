@@ -32,7 +32,7 @@ Power Automate is a service that helps you create automated workflows between yo
 
 * [Category classification model](text-classification-model-in-flow.md)
 * [Entity extraction model](entity-extraction-pwr-automate.md)
-* [Form processing model](form-processing-model-in-flow.md)
+* [Document processing model](form-processing-model-in-flow.md)
 * [Object detection model](object-detection-model-in-flow.md)
 * [Prediction model](prediction-pwr-automate.md)
 

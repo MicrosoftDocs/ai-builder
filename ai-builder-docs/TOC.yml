@@ -137,24 +137,24 @@
       href: object-detection-train-model.md
     - name: Use sample data
       href: object-detection-sample-data.md
-  - name: Form processing AI model
+  - name: Document processing AI model
     items:
     - name: Overview
       href: form-processing-model-overview.md
       displayName: automate data entry
     - name: Requirements and limitations
       href: form-processing-model-requirements.md
-    - name: Create a form processing model
+    - name: Create a document processing model
       href: create-form-processing-model.md
-    - name: Train and publish your form processing model
+    - name: Train and publish your document processing model
       href: form-processing-train.md
-    - name: Improve form processing model performance
+    - name: Improve document processing model performance
       href: improve-form-processing-performance.md
     - name: Use sample data
       href: form-processing-sample-data.md
-    - name: FAQ for form processing
+    - name: FAQ for document processing
       href: form-processing-faq.md
-    - name: Process multipage tables in form processing (experimental)
+    - name: Process multipage tables in document processing (experimental)
       href: form-processing-multipage.md  
   - name: Image classification AI model by Lobe (preview)
     items:
@@ -182,7 +182,7 @@
       href: text-classification-model-in-flow.md
     - name: Entity extraction model 
       href: entity-extraction-pwr-automate.md
-    - name: Form processing model
+    - name: Document processing model
       href: form-processing-model-in-flow.md
     - name: Object detection model
       href: object-detection-model-in-flow.md

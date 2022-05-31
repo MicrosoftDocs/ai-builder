@@ -5,7 +5,7 @@ author: Antonio-Rodrigues
 manager: cdbellar
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/05/2021
+ms.date: 05/31/2022
 ms.author: antrod
 ms.reviewer: angieandrews
 ---
@@ -71,11 +71,11 @@ In this section, we'll explain how to configure the AI Builder predict action fo
 
    The **Infer request** column value depends on the model type.
 
-### Form processing model
+### Document processing model
 
 1. In the step **Manually trigger a flow**, add a **File** input, and set its name to **File Content**.
 1. In the step **Manually trigger a flow**, add a **Text** input, and set its name to **Mime Type**.
-1. In the step **Initialize variable**, enter a form processing model ID.
+1. In the step **Initialize variable**, enter a document processing model ID.
 1. In the step **Predict**, enter following value in the **Infer request** column:
 
     ```json
@@ -116,7 +116,7 @@ In this section, we'll explain how to configure the AI Builder predict action fo
 
 ### Object detection model
 
-This process is similar to the infer request in step 4 in the *Form processing model* section:
+This process is similar to the infer request in step 4 in the *Document processing model* section:
 
 ```json
 {
@@ -130,7 +130,7 @@ This process is similar to the infer request in step 4 in the *Form processing m
 
 ### Category classification model
 
-This process is similar to the infer request in step 4 in the *Form processing model* section:
+This process is similar to the infer request in step 4 in the *Document processing model* section:
 
 ```json
 {
