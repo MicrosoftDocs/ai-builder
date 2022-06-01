@@ -1,6 +1,6 @@
 ---
-title: Continously improve your model - AI Builder | Microsoft Docs
-description: This topic provides an overview of how to continously improve AI Builder models.
+title: Continuously improve your model - AI Builder | Microsoft Docs
+description: This topic provides an overview of how to continuously improve AI Builder models.
 author: antrod
 ms.topic: conceptual
 ms.custom:
@@ -9,11 +9,11 @@ ms.author: antrod
 ms.reviewer: angieandrews
 ---
 
-# Continously improve your model
+# Continuously improve your model
 
 ## Overview
 
-After the model creation, it is likely that you will need to improve your model on a regular basis using Production data. The **feeback loop** feature will help you automate this continous process.
+After the model creation, it is likely that you will need to improve your model on a regular basis using Production data. The **feeback loop** feature will help you automate this continuous process.
 
 > [!NOTE]
 > For now, only custom **document processing** models are supported by the feedback loop feature.
