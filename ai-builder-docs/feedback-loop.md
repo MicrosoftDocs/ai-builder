@@ -13,7 +13,7 @@ ms.reviewer: angieandrews
 
 ## Overview
 
-After the model creation, it is likely that you will need to improve your model on a regular basis using Production data. The **feeback loop** feature will help you automate this continuous process.
+After the model creation, it is likely that you will need to improve your model on a regular basis using Production data. The **feedback loop** feature will help you automate this continuous process.
 
 > [!NOTE]
 > For now, only custom **document processing** models are supported by the feedback loop feature.
@@ -51,7 +51,7 @@ If you have already a flow running with your AI Builder model you will be able t
 
 2. After the AI Builder action card, include a **Condition** action and define the condition that defines if the data is valid (Yes) or needs to go in the feedback loop (No).
 
-3. In the **No** section, add the action **Add data in AI Builder feedback loop**. Select the model you are using into the _AI model_ field, the source file into the _Source file_ field and the expression **predictionOutput** into _AI model output_ field
+3. In the **No** section, add the action **Add file in AI Builder feedback loop**. Select the model you are using into the _AI model_ field, the source file into the _Source file_ field and the expression **predictionOutput** into _AI model output_ field
 
 _Add image here_
 
