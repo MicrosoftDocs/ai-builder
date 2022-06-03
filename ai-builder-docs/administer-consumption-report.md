@@ -51,7 +51,7 @@ To download and view an Excel file showing your AI credit consumption report:
 
 1. At the top of the screen, select **Download** to download the report as an Excel file.
 
-## Understanding the consumption report
+## Understand the consumption report
 
 The report shows AI credits consumed by date for each environment.
 
