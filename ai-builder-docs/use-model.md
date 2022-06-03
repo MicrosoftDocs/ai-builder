@@ -15,14 +15,14 @@ After you publish your model, you can use it across Microsoft Power Platform to 
 
 ## Get straight to productivity
 
-When you select a model from **Get straight to productivity**, you can choose  how you want to use the model and then AI Builder will provide you with the steps to build it:
+When you select a *prebuilt model* from one of the tiles in **Try out AI capabilities for each data type**, you can choose how you want to use the model, and then AI Builder will provide you with the steps to build it. A prebuilt model tile doesn't have the word **Custom** in the upper-right corner. Whe you select it, the next screen shows **Prebuilt model** in the upper right. The following example shows the screen for the business card reader model.
 
 > [!div class="mx-imgBorder"]
-> ![Choose how to use your model.](media/select-productivity.png "Choose how to use your model.")
+> ![Screenshot showing choices for how to use your model.](media/ai-capabilities.png "Choose how to use your model")
 
 ## Optimize a model for your business outcome
 
-Unlike a prebuilt model, a custom model allows you to customize your own steps. You can see how your model is used in the detail page:
+When you select a *custom model* from one of the tiles in **Try out AI capabilities for each data type**, you can customize your own steps. You can learn how your model is used in the detail page.
 
 > [!div class="mx-imgBorder"]
 > ![How your model is used.](media/model-used-box.png "How your model is used.")
@@ -32,7 +32,7 @@ For details on how to use each AI Builder model in Power Automate or Power Apps,
 - [Use AI Builder in Power Automate](use-in-flow-overview.md)
 - [Use AI Builder in Power Apps](use-in-powerapps-overview.md)
 
-### Next step
+## Next step
 
 [Share your AI model](share-model.md)
 

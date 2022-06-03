@@ -4,7 +4,7 @@ description: Provides the steps needed to build any type of AI model in AI Build
 author: v-aangie
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/27/2019
+ms.date: 06/03/2022
 ms.author: angieandrews
 ms.reviewer: angieandrews
 ---
@@ -14,7 +14,7 @@ ms.reviewer: angieandrews
 In AI Builder, we guide you through each step to create your AI model.
 
 > [!div class="mx-imgBorder"]
-> ![Build a model screen.](media/ai-builder-home.png "Build a model screen")
+> ![Screenshot of the Build a model screen.](media/ai-builder-home.png "Build a model screen")
 
 ## Prerequisites
 
@@ -35,7 +35,7 @@ Do you want to explore AI Builder by using sample data provided by Microsoft? En
 3. Under **Make your own AI model**, select an AI model type.
 4. Type a model name, and then select **Create**.
 
-### Next step
+## Next step
 
 [Train your model in AI Builder](train-model.md)
 
