@@ -4,7 +4,7 @@ description: Provides steps by step instructions about how to use your model in 
 author: v-aangie
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/05/2022
+ms.date: 06/03/2022
 ms.author: angieandrews
 ms.reviewer: angieandrews
 ---
@@ -15,7 +15,7 @@ After you publish your model, you can use it across Microsoft Power Platform to 
 
 ## Get straight to productivity
 
-When you select a *prebuilt model* from one of the tiles in **Try out AI capabilities for each data type**, you can choose how you want to use the model, and then AI Builder will provide you with the steps to build it. A prebuilt model tile doesn't have the word **Custom** in the upper-right corner. Whe you select it, the next screen shows **Prebuilt model** in the upper right. The following example shows the screen for the business card reader model.
+When you select a *prebuilt model* from one of the tiles in **Try out AI capabilities for each data type**, you can choose how you want to use the model, and then AI Builder will provide you with the steps to build it. A prebuilt model tile doesn't have the word **Custom** in the upper-right corner. When you select it, the next screen shows **Prebuilt model** in the upper right. The following example shows the screen for the business card reader model.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing choices for how to use your model.](media/ai-capabilities.png "Choose how to use your model")
@@ -27,7 +27,7 @@ When you select a *custom model* from one of the tiles in **Try out AI capabilit
 > [!div class="mx-imgBorder"]
 > ![How your model is used.](media/model-used-box.png "How your model is used.")
 
-For details on how to use each AI Builder model in Power Automate or Power Apps, select one of the following:
+To learn how to use each AI Builder model in Power Automate or Power Apps, select one of the following for details:
 
 - [Use AI Builder in Power Automate](use-in-flow-overview.md)
 - [Use AI Builder in Power Apps](use-in-powerapps-overview.md)
