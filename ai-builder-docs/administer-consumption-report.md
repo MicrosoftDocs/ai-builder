@@ -1,6 +1,6 @@
 ---
 title: AI Builder consumption report - AI Builder | Microsoft Docs
-description: This topi describes the consumption report, which shows how your AI credits are being used in the Microsoft Power Platform admin center.
+description: This topic describes the consumption report, which shows how your AI credits are being used in the Microsoft Power Platform admin center.
 author: CedrickBellarosa
 ms.topic: conceptual
 ms.custom: 
@@ -26,7 +26,7 @@ To download and view an Excel file showing your AI credit consumption report:
 
 1. Sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
 
-1. On the left panel, select **Resources** > **Capacity**.
+1. On the left pane, select **Resources** > **Capacity**.
 
 1. On the **Summary** tab, select **Download reports** in the **Add-ons** section.
 
@@ -61,7 +61,7 @@ The report shows AI credits consumed by date for each environment.
 - **UserId** is the identifier visible in the Dataverse "User" table.
 - **EnvironmentId** is the identifier visible in your Power Apps or Power Automate URL (for example, https://make.powerapps.com/environments/%GUID%).
 
-- **<1K** in the **AIConsumption** column means that you have consumed fewer than 1,000 credits on that day and that environment.
+- **<1K** in the **AIConsumption** column means that you've consumed fewer than 1,000 credits on that day and that environment.
 
 You can compare the aggregated consumption for the current calendar month on each environment with what has been allocated. Using this information, you can take action to allocate more credits to environments that are in overage. Remember, the number of allocated credits by environment is visible and can be changed in the Power Platform admin center [Add-ons](https://admin.powerplatform.microsoft.com/resources/capacity#add-ons) page.
 
