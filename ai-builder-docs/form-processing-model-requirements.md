@@ -30,7 +30,8 @@ Document processing works on input documents that meet the following requirement
 - You can create up to 200 collections per model when selecting structured and semi-structured as document type and unlimited number of collections for unstructured documents.
 
  > [!NOTE]
- > Extracting signatures from documents is currently not supported.
+ > Extracting signatures from documents is currently not supported.<br />
+ > Fields that split across page boundaries are currently not supported.
 
 ## Optimization tips
 
