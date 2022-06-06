@@ -99,7 +99,7 @@ For more information about other limitations of Power Platform US Government, go
 - [Power Apps US Government feature limitations](/power-platform/admin/powerapps-us-government#power-apps-us-government-feature-limitations)
 - [Power Automate US Government feature limitations](/power-automate/us-govt#power-automate-us-government-feature-limitations)
 
-### Related content
+### More information
 
 [AI model types](model-types.md)
 
