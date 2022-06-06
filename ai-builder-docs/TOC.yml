@@ -156,7 +156,7 @@
       href: form-processing-faq.md
     - name: Process multipage tables in document processing (experimental)
       href: form-processing-multipage.md  
-  - name: Image classification AI model by Lobe (preview)
+  - name: Image classification AI model by Lobe
     items:
     - name: Overview
       href: lobe-overview.md
@@ -186,7 +186,7 @@
       href: form-processing-model-in-flow.md
     - name: Object detection model
       href: object-detection-model-in-flow.md
-    - name: Image classification model (preview)
+    - name: Image classification model
       href: image-classification-model-in-flow.md  
     - name: Prediction model
       href: prediction-pwr-automate.md
@@ -226,7 +226,7 @@
     href: form-processor-component-in-powerapps.md
   - name: Use the object detection component in Power Apps
     href: object-detector-component-in-powerapps.md
-  - name: Use the image classification component in Power Apps (preview)
+  - name: Use the image classification component in Power Apps
     href: image-classification-component-in-powerapps.md
   - name: Use formulas for text AI models in Power Apps (preview)
     href: formula-bar.md

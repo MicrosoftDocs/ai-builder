@@ -1,26 +1,19 @@
 ---
-title: Use image classification model by Lobe in Power Automate (preview) - AI Builder | Microsoft Docs
+title: Use image classification model by Lobe in Power Automate - AI Builder | Microsoft Docs
 description: Learn how to use the image classification model from Lobe to predict labels and categorize images in Power Automate.
 author: v-aangie
 ms.topic: conceptual
 ms.custom: intro-internal
-ms.date: 11/15/2021
+ms.date: 06/06/2022
 ms.author: angieandrews
 contributors:
     - JakeCohenMicrosoft
     - v-aangie
 ---
 
-# Use an image classification model by Lobe in Power Automate (preview)
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
+# Use an image classification model by Lobe in Power Automate
 
 To use your image classification model in a Power Automate flow, you'll need to create a new model or edit an existing one. Then you can add the Power Fx `Prediction` formula to generate results that can help you solve a variety of business problems.
-
-> [!IMPORTANT]
-> - This is a preview feature.
-> - [!INCLUDE[cc_preview_features_definition](includes/cc-preview-features-definition.md)]
-> - This feature is being gradually rolled out across regions and might not be available yet in your region.
 
 ## Create a flow in Power Automate
 
