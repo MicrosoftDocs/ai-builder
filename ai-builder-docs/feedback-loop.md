@@ -4,80 +4,107 @@ description: This topic provides an overview of how to continuously improve AI B
 author: antrod
 ms.topic: conceptual
 ms.custom:
-ms.date: 06/01/2022
+ms.date: 06/09/2022
 ms.author: antrod
 ms.reviewer: angieandrews
 ---
 
 # Continuously improve your model
 
-## Overview
-
-After the model creation, it is likely that you will need to improve your model on a regular basis using Production data. The **feedback loop** feature will help you automate this continuous process.
+After the model creation, it's likely that you'll need to improve your model regularly using production data. The *feedback loop* feature will help you automate this continuous process.
 
 > [!NOTE]
-> For now, only custom **document processing** models are supported by the feedback loop feature.
+> Only custom document processing models are supported by the feedback loop feature.
 
 ## Select documents to add in the feedback loop
-The first thing you will have to do is select the data eligible for the feedback loop. This has to be done from within the **Power Automate flow** that runs your model.
+
+The first thing you'll have to do is select the data eligible for the feedback loop. This has to be done from within the Power Automate flow that runs your model.
 
 ### New Power Automate flow
-If you don't have a Power Automate flow to run your model yet, you can simply create a new one from the model detail page after publishing the model.
+
+If you don't have a Power Automate flow to run your model yet, you can create a new one from the model detail page after publishing the model.
 
 1. Sign in to [Power Apps](https://make.powerapps.com/) or [Power Automate](https://flow.microsoft.com/signin).
 
-2. In the left pane, select **AI Builder** > **Models**. Then click on the model for wish you would like to set-up the feedback loop (if your model is not published yet, click on the Publish button before continuing).
+1. On the left pane, select **AI Builder** > **Models**.
 
-3. Click on **Use model** and select **Build intelligent automations**. Pick up the template that best fits your needs.
+1. Select the model for which you'd like to set up the feedback loop.
 
-_Add image here_
+    If your model isn't published yet, select **Publish** before continuing.
 
-4. Validate the template connexions to land in the Power Automate flow authoring experience
+1. Select **Use model** > **Build intelligent automations**.
 
-5. From there, go to the **Feedback loop** section to edit the conditions that will allow you to add data in the feedback loop storage.
+1. Select the template that best fits your needs.
 
-_Add image here_
+    <!--Add image here-->
 
-In this case we defined a condition stating that confidence score of the *Total* field should be higher than 0.7 (70%), otherwise the data goes in the feedback loop storage.
+1. Validate the template connections to land in the Power Automate flow authoring experience.
+
+1. Go to the **Feedback loop** section to edit the conditions that will allow you to add data in the feedback loop storage.
+
+    <!--Add image here-->
+
+In this example, we defined a condition stating that confidence score of the **Total** field should be higher than 0.7 (70%). If it's not, the data goes in the feedback loop storage.
 
 > [!NOTE]
-> The feedback loop storage is a Dataverse table within the the same environment in which the flow runs. The table is called **AI Builder Feedback Loop**. Unless you need to delete records in the table, you don't need to access it directly to make the feedback loop work.
-
+> The feedback loop storage is a Microsoft Dataverse table within the the same environment in which the flow runs. The table is called **AI Builder Feedback Loop**. Unless you need to delete records in the table, you don't need to access it directly to make the feedback loop work.
 
 ### Existing Power Automate flow
-If you have already a flow running with your AI Builder model you will be able to add the feedback loop storage functionnality within.
 
-1. Sign-in to [Power Automate](https://flow.microsoft.com/signin) and select your Power Automate flow.
+If you already have a flow running with your AI Builder model, you'll be able to add the feedback loop storage functionality within.
 
-2. After the AI Builder action card, include a **Condition** action and define the condition that defines if the data is valid (Yes) or needs to go in the feedback loop (No).
+1. Sign in to [Power Automate](https://flow.microsoft.com/signin).
 
-3. In the **No** section, add the action **Add file in AI Builder feedback loop**. Select the model you are using into the _AI model_ field, the source file into the _Source file_ field and the expression **predictionOutput** into _AI model output_ field
+1. On the left pane, select **My flows**.
 
-_Add image here_
+1. Select your Power Automate flow.
 
-In this case we defined a condition stating that confidence score of the *Total* field should be higher than 0.7 (70%), otherwise the data goes in the feedback loop storage.
+1. On the toolbar, select **Edit**.
 
+1. After the AI Builder action card, insert a new step:
+    1. Select the plus sign (+) that appears when you hover over the arrow.
+    1. Select **Add an action**.
+
+1. In the **Actions** list, select **Condition**, where you'll enter the condition that defines if the data is valid (yes) or needs to go in the feedback loop (no).
+
+1. In the **If no** section:
+    1. Add the action **Add file in AI Builder feedback loop**.
+    1. Select the model you are using to place it in the **AI model** field.
+    1. Select the source file to place it in the **Source file** field.
+    1. Select the expression **predictionOutput** to place it in the **AI model output** field.
+
+    <!--Add image here-->
+
+In this example, we defined a condition stating that the confidence score of the **Total** field should be higher than 0.7 (70%). If it's not, the data goes in the feedback loop storage.
 
 ## Use data in the feedback loop to improve your model
-Now that you have data in the AI Builder feedback loop, you can use them to improve your model.
+
+Now that you have data in the AI Builder feedback loop, you can use it to improve your model.
 
 1. Sign in to [Power Apps](https://make.powerapps.com/) or [Power Automate](https://flow.microsoft.com/signin).
 
-2. In the left pane, select **AI Builder** > **Models**. Then click on the model for wish you would like to improve using data in the feedback loop.
+1. On the left pane, select **AI Builder** > **Models**.
 
-3. Click on Edit model and continue to the wizard section to add new training data. For document processing models, select the desired collection and click on Add documents. You will see the **Feedback loop** data source option: if documents have been added to the feedback loop, they will be visible there.
+1. Select the model that you'd like to improve using data in the feedback loop.
 
-_Add image here_
+1. Select **Edit model** and continue to the wizard section to add new training data.
 
-4. Click on **Feedback loop** and add the documents that could improve your model.
+1. For document processing models, select the desired collection and select **Add documents**. You'll get the **Feedback loop** data source option. If documents have been added to the feedback loop, they'll appear there.
 
-6. Tag these new documents and retrain the model.
+    <!--Add image here-->
 
-Your model is now improved with new documents coming from the feedback loop!
+1. Select **Feedback loop** and add the documents that could improve your model.
 
+1. Tag these new documents and retrain the model.
+
+Your model is now improved with new documents coming from the feedback loop.
 
 ## Limitations
-* Feedback loop feature is limited to custom document processing models.
-* Feedback loop data can only be added from Power Automate flows.
-* Feedback loop data can't transit between environments (we are working on making it available cross-environments).
-* Owner of the model and owner of the flow containing the feedback loop logic should be the same person.
+
+- Feedback loop feature is limited to custom document processing models.
+
+- Feedback loop data can be added only from Power Automate flows.
+
+- Feedback loop data can't transit between environments (this is planned to be available soon).
+
+- Owner of the model and owner of the flow containing the feedback loop logic should be the same person.
