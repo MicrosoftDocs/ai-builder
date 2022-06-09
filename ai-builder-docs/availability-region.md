@@ -32,11 +32,11 @@ The following tables show which AI Builder features are available in each region
 |Category classification|GA|GA|GA|GA| GA|GA|GA|GA|-|GA|-|GA|GA|GA|GA|
 |Entity extraction |GA|GA|GA|GA| GA|GA|GA|GA|-|GA|-|GA|GA|GA|GA|
 |Object detection|GA|GA|-|GA| -|-|GA|GA| -|-|-|-|-|GA|GA|
-|Form processing |GA|GA|GA|GA| GA|GA|GA|GA| GA|GA|GA| GA|GA|GA|GA|
+|Document processing (for structured and semi-structured documents)  |GA|GA|GA|GA| GA|GA|GA|GA| GA|GA|GA| GA|GA|GA|GA|
+|Document processing (for unstructured documents) |Preview|-|Preview|Preview|-|-|Preview|Preview|-|Preview|-| -|-|-|Preview|
 |Image classification |Preview |Preview |- |Preview |- |Preview |Preview |Preview |- |Preview|-|Preview |Preview |Preview |Preview |
 
 ### Prebuilt models
-
 |Feature |Asia |Australia |Canada |Europe |France |Germany |India |Japan |Norway |South America |South Korea |Switzerland |United Arab Emirates |United Kingdom |United States |
 |:-------|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
 |Business card reader    |GA|GA |GA|GA|GA |GA|GA |GA|GA|GA|GA|GA|GA|GA||GA|
@@ -98,7 +98,7 @@ For more information about other limitations of Power Platform US Government, go
 - [Power Apps US Government feature limitations](/power-platform/admin/powerapps-us-government#power-apps-us-government-feature-limitations)
 - [Power Automate US Government feature limitations](/power-automate/us-govt#power-automate-us-government-feature-limitations)
 
-### Related content
+### More information
 
 [AI model types](model-types.md)
 

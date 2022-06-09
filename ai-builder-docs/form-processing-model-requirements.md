@@ -22,21 +22,20 @@ The following language is supported when training a document processing model an
 Document processing works on input documents that meet the following requirements:
 
 - JPG, PNG, or PDF format (text or scanned). Text-embedded PDFs are better, because there won't be any errors in character extraction and location.
-- TIFF files cannot be used for training. You will need to use documents in PDF, JPG or PNG format to train a model. Once the model has been trained, it can extract data from TIFF files when the model is used in a Power Automate cloud flow.
+- TIFF files can't be used for training. You'll need to use documents in PDF, JPG or PNG format to train a model. Once the model has been trained, it can extract data from TIFF files when the model is used in a Power Automate cloud flow.
 - If your PDFs are password-locked, you must remove the lock before submitting them.
 - The combined file size of the documents used for training per collection must not exceed 50 MB. 
 - For images, dimensions must be between 50 &times; 50 and 10,000 &times; 10,000 pixels.
-- For PDF files, dimensions must be at most 17 x 17 inches, corresponding to Legal or A3 paper sizes and smaller.
 - If scanned from paper documents, scans should be high-quality images.
-- You can create up to 200 collections per model.
+- You can create up to 200 collections per model when selecting structured and semi-structured as document type, and an unlimited number of collections for unstructured documents.
 
  > [!NOTE]
- > Extracting signatures from documents is currently not supported.
+ > Extracting signatures from documents is currently not supported.<br />
+ > Fields that split across page boundaries are currently not supported.
 
 ## Optimization tips
 
 Learn how to [improve the performance of document processing models](improve-form-processing-performance.md).
-
 
 ## Next step
 
