@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 01/03/2020
 ms.author: antode
-ms.reviewer: kvivek
+ms.reviewer: 
 ---
 <!--note from editor: Is there a reason this file isn't included in the TOC? -->
 # Preview features
