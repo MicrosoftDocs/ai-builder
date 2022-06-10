@@ -103,7 +103,7 @@ Images and documents used for training purposes in object detection and document
 
 Some AI Builder features are released for general availability. Others remain in preview release status.
 
-Preview features appear on the build page with the **Preview** label. In the Power Platform admin center, administrators control whether users have access to preview features.
+Preview features appear on the explore page with the **Preview** label. In the Power Platform admin center, administrators control whether users have access to preview features.
 
 By default, the **AI Builder preview models** feature is enabled for any eligible environment. Eligible environments must have Microsoft Dataverse and be in a [supported region](availability-region.md). If the environment isn't eligible, the **AI Builder preview models** feature doesn't appear in the Power Platform admin center.
 
