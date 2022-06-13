@@ -35,7 +35,7 @@ On the **Choose document type** step, select the type of document you want to bu
 
 - **Structured and semi-structured documents**. Structured and semi-structured documents are those where for a given layout, the fields, tables, checkboxes, and other items can be found in similar places. Examples of structured and semi-structured documents are invoices, purchase orders, delivery orders, tax documents, and more.
 
-- **Unstructured and free-form documents** (preview). Unstructured documents are those where there is no set structure, usually free documents with a varying number of paragraphs. Examples of unstructured documents are contracts, statement of work, letters, and more. This document type is currently in preview. We welcome your feedback on this new preview functionality. You can post your feedback on the [AI Builder forum](https://powerusers.microsoft.com/t5/AI-Builder/bd-p/AIBuilder?msclkid=ff04e163d11711ecb0ef6b46226eb8e6).
+- **Unstructured and free-form documents** (preview). Unstructured documents are those where there's no set structure, usually free documents with a varying number of paragraphs. Examples of unstructured documents are contracts, statement of work, letters, and more. This document type is currently in preview. We welcome your feedback on this new preview functionality. You can post your feedback on the [AI Builder forum](https://powerusers.microsoft.com/t5/AI-Builder/bd-p/AIBuilder?msclkid=ff04e163d11711ecb0ef6b46226eb8e6).
 
    > [!div class="mx-imgBorder"]
    > ![Choose document type](media/document-processing-choose-document-type.png "Select the type of document")
@@ -132,7 +132,7 @@ An alternative way to define the rows and columns for a table is by selecting **
 
 Advanced tagging mode allows you to tag tables at the cell level. Use this mode for complex tables like:
 
-- Tables that are skewed, where tagging with a grid is not possible.
+- Tables that are skewed, where tagging with a grid isn't possible.
 - When you need to extract nested items, like an item within a cell. 
 
 Given the table from the following example, to extract the unit price, we'll define it as a separate column on the [Choose information to extract step](create-form-processing-model.md#define-information-to-extract). We define **Description**, **Unit price**, **Quantity**, and **Amount** each as a column of the table and tag them accordingly using advanced tagging mode. See the animation below.
