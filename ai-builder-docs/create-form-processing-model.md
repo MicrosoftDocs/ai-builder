@@ -95,7 +95,7 @@ At any time, you can resize to adjust your selection.
 If a field ends in one line and begins in another one, you can tag it using the **‘Continue tagging’** option. 
 
    > [!div class="mx-imgBorder"]
-   > ![Continue tagging](media/document-processing-continue-tagging.gif "Tag multiple words and line breaks")
+   > ![Continue tagging](media/document-processing-continue-tagging-doc.gif "Tag multiple words and line breaks")
 
 You can also use the **Control** key in Windows or **Command ⌘** in macOS to tag multiple words at once. You can also use the **Shift** key to select the first and last word to tag all words between the two.
 
