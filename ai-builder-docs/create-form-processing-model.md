@@ -17,32 +17,32 @@ After you review the [requirements](form-processing-model-requirements.md), you 
 
 1. Sign in to [Power Apps](https://make.powerapps.com/) or [Power Automate](https://flow.microsoft.com/signin).
 
-1. In the left pane, select **AI Builder** > **Explore**.
+1. On the left pane, select **AI Builder** > **Explore**.
 
 1. Select **Extract custom information from documents**.
 
 1. Select **Get Started**.
 
-1. A step-by-step wizard will walk you through the process by asking you to list all data you want to extract from your document. If you want to create your model by using your own documents, make sure that you have at least five examples that use the same layout. Otherwise, you can [use sample data](form-processing-sample-data.md) to create the model.
+1. A step-by-step wizard will walk you through the process by asking you to list all data you want to extract from your document. If you want to create your model by using your own documents, make sure you have at least five examples that use the same layout. Otherwise, you can [use sample data](form-processing-sample-data.md) to create the model.
 
-1. Click on Train.
+1. Select **Train**.
  
-1. Test the model by selecting Quick test.
+1. Test the model by selecting **Quick test**.
 
 ## Select the type of document
 
-On the **Choose document type** step, you select the type of document you want to build an AI model to automate data extraction. There are two options:
+On the **Choose document type** step, select the type of document you want to build an AI model to automate data extraction. There are two options:
 
-- **Structured and semi-structured documents**. Structured and semi-structured documents are those where for a given layout, the fields, tables, checkboxes, and other items can be found in similar places. Examples of structured and semi-structured documents are invoices, purchase orders, delivery orders, tax documents, etc.
+- **Structured and semi-structured documents**. Structured and semi-structured documents are those where for a given layout, the fields, tables, checkboxes, and other items can be found in similar places. Examples of structured and semi-structured documents are invoices, purchase orders, delivery orders, tax documents, and more.
 
-- **Unstructured and free-form documents** (preview). Unstructured documents are those where there is no set structure, usually free documents with a varying number of paragraphs. Examples of unstructured documents are contracts, statement of work, letters, etc. This document type is currently in preview. We welcome your feedback on this new preview functionality. You can post your feedback on the [AI Builder forum](https://powerusers.microsoft.com/t5/AI-Builder/bd-p/AIBuilder?msclkid=ff04e163d11711ecb0ef6b46226eb8e6)
+- **Unstructured and free-form documents** (preview). Unstructured documents are those where there is no set structure, usually free documents with a varying number of paragraphs. Examples of unstructured documents are contracts, statement of work, letters, and more. This document type is currently in preview. We welcome your feedback on this new preview functionality. You can post your feedback on the [AI Builder forum](https://powerusers.microsoft.com/t5/AI-Builder/bd-p/AIBuilder?msclkid=ff04e163d11711ecb0ef6b46226eb8e6).
 
    > [!div class="mx-imgBorder"]
    > ![Choose document type](media/document-processing-choose-document-type.png "Select the type of document")
 
 ## Define information to extract
 
-On the **Choose information to extract** screen, you define the fields, tables, and checkboxes you want to teach your model to extract. Select the **+Add** button to start defining these.
+On the **Choose information to extract** screen, define the fields, tables, and checkboxes you want to teach your model to extract. Select the **+Add** button to start defining these.
 
 - For each field, provide a name you would like the field to have in the model.
 
@@ -55,7 +55,7 @@ On the **Choose information to extract** screen, you define the fields, tables, 
    > !['Define tables' animation.](media/form-processing-multiple-layout-define-tables-only.gif "Define tables to extract")
 
    > [!NOTE]
-   > Table extraction is currently not available when choosing ‘Unstructured and free-form documents’ as document type.
+   > Table extraction isn't currently available when choosing ‘Unstructured and free-form documents’ as the document type.
 
 - For each checkbox, provide a name you would like the checkbox to have in the model. Define separate checkboxes for each item that can be checked in a document.
 
@@ -181,7 +181,7 @@ If a field, checkbox, or table isn't present in one of the documents you've uplo
 
 All the documents that you've uploaded are presented for you to tag. If you've created multiple collections, tag all documents across all the collections.
 
-### Next step
+## Next step
 
 [Train and publish your document processing model](form-processing-train.md)
 
