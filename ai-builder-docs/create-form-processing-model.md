@@ -92,7 +92,7 @@ To tag a field, draw a rectangle around the field you're interested in and selec
 
 At any time, you can resize to adjust your selection.
 
-If a field ends in one line and begins in another one, you can tag it using the **‘Continue tagging’** option. 
+If a field ends on one line and begins on another line, you can tag it using the **‘Continue tagging’** option. 
 
    > [!div class="mx-imgBorder"]
    > ![Continue tagging](media/document-processing-continue-tagging-doc.gif "Tag multiple words and line breaks")
