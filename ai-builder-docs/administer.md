@@ -41,7 +41,7 @@ Managing new versions of a model often requires going through different environm
 
 In AI Builder, all the environments need to be provided with a Microsoft Dataverse database.
 
-Moving models between environments can be done through the solution concept. Solutions are vehicles to move components between Microsoft Power Platform environments. For more information, go to [Introduction to solutions](/powerapps/developer/data-platform/introduction-solutions/).
+Moving models between environments can be done through the solution concept. Solutions are vehicles to move components between Microsoft Power Platform environments. For more information, go to [Introduction to solutions](<!-- BROKEN LINK HttpLinkNotFound: /powerapps/developer/data-platform/introduction-solutions/ -->).
 
 For more information on how to distribute an AI model as a solution component, go to [Distribute your AI model](distribute-model.md).
 
