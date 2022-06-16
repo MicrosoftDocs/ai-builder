@@ -27,7 +27,7 @@ When you select a *custom model* from one of the tiles in **Try out AI capabilit
 > [!div class="mx-imgBorder"]
 > ![How your model is used.](media/model-used-box.png "How your model is used.")
 
-To learn how to use each AI Builder model in Power Automate or Power Apps, select one of the following for details:
+To learn how to use each AI Builder model in Power Automate or Power Apps, select one of the following links for details:
 
 - [Use AI Builder in Power Automate](use-in-flow-overview.md)
 - [Use AI Builder in Power Apps](use-in-powerapps-overview.md)

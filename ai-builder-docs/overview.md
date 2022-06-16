@@ -68,11 +68,11 @@ For information about license capacity, pricing, and restrictions:
 
 ## For administrators
 
-- If you are an administrator and want information on model and environments, go to [Administer AI Builder](administer.md).
+- If you're an administrator and want information on model and environments, go to [Administer AI Builder](administer.md).
 
 - For information on security for administrators, go to [Roles and security in AI Builder](security.md).
 
-### Next step
+## Next step
 
 [Learn about AI model types](model-types.md)
 

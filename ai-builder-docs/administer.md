@@ -4,7 +4,7 @@ description: "Provides information for an administrator about AI custom models a
 author: v-aangie
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/31/2021
+ms.date: 06/16/2022
 ms.author: antode
 ms.reviewer: angieandrews
 ---
@@ -19,7 +19,7 @@ For more information, go to the [AI Builder governance whitepaper](https://www.m
 
 ## AI custom model and environment lifecycle
 
-This section applies to AI Builder custom models. It does not apply to prebuilt models.
+This section applies to AI Builder custom models. It doesn't apply to prebuilt models.
 
 ### Lifecycle states of a model
 
@@ -68,7 +68,7 @@ Microsoft Dataverse has backup and restore capabilities to help protect your app
 
 AI Builder offers a subscription model allowing you to purchase add-ons.
 
-Only certain actions in the product consume credits. The following list is not all-inclusive and preview scenarios don't consume credits.
+Only certain actions in the product consume credits. The following list isn't all-inclusive and preview scenarios don't consume credits.
 
 |AI Builder Studio  |Power Apps  |Power Automate  |
 |---------|---------|---------|
@@ -149,11 +149,10 @@ To learn more, go to [Data loss prevention policies](/power-platform/admin/wp-da
 
 For prediction and prebuilt models, moving and copying environments is fully supported. For other models, after you move or copy an environment, you have to retrain and republish existing models to make them available again.
 
-### See also
+### More information
 
 [Roles and security in AI Builder](security.md)<br/>
 [Feature availability by region](availability-region.md)<br/>
 [AI Builder consumption report](administer-consumption-report.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -4,7 +4,7 @@ description: Provides the steps needed to build any type of AI model in AI Build
 author: v-aangie
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/03/2022
+ms.date: 06/16/2022
 ms.author: angieandrews
 ms.reviewer: angieandrews
 ---
@@ -14,11 +14,11 @@ ms.reviewer: angieandrews
 In AI Builder, we guide you through each step to create your AI model.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Build a model screen.](media/ai-builder-home.png "Build a model screen")
+> ![Screenshot of the explore screen.](media/ai-builder-home.png "Explore screen")
 
 ## Prerequisites
 
-Make sure your tenant's administrator has enabled AI Builder for your environment. Otherwise, you won't have access to AI Builder functionality. More information: [Enable or disable AI Builder preview features](administer.md#enable-or-disable-ai-builder-preview-features)
+Make sure your administrator (tenant or environment) has enabled AI Builder for your environment. Otherwise, you won't have access to AI Builder functionality. To learn more, go to [AI Builder actions are disabled/deactivated](/troubleshoot/power-platform/ai-builder/aibuilder-actions-are-disabled-deactivated).
 
 AI Builder requires the use of [Microsoft Dataverse](/powerapps/maker/common-data-service/data-platform-intro), which is the data platform for Microsoft Power Platform that allows you to store and manage business data. Dataverse is the platform on which Dynamics 365 apps are built, so if you're a Dynamics 365 customer, your data is already in Dataverse.
 
@@ -26,7 +26,7 @@ AI Builder requires the use of [Microsoft Dataverse](/powerapps/maker/common-dat
 
 Do you want to explore AI Builder by using sample data provided by Microsoft? Enable the **Deploy sample apps and data** setting when you create your environment to add sample data to your environment automatically. You can also [download sample data](samples.md), and then upload it to your environment.
 
-![Deploy samples setting.](media/deploy-samples-setting.png "Deploy samples setting")
+![Deploy sample aps and data setting.](media/deploy-samples-setting.png "Deploy sample apps and data setting")
 
 ## Get started
 

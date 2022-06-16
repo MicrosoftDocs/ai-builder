@@ -1,7 +1,7 @@
 ---
 title: AI Builder Licensing - AI Builder | Microsoft Docs
 description: Provides information about licensing in AI Builder.
-author: paulnog
+author: phil-cmd
 ms.topic: conceptual
 ms.custom: intro-internal
 ms.date: 05/31/2022
@@ -141,7 +141,7 @@ For more information, see [About trial environments](/power-platform/admin/trial
 
 #### Can I block users in my organization from signing up for an AI Builder trial?
 
-Any individual can try out the features of AI Builder for 30 days and incur no costs to your company. This option is available to any user in a tenant and cannot be disabled by an admin.
+Any individual can try out the features of AI Builder for 30 days and incur no costs to your company. This option is available to any user in a tenant and can't be disabled by an admin.
 
 #### What can I do with the 5,000 AI credits included in the per user plan with attended RPA?
 
