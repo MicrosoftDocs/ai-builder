@@ -4,7 +4,7 @@ description: "Provides information for an administrator about AI custom models a
 author: v-aangie
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/31/2021
+ms.date: 06/16/2022
 ms.author: antode
 ms.reviewer: angieandrews
 ---
@@ -41,7 +41,7 @@ Managing new versions of a model often requires going through different environm
 
 In AI Builder, all the environments need to be provided with a Microsoft Dataverse database.
 
-Moving models between environments can be done through the solution concept. Solutions are vehicles to move components between Microsoft Power Platform environments. For more information, go to [Introduction to solutions](<!-- BROKEN LINK HttpLinkNotFound: /powerapps/developer/data-platform/introduction-solutions/ -->).
+Moving models between environments can be done through the solution concept. Solutions are vehicles to move components between Microsoft Power Platform environments. To learn more, go to [Introduction to solutions](/power-apps/developer/data-platform/introduction-solutions).
 
 For more information on how to distribute an AI model as a solution component, go to [Distribute your AI model](distribute-model.md).
 
