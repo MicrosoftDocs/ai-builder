@@ -1,18 +1,17 @@
 ---
-title: Transition to the new object detection model version - AI Builder | Microsoft Docs
+title: Transition to the newest object detection model version - AI Builder | Microsoft Docs
 description: Preview object detection model versions won't be compatible with updated model versions, so you have to re-create existing models.
 author: JoeFernandezMS
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/31/2022
+ms.date: 06/16/2022
 ms.author: jofernan
 ms.reviewer: angieandrews
 ---
 
-# Transition to the new object detection model version
+# Transition to the newest object detection model version
 
-AI Builder is including improvements to object detection in a new model version. Your object detection
-preview models created before March 5, 2020, are deprecated. More information: [Document processing and object detection preview models in AI Builder are deprecated](/power-platform/important-changes-coming#form-processing-and-object-detection-preview-models-in-ai-builder-are-deprecated)
+AI Builder is including improvements to object detection in a newest model version. Your object detection preview models created before March 5, 2020, are deprecated. More information: [Document processing and object detection preview models in AI Builder are deprecated](/power-platform/important-changes-coming#form-processing-and-object-detection-preview-models-in-ai-builder-are-deprecated)
 
 Starting March 5, 2020, you have to re-create your existing object detection models if you want to continue to use them. Models created after this date will automatically use the new model version. It's a good idea to transition to the new model version as soon as possible.
 
@@ -31,9 +30,9 @@ We understand that you might have spent significant time building your object de
 
 Object detection models are being upgraded for general availability. Your existing preview models won't be compatible with the new model version.
 
-Until March 5, 2020, object detection models stored images as attachments in the Note entity. With this update, these models now use the new [File and Image data types](https://powerapps.microsoft.com/blog/introducing-improvements-to-data-storage-in-common-data-services/) in Microsoft Dataverse, enabling a better and more optimized usage of capacity.
+Until March 5, 2020, object detection models stored images as attachments in the Note entity. With this update, these models now use the new File and Image data types in Microsoft Dataverse, which enables a better and more optimized usage of capacity.
 
-### See also
+### More information
 
 [Manage your model in AI Builder](manage-model.md)
 
