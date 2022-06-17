@@ -64,11 +64,6 @@
       "source_path": "ai-builder-docs/create-binary-classification-model.md",
       "redirect_url": "prediction-create-model",
       "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ai-builder-docs/previewability-scenarios.md",
-      "redirect_url": "administer",
-      "redirect_document_id": "false"
-    }    
+    }
   ]
 }

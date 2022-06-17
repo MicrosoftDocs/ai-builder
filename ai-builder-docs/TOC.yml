@@ -13,6 +13,8 @@
       href: learn-ai-builder.md
     - name: Sample data
       href: samples.md  
+  - name: Preview features
+    href: previewability-scenarios.md
   - name: AI Builder community
     href: share-your-experience.md
     displayName: forums; support; help
