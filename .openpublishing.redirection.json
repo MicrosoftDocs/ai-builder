@@ -62,8 +62,8 @@
     },
     {
       "source_path": "ai-builder-docs/create-binary-classification-model.md",
-      "redirect_url": "prediction- create-model",
+      "redirect_url": "prediction-create-model",
       "redirect_document_id": "false"
-    }    
+    }
   ]
 }
