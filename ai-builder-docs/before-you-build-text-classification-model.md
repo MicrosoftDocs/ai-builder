@@ -19,7 +19,7 @@ Before you build your category classification model, make sure your data is in M
 
 - Make sure your administrator has assigned you a security role with Read privilege for the table that has the training data.
 
-- Make sure you have appropriate permissions to create tables in your Dataverse environment. You can use either the System Customizer or System Administrator [built-in security roles](security.md).
+- Make sure you have appropriate permissions to create tables in your Power Platform environment. You can use either the System Customizer or System Administrator [built-in security roles](security.md).
 
 ### Supported languages
 
@@ -152,7 +152,7 @@ In the example, the tags are separated by a comma (,). As an alternative, you ca
 
 You're now ready to go to the next step.
 
-### Next step
+## Next step
 
 [Create a category classification model](create-text-classification-model.md)
 

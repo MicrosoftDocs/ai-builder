@@ -25,7 +25,7 @@ Power Fx AI integration is a new approach that lets you reference AI models in a
 
 To use Power Fx in AI Builder models, you must have:
 
-- Access to a [Dataverse environment with a database](/power-platform/admin/create-environment#create-an-environment-with-a-database)
+- Access to a [Microsoft Power Platform environment with a database](/power-platform/admin/create-environment#create-an-environment-with-a-database)
 
 - AI Builder license (trial or paid)
 

@@ -9,7 +9,7 @@ ms.date: 06/17/2022
 ms.author: antode
 ms.reviewer: angieandrews
 ---
-<!--note from editor: Is there a reason this file isn't included in the TOC? -->
+
 # Preview features
 
 AI Builder is released and is generally available. But, some of its features are still in preview status. These features display a **Preview** tag near their names:
@@ -23,7 +23,7 @@ The environment administrator can decide to hide accesses to preview features. I
 
 ## FAQ
 
-### What happens if a model linked to a scenario in Preview mode is created and published, then the admin decides to hide all access to scenarios in Preview?
+### What happens if a model linked to a scenario in preview mode is created and published, then the admin decides to hide all access to scenarios in preview?
 
  In that case, this model will be blocked: it can't be edited or retrained, and it can't be used to compute new predictions. It will be displayed in the list of models, but it will be disabled and the only action that will be allowed is Delete.
 
