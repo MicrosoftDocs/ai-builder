@@ -13,6 +13,8 @@
       href: learn-ai-builder.md
     - name: Sample data
       href: samples.md  
+  - name: Preview features
+    href: previewability-scenarios.md
   - name: AI Builder community
     href: share-your-experience.md
     displayName: forums; support; help
@@ -135,6 +137,8 @@
       href: get-started-with-object-detection.md
     - name: Train and publish your object detection model
       href: object-detection-train-model.md
+    - name: Transition to the newest object detection model version
+      href: object-detection-transition.md
     - name: Use sample data
       href: object-detection-sample-data.md
   - name: Document processing AI model
@@ -155,7 +159,9 @@
     - name: FAQ for document processing
       href: form-processing-faq.md
     - name: Process multipage tables in document processing (experimental)
-      href: form-processing-multipage.md  
+      href: form-processing-multipage.md
+    - name: Transition to the newest object detection model version
+      href: form-processing-transition.md    
   - name: Image classification AI model by Lobe (preview)
     items:
     - name: Overview
