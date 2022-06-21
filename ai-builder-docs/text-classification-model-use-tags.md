@@ -4,9 +4,8 @@ description: Provides information about how to use category classification model
 author: v-aangie 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/05/2022
+ms.date: 06/21/2022
 ms.author: angieandrews 
-ms.reviewer: angieandrews
 ---
 
 # Use a category classification model to generate tags
@@ -19,7 +18,7 @@ If you want to use your trained model in Power Automate, see [Use a category cla
 
 ## Use in Power Apps
 
-You can integrate your AI Builder category classification models in Power Apps Studio by using the formula bar. For more information, see [Use formulas for text AI models](formula-bar.md#category-classification).
+You can integrate your AI Builder category classification models in Power Apps Studio by using the formula bar. For more information, see [Use Power Fx in AI Builder models in Power Apps (preview)](powerfx-in-powerapps.md).
 
 ## Set a run schedule on Microsoft Dataverse (preview)
 

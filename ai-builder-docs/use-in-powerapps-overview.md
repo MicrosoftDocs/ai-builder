@@ -1,11 +1,10 @@
 ---
 title: Overview of AI Builder in Power Apps - AI Builder | Microsoft Docs
 description: Provides an overview of the AI Builder components that are available to use with canvas and model-driven apps in Power Apps.
-author: norliu
+author: v-aangie
 ms.topic: overview
-
-ms.date: 11/08/2021
-ms.author: norliu
+ms.date: 06/21/2022
+ms.author: angieandrews
 ms.reviewer: angieandrews
 ---
 
@@ -20,17 +19,15 @@ You can now use [Power Fx](#use-power-fx-to-consume-ai-models-in-power-apps-prev
 
 ## Use AI models in the formula bar
 
-You can get support for the following AI Builder models that use Power Apps through the formula bar:
+You can get support for the following AI Builder models that use Power Apps through the formula bar. To learn more, see [Use Power Fx in AI Builder models in Power Apps (preview)](powerfx-in-powerapps.md).
 
 |Model type | Build type  |
 |---------|---------|
-|[Sentiment analysis](formula-bar.md#sentiment-analysis)  | Prebuilt     |
-|[Entity extraction](formula-bar.md#entity-extraction) | Prebuilt and Custom  |
-|[Key phrase extraction](formula-bar.md#key-phrase-extraction)   | Prebuilt        |
-|[Language detection](formula-bar.md#language-detection)   | Prebuilt     |
-|[Category classification](formula-bar.md#category-classification)  | Prebuilt and Custom   |
-
-To learn more about these models, see [Use formulas for text AI models](formula-bar.md).
+| Sentiment analysis  | Prebuilt     |
+| Entity extraction | Prebuilt and Custom  |
+| Key phrase extraction | Prebuilt        |
+| Language detection   | Prebuilt     |
+| Category classification | Prebuilt and Custom   |
 
 ## Add AI Builder components
 
