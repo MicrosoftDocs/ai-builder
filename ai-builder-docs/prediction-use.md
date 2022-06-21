@@ -29,12 +29,12 @@ For example, if your data changes weekly, you can schedule the model to train on
 Open the **Schedule** screen from the model detail page under **Database Sync**. Alternatively, select the **Settings** tab in the menu bar on the model details page.
 
 > [!div class="mx-imgBorder"]
-> ![Schedule screen.](media/schedule-screen.png "Schedule screen")
+> ![Screenshot of the Schedule screen.](media/schedule-screen.png "Schedule screen")
 
 When you select the link under **Database Sync**, the screen below lists schedule options for **Run**. Switch between the **Run** and **Retrain** tabs to view or modify their respective schedules.
 
 > [!div class="mx-imgBorder"]
-> ![Select schedule cadence.](media/schedule-cadence.png "Select schedule cadence")
+> ![Screenshot showing the schedule cadence.](media/schedule-cadence.png "Select schedule cadence")
 
 You can set the run or retrain cadence to daily, weekly, or monthly. If you don't want to run prediction or retrain at this time, you can set it to **Never**. Other reasons to set the cadence to **Never**<!--Suggested--> might be that you have data issues upstream and don't want to negatively affect<!--Via Writing Style Guide.--> business processes, or you simply<!--Suggested.--> don't want to use the model.
 

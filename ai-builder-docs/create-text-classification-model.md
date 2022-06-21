@@ -17,10 +17,10 @@ Now that you have your training data in Microsoft Dataverse, you can create a ne
 
 1. Select **Text**.
 
-1. Select **Category classification - Classify texts into custom categories**.
+1. Select **Category classification - Classify texts into custom categories**. 
 
     > [!div class="mx-imgBorder"]
-    > ![Build a category classification model screen.](media/build-text-classification-model.png "Build a category classification model screen")
+    > ![Screenshot of the Category classification tile.](media/build-text-classification-model.png "Category classification - Classify texts into custom categories")
 
 1. Read the **Classify texts into custom categories** page, and then select **Get started**.
 
@@ -35,6 +35,7 @@ Now that you have your training data in Microsoft Dataverse, you can create a ne
 1. Review your text and tags to verify the data and the configuration you applied, and then select **Next**.
 
 1. Select the language you want to use for training, and then select **Next**.
+
 
 That's it! Now you can train your AI model.
 
