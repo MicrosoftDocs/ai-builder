@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ai-builder-docs/formula-bar.md",
+      "redirect_url": "powerfx-in-powerapps",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ai-builder-docs/binary-classification-performance.md",
       "redirect_url": "prediction-performance",
       "redirect_document_id": "false"
