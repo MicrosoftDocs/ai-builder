@@ -4,9 +4,8 @@ description: Provides step-by-step instructions on how to create a category clas
 author: v-aangie
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/05/2021
+ms.date: 06/20/2022
 ms.author: angieandrews
-ms.reviewer: angieandrews
 ---
 
 # Create a category classification custom model
