@@ -50,7 +50,7 @@ The following tables show which AI Builder features are available in each region
 |Receipt processing |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |
 |Sentiment analysis |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |
 |Text recognition   |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |
-|Text translation |- |- |- |GA |-|- |-|- |-|-|-|- |- |- |GA |
+|Text translation |- |- |- |GA |-|- |-|- |-|-|-|- |- |- |GA |-|
 
 ## US Government
 
