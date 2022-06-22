@@ -15,7 +15,7 @@ After you publish your model, you can use it across Microsoft Power Platform to 
 
 ## Get straight to productivity
 
-When you select a *prebuilt model* from one of the tiles in **Try out AI capabilities for each data type**, you can choose how you want to use the model, and then AI Builder will provide you with the steps to build it. A prebuilt model tile doesn't have the word **Custom** in the upper-right corner. When you select it, the next screen shows **Prebuilt model** in the upper right. The following example shows the screen for the business card reader model.
+When you select a *prebuilt model* from one of the tiles in **Try out AI capabilities for each data type**, you can choose how you want to use the model (in a flow or app), and then AI Builder will provide you with the steps to build it. A prebuilt model tile doesn't have the word **Custom** in the upper-right corner. When you select it, the next screen shows **Prebuilt model** in the upper right. The following example shows the screen for the business card reader model.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing choices for how to use your model.](media/ai-capabilities.png "Choose how to use your model")
