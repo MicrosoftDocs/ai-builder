@@ -1,11 +1,11 @@
 ---
 title: Use sample data to do entity extraction - AI Builder | Microsoft Docs
 description: Provides the information you need to try out an entity extraction model with sample data AI Builder.
-author: norliu
+author: v-aangie
 ms.topic: conceptual
 ms.custom: 
-ms.date: 08/09/2021
-ms.author: norliu
+ms.date: 06/21/2022
+ms.author: angieandrews
 ms.reviewer: angieandrews
 ---
 
@@ -74,4 +74,4 @@ You can get started with the entity extraction model using sample data. The samp
 
 ### See also
 
-[Entity extraction](formula-bar.md#entity-extraction)
+[Use Power Fx in AI Builder models in Power Apps (preview)](powerfx-in-powerapps.md)
