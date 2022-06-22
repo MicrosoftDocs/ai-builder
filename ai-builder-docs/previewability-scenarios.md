@@ -15,11 +15,11 @@ ms.reviewer: angieandrews
 AI Builder is released and is generally available. But, some of its features are still in preview status. These features display a **Preview** tag near their names:
 
  - On the AI Builder **Explore** page.
- - In the Maker Studio > **Insert** > **AI Builder** menu.
+ - In the Power Apps Studio > **Insert** > **AI Builder** menu.
 
 ## Block preview scenarios
 
-The environment administrator can decide to hide accesses to preview features. In the Microsoft Power Platform admin center, under **Settings** > **Features**, a toggle switch lets the admin<!--Edit okay? This seems to be an admin's prerogative.--> specify whether preview features are displayed.
+The environment administrator can decide to hide accesses to preview features. In the Microsoft Power Platform admin center, under **Settings** > **Features**, a toggle switch lets the admin specify whether preview features are displayed.
 
 ## FAQ
 
