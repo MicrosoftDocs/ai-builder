@@ -30,6 +30,6 @@ The following example shows how you can set up a flow that sends you an email wi
 > [!div class="mx-imgBorder"]
 > ![Trigger identity document email flow.](media/flow-id-reader-email.png "Trigger identity document email flow")
 
-## See also
+### See also
 
 [ID reader prebuilt model overview](prebuilt-id-reader.md)

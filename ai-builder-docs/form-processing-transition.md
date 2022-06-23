@@ -32,7 +32,7 @@ Document processing models are being upgraded for general availability. Your exi
 
 Until March 5, 2020, document processing models stored documents as attachments in the Note table. With this update, these models now use the new File and Image data types in Microsoft Dataverse, which enables a better and more optimized usage of capacity.
 
-### More information
+### See also
 
 [Use a document processing model in Power Automate](form-processing-model-in-flow.md)  
 [Use the document processor component in Power Apps](form-processor-component-in-powerapps.md)
