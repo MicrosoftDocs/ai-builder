@@ -21,7 +21,7 @@ Get started exploring AI Builder category classification by using sample data to
 1. Download [AIBuilder_Lab.zip](https://go.microsoft.com/fwlink/?linkid=2103171), which contains category classification sample data.
 
     > [!NOTE]
-    > The AIBuilder_Lab.zip file also contains sample files for working with other AI Builder model types, in addition to some hands-on labs that you can use to learn more about AI Builder. For more information about the contents of the zip file, see the [readme.txt](https://go.microsoft.com/fwlink/?linkid=2108226) file that's included in the zip file.<!--By the way, this readme file needs some work. Please see learn-ai-builder.md for my markup.-->
+    > The AIBuilder_Lab.zip file also contains sample files for working with other AI Builder model types, in addition to some hands-on labs that you can use to learn more about AI Builder. For more information about the contents of the zip file, go to the [readme.txt](https://go.microsoft.com/fwlink/?linkid=2108226) file that's included in the zip file.
 
 2. Import the **AIBuildetTextSample_1_0_0** solution to your Microsoft Power Platform environment. To learn more, go to [Import, update, and export solutions](/powerapps/maker/common-data-service/import-update-export-solutions).
 
