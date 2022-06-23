@@ -15,7 +15,7 @@ ms.reviewer: angieandrews
 AI Builder is released and is generally available. But, some of its features are still in preview status. These features display a **Preview** tag near their names:
 
  - On the AI Builder **Explore** page.
- - In the Maker Studio > **Insert** > **AI Builder** menu.
+ - In the Power Apps Studio > **Insert** > **AI Builder** menu.
 
 ## Block preview scenarios
 
@@ -23,7 +23,7 @@ The environment administrator can decide to hide accesses to preview features. I
 
 ## FAQ
 
-### What happens if a model linked to a scenario in Preview mode is created and published, then the admin decides to hide all access to scenarios in Preview?
+### What happens if a model linked to a scenario in preview mode is created and published, then the admin decides to hide all access to scenarios in preview?
 
  In that case, this model will be blocked; it can't be edited or retrained, and it can't be used to compute new predictions. It will be displayed in the list of models, but it will be disabled and the only action that will be allowed is Delete.
 
