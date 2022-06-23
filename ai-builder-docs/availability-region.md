@@ -27,7 +27,7 @@ The following tables show which AI Builder features are available in each region
 ### Custom models
 
 |Feature |Asia |Australia |Canada |Europe |France |Germany |India |Japan |Norway |South America |South Korea |Switzerland |United Arab Emirates |United Kingdom |United States |
-|:-------|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
+|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
 |Prediction|GA|GA|GA|GA| GA|GA|GA|GA|-|GA|-|GA|GA|GA|GA|
 |Category classification|GA|GA|GA|GA| GA|GA|GA|GA|-|GA|-|GA|GA|GA|GA|
 |Entity extraction |GA|GA|GA|GA| GA|GA|GA|GA|-|GA|-|GA|GA|GA|GA|
@@ -37,9 +37,10 @@ The following tables show which AI Builder features are available in each region
 |Image classification |Preview |Preview |- |Preview |- |Preview |Preview |Preview |- |Preview|-|Preview |Preview |Preview |Preview |
 
 ### Prebuilt models
+
 |Feature |Asia |Australia |Canada |Europe |France |Germany |India |Japan |Norway |South America |South Korea |Switzerland |United Arab Emirates |United Kingdom |United States |
-|:-------|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
-|Business card reader    |GA|GA |GA|GA|GA |GA|GA |GA|GA|GA|GA|GA|GA|GA||GA|
+|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+|Business card reader    |GA|GA |GA|GA|GA |GA|GA |GA|GA|GA|GA|GA|GA|GA|GA|
 |Category classification |Preview |Preview |Preview |Preview|Preview|Preview|Preview|Preview |-|Preview|-|Preview|Preview |Preview |Preview |
 |Entity extraction |GA |GA |GA |GA |GA|GA|GA|-|-|GA|-|GA |GA |GA |GA|
 |Identity document reader |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |
@@ -98,9 +99,8 @@ For more information about other limitations of Power Platform US Government, go
 - [Power Apps US Government feature limitations](/power-platform/admin/powerapps-us-government#power-apps-us-government-feature-limitations)
 - [Power Automate US Government feature limitations](/power-automate/us-govt#power-automate-us-government-feature-limitations)
 
-### More information
+### See also
 
 [AI model types](model-types.md)
 
 
-[!INCLUDE[footer-include](includes/footer-banner.md)]

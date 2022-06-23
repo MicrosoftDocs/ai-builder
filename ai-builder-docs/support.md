@@ -32,7 +32,7 @@ For more information about the Microsoft Power Platform **Help + Support** exper
  > [!NOTE]
  > You can't create a new support request to get support from Microsoft for preview features. Go to the  [AI Builder community forums](https://go.microsoft.com/fwlink/?linkid=2092048) to get help with any issue that's related to a preview feature.
 
-## See also
+### See also
 
 - [Microsoft Dataverse in Power Apps community forum](https://powerusers.microsoft.com/t5/Microsoft-Dataverse/bd-p/CDS_Apps)
 - [Connect To Data in Power Automate community forum](https://powerusers.microsoft.com/t5/Connecting-To-Data/bd-p/ConnectingToData)
