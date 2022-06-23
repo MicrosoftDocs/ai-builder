@@ -4,7 +4,7 @@ description: Provides the steps needed to build any type of AI model in AI Build
 author: v-aangie
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/16/2022
+ms.date: 06/27/2022
 ms.author: angieandrews
 ms.reviewer: angieandrews
 ---
