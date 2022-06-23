@@ -1,11 +1,11 @@
 ---
 title: Category classification prebuilt model (preview) - AI Builder | Microsoft Docs
 description: Describes the prebuilt category classification AI Builder model.
-author: norliu
+author: v-aangie
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/29/2021
-ms.author: norliu
+ms.date: 06/21/2022
+ms.author: angieandrews
 ms.reviewer: angieandrews
 ---
 
@@ -34,7 +34,7 @@ You can see the category classification prebuilt model in action without the nee
 
 ### Use the formula bar
 
-You can integrate your AI Builder category classification model in Power Apps Studio by using the formula bar. For more information, see [Use formulas for text AI models](formula-bar.md#category-classification).
+You can integrate your AI Builder category classification model in Power Apps Studio by using the formula bar. For more information, see [Use Power Fx in AI Builder models in Power Apps (preview)](powerfx-in-powerapps.md).
 
 ## Use in Power Automate
 

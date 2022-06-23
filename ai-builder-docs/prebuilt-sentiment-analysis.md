@@ -4,7 +4,7 @@ description: Describes the prebuilt sentiment analysis AI model in AI Builder.
 author: alanabrito
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/12/2019
+ms.date: 06/21/2022
 ms.author: alanab
 ms.reviewer: angieandrews
 ---
@@ -31,7 +31,7 @@ You can try out the sentiment analysis model before you import it into your flow
 
 ### Use the formula bar
 
-You can integrate your AI Builder sentiment analysis models in Power Apps Studio by using the formula bar. For more information, see [Use formulas for text AI models](formula-bar.md#sentiment-analysis).
+You can integrate your AI Builder sentiment analysis models in Power Apps Studio by using the formula bar. For more information, see [Use Power Fx in AI Builder models in Power Apps (preview)](powerfx-in-powerapps.md).
 
 ## Use in Power Automate
 

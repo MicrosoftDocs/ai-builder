@@ -1,12 +1,11 @@
 ---
 title: Use your prediction model - AI Builder | Microsoft Docs
 description: Describes how to run your model. Provides information about the schedule feature, which allows you to automatically retrain and run your prediction model at the cadence you choose. 
-author: billba
+author: v-aangie
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/19/2021
-ms.author: billba
-ms.reviewer: angieandrews
+ms.date: 06/20/2022
+ms.author: angieandrews
 ---
 
 # Use your prediction model
@@ -30,12 +29,12 @@ For example, if your data changes weekly, you can schedule the model to train on
 Open the **Schedule** screen from the model detail page under **Database Sync**. Alternatively, select the **Settings** tab in the menu bar on the model details page.
 
 > [!div class="mx-imgBorder"]
-> ![Schedule screen.](media/schedule-screen.png "Schedule screen")
+> ![Screenshot of the Schedule screen.](media/schedule-screen.png "Schedule screen")
 
 When you select the link under **Database Sync**, the screen below lists schedule options for **Run**. Switch between the **Run** and **Retrain** tabs to view or modify their respective schedules.
 
 > [!div class="mx-imgBorder"]
-> ![Select schedule cadence.](media/schedule-cadence.png "Select schedule cadence")
+> ![Screenshot showing the schedule cadence.](media/schedule-cadence.png "Select schedule cadence")
 
 You can set the run or retrain cadence to daily, weekly, or monthly. If you don't want to run prediction or retrain at this time, you can set it to **Never**. Other reasons to set the cadence to **Never**<!--Suggested--> might be that you have data issues upstream and don't want to negatively affect<!--Via Writing Style Guide.--> business processes, or you simply<!--Suggested.--> don't want to use the model.
 
