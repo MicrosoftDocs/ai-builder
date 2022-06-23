@@ -4,14 +4,14 @@ description: This topic lays out the steps you need to follow to create a predic
 author: v-aangie
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/19/2021
+ms.date: 06/17/2022
 ms.author: sdarapu
 ms.reviewer: angieandrews
 ---
 
 # Create a prediction model
 
-This example creates a Power Apps prediction AI model that uses the Online Shopper Intention table in Microsoft Dataverse. To get this sample data into your Dataverse environment, enable the **Deploy sample apps and data** setting when you create an environment as described in [Build a model in AI Builder](build-model.md). Or, follow the more detailed instructions in [Data preparation](prediction-data-prep.md). After your sample data is in Dataverse, follow these steps to create your model.
+This example creates a Power Apps prediction AI model that uses the Online Shopper Intention table in Microsoft Dataverse. To get this sample data into your Microsoft Power Platform environment, enable the **Deploy sample apps and data** setting when you create an environment as described in [Build a model in AI Builder](build-model.md). Or, follow the more detailed instructions in [Data preparation](prediction-data-prep.md). After your sample data is in Dataverse, follow these steps to create your model.
 
 1. Sign in to [Power Apps](https://make.powerapps.com), and then select **AI Builder** > **Explore**.
 
