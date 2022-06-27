@@ -3,7 +3,7 @@ title: Build your object detection custom model - AI Builder | Microsoft Docs
 description: This topic lays out the first steps you'll perform to build an object detection AI model. 
 author: amina196
 ms.topic: conceptual
-ms.date: 03/19/2021
+ms.date: 06/28/2022
 ms.custom: intro-internal
 ms.author: angieandrews
 ms.reviewer: angieandrews
@@ -12,8 +12,10 @@ ms.reviewer: angieandrews
 # Build your object detection custom model
 
 1. Sign in to [Power Apps](https://make.powerapps.com), and then select **AI Builder** > **Explore**.
-1. Select the **Object Detection** AI Builder AI model type.
-1. Enter a name for your model, and then select **Create**.
+
+1. Select **Images** > **Object detection** AI Builder custom model type.
+
+1. Select **Get started**.
 
 ## Select the model domain
 
@@ -21,7 +23,7 @@ The first thing you'll do when you create an AI Builder object detection model i
 
 - **Common objects:** The default value. Use this if your use cases doesn't fit the specific applications below.
 - **Objects on retail shelves:** Detects products densely packed on shelves.
-- **Brand logo:** Optimized for logo detection.
+- **Brand logos:** Optimized for logo detection.
 
 Select a model for your domain and click **Next**.
 
@@ -51,28 +53,37 @@ To provide object names directly in AI Builder, just enter the name in the space
 
 ### Select names from a database
 
-If your data isn't in Dataverse, see [Prerequisites](build-model.md#prerequisites) for information about how to import data into Dataverse.
+If your data isn't in Dataverse, see [Prerequisite](build-model.md#prerequisite) for information about how to import data into Dataverse.
 
 1. Choose **Select from database** to see tables in your environment.
-2. In the right-side pane, find and select the table that contains your object names.
-3. Select the column that contains the names of your objects, and then choose **Select column**.
-4. From the list of objects in your table, select the ones that represent the objects you want to detect.
-5. Select **Next** at the bottom of the screen.
+
+1. On the panel to the right, find and select the table that contains your object names.
+
+1. Select the column that contains the names of your objects, and then choose **Select column**.
+
+1. From the list of objects in your table, select the ones that represent the objects you want to detect.
+
+1. At the bottom of the screen, select **Next**.
 
 ## Upload images
 
 Now let's move on to the image upload step. The pictures you collected ahead of time will now come in handy because you need to upload them to AI Builder.
 
 1. Prepare your images in the storage location where you want to add them from. Currently you can add images from local storage, SharePoint, or Azure Blob Storage.
+
 1. Make sure your images follow the qualitative and quantitative [guidance](collect-images.md).
-1. In AI Builder, select **+Add images**.
+
+1. In AI Builder, select **Add images**.
+
 1. Select the data source where your images are stored, and then select the images that contain your objects.
+
 1. Confirm the images that appear in AI Builder before you upload them. Deselect any image you want to exclude.
 
    > [!div class="mx-imgBorder"]
-   > ![Select images screen.](media/select-images.png "Select images screen")
+   > ![Screenshot of the Upload images screen.](media/select-images.png "Upload images screen")
 
 1.  Select **Upload** <*number*> **images**.
+
 1. When the upload is complete, select **Close**, and then select **Next**.
 
 ## Tag images
@@ -80,17 +91,18 @@ Now let's move on to the image upload step. The pictures you collected ahead of 
 This section explains the tagging process that's a key part of object detection. You draw rectangles around the objects of interest, and then assign a name to the rectangle that you want the model to associate with this object.
 
 1. On the **Tag the objects in your images** screen, select the first image in your gallery.
-1. Draw a rectangle around the object: Press and hold your mouse at the upper-left corner of the object and then drag down to the lower-right corner of the object. The rectangle should fully encompass the object you want your model to recognize.
+
+1. Draw a rectangle around the object. To do this, press and hold your mouse at the upper-left corner of the object and then drag down to the lower-right corner of the object. The rectangle should fully encompass the object you want your model to recognize.
 
 1. After you draw a rectangle, you can associate a name to the object from the list of names you already selected.
 
    > [!div class="mx-imgBorder"]
-   > ![Associate name screen.](media/tag-image-associate-name.png "Associate name screen")
+   > ![Screenshot of Choose object list.](media/tag-image-associate-name.png "Choose object list")
 
 1. Your tag is created when you see it surrounding an object.
 
    > [!div class="mx-imgBorder"]
-   > ![Tag created screen.](media/tag-created.png "Tag created screen")
+   > ![Screenshot showing your tag.](media/tag-created.png "New tag created")
 
 1. Navigate from image to image, and tag at least 15 images per object name to build a model.
 1. After you're done tagging your images, select **Done tagging**. Your data is saved as you create rectangles.
@@ -99,7 +111,7 @@ This section explains the tagging process that's a key part of object detection.
 
 That's it! Congratulations, you've created a training set for object detection.
 
-### Next step
+## Next step
 
 [Train and publish your object detection model](object-detection-train-model.md)
 

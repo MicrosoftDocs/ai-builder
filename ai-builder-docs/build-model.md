@@ -38,7 +38,7 @@ Do you want to explore AI Builder by using sample data provided by Microsoft? En
 
 ## Troubleshooting
 
-Make sure AI Builder has been enabled AI Builder for your environment. Otherwise, you won't have access to AI Builder functionality.
+Make sure AI Builder has been enabled for your environment. Otherwise, you won't have access to AI Builder functionality.
 
 ## Next step
 
