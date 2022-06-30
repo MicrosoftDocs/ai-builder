@@ -36,8 +36,6 @@ For more information about data types and build types, go to [AI models and busi
 
 1. In the left pane, select **AI Builder** > **Explore**.
 
-1. Under **Make your own AI model**, select an AI model type.
-
 1. Select a custom model, and then select **Get started**.
 
 ## Troubleshooting
