@@ -16,9 +16,11 @@ In AI Builder, we guide you through each step to create your AI model.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Explore screen.](media/ai-builder-home.png "Explore screen")
 
-## Prerequisite
+## Prerequisites
 
-AI Builder requires the use of [Microsoft Dataverse](/powerapps/maker/common-data-service/data-platform-intro), which is the data platform for Microsoft Power Platform that allows you to store and manage business data. Dataverse is the platform on which Dynamics 365 apps are built. This means if you're a Dynamics 365 customer, your data is already in Dataverse.
+- AI Builder requires the use of [Microsoft Dataverse](/powerapps/maker/common-data-service/data-platform-intro), which is the data platform for Microsoft Power Platform that allows you to store and manage business data. Dataverse is the platform on which Dynamics 365 apps are built. This means if you're a Dynamics 365 customer, your data is already in Dataverse.
+
+- AI Builder must be enabled for your environment. Otherwise, you won't have access to AI Builder functionality.
 
 ## Deploy sample apps and data
 
@@ -37,10 +39,6 @@ For more information about data types and build types, go to [AI models and busi
 1. In the left pane, select **AI Builder** > **Explore**.
 
 1. Select a custom model, and then select **Get started**.
-
-## Troubleshooting
-
-Make sure AI Builder has been enabled for your environment. Otherwise, you won't have access to AI Builder functionality.
 
 ## Next step
 
