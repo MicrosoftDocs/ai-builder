@@ -34,7 +34,7 @@ Generally, **we don't recommend doing any change on imported models**, because i
 
 **For some models, creating and training new versions has even been disabled** because training data is not moved alongside the model. That's the case for document processing, object detection and entity extraction models.
 
-If you accidentally perform actions after you've imported, just delete the imported solution and then import the solution again.
+If you accidentally performed actions after you've imported, just delete the imported solution and then import the solution again.
 
 To avoid accidental modification of a model after import, a good idea could be to disable customization in the managed properties of the model before importing it: From within the solution, select **Managed properties** in the top menu and turn off **Allow customizations**:
 > [!div class="mx-imgBorder"]
