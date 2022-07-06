@@ -17,11 +17,11 @@ You can distribute an AI model as a **solution component**. After you create a m
 Use the Power Apps solution explorer to create solutions and add components&mdash;such as AI models&mdash;to them. You can also export and import solutions by using the solution explorer. More information: [Use solutions in Power Apps](/powerapps/maker/common-data-service/use-solution-explorer)
 
 ## Recommended process
-It's a good idea to develop AI models in a sandbox or development environment first. Then deploy them to a production environment by using managed solutions. If you need to copy your production environment into a sandbox environment, you can follow [these instructions](/power-platform/admin/copy-environment).
+It's a good idea to **develop AI models in a sandbox or development environment first**. Then deploy them to a production environment by using managed solutions. If you need to copy your production environment into a sandbox environment, you can follow [these instructions](/power-platform/admin/copy-environment).
 
 Using this process, you can use the model immediately after you import it. No additional action is required to use it in Power Apps or Power Automate, but it's a good idea to perform a quick test in AI Builder first.
 
-A model can only be added in a solution when a trained version of the model has been published. When the solution is exported and imported in a new environment, only the published version of the model is installed in the new environment.
+**A model can only be added in a solution when it has a published version**. When the solution is exported and imported in a new environment, only the published version of the model is installed in the new environment.
 
 > [!NOTE]
 > When adding an AI model in a solution, only the model "executable" is inluded, **the training data is not included with the model**.
