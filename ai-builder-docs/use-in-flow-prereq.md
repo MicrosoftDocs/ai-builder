@@ -18,4 +18,4 @@ Before you can use AI Builder in Power Automate, you need:
 
 ### See also
 
-[AI Builder prerequisite](build-model.md#prerequisites)
+[AI Builder prerequisites](build-model.md#prerequisites)
