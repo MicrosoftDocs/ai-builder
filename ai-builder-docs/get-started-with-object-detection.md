@@ -21,7 +21,7 @@ ms.reviewer: angieandrews
 
 The first thing you'll do when you create an AI Builder object detection model is to define its domain. The domain optimizes the model for specific use cases. There are three domains:
 
-- **Common objects:** The default value. Use this if your use cases doesn't fit the specific applications below.
+- **Common objects:** The default value. Use this if your use case doesn't fit the specific applications below.
 - **Objects on retail shelves:** Detects products densely packed on shelves.
 - **Brand logos:** Optimized for logo detection.
 
@@ -92,7 +92,7 @@ This section explains the tagging process that's a key part of object detection.
 
 1. On the **Tag the objects in your images** screen, select the first image in your gallery.
 
-1. Draw a rectangle around the object. To do this, press and hold your mouse at the upper-left corner of the object and then drag down to the lower-right corner of the object. The rectangle should fully encompass the object you want your model to recognize.
+1. Draw a rectangle around the object. To do this, press and hold your mouse at the upper-left corner of the object, and then drag down to the lower-right corner of the object. The rectangle should fully encompass the object you want your model to recognize.
 
 1. After you draw a rectangle, you can associate a name to the object from the list of names you already selected.
 
