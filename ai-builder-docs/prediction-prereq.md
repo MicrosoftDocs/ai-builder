@@ -11,7 +11,7 @@ ms.reviewer: angieandrews
 
 # Prediction model prerequisites
 
-For information about AI Builder requirements that aren't specific to this AI model, go to [AI model prerequisite](build-model.md#prerequisites).
+For information about AI Builder requirements that aren't specific to this AI model, go to [AI model prerequisites](build-model.md#prerequisites).
 
 ## What skills do I need?
 
@@ -39,5 +39,5 @@ To help you get started quickly with prediction, AI Builder provides sample data
 
 ### See also
 
-[AI model prerequisite](build-model.md#prerequisites)
+[AI model prerequisites](build-model.md#prerequisites)
 
