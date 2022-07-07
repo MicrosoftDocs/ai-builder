@@ -53,7 +53,7 @@ To provide object names directly in AI Builder, just enter the name in the space
 
 ### Select names from a database
 
-If your data isn't in Dataverse, go to [Prerequisite](build-model.md#prerequisites) for information about how to import data into Dataverse.
+If your data isn't in Dataverse, go to [Prerequisites](build-model.md#prerequisites) for information about how to import data into Dataverse.
 
 1. Choose **Select from database** to see tables in your environment.
 
