@@ -3,7 +3,7 @@ title: Overview of AI Builder - AI Builder | Microsoft Docs
 description: This topic provides an overview of AI Builder and high-level steps to add intelligence to your apps.
 author: v-aangie
 ms.topic: overview
-ms.date: 05/05/2022
+ms.date: 06/03/2022
 ms.author: angieandrews
 ms.reviewer: angieandrews
 ---
@@ -68,11 +68,11 @@ For information about license capacity, pricing, and restrictions:
 
 ## For administrators
 
-- If you are an administrator and want information on model and environments, go to [Administer AI Builder](administer.md).
+- If you're an administrator and want information on model and environments, go to [Administer AI Builder](administer.md).
 
 - For information on security for administrators, go to [Roles and security in AI Builder](security.md).
 
-### Next step
+## Next step
 
 [Learn about AI model types](model-types.md)
 
