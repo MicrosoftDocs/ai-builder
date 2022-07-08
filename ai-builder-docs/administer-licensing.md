@@ -70,7 +70,7 @@ What you get with an AI Builder trial license:
    >[!div class="mx-imgBorder"]
    >![Screenshot of Create my database.](media/administer-licensing/create-db.png "Create my database")
 
-1. Refresh the build page.
+1. Refresh the **Explore** page.
 1. At the top of the screen, select **Start free trial**.
 
    >[!div class="mx-imgBorder"]
