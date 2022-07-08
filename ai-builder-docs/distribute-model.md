@@ -55,7 +55,7 @@ To disable customizations, do the following:
     > [!div class="mx-imgBorder"]
     > ![Screenshot of the managed properties.](media/ai-builder-managed-properties.png "Managed properties")
 
-After you've disabled customization, your model will include a note that you have limited the possible actions to it.
+After you've disabled customization, your model will include a note that you've limited the possible actions to it.
 
 ## Importing status
 For document processing and object detection models, the import process might continue after the import action is finished. When a model is continuing the import process, **Importing** appears on the list page of the AI Builder model. This is normal and can last several minutes.
