@@ -25,7 +25,7 @@ For more information, go to [Use solutions in Power Apps](/powerapps/maker/commo
 
 It's a good idea for you to develop AI models in a sandbox or development environment first. Then, you can deploy them to a production environment with managed solutions. If you need to copy your production environment into a sandbox environment, follow the instructions in [Copy an environment](/power-platform/admin/copy-environment).
 
-Using this process, you can use the model immediately after you import it. No additional action is required to use it in Power Apps or Power Automate, but it's a good idea to perform a quick test in AI Builder first.
+Using this process, you can use the model immediately after you import it. No other action is required to use it in Power Apps or Power Automate, but it's a good idea to perform a quick test in AI Builder first.
 
 A model can only be added in a solution when it has a published version. When the solution is exported and imported in a new environment, only the published version of the model is installed in the new environment.
 
@@ -40,7 +40,7 @@ As AI models can be distributed across environments using solutions, you can aut
 ## Changing imported models
 Generally, we don't recommend changing imported models because it generates unmanaged customizations. These customizations can prevent the model from being properly updated in the future. Changes include updating model information, creating and training new versions, or republishing the model.
 
-For some models, creating and training new versions have been disabled because training data is not moved alongside the model. This applies to document processing, object detection, and entity extraction models.
+For some models, creating and training new versions have been disabled because training data isn't moved alongside the model. This applies to document processing, object detection, and entity extraction models.
 
 If you accidentally perform actions after you've imported, delete the imported solution and then import the solution again.
 
