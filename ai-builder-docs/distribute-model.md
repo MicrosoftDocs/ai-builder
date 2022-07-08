@@ -62,7 +62,7 @@ For document processing and object detection models, the import process might co
 
 ## Limitations
 
-- Document processing models where **Unstructured documents and free-form documents** has been selected as document type can't be exported while the functionality is in [preview](overview.md).
+- Document processing models where **Unstructured documents and free-form documents** has been selected as document type can't be exported while the functionality is in [preview](overview.md#release-status).
 
 - You can't create and train a new version of an imported document processing, object detection, or entity extraction model because the training dataset isn't part of the imported solution. You should create a new model instead.
 
