@@ -23,10 +23,10 @@ ms.reviewer: angieandrews
 
 1. Select the document processing model you want to use, and then select the document type.
 
-1. In the **Form** field, add **File Content** from the trigger:
+1. In the **Form** field, add **File Content** from the trigger.
 
     > [!div class="mx-imgBorder"]
-    > ![Select file content.](media/flow-select-file-content-2.png "Select file content")
+    > ![Screenshot of File Content.](media/flow-select-file-content-2.png "Select File Content")
 
 1. In the successive actions, you can use any of the fields and tables extracted by the AI Builder model. For example, let's say that our model is trained to extract the *Lot number*, the *Net weight*, and the *Gross weight* values. We also want to post these to a Microsoft Teams channel after AI Builder has extracted them from the document. Just add the **Post a message** action from the Microsoft Teams connector, and then select your fields from the list of tokens.
 
@@ -39,6 +39,7 @@ ms.reviewer: angieandrews
     > [!div class="mx-imgBorder"]
     > ![Document processing flow overview.](media/flow-fp-overview-2.png "Document processing flow overview")
 
+
 Congratulations! You've created a flow that uses an AI Builder document processing model. Select **Save** on the top right, and then select **Test** to try out your flow.
 
 ## Page range
@@ -46,12 +47,12 @@ Congratulations! You've created a flow that uses an AI Builder document processi
 For documents that have multiple pages, it's possible to specify the page range to process.
 
    > [!div class="mx-imgBorder"]
-   > ![Page range](media/fp-pagerange.png "Page range example")
+   > ![Screenshot of the Pages field where you enter the page range](media/fp-pagerange.png "Page range example")
 
 You can enter a page value or page range in the **Pages** parameter. Example: 1 or 3-5.
 
 >[!NOTE]
-> If you have a large document with only one form, we strongly recommend to **use the Pages parameter to aim at your form and therefore reduce the cost of model prediction and increase performance**. However, the page range should contain a **unique form** for the action to return correct data.
+> If you have a large document with only one form, we strongly recommend you use the **Pages** parameter. Doing this can reduce the cost of model prediction, which can increase performance. However, the page range should contain a unique form for the action to return correct data.
 > 
 > Example: A document contains a first form in page 2 and a second form that spans over pages 3 and 4:
 > - If you enter page range 2, it will return the data of the first form.

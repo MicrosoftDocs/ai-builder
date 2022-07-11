@@ -1,10 +1,10 @@
 ---
 title: Process multipage tables in document processing (experimental) - AI Builder | Microsoft Docs
-description: This topic provides information on how extract tables from an invoice, and tables that span fewer or greater than two pages, in AI Builder.
+description: This topic provides information on how extract tables from an invoice, and tables that span fewer or greater than two pages in AI Builder.
 author: JoeFernandezMS
 ms.topic: conceptual
 ms.custom: intro-internal
-ms.date: 05/31/2022
+ms.date: 07/11/2022
 ms.author: jofernan
 ms.reviewer: angieandrews
 ---
@@ -78,7 +78,7 @@ The sample template in this procedure iterates through all the pages in the docu
 
 1. Select [this cloud flow template](https://flow.microsoft.com/en-us/galleries/public/templates/59284c1735b745dda07032720f31de47) > **Continue**.
 
-1. On the **Extract information from forms** action, specify the document processing model you've trained.
+1. On the **Extract information from forms** action in the **AI model** field, specify the document processing model you've trained.
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of the AI model you've trained on the Extract information from forms action.](media/form-processing-multipage/extract-info.png "AI model you've trained on the 'Extract information from forms' action")
@@ -90,7 +90,7 @@ The sample template in this procedure iterates through all the pages in the docu
 
 1. The last **Apply to each 2** action iterates through the table that contains all the rows that have been extracted across all pages. Here you can add any action where you want to save the extracted data. To reference the columns you want to extract, use the following expression and replace *{column name}* with the name of the column in your table:
 
-    items('Apply_to_each_2')?['*{column name}*']?['value']
+    `items('Apply_to_each_2')?['*{column name}*']?['value']`
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of the last Apply to each 2 action.](media/form-processing-multipage/apply-to-each-2.png "The last 'Apply to each 2' action")

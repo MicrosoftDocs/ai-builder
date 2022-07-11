@@ -4,7 +4,7 @@ description: Learn how to export your image classification model from Lobe into 
 author: mbeissinger
 ms.topic: conceptual
 ms.custom: intro-internal
-ms.date: 11/15/2021
+ms.date: 07/11/2022
 ms.author: angieandrews
 contributors:
     - JakeCohenMicrosoft
