@@ -79,7 +79,7 @@ You can enter a page value or page range in the **Pages** parameter. Example: 1 
 |**{table}{column} confidence score** |float |How confident the model is in its prediction |Value in the range of 0 to 1. Values close to 1 indicate greater confidence that the extracted cell value is accurate |
 
 > [!NOTE]
-> More output parameters may be proposed such as field coordinates, polygons, bounding boxes and page numbers. These are not listed on purpose as mainly intended for advanced use.
+> More output parameters may be proposed such as field coordinates, polygons, bounding boxes and page numbers. These aren't listed on purpose as they're mainly intended for advanced use.
 
 ## Common use cases
 
@@ -155,9 +155,9 @@ AI Builder document processing returns all outputs as strings. If the destinatio
 > [!div class="mx-imgBorder"]
 > ![Animation of the formatDateTime expression.](media/form-processing-convert-date.gif "Add the expression above into the input field of an action in your flow. Remember to replace the first parameter of the expression by the document processing output you want to convert to date.")
 
-### Filter email signature from a flow so that it is not processed by the document processing model (Microsoft 365 Outlook)
+### Filter email signature from a flow so that it's not processed by the document processing model (Microsoft 365 Outlook)
 
-For incoming emails from the Microsoft 365 Outlook connector, email signatures are picked up by Power Automate as attachments. To keep these from being processed by the document processing model add a condition to your flow that checks if the output from the Microsoft 365 Outlook connector named **Attachments is Inline** is equal to false. In the **If yes** branch of the condition add the document processing action. With this only email attachments that are not inline signatures will be processed. 
+For incoming emails from the Microsoft 365 Outlook connector, email signatures are picked up by Power Automate as attachments. To keep these from being processed by the document processing model, add a condition to your flow that checks if the output from the Microsoft 365 Outlook connector named **Attachments is Inline** is equal to false. In the **If yes** branch of the condition, add the document processing action. With this, only email attachments that aren't inline signatures will be processed. 
 
 > [!div class="mx-imgBorder"]
 > ![Filter attachment condition.](media/form-processing-filter-sig.png "Add condition 'attachment is inline' ")

@@ -28,7 +28,7 @@ Depending on how many pages your table can span, you can choose from the followi
 
 ## Extract a table from an invoice
 
-If the invoice you're looking to process is an English-language invoice from the United States, the invoice processing prebuilt model can extract line items and then span multiple pages without your needing to train a model.
+If the invoice you're looking to process is an English-language invoice from the United States, the invoice processing prebuilt model can extract line items, and then span multiple pages without the need to train a model.
 
 For instructions, go to [Invoice processing prebuilt model](prebuilt-invoice-processing.md).
 
@@ -70,7 +70,7 @@ The following steps will guide you on how to achieve this:
 
     - If you selected **Single page table**, tag only the first page where the table is present.
 
-1. After your document processing model is trained and published, you can use it in a cloud flow in Power Automate and process documents one page at a time to extract the tables for all pages.
+1. After your document processing model is trained and published, you can use it in a cloud flow in Power Automate, and process documents one page at a time to extract the tables for all pages.
 
 ### Use a cloud flow to process all pages in the document
 
