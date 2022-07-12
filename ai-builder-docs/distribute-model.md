@@ -62,8 +62,6 @@ For document processing and object detection models, the import process might co
 
 ## Limitations
 
-- Document processing models where **Unstructured documents and free-form documents** has been selected as document type can't be exported while the functionality is in [preview](overview.md#release-status).
-
 - You can't create and train a new version of an imported document processing, object detection, or entity extraction model because the training dataset isn't part of the imported solution. You should create a new model instead.
 
 - You can’t set a run schedule on imported category classification models.
@@ -73,5 +71,3 @@ For document processing and object detection models, the import process might co
 - If you're using a model within an app or a Power Automate flow, you need to explicitly add the app and the model to the solution. The model isn't considered an app or flow dependency.
 
 - You can't create a new AI Builder model in solution explorer.
-
-- Only models trained after April 2, 2020, can be added to a solution.
