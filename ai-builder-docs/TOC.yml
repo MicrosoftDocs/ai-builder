@@ -160,7 +160,7 @@
       href: form-processing-faq.md
     - name: Process multipage tables in document processing (experimental)
       href: form-processing-multipage.md
-    - name: Transition to the newest object detection model version
+    - name: Transition to the newest document processing model version
       href: form-processing-transition.md    
   - name: Image classification AI model by Lobe (preview)
     items:
