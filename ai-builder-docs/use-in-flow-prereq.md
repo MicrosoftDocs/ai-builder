@@ -4,7 +4,7 @@ description: Provides the information you need to know before you can use AI Bui
 author: JoeFernandezMS
 ms.topic: conceptual
 ms.custom:
-ms.date: 11/03/2020
+ms.date: 06/28/2022
 ms.author: jofernan
 ms.reviewer: angieandrews
 ---
@@ -19,6 +19,3 @@ Before you can use AI Builder in Power Automate, you need:
 ### See also
 
 [AI Builder prerequisites](build-model.md#prerequisites)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

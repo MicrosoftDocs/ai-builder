@@ -13,6 +13,8 @@
       href: learn-ai-builder.md
     - name: Sample data
       href: samples.md  
+  - name: Preview features
+    href: previewability-scenarios.md
   - name: AI Builder community
     href: share-your-experience.md
     displayName: forums; support; help
@@ -135,6 +137,8 @@
       href: get-started-with-object-detection.md
     - name: Train and publish your object detection model
       href: object-detection-train-model.md
+    - name: Transition to the newest object detection model version
+      href: object-detection-transition.md
     - name: Use sample data
       href: object-detection-sample-data.md
   - name: Document processing AI model
@@ -156,6 +160,11 @@
       href: form-processing-faq.md
     - name: Process multipage tables in document processing (experimental)
       href: form-processing-multipage.md  
+  - name: Image classification AI model by Lobe
+=======
+      href: form-processing-multipage.md
+    - name: Transition to the newest document processing model version
+      href: form-processing-transition.md    
   - name: Image classification AI model by Lobe
     items:
     - name: Overview
@@ -228,8 +237,6 @@
     href: object-detector-component-in-powerapps.md
   - name: Use the image classification component in Power Apps
     href: image-classification-component-in-powerapps.md
-  - name: Use formulas for text AI models in Power Apps (preview)
-    href: formula-bar.md
   - name: Use the business card reader component in Power Apps
     items:
     - name: Use in a canvas app
