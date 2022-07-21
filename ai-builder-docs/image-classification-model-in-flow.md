@@ -39,9 +39,9 @@ Create a flow in your image classification model. (If you're editing an existing
     > [!div class="mx-imgBorder"]
     > ![Screenshot of the Choose an operation screen.](media/image-classification-model-in-flow/operation.png "Choose an operation")
 
-1. From the **Model** field dropdown, choose the model you exported.
+1. From the **Model** dropdown menu, select the model you exported.
 
-1. Select the image content from your flow to predict the labels and confidences.
+1. To predict the labels and confidences, select the image content from your flow.
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of the Predict action.](media/image-classification-model-in-flow/lobe-predict.png "Predict action")
@@ -54,17 +54,16 @@ The output of your flow contains *prediction* and *labels*. A *prediction* is th
 
 When you use the *prediction* output, you can:
 
-- Arrange images into folders by label
+- Arrange images into folders by label.
 
-- Create an Excel spreadsheet to send out as a report
+- Create an Excel spreadsheet to send out as a report.
 
-- Apply filtering
+- Apply filtering.
 
 When you use the *labels* output, you can:
 
-- Determine actions of images with certain confidence scores
+- Determine actions of images with certain confidence scores.
 
-- Send alerts based on confidence scores (for example, different alerts for when scores are above or below 90 percent)
+- Send alerts based on confidence scores (for example, different alerts for when scores are above or below 90 percent).
 
-- Send an email with various images
-
+- Send an email with various images.
