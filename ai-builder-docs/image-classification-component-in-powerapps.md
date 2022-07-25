@@ -1,26 +1,19 @@
 ---
-title: Use image classification model by Lobe in Power Apps (preview) - AI Builder | Microsoft Docs
+title: Use image classification model by Lobe in Power Apps - AI Builder | Microsoft Docs
 description: Learn how to use the image classification model from Lobe to predict labels and categorize images in Power Apps.
 author: v-aangie
 ms.topic: conceptual
 ms.custom: intro-internal
-ms.date: 11/15/2021
+ms.date: 06/06/2022
 ms.author: angieandrews
 contributors:
     - JakeCohenMicrosoft
     - v-aangie
 ---
 
-# Use an image classification model by Lobe in Power Apps (preview)
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
+# Use an image classification model by Lobe in Power Apps
 
 To use your image classification model with Power Fx, you first need to add it as a data source in your app. To learn how to do this, go to [Enable the Power Fx feature](powerfx-in-powerapps.md#enable-the-power-fx-feature).
-
-> [!IMPORTANT]
-> - This is a preview feature.
-> - [!INCLUDE[cc_preview_features_definition](includes/cc-preview-features-definition.md)]
-> - This feature is being gradually rolled out across regions and might not be available yet in your region.
 
 ## Create a canvas app
 
