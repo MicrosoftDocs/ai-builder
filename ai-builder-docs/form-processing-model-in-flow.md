@@ -19,7 +19,7 @@ ms.reviewer: angieandrews
 
 1. Expand **Manually trigger a flow**, and then select **+Add an input** > **File** as the input type.
 
-1. Select **+New step** > **AI Builder**, and then select **Extract information from documents** in the list of actions.
+1. Select **+New step** > **AI Builder**, and then select **Extract information from forms** in the list of actions.
 
 1. Select the document processing model you want to use, and then select the document type.
 
@@ -37,8 +37,7 @@ ms.reviewer: angieandrews
     >- To retrieve the confidence score for an extracted item, select **<field_name> confidence score**. For example, for the *Lot number* field, select **Lot number confidence score**.
 
     > [!div class="mx-imgBorder"]
-    > ![Document processing flow overview.](media/flow-fp-overview-2.png "Document processing flow overview")
-
+    > ![Document processing flow overview.](media/flow-fp-overview-2AA.png "Document processing flow overview")
 
 Congratulations! You've created a flow that uses an AI Builder document processing model. Select **Save** on the top right, and then select **Test** to try out your flow.
 
@@ -92,8 +91,8 @@ To illustrate this procedure, we use the following example where we've trained a
 
 1. Select the field you wish to write the cell for a table. The dynamic content panel will open showing everything that the document processing model knows how to extract. Search for **{your table name} {your column name} value**. Our example uses *Items Quantity value*.
 
-> [!div class="mx-imgBorder"]
-> !['Process and save information from forms' screen.](media/form-processing-iterate-table-1.png "Select a column from an extracted table to add to a flow.")
+    > [!div class="mx-imgBorder"]
+    > !['Process and save information from forms' screen.](media/form-processing-iterate-table-1.png "Select a column from an extracted table to add to a flow.")
 
 2. Once you add this value, the action where you added it is automatically inserted into an **Apply to each** control. This way, every row in the table will be processed when the flow is run.
 
