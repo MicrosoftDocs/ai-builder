@@ -1,10 +1,10 @@
 ---
 title: Process multipage tables in document processing (experimental) - AI Builder | Microsoft Docs
-description: This topic provides information on how extract tables from an invoice, and tables that span fewer or greater than two pages, in AI Builder.
+description: This topic provides information on how extract tables from an invoice, and tables that span fewer or greater than two pages in AI Builder.
 author: JoeFernandezMS
 ms.topic: conceptual
 ms.custom: intro-internal
-ms.date: 05/31/2022
+ms.date: 07/11/2022
 ms.author: jofernan
 ms.reviewer: angieandrews
 ---
@@ -28,7 +28,7 @@ Depending on how many pages your table can span, you can choose from the followi
 
 ## Extract a table from an invoice
 
-If the invoice you're looking to process is an English-language invoice from the United States, the invoice processing prebuilt model can extract line items and then span multiple pages without your needing to train a model.
+If the invoice you're looking to process is an English-language invoice from the United States, the invoice processing prebuilt model can extract line items, and then span multiple pages without the need to train a model.
 
 For instructions, go to [Invoice processing prebuilt model](prebuilt-invoice-processing.md).
 
@@ -44,7 +44,7 @@ For instructions, go to [Invoice processing prebuilt model](prebuilt-invoice-pro
 
 ## Extract a table that spans more than two pages
 
-For tables that go beyond two pages, [tag the table](create-form-processing-model.md#tag-documents) on the first pages where it's present. Once the model has been trained, process the document page-by-page using the [page range](form-processing-model-in-flow.md#page-range) feature to capture all the tables across all pages and merge them in a single table.
+For tables that go beyond two pages, [tag the table](create-form-processing-model.md#tag-documents) on the first pages where it's present. Once the model has been trained, process the document page-by-page using the [page range](form-processing-model-in-flow.md#page-range) feature to capture all the tables across all pages, and merge them in a single table.
 
 The following steps will guide you on how to achieve this:
 
@@ -70,7 +70,7 @@ The following steps will guide you on how to achieve this:
 
     - If you selected **Single page table**, tag only the first page where the table is present.
 
-1. After your document processing model is trained and published, you can use it in a cloud flow in Power Automate and process documents one page at a time to extract the tables for all pages.
+1. After your document processing model is trained and published, you can use it in a cloud flow in Power Automate, and process documents one page at a time to extract the tables for all pages.
 
 ### Use a cloud flow to process all pages in the document
 
@@ -78,7 +78,7 @@ The sample template in this procedure iterates through all the pages in the docu
 
 1. Select [this cloud flow template](https://flow.microsoft.com/en-us/galleries/public/templates/59284c1735b745dda07032720f31de47) > **Continue**.
 
-1. On the **Extract information from forms** action, specify the document processing model you've trained.
+1. On the **Extract information from forms** action in the **AI model** field, specify the document processing model you've trained.
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of the AI model you've trained on the Extract information from forms action.](media/form-processing-multipage/extract-info.png "AI model you've trained on the 'Extract information from forms' action")
@@ -90,7 +90,7 @@ The sample template in this procedure iterates through all the pages in the docu
 
 1. The last **Apply to each 2** action iterates through the table that contains all the rows that have been extracted across all pages. Here you can add any action where you want to save the extracted data. To reference the columns you want to extract, use the following expression and replace *{column name}* with the name of the column in your table:
 
-    items('Apply_to_each_2')?['*{column name}*']?['value']
+    `items('Apply_to_each_2')?['*{column name}*']?['value']`
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of the last Apply to each 2 action.](media/form-processing-multipage/apply-to-each-2.png "The last 'Apply to each 2' action")

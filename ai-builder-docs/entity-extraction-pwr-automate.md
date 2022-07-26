@@ -4,11 +4,10 @@ description: Provides steps to use a custom entity extraction AI model in Power 
 author: mfotedar
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/05/2021
+ms.date: 06/29/2022
 ms.author: mfotedar
 ms.reviewer: angieandrews
 ---
-
 
 # Use an AI Builder custom entity extraction AI model in Power Automate
 
@@ -27,7 +26,7 @@ ms.reviewer: angieandrews
 1. Select the entity extraction model you want to use, and in the **Text** column add **My Text** from the trigger.
 
     > [!div class="mx-imgBorder"]
-    > ![Select model content.](media/flow-eec-overview.png "Select model content")
+    > ![Screenshot that shows selected model content.](media/flow-eec-overview.png "Select model content")
 
 1. In the successive actions, you can use any columns and tables extracted by the AI Builder model. The following example saves each inferred **Entity type**, **Entity value** and **Confidence score** into an Excel table.
 
@@ -56,11 +55,7 @@ Congratulations! You've created a flow that uses an AI Builder entity extraction
 |**Starting location** |integer |Where the entity's first character appear in the line| |
 |**Character count** |integer |How long the entity is| |
 
-
 ### See also
 
 [Entity extraction model overview](entity-extraction-overview.md)
 
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
