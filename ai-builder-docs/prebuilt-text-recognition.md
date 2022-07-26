@@ -34,7 +34,8 @@ The files you can scan with the text recognition model must have these character
   - PNG
   - BMP
   - PDF
-- **Size**: 20 MB maximum
+- **Size**: 50 MB maximum
+- For PDF documents, only the first 2,000 pages are processed.
 
 ## Model output
 
