@@ -4,7 +4,7 @@ description: With Lobe, you can use image classification models in AI Builder to
 author: mbeissinger
 ms.topic: conceptual
 ms.custom: intro-internal
-ms.date: 06/06/2022
+ms.date: 06/29/2022
 ms.author: jacohe
 contributors:
     - JakeCohenMicrosoft
