@@ -4,7 +4,7 @@ description: Provides information on how to use your own model in AI Builder.
 author: v-aangie
 ms.topic: conceptual
 ms.custom:
-ms.date: 08/26/2021
+ms.date: 06/29/2022
 ms.author: angieandrews
 ms.reviewer: v-aangie
 ---
@@ -30,7 +30,7 @@ The first step in bringing your own model into AI Builder is to register it. Fol
 After you register the model, you'll see it in the list of AI Builder models. On the model details page, the **Model source** will be **Imported** to show that the external model is registered to AI Builder by using your imported model endpoint.
 
 > [!div class="mx-imgBorder"]
-> ![Form editor binding properties screen.](media/byom-imported.png "Form editor binding properties screen")
+> ![Screenshot showing the model source is Imported.](media/byom-imported.png "Model source")
 
 ## Limitations
 
