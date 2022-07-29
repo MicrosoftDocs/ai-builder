@@ -4,7 +4,7 @@ description: Provides information about how to use AI Builder invoice processing
 author: JoeFernandezMS
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/22/2021
+ms.date: 07/29/2022
 ms.author: jofernan
 ms.reviewer: angieandrews
 ---
@@ -19,7 +19,7 @@ Currently, there's no invoice processing control available for canvas apps in Po
 
 1. Make sure you are in the same Power Platform environment where you'll have your canvas app. Check the environment on the top right of the page.
 
-1. Select **My flows** in the left-side navigation pane.
+1. On the pane to the left, select **Flows**.
 
 1. Select **New flow** > **Instant cloud flow**.
 

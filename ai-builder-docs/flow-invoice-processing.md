@@ -4,7 +4,7 @@ description: Provides information about how to use the invoice processing prebui
 author: JoeFernandezMS
 ms.topic: conceptual
 ms.custom: 
-ms.date: 07/16/2021
+ms.date: 07/28/2022
 ms.author: jofernan
 ms.reviewer: angieandrews
 ---
