@@ -4,7 +4,7 @@ description: Provides information about how to use a prebuilt category classific
 author: norliu
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/05/2021
+ms.date: 07/28/2022
 ms.author: norliu
 ms.reviewer: angieandrews
 ---
@@ -23,23 +23,20 @@ ms.reviewer: angieandrews
 
 1. Select **+ New step** > **AI Builder**, and then select **Classify text into categories with the standard model** in the list of actions.
 
-1. Select the language in the **Language** input and specify the **My Text** column from the trigger in the **Text** input:
+1. Select the language in the **Language** input and specify the **My Text** column from the trigger in the **Text** input.
 
     > [!div class="mx-imgBorder"]
     > ![Select model content.](media/flow-ccp-overview.png "Select model content")
 
 1. In the successive actions, you can use any columns and tables extracted by the AI Builder model. The following example, saves each inferred **Classification** and **Confidence score** into a SharePoint list.
 
-
     > [!div class="mx-imgBorder"]
     > ![Category classification prebuilt flow example.](media/flow-ccp-example.png "Category classification prebuilt flow example")
 
-
 Congratulations! You've created a flow that uses an AI Builder prebuilt category classification model. Select **Save** on the top right and then select **Test** to try out your flow.
 
-
-
 ## Parameters
+
 ### Input
 |Name |Required |Type |Description |Values |
 |---------|---------|---------|---------|---------|
@@ -50,16 +47,14 @@ Congratulations! You've created a flow that uses a prebuilt category classificat
 
 
 ### Output
+
 |Name |Type |Description |Values |
 |---------|---------|---------|---------|
 |**Classification** |string |Entity identified|Issues, compliment, customer service, documentation, price & billing, staff |
 |**Confidence score** |float |How confident the model is in its prediction|Value in the range of 0 to 1. Values close to 1 indicate greater confidence that the extracted value is accurate |
 
-
 ### See also
 
 [Category classification prebuilt model](prebuilt-category-classification.md)
-
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

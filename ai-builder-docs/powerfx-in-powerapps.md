@@ -37,7 +37,9 @@ The Power Fx feature is enabled by default in Microsoft Power Apps. If it's been
 
 1. Sign in to [Power Apps](https://make.powerapps.com).
 
-1. Create a canvas app by selecting **Create** > **Canvas app from blank**.
+1. Create a canvas app by selecting **Create** > **Blank app**.
+
+1. In the **Blank canvas app** panel, select **Create**.
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of create a canvas app from blank.](media/powerfx-in-powerapps/create-blank.png "Create a canvas app from blank")
