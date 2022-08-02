@@ -68,7 +68,8 @@ AI Builder is available in US Government environments with the features listed i
 |Category classification|GA|GA|-|
 |Entity extraction|GA|GA|-|
 |Object detection|GA|GA|-|
-|Document processing |GA|GA|-|
+|Document processing (for structured and semi-structured documents) |GA|GA|-|
+|Document processing (for unstructured documents) |-|-|-|
 |Image classification | - | - | - |
 
 ### Prebuilt models
