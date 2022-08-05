@@ -3,7 +3,6 @@ title: Overview of the prediction model - AI Builder | Microsoft Docs
 description: Describes the prediction model in AI Builder, and gives some examples of how you might use it.
 author: v-aangie
 ms.topic: overview
-
 ms.date: 5/3/2021
 ms.author: norliu
 ms.reviewer: angieandrews
@@ -15,13 +14,13 @@ AI Builder prediction models analyze patterns in historical data that you provid
 
 Use the prediction model to explore business questions that can be answered as one the following ways:
 
-- From two available options (binary)
-- From multiple possible outcomes
+- From two available options (binary).
+- From multiple possible outcomes.
 - Where the answer is a number.
 
 ## Binary prediction
 
-Binary prediction is when the question asked has two possible answers. For example: yes/no, true/false, on-time/late, go/no-go, and so on. Examples of question that use binary prediction include:
+Binary prediction is when the question asked has two possible answers. For example: yes/no, true/false, on-time/late, go/no-go, and so on. Examples of questions that use binary prediction include:
 
 - Is an applicant eligible for membership?
 - Is this transaction likely to be fraudulent?
@@ -37,12 +36,12 @@ Multiple outcome predictions is when the question can be answered from a list of
 
 ## Numerical prediction
 
-Numerical prediction is when the question is answered with a number. Examples of multiple outcome predictions include:
+Numerical prediction is when the question is answered with a number. Examples of numerical prediction include:
 
 - How many days for a shipment to arrive?
 - How many calls should an agent handle in a day?
 - How many items do we need to keep in inventory?
-- How many leads should a sales team convert in a month? 
+- How many leads should a sales team convert in a month?
 
 ### See also
 
