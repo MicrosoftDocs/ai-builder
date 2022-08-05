@@ -29,7 +29,7 @@ Binary prediction is when the question asked has two possible answers. For examp
 
 ## Multiple outcome prediction
 
-Multiple outcome predictions is when the question can be answered from a list of more than two possible outcomes. Examples of multiple outcome prediction include:
+Multiple outcome prediction is when the question can be answered from a list of more than two possible outcomes. Examples of multiple outcome prediction include:
 
 - Will a shipment arrive early, on-time, late, or very late?
 - Which product would a customer be interested in?
