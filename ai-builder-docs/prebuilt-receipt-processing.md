@@ -47,7 +47,7 @@ If a receipt is detected, the receipt processing model will output the following
 |**TransactionTime**|Transaction time|
 |**PurchasedItems**|The list of purchased items <ul><li>**Name**: Name of the purchased item</li><li>**Price**: Price of the purchased item</li><li>**Quantity**: Quantity of the purchased item</li><li>**TotalPrice**: Total price of the purchased item</li></ul>|
 |**Subtotal**|Subtotal|
-|**Tax**|Tax|
+|**TotalTax**|TotalTax|
 |**Tip**|Tip|
 |**Total**|Total|
 |**DetectedText**|The list of all recognized lines of text on the receipt|
