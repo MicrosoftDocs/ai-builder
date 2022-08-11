@@ -23,9 +23,9 @@ Once an AI Builder model is applied to a library, every document added to the li
 For information about requirements and step-by-step instructions to use this feature, see [Create a document processing model in Microsoft SharePoint Syntex](/microsoft-365/contentunderstanding/create-a-form-processing-model.md) in the SharePoint documentation.
 
 ## Training data storage
-If you are using **Extract by layout** or **Extract by text pattern and layout** models, training data will be stored in [Microsoft Dataverse](/power-apps/maker/data-platform/data-platform-intro). 
+If you are using **Extract by layout** or **Extract by text pattern and layout** models, training data is stored in [Microsoft Dataverse](/power-apps/maker/data-platform/data-platform-intro). 
 
-Training data will only be stored in Microsoft Dataverse for training purpose and is never used for other purpose. Training data is never shared externally neither.
+Training data is only stored in Microsoft Dataverse to train the AI Builder model and is never used for other purpose. Training data is never shared externally neither.
 
 Microsoft Dataverse has strong security mechanisms that prevent unauthotized access to user's data. Data stored to train your AI Builder model is only accessible by:
 - The owner of the model
