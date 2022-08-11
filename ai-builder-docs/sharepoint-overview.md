@@ -20,7 +20,7 @@ From the **Classify and Extract** menu in your SharePoint library, you can apply
 
 Once an AI Builder model is applied to a library, every document added to the library will be processed by the applied model and results displayed as new library columns.
 
-For information about requirements and step-by-step instructions to use this feature, see [Create a document processing model in Microsoft SharePoint Syntex](/microsoft-365/contentunderstanding/create-a-form-processing-model.md) in the SharePoint documentation.
+For information about requirements and step-by-step instructions to use this feature, see [Create a document processing model in Microsoft SharePoint Syntex](/microsoft-365/contentunderstanding/create-a-form-processing-model) in the SharePoint documentation.
 
 ## Training data storage
 If you are using **Extract by layout** or **Extract by text pattern and layout** models, training data is stored in [Microsoft Dataverse](/power-apps/maker/data-platform/data-platform-intro). 
