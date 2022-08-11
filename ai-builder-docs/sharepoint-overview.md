@@ -14,7 +14,7 @@ ms.reviewer: angieandrews
 ## Overview
 With the Syntex offering, you are able to create AI Builder models from within SharePoint. 
 
-From the **Classify and Extract** menu, you are able to apply an existing AI model to a library or create a new one. Two model types are powered by AI Builder:
+From the **Classify and Extract** menu in your SharePoint library, you can apply an existing AI model to a library or create a new one. Two model types are powered by AI Builder:
 - **Extract by layout** which creates AI Builder document processing models for structured documents (Invoices, purchase orders, delivery orders, tax documents, etc.)
 - **Extract by text pattern and layout** which creates AI Builder document processing models for unstructured or free form documents (contracts, statement of work, letters, etc.)
 
@@ -34,7 +34,7 @@ Microsoft Dataverse has strong security mechanisms that prevent unauthotized acc
 >[!NOTE]
 > Data predicted by the AI Builder models when running on library documents is never storage in any kind of storage.
 
-Learn more with [Roles and Security in AI Builder](/ai-builder/security.md)
+Learn more with [Roles and Security in AI Builder](/ai-builder/security)
 
 
 ### See also
@@ -43,6 +43,6 @@ Learn more with [Roles and Security in AI Builder](/ai-builder/security.md)
 
 [Feature availability by region](availability-region.md)
 
-[Roles and Security in AI Builder](/ai-builder/security.md)
+[Roles and Security in AI Builder](/ai-builder/security)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
