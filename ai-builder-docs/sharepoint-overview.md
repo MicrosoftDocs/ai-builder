@@ -27,12 +27,12 @@ If you are using **Extract by layout** or **Extract by text pattern and layout**
 
 Training data will only be stored in Microsoft Dataverse for training purpose and is never used for other purpose. Training data is never shared externally neither.
 
-Microsoft Dataverse has strong security mechanisms that prevent unauthotized access to user's data. Training data stored to train your AI Builder model will be accessible only by:
+Microsoft Dataverse has strong security mechanisms that prevent unauthotized access to user's data. Data stored to train your AI Builder model is only accessible by:
 - The owner of the model
 - The Power Platform System Administrators and System Customizers of your organization
 
 >[!NOTE]
-> Data predicted by the AI Builder models when running on library documents is never storage in any kind of storage.
+> Data predicted by the AI Builder models when running on library documents is never persisted in any kind of storage.
 
 Learn more with [Roles and Security in AI Builder](/ai-builder/security)
 
