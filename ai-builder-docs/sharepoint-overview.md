@@ -11,7 +11,7 @@ ms.reviewer: angieandrews
 
 # AI Builder in SharePoint (Syntex)
 
-# Overview
+## Overview
 With the Syntex offering, you are able to create AI Builder models from within SharePoint. 
 
 From the **Classify and Extract** menu, you are able to apply an existing AI model to a library or create a new one. Two model types are powered by AI Builder:
@@ -22,7 +22,7 @@ Once an AI Builder model is applied to a library, every document added to the li
 
 For information about requirements and step-by-step instructions to use this feature, see [Create a document processing model in Microsoft SharePoint Syntex](/microsoft-365/contentunderstanding/create-a-form-processing-model.md) in the SharePoint documentation.
 
-# Training data storage
+## Training data storage
 If you are using **Extract by layout** or **Extract by text pattern and layout** models, training data will be stored in [Microsoft Dataverse](/power-apps/maker/data-platform/data-platform-intro). 
 
 Training data will only be stored in Microsoft Dataverse for training purpose and is never used for other purpose. Training data is never shared externally neither.
