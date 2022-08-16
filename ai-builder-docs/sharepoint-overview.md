@@ -25,14 +25,12 @@ For information about requirements and step-by-step instructions to use this fea
 ## Training data storage
 If you are using **Extract by layout** or **Extract by text pattern and layout** models, training data is stored in [Microsoft Dataverse](/power-apps/maker/data-platform/data-platform-intro). 
 
-Training data is only stored in Microsoft Dataverse to train the AI Builder model and is never used for other purpose. Training data is never shared externally neither.
+Only training data is stored in Microsoft Dataverse, it is solely used to train the AI Builder model and is never used for any other purpose. Training data is never shared externally.
 
-Microsoft Dataverse has strong security mechanisms that prevent unauthotized access to user's data. Data stored to train your AI Builder model is only accessible by:
+Microsoft Dataverse has strong security mechanisms that prevent unauthorized access to user data. Data stored to train your AI Builder model is only accessible by:
 - The owner of the model
 - The Power Platform System Administrators and System Customizers of your organization
 
->[!NOTE]
-> Data predicted by the AI Builder models when running on library documents is never persisted in any kind of storage.
 
 Learn more with [Roles and Security in AI Builder](/ai-builder/security)
 
