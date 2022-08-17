@@ -13,19 +13,17 @@ ms.reviewer: angieandrews
 
 To explore the possibilities of document processing, you can get started by building and training a document processing model that uses sample invoices.
 
-
 ## Get the sample data
 
 Download sample documents for AI Builder document processing: [English version](https://go.microsoft.com/fwlink/?linkid=2128080) or [Japanese version](https://go.microsoft.com/fwlink/?linkid=2186887)
 
-## Guided experience on Microsoft Learn
+## Guided learning experience
 
-The [Get started with Document processing in AI Builder](/learn/modules/get-started-with-form-processing/2-create-first-model) in Microsoft Learn walks you through each step of the model creation process using the sample data.
+The [Get started with Document processing in AI Builder](/learn/modules/get-started-with-form-processing/2-create-first-model) Learn module walks you through each step of the model creation process using the sample data.
 
 ### See also
 
 [Use a document processing model in Power Automate](form-processing-model-in-flow.md)  
 [Use the form processor component in Power Apps](form-processor-component-in-powerapps.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
