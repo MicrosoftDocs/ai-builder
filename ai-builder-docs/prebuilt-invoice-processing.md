@@ -15,7 +15,7 @@ The invoice processing prebuilt AI model extracts key invoice data to help autom
 
 ## Use in Power Apps
 
-For information on how to use the invoice processing prebuilt model in Power Automate, go to [Use the invoice processing prebuilt model in Power Apps](prebuilt-invoice-processing-powerapps.md).
+For information on how to use the invoice processing prebuilt model in Power Apps, go to [Use the invoice processing prebuilt model in Power Apps](prebuilt-invoice-processing-powerapps.md).
 
 ## Use in Power Automate
 
