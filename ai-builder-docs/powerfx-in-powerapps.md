@@ -1,35 +1,27 @@
 ---
-title: Use Power Fx in AI Builder models in Power Apps (preview) - AI Builder | Microsoft Docs
-description: Use Power Fx AI integration to reference AI models in any Power Apps control using the Power Fx low-code formula language.
+title: Use AI Builder models in Power Apps - AI Builder | Microsoft Docs
+description: Add more powerful and flexible integrations of AI models into your Power App.
 author: v-aangie
 ms.topic: conceptual
 ms.custom: intro-internal
-ms.date: 05/31/2022
+ms.date: 08/22/2022
 ms.author: angieandrews
 ms.reviewer: angieandrews
 ---
 
-# Use Power Fx in AI Builder models in Power Apps (preview)
+# Use AI Builder models in Power Apps
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
-
-Power Fx AI integration is a new approach that lets you reference AI models in any Power Apps control using the Power Fx open-source, low-code formula language. For example, you can detect the language of any user-contributed text and translate it to another language. If you've used canvas apps, you're already familiar with Power Fx.
-
-> [!IMPORTANT]
->
-> - This is a preview feature.
-> - [!INCLUDE[cc_preview_features_definition](includes/cc-preview-features-definition.md)]
-> - This feature is being gradually rolled out across regions and might not be available yet in your region.
+With the use of [Power Fx](/power-platform/power-fx/overview), the open-source low-code formulas, you can add more powerful and flexible integrations of AI models into your Power App. AI model prediction formulas can be integrated with any controls in canvas app. For example, you can detect the language of text in a text input control and output the results to a label control as can be seen in Use a model with controls section below.   
 
 ## Requirements
 
 To use Power Fx in AI Builder models, you must have:
 
-- Access to a [Microsoft Power Platform environment with a database](/power-platform/admin/create-environment#create-an-environment-with-a-database)
+- Access to a [Microsoft Power Platform environment with a database](/power-platform/admin/create-environment#create-an-environment-with-a-database).
 
-- AI Builder license (trial or paid)
+- AI Builder license (trial or paid). To learn more, go to [AI Builder licensing](administer-licensing.md).
 
-- Starter or purchased AI credits (for non-preview models) 
+
 
 ## Enable the Power Fx feature
 
