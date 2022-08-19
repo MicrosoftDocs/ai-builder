@@ -11,7 +11,7 @@ ms.reviewer: angieandrews
 
 # Use AI Builder models in Power Apps
 
-With the use of [Power Fx](/power-platform/power-fx/overview), the open-source low-code formulas, you can add more powerful and flexible integrations of AI models into your Power App. AI model prediction formulas can be integrated with any controls in canvas app. For example, you can detect the language of text in a text input control and output the results to a label control as can be seen in Use a model with controls section below.   
+With the use of [Power Fx](/power-platform/power-fx/overview), the open-source low-code formulas, you can add more powerful and flexible integrations of AI models into your Power App. AI model prediction formulas can be integrated with any controls in canvas app. For example, you can detect the language of text in a text input control and output the results to a label control as can be seen in Use a model with controls section below.  
 
 ## Requirements
 
@@ -21,59 +21,62 @@ To use Power Fx in AI Builder models, you must have:
 
 - AI Builder license (trial or paid). To learn more, go to [AI Builder licensing](administer-licensing.md).
 
-
-
-## Enable the Power Fx feature
-
-The Power Fx feature is enabled by default in Microsoft Power Apps. If it's been disabled and you want to enable it again, you can do this from the canvas apps creation page.
-
-1. Sign in to [Power Apps](https://make.powerapps.com).
-
-1. Create a canvas app by selecting **Create** > **Blank app**.
-
-1. In the **Blank canvas app** panel, select **Create**.
-
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of create a canvas app from blank.](media/powerfx-in-powerapps/create-blank.png "Create a canvas app from blank")
-
-1. In the **App name** field, enter a name and select **Create**.
-
-1. If you see the **Welcome to Power Apps Studio** screen, select **Skip**.
-
-1. On the toolbar at the top, select **Settings**.
-
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of the toolbar with Settings link.](media/powerfx-in-powerapps/canvas-toolbar.png "Toolbar with Settings link")
-
-1. Select **Upcoming features** > **Preview**.
-
-1. Enable the **AI models as data sources** feature by scrolling to the end  and selecting **On**.
-
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of AI models as data sources enabled.](media/powerfx-in-powerapps/data-sources.png "Enable AI models as data sources")
-
 ## Select a model in canvas apps
 
- To consume an AI model with Power Fx, you’ll need to create a canvas app, choose a control, and assign expressions to control properties.
+To consume an AI model with Power Fx, you’ll need to create a canvas app, choose a control, and assign expressions to control properties.
 
-For a list of AI Builder models you can consume, go to [AI models and business scenarios](model-types.md). You can also consume models built in Microsoft Azure Machine Learning with the [bring your own model](byo-model.md) feature.
+> [!NOTE]
+> For a list of AI Builder models you can consume, see [AI models and business scenarios](model-types.md). You can also consume models built in Microsoft Azure Machine Learning with the [bring your own model](byo-model.md) feature.
 
-1. Create an app by following steps 1 through 4 in [Enable the Power Fx feature](#enable-the-power-fx-feature).
+1. Create an app. More information: [Create a blank canvas app from scratch](/power-apps/maker/canvas-apps/create-blank-app).
 
-1. Select **Data tab** > **Add data** > **AI models**.
+1. Select **Data** > **Add data** > **AI models**.
 
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of how to select your model.](media/powerfx-in-powerapps/add-model.png "Select your model")
+    :::image type="content" source="media/powerfx-in-powerapps/data-sources.png" alt-text="Screenshot of how to select your model.":::
 
 1. Select one or more models to add.
 
     If you don’t see your model in this list, you might not have permissions to use it in Power Apps. Contact your administrator to resolve this.
 
-## Use a model in controls
+## Use a model with controls
 
-In this example of a language detection model, the canvas app shows you the country code for the language of the text you type.
+Now that you've added the AI model to your canvas app, let’s see how to call an AI Builder model from a control.
 
-1. Create a canvas app by following steps 1 and 2 in the previous section, [Select a model in canvas apps](#select-a-model-in-canvas-apps).
+In the following example, we’ll build an app that can detect the language entered by a user in the app.
+
+1. Create an app. More information: [Create a blank canvas app from scratch](/power-apps/maker/canvas-apps/create-blank-app).
+
+1. Select **Data** > **Add data** > **AI models**.
+
+1. Search for, and select **Language detection** AI model.
+
+    :::image type="content" source="media/powerfx-in-powerapps/language-detection.png" alt-text="Screenshot of language detection model.":::
+
+1. Select **+** from the left-pane, and then select **Text input** control.
+
+1. Repeat the previous step to add a **Text label** control.
+
+1. Rename the text label to **Language**.
+
+1. Add another text label next to the "Language" label.
+
+    :::image type="content" source="media/powerfx-in-powerapps/app-controls.png" alt-text="App controls including text and both label controls.":::
+
+1. Select the text label added in the previous step.
+
+1. Enter the following formula in the formula bar for the text label's **Text** property.
+
+    ```powerapps-dot
+    'Language detection'.Predict(TextInput1.Text).Language
+    ```
+
+
+
+2.	Select Text label and place it on the canvas.
+3.	Rename the text label to Language.
+4.	Add another text label by selecting Text label and place it to the right of the Language text label.
+
+
 
 1. In the **AI models list**, select a language detection model.
 
