@@ -12,7 +12,7 @@ ms.reviewer: angieandrews
 # AI Builder in SharePoint (Syntex)
 
 ## Overview
-With the Syntex offering, you are able to create AI Builder models from within SharePoint. 
+With the Syntex offering, you are able to create AI Builder models from within SharePoint. [Learn how to setp-up Syntex](/microsoft-365/contentunderstanding/create-a-form-processing-model).
 
 From the **Classify and Extract** menu in your SharePoint library, you can apply an existing AI model to a library or create a new one. Two model types are powered by AI Builder:
 - **Extract by layout** which creates AI Builder document processing models for structured documents (Invoices, purchase orders, delivery orders, tax documents, etc.)
