@@ -11,7 +11,7 @@ ms.reviewer: angieandrews
 
 # Use AI Builder models in Power Apps
 
-With the use of [Power Fx](/power-platform/power-fx/overview), the open-source low-code formulas, you can add more powerful and flexible integrations of AI models into your Power App. AI model prediction formulas can be integrated with any controls in canvas app. For example, you can detect the language of text in a text input control and output the results to a label control as can be seen in Use a model with controls section below.  
+With the use of [Power Fx](/power-platform/power-fx/overview), the open-source low-code formulas, you can add more powerful and flexible integrations of AI models into your Power App. AI model prediction formulas can be integrated with any controls in canvas app. For example, you can detect the language of text in a text input control and output the results to a label control as can be seen in the [Use a model with controls](#use-a-model-with-controls) section below.  
 
 ## Requirements
 
@@ -73,7 +73,7 @@ In the following example, we’ll build an app that can detect the language ente
     'Language detection'.Predict(TextInput1.Text).Language
     ```
 
-    Notice the label change to the language code based on your locale. For this example, **en** (English).
+    The label changes to the language code based on your locale. For this example, **en** (English).
 
     :::image type="content" source="media/powerfx-in-powerapps/language-formula.png" alt-text="Language formula changes the label text.":::
 
