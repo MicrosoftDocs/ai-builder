@@ -36,6 +36,8 @@
     href: share-model.md
   - name: Distribute your model
     href: distribute-model.md
+  - name: Continuously improve your model
+    href: feedback-loop.md
 - name: Prebuilt AI models
   items:
   - name: Overview
