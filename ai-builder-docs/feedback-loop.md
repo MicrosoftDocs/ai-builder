@@ -69,6 +69,11 @@ If you already have a flow running with your AI Builder model, you'll be able to
 
 1. In the **Actions** list, select **Condition**, where you'll enter the condition that defines if the data needs to go in the feedback loop (yes) or not (no).
 
+    > [!div class="mx-imgBorder"]
+    > ![Feedback loop condition](media/feedback-loop-condition.png "Feedback loop condition")
+
+In this example, we added a condition stating that confidence score of the **Total** field should be less than 0.7 (70%). If it is, the data goes in the feedback loop storage.
+
 1. In the **If yes** section:
     1. Add the action **Save file to AI Builder feedback loop**.
     1. Select the model you are using to place it in the **AI model** field.
@@ -78,7 +83,6 @@ If you already have a flow running with your AI Builder model, you'll be able to
     > [!div class="mx-imgBorder"]
     > ![Feedback loop action](media/feedback-loop-action.png "Feedback loop action")
 
-In this example, we defined a condition stating that the confidence score of the **Total** field should be higher than 0.7 (70%). If it's not, the data goes in the feedback loop storage.
 
 ## Use data in the feedback loop to improve your model
 
