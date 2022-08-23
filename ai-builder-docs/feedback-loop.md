@@ -36,15 +36,17 @@ If you don't have a Power Automate flow to run your model yet, you can create a 
 
 1. Select the template that best fits your needs.
 
-    <!--Add image here-->
+    > [!div class="mx-imgBorder"]
+    > ![Select template](media/templates-feedbackloop.png "Select template")
 
 1. Validate the template connections to land in the Power Automate flow authoring experience.
 
 1. Go to the **Feedback loop** section to edit the conditions that will allow you to add data in the feedback loop storage.
 
-    <!--Add image here-->
+    > [!div class="mx-imgBorder"]
+    > ![Feedback loop section](media/feedback-loop-section.png "Feedback loop section")
 
-In this example, we defined a condition stating that confidence score of the **Total** field should be higher than 0.7 (70%). If it's not, the data goes in the feedback loop storage.
+In this example, we updated the condition stating that confidence score of the **Total** field should be less than 0.7 (70%). If it is, the data goes in the feedback loop storage.
 
 > [!NOTE]
 > The feedback loop storage is a Microsoft Dataverse table within the the same environment in which the flow runs. The table is called **AI Builder Feedback Loop**. Unless you need to delete records in the table, you don't need to access it directly to make the feedback loop work.
@@ -65,15 +67,16 @@ If you already have a flow running with your AI Builder model, you'll be able to
     1. Select the plus sign (+) that appears when you hover over the arrow.
     1. Select **Add an action**.
 
-1. In the **Actions** list, select **Condition**, where you'll enter the condition that defines if the data is valid (yes) or needs to go in the feedback loop (no).
+1. In the **Actions** list, select **Condition**, where you'll enter the condition that defines if the data needs to go in the feedback loop (yes) or not (no).
 
-1. In the **If no** section:
-    1. Add the action **Add file in AI Builder feedback loop**.
+1. In the **If yes** section:
+    1. Add the action **Save file to AI Builder feedback loop**.
     1. Select the model you are using to place it in the **AI model** field.
     1. Select the source file to place it in the **Source file** field.
     1. Select the expression **predictionOutput** to place it in the **AI model output** field.
 
-    <!--Add image here-->
+    > [!div class="mx-imgBorder"]
+    > ![Feedback loop action](media/feedback-loop-action.png "Feedback loop action")
 
 In this example, we defined a condition stating that the confidence score of the **Total** field should be higher than 0.7 (70%). If it's not, the data goes in the feedback loop storage.
 
@@ -85,13 +88,14 @@ Now that you have data in the AI Builder feedback loop, you can use it to improv
 
 1. On the left pane, select **AI Builder** > **Models**.
 
-1. Select the model that you'd like to improve using data in the feedback loop.
+1. Select the model to improve using data in the feedback loop. Note that models that can be improved have the status **Documents to review**.
 
 1. Select **Edit model** and continue to the wizard section to add new training data.
 
 1. For document processing models, select the desired collection and select **Add documents**. You'll get the **Feedback loop** data source option. If documents have been added to the feedback loop, they'll appear there.
 
-    <!--Add image here-->
+    > [!div class="mx-imgBorder"]
+    > ![Feedback loop data source](media/feedback-loop-datasource.png "Feedback loop data source")
 
 1. Select **Feedback loop** and add the documents that could improve your model.
 
