@@ -53,7 +53,7 @@ Before you begin writing your data into Excel, make sure that you have created a
 3.	Select the cells that you entered and then format them as a table, marking the first row as the header.
 
  > [!div class="mx-imgBorder"]
- > ![Trigger identity document flow.](media/excel-table.png "Trigger identity document flow")
+ > ![Trigger identity document excel table flow.](media/excel-table.png "Trigger identity document excel table flow")
 
 **Write the data to Excel**
 
@@ -79,7 +79,7 @@ Before you begin writing your data into Excel, make sure that you have created a
 
 
 > [!div class="mx-imgBorder"]
-> ![Trigger identity document flow.](media/add-row-in-a-table.png "Trigger identity document flow")
+> ![Trigger identity document add row in a table flow.](media/add-row-in-a-table.png "Trigger identity document add row in a table flow")
 
 **Test the flow**
 
@@ -90,12 +90,12 @@ Next, select an identity document file or image where your file is stored in Fil
 
 
 > [!div class="mx-imgBorder"]
-> ![Trigger identity document flow.](media/file-content.png "Trigger identity document flow")
+> ![Trigger identity document file content flow.](media/file-content.png "Trigger identity document file content flow")
 
 The flow will get executed after some seconds: AI Builder will extract the data and a new entry will be added to Excel with the extracted information.
 
 > [!div class="mx-imgBorder"]
-> ![Trigger identity document flow.](media/excel-extracted-data-id-reader.png "Trigger identity document flow")
+> ![Trigger identity document excel extracted data flow.](media/excel-extracted-data-id-reader.png "Trigger identity document excel extracted data flow")
 
 ### See also
 
