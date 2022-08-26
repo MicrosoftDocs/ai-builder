@@ -42,7 +42,7 @@ The images you can process with the ID reader prebuilt model must have these cha
     - jpg
     - png
     - pdf
-- Size: 50 MB maximum (use small images for fastest processing time)
+- Size: 20 MB maximum (use small images for fastest processing time)
 - For PDF documents, only the first 2,000 pages are processed.
 
 ## Model output
