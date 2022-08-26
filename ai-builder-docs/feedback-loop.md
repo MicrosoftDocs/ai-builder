@@ -4,7 +4,7 @@ description: This topic provides an overview of how to continuously improve AI B
 author: antrod
 ms.topic: conceptual
 ms.custom:
-ms.date: 009/02/2022
+ms.date: 09/02/2022
 ms.author: antrod
 ms.reviewer: angieandrews
 ---
