@@ -1,7 +1,7 @@
 ---
-title: AI Builder Licensing - AI Builder | Microsoft Docs
+title: AI Builder licensing - AI Builder | Microsoft Docs
 description: Provides information about licensing in AI Builder.
-author: paulnog
+author: phil-cmd
 ms.topic: conceptual
 ms.custom: intro-internal
 ms.date: 05/31/2022
@@ -11,7 +11,7 @@ ms.reviewer: angieandrews
 
 # AI Builder licensing
 
-AI Builder is licensed as an add-on to your Power Apps, Power Automate, or Dynamics 365 license. This means you can start your AI Builder trial after you have a Power Apps, Power Automate, or Dynamics 365 license that allows you to create a Microsoft Dataverse environment.
+AI Builder is licensed as an add-on to your Power Apps, Power Automate, or Dynamics 365 license. This means you can start your AI Builder trial after you have a Power Apps, Power Automate, or Dynamics 365 license that allows you to create a Microsoft Power Platform environment.
 
 The AI Builder capacity add-on doesn't exist in the Microsoft 365 business premium license.
 
@@ -23,7 +23,7 @@ More information about AI Builder licensing:
 
 ## Get started
 
-- [Start your free trial](https://web.powerapps.com/signup?redirect=marketing&email=)
+- [Start your free trial](https://powerapps.microsoft.com/ai-builder/)
 
 ## Paid licenses
 
@@ -45,14 +45,14 @@ For information about how to allocate capacity in Power Platform admin center, g
 
 ## Trial licenses
 
-Want to get started using AI Builder? Use premium features for a limited time with a [trial license](https://web.powerapps.com/signup?redirect=marketing&email=), or use preview features without obtaining a license at all.
+Want to get started using AI Builder? Use premium features for a limited time with a [trial license](https://powerapps.microsoft.com/ai-builder/), or use preview features without obtaining a license at all.
 
 > [!NOTE]
 > You *can't start an AI Builder trial* if you have AI Builder credits already on your tenant by purchasing a capacity add-on or through other products.
 
 ### Benefits of a trial license
 
-An [AI Builder trial license](https://web.powerapps.com/signup?redirect=marketing&email=) enables you to use AI Builder features for free during the 30-day trial period.
+An [AI Builder trial license](https://powerapps.microsoft.com/ai-builder/) enables you to use AI Builder features for free during the 30-day trial period.
 
 What you get with an AI Builder trial license:
 
@@ -70,7 +70,7 @@ What you get with an AI Builder trial license:
    >[!div class="mx-imgBorder"]
    >![Screenshot of Create my database.](media/administer-licensing/create-db.png "Create my database")
 
-1. Refresh the build page.
+1. Refresh the **Explore** page.
 1. At the top of the screen, select **Start free trial**.
 
    >[!div class="mx-imgBorder"]
@@ -141,7 +141,7 @@ For more information, see [About trial environments](/power-platform/admin/trial
 
 #### Can I block users in my organization from signing up for an AI Builder trial?
 
-Any individual can try out the features of AI Builder for 30 days and incur no costs to your company. This option is available to any user in a tenant and cannot be disabled by an admin.
+Any individual can try out the features of AI Builder for 30 days and incur no costs to your company. This option is available to any user in a tenant and can't be disabled by an admin.
 
 #### What can I do with the 5,000 AI credits included in the per user plan with attended RPA?
 

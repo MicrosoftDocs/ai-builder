@@ -42,7 +42,8 @@ The images you can process with the ID reader prebuilt model must have these cha
     - jpg
     - png
     - pdf
-- Size: 20 MB maximum (use small images for fastest processing time)
+- Size: 50 MB maximum (use small images for fastest processing time)
+- For PDF documents, only the first 2,000 pages are processed.
 
 ## Model output
 
@@ -68,6 +69,6 @@ If a valid identity document is detected, the model will try to locate and extra
 |Identity document reader calls (per environment)|24|60 seconds|
 
 
-## See also
+### See also
 
 [Use the ID reader prebuilt model in Power Automate](id-reader.md)

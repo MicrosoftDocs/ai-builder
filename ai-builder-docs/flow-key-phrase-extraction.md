@@ -4,7 +4,7 @@ description: Provides information about how to set up and use the AI Builder key
 author: alanabrito
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/05/2021
+ms.date: 07/29/2022
 ms.author: alanab
 ms.reviewer: angieandrews
 ---
@@ -30,7 +30,7 @@ ms.reviewer: angieandrews
     > [!div class="mx-imgBorder"]
     > ![Specify my text.](media/flow-kpe.png "Specify my text")
 
-1. In the successive actions, you can use any columns extracted by the AI Builder model. For example, you can create a Microsoft Dataverse row for each **Key phrase**:
+1. In the successive actions, you can use any columns extracted by the AI Builder model. For example, you can create a Microsoft Dataverse row for each **Key phrase**.
 
     > [!div class="mx-imgBorder"]
     > ![Add key phrases screen.](media/flow-add-phrase-2.png "Add key phrases in Dataverse")
@@ -55,6 +55,3 @@ Congratulations! You have created a flow that uses your key phrase extraction AI
 ### See also
 
 [Key phrase extraction overview](prebuilt-key-phrase.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

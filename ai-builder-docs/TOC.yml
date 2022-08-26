@@ -13,6 +13,8 @@
       href: learn-ai-builder.md
     - name: Sample data
       href: samples.md  
+  - name: Preview features
+    href: previewability-scenarios.md
   - name: AI Builder community
     href: share-your-experience.md
     displayName: forums; support; help
@@ -137,6 +139,8 @@
       href: get-started-with-object-detection.md
     - name: Train and publish your object detection model
       href: object-detection-train-model.md
+    - name: Transition to the newest object detection model version
+      href: object-detection-transition.md
     - name: Use sample data
       href: object-detection-sample-data.md
   - name: Document processing AI model
@@ -157,8 +161,10 @@
     - name: FAQ for document processing
       href: form-processing-faq.md
     - name: Process multipage tables in document processing (experimental)
-      href: form-processing-multipage.md  
-  - name: Image classification AI model by Lobe (preview)
+      href: form-processing-multipage.md
+    - name: Transition to the newest document processing model version
+      href: form-processing-transition.md      
+  - name: Image classification AI model by Lobe
     items:
     - name: Overview
       href: lobe-overview.md
@@ -188,7 +194,7 @@
       href: form-processing-model-in-flow.md
     - name: Object detection model
       href: object-detection-model-in-flow.md
-    - name: Image classification model (preview)
+    - name: Image classification model
       href: image-classification-model-in-flow.md  
     - name: Prediction model
       href: prediction-pwr-automate.md
@@ -228,10 +234,8 @@
     href: form-processor-component-in-powerapps.md
   - name: Use the object detection component in Power Apps
     href: object-detector-component-in-powerapps.md
-  - name: Use the image classification component in Power Apps (preview)
+  - name: Use the image classification component in Power Apps
     href: image-classification-component-in-powerapps.md
-  - name: Use formulas for text AI models in Power Apps (preview)
-    href: formula-bar.md
   - name: Use the business card reader component in Power Apps
     items:
     - name: Use in a canvas app
@@ -244,7 +248,7 @@
     href: prebuilt-receipt-processor-component-in-powerapps.md
   - name: Use the text recognizer component in Power Apps
     href: prebuilt-text-recognizer-component-in-powerapps.md
-  - name: Use Power Fx in AI Builder models in Power Apps (preview)
+  - name: Use AI Builder models in Power Apps
     href: powerfx-in-powerapps.md  
 - name: Use AI Builder in SharePoint
   href: sharepoint-overview.md

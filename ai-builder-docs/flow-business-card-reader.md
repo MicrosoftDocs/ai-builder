@@ -75,7 +75,7 @@ To add the **Add a new row** step, select **+ New step** > **Microsoft Dataverse
 |**Mobile phone** |string |The second phone or fax number|
 |**Website** |string |The website|
 
-## See also
+### See also
 
 [Business card reader overview](prebuilt-business-card.md)
 

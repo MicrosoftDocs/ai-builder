@@ -1,26 +1,19 @@
 ---
-title: Overview of image classification model by Lobe (preview) - AI Builder | Microsoft Docs
+title: Overview of image classification model by Lobe - AI Builder | Microsoft Docs
 description: With Lobe, you can use image classification models in AI Builder to categorize images and add intelligence to your apps.
 author: mbeissinger
 ms.topic: conceptual
 ms.custom: intro-internal
-ms.date: 02/14/2022
+ms.date: 06/29/2022
 ms.author: jacohe
 contributors:
     - JakeCohenMicrosoft
     - v-aangie
 ---
 
-# Overview of image classification model by Lobe (preview)
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
+# Overview of image classification model by Lobe
 
 Lobe is a free, easy-to-use Microsoft desktop application that allows you to build, manage, and use custom machine learning models. With Lobe, you can create an image classification model to categorize images into *labels* that represent their content. You can directly upload Lobe models to AI Builder for use with Power Apps and Power Automate.
-
-> [!IMPORTANT]
-> - This is a preview feature.
-> - [!INCLUDE[cc_preview_features_definition](includes/cc-preview-features-definition.md)]
-> - This feature is being gradually rolled out across regions and might not be available yet in your region.
 
 Here's a summary of how to prepare a model in Lobe:
 
@@ -72,14 +65,13 @@ With image classification by Lobe, you train all your models on your computer. W
 1. Select **AI Builder** > **Explore** > **Images** > **Image classification**.
 
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of Image Classification](media/lobe-overview/lobe-tile.png "Image Classification")
+    > ![Screenshot of Image classification.](media/lobe-overview/lobe-tile.png "Image classification")
 
 1. On the next page, select **Download Lobe** to download and install the Lobe app on your computer.
 
-
 ## Use image classification by Lobe
 
-1. Within Lobe, create a new project by selecting **New Project** > **Import**.
+1. Within Lobe, create a new project by selecting **Import**.
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of Lobe import screen.](media/lobe-overview/lobe-splash.png "Lobe import screen")
@@ -106,4 +98,4 @@ The following are recommendations for Microsoft Power Platform users:
 
 ## Next step
 
-[Export image classification model from Lobe to AI Builder (preview)](lobe-export.md)
+[Export image classification model from Lobe to AI Builder](lobe-export.md)

@@ -3,14 +3,14 @@ title: Overview of AI Builder - AI Builder | Microsoft Docs
 description: This topic provides an overview of AI Builder and high-level steps to add intelligence to your apps.
 author: v-aangie
 ms.topic: overview
-ms.date: 05/05/2022
+ms.date: 06/03/2022
 ms.author: angieandrews
 ms.reviewer: angieandrews
 ---
 
 # Overview of AI Builder
 
-AI Builder is a Microsoft Power Platform capability that provides AI models that are designed to optimize your business processes. AI Builder enables your business to use intelligence to automate processes and glean insights from your data in [Power Apps](use-in-powerapps-overview.md) and [Power Automate](use-in-flow-overview.md). With AI Builder, you don't need coding or data science skills to access the power of AI. You can build *custom* models tailored to your needs, or choose a *prebuilt* model that is ready to use for many common business scenarios. 
+AI Builder is a Microsoft Power Platform capability that provides AI models that are designed to optimize your business processes. AI Builder enables your business to use intelligence to automate processes and glean insights from your data in [Power Apps](use-in-powerapps-overview.md) and [Power Automate](use-in-flow-overview.md). With AI Builder, you don't need coding or data science skills to access the power of AI. You can build *custom* models tailored to your needs, or choose a *prebuilt* model that is ready to use for many common business scenarios.
 
 - Explore AI Builder in [Power Automate](use-in-flow-overview.md).
 
@@ -18,7 +18,6 @@ AI Builder is a Microsoft Power Platform capability that provides AI models that
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the AI Builder home page.](media/ai-builder-home.png "AI Builder home page")
-
 
 ## Add intelligence to your business
 
@@ -68,13 +67,12 @@ For information about license capacity, pricing, and restrictions:
 
 ## For administrators
 
-- If you are an administrator and want information on model and environments, go to [Administer AI Builder](administer.md).
+- If you're an administrator and want information on model and environments, go to [Administer AI Builder](administer.md).
 
 - For information on security for administrators, go to [Roles and security in AI Builder](security.md).
 
-### Next step
+## Next step
 
 [Learn about AI model types](model-types.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

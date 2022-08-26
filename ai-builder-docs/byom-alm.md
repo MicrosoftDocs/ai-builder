@@ -38,7 +38,7 @@ In this example, you'll export two solutions:
    > [!div class="mx-imgBorder"]
    > ![Screenshot of how to create a solution to store the custom connector.](media/byom-alm/alm-solution.png "Create a solution to store the custom connector")
 
-1. Add an existing custom connector by selecting **Add** > **Automation** > **Custom connector**.
+1. Add an existing custom connector by selecting **Add existing** > **Automation** > **Custom connector**.
 
    > [!div class="mx-imgBorder"]
    > ![Screenshot of how to add an existing custom connector.](media/byom-alm/alm-add.png "Add an existing custom connector")
@@ -60,7 +60,7 @@ In this example, you'll export two solutions:
     > [!div class="mx-imgBorder"]
     > ![Screenshot of how to create a new solution to add the model and any other components.](media/byom-alm/alm-solution-new.png "Create a new solution to add the model and any other components")
 
-1. Add an existing connection reference by selecting **Add** > **More** > **Connection Reference (preview)**.
+1. Add an existing connection reference by selecting **Add existing** > **More** > **Connection Reference (preview)**.
 
    > [!div class="mx-imgBorder"]
    > ![Screenshot of how to add an existing connection reference.](media/byom-alm/alm-add-ref.png "Add an existing connection reference")
@@ -72,7 +72,7 @@ In this example, you'll export two solutions:
    > [!div class="mx-imgBorder"]
    > ![Screenshot of the connection reference naming format.](media/byom-alm/alm-ref-format.png "Connection reference naming format")
 
-1. Add the AI model by selecting **Add** > **AI Model**.
+1. Add the AI model by selecting **Add existing** > **AI Model**.
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of how to add your AI model to AI Builder.](media/byom-alm/alm-add-model.png "Add your AI model to AI Builder")
@@ -208,7 +208,6 @@ For help on how to import solutions, go to [Import solutions for Power Apps](/po
    > ![Screenshot of components after the upgrade is applied.](media/byom-alm/alm-stage-2.png "Components after the upgrade is applied")
 
 All components in the environment now reference the new version of the model.
-
 
 ### See also
 

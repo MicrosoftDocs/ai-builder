@@ -4,7 +4,7 @@ description: Provides information about how to use a category classification mod
 author: v-aangie
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/05/2022
+ms.date: 06/29/2022
 ms.author: angieandrews
 ms.reviewer: angieandrews
 ---
@@ -26,14 +26,14 @@ ms.reviewer: angieandrews
 1. Select the category classification model you want to use, and in the **Text** column add **My Text** from the trigger.
 
     > [!div class="mx-imgBorder"]
-    > ![Select model content.](media/flow-ccc-overview.png "Select model content")
+    > ![Screenshot that shows selected model content.](media/flow-ccc-overview.png "Select model content")
 
 1. In the successive actions, use any columns and tables extracted by the AI Builder model.
 
-The following example saves each inferred **Classification** and **Confidence score** into a SharePoint list.
+The following example saves each inferred **Classification** and **Confidence score** into a list created with Microsoft Lists in SharePoint.
 
 > [!div class="mx-imgBorder"]
-> ![Category classification flow example.](media/flow-ccc-example.png "Category classification flow example")
+> ![Screenshot example of Category classification flow example.](media/flow-ccc-example.png "Category classification flow example")
 
 Congratulations! You've created a flow that uses an AI Builder category classification model. Select **Save** on the top right, and then select **Test** to try out your flow.
 

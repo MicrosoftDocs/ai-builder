@@ -4,7 +4,7 @@ description: Provides step-by-step instructions on how to create a category clas
 author: v-aangie
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/05/2021
+ms.date: 06/29/2021
 ms.author: angieandrews
 ms.reviewer: angieandrews
 ---
@@ -15,14 +15,27 @@ Now that you have your training data in Microsoft Dataverse, you can create a ne
 
 1. Sign in to [Power Apps](https://make.powerapps.com/), and then select **AI Builder** > **Explore**.
 
-    > [!div class="mx-imgBorder"]
-    > ![Build a category classification model screen.](media/build-text-classification-model.png "Build a category classification model screen")
+1. Select **Text**.
 
-2. Select the **Category classification** AI Builder AI model type, name your model, and then select **Create**.
-3. Select **Select text**, select the table, and then select the column where your training text is stored.
-4. Select **Select tags**, select the column where the tags are stored, and then select the separator you used for your tags.
-5. Preview your selection to verify the data and the configuration you applied.
-6. Select the language you want to use for training, and then select **Next**.
+1. Select **Category classification - Classify texts into custom categories**. 
+
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of the Category classification tile.](media/build-text-classification-model.png "Category classification - Classify texts into custom categories")
+
+1. Read the **Classify texts into custom categories** page, and then select **Get started**.
+
+1. Choose **Select text**, select the table, select the column where your training text is stored, and then choose **Select column**.
+
+1. Select **Next**.
+
+1. Choose **Select tags**, select the column where the tags are stored, and then choose **Select column**.
+
+1. (If not pre-selected) Select the separator you used for your tags, and then select **Next**.
+
+1. Review your text and tags to verify the data and the configuration you applied, and then select **Next**.
+
+1. Select the language you want to use for training, and then select **Next**.
+
 
 That's it! Now you can train your AI model.
 

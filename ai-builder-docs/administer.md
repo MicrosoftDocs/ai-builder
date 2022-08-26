@@ -4,7 +4,7 @@ description: "Provides information for an administrator about AI custom models a
 author: v-aangie
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/31/2021
+ms.date: 06/16/2022
 ms.author: antode
 ms.reviewer: angieandrews
 ---
@@ -19,7 +19,7 @@ For more information, go to the [AI Builder governance whitepaper](https://www.m
 
 ## AI custom model and environment lifecycle
 
-This section applies to AI Builder custom models. It does not apply to prebuilt models.
+This section applies to AI Builder custom models. It doesn't apply to prebuilt models.
 
 ### Lifecycle states of a model
 
@@ -41,7 +41,7 @@ Managing new versions of a model often requires going through different environm
 
 In AI Builder, all the environments need to be provided with a Microsoft Dataverse database.
 
-Moving models between environments can be done through the solution concept. Solutions are vehicles to move components between Microsoft Power Platform environments. For more information, go to [Introduction to solutions](/powerapps/developer/data-platform/introduction-solutions/).
+Moving models between environments can be done through the solution concept. Solutions are vehicles to move components between Microsoft Power Platform environments. To learn more, go to [Introduction to solutions](/power-apps/developer/data-platform/introduction-solutions).
 
 For more information on how to distribute an AI model as a solution component, go to [Distribute your AI model](distribute-model.md).
 
@@ -68,7 +68,7 @@ Microsoft Dataverse has backup and restore capabilities to help protect your app
 
 AI Builder offers a subscription model allowing you to purchase add-ons.
 
-Only certain actions in the product consume credits. The following list is not all-inclusive and preview scenarios don't consume credits.
+Only certain actions in the product consume credits. The following list isn't all-inclusive and preview scenarios don't consume credits.
 
 |AI Builder Studio  |Power Apps  |Power Automate  |
 |---------|---------|---------|
@@ -103,7 +103,7 @@ Images and documents used for training purposes in object detection and document
 
 Some AI Builder features are released for general availability. Others remain in preview release status.
 
-Preview features appear on the build page with the **Preview** label. In the Power Platform admin center, administrators control whether users have access to preview features.
+Preview features appear on the Explore page with the **Preview** label. In the Power Platform admin center, administrators control whether users have access to preview features.
 
 By default, the **AI Builder preview models** feature is enabled for any eligible environment. Eligible environments must have Microsoft Dataverse and be in a [supported region](availability-region.md). If the environment isn't eligible, the **AI Builder preview models** feature doesn't appear in the Power Platform admin center.
 
@@ -154,6 +154,5 @@ For prediction and prebuilt models, moving and copying environments is fully sup
 [Roles and security in AI Builder](security.md)<br/>
 [Feature availability by region](availability-region.md)<br/>
 [AI Builder consumption report](administer-consumption-report.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

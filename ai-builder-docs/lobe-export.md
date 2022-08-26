@@ -1,25 +1,18 @@
 ---
-title: Export image classification model by Lobe to AI Builder (preview) - AI Builder | Microsoft Docs
+title: Export image classification model by Lobe to AI Builder - AI Builder | Microsoft Docs
 description: Learn how to export your image classification model from Lobe into AI Builder for use in Power Apps and Power Automate.
 author: mbeissinger
 ms.topic: conceptual
 ms.custom: intro-internal
-ms.date: 11/15/2021
+ms.date: 07/11/2022
 ms.author: angieandrews
 contributors:
     - JakeCohenMicrosoft
     - v-aangie
 ---
-# Export your image classification model from Lobe to AI Builder (preview)
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
+# Export your image classification model from Lobe to AI Builder
 
 Lobe is integrated with Microsoft Power Platform, which adds the ability to export your model to AI Builder for use in Power Apps and Power Automate.
-
-> [!IMPORTANT]
-> - This is a preview feature.
-> - [!INCLUDE[cc_preview_features_definition](includes/cc-preview-features-definition.md)]
-> - This feature is being gradually rolled out across regions and might not be available yet in your region.
 
 ## Export a model to Microsoft Power Platform
 
