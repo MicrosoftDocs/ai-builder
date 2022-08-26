@@ -93,7 +93,7 @@ You're done building the flow. Now you can test it.
 1. Select an identity document file or image where your file is stored in the **File Content** field, and then select **Import**.
 
     > [!div class="mx-imgBorder"]
-    > ![Trigger identity document file content flow.](media/file-content.png "Trigger identity document file content flow")
+    > ![Screenshot that shows how to import an identity document.](media/file-content.png "Import an identity document")
 
 1. Select **Run Flow**.
 
