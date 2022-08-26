@@ -1,7 +1,7 @@
 ---
 title: Use the ID reader prebuilt model in Power Automate - AI Builder | Microsoft Docs
 description: This topic describes how to use the ID reader prebuilt AI Builder model.
-author: phil.cmd
+author: phil-cmd
 ms.topic: conceptual
 ms.custom: 
 ms.date: 08/25/2022
@@ -24,7 +24,7 @@ You can use the identity document (ID) reader prebuilt model to extract informat
 
 1. Select **+New step**, search for **AI Builder** in the **Actions** tab, and then select **Extract information from identity documents**.
 
-1. Specify **File Content** as the Identity document file you want to process in your flow.
+1. Specify **File Content** as the identity document file you want to process in your flow.
 
     > [!div class="mx-imgBorder"]
     > ![Trigger identity document flow.](media/flow-identity-docs.png "Trigger identity document flow")
