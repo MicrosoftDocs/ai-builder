@@ -50,7 +50,7 @@ If you don't have a Power Automate flow to run your model yet, you can create a 
 1. Go to the **Feedback loop (preview)** section to edit the conditions that will allow you to add data in the feedback loop storage.
 
     > [!div class="mx-imgBorder"]
-    > ![Feedback loop section](media/feedback-loop-section.png "Feedback loop section")
+    > ![Screenshot of the feedback loop section.](media/feedback-loop-section.png "Feedback loop section")
 
 In this example, we updated the condition stating that confidence score of the **Total** field should be less than 0.7 (70%). If it is, the data goes in the feedback loop storage.
 
@@ -116,8 +116,8 @@ Your model is now improved with new documents coming from the feedback loop.
 
 - The feedback loop feature is limited to custom document processing models.
 
-- The feedback loop data can be added only from Power Automate flows.
+- Feedback loop data can be added only from Power Automate flows.
 
-- The feedback loop data can't transit between environments (this is planned to be available soon).
+- Feedback loop data can't transit between environments (this is planned to be available soon).
 
 - The owner of the model and owner of the flow containing the feedback loop logic should be the same person.
