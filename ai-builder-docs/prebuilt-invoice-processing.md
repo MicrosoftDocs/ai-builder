@@ -29,7 +29,7 @@ Only English language invoices from the United States are currently supported.
 To get the best results, provide one clear photo or scan per invoice.
 
 - The image format must be JPEG, PNG, or PDF.
-- The file size must not exceed 20MB.
+- The file size must not exceed 20 MB.
 - The image dimensions must be between 50 x 50 pixels and 10,000 x 10,000 pixels.
 - PDF dimensions must be at most 17 x 17 inches, which is the equivalent of the Legal or A3 paper sizes or smaller.
 - For PDF documents, only the first 2,000 pages are processed.
