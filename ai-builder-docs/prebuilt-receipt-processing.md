@@ -1,11 +1,11 @@
 ---
 title: Receipt processing prebuilt AI model - AI Builder | Microsoft Docs
 description: Describes the receipt processing prebuilt AI model from AI Builder.
-author: v-aangie
+author: JoeFernandezMS
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/31/2022
-ms.author: angieandrews
+ms.date: 08/30/2022
+ms.author: jofernan
 ms.reviewer: angieandrews
 ---
 
@@ -28,7 +28,7 @@ English sales receipts from Australia, Canada, United States, Great Britain, and
 To get the best results, provide one clear photo or scan per receipt.
 
 - The image format must be JPEG, PNG, or PDF.
-- The file size must be less than 50 MB.
+- The file size must not exceed 20 MB.
 - The image dimensions must be between 50 x 50 pixels and 10,000 x 10,000 pixels.
 - PDF dimensions must be at most 17 x 17 inches, which is the equivalent of the Legal or A3 paper sizes or smaller.
 - For PDF documents, only the first 2,000 pages are processed.

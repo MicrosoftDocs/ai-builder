@@ -1,11 +1,11 @@
 ---
 title: ID reader prebuilt model - AI Builder | Microsoft Docs
 description: Describes the ID reader prebuilt AI Builder model.
-author: v-aangie
+author: JoeFernandezMS
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/05/2022
-ms.author: angieandrews
+ms.date: 08/30/2022
+ms.author: jofernan
 ms.reviewer: angieandrews
 ---
 
@@ -42,7 +42,7 @@ The images you can process with the ID reader prebuilt model must have these cha
     - jpg
     - png
     - pdf
-- Size: 50 MB maximum (use small images for fastest processing time)
+- Size: 20 MB maximum (use small images for fastest processing time)
 - For PDF documents, only the first 2,000 pages are processed.
 
 ## Model output
