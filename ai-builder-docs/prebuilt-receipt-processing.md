@@ -1,11 +1,11 @@
 ---
 title: Receipt processing prebuilt AI model - AI Builder | Microsoft Docs
 description: Describes the receipt processing prebuilt AI model from AI Builder.
-author: v-aangie
+author: JoeFernandezMS
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/31/2022
-ms.author: angieandrews
+ms.date: 08/30/2022
+ms.author: jofernan
 ms.reviewer: angieandrews
 ---
 
