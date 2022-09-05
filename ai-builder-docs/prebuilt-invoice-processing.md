@@ -119,8 +119,16 @@ Key-value pairs are all the identified labels or keys and their associated respo
 
 To visualize all key-value pairs detected by the invoice processing model, you can add a **Create HTML table** action in your flow as shown in the screenshot and run the flow. 
 
+   > [!div class="mx-imgBorder"]
+   > ![View all key-value pairs on an invoice.](media/invoice-processing-kvp-definition.png "A flow with the Create HTML table action. From input has keyValuePairs. Columns is set to Custom. First row: header is Key, Value is Detected key. Second row: keader is Value and Value is Detected value ")
+
+   > [!div class="mx-imgBorder"]
+   > ![View all key-value pairs on an invoice.](media/invoice-processing-kvp-run.png "Displays the results of the Create HTML table action after running the flow")
+
 To extract a specific key for which you know its value, you can use the **Filter array** action as shown on the screenshot below. In the example of the screenshot, we want to extract the value for the key *Tel .:*
 
+   > [!div class="mx-imgBorder"]
+   > ![Retrieve a value given a key.](media/invoice-processing-kvp-extract.png "A flow with the Filter array action. From is set to keyValuePairs. Choose a value is set to Detected key is equal to and then the text of the key to extract")
 
 ## Limits
 
