@@ -39,7 +39,7 @@ In the following example, you'll add steps to your flow to enter the extracted i
 
 1. Select the cells and format them as a table, with the first row as the header.
 
-    :::image type="content" source="media/excel-table.png" alt-text=Screenshot of part of an Excel table with four columns named First name, Last name, Identity document number, and Country.":::
+    :::image type="content" source="media/excel-table.png" alt-text="Screenshot of part of an Excel table with four columns named First name, Last name, Identity document number, and Country.":::
 
 1. Save and close the workbook.
 
