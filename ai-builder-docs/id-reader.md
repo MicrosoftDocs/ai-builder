@@ -23,7 +23,7 @@ ms.reviewer: angieandrews
 
 1. Specify **File Content** as the identity document file you want to process in your flow.
 
-    :::image type="content" source="media/flow-identity-docs.png" alt-text="Screenshot of a manually triggered "extract information" step in a flow, with an identity document selected.":::
+    :::image type="content" source="media/flow-identity-docs.png" alt-text="Screenshot of a manually triggered extract information step in a flow, with an identity document selected.":::
 
 Congratulations! You've created a flow that uses the ID reader model. Select **Save**, and then select **Test** in the upper-right corner to try out your flow.
 
@@ -57,7 +57,7 @@ In the following example, you'll add steps to your flow to enter the extracted i
 
 1. In **Country**, select **Country/Region** in the dynamic content list.
 
-    :::image type="content" source="media/add-row-in-a-table.png" alt-text="Screenshot of a populated "Add a row into a table" connector in a manually triggered "extract information" step in a flow.":::
+    :::image type="content" source="media/add-row-in-a-table.png" alt-text="Screenshot of a populated Add a row into a table connector in a manually triggered extract information step in a flow.":::
 
 1. Select **Save**.
 
@@ -79,7 +79,7 @@ The flow may take a few seconds to execute while AI Builder extracts the data an
 
 The following example shows how to set up a flow to send the extracted information in an email. You can add the **Send an email notification** connector to the flow you created earlier or create an ID reader flow for this example.
 
-:::image type="content" source="media/flow-id-reader-email.png" alt-text="Screenshot of a send email connector in a manually triggered "extract information" step in a flow.":::
+:::image type="content" source="media/flow-id-reader-email.png" alt-text="Screenshot of a send email connector in a manually triggered extract information step in a flow.":::
 
 ### See also
 
