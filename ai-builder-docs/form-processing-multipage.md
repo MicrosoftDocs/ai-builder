@@ -71,6 +71,8 @@ The following steps will guide you on how to achieve this:
     - If you selected **Single page table**, tag only the first page where the table is present.
 
 1. After your document processing model is trained and published, you can use it in a cloud flow in Power Automate, and process documents one page at a time to extract the tables for all pages.
+ 
+If you get an error message during extraction, go to [AI Builder document processing isn't extracting tables that span across multiple pages](/troubleshoot/power-platform/ai-builder/aibuilder-form-processing-is-not-extracting-tables-that-span-across-multiple-pages) for a possible resolution.
 
 ### Use a cloud flow to process all pages in the document
 

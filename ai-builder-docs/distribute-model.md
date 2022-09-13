@@ -4,7 +4,7 @@ description: Describes how to distribute your AI Builder model in a packaged sol
 author: antrodfr
 ms.topic: conceptual
 ms.custom: 
-ms.date: 07/08/2022
+ms.date: 09/16/2022
 ms.author: antrod
 ms.reviewer: angieandrews
 ---
@@ -31,6 +31,8 @@ A model can only be added in a solution when it has a published version. When th
 
 > [!NOTE]
 > When adding an AI model in a solution, only the model executable is included. The training data isn't included with the model.
+
+If you get an error message during importing, go to [AI models fail to be imported in a new environment](/troubleshoot/power-platform/ai-builder/aimodels-fail-to-be-imported-in-a-new-environment) for a possible resolution.
 
 ## Automating the process
 

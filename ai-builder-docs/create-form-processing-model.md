@@ -4,7 +4,7 @@ description: Provides step-by-step instructions on how to create a document proc
 author: JoeFernandezMS
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/31/2022
+ms.date: 09/13/2022
 ms.author: jofernan
 ms.reviewer: angieandrews
 ---
@@ -180,6 +180,8 @@ If a field, checkbox, or table isn't present in one of the documents you've uplo
 ## Tag all documents across all collections
 
 All the documents that you've uploaded are presented for you to tag. If you've created multiple collections, tag all documents across all the collections.
+
+If you get an error message while you're creating a model, go to [Fields couldn't be loaded for this document](/troubleshoot/power-platform/ai-builder/fields-could-not-be-loaded-for-this-document-error-in-form-processing) for possible resolutions.
 
 ## Next step
 
