@@ -39,7 +39,7 @@ To add intelligence to your business:
 
 Get started with AI Builder using the following learning resources:
 
-- [AI Builder learning paths and modules](/learn/browse/?expanded=power-platform&products=ai-builder)
+- [AI Builder learning paths and modules](/training/browse/?expanded=power-platform&products=ai-builder)
 - [AI Builder community forums](https://go.microsoft.com/fwlink/?linkid=2092048)
 - [AI Builder hands-on labs](https://go.microsoft.com/fwlink/?linkid=2103171)
 - [Work with sample data](samples.md)
