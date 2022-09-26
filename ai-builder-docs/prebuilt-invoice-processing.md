@@ -4,7 +4,7 @@ description: Describes the invoice processing prebuilt AI model from AI Builder.
 author: JoeFernandezMS
 ms.topic: conceptual
 ms.custom: intro-internal
-ms.date: 05/31/2022
+ms.date: 09/27/2022
 ms.author: jofernan
 ms.reviewer: angieandrews
 ---
@@ -24,7 +24,7 @@ For information on how to use the invoice processing prebuilt model in Power Aut
 
 ## Supported languages and files
 
-The following languages are supported: Dutch (Netherlands), English (United States), French (France), German (Germany), Italian (Italy), Portuguese (Portugal) and Spanish (Spain).
+The following languages are supported: Dutch (Netherlands), English (United States), French (France), German (Germany), Italian (Italy), Portuguese (Portugal), and Spanish (Spain).
 
 To get the best results, provide one clear photo or scan per invoice.
 
@@ -55,7 +55,7 @@ If an invoice is detected, the invoice processing model will output the followin
 |     Confidence of   customer ID                     |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).       |
 |     Customer name                                   |     Customer name.                                                                                                   |
 |     Confidence of   customer name                   |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).       |
-|     Customer tax ID                                 |     The taxpayer number associated with the customer                                                                |
+|     Customer tax ID                                 |     The taxpayer number associated with the customer.                                                                |
 |     Confidence of customer tax ID                   |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).       |
 |     Due date   (text)                               |     Due date as written on the invoice.                                                                              |
 |     Due date   (date)                               |     Due date in standardized   date format. Example: 2019-05-31.                                           |
@@ -106,7 +106,7 @@ If an invoice is detected, the invoice processing model will output the followin
 |     Confidence of   vendor address recipient        |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).       |
 |     Vendor name                                     |     Vendor name.                                                                                                     |
 |     Confidence of   vendor name                     |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).       |
-|     Vendor tax ID                                   |     The taxpayer number associated with the vendor                                                                  |
+|     Vendor tax ID                                   |     The taxpayer number associated with the vendor.                                                                  |
 |     Confidence of   vendor tax ID                   |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).       |
 |     Detected text                                   |     Line of recognized text from running OCR on an invoice. Returned as a part of a list of text.                   |
 |     Detected key                                    |     Key-value pairs are all the identified labels or keys and their associated responses or values. You can use these to extract additional values that are not part of the predefined list of fields.                       |
@@ -123,7 +123,7 @@ To visualize all key-value pairs detected by the invoice processing model, you c
    > ![View all key-value pairs on an invoice.](media/invoice-processing-kvp-definition.png "A flow with the Create HTML table action. From input has keyValuePairs. Columns is set to Custom. First row: header is Key, Value is Detected key. Second row: keader is Value and Value is Detected value ")
 
    > [!div class="mx-imgBorder"]
-   > ![View all key-value pairs on an invoice.](media/invoice-processing-kvp-run.png "Displays the results of the Create HTML table action after running the flow")
+   > ![View all key-value pairs on an invoice - results.](media/invoice-processing-kvp-run.png "Displays the results of the Create HTML table action after running the flow")
 
 To extract a specific key for which you know its value, you can use the **Filter array** action as shown on the screenshot below. In the example of the screenshot, we want to extract the value for the key *Tel .:*
 
@@ -132,7 +132,7 @@ To extract a specific key for which you know its value, you can use the **Filter
 
 ## Limits
 
-The following applies to calls made per environment across document processing models including prebuilt models: receipt processing and invoice processing.
+The following limit applies to calls made per environment across document processing models including prebuilt models: receipt processing and invoice processing.
 
 |**Action**|**Limit**|**Renewal period**|
 |:-----|:-----|-----:|
@@ -143,6 +143,7 @@ The following applies to calls made per environment across document processing m
 The invoice processing prebuilt AI model is designed to extract common fields found in invoices. Because every business is unique, you might want to extract fields other than those included in this prebuilt model. It can also be the case that some standard fields aren't well extracted for a particular type of invoice you work with. To address this, there are two options:
 
 - **View raw OCR results**: Every time the invoice processing prebuilt AI model processes a file you provide, it also does an OCR operation to extract every word written on the file. You can access the raw OCR results on the detected text output provided by the model. A simple search on the content returned by detected text might be enough to get the data you need.
+
 - **Use document processing**: With AI Builder, you can also build your own custom AI model to extract specific fields and tables you need for the documents you work with. Just [create a document processing model](form-processing-model-overview.md) and train it to extract all the information from an invoice that doesn’t work well with the invoice extraction model.
 
 Once you train your custom document processing model, you can combine it with the invoice processing prebuilt model in a Power Automate flow.
