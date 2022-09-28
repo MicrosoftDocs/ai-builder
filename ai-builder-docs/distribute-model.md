@@ -54,8 +54,7 @@ To disable customizations, do the following:
 
 1. Turn off **Allow customizations**.
 
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of the managed properties.](media/ai-builder-managed-properties.png "Managed properties")
+    :::image type="content" source="media/ai-builder-managed-properties.png" alt-text="Screenshot of Managed properties.":::
 
 After you've disabled customization, your model will include a note that you've limited the possible actions to it.
 
