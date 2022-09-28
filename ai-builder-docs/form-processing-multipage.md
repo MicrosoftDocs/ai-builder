@@ -90,9 +90,6 @@ The sample template in this procedure iterates through all the pages in the docu
 
     `items('Apply_to_each_2')?['*{column name}*']?['value']`
 
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of the last Apply to each 2 action.](media/form-processing-multipage/apply-to-each-2.png "The last 'Apply to each 2' action")
-
     :::image type="content" source="media/form-processing-multipage/apply-to-each-2.png" alt-text="Screenshot of the last 'Apply to each 2' action.":::
 
 You can now save and test this flow to see it in action. You can then customize it to meet your needs.
