@@ -1,10 +1,10 @@
 ---
-title: Process multipage tables in document processing (experimental) - AI Builder | Microsoft Docs
-description: This topic provides information on how extract tables from an invoice, and tables that span fewer or greater than two pages in AI Builder.
+title: Process multipage tables in document processing in AI Builder (experimental)
+description: Learn how to extract tables from an invoice, and tables that span fewer or greater than two pages in AI Builder.
 author: JoeFernandezMS
 ms.topic: conceptual
 ms.custom: intro-internal
-ms.date: 07/11/2022
+ms.date: 09/28/2022
 ms.author: jofernan
 ms.reviewer: angieandrews
 ---
@@ -72,7 +72,7 @@ The following steps will guide you on how to achieve this:
 
 1. After your document processing model is trained and published, you can use it in a cloud flow in Power Automate, and process documents one page at a time to extract the tables for all pages.
  
-If you get an error message during extraction, go to [AI Builder document processing isn't extracting tables that span across multiple pages](/troubleshoot/power-platform/ai-builder/aibuilder-form-processing-is-not-extracting-tables-that-span-across-multiple-pages) for a possible resolution.
+If your table fails to be extracted properly, go to [AI Builder document processing isn't extracting tables that span across multiple pages](/troubleshoot/power-platform/ai-builder/aibuilder-form-processing-is-not-extracting-tables-that-span-across-multiple-pages) for a possible resolution.
 
 ### Use a cloud flow to process all pages in the document
 

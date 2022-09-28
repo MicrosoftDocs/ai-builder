@@ -1,10 +1,10 @@
 ---
-title: Train and publish your document processing model - AI Builder | Microsoft Docs
-description: Walks you through the steps to train, validate, and test your document processing model in AI Builder.
+title: Train and publish your document processing model in AI Builder
+description: Learn how to train, validate, and test your document processing model in AI Builder.
 author: JoeFernandezMS
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/13/2022
+ms.date: 09/28/2022
 ms.author: jofernan
 ms.reviewer: angieandrews
 ---
@@ -16,9 +16,8 @@ After you create your document processing model, you can train, test, and publis
 ## Train and validate your model
 
 1. Select **Next** to check your selected form fields. If everything looks good, select **Train** to train your model.
-1. When training is completed, select **Go to Details page** on the **Training complete** screen.
 
-    If you don't see your training document, go to [Training document isn't displayed on the document processing model details page](/troubleshoot/power-platform/ai-builder/the-training-document-is-not-displayed-on-the-form-processing-model-details-page) for a possible resolution.
+1. When training is completed, select **Go to Details page** on the **Training complete** screen.
 
 ## Quick-test your model
 
@@ -31,6 +30,8 @@ After you create your document processing model, you can train, test, and publis
 ## Troubleshooting tips
 
 If you have trouble training your model, try these suggestions:
+
+- If you don't see your training document, go to [Training document isn't displayed on the document processing model details page](/troubleshoot/power-platform/ai-builder/the-training-document-is-not-displayed-on-the-form-processing-model-details-page) for a possible resolution.
 
 - Make sure your data meets the guidelines listed in [document processing model requirements and limitations](form-processing-model-requirements.md).
 

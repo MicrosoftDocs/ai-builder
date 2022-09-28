@@ -1,10 +1,10 @@
 ---
-title: Distribute your model - AI Builder | Microsoft Docs
-description: Describes how to distribute your AI Builder model in a packaged solution.
+title: Distribute your AI model in AI Builder
+description: Learn how to distribute your AI model in a packaged solution in AI Builder.
 author: antrodfr
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/16/2022
+ms.date: 09/28/2022
 ms.author: antrod
 ms.reviewer: angieandrews
 ---
