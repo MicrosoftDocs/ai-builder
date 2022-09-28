@@ -19,7 +19,7 @@ Download sample documents for AI Builder document processing: [English version](
 
 ## Guided learning experience
 
-The [Get started with Document processing in AI Builder](/learn/modules/get-started-with-form-processing/2-create-first-model) Learn module walks you through each step of the model creation process using the sample data.
+The [Get started with Document processing in AI Builder](/training/modules/get-started-with-form-processing/2-create-first-model) Learn module walks you through each step of the model creation process using the sample data.
 
 ### See also
 
