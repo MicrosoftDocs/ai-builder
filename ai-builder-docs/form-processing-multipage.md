@@ -1,10 +1,10 @@
 ---
-title: Process multipage tables in document processing (experimental) - AI Builder | Microsoft Docs
-description: This topic provides information on how extract tables from an invoice, and tables that span fewer or greater than two pages in AI Builder.
+title: Process multipage tables in document processing in AI Builder (experimental)
+description: Learn how to extract tables from an invoice, and tables that span fewer or greater than two pages in AI Builder.
 author: JoeFernandezMS
 ms.topic: conceptual
 ms.custom: intro-internal
-ms.date: 07/11/2022
+ms.date: 09/28/2022
 ms.author: jofernan
 ms.reviewer: angieandrews
 ---
@@ -56,13 +56,11 @@ The following steps will guide you on how to achieve this:
 
     - If the first occurrence of the table has different surrounding elements than the tables on the following pages, select **Add** > **Multipage table (experimental)** to enable the experimental feature.
 
-        > [!div class="mx-imgBorder"]
-        > ![Screenshot of page 1 with different surrounding elements than pages 2 and 3.](media/form-processing-multipage/table-page-1.png "Page 1 with different surrounding elements")
+        :::image type="content" source="media/form-processing-multipage/table-page-1.png" alt-text="Screenshot of page 1 with different surrounding elements.":::
 
     - If the tables look the same and have similar-looking surrounding elements on all pages, select **Add** > **Single page table**.
 
-        > [!div class="mx-imgBorder"]
-        > ![Screenshot of all pages with similar surrounding elements.](media/form-processing-multipage/table-all-pages.png "All pages with similar surrounding elements")
+        :::image type="content" source="media/form-processing-multipage/table-all-pages.png" alt-text="Screenshot of all pages with similar surrounding elements.":::
 
 1. Follow all the steps to train the document processing model.
 
@@ -71,6 +69,8 @@ The following steps will guide you on how to achieve this:
     - If you selected **Single page table**, tag only the first page where the table is present.
 
 1. After your document processing model is trained and published, you can use it in a cloud flow in Power Automate, and process documents one page at a time to extract the tables for all pages.
+ 
+If your table fails to be extracted properly, go to [AI Builder document processing isn't extracting tables that span across multiple pages](/troubleshoot/power-platform/ai-builder/aibuilder-form-processing-is-not-extracting-tables-that-span-across-multiple-pages) for a possible resolution.
 
 ### Use a cloud flow to process all pages in the document
 
@@ -80,20 +80,17 @@ The sample template in this procedure iterates through all the pages in the docu
 
 1. On the **Extract information from forms** action in the **AI model** field, specify the document processing model you've trained.
 
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of the AI model you've trained on the Extract information from forms action.](media/form-processing-multipage/extract-info.png "AI model you've trained on the 'Extract information from forms' action")
+    :::image type="content" source="media/form-processing-multipage/extract-info.png" alt-text="Screenshot of the AI model you've trained on the 'Extract information from forms' action.":::
 
 1. On the first **Apply to each** action, add the input entries from your table. Select *{table name}* entries, replacing *{table name}* with the name of the table in your model.
 
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of output in the Apply to each action.](media/form-processing-multipage/apply-to-each.png "Output in the 'Apply to each' action")
+    :::image type="content" source="media/form-processing-multipage/apply-to-each.png" alt-text="Screenshot of the output in the 'Apply to each' action.":::
 
 1. The last **Apply to each 2** action iterates through the table that contains all the rows that have been extracted across all pages. Here you can add any action where you want to save the extracted data. To reference the columns you want to extract, use the following expression and replace *{column name}* with the name of the column in your table:
 
     `items('Apply_to_each_2')?['*{column name}*']?['value']`
 
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of the last Apply to each 2 action.](media/form-processing-multipage/apply-to-each-2.png "The last 'Apply to each 2' action")
+    :::image type="content" source="media/form-processing-multipage/apply-to-each-2.png" alt-text="Screenshot of the last 'Apply to each 2' action.":::
 
 You can now save and test this flow to see it in action. You can then customize it to meet your needs.
 
@@ -111,8 +108,7 @@ You can extract fields for specific pages. For example, you might want header fi
 
    For example, the condition for the first page would be **Current Iteration Index is equal to 0**.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a Do until loop.](media/form-processing-multipage/do-until.png "Example of the 'Do until' loop")
+   :::image type="content" source="media/form-processing-multipage/do-until.png" alt-text="Screenshot example of the 'Do until' loop.":::
 
 ## Limitation
 
