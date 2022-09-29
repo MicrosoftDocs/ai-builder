@@ -1,10 +1,10 @@
 ---
-title: Distribute your model - AI Builder | Microsoft Docs
-description: Describes how to distribute your AI Builder model in a packaged solution.
+title: Distribute your AI model in AI Builder
+description: Learn how to distribute your AI model in a packaged solution in AI Builder.
 author: antrodfr
 ms.topic: conceptual
 ms.custom: 
-ms.date: 07/08/2022
+ms.date: 09/28/2022
 ms.author: antrod
 ms.reviewer: angieandrews
 ---
@@ -32,6 +32,8 @@ A model can only be added in a solution when it has a published version. When th
 > [!NOTE]
 > When adding an AI model in a solution, only the model executable is included. The training data isn't included with the model.
 
+If you get an error message during importing, go to [AI models fail to be imported in a new environment](/troubleshoot/power-platform/ai-builder/aimodels-fail-to-be-imported-in-a-new-environment) for a possible resolution.
+
 ## Automating the process
 
 As AI models can be distributed across environments using solutions, you can automate your model lifecycle in the same way you would for other platform components. To learn more, go to
@@ -52,8 +54,7 @@ To disable customizations, do the following:
 
 1. Turn off **Allow customizations**.
 
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of the managed properties.](media/ai-builder-managed-properties.png "Managed properties")
+    :::image type="content" source="media/ai-builder-managed-properties.png" alt-text="Screenshot of Managed properties.":::
 
 After you've disabled customization, your model will include a note that you've limited the possible actions to it.
 
