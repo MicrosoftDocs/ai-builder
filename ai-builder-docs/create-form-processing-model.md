@@ -4,7 +4,7 @@ description: Learn how to create a document processing model in AI Builder.
 author: JoeFernandezMS
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/28/2022
+ms.date: 10/06/2022
 ms.author: jofernan
 ms.reviewer: angieandrews
 ---
@@ -35,7 +35,7 @@ On the **Choose document type** step, select the type of document you want to bu
 
 - **Structured and semi-structured documents**. Structured and semi-structured documents are those where for a given layout, the fields, tables, checkboxes, and other items can be found in similar places. Examples of structured and semi-structured documents are invoices, purchase orders, delivery orders, tax documents, and more.
 
-- **Unstructured and free-form documents** (preview). Unstructured documents are those where there's no set structure, usually free documents with a varying number of paragraphs. Examples of unstructured documents are contracts, statement of work, letters, and more. This document type is currently in preview. We welcome your feedback on this new preview functionality. You can post your feedback on the [AI Builder forum](https://powerusers.microsoft.com/t5/AI-Builder/bd-p/AIBuilder?msclkid=ff04e163d11711ecb0ef6b46226eb8e6).
+- **Unstructured and free-form documents**. Unstructured documents are those where there's no set structure, usually free documents with a varying number of paragraphs. Examples of unstructured documents are contracts, statement of work, letters, and more.
 
 
     :::image type="content" source="media/document-processing-choose-document-type.png" alt-text="Screenshot of the tiles under Select the type of documents your model will process.":::
