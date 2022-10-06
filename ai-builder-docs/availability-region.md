@@ -5,7 +5,7 @@ author: JoeFernandezMS
 contributor: xiao-wang-paris
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/14/2022
+ms.date: 10/06/2022
 ms.author: jofernan
 ms.reviewer: angieandrews
 ---
@@ -34,7 +34,7 @@ The following tables show which AI Builder features are available in each region
 |Entity extraction |GA|GA|GA|GA| GA|GA|GA|GA|-|GA|-|GA|GA|GA|GA|
 |Object detection|GA|GA|-|GA| -|-|GA|GA| -|-|-|-|-|GA|GA|
 |Document processing (for structured and semi-structured documents)  |GA|GA|GA|GA| GA|GA|GA|GA| GA|GA|GA| GA|GA|GA|GA|
-|Document processing (for unstructured documents) |Preview|Preview|Preview|Preview|Preview|-|Preview|Preview|-|Preview|-| -|-|Preview|Preview|
+|Document processing (for unstructured documents) |GA|GA|GA|GA|GA|-|GA|GA|-|GA|-| -|-|GA|GA|
 |Image classification |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA|GA |GA |GA |GA |GA |
 
 ### Prebuilt models
