@@ -4,7 +4,7 @@ description: Learn how to create a document processing model in AI Builder.
 author: JoeFernandezMS
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/28/2022
+ms.date: 10/06/2022
 ms.author: jofernan
 ms.reviewer: angieandrews
 ---
