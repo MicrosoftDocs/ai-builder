@@ -4,7 +4,7 @@ description: Describes the requirements and limitations of document processing m
 author: JoeFernandezMS
 ms.topic: conceptual
 ms.custom:
-ms.date: 05/31/2022
+ms.date: 10/07/2022
 ms.author: jofernan
 ms.reviewer: angieandrews
 ---
@@ -13,7 +13,7 @@ ms.reviewer: angieandrews
 
 ## Languages supported
 
-The following languages are supported when training a document processing model and selecting **Structured and semi-structured documents** as document type: Afrikaans, Albanian, Asturian, Basque, Bislama, Breton, Catalan, Cebuano, Chamorro, Chinese (Simplified), Chinese (Traditional), Cornish, Corsican, Crimean Tatar (Latin), Czech, Danish, Dutch, English, Estonian, Fijian, Filipino, Finnish, French, Friulian, Galician, German, Gilbertese, Greenlandic, Haitian Creole, Hani, Hmong Daw (Latin), Hungarian, Indonesian, Interlingua, Inuktitut (Latin), Irish, Italian, Japanese, Javanese, K’iche’, Kabuverdianu, Kachin (Latin), Kara-Kalpak, Kashubian, Khasi, Korean, Kurdish (latin), Luxembourgish, Malay (Latin), Manx, Neapolitan, Norwegian, Occitan, Polish, Portuguese, Romansh, Scots, Scottish Gaelic, Slovenian, Spanish, Swahili (Latin), Swedish, Tatar (Latin), Tetum, Turkish, Upper Sorbian, Uzbek (Latin), Volapük, Walser, Western Frisian, Yucatec Maya, Zhuang, Zulu.
+The following languages are supported when training a document processing model and selecting **Structured and semi-structured documents** as document type: Afrikaans, Albanian, Angika (Devanagari), Arabic, Asturian, Awadhi-Hindi (Devanagari), Azerbaijani (Latin), Bagheli, Basque, Belarusian (Cyrillic), Belarusian (Latin), Bhojpuri-Hindi (Devanagari), Bislama, Bodo (Devanagari), Bosnian (Latin), Brajbha, Breton, Bulgarian, Bundeli, Buryat (Cyrillic), Catalan, Cebuano, Chamling, Chamorro, Chhattisgarhi (Devanagari), Chinese Simplified, Chinese Traditional, Cornish, Corsican, Crimean Tatar (Latin), Croatian, Czech, Danish, Dari, Dhimal (Devanagari), Dogri (Devanagari), Dutch, English, Erzya (Cyrillic), Estonian, Faroese, Fijian, Filipino, Finnish, French, Friulian, Gagauz (Latin), Galician, German, Gilbertese, Gondi (Devanagari), Greenlandic, Gurung (Devanagari), Haitian Creole, Halbi (Devanagari), Hani, Haryanvi, Hawaiian, Hindi, Hmong Daw (Latin), Ho(Devanagiri), Hungarian, Icelandic, Inari Sami, Indonesian, Interlingua, Inuktitut (Latin), Irish, Italian, Japanese, Jaunsari (Devanagari), Javanese, Kabuverdianu, Kachin (Latin), Kangri (Devanagari), Karachay-Balkar, Kara-Kalpak (Cyrillic), Kara-Kalpak (Latin), Kashubian, Kazakh (Cyrillic), Kazakh (Latin), Khaling, Khasi, K'iche', Korean, Korku, Koryak, Kosraean, Kumyk (Cyrillic), Kurdish (Arabic), Kurdish (Latin), Kurukh (Devanagari), Kyrgyz (Cyrillic), Lakota, Latin, Lithuanian, Lower Sorbian, Lule Sami, Luxembourgish, Mahasu Pahari (Devanagari), Malay (Latin), Maltese, Malto (Devanagari), Manx, Maori, Marathi, Mongolian (Cyrillic), Montenegrin (Cyrillic), Montenegrin (Latin), Neapolitan, Nepali, Niuean, Nogay, Northern Sami (Latin), Norwegian, Occitan, Ossetic, Pashto, Persian, Polish, Portuguese, Punjabi (Arabic), Ripuarian, Romanian, Romansh, Russian, Sadri  (Devanagari), Samoan (Latin), Sanskrit (Devanagari), Santali(Devanagiri), Scots, Scottish Gaelic, Serbian (Latin), Sherpa (Devanagari), Sirmauri (Devanagari), Skolt Sami, Slovak, Slovenian, Somali (Arabic), Southern Sami, Spanish, Swahili (Latin), Swedish, Tajik (Cyrillic), Tatar (Latin), Tetum, Thangmi, Tongan, Turkish, Turkmen (Latin), Tuvan, Upper Sorbian, Urdu, Uyghur (Arabic), Uzbek (Arabic), Uzbek (Cyrillic), Uzbek (Latin), Volapük, Walser, Welsh, Western Frisian, Yucatec Maya, Zhuang, Zulu
 
 The following language is supported when training a document processing model and selecting **Unstructured and free-form documents** as document type: English
 
@@ -33,7 +33,7 @@ Document processing works on input documents that meet the following requirement
  > Extracting signatures from documents is currently not supported.<br />
  > Fields that split across page boundaries are currently not supported.
 
-## Optimization tips
+## Optimization tip
 
 Learn how to [improve the performance of document processing models](improve-form-processing-performance.md).
 
