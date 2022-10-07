@@ -4,7 +4,7 @@ description: Describes the requirements and limitations of document processing m
 author: JoeFernandezMS
 ms.topic: conceptual
 ms.custom:
-ms.date: 05/31/2022
+ms.date: 10/07/2022
 ms.author: jofernan
 ms.reviewer: angieandrews
 ---
@@ -33,7 +33,7 @@ Document processing works on input documents that meet the following requirement
  > Extracting signatures from documents is currently not supported.<br />
  > Fields that split across page boundaries are currently not supported.
 
-## Optimization tips
+## Optimization tip
 
 Learn how to [improve the performance of document processing models](improve-form-processing-performance.md).
 
