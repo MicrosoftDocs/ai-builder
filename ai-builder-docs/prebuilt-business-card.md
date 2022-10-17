@@ -16,7 +16,7 @@ You can use the business card prebuilt model to extract information from busines
  > [!NOTE]
 >
 > - The design and format of business cards varies widely. AI Builder is constantly improving the accuracy of the business card AI model, but it's possible there could be inaccurate or missing information in some cases. It's a good idea to verify that the output is as you expect.
-> - The prebuilt business card reader only supports English language extraction at this time. Check back to see what languages are supported going forward.
+> - The prebuilt business card reader only supports English & Japanese languages extraction at this time. Check back to see what languages are supported going forward.
 
 ## Licensing requirements
 
@@ -38,7 +38,7 @@ If you want to use this prebuilt model in Power Automate, you can find more info
 
 The images you can process with the business card model must have these characteristics:
 
-- Language: English
+- Languages: English & Japanese
 - Format:
   - JPG
   - PNG
