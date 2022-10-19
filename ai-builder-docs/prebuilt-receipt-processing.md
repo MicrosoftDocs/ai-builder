@@ -23,7 +23,7 @@ For information on how to use the receipt processing prebuilt model in Power Aut
 
 ## Supported languages, markets, and files
 
-English sales receipts from Australia, Canada, United States, Great Britain, and India are supported.
+Receipts from Australia (English), Canada (English), France (French), Germany (German), United States (English), Great Britain (English), India (English), Italy (Italian), Portugal (Portuguese) and Spain (Spanish) are supported.
 
 To get the best results, provide one clear photo or scan per receipt.
 
