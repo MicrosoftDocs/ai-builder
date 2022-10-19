@@ -43,6 +43,7 @@ The images you can process with the business card model must have these characte
   - JPG
   - PNG
   - BMP
+  - PDF
 - Size: 50 MB maximum
 
 ## Model output
