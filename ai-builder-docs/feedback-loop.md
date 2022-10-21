@@ -4,9 +4,13 @@ description: This topic provides an overview of how to continuously improve AI B
 author: antrod
 ms.topic: conceptual
 ms.custom:
-ms.date: 09/02/2022
+ms.date: 10/21/2022
 ms.author: antrod
 ms.reviewer: angieandrews
+contributors:
+  - antrod
+  - phil-cmd
+  - v-aangie
 ---
 
 # Continuously improve your model (preview)
@@ -118,6 +122,6 @@ Your model is now improved with new documents coming from the feedback loop.
 
 - Feedback loop data can be added only from Power Automate flows.
 
-- Feedback loop data can't transit between environments (this is planned to be available soon).
+- Feedback loop data can't transit between environments currently.
 
 - The owner of the model and owner of the flow containing the feedback loop logic should be the same person.
