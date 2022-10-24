@@ -1,46 +1,48 @@
 ---
-title: AI Builder in SharePoint overview - AI Builder | Microsoft Docs
-description: Provides an overview of how to use your AI models in SharePoint.
-author: v-aangie
+title: AI Builder in SharePoint Syntex overview - AI Builder
+description: Provides an overview of how to use your AI models in SharePoint Syntex.
+author: antrodfr
+contributors:
+  antrodfr
+  v-aangie
 ms.topic: overview
 ms.custom: 
-ms.date: 05/31/2022
-ms.author: angieandrews
+ms.date: 10/24/2022
+ms.author: antrod
 ms.reviewer: angieandrews
 ---
 
-# AI Builder in SharePoint (Syntex)
+# AI Builder in SharePoint Syntex overview
 
-## Overview
-With the Syntex offering, you are able to create AI Builder models from within SharePoint. [Learn more about Syntex](/microsoft-365/contentunderstanding/syntex-overview).
+With the Microsoft SharePoint Syntex service, you're able to create AI Builder models in SharePoint. To learn more about SharePoint Syntex, go to [Overview of  SharePoint Syntex](/microsoft-365/contentunderstanding/syntex-overview).
 
 From the **Classify and Extract** menu in your SharePoint library, you can apply an existing AI model to a library or create a new one. Two model types are powered by AI Builder:
-- **Freeform document processing** which creates AI Builder document processing models for unstructured or free form documents (contracts, statement of work, letters, etc.)
-- **Structured document processing** which creates AI Builder document processing models for structured documents (Invoices, purchase orders, delivery orders, tax documents, etc.)
+- **Freeform document processing:** Creates AI Builder document processing models for unstructured or freeform documents like contracts, statement of work, letters, and more.
+- **Structured document processing:** Creates AI Builder document processing models for structured documents like invoices, purchase orders, delivery orders, tax documents, and more.)
 
-Once an AI Builder model is applied to a library, every document added to the library will be processed by the applied model and results displayed as new library columns.
+Once an AI Builder model is applied to a library, every document added to the library will be processed by the applied model, and the results are displayed as new library columns.
 
-For information about requirements and step-by-step instructions to use this feature, see [Work with models](/microsoft-365/contentunderstanding/model-types-overview) in the SharePoint documentation.
+To learn about requirements and step-by-step instructions to use this service, go to [Work with models](/microsoft-365/contentunderstanding/model-types-overview).
 
 ## Training data storage
-If you are using AI Builder models, training data is stored in [Microsoft Dataverse](/power-apps/maker/data-platform/data-platform-intro). 
 
-Only training data is stored in Microsoft Dataverse, it is solely used to train the AI Builder model and is never used for any other purpose. Training data is never shared externally.
+If you are using AI Builder models, training data is stored in [Microsoft Dataverse](/power-apps/maker/data-platform/data-platform-intro).
 
-Microsoft Dataverse has strong security mechanisms that prevent unauthorized access to user data. Data stored to train your AI Builder model is only accessible by:
+Only training data is stored in Dataverse. It's used solely to train the AI Builder model and is never used for any other purpose. Training data is never shared externally.
+
+Dataverse has strong security mechanisms that prevent unauthorized access to user data. Data stored to train your AI Builder model is only accessible by:
+
 - The owner of the model
-- The Power Platform System Administrators and System Customizers of your organization
 
+- Individuals with the Power Platform **System Administrator** and **System Customizer** roles in your organization
 
-Learn more with [Roles and Security in AI Builder](/ai-builder/security)
+To learn more, gp to [Roles and security in AI Builder](/ai-builder/security)
 
 
 ### See also
 
-[AI Builder document processing models](form-processing-model-overview.md)
-
-[Feature availability by region](availability-region.md)
-
-[Roles and Security in AI Builder](/ai-builder/security)
+[AI Builder document processing models](form-processing-model-overview.md)<br/>
+[Feature availability by region](availability-region.md)<br/>
+[Roles and security in AI Builder](security.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
