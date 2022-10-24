@@ -10,7 +10,7 @@ ms.reviewer: angieandrews
 
 # Overview of AI Builder
 
-AI Builder is a Microsoft Power Platform capability that provides AI models that are designed to optimize your business processes. AI Builder enables your business to use intelligence to automate processes and glean insights from your data in [Power Apps](use-in-powerapps-overview.md) and [Power Automate](use-in-flow-overview.md). With AI Builder, you don't need coding or data science skills to access the power of AI. You can build *custom* models tailored to your needs, or choose a *prebuilt* model that is ready to use for many common business scenarios. 
+AI Builder is a Microsoft Power Platform capability that provides AI models that are designed to optimize your business processes. AI Builder enables your business to use intelligence to automate processes and glean insights from your data in [Power Apps](use-in-powerapps-overview.md) and [Power Automate](use-in-flow-overview.md). With AI Builder, you don't need coding or data science skills to access the power of AI. You can build *custom* models tailored to your needs, or choose a *prebuilt* model that is ready to use for many common business scenarios.
 
 - Explore AI Builder in [Power Automate](use-in-flow-overview.md).
 
@@ -18,7 +18,6 @@ AI Builder is a Microsoft Power Platform capability that provides AI models that
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the AI Builder home page.](media/ai-builder-home.png "AI Builder home page")
-
 
 ## Add intelligence to your business
 
@@ -40,7 +39,7 @@ To add intelligence to your business:
 
 Get started with AI Builder using the following learning resources:
 
-- [AI Builder learning paths and modules](/learn/browse/?expanded=power-platform&products=ai-builder)
+- [AI Builder learning paths and modules](/training/browse/?expanded=power-platform&products=ai-builder)
 - [AI Builder community forums](https://go.microsoft.com/fwlink/?linkid=2092048)
 - [AI Builder hands-on labs](https://go.microsoft.com/fwlink/?linkid=2103171)
 - [Work with sample data](samples.md)
@@ -75,6 +74,5 @@ For information about license capacity, pricing, and restrictions:
 ## Next step
 
 [Learn about AI model types](model-types.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

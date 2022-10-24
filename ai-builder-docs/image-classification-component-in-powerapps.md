@@ -13,7 +13,7 @@ contributors:
 
 # Use an image classification model by Lobe in Power Apps
 
-To use your image classification model with Power Fx, you first need to add it as a data source in your app. To learn how to do this, go to [Enable the Power Fx feature](powerfx-in-powerapps.md#enable-the-power-fx-feature).
+In this article, you'll learn about using an image classification model by Lobe in Power Apps.
 
 ## Create a canvas app
 

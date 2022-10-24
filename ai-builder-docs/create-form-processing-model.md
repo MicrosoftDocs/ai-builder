@@ -1,10 +1,10 @@
 ---
-title: Create a document processing custom model - AI Builder | Microsoft Docs
-description: Provides step-by-step instructions on how to create a document processing model in AI Builder.
+title: Create a document processing custom model in AI Builder
+description: Learn how to create a document processing model in AI Builder.
 author: JoeFernandezMS
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/31/2022
+ms.date: 10/06/2022
 ms.author: jofernan
 ms.reviewer: angieandrews
 ---
@@ -35,10 +35,10 @@ On the **Choose document type** step, select the type of document you want to bu
 
 - **Structured and semi-structured documents**. Structured and semi-structured documents are those where for a given layout, the fields, tables, checkboxes, and other items can be found in similar places. Examples of structured and semi-structured documents are invoices, purchase orders, delivery orders, tax documents, and more.
 
-- **Unstructured and free-form documents** (preview). Unstructured documents are those where there's no set structure, usually free documents with a varying number of paragraphs. Examples of unstructured documents are contracts, statement of work, letters, and more. This document type is currently in preview. We welcome your feedback on this new preview functionality. You can post your feedback on the [AI Builder forum](https://powerusers.microsoft.com/t5/AI-Builder/bd-p/AIBuilder?msclkid=ff04e163d11711ecb0ef6b46226eb8e6).
+- **Unstructured and free-form documents**. Unstructured documents are those where there's no set structure, usually free documents with a varying number of paragraphs. Examples of unstructured documents are contracts, statement of work, letters, and more.
 
-   > [!div class="mx-imgBorder"]
-   > ![Choose document type](media/document-processing-choose-document-type.png "Select the type of document")
+
+    :::image type="content" source="media/document-processing-choose-document-type.png" alt-text="Screenshot of the tiles under Select the type of documents your model will process.":::
 
 ## Define information to extract
 
@@ -46,33 +46,28 @@ On the **Choose information to extract** screen, define the fields, tables, and 
 
 - For each field, provide a name you would like the field to have in the model.
 
-   > [!div class="mx-imgBorder"]
-   > !['Define fields' animation.](media/form-processing-multiple-layout-define-fields-only.gif "Define fields to extract")
+    :::image type="content" source="media/form-processing-multiple-layout-define-fields-only.gif" alt-text="Animation of defining fields to extract.":::
 
 - For each table, provide the name you would like the table to have. Also, define the different columns that the model should extract.
 
-   > [!div class="mx-imgBorder"]
-   > !['Define tables' animation.](media/form-processing-multiple-layout-define-tables-only.gif "Define tables to extract")
+    :::image type="content" source="media/form-processing-multiple-layout-define-tables-only.gif" alt-text="Animation of defining tables to extract.":::
 
    > [!NOTE]
    > Table extraction isn't currently available when choosing ‘Unstructured and free-form documents’ as the document type.
 
 - For each checkbox, provide a name you would like the checkbox to have in the model. Define separate checkboxes for each item that can be checked in a document.
 
-   > [!div class="mx-imgBorder"]
-   > !['Define checkboxes' animation.](media/form-processing-define-checkboxes-only.gif "Define checkboxes to extract")
+    :::image type="content" source="media/form-processing-define-checkboxes-only.gif" alt-text="Animation of defining checkboxes to extract.":::
 
 ## Group documents by collections
 
 A collection is a group of documents that share the same layout. Create as many collections as document layouts that you want your model to process. For example, if you're building an AI model to process invoices from two different vendors, each having their own invoice template, create two collections.
 
-   > [!div class="mx-imgBorder"]
-   > !['Add collections of documents' animation.](media/form-processing-multiple-layout-create-collections.gif "Create collections")
+:::image type="content" source="media/form-processing-multiple-layout-create-collections.gif" alt-text="Animation of creating collections.":::
 
 For each collection that you create, you need to upload at least five sample documents per collection. Files with formats JPG, PNG, and PDF files are currently accepted.
 
-   > [!div class="mx-imgBorder"]
-   > !['Select documents to upload' animation.](media/form-processing-multiple-layout-add-documents.gif "Upload documents")
+:::image type="content" source="media/form-processing-multiple-layout-add-documents.gif" alt-text="Animation of uploading documents.":::
 
  > [!NOTE]
  > You can create up to 200 collections per model.
@@ -87,22 +82,19 @@ To start tagging, select one of the collections on the right panel.
 
 To tag a field, draw a rectangle around the field you're interested in and select the field name that it corresponds to.
 
-   > [!div class="mx-imgBorder"]
-   > !['Draw a rectangle to select a field' animation.](media/form-processing-multiple-layout-tag-fields.gif "Tag field in a document")
+:::image type="content" source="media/form-processing-multiple-layout-tag-fields.gif" alt-text="Animation of tagging fields in a document.":::
 
 At any time, you can resize to adjust your selection.
 
-If a field ends on one line and begins on another line, you can tag it using the **‘Continue tagging’** option. 
+If a field ends on one line and begins on another line, you can tag it using the **‘Continue tagging’** option.
 
-   > [!div class="mx-imgBorder"]
-   > ![Continue tagging](media/document-processing-continue-tagging-doc.gif "Tag multiple words and line breaks")
+:::image type="content" source="media/document-processing-continue-tagging-doc.gif" alt-text="Animation of tagging multiple words and line breaks.":::
 
 You can also use the **Control** key in Windows or **Command ⌘** in macOS to tag multiple words at once. You can also use the **Shift** key to select the first and last word to tag all words between the two.
 
 When you hover over words in your documents, light blue boxes may appear. These indicate that you can draw a rectangle around those words to select a field.
 
-   > [!div class="mx-imgBorder"]
-   > ![Select fields.](media/form-select-fields.png "Select fields close up")
+:::image type="content" source="media/form-select-fields.png" alt-text="Screenshot of selecting fields close up.":::
 
 ### Tag tables
 
@@ -120,13 +112,11 @@ When you hover over words in your documents, light blue boxes may appear. These 
 
 The following animation illustrates the process:
 
-   > [!div class="mx-imgBorder"]
-   > !['Tag table' animation.](media/form-processing-grid-tagging.gif "Tag a table in a document")
+:::image type="content" source="media/form-processing-grid-tagging.gif" alt-text="Animation of tagging a table in a document.":::
 
 An alternative way to define the rows and columns for a table is by selecting **Delimit rows and columns** at the top of the screen.
 
-   > [!div class="mx-imgBorder"]
-   > ![Screenshot of Delimit rows and columns option.](media/form-processing-delimit.png "Delimit rows and columns")
+:::image type="content" source="media/form-processing-delimit.png" alt-text="Screenshot of delimit rows and columns.":::
 
 ### Use the advanced tagging mode
 
@@ -137,8 +127,7 @@ Advanced tagging mode allows you to tag tables at the cell level. Use this mode 
 
 Given the table from the following example, to extract the unit price, we'll define it as a separate column on the [Choose information to extract step](create-form-processing-model.md#define-information-to-extract). We define **Description**, **Unit price**, **Quantity**, and **Amount** each as a column of the table and tag them accordingly using advanced tagging mode. See the animation below.
 
-   > [!div class="mx-imgBorder"]
-   > ![Screenshot of delimit rows and columns screen.](media/form-processing-advanced-tagging-mode.gif "Delimit rows and columns")
+:::image type="content" source="media/form-processing-advanced-tagging-mode.gif" alt-text="Animation of delimit rows and columns.":::
 
 You can start tagging in the default mode to quickly capture all rows and columns. Then switch to advanced mode to adjust each cell and tag nested items.
 
@@ -146,8 +135,7 @@ You can start tagging in the default mode to quickly capture all rows and column
 
 You can tag items that are nested within a row by defining these as columns. Given the table from the example below, to extract the unit price, define it as a separate column on the [Choose information to extract step](create-form-processing-model.md#define-information-to-extract) earlier in this topic. Define **Description**, **Unit price**, **Quantity**, and **Amount** each as a column of the table and then tag them accordingly.
 
-   > [!div class="mx-imgBorder"]
-   > !['Tag tables' animation.](media/form-processing-tag-table-nested-items.png "Tag nested items in tables")
+:::image type="content" source="media/form-processing-tag-table-nested-items.png" alt-text="Screenshot of tagging nested items in tables.":::
 
 ### Multipage tables
 
@@ -159,8 +147,7 @@ If you don't want to try the experimental feature, you can extract tables from d
 
 To tag a checkbox, draw a rectangle around the checkbox you're interested in extracting and select the checkbox name that it corresponds to.
 
-   > [!div class="mx-imgBorder"]
-   > !['Tag checkbox' animation.](media/form-processing-checkbox-tag.gif "Tag a checkbox")
+:::image type="content" source="media/form-processing-checkbox-tag.gif" alt-text="Animation of tagging a checkbox.":::
 
 If the quality of the document is low, AI Builder might not be able to detect the checkbox. If you're unable to tag a checkbox, do the following:
 
@@ -174,12 +161,13 @@ AI Builder supports detection and extraction of selection marks such as checkbox
 
 If a field, checkbox, or table isn't present in one of the documents you've uploaded for training, select **Not available in document** on the panel to the right, next to a field, checkbox, or table.
 
-   > [!div class="mx-imgBorder"]
-   > ![Select Analyze.](media/form-processing-multiple-layout-not-available-in-document.gif "Field or table not in document")
+:::image type="content" source="media/form-processing-multiple-layout-not-available-in-document.gif" alt-text="Animation of a field or table not in document.":::
 
 ## Tag all documents across all collections
 
 All the documents that you've uploaded are presented for you to tag. If you've created multiple collections, tag all documents across all the collections.
+
+If fields can’t be tagged in your document, go to [Fields couldn't be loaded for this document](/troubleshoot/power-platform/ai-builder/fields-could-not-be-loaded-for-this-document-error-in-form-processing) for possible resolutions.
 
 ## Next step
 

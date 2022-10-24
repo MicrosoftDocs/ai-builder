@@ -38,6 +38,8 @@
     href: share-model.md
   - name: Distribute your model
     href: distribute-model.md
+  - name: Continuously improve your model (preview)
+    href: feedback-loop.md
 - name: Prebuilt AI models
   items:
   - name: Overview
@@ -246,7 +248,7 @@
     href: prebuilt-receipt-processor-component-in-powerapps.md
   - name: Use the text recognizer component in Power Apps
     href: prebuilt-text-recognizer-component-in-powerapps.md
-  - name: Use Power Fx in AI Builder models in Power Apps (preview)
+  - name: Use AI Builder models in Power Apps
     href: powerfx-in-powerapps.md  
 - name: Use AI Builder in SharePoint
   href: sharepoint-overview.md
