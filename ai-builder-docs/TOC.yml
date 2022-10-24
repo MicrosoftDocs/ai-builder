@@ -250,7 +250,7 @@
     href: prebuilt-text-recognizer-component-in-powerapps.md
   - name: Use AI Builder models in Power Apps
     href: powerfx-in-powerapps.md  
-- name: Use AI Builder in SharePoint Syntex
+- name: Use AI Builder in SharePoint
   href: sharepoint-overview.md
 - name: Use AI Builder in Teams
   href: teams-templates.md
