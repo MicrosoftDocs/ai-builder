@@ -1,7 +1,11 @@
 ---
-title: Receipt processing prebuilt AI model - AI Builder | Microsoft Docs
-description: Describes the receipt processing prebuilt AI model from AI Builder.
+title: Receipt processing prebuilt AI model - AI Builder
+description: Learn about the receipt processing prebuilt AI model from AI Builder.
 author: JoeFernandezMS
+contributors:
+  - JoeFernandezMS
+  - phil-cmd
+  - v-aangie
 ms.topic: conceptual
 ms.custom: 
 ms.date: 08/30/2022
@@ -23,7 +27,7 @@ For information on how to use the receipt processing prebuilt model in Power Aut
 
 ## Supported languages, markets, and files
 
-Receipts from Australia (English), Canada (English), France (French), Germany (German), United States (English), Great Britain (English), India (English), Italy (Italian), Portugal (Portuguese) and Spain (Spanish) are supported.
+Receipts from Australia (English), Canada (English), France (French), Germany (German), United States (English), Great Britain (English), India (English), Italy (Italian), Portugal (Portuguese), and Spain (Spanish) are supported.
 
 To get the best results, provide one clear photo or scan per receipt.
 
