@@ -44,20 +44,13 @@ On the **Choose document type** step, select the type of document you want to bu
 
 On the **Choose information to extract** screen, define the fields, tables, and checkboxes you want to teach your model to extract. Select the **+Add** button to start defining these.
 
-- For each field, provide a name you would like the field to have in the model.
+    :::image type="content" source="media/document-processing-choose-information-to-extract-step.png" alt-text="Screenshot of the step in the document processing wizard where to define the fields, tables, or checkboxes we want the AI model to extract.":::
 
-    :::image type="content" source="media/form-processing-multiple-layout-define-fields-only.gif" alt-text="Animation of defining fields to extract.":::
+- For each **field**, provide a name you would like the field to have in the model.
 
-- For each table, provide the name you would like the table to have. Also, define the different columns that the model should extract.
+- For each **table**, provide the name you would like the table to have. Also, define the different columns that the model should extract.
 
-    :::image type="content" source="media/form-processing-multiple-layout-define-tables-only.gif" alt-text="Animation of defining tables to extract.":::
-
-   > [!NOTE]
-   > Table extraction isn't currently available when choosing ‘Unstructured and free-form documents’ as the document type.
-
-- For each checkbox, provide a name you would like the checkbox to have in the model. Define separate checkboxes for each item that can be checked in a document.
-
-    :::image type="content" source="media/form-processing-define-checkboxes-only.gif" alt-text="Animation of defining checkboxes to extract.":::
+- For each **checkbox**, provide a name you would like the checkbox to have in the model. Define separate checkboxes for each item that can be checked in a document.
 
 ## Group documents by collections
 
@@ -139,9 +132,14 @@ You can tag items that are nested within a row by defining these as columns. Giv
 
 ### Multipage tables
 
-AI Builder supports extracting tables that span across multiple pages as a single table with an experimental feature. For details, go to [Process multipage tables in form processor (experimental)](form-processing-multipage.md).
+If a table spans across more than one page, make sure you tag it across all the pages. Once you have finished tagging the table in one page, select **This table continues on next page** and continue tagging the table in the following page. By doing this, you will teach the model that the table can span across multiple pages.
 
-If you don't want to try the experimental feature, you can extract tables from different pages by defining each page as a separate table in the [Choose information to extract step](create-form-processing-model.md#define-information-to-extract). For example, if you have a document with a table that spans over two pages, you'll need to define them as two separate tables.
+:::image type="content" source="media/document-processing-tag-multipage-table-1.png" alt-text="Screenshot showing to select the option ‘This table continues on next page’ to continue tagging a table that spans across multiple pages.":::
+
+Once you have tagged all the pages where the table is present. Select **Done** to mark the table as fully tagged. 
+
+:::image type="content" source="media/document-processing-tag-multipage-table-2.png" alt-text="Screenshot showing to select the option ‘Done’ once the table has been tagged in all pages.":::
+
 
 ### Tag checkboxes
 
