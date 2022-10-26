@@ -44,7 +44,7 @@ On the **Choose document type** step, select the type of document you want to bu
 
 On the **Choose information to extract** screen, define the fields, tables, and checkboxes you want to teach your model to extract. Select the **+Add** button to start defining these.
 
-    :::image type="content" source="media/document-processing-choose-information-to-extract-step.png" alt-text="Screenshot of the step in the document processing wizard where to define the fields, tables, or checkboxes we want the AI model to extract.":::
+:::image type="content" source="media/document-processing-choose-information-to-extract-step.png" alt-text="Screenshot of the step in the document processing wizard where to define the fields, tables, or checkboxes we want the AI model to extract.":::
 
 - For each **field**, provide a name you would like the field to have in the model.
 
@@ -140,6 +140,8 @@ Once you have tagged all the pages where the table is present. Select **Done** t
 
 :::image type="content" source="media/document-processing-tag-multipage-table-2.png" alt-text="Screenshot showing to select the option ‘Done’ once the table has been tagged in all pages.":::
 
+> [!TIP]
+> As a best practice, ensure that you upload documents for training with expected variations. For example, include samples where the entire table is on a single page and where tables span two or more pages.
 
 ### Tag checkboxes
 
