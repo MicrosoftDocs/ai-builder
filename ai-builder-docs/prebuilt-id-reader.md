@@ -1,10 +1,14 @@
 ---
-title: ID reader prebuilt model - AI Builder | Microsoft Docs
-description: Describes the ID reader prebuilt AI Builder model.
+title: ID reader prebuilt model - AI Builder
+description: Learn about the ID reader prebuilt AI Builder model.
 author: JoeFernandezMS
+contributors:
+  - JoeFernandezMS
+  - phil-cmd
+  - v-aangie
 ms.topic: conceptual
 ms.custom: 
-ms.date: 08/30/2022
+ms.date: 10/26/2022
 ms.author: jofernan
 ms.reviewer: angieandrews
 ---
