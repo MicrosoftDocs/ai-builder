@@ -1,5 +1,5 @@
 ---
-title: Business card prebuilt AI model- AI Builder
+title: Business card prebuilt AI model - AI Builder
 description: Learn about the business card prebuilt AI Builder model.
 author: alanabrito
 contributors:
