@@ -1,10 +1,14 @@
 ---
-title: Business card prebuilt AI model- AI Builder | Microsoft Docs
-description: Describes the business card prebuilt AI Builder model.
+title: Business card prebuilt AI model- AI Builder
+description: Learn about the business card prebuilt AI Builder model.
 author: alanabrito
+contributors:
+  - alanabrito
+  - phil-cmd
+  - v-angie
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/29/2021
+ms.date: 10/27/2022
 ms.author: alanab
 ms.reviewer: angieandrews
 ---
@@ -13,10 +17,10 @@ ms.reviewer: angieandrews
 
 You can use the business card prebuilt model to extract information from business card images. If it detects a business card in the image, the AI model extracts information such as the person's name, job title, address, email, company, and phone numbers.
 
- > [!NOTE]
+> [!NOTE]
 >
 > - The design and format of business cards varies widely. AI Builder is constantly improving the accuracy of the business card AI model, but it's possible there could be inaccurate or missing information in some cases. It's a good idea to verify that the output is as you expect.
-> - The prebuilt business card reader only supports English & Japanese languages extraction at this time. Check back to see what languages are supported going forward.
+> - The prebuilt business card reader only supports English and Japanese languages extraction at this time. Check back to see what languages are supported going forward.
 
 ## Licensing requirements
 
@@ -38,7 +42,7 @@ If you want to use this prebuilt model in Power Automate, you can find more info
 
 The images you can process with the business card model must have these characteristics:
 
-- Languages: English & Japanese
+- Languages: English and Japanese
 - Format:
   - JPG
   - PNG
