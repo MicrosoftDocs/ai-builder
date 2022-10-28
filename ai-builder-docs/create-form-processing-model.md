@@ -2,9 +2,13 @@
 title: Create a document processing custom model in AI Builder
 description: Learn how to create a document processing model in AI Builder.
 author: JoeFernandezMS
+contributors:
+  - JoeFernandezMS
+  - phil-cmd
+  - v-aangie
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/06/2022
+ms.date: 10/28/2022
 ms.author: jofernan
 ms.reviewer: angieandrews
 ---
@@ -37,7 +41,6 @@ On the **Choose document type** step, select the type of document you want to bu
 
 - **Unstructured and free-form documents**. Unstructured documents are those where there's no set structure, usually free documents with a varying number of paragraphs. Examples of unstructured documents are contracts, statement of work, letters, and more.
 
-
     :::image type="content" source="media/document-processing-choose-document-type.png" alt-text="Screenshot of the tiles under Select the type of documents your model will process.":::
 
 ## Define information to extract
@@ -46,11 +49,11 @@ On the **Choose information to extract** screen, define the fields, tables, and 
 
 :::image type="content" source="media/document-processing-choose-information-to-extract-step.png" alt-text="Screenshot of the step in the document processing wizard where to define the fields, tables, or checkboxes we want the AI model to extract.":::
 
-- For each **field**, provide a name you would like the field to have in the model.
+- For each **Field**, provide a name you'd like the field to have in the model.
 
-- For each **table**, provide the name you would like the table to have. Also, define the different columns that the model should extract.
+- For each **Checkbox**, provide a name you'd like the checkbox to have in the model. Define separate checkboxes for each item that can be checked in a document.
 
-- For each **checkbox**, provide a name you would like the checkbox to have in the model. Define separate checkboxes for each item that can be checked in a document.
+- For each **Table**, provide the name you'd like the table to have. Also, define the different columns that the model should extract.
 
 ## Group documents by collections
 
@@ -132,7 +135,7 @@ You can tag items that are nested within a row by defining these as columns. Giv
 
 ### Multipage tables
 
-If a table spans across more than one page, make sure you tag it across all the pages. Once you have finished tagging the table in one page, select **This table continues on next page** and continue tagging the table in the following page. By doing this, you will teach the model that the table can span across multiple pages.
+If a table spans across more than one page, make sure you tag it across all the pages. Once you've finished tagging the table on one page, select **This table continues on next page** and continue tagging the table on the following page. By doing this, you'll teach the model that the table can span across multiple pages.
 
 :::image type="content" source="media/document-processing-tag-multipage-table-1.png" alt-text="Screenshot showing to select the option ‘This table continues on next page’ to continue tagging a table that spans across multiple pages.":::
 
