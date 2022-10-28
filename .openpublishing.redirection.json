@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ai-builder-docs/form-processing-multipage.md",
+      "redirect_url": "create-form-processing-model",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ai-builder-docs/formula-bar.md",
       "redirect_url": "powerfx-in-powerapps",
       "redirect_document_id": "false"
