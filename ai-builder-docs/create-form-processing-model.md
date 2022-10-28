@@ -139,7 +139,9 @@ If a table spans across more than one page, make sure you tag it across all the 
 
 :::image type="content" source="media/document-processing-tag-multipage-table-1.png" alt-text="Screenshot showing to select the option ‘This table continues on next page’ to continue tagging a table that spans across multiple pages.":::
 
-Once you have tagged all the pages where the table is present. Select **Done** to mark the table as fully tagged. 
+Once you have tagged all the pages where the table is present. Select **Done** to mark the table as fully tagged.
+
+You can tag complex tables that have merged cells, nested items, borders or no borders, or even unexpected elements like a coffee stain, as shown in the following example.
 
 :::image type="content" source="media/document-processing-tag-multipage-table-2.png" alt-text="Screenshot showing to select the option ‘Done’ once the table has been tagged in all pages.":::
 
