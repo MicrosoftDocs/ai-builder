@@ -11,6 +11,24 @@ ms.reviewer: angieandrews
 
 # AI Builder licensing
 
+> [!NOTE]
+>You have received this notification “You’ve consumed all of your AI Builder Credits. Contact your administrator to get more capacity.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the AI Builder credits banner notification.](media/consumed-all-credits-image-capacity-notification.png "AI Builder credits banner notification")
+
+Ensure that your environment is properly credited by downloading your [AI Builder Consumption report](https://learn.microsoft.com/ai-builder/administer-consumption-report/)
+If your environment has no more capacity, you need to purchase capacity add-ons.
+You can purchase the AI Builder Credit add-on by going to the Microsoft 365 admin center. 
+Follow these steps:
+1. Go to the Microsoft 365 admin center by going to https://admin.microsoft.com.
+You need to be the billing administrator of your tenant to access this page.
+2. In the left pane, select Billing.
+3. Select Purchase services.
+
+##
+
+
 AI Builder is licensed as an add-on to your Power Apps, Power Automate, or Dynamics 365 license. This means you can start your AI Builder trial after you have a Power Apps, Power Automate, or Dynamics 365 license that allows you to create a Microsoft Power Platform environment.
 
 The AI Builder capacity add-on doesn't exist in the Microsoft 365 business premium license.
