@@ -20,7 +20,7 @@ The AI Builder capacity add-on doesn't exist in the Microsoft 365 business premi
 
 > [!NOTE]
 >
-> If you've received this notification, **You’ve consumed all of your AI Builder credits**, contact your administrator to get more capacity.
+> You might receive this notification when you sign in: **You’ve consumed all of your AI Builder credits. Contact your administrator to get more capacity**. If you see this message, read this article to learn how to increase capacity and get details and FAQs on licensing.
 >
 > :::image type="content" source="media/consumed-all-credits-image-capacity-notification-a.png" alt-text="Screenshot of the AI Builder credits banner notification.":::
 
