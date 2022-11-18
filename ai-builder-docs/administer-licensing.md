@@ -132,6 +132,10 @@ If you extend a trial after expiration, capacity is reset. You can again run and
 
 ### AI Builder paid licenses FAQ
 
+#### How many AI Builder credits are consumed for each operation?
+
+Each AI Builder capability consumes service credits at different rates. You can check the consumption rates on the [Microsoft Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=2085130) under the "AI Builder capacity add-on" section.
+
 #### I exceeded my trial capacity. What can I do?
 
 - You can purchase AI Builder Add On and allocate capacity to your environment
