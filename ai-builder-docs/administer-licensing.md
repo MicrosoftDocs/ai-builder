@@ -26,7 +26,7 @@ The AI Builder capacity add-on doesn't exist in the Microsoft 365 business premi
 
 ## Purchase additional AI Builder capacity
 
-Ensure that your environment is properly credited by downloading your [AI Builder Consumption report](administer-consumption-report.md).
+Ensure that your environment is properly credited by downloading your [AI Builder consumption report](administer-consumption-report.md).
 
 If your environment has no more capacity, you need to purchase capacity add-ons. The  AI Builder capacity add-on can be purchased by a billing administrator in Microsoft 365 admin center, or by using your usual channel.
 
@@ -90,7 +90,7 @@ What you get with an AI Builder trial license:
 1. (If requested) Select **Create a database** and choose a currency and language.
 1. Select **Create my database**.
 
-    :::image type="content" source="media/administer-licensing/create-db.png" alt-text="Screenshot of thw 'New database' screen. ":::
+    :::image type="content" source="media/administer-licensing/create-db.png" alt-text="Screenshot of the 'New database' screen. ":::
 
 1. Refresh the **Explore** page.
 1. At the top of the screen, select **Start free trial**.
@@ -175,7 +175,7 @@ Each user license grants you 5,000 credits, allowing you to assess the capabilit
 ### See also
 
 [Microsoft Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=2085130)<br/>
-[AI Builder Consumption report](administer-consumption-report.md)
+[AI Builder consumption report](administer-consumption-report.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
