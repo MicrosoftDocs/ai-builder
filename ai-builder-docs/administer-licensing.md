@@ -7,7 +7,7 @@ contributors:
   - v-aangie
 ms.topic: conceptual
 ms.custom: intro-internal
-ms.date: 11/16/2022
+ms.date: 11/21/2022
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---
@@ -20,7 +20,7 @@ The AI Builder capacity add-on doesn't exist in the Microsoft 365 business premi
 
 > [!NOTE]
 >
-> You might receive this notification when you sign in: **You’ve consumed all of your AI Builder credits. Contact your administrator to get more capacity**. If you see this message, read this article to learn how to increase capacity and get details and FAQs on licensing.
+> You might receive this notification when you sign in: **You’ve consumed all of your AI Builder credits. Contact your administrator to get more capacity**. If you get this message, read this article to learn how to increase capacity and get details and FAQs on licensing.
 >
 > :::image type="content" source="media/consumed-all-credits-image-capacity-notification-a.png" alt-text="Screenshot of the AI Builder credits banner notification.":::
 
@@ -134,7 +134,7 @@ If you extend a trial after expiration, capacity is reset. You can again run and
 
 #### How many AI Builder credits are consumed for each operation?
 
-Each AI Builder capability consumes service credits at different rates. You can check the consumption rates on the [Microsoft Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=2085130) under the "AI Builder capacity add-on" section.
+Each AI Builder capability consumes service credits at a different rate. You can check the consumption rates in the [Microsoft Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=2085130) in the **AI Builder capacity add-on** section.
 
 #### I exceeded my trial capacity. What can I do?
 
@@ -144,7 +144,7 @@ Each AI Builder capability consumes service credits at different rates. You can 
 
 #### How do I convert my trial environment to a production environment?
 
-For more information, see [About trial environments](/power-platform/admin/trial-environments).
+To learn more, go to [About trial environments](/power-platform/admin/trial-environments).
 
 #### Where can I find more information about license management in Power Apps and Power Automate?
 
@@ -152,7 +152,7 @@ More information about licenses and license management in Power Apps is availabl
 
 #### Where can I find more information about trial environments?
 
-For more information, see [About trial environments](/power-platform/admin/trial-environments).
+To learn more, go to [About trial environments](/power-platform/admin/trial-environments).
 
 After your AI Builder trial license expires, or if you exceed capacity:
 
@@ -162,7 +162,7 @@ After your AI Builder trial license expires, or if you exceed capacity:
 
 #### How do I convert my trial environment to a production environment?
 
-For more information, see [About trial environments](/power-platform/admin/trial-environments).
+To learn more, go to [About trial environments](/power-platform/admin/trial-environments).
 
 #### Can I block users in my organization from signing up for an AI Builder trial?
 
@@ -171,5 +171,11 @@ Any individual can try out the features of AI Builder for 30 days and incur no c
 #### What can I do with the 5,000 AI credits included in the per user plan with attended RPA?
 
 Each user license grants you 5,000 credits, allowing you to assess the capabilities in AI Builder. For instance, you could use these credits to extract data from a few documents with *document processing* or perform hundreds of basic OCR extractions with *text recognition*.
+
+### See also
+
+[Microsoft Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=2085130)<br/>
+[AI Builder Consumption report](administer-consumption-report.md)
+
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
