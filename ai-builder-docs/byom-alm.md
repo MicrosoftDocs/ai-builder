@@ -1,11 +1,15 @@
 ---
-title: Package your own model using solutions - AI Builder | Microsoft Docs
-description: Provides information on how to package your own model using solutions to export, import, upgrade, and stage these models across environments.
-author: billba
+title: Package your own model using solutions - AI Builder
+description: Learn how to package your own model using solutions to export, import, upgrade, and stage these models across environments.
+author: ashishb
+contributors:
+  - ashishb
+  - phil-cmd
+  - v-aangie
 ms.topic: conceptual
 ms.custom:
 ms.date: 08/26/2021
-ms.author: billba
+ms.author: ashbhati
 ms.reviewer: angieandrews
 ---
 

@@ -1,11 +1,15 @@
 ---
-title: Use sample data to do entity extraction - AI Builder | Microsoft Docs
-description: Provides the information you need to try out an entity extraction model with sample data AI Builder.
-author: v-aangie
+title: Use sample data to do entity extraction - AI Builder
+description: Learn how to try out an entity extraction model with sample data AI Builder.
+author: ashishb
+contributors:
+  - ashishb
+  - phil-cmd
+  - v-aangie
 ms.topic: conceptual
 ms.custom: 
 ms.date: 06/21/2022
-ms.author: angieandrews
+ms.author: ashbhati
 ms.reviewer: angieandrews
 ---
 

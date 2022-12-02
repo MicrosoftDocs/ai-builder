@@ -1,8 +1,12 @@
 ---
-title:  Feature availability by region or US Government environment - AI Builder | Microsoft Docs
-description: Breaks down which AI Builder features are available in each region or US Government environment. Lists the release status for each feature by region or US Government environment.
+title:  Feature availability by region or US Government environment - AI Builder
+description: Learn which AI Builder features are available in each region or US Government environment. Lists the release status for each feature by region or US Government environment.
 author: JoeFernandezMS
-contributor: xiao-wang-paris
+contributors:
+  - JoeFernandezMS
+  - xiao-wang-paris
+  - phil-cmd
+  - v-aangie
 ms.topic: conceptual
 ms.custom: 
 ms.date: 10/06/2022

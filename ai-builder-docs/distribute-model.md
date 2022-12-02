@@ -2,6 +2,10 @@
 title: Distribute your AI model in AI Builder
 description: Learn how to distribute your AI model in a packaged solution in AI Builder.
 author: antrodfr
+contributors:
+  - antrodfr
+  - phil-cmd
+  - v-aangie
 ms.topic: conceptual
 ms.custom: 
 ms.date: 09/28/2022
