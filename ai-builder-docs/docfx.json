@@ -48,7 +48,7 @@
         "AshleyWoodruff"
       ],
       "breadcrumb_path": "/ai-builder/breadcrumb/toc.json",
-      "extendBreadcrumb": true,
+      "uhfHeaderId": "MSDocsHeader-PowerPlatform",
       "feedback_system": "GitHub",
       "feedback_github_repo": "MicrosoftDocs/ai-builder",
       "feedback_product_url": "https://go.microsoft.com/fwlink/?linkid=2092048",
