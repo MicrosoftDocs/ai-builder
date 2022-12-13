@@ -1,9 +1,9 @@
 ---
-title: Bring your own model into AI Builder - AI Builder
+title: Bring your own model into AI Builder
 description: Learn how to use your own model in AI Builder.
-author: ashishb
-  contributors:
-  - ashishb
+author: aashishb
+contributors:
+  - aashishb
   - phil-cmd
   - v-aangie
 ms.topic: conceptual
