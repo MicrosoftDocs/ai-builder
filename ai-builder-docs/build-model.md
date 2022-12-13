@@ -1,7 +1,10 @@
 ---
-title: Build a model in AI Builder - AI Builder | Microsoft Docs
-description: Provides the steps needed to build any type of AI model in AI Builder. This topic will get you started. 
+title: Build a model in AI Builder - AI Builder
+description: Learn the steps needed to build any type of AI model in AI Builder. This topic will get you started. 
 author: Phil-cmd
+contributors:
+  - phil-cmd
+  - v-aangie
 ms.topic: conceptual
 ms.custom: 
 ms.date: 06/30/2022

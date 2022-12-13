@@ -1,6 +1,6 @@
 ---
 title: AI Builder licensing - AI Builder
-description: Provides information about licensing in AI Builder.
+description: Learn about licensing in AI Builder.
 author: phil-cmd
 contributors:
   - phil-cmd

@@ -1,11 +1,15 @@
 ---
-title: Use an AI Builder custom entity extraction AI model in Power Automate - AI Builder | Microsoft Docs
-description: Provides steps to use a custom entity extraction AI model in Power Automate.
-author: mfotedar
+title: Use an AI Builder custom entity extraction AI model in Power Automate - AI Builder
+description: Learn how to use a custom entity extraction AI model in Power Automate.
+author: ashishb
+contributors:
+  - ashishb
+  - phil-cmd
+  - v-aangie
 ms.topic: conceptual
 ms.custom: 
 ms.date: 06/29/2022
-ms.author: mfotedar
+ms.author: ashbhati
 ms.reviewer: angieandrews
 ---
 

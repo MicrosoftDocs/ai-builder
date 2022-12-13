@@ -1,11 +1,15 @@
 ---
-title: Create a category classification custom model - AI Builder | Microsoft Docs
-description: Provides step-by-step instructions on how to create a category classification model
-author: v-aangie
+title: Create a category classification custom model - AI Builder
+description: Learn how to create a category classification model.
+author: ashishb
+contributors:
+   - ashishb
+   - phil-cmd
+   - v-aangie
 ms.topic: conceptual
 ms.custom: 
 ms.date: 06/29/2021
-ms.author: angieandrews
+ms.author: ashbhati
 ms.reviewer: angieandrews
 ---
 

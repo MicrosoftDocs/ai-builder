@@ -1,16 +1,16 @@
 ---
-title: Continuously improve your model (preview) - AI Builder | Microsoft Docs
-description: This topic provides an overview of how to continuously improve AI Builder models.
+title: Continuously improve your model (preview) - AI Builder
+description: Get an overview of how to continuously improve AI Builder models.
 author: antrod
+contributors:
+  - antrod
+  - phil-cmd
+  - v-angie
 ms.topic: conceptual
 ms.custom:
 ms.date: 10/21/2022
 ms.author: antrod
 ms.reviewer: angieandrews
-contributors:
-  - antrod
-  - phil-cmd
-  - v-aangie
 ---
 
 # Continuously improve your model (preview)
