@@ -1,11 +1,15 @@
 ---
-title: Category classification model training errors and warnings - AI Builder | Microsoft Docs
-description: Describes the errors and warnings that might appear on the AI Builder category classification model details page.
-author: norliu
+title: Category classification model training errors and warnings - AI Builder
+description: Learn about the errors and warnings that might appear on the AI Builder category classification model details page.
+author: ashishb
+contributors:
+  - ashishb
+  - phil-cmd
+  - v-aangie
 ms.topic: conceptual
 ms.custom: 
 ms.date: 08/09/2021
-ms.author: norliu
+ms.author: ashbhati
 ms.reviewer: angieandrews
 ---
 

@@ -1,11 +1,15 @@
 ---
-title: Entity extraction custom AI model requirements and limitations - AI Builder | Microsoft Docs
-description: Describes the requirements and limitations of the custom entity extraction AI model in AI Builder.
-author: mfotedar
+title: Entity extraction custom AI model requirements and limitations - AI Builder
+description: Learn about the requirements and limitations of the custom entity extraction AI model in AI Builder.
+author: ashishb
+contributors:
+  - ashishb
+  - phil-cmd
+  - v-aangie
 ms.topic: conceptual
 ms.custom:
 ms.date: 04/08/2020
-ms.author: mfotedar
+ms.author: ashbhati
 ms.reviewer: angieandrews
 ---
 
