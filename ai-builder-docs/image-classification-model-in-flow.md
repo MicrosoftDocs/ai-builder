@@ -1,14 +1,16 @@
 ---
-title: Use image classification model by Lobe in Power Automate - AI Builder | Microsoft Docs
+title: Use an image classification model by Lobe in Power Automate - AI Builder
 description: Learn how to use the image classification model from Lobe to predict labels and categorize images in Power Automate.
-author: v-aangie
+author: ashishb
+contributors:
+  - ashishb
+  - phil-cmd
+  - v-aangie
 ms.topic: conceptual
 ms.custom: intro-internal
 ms.date: 06/06/2022
-ms.author: angieandrews
-contributors:
-    - JakeCohenMicrosoft
-    - v-aangie
+ms.author: ashbhati
+ms.reviewer: angieandrews
 ---
 
 # Use an image classification model by Lobe in Power Automate
