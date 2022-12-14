@@ -1,15 +1,15 @@
 ---
-title:  Feature availability by region or US Government environment - AI Builder
+title:  Feature availability by region or US Government environment
 description: Learn which AI Builder features are available in each region or US Government environment. Lists the release status for each feature by region or US Government environment.
 author: JoeFernandezMS
 contributors:
-  - JoeFernandezMS
   - xiao-wang-paris
   - phil-cmd
+  - JoeFernandezMS
   - v-aangie
 ms.topic: conceptual
 ms.custom: 
-ms.date: 10/06/2022
+ms.date: 12/14/2022
 ms.author: jofernan
 ms.reviewer: angieandrews
 ---
@@ -74,7 +74,7 @@ AI Builder is available in US Government environments with the features listed i
 |Entity extraction|GA|GA|-|
 |Object detection|GA|GA|-|
 |Document processing (for structured and semi-structured documents) |GA|GA|-|
-|Document processing (for unstructured documents) |-|-|-|
+|Document processing (for unstructured documents) |GA|GA|-|
 |Image classification | - | - | - |
 
 ### Prebuilt models
