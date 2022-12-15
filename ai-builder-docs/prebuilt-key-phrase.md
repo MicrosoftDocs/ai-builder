@@ -55,6 +55,6 @@ The following applies to calls made per environment across the following prebuil
 
 ### See also
 
-[Training: Key phrase extraction prebuilt model (module)](/training/modules/get-started-with-ai-builder-key-phrase-extraction/) 
+[Training: Key phrase extraction prebuilt model (module)](/training/modules/get-started-with-ai-builder-key-phrase-extraction/)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

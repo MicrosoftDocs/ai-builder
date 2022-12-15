@@ -90,5 +90,9 @@ Perform these steps on each of your AI Builder models to get your AI models up a
 
 [Publish your model in AI Builder](publish-model.md)
 
+### See also
+
+[Training: Manage models in AI Builder (module)](/training/modules/manage-models/)
+
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -163,6 +163,7 @@ For incoming emails from the Microsoft 365 Outlook connector, email signatures a
 
 ### See also
 
-[Overview of the document processing model](form-processing-model-overview.md)
+- [Overview of the document processing model](form-processing-model-overview.md)
+- [Training: Process custom documents with AI Builder (module)](/training/modules/get-started-with-form-processing/)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

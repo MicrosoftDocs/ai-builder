@@ -65,10 +65,10 @@ To learn more about the triggers and actions you can use, see the [Power Automat
 |**Coordinates top** |float |Coordinates top of the object| |
 |**Coordinates width** |float |Coordinates width of the object| |
 
-
 ### See also
 
-[Overview of the object detection model](object-detection-overview.md)
+- [Overview of the object detection model](object-detection-overview.md)
+- [Training: Detect objects with AI Builder (module)](/training/modules/get-started-with-ai-builder-object-detection/)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

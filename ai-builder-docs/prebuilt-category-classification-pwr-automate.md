@@ -45,7 +45,6 @@ Congratulations! You've created a flow that uses an AI Builder prebuilt category
 
 Congratulations! You've created a flow that uses a prebuilt category classification AI Builder model. Select **Save** on the top right, and then select **Test** to try out your flow.
 
-
 ### Output
 
 |Name |Type |Description |Values |
@@ -55,6 +54,7 @@ Congratulations! You've created a flow that uses a prebuilt category classificat
 
 ### See also
 
-[Category classification prebuilt model](prebuilt-category-classification.md)
+- [Training: Get started with AI Builder category classification (module)](/training/modules/ai-builder-category-classification/)
+- [Category classification prebuilt model](prebuilt-category-classification.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
