@@ -94,6 +94,7 @@ If your app uses a **data table** component to display results from the **object
 
 ### See also
 
+[Training: Use AI Builder models in Power Apps (module)](/training/modules/use-ai-builder/)<br/>
 [Feature availability by region](availability-region.md)  
 [AI Builder in Power Automate](use-in-flow-overview.md)  
 [What are canvas apps?](/powerapps/maker/canvas-apps/getting-started)  
