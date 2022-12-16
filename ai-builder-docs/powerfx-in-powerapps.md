@@ -142,3 +142,4 @@ Every model is invoked using the predict verb. For example, a language detection
 - [What are canvas apps?](/powerapps/maker/canvas-apps/getting-started)
 - [Get started with formulas in canvas apps](/power-apps/maker/canvas-apps/working-with-formulas)
 - [Microsoft Power Fx](/power-platform/power-fx/overview)
+- [Training: Improve business performance with AI Builder (learning path)](/training/paths/improve-business-performance-ai-builder/)

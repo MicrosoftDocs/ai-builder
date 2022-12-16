@@ -46,9 +46,10 @@ You can use the predict action in Power Automate with many different model types
 
 ### See also
 
-[Training: Use AI Builder in Power Automate (module)](/training/modules/ai-builder-power-automate/)<br/>
-[Feature availability by region](availability-region.md)  
-[AI Builder in Power Apps overview](use-in-powerapps-overview.md)
+- [Feature availability by region](availability-region.md)  
+- [AI Builder in Power Apps overview](use-in-powerapps-overview.md)
+- [Training: Use AI Builder in Power Automate (module)](/training/modules/ai-builder-power-automate/)<br/>
+- [Training: Improve business performance with AI Builder (learning path)](/training/paths/improve-business-performance-ai-builder/) 
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
