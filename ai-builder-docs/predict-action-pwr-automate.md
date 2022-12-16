@@ -76,15 +76,16 @@ In this section, we'll explain how to configure the AI Builder predict action fo
 1. In the step **Manually trigger a flow**, add a **File** input, and set its name to **File Content**.
 1. In the step **Manually trigger a flow**, add a **Text** input, and set its name to **Mime Type**.
 1. In the step **Initialize variable**, enter a document processing model ID.
-1. In the step **Predict**, enter following value in the **Infer request** column:
+1. In the step **Predict**, enter following value in the **Infer request** column (note that **pageRange** is optional):
 
     ```json
     {
         "version": "2.0",
         "requestv2": {
-        "@@odata.type": "Microsoft.Dynamics.CRM.expando",
-        "mimeType": "@{triggerBody()['text']}",
-        "base64Encoded": "@{string(triggerBody()?['file']?['contentBytes'])}"
+            "@@odata.type": "Microsoft.Dynamics.CRM.expando",
+            "mimeType": "@{triggerBody()['text']}",
+            "base64Encoded": "@{string(triggerBody()?['file']?['contentBytes'])}",
+            "pageRange": "1"
         }
     }
     ```
