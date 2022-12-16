@@ -178,4 +178,8 @@ If fields can’t be tagged in your document, go to [Fields couldn't be loaded f
 
 [Train and publish your document processing model](form-processing-train.md)
 
+### See also
+
+[Training: Process custom documents with AI Builder (module)](/training/modules/get-started-with-form-processing/)
+
 [!INCLUDE[footer-include](includes/footer-banner.md)]
