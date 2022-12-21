@@ -172,6 +172,12 @@ Any individual can try out the features of AI Builder for 30 days and incur no c
 
 Each user license grants you 5,000 credits, allowing you to assess the capabilities in AI Builder. For instance, you could use these credits to extract data from a few documents with *document processing* or perform hundreds of basic OCR extractions with *text recognition*.
 
+#### What happens if a user turns on/off AI Builder per user capacity add-on license?
+
+The Power Apps per user license includes 500 seeded AI Builder credits.
+If the "AI Builder capacity Per User add-on" is not selected, the 500 AI Builder credits will not be added to the total number of AI Builder credits owned at your tenant level and will be lost
+
+
 ### See also
 
 [Microsoft Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=2085130)<br/>
