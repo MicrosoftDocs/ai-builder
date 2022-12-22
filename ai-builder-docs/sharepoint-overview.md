@@ -33,7 +33,6 @@ Only training data is stored in Dataverse. It's used solely to train the AI Buil
 Dataverse has strong security mechanisms that prevent unauthorized access to user data. Data stored to train your AI Builder model is only accessible by:
 
 - The owner of the model.
-
 - Individuals with Power Platform **System Administrator** and **System Customizer** roles in your organization.
 
 To learn more, go to [Roles and security in AI Builder](/ai-builder/security).
