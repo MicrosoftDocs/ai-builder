@@ -1,5 +1,5 @@
 ---
-title: AI Builder licensing - AI Builder
+title: AI Builder licensing
 description: Learn about licensing in AI Builder.
 author: phil-cmd
 contributors:
@@ -7,7 +7,7 @@ contributors:
   - v-aangie
 ms.topic: conceptual
 ms.custom: intro-internal
-ms.date: 11/21/2022
+ms.date: 12/21/2022
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---
@@ -40,7 +40,7 @@ To purchase the AI Builder credit add-on in the Microsoft 365 admin center:
 
     You need to be the billing administrator of your tenant to access this page.
 
-1. In the left pane, select **Billing**.
+1. On the left pane, select **Billing**.
 
 1. Select **Purchase services**.
 
@@ -52,7 +52,7 @@ First, you have to purchase AI Builder capacity add-on for your Power Apps or Po
 
 Once entitled to AI Builder capacity, credits are unallocated and available as a pool on the tenant, which can be used on any environment. The administrator can restrict usage by allocating all credits to specific environments.
 
-For information about how to allocate capacity in Power Platform admin center, go to [Capacity add-ons](/power-platform/admin/capacity-add-on). For information on how to allocate credits, go to [Manage capacity](administer.md#manage-capacity).
+To learn how to allocate capacity in Power Platform admin center, go to [Capacity add-ons](/power-platform/admin/capacity-add-on). To learn how to allocate credits, go to [Manage capacity](administer.md#manage-capacity).
 
 ## Trial licenses
 
@@ -121,8 +121,10 @@ If you exceed your AI Builder capacity, you’ll receive an over-capacity  notif
 The following functions aren't available when you exceed capacity:
 
 - Create a model or a new version of a model
+
 - Run a model within Power Apps or in a Power Automate flow.
   - You can still share your model with another user. They can run it using their own AI Builder capacity. 
+
 - Scheduled model run or retrain
   - Some scenarios allow scheduled run or retrain, which is configured on the model settings panel. These scheduled tasks will fail when you exceed capacity. Therefore, data won’t be refreshed, and the model won’t be retrained.
 
@@ -171,6 +173,10 @@ Any individual can try out the features of AI Builder for 30 days and incur no c
 #### What can I do with the 5,000 AI credits included in the per user plan with attended RPA?
 
 Each user license grants you 5,000 credits, allowing you to assess the capabilities in AI Builder. For instance, you could use these credits to extract data from a few documents with *document processing* or perform hundreds of basic OCR extractions with *text recognition*.
+
+#### What happens if a user turns on/off AI Builder per user capacity add-on license?
+
+The Power Apps per user license includes 500 seeded AI Builder credits. If **AI Builder capacity Per User add-on** isn't selected, the 500 AI Builder credits won't be added to the total number of AI Builder credits owned at your tenant level and will be lost.
 
 ### See also
 
