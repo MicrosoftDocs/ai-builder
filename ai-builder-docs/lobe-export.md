@@ -9,6 +9,7 @@ ms.author: angieandrews
 contributors:
     - JakeCohenMicrosoft
     - v-aangie
+ms.reviewer: angieandrews
 ---
 # Export your image classification model from Lobe to AI Builder
 

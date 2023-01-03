@@ -9,6 +9,7 @@ ms.author: angieandrews
 contributors:
     - JakeCohenMicrosoft
     - v-aangie
+ms.reviewer: angieandrews
 ---
 
 # Use an image classification model by Lobe in Power Apps

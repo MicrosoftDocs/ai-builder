@@ -5,7 +5,8 @@ author: v-aangie
 ms.topic: conceptual
 ms.custom: 
 ms.date: 06/21/2022
-ms.author: angieandrews 
+ms.author: angieandrews
+ms.reviewer: angieandrews
 ---
 
 # Use a category classification model to generate tags

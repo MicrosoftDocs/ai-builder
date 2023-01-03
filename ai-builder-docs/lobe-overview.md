@@ -9,6 +9,7 @@ ms.author: jacohe
 contributors:
     - JakeCohenMicrosoft
     - v-aangie
+ms.reviewer: angieandrews
 ---
 
 # Overview of image classification model by Lobe
