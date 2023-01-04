@@ -177,5 +177,8 @@ This flow is triggered when a new invoice is added to a SharePoint folder. It th
    > [!div class="mx-imgBorder"]
    > ![Invoice and document processing flow for new invoices.](media/invoice-and-form-process-flow3.png "Create a flow that uses a document processing model for new invoices")
 
+### See also
+
+[Training: Extract invoice data with AI Builder’s prebuilt model (module)](/training/modules/ai-builder-invoice-processing/)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

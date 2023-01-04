@@ -73,10 +73,10 @@ Additional design properties are available in the **Advanced** panel.
 ## Accessibility guidelines
 These [guidelines](/powerapps/maker/canvas-apps/controls/control-button) for the Power Apps button control also apply to the text recognizer component.
 
-### Related topics
+### See also
 
-[Receipt processing overview](prebuilt-receipt-processing.md)<br/> 
-[Core properties in Power Apps](/powerapps/maker/canvas-apps/controls/properties-core)
-
+- [Receipt processing overview](prebuilt-receipt-processing.md)<br/> 
+- [Core properties in Power Apps](/powerapps/maker/canvas-apps/controls/properties-core)
+- [Training: Process receipts with AI Builder (module)](/training/modules/ai-builder-receipt-processing/)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

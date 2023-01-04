@@ -83,9 +83,9 @@ These [guidelines](/powerapps/maker/canvas-apps/controls/control-button) for the
 
 ### See also
 
-[Overview of the object detection model](object-detection-overview.md)  
-[Use the object detection model in Power Automate](object-detection-model-in-flow.md)  
-[Core properties in Power Apps](/powerapps/maker/canvas-apps/controls/properties-core)
-
+- [Overview of the object detection model](object-detection-overview.md)  
+- [Use the object detection model in Power Automate](object-detection-model-in-flow.md)  
+- [Core properties in Power Apps](/powerapps/maker/canvas-apps/controls/properties-core)
+- [Training: Detect objects with AI Builder (module)](/training/modules/get-started-with-ai-builder-object-detection/)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

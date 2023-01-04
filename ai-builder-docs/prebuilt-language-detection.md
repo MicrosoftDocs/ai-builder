@@ -44,5 +44,8 @@ The following applies to calls made per environment across the following prebuil
 |:-----|:-----|-----:|
 |Calls (per environment)|400|60 seconds|
 
+### See also
+
+[Training: Identify the language of text with AI Builder (module)](/training/modules/get-started-with-ai-builder-language-detection/)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

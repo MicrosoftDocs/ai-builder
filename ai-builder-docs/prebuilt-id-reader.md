@@ -78,4 +78,5 @@ If a valid identity document is detected, the model will try to locate and extra
 
 ### See also
 
-[Use the ID reader prebuilt model in Power Automate](id-reader.md)
+- [Use the ID reader prebuilt model in Power Automate](id-reader.md)
+- [Training: Extract data from passports and US driver licenses (module)](/training/modules/get-started-ai-builder-identity-document-reader/)

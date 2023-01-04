@@ -180,8 +180,9 @@ The Power Apps per user license includes 500 seeded AI Builder credits. If **AI 
 
 ### See also
 
-[Microsoft Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=2085130)<br/>
-[AI Builder consumption report](administer-consumption-report.md)
+- [Microsoft Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=2085130)<br/>
+- [AI Builder consumption report](administer-consumption-report.md)
+- [Training: Get started with AI Builder licensing (module)](/training/modules/get-started-with-ai-builder-licensing/)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
