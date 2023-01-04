@@ -17,10 +17,10 @@ ms.reviewer: angieandrews
 With the Microsoft Syntex service, you're able to create AI Builder models in SharePoint. To learn more, go to [Overview of Microsoft Syntex](/microsoft-365/contentunderstanding/syntex-overview).
 
 From the **Classify and Extract** menu in your SharePoint library, you can apply an existing AI model to a library or create a new one. Two model types are powered by AI Builder:
-- **Freeform document processing:** Creates AI Builder document processing models for unstructured or freeform documents like contracts, statement of work, letters, and more.
+- **Freeform document processing:** Creates AI Builder document processing models for unstructured or freeform documents like contracts, statements of work, letters, and more.
 - **Structured document processing:** Creates AI Builder document processing models for structured documents like invoices, purchase orders, delivery orders, tax documents, and more.
 
-Once an AI Builder model is applied to a library, every document added to the library will be processed by the applied model, and the results are displayed as new library columns.
+Once an AI Builder model is applied to a library, every document added to the library will be processed by the applied model. The results are displayed as new library columns.
 
 To learn about requirements and get step-by-step instructions on how to use this service, go to [Work with models](/microsoft-365/contentunderstanding/model-types-overview).
 
@@ -33,7 +33,6 @@ Only training data is stored in Dataverse. It's used solely to train the AI Buil
 Dataverse has strong security mechanisms that prevent unauthorized access to user data. Data stored to train your AI Builder model is only accessible by:
 
 - The owner of the model.
-
 - Individuals with Power Platform **System Administrator** and **System Customizer** roles in your organization.
 
 To learn more, go to [Roles and security in AI Builder](/ai-builder/security).
