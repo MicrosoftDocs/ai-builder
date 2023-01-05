@@ -71,8 +71,8 @@ These [guidelines](/powerapps/maker/canvas-apps/controls/control-button) for the
 
 ### See also
 
-[Text recognition model](prebuilt-text-recognition.md)  
-[Core properties in Power Apps](/powerapps/maker/canvas-apps/controls/properties-core)
-
+- [Text recognition model](prebuilt-text-recognition.md)  
+- [Core properties in Power Apps](/powerapps/maker/canvas-apps/controls/properties-core)
+- [Training: Recognize text with AI Builder (module)](/training/modules/get-started-with-ai-builder-text-recognition/) 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

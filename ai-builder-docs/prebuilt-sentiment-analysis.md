@@ -72,4 +72,8 @@ The following applies to calls made per environment across the following prebuil
 |:-----|:-----:|:-----:|
 |Calls (per environment)|400|60 seconds|
 
+### See also
+
+[Training: Analyze the sentiment of text with AI Builder (module)](/training/modules/get-started-with-ai-builder-sentiment-analysis/)
+
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -88,5 +88,8 @@ The following properties are available for advanced customization:
  |**Default Image**| To replace the default placeholder image with a different one. The image (JPEG or PNG) should be encoded with base-64 digits.
  |**Text**| To override the default button text.
 
+## See also
+
+[Training: Extract information from business cards with AI Builder (module)](/training/modules/get-started-with-ai-business-card-reader/)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

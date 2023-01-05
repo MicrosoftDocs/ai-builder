@@ -77,7 +77,8 @@ These [guidelines](/powerapps/maker/canvas-apps/controls/control-button) for the
 
 ### See also
 
-[Core properties in Power Apps](/powerapps/maker/canvas-apps/controls/properties-core)
+- [Core properties in Power Apps](/powerapps/maker/canvas-apps/controls/properties-core)
+- [Training: Extract information from business cards with AI Builder (module)](/training/modules/get-started-with-ai-business-card-reader/)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

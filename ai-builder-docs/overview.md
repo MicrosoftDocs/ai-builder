@@ -76,3 +76,7 @@ For information about license capacity, pricing, and restrictions:
 [Learn about AI model types](model-types.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
+
+### See also
+
+[Training: Get started with AI Builder (module)](/training/modules/get-started-with-ai-builder/)

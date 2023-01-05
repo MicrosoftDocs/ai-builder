@@ -86,8 +86,9 @@ These [guidelines](/powerapps/maker/canvas-apps/controls/control-button) for the
 
 ### See also
 
-[Overview of the object detection model](object-detection-overview.md)  
-[Core properties in Power Apps](/powerapps/maker/canvas-apps/controls/properties-core)
+- [Overview of the object detection model](object-detection-overview.md)  
+- [Core properties in Power Apps](/powerapps/maker/canvas-apps/controls/properties-core)
+- [Training: Process custom documents with AI Builder (module)](/training/modules/get-started-with-form-processing/)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
