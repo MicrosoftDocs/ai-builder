@@ -1,11 +1,14 @@
 ---
 title: Use AI Builder models in Power Apps - AI Builder | Microsoft Docs
-description: Add more powerful and flexible integrations of AI models into your Power App.
-author: v-aangie
+description: Learn how to add more powerful and flexible integrations of AI models into your Power App.
+author: phil-cmd
+contributors:
+  - phil-cmd
+  - v-aangie
 ms.topic: conceptual
 ms.custom: intro-internal
-ms.date: 08/22/2022
-ms.author: angieandrews
+ms.date: 01/23/2023
+ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
@@ -107,7 +110,6 @@ This section provides inputs and outputs for custom and prebuilt models by model
 | - | - | - |
 | Category classification | `'Custom text classification model name'.Predict(Text: String, Language?: Optional String)` | `{AllClasses: {Name: String, Confidence: Number}[],TopClass: {Name: String,Confidence: Number}}` |
 | Entity extraction | `'Custom entity extraction model name’.Predict(Text: String,Language?:String(Optional))` | `{Entities:[{Type: "name",Value: "Bill", StartIndex: 22, Length: 4, Confidence: .996, }, { Type: "name", Value: "Gwen", StartIndex: 6, Length: 4, Confidence: .821, }]}` |
-| Image classification | `‘Custom image classification model name’.Predict(Image: Image)` | `{ AllClasses: { Name: String, Confidence: Number }[],  TopClass: { Name: String, Confidence: Number }}` |
 | Object detection | `'Custom object detection model name'.Predict(Image: Image)` | `{ Objects: { Name: String, Confidence: Number, BoundingBox: { Left: Number, Top: Number, Width: Number, Height: Number }}[]} ` |
 
 ### Prebuilt models

@@ -162,13 +162,7 @@
       href: form-processing-faq.md
     - name: Transition to the newest document processing model version
       href: form-processing-transition.md      
-  - name: Image classification AI model by Lobe
-    items:
-    - name: Overview
-      href: lobe-overview.md
-    - name: Export your image classification model
-      href: lobe-export.md
-- name: Bring your own AI model
+  - name: Bring your own AI model
   items:
   - name: Azure machine learning models
     items:
@@ -192,8 +186,6 @@
       href: form-processing-model-in-flow.md
     - name: Object detection model
       href: object-detection-model-in-flow.md
-    - name: Image classification model
-      href: image-classification-model-in-flow.md  
     - name: Prediction model
       href: prediction-pwr-automate.md
   - name: Use a prebuilt AI Builder model in Power Automate
@@ -232,8 +224,6 @@
     href: form-processor-component-in-powerapps.md
   - name: Use the object detection component in Power Apps
     href: object-detector-component-in-powerapps.md
-  - name: Use the image classification component in Power Apps
-    href: image-classification-component-in-powerapps.md
   - name: Use the business card reader component in Power Apps
     items:
     - name: Use in a canvas app

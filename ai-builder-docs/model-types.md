@@ -1,11 +1,14 @@
 ---
 title: AI models and business scenarios - AI Builder | Microsoft Docs
 description: This topic provides an overview of how the AI model types that you can create in AI Builder relate to various business scenarios.
-author: v-aangie
+author: phil-cmd
+contributors:
+  - phil-cmd
+  - v-aangie
 ms.topic: conceptual
 ms.custom:
-ms.date: 05/31/2022
-ms.author: angieandrews
+ms.date: 01/23/2023
+ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
@@ -55,7 +58,6 @@ The following table lists the data type, models type, and build type.
 | Text            | [Sentiment analysis](prebuilt-sentiment-analysis.md)      | Prebuilt            |
 | Text            | [Text translation](prebuilt-text-translation.md)        | Prebuilt            |
 | Structured data | [Prediction](prediction-overview.md)              | Custom              |
-| Images          | [Image classification (by Lobe)](lobe-overview.md)        | Custom              |
 | Images          | [Object detection](object-detection-overview.md)        | Custom              |
 
 ## Common business scenarios
