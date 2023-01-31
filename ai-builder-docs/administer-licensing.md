@@ -168,7 +168,7 @@ To learn more, go to [About trial environments](/power-platform/admin/trial-envi
 
 #### Can I block users in my organization from signing up for an AI Builder trial?
 
-Any individual can try out the features of AI Builder for 30 days and incur no costs to your company. This option is available to any user in a tenant and can't be disabled by an admin.
+Any individual can try out the features of AI Builder for 30 days and incur no costs to your company. This option is available to any user in a tenant and can't be disabled by an admin. Note that once some AI credits is purchased by your company (either purchasing Add On or included in some licenses), then trial are not proposed to users any more.
 
 #### What can I do with the 5,000 AI credits included in the per user plan with attended RPA?
 
@@ -176,7 +176,11 @@ Each user license grants you 5,000 credits, allowing you to assess the capabilit
 
 #### What happens if a user turns on/off AI Builder per user capacity add-on license?
 
-The Power Apps per user license includes 500 seeded AI Builder credits. If **AI Builder capacity Per User add-on** isn't selected, the 500 AI Builder credits won't be added to the total number of AI Builder credits owned at your tenant level and will be lost.
+Some user licenses include seeded AI Builder credits. (eg: the Power Apps per user license includes 500 seeded AI Builder credits.) If **AI Builder capacity Per User add-on** isn't selected, the 500 AI Builder credits are still added to the total number of AI Builder credits owned at your tenant level and can be used.
+
+#### What happens to my data and models when my AI Builder trial expires?
+
+Data and models are kept within your environment and are not deleted. Data and models are deleted when the environment is deleted.
 
 ### See also
 
