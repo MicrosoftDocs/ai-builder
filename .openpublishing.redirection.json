@@ -2,22 +2,22 @@
   "redirections": [
     {
       "source_path": "ai-builder-docs/lobe-overview.md",
-      "redirect_url": "important-changes-coming",
+      "redirect_url": "/power-platform/important-changes-coming",
       "redirect_document_id": "false"
     },
     {
       "source_path": "ai-builder-docs/lobe-export.md",
-      "redirect_url": "important-changes-coming",
+      "redirect_url": "/power-platform/important-changes-coming",
       "redirect_document_id": "false"
     },
     {
       "source_path": "ai-builder-docs/image-classification-model-in-flow.md",
-      "redirect_url": "important-changes-coming",
+      "redirect_url": "/power-platform/important-changes-coming",
       "redirect_document_id": "false"
     },
     {
       "source_path": "ai-builder-docs/image-classification-component-in-powerapps.md",
-      "redirect_url": "important-changes-coming",
+      "redirect_url": "/power-platform/important-changes-coming",
       "redirect_document_id": "false"
     },
     {
