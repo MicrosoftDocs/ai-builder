@@ -181,7 +181,7 @@ Some user licenses include seeded AI Builder credits. For example, the Power App
 
 #### What happens to my data and models when my AI Builder trial expires?
 
-Data and models are kept within your environment and are not deleted. Data and models are only deleted when the environment is deleted.
+Data and models are kept within your environment and aren't deleted. Data and models are only deleted when the environment is deleted.
 
 ### See also
 
