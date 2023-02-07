@@ -4,10 +4,11 @@ description: Learn about licensing in AI Builder.
 author: phil-cmd
 contributors:
   - phil-cmd
+  - Antoine2F
   - v-aangie
 ms.topic: conceptual
 ms.custom: intro-internal
-ms.date: 12/21/2022
+ms.date: 02/07/2023
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---
@@ -168,7 +169,7 @@ To learn more, go to [About trial environments](/power-platform/admin/trial-envi
 
 #### Can I block users in my organization from signing up for an AI Builder trial?
 
-Any individual can try out the features of AI Builder for 30 days and incur no costs to your company. This option is available to any user in a tenant and can't be disabled by an admin. Note that once some AI credits is purchased by your company (either capacity Add On or included in some licenses), then trials are not proposed to users anymore.
+Any individual can try out the features of AI Builder for 30 days and incur no costs to your company. This option is available to any user in a tenant and can't be disabled by an admin. Note that once some AI credits are purchased by your company (for example, either through capacity add-ons, or inclusion in some licenses), trials aren't proposed to users anymore.
 
 #### What can I do with the 5,000 AI credits included in the per user plan with attended RPA?
 
@@ -176,7 +177,7 @@ Each user license grants you 5,000 credits, allowing you to assess the capabilit
 
 #### What happens if a user turns on/off AI Builder per user capacity add-on license?
 
-Some user licenses include seeded AI Builder credits. (eg: the Power Apps per user license includes 500 seeded AI Builder credits.) Whether **AI Builder capacity Per User add-on** is selected or not, the corresponding AI Builder credits are still added to the total number of AI Builder credits owned at your tenant level and can be used.
+Some user licenses include seeded AI Builder credits. For example, the Power Apps per user license includes 500 seeded AI Builder credits. Whether or not the **AI Builder capacity per user add-on** is selected, the corresponding AI Builder credits are still added to the total number of AI Builder credits owned at your tenant level and can be used.
 
 #### What happens to my data and models when my AI Builder trial expires?
 
