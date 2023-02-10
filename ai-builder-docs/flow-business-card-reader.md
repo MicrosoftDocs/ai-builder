@@ -8,7 +8,7 @@ contributors:
   - v=aangie
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/05/2021
+ms.date: 02/10/2023
 ms.author: ashbhati
 ms.reviewer: angieandrews
 ---
@@ -65,8 +65,6 @@ To add the **Add a new row** step, select **+ New step** > **Microsoft Dataverse
 |**State** |string |The state address|
 |**Street** |string |The street address|
 |**Work phone or other phone** |string |The first phone or fax number|
-|**Cleaned image** |file |The image after processing where the business card appears cropped and enhanced from the original image|
-|**Cleaned image type** |string |Type of the cleaned image|
 |**Company name** |string |The company name|
 |**Department** |string |The organization department found|
 |**Email** |string |The contact email found in the business card, if any|
