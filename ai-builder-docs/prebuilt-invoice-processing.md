@@ -1,15 +1,19 @@
 ---
-title: Invoice processing prebuilt AI model -  AI Builder | Microsoft Docs
-description: Describes the invoice processing prebuilt AI model from AI Builder.
-author: JoeFernandezMS
+title: Invoice processing prebuilt AI model
+description: Learn about the invoice processing prebuilt AI model from AI Builder.
+author: phil-cmd
+contributors:
+  - phil-cmd
+  - JoeFernandezMS
+  - v-aangie
 ms.topic: conceptual
 ms.custom: intro-internal
-ms.date: 09/27/2022
-ms.author: jofernan
+ms.date: 02/13/2023
+ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
-# Invoice processing prebuilt model
+# Invoice processing prebuilt AI model
 
 The invoice processing prebuilt AI model extracts key invoice data to help automate the processing of invoices. The invoice processing model is optimized to recognize common invoice elements like invoice ID, invoice date, amount due, and more.
 
@@ -20,7 +24,6 @@ For information on how to use the invoice processing prebuilt model in Power App
 ## Use in Power Automate
 
 For information on how to use the invoice processing prebuilt model in Power Automate, go to [Use the invoice processing prebuilt model in Power Automate](flow-invoice-processing.md).  
-
 
 ## Supported languages and files
 
@@ -69,7 +72,7 @@ If an invoice is detected, the invoice processing model will output the followin
 |     Invoice total   (number)                        |     Invoice total   in standardized date format. Example: 2019-05-31.                                      |
 |     Confidence of   invoice total                   |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).       |
 |     Line Items                                      |     The line items extracted from the invoice. Confidence scores are available for each column.  <ul><li>**Line item amount**: Amount for a line item. Returned in text and number format.</li><li>**Line item description**: Description for a line item. Returned in text format.</li><li>**Line item quantity**: Quantity for a line item. Returned in text and number format.</li><li>**Line item unit price**: Unit price for a line item. Returned in text and number format.</li><li>**Line item product code**: Product code for a line item. Returned in text format.</li><li>**Line item unit**: Unit for a line item (for example, kg and lb). Returned in text format.</li><li>**Line item date**: Date for a line item. Returned in text and date format.</li><li>**Line item tax**: Tax for a line item. Returned in text and number format.</li><li>**Line item all columns**: Returns all the columns from the line item as a line of text.</li></ul>                                               |
-|     Payment terms                                   |     Ther terms of payment for the invoice.                                                                          |
+|     Payment terms                                   |     The terms of payment for the invoice.                                                                          |
 |     Confidence of   payment terms                   |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).       |
 |     Purchase   order                                |     Purchase   order.                                                                                                |
 |     Confidence of   purchase order                  |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).       |
@@ -109,26 +112,22 @@ If an invoice is detected, the invoice processing model will output the followin
 |     Vendor tax ID                                   |     The taxpayer number associated with the vendor.                                                                  |
 |     Confidence of   vendor tax ID                   |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).       |
 |     Detected text                                   |     Line of recognized text from running OCR on an invoice. Returned as a part of a list of text.                   |
-|     Detected key                                    |     Key-value pairs are all the identified labels or keys and their associated responses or values. You can use these to extract additional values that are not part of the predefined list of fields.                       |
-|     Detected value                                  |     Key-value pairs are all the identified labels or keys and their associated responses or values. You can use these to extract additional values that are not part of the predefined list of fields.                       |
-
+|     Detected key                                    |     Key-value pairs are all the identified labels or keys and their associated responses or values. You can use these to extract additional values that aren't part of the predefined list of fields.                       |
+|     Detected value                                  |     Key-value pairs are all the identified labels or keys and their associated responses or values. You can use these to extract additional values that aren't part of the predefined list of fields.                       |
 
 ## Key-value pairs
 
-Key-value pairs are all the identified labels or keys and their associated responses or values. You can use these to extract additional values that are not part of the predefined list of fields. 
+Key-value pairs are all the identified labels or keys and their associated responses or values. You can use these to extract additional values that aren't part of the predefined list of fields.
 
 To visualize all key-value pairs detected by the invoice processing model, you can add a **Create HTML table** action in your flow as shown in the screenshot and run the flow. 
 
-   > [!div class="mx-imgBorder"]
-   > ![View all key-value pairs on an invoice.](media/invoice-processing-kvp-definition.png "A flow with the Create HTML table action. From input has keyValuePairs. Columns is set to Custom. First row: header is Key, Value is Detected key. Second row: keader is Value and Value is Detected value ")
+:::image type="content" source="media/invoice-processing-kvp-definition.png" alt-text="Screenshot of all key-value pairs on an invoice.":::
 
-   > [!div class="mx-imgBorder"]
-   > ![View all key-value pairs on an invoice - results.](media/invoice-processing-kvp-run.png "Displays the results of the Create HTML table action after running the flow")
+:::image type="content" source="media/invoice-processing-kvp-run.png" alt-text="Screenshot of all key-value pairs on an invoice - results.":::
 
-To extract a specific key for which you know its value, you can use the **Filter array** action as shown on the screenshot below. In the example of the screenshot, we want to extract the value for the key *Tel .:*
+To extract a specific key for which you know its value, you can use the **Filter array** action as shown on the screenshot below. In the example of the screenshot, we want to extract the value for the key **Tel .:**
 
-   > [!div class="mx-imgBorder"]
-   > ![Retrieve a value given a key.](media/invoice-processing-kvp-extract.png "A flow with the Filter array action. From is set to keyValuePairs. Choose a value is set to Detected key is equal to and then the text of the key to extract")
+:::image type="content" source="media/invoice-processing-kvp-extract.png" alt-text="Screenshot of how to retrieve a value given a key.":::
 
 ## Limits
 
@@ -156,8 +155,7 @@ In this example, we've trained a custom document processing model to extract a *
 
 The flow is triggered when a new invoice is added to a SharePoint folder. It then calls the invoice processing prebuilt AI model to extract its data. Next, we check if the vendor for the invoice that has been processed is either from Adatum or Contoso. If it’s the case, we then call a custom document processing model that we’ve trained to get that loyalty number. Finally, we save the extracted data from the invoice in an Excel file.
 
-   > [!div class="mx-imgBorder"]
-   > ![Invoice and document processing flow.](media/invoice-and-form-process-flow.png "Create a flow that uses a document processing model")
+:::image type="content" source="media/invoice-and-form-process-flow.png" alt-text="Screenshot of an invoice and document processing flow.":::
 
 ### Use a custom document processing model if the confidence score for a field returned by the invoice processing prebuilt model is low
 
@@ -165,8 +163,7 @@ In this example, we've trained a custom document processing model to extract the
 
 The flow is triggered when a new invoice is added to a SharePoint folder. It then calls the invoice processing prebuilt AI model to extract its data. Next, we check if the confidence score for the *Invoice total value* property is less than 0.65. If it’s the case, we then call a custom document processing model that we’ve trained with invoices where we usually get a low confidence score for the total field. Finally, we save the extracted data from the invoice into an Excel file.
 
-   > [!div class="mx-imgBorder"]
-   > ![Invoice and document processing flow for low scores.](media/invoice-and-form-process-flow2.png "Create a flow that uses a document processing model for low scores")
+:::image type="content" source="media/invoice-and-form-process-flow2.png" alt-text="Screenshot of an invoice and document processing flow for low scores.":::
  
 ### Use the invoice processing prebuilt model to handle invoices that a custom document processing model hasn’t been trained to handle
 
@@ -174,11 +171,12 @@ One way to use the invoice processing prebuilt model is to use it as a fallback 
 
 This flow is triggered when a new invoice is added to a SharePoint folder. It then calls a custom document processing model to extract its data. Next, we check if the confidence score for the detected collection is less than 0.65. If it’s the case, it probably means the provided invoice isn't a good match for the custom model. We then call the prebuilt invoice processing model. Finally, we save the extracted data from the invoice in an Excel file.
 
-   > [!div class="mx-imgBorder"]
-   > ![Invoice and document processing flow for new invoices.](media/invoice-and-form-process-flow3.png "Create a flow that uses a document processing model for new invoices")
+:::image type="content" source="media/invoice-and-form-process-flow3.png" alt-text="Screenshot of an invoice and document processing flow for new invoices.":::
 
 ### See also
 
-[Training: Extract invoice data with AI Builder’s prebuilt model (module)](/training/modules/ai-builder-invoice-processing/)
+- [Training: Extract invoice data with AI Builder’s prebuilt model (module)](/training/modules/ai-builder-invoice-processing/)
+- [Video: How to automate invoice data copy to Excel in 1 minute](https://www.youtube.com/watch?v=PD2eKTzkZ70)
+
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,17 +1,19 @@
 ---
-title: Use AI Builder in Teams - AI Builder | Microsoft Docs
-description: Provides information about how to use AI Builder templates in Teams.
-author: Antonio-Rodrigues
-manager: cdbellar
+title: Use AI Builder in Teams
+description: Learn how to use AI Builder templates in Teams.
+author: phil-cmd
+contributors:
+  - phil-cmd
+  - Antonio-Rodrigues
+  - v-aangie
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/18/2022
-ms.author: antrod
+ms.date: 02/13/2023
+ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
 # Use AI Builder in Teams
-
 
 You can use Power Automate templates in Teams that solve a specific business purpose using AI Builder actions.
 
@@ -27,10 +29,9 @@ You can use Power Automate templates in Teams that solve a specific business pur
 
 1. Select the Power Automate app, and then select the **Create** tab.
 
-   From there you can search for the AI Builder templates listed in the next section in this article.
+   From there, you can search for the AI Builder templates listed in the next section in this article.
 
-   > [!div class="mx-imgBorder"]
-   > ![Screenshot of the templates list.](media/templates-list.png "Templates list in Teams")
+    :::image type="content" source="media/templates-list.png" alt-text="Screenshot of the templates list.":::
 
 ## Create a flow from a template
 
@@ -38,31 +39,29 @@ You can use Power Automate templates in Teams that solve a specific business pur
 
     - If you don't have a [Microsoft Power Platform environment with database](/power-platform/admin/create-environment#create-an-environment-with-a-database), you'll see the following dialog. Select **Continue** to add a database. It usually takes a couple of minutes (in some cases it can take more than one hour) and has to be done only once.
 
-        > [!div class="mx-imgBorder"]
-        > ![Screenshot of No Dataverse database found.](media/no-dataverse.png "No Dataverse database found")
+     :::image type="content" source="media/no-dataverse.png" alt-text="Screenshot of No Dataverse database found.":::
 
     - If you already have a Power Platform environment with database, you'll land on the simplified template experience for Teams. The first screen asks you to validate connections.
 
 1. Once your connections are valid, select **Continue**.
 
-   > [!NOTE]
-   > An AI Builder trial will be started or extended if needed. This action will be performed silently upon selecting **Continue**.
+    > [!NOTE]
+    > An AI Builder trial will be started or extended if needed. This action will be performed silently upon selecting **Continue**.
 
-   > [!div class="mx-imgBorder"]
-   > ![Screenshot of the 30-day free trial message.](media/start-trial.png "30-day free trial message")
+    :::image type="content" source="media/start-trial.png" alt-text="Screenshot of the 30-day free trial message.":::
 
 1. Enter the parameters required by the template to create the flow.
 
-   > [!NOTE]
-   > It's also possible to select **Edit in advanced mode**. This will open the full flow editor within Teams.
+    > [!NOTE]
+    > It's also possible to select **Edit in advanced mode**. This will open the full flow editor within Teams.
 
 1. Once you entered all the parameters, select **Create flow**. After few seconds, your flow will be created and ready to use.
 
-   > [!div class="mx-imgBorder"]
-   > ![Screenshot of the Create a flow screen.](media/create-flow.png "Create a flow screen")
+    :::image type="content" source="media/create-flow.png" alt-text="Screenshot of the Create a flow screen.":::
 
 Created flows are visible and can be modified from the Power Automate home page. 
 
 ### See also
 
-[Use flows in Microsoft Teams](/power-automate/teams/overview)
+- [Use flows in Microsoft Teams](/power-automate/teams/overview)
+- [Video: How to set up instant Microsoft Teams notifications for negative emails in 1 minute](https://www.youtube.com/watch?v=qfmQAObXTHQ)
