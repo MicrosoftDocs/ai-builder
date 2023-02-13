@@ -29,7 +29,7 @@ You can use Power Automate templates in Teams that solve a specific business pur
 
 1. Select the Power Automate app, and then select the **Create** tab.
 
-   From there you can search for the AI Builder templates listed in the next section in this article.
+   From there, you can search for the AI Builder templates listed in the next section in this article.
 
     :::image type="content" source="media/templates-list.png" alt-text="Screenshot of the templates list.":::
 
