@@ -9,7 +9,7 @@ contributors:
   - v-aangie
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/14/2022
+ms.date: 01/23/2023
 ms.author: jofernan
 ms.reviewer: angieandrews
 ---
@@ -39,7 +39,6 @@ The following tables show which AI Builder features are available in each region
 |Object detection|GA|GA|-|GA| -|-|GA|GA| -|-|-|-|-|GA|GA|
 |Document processing (for structured and semi-structured documents)  |GA|GA|GA|GA| GA|GA|GA|GA| GA|GA|GA| GA|GA|GA|GA|
 |Document processing (for unstructured documents) |GA|GA|GA|GA|GA|-|GA|GA|-|GA|-| -|-|GA|GA|
-|Image classification |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA|GA |GA |GA |GA |GA |
 
 ### Prebuilt models
 
@@ -75,7 +74,6 @@ AI Builder is available in US Government environments with the features listed i
 |Object detection|GA|GA|-|
 |Document processing (for structured and semi-structured documents) |GA|GA|-|
 |Document processing (for unstructured documents) |GA|GA|-|
-|Image classification | - | - | - |
 
 ### Prebuilt models
 |Feature |Government Community Cloud (GCC) |Government Community Cloud – High (GCC High) |Department of Defense (DoD) |
