@@ -163,7 +163,6 @@
     - name: Transition to the newest document processing model version
       href: form-processing-transition.md      
   - name: Bring your own AI model
-  items:
   - name: Azure machine learning models
     items:
     - name: Create and register your own model
