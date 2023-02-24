@@ -1,6 +1,26 @@
 {
   "redirections": [
     {
+      "source_path": "ai-builder-docs/lobe-overview.md",
+      "redirect_url": "/power-platform/important-changes-coming",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-builder-docs/lobe-export.md",
+      "redirect_url": "/power-platform/important-changes-coming",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-builder-docs/image-classification-model-in-flow.md",
+      "redirect_url": "/power-platform/important-changes-coming",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-builder-docs/image-classification-component-in-powerapps.md",
+      "redirect_url": "/power-platform/important-changes-coming",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ai-builder-docs/form-processing-multipage.md",
       "redirect_url": "create-form-processing-model",
       "redirect_document_id": "false"
