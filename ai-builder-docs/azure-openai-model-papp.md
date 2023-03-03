@@ -73,7 +73,7 @@ Congratulations! You've created an app that uses an AI Builder Create text with 
 
 ## Parameters
 
-For a list of the parameters used in Azure OpenAI Service, go to [parameters] in Power Automate(azure-openai-model-pauto.md#parameters).
+For a list of the parameters used in Azure OpenAI Service, go to [parameters](azure-openai-model-pauto.md#parameters) in Power Automate.
 
 ### See also
 
