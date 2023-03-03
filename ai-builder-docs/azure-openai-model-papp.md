@@ -63,9 +63,13 @@ To bind the **Create text with GPT** model to a control, identify an event of th
 
 1. On the **Screens** tab, select **GenerateText**.
 
-1. Notice the Power Fx function: `Set(ModelResponse, 'OpenAI text completion'.Predict(PromptText).Text)`
+1. Notice the Power Fx function:
 
-    The **.Predict()** on this model accepts a string as a parameter and returns the generated text as a response text. In the following example, we're passing the instruction from the text box as a prompt to the **Create text with GPT** model, and the response from the model appears in the **Response** label.  
+    ```powerapps-dot
+    `Set(ModelResponse, 'OpenAI text completion'.Predict(PromptText).Text)`
+    ````
+
+    The `.Predict()` on this model accepts a string as a parameter and returns the generated text as a response text. In the following example, we're passing the instruction from the text box as a prompt to the **Create text with GPT** model, and the response from the model appears in the **Response** label.  
 
     :::image type="content" alt-text="Screenshot of binding the model prediction to a control." source="media/azure-openai-model-papp/generate-text.png":::
 

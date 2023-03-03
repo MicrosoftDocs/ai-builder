@@ -19,9 +19,6 @@ ms.reviewer: angieandrews
 The Azure OpenAI Service generative text capability is a powerful tool in AI Builder. It allows you to create custom AI capabilities quickly and easily for natural language processing (NLP). This preview capability enables you to build scenarios such as summarization, information extraction, autogenerate response, classification, translation, and more. It also allows you to use large language models to generate new text, which can be used for a variety of purposes.
 
 > [!IMPORTANT]
-> - This is a preview feature.
->
-> - [!INCLUDE[cc_preview_features_definition](includes/cc-preview-features-definition.md)]
 >
 > - This capability is in process of rolling out, and may not be available in your region yet.
 >
@@ -45,7 +42,7 @@ The following list provides some real-life scenarios of how your business can us
 
 ## Try it out
 
- Try out the Azure OpenAI Service model to learn how to instruct it to generate a desired text. The prompt engineering interface comes with some sample prompts to help experiment with this capability.
+ Try out the Azure OpenAI Service model to learn how to instruct it to generate a desired text. The prompt engineering interface comes with some sample prompts to help you try various instructions in this capability.
 
 To open the model:
 
