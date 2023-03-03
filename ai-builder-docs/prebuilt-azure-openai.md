@@ -20,6 +20,10 @@ The Azure OpenAI Service generative text capability is a powerful tool in AI Bui
 
 > [!IMPORTANT]
 >
+> - This is a preview feature.
+>
+> - [!INCLUDE[cc_preview_features_definition](includes/cc-preview-features-definition.md)]
+>
 > - This capability is in process of rolling out, and may not be available in your region yet.
 >
 > - This capability  may be subject to usage limits or capacity throttling.

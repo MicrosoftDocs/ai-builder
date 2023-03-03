@@ -19,9 +19,6 @@ ms.reviewer: angieandrews
 This topic explains *prompt engineering* and other key concepts to help you create powerful applications that can generate text from your input.
 
 > [!IMPORTANT]
-> - This is a preview feature.
->
-> - [!INCLUDE[cc_preview_features_definition](includes/cc-preview-features-definition.md)]
 >
 > - This capability is in process of rolling out, and may not be available in your region yet.
 >
