@@ -16,7 +16,7 @@ ms.reviewer: angieandrews
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-GPT models (Generative Pre-trained Transformer) are a type of natural language processing (NLP) model that's pre-trained on a large corpus of text. These models have become increasingly popular due to their ability to generate human-like text from a given prompt. They are being used in a variety of applications, from text summarization to automated question answering. When combined with workflow automation, the AI models can be used to automate a variety of tasks. For example, GPT models can be used to automatically generate drafts of emails, customer service responses, and product descriptions. They can also be used to generate proposed customer service scripts, allowing customer service agents to quickly respond to customer inquiries.
+GPT models (Generative Pre-trained Transformer) are a type of natural language processing (NLP) model that's pre-trained on a large corpus of text. These models have become increasingly popular due to their ability to generate human-like text from a given prompt. They're being used in a variety of applications, from text summarization to automated question answering. When combined with workflow automation, the AI models can be used to automate a variety of tasks. For example, GPT models can be used to automatically generate drafts of emails, customer service responses, and product descriptions. They can also be used to generate proposed customer service scripts, allowing customer service agents to quickly respond to customer inquiries.
 
 > [!IMPORTANT]
 > - This is a preview feature.
@@ -29,7 +29,7 @@ GPT models (Generative Pre-trained Transformer) are a type of natural language p
 
 ## Create instructions
 
-By combining the power of these models with Power Automate, users can automate mundane tasks such as writing emails or generating reports, which frees up time for employees to focus on more important tasks. This can lead to increased productivity and cost savings for the company.  
+By combining the power of these models with Power Automate, you can automate mundane tasks such as writing emails and generating reports, which can free up time for employees to focus on more important tasks. This can lead to increased productivity and cost savings for the company.  
 
 1. Sign in to [Power Automate](https://make.powerautomate.com). 
 
@@ -53,7 +53,7 @@ By combining the power of these models with Power Automate, users can automate m
 
 ## Insert human oversight
 
-Whenever you intend to post AI-generated content anywhere, you must decide if you are ok for such content to be posted on your behalf or on behalf of your organization. AI-generation context can be factually incorrect, inappropriate, or biased at times. It is strongly recommended that you employ the safe practice of inserting [human oversight](azure-openai-textgen.md#human-oversight) before posting externally (and even internally to Teams or message boards, for example). 
+Whenever you intend to post AI-generated content anywhere, you must decide if you're ok for such content to be posted on your behalf or on behalf of your organization. AI-generation context can be factually incorrect, inappropriate, or biased at times. It's recommended that you employ the safe practice of inserting [human oversight](azure-openai-textgen.md#human-oversight) before posting externally (and even internally to Teams or message boards, for example). 
 
 To insert human oversight:
 

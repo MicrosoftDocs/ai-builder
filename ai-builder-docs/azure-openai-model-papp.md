@@ -55,7 +55,7 @@ Next, bind the model prediction with a control or an event to trigger the model 
 
 The screenshot in this section shows a simple application to answer any question specified in the instruction text box.
 
-To bind the **Create text with GPT** model to a control, identify an event of the control that you want to invoke the model prediction. In this case, we are binding the model to the **Generate Text** button and the **OnSelect** event on the button. The result is that whenever the button is selected, the **OnSelect** event is triggered, which triggers the Power Fx function mentioned here.
+To bind the **Create text with GPT** model to a control, identify an event of the control that you want to invoke the model prediction. In this case, we're binding the model to the **Generate Text** button and the **OnSelect** event on the button. The result is that whenever the button is selected, the **OnSelect** event is triggered, which triggers the Power Fx function mentioned here.
 
 1. On the list of icons to the left, select **Tree view**.
 
@@ -67,7 +67,7 @@ To bind the **Create text with GPT** model to a control, identify an event of th
 
     The **.Predict()** on this model accepts a string as a parameter and returns the generated text as a response text. In the following example, we're passing the instruction from the text box as a prompt to the **Create text with GPT** model, and the response from the model appears in the **Response** label.  
 
-    :::image type="content" alt-text="Screenshot of selecting a data source." source="media/azure-openai-model-papp/generate-text.png":::
+    :::image type="content" alt-text="Screenshot of binding the model prediction to a control." source="media/azure-openai-model-papp/generate-text.png":::
 
 Congratulations! You've created an app that uses an AI Builder Create text with GPT capability. On the top of the screen, select **Save** to save all the changes in the app, and then select **Play** to test the application.  
 

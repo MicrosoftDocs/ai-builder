@@ -227,7 +227,7 @@
     href: use-in-powerapps-overview.md
   - name: Use your Azure OpenAI Service model in Power Apps (preview)
     href: azure-openai-model-papp.md
-    - name: Use your prediction model in Power Apps
+  - name: Use your prediction model in Power Apps
     href: prediction-model-driven-app.md
   - name: Use the form processor component in Power Apps
     href: form-processor-component-in-powerapps.md
