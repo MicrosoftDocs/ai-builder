@@ -60,6 +60,12 @@ To open the model:
 
 The next window that opens is where you can create text that can be used for many tasks. To learn how to the Azure OpenAI Service generative text capability in this window, go to [How text generation in Azure OpenAI Service works](azure-openai-textgen.md).
 
+## Application for preview of text generation capability within AI Builder
+
+This new capability within AI Builder enables citizen developers to instruct the Azure OpenAI Service model to generate natural language text. 
+
+This capability is in gated preview, and you'll need to apply for consideration to the trial. To be considered for early access to trial this capability, you can apply [here](https://forms.office.com/Pages/DesignPageV2.aspx?subpage=design&token=3241b6fa9d5a4b958858fea0318f7f87&id=v4j5cvGGr0GRqy180BHbR2LogRPRiTJDo1Rd8KnmcFRUMzlLTDZVQlJKSzNIWkVCMzE0VDFYVzk2QS4u).
+
 ### See also
 
 - [How text generation in Azure OpenAI Service works (preview)](azure-openai-textgen.md)
