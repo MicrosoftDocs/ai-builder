@@ -66,7 +66,7 @@ To bind the **Create text with GPT** model to a control, identify an event of th
 1. Notice the Power Fx function:
 
     ```powerapps-dot
-    `Set(TextCompletionResult, 'Create text with GPT'.Predict(TextInput1.Text));`
+    Set(TextCompletionResult, 'Create text with GPT'.Predict(TextInput1.Text));
     ````
 
     The `.Predict()` on this model accepts a string as a parameter and returns the generated text as a response text. In the following example, we're passing the instruction from the text box as a prompt to the **Create text with GPT** model, and the response from the model appears in the **Response** label.  
