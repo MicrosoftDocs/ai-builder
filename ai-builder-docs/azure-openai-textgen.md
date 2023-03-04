@@ -20,7 +20,12 @@ This topic explains *prompt engineering* and other key concepts to help you crea
 
 > [!IMPORTANT]
 >
-> - This capability is in process of rolling out, and may not be available in your region yet.
+> - This is a preview feature.
+>
+> - [!INCLUDE[cc_preview_features_definition](includes/cc-preview-features-definition.md)]
+>
+> - For more information, go to our [preview terms](https://go.microsoft.com/fwlink/?linkid=2189520).
+>- This capability is in process of rolling out, and may not be available in your region yet.
 >
 > - This capability  may be subject to usage limits or capacity throttling.
 
