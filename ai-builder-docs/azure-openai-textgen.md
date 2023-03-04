@@ -70,7 +70,7 @@ There are generally two parts of any prompt:
 
 Usually in an automation task, the first part of the prompt (the instruction) remains constant. The second part of the prompt (the context) gets replaced by a dynamic content, such that you can reuse the instruction in an automation workflow. For example, we're building automation to summarize weekly customer feedback and to generate a positive toned response. We would build an automation to filter out the weekly emails containing customer feedback and give a prompt to the GPT model with instruction part as follows:
 
-“*Summarize the following customer feedback into bullet points, identify each distinct topic." Additionally, generate a positive tone response, indicating that we will take action on key points they have highlighted.*"
+“*Summarize the following customer feedback into bullet points, identify each distinct topic. Additionally, generate a positive tone response, indicating that we will take action on key points they have highlighted.*"
 
 :::image type="content" alt-text="Screenshot of the Azure OpenAI Service model in the AI Builder Explore screen." source="media/azure-openai-textgen/instruction.png":::
 

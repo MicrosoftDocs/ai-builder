@@ -44,9 +44,9 @@ The following list provides some real-life scenarios of how your business can us
 
 - Create a translation tool that can accurately help translate text from one language to another. The possibilities are endless. 
 
-## Try it out
+## Explore the model
 
- Try out the Azure OpenAI Service model to learn how to instruct it to generate a desired text. The prompt engineering interface comes with some sample prompts to help you try various instructions in this capability.
+Find the Azure OpenAI Service model on the **Explore** page under the **Text** models. This will open a prompt engineering interface. The interface comes with sample prompts to help you try various instructions in this capability. You can also create your own prompts to instruct the model.
 
 To open the model:
 
