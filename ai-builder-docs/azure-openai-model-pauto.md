@@ -99,4 +99,3 @@ Congratulations! You've created a flow that uses an AI Builder create text with 
 - [Azure OpenAI Service model overview (preview)](prebuilt-azure-openai.md)
 - [How text generation in Azure OpenAI Service works (preview)](azure-openai-textgen.md)
 - [Use your Azure OpenAI Service model in Power Apps (preview)](azure-openai-model-papp.md)
-- [Training: Introduction to Azure OpenAI Service (module)](/training/modules/explore-azure-openai/)
