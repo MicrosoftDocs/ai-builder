@@ -51,6 +51,7 @@ The following table lists the data type, models type, and build type.
 | Documents       | [Document processing](form-processing-model-overview.md)         | Custom              |
 | Documents       | [Text recognition](prebuilt-text-recognition.md)        | Prebuilt            |
 | Documents       | [Receipt processing](prebuilt-receipt-processing.md)      | Prebuilt            |
+|Text             | [Azure OpenAI Service (preview)](prebuilt-azure-openai.md)         | Prebuilt  |
 | Text            | Category classification | [Prebuilt](prebuilt-category-classification.md) and [custom](text-classification-overview.md) |
 | Text            | Entity extraction       | [Prebuilt](prebuilt-entity-extraction.md) and [custom](entity-extraction-overview.md) |
 | Text            | [Key phrase extraction](prebuilt-key-phrase.md)   | Prebuilt            |
