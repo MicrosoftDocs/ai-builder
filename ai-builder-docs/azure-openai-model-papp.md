@@ -29,6 +29,10 @@ GPT model is a powerful tool for Power Apps, as it enables makers to quickly and
 >
 > - This capability  may be subject to usage limits or capacity throttling.
 
+>[!NOTE]
+>
+> This capability is in gated preview, and you'll need to apply for consideration to take part in the trial. To apply, go to [Limited preview request](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR2LogRPRiTJDo1Rd8KnmcFRUMzlLTDZVQlJKSzNIWkVCMzE0VDFYVzk2QS4u).
+
 ## Select an AI model
 
 1. Sign in to [Power Apps](https://make.powerapps.com).
