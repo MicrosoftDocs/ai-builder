@@ -105,4 +105,3 @@ To learn more about responsible AI, go to [Use cases for Azure OpenAI Service](/
 - [Azure OpenAI Service model overview (preview)](prebuilt-azure-openai.md)
 - [Use your Azure OpenAI Service model in Power Apps (preview)](azure-openai-model-papp.md)
 - [Use your Azure OpenAI Service model in Power Automate (preview)](azure-openai-model-pauto.md)
-- [Training: Introduction to Azure OpenAI Service (module)](/training/modules/explore-azure-openai/)
