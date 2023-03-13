@@ -44,6 +44,12 @@
   items:
   - name: Overview
     href: prebuilt-overview.md
+  - name: Azure OpenAI Service (preview)
+    items:
+    - name: Overview
+      href: prebuilt-azure-openai.md
+    - name: How text generation in Azure OpenAI Service works  
+      href: azure-openai-textgen.md
   - name: Business card reader
     href: prebuilt-business-card.md 
   - name: Category classification (preview)
@@ -189,6 +195,8 @@
       href: prediction-pwr-automate.md
   - name: Use a prebuilt AI Builder model in Power Automate
     items:
+    - name: Azure OpenAI Service model (preview)
+      href: azure-openai-model-pauto.md
     - name: Business card reader model
       href: flow-business-card-reader.md
     - name: Category classification model 
@@ -217,6 +225,8 @@
   items:
   - name: Overview
     href: use-in-powerapps-overview.md
+  - name: Use your Azure OpenAI Service model in Power Apps (preview)
+    href: azure-openai-model-papp.md
   - name: Use your prediction model in Power Apps
     href: prediction-model-driven-app.md
   - name: Use the form processor component in Power Apps
