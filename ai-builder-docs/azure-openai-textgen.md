@@ -1,6 +1,6 @@
 ---
 title: How text generation in Azure OpenAI Service works (preview)
-description: Learn what makes text generation possible, like prompt engineering, human oversight, and responsible AI.
+description: Learn what makes text generation with GPT possible, like prompt engineering, human inspection and oversight, and responsible AI in AI Builder.
 author: ashbhati
 contributors:
   - ashbhati
