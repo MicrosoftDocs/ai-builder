@@ -1,6 +1,6 @@
 ---
 title: Azure OpenAI Service model overview (preview)
-description: Learn about text generation with the Azure OpenAI Service prebuilt AI Builder model.
+description: Learn how to use text generation with GPT-3 and Azure OpenAI Service prebuilt model in AI Builder. Build ChatGPT-like experience in Power Platform.
 author: ashbhati
 contributors:
   - ashbhati

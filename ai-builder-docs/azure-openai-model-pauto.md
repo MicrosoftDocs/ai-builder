@@ -1,6 +1,6 @@
 ---
 title: Use your Azure OpenAI Service model in Power Automate (preview)
-description: Learn how to use the Azure OpenAI Service model in AI Builder in Power Automate.
+description: Learn how to use GPT and Azure OpenAI Service model in Power Automate with AI Builder.
 author: ashbhati
 contributors:
   - ashbhati
