@@ -8,7 +8,7 @@ contributors:
   - v-aangie
 ms.topic: conceptual
 ms.custom: intro-internal
-ms.date: 02/07/2023
+ms.date: 03/13/2023
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---
@@ -169,7 +169,7 @@ To learn more, go to [About trial environments](/power-platform/admin/trial-envi
 
 #### Can I block users in my organization from signing up for an AI Builder trial?
 
-Any individual can try out the features of AI Builder for 30 days and incur no costs to your company. This option is available to any user in a tenant and can't be disabled by an admin. Note that once some AI credits are purchased by your company (for example, either through capacity add-ons, or inclusion in some licenses), trials aren't proposed to users anymore.
+Any individual can try out the features of AI Builder for 30 days and incur no costs to your company. This option is available to any user in a tenant and can't be disabled by an admin. Once your company purchases some AI credits (for example, through capacity add-ons or inclusion in some licenses), trials aren't proposed to users anymore.
 
 #### What can I do with the 5,000 AI credits included in the per user plan with attended RPA?
 
@@ -177,11 +177,11 @@ Each user license grants you 5,000 credits, allowing you to assess the capabilit
 
 #### What happens if a user turns on/off AI Builder per user capacity add-on license?
 
-Some user licenses include seeded AI Builder credits. For example, the Power Apps per user license includes 500 seeded AI Builder credits. Whether or not the **AI Builder capacity per user add-on** is selected, the corresponding AI Builder credits are still added to the total number of AI Builder credits owned at your tenant level and can be used.
+Some user licenses include seeded AI Builder credits. For example, the Power Apps per user license includes 500 seeded AI Builder credits. If **AI Builder capacity per user add-on** isn't selected, the 500 AI Builder credits are still added to the total number of AI Builder credits owned at your tenant level and can be used.
 
 #### What happens to my data and models when my AI Builder trial expires?
 
-Data and models are kept within your environment and aren't deleted. Data and models are only deleted when the environment is deleted.
+Data and models are deleted only when the environment is deleted.
 
 ### See also
 
