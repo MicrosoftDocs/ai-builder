@@ -1,6 +1,6 @@
 ---
 title: Use your Azure OpenAI Service model in Power Apps (preview)
-description: Learn how to use the Azure OpenAI Service model in AI Builder in Power Apps.
+description: Learn how to use GPT and Azure OpenAI Service model in Power Apps with AI Builder.
 author: ashbhati
 contributors:
   - ashbhati
