@@ -2,10 +2,12 @@
 title: Use predict action in Power Automate - AI Builder | Microsoft Docs
 description: Provides information about how to use the predict action in Power Automate
 author: Antonio-Rodrigues
-manager: cdbellar
+contributors:
+  - Antonio-Rodrigues
+  - v-aangie
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/31/2022
+ms.date: 03/13/2023
 ms.author: antrod
 ms.reviewer: angieandrews
 ---
@@ -26,8 +28,7 @@ You can use dedicated actions for each AI Builder model in Power Automate. Howev
 
 1. Select **Predict from AI Builder** or **Predict using AI Builder models from Microsoft Dataverse**. Both actions offer the same features.
 
-    > [!div class="mx-imgBorder"]
-    > ![Predict action.](media/predict-action.png "Predict action")
+    :::image type="content" source="media/predict-action.png" alt-text="Screenshot of the Predict action.":::
 
 1. In the **Model** input, select a custom model you created or choose a prebuilt model. Here is the list of the prebuilt models available:
    - Business card reader: BusinessCard model
@@ -85,22 +86,20 @@ In this section, we'll explain how to configure the AI Builder predict action fo
         "@@odata.type": "Microsoft.Dynamics.CRM.expando",
         "mimeType": "@{triggerBody()['text']}",
         "base64Encoded": "@{string(triggerBody()?['file']?['contentBytes'])}"
+        "pageRange": "1"
         }
     }
     ```
 
-    > [!div class="mx-imgBorder"]
-    > ![Predict action with dynamic model ID.](media/DynModelId-1.png "Predict action with dynamic model ID")
+    :::image type="content" source="media/DynModelId-1.png" alt-text="Screenshot of the Predict action with dynamic model ID.":::
 
 1. Select **Save** in the upper-right corner, and then select **Test** to try out your flow:
 
-    > [!div class="mx-imgBorder"]
-    > ![Test predict action.](media/DynModelId-2.png "Test predict action")
+    :::image type="content" source="media/DynModelId-2.png" alt-text="Screenshot of testing the predict action.":::
 
 1. In the flow run details, get the model JSON output in the **OUTPUTS** section of the predict action. This output is useful to build downstream actions using values of the model.
 
-    > [!div class="mx-imgBorder"]
-    > ![Get output from run results.](media/DynModelId-3.png "Get output from run results")
+     :::image type="content" source="media/DynModelId-3.png" alt-text="Screenshot of getting output from run results.":::
 
 1. Go back to your flow in edit mode. 
 
@@ -110,9 +109,7 @@ In this section, we'll explain how to configure the AI Builder predict action fo
     @{outputs('Predict')?['body/responsev2/predictionOutput/labels/Total/value']}
     ```
 
-    > [!div class="mx-imgBorder"]
-    > ![Use predict output.](media/DynModelId-4.png "Use predict output")
-
+    :::image type="content" source="media/DynModelId-4.png" alt-text="Screenshot of using the predict output.":::
 
 ### Object detection model
 
