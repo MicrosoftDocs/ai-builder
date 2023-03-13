@@ -63,7 +63,6 @@ If a business card is detected, the business card model will try to locate and e
 | **AddressState**| The state address|
 | **AddressStreet**| The street address|
 | **BusinessPhone**| The first phone or fax number|
-| **CleanedImage**| The image after processing, where the business card appears cropped and enhanced from the original image|
 | **CompanyName**| The company name|
 | **Department**| The organization department found|
 | **Email**| The contact email found in the business card, if any|
