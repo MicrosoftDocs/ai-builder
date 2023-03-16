@@ -54,17 +54,18 @@
       "feedback_product_url": "https://go.microsoft.com/fwlink/?linkid=2092048",
       "search.app": [
         "PowerApps",
-        "Flow"
+        "Flow",
+        "powerapps-docs",
+        "powerautomate-docs"
       ],
-      "search.audienceType": [
-        "maker"
-      ],
-      "search.appverid": "met150",
       "recommendations": true
     },
     "fileMetadata": {
       "searchScope": {
-        "**.*": [ "Power Platform", "AI Builder" ]
+        "**.*": [
+          "Power Platform",
+          "AI Builder"
+        ]
       },
       "ms.service": {
         "**.*": "aibuilder"
