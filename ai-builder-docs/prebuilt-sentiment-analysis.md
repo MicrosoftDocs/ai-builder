@@ -4,7 +4,7 @@ description: Describes the prebuilt sentiment analysis AI model in AI Builder.
 author: alanabrito
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/21/2022
+ms.date: 03/23/2023
 ms.author: alanab
 ms.reviewer: angieandrews
 ---
@@ -74,6 +74,7 @@ The following applies to calls made per environment across the following prebuil
 
 ### See also
 
-[Training: Analyze the sentiment of text with AI Builder (module)](/training/modules/get-started-with-ai-builder-sentiment-analysis/)
+- [Training: Analyze the sentiment of text with AI Builder (module)](/training/modules/get-started-with-ai-builder-sentiment-analysis/)
+- [Video: How to set up instant Microsoft Teams notifications for negative emails in 1 minute](https://www.youtube.com/watch?v=qfmQAObXTHQ)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
