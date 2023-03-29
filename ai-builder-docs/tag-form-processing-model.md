@@ -1,6 +1,6 @@
 ---
-title: Create a document processing custom model in AI Builder
-description: Learn how to create a document processing model in AI Builder.
+title: Tag documents in a document processing model
+description: Learn how to tag documents in a document processing model.
 author: CedrickBellarosa
 contributors:
   - v-aangie
