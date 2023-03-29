@@ -21,7 +21,8 @@ We’ve added the ability to declare this type during the field creation step of
 
 :::image type="content" source="media/document-processing-define-field-type.gif" alt-text="Animation of defining the fields' type.":::
 
-NOTE: For each field, only one convention is allowed for a given field for all the collections of this model. For instance, if you extract a field amount selecting “use comma (,) as decimal separator”, the following text 1234,56 or 1 234,56 will be converted to 1234.56. Amounts with format 12,34,576.78 or 1,234.56 won’t be converted.
+ > [!NOTE]
+ > For each field, only one convention is allowed for a given field for all the collections of this model. For instance, if you extract a field amount selecting “use comma (,) as decimal separator”, the following text 1234,56 or 1 234,56 will be converted to 1234.56. Amounts with format 12,34,576.78 or 1,234.56 won’t be converted.
 
 During the extraction, the text will be automatically converted according to the convention provided. This converted value can be retrieved using the “YOURFIELDNAME value” result. This value will be empty If the conversion is not possible  . The original text can be retrieved using the “YOURFIELDNAME text” result. 
 
