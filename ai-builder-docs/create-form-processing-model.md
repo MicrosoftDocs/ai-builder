@@ -68,30 +68,6 @@ For each collection that you create, you need to upload at least five sample doc
  > [!NOTE]
  > You can create up to 200 collections per model.
 
-## Tag documents
-
-By tagging the documents you've uploaded, you're teaching your AI Builder model to extract the fields and tables you've specified.
-
-To start tagging, select one of the collections on the right panel.
-
-### Tag fields
-
-To tag a field, draw a rectangle around the field you're interested in and select the field name that it corresponds to.
-
-:::image type="content" source="media/form-processing-multiple-layout-tag-fields.gif" alt-text="Animation of tagging fields in a document.":::
-
-At any time, you can resize to adjust your selection.
-
-If a field ends on one line and begins on another line, you can tag it using the **‘Continue tagging’** option.
-
-:::image type="content" source="media/document-processing-continue-tagging-doc.gif" alt-text="Animation of tagging multiple words and line breaks.":::
-
-You can also use the **Control** key in Windows or **Command ⌘** in macOS to tag multiple words at once. You can also use the **Shift** key to select the first and last word to tag all words between the two.
-
-When you hover over words in your documents, light blue boxes may appear. These indicate that you can draw a rectangle around those words to select a field.
-
-:::image type="content" source="media/form-select-fields.png" alt-text="Screenshot of selecting fields close up.":::
-
 ## Next step
 
 [Tag documents in a document processing model](tag-form-processing-model.md)
