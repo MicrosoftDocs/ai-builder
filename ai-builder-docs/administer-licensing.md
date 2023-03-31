@@ -15,25 +15,41 @@ ms.reviewer: angieandrews
 
 # AI Builder licensing
 
-AI Builder is licensed as an add-on to your Power Apps, Power Automate, or Dynamics 365 license. This means you can start your AI Builder trial after you have a Power Apps, Power Automate, or Dynamics 365 license that allows you to create a Microsoft Power Platform environment.
-
-The AI Builder capacity add-on doesn't exist in the Microsoft 365 business premium license.
-
 > [!NOTE]
 >
 > You might receive this notification when you sign in: **You’ve consumed all of your AI Builder credits. Contact your administrator to get more capacity**. If you get this message, read this article to learn how to increase capacity and get details and FAQs on licensing.
 >
 > :::image type="content" source="media/consumed-all-credits-image-capacity-notification-a.png" alt-text="Screenshot of the AI Builder credits banner notification.":::
 
-## Purchase additional AI Builder capacity
+## Set up an environment ready for AI Builder
 
-Ensure that your environment is properly credited by downloading your [AI Builder consumption report](administer-consumption-report.md).
+Prerequisite: AI Builder is licensed as an add-on to your Power Apps, Power Automate, or Dynamics 365 license. This means you need a Power Apps, Power Automate, or Dynamics 365 license that allows you to create a Microsoft Power Platform environment.
 
-If your environment has no more capacity, you need to purchase capacity add-ons. The  AI Builder capacity add-on can be purchased by a billing administrator in Microsoft 365 admin center, or by using your usual channel.
+
+First, you need to be entitled to some AI Builder capacity.
+This can be through paid capacity : either by purchasing AI Builder capacity add-on or purchasind other licenses offering some seeded capacity.
+This can be through a trial: capacity is then linked to a user. Trials are only available when there is no paid capacity within the tenant. 
+
+Then a tenant administrator has to allocate part or all of the purchased capacity to the environment where you want to use AI Builder.
+It's also possible to leave part or all of the purchased capacity unallocated, at tenant level. In that case, all environments without allocated capacity can consume these tenant-level unallocated credits.
+
+## Check the consumption level of an environment
+
+When browsing AI Builder pages in Power Apps or Power Automate portal, if you get this notification **You’ve consumed all of your AI Builder credits. Contact your administrator to get more capacity**, it means the monthly consumption is higher than the allocated capacity. 
+
+You can get details on your environment allocation by checking environment details in Capacity/AddOns [Manage capacity](administer.md#manage-capacity).
+
+You can get details on your environment consumption by checking the  [AI Builder consumption report](administer-consumption-report.md).
+Adding all the consumptions of the current month of a specific environment will give you the monthly consumption of this environment.
+
+If your environment has no more capacity, you need to provide capacity to your environment, by reallocating existing capacity (from tenant or environment level) or purchasing additional capacity and make it available to your environment. 
 
 The <a href="https://powerapps.microsoft.com/ai-builder-calculator/" target="_blank">AI Builder calculator</a> helps estimate the required add-on capacity based on your estimated consumption.
 
-Some Microsoft products like Power Apps per app plan, Power Apps per user plan, and Power Automate per user plan with attended RPA include some AI Builder capacity. Your environment admin can check entitlement in Power Platform admin center in [Capacity add-ons](/power-platform/admin/capacity-add-on). When this amount isn't enough, you can complete it with one or several AI Builder capacity add-ons.
+
+## Purchase AI Builder capacity
+
+Some Microsoft products like Power Apps per app plan, Power Apps per user plan, and Power Automate per user plan with attended RPA include some AI Builder capacity. Your environment admin can check entitlement in Power Platform admin center in [Capacity add-ons](/power-platform/admin/capacity-add-on). When this amount isn't enough, you need to complete it with one or several AI Builder capacity add-ons.
 
 To purchase the AI Builder credit add-on in the Microsoft 365 admin center:
 
@@ -45,30 +61,32 @@ To purchase the AI Builder credit add-on in the Microsoft 365 admin center:
 
 1. Select **Purchase services**.
 
-## Paid licenses
-
-First, you have to purchase AI Builder capacity add-on for your Power Apps or Power Automate licenses. Then an administrator has to allocate that capacity to any Power Apps environment where you want to use AI Builder.
-
-### Allocate capacity
+## Allocate capacity
 
 Once entitled to AI Builder capacity, credits are unallocated and available as a pool on the tenant, which can be used on any environment. The administrator can restrict usage by allocating all credits to specific environments.
 
 To learn how to allocate capacity in Power Platform admin center, go to [Capacity add-ons](/power-platform/admin/capacity-add-on). To learn how to allocate credits, go to [Manage capacity](administer.md#manage-capacity).
 
+## Capacity Overuse
+When an environment consumption exceeds its credit allocation, the following functions will begin to fail:
+- Create a model or a new version of a model
+
+- Run a model within Power Apps or in a Power Automate flow.
+
+- Scheduled model run or retrain
+  - Some scenarios allow scheduled run or retrain, which is configured on the model settings panel. These scheduled tasks will fail when you exceed capacity. 
+
+Only limited overage is allowed. To continue using AI Builder when you exceed capacity, purchase AI Builder add-on capacity, and allocate it to your environment.
+
+
 ## Trial licenses
 
 Want to get started using AI Builder? Use premium features for a limited time with a [trial license](https://powerapps.microsoft.com/ai-builder/), or use preview features without obtaining a license at all.
+AI Builder is licensed as an add-on to your Power Apps, Power Automate, or Dynamics 365 license. This means you can start your AI Builder trial after you have a Power Apps, Power Automate, or Dynamics 365 license that allows you to create a Microsoft Power Platform environment.
 
 > [!NOTE]
 > You *can't start an AI Builder trial* if you have AI Builder credits already on your tenant by purchasing a capacity add-on or through other products.
 
-Learn more about AI Builder licensing in the following articles:
-
-- [Microsoft Power Apps and Power Automate Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=2085130)
-
-- [AI Builder licensing FAQ](/power-platform/admin/powerapps-flow-licensing-faq#ai-builder)
-
-- [Estimate the AI Builder capacity that’s right for you](https://powerapps.microsoft.com/ai-builder-calculator/)
 
 ### Benefits of a trial license
 
@@ -101,9 +119,6 @@ What you get with an AI Builder trial license:
 > [!NOTE]
 > Your AI Builder trial license is applicable at the user level, not the environment level: you can use your trial license on multiple environments. Another user would have to start their own trial or paid license to use your models in any environment.
 
-### Preview features
-
-AI Builder features that are in preview release status are free to use. You don't need to obtain a license to use AI Builder preview features.
 
 ### After the trial expires
 
@@ -124,7 +139,7 @@ The following functions aren't available when you exceed capacity:
 - Create a model or a new version of a model
 
 - Run a model within Power Apps or in a Power Automate flow.
-  - You can still share your model with another user. They can run it using their own AI Builder capacity. 
+  - You can still share your model with another user. They can run it using their own AI Builder capacity if they have a valid trial. 
 
 - Scheduled model run or retrain
   - Some scenarios allow scheduled run or retrain, which is configured on the model settings panel. These scheduled tasks will fail when you exceed capacity. Therefore, data won’t be refreshed, and the model won’t be retrained.
@@ -133,7 +148,22 @@ To continue using AI Builder when you exceed capacity, purchase AI Builder add-o
 
 If you extend a trial after expiration, capacity is reset. You can again run and train your models, and create new ones. Scheduled run and retrain instances will resume according to the existing settings.
 
-### AI Builder paid licenses FAQ
+## Preview features
+
+AI Builder features that are in preview release status are free to use. You don't need to obtain a license to use AI Builder preview features.
+
+## Learn more
+
+Learn more about AI Builder licensing in the following articles:
+
+- [Microsoft Power Apps and Power Automate Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=2085130)
+
+- [AI Builder licensing FAQ](/power-platform/admin/powerapps-flow-licensing-faq#ai-builder)
+
+- [Estimate the AI Builder capacity that’s right for you](https://powerapps.microsoft.com/ai-builder-calculator/)
+
+
+# AI Builder paid licenses FAQ
 
 #### How many AI Builder credits are consumed for each operation?
 
