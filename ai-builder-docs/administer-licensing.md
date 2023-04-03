@@ -53,19 +53,18 @@ Some Microsoft products like Power Apps per app plan, Power Apps per user plan, 
 
 To purchase the AI Builder credit add-on in the Microsoft 365 admin center:
 
-1. Go to the [Microsoft 365 admin center](https://admin.microsoft.com).
-
+1. In the admin center, go to the Billing >  [Purchase services](https://go.microsoft.com/fwlink/p/?linkid=868433) page.
     You need to be the billing administrator of your tenant to access this page.
 
-1. On the left pane, select **Billing**.
 
-1. Select **Purchase services**.
+1. On the **Purchase services** page, search for **AI Builder**, select **Details** of the **AI Builder Capacity add-on** tile, and follow the purchase process.
 
 ## Allocate capacity
 
 Once entitled to AI Builder capacity, credits are unallocated and available as a pool on the tenant, which can be used on any environment. The administrator can restrict usage by allocating all credits to specific environments.
 
-To learn how to allocate capacity in Power Platform admin center, go to [Capacity add-ons](/power-platform/admin/capacity-add-on). To learn how to allocate credits, go to [Manage capacity](administer.md#manage-capacity).
+To learn how to allocate capacity in [Power Platform admin center](https://admin.powerplatform.microsoft.com/), go to [Allocate or change capacity in an environment] (/power-platform/admin/capacity-add-on#allocate-or-change-capacity-in-an-environment).
+To learn details on how to manage AI Builder capacity, go to [Manage capacity](administer.md#manage-capacity).
 
 ## Capacity Overuse
 When an environment consumption exceeds its credit allocation, the following functions will begin to fail:
@@ -153,7 +152,7 @@ If you extend a trial after expiration, capacity is reset. You can again run and
 AI Builder features that are in preview release status are free to use. You don't need to obtain a license to use AI Builder preview features.
 
 
-# AI Builder paid licenses FAQ
+## AI Builder paid licenses FAQ
 
 #### How many AI Builder credits are consumed for each operation?
 
@@ -204,7 +203,7 @@ Some user licenses include seeded AI Builder credits. For example, the Power App
 Data and models are deleted only when the environment is deleted.
 
 
-# Learn more
+## Learn more
 
 Learn more about AI Builder licensing in the following articles:
 
