@@ -61,7 +61,10 @@ To purchase the AI Builder credit add-on in the Microsoft 365 admin center:
 
 ## Allocate capacity
 
-Once entitled to AI Builder capacity, credits are unallocated and available as a pool on the tenant, which can be used on any environment. The administrator can restrict usage by allocating all credits to specific environments.
+When a tenant has purchased  AI Builder capacity, corresponding credits are by default unallocated and available as a pool on the tenant.
+In this state, credits can be used on any environment. 
+The administrator can restrict usage by allocating all credits to specific environments.
+Administrator can reserve some capacity to an environment by allocating an amount of credits to this environment.
 
 To learn how to allocate capacity in [Power Platform admin center](https://admin.powerplatform.microsoft.com/), go to [Allocate or change capacity in an environment] (/power-platform/admin/capacity-add-on#allocate-or-change-capacity-in-an-environment).
 To learn details on how to manage AI Builder capacity, go to [Manage capacity](administer.md#manage-capacity).
@@ -143,7 +146,7 @@ The following functions aren't available when you exceed capacity:
 - Scheduled model run or retrain
   - Some scenarios allow scheduled run or retrain, which is configured on the model settings panel. These scheduled tasks will fail when you exceed capacity. Therefore, data won’t be refreshed, and the model won’t be retrained.
 
-To continue using AI Builder when you exceed capacity, purchase AI Builder add-on capacity, and allocate it to your environments.
+To continue using AI Builder when you exceed capacity,  [purchase AI Builder Add On](administer-licensing.md#purchase-ai-builder-capacity), and [allocate capacity](administer-licensing.md#allocate-capacity) to your environments.
 
 If you extend a trial after expiration, capacity is reset. You can again run and train your models, and create new ones. Scheduled run and retrain instances will resume according to the existing settings.
 
@@ -158,31 +161,36 @@ AI Builder features that are in preview release status are free to use. You don'
 
 Each AI Builder capability consumes service credits at a different rate. You can check the consumption rates in the [Microsoft Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=2085130) in the **AI Builder capacity add-on** section.
 
+### My Power Automate Flow or my Power App fails in AI Builder step with an error message that contains one of "EntitlementNotAvailable", "NoCapacity", "QuotaExceeded", "No capacity was found." "Credit usage exceeds allocation." , what should I do to unblock it ?
+
+You need to check entitlement allocation of your environment.
+If there is no allocation, and no allocation at tenant level, [allocate capacity](administer-licensing.md#allocate-capacity) to environment or tenant level from other environments or by [purchasing AI Builder Add On](administer-licensing.md#purchase-ai-builder-capacity).
+
+If there are AI Builder credits allocated or available at tenant level, compare the amount with the environment consumption in AI Builder report (see ).
+Then [allocate additional capacity](administer-licensing.md#allocate-capacity) eventually by [purchasing AI Builder Add On](administer-licensing.md#purchase-ai-builder-capacity).
+
+
 #### I exceeded my trial capacity. What can I do?
 
-- You can purchase AI Builder Add On and allocate capacity to your environment
+- You can [purchase AI Builder Add On](administer-licensing.md#purchase-ai-builder-capacity)  and [allocate capacity](administer-licensing.md#allocate-capacity) to your environment
 - You can wait for your trial to expire, then extend your trial: this will add new capacity.
 - You can also share your existing model with another user who still has active trial with capacity.
 
-#### How do I convert my trial environment to a production environment?
-
-To learn more, go to [About trial environments](/power-platform/admin/trial-environments).
-
-#### Where can I find more information about license management in Power Apps and Power Automate?
-
-More information about licenses and license management in Power Apps is available in Microsoft Power Platform [License management](/power-platform/admin/wp-license-management).
-
-#### Where can I find more information about trial environments?
-
-To learn more, go to [About trial environments](/power-platform/admin/trial-environments).
+#### What happens after my trial license expires?
 
 After your AI Builder trial license expires, or if you exceed capacity:
 
-- You have to [purchase a license](/power-platform/admin/signup-for-powerapps-admin) to continue using your AI models.
-- An administrator must allocate AI Builder capacity to any environment where you want to use AI Builder.
+- Your models are not deleted.
+- You have to [purchase AI Builder Add-On](administer-licensing.md#purchase-ai-builder-capacity) to continue using your AI models.
+- An administrator must [allocate AI Builder capacity](administer-licensing.md#allocate-capacity) to any environment where you want to use AI Builder.
 - You can't create or modify AI Builder models, and no new inference will be possible when the trial expires if you don't purchase a license.
+- You can also extend your trial, but only for a limited number of times.
 
-#### How do I convert my trial environment to a production environment?
+#### What happens to my data and models when my AI Builder trial expires?
+
+Data and models are deleted only when the environment is deleted.
+
+#### Where can I find more information about trial environments?
 
 To learn more, go to [About trial environments](/power-platform/admin/trial-environments).
 
@@ -198,10 +206,10 @@ Each user license grants you 5,000 credits, allowing you to assess the capabilit
 
 Some user licenses include seeded AI Builder credits. For example, the Power Apps per user license includes 500 seeded AI Builder credits. If **AI Builder capacity per user add-on** isn't selected, the 500 AI Builder credits are still added to the total number of AI Builder credits owned at your tenant level and can be used.
 
-#### What happens to my data and models when my AI Builder trial expires?
 
-Data and models are deleted only when the environment is deleted.
+#### Where can I find more information about license management in Power Apps and Power Automate?
 
+More information about licenses and license management in Power Apps is available in Microsoft Power Platform [License management](/power-platform/admin/wp-license-management).
 
 ## Learn more
 
