@@ -27,7 +27,7 @@ Importing this data to a target system can be cumbersome, requiring significant 
 
 We’ve added the ability to declare this type during the field creation step of the wizard and to choose a date or number convention (equivalent to a locale).
 
-:::image type="content" source="media/document-processing-define-field-type.gif" alt-text="Animation of defining the fields' type.":::
+:::image type="content" source="media/document-processing-define-field-type-aa.gif" alt-text="Animation of defining the fields' type.":::
 
  > [!NOTE]
  > For each field, only one convention is allowed for a given field for all the collections of this model. For instance, if you extract a field amount by selecting **Use comma (,) as decimal separator**, the following text 1234,56 or 1 234,56 will be converted to 1234.56. Amounts with format 12,34,576.78 or 1,234.56 won’t be converted.
