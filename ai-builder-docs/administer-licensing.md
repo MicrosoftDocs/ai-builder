@@ -155,7 +155,7 @@ If you extend a trial after expiration, capacity is reset. You can again run and
 AI Builder features that are in preview release status are free to use. You don't need to obtain a license to use AI Builder preview features.
 
 
-## AI Builder paid licenses FAQ
+## AI Builder licenses FAQ
 
 #### How many AI Builder credits are consumed for each operation?
 
@@ -169,6 +169,20 @@ If there is no allocation, and no allocation at tenant level, [allocate capacity
 If there are AI Builder credits allocated or available at tenant level, compare the amount with the environment consumption in AI Builder report (see ).
 Then [allocate additional capacity](administer-licensing.md#allocate-capacity) eventually by [purchasing AI Builder Add On](administer-licensing.md#purchase-ai-builder-capacity).
 
+### Where can I see credit usage for this month ?
+You can get details on your environment consumption by checking the  [AI Builder consumption report](administer-consumption-report.md).
+It gives the amount of consumption per day per user per environment.
+Adding all the consumptions of the current month of a specific environment will give you the monthly consumption of this environment.
+
+### When is credit usage count reset? is it based on license acquisition date ?
+Credit usage is counted on a monthly basis, starting the first day of each month.
+It's not based on the license acquisition date.
+Credit usage of an environment should not exceed the credit allocation.  
+
+### What happened to the remaining capacity at the end of the month? Can it be used the following month?
+No, unused capacity is not carried over to the next month.
+Credit usage is counted on a monthly basis and reset on first day of the month. 
+Available capacity is based on allocated capacity. 
 
 #### I exceeded my trial capacity. What can I do?
 
