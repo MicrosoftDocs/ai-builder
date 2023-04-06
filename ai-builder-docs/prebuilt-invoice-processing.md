@@ -27,7 +27,7 @@ For information on how to use the invoice processing prebuilt model in Power Aut
 
 ## Supported languages and files
 
-The following languages are supported: Dutch (Netherlands), English (Australia), English (United States), French (Canada), French (France), German (Germany), Italian (Italy), Japanese (Japan), Portuguese (Brazil), Portuguese (Portugal), Spanish (Spain).
+The following languages are supported: Dutch (Netherlands), English (Australia), English (Canada), English (India), English (United Kingdom), English (United States), French (France), German (Germany), Italian (Italy), Portuguese (Portugal), Spanish (Spain).
 
 To get the best results, provide one clear photo or scan per invoice.
 
