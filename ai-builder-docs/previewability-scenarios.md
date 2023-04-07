@@ -2,7 +2,6 @@
 title: Scenarios in preview - AI Builder | Microsoft Docs
 description: Explain why some scenarios are in preview and what it means.
 author: Antoine2F
-manager: cdbellar
 ms.topic: conceptual
 ms.custom: 
 ms.date: 06/17/2022
