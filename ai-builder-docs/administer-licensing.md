@@ -64,7 +64,8 @@ Want to get started using AI Builder? Use premium features for a limited time wi
 
 Learn more about AI Builder licensing in the following articles:
 
-- [Microsoft Power Apps and Power Automate Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=2085130)
+- [Microsoft Power Platform 
+Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=2085130)
 
 - [AI Builder licensing FAQ](/power-platform/admin/powerapps-flow-licensing-faq#ai-builder)
 
