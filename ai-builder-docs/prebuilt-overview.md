@@ -19,7 +19,7 @@ Prebuilt models are available in Power Automate and&mdash;depending on the model
 | [Azure OpenAI Service (preview)](prebuilt-azure-openai.md) | Power Automate and Power Apps    |
 | [Business card reader](prebuilt-business-card.md)   |   Power Automate and Power Apps    |
 | [Category classification ](prebuilt-category-classification.md) | Power Automate and Power Apps*  |
-| [Document processing](form-processing-model-overview)  | Power Automate and Power Apps*  | 
+| [Document processing](form-processing-model-overview.md)  | Power Automate and Power Apps*  | 
 | [Entity extraction](prebuilt-entity-extraction.md)    |    Power Automate and Power Apps*   |
 | [ID reader](prebuilt-id-reader.md)    |    Power Automate and Power Apps*     |
 | [Invoice processing](prebuilt-invoice-processing.md)    |    Power Automate and Power Apps*     |
