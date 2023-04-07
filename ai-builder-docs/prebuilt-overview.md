@@ -1,9 +1,9 @@
 ---
-title: Overview of prebuilt AI models - AI Builder | Microsoft Docs
-description: Describes the prebuilt AI models that are available in AI Builder.
+title: Overview of prebuilt AI models - AI Builder
+description: Learn about the prebuilt AI models that are available in AI Builder.
 author: v-aangie
 ms.topic: overview
-ms.date: 05/24/2022
+ms.date: 04/07/2023
 ms.author: angieandrews
 ms.reviewer: angieandrews
 ---
@@ -16,8 +16,10 @@ Prebuilt models are available in Power Automate and&mdash;depending on the model
 
 |   Model type  | Availability  |
 | -------- | --------- |
+| [Azure OpenAI Service (preview)](prebuilt-azure-openai.md) | Power Automate and Power Apps    |
 | [Business card reader](prebuilt-business-card.md)   |   Power Automate and Power Apps    |
-| [Category classification](prebuilt-category-classification.md) | Power Automate and Power Apps*  |
+| [Category classification ](prebuilt-category-classification.md) | Power Automate and Power Apps*  |
+| [Document processing](form-processing-model-overview)  | Power Automate and Power Apps*  | 
 | [Entity extraction](prebuilt-entity-extraction.md)    |    Power Automate and Power Apps*   |
 | [ID reader](prebuilt-id-reader.md)    |    Power Automate and Power Apps*     |
 | [Invoice processing](prebuilt-invoice-processing.md)    |    Power Automate and Power Apps*     |
