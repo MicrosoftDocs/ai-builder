@@ -158,6 +158,10 @@
       href: form-processing-model-requirements.md
     - name: Create a document processing model
       href: create-form-processing-model.md
+    - name: Tag documents in a document processing model
+      href: tag-form-processing-model.md
+    - name: Extract dates and numbers (preview)
+      href: extract-dates-and-numbers.md
     - name: Train and publish your document processing model
       href: form-processing-train.md
     - name: Improve document processing model performance
@@ -167,8 +171,7 @@
     - name: FAQ for document processing
       href: form-processing-faq.md
     - name: Transition to the newest document processing model version
-      href: form-processing-transition.md      
-  - name: Bring your own AI model
+      href: form-processing-transition.md  
   - name: Azure machine learning models
     items:
     - name: Create and register your own model
