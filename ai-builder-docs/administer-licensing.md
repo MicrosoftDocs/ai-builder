@@ -164,7 +164,7 @@ AI Builder features that are in preview release status are free to use. You don'
 
 ## AI Builder licenses FAQ
 
-#### How many AI Builder credits are consumed for each operation?
+### How many AI Builder credits are consumed for each operation?
 
 Each AI Builder capability consumes service credits at a different rate. You can check the consumption rates in the [Microsoft Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=2085130) in the **AI Builder capacity add-on** section.
 
@@ -194,7 +194,7 @@ Credit usage is counted on a monthly basis, starting the first day of each month
 
 No, unused capacity is not carried over to the next month. Credit usage is counted on a monthly basis and reset on first day of the month. Available capacity is based on allocated capacity.
 
-#### I exceeded my trial capacity. What can I do?
+### I exceeded my trial capacity. What can I do?
 
 - You can [purchase AI Builder Add On](administer-licensing.md#purchase-ai-builder-capacity)  and [allocate capacity](administer-licensing.md#allocate-capacity) to your environment
 
