@@ -15,7 +15,7 @@ When you create and publish AI models in AI Builder, they're private&mdash;only 
 
 If you want other users to use your model in apps or flows you have to share it. This applies to users who create apps or flows that call your model, and also to users who just run those apps or flows. Both app makers and app users need a shared access to your model.
 
-You can also share a model for edit to allow other users to become co-owners of this model. Co-owners can edit, retrain, publish or share a model. However, co-owners can delete a model.
+You can also share a model for edit to allow other users to become co-owners of this model. Co-owners can edit, retrain, publish or share a model. However, co-owners can't delete a model.
 
 ## Share action
 
