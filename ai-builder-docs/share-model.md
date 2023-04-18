@@ -13,7 +13,9 @@ ms.reviewer: angieandrews
 
 When you create and publish AI models in AI Builder, they're private&mdash;only you can run them. This allows you to test them and use them within apps or flows.
 
-If you want other users to use your model in apps or flows, or even use a direct API to make a prediction using your model, you have to share it. This applies to users who create apps or flows that call your model, and also to users who just run those apps or flows. Both app makers and app users need a shared access to your model.
+If you want other users to use your model in apps or flows you have to share it. This applies to users who create apps or flows that call your model, and also to users who just run those apps or flows. Both app makers and app users need a shared access to your model.
+
+You can also share a model for edit to allow other users to become co-owners of this model. Co-owners can edit, retrain, publish or share a model. However, co-owners can delete a model.
 
 ## Share action
 
@@ -25,9 +27,9 @@ The share action is also available on the model detail screen in AI Builder, wit
 
 When you select the share action, a share panel is displayed. The share panel is where you select Microsoft Dataverse users and teams in your organization, and share your model with them. Note the following:
 
-- Sharing your model with a user or team gives the user or team the ability to see and run your model.
-- Sharing your model doesn't give the user or team permission to edit, retrain, or publish the model.
-- Sharing your model doesn't give the user or team access to the data you used to train your model.
+- Sharing your model with a user or a team as a **User** gives the user or team the ability to see and run your model. However, such user or team won't be able to edit, retrain, publish, share or delete the model and won't be able to access the data you used to train your model.
+- Sharing your model with a user or a team as a **Co-owner** gives the user or team the ability to see, run, edit, retrain, publish or share the model. Such user or team will be able to access the data you used to train your model but won't be able to delete the model.
+
 
 ## Model list views
 
@@ -39,7 +41,7 @@ The models you create and the models that are shared with you appear in the mode
  > [!NOTE]
  > If you're an administrator of the environment, all models in your environment appear in the **Shared with me** view, whether they've been shared or not.
 
-When a model is shared with you, you have user permissions to it. You can use it in apps or flows, but you can't view details or edit the model. No actions are available for models in the **Shared with me** list.
+When a model is shared with you as a user, you can use it in apps or flows, but you can't view details or edit the model. No actions are available for models in the **Shared with me** list.
 
 As an admin or owner of a model, you might encounter a model where the only available action is **Delete**.<!--Suggested--> This happens when the model type is no longer supported. It might be that the model type was a preview feature, and the admin [disabled AI Builder preview features](administer.md#enable-or-disable-ai-builder-preview-features).
 
@@ -53,15 +55,11 @@ App sharing only allows users to open the app. Things like data access or AI mod
 
 Yes. Your model isn't listed in the AI model control if it isn't shared with the maker of the app. This helps you control access to your work and decide when to release it.
 
-### The share action wasn't necessary when AI Builder was in preview. What happened?
-
-We added the share action to help with privacy concerns. Now, you can build a model in your environment without fear of its being released prematurely.<!--Suggested-->
-
 ### Can I allow other users to edit my model?
 
-Sharing models for editing purposes isn't supported by AI Builder.
+Yes. When sharing a model, look for the user or team to share the model with and select the option **Co-owner**.
 
-However, users with the **System Customizer** role can edit models from other users. This workaround isn't supported by the AI Builder team and you may face unexpected issues.
+Users with the **System Customizer** role can by default edit models from other users. Note: modifying models with **System Customizer** role isn't supported by AI Builder and you may face unexpected issues.
 
 
 ### The owner of a model has left the company. How can we allow non-admin users to edit this model?
