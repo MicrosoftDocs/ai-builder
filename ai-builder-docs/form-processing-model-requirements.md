@@ -28,6 +28,7 @@ Document processing works on input documents that meet the following requirement
 - For images, dimensions must be between 50 &times; 50 and 10,000 &times; 10,000 pixels.
 - If scanned from paper documents, scans should be high-quality images.
 - You can create up to 200 collections per model when selecting structured and semi-structured as document type, and an unlimited number of collections for unstructured documents.
+- In a cloud flow, the limit of fields that can be tagged for document processing is 300.
 
  > [!NOTE]
  > Extracting signatures from documents is currently not supported.<br />
