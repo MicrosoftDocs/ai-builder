@@ -1,6 +1,6 @@
 ---
-title: Use the document processing model in Power Automate - AI Builder | Microsoft Docs
-description: Provides information about how to use a document processing model in Power Automate
+title: Use the document processing model in Power Automate
+description: Learn how to use a document processing model in Power Automate.
 author: JoeFernandezMS
 ms.topic: conceptual
 ms.custom: 
@@ -11,11 +11,13 @@ ms.reviewer: angieandrews
 
 # Use a document processing model in Power Automate
 
-1. Sign in to [Power Automate](https://flow.microsoft.com/).
+1. Sign in to [Power Automate](https://make.powerautomate.com/).
 
-1. Select **My flows** in the left pane, and then select **New flow** > **Instant cloud flow**.
+1. Select **My flows** > **New flow** > **Instant cloud flow**.
 
-1. Name your flow, select **Manually trigger a flow** under **Choose how to trigger this flow**, and then select **Create**.
+1. Enter a name for your flow.
+
+1. Under **Choose how to trigger this flow**, select **Manually trigger a flow**, and then select **Create**.
 
 1. Expand **Manually trigger a flow**, and then select **+Add an input** > **File** as the input type.
 
@@ -78,7 +80,11 @@ You can enter a page value or page range in the **Pages** parameter. Example: 1 
 |**{table}{column} confidence score** |float |How confident the model is in its prediction |Value in the range of 0 to 1. Values close to 1 indicate greater confidence that the extracted cell value is accurate |
 
 > [!NOTE]
-> More output parameters may be proposed such as field coordinates, polygons, bounding boxes and page numbers. These aren't listed on purpose as they're mainly intended for advanced use.
+>
+>- More output parameters may be proposed such as field coordinates, polygons, bounding boxes and page numbers. These aren't listed on purpose as they're mainly intended for advanced use.
+>
+>- Coordinates are represented as percentages of the document's height and width, originating from the top-left corner. For instance, if coordinates X = 0.10 and Y = 0.20 are given, this signifies a location at 10% of the document's width along the X-axis and 20% of its height along the Y-axis, both measured from the top-left corner.
+
 
 ## Common use cases
 
