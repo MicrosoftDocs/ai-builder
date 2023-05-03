@@ -31,30 +31,30 @@ The following tables show which AI Builder features are available in each region
 
 ### Custom models
 
-|Feature |Asia |Australia |Canada |Europe |France |Germany |India |Japan |Norway |South America |South Korea |Switzerland |United Arab Emirates |United Kingdom |United States |
-|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-|Prediction|GA|GA|GA|GA| GA|GA|GA|GA|-|GA|-|GA|GA|GA|GA|
-|Category classification|GA|GA|GA|GA| GA|GA|GA|GA|-|GA|-|GA|GA|GA|GA|
-|Entity extraction |GA|GA|GA|GA| GA|GA|GA|GA|-|GA|-|GA|GA|GA|GA|
-|Object detection|GA|GA|-|GA| -|-|GA|GA| -|-|-|-|-|GA|GA|
-|Document processing (for structured and semi-structured documents)  |GA|GA|GA|GA| GA|GA|GA|GA| GA|GA|GA| GA|GA|GA|GA|
-|Document processing (for unstructured documents) |GA|GA|GA|GA|GA|-|GA|GA|-|GA|-| -|-|GA|GA|
+|Feature |Asia |Australia |Canada |Europe |France |Germany |India |Japan |Norway |South Africa |South America |South Korea |Switzerland |United Arab Emirates |United Kingdom |United States |
+|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+|Prediction|GA|GA|GA|GA| GA|GA|GA|GA|-|-|GA|-|GA|GA|GA|GA|
+|Category classification|GA|GA|GA|GA| GA|GA|GA|GA|-|-|GA|-|GA|GA|GA|GA|
+|Entity extraction |GA|GA|GA|GA| GA|GA|GA|GA|-|-|GA|-|GA|GA|GA|GA|
+|Object detection|GA|GA|-|GA| -|-|GA|GA| -|-|-|-|-|-|GA|GA|
+|Document processing (for structured and semi-structured documents)  |GA|GA|GA|GA| GA|GA|GA|GA| GA|GA|GA| GA|GA|GA|GA|GA|
+|Document processing (for unstructured documents) |GA|GA|GA|GA|GA|-|GA|GA|-|-|GA|-| -|-|GA|GA|
 
 ### Prebuilt models
 
-|Feature |Asia |Australia |Canada |Europe |France |Germany |India |Japan |Norway |South America |South Korea |Switzerland |United Arab Emirates |United Kingdom |United States |
-|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
-|Business card reader    |GA|GA|GA|GA| GA|GA|GA|GA| GA|GA|GA| GA|GA|GA|GA|
-|Category classification |Preview |Preview |Preview |Preview|Preview|Preview|Preview|Preview |-|Preview|-|Preview|Preview |Preview |Preview |
-|Entity extraction |GA |GA |GA |GA |GA|GA|GA|-|-|GA|-|GA |GA |GA |GA |
-|Identity document reader |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |
-|Invoice processing |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |
-|Key phrase extraction |GA|GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |
-|Language detection |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |
-|Receipt processing |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |
-|Sentiment analysis |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |
-|Text recognition   |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |
-|Text translation |- |- |- |GA |-|- |-|- |-|-|-|- |- |- |GA |
+|Feature |Asia |Australia |Canada |Europe |France |Germany |India |Japan |Norway |South Africa |South America |South Korea |Switzerland |United Arab Emirates |United Kingdom |United States |
+|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|Business card reader    |GA|GA|GA|GA| GA|GA|GA|GA| GA|GA|GA| GA|GA|GA|GA|GA|
+|Category classification |Preview |Preview |Preview |Preview|Preview|Preview|Preview|Preview |-|-|Preview|-|Preview|Preview |Preview |Preview |
+|Entity extraction |GA |GA |GA |GA |GA|GA|GA|-|-|-|GA|-|GA |GA |GA |GA |
+|Identity document reader |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |
+|Invoice processing |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |
+|Key phrase extraction |GA|GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |
+|Language detection |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |
+|Receipt processing |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |
+|Sentiment analysis |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |
+|Text recognition   |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |
+|Text translation |- |- |- |GA |-|- |-|- |-|-|-|-|- |- |- |GA |
 
 ## US Government
 
