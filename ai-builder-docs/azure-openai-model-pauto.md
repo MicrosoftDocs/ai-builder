@@ -47,7 +47,7 @@ By combining the power of these models with Power Automate, you can automate mun
 
 1. Name your flow, select **Manually trigger a flow** under **Choose how to trigger this flow**, and then select **Create**. 
 
-1. Expand **Manually trigger a flow**, and then select **+Add an input** > **Text as the input type**. 
+1. Expand **Manually trigger a flow**, and then select **+Add an input** > **Text** as the input type. 
 
 1. Select **+ New step** > **AI Builder**, and then select **Create text with GPT on Azure OpenAI Service** in the list of actions.
 
