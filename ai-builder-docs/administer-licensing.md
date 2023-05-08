@@ -96,7 +96,16 @@ To get started using AI Builder, use premium features for a limited time with a 
 AI Builder is licensed as an add-on to your Power Apps, Power Automate, or Dynamics 365 license. This means you can start your AI Builder trial after you have a Power Apps, Power Automate, or Dynamics 365 license that allows you to create a Microsoft Power Platform environment.
 
 > [!NOTE]
-> You can't start an AI Builder trial if you have AI Builder credits already on your tenant by purchasing a capacity add-on or through other products.
+> You *can't start an AI Builder trial* if you have AI Builder credits already on your tenant by purchasing a capacity add-on or through other products.
+
+Learn more about AI Builder licensing in the following articles:
+
+- [Microsoft Power Platform 
+Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=2085130)
+
+- [AI Builder licensing FAQ](/power-platform/admin/powerapps-flow-licensing-faq#ai-builder)
+
+- [Estimate the AI Builder capacity that’s right for you](https://powerapps.microsoft.com/ai-builder-calculator/)
 
 ### Benefits of a trial license
 
