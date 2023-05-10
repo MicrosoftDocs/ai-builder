@@ -12,7 +12,7 @@ ms.author: jelenak
 ms.reviewer: angieandrews
 ---
 
-# Acctivity monitoring (preview)
+# Activity monitoring (preview)
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
