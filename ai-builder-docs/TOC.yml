@@ -26,7 +26,7 @@
   - name: Build a model
     href: build-model.md
     displayName: create a model
-  - name: Monitor a model
+  - name: Monitor a model (preview)
     href: activity-monitoring.md
   - name: Train your model
     href: train-model.md
