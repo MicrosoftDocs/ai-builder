@@ -1,9 +1,9 @@
 ---
 title:  Activity monitoring (preview)
 description: Learn how to monitor the activity or consumption of your AI models.
-author: phil-CMD
+author: jekom1
 contributors:
-  - phil-CMD
+  - jekom1
   - v-aangie
 ms.topic: conceptual
 ms.custom: 
