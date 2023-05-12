@@ -50,28 +50,29 @@
       href: prebuilt-azure-openai.md
     - name: How text generation in Azure OpenAI Service works  
       href: azure-openai-textgen.md
-  - name: Business card reader
-    href: prebuilt-business-card.md 
-  - name: Category classification (preview)
-    href: prebuilt-category-classification.md
-  - name: Entity extraction 
-    href: prebuilt-entity-extraction.md
-  - name: ID reader
-    href: prebuilt-id-reader.md
-  - name: Invoice processing
-    href: prebuilt-invoice-processing.md
-  - name: Key phrase extraction
-    href: prebuilt-key-phrase.md
-  - name: Language detection
-    href: prebuilt-language-detection.md
-  - name: Receipt processing
-    href: prebuilt-receipt-processing.md
   - name: Sentiment analysis
     href: prebuilt-sentiment-analysis.md
+  - name: Language detection
+    href: prebuilt-language-detection.md  
   - name: Text recognition
-    href: prebuilt-text-recognition.md
+    href: prebuilt-text-recognition.md  
+  - name: Invoice processing
+    href: prebuilt-invoice-processing.md 
+  - name: Entity extraction 
+    href: prebuilt-entity-extraction.md
+  - name: Key phrase extraction
+    href: prebuilt-key-phrase.md
+  - name: Category classification (preview)
+    href: prebuilt-category-classification.md
   - name: Text translation
     href: prebuilt-text-translation.md
+  - name: ID reader
+    href: prebuilt-id-reader.md
+  - name: Business card reader
+    href: prebuilt-business-card.md 
+  - name: Receipt processing
+    href: prebuilt-receipt-processing.md
+
 - name: Custom AI models
   items:
   - name: Prediction AI model
