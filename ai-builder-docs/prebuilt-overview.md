@@ -18,7 +18,6 @@ Prebuilt models are available in Power Automate and&mdash;depending on the model
 | -------- | --------- |
 | [Azure OpenAI Service (preview)](prebuilt-azure-openai.md) | Power Automate and Power Apps    |
 | [Sentiment analysis](prebuilt-sentiment-analysis.md)    |    Power Automate and Power Apps*     |
-| [Document processing](form-processing-model-overview.md)  | Power Automate and Power Apps*  | 
 | [Language detection](prebuilt-language-detection.md)  |    Power Automate and Power Apps*     |
 | [Text recognition](prebuilt-text-recognition.md)    |    Power Automate and Power Apps     |
 | [Invoice processing](prebuilt-invoice-processing.md)    |    Power Automate and Power Apps*     |
