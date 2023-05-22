@@ -7,7 +7,7 @@ contributors:
   - v-aangie
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/19/2023
+ms.date: 05/22/2023
 ms.author: jelenak
 ms.reviewer: angieandrews
 ---
@@ -36,11 +36,11 @@ Legend:
 1. **Data type:** Data type processed by the AI model. One of **Text**, **Jpeg**, **Png**, **Bmp**, **Pdf**, or **Unknown**.
 1. **Date:** Processing date.
 1. **Model:** The name of the AI model used. If the model has been deleted, you'll see **Deleted**.
-1. **Status:** Processing status. One of **Processing**, **Processed** or **Failed**.
+1. **Status:** Processing status. One of **Processing**, **Processed**, or **Failed**.
 1. **Processed by:** Name of the person who did the predict. This is typically the Power Automate flow owner, or the person who executed the Power Apps app.
 1. **AI Credits:** Number of credits consumed for this AI predict action.
 
-You can filter the presented data by timeframe or by model, by clicking on the relevant tiles. By default, data is displayed for "All AI Models" and "Last 7 days". To display more data, select **See more**.
+You can customize how the data appears by applying a filter for timeframe or by model. Do this by selecting the relevant tiles. By default, data displays for **All AI Models** and **Last 7 days**. To display more data, select **See more**.
 
 ## Monitoring data for makers and admins
 
@@ -98,9 +98,7 @@ Before performing bulk delete operations, thoroughly test and review your filter
 1. In the **Look for** list, select the **AI Events** table.
 1. In the search criteria area, add the filter that should return the records that you want to be deleted. Here’s an example that will find all AI Builder models activity that are older than six (6) months:
 
-    (format: Field | Filter Type | Value):
-
-    Processing date | Older Than X Months | 6
+:::image type="content" source="media/activity-monitoring/search.png" alt-text="Screenshot of search criteria.":::
 
 1. Select **Next**.
 1. In the **Name** text box, type a name for the bulk deletion job (for example, **Bulk-delete of AI models monitoring data older than 6 months**).
