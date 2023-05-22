@@ -26,7 +26,7 @@ As you use your AI models, you might need to access data to monitor the activity
 
 The **AI Builder activity** section of the Power Automate portal provides tables and graphs to monitor AI models and the data processed by the AI models, as well as track AI credits consumption.
 
-To open the **AI Builder activity (preview) screen, select **Monitor** > **AI Builder activity (preview)**. 
+To open the **AI Builder activity (preview)** screen, select **Monitor** > **AI Builder activity (preview)**. 
 
 :::image type="content" source="media/activity-monitoring/activity-monitoring-legend.png" alt-text="Screenshot of the AI Builder activity (preview) screen.":::
 
