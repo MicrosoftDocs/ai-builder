@@ -46,7 +46,11 @@ You can customize how the data appears by applying a filter for timeframe or by 
 
 The AI Builder activity section is helpful for makers who want to get monitoring on their AI models usage. It's also helpful for environment admins who want to monitor all activity in an environment.
 
-The monitoring data is stored in the **AI Event** table in your Microsoft Dataverse. It persists in the table even if the model/flow/app are deleted. The **AI Event** Dataverse table contains input of the AI model predict actions for text scenarios only.
+> [!NOTE]
+>
+>- The monitoring data is stored in the **AI Event** table in your Microsoft Dataverse. It persists in the table even if the model/flow/app are deleted. 
+>
+>- The **AI Event** Dataverse table contains input of the AI model predict actions for text scenarios only.
 
 The data you can display depends on your role.
 
@@ -94,20 +98,21 @@ Before performing bulk delete operations, thoroughly test and review your filter
 1. Sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
 1. On the left navigation pane, select **Environments** > select your environment > **Settings** (on the top menu bar).
 1. Select **Data management** > **Bulk deletion**.
-1. From the **Bulk Record Deletion** grid, select **New** on the command bar. This will open the **Bulk Deletion** wizard, which allows you to define a query for the records you want deleted.
+1. From the **All Bulk Deletion System Jobs** grid, select **New** on the command bar. This will open the **Bulk Deletion Wizard**, which allows you to define a query for the records you want deleted.
+1. Select **Next**.
 1. In the **Look for** list, select the **AI Events** table.
 1. In the search criteria area, add the filter that should return the records that you want to be deleted. Here’s an example that will find all AI Builder models activity that are older than six (6) months:
 
-:::image type="content" source="media/activity-monitoring/search.png" alt-text="Screenshot of search criteria.":::
+    :::image type="content" source="media/activity-monitoring/search.png" alt-text="Screenshot of search criteria.":::
 
 1. Select **Next**.
 1. In the **Name** text box, type a name for the bulk deletion job (for example, **Bulk-delete of AI models monitoring data older than 6 months**).
-1. Select a date and time for the job start time. Select a time when users are typically not online.
+1. In the **At scheduled time** section, select a date and time for the job start time. Select a time when users aren't typically online.
 1. Select the **Run this job after every** checkbox.
-1. In the **Days** list, select the frequency you want the job to run.
+1. In the **days** list, select the frequency you want the job to run.
 1. If you want a notification e-mail sent, select the **Send an email to me (email@domain.com) when this job is finished** checkbox.
 1. Select **Next**.
-1. Review the bulk deletion job, and then select **Submit** to create the recurring job.
+1. In the **Review and Submit Bulk Deletion Details** screen, review the bulk deletion job, and then select **Submit** to create the recurring job.
 
 
 
