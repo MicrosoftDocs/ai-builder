@@ -33,14 +33,14 @@ To open the **AI Builder activity (preview) screen, select **Monitor** > **AI Bu
 Legend:
 
 1. **Data processed:** Contains the text input of the AI model predict action for text processing models, **Image**,  or **Document** for other models.
-1. **Data type:** **Text**, **Jpeg**, **Png**, **Bmp**, **Pdf**, or **Unknown**.
+1. **Data type:** Data type processed by the AI model. One of **Text**, **Jpeg**, **Png**, **Bmp**, **Pdf**, or **Unknown**.
 1. **Date:** Processing date.
 1. **Model:** The name of the AI model used. If the model has been deleted, you'll see **Deleted**.
-1. **Status:**
+1. **Status:** Processing status. One of **Processing**, **Processed** or **Failed**.
 1. **Processed by:** Name of the person who did the predict. This is typically the Power Automate flow owner, or the person who executed the Power Apps app.
 1. **AI Credits:** Number of credits consumed for this AI predict action.
 
-You can filter the presented data by timeframe or by model. To display more data, select **See more**.
+You can filter the presented data by timeframe or by model, by clicking on the relevant tiles. By default, data is displayed for "All AI Models" and "Last 7 days". To display more data, select **See more**.
 
 ## Monitoring data for makers and admins
 
