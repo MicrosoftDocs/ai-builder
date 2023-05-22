@@ -32,10 +32,6 @@ The Azure OpenAI Service generative text capability is a powerful tool in AI Bui
 
 The text generation capability is powered by Azure OpenAI Service, which is built on Generative Pre-trained Transformer (GPT) technology. These large language models have been trained on a massive amount of text data, which enables them to generate text that's similar to human-written text. This text can be used for a variety of tasks.
 
->[!NOTE]
->
-> This capability is in gated preview, and you'll need to apply for consideration to take part in the trial. To apply, go to [Limited preview request](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR2LogRPRiTJDo1Rd8KnmcFRUMzlLTDZVQlJKSzNIWkVCMzE0VDFYVzk2QS4u).
-
 ## Text generation scenarios
 
 You can take advantage of the current features and capabilities available to create powerful applications that can generate text from a given input. 
