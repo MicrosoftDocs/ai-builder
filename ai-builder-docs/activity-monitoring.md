@@ -40,7 +40,7 @@ Legend:
 1. **Processed by:** Name of the person who did the predict. This is typically the Power Automate flow owner, or the person who executed the Power Apps app.
 1. **AI Credits:** Number of credits consumed for this AI predict action.
 
-You can customize how the data appears by applying a filter for timeframe or by model. Do this by selecting the relevant tiles.
+You can customize how the data appears by applying a filter for timeframe or by model. Do this by selecting the relevant heading.
 
 ## Monitoring data for makers and admins
 
