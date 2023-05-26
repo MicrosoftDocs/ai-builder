@@ -9,7 +9,7 @@ contributors:
   - v-aangie
 ms.topic: conceptual
 ms.custom: 
-ms.date: 01/23/2023
+ms.date: 04/25/2023
 ms.author: jofernan
 ms.reviewer: angieandrews
 ---
@@ -20,7 +20,7 @@ AI Builder was initially released in Europe and the United States. Other regions
 
 ## Which region does my AI Builder subscription belong to?
 
-Your AI Builder models are deployed in the region that hosts your Microsoft Power Platform environment. For example, if your environment is created in the Europe region, your AI Builder models are deployed in datacenters in Europe and are subject to the availability status for Europe.  
+Your AI Builder models are deployed in the region that hosts your Microsoft Power Platform environment. For example, if your environment is created in the Europe region, your AI Builder models are deployed in data centers in Europe and are subject to the availability status for Europe.  
 
 ## Availability and release status of features by region
 
