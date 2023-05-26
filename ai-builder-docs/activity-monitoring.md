@@ -40,9 +40,9 @@ Legend:
 
 ## View AI Builder activity
 
-The **AI Builder activity** screen contains AI models activity including activity generated in [Power Apps](/power-apps/powerapps-overview).
+The **AI Builder activity** screen contains AI models activity, including activity generated in [Power Apps](/power-apps/powerapps-overview).
 
-1. Sign in to [Power Automate](make.powerautomate.com).
+1. Sign in to [Power Automate](https://make.powerautomate.com).
 1. On the left navigation panel, select **Monitor** > **AI Builder activity (preview)**.
 1. (Optional) Customize how the data appears by applying a filter for timeframe or by model. Do this by selecting the relevant heading.
 
