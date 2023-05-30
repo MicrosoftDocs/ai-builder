@@ -29,8 +29,6 @@ GPT (Generative Pre-trained Transformer) models are a type of natural language p
 > - This capability may not be available in your region yet.
 >
 > - This capability may be subject to usage limits or capacity throttling.
->
-> - This capability is in gated preview. You need to apply for consideration to take part in the trial. [Apply for the limited preview](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR2LogRPRiTJDo1Rd8KnmcFRUMzlLTDZVQlJKSzNIWkVCMzE0VDFYVzk2QS4u).
 
 ## Add an AI model as a data source
 
@@ -69,7 +67,6 @@ After you add an AI model to the app, bind the model to an event of a control to
 
 1. Select **Save**, and then select **Play** to try out your app.
 
-<!-- EDITOR'S NOTE: I don't think the ## Parameters section adds value. If you do need to include it, please list them explicitly. -->
 For a list of the parameters used in Azure OpenAI Service, go to [parameters](azure-openai-model-pauto.md#parameters) in Power Automate.
 
 ### See also
