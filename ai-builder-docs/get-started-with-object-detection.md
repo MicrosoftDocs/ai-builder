@@ -4,7 +4,7 @@ description: This topic lays out the first steps you'll perform to build an obje
 author: amina196
 ms.topic: conceptual
 ms.date: 06/28/2022
-ms.custom: intro-internal
+ms.collection: get-started
 ms.author: angieandrews
 ms.reviewer: angieandrews
 ---

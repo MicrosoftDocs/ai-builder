@@ -7,7 +7,7 @@ contributors:
   - JoeFernandezMS
   - v-aangie
 ms.topic: conceptual
-ms.custom: intro-internal
+ms.collection: get-started
 ms.date: 04/06/2023
 ms.author: plarrue
 ms.reviewer: angieandrews
