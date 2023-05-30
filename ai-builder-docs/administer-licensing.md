@@ -7,7 +7,7 @@ contributors:
   - Antoine2F
   - v-aangie
 ms.topic: conceptual
-ms.custom: intro-internal
+ms.collection: get-started
 ms.date: 04/13/2023
 ms.author: plarrue
 ms.reviewer: angieandrews
@@ -72,7 +72,7 @@ When a tenant has purchased AI Builder capacity, corresponding credits are by de
 
 The administrator can restrict usage by allocating all credits to specific environments. The administrator can also reserve some capacity to an environment by allocating an amount of credits to this environment.
 
-To learn how to allocate capacity in [Power Platform admin center](https://admin.powerplatform.microsoft.com/), go to [Allocate or change capacity in an environment] (/power-platform/admin/capacity-add-on#allocate-or-change-capacity-in-an-environment).
+To learn how to allocate capacity in [Power Platform admin center](https://admin.powerplatform.microsoft.com/), go to [Allocate or change capacity in an environment](/power-platform/admin/capacity-add-on#allocate-or-change-capacity-in-an-environment).
 
 To learn details on how to manage AI Builder capacity, go to [Manage capacity](administer.md#manage-capacity).
 

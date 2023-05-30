@@ -6,7 +6,7 @@ contributors:
   - phil-cmd
   - v-aangie
 ms.topic: conceptual
-ms.custom: intro-internal
+ms.collection: get-started
 ms.date: 01/23/2023
 ms.author: plarrue
 ms.reviewer: angieandrews

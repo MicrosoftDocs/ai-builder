@@ -7,7 +7,7 @@ contributors:
   - v-aangie
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/06/2023
+ms.date: 05/26/2023
 ms.author: ashbhati
 ms.reviewer: angieandrews
 ---
@@ -20,18 +20,10 @@ GPT model is a powerful tool for Power Apps, as it enables makers to quickly and
 
 > [!IMPORTANT]
 > - This is a preview feature.
->
 > - [!INCLUDE[cc_preview_features_definition](includes/cc-preview-features-definition.md)]
->
 > - For more information, go to our [preview terms](https://go.microsoft.com/fwlink/?linkid=2189520).
->
 > - This capability is in process of rolling out, and may not be available in your region yet.
->
 > - This capability  may be subject to usage limits or capacity throttling.
-
->[!NOTE]
->
-> This capability is in gated preview, and you'll need to apply for consideration to take part in the trial. To apply, go to [Limited preview request](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR2LogRPRiTJDo1Rd8KnmcFRUMzlLTDZVQlJKSzNIWkVCMzE0VDFYVzk2QS4u).
 
 ## Select an AI model
 
