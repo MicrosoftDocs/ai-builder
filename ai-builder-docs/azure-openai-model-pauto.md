@@ -29,10 +29,6 @@ GPT models (Generative Pre-trained Transformer) are a type of natural language p
 >
 > - This capability  may be subject to usage limits or capacity throttling.
 
->[!NOTE]
->
-> This capability is in gated preview, and you'll need to apply for consideration to take part in the trial. To apply, go to [Limited preview request](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR2LogRPRiTJDo1Rd8KnmcFRUMzlLTDZVQlJKSzNIWkVCMzE0VDFYVzk2QS4u).
-
 ## Create instructions
 
 By combining the power of these models with Power Automate, you can automate mundane tasks such as writing emails and generating reports, which can free up time for employees to focus on more important tasks. This can lead to increased productivity and cost savings for the company.  
