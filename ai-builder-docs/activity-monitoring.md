@@ -7,12 +7,12 @@ contributors:
   - v-aangie
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/22/2023
+ms.date: 05/31/2023
 ms.author: jelenak
 ms.reviewer: angieandrews
 ---
 
-# Activity monitoring (preview)
+# Monitor model activity (preview)
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -26,9 +26,7 @@ As you use your AI models, you might need to access data to monitor the activity
 
 The **AI Builder activity** section of the Power Automate portal provides tables and graphs to monitor AI models and the data processed by the AI models, as well as track AI credits consumption.
 
-To open the **AI Builder activity (preview)** screen, select **Monitor** > **AI Builder activity (preview)**.
-
-:::image type="content" source="media/activity-monitoring/activity-monitoring-legend-no-seemore.png" alt-text="Screenshot of the AI Builder activity (preview) screen.":::
+:::image type="content" source="media/activity-monitoring/activity-monitoring-legend.png" alt-text="Screenshot of the AI Builder activity (preview) screen.":::
 
 Legend:
 
@@ -40,7 +38,17 @@ Legend:
 1. **Processed by:** Name of the person who did the predict. This is typically the Power Automate flow owner, or the person who executed the Power Apps app.
 1. **AI Credits:** Number of credits consumed for this AI predict action.
 
-You can customize how the data appears by applying a filter for timeframe or by model. Do this by selecting the relevant heading.
+## View AI Builder activity
+
+The **AI Builder activity** screen contains AI models activity, including activity generated in [Power Apps](/power-apps/powerapps-overview).
+
+1. Sign in to [Power Automate](https://make.powerautomate.com).
+1. On the left navigation panel, select **Monitor** > **AI Builder activity (preview)**.
+1. (Optional) Customize how the data appears by applying a filter for timeframe or by model. Do this by selecting the relevant heading.
+
+    By default, data displays for all AI models for the last seven (7) days.
+
+1. (Optional) To display more data, select **See more**.
 
 ## Monitoring data for makers and admins
 
@@ -48,7 +56,7 @@ The AI Builder activity section is helpful for makers who want to get monitoring
 
 > [!NOTE]
 >
->- The monitoring data is stored in the **AI Event** table in your Microsoft Dataverse. It persists in the table even if the model/flow/app are deleted. 
+>- The monitoring data is stored in the **AI Event** table in your Microsoft Dataverse. It persists in the table even if the model/flow/app are deleted.
 >
 >- The **AI Event** Dataverse table contains input of the AI model predict actions for text scenarios only.
 
