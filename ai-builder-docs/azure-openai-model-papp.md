@@ -83,7 +83,7 @@ To bind the **Create text with GPT** model to a control, identify an event of th
 
 Congratulations! You've created an app that uses an AI Builder Create text with GPT capability. On the top of the screen, select **Save** to save all the changes in the app, and then select **Play** to test the application.  
 
-    Notice the Power Fx function:
+Notice the Power Fx function:
 
     ```powerapps-dot
     Set(TextCompletionResult, 'Create text with GPT'.Predict(TextInput1.Text));
@@ -95,7 +95,7 @@ Congratulations! You've created an app that uses an AI Builder Create text with 
 
 1. Select **Save**, and then select **Play** to try out your app.
 
-For a list of the parameters used in Azure OpenAI Service, go to [parameters](azure-openai-model-pauto.md#parameters) in Power Automate.
+For a list of the parameters used in Azure OpenAI Service, go to [input parameters](azure-openai-model-pauto.md#input-parameters) and [output-parameters](azure-openai-model-pauto.md#output-parameters) in Power Automate.
 
 ### See also
 
