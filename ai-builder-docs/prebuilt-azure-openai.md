@@ -18,10 +18,10 @@ ms.reviewer: angieandrews
 
 The Azure OpenAI Service generative text capability is a powerful tool in AI Builder. This preview capability enables you to quickly and easily build AI-powered applications that use text generated from your input, like these:
 
-- A tool that quickly and accurately summarizes long documents and extracts key information
-- A tool that helps draft responses to user queries
-- A tool that classifies text into different categories
-- A tool that translates text from one language to another
+- A tool that quickly and accurately summarizes long documents and extracts key information.
+- A tool that helps draft responses to user queries.
+- A tool that classifies text into different categories.
+- A tool that translates text from one language to another.
 
 Text generation is powered by Azure OpenAI Service, which is built on Generative Pre-trained Transformer (GPT) technology. These large language models have been trained on a massive amount of text data, which enables them to generate text that's similar to human-written text.
 
