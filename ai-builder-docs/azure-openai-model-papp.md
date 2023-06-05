@@ -30,6 +30,10 @@ GPT (Generative Pre-trained Transformer) models are a type of natural language p
 >
 > - This capability may be subject to usage limits or capacity throttling.
 
+## Select an AI model
+
+1. Sign in to [Power Apps](https://make.powerapps.com).
+
 ## Add an AI model as a data source
 
 The following example creates a simple app that answers a question entered in a text box.

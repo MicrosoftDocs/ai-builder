@@ -26,11 +26,9 @@ GPT (Generative Pre-trained Transformer) models are a type of natural language p
 >
 > - [View our preview terms](https://go.microsoft.com/fwlink/?linkid=2189520).
 >
-> - This capability may not be available in your region yet.
+> - This capability might not be available in your region yet.
 >
 > - This capability may be subject to usage limits or capacity throttling.
->
-> - This capability is in gated preview. You need to apply for consideration to take part in the trial. [Apply for the limited preview](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR2LogRPRiTJDo1Rd8KnmcFRUMzlLTDZVQlJKSzNIWkVCMzE0VDFYVzk2QS4u).
 
 ## Create instructions
 
@@ -82,17 +80,14 @@ The following example posts the AI-generated response from the previous example 
 
 1. Select **Save**, and then select **Test** to try out your flow.
 
-## Parameters
-<!-- EDITOR'S NOTE: I'm not convinced this section adds value for the reader. The input parameters aren't explicity called out as examples. The prompt and response text are self-evident. The only parameter that might be helpful is "finish reason," and that's TBD. I'd get rid of this section entirely. -->
-
-### Input
+## Input parameters
 
 |Name  |Required  |Type  | Description | Values |
 |---------|---------|---------|-------------|--------|
 |Prompt/instructions     | Yes        |  String       | The instruction or the prompt for the model to act on   |  Natural language instruction for the model along with the dynamic content that the model can act on  | 
 |Parameters     |  Optional       | JSON        |  Model parameters to optimize the output  |  {<br/>"temperature": 0,<br/>"max_tokens": 750,<br/>"top_p": 1,<br/>"frequency_penalty": 0,<br/>"presence_penalty": 0<br/>} 
 
-### Output
+## Output parameters
 
 |Name  |Type  | Description | Values |
 |---------|---------|---------|----------|
