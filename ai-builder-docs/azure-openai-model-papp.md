@@ -51,13 +51,9 @@ The following example creates a simple app that answers a question entered in a 
 
     If you don’t see your model in the list, you might not have permission to use it in Power Apps. Contact your administrator to resolve this problem. 
 
-## Trigger a response
-
-Next, bind the model prediction with a control or an event to trigger the model response.
-
 ## Bind the model prediction to a control
 
-The screenshot in this section shows a simple application to answer any question specified in the instruction text box.
+Next, bind the model prediction with a control or an event to trigger the model response. The screenshot in this section shows a simple application to answer any question specified in the instruction text box.
 
 To bind the **Create text with GPT** model to a control, identify an event of the control that you want to invoke the model prediction. In this case, we're binding the model to the **Generate Text** button and the **OnSelect** event on the button. The result is that whenever the button is selected, the **OnSelect** event is triggered, which triggers the Power Fx function mentioned here.
 
@@ -79,9 +75,9 @@ The `.Predict()` on this model accepts a string as a parameter and returns the g
 
 Congratulations! You've created an app that uses an AI Builder Create text with GPT capability. On the top of the screen, select **Save** to save all the changes in the app, and then select **Play** to test the application.  
 
-1. Select **Save**, and then select **Play** to try out your app.
+## Parameters
 
-For a list of the parameters used in Azure OpenAI Service, go to [input parameters](azure-openai-model-pauto.md#input-parameters) and [output-parameters](azure-openai-model-pauto.md#output-parameters) in Power Automate.
+For a list of the parameters used in Azure OpenAI Service, go to [input parameters](azure-openai-model-pauto.md#input-parameters) and [output parameters](azure-openai-model-pauto.md#output-parameters) in Power Automate.
 
 ### See also
 
