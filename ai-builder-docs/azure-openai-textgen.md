@@ -42,11 +42,7 @@ This article explains *prompt engineering* and other key concepts to help you cr
 
 1. Select **Text** > **Azure OpenAI Service** (Power Automate) or **Text** > **Text generation** (Power Apps).
 
-    The prompt engineering window opens:
-
-    <!-- EDITOR'S NOTE: Please include a screenshot of the prompt window. -->
-
-Use this exploratory experience to learn how to instruct the model to generate desired text. The prompt engineering interface comes with sample prompts to help you try out the capability.
+    The prompt engineering window opens. Use this exploratory experience to learn how to instruct the model to generate desired text. The prompt engineering interface comes with sample prompts to help you try out the capability.
 
 ## Use specific text for more relevant responses
 
