@@ -38,26 +38,50 @@ GPT (Generative Pre-trained Transformer) models are a type of natural language p
 
 The following example creates a simple app that answers a question entered in a text box.
 
-1. Sign in to [Power Apps](https://make.powerapps.com) and [create a canvas app](/power-apps/maker/canvas-apps/create-blank-app).
+1. Sign in to [Power Apps](https://make.powerapps.com).
 
-1. Add a text input box and a text output box and between them, a button labeled **Generate Text**.<!-- EDITOR'S NOTE: I'm guessing at the controls based on what I see in the screenshot. Please add the instructions to create the app shown. -->
+1. On the left navigation pane, select **Apps**.
+1. On the menu at the top, select **+ New app** > **Canvas**. 
 
-1. Select **Data** > **Add data** > **AI models** > **Create text with GPT**.
+1. Enter a name for the app and choose between **Tablet** and **Phone** for the format of the app.
 
-    :::image type="content" alt-text="Screenshot of selecting an AI model as the data source in a canvas app." source="media/azure-openai-model-papp/data-source.png":::
+1. Select **Create**.
 
-    If you don't see your AI model in the list, you might not have permission to use it in Power Apps. Ask your administrator for help.
+1. On the list of icons to the left of the **Tree view**, select **Data** > **Add data** > **AI models**.
 
-## Bind the model to a control
+    :::image type="content" alt-text="Screenshot of selecting a data source." source="media/azure-openai-model-papp/data-source.png":::
 
-After you add an AI model to the app, bind the model to an event of a control to trigger the model response. In this example, we bind the model to the **OnSelect** event of the **Generate Text** button, but you can select any control and event that makes sense for your purposes.
-<!-- EDITOR'S NOTE: Please make sure the instructions below are complete enough that a reader can create the app shown. -->
+1. Select one or more models to add.
 
-1. Select **Tree view**.
+    If you don’t see your model in the list, you might not have permission to use it in Power Apps. Contact your administrator to resolve this problem. 
 
-1. Above the **Tree view** heading, select **OnSelect** in the list.
+## Trigger a response
+
+Next, bind the model prediction with a control or an event to trigger the model response.
+
+## Bind the model prediction to a control
+
+The screenshot in this section shows a simple application to answer any question specified in the instruction text box.
+
+To bind the **Create text with GPT** model to a control, identify an event of the control that you want to invoke the model prediction. In this case, we're binding the model to the **Generate Text** button and the **OnSelect** event on the button. The result is that whenever the button is selected, the **OnSelect** event is triggered, which triggers the Power Fx function mentioned here.
+
+1. On the list of icons to the left, select **Tree view**.
+
+1. Above the **Tree view** heading, select **OnSelect** in the dropdown menu.
 
 1. On the **Screens** tab, select **GenerateText**.
+
+1. Notice the Power Fx function:
+
+    ```powerapps-dot
+    Set(TextCompletionResult, 'Create text with GPT'.Predict(TextInput1.Text));
+    ````
+
+    The `.Predict()` on this model accepts a string as a parameter and returns the generated text as a response text. In the following example, we're passing the instruction from the text box as a prompt to the **Create text with GPT** model, and the response from the model appears in the **Response** label.  
+
+    :::image type="content" alt-text="Screenshot of binding the model prediction to a control." source="media/azure-openai-model-papp/generate-text.png":::
+
+Congratulations! You've created an app that uses an AI Builder Create text with GPT capability. On the top of the screen, select **Save** to save all the changes in the app, and then select **Play** to test the application.  
 
     Notice the Power Fx function:
 
@@ -75,6 +99,6 @@ For a list of the parameters used in Azure OpenAI Service, go to [parameters](az
 
 ### See also
 
-[Azure OpenAI Service model overview (preview)](prebuilt-azure-openai.md)  
-[How text generation in Azure OpenAI Service works (preview)](azure-openai-textgen.md)  
+[Azure OpenAI Service model overview (preview)](prebuilt-azure-openai.md)
+[How text generation in Azure OpenAI Service works (preview)](azure-openai-textgen.md)
 [Use your Azure OpenAI Service model in Power Automate (preview)](azure-openai-model-pauto.md)
