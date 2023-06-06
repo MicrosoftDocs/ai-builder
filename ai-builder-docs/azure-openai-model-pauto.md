@@ -96,6 +96,7 @@ The following example posts the AI-generated response from the previous example 
 
 ### See also
 
-[Azure OpenAI Service model overview (preview)](prebuilt-azure-openai.md)  
-[How text generation in Azure OpenAI Service works (preview)](azure-openai-textgen.md)  
-[Use your Azure OpenAI Service model in Power Apps (preview)](azure-openai-model-papp.md)
+- [Azure OpenAI Service model overview (preview)](prebuilt-azure-openai.md)  
+- [How text generation in Azure OpenAI Service works (preview)](azure-openai-textgen.md)  
+- [Use your Azure OpenAI Service model in Power Apps (preview)](azure-openai-model-papp.md)
+- [Video: How to automate extracting text from emails in just 1 minute](https://www.youtube.com/watch?v=UchRykL7me8)
