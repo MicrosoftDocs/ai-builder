@@ -1,12 +1,12 @@
 ---
 title: Use your Azure OpenAI Service model in Power Automate (preview)
-description: Learn how to use GPT and Azure OpenAI Service model in Power Automate with AI Builder.
+description: Learn how to use GPT and the Azure OpenAI Service model with AI Builder in Power Automate.
 author: ashbhati
 contributors:
   - ashbhati
   - v-aangie
-ms.topic: conceptual
-ms.custom: 
+ms.topic: how-to
+ms.custom: bap-template
 ms.date: 03/06/2023
 ms.author: ashbhati
 ms.reviewer: angieandrews
@@ -14,50 +14,53 @@ ms.reviewer: angieandrews
 
 # Use your Azure OpenAI Service model in Power Automate (preview)
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
+[!INCLUDE [cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-GPT models (Generative Pre-trained Transformer) are a type of natural language processing (NLP) model that's pre-trained on a large corpus of text. These models have become increasingly popular due to their ability to generate human-like text from a given prompt. They're being used in a variety of applications, from text summarization to automated question answering. When combined with workflow automation, the AI models can be used to automate a variety of tasks. For example, GPT models can be used to automatically generate drafts of emails, customer service responses, and product descriptions. They can also be used to generate proposed customer service scripts, allowing customer service agents to quickly respond to customer inquiries.
+GPT (Generative Pre-trained Transformer) models are a type of natural language processing model. GPT models are trained on a large body of content to generate human-like text from a prompt. When you combine them with workflow automation, you can use AI models like GPT to automate a variety of tasks. For example, you can build workflows to automatically generate drafts of emails, customer service responses, and product descriptions. You can also use them to generate scripts that allow customer service agents to respond quickly to customer inquiries.
 
 > [!IMPORTANT]
+>
 > - This is a preview feature.
 >
-> - [!INCLUDE[cc_preview_features_definition](includes/cc-preview-features-definition.md)]
+> - [!INCLUDE [cc_preview_features_definition](includes/cc-preview-features-definition.md)]
 >
-> - For more information, go to our [preview terms](https://go.microsoft.com/fwlink/?linkid=2189520).
+> - [View our preview terms](https://go.microsoft.com/fwlink/?linkid=2189520).
 >
-> - This capability is in process of rolling out, and may not be available in your region yet.
+> - This capability might not be available in your region yet.
 >
-> - This capability  may be subject to usage limits or capacity throttling.
+> - This capability may be subject to usage limits or capacity throttling.
 
 ## Create instructions
 
-By combining the power of these models with Power Automate, you can automate mundane tasks such as writing emails and generating reports, which can free up time for employees to focus on more important tasks. This can lead to increased productivity and cost savings for the company.  
+[GPT model prompts](azure-openai-textgen.md#parts-of-a-prompt) have two parts, the *instruction* and the *context*. The instruction tells the model what it should do. The context is the information the model needs to follow the instruction. In an automation task, the instruction is constant and the context is provided by dynamic content.
 
-1. Sign in to [Power Automate](https://make.powerautomate.com). 
+The following example uses an instant cloud flow, but you can include a GPT model in an automated cloud flow, too.
+
+1. Sign in to [Power Automate](https://make.powerautomate.com).
 
 1. On the left pane, select **My flows**.
 
-1. Select **New flow** > **Instant cloud flow**. 
+1. Select **New flow** > **Instant cloud flow**, and then name your flow.
 
-    You can also select **Automated cloud flow** in case you want to build an automated flow.
+1. Under **Choose how to trigger this flow**, select **Manually trigger a flow**, and then select **Create**.
 
-1. Name your flow, select **Manually trigger a flow** under **Choose how to trigger this flow**, and then select **Create**. 
-
-1. Expand **Manually trigger a flow**, and then select **+Add an input** > **Text** as the input type. 
+1. Expand **Manually trigger a flow**, and then select **+Add an input** > **Text** as the input type.
 
 1. Select **+ New step** > **AI Builder**, and then select **Create text with GPT on Azure OpenAI Service** in the list of actions.
 
-1. Create your instructions by selecting **Create instructions** for the model by experimenting with the prompt and sample context. Graphical user interface, text, application, email
+1. Select **Create instructions** and enter instructions and a sample context. Refine the prompt based on the responses until you're satisfied the model is working as intended.
 
-    :::image type="content" alt-text="Screenshot of the Create instructions screen." source="media/azure-openai-model-pauto/create-instruction.png":::
+    :::image type="content" alt-text="Screenshot of the Create instructions page in Power Automate." source="media/azure-openai-model-pauto/create-instruction.png":::
 
-    The newly created instruction should have the sample context/text replaced by dynamic content, which in this case is the topic variable from the previous step. This dynamic content can be anything that the model needs to have a context to generate new content every time (for example, an email to generate a response or text from a document to summarize).
+1. Replace the sample context with dynamic content.
+
+In this example, the dynamic content is the topic variable from the previous step. The dynamic content can be anything the model needs to generate a new response every time; for example, an email to generate a response or text from a document to summarize.
 
 ## Insert human oversight
 
-Whenever you intend to post AI-generated content anywhere, you must decide if you're ok for such content to be posted on your behalf or on behalf of your organization. AI-generation context can be factually incorrect, inappropriate, or biased at times. It's recommended that you employ the safe practice of inserting [human oversight](azure-openai-textgen.md#human-oversight) before posting externally (and even internally to Teams or message boards, for example). 
+AI-generated content can be factually incorrect, inappropriate, or biased. We strongly recommend that you institute a practice of inserting [human oversight](azure-openai-textgen.md#human-oversight) in workflows that use AI-generated text before it's posted or used anywhere.
 
-To insert human oversight:
+The following example posts the AI-generated response from the previous example to a Teams channel after a human approves it.
 
 1. Select **+ New step** > **Approvals**.
 
@@ -67,27 +70,24 @@ To insert human oversight:
 
 1. In the **Condition** box, set **Outcome** from the approval step as the condition to check.
 
-1. In the **Condition** box, set **Approve** as the positive response to validate.  
+1. In the **Condition** box, set **Approve** as the positive response to validate.
 
-1. If the condition is true (which is **Approve** in this case), select **+ New step** > **Teams**, and then select **Post message in a chat or channel** in the list of actions.
+1. If the condition is true, select **+ New step** > **Teams**, and then select the action **Post message in a chat or channel**.
 
-    Use the AI-generated **Text** as the content to post on a desired Teams chat or channel.
+1. Use the AI-generated **Text** as the content to post in the Teams chat or channel.
 
-    :::image type="content" alt-text="Screenshot of inserting human oversight." source="media/azure-openai-model-pauto/post-message.png":::
+    :::image type="content" alt-text="Screenshot of inserting human oversight in Power Automate." source="media/azure-openai-model-pauto/post-message.png":::
 
-Congratulations! You've created a flow that uses an AI Builder create text with GPT capability. Select **Save** on the top right, and then select **Test** to try out your flow.
+1. Select **Save**, and then select **Test** to try out your flow.
 
-## Parameters
-
-### Input
-
+## Input parameters
 
 |Name  |Required  |Type  | Description | Values |
 |---------|---------|---------|-------------|--------|
 |Prompt/instructions     | Yes        |  String       | The instruction or the prompt for the model to act on   |  Natural language instruction for the model along with the dynamic content that the model can act on  | 
 |Parameters     |  Optional       | JSON        |  Model parameters to optimize the output  |  {<br/>"temperature": 0,<br/>"max_tokens": 750,<br/>"top_p": 1,<br/>"frequency_penalty": 0,<br/>"presence_penalty": 0<br/>} 
 
-### Output
+## Output parameters
 
 |Name  |Type  | Description | Values |
 |---------|---------|---------|----------|
@@ -96,6 +96,6 @@ Congratulations! You've created a flow that uses an AI Builder create text with 
 
 ### See also
 
-- [Azure OpenAI Service model overview (preview)](prebuilt-azure-openai.md)
-- [How text generation in Azure OpenAI Service works (preview)](azure-openai-textgen.md)
-- [Use your Azure OpenAI Service model in Power Apps (preview)](azure-openai-model-papp.md)
+[Azure OpenAI Service model overview (preview)](prebuilt-azure-openai.md)  
+[How text generation in Azure OpenAI Service works (preview)](azure-openai-textgen.md)  
+[Use your Azure OpenAI Service model in Power Apps (preview)](azure-openai-model-papp.md)
