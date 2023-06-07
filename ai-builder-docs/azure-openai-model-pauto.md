@@ -60,25 +60,25 @@ In this example, the dynamic content is the topic variable from the previous ste
 
 AI-generated content can be factually incorrect, inappropriate, or biased. We strongly recommend that you institute a practice of inserting [human oversight](azure-openai-textgen.md#human-oversight) in workflows that use AI-generated text before it's posted or used anywhere.
 
-The following example posts the AI-generated response from the previous example to a Teams channel after a human approves it.
+In the following example, we send the AI-generated summary of a text by email after a human reviews it.
 
 1. Select **+ New step** > **Approvals**.
 
-1. In the list of actions, select **Start and wait for an approval**.
+1. In the list of actions, select **Start and wait for an approval of text**.
 
 1. In the list of actions, select **+ New step** > **Condition**.
 
-1. In the **Condition** box, set **Outcome** from the approval step as the condition to check.
+1. In the **Condition** box, set **Outcome** from the approval step as the condition to check and **Approve** as the positive response to validate.
 
-1. In the **Condition** box, set **Approve** as the positive response to validate.
-
-1. If the condition is true, select **+ New step** > **Teams**, and then select the action **Post message in a chat or channel**.
-
-1. Use the AI-generated **Text** as the content to post in the Teams chat or channel.
+1. If the condition is true, you can proceed with the email sending. In the body, make sure to select **Accepted text** from the approval step, which is the AI-generated text reviewed by a human.
 
     :::image type="content" alt-text="Screenshot of inserting human oversight in Power Automate." source="media/azure-openai-model-pauto/post-message.png":::
 
 1. Select **Save**, and then select **Test** to try out your flow.
+
+The human receiving the AI-generated text to review has the possibility to accept, edit or reject the text.
+
+    :::image type="content" alt-text="Screenshot of text approval." source="media/azure-openai-model-pauto/text-approval.png":::
 
 ## Input parameters
 
