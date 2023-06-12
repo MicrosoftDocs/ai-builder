@@ -78,7 +78,7 @@ In the following example, we send the AI-generated summary of a text by email af
 
 The human receiving the AI-generated text to review has the possibility to accept, edit or reject the text.
 
-  :::image type="content" alt-text="Screenshot of approval text edit." source="media/azure-openai-model-pauto/text-approval":::
+  :::image type="content" alt-text="Screenshot of approval text edit." source="media/azure-openai-model-pauto/text-approval.png":::
 
 
 ## Input parameters
