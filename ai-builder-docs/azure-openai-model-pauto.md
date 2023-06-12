@@ -80,6 +80,7 @@ The human receiving the AI-generated text to review has the possibility to accep
 
     :::image type="content" alt-text="Screenshot of approval text edit." source="media/azure-openai-model-pauto/text-approval":::
 
+1. End.
 
 ## Input parameters
 
