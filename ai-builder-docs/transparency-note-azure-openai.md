@@ -54,4 +54,4 @@ The Azure OpenAI Service in AI Builder empowers you to build intelligent apps an
 
 [Azure OpenAI Service model overview (preview)](prebuilt-azure-openai.md)
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE[footer-include](./includes/footer-banner.md)]

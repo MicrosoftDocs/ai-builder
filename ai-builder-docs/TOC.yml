@@ -278,7 +278,7 @@
   - name: Support
     href: support.md
     displayName: Help
-- Responsible AI
+- name: Responsible AI
   items:
   - name: Overview
   - href: transparency-note.md
