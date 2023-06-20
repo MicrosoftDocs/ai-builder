@@ -41,11 +41,11 @@ You can override the behavior of a default field by redrawing   an existing boun
 
 :::image type="content" source="media/invoice-override-fields.png" alt-text="Screenshot of overriding behavior of a default field.":::
 
-Invoice default fields that were not automatically detected in your document, will be marked as “Not in document”. You change to “Available in document” and manually tag it if present.
+Invoice default fields that were not automatically detected in your document, will be marked as 'Not in document'. You change to **Available in document** and manually tag it if present.
 
 :::image type="content" source="media/invoice-available-document.png" alt-text="Screenshot of field available in document.":::
 
-When tagging, selecting “Custom” will display the list of untagged fields you have added and selecting “Default’ will display the untagged default fields marked as “Available in the document”.
+When tagging, selecting **Custom** will display the list of untagged fields you have added and selecting **Default** will display the untagged default fields marked as 'Available in the document'.
 
 :::image type="content" source="media/invoice-default-view.png" alt-text="Screenshot of default view.":::
 
