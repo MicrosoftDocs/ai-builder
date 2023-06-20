@@ -35,6 +35,21 @@ When you hover over words in your documents, light blue boxes may appear. These 
 
 :::image type="content" source="media/form-select-fields.png" alt-text="Screenshot of selecting fields close up.":::
 
+#### For the custom Invoices model only (Preview)
+
+You can override the behavior of a default field by redrawing   an existing bounding box.
+
+:::image type="content" source="media/invoice-override-fields.png" alt-text="Screenshot of overriding behavior of a default field.":::
+
+Invoice default fields that were not automatically detected in your document, will be marked as “Not in document”. You change to “Available in document” and manually tag it if present.
+
+:::image type="content" source="media/invoice-available-document.png" alt-text="Screenshot of field available in document.":::
+
+When tagging, selecting “Custom” will display the list of untagged fields you have added and selecting “Default’ will display the untagged default fields marked as “Available in the document”.
+
+:::image type="content" source="media/invoice-default-view.png" alt-text="Screenshot of default view.":::
+
+
 ### Tag tables
 
 1. Draw a rectangle around the table in the document you're interested in, and then select the table name that it corresponds to. The content of the panel on the right will change.
