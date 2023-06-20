@@ -17,7 +17,7 @@ ms.reviewer: angieandrews
 
 The invoice processing prebuilt AI model extracts key invoice data to help automate the processing of invoices. The invoice processing model is optimized to recognize common invoice elements like invoice ID, invoice date, amount due, and more.
 
-**(Preview)** You can augment the default behavior of this model by building a [custom invoice processing model](create-form-processing-model.md#select-the-type-of-document).
+**(Preview)** You can augment the default behavior of this model by building a [custom Invoices model](create-form-processing-model.md#select-the-type-of-document).
 
 ## Use in Power Apps
 
