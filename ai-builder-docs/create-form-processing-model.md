@@ -3,6 +3,7 @@ title: Create a document processing custom model in AI Builder
 description: Learn how to create a document processing model in AI Builder.
 author: JoeFernandezMS
 contributors:
+  - antrodfr
   - JoeFernandezMS
   - phil-cmd
   - v-aangie
@@ -19,7 +20,7 @@ After you review the [requirements](form-processing-model-requirements.md), you 
 
 ## Sign in to AI Builder
 
-1. Sign in to [Power Apps](https://make.powerapps.com/) or [Power Automate](https://flow.microsoft.com/signin).
+1. Sign in to [Power Apps](https://make.powerapps.com/) or [Power Automate](https://make.powerautomate.com).
 
 1. On the left pane, select **AI Builder** > **Explore**.
 
@@ -27,7 +28,7 @@ After you review the [requirements](form-processing-model-requirements.md), you 
 
 1. Select **Get Started**.
 
-1. A step-by-step wizard will walk you through the process by asking you to list all data you want to extract from your document. If you want to create your model by using your own documents, make sure you have at least five examples that use the same layout. Otherwise, you can [use sample data](form-processing-sample-data.md) to create the model.
+1. A step-by-step wizard walks you through the process by asking you to list all data you want to extract from your document. If you want to create your model by using your own documents, make sure you have at least five examples that use the same layout. Otherwise, you can [use sample data](form-processing-sample-data.md) to create the model.
 
 1. Select **Train**.
  
@@ -41,9 +42,9 @@ On the **Choose document type** step, select the type of document you want to bu
 
 - **Unstructured and free-form documents**. Unstructured documents are those where there's no set structure, usually free documents with a varying number of paragraphs. Examples of unstructured documents are contracts, statement of work, letters, and more.
 
-- **Invoices (Preview)**. Augment the behaviors of the prebuilt invoice processing model by adding new fields to be extracted in addition to the ones by [default](prebuilt-invoice-processing.md#model-output) or samples of documents not properly extracted.
+- **Invoices (preview)**. Augment the behaviors of the prebuilt invoice processing model by adding new fields to be extracted in addition to the ones by [default](prebuilt-invoice-processing.md#model-output), or samples of documents not properly extracted.
 
-    :::image type="content" source="media/document-processing-choose-document-type.png" alt-text="Screenshot of the tiles under Select the type of documents your model will process.":::
+    :::image type="content" source="media/document-processing-choose-document-type.png" alt-text="Screenshot of the tiles under 'Select the type of documents your model will process'.":::
 
 ## Define information to extract
 
@@ -58,7 +59,7 @@ On the **Choose information to extract** screen, define the fields, tables, and 
 - For each **Table**, provide the name you'd like the table to have. Also, define the different columns that the model should extract.
 
  > [!NOTE]
- > The custom invoices model comes with default fields which can’t be edited.
+ > The custom invoices model comes with default fields that can’t be edited.
 
 ## Group documents by collections
 
