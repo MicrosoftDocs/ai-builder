@@ -3,7 +3,7 @@ title: Use the object detection component in Power Apps - AI Builder | Microsoft
 description: Provides information about how to use an object detection component in Power Apps
 author: billba
 ms.topic: conceptual
-ms.custom: intro-internal
+ms.collection: get-started
 ms.date: 04/09/2021
 ms.author: billba
 ms.reviewer: angieandrews
