@@ -43,15 +43,19 @@ By combining the power of these models with Power Automate, you can automate mun
 
 1. Name your flow, select **Manually trigger a flow** under **Choose how to trigger this flow**, and then select **Create**. 
 
-1. Expand **Manually trigger a flow**, and then select **+Add an input** > **Text** as the input type. 
+1. Expand **Manually trigger a flow**, and then select **+ Add an input**, choose **Text** as the input type, and name it **Topic**. 
 
 1. Select **+ New step** > **AI Builder**, and then select **Create text with GPT on Azure OpenAI Service** in the list of actions.
 
-1. Create your instructions by selecting **Create instructions** for the model by experimenting with the prompt and sample context. Graphical user interface, text, application, email
+1. Create your instructions by selecting **Create instructions** and exploring the sample templates or start from a blank.
+
+    Experiment with the prompt and sample context and click **Test it out** to see how it performs.
 
     :::image type="content" alt-text="Screenshot of the Create instructions screen." source="media/azure-openai-model-pauto/create-instruction.png":::
 
-    The newly created instruction should have the sample context/text replaced by dynamic content, which in this case is the topic variable from the previous step. This dynamic content can be anything that the model needs to have a context to generate new content every time (for example, an email to generate a response or text from a document to summarize).
+    The newly created instruction should have the sample context/text replaced by dynamic content, which in this case is the **Topic** variable from the previous step. This dynamic content can be anything that the model needs to have a context to generate new content every time (for example, an email to generate a response or text from a document to summarize).
+
+1. Click **Use instructions in flow** to insert the prompt into the action's **Instructions**.
 
 ## Insert human oversight
 
