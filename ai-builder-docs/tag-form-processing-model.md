@@ -3,6 +3,8 @@ title: Tag documents in a document processing model
 description: Learn how to tag documents in a document processing model.
 author: CedrickBellarosa
 contributors:
+  - CedrickBellarosa
+  - antrodfr
   - v-aangie
 ms.topic: conceptual
 ms.custom: 
@@ -35,9 +37,23 @@ When you hover over words in your documents, light blue boxes may appear. These 
 
 :::image type="content" source="media/form-select-fields.png" alt-text="Screenshot of selecting fields close up.":::
 
+#### For the custom Invoices (preview) model only
+
+You can override the behavior of a default field by redrawing an existing bounding box.
+
+:::image type="content" source="media/invoice-override-fields.png" alt-text="Screenshot of overriding behavior of a default field.":::
+
+Invoice default fields that weren't automatically detected in your document are marked as 'Not in document'. You can change this to **Available in document** and manually tag it if it's present.
+
+:::image type="content" source="media/invoice-available-document.png" alt-text="Screenshot of field available in document.":::
+
+When tagging, select **Custom** to display the list of untagged fields you've added, and select **Default** to display the untagged default fields marked as 'Available in the document'.
+
+:::image type="content" source="media/invoice-default-view.png" alt-text="Screenshot of default view.":::
+
 ### Tag tables
 
-1. Draw a rectangle around the table in the document you're interested in, and then select the table name that it corresponds to. The content of the panel on the right will change.
+1. Draw a rectangle around the table in the document you're interested in, and then select the table name that it corresponds to. The content of the panel on the right changes.
 
 1. Draw *rows* by left-clicking between row separators.
 
