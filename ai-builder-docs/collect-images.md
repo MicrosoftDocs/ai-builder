@@ -1,5 +1,5 @@
 ---
-title: Collect images - AI Builder | Microsoft Docs
+title: Collect images
 description: Learn how to effectively collect images to build an object detection model in AI Builder.
 author: ashishb
 contributors:
@@ -29,7 +29,6 @@ The images you'll feed your object detection model need these characteristics:
 - **Size**:
   - 6 MB maximum for training
   - minimum width / height of 256 pixels x 256 pixels
-
 
 ## Data quantity and data balance
 
@@ -78,13 +77,7 @@ AI models can incorrectly learn characteristics that your images have in common.
 
 To correct this, use the above guidance on training with more varied images: provide images with different angles, backgrounds, object size, groups, and other variants.
 
-## Need help collecting images?
-
-You can use [Trove](https://www.microsoft.com/ai/trove?activetab=pivot1:primaryr3) to gather images for your projects. Trove is an app that connects you directly with photo takers, allowing you to collect more relevant and accurate photos. Using Trove, you can post your project descriptions, outline the types of photos you are looking for, and only approve the photos that you want. Trove provides licensing and privacy frameworks, so you can collect high quality data responsibly and safely. 
-
-To use Trove, [sign up and add your AI project](https://aka.ms/t-aib).
-
-### Next step
+### See also
 
 [Get started with object detection](get-started-with-object-detection.md)
 
