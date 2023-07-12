@@ -46,11 +46,11 @@
   items:
   - name: Overview
     href: prebuilt-overview.md
-  - name: Azure OpenAI Service (preview)
+  - name: GPT text generation (preview)
     items:
     - name: Overview
       href: prebuilt-azure-openai.md
-    - name: How text generation in Azure OpenAI Service works  
+    - name: How GPT text generation works  
       href: azure-openai-textgen.md
   - name: Sentiment analysis
     href: prebuilt-sentiment-analysis.md
