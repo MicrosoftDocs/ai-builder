@@ -54,5 +54,5 @@ The next window that opens is where you can create text that can be used for man
 ### See also
 
 - [How GPT text generation works (preview)](azure-openai-textgen.md)
-- [Use GPT text generation model in Power Apps (preview)](azure-openai-model-papp.md)
+- [Use your GPT text generation model in Power Apps (preview)](azure-openai-model-papp.md)
 - [Use your GPT text generation model in Power Automate (preview)](azure-openai-model-pauto.md)
