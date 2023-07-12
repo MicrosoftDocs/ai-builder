@@ -39,7 +39,7 @@ Text generation is powered by Azure OpenAI Service, which is built on Generative
 
 ## Explore the model
 
-The GPT text generation mode has a prompt engineering interface with sample prompts you can try. You can also create your own prompts to instruct the model.
+The GPT text generation model has a prompt engineering interface with sample prompts you can try. You can also create your own prompts to instruct the model.
 
 1. Sign in to [Power Apps](https://make.powerapps.com) or [Power Automate](https://make.powerautomate.com).
 
