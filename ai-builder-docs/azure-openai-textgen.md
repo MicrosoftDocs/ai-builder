@@ -101,6 +101,6 @@ We're committed to creating [responsible AI](https://blogs.microsoft.com/on-th
 
 ### See also
 
-- [Azure OpenAI Service model overview (preview)](prebuilt-azure-openai.md)  
+- [GPT text generation overview (preview)](prebuilt-azure-openai.md)  
 - [Use your GPT text generation model in Power Apps (preview)](azure-openai-model-papp.md)  
 - [Use your GPT text generation model in Power Automate (preview)](azure-openai-model-pauto.md)  
