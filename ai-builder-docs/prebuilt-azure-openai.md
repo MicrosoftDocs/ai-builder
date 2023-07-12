@@ -1,5 +1,5 @@
 ---
-title: Azure OpenAI Service model overview (preview)
+title: How GPT text generation works (preview)
 description: Learn how to use text generation with GPT-3 and the Azure OpenAI Service prebuilt model in AI Builder to build a ChatGPT-like experience in Power Platform.
 author: ashbhati
 contributors:
@@ -12,11 +12,11 @@ ms.author: ashbhati
 ms.reviewer: angieandrews
 ---
 
-# Azure OpenAI Service model overview (preview)
+# How GPT text generation works (preview)
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-The Azure OpenAI Service generative text capability is a powerful tool in AI Builder. This preview capability enables you to quickly and easily build AI-powered applications that use text generated from your input, like these:
+The GPT text generation capability is a powerful tool in AI Builder. This preview capability enables you to quickly and easily build AI-powered applications that use text generated from your input, like these:
 
 - A tool that quickly and accurately summarizes long documents and extracts key information.
 - A tool that helps draft responses to user queries.
@@ -39,13 +39,13 @@ Text generation is powered by Azure OpenAI Service, which is built on Generative
 
 ## Explore the model
 
-The Azure OpenAI Service model has a prompt engineering interface with sample prompts you can try. You can also create your own prompts to instruct the model.
+The GPT text generation mode has a prompt engineering interface with sample prompts you can try. You can also create your own prompts to instruct the model.
 
 1. Sign in to [Power Apps](https://make.powerapps.com) or [Power Automate](https://make.powerautomate.com).
 
 1. On the left navigation panel, select **AI Builder** > **Explore** (Power Automate) or **AI models** > **Build an AI model** (Power Apps).
 
-1. Select **Text** > **Azure OpenAI Service** (Power Automate) or **Text** > **Text generation** (Power Apps).
+1. Select **Text** > **Text generation** (Power Automate) or **Text** > **Text generation** (Power Apps).
 
     :::image type="content" alt-text="Screenshot of GPT Text gneration capability on the AI Builder Explore page." source="media/prebuilt-azure-openai/text-generation-works.png":::
 
