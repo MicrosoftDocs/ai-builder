@@ -1,5 +1,5 @@
 ---
-title: Use your GPT text generation model in Power Automate (preview)
+title: Use the GPT text generation model in Power Automate (preview)
 description: Learn how to use GPT and the Azure OpenAI Service model with AI Builder in Power Automate.
 author: ashbhati
 contributors:
@@ -12,7 +12,7 @@ ms.author: ashbhati
 ms.reviewer: angieandrews
 ---
 
-# Use your GPT text generation model in Power Automate (preview)
+# Use the GPT text generation model in Power Automate (preview)
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -96,7 +96,7 @@ The human receiving the AI-generated text to review has the possibility to accep
 
 ### See also
 
-- [GPT text generation works overview (preview)](prebuilt-azure-openai.md)  
+- [GPT text generation overview (preview)](prebuilt-azure-openai.md)  
 - [How GPT text generation works (preview)](azure-openai-textgen.md)  
 - [Use your GPT text generation model in Power Apps (preview)](azure-openai-model-papp.md)
 - [Video: How to automate extracting text from emails in just 1 minute](https://www.youtube.com/watch?v=UchRykL7me8)
