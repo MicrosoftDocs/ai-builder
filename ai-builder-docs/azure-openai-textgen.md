@@ -1,5 +1,5 @@
 ---
-title: How text generation in Azure OpenAI Service works (preview)
+title: How GPT text generation works (preview)
 description: Learn what makes text generation with GPT possible, like prompt engineering, human inspection and oversight, and responsible AI in AI Builder.
 author: ashbhati
 contributors:
@@ -12,11 +12,11 @@ ms.author: ashbhati
 ms.reviewer: angieandrews
 ---
 
-# How text generation in Azure OpenAI Service works (preview)
+# How GPT text generation works (preview)
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-This article explains *prompt engineering* and other key concepts to help you create powerful applications that can generate text from your input. *Prompt* is a natural language instruction that tells the machine learning model to perform a task. The GPT model uses the prompt to determine the structure and content of the text it needs to generate. *Prompt engineering* is the process of creating and refining the input that's used to generate text with the Azure OpenAI Service generative text capability.
+This article explains *prompt engineering* and other key concepts to help you create powerful applications that can generate text from your input. *Prompt* is a natural language instruction that tells the machine learning model to perform a task. The GPT model uses the prompt to determine the structure and content of the text it needs to generate. *Prompt engineering* is the process of creating and refining the input that's used to generate text with GPT text generation capability.
 
 > [!IMPORTANT]
 >
@@ -38,7 +38,7 @@ This article explains *prompt engineering* and other key concepts to help you cr
 
     :::image type="content" alt-text="Screenshot of the Azure OpenAI Service model on the AI Builder Explore page in Power Automate." source="media/prebuilt-azure-openai/openai-tile.png":::
 
-1. Select **Text** > **Azure OpenAI Service** (Power Automate) or **Text** > **Text generation** (Power Apps).
+1. Select **Text** > **Text generation** (Power Automate) or **Text** > **Text generation** (Power Apps).
 
     The prompt engineering window opens. Use this exploratory experience to learn how to instruct the model to generate desired text. The prompt engineering interface comes with sample prompts to help you try out the capability.
 
