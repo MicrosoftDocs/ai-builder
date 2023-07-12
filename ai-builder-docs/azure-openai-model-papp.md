@@ -1,5 +1,5 @@
 ---
-title: Use your Azure OpenAI Service model in Power Apps (preview)
+title: Use the GPT text generation model in Power Apps (preview)
 description: Learn how to use GPT and the Azure OpenAI Service model with AI Builder in Power Apps.
 author: ashbhati
 contributors:
@@ -12,7 +12,7 @@ ms.author: ashbhati
 ms.reviewer: angieandrews
 ---
 
-# Use your Azure OpenAI Service model in Power Apps (preview)
+# Use the GPT text generation model in Power Apps (preview)
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -81,6 +81,6 @@ For a list of the parameters used in Azure OpenAI Service, go to [input paramete
 
 ### See also
 
-[Azure OpenAI Service model overview (preview)](prebuilt-azure-openai.md)
-[How text generation in Azure OpenAI Service works (preview)](azure-openai-textgen.md)
-[Use your Azure OpenAI Service model in Power Automate (preview)](azure-openai-model-pauto.md)
+- [Overview GPT text generation works (preview)](prebuilt-azure-openai.md)
+- [How GPT text generation works (preview)](azure-openai-textgen.md)
+- [Use your GPT text generation model in Power Automate (preview)](azure-openai-model-pauto.md)
