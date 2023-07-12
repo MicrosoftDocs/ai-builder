@@ -47,12 +47,12 @@ The Azure OpenAI Service model has a prompt engineering interface with sample pr
 
 1. Select **Text** > **Azure OpenAI Service** (Power Automate) or **Text** > **Text generation** (Power Apps).
 
-    :::image type="content" alt-text="Screenshot of the Azure OpenAI Service model on the AI Builder Explore page." source="media/prebuilt-azure-openai/openai-tile.png":::
+    :::image type="content" alt-text="Screenshot of GPT Text gneration capability on the AI Builder Explore page." source="media/prebuilt-azure-openai/text-generation-works.png":::
 
-The next window that opens is where you can create text that can be used for many tasks. [Learn how text generation in Azure OpenAI Service works](azure-openai-textgen.md).
+The next window that opens is where you can create text that can be used for many tasks. [Learn how GPT text generation works](azure-openai-textgen.md).
 
 ### See also
 
-- [How text generation in Azure OpenAI Service works (preview)](azure-openai-textgen.md)
-- [Use your Azure OpenAI Service model in Power Apps (preview)](azure-openai-model-papp.md)
-- [Use your Azure OpenAI Service model in Power Automate (preview)](azure-openai-model-pauto.md)
+- [How GPT text generation works (preview)](azure-openai-textgen.md)
+- [Use GPT text generation model in Power Apps (preview)](azure-openai-model-papp.md)
+- [Use your GPT text generation model in Power Automate (preview)](azure-openai-model-pauto.md)
