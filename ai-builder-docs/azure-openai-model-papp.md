@@ -81,6 +81,6 @@ For a list of the parameters used in Azure OpenAI Service, go to [input paramete
 
 ### See also
 
-- [Overview GPT text generation (preview)](prebuilt-azure-openai.md)
+- [GPT text generation overview (preview)](prebuilt-azure-openai.md)
 - [How GPT text generation works (preview)](azure-openai-textgen.md)
 - [Use your GPT text generation model in Power Automate (preview)](azure-openai-model-pauto.md)
