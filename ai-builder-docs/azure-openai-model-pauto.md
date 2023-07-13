@@ -51,7 +51,7 @@ The following example uses an instant cloud flow, but you can include a GPT mode
 
 1. Select **Create instructions** and enter instructions and a sample context. Refine the prompt based on the responses until you're satisfied the model is working as intended.
 
-    :::image type="content" alt-text="Screenshot of the Create prompt page in Power Automate." source="media/azure-openai-model-pauto/create-instruction.png":::
+    :::image type="content" alt-text="Screenshot of the Create prompt page in Power Automate." source="media/azure-openai-model-pauto/create-prompt.png":::
 
 1. Replace the sample context with dynamic content.
 
