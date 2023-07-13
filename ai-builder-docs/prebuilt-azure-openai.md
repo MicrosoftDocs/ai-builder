@@ -4,10 +4,11 @@ description: Learn how to use text generation with GPT-3 and the Azure OpenAI Se
 author: ashbhati
 contributors:
   - ashbhati
+  - phil-cmd
   - v-aangie
 ms.topic: conceptual
 ms.custom: bap-template
-ms.date: 03/06/2023
+ms.date: 07/13/2023
 ms.author: ashbhati
 ms.reviewer: angieandrews
 ---
@@ -45,7 +46,9 @@ The GPT text generation model has a prompt engineering interface with sample pro
 
 1. On the left navigation panel, select **AI Builder** > **Explore** (Power Automate) or **AI models** > **Build an AI model** (Power Apps).
 
-1. Select **Text** > **Text generation** (Power Automate) or **Text** > **Text generation** (Power Apps).
+1. Select **Text** > **Text generation**.
+
+    The following screenshot is from Power Automate.
 
     :::image type="content" alt-text="Screenshot of GPT Text gneration capability on the AI Builder Explore page." source="media/prebuilt-azure-openai/text-generation-works.png":::
 

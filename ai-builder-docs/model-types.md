@@ -32,8 +32,7 @@ To build a model with AI Builder:
 
 1. On the right pane, select the model type that matches what you want to do. Then, you're ready to get started.
 
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of AI Builder home page.](media/ai-builder-home.png "AI Builder home page")
+    :::image type="content" source="media/ai-builder-home.png" alt-text="Screenshot of AI Builder home page.":::
 
 ## Model types
 
@@ -51,7 +50,7 @@ The following table lists the data type, models type, and build type.
 | Documents       | [Document processing](form-processing-model-overview.md)         | Custom  |
 | Documents       | [Text recognition](prebuilt-text-recognition.md)        | Prebuilt            |
 | Documents       | [Receipt processing](prebuilt-receipt-processing.md)      | Prebuilt            |
-|Text             | [Azure OpenAI Service (preview)](prebuilt-azure-openai.md)         | Prebuilt  |
+|Text             | [Text generation (preview)](prebuilt-azure-openai.md)         | Prebuilt  |
 | Text            | Category classification  | [Prebuilt (preview)](prebuilt-category-classification.md) and [custom](text-classification-overview.md) |
 | Text            | Entity extraction       | [Prebuilt](prebuilt-entity-extraction.md) and [custom](entity-extraction-overview.md) |
 | Text            | [Key phrase extraction](prebuilt-key-phrase.md)   | Prebuilt            |
