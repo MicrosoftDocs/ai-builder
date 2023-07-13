@@ -47,11 +47,11 @@ The following example uses an instant cloud flow, but you can include a GPT mode
 
 1. Expand **Manually trigger a flow**, and then select **+Add an input** > **Text** as the input type.
 
-1. Select **+ New step** > **AI Builder**, and then select **Create text with GPT on Azure OpenAI Service** in the list of actions.
+1. Select **+ New step** > **AI Builder**, and then select **Create text with GPT** in the list of actions.
 
 1. Select **Create instructions** and enter instructions and a sample context. Refine the prompt based on the responses until you're satisfied the model is working as intended.
 
-    :::image type="content" alt-text="Screenshot of the Create instructions page in Power Automate." source="media/azure-openai-model-pauto/create-instruction.png":::
+    :::image type="content" alt-text="Screenshot of the Create prompt page in Power Automate." source="media/azure-openai-model-pauto/create-instruction.png":::
 
 1. Replace the sample context with dynamic content.
 
