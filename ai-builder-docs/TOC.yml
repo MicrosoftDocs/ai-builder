@@ -201,7 +201,7 @@
       href: prediction-pwr-automate.md
   - name: Use a prebuilt AI Builder model in Power Automate
     items:
-    - name: Azure OpenAI Service model (preview)
+    - name: GPT text generation model (preview)
       href: azure-openai-model-pauto.md
     - name: Business card reader model
       href: flow-business-card-reader.md
@@ -231,9 +231,9 @@
   items:
   - name: Overview
     href: use-in-powerapps-overview.md
-  - name: Use your Azure OpenAI Service model in Power Apps (preview)
+  - name: Use the GPT text generation model in Power Apps (preview)
     href: azure-openai-model-papp.md
-  - name: Use your prediction model in Power Apps
+  - name: Use the prediction model in Power Apps
     href: prediction-model-driven-app.md
   - name: Use the form processor component in Power Apps
     href: form-processor-component-in-powerapps.md
