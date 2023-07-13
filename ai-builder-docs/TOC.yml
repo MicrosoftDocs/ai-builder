@@ -46,11 +46,11 @@
   items:
   - name: Overview
     href: prebuilt-overview.md
-  - name: GPT text generation (preview)
+  - name: Text generation (preview)
     items:
     - name: Overview
       href: prebuilt-azure-openai.md
-    - name: How GPT text generation works  
+    - name: How text generation works  
       href: azure-openai-textgen.md
   - name: Sentiment analysis
     href: prebuilt-sentiment-analysis.md
@@ -201,7 +201,7 @@
       href: prediction-pwr-automate.md
   - name: Use a prebuilt AI Builder model in Power Automate
     items:
-    - name: GPT text generation model (preview)
+    - name: Text generation model (preview)
       href: azure-openai-model-pauto.md
     - name: Business card reader model
       href: flow-business-card-reader.md
@@ -231,7 +231,7 @@
   items:
   - name: Overview
     href: use-in-powerapps-overview.md
-  - name: Use the GPT text generation model in Power Apps (preview)
+  - name: Use the text generation model in Power Apps (preview)
     href: azure-openai-model-papp.md
   - name: Use the prediction model in Power Apps
     href: prediction-model-driven-app.md

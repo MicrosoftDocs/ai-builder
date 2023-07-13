@@ -1,5 +1,5 @@
 ---
-title: GPT text generation model overview (preview)
+title: Text generation model overview (preview)
 description: Learn how to use the text generation prebuilt model in AI Builder to build a ChatGPT-like experience in Power Platform.
 author: ashbhati
 contributors:
@@ -13,11 +13,11 @@ ms.author: ashbhati
 ms.reviewer: angieandrews
 ---
 
-# GPT text generation model overview (preview)
+# Text generation model overview (preview)
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-The GPT text generation model's capability is a powerful tool in AI Builder. It enables you to quickly and easily build AI-powered applications that use text generated from your input, like these tools that:
+The text generation model's capability is a powerful tool in AI Builder. It enables you to quickly and easily build AI-powered applications that use text generated from your input, like these tools that:
 
 - Quickly and accurately summarize long documents and extracts key information.
 - Help draft responses to user queries.
@@ -40,7 +40,7 @@ Text generation is powered by Azure OpenAI Service, which is built on Generative
 
 ## Explore the model
 
-The GPT text generation model has a prompt engineering interface with sample prompts you can try. You can also create your own prompts to instruct the model.
+The text generation model has a prompt engineering interface with sample prompts you can try. You can also create your own prompts to instruct the model.
 
 1. Sign in to [Power Apps](https://make.powerapps.com) or [Power Automate](https://make.powerautomate.com).
 
@@ -50,12 +50,12 @@ The GPT text generation model has a prompt engineering interface with sample pro
 
     The following screenshot is from Power Automate.
 
-    :::image type="content" alt-text="Screenshot of GPT Text gneration capability on the AI Builder Explore page." source="media/prebuilt-azure-openai/text-generation-works.png":::
+    :::image type="content" alt-text="Screenshot of the text gneration capability on the AI Builder Explore page." source="media/prebuilt-azure-openai/text-generation-works.png":::
 
-The next window that opens is where you can create text that can be used for many tasks. [Learn how GPT text generation works](azure-openai-textgen.md).
+The next window that opens is where you can create text that can be used for many tasks. [Learn how text generation works](azure-openai-textgen.md).
 
 ### See also
 
-- [How GPT text generation works (preview)](azure-openai-textgen.md)
-- [Use your GPT text generation model in Power Apps (preview)](azure-openai-model-papp.md)
-- [Use your GPT text generation model in Power Automate (preview)](azure-openai-model-pauto.md)
+- [How text generation works (preview)](azure-openai-textgen.md)
+- [Use the text generation model in Power Apps (preview)](azure-openai-model-papp.md)
+- [Use the text generation model in Power Automate (preview)](azure-openai-model-pauto.md)

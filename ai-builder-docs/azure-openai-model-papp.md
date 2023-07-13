@@ -1,6 +1,6 @@
 ---
-title: Use the GPT text generation model in Power Apps (preview)
-description: Learn how to use the GPT text generation model with AI Builder in Power Apps.
+title: Use the text generation model in Power Apps (preview)
+description: Learn how to use the text generation model with AI Builder in Power Apps.
 author: ashbhati
 contributors:
   - ashbhati
@@ -13,11 +13,11 @@ ms.author: ashbhati
 ms.reviewer: angieandrews
 ---
 
-# Use the GPT text generation model in Power Apps (preview)
+# Use the text generation model in Power Apps (preview)
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-GPT (Generative Pre-trained Transformer) models are a type of natural language processing model. GPT models are trained on a large body of content to generate human-like text from a prompt. Use them in your apps to interactively fill in forms or questionnaires, generate reports and summaries from a dataset, create automated chatbot conversations, and more. GPT models are especially helpful in generating responses for customer service teams that need to quickly reply to customer inquiries.
+Text generation is powered by Azure OpenAI Service, which is built on Generative Pre-trained Transformer (GPT) technology. GPT models are a type of natural language processing model. GPT models are trained on a large body of content to generate human-like text from a prompt. Use them in your apps to interactively fill in forms or questionnaires, generate reports and summaries from a dataset, create automated chatbot conversations, and more. GPT models are especially helpful in generating responses for customer service teams that need to quickly reply to customer inquiries.
 
 > [!IMPORTANT]
 >
@@ -82,6 +82,6 @@ For a list of the parameters used in Azure OpenAI Service, go to [input paramete
 
 ### See also
 
-- [GPT text generation overview (preview)](prebuilt-azure-openai.md)
-- [How GPT text generation works (preview)](azure-openai-textgen.md)
-- [Use your GPT text generation model in Power Automate (preview)](azure-openai-model-pauto.md)
+- [Text generation overview (preview)](prebuilt-azure-openai.md)
+- [How text generation works (preview)](azure-openai-textgen.md)
+- [Use the text generation model in Power Automate (preview)](azure-openai-model-pauto.md)

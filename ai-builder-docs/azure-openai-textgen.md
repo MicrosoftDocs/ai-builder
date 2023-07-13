@@ -1,5 +1,5 @@
 ---
-title: How GPT text generation works (preview)
+title: How text generation works (preview)
 description: Learn what makes text generation with GPT possible, like prompt engineering, human inspection and oversight, and responsible AI in AI Builder.
 author: ashbhati
 contributors:
@@ -13,7 +13,7 @@ ms.author: ashbhati
 ms.reviewer: angieandrews
 ---
 
-# How GPT text generation works (preview)
+# How text generation works (preview)
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -104,6 +104,6 @@ We're committed to creating [responsible AI](https://blogs.microsoft.com/on-th
 
 ### See also
 
-- [GPT text generation overview (preview)](prebuilt-azure-openai.md)  
-- [Use your GPT text generation model in Power Apps (preview)](azure-openai-model-papp.md)  
-- [Use your GPT text generation model in Power Automate (preview)](azure-openai-model-pauto.md)  
+- [Text generation overview (preview)](prebuilt-azure-openai.md)  
+- [Use the text generation model in Power Apps (preview)](azure-openai-model-papp.md)  
+- [Use the text generation model in Power Automate (preview)](azure-openai-model-pauto.md)  
