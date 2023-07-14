@@ -16,8 +16,7 @@ AI Builder is a Microsoft Power Platform capability that provides AI models that
 
 - Explore AI Builder in [Power Apps](use-in-powerapps-overview.md).
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the AI Builder home page.](media/ai-builder-home.png "AI Builder home page")
+:::image type="content" source="media/ai-builder-home.png" alt-text="Screenshot of the AI Builder home page.":::
 
 ## Add intelligence to your business
 
