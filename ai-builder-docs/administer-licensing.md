@@ -45,7 +45,7 @@ To get details on your environment allocation, check environment details in [Adm
 
 To get details on your environment consumption, check the [AI Builder consumption report](administer-consumption-report.md).
 
-When you add all the consumptions of the current month of a specific environment, you'll get the monthly consumption of this environment.
+When you add all the consumptions of the current month of a specific environment, you get the monthly consumption of this environment.
 
 If your environment has no more capacity, you need to provide capacity to your environment. To do this, reallocate existing capacity (from the tenant or environment level). Alternatively, you can purchase more capacity and make it available to your environment.
 
@@ -53,7 +53,7 @@ To help estimate the required add-on capacity based on your estimated consumptio
 
 ## Purchase AI Builder capacity
 
-Some Microsoft products like Power Apps per app plan, Power Apps per user plan, and Power Automate Premium plan include some AI Builder capacity. Your environment admin can check entitlement in Power Platform admin center by following the instructions in [Capacity add-ons](/power-platform/admin/capacity-add-on). When this amount isn't enough, you need to complete it with one or more AI Builder capacity add-ons.
+Some Microsoft products like Power Apps per app plan, Power Apps per user plan, and Power Automate Premium (previously Power Automate per user with attended RPA) plan include some AI Builder capacity. Your environment admin can check entitlement in Power Platform admin center by following the instructions in [Capacity add-ons](/power-platform/admin/capacity-add-on). When this amount isn't enough, you need to complete it with one or more AI Builder capacity add-ons.
 
 To purchase the AI Builder credit add-on in the Microsoft 365 admin center:
 
@@ -70,7 +70,7 @@ To purchase the AI Builder credit add-on in the Microsoft 365 admin center:
 
 When a tenant has purchased AI Builder capacity, corresponding credits are by default unallocated and available as a pool on the tenant. In this state, credits can be used on any environment.
 
-The administrator can restrict usage by allocating all credits to specific environments. The administrator can also reserve some capacity to an environment by allocating an amount of credits to this environment.
+The administrator can restrict usage by allocating all credits to specific environments. The administrator can also reserve some capacity to an environment by allocating a number of credits to this environment.
 
 To learn how to allocate capacity in [Power Platform admin center](https://admin.powerplatform.microsoft.com/), go to [Allocate or change capacity in an environment](/power-platform/admin/capacity-add-on#allocate-or-change-capacity-in-an-environment).
 
@@ -78,14 +78,14 @@ To learn details on how to manage AI Builder capacity, go to [Manage capacity](a
 
 ## Capacity Overuse
 
-When an environment consumption exceeds its credit allocation, the following functions will begin to fail:
+When an environment consumption exceeds its credit allocation, the following functions begin to fail:
 
 - Create a model or a new version of a model.
 
 - Run a model in Power Apps or in a Power Automate flow.
 
 - Scheduled model run or retrain.
-  - Some scenarios allow scheduled run or retrain, which is configured on the model settings panel. These scheduled tasks will fail when you exceed capacity.
+  - Some scenarios allow scheduled run or retrain, which is configured on the model settings panel. These scheduled tasks fail when you exceed capacity.
 
 Only limited overage is allowed. To continue using AI Builder when you exceed capacity, purchase the AI Builder add-on capacity, and allocate it to your environment.
 
@@ -151,7 +151,7 @@ To renew your AI Builder trial license, sign in to Power Apps or Power Automate,
 
 An AI Builder trial license includes a limited amount of AI Builder capacity. You use this capacity when running or training models.
 
-If you exceed your AI Builder capacity, you’ll receive an over-capacity notification. These notifications appear as banners in AI Builder pages or when using the model.
+If you exceed your AI Builder capacity, you receive an over-capacity notification. These notifications appear as banners in AI Builder pages or when using the model.
 
 The following functions aren't available when you exceed capacity:
 
@@ -161,11 +161,11 @@ The following functions aren't available when you exceed capacity:
   - You can still share your model with another user. They can run it using their own AI Builder capacity if they have a valid trial.
 
 - Scheduled model run or retrain.
-  - Some scenarios allow scheduled run or retrain, which is configured on the model settings panel. These scheduled tasks will fail when you exceed capacity. Therefore, data won’t be refreshed, and the model won’t be retrained.
+  - Some scenarios allow scheduled run or retrain, which is configured on the model settings panel. These scheduled tasks fail when you exceed capacity. Therefore, data isn't refreshed, and the model isn't retrained.
 
 To continue using AI Builder when you exceed capacity, [purchase AI Builder add-on](administer-licensing.md#purchase-ai-builder-capacity), and [allocate capacity](administer-licensing.md#allocate-capacity) to your environments.
 
-If you extend a trial after expiration, capacity is reset. You can again run and train your models, and create new ones. Scheduled run and retrain instances will resume according to the existing settings.
+If you extend a trial after expiration, capacity is reset. You can again run and train your models, and create new ones. Scheduled run and retrain instances resume according to the existing settings.
 
 ## Preview features
 
@@ -193,21 +193,21 @@ Then [allocate additional capacity](administer-licensing.md#allocate-capacity) e
 ### Where can I see credit usage for this month?
 
 Get details on your environment consumption by checking the [AI Builder consumption report](administer-consumption-report.md). It gives the amount of consumption per day per user per environment.
-Adding all the consumptions of the current month of a specific environment will give you the monthly consumption of this environment.
+Adding all the consumptions of the current month of a specific environment gives you the monthly consumption of this environment.
 
 ### When is credit usage count reset? Is it based on license acquisition date?
 
-Credit usage is counted on a monthly basis, starting the first day of each month. It's not based on the license acquisition date. Credit usage of an environment should not exceed the credit allocation.  
+Credit usage is counted on a monthly basis, starting the first day of each month. It's not based on the license acquisition date. Credit usage of an environment shouldn't exceed the credit allocation.  
 
 ### What happened to the remaining capacity at the end of the month? Can it be used the following month?
 
-No, unused capacity is not carried over to the next month. Credit usage is counted on a monthly basis and reset on first day of the month. Available capacity is based on allocated capacity.
+No, unused capacity isn't carried over to the next month. Credit usage is counted on a monthly basis and reset on first day of the month. Available capacity is based on allocated capacity.
 
 ### I exceeded my trial capacity. What can I do?
 
 - You can [purchase AI Builder Add On](administer-licensing.md#purchase-ai-builder-capacity)  and [allocate capacity](administer-licensing.md#allocate-capacity) to your environment
 
-- You can wait for your trial to expire, then extend your trial: this will add new capacity.
+- You can wait for your trial to expire, then extend your trial: this adds new capacity.
 
 - You can also share your existing model with another user who still has active trial with capacity.
 
@@ -215,13 +215,13 @@ No, unused capacity is not carried over to the next month. Credit usage is count
 
 After your AI Builder trial license expires, or if you exceed capacity:
 
-- Your models are not deleted.
+- Your models aren't deleted.
 
 - You have to [purchase AI Builder Add-On](administer-licensing.md#purchase-ai-builder-capacity) to continue using your AI models.
 
 - An administrator must [allocate AI Builder capacity](administer-licensing.md#allocate-capacity) to any environment where you want to use AI Builder.
 
-- You can't create or modify AI Builder models, and no new inference will be possible when the trial expires if you don't purchase a license.
+- You can't create or modify AI Builder models, and no new inference is possible when the trial expires if you don't purchase a license.
 
 - You can also extend your trial, but only for a limited number of times.
 
