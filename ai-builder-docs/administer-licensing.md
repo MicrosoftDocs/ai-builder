@@ -53,12 +53,12 @@ To help estimate the required add-on capacity based on your estimated consumptio
 
 ## Purchase AI Builder capacity
 
-Some Microsoft products like Power Apps per app plan, Power Apps per user plan, and Power Automate per user plan with attended RPA include some AI Builder capacity. Your environment admin can check entitlement in Power Platform admin center by following the instructions in [Capacity add-ons](/power-platform/admin/capacity-add-on). When this amount isn't enough, you need to complete it with one or more AI Builder capacity add-ons.
+Some Microsoft products like Power Apps per app plan, Power Apps per user plan, and Power Automate Premium plan include some AI Builder capacity. Your environment admin can check entitlement in Power Platform admin center by following the instructions in [Capacity add-ons](/power-platform/admin/capacity-add-on). When this amount isn't enough, you need to complete it with one or more AI Builder capacity add-ons.
 
 To purchase the AI Builder credit add-on in the Microsoft 365 admin center:
 
 1. In the admin center, select **Billing** >  [Purchase services](https://go.microsoft.com/fwlink/p/?linkid=868433).
-    You need to be the billing administrator of your tenant to access this page. <!--I don't have perms to test.-->
+    You need to be the billing administrator of your tenant to access this page.
 
 1. On the **Purchase services** page, do the following steps:
 
