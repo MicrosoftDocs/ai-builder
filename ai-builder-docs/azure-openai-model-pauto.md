@@ -1,22 +1,23 @@
 ---
-title: Use your Azure OpenAI Service model in Power Automate (preview)
-description: Learn how to use GPT and the Azure OpenAI Service model with AI Builder in Power Automate.
+title: Use the text generation model in Power Automate (preview)
+description: Learn how to use the text generation model with AI Builder in Power Automate.
 author: ashbhati
 contributors:
   - ashbhati
+  - phil-cmd
   - v-aangie
 ms.topic: how-to
 ms.custom: bap-template
-ms.date: 03/06/2023
+ms.date: 07/13/2023
 ms.author: ashbhati
 ms.reviewer: angieandrews
 ---
 
-# Use your Azure OpenAI Service model in Power Automate (preview)
+# Use the text generation model in Power Automate (preview)
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-GPT (Generative Pre-trained Transformer) models are a type of natural language processing model. GPT models are trained on a large body of content to generate human-like text from a prompt. When you combine them with workflow automation, you can use AI models like GPT to automate a variety of tasks. For example, you can build workflows to automatically generate drafts of emails, customer service responses, and product descriptions. You can also use them to generate scripts that allow customer service agents to respond quickly to customer inquiries.
+Text generation is powered by Azure OpenAI Service, which is built on Generative Pre-trained Transformer (GPT) technology. GPT models are a type of natural language processing model. GPT models are trained on a large body of content to generate human-like text from a prompt. When you combine them with workflow automation, you can use AI models like GPT to automate a variety of tasks. For example, you can build workflows to automatically generate drafts of emails, customer service responses, and product descriptions. You can also use them to generate scripts that allow customer service agents to respond quickly to customer inquiries.
 
 > [!IMPORTANT]
 >
@@ -46,11 +47,11 @@ The following example uses an instant cloud flow, but you can include a GPT mode
 
 1. Expand **Manually trigger a flow**, and then select **+Add an input** > **Text** as the input type.
 
-1. Select **+ New step** > **AI Builder**, and then select **Create text with GPT on Azure OpenAI Service** in the list of actions.
+1. Select **+ New step** > **AI Builder**, and then select **Create text with GPT** in the list of actions.
 
 1. Select **Create instructions** and enter instructions and a sample context. Refine the prompt based on the responses until you're satisfied the model is working as intended.
 
-    :::image type="content" alt-text="Screenshot of the Create instructions page in Power Automate." source="media/azure-openai-model-pauto/create-instruction.png":::
+    :::image type="content" alt-text="Screenshot of the Create prompt page in Power Automate." source="media/azure-openai-model-pauto/create-prompt.png":::
 
 1. Replace the sample context with dynamic content.
 
@@ -96,7 +97,7 @@ The human receiving the AI-generated text to review has the possibility to accep
 
 ### See also
 
-- [Azure OpenAI Service model overview (preview)](prebuilt-azure-openai.md)  
-- [How text generation in Azure OpenAI Service works (preview)](azure-openai-textgen.md)  
-- [Use your Azure OpenAI Service model in Power Apps (preview)](azure-openai-model-papp.md)
+- [Text generation overview (preview)](prebuilt-azure-openai.md)  
+- [How text generation works (preview)](azure-openai-textgen.md)  
+- [Use the text generation model in Power Apps (preview)](azure-openai-model-papp.md)
 - [Video: How to automate extracting text from emails in just 1 minute](https://www.youtube.com/watch?v=UchRykL7me8)
