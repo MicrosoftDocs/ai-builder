@@ -281,7 +281,7 @@
 - name: Responsible AI
   items:
   - name: Overview
-    href: transparency-note.md
-  - name: Transparency note for Azure OpenAI Service in AI Builder
-    href: transparency-note-azure-openai.md
+    href: responsible-ai-overview.md
+  - name: FAQ for text generation
+    href: faqs-text-generation.md
 
