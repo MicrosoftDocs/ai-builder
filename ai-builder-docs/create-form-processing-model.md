@@ -50,7 +50,7 @@ On the **Choose document type** step, select the type of document you want to bu
 
 On the **Choose information to extract** screen, define the fields, tables, and checkboxes you want to teach your model to extract. Select the **+Add** button to start defining these.
 
-:::image type="content" source="media/document-processing-choose-information-to-extract-step.png" alt-text="Screenshot of the step in the document processing wizard where to define the fields, tables, or checkboxes we want the AI model to extract.":::
+:::image type="content" source="media/choose-information-to-extract.png" alt-text="Screenshot of the step in the document processing wizard where to define the fields, tables, or checkboxes we want the AI model to extract.":::
 
 - For each **Text field**, provide a name you'd like the field to have in the model.
 
