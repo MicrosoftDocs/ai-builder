@@ -17,5 +17,4 @@ ms.reviewer: angieandrews
 [!INCLUDE[responsible-ai-features](./includes/responsible-ai-features.md)]
 
 - [Text generation model overview (preview)](prebuilt-azure-openai.md)
-md)
 
