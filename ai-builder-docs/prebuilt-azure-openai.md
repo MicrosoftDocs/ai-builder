@@ -59,3 +59,4 @@ The next window that opens is where you can create text that can be used for man
 - [How text generation works (preview)](azure-openai-textgen.md)
 - [Use the text generation model in Power Apps (preview)](azure-openai-model-papp.md)
 - [Use the text generation model in Power Automate (preview)](azure-openai-model-pauto.md)
+- [FAQ for text generation](faqs-text-generation.md)
