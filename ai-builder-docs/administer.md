@@ -18,7 +18,7 @@ Microsoft Power Platform administrators can use the [Power Apps admin center](ht
 
 The availability, which is also known as the release status, of AI Builder is dependent on your region. For a breakdown of AI Builder feature availability by region, go to [Feature availability by region](availability-region.md).
 
-For more information, go to the [AI Builder governance whitepaper](https://www.microsoft.com/en-us/download/details.aspx?id=103317) and select **Download**.
+For more information, go to the [AI Builder governance whitepaper](https://download.microsoft.com/download/0/7/6/076cd391-a10d-41a1-8695-845abfce818b/AI Builder governance whitepaper.v2023-07.pdf) and select **Download**.
 
 ## AI custom model and environment lifecycle
 
