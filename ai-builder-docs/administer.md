@@ -96,7 +96,7 @@ As an administrator, you have access to a [consumption report](administer-consum
 
 To learn how to download reports, go to [Allocate or change capacity in an environment](/power-platform/admin/capacity-add-on#allocate-or-change-capacity-in-an-environment).
 
-Administrators also have access the [AI Builder Activity](activity-monitoring.md) page in the Power Automate portal, showing all predicts made against the AI Builder models in that environment.
+Administrators also can access the [AI Builder Activity](activity-monitoring.md) page in the Power Automate portal, showing all predicts made against the AI Builder models in that environment.
 
 ## Where and how are data stored in Dataverse?
 
