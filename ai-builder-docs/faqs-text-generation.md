@@ -16,7 +16,7 @@ These frequently asked questions (FAQ) describe the AI impact of AI Builder's te
 
 ## What is text generation?
 
-The text generation capability in AI Builder offers users a versatile toolset for developing AI-powered workflows and applications. It allows for the creation of workflows and applications that summarize documents, create draft responses, classify text, and translate languages. This capability is powered by the Azure OpenAI Service, which utilizes Generative Pre-trained Transformer (GPT) technology. These models have been trained on vast amounts of text data, enabling them to generate text that resembles human-written content. To learn more about the Azure Open AI Service, please see [Transparency Note for Azure OpenAI Service](/legal/cognitive-services/openai/transparency-note?tabs=text).
+The text generation capability in AI Builder offers users a versatile toolset for developing AI-powered workflows and applications. It allows for the creation of workflows and applications that summarize documents, create draft responses, classify text, and translate languages. This capability is powered by the Azure OpenAI Service, which utilizes Generative Pre-trained Transformer (GPT) technology. These models have been trained on vast amounts of text data, enabling them to generate text that resembles human-written content. To learn more about the Azure OpenAI Service, please see [Transparency Note for Azure OpenAI Service](/legal/cognitive-services/openai/transparency-note?tabs=text).
 
 ## What are text generation’s capabilities?
 
