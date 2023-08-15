@@ -17,4 +17,4 @@ ms.reviewer: angieandrews
 [!INCLUDE[transparency-note-features](./includes/transparency-note-features.md)]
 
 - [Azure OpenAI Service model overview (preview)](prebuilt-azure-openai.md)
-- [Transparency note for Azure Open AI Service in AI Builder](transparency-note-azure-openai.md)
+- [Transparency note for Azure OpenAI Service in AI Builder](transparency-note-azure-openai.md)
