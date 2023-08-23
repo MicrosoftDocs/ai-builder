@@ -29,6 +29,7 @@ Document processing works on input documents that meet the following requirement
 - If scanned from paper documents, scans should be high-quality images.
 - You can create up to 200 collections per model.
 - In a cloud flow, the limit of fields that can be tagged for document processing is 300.
+- Rows that break from one page to another aren't currently supported.
 
  > [!NOTE]
  > - Extracting signatures from documents isn't currently supported.<br />
