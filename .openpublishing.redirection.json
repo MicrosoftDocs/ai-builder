@@ -94,6 +94,16 @@
       "source_path": "ai-builder-docs/create-binary-classification-model.md",
       "redirect_url": "prediction-create-model",
       "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-builder-docs/transparency-note.md",
+      "redirect_url": "responsible-ai-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-builder-docs/transparency-note-azure-openai.md",
+      "redirect_url": "faqs-text-generation",
+      "redirect_document_id": "false"
     }
   ]
 }
