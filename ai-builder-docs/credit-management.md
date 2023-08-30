@@ -11,48 +11,25 @@ ms.author: antode
 ms.reviewer: angieandrews
 ---
 
-# AI Builder Credit Management
+# AI Builder Credit Management Overview
 
-AI Builder actions requires AI Builder credits.
+Access to AI Builder features within an environment require AI Builder credits.
 
+AI Builder credits come with some specific user licenses, but mostly from AI Builder Capacity add-on. See [Get entitlement to AI Builder credits](/#get-entitlement-to-ai-builder-credits)
 
-You might receive this notification when you sign in: **You’ve consumed all of your AI Builder credits. Contact your administrator to get more capacity**. If you get this message, read this article to learn how to increase capacity and get details and FAQs on licensing.
+Once acquired, credits can be allocated (aka assigned) to specific environment, or left at tenant level.  See [Make credits available for an environment ](/#Make-credits-available-for-an-environment)
 
-:::image type="content" source="media/consumed-all-credits-image-capacity-notification-a.png" alt-text="Screenshot of the AI Builder credits banner notification.":::
+Once an environment has access to credits, AI Builder features are enabled in this environment.
 
-## Prerequisite to set up an environment ready for AI Builder
+Some AI Builder actions consume credits. see [AI Builder Credit Consumption](/#AI-Builder-Credit-Consumption)
 
-AI Builder is licensed as an add-on to your Power Apps, Power Automate, or Dynamics 365 license. This means you need a Power Apps, Power Automate, or Dynamics 365 license that allows you to create a Microsoft Power Platform environment.
+Credit consumption can be monitored. see [Monitor usage](/#monitor-usage)
 
-## Get entitlement to AI Builder capacity
+In an environment, when consumption exceeds available credits, environment is in overage and some features are progressively blocked. Purchase of new credits and/or reassignment need to happen. see [Overage](/#overage)
+
+## Get entitlement to AI Builder credits
 
 First, you need to be entitled to some AI Builder capacity. This can be through one of the following paid capacities.
-
-- Purchase an AI Builder capacity add-on, or
-
-- Purchase other licenses offering some seeded capacity.
-
-This can be through a trial. The capacity is then linked to a user. Trials are available only when there's no paid capacity within the tenant.
-
-Then, a tenant administrator has to allocate part or all of the purchased capacity to the environment where you want to use AI Builder.
-
-It's also possible to leave part or all of the purchased capacity unallocated, at the tenant level. In this case, all environments without allocated capacity can consume these tenant-level unallocated credits.
-
-## Check the consumption level of an environment
-
-When browsing AI Builder pages in Power Apps or Power Automate portal, you might get this notification: **You’ve consumed all of your AI Builder credits. Contact your administrator to get more capacity**. This means the monthly consumption is higher than the allocated capacity.
-
-To get details on your environment allocation, check environment details in [Administer AI Builder, Manage capacity](administer.md#manage-capacity).
-
-To get details on your environment consumption, check the [AI Builder consumption report](administer-consumption-report.md).
-
-When you add all the consumptions of the current month of a specific environment, you get the monthly consumption of this environment.
-
-If your environment has no more capacity, you need to provide capacity to your environment. To do this, reallocate existing capacity (from the tenant or environment level). Alternatively, you can purchase more capacity and make it available to your environment.
-
-To help estimate the required add-on capacity based on your estimated consumption, use the [AI Builder calculator](https://powerapps.microsoft.com/en-us/ai-builder-calculator/).
-
-## Purchase AI Builder capacity
 
 Some Microsoft products like Power Apps per app plan, Power Apps per user plan, and Power Automate Premium (previously Power Automate per user with attended RPA) plan include some AI Builder capacity. Your environment admin can check entitlement in Power Platform admin center by following the instructions in [Capacity add-ons](/power-platform/admin/capacity-add-on). When this amount isn't enough, you need to complete it with one or more AI Builder capacity add-ons.
 
@@ -66,6 +43,64 @@ To purchase the AI Builder credit add-on in the Microsoft 365 admin center:
     1. Search for **AI Builder**.
     1. Select **Details** of the **AI Builder Capacity add-on** tile
     1. Follow the purchase process.
+       
+
+### Entitlement through AI Builder trial
+Entitlement can be through a trial. Credits are then linked to a user. Trials are available only when there's no paid capacity within the tenant.
+In case of a trial, there is no need of allocating credits to an environment.
+Trials can be used in any environment. 
+A trial brings 200K credits and is valid 30 days.
+Once credits are consumed, AI Builder models are blocked for this user.
+At the end of the 30 days, a trial can be renewed, and user receives another 200K credits. Renewal is only allowed for a limited number of times.
+
+## AI Builder Credit Consumption
+The following list isn't all-inclusive and preview scenarios don't consume credits.
+
+|AI Builder Studio  |Power Apps  |Power Automate  |
+|---------|---------|---------|
+| Train an object detection model.<br/><br/>Perform a **Quick test** on a trained object detection and document processing model.<br/><br/>Use custom documents, images or text to **try out** prebuilt models when using the tiles in the 'Explore' section.<br/><br/>Batch runs of the prediction and trainable category classification models for each row to be predicted.  | Select...<br/><br/>**Scan a business card** with the business card reader.<br/><br/>**Analyze** with the document processor.<br/><br/>**Detect** with the object detector.<br/><br/>**+ New image** with the text recognizer.<br/><br/>**Use an action** bound to an AI Builder model through [Power Fx](powerfx-in-powerapps.md).  |Run a flow using any of the actions inside the **AI Builder** category.<br/><br/>Run the generic action **Perform a bound action** of Dataverse on the entity AI Models and action name **Predict**.   |
+
+Each AI Builder model has a different credit consumption mechanism. To perform an assessment, go to the [AI Builder calculator](https://powerapps.microsoft.com/ai-builder-calculator/) or obtain the full details in the [Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130).
+
+## Make credits available for an environment 
+
+By default, the credits are unallocated and available as a pool on the tenant, which can be used on any environment. 
+
+As an administrator, you'll assess which environments must consume AI Builder credits. Use the [AI Builder calculator](https://powerapps.microsoft.com/ai-builder-calculator/) to define how many predictions will happen in a monthly period on each one and assess the credits to allocate.
+
+Allocation happens in Power Platform admin center: in Resources > Capacity > Summary tab, select "Assign to an environment" in the upper-left menu bar
+
+To learn more about how to allocate credits in the Power Platform admin center, go to [Allocate or change capacity in an environment](/power-platform/admin/capacity-add-on#allocate-or-change-capacity-in-an-environment).
+
+The administrator can block the use of unallocated credits through a tenant setting in Power Platform admin center: AI Builder credit/allow users to consume unassigned credits. By default, this setting is enabled. When disabled, only environments with allocated credits have access to AI Builder features.
+See [Tenant settings](/power-platform/admin/tenant-settings)
+
+> [!NOTE]
+> This is how administrators stay in control of *where* AI is used in their organization and, with the role assignments described in [Roles and security in AI Builder](security.md#roles), *who* is using it.
+
+
+## Monitor usage
+
+As an administrator, you have access to a [consumption report](administer-consumption-report.md) that provides the AI credits consumption on a chosen period per environment. This will allow you to fine-tune the credits allocation, which can be updated at any time.
+This also allows to check the consumption level of an environment for current month, by adding all consumptions of this environment.
+
+Administrators also can access the [AI Builder Activity](activity-monitoring.md) page in the Power Automate portal, showing all predicts made against the AI Builder models in that environment.
+
+
+## Overage
+
+When browsing AI Builder pages in Power Apps or Power Automate portal, you might get this notification: **You’ve consumed all of your AI Builder credits. Contact your administrator to get more capacity**. This means the monthly consumption is higher than the available credits. (at environment or tenant level)
+
+To get details on your environment allocation, check [Make credits available for an environment ](/#Make-credits-available-for-an-environment) section in this document.
+To get details on your environment consumption, check [Monitor usage](/#monitor-usage) section in this document. 
+
+
+
+If your environment has no more capacity, you need to provide capacity to your environment. To do this, reallocate existing capacity (from the tenant or environment level). Alternatively, you can purchase more capacity and make it available to your environment.
+
+To help estimate the required add-on capacity based on your estimated consumption, use the [AI Builder calculator](https://powerapps.microsoft.com/en-us/ai-builder-calculator/).
+
+
 
 ## Allocate capacity
 
