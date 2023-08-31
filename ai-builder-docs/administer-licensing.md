@@ -19,7 +19,7 @@ AI Builder is licensed as an add-on to your Power Apps, Power Automate, or Dynam
 
 Access to AI Builder features within an environment require AI Builder credits.
 
-AI Builder credits come with some specific user licenses, but mostly from AI Builder Capacity add-on. See [Get entitlement to AI Builder credits](/credit-management.md#get-entitlement-to-ai-builder-credits)
+AI Builder credits come with some specific user licenses, but mostly from AI Builder Capacity add-on. See [Get entitlement to AI Builder credits](credit-management.md#get-entitlement-to-ai-builder-credits)
 
 Once acquired, credits can be allocated (aka assigned) to specific environment, or left at tenant level.  See [Make credits available for an environment ](/#Make-credits-available-for-an-environment)
 
