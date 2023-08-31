@@ -34,7 +34,7 @@ Once an environment has access to credits, AI Builder features are enabled in th
 ***Trials***:AI Builder credits can also come from AI Builder trial. In that case, they are linked to the user and don't need to be allocated. see [AI Builder Trial](/#AI-Builder-Trial)
 
 Learn more about AI Builder credits  in  [Administer/Credit Management](credit-management.md) page. 
-Learn more about AI Builder trials in [AI Builder trial](ai-builder-trial.md) page
+Learn more about AI Builder trials in [AI Builder trial](ai-builder-trials.md) page
 
 Learn more about licenses and license management in Power Apps in [About licensing and license management](/power-platform/admin/wp-license-management).
 
