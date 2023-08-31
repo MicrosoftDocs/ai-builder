@@ -17,32 +17,31 @@ ms.reviewer: angieandrews
 
 AI Builder is licensed as an add-on to your Power Apps, Power Automate, or Dynamics 365 license. This means you need a Power Apps, Power Automate, or Dynamics 365 license that allows you to create a Microsoft Power Platform environment.
 
-Access to AI Builder features within an environment require AI Builder credits.
+Access to AI Builder features within an environment require **AI Builder credits**.
 
-***Entitlement***:  AI Builder credits come with some specific user licenses, but mostly from AI Builder Capacity add-on. See [Get entitlement to AI Builder credits](credit-management.md#get-entitlement-to-ai-builder-credits) 
+***Credit Entitlement***:  AI Builder credits come with some specific user licenses, most part come from AI Builder Capacity add-on. 
 
-***Allocation***:Once acquired, credits can be allocated (aka assigned) to specific environment, or left at tenant level.  See [Make credits available for an environment ](/#Make-credits-available-for-an-environment)
+***Credit Allocation***:Once acquired, credits can be allocated (aka assigned) to specific environment, or left at tenant level. Unassigned credits can be accessed by all environments by default, and can be blocked by admin.
 
 Once an environment has access to credits, AI Builder features are enabled in this environment.
 
-***Consumption***:Some AI Builder actions consume credits. see [AI Builder Credit Consumption](/#AI-Builder-Credit-Consumption)
+***Credit Consumption***:Some AI Builder actions consume credits : mainly when an AI Builder model runs (in a Flow or Apps). In some case when an AI Builder model is trained. Consumption is reset at the beginning of each month.
 
-***Monitoring***:Credit consumption can be monitored. see [Monitor usage](/#monitor-usage)
+***Credit Monitoring***:Credit consumption can be monitored, so admin and maker know how many credits have been consumed since the beginning of the month. 
 
-***Overage***:In an environment, when consumption exceeds available credits, environment is in overage and some features are progressively blocked. Purchase of new credits and/or reassignment need to happen. see [Overage](/#overage)
+***Credit Overage***:In an environment, when consumption since beginning of the month exceeds available credits, environment is in overage and some features are progressively blocked. Purchase of new credits and/or reassignment need to happen. 
 
 ***Trials***:AI Builder credits can also come from AI Builder trial. In that case, they are linked to the user and don't need to be allocated. see [AI Builder Trial](/#AI-Builder-Trial)
 
-Learn more about each topic in  [Administer/Credit Management](credit-management.md) page.
+Learn more about AI Builder license, credits and trials  in  [Administer/Credit Management](credit-management.md) page.
 
 Learn more about licenses and license management in Power Apps in [About licensing and license management](/power-platform/admin/wp-license-management).
 
 ### See also
 
-- [Microsoft Power Apps and Power Automate Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=2085130)
-- [AI Builder licensing FAQ](/power-platform/admin/powerapps-flow-licensing-faq#ai-builder)
-- [Estimate the AI Builder capacity that’s right for you](https://powerapps.microsoft.com/ai-builder-calculator/)
-- [AI Builder consumption report](administer-consumption-report.md)
+- [Microsoft Power Platform Licensing Guide (pdf)](https://go.microsoft.com/fwlink/?LinkId=2085130)
+- [Power Platform licensing FAQ / AI Builder section](/power-platform/admin/powerapps-flow-licensing-faq#ai-builder)
+- [Estimate the AI Builder capacity that’s right for you in AI Builder Calculator](https://powerapps.microsoft.com/ai-builder-calculator/)
 - [Training: Get started with AI Builder licensing (module)](/training/modules/get-started-with-ai-builder-licensing/)
 
 
