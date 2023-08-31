@@ -36,8 +36,6 @@ Once an environment has access to credits, AI Builder features are enabled in th
 Learn more about AI Builder credits  in  [Administer/Credit Management](credit-management.md) page. 
 Learn more about AI Builder trials in [AI Builder trial](ai-builder-trials.md) page
 
-Learn more about licenses and license management in Power Apps in [About licensing and license management](/power-platform/admin/wp-license-management).
-
 ### See also
 
 - [Microsoft Power Platform Licensing Guide (pdf)](https://go.microsoft.com/fwlink/?LinkId=2085130)
