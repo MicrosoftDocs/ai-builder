@@ -27,6 +27,8 @@ Credit consumption can be monitored. see [Monitor usage](/#monitor-usage)
 
 In an environment, when consumption exceeds available credits, environment is in overage and some features are progressively blocked. Purchase of new credits and/or reassignment need to happen. see [Overage](/#overage)
 
+AI Builder credits can also come from AI Builder trial. In that case, they are linked to the user and don't need to be allocated. see [AI Builder Trial](/#AI-Builder-Trial)
+
 ## Get entitlement to AI Builder credits
 
 First, you need to be entitled to some AI Builder capacity. This can be through one of the following paid capacities.
@@ -125,7 +127,7 @@ When an environment consumption exceeds its credit allocation, the following fun
 
 Only limited overage is allowed. To continue using AI Builder when you exceed capacity, purchase the AI Builder add-on capacity, and allocate it to your environment.
 
-## Trial licenses
+## AI Builder Trial
 
 To get started using AI Builder, use premium features for a limited time with a [trial license](https://powerapps.microsoft.com/ai-builder/). Alternatively, use preview features without obtaining a license at all.
 
