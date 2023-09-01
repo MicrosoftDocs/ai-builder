@@ -8,6 +8,7 @@ contributors:
   - JoeFernandezMS
   - jekom1
   - v-aangie
+  - antode
 ms.topic: conceptual
 ms.custom: 
 ms.date: 05/26/2023
@@ -46,7 +47,7 @@ The following tables show which AI Builder features are available in each region
 |Feature |Asia |Australia |Canada |Europe |France |Germany |India |Japan |Norway |South Africa |South America |South Korea |Switzerland |United Arab Emirates |United Kingdom |United States |
 |-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
 |Business card reader    |GA|GA|GA|GA| GA|GA|GA|GA| GA|GA|GA| GA|GA|GA|GA|GA|
-|Category classification |Preview |Preview |Preview |Preview|Preview|Preview|Preview|Preview |-|-|Preview|-|Preview|Preview |Preview |Preview |
+|Category classification |GA |GA |GA |GA |GA |GA |GA |GA  |-|-|GA |-|GA |GA |GA |GA |
 |Entity extraction |GA |GA |GA |GA |GA|GA|GA|-|-|-|GA|-|GA |GA |GA |GA |
 |Identity document reader |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |
 |Invoice processing |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |
