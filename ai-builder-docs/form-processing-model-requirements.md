@@ -2,10 +2,13 @@
 title: Requirements and limitations for document processing models - AI Builder | Microsoft Docs
 description: Learn about the requirements and limitations of document processing models in AI Builder.
 author: JoeFernandezMS
+contributors:
+  - Phil-cmd
+  - v-aangie
 ms.topic: conceptual
 ms.custom:
 ms.date: 10/07/2022
-ms.author: jofernan
+ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
