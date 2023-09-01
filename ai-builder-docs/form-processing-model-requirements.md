@@ -1,5 +1,5 @@
 ---
-title: Requirements and limitations for document processing models - AI Builder | Microsoft Docs
+title: Requirements and limitations for document processing models - AI Builder
 description: Learn about the requirements and limitations of document processing models in AI Builder.
 author: JoeFernandezMS
 contributors:
@@ -32,12 +32,11 @@ Document processing works on input documents that meet the following requirement
 - If scanned from paper documents, scans should be high-quality images.
 - You can create up to 200 collections per model.
 - In a cloud flow, the limit of fields that can be tagged for document processing is 300.
-- Rows that break from one page to another aren't currently supported.
 
  > [!NOTE]
  > - Extracting signatures from documents isn't currently supported.<br />
- > 
- > - Fields that split across page boundaries aren't currently supported.
+ > - Fields that split across page boundaries aren't currently supported.<br />
+>  - Rows that break from one page to another aren't currently supported.
 
 ## Optimization tip
 
