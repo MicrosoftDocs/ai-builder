@@ -2,10 +2,13 @@
 title: Category classification prebuilt model - AI Builder
 description: Describes the prebuilt category classification AI Builder model.
 author: v-aangie
+contributors:
+  - antode
+  - v-aangie
 ms.topic: conceptual
 ms.custom: 
 ms.date: 09/01/2023
-ms.author: angieandrews
+ms.author: antode
 ms.reviewer: angieandrews
 ---
 
