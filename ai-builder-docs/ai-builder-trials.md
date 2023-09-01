@@ -18,16 +18,8 @@ To get started using AI Builder, use premium features for a limited time with a 
 AI Builder is licensed as an add-on to your Power Apps, Power Automate, or Dynamics 365 license. This means you can start your AI Builder trial after you have a Power Apps, Power Automate, or Dynamics 365 license that allows you to create a Microsoft Power Platform environment.
 
 > [!NOTE]
-> You *can't start an AI Builder trial* if you have AI Builder credits already on your tenant by purchasing a capacity add-on or through other products.
+> You *can't start an AI Builder trial* if you have AI Builder credits already on your tenant by purchasing a capacity add-on or through other premium licenses.
 
-Learn more about AI Builder licensing in the following articles:
-
-- [Microsoft Power Platform 
-Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=2085130)
-
-- [AI Builder licensing FAQ](/power-platform/admin/powerapps-flow-licensing-faq#ai-builder)
-
-- [Estimate the AI Builder capacity that’s right for you](https://powerapps.microsoft.com/ai-builder-calculator/)
 
 ### Benefits of a trial license
 
@@ -88,3 +80,12 @@ The following functions aren't available when you exceed capacity:
 To continue using AI Builder when you exceed capacity, [purchase AI Builder add-on](administer-licensing.md#purchase-ai-builder-capacity), and [allocate capacity](administer-licensing.md#allocate-capacity) to your environments.
 
 If you extend a trial after expiration, capacity is reset. You can again run and train your models, and create new ones. Scheduled run and retrain instances resume according to the existing settings.
+
+You cannot extend a trial before expiration. 
+
+Learn more about AI Builder licensing in the following articles:
+
+- [Microsoft Power Platform Licensing Guide (pdf)](https://go.microsoft.com/fwlink/?LinkId=2085130)
+- [Power Platform licensing FAQ / AI Builder section](/power-platform/admin/powerapps-flow-licensing-faq#ai-builder)
+- [Estimate the AI Builder capacity that’s right for you in AI Builder Calculator](https://powerapps.microsoft.com/ai-builder-calculator/)
+- [Training: Get started with AI Builder licensing (module)](/training/modules/get-started-with-ai-builder-licensing/)
