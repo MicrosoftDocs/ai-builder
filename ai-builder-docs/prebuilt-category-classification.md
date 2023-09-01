@@ -1,24 +1,17 @@
 ---
-title: Category classification prebuilt model (preview) - AI Builder | Microsoft Docs
+title: Category classification prebuilt model - AI Builder
 description: Describes the prebuilt category classification AI Builder model.
 author: v-aangie
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/21/2022
+ms.date: 09/01/2023
 ms.author: angieandrews
 ms.reviewer: angieandrews
 ---
 
-# Category classification prebuilt model (preview)
+# Category classification prebuilt model
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
-
-The prebuilt category classification model is a ready to use AI model that is configured to classify your text into categories that are useful for a specific business scenario. The first prebuilt category classification AI model is built around customer feedback uses. Check back for additional category classification prebuilt models, or check release plans to see what might be coming.
-
-> [!IMPORTANT]
-> - This is a preview feature.
->
-> - [!INCLUDE[cc_preview_features_definition](includes/cc-preview-features-definition.md)]
+The prebuilt category classification model is a ready to use AI model that's configured to classify your text into categories that are useful for a specific business scenario. The first prebuilt category classification AI model is built around customer feedback uses.
 
 ## Use in Power Apps
 
@@ -28,8 +21,8 @@ You can see the category classification prebuilt model in action without the nee
 
 1. Sign in to [Power Apps](https://make.powerapps.com).
 1. In the left pane, select **AI Builder** > **Explore**.
-1. Under **Get straight to productivity**, select **Category classification (preview)**.
-1. In the **Category classification** window, select **Try it out**. 
+1. Under **Get straight to productivity**, select **Category classification**.
+1. In the **Category classification** window, select **Try it out**.
 1. Select predefined text samples to analyze, or add your own text in the **Or add your own here** box to see how the model analyzes your text.
 
 ### Use the formula bar
