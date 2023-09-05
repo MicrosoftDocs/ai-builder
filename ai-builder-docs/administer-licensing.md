@@ -34,7 +34,7 @@ Once an environment has access to credits, AI Builder features are enabled in th
 ***Trials***: In tenants without AI Builder credits, users can start AI Builder trial. In that case, AI Builder capacity is linked to the user and don't need to be allocated. see [AI Builder Trial](/#AI-Builder-Trial)
 
 
-Learn more about AI Builder Licensing and Credit management  in  [Administer/Credit Management](credit-management.md) page. 
+Learn more about AI Builder Licensing and Credit management  in  [Administer/AI Builder Licensing and Credit Management](credit-management.md) page. 
 
 
 Learn more about AI Builder trials in [AI Builder trial](ai-builder-trials.md) page
