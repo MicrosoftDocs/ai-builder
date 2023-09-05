@@ -96,7 +96,7 @@ Administrators also can access the [AI Builder Activity](activity-monitoring.md)
 
 When browsing AI Builder pages in Power Apps or Power Automate portal, you might get this notification: **You've consumed all of your AI Builder credits. Creating, editing and viewing is blocked. Contact your administrator to get more capacity**. This means the monthly consumption is higher than the available (at environment or tenant level) credits. 
 
-###Simple Overage
+### Simple Overage
 As soon as monthly consumption is higher than the available credits, creating and editing models is blocked. 
 - in prebuilt models tile, you can open the tile but cannot test or click on 'Use in Apps or Flow'
 - in new custom models tile, you cannot click on 'customize your model' to start a new model
@@ -104,7 +104,7 @@ As soon as monthly consumption is higher than the available credits, creating an
 
 As long as overage is not important, AI Builder models will continue to run and consume credits. We allow some level of overage consumption as a grace period to avoid blocking business processes.
 
-###Important Overage
+### Important Overage
 When monthly consumption is higher than the available credits **by a large margin**, running models in flows and apps is blocked. 
 - AI Builder actions will fail with 'EntitlementNotAvailable' 'QuotaExceeded' error codes. In flow editor, remediation panel displays "All AI Builder credits in this environment have been consumed"
 
