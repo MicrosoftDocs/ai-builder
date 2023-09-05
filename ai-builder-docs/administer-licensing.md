@@ -15,23 +15,23 @@ ms.reviewer: angieandrews
 
 # AI Builder licensing in a nutshell
 
-AI Builder is licensed as an add-on to your Power Apps, Power Automate, or Dynamics 365 license. This means you need a Power Apps, Power Automate, or Dynamics 365 license that allows you to create a Microsoft Power Platform environment.
+AI Builder is licensed on a capacity basis. This capacity is expressed in the form of “service credits” or “AI Builder credits.” Qualifying prerequisites include having a Power Apps, Power Automate, or Dynamics 365 license that allows you to create a Microsoft Power Platform environment
 
 Access to AI Builder features within an environment require **AI Builder credits**.
 
-***Credit Entitlement***:  AI Builder credits come mostly from AI Builder Capacity add-on. Some specific user licenses brings AI Builder credits.
+***Credits Entitlement***:  AI Builder credits come mostly from AI Builder Capacity add-ons. Some user licenses provide 'seeded' AI Builder credits.
 
-***Credit Allocation***: Once acquired, credits can be allocated (aka assigned) to specific environment, or left unallocated at tenant level. Unallocated credits can be accessed by all environments without allocated credits, and can be blocked by admin in Power Platform Admin Center.
+***Credits Allocation***: Once acquired, credits can be allocated (aka assigned) to specific environment, or left unallocated at organization (tenant) level. Unallocated credits can be accessed by all environments without allocated credits. The use of unassigned credits can be blocked by admin in Power Platform Admin Center.
 
-Once an environment has access to credits, AI Builder features are enabled in this environment.
+Once an environment has access to credits (using assigned or unassigned credits), AI Builder features are enabled in this environment.
 
-***Credit Consumption***: Some AI Builder actions consume credits : mainly when an AI Builder model runs (in a Flow or Apps). In some case when an AI Builder model is trained. Consumption is reset at the beginning of each month.
+***Credits Consumption***: Consumption is reset at the beginning of each month. Some AI Builder actions consume credits : mainly when an AI Builder model runs (in a Flow or Apps). In some case when an AI Builder model is trained. Amount of consumed credits depends on AI Builder Model.
 
 ***Credit Monitoring***: Credit consumption can be monitored, so admin and maker know how many credits have been consumed since the beginning of the month. 
 
 ***Credit Overage***: In an environment, when consumption since beginning of the month exceeds available credits, environment is in overage and some features are progressively blocked. When an environment is in **simple overage** models continue to run and consume credits, but editing and creating models is blocked. When environment is in **important overage**, models runs will be blocked. Purchase of new credits and/or reassignment need to happen. 
 
-***Trials***: In tenants without AI Builder credits, users can start AI Builder trial. In that case, AI Builder capacity is linked to the user and don't need to be allocated. 
+***Trials***: In organizations (tenants) without AI Builder credits, users can start AI Builder trial. In that case, AI Builder capacity is linked to the user and doesn't need to be allocated. 
 
 
 
