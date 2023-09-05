@@ -1,6 +1,6 @@
 ---
-title: AI Builder credit assignment, consumption and overage
-description: Learn about credit management in AI Builder.
+title: AI Builder Licensing and credit management
+description: Learn about licensing and credit management in AI Builder.
 author: Antoine2F
 contributors:
   - Antoine2F
@@ -11,7 +11,7 @@ ms.author: antode
 ms.reviewer: angieandrews
 ---
 
-# AI Builder Credit Management Overview
+# AI Builder Licensing and Credit Management
 
 Access to AI Builder features within an environment require AI Builder credits.
 
