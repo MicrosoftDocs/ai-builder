@@ -83,9 +83,14 @@ If you extend a trial after expiration, capacity is reset. You can again run and
 
 You cannot extend a trial before expiration. 
 
+## AI Builder trial FAQ
+
+See [AI Builder trial FAQ](credit-management.md#AI-Builder-Trial-license-FAQ) in AI Builder licensing page
+
 Learn more about AI Builder licensing in the following articles:
 
+- [AI Builder Licensing and Credit Management](credit-management.md)
+- [Training: Get started with AI Builder licensing (module)](/training/modules/get-started-with-ai-builder-licensing/)
 - [Microsoft Power Platform Licensing Guide (pdf)](https://go.microsoft.com/fwlink/?LinkId=2085130)
 - [Power Platform licensing FAQ / AI Builder section](/power-platform/admin/powerapps-flow-licensing-faq#ai-builder)
 - [Estimate the AI Builder capacity that’s right for you in AI Builder Calculator](https://powerapps.microsoft.com/ai-builder-calculator/)
-- [Training: Get started with AI Builder licensing (module)](/training/modules/get-started-with-ai-builder-licensing/)
