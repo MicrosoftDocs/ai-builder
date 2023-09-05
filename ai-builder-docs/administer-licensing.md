@@ -19,9 +19,9 @@ AI Builder is licensed as an add-on to your Power Apps, Power Automate, or Dynam
 
 Access to AI Builder features within an environment require **AI Builder credits**.
 
-***Credit Entitlement***:  AI Builder credits come with some specific user licenses, most part come from AI Builder Capacity add-on. 
+***Credit Entitlement***:  AI Builder credits come mostly from AI Builder Capacity add-on. Some specific user licenses brings AI Builder credits.
 
-***Credit Allocation***:Once acquired, credits can be allocated (aka assigned) to specific environment, or left at tenant level. Unassigned credits can be accessed by all environments by default, and can be blocked by admin.
+***Credit Allocation***:Once acquired, credits can be allocated (aka assigned) to specific environment, or left unallocated at tenant level. Unallocated credits can be accessed by all environments without allocated credits, and can be blocked by admin in Power Platform Admin Center.
 
 Once an environment has access to credits, AI Builder features are enabled in this environment.
 
@@ -29,11 +29,12 @@ Once an environment has access to credits, AI Builder features are enabled in th
 
 ***Credit Monitoring***:Credit consumption can be monitored, so admin and maker know how many credits have been consumed since the beginning of the month. 
 
-***Credit Overage***:In an environment, when consumption since beginning of the month exceeds available credits, environment is in overage and some features are progressively blocked. Purchase of new credits and/or reassignment need to happen. 
+***Credit Overage***:In an environment, when consumption since beginning of the month exceeds available credits, environment is in overage and some features are progressively blocked. When an environment is in **simple overage** models continue to run and consume credits, but editing and creating models is blocked. When environment is in **important overage**, models runs will be blocked. Purchase of new credits and/or reassignment need to happen. 
 
-***Trials***:AI Builder credits can also come from AI Builder trial. In that case, they are linked to the user and don't need to be allocated. see [AI Builder Trial](/#AI-Builder-Trial)
+***Trials***: In tenants without AI Builder credits, users can start AI Builder trial. In that case, AI Builder capacity is linked to the user and don't need to be allocated. see [AI Builder Trial](/#AI-Builder-Trial)
 
-Learn more about AI Builder credits  in  [Administer/Credit Management](credit-management.md) page. 
+Learn more about AI Builder Licensing and Credit management  in  [Administer/Credit Management](credit-management.md) page. 
+
 Learn more about AI Builder trials in [AI Builder trial](ai-builder-trials.md) page
 
 ### See also
