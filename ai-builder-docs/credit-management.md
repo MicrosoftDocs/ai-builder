@@ -165,14 +165,14 @@ Some user licenses include seeded AI Builder credits. For example, the Power App
 
 Learn more about licenses and license management in Power Apps in [About licensing and license management](/power-platform/admin/wp-license-management).
 
-## What are the differences between credit assignment and credit allocation?
+### What are the differences between credit assignment and credit allocation?
 These are same concept. In documentation, we mainly use allocation. In product, we mainly use assignment.
 - assignment = allocation
 - assigned credits = allocated credits = environment credits
 - unassigned credits = unallocated credits = organization (tenant) level credits
 
 
-## What are the differences between allocated credits and unallocated credits?
+### What are the differences between allocated credits and unallocated credits?
 
 When an organization (tenant) has purchased AI Builder capacity, corresponding credits are by default unallocated and available as a pool for the organization (tenant). In this state, credits can be used on any environment without assigned credits, unless usage of unallocated credits is blocked by admin.
 
@@ -210,45 +210,11 @@ No,  limitations only apply to the environment(s) in overage. Other environments
 
 For example, if an environment has no allocated credit, and organization (tenant) level credits are not all consumed, then editing and running of AI Builder functions will continue to work for this environment, even if other environments (with assigned credits) are in overage.
 
-## AI Builder Trial license FAQ
+### Do you have FAQ about AI Builder trials?
+Yes, they are [here](/ai-builder-trials.md#ai-builder-trial-faq)
 
-
-### I exceeded my trial capacity. What can I do?
-
-- You can [purchase AI Builder Add On](administer-licensing.md#purchase-ai-builder-capacity)  and [allocate capacity](administer-licensing.md#allocate-capacity) to your environment
-
-- You can wait for your trial to expire, then extend your trial: this adds new capacity.
-
-- You can also share your existing model with another user who still has active trial with capacity.
-
-### What happens after my trial license expires?
-
-After your AI Builder trial license expires, or if you exceed capacity:
-
-- Your models aren't deleted.
-
-- You have to [purchase AI Builder Add-On](administer-licensing.md#purchase-ai-builder-capacity) to continue using your AI models.
-
-- An administrator must [allocate AI Builder capacity](administer-licensing.md#allocate-capacity) to any environment where you want to use AI Builder.
-
-- You can't create or modify AI Builder models, and no new inference is possible when the trial expires if you don't purchase a license.
-
-- You can also extend your trial, but only for a limited number of times.
-
-### What happens to my data and models when my AI Builder trial expires?
-
-Data and models are deleted only when the environment is deleted.
-
-### Where can I find more information about trial environments?
-
-To learn more, go to [About trial environments](/power-platform/admin/trial-environments).
-
-### Can I block users in my organization from signing up for an AI Builder trial?
-
-Any individual can try out the features of AI Builder for 30 days and incur no costs to your company. This option is available to any user in an organization (tenant) and can't be disabled by an admin. Once your company purchases some AI credits (for example, through capacity add-ons or inclusion in some licenses), trials aren't proposed to users anymore.
-
-### See also
-
+## See also
+- [AI Builder trial](/ai-builder-trials.md)
 - [Microsoft Power Platform Licensing Guide (pdf)](https://go.microsoft.com/fwlink/?LinkId=2085130)
 - [Power Platform licensing FAQ / AI Builder section](/power-platform/admin/powerapps-flow-licensing-faq#ai-builder)
 - [Estimate the AI Builder capacity that’s right for you in AI Builder Calculator](https://powerapps.microsoft.com/ai-builder-calculator/)
