@@ -211,10 +211,10 @@ No,  limitations only apply to the environment(s) in overage. Other environments
 For example, if an environment has no allocated credit, and organization (tenant) level credits are not all consumed, then editing and running of AI Builder functions will continue to work for this environment, even if other environments (with assigned credits) are in overage.
 
 ### Do you have FAQ about AI Builder trials?
-Yes, they are [here](/ai-builder/ai-builder-trials.md#ai-builder-trial-faq)
+Yes, they are [here](ai-builder-trials.md#ai-builder-trial-faq)
 
 ## See also
-- [AI Builder trial](/ai-builder/ai-builder-trials.md)
+- [AI Builder trial](ai-builder-trials.md)
 - [Microsoft Power Platform Licensing Guide (pdf)](https://go.microsoft.com/fwlink/?LinkId=2085130)
 - [Power Platform licensing FAQ / AI Builder section](/power-platform/admin/powerapps-flow-licensing-faq#ai-builder)
 - [Estimate the AI Builder capacity that’s right for you in AI Builder Calculator](https://powerapps.microsoft.com/ai-builder-calculator/)
