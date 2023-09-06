@@ -79,7 +79,14 @@ To learn more about how to allocate credits in the Power Platform admin center, 
 To learn details on how to manage AI Builder capacity, go to [Manage capacity](administer.md#manage-capacity) documentation page.
 
 
-## AI Builder Credit Consumption
+## Monitor usage
+
+As an administrator, you have access to a [consumption report](administer-consumption-report.md) that provides the AI credits consumption on a chosen period per environment. This will allow you to fine-tune the credits allocation, which can be updated at any time.
+This also allows to check the consumption level of an environment for current month, by adding all consumptions of this environment.
+
+Administrators also can access the [AI Builder Activity](activity-monitoring.md) page in the Power Automate portal, showing all predicts made against the AI Builder models in that environment.
+
+### AI Builder Credit Consumption
 The following list presents AI Builder actions consuming credits.  
 It isn't all-inclusive and preview scenarios don't consume credits.
 
@@ -88,15 +95,6 @@ It isn't all-inclusive and preview scenarios don't consume credits.
 | Train an object detection model.<br/><br/>Perform a **Quick test** on a trained object detection and document processing model.<br/><br/>Use custom documents, images or text to **try out** prebuilt models when using the tiles in the 'Explore' section.<br/><br/>Batch runs of the prediction and trainable category classification models for each row to be predicted.  | Select...<br/><br/>**Scan a business card** with the business card reader.<br/><br/>**Analyze** with the document processor.<br/><br/>**Detect** with the object detector.<br/><br/>**+ New image** with the text recognizer.<br/><br/>**Use an action** bound to an AI Builder model through [Power Fx](powerfx-in-powerapps.md).  |Run a flow using any of the actions inside the **AI Builder** category.<br/><br/>Run the generic action **Perform a bound action** of Dataverse on the entity AI Models and action name **Predict**.   |
 
 Each AI Builder model has a different credit consumption mechanism. To perform an assessment, go to the [AI Builder calculator](https://powerapps.microsoft.com/ai-builder-calculator/) site or obtain the full details in the [Power Platform Licensing Guide (pdf)](https://go.microsoft.com/fwlink/?linkid=2085130).
-
-
-## Monitor usage
-
-As an administrator, you have access to a [consumption report](administer-consumption-report.md) that provides the AI credits consumption on a chosen period per environment. This will allow you to fine-tune the credits allocation, which can be updated at any time.
-This also allows to check the consumption level of an environment for current month, by adding all consumptions of this environment.
-
-Administrators also can access the [AI Builder Activity](activity-monitoring.md) page in the Power Automate portal, showing all predicts made against the AI Builder models in that environment.
-
 
 ## Overage
 
