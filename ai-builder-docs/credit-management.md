@@ -21,7 +21,7 @@ Once acquired, credits can be allocated (aka assigned) to specific environment, 
 
 Once an environment has access to credits, AI Builder features are enabled in this environment.
 
-Some AI Builder actions consume credits. see [AI Builder Credit Consumption](credit-management.md#AI-Builder-Credit-Consumption) section in this document.
+Some AI Builder actions consume credits. see [AI Builder Credit Consumption](credit-management.md#ai-builder-credit-consumption) section in this document.
 
 Credit consumption can be monitored. see [Monitor usage](credit-management.md#monitor-usage) section in this document.
 
