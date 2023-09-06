@@ -1,6 +1,6 @@
 ---
-title: AI Builder trials
-description: Learn about trials in AI Builder.
+title: AI Builder trial
+description: Learn about trial in AI Builder.
 author: antoine2F
 contributors:
   - Antoine2F
@@ -11,7 +11,7 @@ ms.author: antode
 ms.reviewer: angieandrews
 ---
 
-# AI Builder trials
+# AI Builder trial
 
 To get started using AI Builder, use premium features for a limited time with a [trial license](https://powerapps.microsoft.com/ai-builder/). Alternatively, use preview features without obtaining a license at all.
 
