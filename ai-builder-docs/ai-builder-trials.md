@@ -85,7 +85,7 @@ You cannot extend a trial before expiration.
 
 ## AI Builder Trial FAQ
 
-See also [AI Builder Licensing FAQ](credit-management.md#AI-Builder-Trial-license-FAQ) in AI Builder licensing page
+See also [AI Builder Licensing FAQ](credit-management.md#AI-Builder-licensing-FAQ) in AI Builder licensing page
 
 ### I exceeded my trial capacity. What can I do?
 
