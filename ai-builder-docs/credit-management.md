@@ -15,7 +15,7 @@ ms.reviewer: angieandrews
 
 Access to AI Builder features within an environment requires AI Builder credits.
 
-AI Builder credits come with some specific user licenses, but mostly from AI Builder Capacity add-on. See [Get entitlement to AI Builder credits](#get-entitlement-to-ai-builder-credits)
+AI Builder credits come with some specific user licenses, but mostly from AI Builder Capacity add-on. See [Get entitlement to AI Builder credits](/#get-entitlement-to-ai-builder-credits)
 
 Once acquired, credits can be allocated (aka assigned) to specific environment, or left at organization (tenant) level.  See [Make credits available for an environment ](/#Make-credits-available-for-an-environment--allocated-and-unallocated-credits)
 
@@ -59,7 +59,8 @@ At the end of the 30 days, a trial can be renewed, and user receives another 200
 See [AI Builder trial](ai-builder-trials.md) documentation page.
 
 ## AI Builder Credit Consumption
-The following list isn't all-inclusive and preview scenarios don't consume credits.
+The following list presents AI Builder actions consuming credits.  
+It isn't all-inclusive and preview scenarios don't consume credits.
 
 |AI Builder Studio  |Power Apps  |Power Automate  |
 |---------|---------|---------|
