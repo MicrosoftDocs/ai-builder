@@ -21,7 +21,7 @@ AI Builder is licensed as an add-on to your Power Apps, Power Automate, or Dynam
 > You *can't start an AI Builder trial* if you have AI Builder credits already on your tenant by purchasing a capacity add-on or through other premium licenses.
 
 
-### Benefits of a trial license
+## Benefits of a trial license
 
 An [AI Builder trial license](https://powerapps.microsoft.com/ai-builder/) enables you to use AI Builder features for free during the 30-day trial period.
 
@@ -33,7 +33,7 @@ What you get an AI Builder trial license:
 
 - Use AI model in your apps, flows, and more.
 
-### Activate an AI Builder trial license
+## Activate an AI Builder trial license
 
 1. Sign in to	[Power Apps](https://make.powerapps.com) or [Power Automate](https://make.powerautomate.com).
 
@@ -53,7 +53,7 @@ What you get an AI Builder trial license:
 > [!NOTE]
 > Your AI Builder trial license is applicable at the user level, not the environment level.You can use your trial license on multiple environments. Another user would have to start their own trial or paid license to use your models in any environment.
 
-### After the trial expires
+## After the trial expires
 
 Your AI Builder trial license expires after 30 days.
 
@@ -61,7 +61,7 @@ To continue using AI Builder, purchase AI Builder add-on capacity and allocate A
 
 To renew your AI Builder trial license, sign in to Power Apps or Power Automate, select **AI Builder** > **Explore**, and then select **Extend trial** in the banner on the top.
 
-### Trial capacity
+## Trial capacity
 
 An AI Builder trial license includes a limited amount of AI Builder capacity. You use this capacity when running or training models.
 
@@ -83,11 +83,47 @@ If you extend a trial after expiration, capacity is reset. You can again run and
 
 You cannot extend a trial before expiration. 
 
-## AI Builder trial FAQ
+## AI Builder Trial FAQ
 
-See [AI Builder trial FAQ](credit-management.md#AI-Builder-Trial-license-FAQ) in AI Builder licensing page
+See also [AI Builder Licensing FAQ](credit-management.md#AI-Builder-Trial-license-FAQ) in AI Builder licensing page
 
-Learn more about AI Builder licensing in the following articles:
+### I exceeded my trial capacity. What can I do?
+
+- You can [purchase AI Builder Add On](administer-licensing.md#purchase-ai-builder-capacity)  and [allocate capacity](administer-licensing.md#allocate-capacity) to your environment
+
+- You can wait for your trial to expire, then extend your trial: this adds new capacity.
+
+- You can also share your existing model with another user who still has active trial with capacity.
+
+### What happens after my trial license expires?
+
+After your AI Builder trial license expires, or if you exceed capacity:
+
+- Your models aren't deleted.
+
+- You have to [purchase AI Builder Add-On](administer-licensing.md#purchase-ai-builder-capacity) to continue using your AI models.
+
+- An administrator must [allocate AI Builder capacity](administer-licensing.md#allocate-capacity) to any environment where you want to use AI Builder.
+
+- You can't create or modify AI Builder models, and no new inference is possible when the trial expires if you don't purchase a license.
+
+- You can also extend your trial, but only for a limited number of times.
+
+### What happens to my data and models when my AI Builder trial expires?
+
+Data and models are deleted only when the environment is deleted.
+
+### Where can I find more information about trial environments?
+
+To learn more, go to [About trial environments](/power-platform/admin/trial-environments).
+
+### Can I block users in my organization from signing up for an AI Builder trial?
+
+Any individual can try out the features of AI Builder for 30 days and incur no costs to your company. This option is available to any user in an organization (tenant) and can't be disabled by an admin. Once your company purchases some AI credits (for example, through capacity add-ons or inclusion in some licenses), trials aren't proposed to users anymore.
+
+You can block the use of AI Builder trial by disabling the 'allow unassigned credits' tenant setting in Power Platform Admin Center. By disabling this setting, the only way to perform AI Builder actions in an environment is by assigning credits to this environment.
+
+## Learn more about AI Builder licensing in the following articles:
 
 - [AI Builder Licensing and Credit Management](credit-management.md)
 - [Training: Get started with AI Builder licensing (module)](/training/modules/get-started-with-ai-builder-licensing/)
