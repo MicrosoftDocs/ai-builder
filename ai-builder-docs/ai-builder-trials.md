@@ -79,7 +79,7 @@ The following functions aren't available when you exceed capacity:
 
 To continue using AI Builder when you exceed capacity, [purchase AI Builder add-on](administer-licensing.md#purchase-ai-builder-capacity), and [allocate capacity](administer-licensing.md#allocate-capacity) to your environments.
 
-If you extend a trial after expiration, capacity is reset. You can again run and train your models, and create new ones. Scheduled run and retrain instances resume according to the existing settings.
+When you extend a trial (after expiration), capacity is reset. You can again run and train your models, and create new ones. Scheduled run and retrain instances resume according to the existing settings.
 
 You cannot extend a trial before expiration. 
 
