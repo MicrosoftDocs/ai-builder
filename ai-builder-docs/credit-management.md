@@ -27,7 +27,7 @@ Credit consumption can be monitored. see [Monitor usage](/#monitor-usage)
 
 In an environment, when consumption exceeds available credits, environment is in overage and some features are progressively blocked. Purchase of new credits and/or reassignment need to happen. see [Overage](/#overage)
 
-AI Builder credits can also come from AI Builder trial. In that case, they are linked to the user and don't need to be allocated. see [AI Builder Trial](/#AI-Builder-Trial)
+AI Builder credits can also come from AI Builder trial. In that case, they are linked to the user and don't need to be allocated. see [AI Builder Trial](ai-builder-trials.md)
 
 ## Get entitlement to AI Builder credits
 
@@ -54,6 +54,9 @@ Trials can be used in any environment.
 A trial brings 200K credits and is valid 30 days.
 Once credits are consumed, AI Builder models are blocked for this user.
 At the end of the 30 days, a trial can be renewed, and user receives another 200K credits. Renewal is only allowed for a limited number of times.
+
+
+See [AI Builder trial](ai-builder-trials.md) documentation page.
 
 ## AI Builder Credit Consumption
 The following list isn't all-inclusive and preview scenarios don't consume credits.
