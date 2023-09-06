@@ -100,7 +100,7 @@ Administrators also can access the [AI Builder Activity](activity-monitoring.md)
 
 ## Overage
 
-When browsing AI Builder pages in Power Apps or Power Automate portal, you might get this notification: **You've consumed all of your AI Builder credits. Creating, editing and viewing is blocked. Contact your administrator to get more capacity**. This means the monthly consumption is higher than the available (at environment or organization (tenant) level) credits. 
+When browsing AI Builder pages in Power Apps or Power Automate portal, you might get this notification: **You've consumed all of your AI Builder credits. Creating, editing and viewing is blocked. Contact your administrator to get more capacity**. This means the monthly consumption is higher than the available (at environment or organization -tenant- level) credits. 
 
 ### Simple Overage
 As soon as monthly consumption is higher than the available credits, creating and editing models is blocked. 
