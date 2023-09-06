@@ -15,7 +15,7 @@ ms.reviewer: angieandrews
 
 Access to AI Builder features within an environment requires AI Builder credits.
 
-AI Builder credits come with some specific user licenses, but mostly from AI Builder Capacity add-on. See [Get entitlement to AI Builder credits](/#get-entitlement-to-ai-builder-credits)
+AI Builder credits come with some specific user licenses, but mostly from AI Builder Capacity add-on. See [Get entitlement to AI Builder credits](#get-entitlement-to-ai-builder-credits)
 
 Once acquired, credits can be allocated (aka assigned) to specific environment, or left at organization (tenant) level.  See [Make credits available for an environment ](/#Make-credits-available-for-an-environment--allocated-and-unallocated-credits)
 
