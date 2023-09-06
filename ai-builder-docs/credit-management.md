@@ -124,7 +124,7 @@ To help estimate the required add-on capacity based on your estimated consumptio
 
 AI Builder features that are in preview release status are free to use. You don't need to obtain a license to use AI Builder preview features.
 
-## AI Builder licenses FAQ
+## AI Builder licensing FAQ
 
 ### How many AI Builder credits are consumed for each operation?
 
