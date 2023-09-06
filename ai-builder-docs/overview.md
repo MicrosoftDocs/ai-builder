@@ -42,7 +42,7 @@ Get started with AI Builder using the following learning resources:
 - [AI Builder community forums](https://go.microsoft.com/fwlink/?linkid=2092048)
 - [AI Builder hands-on labs](https://go.microsoft.com/fwlink/?linkid=2103171)
 - [Work with sample data](samples.md)
-- [AI Builder licensing](administer-licensing.md)
+- [Get started with AI Builder licensing](administer-licensing.md)
 
 ## Release status
 
@@ -62,7 +62,7 @@ For information about license capacity, pricing, and restrictions:
 
 - [Power Automate pricing](https://flow.microsoft.com/pricing/).
 
-- [AI Builder licensing](administer-licensing.md).
+- [AI Builder licensing and credit management](credit-management.md).
 
 ## For administrators
 
