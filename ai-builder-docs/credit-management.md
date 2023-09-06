@@ -58,15 +58,6 @@ At the end of the 30 days, a trial can be renewed, and user receives another 200
 
 See [AI Builder trial](ai-builder-trials.md) documentation page.
 
-## AI Builder Credit Consumption
-The following list presents AI Builder actions consuming credits.  
-It isn't all-inclusive and preview scenarios don't consume credits.
-
-|AI Builder Studio  |Power Apps  |Power Automate  |
-|---------|---------|---------|
-| Train an object detection model.<br/><br/>Perform a **Quick test** on a trained object detection and document processing model.<br/><br/>Use custom documents, images or text to **try out** prebuilt models when using the tiles in the 'Explore' section.<br/><br/>Batch runs of the prediction and trainable category classification models for each row to be predicted.  | Select...<br/><br/>**Scan a business card** with the business card reader.<br/><br/>**Analyze** with the document processor.<br/><br/>**Detect** with the object detector.<br/><br/>**+ New image** with the text recognizer.<br/><br/>**Use an action** bound to an AI Builder model through [Power Fx](powerfx-in-powerapps.md).  |Run a flow using any of the actions inside the **AI Builder** category.<br/><br/>Run the generic action **Perform a bound action** of Dataverse on the entity AI Models and action name **Predict**.   |
-
-Each AI Builder model has a different credit consumption mechanism. To perform an assessment, go to the [AI Builder calculator](https://powerapps.microsoft.com/ai-builder-calculator/) or obtain the full details in the [Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130).
 
 ## Make credits available for an environment : allocated and unallocated credits
 
@@ -86,6 +77,17 @@ See [Tenant settings](/power-platform/admin/tenant-settings)
 To learn more about how to allocate credits in the Power Platform admin center, go to [Allocate or change capacity in an environment](/power-platform/admin/capacity-add-on#allocate-or-change-capacity-in-an-environment).
 
 To learn details on how to manage AI Builder capacity, go to [Manage capacity](administer.md#manage-capacity).
+
+
+## AI Builder Credit Consumption
+The following list presents AI Builder actions consuming credits.  
+It isn't all-inclusive and preview scenarios don't consume credits.
+
+|AI Builder Studio  |Power Apps  |Power Automate  |
+|---------|---------|---------|
+| Train an object detection model.<br/><br/>Perform a **Quick test** on a trained object detection and document processing model.<br/><br/>Use custom documents, images or text to **try out** prebuilt models when using the tiles in the 'Explore' section.<br/><br/>Batch runs of the prediction and trainable category classification models for each row to be predicted.  | Select...<br/><br/>**Scan a business card** with the business card reader.<br/><br/>**Analyze** with the document processor.<br/><br/>**Detect** with the object detector.<br/><br/>**+ New image** with the text recognizer.<br/><br/>**Use an action** bound to an AI Builder model through [Power Fx](powerfx-in-powerapps.md).  |Run a flow using any of the actions inside the **AI Builder** category.<br/><br/>Run the generic action **Perform a bound action** of Dataverse on the entity AI Models and action name **Predict**.   |
+
+Each AI Builder model has a different credit consumption mechanism. To perform an assessment, go to the [AI Builder calculator](https://powerapps.microsoft.com/ai-builder-calculator/) or obtain the full details in the [Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130).
 
 
 ## Monitor usage
