@@ -11,12 +11,12 @@ In this article
 
 
 ## What Image description is used for
-**Image description** is a powerful prebuilt model that analyzes an image and generates a user-friendly description based on its visual features. 
-**Auto-captioning** of images that uses machine learning to automatically generate descriptive text for images.
-**Security and Surveillance** by describing presence or person or an activity in video frame, it is possible to monitor or identify threats easily.
-**SEO (Search engine optimization)** by describing images in a webpage to make the page more discoverable.
-**Chatbots** can describe a given image and reason over it, thereby giving the illusion of a multi-modal capability.
-**The retail environment** can be used to describe a product and help with inventory management or restocking
+- **Image description** is a powerful prebuilt model that analyzes an image and generates a user-friendly description based on its visual features. 
+- **Auto-captioning** of images that uses machine learning to automatically generate descriptive text for images.
+- **Security and Surveillance** by describing presence or person or an activity in video frame, it is possible to monitor or identify threats easily.
+- **SEO (Search engine optimization)** by describing images in a webpage to make the page more discoverable.
+- **Chatbots** can describe a given image and reason over it, thereby giving the illusion of a multi-modal capability.
+- **The retail environment** can be used to describe a product and help with inventory management or restocking
 
 
 > [!NOTE]
