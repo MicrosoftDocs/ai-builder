@@ -89,7 +89,7 @@ See also [AI Builder Licensing FAQ](credit-management.md#ai-builder-licensing-fa
 
 ### I exceeded my trial capacity. What can I do?
 
-- You can [purchase AI Builder Add On](administer-licensing.md#purchase-ai-builder-capacity)  and [allocate capacity](credit-management.md#make-credits-available-for-an-environment-allocated-and-unallocated-credits) to your environment
+- You can [purchase AI Builder Add On](credit-management.md#get-entitlement-to-ai-builder-credits)  and [allocate capacity](credit-management.md#make-credits-available-for-an-environment-allocated-and-unallocated-credits) to your environment
 
 - You can wait for your trial to expire, then extend your trial: this adds new capacity.
 
