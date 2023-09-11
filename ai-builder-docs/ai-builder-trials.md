@@ -77,7 +77,7 @@ The following functions aren't available when you exceed capacity:
 - Scheduled model run or retrain.
   - Some scenarios allow scheduled run or retrain, which is configured on the model settings panel. These scheduled tasks fail when you exceed capacity. Therefore, data isn't refreshed, and the model isn't retrained.
 
-To continue using AI Builder when you exceed capacity, [purchase AI Builder add-on](credit-management.md#get-entitlement-to-ai-builder-credits), and [allocate capacity](credit-management.md#make-credits-available-for-an-environment--allocated-and-unallocated-credits) to your environments.
+To continue using AI Builder when you exceed capacity, [purchase AI Builder add-on](credit-management.md#get-entitlement-to-ai-builder-credits), and [allocate capacity](credit-management.md#make-credits-available-for-an-environment-allocated-and-unallocated-credits) to your environments.
 
 When you extend a trial (after expiration), capacity is reset. You can again run and train your models, and create new ones. Scheduled run and retrain instances resume according to the existing settings.
 
@@ -89,7 +89,7 @@ See also [AI Builder Licensing FAQ](credit-management.md#ai-builder-licensing-fa
 
 ### I exceeded my trial capacity. What can I do?
 
-- You can [purchase AI Builder Add On](administer-licensing.md#purchase-ai-builder-capacity)  and [allocate capacity](credit-management.md#make-credits-available-for-an-environment--allocated-and-unallocated-credits) to your environment
+- You can [purchase AI Builder Add On](administer-licensing.md#purchase-ai-builder-capacity)  and [allocate capacity](credit-management.md#make-credits-available-for-an-environment-allocated-and-unallocated-credits) to your environment
 
 - You can wait for your trial to expire, then extend your trial: this adds new capacity.
 
@@ -103,7 +103,7 @@ After your AI Builder trial license expires, or if you exceed capacity:
 
 - You have to [purchase AI Builder Add-On](credit-management.md#get-entitlement-to-ai-builder-credits) to continue using your AI models.
 
-- An administrator must [allocate AI Builder capacity](credit-management.md#make-credits-available-for-an-environment--allocated-and-unallocated-credits) to any environment where you want to use AI Builder.
+- An administrator must [allocate AI Builder capacity](credit-management.md#make-credits-available-for-an-environment-allocated-and-unallocated-credits) to any environment where you want to use AI Builder.
 
 - You can't create or modify AI Builder models, and no new inference is possible when the trial expires if you don't purchase a license.
 
