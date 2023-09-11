@@ -67,8 +67,13 @@ As an administrator, you'll assess which environments must consume AI Builder cr
 
 Allocation happens in Power Platform admin center: in Resources > Capacity > Summary tab, select "Assign to an environment" in the upper-left menu bar
 
-**The administrator can block the use of unallocated credits** through an organization (tenant) setting in Power Platform admin center: AI Builder credit/allow users to consume unassigned credits. By default, this setting is enabled. When disabled, only environments with allocated credits have access to AI Builder features.
+### Block use of unallocated credits
+**The administrator can block the use of unallocated credits** through an organization (tenant) setting in Power Platform admin center: AI Builder credit/allow users to consume unassigned credits. 
+
+By default, this setting is enabled. When disabled, only environments with allocated credits have access to AI Builder features.
 See [Tenant settings](/power-platform/admin/tenant-settings) documentation page.
+
+![image](https://github.com/MicrosoftDocs/ai-builder-pr/assets/51075659/15334319-f026-48d2-a1ff-ee1be8f8f572)
 
 
 > [!NOTE]
