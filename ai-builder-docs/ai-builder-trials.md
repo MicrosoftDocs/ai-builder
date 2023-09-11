@@ -51,7 +51,7 @@ What you get an AI Builder trial license:
     :::image type="content" source="media/administer-licensing/start-free-trial.png" alt-text="Screenshot of Start free trial.":::
 
 > [!NOTE]
-> Your AI Builder trial license is applicable at the user level, not the environment level.You can use your trial license on multiple environments. Another user would have to start their own trial or paid license to use your models in any environment.
+> Your AI Builder trial license is applicable at the user level, not the environment level. You can use your trial license on multiple environments. Another user would have to start their own trial or paid license to use your models in any environment.
 
 ## After the trial expires
 
@@ -85,7 +85,7 @@ You cannot extend a trial before expiration.
 
 ## AI Builder Trial FAQ
 
-See also [AI Builder Licensing FAQ](credit-management.md#ai-builder-licensing-faq) in AI Builder licensing page
+See also [AI Builder Licensing FAQ](credit-management.md#ai-builder-licensing-faq) in AI Builder licensing page.
 
 ### I exceeded my trial capacity. What can I do?
 
