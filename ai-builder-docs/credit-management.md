@@ -17,7 +17,7 @@ Access to AI Builder features within an environment requires AI Builder credits.
 
 AI Builder credits come with some specific user licenses, but mostly from AI Builder Capacity add-on. See [Get entitlement to AI Builder credits](credit-management.md#get-entitlement-to-ai-builder-credits) section in this document.
 
-Once acquired, credits can be allocated (also known as assigned) to specific environment, or left at organization (tenant) level.  See [Make credits available for an environment ](credit-management.md#make-credits-available-for-an-environment--allocated-and-unallocated-credits) section in this document.
+Once acquired, credits can be allocated (also known as assigned) to specific environment, or left at organization (tenant) level.  See [Make credits available for an environment ](credit-management.md#make-credits-available-for-an-environment-allocated-and-unallocated-credits) section in this document.
 
 Once an environment has access to credits, AI Builder features are enabled in this environment.
 
@@ -117,7 +117,7 @@ As long as overage isn't important, AI Builder models continue to run and consum
 When monthly consumption becomes higher than the available credits **by a large margin**, running models in flows and apps is blocked. 
 - in this state, AI Builder actions fail with 'EntitlementNotAvailable' 'QuotaExceeded' error codes. In flow editor, remediation panel displays "All AI Builder credits in this environment have been consumed"
 
-To get details on your environment allocation, check [Make credits available for an environment ](credit-management.md#make-credits-available-for-an-environment--allocated-and-unallocated-credits) section in this document.
+To get details on your environment allocation, check [Make credits available for an environment ](credit-management.md#make-credits-available-for-an-environment-allocated-and-unallocated-credits) section in this document.
 To get details on your environment consumption, check [Monitor usage](credit-management.md#monitor-usage) section in this document. 
 
 If your environment has no more capacity, you need to provide capacity to your environment:  reallocate existing capacity from the organization (tenant) or environment level. Alternatively, you can purchase more capacity and make it available to your environment.
@@ -144,10 +144,10 @@ Each AI Builder capability consumes service credits at a different rate. You can
 - **No capacity was found**
 - **Credit usage exceeds allocation**
 
-You need to check entitlement allocation of your environment. If there's no allocation, and no allocation at the organization (tenant) level, [allocate capacity](credit-management.md#make-credits-available-for-an-environment--allocated-and-unallocated-credits) to the environment or organization (tenant) level from other environments or by [purchasing AI Builder add-on](credit-management.md#get-entitlement-to-ai-builder-credits).
+You need to check entitlement allocation of your environment. If there's no allocation, and no allocation at the organization (tenant) level, [allocate capacity](credit-management.md#make-credits-available-for-an-environment-allocated-and-unallocated-credits) to the environment or organization (tenant) level from other environments or by [purchasing AI Builder add-on](credit-management.md#get-entitlement-to-ai-builder-credits).
 
 If there are AI Builder credits allocated or available at organization (tenant) level, compare the amount with the [AI Builder consumption report](administer-consumption-report.md).
-Then [allocate more capacity](credit-management.md#make-credits-available-for-an-environment--allocated-and-unallocated-credits) eventually by [purchasing the AI Builder add-on](credit-management.md#get-entitlement-to-ai-builder-credits).
+Then [allocate more capacity](credit-management.md#make-credits-available-for-an-environment-allocated-and-unallocated-credits) eventually by [purchasing the AI Builder add-on](credit-management.md#get-entitlement-to-ai-builder-credits).
 
 ### Where can I see credit usage for this month?
 
@@ -191,7 +191,7 @@ The administrator can  reserve some capacity to an environment by allocating cre
 Environments with allocated credits only consume allocated credits. There's no automatic switch to unallocated credit consumption when in overage.
 Environments without allocated credits only consume unallocated credits. 
 
-To learn more, go to [Make credits available for an environment](credit-management.md#make-credits-available-for-an-environment--allocated-and-unallocated-credits) section in this document.
+To learn more, go to [Make credits available for an environment](credit-management.md#make-credits-available-for-an-environment-allocated-and-unallocated-credits) section in this document.
 
 To learn how to allocate capacity in [Power Platform admin center](https://admin.powerplatform.microsoft.com/), go to [Allocate or change capacity in an environment](/power-platform/admin/capacity-add-on#allocate-or-change-capacity-in-an-environment) documentation page.
 
