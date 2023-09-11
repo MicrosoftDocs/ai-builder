@@ -48,6 +48,7 @@ First, you need to be entitled to some AI Builder capacity. Entitlement can happ
        
 
 ### Entitlement through AI Builder trial
+
 Entitlement can be through a trial. Credits are then linked to a user. Trials are available only when there's no paid capacity within the organization (tenant).
 In a trial, there's no need of allocating credits to an environment.
 Trials can be used in any environment. 
@@ -68,6 +69,7 @@ As an administrator, you assess which environments must consume AI Builder credi
 Allocation happens in Power Platform admin center: in Resources > Capacity > Summary tab, select "Assign to an environment" in the upper-left menu bar
 
 ### Block use of unallocated credits
+
 **The administrator can block the use of unallocated credits** through an organization (tenant) setting in Power Platform admin center: AI Builder credit/allow users to consume unassigned credits. 
 
 By default, this setting is enabled. When disabled, only environments with allocated credits have access to AI Builder features.
@@ -90,6 +92,7 @@ This report also allows administrators to check the consumption level of an envi
 Administrators also can access the [AI Builder Activity](activity-monitoring.md) page in the Power Automate portal, showing all predicts made against the AI Builder models in that environment.
 
 ### AI Builder Credit Consumption
+
 The following list presents AI Builder actions consuming credits.  
 It isn't all-inclusive and preview scenarios don't consume credits.
 
@@ -102,10 +105,12 @@ Each AI Builder model has a different credit consumption mechanism. To perform a
 ## Overage
 
 When browsing AI Builder pages in Power Apps or Power Automate portal, you might get this notification: **You've consumed all of your AI Builder credits. Creating, editing and viewing is blocked. Contact your administrator to get more capacity**. This notification means the monthly consumption of your environment is higher than the available (at environment or organization -tenant- level) credits.   
+
 Monthly consumption is computed from first day of the month and is refreshed on a daily basis.  
 Available credits are the assigned credits if credits have been assigned to the environment, or the unassigned credits if no credit has been assigned to the environment.  
 
 ### Simple Overage
+
 As soon as monthly consumption is higher than the available credits, creating and editing models is blocked. 
 - in prebuilt models tile, you can open the tile but can't test or click on 'Use in Apps or Flow'
 - in new custom models tile, you can't click on 'customize your model' to start a new model
@@ -114,6 +119,7 @@ As soon as monthly consumption is higher than the available credits, creating an
 As long as overage isn't important, AI Builder models continue to run and consume credits. We allow some level of overage consumption - similar to a grace period - to avoid blocking business processes.
 
 ### Important Overage
+
 When monthly consumption becomes higher than the available credits **by a large margin**, running models in flows and apps is blocked. 
 - in this state, AI Builder actions fail with 'EntitlementNotAvailable' 'QuotaExceeded' error codes. In flow editor, remediation panel displays "All AI Builder credits in this environment have been consumed"
 
@@ -220,6 +226,7 @@ No,  limitations only apply to the environment(s) in overage. Other environments
 For example, if an environment has no allocated credit, and organization (tenant) level credits aren't all consumed, then editing and running of AI Builder functions is allowed for this environment. This remains true when other environments with assigned credits are in overage.
 
 ### Do you have FAQ about AI Builder trials?
+
 Yes, they're [here](ai-builder-trials.md#ai-builder-trial-faq)
 
 ## See also
