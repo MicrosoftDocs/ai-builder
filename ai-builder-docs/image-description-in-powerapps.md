@@ -51,5 +51,5 @@ You can integrate your AI Builder image description models in Power Apps Studio 
 
 ### See also
 
-For more information, go to [Use Power Fx in AI Builder models in Power Apps (preview)]([https://make.powerapps.com](https://learn.microsoft.com/ai-builder/powerfx-in-powerapps)https://learn.microsoft.com/ai-builder/powerfx-in-powerapps).
+To learn more, go to [Use AI Builder models in Power Apps](powerfx-in-powerapps.md).
 
