@@ -54,21 +54,6 @@
     href: prebuilt-sentiment-analysis.md
   - name: Receipt processing
     href: prebuilt-receipt-processing.md
-  - name: Object detection AI model
-    items: 
-    - name: Overview
-      href: object-detection-overview.md
-      displayName: image processing; inventory automation
-    - name: Collect images
-      href: collect-images.md
-    - name: Build your object detection model
-      href: get-started-with-object-detection.md
-    - name: Train and publish your object detection model
-      href: object-detection-train-model.md
-    - name: Transition to the newest object detection model version
-      href: object-detection-transition.md
-    - name: Use sample data
-      href: object-detection-sample-data.md
   - name: Entity extraction 
     href: prebuilt-entity-extraction.md
   - name: ID reader
@@ -141,6 +126,21 @@
         href: prediction-training-report.md
     - name: Use your prediction model
       href: prediction-use.md        
+  - name: Object detection AI model
+    items: 
+    - name: Overview
+      href: object-detection-overview.md
+      displayName: image processing; inventory automation
+    - name: Collect images
+      href: collect-images.md
+    - name: Build your object detection model
+      href: get-started-with-object-detection.md
+    - name: Train and publish your object detection model
+      href: object-detection-train-model.md
+    - name: Transition to the newest object detection model version
+      href: object-detection-transition.md
+    - name: Use sample data
+      href: object-detection-sample-data.md
   - name: Category classification AI model
     items:
     - name: Overview
