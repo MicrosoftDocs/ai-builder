@@ -130,7 +130,19 @@ If your environment has no more capacity, you need to provide capacity to your e
 
 To help estimate the required add-on capacity based on your estimated consumption, use the [AI Builder calculator](https://powerapps.microsoft.com/en-us/ai-builder-calculator/) site.
 
+### Request Credit extension
+In case of simple or important overage, in the case additional purchase and/or reallocation of credit cannot be done in a timely manner, we allow Makers in AI Builder portal and Admin in Power Platform Admin Center to request credit extension.
 
+Clicking the 'Request extension' button in overage banner in AI Builder page or Power Platform Admin Center page will perform following actions:
+- send an email to Power Platform admins
+- add 200,000 extension credits for the current month
+
+These credits can't be allocated or assigned and can be used directly by any environment in overage after 10 minutes.
+In some cases, you may still see the overage banners although extension credits have already unblocked your Models. 
+
+Depending on the level of overage, these 200,000 credits may not be enough. They can be requested multiple times, but the number of extension requests per month and per year is limited. Each request grants 200,000 credits and send an email.
+
+Purpose of these credit extensions is to allow makers and admin to unblock themselves temporarily, in case additional purchase and/or re-allocation cannot be done in a timely manner. Customer should not rely on credit extensions to cover repetitive overage. Repetitive overage must be managed with additional purchase and/or re-allocation.
 
 ## Preview features
 
