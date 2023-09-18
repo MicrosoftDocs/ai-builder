@@ -1,7 +1,7 @@
 ---
 title: Overview of AI Builder
 description: Get an overview of AI Builder and high-level steps to add intelligence to your apps.
-author:
+author: phil-cmd
 contributors:
   - phil-cmd
   - v-aangie

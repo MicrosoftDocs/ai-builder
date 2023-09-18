@@ -21,23 +21,23 @@ Once acquired, credits can be allocated (also known as assigned) to a specific e
 
 Once an environment has access to credits, AI Builder features are enabled in this environment.
 
-Some AI Builder actions consume credits. see [AI Builder Credit Consumption](credit-management.md#ai-builder-credit-consumption) section in this document.
+Some AI Builder actions consume credits. To learn more, go to [AI Builder credit consumption](#ai-builder-credit-consumption) in this article.
 
-Credit consumption can be monitored. see [Monitor usage](credit-management.md#monitor-usage) section in this document.
+Credit consumption can be monitored. To learn more, go to [Monitor usage](#monitor-usage) in this article.
 
-In an environment, when consumption exceeds available credits, environment is in overage and some features are progressively blocked. Purchase of new credits and/or reassignment needs to happen. see [Overage](credit-management.md#overage) section in this document.
+In an environment, when consumption exceeds available credits, the environment is in overage and some features are progressively blocked. Purchase of new credits and/or reassignment needs to happen. To learn more, go to [Overage](#overage) in this article.
 
-AI Builder credits can also come from AI Builder trial. In that case, they're linked to the user and don't need to be allocated. see [AI Builder Trial](ai-builder-trials.md) documentation page.
+AI Builder credits can also come from AI Builder trial. In that case, they're linked to the user and don't need to be allocated. To learn more, go to [AI Builder trial](ai-builder-trials.md).
 
 ## Get entitlement to AI Builder credits
 
 First, you need to be entitled to some AI Builder capacity. Entitlement can happen through one of the following paid capacities.
 
-- Some Microsoft products like Power Apps per app plan, Power Apps per user plan, and Power Automate Premium (previously Power Automate per user with attended RPA) plan include  AI Builder capacity. Your environment admin can check entitlement in Power Platform admin center by following the instructions in [Capacity add-ons](/power-platform/admin/capacity-add-on) documentation page. When this amount isn't enough, you need to complete it with one or more AI Builder capacity add-ons.
+- Some Microsoft products like Power Apps per app plan, Power Apps per user plan, and Power Automate Premium (previously Power Automate per user with attended RPA) plan include  AI Builder capacity. Your environment admin can check entitlement in Power Platform admin center by following the instructions in [Capacity add-ons](/power-platform/admin/capacity-add-on). When this amount isn't enough, you need to complete it with one or more AI Builder capacity add-ons.
 
 - Main source of credits is AI Builder credit add-on that you can purchase in the Microsoft 365 admin center:
 
-1. In the admin center, select **Billing** >  [Purchase services](https://go.microsoft.com/fwlink/p/?linkid=868433).
+1. In the admin center, select **Billing** > [Purchase services](https://go.microsoft.com/fwlink/p/?linkid=868433).
     You need to be the billing administrator of your organization (tenant) to access this page.
 
 1. On the **Purchase services** page, do the following steps:
@@ -50,14 +50,13 @@ First, you need to be entitled to some AI Builder capacity. Entitlement can happ
 ### Entitlement through AI Builder trial
 
 Entitlement can be through a trial. Credits are then linked to a user. Trials are available only when there's no paid capacity within the organization (tenant).
-In a trial, there's no need of allocating credits to an environment.
-Trials can be used in any environment. 
-A trial brings 200,000 credits and is valid 30 days.
+
+In a trial, there's no need of allocating credits to an environment. Trials can be used in any environment. A trial brings 200,000 credits and is valid 30 days.
+
 Once credits are consumed, AI Builder models are blocked for this user.
 At the end of the 30 days, a trial can be renewed, and user receives another 200,000 credits. Renewal is only allowed for a limited number of times.
 
-
-See [AI Builder trial](ai-builder-trials.md) documentation page.
+To learn more, go to [AI Builder trial](ai-builder-trials.md).
 
 
 ## Make credits available for an environment: allocated and unallocated credits
@@ -66,22 +65,22 @@ By default, the credits are unallocated (also known as unassigned) and available
 
 As an administrator, you assess which environments must consume AI Builder credits. Use the [AI Builder calculator](https://powerapps.microsoft.com/ai-builder-calculator/) site to estimate how many predictions happen in a monthly period on each one and assess the credits to allocate.
 
-Allocation happens in Power Platform admin center: in Resources > Capacity > Summary tab, select "Assign to an environment" in the upper-left menu bar
+Allocation happens in the [Power Platform admin center](https://admin.powerplatform.microsoft.com/) when you select **Resources** > **Capacity** > **Summary** tab, and then select **Assign to an environment** in the upper-left menu.
 
 ### Block use of unallocated credits
 
-**The administrator can block the use of unallocated credits** through an organization (tenant) setting in Power Platform admin center: AI Builder credit/allow users to consume unassigned credits. 
+The administrator can block the use of unallocated credits through an organization (tenant) setting in the [Power Platform admin center](https://admin.powerplatform.microsoft.com/). To do this, remove the check from the **Allow users to consume unassigned credits** checkbox.
+
+:::image type="content" source="media/credits.png" alt-text="Screenshot of the option to allow users to consume unassigned credits in Power Platform admin center.":::
 
 By default, this setting is enabled. When disabled, only environments with allocated credits have access to AI Builder features.
-See [Tenant settings](/power-platform/admin/tenant-settings) documentation page.
 
-![image](https://github.com/MicrosoftDocs/ai-builder-pr/assets/51075659/15334319-f026-48d2-a1ff-ee1be8f8f572)
-
+To learn more, go to [Tenant settings](/power-platform/admin/tenant-settings).
 
 > [!NOTE]
-> This is how administrators stay in control of *where* AI is used in their organization and, with the role assignments described in [Roles and security in AI Builder](security.md#roles) documentation page, *who* is using it.
+> This is how administrators stay in control of *where* AI is used in their organization and, with the role assignments described in [Roles and security in AI Builder](security.md#roles), *who* is using it.
 
-To learn more about how to allocate credits in the Power Platform admin center, go to [Allocate or change capacity in an environment](/power-platform/admin/capacity-add-on#allocate-or-change-capacity-in-an-environment) documentation page.
+To learn more about how to allocate credits in the Power Platform admin center, go to [Allocate or change capacity in an environment](/power-platform/admin/capacity-add-on#allocate-or-change-capacity-in-an-environment).
 
 ## Monitor usage
 
@@ -104,12 +103,14 @@ Each AI Builder model has a different credit consumption mechanism. To perform a
 
 When browsing AI Builder pages in Power Apps or Power Automate portal, you might get this notification: **You've consumed all of your AI Builder credits. Creating, editing and viewing is blocked. Contact your administrator to get more capacity**. This notification means the monthly consumption of your environment is higher than the available (at environment or organization -tenant- level) credits.   
 
-Monthly consumption is computed from first day of the month and is refreshed on a daily basis.  
+Monthly consumption is computed from first day of the month and is refreshed on a daily basis.
+  
 Available credits are the assigned credits if credits have been assigned to the environment, or the unassigned credits if no credit has been assigned to the environment.  
 
 ### Simple overage
 
 As soon as monthly consumption is higher than the available credits, creating and editing models is blocked.
+
 - On a prebuilt models tile, you can open the tile but can't test or select **Use in Apps or Flow**.
 - On a new custom models tile, you can't select **Customize your model** to start a new model.
 - On an existing model, you can't view, quick test, or edit properties. You can only delete model.
@@ -129,9 +130,9 @@ To help estimate the required add-on capacity based on your estimated consumptio
 
 ### Request credit extension
 
-In case of simple or important overage, in the case additional purchase and/or reallocation of credit can't be done in a timely manner, we allow Makers in AI Builder portal and Admin in Power Platform admin center to request credit extension.
+In the case of simple or important overage, and when additional purchase and/or reallocation of credit can't be done in a timely manner, we allow makers in the AI Builder portal and admins in the [Power Platform admin center](https://admin.powerplatform.microsoft.com/home) to request a credit extension.
 
-Selecting **Request extension** in the overage banner in the AI Builder page or Power Platform admin center page will perform following actions:
+Selecting **Request extension** in the overage banner in the AI Builder page or [Power Platform admin center](https://admin.powerplatform.microsoft.com/home) performs following actions:
 - Send an email to Power Platform admins.
 - Add 200,000 extension credits for the current month.
 
@@ -191,11 +192,12 @@ Some user licenses include seeded AI Builder credits. For example, the Power App
 Learn more about licenses and license management in Power Apps in [About licensing and license management](/power-platform/admin/wp-license-management).
 
 ### What are the differences between credit assignment and credit allocation?
-Credit assignment and Credit allocation are same concept. In documentation, we mainly use allocation. In product, we mainly use assignment.
+
+Credit assignment and credit allocation are same concept. In documentation, we mainly use allocation. In product, we mainly use assignment.
+
 - assignment = allocation
 - assigned credits = allocated credits = environment credits
 - unassigned credits = unallocated credits = organization (tenant) level credits
-
 
 ### What are the differences between allocated credits and unallocated credits?
 
@@ -205,11 +207,11 @@ The administrator can restrict usage by allocating all credits to specific envir
 The administrator can  reserve some capacity to an environment by allocating credits to this environment. 
 
 Environments with allocated credits only consume allocated credits. There's no automatic switch to unallocated credit consumption when in overage.
-Environments without allocated credits only consume unallocated credits. 
+Environments without allocated credits only consume unallocated credits.
 
-To learn more, go to [Make credits available for an environment](credit-management.md#make-credits-available-for-an-environment-allocated-and-unallocated-credits) section in this document.
+To learn more, go to [Make credits available for an environment](#make-credits-available-for-an-environment-allocated-and-unallocated-credits) in this article.
 
-To learn how to allocate capacity in [Power Platform admin center](https://admin.powerplatform.microsoft.com/), go to [Allocate or change capacity in an environment](/power-platform/admin/capacity-add-on#allocate-or-change-capacity-in-an-environment) documentation page.
+To learn how to allocate capacity in [Power Platform admin center](https://admin.powerplatform.microsoft.com/), go to [Allocate or change capacity in an environment](/power-platform/admin/capacity-add-on#allocate-or-change-capacity-in-an-environment).
 
 
 ### Is there a way to automatically consume organization (tenant) level credits once environment allocated credits are consumed?
@@ -217,7 +219,6 @@ To learn how to allocate capacity in [Power Platform admin center](https://admin
 No, credits either come from environment allocation or comes from organization (tenant) level unallocated credits but there's no automatic switch from environment credits to organization (tenant) credits.
 As soon as environment has allocated credits, credits only come from environment credits.
 If environment consumption is higher than allocated credits, then environment is in overage.
-
 
 ### How do you consider the 'large margin' to block model runs in important overage?
 
@@ -227,16 +228,15 @@ For an environment without allocated credits, we apply the ‘large margin’ wh
 - **Simple overage**: Limitation starts as soon as consumed credits are higher than available credits (no margin here) and only impacts maker experience. (creating/editing models)
 - **Important overage**: Blocking AI Builder models in flows and apps only happens if overage is important. (large margin applies here)
 
-
 ### If an environment is in overage, do the limitations apply to all environments?
 
-No,  limitations only apply to the environment(s) in overage. Other environments, whether consuming environment assignment or organization (tenant) level credits won't be affected.
+No. Limitations only apply to the environments in overage. Other environments, whether consuming environment assignment or organization (tenant) level credits won't be affected.
 
 For example, if an environment has no allocated credit, and organization (tenant) level credits aren't all consumed, then editing and running of AI Builder functions is allowed for this environment. This remains true when other environments with assigned credits are in overage.
 
 ### Do you have FAQ about AI Builder trials?
 
-Yes. Go to [AI Builder trial FAQ](ai-builder-trials.md#ai-builder-trial-faq).
+Yes. To learn more, go to [AI Builder trial FAQ](ai-builder-trials.md#ai-builder-trial-faq).
 
 ### See also
 
