@@ -1,11 +1,14 @@
 ---
-title: Requirements and limitations for document processing models - AI Builder | Microsoft Docs
+title: Requirements and limitations for document processing models - AI Builder
 description: Learn about the requirements and limitations of document processing models in AI Builder.
 author: JoeFernandezMS
+contributors:
+  - Phil-cmd
+  - v-aangie
 ms.topic: conceptual
 ms.custom:
 ms.date: 10/07/2022
-ms.author: jofernan
+ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
@@ -32,8 +35,8 @@ Document processing works on input documents that meet the following requirement
 
  > [!NOTE]
  > - Extracting signatures from documents isn't currently supported.<br />
- > 
- > - Fields that split across page boundaries aren't currently supported.
+ > - Fields that split across page boundaries aren't currently supported.<br />
+>  - Rows that break from one page to another aren't currently supported.
 
 ## Optimization tip
 

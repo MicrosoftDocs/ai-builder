@@ -38,6 +38,7 @@ You can use dedicated actions for each AI Builder model in Power Automate. Howev
    - Language detection: LanguageDetection model
    - Sentiment analysis: SentimentAnalysis model
    - Text recognition: TextRecognition model
+   - Text generation (prebuilt): GptPromptEngineering model
 
 >[!NOTE]
 >

@@ -64,7 +64,7 @@
     href: prebuilt-entity-extraction.md
   - name: Key phrase extraction
     href: prebuilt-key-phrase.md
-  - name: Category classification (preview)
+  - name: Category classification
     href: prebuilt-category-classification.md
   - name: Text translation
     href: prebuilt-text-translation.md
