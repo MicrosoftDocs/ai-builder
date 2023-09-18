@@ -42,7 +42,7 @@ Get started with AI Builder using the following learning resources:
 - [AI Builder community forums](https://go.microsoft.com/fwlink/?linkid=2092048)
 - [AI Builder hands-on labs](https://go.microsoft.com/fwlink/?linkid=2103171)
 - [Work with sample data](samples.md)
-- [Get started with AI Builder licensing](administer-licensing.md)
+- [AI Builder licensing summary](administer-licensing.md)
 
 ## Release status
 
@@ -66,16 +66,11 @@ For information about license capacity, pricing, and restrictions:
 
 ## For administrators
 
-- If you're an administrator and want information on model and environments, go to [Administer AI Builder](administer.md).
+If you're an administrator and want information on model and environments, go to [Administer AI Builder](administer.md).
 
-- For information on security for administrators, go to [Roles and security in AI Builder](security.md).
-
-## Next step
-
-[Learn about AI model types](model-types.md)
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+For information on security for administrators, go to [Roles and security in AI Builder](security.md).
 
 ### See also
 
-[Training: Get started with AI Builder (module)](/training/modules/get-started-with-ai-builder/)
+- [Learn about AI model types](model-types.md)
+- [Training: Get started with AI Builder (module)](/training/modules/get-started-with-ai-builder/)

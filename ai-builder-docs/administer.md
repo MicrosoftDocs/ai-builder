@@ -3,6 +3,7 @@ title: Administer AI Builder - AI Builder
 description: Administrators can learn about AI custom models and environment lifecycle, backup and restore, managing capacity, enabling or disabling the feature, and data loss prevention in AI Builder.
 author: phil-cmd
 contributors:
+  - Antoine2F
   - phil-cmd
   - v-aangie
 ms.topic: conceptual
@@ -30,8 +31,7 @@ A model can go through different states depending on the makers’ actions. The 
 
 The states are draft, training (transient), trained, publishing (transient), published, unpublishing (transient), training error, importing (transient), and import error.
 
-> [!div class="mx-imgBorder"]
-> ![Lifecycle states of a model](media/model-lifecycle.png "Lifecycle states of a model")
+:::image type="content" source="media/model-lifecycle.png" alt-text="Screenshot of the lifecycle states of a model.":::
 
 ### Application lifecycle management
 
@@ -39,8 +39,7 @@ Makers should be able to continuously update and deploy their models across sing
 
 Managing new versions of a model often requires going through different environments. A typical scenario would be to make model changes in a *development environment*, qualify the model in a *test environment*, and predict in a *production environment*.
 
-> [!div class="mx-imgBorder"]
-> ![Application lifecycle management](media/app-lifecycle.png "Application lifecycle management")
+:::image type="content" source="media/app-lifecycle.png" alt-text="Screenshot of application lifecycle management.":::
 
 In AI Builder, all the environments need to be provided with a Microsoft Dataverse database.
 
@@ -60,21 +59,20 @@ Microsoft Dataverse has backup and restore capabilities to help protect your app
 
 - Backup and restore are fully supported for prediction, object detection, document processing, and prebuilt models.
 
-  >[!NOTE]
-  >For object detection and document processing models, the restore process might take some time to be completed. The AI Builder models list shows an "importing" status message while the restore operation is in progress.
+  > [!NOTE]
+  > For object detection and document processing models, the restore process might take some time to be completed. The AI Builder models list shows an "importing" status message while the restore operation is in progress.
 
-- **For models *not* supported by backup and restore**: If you restore an environment, you'll have to retrain and republish these models to make them available again.
+- **For models not supported by backup and restore**: If you restore an environment, you'll have to retrain and republish these models to make them available again.
 
 ## Prerequisite to set up an environment ready for AI Builder
 
 AI Builder is licensed as an add-on to your Power Apps, Power Automate, or Dynamics 365 license. This means you need a Power Apps, Power Automate, or Dynamics 365 license that allows you to create a Microsoft Power Platform environment.
 
-## Manage AI Builder credits 
+## Manage AI Builder credits
 
-Access to AI Builder features within an environment require access to AI Builder credits.
+Access to AI Builder features within an environment requires access to AI Builder credits.
 
-See [AI Builder Credit Management](credit-management.md)
-
+To learn more, go to [AI Builder licensing and credit management](credit-management.md).
 
 ## Where and how are data stored in Dataverse?
 
