@@ -15,7 +15,9 @@ ms.reviewer: angieandrews
 
 # Administer AI Builder
 
-Microsoft Power Platform administrators can use the [Power Apps admin center](https://admin.powerapps.com) and the [Power Platform admin center](https://admin.powerplatform.microsoft.com) to manage environments and settings for Power Apps and AI Builder. For more information, go to [Power Platform administrator guide](/power-platform/admin/admin-documentation).
+Microsoft Power Platform administrators can use the [Power Apps admin center](https://admin.powerapps.com) and the [Power Platform admin center](https://admin.powerplatform.microsoft.com) to manage environments and settings for Power Apps and AI Builder.
+
+More information: [Power Platform administrator guide](/power-platform/admin/admin-documentation)
 
 The availability, which is also known as the release status, of AI Builder is dependent on your region. For a breakdown of AI Builder feature availability by region, go to [Feature availability by region](availability-region.md).
 

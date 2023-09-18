@@ -6,7 +6,7 @@ contributors:
   - Antoine2F
   - v-aangie
 ms.topic: conceptual
-ms.date: 09/18/2023
+ms.date: 09/19/2023
 ms.author: antode
 ms.reviewer: angieandrews
 ---
@@ -242,8 +242,8 @@ Yes. Go to [AI Builder trial FAQ](ai-builder-trials.md#ai-builder-trial-faq).
 
 - [AI Builder trial](ai-builder-trials.md)
 - [Microsoft Power Platform Licensing Guide (pdf)](https://go.microsoft.com/fwlink/?LinkId=2085130)
-- [AI Builder](/power-platform/admin/powerapps-flow-licensing-faq#ai-builder) section in the *Power Platform licensing FAQ* article
-- [Estimate the AI Builder capacity that’s right for you](https://powerapps.microsoft.com/ai-builder-calculator/) in AI Builder calculator
+- [Licensing FAQ for AI Builder](/power-platform/admin/powerapps-flow-licensing-faq#ai-builder)
+- [Estimate the AI Builder capacity that’s right for you in the calculator](https://powerapps.microsoft.com/ai-builder-calculator/)
 - [Training: Get started with AI Builder licensing (module)](/training/modules/get-started-with-ai-builder-licensing/)
 
 

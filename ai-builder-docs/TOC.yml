@@ -263,7 +263,7 @@
   items:
   - name: Administer AI Builder
     href: administer.md
-  - name: AI Builder Licensing and Credit management
+  - name: Licensing and credit management
     href: credit-management.md
   - name: Consumption report
     href: administer-consumption-report.md
