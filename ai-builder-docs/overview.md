@@ -1,10 +1,13 @@
 ---
-title: Overview of AI Builder - AI Builder | Microsoft Docs
-description: This topic provides an overview of AI Builder and high-level steps to add intelligence to your apps.
-author: v-aangie
+title: Overview of AI Builder
+description: Get an overview of AI Builder and high-level steps to add intelligence to your apps.
+author: phil-cmd
+contributors:
+  - phil-cmd
+  - v-aangie
 ms.topic: overview
 ms.date: 06/03/2022
-ms.author: angieandrews
+ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
@@ -42,40 +45,32 @@ Get started with AI Builder using the following learning resources:
 - [AI Builder community forums](https://go.microsoft.com/fwlink/?linkid=2092048)
 - [AI Builder hands-on labs](https://go.microsoft.com/fwlink/?linkid=2103171)
 - [Work with sample data](samples.md)
-- [AI Builder licensing](administer-licensing.md)
+- [AI Builder licensing summary](administer-licensing.md)
 
 ## Release status
 
- > [!IMPORTANT]
- >
- > - Some features in AI Builder haven't been released yet for general availability (GA) and remain in preview status. For more information, go to [Release status](#release-status) later in this topic.
+Some features in AI Builder haven't been released yet for general availability (GA) and remain in preview status.
+
+> [!IMPORTANT]
 >
- > - [!INCLUDE[cc_preview_features_definition](./includes/cc-preview-features-definition.md)]
->
+> - [!INCLUDE[cc_preview_features_definition](./includes/cc-preview-features-definition.md)]
 > - Administrators can control preview feature availability for their environment by using the Power Platform admin center. More information: [Enable or disable AI Builder preview features](administer.md#enable-or-disable-ai-builder-preview-features)
 
 Because of technical dependencies, some features are released differently in various locations. For a breakdown of the release status of AI Builder features and model types for your region, go to [Feature availability by region](availability-region.md).
 
 For information about license capacity, pricing, and restrictions:
 
-- [Find the right Power Apps plan for your business needs](https://powerapps.microsoft.com/pricing/).
-
-- [Power Automate pricing](https://flow.microsoft.com/pricing/).
-
-- [AI Builder licensing](administer-licensing.md).
+- [Find the right Power Apps plan for your business needs](https://powerapps.microsoft.com/pricing/)
+- [Power Automate pricing](https://flow.microsoft.com/pricing/)
+- [AI Builder licensing and credit management](credit-management.md)
 
 ## For administrators
 
-- If you're an administrator and want information on model and environments, go to [Administer AI Builder](administer.md).
+If you're an administrator and want information on model and environments, go to [Administer AI Builder](administer.md).
 
-- For information on security for administrators, go to [Roles and security in AI Builder](security.md).
-
-## Next step
-
-[Learn about AI model types](model-types.md)
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+For information on security for administrators, go to [Roles and security in AI Builder](security.md).
 
 ### See also
 
-[Training: Get started with AI Builder (module)](/training/modules/get-started-with-ai-builder/)
+- [Learn about AI model types](model-types.md)
+- [Training: Get started with AI Builder (module)](/training/modules/get-started-with-ai-builder/)

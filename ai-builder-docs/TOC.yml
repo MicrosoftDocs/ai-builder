@@ -263,9 +263,13 @@
   items:
   - name: Administer AI Builder
     href: administer.md
+  - name: Licensing and credit management
+    href: credit-management.md
   - name: Consumption report
     href: administer-consumption-report.md
     displayName: Usage report
+  - name: AI Builder trial
+    href: ai-builder-trials.md
   - name: Roles and security
     href: security.md
   - name: Feature availability by region
