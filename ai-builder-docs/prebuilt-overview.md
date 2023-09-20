@@ -27,7 +27,7 @@ Prebuilt models are available in Power Automate and Power Apps. The following pr
 - [Text generation (preview)](prebuilt-azure-openai.md)
 - [Language detection](prebuilt-language-detection.md)
 - [Text translation](prebuilt-text-translation.md)  
-- [Image description](prebuilt-image-description.md)
+- [Image description (preview)](prebuilt-image-description.md)
 
 To learn more, go to [Use AI Builder models in Power Apps](/ai-builder/powerfx-in-powerapps).
 
