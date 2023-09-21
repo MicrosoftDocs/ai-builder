@@ -46,37 +46,62 @@
   items:
   - name: Overview
     href: prebuilt-overview.md
+  - name: Invoice processing
+    href: prebuilt-invoice-processing.md
+  - name: Text recognition
+    href: prebuilt-text-recognition.md       
+  - name: Sentiment analysis
+    href: prebuilt-sentiment-analysis.md
+  - name: Receipt processing
+    href: prebuilt-receipt-processing.md
+  - name: Entity extraction 
+    href: prebuilt-entity-extraction.md
+  - name: ID reader
+    href: prebuilt-id-reader.md
+  - name: Key phrase extraction
+    href: prebuilt-key-phrase.md
+  - name: Business card reader
+    href: prebuilt-business-card.md
+  - name: Category classification
+    href: prebuilt-category-classification.md
   - name: Text generation (preview)
     items:
     - name: Overview
       href: prebuilt-azure-openai.md
     - name: How text generation works  
       href: azure-openai-textgen.md
-  - name: Sentiment analysis
-    href: prebuilt-sentiment-analysis.md
   - name: Language detection
     href: prebuilt-language-detection.md  
-  - name: Text recognition
-    href: prebuilt-text-recognition.md  
-  - name: Invoice processing
-    href: prebuilt-invoice-processing.md 
-  - name: Entity extraction 
-    href: prebuilt-entity-extraction.md
-  - name: Key phrase extraction
-    href: prebuilt-key-phrase.md
-  - name: Category classification
-    href: prebuilt-category-classification.md
   - name: Text translation
     href: prebuilt-text-translation.md
-  - name: ID reader
-    href: prebuilt-id-reader.md
-  - name: Business card reader
-    href: prebuilt-business-card.md 
-  - name: Receipt processing
-    href: prebuilt-receipt-processing.md
+  - name: Image description (preview)
+    href: prebuilt-image-description.md
 
 - name: Custom AI models
   items:
+  - name: Document processing AI model
+    items:
+    - name: Overview
+      href: form-processing-model-overview.md
+      displayName: automate data entry
+    - name: Requirements and limitations
+      href: form-processing-model-requirements.md
+    - name: Create a document processing model
+      href: create-form-processing-model.md
+    - name: Tag documents in a document processing model
+      href: tag-form-processing-model.md
+    - name: Extract dates and numbers (preview)
+      href: extract-dates-and-numbers.md
+    - name: Train and publish your document processing model
+      href: form-processing-train.md
+    - name: Improve document processing model performance
+      href: improve-form-processing-performance.md
+    - name: Use sample data
+      href: form-processing-sample-data.md
+    - name: FAQ for document processing
+      href: form-processing-faq.md
+    - name: Transition to the newest document processing model version
+      href: form-processing-transition.md
   - name: Prediction AI model
     items:
     - name: Overview 
@@ -100,7 +125,22 @@
       - name: Training errors and warnings
         href: prediction-training-report.md
     - name: Use your prediction model
-      href: prediction-use.md
+      href: prediction-use.md        
+  - name: Object detection AI model
+    items: 
+    - name: Overview
+      href: object-detection-overview.md
+      displayName: image processing; inventory automation
+    - name: Collect images
+      href: collect-images.md
+    - name: Build your object detection model
+      href: get-started-with-object-detection.md
+    - name: Train and publish your object detection model
+      href: object-detection-train-model.md
+    - name: Transition to the newest object detection model version
+      href: object-detection-transition.md
+    - name: Use sample data
+      href: object-detection-sample-data.md
   - name: Category classification AI model
     items:
     - name: Overview
@@ -136,45 +176,7 @@
     - name: Train and publish your entity extraction model
       href: entity-extraction-train.md
     - name: Use sample data
-      href: entity-extraction-sample-data.md 
-  - name: Object detection AI model
-    items: 
-    - name: Overview
-      href: object-detection-overview.md
-      displayName: image processing; inventory automation
-    - name: Collect images
-      href: collect-images.md
-    - name: Build your object detection model
-      href: get-started-with-object-detection.md
-    - name: Train and publish your object detection model
-      href: object-detection-train-model.md
-    - name: Transition to the newest object detection model version
-      href: object-detection-transition.md
-    - name: Use sample data
-      href: object-detection-sample-data.md
-  - name: Document processing AI model
-    items:
-    - name: Overview
-      href: form-processing-model-overview.md
-      displayName: automate data entry
-    - name: Requirements and limitations
-      href: form-processing-model-requirements.md
-    - name: Create a document processing model
-      href: create-form-processing-model.md
-    - name: Tag documents in a document processing model
-      href: tag-form-processing-model.md
-    - name: Extract dates and numbers (preview)
-      href: extract-dates-and-numbers.md
-    - name: Train and publish your document processing model
-      href: form-processing-train.md
-    - name: Improve document processing model performance
-      href: improve-form-processing-performance.md
-    - name: Use sample data
-      href: form-processing-sample-data.md
-    - name: FAQ for document processing
-      href: form-processing-faq.md
-    - name: Transition to the newest document processing model version
-      href: form-processing-transition.md  
+      href: entity-extraction-sample-data.md       
   - name: Azure machine learning models
     items:
     - name: Create and register your own model
@@ -225,8 +227,10 @@
       href: flow-text-recognition.md
     - name: Text translation model
       href: flow-text-translation.md
-  - name: Use predict action in Power Automate
-    href: predict-action-pwr-automate.md  
+    - name: Image description model
+      href: flow-image-description.md
+  - name: Predict action
+    href: predict-action-pwr-automate.md
 - name: Use AI Builder in Power Apps
   items:
   - name: Overview
@@ -251,8 +255,10 @@
     href: prebuilt-receipt-processor-component-in-powerapps.md
   - name: Use the text recognizer component in Power Apps
     href: prebuilt-text-recognizer-component-in-powerapps.md
+  - name: Use the image description model in Power Apps (preview)
+    href: image-description-in-powerapps.md
   - name: Use AI Builder models in Power Apps
-    href: powerfx-in-powerapps.md  
+    href: powerfx-in-powerapps.md
 - name: Use AI Builder in SharePoint
   href: sharepoint-overview.md
 - name: Use AI Builder in Teams
