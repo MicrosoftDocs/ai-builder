@@ -56,7 +56,7 @@ To download and view an Excel file showing your AI credit consumption report:
 
 The report shows AI credits consumed by date for each environment.
 
-:::image type="content" source="media/administer-consumption-report/credits-by-date.png" alt-text="Screenshot of the Power Platform admin center capacity page.":::
+:::image type="content" source="media/administer-consumption-report/credits-by-date.png" alt-text="Screenshot of AI credits consumed by date for each environment.":::
 
 - **Date**: The date of the AI credits consumption.
 - **UserId**: The identifier visible in the Dataverse **User** table.
