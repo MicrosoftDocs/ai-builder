@@ -21,8 +21,7 @@ AI Builder is licensed as a capacity add-on that must be allocated to a Microsof
 - The [AI Builder licensing page](administer-licensing.md) gives you more details on how AI Builder capacity works.
 
 In addition, administrators can download an Excel report that shows the actual capacity consumption in your tenant. The consumption report shows the capacity used in the 30 days preceding the selected target date for each environment. This makes it easier to compare your allocated capacity with the actual capacity consumption of your organization so you can fine tune your capacity allocation.
-
-Consumption reports aren't available in Government Community Cloud (GCC and GCC High).
+This report shows the consumption data for the past (rolling) 30 days. Once generated, the report remains available for download for 30 days in the Power Platform Admin Center.
 
 ## View the consumption report
 
@@ -59,13 +58,14 @@ To download and view an Excel file showing your AI credit consumption report:
 
 The report shows AI credits consumed by date for each environment.
 
- > [!div class="mx-imgBorder"]
- > ![Screenshot of an Excel file showing your consumption.](media/administer-consumption-report/consumption-excel.png "Excel file showing your consumption")
+<img width="953" alt="image" src="https://github.com/MicrosoftDocs/ai-builder-pr/assets/131351086/554783b1-602f-481f-bac8-310b1d2c74c8">
 
+
+- **Date** is the date of the AI credits consumption.
 - **UserId** is the identifier visible in the Dataverse "User" table.
 - **EnvironmentId** is the identifier visible in your Power Apps or Power Automate URL (for example, https://make.powerapps.com/environments/%GUID%).
-
-- **<1K** in the **AIConsumption** column means that you've consumed fewer than 1,000 credits on that day and that environment.
+- **EnvironmentName** is the name of the environment.
+- **AIConsumption** contains the number of credits consumed by the user and in the environment for a given date.
 
 You can compare the aggregated consumption for the current calendar month on each environment with what has been allocated. Using this information, you can take action to allocate more credits to environments that are in overage. Remember, the number of allocated credits by environment is visible and can be changed in the Power Platform admin center [Add-ons](https://admin.powerplatform.microsoft.com/resources/capacity#add-ons) page.
 
