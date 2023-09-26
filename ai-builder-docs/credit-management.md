@@ -174,8 +174,6 @@ Then [allocate more capacity](credit-management.md#make-credits-available-for-an
 
 Overall organization (tenant) level credit consumption is available in the [Power Platform admin center](https://admin.powerplatform.microsoft.com/) in the **Resources** > **Capacity** > **Summary** tab. 
 
-![image](https://github.com/MicrosoftDocs/ai-builder-pr/assets/131351086/5c50bb5d-25e9-4376-8b85-1a6b1c1d6bf8)
-
 The data is aggregated daily. Some data may be delayed: if so, the consumption bar will show all known consumption at the "Last updated" date displayed in the tooltip box.
 
 Get details on your environment consumption by checking the [AI Builder consumption report](administer-consumption-report.md). It gives the amount of consumption per day per user per environment.
