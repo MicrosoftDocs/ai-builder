@@ -27,7 +27,7 @@ Text generation is powered by Azure OpenAI Service, which is built on Generative
 >
 > - [View our preview terms](https://go.microsoft.com/fwlink/?linkid=2189520).
 >
-> - This capability might not be available in your region yet.
+> - This capability is only available in US.
 >
 > - This capability may be subject to usage limits or capacity throttling.
 
