@@ -59,7 +59,7 @@ In this example, the dynamic content is the topic variable from the previous ste
 
 ## Insert human oversight
 
-AI-generated content can be factually incorrect, inappropriate, or biased. We strongly recommend that you institute a practice of inserting [human oversight](azure-openai-textgen.md#human-oversight) in workflows that use AI-generated text before it's posted or used anywhere.
+AI-generated content can be factually incorrect, inappropriate, or biased. We strongly require that you institute a practice of inserting [human oversight](azure-openai-textgen.md#human-oversight) in workflows that use AI-generated text before it's posted or used anywhere.
 
 In the following example, you send the AI-generated summary of a text by email after a human reviews it.
 
