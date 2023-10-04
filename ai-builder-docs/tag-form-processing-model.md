@@ -121,11 +121,11 @@ If the quality of the document is low, AI Builder might not be able to detect th
 
 AI Builder supports detection and extraction of selection marks such as checkboxes and radio buttons, with different markers to indicate whether the selection is marked or not.
 
-### Field, checkbox, or table not in document
+### Field, checkbox, table, not in document or not in collection
 
-If a field, checkbox, or table isn't present in one of the documents you've uploaded for training, select **Not available in document** on the panel to the right, next to a field, checkbox, or table.
+If a field, checkbox, or table isn't present in one of the documents or in collection you've uploaded for training, select **Not available in document** or **Not available in collection** on the panel to the right, next to a field, checkbox, or table.
 
-:::image type="content" source="media/form-processing-multiple-layout-not-available-in-document.gif" alt-text="Animation of a field or table not in document.":::
+:::image type="content" source="media/doc-processing-multiple-layout-not-available-in-collection.gif" alt-text="Animation of a field or table not in document or not in collection.":::
 
 ## Tag all documents across all collections
 
