@@ -8,7 +8,7 @@ contributors:
   - v-aangie
 ms.topic: how-to
 ms.custom: bap-template
-ms.date: 07/13/2023
+ms.date: 09/28/2023
 ms.author: ashbhati
 ms.reviewer: angieandrews
 ---
@@ -20,15 +20,10 @@ ms.reviewer: angieandrews
 Text generation is powered by Azure OpenAI Service, which is built on Generative Pre-trained Transformer (GPT) technology. GPT models are a type of natural language processing model. GPT models are trained on a large body of content to generate human-like text from a prompt. When you combine them with workflow automation, you can use AI models like GPT to automate a variety of tasks. For example, you can build workflows to automatically generate drafts of emails, customer service responses, and product descriptions. You can also use them to generate scripts that allow customer service agents to respond quickly to customer inquiries.
 
 > [!IMPORTANT]
->
-> - This is a preview feature.
->
-> - [!INCLUDE [cc_preview_features_definition](includes/cc-preview-features-definition.md)]
->
+> - This is a preview feature.
+> - Preview features aren’t meant for production use and may have restricted functionality. These features are available before an official release so that customers can get early access and provide feedback.
 > - [View our preview terms](https://go.microsoft.com/fwlink/?linkid=2189520).
->
 > - This capability might not be available in your region yet.
->
 > - This capability may be subject to usage limits or capacity throttling.
 
 ## Create instructions
@@ -59,7 +54,7 @@ In this example, the dynamic content is the topic variable from the previous ste
 
 ## Insert human oversight
 
-AI-generated content can be factually incorrect, inappropriate, or biased. We strongly recommend that you institute a practice of inserting [human oversight](azure-openai-textgen.md#human-oversight) in workflows that use AI-generated text before it's posted or used anywhere.
+AI-generated content can be factually incorrect, inappropriate, or biased. Hence, an approval action is required to ensure [human oversight](azure-openai-textgen.md#human-oversight) in workflows that use AI-generated text before it's posted or used anywhere.
 
 In the following example, you send the AI-generated summary of a text by email after a human reviews it.
 
