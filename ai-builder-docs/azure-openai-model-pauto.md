@@ -8,7 +8,7 @@ contributors:
   - v-aangie
 ms.topic: how-to
 ms.custom: bap-template
-ms.date: 09/28/2023
+ms.date: 10/09/2023
 ms.author: ashbhati
 ms.reviewer: angieandrews
 ---
@@ -23,7 +23,7 @@ Text generation is powered by Azure OpenAI Service, which is built on Generative
 > - This is a preview feature.
 > - Preview features aren’t meant for production use and may have restricted functionality. These features are available before an official release so that customers can get early access and provide feedback.
 > - [View our preview terms](https://go.microsoft.com/fwlink/?linkid=2189520).
-> - This capability might not be available in your region yet.
+> - This capability is only available in United States region.
 > - This capability may be subject to usage limits or capacity throttling.
 
 ## Create instructions
