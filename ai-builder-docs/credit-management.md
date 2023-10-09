@@ -85,7 +85,7 @@ To learn more about how to allocate credits in the Power Platform admin center, 
 
 As an administrator, you can view your overall credit consumption in the [Power Platform admin center](https://admin.powerplatform.microsoft.com/) in the **Resources** > **Capacity** > **Summary** tab. 
 
-:::image type="content" source="media/credit-management/ppac-consumption.png" alt-text="Screenshot of the option to allow users to consume unassigned credits in Power Platform admin center.":::
+:::image type="content" source="media/credit-management/ppac-consumption.png" alt-text="Screenshot of the overall AI Builder credit consumption in the Power Platform admin center.":::
 
 Administrators also have access to a [consumption report](administer-consumption-report.md) that has the following features:
 
