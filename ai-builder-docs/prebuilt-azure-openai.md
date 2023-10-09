@@ -27,9 +27,9 @@ The text generation model's capability is a powerful tool in AI Builder. It enab
 Text generation is powered by Azure OpenAI Service, which is built on Generative Pre-trained Transformer (GPT) technology. These large language models have been trained on a massive amount of text data. This enables them to generate text that's similar to human written text.
 
 > - [!INCLUDE [cc_preview_features_definition](includes/cc-preview-features-definition.md)]
->> - [View our preview terms](https://go.microsoft.com/fwlink/?linkid=2189520).
->> - This capability might not be available in your region yet.
->> - This capability may be subject to usage limits or capacity throttling.
+> - [View our preview terms](https://go.microsoft.com/fwlink/?linkid=2189520).
+> - This capability might not be available in your region yet.
+> - This capability may be subject to usage limits or capacity throttling.
 
 ## Explore the model
 
@@ -53,3 +53,4 @@ The next window that opens is where you can create text that can be used for man
 - [Use the text generation model in Power Apps (preview)](azure-openai-model-papp.md)
 - [Use the text generation model in Power Automate (preview)](azure-openai-model-pauto.md)
 - [FAQ for text generation](faqs-text-generation.md)
+- [Human review for automation with Text generation model (preview)](azure-openai-human-review.md)

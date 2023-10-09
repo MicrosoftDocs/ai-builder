@@ -19,16 +19,9 @@ ms.reviewer: angieandrews
 
 This article explains *prompt engineering* and other key concepts to help you create powerful applications that can generate text from your input. *Prompt* is a natural language instruction that tells the machine learning model to perform a task. The GPT model uses the prompt to determine the structure and content of the text it needs to generate. *Prompt engineering* is the process of creating and refining the input that's used to generate text with the GPT text generation capability.
 
-> [!IMPORTANT]
->
-> - This is a preview feature.
->
-> - [!INCLUDE [cc_preview_features_definition](includes/cc-preview-features-definition.md)]
->
+> [!INCLUDE [cc_preview_features_definition](includes/cc-preview-features-definition.md)]
 > - [View our preview terms](https://go.microsoft.com/fwlink/?linkid=2189520).
->
 > - This capability may not be available in your region yet.
->
 > - This capability  may be subject to usage limits or capacity throttling.
 
 ## Open the prompt engineering interface
@@ -107,3 +100,5 @@ We're committed to creating [responsible AI](https://blogs.microsoft.com/on-th
 - [Text generation overview (preview)](prebuilt-azure-openai.md)  
 - [Use the text generation model in Power Apps (preview)](azure-openai-model-papp.md)  
 - [Use the text generation model in Power Automate (preview)](azure-openai-model-pauto.md)  
+- [Responsible AI - FAQ for text generation](faqs-text-generation.md)
+- [Human review for automation with Text generation model (preview)](azure-openai-human-review.md)
