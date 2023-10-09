@@ -3,11 +3,12 @@ title: AI Builder licensing and credit management
 description: Learn about licensing and credit management in AI Builder.
 author: Antoine2F
 contributors:
-  - Antoine2F
+  - jkom1
+  - - Antoine2F
   - v-aangie
 ms.topic: conceptual
 ms.date: 09/19/2023
-ms.author: antode
+ms.author: jelenak
 ms.reviewer: angieandrews
 ---
 
@@ -45,7 +46,6 @@ First, you need to be entitled to some AI Builder capacity. Entitlement can happ
     1. Search for **AI Builder**.
     1. Select **Details** of the **AI Builder Capacity add-on** tile
     1. Follow the purchase process.
-       
 
 ### Entitlement through AI Builder trial
 
@@ -57,7 +57,6 @@ Once credits are consumed, AI Builder models are blocked for this user.
 At the end of the 30 days, a trial can be renewed, and user receives another 200,000 credits. Renewal is only allowed for a limited number of times.
 
 To learn more, go to [AI Builder trial](ai-builder-trials.md).
-
 
 ## Make credits available for an environment: allocated and unallocated credits
 
@@ -86,10 +85,13 @@ To learn more about how to allocate credits in the Power Platform admin center, 
 
 As an administrator, you can view your overall credit consumption in the [Power Platform admin center](https://admin.powerplatform.microsoft.com/) in the **Resources** > **Capacity** > **Summary** tab. 
 
-![image](https://github.com/MicrosoftDocs/ai-builder-pr/assets/131351086/5c50bb5d-25e9-4376-8b85-1a6b1c1d6bf8)
+:::image type="content" source="media/credit-management/ppac-consumption.png" alt-text="Screenshot of the option to allow users to consume unassigned credits in Power Platform admin center.":::
 
-Administrators also have access to a [consumption report](administer-consumption-report.md) that provides the AI credits consumption on a chosen period per environment. This report allows you to fine-tune the credits allocation, which can be updated at any time.
-This report also allows administrators to check the consumption level of an environment for current month, by adding all consumptions of this environment.
+Administrators also have access to a [consumption report](administer-consumption-report.md) that has the following features:
+
+- Provides the AI credits consumption on a chosen period per environment.
+- Allows you to fine-tune the credits allocation, which can be updated at any time.
+- Allows administrators to check the consumption level of an environment for the current month by adding all consumptions of this environment.
 
 Administrators also can access the [AI Builder Activity](activity-monitoring.md) page in the Power Automate portal, showing all predicts made against the AI Builder models in that environment.
 
@@ -105,7 +107,7 @@ Each AI Builder model has a different credit consumption mechanism. To perform a
 
 ## Overage
 
-When browsing AI Builder pages in Power Apps or Power Automate portal, you might get this notification: **You've consumed all of your AI Builder credits. Creating, editing and viewing is blocked. Contact your administrator to get more capacity**. This notification means the monthly consumption of your environment is higher than the available (at environment or organization -tenant- level) credits.   
+When browsing AI Builder pages in Power Apps or Power Automate portal, you might get this notification: **You've consumed all of your AI Builder credits. Creating, editing and viewing is blocked. Contact your administrator to get more capacity**. This notification means the monthly consumption of your environment is higher than the available (at environment or organization -tenant- level) credits.
 
 Monthly consumption is computed from first day of the month and is refreshed on a daily basis.
   
@@ -141,7 +143,7 @@ Selecting **Request extension** in the overage banner in the AI Builder page or 
 - Add 200,000 extension credits for the current month.
 
 These credits can't be allocated or assigned and can be used directly by any environment in overage after 10 minutes.
-In some cases, you may still see the overage banners although extension credits have already unblocked your Models. 
+In some cases, you may still see the overage banners although extension credits have already unblocked your Models.
 
 Depending on the level of overage, these 200,000 credits may not be enough. They can be requested multiple times, but the number of extension requests per month and per year is limited. Each request grants 200,000 credits and send an email.
 
@@ -172,9 +174,9 @@ Then [allocate more capacity](credit-management.md#make-credits-available-for-an
 
 ### Where can I see credit usage for this month?
 
-Overall organization (tenant) level credit consumption is available in the [Power Platform admin center](https://admin.powerplatform.microsoft.com/) in the **Resources** > **Capacity** > **Summary** tab. 
+Overall organization (tenant) level credit consumption is available in the [Power Platform admin center](https://admin.powerplatform.microsoft.com/) in the **Resources** > **Capacity** > **Summary** tab.
 
-The data is aggregated daily. Some data may be delayed: if so, the consumption bar will show all known consumption at the "Last updated" date displayed in the tooltip box.
+The data is aggregated daily. Some data may be delayed; if so, the consumption bar shows all known consumption at the **Last updated** date in the tooltip box.
 
 Get details on your environment consumption by checking the [AI Builder consumption report](administer-consumption-report.md). It gives the amount of consumption per day per user per environment.
 Adding all the consumptions of the current month of a specific environment gives you the monthly consumption of this environment.
@@ -211,20 +213,18 @@ Credit assignment and credit allocation are same concept. In documentation, we m
 
 When an organization (tenant) has purchased AI Builder capacity, corresponding credits are by default unallocated and available as a pool for the organization (tenant). In this state, credits can be used on any environment without assigned credits, unless admin blocks usage of unallocated credits using the ['AI Builder Credit'](#block-use-of-unallocated-credits) organization (tenant) setting.
 
-The administrator can restrict usage by allocating all credits to specific environments or by blocking the usage of unallocated credits. 
-The administrator can  reserve some capacity to an environment by allocating credits to this environment. 
+The administrator can restrict usage by allocating all credits to specific environments or by blocking the usage of unallocated credits. They can reserve some capacity to an environment by allocating credits to this environment.
 
-Environments with allocated credits only consume allocated credits. There's no automatic switch to unallocated credit consumption when in overage.
-Environments without allocated credits only consume unallocated credits.
+Environments with allocated credits only consume allocated credits. There's no automatic switch to unallocated credit consumption when in overage. Environments without allocated credits only consume unallocated credits.
 
 To learn more, go to [Make credits available for an environment](#make-credits-available-for-an-environment-allocated-and-unallocated-credits) in this article.
 
 To learn how to allocate capacity in [Power Platform admin center](https://admin.powerplatform.microsoft.com/), go to [Allocate or change capacity in an environment](/power-platform/admin/capacity-add-on#allocate-or-change-capacity-in-an-environment).
 
-
 ### Is there a way to automatically consume organization (tenant) level credits once environment allocated credits are consumed?
 
 No, credits either come from environment allocation or comes from organization (tenant) level unallocated credits but there's no automatic switch from environment credits to organization (tenant) credits.
+
 As soon as environment has allocated credits, credits only come from environment credits.
 If environment consumption is higher than allocated credits, then environment is in overage.
 
