@@ -3,6 +3,7 @@ title: AI Builder consumption report - AI Builder
 description: Learn about the consumption report, which shows how your AI credits are being used in the Microsoft Power Platform admin center.
 author: CedrickBellarosa
 contributors:
+  - jkom1
   - CedrickBellarosa
   - phil-cmd
   - v-aangie
@@ -73,3 +74,4 @@ You can compare the aggregated consumption for the current calendar month on eac
 - [AI Builder licensing FAQ](/power-platform/admin/powerapps-flow-licensing-faq#ai-builder)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
+
