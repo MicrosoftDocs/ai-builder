@@ -54,7 +54,7 @@ The text generation model has a prompt engineering interface with sample prompts
 
     The following screenshot is from Power Automate.
 
-    :::image type="content" alt-text="Screenshot of the text gneration capability on the AI Builder Explore page." source="media/prebuilt-azure-openai/text-generation-works.png":::
+    :::image type="content" alt-text="Screenshot of the text generation capability on the AI Builder Explore page." source="media/prebuilt-azure-openai/text-generation-works.png":::
 
 The next window that opens is where you can create text that can be used for many tasks. [Learn how text generation works](azure-openai-textgen.md).
 
