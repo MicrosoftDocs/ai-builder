@@ -1,6 +1,6 @@
 ---
-title: Human review for automation with text generation model (preview)
-description: Learn about the emphasizing human review for automation with text generation models.
+title: Human review for automation with the text generation model (preview)
+description: Learn about the emphasizing human review for automation with the text generation models.
 author: phil-cmd
 contributors:
   - ashbhati
@@ -13,7 +13,7 @@ ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
-# Human review for automation with text generation model (preview)
+# Human review for automation with the text generation model (preview)
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
