@@ -7,7 +7,7 @@ contributors:
   - - Antoine2F
   - v-aangie
 ms.topic: conceptual
-ms.date: 09/19/2023
+ms.date: 10/13/2023
 ms.author: jelenak
 ms.reviewer: angieandrews
 ---
@@ -136,18 +136,18 @@ To help estimate the required add-on capacity based on your estimated consumptio
 
 ### Request credit extension
 
-In the case of simple or important overage, and when additional purchase and/or reallocation of credit can't be done in a timely manner, we allow makers in the AI Builder portal and admins in the [Power Platform admin center](https://admin.powerplatform.microsoft.com/home) to request a credit extension.
+In the case of simple or important overage, and when additional purchase and/or reallocation of credit can't be done in a timely manner, we allow makers in the AI Builder portal and admins in the [Power Platform admin center](https://admin.powerplatform.microsoft.com/home) to request a free credit extension.
 
 Selecting **Request extension** in the overage banner in the AI Builder page or [Power Platform admin center](https://admin.powerplatform.microsoft.com/home) performs following actions:
 - Send an email to Power Platform admins.
-- Add 200,000 extension credits for the current month.
+- Add 200,000 free extension credits for the current month.
 
-These credits can't be allocated or assigned and can be used directly by any environment in overage after 10 minutes.
+These free temporary credits can't be allocated or assigned and can be used directly by any environment in overage after 10 minutes.
 In some cases, you may still see the overage banners although extension credits have already unblocked your Models.
 
-Depending on the level of overage, these 200,000 credits may not be enough. They can be requested multiple times, but the number of extension requests per month and per year is limited. Each request grants 200,000 credits and send an email.
+Depending on the level of overage, these 200,000 credits may not be enough. They can be requested multiple times, but the number of extension requests per month and per year is limited. Each request grants 200,000 credits and triggers an email. 
 
-The purpose of these credit extensions is to allow makers and admin to unblock themselves temporarily in case additional purchase and/or re-allocation can't be done in a timely manner. Customer shouldn't rely on credit extensions to cover repetitive overage. Repetitive overage must be managed with additional purchase and/or re-allocation.
+The purpose of these free credit extensions is to allow makers and admin to unblock themselves temporarily in case additional purchase and/or re-allocation can't be done in a timely manner. Customer shouldn't rely on credit extensions to cover repetitive overage. Repetitive overage must be managed with additional purchase and/or re-allocation.
 
 ## Preview features
 
