@@ -3,6 +3,7 @@ title: Administer AI Builder - AI Builder
 description: Administrators can learn about AI custom models and environment lifecycle, backup and restore, managing capacity, enabling or disabling the feature, and data loss prevention in AI Builder.
 author: phil-cmd
 contributors:
+  - Antoine2F
   - phil-cmd
   - v-aangie
 ms.topic: conceptual
@@ -14,7 +15,9 @@ ms.reviewer: angieandrews
 
 # Administer AI Builder
 
-Microsoft Power Platform administrators can use the [Power Apps admin center](https://admin.powerapps.com) and the [Power Platform admin center](https://admin.powerplatform.microsoft.com) to manage environments and settings for Power Apps and AI Builder. For more information, go to [Power Platform administrator guide](/power-platform/admin/admin-documentation).
+Microsoft Power Platform administrators can use the [Power Apps admin center](https://admin.powerapps.com) and the [Power Platform admin center](https://admin.powerplatform.microsoft.com) to manage environments and settings for Power Apps and AI Builder.
+
+More information: [Power Platform administrator guide](/power-platform/admin/admin-documentation)
 
 The availability, which is also known as the release status, of AI Builder is dependent on your region. For a breakdown of AI Builder feature availability by region, go to [Feature availability by region](availability-region.md).
 
@@ -30,8 +33,7 @@ A model can go through different states depending on the makers’ actions. The 
 
 The states are draft, training (transient), trained, publishing (transient), published, unpublishing (transient), training error, importing (transient), and import error.
 
-> [!div class="mx-imgBorder"]
-> ![Lifecycle states of a model](media/model-lifecycle.png "Lifecycle states of a model")
+:::image type="content" source="media/model-lifecycle.png" alt-text="Screenshot of the lifecycle states of a model.":::
 
 ### Application lifecycle management
 
@@ -39,8 +41,7 @@ Makers should be able to continuously update and deploy their models across sing
 
 Managing new versions of a model often requires going through different environments. A typical scenario would be to make model changes in a *development environment*, qualify the model in a *test environment*, and predict in a *production environment*.
 
-> [!div class="mx-imgBorder"]
-> ![Application lifecycle management](media/app-lifecycle.png "Application lifecycle management")
+:::image type="content" source="media/app-lifecycle.png" alt-text="Screenshot of application lifecycle management.":::
 
 In AI Builder, all the environments need to be provided with a Microsoft Dataverse database.
 
@@ -60,43 +61,20 @@ Microsoft Dataverse has backup and restore capabilities to help protect your app
 
 - Backup and restore are fully supported for prediction, object detection, document processing, and prebuilt models.
 
-  >[!NOTE]
-  >For object detection and document processing models, the restore process might take some time to be completed. The AI Builder models list shows an "importing" status message while the restore operation is in progress.
+  > [!NOTE]
+  > For object detection and document processing models, the restore process might take some time to be completed. The AI Builder models list shows an "importing" status message while the restore operation is in progress.
 
-- **For models *not* supported by backup and restore**: If you restore an environment, you'll have to retrain and republish these models to make them available again.
+- **For models not supported by backup and restore**: If you restore an environment, you'll have to retrain and republish these models to make them available again.
 
-## Manage capacity
+## Prerequisite to set up an environment ready for AI Builder
 
-### AI Builder consumption model
+AI Builder is licensed as an add-on to your Power Apps, Power Automate, or Dynamics 365 license. This means you need a Power Apps, Power Automate, or Dynamics 365 license that allows you to create a Microsoft Power Platform environment.
 
-AI Builder offers a subscription model allowing you to purchase add-ons.
+## Manage AI Builder credits
 
-Only certain actions in the product consume credits. The following list isn't all-inclusive and preview scenarios don't consume credits.
+Access to AI Builder features within an environment requires access to AI Builder credits.
 
-|AI Builder Studio  |Power Apps  |Power Automate  |
-|---------|---------|---------|
-| Train an object detection model.<br/><br/>Perform a **Quick test** on a trained object detection and document processing model.<br/><br/>Use custom documents, images or text to **try out** prebuilt models when using the tiles in the 'Explore' section.<br/><br/>Batch runs of the prediction and trainable category classification models for each row to be predicted.  | Select...<br/><br/>**Scan a business card** with the business card reader.<br/><br/>**Analyze** with the document processor.<br/><br/>**Detect** with the object detector.<br/><br/>**+ New image** with the text recognizer.<br/><br/>**Use an action** bound to an AI Builder model through [Power Fx](powerfx-in-powerapps.md).  |Run a flow using any of the actions inside the **AI Builder** category.<br/><br/>Run the generic action **Perform a bound action** of Dataverse on the entity AI Models and action name **Predict**.   |
-
-Each AI Builder model has a different credit consumption mechanism. To perform an assessment, go to the [AI Builder calculator](https://powerapps.microsoft.com/ai-builder-calculator/) or obtain the full details in the [Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130).
-
-### Allocate credits
-
-By default, the credits are unallocated and available as a pool on the tenant, which can be used on any environment. The administrator can restrict usage by allocating all credits to specific environments.
-
-> [!NOTE]
-> This is how administrators stay in control of *where* AI is used in their organization and, with the role assignments described in [Roles and security in AI Builder](security.md#roles), *who* is using it.
-
- As an administrator, you'll assess which environments must consume AI Builder credits. Use the [AI Builder calculator](https://powerapps.microsoft.com/ai-builder-calculator/) to define how many predictions will happen in a monthly period on each one and assess the credits to allocate.
-
-To learn how to allocate credits in the Power Platform admin center, go to [Allocate or change capacity in an environment](/power-platform/admin/capacity-add-on#allocate-or-change-capacity-in-an-environment).
-
-### Monitor usage
-
-As an administrator, you have access to a [consumption report](administer-consumption-report.md) that provides the AI credits consumption on a chosen period per environment. This will allow you to fine-tune the credits allocation, which can be updated at any time.
-
-To learn how to download reports, go to [Allocate or change capacity in an environment](/power-platform/admin/capacity-add-on#allocate-or-change-capacity-in-an-environment).
-
-Administrators also can access the [AI Builder Activity](activity-monitoring.md) page in the Power Automate portal, showing all predicts made against the AI Builder models in that environment.
+To learn more, go to [AI Builder licensing and credit management](credit-management.md).
 
 ## Where and how are data stored in Dataverse?
 
