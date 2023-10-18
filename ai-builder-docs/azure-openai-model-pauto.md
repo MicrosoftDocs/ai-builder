@@ -26,6 +26,10 @@ Text generation is powered by Azure OpenAI Service, which is built on Generative
 > - This capability is only available in United States region.
 > - This capability may be subject to usage limits or capacity throttling.
 
+## Prerequisites
+
+Copilot enabled at the tenant level is the prerequisite to use the text generation model in Power Automate (preview).
+
 ## Create instructions
 
 [GPT model prompts](azure-openai-textgen.md#parts-of-a-prompt) have two parts, the *instruction* and the *context*. The instruction tells the model what it should do. The context is the information the model needs to follow the instruction. In an automation task, the instruction is constant and the context is provided by dynamic content.
