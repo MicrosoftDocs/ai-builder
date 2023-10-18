@@ -33,7 +33,7 @@ Text generation is powered by Azure OpenAI Service, which is built on Generative
 
 ## Prerequisites
 
-Copilot enable at tenant level is the prerequisite to use the text generation model in Power Automate (preview)
+Copilot enabled at the tenant level is the prerequisite to use the text generation model in Power Automate (preview).
 
 ## Create instructions
 
