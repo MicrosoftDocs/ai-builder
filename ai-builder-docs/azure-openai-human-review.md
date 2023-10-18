@@ -1,6 +1,6 @@
 ---
-title: Human review for automation with Text generation model (preview)
-description: Learn about the emphasizing human review for automation with Text generation models.
+title: Human review for automation with text generation model (preview)
+description: Learn about the emphasizing human review for automation with the text generation models.
 author: phil-cmd
 contributors:
   - ashbhati
@@ -13,19 +13,19 @@ ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
-# Human review for automation with Text generation model (preview)
+# Human review for automation with the text generation model (preview)
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-This article emphasizes the critical role of human review in deploying the [Create Text with GPT](azure-openai-textgen.md) feature in Power Automate.
-This feature utilizes the **Text generation** model from AI Builder, powered by Azure OpenAI Service. Although these models are highly effective, they can sometimes generate misleading or fabricated information and are susceptible to prompt injection attacks.
+This article emphasizes the critical role of human review in deploying the [Create text with GPT](azure-openai-textgen.md) feature in Power Automate.
+This feature utilizes the *text generation* model from AI Builder, powered by Azure OpenAI Service. Although these models are highly effective, they can sometimes generate misleading or fabricated information and are susceptible to prompt injection attacks.
 
 > [!IMPORTANT]
 > - This is a preview feature.
 > - Preview features aren’t meant for production use and may have restricted functionality. These features are available before an official release so that customers can get early access and provide feedback.
 > - As we traverse this rapidly evolving field, we are dedicated to refining and improving our services based on user feedback and insights. We encourage developers to be cognizant of the risks and incorporate human review when utilizing this capability.
 
-## Prompt Injection Attacks 
+## Prompt injection attacks
 
 A prompt injection attack occurs when a third party capitalizes the model's inherent trust in all input sources. The attacker injects a prompt into content that a legitimate user asks the AI solution to interact with, leading to an alteration in the AI solution's output, and potentially, its actions.
 

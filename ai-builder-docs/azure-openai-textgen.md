@@ -103,4 +103,4 @@ We're committed to creating [responsible AI](https://blogs.microsoft.com/on-th
 - [Use the text generation model in Power Apps (preview)](azure-openai-model-papp.md)  
 - [Use the text generation model in Power Automate (preview)](azure-openai-model-pauto.md)  
 - [Responsible AI - FAQ for text generation](faqs-text-generation.md)
-- [Human review for automation with Text generation model (preview)](azure-openai-human-review.md)
+- [Human review for automation with the text generation model (preview)](azure-openai-human-review.md)
