@@ -172,6 +172,27 @@ You need to check entitlement allocation of your environment. If there's no allo
 If there are AI Builder credits allocated or available at organization (tenant) level, compare the amount with the [AI Builder consumption report](administer-consumption-report.md).
 Then [allocate more capacity](credit-management.md#make-credits-available-for-an-environment-allocated-and-unallocated-credits) eventually by [purchasing the AI Builder add-on](credit-management.md#get-entitlement-to-ai-builder-credits).
 
+### I have seeded credits. How many add-ons should I buy to cover my need?
+
+Credits coming from the AI Builder add-on (1,000,000 credits per add-on) and credits coming from licenses with seeded capacity (like Power Automate premium, which brings 5,000 credits) are gathered at the tenant level. They represent your entitlement.
+
+**Example 1**
+
+1 add-on + 5 power automate premium license gives 1,000,000+5*5,000 = 1,025,000 credits that you can assign and consume in any scenario.
+
+**Example 2**
+
+You have a scenario with 32,000 receipts to process each month with receipt processing.
+
+32,000 receipts require 32 credits per receipt (exact rates are in the [Microsoft Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130)), so you have 1,024,000 credits.
+
+> [!NOTE]
+> The [AI Builder calculator](https://powerapps.microsoft.com/en-us/ai-builder-calculator/) doesn’t give the exact number of AI Builder credits. It gives the number of add-ons, which is needed to cover the need. Here, it proposes to buy two (2) add-ons (2,000,000 credits) to cover the 1,024,000 credits.
+
+Supposing you own 5 automate premium licenses, you're covered with a single addon:
+
+1 add-on + 5 power automate premium license = 1,025,000 credits , which is greater than your estimated consumption ( 1,024,000 credits).
+
 ### Where can I see credit usage for this month?
 
 Overall organization (tenant) level credit consumption is available in the [Power Platform admin center](https://admin.powerplatform.microsoft.com/) in the **Resources** > **Capacity** > **Summary** tab.
