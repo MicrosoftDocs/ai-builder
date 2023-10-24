@@ -178,7 +178,7 @@ Credits coming from the AI Builder add-on (1,000,000 credits per add-on) and cre
 
 **Example 1**
 
-1 add-on + 5 power automate premium license gives 1,000,000+5*5,000 = 1,025,000 credits that you can assign and consume in any scenario.
+1 add-on + 5 Power Automate premium license gives 1,000,000+5*5,000 = 1,025,000 credits that you can assign and consume in any scenario.
 
 **Example 2**
 
@@ -189,9 +189,9 @@ You have a scenario with 32,000 receipts to process each month with receipt proc
 > [!NOTE]
 > The [AI Builder calculator](https://powerapps.microsoft.com/en-us/ai-builder-calculator/) doesn’t give the exact number of AI Builder credits. It gives the number of add-ons, which is needed to cover the need. Here, it proposes to buy two (2) add-ons (2,000,000 credits) to cover the 1,024,000 credits.
 
-Supposing you own 5 automate premium licenses, you're covered with a single addon:
+Supposing you own 5 Power Automate premium licenses, you're covered with a single add-on:
 
-1 add-on + 5 power automate premium license = 1,025,000 credits , which is greater than your estimated consumption ( 1,024,000 credits).
+1 add-on + 5 Power Automate premium license = 1,025,000 credits, which is greater than your estimated consumption of 1,024,000 credits.
 
 ### Where can I see credit usage for this month?
 
