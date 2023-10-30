@@ -72,6 +72,8 @@
       href: azure-openai-textgen.md
     - name: Human review for automation with Text generation model
       href: azure-openai-human-review.md
+    - name: Create a custom prompt (preview)
+      href: create-a-custom-prompt.md
   - name: Language detection
     href: prebuilt-language-detection.md  
   - name: Text translation
@@ -191,6 +193,8 @@
     href: use-in-flow-overview.md
   - name: Prerequisites
     href: use-in-flow-prereq.md
+  - name: Use a custom prompt in a flow
+    href: use-a-custom-promp.md
   - name: Use a custom AI Builder model in Power Automate
     items:
     - name: Category classification model
