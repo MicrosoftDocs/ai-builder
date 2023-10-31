@@ -25,13 +25,16 @@ ms.reviewer: angieandrews
 
 You've created custom prompts.
 
-## Add title
+## Create a flow
 
 1. Sign in to [Power Automate](https://make.powerautomate.com/).
 1. Select **+Create** > **Instant cloud flow**.
 1. Name the flow **Task ID**.
 1. Select **Manually trigger a flow** > **Create**.
 1. In the designer, select **manually trigger a flow**.
+
+## Configure the parameters
+
 1. On the **Parameters** tab to the left, select **+Add an input**.
 1. Select **Text**, and then enter a name.  
 1. In the designer, select **+Insert a new step** after **Manually trigger a flow** > **Add an action**.
@@ -45,58 +48,13 @@ You've created custom prompts.
 
     :::image type="content" source="media/use-a-custom-prompt/custom-prompt.png" alt-text="Screenshot of a prompt test.":::
 
-1. On the left pane in the **Input Text** field, select input text from the Dynamic content list.
-
- 
-
-A screenshot of a computer
-
-Description automatically generated 
-
- 
-
-Select + Insert a new step after Create text with GPT (V2) > Select Add an action 
-
-A screenshot of a computer
-
-Description automatically generated 
-
-On the left pane > Search Approvals > Select See More > Select Start and wait for an approval of text 
-
- 
-
-A screenshot of a computer
-
-Description automatically generated 
-
- 
-
-A screenshot of a computer
-
-Description automatically generated 
-
- 
-
- 
-
- 
-
-In Title > Create a title 
-
-In Suggested Text > Specify a suggested text > Select Text generated from the dynamic content list 
-
-In Assigned To > <Enter an email address>  
-
- 
-
-A screenshot of a computer
-
-Description automatically generated 
-
- 
-
- 
-
+1. On the left pane in the **Input Text** field, select **Input** Text from the Dynamic content list to the right.
+1. In the designer after the **Create text with GPT (V2)** card, select **+Insert a new step** > **Add an action**,
+1. On the left pane in the **Search** field, enter **Approvals*.
+1. To the right of the **Approvals** heading, select **See More** > **Start and wait for an approval of text**.
+1. In the **Title** field, enter a title.
+1. In the **Suggested Text** field, select **Text** from the dynamic content list. 
+1. In the **Assigned To** field, enter an email address.
 Select + Insert a new step after Start and for an approval of text > Select Add an action 
 
 On the left pane > Search the control Condition 
@@ -143,15 +101,7 @@ In Message > Select Accepted text from the dynamic content list
 
 Select > Save 
 
- 
-
- 
-
- 
-
-TEST IT! 
-
- 
+## Test your flow
 
 At the right top corner > Select Test 
 
@@ -159,9 +109,7 @@ Select Manually > Select Test
 
 In Input > Enter your text > Select Run flow 
 
- 
-
-Approvals 
+## Ensure quality output with human oversight 
 
  
 

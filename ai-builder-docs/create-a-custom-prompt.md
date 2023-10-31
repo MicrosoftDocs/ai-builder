@@ -18,9 +18,7 @@ ms.reviewer: angieandrews
 
 AI Builder guides you through each step to create your custom prompt.
 
-A prompt is your instructions written in natural language tO gemerate desired text. The goal is to create an *input* that's as specific as possible to get a more relevant *response*.
-
-:::image type="content" source="media/create-a-custom-prompt/input-response.png" alt-text="Screenshot of the input for a prompt and the response."::: 
+:::image type="content" source="media/create-a-custom-prompt/create-prompt.png" alt-text="Screenshot of the custom prompt page.":::
 
 > [!IMPORTANT]
 > - This is a preview feature.
@@ -36,13 +34,15 @@ A prompt is your instructions written in natural language tO gemerate desired te
 
 ## Get started
 
-AI Builder allows you to create a prompt using the date sources and inputs you want. You can add the prompt to the Dataverse plug-in registry to use it across Power Platform.
+AI Builder allows you to create a prompt using the date sources and inputs you want. You can also add the prompt to the Dataverse plug-in registry to use it across Power Platform.
 
 1. Sign in to [Power Apps](https://make.powerapps.com) or [Power Automate](https://flow.microsoft.com).
 1. On the left pane, select **Prompts** > **Create text, summarize documents, and more with GPT**.
 1. On the lower-right corner, select **Create custom prompt**.
 
-## Configure and test your prompt
+    :::image type="content" source="media/create-a-custom-prompt/custom-prompt-button.png" alt-text="Screenshot of the 'Create custom prompt' button."::: 
+
+### Configure and test your prompt
 
 Use the following screenshot to guide you through configuring and testing your prompt.
 
@@ -60,12 +60,13 @@ After you test your prompt with the sample value (in step 4), review the it see 
 
 When you are satisifed, select **Save custom prompt**.
 
-:::image type="content" source="media/create-a-custom-prompt/prompt-test.png" alt-text="Screenshot of a prompt test.":::
+:::image type="content" source="media/create-a-custom-prompt/prompt-test.png" alt-text="Screenshot of a prompt response.":::
 
 ## Next step
 
 - [Use a custom prompt im a flow](use-a-custom-prompt.md)
 - Use your custom prompt in an app <!--add Philippe's content-->
+
 ### See also
 
 [Human review for automation with the text generation model (preview)](azure-openai-human-review.md)
