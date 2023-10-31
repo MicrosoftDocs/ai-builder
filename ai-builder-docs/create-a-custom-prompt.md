@@ -52,19 +52,19 @@ Use the following screenshot to guide you through configuring and testing your p
 1. Write or paste your prompt.
 1. Add a dynamic value, and then select **Enter**.  
 1. Test your prompt using the sample value.
-1. Save your custom prompt by selecting **Save cutom prompt**.
+1. Save your custom prompt by selecting **Save custom prompt**.
 
 ### Review your prompt
 
-After you test your prompt with the sample value (in step 4), review the it see how well your prompt works.
+After you test your prompt with the sample value (in step 4), review it see how well your prompt works.
 
-When you are satisifed, select **Save custom prompt**.
+When you're satisified, select **Save custom prompt**.
 
 :::image type="content" source="media/create-a-custom-prompt/prompt-test.png" alt-text="Screenshot of a prompt response.":::
 
 ## Next step
 
-- [Use a custom prompt im a flow](use-a-custom-prompt.md)
+- [Use a custom prompt in a flow](use-a-custom-prompt.md)
 - Use your custom prompt in an app <!--add Philippe's content-->
 
 ### See also
