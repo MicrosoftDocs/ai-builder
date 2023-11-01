@@ -1,6 +1,6 @@
 ---
-title: Use a custom prompt in a flow (preview)
-description: Learn how to use a custom prompt in a flow.
+title: Use your custom prompt in a Power Automate flow (preview)
+description: Learn how to use your custom prompt in a Power Automate flow.
 author: phil-cmd
 contributors:
   - phil-cmd
@@ -12,7 +12,7 @@ ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
-# Use a custom prompt in a flow (preview)
+# Use your custom prompt in a Power Automate flow (preview)
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -23,7 +23,7 @@ ms.reviewer: angieandrews
 
 ## Prerequisite
 
-You've created custom prompts.
+You've created a custom prompt.
 
 ## Create a flow and configure it
 
@@ -34,68 +34,69 @@ You've created custom prompts.
 1. In the designer, select **manually trigger a flow**.
 1. On the **Parameters** tab to the left, select **+Add an input**.
 
-    :::image type="content" source="media/use-a-custom-prompt/input-parameter.png" alt-text="Screenshot of adding "Text' as an input.":::
+    :::image type="content" source="media/use-a-custom-prompt-in-flow/input-parameter.png" alt-text="Screenshot of adding 'Text' as an input.":::
 
 1. Select **Text**, and then enter a name.  
 
-    :::image type="content" source="media/use-a-custom-prompt/input-text.png" alt-text="Screenshot of adding an input.":::
+    :::image type="content" source="media/use-a-custom-prompt-in-flow/input-text.png" alt-text="Screenshot of adding an input.":::
 
 1. In the designer, select **+Insert a new step** after **Manually trigger a flow** > **Add an action**.
 1. On the left pane in the **Search** field, select **GPT** > **Create text with GPT (V2)**.
 
-    :::image type="content" source="media/use-a-custom-prompt/gpt-parameters.png" alt-text="Screenshot of a prompt test.":::
+    :::image type="content" source="media/use-a-custom-prompt-in-flow/gpt-parameters.png" alt-text="Screenshot of a prompt test.":::
 
 1. On the left pane in the **Name** field, choose your custom prompt from the dropdown menu.
 
     The following example uses **Task Identifier** as the custom prompt. Task Identifier is a custom prompt that has been previously built.
 
-    :::image type="content" source="media/use-a-custom-prompt/custom-prompt.png" alt-text="Screenshot of the 'Task identifier' custom prompt.":::
+    :::image type="content" source="media/use-a-custom-prompt-in-flow/custom-prompt.png" alt-text="Screenshot of the 'Task identifier' custom prompt.":::
 
 1. On the left pane in the **Input Text** field, select **Input** Text from the Dynamic content list to the right.
 
-    :::image type="content" source="media/use-a-custom-prompt/input-text-dynamic.png" alt-text="Screenshot of selecting the 'Input' text from the Dynamic content list for the 'Input Text' field.":::
+    :::image type="content" source="media/use-a-custom-prompt-in-flow/input-text-dynamic.png" alt-text="Screenshot of selecting the 'Input' text from the Dynamic content list for the 'Input Text' field.":::
 
 1. In the designer after the **Create text with GPT (V2)** card, select **+Insert a new step** > **Add an action**.
 
-    :::image type="content" source="media/use-a-custom-prompt/new-step-action.png" alt-text="Screenshot of selecting 'Add an action to the 'Input Text' field.":::
+    :::image type="content" source="media/use-a-custom-prompt-in-flow/new-step-action.png" alt-text="Screenshot of selecting 'Add an action to the 'Input Text' field.":::
 
 1. On the left pane in the **Search** field, enter **Approvals**.
 1. To the right of the **Approvals** heading, select **See more**.
 
-    :::image type="content" source="media/use-a-custom-prompt/see-more.png" alt-text="Screenshot of selecting 'Add an action to the 'Input Text' field.":::
+    :::image type="content" source="media/use-a-custom-prompt-in-flow/see-more.png" alt-text="Screenshot of selecting 'Add an action to the 'Input Text' field.":::
 
 1. Select **Start and wait for an approval of text**.
 
-    :::image type="content" source="media/use-a-custom-prompt/start-and-wait.png" alt-text="Screenshot of selecting 'Add an action to the 'Input Text' field.":::
+    :::image type="content" source="media/use-a-custom-prompt-in-flow/start-and-wait.png" alt-text="Screenshot of selecting 'Add an action to the 'Input Text' field.":::
 
 1. In the **Parameters** tab:
     1. In the **Title** field, enter a title.
     1. In the **Suggested Text** field, select **Text** from the dynamic content list.
     1. In the **Assigned To** field, enter an email address.
 
-    :::image type="content" source="media/use-a-custom-prompt/title-suggested-assigned-to.png" alt-text="Screenshot of adding an action, suggested text, and an email address.":::
+    :::image type="content" source="media/use-a-custom-prompt-in-flow/title-suggested-assigned-to.png" alt-text="Screenshot of adding an action, suggested text, and an email address.":::
 
 1. In the designer after the **Start and wait for an approval of text** card, select **Add an action**.
 1. On the left pane, search the control **Condition**.
 
-    :::image type="content" source="media/use-a-custom-prompt/control-condition.png" alt-text="Screenshot of adding a condition control.":::
+    :::image type="content" source="media/use-a-custom-prompt-in-flow/control-condition.png" alt-text="Screenshot of adding a condition control.":::
 
 1. Select the **Parameters** tab.
     1. In **Condition Expression**, select **Outcome** from the dynamic content list.
     1. Next to **Outcome**, select **is equal to** from the dropdown list.
     1. Next to **is equal to**, enter **Approve**.
 
-    :::image type="content" source="media/use-a-custom-prompt/condition-expression.png" alt-text="Screenshot of adding a condition control.":::
+    :::image type="content" source="media/use-a-custom-prompt-in-flow/condition-expression.png" alt-text="Screenshot of adding a condition control.":::
 
-1. In the designer under **Condition** in the **True** branch, select **+Insert a new step**  after Condition-actions > **Select Add an action**.
-1. On the left pane > Search Teams > Select Post message in a chat or channel 
-1. In Post as > Select Flow bot.
-1. In Post in > Select chat with flow bot 
-1. In Recipient > <Enter an email address> 
-1. In Message > Select Accepted text from the dynamic content list 
-1. Select > Save.
+1. In the designer under **Condition** in the **True** branch, select **+Insert a new step** > **Add an action**.
+1. On the left pane, search **Teams** and select **Post message in a chat or channel**. 
+1. On the **Parameters** tab, do the following:
+    1. In the **Post as** field, select **Flow bot**.
+    1. In the **Post in** field, select **Chat with flow bot**.
+    1. In the **Recipient** field, enter an email address.
+    1. In the **Message** field, select **Accepted** text from the dynamic content list.
+1. Select **Save**.
 
-    :::image type="content" source="media/use-a-custom-prompt/post-message.png" alt-text="Screenshot of adding a condition control.":::
+    :::image type="content" source="media/use-a-custom-prompt-in-flow/post-message.png" alt-text="Screenshot of adding a condition control.":::
 
 ## Test your flow
 
@@ -112,13 +113,13 @@ By having a human in the loop, organizations can harness the efficiency and capa
 1. Choose your response, and then select **Approve** from the dropdown list.
 1. Select **Confirm**.
 
-    :::image type="content" source="media/use-a-custom-prompt/approvals.png" alt-text="Screenshot of adding a condition control.":::
+    :::image type="content" source="media/use-a-custom-prompt-in-flow/approvals.png" alt-text="Screenshot of adding a condition control.":::
 
 ## Outputs
 
 There are numerous potential outcomes to consider, including those related to email, data operation with Compose, Dataverse, Teams, and more. In this scenario, we explore the result using the Teams connector.
 
-:::image type="content" source="media/use-a-custom-prompt/outputs-teams.png" alt-text="Screenshot of adding a condition control.":::
+:::image type="content" source="media/use-a-custom-prompt-in-flow/outputs-teams.png" alt-text="Screenshot of adding a condition control.":::
 
 ### See also
 

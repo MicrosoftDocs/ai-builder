@@ -1,0 +1,58 @@
+---
+title: Use your custom prompt in Power Apps (preview)
+description: Learn how to use your custom prompt in Power Apps.
+author: phil-cmd
+contributors:
+  - phil-cmd
+  - v-aangie
+ms.topic: conceptual
+ms.collection: get-started
+ms.date: 11/14/2023
+ms.author: plarrue
+ms.reviewer: angieandrews
+---
+
+# Use your custom prompt in Power Apps (preview)
+
+[!INCLUDE [cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
+
+> [!IMPORTANT]
+> - This is a preview feature.
+> - Preview features aren’t meant for production use and may have restricted functionality. These features are available before an official release so that customers can get early access and provide feedback.
+> - As we traverse this rapidly evolving field, we are dedicated to refining and improving our services based on user feedback and insights. We encourage developers to be cognizant of the risks and incorporate human review when utilizing this capability.
+
+## Prerequisite
+
+You've created a custom prompt.
+
+## Create an app and configure it
+
+1. Sign in to [Power Apps](https://make.powerapps.com/).
+1. Select **+Create** > **Blank app** > **Create**.
+1. In the**App name** field, enter **Task ID**.
+1. Under the **Format** heading, select **Phone**.
+1. Select **Create**.
+1. On the left pane, select **Data** > **+Add Data** > your custom prompt.
+
+    The following example shows the custom prompt, **Task identifier**.
+
+    :::image type="content" source="media/use-a-custom-prompt-in-app/add-data-source.png" alt-text="Screenshot of adding an app that uses a custom prompt.":::
+
+1. On the menu at the top of the page, do the following:
+    1. Select **+Insert** > **Text input**.
+    1. Select **+Insert** > **Button**.
+    1. Select **+Insert** > **Text label**.
+1. Resize **Text input** and **Text label** accordingly.
+1. On the left pane, select **Button1** > **OnSelect** (the property).
+1. In the formula bar, enter `Set(result, 'Task identifier'.Predict(TextInput1.Text));`
+
+    :::image type="content" source="media/use-a-custom-prompt-in-app/insert-menu.png" alt-text="Screenshot of adding an app that uses a custom prompt.":::
+
+1. Select **Save**.
+ 
+## Test your flow
+
+1. On the menu at the top of the page, select the play button.
+1. Enter your text in the **Text input** screen.
+1. Check the AI Text generated in the text label.
+
