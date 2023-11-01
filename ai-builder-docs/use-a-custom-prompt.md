@@ -25,18 +25,21 @@ ms.reviewer: angieandrews
 
 You've created custom prompts.
 
-## Create a flow
+## Create a flow and configure it
 
 1. Sign in to [Power Automate](https://make.powerautomate.com/).
 1. Select **+Create** > **Instant cloud flow**.
 1. Name the flow **Task ID**.
 1. Select **Manually trigger a flow** > **Create**.
 1. In the designer, select **manually trigger a flow**.
-
-## Configure the parameters
-
 1. On the **Parameters** tab to the left, select **+Add an input**.
+
+    :::image type="content" source="media/use-a-custom-prompt/input-parameter.png" alt-text="Screenshot of adding "Text' as an input.":::
+
 1. Select **Text**, and then enter a name.  
+
+    :::image type="content" source="media/use-a-custom-prompt/input-text.png" alt-text="Screenshot of adding an input.":::
+
 1. In the designer, select **+Insert a new step** after **Manually trigger a flow** > **Add an action**.
 1. On the left pane in the **Search** field, select **GPT** > **Create text with GPT (V2)**.
 
@@ -46,102 +49,76 @@ You've created custom prompts.
 
     The following example uses **Task Identifier** as the custom prompt. Task Identifier is a custom prompt that has been previously built.
 
-    :::image type="content" source="media/use-a-custom-prompt/custom-prompt.png" alt-text="Screenshot of a prompt test.":::
+    :::image type="content" source="media/use-a-custom-prompt/custom-prompt.png" alt-text="Screenshot of the 'Task identifier' custom prompt.":::
 
 1. On the left pane in the **Input Text** field, select **Input** Text from the Dynamic content list to the right.
-1. In the designer after the **Create text with GPT (V2)** card, select **+Insert a new step** > **Add an action**,
-1. On the left pane in the **Search** field, enter **Approvals*.
-1. To the right of the **Approvals** heading, select **See More** > **Start and wait for an approval of text**.
-1. In the **Title** field, enter a title.
-1. In the **Suggested Text** field, select **Text** from the dynamic content list. 
-1. In the **Assigned To** field, enter an email address.
-Select + Insert a new step after Start and for an approval of text > Select Add an action 
 
-On the left pane > Search the control Condition 
+    :::image type="content" source="media/use-a-custom-prompt/input-text-dynamic.png" alt-text="Screenshot of selecting the 'Input' text from the Dynamic content list for the 'Input Text' field.":::
 
- 
+1. In the designer after the **Create text with GPT (V2)** card, select **+Insert a new step** > **Add an action**.
 
-A screenshot of a computer
+    :::image type="content" source="media/use-a-custom-prompt/new-step-action.png" alt-text="Screenshot of selecting 'Add an action to the 'Input Text' field.":::
 
-Description automatically generated 
+1. On the left pane in the **Search** field, enter **Approvals**.
+1. To the right of the **Approvals** heading, select **See more**.
 
-Select Parameters 
+    :::image type="content" source="media/use-a-custom-prompt/see-more.png" alt-text="Screenshot of selecting 'Add an action to the 'Input Text' field.":::
 
-In Choose Value > Select Outcome from the dynamic content list  
+1. Select **Start and wait for an approval of text**.
 
-In is equal to > Type Approve 
+    :::image type="content" source="media/use-a-custom-prompt/start-and-wait.png" alt-text="Screenshot of selecting 'Add an action to the 'Input Text' field.":::
 
-A screenshot of a computer
+1. In the **Parameters** tab:
+    1. In the **Title** field, enter a title.
+    1. In the **Suggested Text** field, select **Text** from the dynamic content list.
+    1. In the **Assigned To** field, enter an email address.
 
-Description automatically generated 
+    :::image type="content" source="media/use-a-custom-prompt/title-suggested-assigned-to.png" alt-text="Screenshot of adding an action, suggested text, and an email address.":::
 
- 
+1. In the designer after the **Start and wait for an approval of text** card, select **Add an action**.
+1. On the left pane, search the control **Condition**.
 
- 
+    :::image type="content" source="media/use-a-custom-prompt/control-condition.png" alt-text="Screenshot of adding a condition control.":::
 
- 
+1. Select the **Parameters** tab.
+    1. In **Condition Expression**, select **Outcome** from the dynamic content list.
+    1. Next to **Outcome**, select **is equal to** from the dropdown list.
+    1. Next to **is equal to**, enter **Approve**.
 
- 
+    :::image type="content" source="media/use-a-custom-prompt/condition-expression.png" alt-text="Screenshot of adding a condition control.":::
 
- 
+1. In the designer under **Condition** in the **True** branch, select **+Insert a new step**  after Condition-actions > **Select Add an action**.
+1. On the left pane > Search Teams > Select Post message in a chat or channel 
+1. In Post as > Select Flow bot.
+1. In Post in > Select chat with flow bot 
+1. In Recipient > <Enter an email address> 
+1. In Message > Select Accepted text from the dynamic content list 
+1. Select > Save.
 
- 
-
-In the True Condition of the flow > Select + Insert a new step after Condition-actions > Select Add an action 
-
-On the left pane > Search Teams > Select Post message in a chat or channel 
-
-In Post as > Select Flow bot 
-
-In Post in > Select chat with flow bot 
-
-In Recipient > <Enter an email address> 
-
-In Message > Select Accepted text from the dynamic content list 
-
-Select > Save 
+    :::image type="content" source="media/use-a-custom-prompt/post-message.png" alt-text="Screenshot of adding a condition control.":::
 
 ## Test your flow
 
-At the right top corner > Select Test 
+1. On the right top corner, select **Test**.
+1. Select **Manually** > **Test**.
+1. In **Input**, enter your text, and then select **Run flow**.
 
-Select Manually > Select Test 
+## Ensure quality output with human oversight
 
-In Input > Enter your text > Select Run flow 
+By having a human in the loop, organizations can harness the efficiency and capabilities of AI while ensuring the output is of high quality, aligns with ethical standards, and meets specific requirements. This combination of AI and human oversight optimizes processes and enhances overall outcomes.
 
-## Ensure quality output with human oversight 
+1. From the left pane, select **Approvals**, and then select the **Received** tab.  
+1. Open the request **Task Identifier** to review the text generated by AI.
+1. Choose your response, and then select **Approve** from the dropdown list.
+1. Select **Confirm**.
 
- 
+    :::image type="content" source="media/use-a-custom-prompt/approvals.png" alt-text="Screenshot of adding a condition control.":::
 
-By having a human in the loop, organizations can harness the efficiency and capabilities of AI while ensuring the output is of high quality, aligns with ethical standards, and meets specific requirements. This combination of AI and human oversight optimizes processes and enhances overall outcomes. 
+## Outputs
 
- 
+There are numerous potential outcomes to consider, including those related to email, data operation with Compose, Dataverse, Teams, and more. In this scenario, we explore the result using the Teams connector.
 
-From the left pane > Select Approvals > Select the tab Received  
-
-Open the request “Task Identifier” to review the text generated by AI > Choose your response > Select Approve  
-
-Select Confirm 
-
- 
-
-A screenshot of a computer
-
-Description automatically generated 
-
- 
-
-Outputs 
-
- 
-
-There are numerous potential outcomes to consider, including those related to email, data operation with Compose, Dataverse, Teams, and more. In this scenario, we will explore the result using the Teams connector. 
-
- 
-
-A close-up of a message
-
-Description automatically generated 
+:::image type="content" source="media/use-a-custom-prompt/outputs-teams.png" alt-text="Screenshot of adding a condition control.":::
 
 ### See also
 
