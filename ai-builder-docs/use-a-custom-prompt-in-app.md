@@ -16,6 +16,8 @@ ms.reviewer: angieandrews
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
+A custom prompt in Power Apps empowers makers to incorporate existing prompts into their apps.
+
 > [!IMPORTANT]
 > - This is a preview feature.
 > - Preview features aren’t meant for production use and may have restricted functionality. These features are available before an official release so that customers can get early access and provide feedback.
@@ -29,10 +31,10 @@ You've created a custom prompt.
 
 1. Sign in to [Power Apps](https://make.powerapps.com/).
 1. Select **+Create** > **Blank app** > **Create**.
-1. In the**App name** field, enter **Task ID**.
+1. In the **App name** field, enter **Task ID**.
 1. Under the **Format** heading, select **Phone**.
 1. Select **Create**.
-1. On the left pane, select **Data** > **+Add Data** > your custom prompt.
+1. On the left pane, select **Data** > **+Add Data** > *your custom prompt*.
 
     The following example shows the custom prompt, **Task identifier**.
 
@@ -46,13 +48,16 @@ You've created a custom prompt.
 1. On the left pane, select **Button1** > **OnSelect** (the property).
 1. In the formula bar, enter `Set(result, 'Task identifier'.Predict(TextInput1.Text));`
 
-    :::image type="content" source="media/use-a-custom-prompt-in-app/insert-menu.png" alt-text="Screenshot of adding an app that uses a custom prompt.":::
+    :::image type="content" source="media/use-a-custom-prompt-in-app/insert-menu.png" alt-text="Screenshot of adding data and a data source to your prompt.":::
 
 1. Select **Save**.
- 
+
 ## Test your flow
 
 1. On the menu at the top of the page, select the play button.
 1. Enter your text in the **Text input** screen.
 1. Check the AI Text generated in the text label.
 
+### See also
+
+[Human review for automation with the text generation model (preview)](azure-openai-human-review.md)

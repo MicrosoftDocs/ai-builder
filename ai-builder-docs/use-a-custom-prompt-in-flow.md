@@ -16,6 +16,8 @@ ms.reviewer: angieandrews
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
+A custome prompt in a Power Automate flow grants the ability to incorporate an existing prompt as a flow action.
+
 > [!IMPORTANT]
 > - This is a preview feature.
 > - Preview features aren’t meant for production use and may have restricted functionality. These features are available before an official release so that customers can get early access and provide feedback.
@@ -66,7 +68,7 @@ You've created a custom prompt.
 
 1. Select **Start and wait for an approval of text**.
 
-    :::image type="content" source="media/use-a-custom-prompt-in-flow/start-and-wait.png" alt-text="Screenshot of selecting 'Add an action to the 'Input Text' field.":::
+    :::image type="content" source="media/use-a-custom-prompt-in-flow/start-and-wait.png" alt-text="Screenshot of the 'See more' button to get a list of all approval actions.":::
 
 1. In the **Parameters** tab:
     1. In the **Title** field, enter a title.
@@ -85,10 +87,10 @@ You've created a custom prompt.
     1. Next to **Outcome**, select **is equal to** from the dropdown list.
     1. Next to **is equal to**, enter **Approve**.
 
-    :::image type="content" source="media/use-a-custom-prompt-in-flow/condition-expression.png" alt-text="Screenshot of adding a condition control.":::
+    :::image type="content" source="media/use-a-custom-prompt-in-flow/condition-expression.png" alt-text="Screenshot of selecting the condition expression parameters.":::
 
 1. In the designer under **Condition** in the **True** branch, select **+Insert a new step** > **Add an action**.
-1. On the left pane, search **Teams** and select **Post message in a chat or channel**. 
+1. On the left pane, search **Teams** and select **Post message in a chat or channel**.
 1. On the **Parameters** tab, do the following:
     1. In the **Post as** field, select **Flow bot**.
     1. In the **Post in** field, select **Chat with flow bot**.
@@ -96,7 +98,7 @@ You've created a custom prompt.
     1. In the **Message** field, select **Accepted** text from the dynamic content list.
 1. Select **Save**.
 
-    :::image type="content" source="media/use-a-custom-prompt-in-flow/post-message.png" alt-text="Screenshot of adding a condition control.":::
+    :::image type="content" source="media/use-a-custom-prompt-in-flow/post-message.png" alt-text="Screenshot of adding parameters for 'Post message in a chat or channel'.":::
 
 ## Test your flow
 
@@ -113,13 +115,13 @@ By having a human in the loop, organizations can harness the efficiency and capa
 1. Choose your response, and then select **Approve** from the dropdown list.
 1. Select **Confirm**.
 
-    :::image type="content" source="media/use-a-custom-prompt-in-flow/approvals.png" alt-text="Screenshot of adding a condition control.":::
+    :::image type="content" source="media/use-a-custom-prompt-in-flow/approvals.png" alt-text="Screenshot of configuring human oversight approvals.":::
 
-## Outputs
+## Explore outputs
 
 There are numerous potential outcomes to consider, including those related to email, data operation with Compose, Dataverse, Teams, and more. In this scenario, we explore the result using the Teams connector.
 
-:::image type="content" source="media/use-a-custom-prompt-in-flow/outputs-teams.png" alt-text="Screenshot of adding a condition control.":::
+:::image type="content" source="media/use-a-custom-prompt-in-flow/outputs-teams.png" alt-text="Screenshot of outputs.":::
 
 ### See also
 
