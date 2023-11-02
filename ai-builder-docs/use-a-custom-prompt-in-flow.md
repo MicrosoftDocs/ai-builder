@@ -64,11 +64,11 @@ You've created a custom prompt.
 1. On the left pane in the **Search** field, enter **Approvals**.
 1. To the right of the **Approvals** heading, select **See more**.
 
-    :::image type="content" source="media/use-a-custom-prompt-in-flow/see-more.png" alt-text="Screenshot of selecting 'Add an action to the 'Input Text' field.":::
+    :::image type="content" source="media/use-a-custom-prompt-in-flow/see-more.png" alt-text="Screenshot of the 'See more' button to get a list of all approval actions.":::
 
 1. Select **Start and wait for an approval of text**.
 
-    :::image type="content" source="media/use-a-custom-prompt-in-flow/start-and-wait.png" alt-text="Screenshot of the 'See more' button to get a list of all approval actions.":::
+    :::image type="content" source="media/use-a-custom-prompt-in-flow/start-and-wait.png" alt-text="Screenshot of the 'Start and wait for an approval of text' action.":::
 
 1. In the **Parameters** tab:
     1. In the **Title** field, enter a title.
