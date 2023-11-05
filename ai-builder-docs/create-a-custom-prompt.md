@@ -16,6 +16,12 @@ ms.reviewer: angieandrews
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
+## What is a prompt and how to use it ?
+
+**Example**
+
+Imagine having a remarkable tool capable of crafting text in response to the information you feed into it. This is the role of prompts. A prompt is a snippet of text or a query that you input into an AI model to get a result. Through the prompt builder, you can now design your own unique prompts, distribute them to makers within your organization, and integrate them in Power Automate, Power Apps, or Copilot Studio. For example, you might create a specialized prompt to identify and extract action items from company emails, which you can then use in a Power Automate flow.
+
 The Power Platform AI prompt builder empowers makers to create custom prompts tailored to unique business requirements, utilizing natural language prompts. Examples of some prompts are summarizing, classifying, extracting entities, translating, assessing sentiment, crafting a response to a complaint, and much more.
 
 The AI prompt builder leverages Power Platform objects like flows and apps to define a specific behavior. These objects can be added to a copilot and help you to gain efficiency in your daily business routine.
