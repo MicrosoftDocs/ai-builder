@@ -18,7 +18,8 @@ ms.reviewer: angieandrews
 
 A custom prompt in Power Apps empowers makers to incorporate existing prompts into their apps.
 
-Once you've created and tested your prompts using the Prompt Builder, you can use them within your application by calling them through Power Fx Functions. Both prebuilt and custom prompts can be invoked as Power Fx function calls, this allows you to seamlessly integrate AI capabilities into your application. 
+Once you've created and tested your prompts using the Prompt Builder, you can use them within your application by calling them through Power Fx Functions.
+Custom prompts can be invoked as Power Fx function calls, this allows you to seamlessly integrate AI capabilities into your application. 
 
 > [!IMPORTANT]
 > - This is a preview feature.
