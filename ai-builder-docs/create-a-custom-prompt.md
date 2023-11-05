@@ -85,8 +85,13 @@ Use the following screenshot to guide you through configuring and testing your p
 
 1. Enter a name for your prompt.
 1. Write or paste your prompt.
-1. Add a dynamic value, and then select **Enter**.  
+1. Add a dynamic value, and then select **Enter**.
+   
+""In the process of building prompts, Makers often need to provide context-data to ensure that the model generates appropriate responses.
+To facilitate this, Dynamic Inputs are used in the prompt, serving as placeholders that get filled with actual data at runtime.""  
 1. Test your prompt using the sample value.
+
+""The testing of prompts is an essential yet often under-emphasized capability. While manual testing is beneficial for iterative building experiences, it may not be sufficient      for building real-world solutions. Therefore, we propose to incorporate a comprehensive, no-code test framework for Makers.""
 1. Save your custom prompt by selecting **Save custom prompt**.
 
 ### Review your prompt
