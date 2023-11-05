@@ -94,7 +94,9 @@ To facilitate this, Dynamic Inputs are used in the prompt, serving as placeholde
 ""The testing of prompts is an essential yet often under-emphasized capability. While manual testing is beneficial for iterative building experiences, it may not be sufficient      for building real-world solutions. Therefore, we propose to incorporate a comprehensive, no-code test framework for Makers.""
 1. Save your custom prompt by selecting **Save custom prompt**.
 
-### Review your prompt
+### Review and save your prompt
+
+The Prompt Builder will allow Makers to save prompts to facilitate reusability, archiving, and future improvement of prompts.
 
 After you test your prompt with the sample value (in step 4), review it see how well your prompt works.
 
