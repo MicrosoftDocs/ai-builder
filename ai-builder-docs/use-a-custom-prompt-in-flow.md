@@ -16,7 +16,7 @@ ms.reviewer: angieandrews
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-A custome prompt in a Power Automate flow grants the ability to incorporate an existing prompt as a flow action.
+A custom prompt in a Power Automate flow grants the ability to incorporate an existing prompt as a flow action.
 
 > [!IMPORTANT]
 > - This is a preview feature.
