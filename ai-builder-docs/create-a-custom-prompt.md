@@ -26,8 +26,6 @@ The AI prompt builder leverages Power Platform objects like flows and apps to de
 
 :::image type="content" source="media/create-a-custom-prompt/create-prompt.png" alt-text="Screenshot of the custom prompt page.":::
 
-Example: `Josh is a project manager`.
-
 
 > [!IMPORTANT]
 > - This is a preview feature.
