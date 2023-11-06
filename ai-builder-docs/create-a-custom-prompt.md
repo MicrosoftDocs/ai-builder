@@ -16,17 +16,18 @@ ms.reviewer: angieandrews
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-## What is a prompt and how to use it ?
-
-**Example**
+## What a prompt is and how to use it
 
 Imagine having a remarkable tool capable of crafting text in response to the information you feed into it. This is the role of prompts. A prompt is a snippet of text or a query that you input into an AI model to get a result. Through the prompt builder, you can now design your own unique prompts, distribute them to makers within your organization, and integrate them in Power Automate, Power Apps, or Copilot Studio. For example, you might create a specialized prompt to identify and extract action items from company emails, which you can then use in a Power Automate flow.
 
-The Power Platform AI prompt builder empowers makers to create custom prompts tailored to unique business requirements, utilizing natural language prompts. Examples of some prompts are summarizing, classifying, extracting entities, translating, assessing sentiment, crafting a response to a complaint, and much more.
+The Power Platform AI prompt builder empowers makers to create custom prompts tailored to unique business requirements utilizing natural language prompts. Examples of some prompts are summarizing, classifying, extracting entities, translating, assessing sentiment, crafting a response to a complaint, and much more.
 
 The AI prompt builder leverages Power Platform objects like flows and apps to define a specific behavior. These objects can be added to a copilot and help you to gain efficiency in your daily business routine.
 
 :::image type="content" source="media/create-a-custom-prompt/create-prompt.png" alt-text="Screenshot of the custom prompt page.":::
+
+Example: `Josh is a project manager`.
+
 
 > [!IMPORTANT]
 > - This is a preview feature.
@@ -61,7 +62,7 @@ In this case, the user only needs to provide the text in `[TextToExtract]` that 
 
 ## Prerequisites
 
-- Have a basic understanding of how to write prompts 
+- Have a basic understanding of how to write prompts.
 - Your environment is in the United States.
 - You have a Power Apps or Power Automate license.
 - A Microsoft Dataverse database is installed on the environment.
@@ -86,19 +87,20 @@ Use the following screenshot to guide you through configuring and testing your p
 1. Enter a name for your prompt.
 1. Write or paste your prompt.
 1. Add a dynamic value, and then select **Enter**.
-   
-""In the process of building prompts, Makers often need to provide context-data to ensure that the model generates appropriate responses.
-To facilitate this, Dynamic value are used in the prompt, serving as placeholders that get filled with actual data at runtime.""  
+
+    In the process of building prompts, makers often need to provide context data to ensure that the model generates appropriate responses. To facilitate this, dynamic values are used in the prompt, serving as placeholders that get filled with actual data at runtime.
+  
 1. Test your prompt using the sample value.
 
-""The testing of prompts is an essential yet often under-emphasized capability. While manual testing is beneficial for iterative building experiences, it may not be sufficient      for building real-world solutions. Therefore, we propose to incorporate a comprehensive, no-code test framework for Makers.""
+    The testing of prompts is an essential yet often under-emphasized capability. While manual testing is beneficial for iterative building experiences, it might not be sufficient      for building real-world solutions. Therefore, we propose to incorporate a comprehensive, no-code test framework for Makers.
+
 1. Save your custom prompt by selecting **Save custom prompt**.
 
 ### Review and save your prompt
 
-The Prompt Builder will allow Makers to save prompts to facilitate reusability, archiving, and future improvement of prompts.
+The prompt builder allows makers to save prompts to facilitate reusability, archiving, and future improvement of prompts.
 
-After you test your prompt with the sample value (in step 4), review it see how well your prompt works.
+After you test your prompt with the sample value (in step 4), review it to see how well your prompt works.
 
 When you're satisfied, select **Save custom prompt**.
 
