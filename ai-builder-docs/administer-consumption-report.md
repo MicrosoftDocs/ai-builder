@@ -21,7 +21,7 @@ AI Builder is licensed as a capacity add-on that must be allocated to a Microsof
 - The [AI Builder calculator](https://flow.microsoft.com/ai-builder-calculator/) allows you to perform an assessment of what you need for your business.
 - The [AI Builder licensing page](administer-licensing.md) gives you more details on how AI Builder capacity works.
 
-In addition, administrators (tenant, Power Platform or Dynamics 365 administrators) can download an Excel report that shows the actual capacity consumption in your tenant. The consumption report shows the capacity used in the 30 days preceding the selected target date for each environment. This makes it easier to compare your allocated capacity with the actual capacity consumption of your organization so you can fine tune your capacity allocation.
+In addition, administrators (org (tenant), Power Platform or Dynamics 365 administrators) can download an Excel report that shows the actual capacity consumption in your tenant. The consumption report shows the capacity used in the 30 days preceding the selected target date for each environment. This makes it easier to compare your allocated capacity with the actual capacity consumption of your organization so you can fine tune your capacity allocation.
 
 This report shows the consumption data for the past rolling 30 days. Once generated, the report remains available for download for 30 days in the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
 
@@ -71,7 +71,8 @@ You can compare the aggregated consumption for the current calendar month on eac
 ### See also
 
 - [Microsoft Power Apps and Power Automate Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=2085130)<br/>
-- [AI Builder licensing FAQ](/power-platform/admin/powerapps-flow-licensing-faq#ai-builder)
+- [AI Builder licensing FAQ](/power-platform/admin/powerapps-flow-licensing-faq#ai-builder)<br/>
+- [Monitor model activity](https://learn.microsoft.com/en-us/ai-builder/activity-monitoring)<br/>
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
 
