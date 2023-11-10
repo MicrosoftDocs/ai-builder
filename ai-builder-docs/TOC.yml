@@ -44,7 +44,7 @@
     href: activity-monitoring.md    
 - name: Prompts (preview)
   items:
-  - name: Create a custom prompt with Prompt Builder
+  - name: Create a custom prompt with prompt builder
     href: create-a-custom-prompt.md
   - name: Understand prebuilt prompts
     href: understand-prebuilt-prompts.md

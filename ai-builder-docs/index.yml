@@ -41,7 +41,7 @@ landingContent:
     linkLists:
       - linkListType: how-to-guide
         links:
-          - text: Create a custom prompt with Prompt Builder
+          - text: Create a custom prompt with prompt builder
             url: create-a-custom-prompt.md
           - text: Understand prebuilt prompts
             url: understand-prebuilt-prompts.md

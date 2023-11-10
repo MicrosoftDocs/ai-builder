@@ -1,6 +1,6 @@
 ---
-title: Create a custom prompt with Prompt Builder (preview)
-description: Learn how to create a custom prompt with Prompt Builder.
+title: Create a custom prompt with prompt builder (preview)
+description: Learn how to create a custom prompt with prompt builder.
 author: phil-cmd
 contributors:
   - phil-cmd
@@ -12,17 +12,17 @@ ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
-# Create a custom prompt with Prompt Builder (preview)
+# Create a custom prompt with prompt builder (preview)
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-Prompt Builder is a prompt engineering tool from AI Builder. This tool lets makers write and test prompts for the text generation model.
+Prompt builder is a prompt engineering tool from AI Builder. This tool lets makers write and test prompts for the text generation model.
 
 ## What a prompt is and how to use it
 
-Think of a prompt as a task or a goal you give to the large language model (LLM). With Prompt Builder, you can make, test, and save your custom prompts. You can also use input variables to provide dynamic context data at runtime. You can share these prompts with others and use them in Power Automate, Power Apps, or Copilot Studio. For instance, you could make a prompt to pick out action items from your company emails and use it in a Power Automate flow to build an email processing automation.
+Think of a prompt as a task or a goal you give to the large language model (LLM). With prompt builder, you can make, test, and save your custom prompts. You can also use input variables to provide dynamic context data at runtime. You can share these prompts with others and use them in Power Automate, Power Apps, or Copilot Studio. For instance, you could make a prompt to pick out action items from your company emails and use it in a Power Automate flow to build an email processing automation.
 
-Prompt Builder enables makers to devise custom prompts that cater to their specific business needs using natural language. These prompts can be employed for a variety of tasks or business scenarios, such as summarizing content, categorizing data, extracting entities, translating languages, assessing sentiment, or formulating a response to a complaint.
+Prompt builder enables makers to devise custom prompts that cater to their specific business needs using natural language. These prompts can be employed for a variety of tasks or business scenarios, such as summarizing content, categorizing data, extracting entities, translating languages, assessing sentiment, or formulating a response to a complaint.
 
 Prompts can be integrated into flows to build intelligent hands-off automation. Makers can also build advanced generative AI capabilities for their applications by describing them as natural language prompts. These prompts can be used to extend a custom copilot, thereby streamlining your daily business operations and boosting efficiency."
 
@@ -69,7 +69,7 @@ In this case, the user only needs to supply the text in `[TextToExtract]` from w
 
 ## Get started
 
-Prompt Builder provides the flexibility to create your own custom prompt by defining input variables that enable incorporating dynamic runtime content within a prompt. It gives you the ability to validate the prompt with **Test your prompt**, ensuring optimal prompt performance and correctness of the response before integration into your business solutions.
+Prompt builder provides the flexibility to create your own custom prompt by defining input variables that enable incorporating dynamic runtime content within a prompt. It gives you the ability to validate the prompt with **Test your prompt**, ensuring optimal prompt performance and correctness of the response before integration into your business solutions.
 
 1. Sign in to [Power Apps](https://make.powerapps.com) or [Power Automate](https://flow.microsoft.com).
 1. On the left pane, select **Prompts** > **Create text, summarize documents, and more with GPT**.
@@ -97,7 +97,7 @@ Use the following screenshot to guide you through configuring and testing your p
 
 ### Review and save your prompt
 
-Prompt Builder allows makers to save prompts to facilitate reusability, archiving, and future improvement of prompts.
+Prompt builder allows makers to save prompts to facilitate reusability, archiving, and future improvement of prompts.
 
 After you test your prompt with the sample value (in step 4), review it to see how well your prompt works.
 
