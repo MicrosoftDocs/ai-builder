@@ -25,7 +25,7 @@ A custom prompt in a Power Automate flow grants the ability to incorporate an ex
 
 ## Prerequisite
 
-You've created a custom prompt.
+You've created a custom prompt named **Task Identifier** that has one input called **Input Text**. See [Create custom prompt](/create-a-custom-prompt.md).
 
 ## Create a flow and configure it
 
