@@ -41,10 +41,12 @@ landingContent:
     linkLists:
       - linkListType: how-to-guide
         links:
-          - text: Create a custom prompt
+          - text: Create a custom prompt with Prompt Builder
             url: create-a-custom-prompt.md
-          - text: Use in a Power Automate flow
-            url: use-a-custom-prompt-in-flow.md
+          - text: Understand prebuilt prompts
+            url: understand-prebuilt-prompts.md
+          - text: Share your prompt
+            url: share-your-prompt.md 
           - text: Use in Power Apps
             url: use-a-custom-prompt-in-app.md
 

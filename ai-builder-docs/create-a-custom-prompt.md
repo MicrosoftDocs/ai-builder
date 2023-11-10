@@ -107,9 +107,9 @@ When you're satisfied, select **Save custom prompt**.
 
 ## Next step
 
-- Use in a Power Automate flow
+<!--use this only if it's ready for Ignite - Use in a Power Automate flow
     - Grants the ability to incorporate an existing prompt as a flow action.
-    - [Use a custom prompt in a Power Automate flow](use-a-custom-prompt-in-flow.md)
+    - [Use a custom prompt in a Power Automate flow](use-a-custom-prompt-in-flow.md) -->
 
 - Use in Power Apps
     - Empowers makers to incorporate existing prompts into their apps.
