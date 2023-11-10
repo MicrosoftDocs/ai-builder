@@ -44,10 +44,12 @@
     href: activity-monitoring.md    
 - name: Prompts (preview)
   items:
-  - name: Create a custom prompt
+  - name: Create a custom prompt with Prompt Builder
     href: create-a-custom-prompt.md
-  - name: Use your custom prompt in a Power Automate flow
-    href: use-a-custom-prompt-in-flow.md
+  - name: Understand prebuilt prompts
+    href: understand-prebuilt-prompts.md
+  - name: Share your prompt
+    href: share-your-prompt.md 
   - name: Use your custom prompt in Power Apps
     href: use-a-custom-prompt-in-app.md  
 - name: Prebuilt AI models
