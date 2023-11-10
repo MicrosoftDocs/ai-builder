@@ -57,7 +57,7 @@ To use a prompt as a Power Fx Function, you simply need to call it by its name, 
 
 1. Select **Save**.
 
-## Test your flow
+## Test your app
 
 1. On the menu at the top of the page, select the play button.
 1. Enter your text in the **Text input** screen.
