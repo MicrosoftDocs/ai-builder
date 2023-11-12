@@ -55,6 +55,8 @@ To use a prompt as a Power Fx Function, you simply need to call it by its name, 
 
     :::image type="content" source="media/use-a-custom-prompt-in-app/insert-menu.png" alt-text="Screenshot of adding data and a data source to your prompt.":::
 
+1. On the left pane, Select **label1** > **Text** (the property).
+1. In the formula bar, enter result.text 
 1. Select **Save**.
 
 ## Test your app
