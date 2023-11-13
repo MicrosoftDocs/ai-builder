@@ -11,7 +11,7 @@ ms.reviewer: angieandrews
 
 # Roles and security in AI Builder
 
-AI Builder relies on environment security and Microsoft Dataverse security roles and privileges to grant access to AI features in Power Apps and Power Automate. For more information, go to [Security overview](/power-platform/admin/wp-security).
+AI Builder relies on environment security and Microsoft Dataverse security roles and privileges to grant access to AI features in Power Apps, Power Automate and Microsoft Copilot Studio. For more information, go to [Security overview](/power-platform/admin/wp-security).
 
 Some privileges are set by default in Dataverse. This allows built-in security roles to use AI Builder without further actions from system administrators. Specifically:
 
