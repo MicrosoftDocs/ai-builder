@@ -43,8 +43,6 @@ landingContent:
         links:
           - text: Create a custom prompt with prompt builder
             url: create-a-custom-prompt.md
-          - text: Understand prebuilt prompts
-            url: understand-prebuilt-prompts.md
           - text: Share your prompt
             url: share-your-prompt.md 
           - text: Use in Power Apps

@@ -46,8 +46,6 @@
   items:
   - name: Create a custom prompt with prompt builder
     href: create-a-custom-prompt.md
-  - name: Understand prebuilt prompts
-    href: understand-prebuilt-prompts.md
   - name: Share your prompt
     href: share-your-prompt.md 
   - name: Use your custom prompt in Power Apps
