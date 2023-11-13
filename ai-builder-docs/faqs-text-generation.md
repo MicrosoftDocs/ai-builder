@@ -1,5 +1,5 @@
 ---
-title: FAQ for text generation
+title: FAQ for text generation and prompts
 description: Learn about the AI technology that's used in the text generation model, key considerations and details about how the AI is used, how it was tested and evaluated, and limitations.
 ms.date: 11/15/2023
 ms.custom: 
