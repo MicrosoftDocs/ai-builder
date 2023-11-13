@@ -7,7 +7,7 @@ contributors:
   - v-aangie
 ms.topic: conceptual
 ms.collection: get-started
-ms.date: 09/19/2023
+ms.date: 011/15/2023
 ms.author: antode
 ms.reviewer: angieandrews
 ---
@@ -30,6 +30,8 @@ What you get an AI Builder trial license:
 - Create and use AI models in any environment (trial or production).
 - Store your AI model results in Dataverse.
 - Use AI model in your apps, flows, and more.
+
+Custom prompts, prebuilt prompts, and Create text with GPT aren't available with an AI Builder trial.
 
 ## Activate an AI Builder trial license
 
@@ -110,6 +112,12 @@ To learn more, go to [About trial environments](/power-platform/admin/trial-envi
 Any individual can try out the features of AI Builder for 30 days and incur no costs to your company. This option is available to any user in an organization (tenant) and can't be disabled by an admin. Once your company purchases some AI credits (for example, through capacity add-ons or inclusion in some licenses), trials aren't proposed to users anymore.
 
 You can block the use of AI Builder trial by disabling the **Allow unassigned credits** tenant setting in [Power Platform admin center](https://admin.powerplatform.microsoft.com/home). By disabling this setting, the only way to perform AI Builder actions in an environment is by assigning credits to this environment.
+
+### I can't access custom prompts, prebuilt prompts, and Create text with GPT with my trial. What's happening?
+
+Custom prompts, prebuilt prompts, and Create text with GPT can't be used with an AI Builder trial. These features require paid AI Builder credit.
+
+To purchase AI Builder credits, go to [Get entitlement to AI Builder credits](https://go.microsoft.com/fwlink/?linkid=2239020).
 
 ### See also
 

@@ -7,7 +7,7 @@ contributors:
   - v-aangie
 ms.topic: conceptual
 ms.collection: get-started
-ms.date: 11/14/2023
+ms.date: 11/15/2023
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---
@@ -79,7 +79,7 @@ Prompt builder provides the flexibility to create your own custom prompt by defi
 
 ### Configure and test your prompt
 
-Use the following screenshot to guide you through configuring and testing your prompt.
+Use the following screenshot as a guide to build and test your prompt.
 
 :::image type="content" source="media/create-a-custom-prompt/configure-test.png" alt-text="Screenshot of the steps to configure and test your prompt."::: 
 

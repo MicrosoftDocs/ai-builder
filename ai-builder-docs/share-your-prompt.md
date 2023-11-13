@@ -16,7 +16,7 @@ ms.reviewer: angieandrews
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-When you create prompts, they're private. This means they're visible and usable in Power Automate, Power Apps, and Copilot Studio only by the person who created them. This allows you to evaluate and utilize them in apps or workflows to ensure their accuracy before sharing them.
+Newly created prompts are private by default. This means they're visible and usable in Power Automate, Power Apps, and Microsoft Copilot Studio only by the person who created them. This allows the maker the time to test and evaluate them in apps or workflows and ensure their accuracy before sharing them.
 
 If you want other users of the environment or groups to use your prompt in Power Apps or Power Automate, you need to share it.
 
