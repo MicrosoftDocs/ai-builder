@@ -56,7 +56,7 @@ The following tables show which AI Builder features are available in each region
 |Language detection |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |
 |Receipt processing |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |
 |Sentiment analysis |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |
-|Text generation |- |- |- |- |-|- |-|- |-|-|-|-|- |- |- |GA |
+|Text generation |- |- |- |- |-|- |-|- |-|-|-|-|- |- |- |Preview |
 |Text recognition   |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |
 |Text translation |- |- |- |GA |-|- |-|- |-|-|-|-|- |- |- |GA |
 
