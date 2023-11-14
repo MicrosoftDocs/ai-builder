@@ -1,6 +1,6 @@
 ---
-title: Roles and security in AI Builder - AI Builder | Microsoft Docs
-description: "Describes security information related to roles, privileges, and access in AI Builder and the services it connects to." 
+title: Roles and security in AI Builder - AI Builder
+description: Learn about security information related to roles, privileges, and access in AI Builder and the services it connects to.
 author: v-aangie
 ms.topic: conceptual
 ms.custom: 
@@ -11,7 +11,7 @@ ms.reviewer: angieandrews
 
 # Roles and security in AI Builder
 
-AI Builder relies on environment security and Microsoft Dataverse security roles and privileges to grant access to AI features in Power Apps, Power Automate and Microsoft Copilot Studio. For more information, go to [Security overview](/power-platform/admin/wp-security).
+AI Builder relies on environment security and Microsoft Dataverse security roles and privileges to grant access to AI features in Power Apps, Power Automate, and Microsoft Copilot Studio. For more information, go to [Security overview](/power-platform/admin/wp-security).
 
 Some privileges are set by default in Dataverse. This allows built-in security roles to use AI Builder without further actions from system administrators. Specifically:
 
@@ -54,10 +54,8 @@ By default, a model/prompt is only accessible by the owner of the model/prompt, 
 
 1. On the left panel:
 
-    - (For models) Select **AI Models** > **Models**
-    - (For prompts) Select **AI Models** > **My prompts**
-
-        Prompts now have their own section.
+    - (For models) On the left panel, select **AI Models** > **My models** > *model name*
+    - (For prompts) On the left panel, select **AI Models** > the **Prompts now have their own section** tile > **My prompts** > *prompt name*
 
 1. To access its details page, find and select the model’s or prompt's name.
 1. On the top-left corner, select **Share**.

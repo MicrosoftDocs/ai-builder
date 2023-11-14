@@ -302,6 +302,6 @@
   items:
   - name: Overview
     href: responsible-ai-overview.md
-  - name: FAQ for text generation
+  - name: FAQ for text generation and prompts
     href: faqs-text-generation.md
 
