@@ -46,10 +46,10 @@ You need to have the **Basic User** role to consume the image description prebui
 
 ## Supported files
 
-The following list show the format, size, and dimensions of supported files.
+The following list shows the format, size, and dimensions of supported files.
 
 - Document formats accepted: .JPG, .JPEG, .PNG, and .BMP
-- Maximum document size: 4MB
+- Maximum document size: 4 MB
 - The dimensions of the image must be greater than 50 x 50 pixels
 
 ## Model output
