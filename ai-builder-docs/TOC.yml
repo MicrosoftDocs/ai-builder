@@ -42,6 +42,14 @@
     href: feedback-loop.md
   - name: Monitor model activity (preview)
     href: activity-monitoring.md    
+- name: Prompts (preview)
+  items:
+  - name: Create a custom prompt with prompt builder
+    href: create-a-custom-prompt.md
+  - name: Share your prompt
+    href: share-your-prompt.md 
+  - name: Use your custom prompt in Power Apps
+    href: use-a-custom-prompt-in-app.md  
 - name: Prebuilt AI models
   items:
   - name: Overview
@@ -294,6 +302,6 @@
   items:
   - name: Overview
     href: responsible-ai-overview.md
-  - name: FAQ for text generation
+  - name: FAQ for text generation and prompts
     href: faqs-text-generation.md
 
