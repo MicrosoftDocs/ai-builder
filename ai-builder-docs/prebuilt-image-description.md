@@ -1,6 +1,6 @@
 ---
 title: Image description prebuilt AI model (preview)
-description: Learn about the image description prebuilt AI model from AI Builder.
+description: Learn how to use the prebuilt image analyzer model in AI Builder to analyze images and generate user-friendly descriptions.
 author: phil-cmd
 contributors:
   - phil-cmd
@@ -10,7 +10,11 @@ ms.collection: get-started
 ms.date: 09/21/2023
 ms.author: plarrue
 ms.reviewer: angieandrews
-ms.custom: bap-template
+ms.custom:
+  - bap-template
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:11/15/2023
 ---
 
 # Image description prebuilt model (preview)
@@ -34,7 +38,7 @@ Select the links in this section to learn how to use the image description prebu
 - **Power Apps**: [Use the image description prebuilt model in Power Apps (preview)](image-description-in-powerapps.md)
 - **Power Automate**: [Use the image description prebuilt model in Power Automate (preview)](flow-image-description.md)
 
-## Licensing  and role requirements
+## Licensing and role requirements
 
 This feature is currently in preview, so using it won't deduct any AI Builder credits.
 
