@@ -47,6 +47,8 @@ landingContent:
             url: share-your-prompt.md 
           - text: Use in Power Apps
             url: use-a-custom-prompt-in-app.md
+          - text: Use in Power Automate
+            url: use-a-custom-prompt-in-flow.md 
 
   # Card
   - title: Build AI models

@@ -7,7 +7,7 @@ contributors:
   - v-aangie
 ms.topic: conceptual
 ms.collection: get-started
-ms.date: 11/14/2023
+ms.date: 11/17/2023
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---
@@ -21,11 +21,13 @@ A custom prompt in a Power Automate flow grants the ability to incorporate an ex
 > [!IMPORTANT]
 > - This is a preview feature.
 > - Preview features aren’t meant for production use and may have restricted functionality. These features are available before an official release so that customers can get early access and provide feedback.
-> - As we traverse this rapidly evolving field, we are dedicated to refining and improving our services based on user feedback and insights. We encourage developers to be cognizant of the risks and incorporate human review when utilizing this capability.
+> - View our [preview terms](https://powerplatform.microsoft.com/en-us/legaldocs/supp-powerplatform-preview/).
+> - This capability is only available in United States region.
+> - This capability might be subject to usage limits or capacity throttling.
 
 ## Prerequisite
 
-You've created a custom prompt named **Task Identifier** that has one input called **Input Text**. See [Create custom prompt](/create-a-custom-prompt.md).
+You've created a custom prompt named **Task Identifier** that has one input called **Input Text**. More information: [Create a custom prompt with prompt builder (preview)](create-a-custom-prompt.md)
 
 ## Create a flow and configure it
 
