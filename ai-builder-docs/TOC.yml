@@ -49,7 +49,9 @@
   - name: Share your prompt
     href: share-your-prompt.md 
   - name: Use your custom prompt in Power Apps
-    href: use-a-custom-prompt-in-app.md  
+    href: use-a-custom-prompt-in-app.md
+  - name: Use your custom prompt in a Power Automate flow  
+    href: use-a-custom-prompt-in-flow.md
 - name: Prebuilt AI models
   items:
   - name: Overview
