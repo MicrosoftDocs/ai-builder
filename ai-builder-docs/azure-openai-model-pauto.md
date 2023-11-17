@@ -19,16 +19,14 @@ ms.reviewer: angieandrews
 
 > [!IMPORTANT]
 > - This feature is deprecated and won't be visible anymore starting from December 15th, 2023.
-> - The [new custom prompt experience](use-a-custom-prompt-in-flow.md) should be used instead. Learn about [how to migrate your to the new action](#migrate-to-the-new-custom-prompt-experience).
+> - The [new prompt builder feature](use-a-custom-prompt-in-flow.md) should be used instead. See [how to migrate to the new prompt builder experience](#migrate-to-the-new-prompt-builder-experience).
 > - This is a preview feature. [View our preview terms](https://go.microsoft.com/fwlink/?linkid=2189520).
 > - This capability is only available in United States region.
 > - This capability may be subject to usage limits or capacity throttling.
 
 
-
-
-## Migrate to the new custom prompt experience
-This Power Automate action is deprecated, the [new custom prompt action](use-a-custom-prompt-in-flow.md) should be used instead.
+## Migrate to the new prompt builder experience
+This Power Automate action is deprecated, the [prompt builder action](use-a-custom-prompt-in-flow.md) should be used instead.
 
 If you have flows using the old **Create text with GPT** action, here is the process you need to follow to migrate each of your prompts to the the new **Create text with GPT (V2)** action:
 
@@ -116,4 +114,4 @@ The human receiving the AI-generated text to review has the possibility to accep
 
 ### See also
 
-- [New custom prompt experience](use-a-custom-prompt-in-flow.md)
+- [Pompt builder feature](use-a-custom-prompt-in-flow.md)
