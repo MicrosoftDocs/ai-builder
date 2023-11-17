@@ -13,24 +13,45 @@ ms.author: ashbhati
 ms.reviewer: angieandrews
 ---
 
-# Use the text generation model in Power Automate (preview)
+# Use the text generation model in Power Automate (deprecated)
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-Text generation is powered by Azure OpenAI Service, which is built on Generative Pre-trained Transformer (GPT) technology. GPT models are a type of natural language processing model. GPT models are trained on a large body of content to generate human-like text from a prompt. When you combine them with workflow automation, you can use AI models like GPT to automate a variety of tasks. For example, you can build workflows to automatically generate drafts of emails, customer service responses, and product descriptions. You can also use them to generate scripts that allow customer service agents to respond quickly to customer inquiries.
-
 > [!IMPORTANT]
-> - This is a preview feature.
-> - Preview features aren’t meant for production use and may have restricted functionality. These features are available before an official release so that customers can get early access and provide feedback.
-> - [View our preview terms](https://go.microsoft.com/fwlink/?linkid=2189520).
+> - This feature is deprecated and won't be visible anymore starting from December 15th, 2023.
+> - The [new custom prompt experience](use-a-custom-prompt-in-flow.md) should be used instead. Learn about [how to migrate your to the new action](#migrate-to-the-new-custom-prompt-experience).
+> - This is a preview feature. [View our preview terms](https://go.microsoft.com/fwlink/?linkid=2189520).
 > - This capability is only available in United States region.
 > - This capability may be subject to usage limits or capacity throttling.
 
-## Prerequisites
 
+
+
+## Migrate to the new custom prompt experience
+This Power Automate action is deprecated, the [new custom prompt action](use-a-custom-prompt-in-flow.md) should be used instead.
+
+If you have flows using the old **Create text with GPT** action, here is the process you need to follow to migrate each of your prompts to the the new **Create text with GPT (V2)** action:
+
+1. From your flow, copy the prompt text inside the old **Create text with GPT** action.
+   
+1. From the Power Automate portal, [create a custom prompt](create-a-custom-prompt.md) using the prompt text you just copied. Note that this new prompt experience requires to add a dynamic parameter: If your previous prompt didn't require one, just add a dummy parameter that you will leave empty when running the prompt.
+   
+1. Back to your flow, replace the old **Create text with GPT** action with the new one **Create text with GPT (V2)** and select the prompt you just created. [See how to use a custom prompt inside a flow](use-a-custom-prompt-in-flow.md).
+   
+1. Make sure to update the places where the GPT action output is used in the downstream actions of your flow.
+
+Note that for now it is not possible to update or create prompts within the **Create text with GPT (V2)** action but it will be available very shortly.
+
+
+
+## Instructions (deprecated)
+### Overview
+Text generation is powered by Azure OpenAI Service, which is built on Generative Pre-trained Transformer (GPT) technology. GPT models are a type of natural language processing model. GPT models are trained on a large body of content to generate human-like text from a prompt. When you combine them with workflow automation, you can use AI models like GPT to automate a variety of tasks. For example, you can build workflows to automatically generate drafts of emails, customer service responses, and product descriptions. You can also use them to generate scripts that allow customer service agents to respond quickly to customer inquiries.
+
+### Prerequisites
 Copilot enabled at the tenant level is the prerequisite to use the text generation model in Power Automate (preview).
 
-## Create instructions
+### Create a prompt
 
 [GPT model prompts](azure-openai-textgen.md#parts-of-a-prompt) have two parts, the *instruction* and the *context*. The instruction tells the model what it should do. The context is the information the model needs to follow the instruction. In an automation task, the instruction is constant and the context is provided by dynamic content.
 
@@ -56,7 +77,7 @@ The following example uses an instant cloud flow, but you can include a GPT mode
 
 In this example, the dynamic content is the topic variable from the previous step. The dynamic content can be anything the model needs to generate a new response every time; for example, an email to generate a response or text from a document to summarize.
 
-## Insert human oversight
+### Insert human oversight
 
 AI-generated content can be factually incorrect, inappropriate, or biased. Hence, an approval action is required to ensure [human oversight](azure-openai-textgen.md#human-oversight) in workflows that use AI-generated text before it's posted or used anywhere.
 
@@ -80,23 +101,19 @@ The human receiving the AI-generated text to review has the possibility to accep
 
   :::image type="content" alt-text="Screenshot of approval text edit." source="media/azure-openai-model-pauto/text-approval.png":::
 
-## Input parameters
+### Input parameters
 
 |Name  |Required  |Type  | Description | Values |
 |---------|---------|---------|-------------|--------|
 |Prompt/instructions     | Yes        |  String       | The instruction or the prompt for the model to act on   |  Natural language instruction for the model along with the dynamic content that the model can act on  | 
-|Parameters     |  Optional       | JSON        |  Model parameters to optimize the output  |  {<br/>"temperature": 0,<br/>"max_tokens": 750,<br/>"top_p": 1,<br/>"frequency_penalty": 0,<br/>"presence_penalty": 0<br/>} 
 
-## Output parameters
+### Output parameters
 
 |Name  |Type  | Description | Values |
 |---------|---------|---------|----------|
 | Text    |String | Generated text | The response that the model has generated based on the input instructions |
-| Finish reason | String  |  Finish reason returned by AI model  | TBD | 
+| Finish reason | String  |  Finish reason returned by AI model  | - | 
 
 ### See also
 
-- [Text generation overview (preview)](prebuilt-azure-openai.md)  
-- [How text generation works (preview)](azure-openai-textgen.md)  
-- [Use the text generation model in Power Apps (preview)](azure-openai-model-papp.md)
-- [Video: How to automate extracting text from emails in just 1 minute](https://www.youtube.com/watch?v=UchRykL7me8)
+- [New custom prompt experience](use-a-custom-prompt-in-flow.md)
