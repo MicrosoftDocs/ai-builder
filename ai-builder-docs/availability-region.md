@@ -60,6 +60,15 @@ The following tables show which AI Builder features are available in each region
 |Text recognition   |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |
 |Text translation |- |- |- |GA |-|- |-|- |-|-|-|-|- |- |- |GA |
 
+###  Prompts
+
+|Feature |Asia |Australia |Canada |Europe |France |Germany |India |Japan |Norway |South Africa |South America |South Korea |Switzerland |United Arab Emirates |United Kingdom |United States |
+|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|Custom prompts |- |- |- |- |-|- |-|- |-|-|-|-|- |- |- |Preview |
+|Prebuilt prompts |- |- |- |- |-|- |-|- |-|-|-|-|- |- |- |Preview |
+
+
+
 ## US Government
 
 AI Builder is available in US Government environments with the features listed in the following tables. A dash (-) indicates that the feature isn't available.
@@ -101,6 +110,7 @@ The following features available in the commercial version of AI Builder aren't 
 - 30-day user trials
 - AI model copy across cloud boundaries (for example between Public and GCC or between GCC and GCC High)
 - [Document Automation](doc-automation.md) isn't available in GCC and GCC High
+- Custom prompts and prebuilt prompts are not available in GCC and GCC High
 
 For more information about other limitations of Power Platform US Government, go to these topics: 
 
