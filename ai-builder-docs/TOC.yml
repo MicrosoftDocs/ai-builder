@@ -40,7 +40,7 @@
     href: distribute-model.md
   - name: Continuously improve your model (preview)
     href: feedback-loop.md
-  - name: Monitor model activity (preview)
+  - name: Monitor model activity
     href: activity-monitoring.md    
 - name: Prebuilt AI models
   items:
