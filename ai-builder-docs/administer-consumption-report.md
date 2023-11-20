@@ -71,8 +71,8 @@ You can compare the aggregated consumption for the current calendar month on eac
 ### See also
 
 - [Microsoft Power Apps and Power Automate Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=2085130)<br/>
-- [AI Builder licensing FAQ](/power-platform/admin/powerapps-flow-licensing-faq#ai-builder)<br/>
-- [Monitor model activity (preview)](activity-monitoring.md)<br/>
+- [AI Builder licensing FAQ](/power-platform/admin/powerapps-flow-licensing-faq#ai-builder)
+- [Monitor model activity](activity-monitoring.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
 
