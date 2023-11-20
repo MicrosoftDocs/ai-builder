@@ -37,6 +37,20 @@ landingContent:
             url: https://www.youtube.com/watch?v=MGtomFKVDys
 
   # Card
+  - title: Create and use prompts (preview)
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Create a custom prompt with prompt builder
+            url: create-a-custom-prompt.md
+          - text: Share your prompt
+            url: share-your-prompt.md 
+          - text: Use in Power Apps
+            url: use-a-custom-prompt-in-app.md
+          - text: Use in Power Automate
+            url: use-a-custom-prompt-in-flow.md 
+
+  # Card
   - title: Build AI models
     linkLists:
        - linkListType: how-to-guide
