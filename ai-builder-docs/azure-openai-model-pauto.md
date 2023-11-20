@@ -4,20 +4,21 @@ description: Learn how to use the text generation model with AI Builder in Power
 author: ashbhati
 contributors:
   - ashbhati
+  - antrod
   - phil-cmd
   - v-aangie
 ms.topic: how-to
 ms.custom: bap-template
-ms.date: 10/09/2023
-ms.author: ashbhati
+ms.date: 11/20/2023
+ms.author: antrod
 ms.reviewer: angieandrews
 ---
 
 # Use the text generation model in Power Automate (deprecated)
 
-This feature is deprecated and won't be visible anymore starting from December 15, 2023.
-
-The [new prompt builder feature](use-a-custom-prompt-in-flow.md) should be used instead. To learn more, go to [Migrate to the new prompt builder experience](#migrate-to-the-new-prompt-builder-experience).
+> [!IMPORTANT]
+> - This feature is deprecated and won't be visible anymore starting from December 15, 2023.
+> - The [new prompt builder feature](use-a-custom-prompt-in-flow.md) should be used instead. To learn more, go to [Migrate to the new prompt builder experience](#migrate-to-the-new-prompt-builder-experience).
 
 ## Migrate to the new prompt builder experience
 
@@ -42,7 +43,7 @@ If you have flows using the old **Create text with GPT** action, here is the pro
 > [!NOTE]
 > Currently, it isn't possible to update or create prompts in the **Create text with GPT (V2)** action.
 
-## Instructions (deprecated)
+## Create text with GPT (deprecated)
 
 Text generation is powered by Azure OpenAI Service, which is built on Generative Pre-trained Transformer (GPT) technology. GPT models are a type of natural language processing model. GPT models are trained on a large body of content to generate human-like text from a prompt. When you combine them with workflow automation, you can use AI models like GPT to automate a variety of tasks. For example, you can build workflows to automatically generate drafts of emails, customer service responses, and product descriptions. You can also use them to generate scripts that allow customer service agents to respond quickly to customer inquiries.
 
