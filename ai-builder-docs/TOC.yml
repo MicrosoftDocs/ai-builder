@@ -40,7 +40,7 @@
     href: distribute-model.md
   - name: Continuously improve your model (preview)
     href: feedback-loop.md
-  - name: Monitor model activity (preview)
+  - name: Monitor model activity
     href: activity-monitoring.md    
 - name: Prompts (preview)
   items:
@@ -49,7 +49,9 @@
   - name: Share your prompt
     href: share-your-prompt.md 
   - name: Use your custom prompt in Power Apps
-    href: use-a-custom-prompt-in-app.md  
+    href: use-a-custom-prompt-in-app.md
+  - name: Use your custom prompt in a Power Automate flow  
+    href: use-a-custom-prompt-in-flow.md
 - name: Prebuilt AI models
   items:
   - name: Overview
@@ -213,7 +215,7 @@
       href: prediction-pwr-automate.md
   - name: Use a prebuilt AI Builder model in Power Automate
     items:
-    - name: Text generation model (preview)
+    - name: Text generation model (deprecated)
       href: azure-openai-model-pauto.md
     - name: Business card reader model
       href: flow-business-card-reader.md
