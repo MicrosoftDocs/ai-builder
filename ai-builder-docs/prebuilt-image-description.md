@@ -37,7 +37,7 @@ The image description prebuilt model analyzes an image and generates a user-frie
 
 ## Use in Power Apps
 
-[Use the image description prebuilt model in Power Apps (preview)](image-description-in-powerapps).
+[Use the image description prebuilt model in Power Apps (preview)](image-description-in-powerapps.md).
 
 ## Use in Power Automate
 
