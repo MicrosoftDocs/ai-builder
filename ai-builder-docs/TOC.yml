@@ -40,7 +40,7 @@
     href: distribute-model.md
   - name: Continuously improve your model (preview)
     href: feedback-loop.md
-  - name: Monitor model activity
+  - name: Monitor model activity (preview)
     href: activity-monitoring.md    
 - name: Prompts (preview)
   items:
