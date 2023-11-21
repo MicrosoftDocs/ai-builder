@@ -1,5 +1,5 @@
 ---
-title: Monitor model activity
+title: Monitor model activity (preview)
 description: Learn how to monitor the activity or consumption of your AI models.
 author: jekom1
 contributors:
@@ -12,10 +12,15 @@ ms.author: jelenak
 ms.reviewer: angieandrews
 ---
 
-# Monitor model activity
+# Monitor model activity (preview)
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
 As you use your AI models, you might have to access data to monitor their activity or consumption.
 
+> [!IMPORTANT]
+> - [!INCLUDE[cc_preview_features_definition](includes/cc-preview-features-definition.md)]
+> - This feature might not yet be available in your region.
 
 The **AI Builder activity** section of the Power Automate portal provides tables and charts that you can use to monitor AI models and the data that they process, and to track AI credit consumption.
 
