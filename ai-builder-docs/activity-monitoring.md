@@ -19,7 +19,8 @@ ms.reviewer: angieandrews
 As you use your AI models, you might have to access data to monitor their activity or consumption.
 
 > [!IMPORTANT]
-> - [!INCLUDE[cc_preview_features_definition](includes/cc-preview-features-definition.md)]
+> - This is a preview feature.
+> - Preview features aren’t meant for production use and may have restricted functionality. These features are available before an official release so that customers can get early access and provide feedback.
 > - This feature might not yet be available in your region.
 
 The **AI Builder activity** section of the Power Automate portal provides tables and charts that you can use to monitor AI models and the data that they process, and to track AI credit consumption.
