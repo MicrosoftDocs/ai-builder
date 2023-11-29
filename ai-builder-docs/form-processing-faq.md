@@ -62,11 +62,17 @@ You can process up to 360 documents per environment, every 60 seconds.
 
 - It can happen than some characters get confused: "0" and "O", "1" and "l", "4" and "A", etc.
 - It can happen that some characters over or close to others get recognized incorrectly: "O" over a vertical line becomes a "0", "5" over a line becomes a "$", "l_" becomes an "L", etc.
-- It can happen that some characters on document of poor quality get recognized incorrectly or not recognized at all.
+- It can happen that some characters on documents of poor quality get recognized incorrectly or not recognized at all.
 
-In all of the above cases, nothing can be done in AI Builder to improve the recognition. We recommand to improve the quality and layout of the source document to solve such issues.
+In all of the above cases, nothing can be done in AI Builder to improve the recognition. We recommand to improve the quality and layout of the source document to solve similar issues.
 
-Note that the OCR technology to detect characters is constantly improved by Microsoft.
+Note that the OCR technology to detect characters is constantly improved by Microsoft so such issues happen less often.
+
+### Can I create a model with many collections?
+
+You can create up to 200 collections per models.
+However, training Unstructured models with tens of collections can take several hours and -in rare occasions- time out. If your models has a great number of collections, expect to wait up to 24 hours for model training completion.
+
 
 ### Can I create a model in a Solution?
 
