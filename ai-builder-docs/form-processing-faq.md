@@ -58,6 +58,21 @@ If your model is returning poor results after you've trained it, edit the model 
 
 You can process up to 360 documents per environment, every 60 seconds.
 
+### Why some characters get recognized incorrectly?
+
+- It can happen than some characters get confused: "0" and "O", "1" and "l", "4" and "A", etc.
+- It can happen that some characters over or close to others get recognized incorrectly: "O" over a vertical line becomes a "0", "5" over a line becomes a "$", "l_" becomes an "L", etc.
+- It can happen that some characters on document of poor quality get recognized incorrectly or not recognized at all.
+
+In all of the above cases, nothing can be done in AI Builder to improve the recognition. We recommand to improve the quality and layout of the source document to solve such issues.
+
+Note that the OCR technology to detect characters is constantly improved by Microsoft.
+
+### Can I create a model in a Solution?
+
+Today it's not possible to create a model in a Solution.
+
+
 ### Can I use contracts and letters in my documents processing model?
 
 Yes, unstructured documents like contracts and letters are supported by document processing. 
