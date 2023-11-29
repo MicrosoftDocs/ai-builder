@@ -40,7 +40,7 @@ If a business card is detected, the business card reader will extract informatio
 | **AddressState**| State address |
 | **AddressStreet**| Street address|
 | **BusinessPhone**| The first phone or fax number|
-| **CleanedImage**| The image after processing, where the business card appears cropped and enhanced from the original image|
+| **CleanedImage** (deprecated)| The image after processing, where the business card appears cropped and enhanced from the original image|
 | **CompanyName**| Company name|
 | **Department**| Organization department |
 | **Email**| The contact's email address, if any|
