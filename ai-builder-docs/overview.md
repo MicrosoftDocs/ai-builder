@@ -1,19 +1,19 @@
 ---
 title: Overview of AI Builder
-description: Get an overview of AI Builder and high-level steps to add intelligence to your apps.
+description: Learn how to use AI Builder to add intelligence to your apps.
 author: phil-cmd
 contributors:
   - phil-cmd
   - v-aangie
 ms.topic: overview
-ms.date: 06/03/2022
+ms.date: 12/01/2023
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
 # Overview of AI Builder
 
-AI Builder is a Microsoft Power Platform capability that provides AI models that are designed to optimize your business processes. AI Builder enables your business to use intelligence to automate processes and glean insights from your data in [Power Apps](use-in-powerapps-overview.md) and [Power Automate](use-in-flow-overview.md). With AI Builder, you don't need coding or data science skills to access the power of AI. You can build *custom* models tailored to your needs, or choose a *prebuilt* model that is ready to use for many common business scenarios.
+With AI Builder, a Microsoft Power Platform feature, you can create and use AI models that optimize your business processes. You can either use a *prebuilt* model that is ready for many common business scenarios, or create a *custom* model that meets your needs. AI Builder helps your business to automate processes and gain insights from your data in [Power Apps](use-in-powerapps-overview.md) and [Power Automate](use-in-flow-overview.md).
 
 - Explore AI Builder in [Power Automate](use-in-flow-overview.md).
 
@@ -27,11 +27,11 @@ Integration with Power Apps and Power Automate makes using AI easy.
 
 To add intelligence to your business:
 
-1. **Choose an AI model type**: Use the model type that suits your business need. Choose from a growing set of AI solutions.
+1. **Choose an AI model type**: Select the model type that suits your business need. Choose from a growing set of AI solutions.
 
 1. **Connect data**: Select your business-specific data from the available options.
 
-1. **Tailor your AI model**: Depending on the type of model, you can tweak custom models to optimize how your AI performs.
+1. **Tailor your AI model**: You can adjust custom models to enhance your AI's performance.
 
 1. **Train your AI model**: Training is an automatic process. It teaches your AI model how to resolve your business problem (for example, how to recognize your products on an image) based on your business data and tailoring. When trained, your AI model can generate insights such as the result of a prediction, or the list and number of objects detected in an image.
 
