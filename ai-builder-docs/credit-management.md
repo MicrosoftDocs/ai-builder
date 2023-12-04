@@ -83,9 +83,12 @@ To learn more about how to allocate credits in the Power Platform admin center, 
 
 ## Monitor usage
 
-As an administrator, you can view your overall credit consumption in the [Power Platform admin center](https://admin.powerplatform.microsoft.com/) in the **Resources** > **Capacity** > **Summary** tab. 
+As an administrator, you can view your overall credit consumption in the [Power Platform admin center](https://admin.powerplatform.microsoft.com/) in the **Resources** > **Capacity** > **Summary** tab.  
+The **Allocation bar** and the **Consumption bar** display the amount of **allocated** credits and **consumed** credits out of the total amount of **purchased** credits. 
 
 :::image type="content" source="media/credit-management/ppac-consumption.png" alt-text="Screenshot of the overall AI Builder credit consumption in the Power Platform admin center.":::
+
+*Credit extensions are not counted in **purchased** credits.*
 
 Administrators also have access to a [consumption report](administer-consumption-report.md) that has the following features:
 
@@ -195,12 +198,19 @@ Supposing you own 5 Power Automate premium licenses, you're covered with a singl
 
 ### Where can I see credit usage for this month?
 
-Overall organization (tenant) level credit consumption is available in the [Power Platform admin center](https://admin.powerplatform.microsoft.com/) in the **Resources** > **Capacity** > **Summary** tab.
+Overall organization (tenant) level credit consumption is available in the [Power Platform admin center](https://admin.powerplatform.microsoft.com/) in the **Resources** > **Capacity** > **Summary** tab: the Consumption bar displays the number of **consumed** credits out of the total of **purchased** credits.
 
 The data is aggregated daily. Some data may be delayed; if so, the consumption bar shows all known consumption at the **Last updated** date in the tooltip box.
 
 Get details on your environment consumption by checking the [AI Builder consumption report](administer-consumption-report.md). It gives the amount of consumption per day per user per environment.
 Adding all the consumptions of the current month of a specific environment gives you the monthly consumption of this environment.
+
+### How do I know the amount of purchased credits of my organization(tenant) ?
+
+The [consumption bar and allocation bar](https://go.microsoft.com/fwlink/?linkid=2255314)  display the amount of **purchased** credits.
+Credits come from AI Builder addons and are also seeded in premium licenses like Power Automate Premium. 
+
+You can also go to [admin center](https://admin.powerplatform.microsoft.com/) Resources/Add-ons/'Assign to an environment' to see the remaining AI Builder credits: it represents the purchased capacity which has not been allocated yet.
 
 ### When is credit usage count reset? Is it based on license acquisition date?
 
