@@ -1,11 +1,14 @@
 ---
-title: Frequently asked questions (FAQ) for document processing - AI Builder | Microsoft Docs
-description: This topic provides answers to frequently asked questions about the document processing model in AI Builder.
+title: FAQ for document processing
+description: Learn the answers to frequently asked questions about the document processing model in AI Builder.
 author: JoeFernandezMS
-ms.topic: conceptual
+ms.topic: faq
 ms.custom: 
 ms.date: 05/31/2022
-ms.author: jofernan
+ms.author: antrod
+contributors:
+  - antrodfr
+  - v-aangie
 ms.reviewer: angieandrews
 ---
 
@@ -58,30 +61,28 @@ If your model is returning poor results after you've trained it, edit the model 
 
 You can process up to 360 documents per environment, every 60 seconds.
 
-### Why some characters get recognized incorrectly?
+### Why do some characters get recognized incorrectly?
 
-- It can happen than some characters get confused: "0" and "O", "1" and "l", "4" and "A", etc.
-- It can happen that some characters over or close to others get recognized incorrectly: "O" over a vertical line becomes a "0", "5" over a line becomes a "$", "l_" becomes an "L", etc.
-- It can happen that some characters on documents of poor quality get recognized incorrectly or not recognized at all.
+- It can happen that some characters get confused: 0 (number) and O (letter), 1 (number) and l (letter), 4 (number) and A (letter), and more.
+- It can happen that some characters over or close to others get recognized incorrectly: O (letter) over a vertical line becomes a 0 (number), 5 (number) over a line becomes a $ (American dollar sign), l_ (number, underscore) becomes an L (capital letter), and more.
+- It can happen that some characters on documents of poor quality get recognized incorrectly, or not at all.
 
-In all of the above cases, nothing can be done in AI Builder to improve the recognition. We recommand to improve the quality and layout of the source document to solve similar issues.
+In the above cases, nothing can be done in AI Builder to improve the recognition. We recommand to improve the quality and layout of the source document to solve similar issues.
 
-Note that the OCR technology to detect characters is constantly improved by Microsoft so such issues happen less often.
+> [!NOTE]
+> The OCR technology to detect characters is constantly improved by Microsoft, so such issues happen less often.
 
 ### Can I create a model with many collections?
 
-You can create up to 200 collections per models.
-However, training Unstructured models with tens of collections can take several hours and -in rare occasions- time out. If your models has a great number of collections, expect to wait up to 24 hours for model training completion.
+You can create up to 200 collections per model. However, training unstructured models with tens of collections can take several hours and&mdash;in rare occasions&mdash;time out. If your model has a great number of collections, expect to wait up to 24 hours for model training completion.
 
+### Can I create a model in a solution?
 
-### Can I create a model in a Solution?
-
-Today it's not possible to create a model in a Solution.
-
+Currently, it isn't possible to create a model in a solution.
 
 ### Can I use contracts and letters in my documents processing model?
 
-Yes, unstructured documents like contracts and letters are supported by document processing. 
+Yes, unstructured documents like contracts and letters are supported by document processing.
 
 ## Comparisons
 
