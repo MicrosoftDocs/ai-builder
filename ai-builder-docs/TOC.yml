@@ -44,14 +44,18 @@
     href: activity-monitoring.md    
 - name: Prompts (preview)
   items:
-  - name: Create a custom prompt with prompt builder
+  - name: Overview
+    href: prompts-overview.md
+  - name: Create a prompt
     href: create-a-custom-prompt.md
-  - name: Share your prompt
+  - name: Share a promp
     href: share-your-prompt.md 
-  - name: Use your custom prompt in Power Apps
+  - name: Use a prompt in Power Apps
     href: use-a-custom-prompt-in-app.md
-  - name: Use your custom prompt in a Power Automate flow  
+  - name: Use a prompt in Power Automate
     href: use-a-custom-prompt-in-flow.md
+  - name: Human review for automation with a prompt (preview)
+    href: azure-openai-human-review.md
 - name: Prebuilt AI models
   items:
   - name: Overview
