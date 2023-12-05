@@ -47,6 +47,21 @@ First, you need to be entitled to some AI Builder capacity. Entitlement can happ
     1. Select **Details** of the **AI Builder Capacity add-on** tile
     1. Follow the purchase process.
 
+### Number of AI Builder credits by license
+
+|License|Number of credits|Rules|
+|-|-|-|
+|AI Builder Add on (T1, T2, T3)|1,000,000|None.|
+| Power Apps Premium |500| Cap on accrued capacity: 1,000,000 credits per tenant.|
+| Power Apps per App |250| Cap on accrued capacity: 1,000,000 credits per tenant. Per App licenses purchased before Nov 2022 don't include any credits.|
+| Power Automate Premium |5,000| Cap on accrued capacity: 1,000,000 credits per tenant.*|
+| Power Automate Process |5,000| Cap on accrued capacity: 1,000,000 credits per tenant.*|
+| Power Automate Hosted RPA add-on |5,000| Cap on accrued capacity: 1,000,000 credits per tenant.*|
+| Power Automate Unattended RPA add-on |5,000| Cap on accrued capacity: 1,000,000 credits per tenant.*|
+|Dynamics 365 F&O|20,000| None. |
+
+*This cap is not enforced yet.
+
 ### Entitlement through AI Builder trial
 
 Entitlement can be through a trial. Credits are then linked to a user. Trials are available only when there's no paid capacity within the organization (tenant).
