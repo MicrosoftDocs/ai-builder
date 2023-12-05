@@ -1,5 +1,5 @@
 ---
-title: Create a custom prompt with prompt builder (preview)
+title: Create a custom prompt (preview)
 description: Learn how to create a custom prompt with prompt builder.
 author: phil-cmd
 contributors:
@@ -12,21 +12,10 @@ ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
-# Create a custom prompt with prompt builder (preview)
+# Create a custom prompt (preview)
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-Prompt builder is a prompt engineering tool from AI Builder. This tool lets makers write and test prompts for the text generation model.
-
-## What a prompt is and how to use it
-
-Think of a prompt as a task or a goal you give to the large language model (LLM). With prompt builder, you can make, test, and save your custom prompts. You can also use input variables to provide dynamic context data at runtime. You can share these prompts with others and use them in Power Automate, Power Apps, or Copilot Studio. For instance, you could make a prompt to pick out action items from your company emails and use it in a Power Automate flow to build an email processing automation.
-
-Prompt builder enables makers to devise custom prompts that cater to their specific business needs using natural language. These prompts can be employed for a variety of tasks or business scenarios, such as summarizing content, categorizing data, extracting entities, translating languages, assessing sentiment, or formulating a response to a complaint.
-
-Prompts can be integrated into flows to build intelligent hands-off automation. Makers can also build advanced generative AI capabilities for their applications by describing them as natural language prompts. These prompts can be used to extend a custom copilot, thereby streamlining your daily business operations and boosting efficiency."
-
-:::image type="content" source="media/create-a-custom-prompt/create-prompt.png" alt-text="Screenshot of the custom prompt page.":::
 
 > [!IMPORTANT]
 > - This is a preview feature.
@@ -34,10 +23,6 @@ Prompts can be integrated into flows to build intelligent hands-off automation. 
 > - View our [preview terms](https://powerplatform.microsoft.com/en-us/legaldocs/supp-powerplatform-preview/).
 > - This capability is only available in United States region.
 > - This capability might be subject to usage limits or capacity throttling.
-
-## Understand AI prompts
-
-This section describes the two types of prompts: custom and prebuilt.
 
 ### Custom prompts
 
