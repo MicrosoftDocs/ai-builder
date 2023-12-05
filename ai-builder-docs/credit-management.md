@@ -60,7 +60,7 @@ First, you need to be entitled to some AI Builder capacity. Entitlement can happ
 | Power Automate Unattended RPA add-on |5,000| Cap on accrued capacity: 1,000,000 credits per tenant*|
 |Dynamics 365 F&O|20,000| none |
 
-*this cap is not enforced yet.
+*This cap is not enforced yet.
 
 ### Entitlement through AI Builder trial
 
