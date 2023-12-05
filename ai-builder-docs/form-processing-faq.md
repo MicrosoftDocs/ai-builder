@@ -64,7 +64,7 @@ You can process up to 360 documents per environment, every 60 seconds.
 ### Why do some characters get recognized incorrectly?
 
 - It can happen that some characters get confused: 0 (number) and O (letter), 1 (number) and l (letter), 4 (number) and A (letter), and more.
-- It can happen that some characters over or close to others get recognized incorrectly: O (letter) over a vertical line becomes a 0 (number), 5 (number) over a line becomes a $ (American dollar sign), l_ (number, underscore) becomes an L (capital letter), and more.
+- It can happen that some characters over or close to others get recognized incorrectly: O (letter) over a vertical line becomes a 0 (number), 5 (number) over a line becomes a $ (American dollar sign), l_ (lowercase letter, underscore) becomes an L (uppercase letter), and more.
 - It can happen that some characters on documents of poor quality get recognized incorrectly, or not at all.
 
 In the above cases, nothing can be done in AI Builder to improve the recognition. We recommand to improve the quality and layout of the source document to solve similar issues.
