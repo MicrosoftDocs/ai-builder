@@ -43,29 +43,36 @@ This section describes the two types of prompts: custom and prebuilt.
 
 Custom prompts give makers the freedom to instruct the LLM model to behave in a certain way or to perform a specific task. By carefully crafting a prompt, you can generate responses that suit your specific business needs. This transforms the LLM model into a flexible tool to accomplish various tasks.
 
+**Use specific text for more relevant responses**
+
+The goal of prompt engineering is to create an instruction  that's as specific as possible to get a more relevant response from the AI model. Your prompts should be specific to a topic and convey your intent.
+
+A prompt might include the following  information:
+
+- The topic
+- Keywords or phrases that are associated with the topic
+- The tone of the response
+- The target audience
+
+If the generated text is too long or contains irrelevant information, adjust the prompt. A good prompt has the following characteristics:
+
+- Clear and concise: It's written in clear and concise language that's easy to understand.
+- Specific: It's specific enough to guide the GPT model in the right direction.
+- Contextual: It provides enough context for the GPT model to generate meaningful output.
+- Relevant: It's relevant to the task and provides the GPT model with enough information to generate meaningful output.
+
+**Parts of a prompt**
+
+There are generally two parts to a prompt for a GPT model, the instruction and the context.
+
+- The instruction is the first part of the prompt. It should provide clear directions on what the model should do; for example, "Summarize this email in three bullets."
+- The context is the second part of the prompt. It should provide the information the model needs to generate an appropriate response; for example, "The email contains customer feedback from the past week."
+
+
 **Example**
 
 With a language model, a custom prompt can guide the model to answer a question, complete text, translate languages, summarize a document, and identify tasks, to-dos, and action items in text. The complexity of a custom prompt can range from a single sentence to something more intricate, depending on the task.
 
-### Prebuilt prompts
-
-Prebuilt prompts are pre-configured prompts created and fine-tuned by the Microsoft team to assist makers in accomplishing common tasks easily. They offer templates to demonstrate how to use generative AI across various use cases, which simplifies interactions.
-
-**Example**
-
-A language model's prebuilt prompt could look like this:
-
-`Extract as a numbered list the action points from the: [TextToExtract]`
-
-In this case, the user only needs to supply the text in `[TextToExtract]` from which they want to extract action points. The prebuilt prompt takes care of the rest.
-
-## Prerequisites
-
-- Have a basic understanding of how to write prompts.
-- Your environment is in the United States.
-- You have a Power Apps or Power Automate license.
-- A Microsoft Dataverse database is installed on the environment.
-- You have an AI Builder add-on.
 
 ## Get started
 
@@ -110,6 +117,10 @@ When you're satisfied, select **Save custom prompt**.
 - Use in Power Apps
     - Empowers makers to incorporate existing prompts into their apps.
     - [Use a custom prompt in Power Apps](use-a-custom-prompt-in-app.md)
+
+- Use in Power Automate
+  - Empowers makers to incorporate existing prompts into their flows.
+  - [Use a custom prompt in Power Apps](use-a-custom-prompt-in-flow.md)
 
 ### See also
 
