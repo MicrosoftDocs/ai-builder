@@ -105,7 +105,7 @@ When you're satisfied, select **Save custom prompt**.
 
 - Use in Power Automate
   - Empowers makers to incorporate existing prompts into their flows.
-  - [Use a custom prompt in Power Apps](use-a-custom-prompt-in-flow.md)
+  - [Use a custom prompt in Power Flows](use-a-custom-prompt-in-flow.md)
 
 ### See also
 
