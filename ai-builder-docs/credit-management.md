@@ -58,7 +58,7 @@ First, you need to be entitled to some AI Builder capacity. Entitlement can happ
 | Power Automate Process |5,000| Cap on accrued capacity: 1,000,000 credits per tenant.*|
 | Power Automate Hosted RPA add-on |5,000| Cap on accrued capacity: 1,000,000 credits per tenant.*|
 | Power Automate Unattended RPA add-on |5,000| Cap on accrued capacity: 1,000,000 credits per tenant.*|
-|Dynamics 365 F&O|20,000| None. |
+|Dynamics 365 F&O|20,000| maximum = 20,000 credits per tenant |
 
 *This cap is not enforced yet.
 
