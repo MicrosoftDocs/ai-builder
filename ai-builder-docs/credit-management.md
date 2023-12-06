@@ -49,6 +49,8 @@ First, you need to be entitled to some AI Builder capacity. Entitlement can happ
 
 ### Number of AI Builder credits by license
 
+In the following table, rules include either a cap on accrued capacity, or a maximum number of credits per tenant. If there's a cap (capitalization limit), then credits can be incrementally added multiple times until the cap is reached. If there's a maximum, then credits are given one time only.
+
 |License|Number of credits|Rules|
 |-|-|-|
 |AI Builder Add on (T1, T2, T3)|1,000,000|None.|
@@ -58,7 +60,7 @@ First, you need to be entitled to some AI Builder capacity. Entitlement can happ
 | Power Automate Process |5,000| Cap on accrued capacity: 1,000,000 credits per tenant.*|
 | Power Automate Hosted RPA add-on |5,000| Cap on accrued capacity: 1,000,000 credits per tenant.*|
 | Power Automate Unattended RPA add-on |5,000| Cap on accrued capacity: 1,000,000 credits per tenant.*|
-|Dynamics 365 F&O|20,000| maximum = 20,000 credits per tenant |
+|Dynamics 365 F&O|20,000| Maximum = 20,000 credits per tenant. |
 
 *This cap is not enforced yet.
 
