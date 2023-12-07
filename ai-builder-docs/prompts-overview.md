@@ -7,17 +7,20 @@ contributors:
   - v-aangie
 ms.topic: conceptual
 ms.collection: get-started
-ms.date: 12/04/2023
+ms.date: 12/07/2023
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
 # Overview of prompts (preview)
 
-This article explains prompt engineering and other key concepts to help you create powerful applications that can generate text from your input. Prompt is a natural language instruction that tells a large language model (LLM) to perform a task, the process also known as "Instruction tuning". The GPT model follows  the prompt to determine the structure and content of the text it needs to generate. Prompt engineering is the process of creating and refining the instruction  that's used to generate text with the GPT text generation capability.
+[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
+
+This article explains prompt engineering and other key concepts to help you create powerful applications that can generate text from your input. Prompt is a natural language instruction that tells a large language model (LLM) to perform a task, the process also known as "Instruction tuning". The GPT model follows the prompt to determine the structure and content of the text it needs to generate. Prompt engineering is the process of creating and refining the instruction  that's used to generate text with the GPT text generation capability.
 
 Prompt builder is a prompt engineering tool from AI Builder. This tool lets makers write and test prompts for the GPT model.
 
+[!INCLUDE[cc-preview-features-definition](./includes/cc-preview-features-definition.md)]
 
 ## Prerequisites
 
@@ -26,7 +29,6 @@ Prompt builder is a prompt engineering tool from AI Builder. This tool lets make
 - You have a Power Apps or Power Automate license.
 - A Microsoft Dataverse database is installed on the environment.
 - You have an AI Builder add-on. 
-
 
 ## What a prompt is and how to use it
 
@@ -44,8 +46,7 @@ Human review can also help to identify any issues with the GPT model itself. For
 
 ## Responsible AI
 
-We're committed to creating [responsible AI](https://blogs.microsoft.com/on-the-issues/2023/02/02/responsible-ai-chatgpt-artificial-intelligence/) by design. Our work is guided by a [core set of principles](https://www.microsoft.com/ai/responsible-ai): fairness, reliability and safety, privacy and security, inclusiveness, transparency, and accountability. We're putting these principles into practice across the company to develop and deploy AI that has a positive impact on society. We take a comprehensive approach, combining innovative research, exceptional engineering, and responsible governance. Alongside OpenAI's leading research on AI alignment, we're advancing a framework for the safe deployment of our own AI technologies that's aimed to help guide the industry toward more responsible outcomes. 
-
+We're committed to creating [responsible AI](https://blogs.microsoft.com/on-the-issues/2023/02/02/responsible-ai-chatgpt-artificial-intelligence/) by design. Our work is guided by a [core set of principles](https://www.microsoft.com/ai/responsible-ai): fairness, reliability and safety, privacy and security, inclusiveness, transparency, and accountability. We're putting these principles into practice across the company to develop and deploy AI that has a positive impact on society. We take a comprehensive approach, combining innovative research, exceptional engineering, and responsible governance. Alongside OpenAI's leading research on AI alignment, we're advancing a framework for the safe deployment of our own AI technologies that's aimed to help guide the industry toward more responsible outcomes.
 
 [Learn more about transparency in the Azure OpenAI Service](https://learn.microsoft.com/legal/cognitive-services/openai/transparency-note?context=%2Fazure%2Fcognitive-services%2Fopenai%2Fcontext%2Fcontext)
 
