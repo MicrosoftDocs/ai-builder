@@ -47,5 +47,5 @@ Our objective is to further refine the text generation model with appropriate sa
 
 ### See also
 
-- [Responsible AI - FAQ](faqs-text-generation.md)
+[Responsible AI - FAQ](faqs-text-generation.md)
 

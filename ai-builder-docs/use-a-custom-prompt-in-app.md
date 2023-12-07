@@ -1,5 +1,5 @@
 ---
-title: Use your custom prompt in Power Apps (preview)
+title: Use a custom prompt in Power Apps (preview)
 description: Learn how to use your custom prompt in Power Apps.
 author: phil-cmd
 contributors:
@@ -12,7 +12,7 @@ ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
-# Use your custom prompt in Power Apps (preview)
+# Use a custom prompt in Power Apps (preview)
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 

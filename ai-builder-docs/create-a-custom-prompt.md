@@ -1,6 +1,6 @@
 ---
 title: Create a custom prompt (preview)
-description: Learn how to create a custom prompt with prompt builder.
+description: Learn how to create a custom prompt.
 author: phil-cmd
 contributors:
   - phil-cmd
@@ -15,7 +15,6 @@ ms.reviewer: angieandrews
 # Create a custom prompt (preview)
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
-
 
 > [!IMPORTANT]
 > - This is a preview feature.
@@ -41,23 +40,21 @@ A prompt might include the following  information:
 
 If the generated text is too long or contains irrelevant information, adjust the prompt. A good prompt has the following characteristics:
 
-- Clear and concise: It's written in clear and concise language that's easy to understand.
-- Specific: It's specific enough to guide the GPT model in the right direction.
-- Contextual: It provides enough context for the GPT model to generate meaningful output.
-- Relevant: It's relevant to the task and provides the GPT model with enough information to generate meaningful output.
+- **Clear and concise**: It's written in clear and concise language that's easy to understand.
+- **Specific**: It's specific enough to guide the GPT model in the right direction.
+- **Contextual**: It provides enough context for the GPT model to generate meaningful output.
+- **Relevant**: It's relevant to the task and provides the GPT model with enough information to generate meaningful output.
 
 **Parts of a prompt**
 
-There are generally two parts to a prompt for a GPT model, the instruction and the context.
+There are generally two parts to a prompt for a GPT model: the instruction and the context.
 
-- The instruction is the first part of the prompt. It should provide clear directions on what the model should do; for example, "Summarize this email in three bullets."
-- The context is the second part of the prompt. It should provide the information the model needs to generate an appropriate response; for example, "The email contains customer feedback from the past week."
-
+- The instruction is the first part of the prompt. It should provide clear directions on what the model should do, for example, "Summarize this email in three bullets."
+- The context is the second part of the prompt. It should provide the information the model needs to generate an appropriate response, for example, "The email contains customer feedback from the past week."
 
 **Example**
 
 With a language model, a custom prompt can guide the model to answer a question, complete text, translate languages, summarize a document, and identify tasks, to-dos, and action items in text. The complexity of a custom prompt can range from a single sentence to something more intricate, depending on the task.
-
 
 ## Get started
 
@@ -76,7 +73,10 @@ Use the following screenshot as a guide to build and test your prompt.
 :::image type="content" source="media/create-a-custom-prompt/configure-test.png" alt-text="Screenshot of the steps to configure and test your prompt."::: 
 
 1. Enter a name for your prompt.
-1. Write or paste your prompt or you can build upon an existing template, to give yourself a starting point.
+1. Write or paste your prompt.
+
+    Alternatvely, you can build upon an existing template to give yourself a starting point.
+
 1. Add a dynamic value, and then select **Enter**.
 
     In the process of building prompts, makers often need to provide context data to ensure that the model generates appropriate responses. To facilitate this, dynamic values are used in the prompt, serving as placeholders that get filled with actual data at runtime.
