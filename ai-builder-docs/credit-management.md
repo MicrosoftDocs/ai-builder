@@ -55,7 +55,7 @@ The following table explains the rules for number of credits per license.
 |-|-|-|
 |AI Builder add-on (T1, T2, T3)|1,000,000|None.|
 | Power Apps Premium |500| Maximum = 1,000,000 credits per tenant.|
-| Power Apps per app |250| Maximum = 1,000,000 credits per tenant. Per App licenses purchased before Nov 2022 don't include any credits.|
+| Power Apps per app |250| Maximum = 1,000,000 credits per tenant. Per app licenses purchased before November 2022 don't include any credits.|
 | Power Automate Premium |5,000| Maximum = 1,000,000 credits per tenant.\*|
 | Power Automate Process |5,000| Maximum = 1,000,000 credits per tenant.|
 | Power Automate Hosted RPA add-on |5,000| Maximum = 1,000,000 credits per tenant.\*|
