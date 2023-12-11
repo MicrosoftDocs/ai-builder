@@ -34,7 +34,7 @@ AI Builder credits can also come from AI Builder trial. In that case, they're li
 
 First, you need to be entitled to some AI Builder capacity. Entitlement can happen through one of the following paid capacities.
 
-- Some Microsoft products like Power Apps per app plan, Power Apps per user plan, and Power Automate Premium (previously Power Automate per user with attended RPA) plan include  AI Builder capacity. Your environment admin can check entitlement in Power Platform admin center by following the instructions in [Capacity add-ons](/power-platform/admin/capacity-add-on). When this amount isn't enough, you need to complete it with one or more AI Builder capacity add-ons.
+- Some Microsoft products like Power Apps per app plan, Power Apps per user plan, and Power Automate Premium (previously Power Automate per user with attended RPA) plan include  AI Builder capacity. Your environment admin can check entitlement in Power Platform admin center by following the instructions in [Capacity add-ons](/power-platform/admin/capacity-add-on). When this number isn't enough, you need to complete it with one or more AI Builder capacity add-ons.
 
 - Main source of credits is AI Builder credit add-on that you can purchase in the Microsoft 365 admin center:
 
@@ -99,7 +99,7 @@ To learn more about how to allocate credits in the Power Platform admin center, 
 ## Monitor usage
 
 As an administrator, you can view your overall credit consumption in the [Power Platform admin center](https://admin.powerplatform.microsoft.com/) in the **Resources** > **Capacity** > **Summary** tab.  
-The **Allocation bar** and the **Consumption bar** display the amount of **allocated** credits and **consumed** credits out of the total amount of **purchased** credits. 
+The **Allocation bar** and the **Consumption bar** display the number of **allocated** credits and **consumed** credits out of the total number of **purchased** credits.
 
 :::image type="content" source="media/credit-management/ppac-consumption.png" alt-text="Screenshot of the overall AI Builder credit consumption in the Power Platform admin center.":::
 
@@ -187,7 +187,7 @@ Each AI Builder capability consumes service credits at a different rate. You can
 
 You need to check entitlement allocation of your environment. If there's no allocation, and no allocation at the organization (tenant) level, [allocate capacity](credit-management.md#make-credits-available-for-an-environment-allocated-and-unallocated-credits) to the environment or organization (tenant) level from other environments or by [purchasing AI Builder add-on](credit-management.md#get-entitlement-to-ai-builder-credits).
 
-If there are AI Builder credits allocated or available at organization (tenant) level, compare the amount with the [AI Builder consumption report](administer-consumption-report.md).
+If there are AI Builder credits allocated or available at organization (tenant) level, compare the number with the [AI Builder consumption report](administer-consumption-report.md).
 Then [allocate more capacity](credit-management.md#make-credits-available-for-an-environment-allocated-and-unallocated-credits) eventually by [purchasing the AI Builder add-on](credit-management.md#get-entitlement-to-ai-builder-credits).
 
 ### I have seeded credits. How many add-ons should I buy to cover my need?
@@ -196,7 +196,7 @@ Credits coming from the AI Builder add-on (1,000,000 credits per add-on) and cre
 
 **Example 1**
 
-1 add-on + 5 Power Automate premium license gives 1,000,000+5*5,000 = 1,025,000 credits that you can assign and consume in any scenario.
+One (1) add-on + 5 Power Automate premium licenses gives 1,000,000+5*5,000 = 1,025,000 credits that you can assign and consume in any scenario.
 
 **Example 2**
 
@@ -207,9 +207,9 @@ You have a scenario with 32,000 receipts to process each month with receipt proc
 > [!NOTE]
 > The [AI Builder calculator](https://powerapps.microsoft.com/en-us/ai-builder-calculator/) doesn’t give the exact number of AI Builder credits. It gives the number of add-ons, which is needed to cover the need. Here, it proposes to buy two (2) add-ons (2,000,000 credits) to cover the 1,024,000 credits.
 
-Supposing you own 5 Power Automate premium licenses, you're covered with a single add-on:
+Supposing you own five (5) Power Automate premium licenses, you're covered with a single add-on:
 
-1 add-on + 5 Power Automate premium license = 1,025,000 credits, which is greater than your estimated consumption of 1,024,000 credits.
+One (1) add-on + 5 Power Automate premium licenses = 1,025,000 credits, which is greater than your estimated consumption of 1,024,000 credits.
 
 ### Where can I see credit usage for this month?
 
@@ -220,10 +220,10 @@ The data is aggregated daily. Some data may be delayed; if so, the consumption b
 Get details on your environment consumption by checking the [AI Builder consumption report](administer-consumption-report.md). It gives the amount of consumption per day per user per environment.
 Adding all the consumptions of the current month of a specific environment gives you the monthly consumption of this environment.
 
-### How do I know the amount of purchased credits of my organization(tenant) ?
+### How do I know the number of purchased credits of my organization (tenant) ?
 
-The [consumption bar and allocation bar](https://go.microsoft.com/fwlink/?linkid=2255314)  display the amount of **purchased** credits.
-Credits come from AI Builder addons and are also seeded in premium licenses like Power Automate Premium. 
+The [consumption bar and allocation bar](https://go.microsoft.com/fwlink/?linkid=2255314)  display the number of **purchased** credits.
+Credits come from AI Builder addons and are also seeded in premium licenses like Power Automate Premium.
 
 You can also go to [admin center](https://admin.powerplatform.microsoft.com/) Resources/Add-ons/'Assign to an environment' to see the remaining AI Builder credits: it represents the purchased capacity which has not been allocated yet.
 
