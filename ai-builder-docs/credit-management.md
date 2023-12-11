@@ -49,20 +49,20 @@ First, you need to be entitled to some AI Builder capacity. Entitlement can happ
 
 ### Number of AI Builder credits by license
 
-In the following table, rules include either a cap on accrued capacity, or a maximum number of credits per tenant. If there's a cap (capitalization limit), then credits can be incrementally added multiple times until the cap is reached. If there's a maximum, then credits are given one time only.
+The following table explains the rules for number of credits per license.
 
 |License|Number of credits|Rules|
 |-|-|-|
-|AI Builder Add on (T1, T2, T3)|1,000,000|None.|
-| Power Apps Premium |500| Cap on accrued capacity: 1,000,000 credits per tenant.|
-| Power Apps per App |250| Cap on accrued capacity: 1,000,000 credits per tenant. Per App licenses purchased before Nov 2022 don't include any credits.|
-| Power Automate Premium |5,000| Cap on accrued capacity: 1,000,000 credits per tenant.*|
-| Power Automate Process |5,000| Cap on accrued capacity: 1,000,000 credits per tenant.*|
-| Power Automate Hosted RPA add-on |5,000| Cap on accrued capacity: 1,000,000 credits per tenant.*|
-| Power Automate Unattended RPA add-on |5,000| Cap on accrued capacity: 1,000,000 credits per tenant.*|
+|AI Builder add-on (T1, T2, T3)|1,000,000|None.|
+| Power Apps Premium |500| Maximum = 1,000,000 credits per tenant.|
+| Power Apps per app |250| Maximum = 1,000,000 credits per tenant. Per App licenses purchased before Nov 2022 don't include any credits.|
+| Power Automate Premium |5,000| Maximum = 1,000,000 credits per tenant.\*|
+| Power Automate Process |5,000| Maximum = 1,000,000 credits per tenant.|
+| Power Automate Hosted RPA add-on |5,000| Maximum = 1,000,000 credits per tenant.\*|
+| Power Automate Unattended RPA add-on |5,000| Maximum = 1,000,000 credits per tenant.\*|
 |Dynamics 365 F&O|20,000| Maximum = 20,000 credits per tenant. |
 
-*This cap is not enforced yet.
+\*This maximum isn't enforced yet.
 
 ### Entitlement through AI Builder trial
 
@@ -77,7 +77,7 @@ To learn more, go to [AI Builder trial](ai-builder-trials.md).
 
 ## Make credits available for an environment: allocated and unallocated credits
 
-By default, the credits are unallocated (also known as unassigned) and available as a pool on the organization (tenant), which can be used on any environment. 
+By default, the credits are unallocated (also known as unassigned) and available as a pool on the organization (tenant), which can be used on any environment.
 
 As an administrator, you assess which environments must consume AI Builder credits. Use the [AI Builder calculator](https://powerapps.microsoft.com/ai-builder-calculator/) site to estimate how many predictions happen in a monthly period on each one and assess the credits to allocate.
 
