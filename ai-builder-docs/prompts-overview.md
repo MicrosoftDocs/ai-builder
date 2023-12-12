@@ -14,9 +14,12 @@ ms.reviewer: angieandrews
 
 # Overview of prompts
 
-This article explains prompt engineering and other key concepts to help you create powerful applications that can generate text from your input. Prompt is a natural language instruction that tells a large language model (LLM) to perform a task, the process also known as "Instruction tuning". The GPT model follows the prompt to determine the structure and content of the text it needs to generate. Prompt engineering is the process of creating and refining the instruction  that's used to generate text with the GPT text generation capability.
+This article explains prompt engineering and other key concepts to help you create powerful applications that can generate text from an input (prompt). 
 
-Prompt builder is a prompt engineering tool from AI Builder. This tool lets makers write and test prompts for the GPT model.
+A prompt is a natural language instruction that tells a large language model (LLM) to perform a task, the process also known as "Instruction tuning". The model follows the prompt to determine the structure and content of the text it needs to generate. Prompt engineering is the process of creating and refining the prompt that is used by the model.
+
+AI Builder provide a provides a prompt builder that allow makers to write, test, save and use prompts running on GPT-3.5 Turbo model powered by [Azure OpenAI Service](https://learn.microsoft.com/azure/ai-services/openai/whats-new).
+
 
 > [!IMPORTANT]
 > - This capability is [limited to some regions](availability-region?branch=main#prompts).
@@ -25,7 +28,7 @@ Prompt builder is a prompt engineering tool from AI Builder. This tool lets make
 ## Prerequisites
 
 - Have a basic understanding of how to write prompts.
-- Your environment is in the United States.
+- Your environment is in the [list of available regions](availability-region?branch=main#prompts).
 - You have a Power Apps or Power Automate license.
 - A Microsoft Dataverse database is installed on the environment.
 - You have an AI Builder add-on. 
