@@ -18,10 +18,10 @@ This article explains prompt engineering and other key concepts to help you crea
 
 A prompt is a natural language instruction that tells a large language model (LLM) to perform a task, the process also known as "Instruction tuning". The model follows the prompt to determine the structure and content of the text it needs to generate. Prompt engineering is the process of creating and refining the prompt that is used by the model.
 
-AI Builder provide a provides a prompt builder that allow makers to write, test, save and use prompts running on GPT-3.5 Turbo model powered by [Azure OpenAI Service](https://learn.microsoft.com/azure/ai-services/openai/whats-new).
-
+AI Builder provides a prompt builder that allow makers to write, test, save and use prompts to generate text.
 
 > [!IMPORTANT]
+> - AI Builder prompts are running on GPT-3.5 Turbo model powered by [Azure OpenAI Service](https://learn.microsoft.com/azure/ai-services/openai/whats-new).
 > - This capability is [limited to some regions](availability-region?branch=main#prompts).
 > - This capability might be subject to usage limits or capacity throttling.
 
