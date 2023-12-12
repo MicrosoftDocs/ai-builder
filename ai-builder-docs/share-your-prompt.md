@@ -1,5 +1,5 @@
 ---
-title: Share a prompt (preview)
+title: Share a prompt
 description: Learn how to share your prompt.
 author: phil-cmd
 contributors:
@@ -12,19 +12,14 @@ ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
-# Share a prompt (preview)
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
+# Share a prompt
 
 Newly created prompts are private by default. This means they're visible and usable in Power Automate, Power Apps, and Microsoft Copilot Studio only by the person who created them. This allows the maker the time to test and evaluate them in apps or workflows and ensure their accuracy before sharing them.
 
 If you want other users of the environment or groups to use your prompt in Power Apps or Power Automate, you need to share it.
 
 > [!IMPORTANT]
-> - This is a preview feature.
-> - Preview features aren’t meant for production use and may have restricted functionality. These features are available before an official release so that customers can get early access and provide feedback.
-> - View our [preview terms](https://powerplatform.microsoft.com/en-us/legaldocs/supp-powerplatform-preview/).
-> - This capability is only available in United States region.
+> - This capability is [limited to some regions](availability-region?branch=main#prompts).
 > - This capability might be subject to usage limits or capacity throttling.
 
 ## Use the Share action
