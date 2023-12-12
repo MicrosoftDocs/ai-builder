@@ -55,8 +55,8 @@ With a language model, a custom prompt can guide the model to answer a question,
 
 Prompt builder provides the flexibility to create your own custom prompt by defining input variables that enable incorporating dynamic runtime content within a prompt. It gives you the ability to validate the prompt with **Test your prompt**, ensuring optimal prompt performance and correctness of the response before integration into your business solutions.
 
-1. Sign in to [Power Apps](https://make.powerapps.com) or [Power Automate](https://flow.microsoft.com).
-1. On the left pane, select **Prompts** > **Create text, summarize documents, and more with GPT**.
+1. Sign in to [Power Apps](https://make.powerapps.com), [Power Automate](https://make.powerautomate.com) or [Copilot Studio](https:///copilotstudio.microsoft.com).
+1. On the left pane, select **AI prompts** or **Prompts** > **Create text using a prompt**. Note that for Power Apps and Power Automate, you may need to first click on **AI hub** on the left pane.
 1. On the lower-right corner, select **Create custom prompt**.
 
     :::image type="content" source="media/create-a-custom-prompt/custom-prompt-button.png" alt-text="Screenshot of the 'Create custom prompt' button."::: 
@@ -95,13 +95,13 @@ When you're satisfied, select **Save custom prompt**.
 ## Next step
 
 - Use in Power Apps
-    - Empowers makers to incorporate existing prompts into their apps.
-    - [Use a custom prompt in Power Apps](use-a-custom-prompt-in-app.md)
+  - Empowers makers to incorporate existing prompts into their apps.
+  - [Use a prompt in Power Apps](use-a-custom-prompt-in-app.md)
 
 - Use in Power Automate
   - Empowers makers to incorporate existing prompts into their flows.
-  - [Use a custom prompt in Power Flows](use-a-custom-prompt-in-flow.md)
+  - [Use a prompt in Power Automate](use-a-custom-prompt-in-flow.md)
 
 ### See also
 
-[Human review for automation with the text generation model (preview)](azure-openai-human-review.md)
+[Human review for automation with the text generation model](azure-openai-human-review.md)
