@@ -1,5 +1,5 @@
 ---
-title: Prompts Overview (preview)
+title: Prompts Overview
 description: Learn about prompt engineering and other key concepts to help you create powerful applications that can generate text from your input.
 author: phil-cmd
 contributors:
@@ -12,15 +12,11 @@ ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
-# Overview of prompts (preview)
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
+# Overview of prompts
 
 This article explains prompt engineering and other key concepts to help you create powerful applications that can generate text from your input. Prompt is a natural language instruction that tells a large language model (LLM) to perform a task, the process also known as "Instruction tuning". The GPT model follows the prompt to determine the structure and content of the text it needs to generate. Prompt engineering is the process of creating and refining the instruction  that's used to generate text with the GPT text generation capability.
 
 Prompt builder is a prompt engineering tool from AI Builder. This tool lets makers write and test prompts for the GPT model.
-
-[!INCLUDE[cc-preview-features-definition](./includes/cc-preview-features-definition.md)]
 
 ## Prerequisites
 
