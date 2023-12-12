@@ -18,6 +18,10 @@ This article explains prompt engineering and other key concepts to help you crea
 
 Prompt builder is a prompt engineering tool from AI Builder. This tool lets makers write and test prompts for the GPT model.
 
+> [!IMPORTANT]
+> - This capability is [limited to some regions](availability-region?branch=main#prompts).
+> - This capability might be subject to usage limits or capacity throttling.
+
 ## Prerequisites
 
 - Have a basic understanding of how to write prompts.
