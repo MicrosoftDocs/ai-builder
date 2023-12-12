@@ -60,9 +60,28 @@ A prompt can be added as an action in a Power Automation flow so it is possible 
 
     :::image type="content" source="media/use-a-custom-prompt-in-flow/input-text-dynamic.png" alt-text="Screenshot of selecting the 'Input' text from the Dynamic content list for the 'Input Text' field.":::
 
-You can now add actions that would leverage the dynamic output of the GPT action, named **Text**.
+1. You can now add actions that would leverage the dynamic output of the GPT action, named **Text**.
 
-## Use an existing prompt in a flow
+## Create a new prompt in a flow
+
+1. Sign in to [Power Automate](https://make.powerautomate.com/).
+   
+1. Select **+Create** > **Instant cloud flow**.
+
+1. In the designer, select **+Insert a new step** after **Manually trigger a flow** > **Add an action**.
+
+1. On the left pane in the **Search** field, enter **GPT** > **Create text with GPT using a prompt**.
+
+1. On the left pane in the **Name** field, select **New custom prompt** from the dropdown menu.
+   
+    :::image type="content" source="media/use-a-custom-prompt-in-flow/new-prompt.png" alt-text="Create a new prompt":::
+
+1. Follow the instruction from the [Create a prompt](create-a-custom-prompt.md) documentation to create your prompt instructions.
+
+1. After saving your prompt, you may see new fields on the left pane representing the dynamic values added in your prompt. Make sure to fill them using static or dyanmic content.
+
+1. You can now add actions that would leverage the dynamic output of the GPT action, named **Text**.
+
 
 ## Test your flow
 
