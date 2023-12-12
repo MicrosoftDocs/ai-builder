@@ -24,19 +24,19 @@ If you want other users of the environment or groups to use your prompt in Power
 
 ## Use the Share action
 
-The Share action is available on both the **My prompts** page in Copilot Studio and in Power Automate. It’s also available for the system administrator in the environment, or for any security role that has share permissions. For instance, sharing a prompt is performed by selecting **Share** for the respective prompt. You can add people as **Users** to your model so they can use your model in apps and flows.
+The Share action is available for every prompt owner on the **My prompts** page in Power Automate, Power Apps, and Microsoft Copilot Studio. It’s also available for the system administrator of the environment, or for any security role that has the share permissions. Sharing a prompt is performed by selecting **Share** for the respective prompt. You can add people as **Users** of your prompt so they can use your prompts in flows, apps, and chatbots.
 
 ## Understand the Share panel
 
-When you select the **Share** action, a **Share** panel appears. This is where you select Microsoft Dataverse users and teams in your organization and share your prompt with them.
+When you select the **Share** action, a **Share** panel appears. This is where you select users or teams in your organization with whom you will share your prompt.
 
 ### Prompt list views
 
-The prompts you create and the prompts that are shared with you appear in three different views in Power Automate, Power Apps, and Copilot Studio.
+The prompts visible to you appear in three different views on the Prompts page.
 
-- My prompts
-- Shared with me
-- All prompts
+- My prompts: the prompts you created
+- Shared with me: the prompts that are shared with you
+- All prompts: all the prompts that you created or that are shared with you
 
 ## FAQ
 
@@ -48,5 +48,5 @@ No. When sharing a prompt with a user, they won't have the ability to edit or de
 
 ### Can I stop sharing a prompt?
 
-Yes. To stop sharing a prompt, select **Share** > <***user name***>. Then, select the **X** to remove the share with the user.
+Yes. To stop sharing a prompt, select **Share** > <***user or team name***>. Then, select the **X** to stop sharing the prompt with user or team.
 
