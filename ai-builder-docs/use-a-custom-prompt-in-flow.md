@@ -1,5 +1,5 @@
 ---
-title: Use a custom prompt in a Power Automate flow (preview)
+title: Use a custom prompt in a Power Automate flow
 description: Learn how to use your custom prompt in a Power Automate flow.
 author: phil-cmd
 contributors:
@@ -12,22 +12,17 @@ ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
-# Use a custom prompt in a Power Automate flow (preview)
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
+# Use a custom prompt in a Power Automate flow
 
 A custom prompt in a Power Automate flow grants the ability to incorporate an existing prompt as a flow action.
 
 > [!IMPORTANT]
-> - This is a preview feature.
-> - Preview features aren’t meant for production use and may have restricted functionality. These features are available before an official release so that customers can get early access and provide feedback.
-> - View our [preview terms](https://powerplatform.microsoft.com/en-us/legaldocs/supp-powerplatform-preview/).
-> - This capability is only available in United States region.
+> - This capability is [limited to some regions](availability-region?branch=main#prompts).
 > - This capability might be subject to usage limits or capacity throttling.
 
 ## Prerequisite
 
-You've created a custom prompt named **Task Identifier** that has one input called **Input Text**. More information: [Create a custom prompt with prompt builder (preview)](create-a-custom-prompt.md)
+You've created a custom prompt named **Task Identifier** that has one input called **Input Text**. More information: [Create a custom prompt with prompt builder](create-a-custom-prompt.md)
 
 ## Create a flow and configure it
 
@@ -127,4 +122,4 @@ There are numerous potential outcomes to consider, including those related to em
 
 ### See also
 
-[Human review for automation with the text generation model (preview)](azure-openai-human-review.md)
+[Human review for automation with a prompt](azure-openai-human-review.md)
