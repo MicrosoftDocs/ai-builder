@@ -18,7 +18,7 @@ ms.reviewer: angieandrews
 > - This capability is [limited to some regions](availability-region?branch=main#prompts).
 > - This capability might be subject to usage limits or capacity throttling.
 
-### Custom prompts
+## Custom prompts
 
 Custom prompts give makers the freedom to instruct the LLM model to behave in a certain way or to perform a specific task. By carefully crafting a prompt, you can generate responses that suit your specific business needs. This transforms the LLM model into a flexible tool to accomplish various tasks.
 
