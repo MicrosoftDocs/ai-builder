@@ -15,10 +15,11 @@ ms.reviewer: angieandrews
 # Create a prompt
 
 > [!IMPORTANT]
+> - AI Builder prompts are running on GPT-3.5 Turbo model powered by [Azure OpenAI Service](https://learn.microsoft.com/azure/ai-services/openai/whats-new).
 > - This capability is [limited to some regions](availability-region?branch=main#prompts).
 > - This capability might be subject to usage limits or capacity throttling.
 
-## Custom prompts
+## What is a custom prompt
 
 Custom prompts give makers the freedom to instruct GPT model to behave in a certain way or to perform a specific task. By carefully crafting a prompt, you can generate responses that suit your specific business needs. This transforms the GPT model into a flexible tool to accomplish various tasks.
 
@@ -51,7 +52,7 @@ There are generally two parts to a prompt for a GPT model: the instruction and t
 
 A custom prompt can guide the GPT model to answer a question, complete text, translate languages, summarize a document, and identify tasks, to-dos, and action items in text. The complexity of a custom prompt can range from a single sentence to something more intricate, depending on the task.
 
-## Get started
+## Create a GPT prompt
 
 Prompt builder provides the flexibility to create your own custom prompt by defining input variables that enable incorporating dynamic runtime content within a prompt. It gives you the ability to validate the prompt with **Test your prompt**, ensuring optimal prompt performance and correctness of the response before integration into your business solutions.
 
