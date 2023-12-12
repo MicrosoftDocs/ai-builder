@@ -20,11 +20,11 @@ ms.reviewer: angieandrews
 
 ## Custom prompts
 
-Custom prompts give makers the freedom to instruct the LLM model to behave in a certain way or to perform a specific task. By carefully crafting a prompt, you can generate responses that suit your specific business needs. This transforms the LLM model into a flexible tool to accomplish various tasks.
+Custom prompts give makers the freedom to instruct GPT model to behave in a certain way or to perform a specific task. By carefully crafting a prompt, you can generate responses that suit your specific business needs. This transforms the GPT model into a flexible tool to accomplish various tasks.
 
 **Use specific text for more relevant responses**
 
-The goal of prompt engineering is to create an instruction  that's as specific as possible to get a more relevant response from the AI model. Your prompts should be specific to a topic and convey your intent.
+The goal of prompt engineering is to create an instruction that's as specific as possible to get a more relevant response from the GPT model. Your prompts should be specific to a topic and convey your intent.
 
 A prompt might include the following  information:
 
@@ -44,12 +44,12 @@ If the generated text is too long or contains irrelevant information, adjust the
 
 There are generally two parts to a prompt for a GPT model: the instruction and the context.
 
-- The instruction is the first part of the prompt. It should provide clear directions on what the model should do, for example, "Summarize this email in three bullets."
-- The context is the second part of the prompt. It should provide the information the model needs to generate an appropriate response, for example, "The email contains customer feedback from the past week."
+- The instruction is the first part of the prompt. It should provide clear directions on what the GPT model should do, for example, "Summarize this email in three bullets."
+- The context is the second part of the prompt. It should provide the information the GPT model needs to generate an appropriate response, for example, "The email contains customer feedback from the past week."
 
 **Example**
 
-With a language model, a custom prompt can guide the model to answer a question, complete text, translate languages, summarize a document, and identify tasks, to-dos, and action items in text. The complexity of a custom prompt can range from a single sentence to something more intricate, depending on the task.
+A custom prompt can guide the GPT model to answer a question, complete text, translate languages, summarize a document, and identify tasks, to-dos, and action items in text. The complexity of a custom prompt can range from a single sentence to something more intricate, depending on the task.
 
 ## Get started
 
@@ -74,7 +74,7 @@ Use the following screenshot as a guide to build and test your prompt.
 
 1. Add a dynamic value, and then select **Enter**.
 
-    In the process of building prompts, makers often need to provide context data to ensure that the model generates appropriate responses. To facilitate this, dynamic values are used in the prompt, serving as placeholders that get filled with actual data at runtime.
+    In the process of building prompts, makers often need to provide context data to ensure that the GPT model generates appropriate responses. To facilitate this, dynamic values are used in the prompt, serving as placeholders that get filled with actual data at runtime.
   
 1. Test your prompt using the sample value.
 
@@ -104,4 +104,4 @@ When you're satisfied, select **Save custom prompt**.
 
 ### See also
 
-[Human review for automation with the text generation model](azure-openai-human-review.md)
+[Human review for automation with a prompt](azure-openai-human-review.md)
