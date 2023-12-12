@@ -1,5 +1,5 @@
 ---
-title: Create a custom prompt
+title: Create a prompt
 description: Learn how to create a custom prompt.
 author: phil-cmd
 contributors:
@@ -12,7 +12,7 @@ ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
-# Create a custom prompt
+# Create a prompt
 
 > [!IMPORTANT]
 > - This capability is [limited to some regions](availability-region?branch=main#prompts).
