@@ -1,5 +1,5 @@
 ---
-title: Human review for automation with the text generation model (preview)
+title: Human review for automation with a prompt
 description: Learn about the emphasizing human review for automation with the text generation models.
 author: phil-cmd
 contributors:
@@ -13,16 +13,14 @@ ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
-# Human review for automation with the text generation model (preview)
+# Human review for automation with the text generation model
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
 This article emphasizes the critical role of human review in deploying the [Create text with GPT](azure-openai-textgen.md) feature in Power Automate. This feature utilizes the *text generation* model from AI Builder, powered by Azure OpenAI Service. Although these models are highly effective, they can sometimes generate misleading or fabricated information and are susceptible to prompt injection attacks.
 
 > [!IMPORTANT]
-> - This is a preview feature.
-> - Preview features aren’t meant for production use and may have restricted functionality. These features are available before an official release so that customers can get early access and provide feedback.
-> - As we traverse this rapidly evolving field, we are dedicated to refining and improving our services based on user feedback and insights. We encourage developers to be cognizant of the risks and incorporate human review when utilizing this capability.
+> - This capability is [limited to some regions](availability-region?branch=main#prompts).
+> - This capability might be subject to usage limits or capacity throttling.
 
 ## Prompt injection attacks
 
