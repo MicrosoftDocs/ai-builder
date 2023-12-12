@@ -66,4 +66,4 @@ Using a prompt in an application is similar to using a custom AI model. Once the
 
 ### See also
 
-[Human review for automation with prompts](azure-openai-human-review.md)
+[Human review for automation with a prompt](azure-openai-human-review.md)
