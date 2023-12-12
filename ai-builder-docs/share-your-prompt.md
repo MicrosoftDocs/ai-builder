@@ -1,5 +1,5 @@
 ---
-title: Share your prompt (preview)
+title: Share a prompt (preview)
 description: Learn how to share your prompt.
 author: phil-cmd
 contributors:
@@ -12,7 +12,7 @@ ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
-# Share your prompt (preview)
+# Share a prompt (preview)
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
