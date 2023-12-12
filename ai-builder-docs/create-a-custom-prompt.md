@@ -1,5 +1,5 @@
 ---
-title: Create a custom prompt (preview)
+title: Create a custom prompt
 description: Learn how to create a custom prompt.
 author: phil-cmd
 contributors:
@@ -12,15 +12,10 @@ ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
-# Create a custom prompt (preview)
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
+# Create a custom prompt
 
 > [!IMPORTANT]
-> - This is a preview feature.
-> - Preview features aren’t meant for production use and may have restricted functionality. These features are available before an official release so that customers can get early access and provide feedback.
-> - View our [preview terms](https://powerplatform.microsoft.com/en-us/legaldocs/supp-powerplatform-preview/).
-> - This capability is only available in United States region.
+> - This capability is [limited to some regions](availability-region?branch=main#prompts).
 > - This capability might be subject to usage limits or capacity throttling.
 
 ### Custom prompts
