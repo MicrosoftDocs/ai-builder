@@ -14,7 +14,7 @@ ms.reviewer: angieandrews
 
 # Use a prompt in a Power Automate
 
-A custom prompt in a Power Automate flow grants the ability to incorporate an existing prompt as a flow action.
+A prompt can be added as an action in a Power Automation flow so it is possible to generate text from it inside an automated processes.
 
 > [!IMPORTANT]
 > - AI Builder prompts are running on GPT-3.5 Turbo model powered by [Azure OpenAI Service](https://learn.microsoft.com/azure/ai-services/openai/whats-new).
