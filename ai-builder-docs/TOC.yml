@@ -36,7 +36,7 @@
     href: use-model.md
   - name: Share your model
     href: share-model.md
-  - name: Distribute your model using a Solution
+  - name: Distribute your model using a solution
     href: distribute-model.md
   - name: Continuously improve your model (preview)
     href: feedback-loop.md
@@ -54,7 +54,7 @@
     href: use-a-custom-prompt-in-app.md
   - name: Use your prompt in Power Automate
     href: use-a-custom-prompt-in-flow.md
-  - name: Distribute your prompt using a Solution
+  - name: Distribute your prompt using a solution
     href: distribute-prompt.md
   - name: Human review for automation with a prompt
     href: azure-openai-human-review.md
