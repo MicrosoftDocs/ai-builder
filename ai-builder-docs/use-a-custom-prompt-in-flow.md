@@ -18,7 +18,7 @@ A prompt can be added as an action in a Power Automation flow so it is possible 
 
 > [!IMPORTANT]
 > - AI Builder prompts are running on GPT-3.5 Turbo model powered by [Azure OpenAI Service](https://learn.microsoft.com/azure/ai-services/openai/whats-new).
-> - This capability is [limited to some regions](availability-region?branch=main#prompts).
+> - This capability is [limited to some regions](availability-region.md#prompts).
 > - This capability might be subject to usage limits or capacity throttling.
 
 
