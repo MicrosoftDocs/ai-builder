@@ -55,7 +55,7 @@
   - name: Use your prompt in Power Automate
     href: use-a-custom-prompt-in-flow.md
   - name: Distribute your prompt using a Solution
-    href: distribute-model.md
+    href: distribute-prompt.md
   - name: Human review for automation with a prompt
     href: azure-openai-human-review.md
 - name: Prebuilt AI models
