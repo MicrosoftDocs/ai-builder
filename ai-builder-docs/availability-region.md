@@ -64,8 +64,8 @@ The following tables show which AI Builder features are available in each region
 
 |Feature |Asia |Australia |Canada |Europe |France |Germany |India |Japan |Norway |South Africa |South America |South Korea |Switzerland |United Arab Emirates |United Kingdom |United States |
 |-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
-|Custom prompts |- |Preview |- |- |-|- |-|- |-|-|-|-|- |- |Preview |Preview |
-|Prebuilt prompts |- |- |- |Preview |Preview|Preview |-|- |Preview|-|-|-|- |- |- |Preview |
+|Custom prompts |- |Preview |- |Preview|Preview|Preview |-|- |Preview|-|-|-|- |- |Preview |Preview |
+|Prebuilt prompts |- |Preview |- |Preview |Preview|Preview |-|- |Preview|-|-|-|- |- |Preview |Preview |
 
 
 
