@@ -22,7 +22,7 @@ AI Builder provides a prompt builder that allow makers to write, test, save and 
 
 > [!IMPORTANT]
 > - AI Builder prompts are running on GPT-3.5 Turbo model powered by [Azure OpenAI Service](https://learn.microsoft.com/azure/ai-services/openai/whats-new).
-> - This capability is [limited to some regions](availability-region.md).
+> - This capability is [limited to some regions](availability-region.md#prompts).
 > - This capability might be subject to usage limits or capacity throttling.
 
 ## Prerequisites
