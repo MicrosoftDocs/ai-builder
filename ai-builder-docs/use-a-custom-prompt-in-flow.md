@@ -95,6 +95,10 @@ For example, let's send a Teams message that encompasses the **Text** variable:
 1. Once you are satisfied with your flow you can save it and select **Test** on the top right corner.
 
 1. Make sure to enter values for the input variables that would be used in your flow, and then select **Run flow**.
+
+1. Visualize the message received in Teams.
+
+   :::image type="content" source="media/use-a-custom-prompt-in-flow/outputs-teams.png" alt-text="Screenshot of outputs.":::
    
 
 ## Incorporate human review
@@ -149,12 +153,6 @@ Once the flow runs and an approval is generated, the assigned reviewers can chec
 1. Select **Confirm**.
 
     :::image type="content" source="media/use-a-custom-prompt-in-flow/approvals.png" alt-text="Screenshot of configuring human oversight approvals.":::
-
-## Explore outputs
-
-There are numerous potential outcomes to consider, including those related to email, data operation with Compose, Dataverse, Teams, and more. In this scenario, we explore the result using the Teams connector.
-
-:::image type="content" source="media/use-a-custom-prompt-in-flow/outputs-teams.png" alt-text="Screenshot of outputs.":::
 
 ### See also
 
