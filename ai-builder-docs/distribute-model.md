@@ -1,6 +1,6 @@
 ---
-title: Distribute your AI model in AI Builder
-description: Learn how to distribute your AI model in a packaged solution in AI Builder.
+title: Distribute your model using a solution
+description: Learn how to distribute your AI model in a packaged solution.
 author: antrodfr
 contributors:
   - antrodfr
@@ -13,17 +13,15 @@ ms.author: antrod
 ms.reviewer: angieandrews
 ---
 
-# Distribute your model using a Solution
+# Distribute your model using a solution
 
 You can distribute an AI model as a *solution component*. After you create a model in AI Builder, make it available for other environments to use. Do this by packaging it into a solution, and then exporting it into a zip file. After the solution is imported in the target environment, the packaged AI model is available for use.
 
-For more information, go to [Introduction to solutions](/powerapps/developer/common-data-service/introduction-solutions).
-
 ## Solution explorer
 
-Use the Power Apps solution explorer to create solutions and add components&mdash;such as AI models&mdash;to them. You can also export and import solutions by using the solution explorer.
+Use the Power Apps or Power Automate solution explorer to create solutions and add components&mdash;such as AI models&mdash;to them. You can also export and import solutions by using the solution explorer.
 
-For more information, go to [Use solutions in Power Apps](/powerapps/maker/common-data-service/use-solution-explorer).
+For more information, go to [Introduction to solutions](https://learn.microsoft.com/power-apps/maker/data-platform/solutions-overview).
 
 ## Recommended process
 
