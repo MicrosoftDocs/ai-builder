@@ -22,6 +22,9 @@ Use the Power Apps or Power Automate solution explorer to create solutions and a
 
 For more information, go to [Introduction to solutions](https://learn.microsoft.com/power-apps/maker/data-platform/solutions-overview).
 
+> [!NOTE]
+> Prompts can be added using the menu **Add exising > AI models** inside a solution.
+
 ## Recommended process
 
 It's a good idea for you to develop prompts in a sandbox or development environment first. Then, you can deploy them to a production environment with managed solutions. If you need to copy your production environment into a sandbox environment, follow the instructions in [Copy an environment](/power-platform/admin/copy-environment).
