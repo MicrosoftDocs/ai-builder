@@ -1,5 +1,5 @@
 ---
-title: Use a custom prompt in a Power Automate flow
+title: Use your prompt in Power Automate
 description: Learn how to use your custom prompt in a Power Automate flow.
 author: phil-cmd
 contributors:
@@ -12,7 +12,7 @@ ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
-# Use a prompt in a Power Automate
+# Use your prompt in Power Automate
 
 A prompt can be added as an action in a Power Automation flow so it is possible to generate text from it inside an automated process.
 
