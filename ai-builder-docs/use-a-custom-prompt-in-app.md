@@ -1,5 +1,5 @@
 ---
-title: Use a custom prompt in Power Apps
+title: Use your prompt in Power Apps
 description: Learn how to use your custom prompt in Power Apps.
 author: phil-cmd
 contributors:
@@ -12,7 +12,7 @@ ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
-# Use a custom prompt in Power Apps
+# Use your prompt in Power Apps
 
 A custom prompt in Power Apps empowers makers to incorporate custom generative AI capabilities into their apps, thus addressing their business needs with state of the art intelligence.
 
