@@ -13,7 +13,7 @@ ms.author: antrod
 ms.reviewer: angieandrews
 ---
 
-# Distribute your AI model
+# Distribute your model using a Solution
 
 You can distribute an AI model as a *solution component*. After you create a model in AI Builder, make it available for other environments to use. Do this by packaging it into a solution, and then exporting it into a zip file. After the solution is imported in the target environment, the packaged AI model is available for use.
 
