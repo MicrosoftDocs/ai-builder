@@ -36,7 +36,7 @@
     href: use-model.md
   - name: Share your model
     href: share-model.md
-  - name: Distribute your model
+  - name: Distribute your model using a Solution
     href: distribute-model.md
   - name: Continuously improve your model (preview)
     href: feedback-loop.md
