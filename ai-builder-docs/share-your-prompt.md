@@ -12,7 +12,7 @@ ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
-# Share a prompt
+# Share your prompt
 
 Newly created prompts are private by default. This means they're visible and usable in Power Automate, Power Apps, and Microsoft Copilot Studio only by the person who created them. This allows the maker the time to test and evaluate them in apps or workflows and ensure their accuracy before sharing them.
 
