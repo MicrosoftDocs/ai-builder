@@ -67,8 +67,6 @@ The following tables show which AI Builder features are available in each region
 |Custom prompts |-|GA |-|-|-|-|-|- |-|-|-|-|-|-|GA |GA |
 |Prebuilt prompts |-|GA |-|-|-|-|-|-|-|-|-|-|-|-|GA |GA |
 
-
-
 ## US Government
 
 AI Builder is available in US Government environments with the features listed in the following tables. A dash (-) indicates that the feature isn't available.
