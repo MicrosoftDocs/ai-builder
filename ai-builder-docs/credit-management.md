@@ -223,6 +223,10 @@ The data is aggregated daily. Some data may be delayed; if so, the consumption b
 Get details on your environment consumption by checking the [AI Builder consumption report](administer-consumption-report.md). It gives the amount of consumption per day per user per environment.
 Adding all the consumptions of the current month of a specific environment gives you the monthly consumption of this environment.
 
+### How do I find out which model is using the most credits?
+
+Once you've identified which environment consumes the most credits with the [AI Builder consumption report](administer-consumption-report.md), you can leverage the model consumption data in the Dataverse **AI Event** table of that environment either in the Power Apps portal or the [AI Builder Activity](activity-monitoring.md) page in Power Automate.
+
 ### How do I know the number of purchased credits of my organization (tenant)?
 
 The [consumption bar and allocation bar](https://go.microsoft.com/fwlink/?linkid=2255314)  display the number of *purchased* credits.
