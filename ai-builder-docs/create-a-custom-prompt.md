@@ -1,6 +1,6 @@
 ---
 title: Create a prompt
-description: Learn how to create a custom prompt.
+description: Learn how to create a prompt.
 author: phil-cmd
 contributors:
   - phil-cmd
@@ -15,13 +15,13 @@ ms.reviewer: angieandrews
 # Create a prompt
 
 > [!IMPORTANT]
-> - AI Builder prompts are running on GPT-3.5 Turbo model powered by [Azure OpenAI Service](https://learn.microsoft.com/azure/ai-services/openai/whats-new).
+> - AI Builder prompts are running on GPT-3.5 Turbo model powered by [Azure OpenAI Service](/azure/ai-services/openai/whats-new).
 > - This capability is [limited to some regions](availability-region.md#prompts).
 > - This capability might be subject to usage limits or capacity throttling.
 
-## What is a custom prompt
+## What's a custom prompt
 
-Custom prompts give makers the freedom to instruct GPT model to behave in a certain way or to perform a specific task. By carefully crafting a prompt, you can generate responses that suit your specific business needs. This transforms the GPT model into a flexible tool to accomplish various tasks.
+Custom prompts give makers the freedom to instruct the GPT model to behave in a certain way or to perform a specific task. By carefully crafting a prompt, you can generate responses that suit your specific business needs. This transforms the GPT model into a flexible tool to accomplish various tasks.
 
 **Use specific text for more relevant responses**
 
@@ -56,8 +56,11 @@ A custom prompt can guide the GPT model to answer a question, complete text, tra
 
 Prompt builder provides the flexibility to create your own custom prompt by defining input variables that enable incorporating dynamic runtime content within a prompt. It gives you the ability to validate the prompt with **Test your prompt**, ensuring optimal prompt performance and correctness of the response before integration into your business solutions.
 
-1. Sign in to [Power Apps](https://make.powerapps.com), [Power Automate](https://make.powerautomate.com) or [Copilot Studio](https:///copilotstudio.microsoft.com).
-1. On the left pane, select **AI prompts** or **Prompts** > **Create text using a prompt**. Note that for Power Apps and Power Automate, you may need to first click on **AI hub** on the left pane.
+1. Sign in to [Power Apps](https://make.powerapps.com), [Power Automate](https://make.powerautomate.com), or [Copilot Studio](https://copilotstudio.microsoft.com).
+1. On the left pane, select **AI prompts** or **Prompts** > **Create text using a prompt**.
+
+    For Power Apps and Power Automate, you might need to first select **AI hub** on the left pane.
+
 1. On the lower-right corner, select **Create custom prompt**.
 
     :::image type="content" source="media/create-a-custom-prompt/custom-prompt-button.png" alt-text="Screenshot of the 'Create custom prompt' button."::: 

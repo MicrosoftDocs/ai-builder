@@ -1,5 +1,5 @@
 ---
-title: Share a prompt
+title: Share your prompt
 description: Learn how to share your prompt.
 author: phil-cmd
 contributors:
@@ -19,7 +19,7 @@ Newly created prompts are private by default. This means they're visible and usa
 If you want other users of the environment or groups to use your prompt in Power Apps or Power Automate, you need to share it.
 
 > [!IMPORTANT]
-> - AI Builder prompts are running on GPT-3.5 Turbo model powered by [Azure OpenAI Service](https://learn.microsoft.com/azure/ai-services/openai/whats-new).
+> - AI Builder prompts are running on GPT-3.5 Turbo model powered by [Azure OpenAI Service](/azure/ai-services/openai/whats-new).
 > - This capability is [limited to some regions](availability-region.md#prompts).
 > - This capability might be subject to usage limits or capacity throttling.
 
@@ -29,15 +29,15 @@ The Share action is available for every prompt owner on the **My prompts** page 
 
 ## Understand the Share panel
 
-When you select the **Share** action, a **Share** panel appears. This is where you select users or teams in your organization with whom you will share your prompt.
+When you select the **Share** action, a **Share** panel appears. This is where you select users or teams in your organization with whom you'll share your prompt.
 
 ### Prompt list views
 
 The prompts visible to you appear in three different views on the Prompts page.
 
-- My prompts: the prompts you created
-- Shared with me: the prompts that are shared with you
-- All prompts: all the prompts that you created or that are shared with you
+- **My prompts**: The prompts you created.
+- **Shared with me**: The prompts that are shared with you.
+- **All prompts**: All the prompts that you created or are shared with you.
 
 ## FAQ
 

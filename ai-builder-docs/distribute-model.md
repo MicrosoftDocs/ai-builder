@@ -21,7 +21,7 @@ You can distribute an AI model as a *solution component*. After you create a mod
 
 Use the Power Apps or Power Automate solution explorer to create solutions and add components&mdash;such as AI models&mdash;to them. You can also export and import solutions by using the solution explorer.
 
-For more information, go to [Introduction to solutions](https://learn.microsoft.com/power-apps/maker/data-platform/solutions-overview).
+To learn more, go to [Introduction to solutions](/power-apps/maker/data-platform/solutions-overview).
 
 ## Recommended process
 

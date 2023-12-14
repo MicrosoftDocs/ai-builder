@@ -60,7 +60,7 @@ The following tables show which AI Builder features are available in each region
 |Text recognition   |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |GA |
 |Text translation |- |- |- |GA |-|- |-|- |-|-|-|-|- |- |- |GA |
 
-###  Prompts
+### Prompts
 
 |Feature |Asia |Australia |Canada |Europe |France |Germany |India |Japan |Norway |South Africa |South America |South Korea |Switzerland |United Arab Emirates |United Kingdom |United States |
 |-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
@@ -72,11 +72,12 @@ The following tables show which AI Builder features are available in each region
 AI Builder is available in US Government environments with the features listed in the following tables. A dash (-) indicates that the feature isn't available.
 
 > [!NOTE]
-> For more information on the Power Platform US Government environments and features, see these topics:
+> To learn more about the Power Platform US Government environments and features, go to these topics:
 > - [Power Apps US Government](/power-platform/admin/powerapps-us-government)
 > - [Power Automate US Government](/power-automate/us-govt)
 
 ### Custom models
+
 |Feature |Government Community Cloud (GCC) |Government Community Cloud – High (GCC High) |Department of Defense (DoD) |
 |:-------|:-------:|:-------:|:-------:|
 |Prediction|GA|GA|-|

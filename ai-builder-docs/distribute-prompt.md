@@ -7,7 +7,7 @@ contributors:
   - v-aangie
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/13/2023
+ms.date: 12/15/2023
 ms.author: antrod
 ms.reviewer: angieandrews
 ---
@@ -20,7 +20,7 @@ You can distribute a prompt as a *solution component*. After you create a prompt
 
 Use the Power Apps or Power Automate solution explorer to create solutions and add components&mdash;such as prompts&mdash;to them. You can also export and import solutions by using the solution explorer.
 
-For more information, go to [Introduction to solutions](https://learn.microsoft.com/power-apps/maker/data-platform/solutions-overview).
+To learn more, go to [Introduction to solutions](/power-apps/maker/data-platform/solutions-overview).
 
 > [!NOTE]
 > Prompts can be added using the menu **Add exising > AI models** inside a solution.
@@ -31,21 +31,22 @@ It's a good idea for you to develop prompts in a sandbox or development environm
 
 Using this process, you can use the prompt immediately after you import it. No other action is required to use it in Power Apps or Power Automate, but it's a good idea to perform a quick test in AI Builder first.
 
-## Automating the process
+## Automate the process
 
 As prompts can be distributed across environments using solutions, you can automate your prompt lifecycle in the same way you would for other platform components. To learn more, go to
  [Application lifecycle management (ALM) with Microsoft Power Platform](/power-platform/alm).
 
-## Changing imported prompt
+## Change imported prompts
+
 Generally, we don't recommend changing imported prompts because it generates unmanaged customizations. These customizations can prevent the prompt from being properly updated in the future. Changes include updating prompt instruction or configuration.
 
-If you accidentally modifier your prompt after you've imported, delete the imported solution and then import the solution again.
+If you accidentally modify your prompt after you've imported, delete the imported solution and then import the solution again.
 
 To avoid accidental modification of a prompt after import, it might be a good idea to disable customization in the managed properties of the prompt before importing it.
 
 To disable customizations, do the following:
 
-1. From within the solution on the menu at the top, select **Managed Properties**.
+1. From the solution on the menu at the top, select **Managed Properties**.
 
 1. Turn off **Allow customizations**.
 
