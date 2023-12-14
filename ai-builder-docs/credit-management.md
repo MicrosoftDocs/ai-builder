@@ -225,7 +225,7 @@ Adding all the consumptions of the current month of a specific environment gives
 
 ### How do I find out which model is using the most credits?
 
-Once you have identified which environment consumes the most credits with the [AI Builder consumption report](administer-consumption-report.md), you can leverage the model consumption data in the Dataverse **AI Event** table of that environment, either through the Power Apps portal or through the [AI Builder Activity](activity-monitoring.md) page in Power Automate.
+Once you've identified which environment consumes the most credits with the [AI Builder consumption report](administer-consumption-report.md), you can leverage the model consumption data in the Dataverse **AI Event** table of that environment either in the Power Apps portal or the [AI Builder Activity](activity-monitoring.md) page in Power Automate.
 
 ### How do I know the number of purchased credits of my organization (tenant)?
 
