@@ -31,7 +31,6 @@ To learn how to use the invoice processing prebuilt model in Power Automate, go 
 ## Supported languages and files
 
 The following languages are supported: Albanian (Albania), Czech (Czech Republic), Chinese (simplified) China, Chinese (traditional) Hong Kong SAR, Chinese (traditional) Taiwan, Danish (Denmark), Croatian (Bosnia and Herzegovina), Croatian (Croatia), Croatian (Serbia), Dutch (Netherlands), English (Australia), English (Canada), English (India), English (United Kingdom), English (United States), Estonian (Estonia), Finnish  (Finland), French (France), German (Germany), Hungarian (Hungary), Icelandic (Iceland), Italian (Italy), Japanese (Japan), Korean (Korea), Lithuanian (Lithuania), Latvian (Latvia), Malay (Malaysia), Norwegian (Norway), Polish (Poland), Portuguese (Portugal), Romanian (Romania), Slovak (Slovakia), Slovenian (Slovenia), Serbian (Serbia), Spanish (Spain), Swedish (Sweden).
- 
 
 To get the best results, provide one clear photo or scan per invoice.
 
