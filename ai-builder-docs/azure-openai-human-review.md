@@ -47,6 +47,5 @@ Our objective is to further refine the text generation model with appropriate sa
 
 ### See also
 
-- [Responsible AI - FAQ for text generation](faqs-text-generation.md)
-- [Text generation model overview (preview)](prebuilt-azure-openai.md)
-- [How text generation works (preview)](azure-openai-textgen.md)
+[Responsible AI - FAQ](faqs-text-generation.md)
+

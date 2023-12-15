@@ -1,5 +1,5 @@
 ---
-title: Use your custom prompt in a Power Automate flow (preview)
+title: Use a custom prompt in a Power Automate flow (preview)
 description: Learn how to use your custom prompt in a Power Automate flow.
 author: phil-cmd
 contributors:
@@ -12,7 +12,7 @@ ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
-# Use your custom prompt in a Power Automate flow (preview)
+# Use a custom prompt in a Power Automate flow (preview)
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
