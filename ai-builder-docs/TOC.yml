@@ -44,14 +44,18 @@
     href: activity-monitoring.md    
 - name: Prompts (preview)
   items:
+  - name: Overview
+    href: prompts-overview.md
   - name: Create a custom prompt with prompt builder
     href: create-a-custom-prompt.md
-  - name: Share your prompt
+  - name: Share a prompt
     href: share-your-prompt.md 
-  - name: Use your custom prompt in Power Apps
+  - name: Use a prompt in Power Apps
     href: use-a-custom-prompt-in-app.md
-  - name: Use your custom prompt in a Power Automate flow  
+  - name: Use a prompt in Power Automate
     href: use-a-custom-prompt-in-flow.md
+  - name: Human review for automation with the text generation model
+    href: azure-openai-human-review.md
 - name: Prebuilt AI models
   items:
   - name: Overview
@@ -74,14 +78,6 @@
     href: prebuilt-business-card.md
   - name: Category classification
     href: prebuilt-category-classification.md
-  - name: Text generation (preview)
-    items:
-    - name: Overview
-      href: prebuilt-azure-openai.md
-    - name: How text generation works  
-      href: azure-openai-textgen.md
-    - name: Human review for automation with Text generation model
-      href: azure-openai-human-review.md
   - name: Language detection
     href: prebuilt-language-detection.md  
   - name: Text translation
