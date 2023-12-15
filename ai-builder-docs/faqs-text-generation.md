@@ -63,7 +63,7 @@ With a language model, a custom prompt can guide the model to answer a question,
 
 ### Prebuilt prompts
 
-[Prebuilt prompts](create-a-custom-prompt.md#prebuilt-prompts) are pre-configured prompts created by the Microsoft team to assist makers in accomplishing common tasks easily. They offer templates to demonstrate how to use generative AI across various use cases, which simplifies interactions.
+Prebuilt prompts are pre-configured prompts created by the Microsoft team to assist makers in accomplishing common tasks easily. They offer templates to demonstrate how to use generative AI across various use cases, which simplifies interactions.
 
 Example
 
