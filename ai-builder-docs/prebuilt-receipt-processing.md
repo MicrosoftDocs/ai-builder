@@ -27,7 +27,7 @@ For information on how to use the receipt processing prebuilt model in Power Aut
 
 ## Supported languages, markets, and files
 
-The following languages are supported: Dutch (Netherlands), English (Australia), English (Canada), English (India), English (UAE), English (UK), English (United States), French (Canada), French (France), German (Germany), Italian (Italy), Portuguese (Brazil), Portuguese (Portugal), Spanish (Spain).
+The following languages are supported: Afrikaans, Akan, Albanian, Arabic, Azerbaijani, Bamanankan, Basque, Belarusian, Bhojpuri, Bosnian, Bulgarian, Catalan, Cebuano, Corsican, Croatian, Czech, Danish, Dutch, English, Estonian, Faroese, Fijian, Filipino, Finnish, French, Galician, Ganda, German, Greek, Guarani, Haitian Creole, Hawaiian, Hebrew, Hindi, Hmong Daw, Hungarian, Icelandic, Igbo, Iloko, Indonesian, Irish, isiXhosa, isiZulu, Italian, Japanese, Javanese, Kazakh, Kazakh (Latin), Kinyarwanda, Kiswahili, Korean, Kurdish, Kurdish (Latin), Kyrgyz, Latin, Latvian, Lingala, Lithuanian, Luxembourgish, Macedonian, Malagasy, Malay, Maltese, Maori, Marathi, Maya, Yucatán, Mongolian, Nepali, Norwegian, Nyanja, Oromo, Pashto, Persian, Persian (Dari), Polish, Portuguese, Punjabi, Quechua, Romanian, Russian, Samoan, Sanskrit, Scottish Gaelic, Serbian (Cyrillic), Serbian (Latin), Sesotho, Sesotho sa Leboa, Shona, Slovak, Slovenian, Somali (Latin), Spanish, Sundanese, Swedish, Tahitian, Tajik, Tamil, Tatar, Tatar (Latin), Thai, Tongan, Turkish, Turkmen, Ukrainian, Upper Sorbian, Uyghur, Uyghur (Arabic), Uzbek, Uzbek (Latin), Vietnamese, Welsh, Western Frisian, Xitsonga.
 
 To get the best results, provide one clear photo or scan per receipt.
 
