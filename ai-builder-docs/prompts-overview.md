@@ -1,5 +1,5 @@
 ---
-title: Prompts Overview (preview)
+title: Prompts overview
 description: Learn about prompt engineering and other key concepts to help you create powerful applications that can generate text from your input.
 author: phil-cmd
 contributors:
@@ -7,28 +7,31 @@ contributors:
   - v-aangie
 ms.topic: conceptual
 ms.collection: get-started
-ms.date: 12/07/2023
+ms.date: 12/18/2023
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
-# Overview of prompts (preview)
+# Overview of prompts
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
+This article explains prompt engineering and other key concepts to help you create powerful applications that can generate text from an input (prompt).
 
-This article explains prompt engineering and other key concepts to help you create powerful applications that can generate text from your input. Prompt is a natural language instruction that tells a large language model (LLM) to perform a task, the process also known as "Instruction tuning". The GPT model follows the prompt to determine the structure and content of the text it needs to generate. Prompt engineering is the process of creating and refining the instruction  that's used to generate text with the GPT text generation capability.
+A prompt is a natural language instruction that tells a large language model (LLM) to perform a task. The process is also known as *instruction tuning*. The model follows the prompt to determine the structure and content of the text it needs to generate. Prompt engineering is the process of creating and refining the prompt that's used by the model.
 
-Prompt builder is a prompt engineering tool from AI Builder. This tool lets makers write and test prompts for the GPT model.
+AI Builder provides a prompt builder that allow makers to write, test, save, and use prompts to generate text.
 
-[!INCLUDE[cc-preview-features-definition](./includes/cc-preview-features-definition.md)]
+> [!IMPORTANT]
+> - AI Builder prompts are running on GPT-3.5 Turbo model powered by [Azure OpenAI Service](/azure/ai-services/openai/whats-new).
+> - This capability is [limited to some regions](availability-region.md#prompts).
+> - This capability might be subject to usage limits or capacity throttling.
 
 ## Prerequisites
 
-- Have a basic understanding of how to write prompts.
-- Your environment is in the United States.
+- You have a basic understanding of how to write prompts.
+- Your environment is in the list of [available regions](availability-region.md).
 - You have a Power Apps or Power Automate license.
 - A Microsoft Dataverse database is installed on the environment.
-- You have an AI Builder add-on. 
+- You have an AI Builder add-on.
 
 ## What a prompt is and how to use it
 

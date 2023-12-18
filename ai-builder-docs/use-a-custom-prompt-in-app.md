@@ -1,5 +1,5 @@
 ---
-title: Use a custom prompt in Power Apps (preview)
+title: Use your prompt in Power Apps
 description: Learn how to use your custom prompt in Power Apps.
 author: phil-cmd
 contributors:
@@ -7,14 +7,12 @@ contributors:
   - v-aangie
 ms.topic: conceptual
 ms.collection: get-started
-ms.date: 11/15/2023
+ms.date: 12/18/2023
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
-# Use a custom prompt in Power Apps (preview)
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
+# Use your prompt in Power Apps
 
 A custom prompt in Power Apps empowers makers to incorporate custom generative AI capabilities into their apps, thus addressing their business needs with state of the art intelligence.
 
@@ -22,10 +20,8 @@ Once you've created and tested your prompts using the prompt builder, you can us
 Custom prompts can be invoked as Power Fx function calls, this allows you to seamlessly integrate AI capabilities into your application.
 
 > [!IMPORTANT]
-> - This is a preview feature.
-> - Preview features aren’t meant for production use and may have restricted functionality. These features are available before an official release so that customers can get early access and provide feedback.
-> - View our [preview terms](https://powerplatform.microsoft.com/en-us/legaldocs/supp-powerplatform-preview/).
-> - This capability is only available in United States region.
+> - AI Builder prompts are running on GPT-3.5 Turbo model powered by [Azure OpenAI Service](/azure/ai-services/openai/whats-new).
+> - This capability is [limited to some regions](availability-region.md#prompts).
 > - This capability might be subject to usage limits or capacity throttling.
 
 ## Prerequisite
@@ -71,4 +67,4 @@ Using a prompt in an application is similar to using a custom AI model. Once the
 
 ### See also
 
-[Human review for automation with the text generation model (preview)](azure-openai-human-review.md)
+[Human review for automation with a prompt](azure-openai-human-review.md)

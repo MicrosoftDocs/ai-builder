@@ -1,5 +1,5 @@
 ---
-title: Share a prompt (preview)
+title: Share your prompt
 description: Learn how to share your prompt.
 author: phil-cmd
 contributors:
@@ -7,41 +7,37 @@ contributors:
   - v-aangie
 ms.topic: conceptual
 ms.collection: conceptual
-ms.date: 11/15/2023
+ms.date: 12/18/2023
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
-# Share a prompt (preview)
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
+# Share your prompt
 
 Newly created prompts are private by default. This means they're visible and usable in Power Automate, Power Apps, and Microsoft Copilot Studio only by the person who created them. This allows the maker the time to test and evaluate them in apps or workflows and ensure their accuracy before sharing them.
 
 If you want other users of the environment or groups to use your prompt in Power Apps or Power Automate, you need to share it.
 
 > [!IMPORTANT]
-> - This is a preview feature.
-> - Preview features aren’t meant for production use and may have restricted functionality. These features are available before an official release so that customers can get early access and provide feedback.
-> - View our [preview terms](https://powerplatform.microsoft.com/en-us/legaldocs/supp-powerplatform-preview/).
-> - This capability is only available in United States region.
+> - AI Builder prompts are running on GPT-3.5 Turbo model powered by [Azure OpenAI Service](/azure/ai-services/openai/whats-new).
+> - This capability is [limited to some regions](availability-region.md#prompts).
 > - This capability might be subject to usage limits or capacity throttling.
 
 ## Use the Share action
 
-The Share action is available on both the **My prompts** page in Copilot Studio and in Power Automate. It’s also available for the system administrator in the environment, or for any security role that has share permissions. For instance, sharing a prompt is performed by selecting **Share** for the respective prompt. You can add people as **Users** to your model so they can use your model in apps and flows.
+The Share action is available for every prompt owner on the **My prompts** page in Power Automate, Power Apps, and Microsoft Copilot Studio. It’s also available for the system administrator of the environment, or for any security role that has the share permissions. Sharing a prompt is performed by selecting **Share** for the respective prompt. You can add people as **Users** of your prompt so they can use your prompts in flows, apps, and chatbots.
 
 ## Understand the Share panel
 
-When you select the **Share** action, a **Share** panel appears. This is where you select Microsoft Dataverse users and teams in your organization and share your prompt with them.
+When you select the **Share** action, a **Share** panel appears. This is where you select users or teams in your organization with whom you'll share your prompt.
 
 ### Prompt list views
 
-The prompts you create and the prompts that are shared with you appear in three different views in Power Automate, Power Apps, and Copilot Studio.
+The prompts visible to you appear in three different views on the Prompts page.
 
-- My prompts
-- Shared with me
-- All prompts
+- **My prompts**: The prompts you created.
+- **Shared with me**: The prompts that are shared with you.
+- **All prompts**: All the prompts that you created or are shared with you.
 
 ## FAQ
 
@@ -53,5 +49,5 @@ No. When sharing a prompt with a user, they won't have the ability to edit or de
 
 ### Can I stop sharing a prompt?
 
-Yes. To stop sharing a prompt, select **Share** > <***user name***>. Then, select the **X** to remove the share with the user.
+Yes. To stop sharing a prompt, select **Share** > <***user or team name***>. Then, select the **X** to stop sharing the prompt with user or team.
 
