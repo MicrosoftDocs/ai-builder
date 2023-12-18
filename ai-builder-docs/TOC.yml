@@ -36,25 +36,27 @@
     href: use-model.md
   - name: Share your model
     href: share-model.md
-  - name: Distribute your model
+  - name: Distribute your model using a solution
     href: distribute-model.md
   - name: Continuously improve your model (preview)
     href: feedback-loop.md
   - name: Monitor model activity (preview)
     href: activity-monitoring.md    
-- name: Prompts (preview)
+- name: Prompts
   items:
   - name: Overview
     href: prompts-overview.md
-  - name: Create a custom prompt with prompt builder
+  - name: Create a prompt
     href: create-a-custom-prompt.md
-  - name: Share a prompt
+  - name: Share your prompt
     href: share-your-prompt.md 
-  - name: Use a prompt in Power Apps
+  - name: Use your prompt in Power Apps
     href: use-a-custom-prompt-in-app.md
-  - name: Use a prompt in Power Automate
+  - name: Use your prompt in Power Automate
     href: use-a-custom-prompt-in-flow.md
-  - name: Human review for automation with the text generation model
+  - name: Distribute your prompt using a solution
+    href: distribute-prompt.md
+  - name: Human review for automation with a prompt
     href: azure-openai-human-review.md
 - name: Prebuilt AI models
   items:
