@@ -6,7 +6,7 @@ contributors:
   - phil-cmd
   - v-aangie
 ms.topic: overview
-ms.date: 12/01/2023
+ms.date: 12/20/2023
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---
@@ -52,8 +52,7 @@ Get started with AI Builder using the following learning resources:
 Some features in AI Builder haven't been released yet for general availability (GA) and remain in preview status.
 
 > [!IMPORTANT]
->
-> - [!INCLUDE[cc_preview_features_definition](./includes/cc-preview-features-definition.md)]
+> - Preview features aren’t meant for production use and may have restricted functionality. These features are available before an official release so that customers can get early access and provide feedback.
 > - Administrators can control preview feature availability for their environment by using the Power Platform admin center. More information: [Enable or disable AI Builder preview features](administer.md#enable-or-disable-ai-builder-preview-features)
 
 Because of technical dependencies, some features are released differently in various locations. For a breakdown of the release status of AI Builder features and model types for your region, go to [Feature availability by region](availability-region.md).
@@ -69,6 +68,14 @@ For information about license capacity, pricing, and restrictions:
 If you're an administrator and want information on model and environments, go to [Administer AI Builder](administer.md).
 
 For information on security for administrators, go to [Roles and security in AI Builder](security.md).
+
+## Download: AI Builder no code AI Cheat Sheet
+
+**Download the guide here: [No code AI Cheat Sheet by AI Builder (landscape size poster)](https://aka.ms/aibuildercheatsheet)** 
+
+:::image type="content" source="media/no-code-ai-cheat-sheet.png" alt-text="Screenshot of no code AI Cheat Sheet by AI Builder."::: 
+
+Download and print the AI Builder no code AI Cheat Sheet (landscape size poster) to keep it handy and get help creating prompts.
 
 ### See also
 
