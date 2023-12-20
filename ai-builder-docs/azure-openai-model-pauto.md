@@ -9,7 +9,7 @@ contributors:
   - v-aangie
 ms.topic: how-to
 ms.custom: bap-template
-ms.date: 11/20/2023
+ms.date: 12/20/2023
 ms.author: antrod
 ms.reviewer: angieandrews
 ---
@@ -22,26 +22,15 @@ ms.reviewer: angieandrews
 
 ## Migrate to the new prompt builder experience
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
-
 This Power Automate action is deprecated. The [prompt builder action](use-a-custom-prompt-in-flow.md) should be used instead.
 
-> [!IMPORTANT]
-> - This is a preview feature.
-> - Preview features aren’t meant for production use and may have restricted functionality. These features are available before an official release so that customers can get early access and provide feedback.
-> - [View our preview terms](https://go.microsoft.com/fwlink/?linkid=2189520).
-> - This capability is only available in United States region.
-> - This capability may be subject to usage limits or capacity throttling.
-
-If you have flows using the old **Create text with GPT** action, here is the process you need to follow to migrate each of your prompts to the the new **Create text with GPT (V2)** action:
+If you have flows using the old **Create text with GPT** action, here is the process you need to follow to migrate each of your prompts to the the new **Create text with GPT using a prompt** action:
 
 1. From your flow, copy the prompt text inside the old **Create text with GPT** action.
 1. From the Power Automate portal, [create a custom prompt](create-a-custom-prompt.md) using the prompt text you just copied. Note that this new prompt experience requires to add a dynamic parameter: If your previous prompt didn't require one, just add a dummy parameter that you will leave empty when running the prompt.
-1. Back to your flow, replace the old **Create text with GPT** action with the new one **Create text with GPT (V2)** and select the prompt you just created. [See how to use a custom prompt inside a flow](use-a-custom-prompt-in-flow.md).
+1. Back to your flow, replace the old **Create text with GPT** action with the new one **Create text using a prompt** and select the prompt you just created. [See how to use a custom prompt inside a flow](use-a-custom-prompt-in-flow.md).
 1. Make sure to update the places where the GPT action output is used in the downstream actions of your flow.
 
-> [!NOTE]
-> Currently, it isn't possible to update or create prompts in the **Create text with GPT (V2)** action.
 
 ## Create text with GPT (deprecated)
 
