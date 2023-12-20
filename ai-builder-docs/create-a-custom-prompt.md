@@ -7,7 +7,7 @@ contributors:
   - v-aangie
 ms.topic: conceptual
 ms.collection: get-started
-ms.date: 12/18/2023
+ms.date: 12/20/2023
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---
@@ -52,6 +52,14 @@ There are generally two parts to a prompt for a GPT model: the instruction and t
 
 A custom prompt can guide the GPT model to answer a question, complete text, translate languages, summarize a document, and identify tasks, to-dos, and action items in text. The complexity of a custom prompt can range from a single sentence to something more intricate, depending on the task.
 
+## Download: AI Builder prompt engineering guide
+
+**Download the guide here: [AI Builder prompt engineering guide (10 pages, 10X13 in.)](https://go.microsoft.com/fwlink/?linkid=2255775)** 
+
+:::image type="content" source="media/create-a-custom-prompt/prompt-engineering-guide.png" alt-text="Screenshot of AI Builder prompt engineering guide."::: 
+
+Download and print the AI Builder prompt engineering guide (10 pages, 10X13 inch size) to keep it handy and get help creating prompts.
+
 ## Create a GPT prompt
 
 Prompt builder provides the flexibility to create your own custom prompt by defining input variables that enable incorporating dynamic runtime content within a prompt. It gives you the ability to validate the prompt with **Test your prompt**, ensuring optimal prompt performance and correctness of the response before integration into your business solutions.
@@ -72,7 +80,7 @@ Use the following screenshot as a guide to build and test your prompt.
 :::image type="content" source="media/create-a-custom-prompt/configure-test.png" alt-text="Screenshot of the steps to configure and test your prompt."::: 
 
 > [!TIP]
-> For help with creating prompts with more suggestions, refer to [Prompt engineering guide](https://go.microsoft.com/fwlink/?linkid=2255775).
+> For help with creating prompts with more suggestions, refer to [Prompt engineering guide](#download-ai-builder-prompt-engineering-guide).
 
 1. Enter a name for your prompt.
 1. Write or paste your prompt.
