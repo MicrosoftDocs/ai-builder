@@ -27,7 +27,7 @@ Integration with Power Apps and Power Automate makes using AI easy.
 
 To add intelligence to your business:
 
-1. **Choose an AI model type**: Select the model type that suits your business need. Choose from a growing set of AI solutions.
+1. **Choose an AI model type**: Select the model type that suits your business need. Choose from a growing set of AI solutions. Refer to the [no code AI cheat sheet](#download-ai-builder-no-code-ai-cheat-sheet) for guidance.
 
 1. **Connect data**: Select your business-specific data from the available options.
 
@@ -75,7 +75,7 @@ For information on security for administrators, go to [Roles and security in AI 
 
 :::image type="content" source="media/no-code-ai-cheat-sheet.png" alt-text="Screenshot of no code AI Cheat Sheet by AI Builder."::: 
 
-Download and print the AI Builder no code AI Cheat Sheet (landscape poster) to keep it handy and get help creating prompts.
+Download and print the AI Builder no code AI Cheat Sheet (landscape poster) to keep it handy. It's a practical guide for anyone exploring AI capabilities within the Power Platform, tailored for ease of use and decision making. This cheat sheet demystifies AI model selection.
 
 ### See also
 
