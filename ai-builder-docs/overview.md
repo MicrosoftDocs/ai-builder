@@ -71,11 +71,11 @@ For information on security for administrators, go to [Roles and security in AI 
 
 ## Download: AI Builder no code AI Cheat Sheet
 
-**Download the guide here: [No code AI Cheat Sheet by AI Builder (landscape size poster)](https://aka.ms/aibuildercheatsheet)** 
+**Download the guide here: [No code AI Cheat Sheet by AI Builder (landscape poster)](https://aka.ms/aibuildercheatsheet)** 
 
 :::image type="content" source="media/no-code-ai-cheat-sheet.png" alt-text="Screenshot of no code AI Cheat Sheet by AI Builder."::: 
 
-Download and print the AI Builder no code AI Cheat Sheet (landscape size poster) to keep it handy and get help creating prompts.
+Download and print the AI Builder no code AI Cheat Sheet (landscape poster) to keep it handy and get help creating prompts.
 
 ### See also
 
