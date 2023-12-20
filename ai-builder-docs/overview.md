@@ -27,7 +27,7 @@ Integration with Power Apps and Power Automate makes using AI easy.
 
 To add intelligence to your business:
 
-1. **Choose an AI model type**: Select the model type that suits your business need. Choose from a growing set of AI solutions.
+1. **Choose an AI model type**: Select the model type that suits your business need. Choose from a growing set of AI solutions. Refer to the [no code AI cheat sheet](#download-ai-builder-no-code-ai-cheat-sheet) for guidance.
 
 1. **Connect data**: Select your business-specific data from the available options.
 
