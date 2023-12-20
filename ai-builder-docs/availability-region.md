@@ -67,7 +67,7 @@ The following tables show which AI Builder features are available in each region
 |Custom prompts |-|GA |-|GA\*|-|-|-|-|GA\*|-|-|-|-|-|GA |GA |
 |Prebuilt prompts |-|GA |-|GA\*|-|-|-|-|GA\*|-|-|-|-|-|GA |GA |
 
-\*These regions require [enabling data movement cross-regions](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions) for the prompt feature to be available.
+\*These regions require [enabling data movement cross-regions](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions) for the prompt feature to be enabled.
 
 ## US Government
 
