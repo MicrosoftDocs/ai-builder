@@ -44,7 +44,7 @@ The following table lists the data type, models type, and build type.
 
 [Common business scenarios](#common-business-scenarios) and the model types that are suited to them are described later in this topic.
 
-| Data Type       | Model type              | TemplateUniqueName          | Build type          |
+| Data Type       | Model type              | AI Template table UniqueName mapping          | Build type          |
 |-----------------|-------------------------|---------------------|---------------------|
 | Documents       | [Business card reader](prebuilt-business-card.md)    | BusinessCard            | Prebuilt            |
 | Documents       | [Document processing](form-processing-model-overview.md)         | DocumentScanning, DocumentLayoutAnalysis is used during training  | Custom  |
