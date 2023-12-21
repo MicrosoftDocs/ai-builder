@@ -44,21 +44,27 @@ The following table lists the data type, models type, and build type.
 
 [Common business scenarios](#common-business-scenarios) and the model types that are suited to them are described later in this topic.
 
-| Data Type       | Model type              | Build type          |
-|-----------------|-------------------------|---------------------|
-| Documents       | [Business card reader](prebuilt-business-card.md)    | Prebuilt            |
-| Documents       | [Document processing](form-processing-model-overview.md)         | Custom  |
-| Documents       | [Text recognition](prebuilt-text-recognition.md)        | Prebuilt            |
-| Documents       | [Receipt processing](prebuilt-receipt-processing.md)      | Prebuilt            |
-|Text             | [Text generation (preview)](prebuilt-azure-openai.md)         | Prebuilt  |
-| Text            | Category classification  | [Prebuilt (preview)](prebuilt-category-classification.md) and [custom](text-classification-overview.md) |
-| Text            | Entity extraction       | [Prebuilt](prebuilt-entity-extraction.md) and [custom](entity-extraction-overview.md) |
-| Text            | [Key phrase extraction](prebuilt-key-phrase.md)   | Prebuilt            |
-| Text            | [Language detection](prebuilt-language-detection.md)      | Prebuilt            |
-| Text            | [Sentiment analysis](prebuilt-sentiment-analysis.md)      | Prebuilt            |
-| Text            | [Text translation](prebuilt-text-translation.md)        | Prebuilt            |
-| Structured data | [Prediction](prediction-overview.md)              | Custom              |
-| Images          | [Object detection](object-detection-overview.md)        | Custom              |
+| Data Type       | Model type              | TemplateUniqueName          | Build type          |
+|-----------------|-------------------------|---------------------|---------------------|
+| Documents       | [Business card reader](prebuilt-business-card.md)    | BusinessCard            | Prebuilt            |
+| Documents       | [Document processing](form-processing-model-overview.md)         | DocumentScanning, DocumentLayoutAnalysis is used during training  | Custom  |
+| Documents       | [Text recognition](prebuilt-text-recognition.md)        | TextRecognition            | Prebuilt            |
+| Documents       | [Receipt processing](prebuilt-receipt-processing.md)      | ReceiptScanning            | Prebuilt            |
+| Documents       | [Invoice processing](prebuilt-invoice-processing.md)      | InvoiceProcessing            | Prebuilt            |
+| Documents       | [ID reader](prebuilt-id-reader.md)      | IdentityDocument            | Prebuilt            |
+|Text             | [Text generation (preview)](prebuilt-azure-openai.md)         | GptPowerPrompt, GptPromptEngineering was used during Preview| Prebuilt  |
+| Text            | Category classification  | TextClassificationV2            | [Prebuilt (preview)](prebuilt-category-classification.md) and [custom](text-classification-overview.md) |
+| Text            | Entity extraction       | EntityExtraction       | [Prebuilt](prebuilt-entity-extraction.md) and [custom](entity-extraction-overview.md) |
+| Text            | [Key phrase extraction](prebuilt-key-phrase.md)   | KeyPhraseExtraction            | Prebuilt            |
+| Text            | [Language detection](prebuilt-language-detection.md)      | LanguageDetection            | Prebuilt            |
+| Text            | [Sentiment analysis](prebuilt-sentiment-analysis.md)      | SentimentAnalysis            | Prebuilt            |
+| Text            | [Text translation](prebuilt-text-translation.md)        | TextTranslation            | Prebuilt            |
+| Structured data | [Prediction](prediction-overview.md)              | BinaryPrediction, GenericPrediction | Custom              |
+| Images          | [Object detection](object-detection-overview.md)        | ObjectDetection, ObjectDetectionProposal is used during training | Custom              |
+| Images          | [Image Description](prebuilt-image-description.md)        | ImageDescription | Prebuilt (preview)              |
+| Images          | [Text Recognition](prebuilt-text-recognition.md)        | TextRecognition | Prebuilt              |
+|           | Preview version of App Copilot      | CopilotSidePanePredict | Prebuilt (preview)              |
+
 
 ## Common business scenarios
 
