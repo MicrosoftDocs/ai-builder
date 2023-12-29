@@ -42,7 +42,7 @@ On the **Choose document type** step, select the type of document you want to bu
 
 - **Unstructured and free-form documents**. Unstructured documents are those where there's no set structure, usually free documents with a varying number of paragraphs. Examples of unstructured documents are contracts, statement of work, letters, and more.
 
-- **Invoices (preview)**. Augment the behaviors of the prebuilt invoice processing model by adding new fields to be extracted in addition to the ones by [default](prebuilt-invoice-processing.md#model-output), or samples of documents not properly extracted.
+- **Invoices**. Augment the behaviors of the prebuilt invoice processing model by adding new fields to be extracted in addition to the ones by [default](prebuilt-invoice-processing.md#model-output), or samples of documents not properly extracted.
 
     :::image type="content" source="media/document-processing-choose-document-type.png" alt-text="Screenshot of the tiles under 'Select the type of documents your model will process'.":::
 
