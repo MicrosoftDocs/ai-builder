@@ -19,9 +19,10 @@ Read and post in the [AI Builder forum](https://go.microsoft.com/fwlink/?linkid=
 
 ### See also
 
-- [Power Apps community forums](https://powerusers.microsoft.com/t5/AI-Builder/bd-p/AIBuilder1)
-- [Power Automate community forums](https://powerusers.microsoft.com/t5/AI-Builder/bd-p/AIBuilder)
-- [Microsoft Dataverse community forums](https://powerusers.microsoft.com/t5/Common-Data-Services/ct-p/PA_CommonDataServices)  
+- [Microsoft Power Apps Community](https://powerusers.microsoft.com/t5/AI-Builder/bd-p/AIBuilder1)
+- [Microsoft Power Automate Community](https://powerusers.microsoft.com/t5/AI-Builder/bd-p/AIBuilder)
+- [Microsoft Dataverse Community](https://powerusers.microsoft.com/t5/Microsoft-Dataverse/bd-p/CDS_Apps)
+- [Microsoft Copilot Studio Community](https://powerusers.microsoft.com/t5/Copilot-Studio-Community/ct-p/PVACommunity)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
