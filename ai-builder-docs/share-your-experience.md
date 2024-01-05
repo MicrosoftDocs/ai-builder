@@ -1,10 +1,10 @@
 ---
-title: AI Builder Community | Microsoft Docs
-description: Provides information about Microsoft forums where you can read and contribute to discussions about AI Builder 
+title: AI Builder community
+description: Learn about Microsoft forums, where you can read and contribute to discussions about AI Builder.
 author: v-aangie
 ms.topic: conceptual
 ms.custom:
-ms.date: 05/05/2022
+ms.date: 01/05/2024
 ms.author: angieandrews
 ms.reviewer: angieandrews
 ---
@@ -15,7 +15,7 @@ The forums are a great resource where anyone can read and discuss topics with ot
 
 ## Join the discussion
 
-Read and post in the [AI Builder forum](https://go.microsoft.com/fwlink/?linkid=2092048). Before you post a new question, search the discussion forum to see whether your question already has been answered.
+Read and post in the [AI Builder forum](https://go.microsoft.com/fwlink/?linkid=2092048). Before you post a new question, search the discussion forum to see whether your question is already answered.
 
 ### See also
 
