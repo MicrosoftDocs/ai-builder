@@ -9,7 +9,7 @@ contributors:
   - v-aangie
 ms.topic: conceptual
 ms.collection: get-started
-ms.date: 04/06/2023
+ms.date: 1/10/2024
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---
