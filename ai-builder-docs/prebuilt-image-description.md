@@ -9,7 +9,7 @@ contributors:
   - v-aangie
 ms.topic: overview
 ms.collection: get-started
-ms.date: 09/21/2023
+ms.date: 01/10/2024
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -31,7 +31,7 @@ The image description prebuilt model analyzes an image and generates a user-frie
 
 - **Search engine optimization**: Describe the images in a web page to make the page more discoverable in searches.
 
-- **Chatbots**: Describe an image and reason for it, which gives the illusion of a multi-modal capability.<!-- EDITOR'S NOTE: I can't parse this sentence. Can you please clarify what you mean? -->
+- **Chatbots**: Describe an image and reason for it, which gives the illusion of a multi-modal capability.
 
 - **Retail environment**: Describe a product to help with inventory management and restocking.
 

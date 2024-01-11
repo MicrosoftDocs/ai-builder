@@ -6,7 +6,7 @@ contributors:
   - v-aangie
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/03/2023
+ms.date: 01/10/2024
 ms.author: cdbellar
 ms.reviewer: angieandrews
 ---
@@ -17,8 +17,6 @@ ms.reviewer: angieandrews
 
 While many fields to be extracted are simple texts, there are cases where the information to extract is a date or a number including amounts.
 
-> [!IMPORTANT]
->
 > - [!INCLUDE[cc_preview_features_definition](includes/cc-preview-features-definition.md)]
 >
 > - This feature is in process of rolling out, and might not be available in your region yet.

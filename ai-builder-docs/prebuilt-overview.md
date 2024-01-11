@@ -3,7 +3,7 @@ title: Overview of prebuilt AI models - AI Builder
 description: Learn about the prebuilt AI models that are available in AI Builder.
 author: v-aangie
 ms.topic: overview
-ms.date: 04/25/2023
+ms.date: 1/10/2024
 ms.author: angieandrews
 ms.reviewer: angieandrews
 ---

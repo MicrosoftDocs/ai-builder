@@ -8,7 +8,7 @@ contributors:
   - v-angie
 ms.topic: conceptual
 ms.custom:
-ms.date: 10/21/2022
+ms.date: 1/10/2024
 ms.author: antrod
 ms.reviewer: angieandrews
 ---
@@ -21,9 +21,7 @@ After the model creation, it's likely that you'll need to improve your model reg
 
 > [!IMPORTANT]
 > - This is a preview feature.
->
-> - [!INCLUDE[cc_preview_features_definition](includes/cc-preview-features-definition.md)]
->
+> - Preview features aren’t meant for production use and may have restricted functionality. These features are available before an official release so that customers can get early access and provide feedback.
 > - Only custom document processing models are supported by the feedback loop feature.
 
 ## Select documents to add in the feedback loop
