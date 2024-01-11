@@ -4,8 +4,8 @@ description: Provides step by step instructions to use AI Builder entity extract
 author: mfotedar
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/05/2021
-ms.author: mfotedar
+ms.date: 01/10/2024
+ms.author: angieandrews
 ms.reviewer: angieandrews
 ---
 
