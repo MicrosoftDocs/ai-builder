@@ -4,9 +4,9 @@ description: Provides an understanding of how to evaluate and understand categor
 author: KumarVivek
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/06/2019
+ms.date: 01/10/2024
 ms.author: kvivek 
-ms.reviewer: kvivek
+ms.reviewer: angieandrews
 ---
 
 # Understand category classification model performance

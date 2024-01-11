@@ -4,9 +4,9 @@ description: Provides the information you need to know to publish your category 
 author: v-aangie
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/19/2021
+ms.date: 01/10/2024
 ms.author: kvivek
-ms.reviewer: kvivek
+ms.reviewer: angieandrews
 ---
 
 # Publish your category classification model

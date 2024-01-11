@@ -4,7 +4,7 @@ description: Provides information about how to use category classification model
 author: v-aangie 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/21/2022
+ms.date: 01/10/2024
 ms.author: angieandrews
 ms.reviewer: angieandrews
 ---
@@ -13,13 +13,13 @@ ms.reviewer: angieandrews
 
 ## Use in Power Automate
 
-If you want to use your trained model in Power Automate, see [Use a category classification custom model in Power Automate](text-classification-model-in-flow.md).
+If you want to use your trained model in Power Automate, go to [Use a category classification custom model in Power Automate](text-classification-model-in-flow.md).
 
 <a name="set-run-schedule-on-common-data-service"></a>
 
 ## Use in Power Apps
 
-You can integrate your AI Builder category classification models in Power Apps Studio by using the formula bar. For more information, see [Use Power Fx in AI Builder models in Power Apps (preview)](powerfx-in-powerapps.md).
+You can integrate your AI Builder category classification models in Power Apps Studio by using the formula bar. For more information, go to [Use Power Fx in AI Builder models in Power Apps (preview)](powerfx-in-powerapps.md).
 
 ## Set a run schedule on Microsoft Dataverse (preview)
 
@@ -33,7 +33,7 @@ Create a schedule to generate predictions regularly in Microsoft Dataverse.
 
 Your model runs whenever a new row is added to its table.
 
-For more information, see [Run your prediction model](prediction-use.md#prediction-run).
+To learn more, go to [Run your prediction model](prediction-use.md#prediction-run).
 
 > [!NOTE]
 >You can’t set run schedule for imported category classification models.

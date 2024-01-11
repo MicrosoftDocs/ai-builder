@@ -4,7 +4,7 @@ description: Learn how to train, validate, and test your document processing mod
 author: JoeFernandezMS
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/28/2022
+ms.date: 01/10/2024
 ms.author: jofernan
 ms.reviewer: angieandrews
 ---
