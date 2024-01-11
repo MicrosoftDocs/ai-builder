@@ -4,7 +4,7 @@ description: Learn how to use the prebuilt ID reader AI Builder model to extract
 author: phil-cmd
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/12/2022
+ms.date: 01/10/2024
 ms.author: angieandrews
 ms.reviewer: angieandrews
 ---

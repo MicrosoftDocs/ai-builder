@@ -4,9 +4,9 @@ description: Provides steps to view category classification predictions after yo
 author: KumarVivek 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/19/2021
+ms.date: 01/10/2024
 ms.author: kvivek
-ms.reviewer: kvivek
+ms.reviewer: angieandrews
 ---
 
 # View results

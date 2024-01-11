@@ -8,7 +8,7 @@ contributors:
   - v-aangie
 ms.topic: conceptual
 ms.custom: bap-template
-ms.date: 12/18/2023
+ms.date: 1/10/2024
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---
