@@ -4,7 +4,7 @@ description: Preview object detection model versions won't be compatible with up
 author: JoeFernandezMS
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/16/2022
+ms.date: 01/10/2024
 ms.author: jofernan
 ms.reviewer: angieandrews
 ---

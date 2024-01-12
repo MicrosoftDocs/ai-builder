@@ -4,7 +4,7 @@ description: Provides step-by-step instructions for publishing your model in AI 
 author: v-aangie
 ms.topic: conceptual
 ms.custom: 
-ms.date: 01/03/2020
+ms.date: 01/10/2024
 ms.author: angieandrews
 ms.reviewer: kvivek
 ---
