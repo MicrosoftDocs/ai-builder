@@ -4,7 +4,7 @@ description: Learn about security information related to roles, privileges, and 
 author: v-aangie
 ms.topic: conceptual
 ms.custom: 
-ms.date: 11/15/2023
+ms.date: 01/10/2024
 ms.author: angieandrews
 ms.reviewer: angieandrews
 ---

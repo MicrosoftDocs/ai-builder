@@ -1,10 +1,10 @@
 ---
 title: Use prebuilt category classification model in Power Automate - AI Builder | Microsoft Docs
-description: Provides information about how to use a prebuilt category classification AI Builder model in Power Automate.
+description: Learn how to use a prebuilt category classification AI Builder model in Power Automate.
 author: norliu
 ms.topic: conceptual
 ms.custom: 
-ms.date: 07/28/2022
+ms.date: 01/10/2024
 ms.author: norliu
 ms.reviewer: angieandrews
 ---

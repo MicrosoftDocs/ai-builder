@@ -1,10 +1,10 @@
 ---
 title: Use the receipt processor component in Power Apps - AI Builder | Microsoft Docs
-description: Provides information about how to use the receipt processor component in Power Apps
+description: Learn how to use the receipt processor component in Power Apps
 author: v-aangie
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/05/2022
+ms.date: 01/10/2024
 ms.author: angieandrews
 ms.reviewer: angieandrews
 ---
@@ -17,9 +17,6 @@ The AI Builder receipt processor component scans and extracts information from r
 
 For more information about canvas apps, see [What are canvas apps in Power Apps?](/powerapps/maker/canvas-apps/getting-started)
 
-> [!IMPORTANT]
-> - This is a preview feature.
->
 > - [!INCLUDE[cc_preview_features_definition](includes/cc-preview-features-definition.md)]
 
 ## Requirements
