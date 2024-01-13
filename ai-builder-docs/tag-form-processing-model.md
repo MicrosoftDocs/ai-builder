@@ -37,7 +37,7 @@ When you hover over words in your documents, light blue boxes may appear. These 
 
 :::image type="content" source="media/form-select-fields.png" alt-text="Screenshot of selecting fields close up.":::
 
-#### For the custom Invoices (preview) model only
+#### For the custom Invoices model only
 
 You can override the behavior of a default field by redrawing an existing bounding box.
 
