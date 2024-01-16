@@ -8,15 +8,16 @@ contributors:
   - v-aangie
 ms.topic: conceptual
 ms.custom:
-ms.date: 04/08/2020
+ms.date: 01/10/2024
 ms.author: ashbhati
 ms.reviewer: angieandrews
 ---
 
 # Entity extraction custom model requirements and limitations
 
-## Data format 
-- Documents can't exceed 5,000 characters.
+## Data format
+
+Documents can't exceed 5,000 characters.
 
 ## Supported languages
 

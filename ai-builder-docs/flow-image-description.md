@@ -9,7 +9,7 @@ contributors:
   - v-aangie
 ms.topic: how-to
 ms.collection: get-started
-ms.date: 09/21/2023
+ms.date: 01/10/2024
 ms.custom:
   - bap-template
   - ai-gen-docs-bap

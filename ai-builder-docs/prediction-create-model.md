@@ -4,7 +4,7 @@ description: This topic lays out the steps you need to follow to create a predic
 author: v-aangie
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/17/2022
+ms.date: 01/10/2024
 ms.author: sdarapu
 ms.reviewer: angieandrews
 ---

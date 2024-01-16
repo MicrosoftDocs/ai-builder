@@ -4,7 +4,7 @@ description: Provides the steps you'll need to follow to prepare your data for A
 author: norliu
 ms.topic: conceptual
 ms.custom: 
-ms.date: 07/29/2021
+ms.date: 01/10/2024
 ms.author: norliu
 ms.reviewer: angieandrews
 ---
