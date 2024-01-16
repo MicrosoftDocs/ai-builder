@@ -4,9 +4,6 @@
   items:
   - name: Overview of AI Builder
     href: overview.md
-  - name: Licensing
-    href: administer-licensing.md
-    displayName: cost; pricing; trial
   - name: Labs and sample data
     items:
     - name: Labs
@@ -18,30 +15,6 @@
   - name: AI Builder community
     href: share-your-experience.md
     displayName: forums; support; help
-- name: AI models
-  items:
-  - name: AI models and business scenarios
-    href: model-types.md
-    displayName: model types
-  - name: Build a model
-    href: build-model.md
-    displayName: create a model
-  - name: Train your model
-    href: train-model.md
-  - name: Manage your model
-    href: manage-model.md
-  - name: Publish your model
-    href: publish-model.md
-  - name: Use your model
-    href: use-model.md
-  - name: Share your model
-    href: share-model.md
-  - name: Distribute your model using a solution
-    href: distribute-model.md
-  - name: Continuously improve your model (preview)
-    href: feedback-loop.md
-  - name: Monitor model activity (preview)
-    href: activity-monitoring.md    
 - name: Prompts
   items:
   - name: Overview
@@ -58,141 +31,161 @@
     href: distribute-prompt.md
   - name: Human review for automation with a prompt
     href: azure-openai-human-review.md
-- name: Prebuilt AI models
+- name: AI models
   items:
-  - name: Overview
-    href: prebuilt-overview.md
-  - name: Invoice processing
-    href: prebuilt-invoice-processing.md
-  - name: Text recognition
-    href: prebuilt-text-recognition.md       
-  - name: Sentiment analysis
-    href: prebuilt-sentiment-analysis.md
-  - name: Receipt processing
-    href: prebuilt-receipt-processing.md
-  - name: Entity extraction 
-    href: prebuilt-entity-extraction.md
-  - name: ID reader
-    href: prebuilt-id-reader.md
-  - name: Key phrase extraction
-    href: prebuilt-key-phrase.md
-  - name: Business card reader
-    href: prebuilt-business-card.md
-  - name: Category classification
-    href: prebuilt-category-classification.md
-  - name: Language detection
-    href: prebuilt-language-detection.md  
-  - name: Text translation
-    href: prebuilt-text-translation.md
-  - name: Image description (preview)
-    href: prebuilt-image-description.md
-
-- name: Custom AI models
-  items:
-  - name: Document processing AI model
+  - name: AI models and business scenarios
+    href: model-types.md
+    displayName: model types
+  - name: Prebuilt AI models
     items:
     - name: Overview
-      href: form-processing-model-overview.md
-      displayName: automate data entry
-    - name: Requirements and limitations
-      href: form-processing-model-requirements.md
-    - name: Create a document processing model
-      href: create-form-processing-model.md
-    - name: Tag documents in a document processing model
-      href: tag-form-processing-model.md
-    - name: Extract dates and numbers (preview)
-      href: extract-dates-and-numbers.md
-    - name: Train and publish your document processing model
-      href: form-processing-train.md
-    - name: Improve document processing model performance
-      href: improve-form-processing-performance.md
-    - name: Use sample data
-      href: form-processing-sample-data.md
-    - name: FAQ for document processing
-      href: form-processing-faq.md
-    - name: Transition to the newest document processing model version
-      href: form-processing-transition.md
-  - name: Prediction AI model
+      href: prebuilt-overview.md
+    - name: Invoice processing
+      href: prebuilt-invoice-processing.md
+    - name: Text recognition
+      href: prebuilt-text-recognition.md       
+    - name: Sentiment analysis
+      href: prebuilt-sentiment-analysis.md
+    - name: Receipt processing
+      href: prebuilt-receipt-processing.md
+    - name: Entity extraction 
+      href: prebuilt-entity-extraction.md
+    - name: ID reader
+      href: prebuilt-id-reader.md
+    - name: Key phrase extraction
+      href: prebuilt-key-phrase.md
+    - name: Business card reader
+      href: prebuilt-business-card.md
+    - name: Category classification
+      href: prebuilt-category-classification.md
+    - name: Language detection
+      href: prebuilt-language-detection.md  
+    - name: Text translation
+      href: prebuilt-text-translation.md
+    - name: Image description (preview)
+      href: prebuilt-image-description.md
+  - name: Custom AI models
     items:
-    - name: Overview 
-      href: prediction-overview.md
-      displayName: Prediction overview
-    - name: Prerequisites
-      href: prediction-prereq.md
-      displayName: Prediction prerequisites
-    - name: Data preparation
-      href: prediction-data-prep.md
-    - name: Create a prediction model
-      href: prediction-create-model.md
-    - name: Train and publish your prediction model
+    - name: Overview
+      href: custom-overview.md
+    - name: Document processing AI model
       items:
-      - name: Train and publish
-        href: prediction-train-model.md
+      - name: Overview
+        href: form-processing-model-overview.md
+      - name: Requirements and limitations
+        href: form-processing-model-requirements.md
+      - name: Create a document processing model
+        href: create-form-processing-model.md
+      - name: Tag documents in a document processing model
+        href: tag-form-processing-model.md
+      - name: Extract dates and numbers (preview)
+        href: extract-dates-and-numbers.md
+      - name: Train and publish your document processing model
+        href: form-processing-train.md
+      - name: Improve document processing model performance
+        href: improve-form-processing-performance.md
       - name: Use sample data
-        href: prediction-sample-data.md
-      - name: Prediction model performance
-        href: prediction-performance.md
+        href: form-processing-sample-data.md
+      - name: FAQ for document processing
+        href: form-processing-faq.md
+      - name: Transition to the newest document processing model version
+        href: form-processing-transition.md
+    - name: Prediction AI model
+      items:
+      - name: Overview 
+        href: prediction-overview.md
+      - name: Prerequisites
+        href: prediction-prereq.md
+      - name: Data preparation
+        href: prediction-data-prep.md
+      - name: Create a prediction model
+        href: prediction-create-model.md
+      - name: Train and publish your prediction model
+        items:
+        - name: Train and publish
+          href: prediction-train-model.md
+        - name: Use sample data
+          href: prediction-sample-data.md
+        - name: Prediction model performance
+          href: prediction-performance.md
+        - name: Training errors and warnings
+          href: prediction-training-report.md
+      - name: Use your prediction model
+        href: prediction-use.md        
+    - name: Object detection AI model
+      items: 
+      - name: Overview
+        href: object-detection-overview.md
+      - name: Collect images
+        href: collect-images.md
+      - name: Build your object detection model
+        href: get-started-with-object-detection.md
+      - name: Train and publish your object detection model
+        href: object-detection-train-model.md
+      - name: Transition to the newest object detection model version
+        href: object-detection-transition.md
+      - name: Use sample data
+        href: object-detection-sample-data.md
+    - name: Category classification AI model
+      items:
+      - name: Overview
+        href: text-classification-overview.md
+      - name: Before you build a category classification model
+        href: before-you-build-text-classification-model.md
+      - name: Create a category classification model
+        href: create-text-classification-model.md
+      - name: Train your category classification model
+        href: train-text-classification-model.md
       - name: Training errors and warnings
-        href: prediction-training-report.md
-    - name: Use your prediction model
-      href: prediction-use.md        
-  - name: Object detection AI model
-    items: 
-    - name: Overview
-      href: object-detection-overview.md
-      displayName: image processing; inventory automation
-    - name: Collect images
-      href: collect-images.md
-    - name: Build your object detection model
-      href: get-started-with-object-detection.md
-    - name: Train and publish your object detection model
-      href: object-detection-train-model.md
-    - name: Transition to the newest object detection model version
-      href: object-detection-transition.md
-    - name: Use sample data
-      href: object-detection-sample-data.md
-  - name: Category classification AI model
+        href: category-classification-training-report.md
+      - name: Understand category classification model performance
+        href: text-classification-performance.md
+      - name: Improve category classification model performance
+        href: improve-text-classification-performance.md
+      - name: Publish your category classification model
+        href: publish-text-classification-model.md
+      - name: Use sample data
+        href: text-classification-sample-data.md
+      - name: View generated predictions
+        href: text-classification-view-predictions.md
+      - name: Use generated tags
+        href: text-classification-model-use-tags.md
+    - name: Entity extraction AI model
+      items:
+      - name: Overview
+        href: entity-extraction-overview.md
+      - name: Requirements and limitations
+        href: entity-extraction-requirements.md
+      - name: Create a custom entity extraction model
+        href: entity-extraction-create.md
+      - name: Train and publish your entity extraction model
+        href: entity-extraction-train.md
+      - name: Use sample data
+        href: entity-extraction-sample-data.md       
+    - name: Azure machine learning models
+      items:
+      - name: Create and register your own model
+        href: byo-model.md
+      - name: Package your own model using solutions
+        href: byom-alm.md   
+  - name: Build custom AI models
     items:
-    - name: Overview
-      href: text-classification-overview.md
-    - name: Before you build a category classification model
-      href: before-you-build-text-classification-model.md
-    - name: Create a category classification model
-      href: create-text-classification-model.md
-    - name: Train your category classification model
-      href: train-text-classification-model.md
-    - name: Training errors and warnings
-      href: category-classification-training-report.md
-    - name: Understand category classification model performance
-      href: text-classification-performance.md
-    - name: Improve category classification model performance
-      href: improve-text-classification-performance.md
-    - name: Publish your category classification model
-      href: publish-text-classification-model.md
-    - name: Use sample data
-      href: text-classification-sample-data.md
-    - name: View generated predictions
-      href: text-classification-view-predictions.md
-    - name: Use generated tags
-      href: text-classification-model-use-tags.md
-  - name: Entity extraction AI model
-    items:
-    - name: Overview
-      href: entity-extraction-overview.md
-    - name: Requirements and limitations
-      href: entity-extraction-requirements.md
-    - name: Create a custom entity extraction model
-      href: entity-extraction-create.md
-    - name: Train and publish your entity extraction model
-      href: entity-extraction-train.md
-    - name: Use sample data
-      href: entity-extraction-sample-data.md       
-  - name: Azure machine learning models
-    items:
-    - name: Create and register your own model
-      href: byo-model.md
-    - name: Package your own model using solutions
-      href: byom-alm.md   
+    - name: Build a model
+      href: build-model.md
+    - name: Train your model
+      href: train-model.md
+    - name: Manage your model
+      href: manage-model.md
+    - name: Publish your model
+      href: publish-model.md
+    - name: Use your model
+      href: use-model.md
+    - name: Share your model
+      href: share-model.md
+    - name: Distribute your model using a solution
+      href: distribute-model.md
+    - name: Continuously improve your model (preview)
+      href: feedback-loop.md
 - name: Use AI Builder in Power Automate
   items:
   - name: Overview
@@ -283,25 +276,46 @@
     href: credit-management.md
   - name: Consumption report
     href: administer-consumption-report.md
-    displayName: Usage report
   - name: AI Builder trial
     href: ai-builder-trials.md
   - name: Roles and security
     href: security.md
   - name: Feature availability by region
     href: availability-region.md
-    displayName: Preview features; Release status
+- name: Licensing and governance
+  items:
+  - name: Licensing
+    href: administer-licensing.md
+  - name: Monitor model activity (preview)
+    href: activity-monitoring.md  
 - name: Troubleshoot
   items:
   - name: Common issues and resolutions
     href: common-issues.md
   - name: Support
     href: support.md
-    displayName: Help
 - name: Responsible AI
   items:
   - name: Overview
     href: responsible-ai-overview.md
   - name: FAQ for text generation and prompts
     href: faqs-text-generation.md
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+  
+
+
+
 
