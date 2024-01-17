@@ -54,9 +54,9 @@ On the **Choose information to extract** screen, define the fields, tables, and 
 
 - For each **Text field**, provide a name you'd like the field to have in the model.
 
-- For each **Number field (preview)**, provide a name you'd like the field to have in the model. Also, define the format dot (.) or comma (,) as decimal separator.
+- For each **Number field**, provide a name you'd like the field to have in the model. Also, define the format dot (.) or comma (,) as decimal separator.
 
-- For each **Date field (preview)**, provide a name you'd like the field to have in the model.  Also, define the format (Year, Month, Day) or (Monthly, Day, Year) or (Day, Month, Year)
+- For each **Date field**, provide a name you'd like the field to have in the model.  Also, define the format (Year, Month, Day) or (Monthly, Day, Year) or (Day, Month, Year)
 
 - For each **Checkbox**, provide a name you'd like the checkbox to have in the model. Define separate checkboxes for each item that can be checked in a document.
 
