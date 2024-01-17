@@ -6,7 +6,9 @@ contributors:
   - phil-cmd
   - v-aangie
 ms.topic: conceptual
-ms.collection: get-started
+ms.collection: 
+- get-started
+- bap-ai-copilot
 ms.date: 01/10/2024
 ms.author: plarrue
 ms.reviewer: angieandrews

@@ -4,7 +4,9 @@ description: This topic lays out the first steps you'll perform to build an obje
 author: amina196
 ms.topic: conceptual
 ms.date: 01/10/2024
-ms.collection: get-started
+ms.collection: 
+- get-started
+- bap-ai-copilot
 ms.author: angieandrews
 ms.reviewer: angieandrews
 ---
