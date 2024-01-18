@@ -9,7 +9,9 @@ metadata:
   services: service
 
   ms.topic: landing-page 
-  ms.collection: collection
+  ms.collection: 
+  - get-started
+  - bap-ai-copilot
   author: v-aangie
   ms.author: kvivek
   ms.date: 11/18/2019 
