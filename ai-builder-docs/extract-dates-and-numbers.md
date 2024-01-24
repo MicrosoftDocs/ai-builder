@@ -3,6 +3,7 @@ title: Extract dates and numbers from documents (preview)
 description: Learn how to extract dates and numbers from documents in AI Builder.
 author: CedrickBellarosa
 contributors:
+  - plarrue
   - v-aangie
 ms.topic: conceptual
 ms.custom: 
@@ -21,24 +22,28 @@ While many fields to be extracted are simple texts, there are cases where the in
 >
 > - This feature is in process of rolling out, and might not be available in your region yet.
 
-Importing this data to a target system can be cumbersome, requiring significant custom conversion logic. Most of the import connectors and APIs only accept normalized dates in ISO 8601 format like `YYYY-MM-DD`. To learn more about date format, go to https://www.iso.org/iso-8601-date-and-time-format.html. They also only accept numbers using dot as a decimal separator without a thousands separator like `NNN.DD`.
+Importing this data to a target system can be cumbersome, requiring significant custom conversion logic. Most of the import connectors and APIs only accept normalized dates in ISO 8601 format like `YYYY-MM-DD`. To learn more about date format, go to [ISO 8601 Date and time format](https://www.iso.org/iso-8601-date-and-time-format.html). They also accept only numbers using dot as a decimal separator without a thousands separator like `NNN.DD`.
 
-We’ve added the ability to declare this type during the field creation step of the wizard and to choose a date or number convention (equivalent to a locale).
+We’ve added the ability to declare this type during the field creation step of the wizard, and to choose a date or number convention (equivalent to a locale).
 
-:::image type="content" source="media/date-field.svg" alt-text="screenshot of date fields' type.":::
+Example of the date convention:
 
-:::image type="content" source="media/number-field.svg" alt-text="screenshot of number fields' type.":::
+:::image type="content" source="media/extract-dates-and-numbers/date-field.svg" alt-text="Screenshot of 'Date field' type.":::
+
+Example of the number convention:
+
+:::image type="content" source="media/extract-dates-and-numbers/number-field.svg" alt-text="Screenshot of 'Number field' type.":::
 
  > [!NOTE]
- > For each field, only one convention is allowed for a given field for all the collections of this model. For instance, if you extract a field amount by selecting **Use comma (,) as decimal separator**, the following text 1234,56 or 1 234,56 will be converted to 1234.56. Amounts with format 12,34,576.78 or 1,234.56 won’t be converted.
+ > For each field, only one convention is allowed for a given field for all the collections of this model. For instance, if you extract a field amount by selecting **Use comma (,) as decimal separator**, the following text 1234,56 or 1 234,56 is converted to 1234.56. Amounts with format 12,34,576.78 or 1,234.56 aren't converted.
 
-During the extraction, the text will be automatically converted according to the convention provided. This converted value can be retrieved using the “YOURFIELDNAME value” result. This value will be empty If the conversion isn't possible. The original text can be retrieved using the “YOURFIELDNAME text” result.
+During the extraction, the text automatically converts according to the convention provided. This converted value can be retrieved using the `YOURFIELDNAME value` result. This value is empty If the conversion isn't possible. The original text can be retrieved using the `YOURFIELDNAME text` result.
 
 ### Supported date formats
 
 When defining the field, choose among **Year, Month, Day**, **Month, Day, Year**, or **Day, Month, Year**.
 
-The following characters can be used as date delimiters: `, - / . \`. Whitespace can't be used as a delimiter. For example:
+The following characters can be used as date delimiters: `,` `-`  `/` `.` `\`. Whitespace can't be used as a delimiter. For example:
 - 01,01,2020
 - 01-01-2020
 - 01/01/2020
