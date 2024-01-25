@@ -136,15 +136,16 @@ For prediction and prebuilt models, moving and copying environments is fully sup
 
 [!INCLUDE [cc_preview_features_definition](./includes/cc-preview-features-definition.md)]
 
-All your data stored in Power Platform is encrypted at rest using Microsoft-managed keys by default. With customer-managed keys (CMKs), you can bring your own encryption keys to encrypt Power Platform data, including AI Builder training data and trained models. This allow you to have an extra protective layer to manage your Power Platform assets. With this feature, you can rotate or swap encryption keys on demand. It also prevents Microsoft’s access to your customer data, if you choose to revoke key access to Microsoft services at any time.
+All your data stored in Power Platform is encrypted at rest using Microsoft-managed keys by default. With customer-managed keys (CMKs), you can bring your own encryption keys to encrypt Power Platform data, including AI Builder training data and trained models. This allows you to have an extra protective layer to manage your Power Platform assets. With this feature, you can rotate or swap encryption keys on demand. It also prevents Microsoft’s access to your customer data, if you choose to revoke key access to Microsoft services at any time.
 
 > [!IMPORTANT]
->  Only models created or copied to the environment after CMK is enabled will be encrypted at rest with that key.
->  Currently, customer-managed keys aren't leveraged to encrypt Object detection trained models. The training data of those model stored in Dataverse is using Customer Managed Keys.
+> Only models created or copied to the environment after CMK is enabled are encrypted at rest with that key.
+>
+> Currently, customer-managed keys aren't leveraged to encrypt Object detection trained models. The training data of those modes stored in Dataverse is using customer managed keys.
 
-Applying an encryption key is a gesture performed by Power Platform admins and is totally invisible to users. Users can create, save, use and include in solutions AI Builder models exactly the same way they would if the data was encrypted by Microsoft-managed keys.
- 
-To learn more about the customer-managed key, and the step-by-step instructions to enable customer-managed keys, go to Manage your [customer-managed encryption key](https://learn.microsoft.com/power-platform/admin/customer-managed-key). This enables you to leverage the single enterprise policy created on the environment to secure AI Builder models.
+Applying an encryption key is a gesture performed by Power Platform admins, and is invisible to users. Users can create, save, use, and include in solutions AI Builder models in exactly the same way they would if the data was encrypted by Microsoft-managed keys.
+
+To learn more about the customer-managed key, and get step-by-step instructions to enable customer-managed keys, go to [Manage your customer-managed encryption key](/power-platform/admin/customer-managed-key). This enables you to leverage the single enterprise policy created on the environment to secure AI Builder models.
 
 ### See also
 
