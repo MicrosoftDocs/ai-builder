@@ -134,6 +134,8 @@ For prediction and prebuilt models, moving and copying environments is fully sup
 
 ## Customer-managed keys (CMK) (preview)
 
+[!INCLUDE [cc_preview_features_definition](./includes/cc-preview-features-definition.md)]
+
 All your data stored in Power Platform is encrypted at rest using Microsoft-managed keys by default. With customer-managed keys (CMKs), you can bring your own encryption keys to encrypt Power Platform data, including AI Builder training data and trained models. This allow you to have an extra protective layer to manage your Power Platform assets. With this feature, you can rotate or swap encryption keys on demand. It also prevents Microsoft’s access to your customer data, if you choose to revoke key access to Microsoft services at any time.
 
 > [!IMPORTANT]
