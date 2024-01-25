@@ -78,7 +78,7 @@
         href: create-form-processing-model.md
       - name: Tag documents in a document processing model
         href: tag-form-processing-model.md
-      - name: Extract dates and numbers (preview)
+      - name: Extract dates and numbers
         href: extract-dates-and-numbers.md
       - name: Train and publish your document processing model
         href: form-processing-train.md
