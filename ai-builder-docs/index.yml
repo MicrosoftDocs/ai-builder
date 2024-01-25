@@ -39,7 +39,7 @@ landingContent:
             url: https://www.youtube.com/watch?v=MGtomFKVDys
 
   # Card
-  - title: Create and use prompts (preview)
+  - title: Create and use prompts
     linkLists:
       - linkListType: how-to-guide
         links:
