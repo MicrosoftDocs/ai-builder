@@ -64,6 +64,8 @@
       href: prebuilt-text-translation.md
     - name: Image description (preview)
       href: prebuilt-image-description.md
+    - name: Text generation model (preview) (deprecated)
+      href: prebuilt-azure-oenai.md  
   - name: Custom AI models
     items:
     - name: Overview
@@ -206,8 +208,6 @@
       href: prediction-pwr-automate.md
   - name: Use a prebuilt AI Builder model in Power Automate
     items:
-    - name: Text generation model (deprecated)
-      href: azure-openai-model-pauto.md
     - name: Business card reader model
       href: flow-business-card-reader.md
     - name: Category classification model 
@@ -232,6 +232,8 @@
       href: flow-text-translation.md
     - name: Image description model
       href: flow-image-description.md
+    - name: Text generation model (deprecated)
+      href: azure-openai-model-pauto.md      
   - name: Predict action
     href: predict-action-pwr-automate.md
 - name: Use AI Builder in Power Apps

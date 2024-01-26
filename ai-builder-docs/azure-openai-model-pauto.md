@@ -17,8 +17,8 @@ ms.reviewer: angieandrews
 # Use the text generation model in Power Automate (deprecated)
 
 > [!IMPORTANT]
-> - This feature is deprecated and won't be visible anymore starting from December 15, 2023.
-> - The [new prompt builder feature](use-a-custom-prompt-in-flow.md) should be used instead. To learn more, go to [Migrate to the new prompt builder experience](#migrate-to-the-new-prompt-builder-experience).
+> - This feature is deprecated and isn't be visible anymore.
+> - The [new prompt builder feature](use-a-custom-prompt-in-flow.md) should be used instead.
 
 ## Migrate to the new prompt builder experience
 
