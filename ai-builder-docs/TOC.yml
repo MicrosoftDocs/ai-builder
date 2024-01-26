@@ -65,7 +65,7 @@
     - name: Image description (preview)
       href: prebuilt-image-description.md
     - name: Text generation model (preview) (deprecated)
-      href: prebuilt-azure-oenai.md  
+      href: prebuilt-azure-openai.md  
   - name: Custom AI models
     items:
     - name: Overview

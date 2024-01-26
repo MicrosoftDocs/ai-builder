@@ -24,7 +24,7 @@ ms.reviewer: angieandrews
 
 This Power Automate action is deprecated. The [prompt builder action](use-a-custom-prompt-in-flow.md) should be used instead.
 
-If you have flows using the old **Create text with GPT** action, here is the process you need to follow to migrate each of your prompts to the the new **Create text with GPT using a prompt** action:
+If you have flows using the old **Create text with GPT** action, here is the process you need to follow to migrate each of your prompts to the new **Create text with GPT using a prompt** action:
 
 1. From your flow, copy the prompt text inside the old **Create text with GPT** action.
 1. From the Power Automate portal, [create a custom prompt](create-a-custom-prompt.md) using the prompt text you just copied. Note that this new prompt experience requires to add a dynamic parameter: If your previous prompt didn't require one, just add a dummy parameter that you will leave empty when running the prompt.
