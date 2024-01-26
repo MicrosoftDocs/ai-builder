@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 01/10/2024
 ms.author: angieandrews
-ms.reviewer: kvivek
+ms.reviewer: angieandrews
 ---
 
 # Train your model in AI Builder
