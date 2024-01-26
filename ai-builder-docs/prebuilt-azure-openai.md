@@ -13,7 +13,7 @@ ms.author: ashbhati
 ms.reviewer: angieandrews
 ---
 
-# Text generation model (preview)
+# Text generation model (preview) (deprecated)
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
