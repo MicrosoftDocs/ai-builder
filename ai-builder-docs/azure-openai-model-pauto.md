@@ -17,22 +17,21 @@ ms.reviewer: angieandrews
 # Use the text generation model in Power Automate (deprecated)
 
 > [!IMPORTANT]
-> - This feature is deprecated and won't be visible anymore starting from December 15, 2023.
-> - The [new prompt builder feature](use-a-custom-prompt-in-flow.md) should be used instead. To learn more, go to [Migrate to the new prompt builder experience](#migrate-to-the-new-prompt-builder-experience).
+> - This feature is deprecated and isn't be visible anymore.
+> - The [new prompt builder feature](use-a-custom-prompt-in-flow.md) should be used instead.
 
 ## Migrate to the new prompt builder experience
 
 This Power Automate action is deprecated. The [prompt builder action](use-a-custom-prompt-in-flow.md) should be used instead.
 
-If you have flows using the old **Create text with GPT** action, here is the process you need to follow to migrate each of your prompts to the the new **Create text with GPT using a prompt** action:
+If you have flows using the old **Create text with GPT** action, here is the process you need to follow to migrate each of your prompts to the new **Create text with GPT using a prompt** action:
 
 1. From your flow, copy the prompt text inside the old **Create text with GPT** action.
 1. From the Power Automate portal, [create a custom prompt](create-a-custom-prompt.md) using the prompt text you just copied. Note that this new prompt experience requires to add a dynamic parameter: If your previous prompt didn't require one, just add a dummy parameter that you will leave empty when running the prompt.
 1. Back to your flow, replace the old **Create text with GPT** action with the new one **Create text using a prompt** and select the prompt you just created. [See how to use a custom prompt inside a flow](use-a-custom-prompt-in-flow.md).
 1. Make sure to update the places where the GPT action output is used in the downstream actions of your flow.
 
-
-## Create text with GPT (deprecated)
+## Create text with GPT
 
 Text generation is powered by Azure OpenAI Service, which is built on Generative Pre-trained Transformer (GPT) technology. GPT models are a type of natural language processing model. GPT models are trained on a large body of content to generate human-like text from a prompt. When you combine them with workflow automation, you can use AI models like GPT to automate a variety of tasks. For example, you can build workflows to automatically generate drafts of emails, customer service responses, and product descriptions. You can also use them to generate scripts that allow customer service agents to respond quickly to customer inquiries.
 
