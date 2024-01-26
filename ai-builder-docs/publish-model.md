@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 01/10/2024
 ms.author: angieandrews
-ms.reviewer: tapanm
+ms.reviewer: angieandrews
 ---
 
 # Publish your model in AI Builder

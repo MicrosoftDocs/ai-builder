@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.custom: 
 ms.date: 01/10/2024
 ms.author: ambran
-ms.reviewer: tapanm
+ms.reviewer: angieandrews
 ---
 
 # Train and publish your object detection model
