@@ -1,6 +1,6 @@
 ---
-title: Text generation model overview (preview)
-description: Learn how to use the text generation prebuilt model in AI Builder to build a ChatGPT-like experience in Power Platform.
+title: Text generation model (preview) (deprecated)
+description: The text generation prebuilt model in AI Builder is deprecated. It enables you to build AI-powered applications that use text generated from your input.
 author: ashbhati
 contributors:
   - ashbhati
@@ -13,10 +13,13 @@ ms.author: ashbhati
 ms.reviewer: angieandrews
 ---
 
-# Text generation model overview (preview)
+# Text generation model (preview) (deprecated)
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
+> [!IMPORTANT]
+> - This feature is deprecated and isn't be visible anymore.
+> - The [new prompt builder feature](use-a-custom-prompt-in-flow.md) should be used instead.
 
 ### Prerequisites
 
