@@ -48,8 +48,7 @@ AI Builder provides two kinds of Power Apps components. Choose your component ba
 
 The AI Builder components for [canvas apps](/powerapps/maker/canvas-apps/getting-started) are available in [Power Apps Studio](/powerapps/teams/understand-power-apps-studio) and appear on the **Insert** tab when you build your canvas app.
 
-> [!div class="mx-imgBorder"]
-> ![Power Apps Studio.](media/canvas-studio.png "Power Apps Studio")
+:::image type="content" source="media/power-apps-aibuilder.png" alt-text="Screenshot of Power Apps Studio.":::
 
 ## Use Power Fx to consume AI models in Power Apps (preview)
 
