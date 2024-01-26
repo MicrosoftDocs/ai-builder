@@ -8,8 +8,10 @@ contributors:
   - JoeFernandezMS
   - v-aangie
 ms.topic: conceptual
-ms.collection: get-started
-ms.date: 04/06/2023
+ms.collection: 
+- get-started
+- bap-ai-copilot
+ms.date: 1/10/2024
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---
@@ -18,7 +20,7 @@ ms.reviewer: angieandrews
 
 The invoice processing prebuilt AI model extracts key invoice data to help automate the processing of invoices. The invoice processing model is optimized to recognize common invoice elements like invoice ID, invoice date, amount due, and more.
 
-The **Invoices (preview)** model allows you to augment the default behavior by building a [custom Invoices model](create-form-processing-model.md#select-the-type-of-document).
+The **Invoices** model allows you to augment the default behavior by building a [custom Invoices model](create-form-processing-model.md#select-the-type-of-document).
 
 ## Use in Power Apps
 
@@ -144,7 +146,7 @@ The following limit applies to calls made per environment across document proces
 
 The invoice processing prebuilt AI model is designed to extract common fields found in invoices. Because every business is unique, you might want to extract fields other than those included in this prebuilt model. It can also be the case that some standard fields aren't well extracted for a particular type of invoice you work with. To address this, there are two options:
 
-- **Use the custom Invoices (preview) processing model**: Augment the behaviors of the prebuilt invoice processing model by adding new fields to be extracted in addition to the ones by [default](prebuilt-invoice-processing.md#model-output), or samples of documents not properly extracted. To learn how to augment the prebuilt invoice processing model, go to [Select the type of document](create-form-processing-model.md#select-the-type-of-document).
+- **Use the custom Invoices processing model**: Augment the behaviors of the prebuilt invoice processing model by adding new fields to be extracted in addition to the ones by [default](prebuilt-invoice-processing.md#model-output), or samples of documents not properly extracted. To learn how to augment the prebuilt invoice processing model, go to [Select the type of document](create-form-processing-model.md#select-the-type-of-document).
 
 - **View raw OCR results**: Every time the invoice processing prebuilt AI model processes a file you provide, it also does an OCR operation to extract every word written on the file. You can access the raw OCR results on the detected text output provided by the model. A simple search on the content returned by detected text might be enough to get the data you need.
 

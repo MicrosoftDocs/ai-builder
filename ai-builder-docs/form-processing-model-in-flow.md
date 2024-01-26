@@ -4,7 +4,7 @@ description: Learn how to use a document processing model in Power Automate.
 author: JoeFernandezMS
 ms.topic: conceptual
 ms.custom: bap-template
-ms.date: 05/31/2022
+ms.date: 01/10/2024
 ms.author: jofernan
 ms.reviewer: angieandrews
 ---

@@ -4,8 +4,8 @@ description: Describes the prebuilt entity extraction AI Builder model.
 author: mfotedar
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/21/2022
-ms.author: mfotedar
+ms.date: 1/10/2024
+ms.author: angieandrews
 ms.reviewer: angieandrews
 ---
 

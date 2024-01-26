@@ -2,10 +2,9 @@
 title: Text translation prebuilt AI model -  AI Builder | Microsoft Docs
 description: Describes the prebuilt text translation AI model in AI Builder.
 author: alanabrito
-
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/29/2021
+ms.date: 01/10/2024
 ms.author: alanab
 ms.reviewer: angieandrews
 ---

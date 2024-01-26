@@ -6,8 +6,10 @@ contributors:
   - Antoine2F
   - v-aangie
 ms.topic: conceptual
-ms.collection: get-started
-ms.date: 11/15/2023
+ms.collection: 
+- get-started
+- bap-ai-copilot
+ms.date: 01/10/2024
 ms.author: antode
 ms.reviewer: angieandrews
 ---

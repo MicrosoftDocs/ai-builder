@@ -3,8 +3,10 @@ title: Improve the performance of your document processing model - AI Builder | 
 description: Provides tips to help you improve document processing model performance in AI Builder.
 author: JoeFernandezMS
 ms.topic: conceptual
-ms.collection: get-started
-ms.date: 07/11/2022
+ms.collection: 
+- get-started
+- bap-ai-copilot
+ms.date: 01/10/2024
 ms.author: jofernan
 ms.reviewer: angieandrews
 ---

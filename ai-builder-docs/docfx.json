@@ -67,6 +67,11 @@
           "AI Builder"
         ]
       },
+      "ms.collection": {
+        "**.*": [
+          "bap-ai-copilot"
+        ]
+      },
       "ms.service": {
         "**.*": "aibuilder"
       }

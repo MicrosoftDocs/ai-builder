@@ -4,7 +4,7 @@ description: Provides an overview of what it means to train your AI model, and p
 author: v-aangie
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/06/2019
+ms.date: 01/10/2024
 ms.author: angieandrews
 ms.reviewer: kvivek
 ---

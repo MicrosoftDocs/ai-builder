@@ -4,7 +4,7 @@ description: Learn how to use the prediction model in a model-driven app.
 author: JoeFernandezMS
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/09/2021
+ms.date: 01/10/2024
 ms.author: jofernan
 ms.reviewer: angieandrews
 ---

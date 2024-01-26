@@ -4,7 +4,7 @@ description: Describes the text recognition prebuilt AI models that are availabl
 author: alanabrito
 ms.topic: conceptual
 ms.custom: 
-ms.date: 03/29/2021
+ms.date: 1/10/2024
 ms.author: alanab
 ms.reviewer: angieandrews
 ---

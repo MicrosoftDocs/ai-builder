@@ -3,8 +3,10 @@ title: Use sample data to do object detection - AI Builder | Microsoft Docs
 description: Provides information to help you get started by building and training an object detection model using sample pictures and labels in AI Builder.
 author: billba
 ms.topic: conceptual
-ms.collection: get-started
-ms.date: 03/19/2021
+ms.collection: 
+- get-started
+- bap-ai-copilot
+ms.date: 01/10/2024
 ms.author: billba
 ms.reviewer: angieandrews
 ---
