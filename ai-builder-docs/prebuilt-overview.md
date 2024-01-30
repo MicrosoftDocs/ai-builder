@@ -24,7 +24,7 @@ Prebuilt models are available in Power Automate and Power Apps. The following pr
 - [Key phrase extraction](prebuilt-key-phrase.md)
 - [Business card reader](prebuilt-business-card.md)
 - [Category classification ](prebuilt-category-classification.md)
-- [Text generation (preview)](prebuilt-azure-openai.md)
+- [Text generation (preview) (deprecated)](prebuilt-azure-openai.md)
 - [Language detection](prebuilt-language-detection.md)
 - [Text translation](prebuilt-text-translation.md)  
 - [Image description (preview)](prebuilt-image-description.md)
