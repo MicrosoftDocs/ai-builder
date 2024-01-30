@@ -28,11 +28,13 @@ To build a model with AI Builder:
 
 1. Sign in to [Power Apps](https://make.powerapps.com) or [Power Automate](https://flow.microsoft.com).
 
-1. On the left pane, select **AI Builder** > **Explore**.
+1. On the left pane, select **... More** > **AI hub**.
+2. On the left pane, select **AI models**.
+(_Feel free to pin AI models for quick access_)
 
 1. On the right pane, select the model type that matches what you want to do. Then, you're ready to get started.
 
-    :::image type="content" source="media/ai-builder-home.png" alt-text="Screenshot of AI Builder home page.":::
+    :::image type="content" source="media/power-automate -ai-models.svg" alt-text="Screenshot of AI Builder home page.":::
 
 ## Model types
 
