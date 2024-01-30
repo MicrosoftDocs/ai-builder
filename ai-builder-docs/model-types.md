@@ -1,5 +1,5 @@
 ---
-title: AI models and business scenarios - AI Builder | Microsoft Docs
+title: AI models and business scenarios - AI Builder
 description: This topic provides an overview of how the AI model types that you can create in AI Builder relate to various business scenarios.
 author: phil-cmd
 contributors:
@@ -26,23 +26,24 @@ These models are only a few of the ways you can use AI Builder to add intelligen
 
 To build a model with AI Builder:
 
-1. Sign in to [Power Apps](https://make.powerapps.com) or [Power Automate](https://flow.microsoft.com).
+1. Sign in to [Power Apps](https://make.powerapps.com) or [Power Automate](https://make.powerautomate.com).
 
 1. On the left pane, select **... More** > **AI hub**.
-2. On the left pane, select **AI models**.
-(_Feel free to pin AI models for quick access_)
+1. Under **Discover an AI capability**, select **AI models**.
 
-1. On the right pane, select the model type that matches what you want to do. Then, you're ready to get started.
+    *(Optional)* To keep **AI models** permanently on the menu for easy access, select the pin icon.
 
-    :::image type="content" source="media/power-automate -ai-models.svg" alt-text="Screenshot of AI Builder home page.":::
+1. On the right pane, select the model type that matches what you want to do. You're ready to get started.
+
+    :::image type="content" source="media/power-automate-ai-models.svg" alt-text="Screenshot of AI models page.":::
 
 ## Model types
 
 The following table lists the data type, models type, and build type. 
 
-- The *data type* describes the type of AI that the models use (for example, documents, text, structured data, or images). 
+- **Data type**: Describes the type of AI that the models use (for example, documents, text, structured data, or images). 
 
-- The *build type* indicates whether it’s a customizable model that you'll need to build, train, and publish for your intended use, or if it's a prebuilt model that’s ready to use. In general, use *custom* AI Builder models for applications where you're working with data that’s unique to your business. Use *prebuilt* models for scenarios that are common across different types of businesses.
+- **Build type**: Indicates whether it’s a customizable model that you'll need to build, train, and publish for your intended use, or if it's a prebuilt model that’s ready to use. In general, use *custom* AI Builder models for applications where you're working with data that’s unique to your business. Use *prebuilt* models for scenarios that are common across different types of businesses.
 
 [Common business scenarios](#common-business-scenarios) and the model types that are suited to them are described later in this topic.
 
