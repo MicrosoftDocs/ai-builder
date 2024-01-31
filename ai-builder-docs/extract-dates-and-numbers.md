@@ -14,13 +14,7 @@ ms.reviewer: angieandrews
 
 # Extract dates and numbers from documents
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
-
 While many fields to be extracted are simple texts, there are cases where the information to extract is a date or a number including amounts.
-
-> - [!INCLUDE[cc_preview_features_definition](includes/cc-preview-features-definition.md)]
->
-> - This feature is in process of rolling out, and might not be available in your region yet.
 
 Importing this data to a target system can be cumbersome, requiring significant custom conversion logic. Most of the import connectors and APIs only accept normalized dates in ISO 8601 format like `YYYY-MM-DD`. To learn more about date format, go to [ISO 8601 Date and time format](https://www.iso.org/iso-8601-date-and-time-format.html). They also accept only numbers using dot as a decimal separator without a thousands separator like `NNN.DD`.
 
