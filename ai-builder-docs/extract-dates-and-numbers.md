@@ -1,5 +1,5 @@
 ---
-title: Extract dates and numbers from documents (preview)
+title: Extract dates and numbers from documents
 description: Learn how to extract dates and numbers from documents in AI Builder.
 author: CedrickBellarosa
 contributors:
@@ -12,7 +12,7 @@ ms.author: cdbellar
 ms.reviewer: angieandrews
 ---
 
-# Extract dates and numbers from documents (preview)
+# Extract dates and numbers from documents
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
