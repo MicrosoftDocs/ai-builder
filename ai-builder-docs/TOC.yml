@@ -4,6 +4,8 @@
   items:
   - name: Overview of AI Builder
     href: overview.md
+  - name: Overview of licensing
+    href: administer-licensing.md
   - name: Labs and sample data
     items:
     - name: Labs
@@ -270,24 +272,22 @@
   href: teams-templates.md
 - name: Use document automation toolkit
   href: doc-automation.md
-- name: Administration and security
+- name: Governance and security
   items:
   - name: Administer AI Builder
     href: administer.md
-  - name: Licensing and credit management
-    href: credit-management.md
-  - name: Consumption report
-    href: administer-consumption-report.md
-  - name: AI Builder trial
-    href: ai-builder-trials.md
   - name: Roles and security
     href: security.md
   - name: Feature availability by region
     href: availability-region.md
-- name: Licensing and governance
+- name: Licensing and monitoring
   items:
-  - name: Licensing
-    href: administer-licensing.md
+  - name: Licensing and credit management
+    href: credit-management.md
+  - name: AI Builder trial
+    href: ai-builder-trials.md
+  - name: Consumption report
+    href: administer-consumption-report.md
   - name: Monitor model activity (preview)
     href: activity-monitoring.md  
 - name: Troubleshoot

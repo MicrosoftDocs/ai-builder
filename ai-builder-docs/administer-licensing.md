@@ -1,5 +1,5 @@
 ---
-title: AI Builder licensing summary
+title: Overview of licensing
 description: Learn about licensing in AI Builder.
 author: phil-cmd
 contributors:
@@ -15,7 +15,7 @@ ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
-# AI Builder licensing summary
+# Overview of licensing
 
 AI Builder is licensed on a capacity basis. The capacity is measured in terms of *service credits* or *AI Builder credits*. Qualifying prerequisites include having Power Apps, Power Automate, or Dynamics 365 license that allows you to create the Microsoft Power Platform environment.
 
