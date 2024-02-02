@@ -276,7 +276,7 @@
   items:
   - name: Administer AI Builder
     href: administer.md
-   - name: Roles and security
+  - name: Roles and security
     href: security.md
   - name: Feature availability by region
     href: availability-region.md
