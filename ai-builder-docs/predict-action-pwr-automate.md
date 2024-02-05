@@ -86,7 +86,7 @@ In this section, we'll explain how to configure the AI Builder predict action fo
         "requestv2": {
         "@@odata.type": "Microsoft.Dynamics.CRM.expando",
         "mimeType": "@{triggerBody()['text']}",
-        "base64Encoded": "@{string(triggerBody()?['file']?['contentBytes'])}"
+        "base64Encoded": "@{string(triggerBody()?['file']?['contentBytes'])}",
         "pageRange": "1"
         }
     }
