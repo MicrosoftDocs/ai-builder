@@ -16,8 +16,7 @@ ms.reviewer: angieandrews
 
 In AI Builder, we guide you through each step to create your AI model.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the Explore screen.](media/power-automate-ai-models.png "Explore screen")
+:::image type="content" source="media/power-automate-ai-models.png" alt-text="Screenshot of the Explore screen.":::
 
 ## Prerequisites
 
