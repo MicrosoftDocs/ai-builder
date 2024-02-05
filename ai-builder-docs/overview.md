@@ -19,7 +19,7 @@ With AI Builder, a Microsoft Power Platform feature, you can create and use AI m
 
 - Explore AI Builder in [Power Apps](use-in-powerapps-overview.md).
 
-:::image type="content" source="media/ai-builder-home.png" alt-text="Screenshot of the AI Builder home page.":::
+:::image type="content" source="media/power-automate-ai-models.png" alt-text="Screenshot of the Explore screen.":::
 
 ## Add intelligence to your business
 
