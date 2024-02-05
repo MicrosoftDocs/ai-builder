@@ -1,5 +1,5 @@
 ---
-title: Use predict action in Power Automate - AI Builder | Microsoft Docs
+title: Use predict action in Power Automate - AI Builder
 description: Learn how to use the predict action in Power Automate.
 author: Antonio-Rodrigues
 contributors:
