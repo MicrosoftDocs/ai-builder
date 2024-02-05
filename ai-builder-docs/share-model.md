@@ -21,7 +21,7 @@ If you want other users to use your model in Power Apps or Power Automate, you n
 You can also share a model with other users as co-owners of this model. Co-owners can edit, retrain, publish, or share a model. However, co-owners can't delete a model.
 
  > [!NOTE]
- > It is not possible for the co-owners of a model to edit the model simultaneously.
+ > It isn't possible for the co-owners of a model to edit the model simultaneously.
 
 ## Share action
 
