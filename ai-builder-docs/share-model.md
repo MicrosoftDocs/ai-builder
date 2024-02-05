@@ -20,6 +20,9 @@ If you want other users to use your model in Power Apps or Power Automate, you n
 
 You can also share a model with other users as co-owners of this model. Co-owners can edit, retrain, publish, or share a model. However, co-owners can't delete a model.
 
+ > [!NOTE]
+ > It is not possible for the co-owners of a model to edit the model simultaneously.
+
 ## Share action
 
 The share action is available on the **Models** page in AI Builder for each model where you're the owner. It's also available for the system administrator in the environment, or for any security role that has Share permissions on AI Builder system tables.
