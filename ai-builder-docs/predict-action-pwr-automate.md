@@ -1,5 +1,5 @@
 ---
-title: Use predict action in Power Automate - AI Builder | Microsoft Docs
+title: Use predict action in Power Automate - AI Builder
 description: Learn how to use the predict action in Power Automate.
 author: Antonio-Rodrigues
 contributors:
@@ -86,7 +86,7 @@ In this section, we'll explain how to configure the AI Builder predict action fo
         "requestv2": {
         "@@odata.type": "Microsoft.Dynamics.CRM.expando",
         "mimeType": "@{triggerBody()['text']}",
-        "base64Encoded": "@{string(triggerBody()?['file']?['contentBytes'])}"
+        "base64Encoded": "@{string(triggerBody()?['file']?['contentBytes'])}",
         "pageRange": "1"
         }
     }
