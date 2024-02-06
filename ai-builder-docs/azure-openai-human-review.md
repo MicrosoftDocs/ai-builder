@@ -11,6 +11,8 @@ ms.custom: bap-template
 ms.date: 1/10/2024
 ms.author: plarrue
 ms.reviewer: angieandrews
+ms.collection: 
+    - bap-ai-copilot
 ---
 
 # Human review for automation with a prompt
@@ -32,7 +34,7 @@ For instance, consider a scenario where a citizen developer uses the **Create te
 
 Fabrication, also known as hallucination, is another challenge faced by AI models, including the text generation model. This phenomenon occurs when the AI model generates information that isn't based on provided inputs or pre-existing data, essentially *inventing* or *hallucinating* information.
 
-For instance, if the AI model is asked to generate a summary of a historical event based on a given text, it may include details or events that weren't mentioned in the source text, or even facts that are historically incorrect. For example, a flow creates a synopsis of a meeting based on transcript of the recording. The input data includes details about the attendees, the articles discussed, and the decisions made. However, the model might generate a summary that includes an action item or a decision that was never discussed in the meeting. This situation is an instance of fabrication, where the model has *hallucinated* information that doesn't exist in the input data.**
+For instance, if the AI model is asked to generate a summary of a historical event based on a given text, it might include details or events that weren't mentioned in the source text, or even facts that are historically incorrect. For example, a flow creates a synopsis of a meeting based on transcript of the recording. The input data includes details about the attendees, the articles discussed, and the decisions made. However, the model might generate a summary that includes an action item or a decision that was never discussed in the meeting. This situation is an instance of fabrication, where the model has *hallucinated* information that doesn't exist in the input data.
 
 To mitigate the risk of fabrication, it's crucial to implement responsible AI practices. This includes rigorous testing of the prompt and the flow, providing the model with as much grounding information as possible and finally implementing a robust system for human oversight.
 
