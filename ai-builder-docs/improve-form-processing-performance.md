@@ -21,7 +21,11 @@ Interpret your accuracy score to identify what your model is struggling to extra
 
 1. Sign in to [Power Apps](https://make.powerapps.com/) or [Power Automate](https://flow.microsoft.com/signin).
 
-1. In the left pane, select **AI Builder** > **Models**.
+1. On the left pane, select ... More > AI hub.
+
+    Under Discover an AI capability, select AI models.
+   
+    _(Optional) To keep AI models permanently on the menu for easy access, select the pin icon._
 
 1. Open the document processing model you want to investigate. You should see the accuracy score.
 
