@@ -22,11 +22,16 @@ We’ve added the ability to declare this type during the field creation step of
 
 Example of the date convention:
 
-:::image type="content" source="media/extract-dates-and-numbers/date-field.svg" alt-text="Screenshot of 'Date field' type.":::
+:::image type="content" source="media/extract-dates-and-numbers/date-field-overview.png" alt-text="Screenshot of 'Date field' type overview.":::
+
+:::image type="content" source="media/extract-dates-and-numbers/date-field-format.png" alt-text="Screenshot of 'Date field' type format.":::
+
 
 Example of the number convention:
 
-:::image type="content" source="media/extract-dates-and-numbers/number-field.svg" alt-text="Screenshot of 'Number field' type.":::
+:::image type="content" source="media/extract-dates-and-numbers/number-field-overview.png" alt-text="Screenshot of 'Number field' type overview.":::
+
+:::image type="content" source="media/extract-dates-and-numbers/number-field-format.png" alt-text="Screenshot of 'Number field' type format.":::
 
  > [!NOTE]
  > For each field, only one convention is allowed for a given field for all the collections of this model. For instance, if you extract a field amount by selecting **Use comma (,) as decimal separator**, the following text 1234,56 or 1 234,56 is converted to 1234.56. Amounts with format 12,34,576.78 or 1,234.56 aren't converted.
