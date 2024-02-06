@@ -115,4 +115,4 @@ AI Builder document processing is built on top of Azure Form Recognizer. This pr
 
 ### How much does AI Builder document processing cost?
 
-You can start trying out document processing for free by starting a [trial](administer-licensing.md). After you've evaluated it, you'll need to purchase AI Builder credits to use document processing. Every page you process with document processing will consume AI Builder credits. AI Builder credits can be purchased through AI Builder add-ons. Learn more: [AI Builder licensing](administer-licensing.md)
+You can start trying out document processing for free by starting a [trial](administer-licensing.md). After you evaluate it, you need to purchase AI Builder credits to use document processing. Every page you process with document processing consumes AI Builder credits, even if the page doesn't contain data to extract. AI Builder credits can be purchased through AI Builder add-ons. Learn more: [AI Builder licensing](administer-licensing.md)
