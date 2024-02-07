@@ -20,8 +20,8 @@ The key phrase extraction prebuilt model identifies the main points in a text do
 You can try out the key phrase extraction model before you import it into your flow.
 
 1. Sign in to [Power Apps](https://make.powerapps.com) or [Power Automate](https://make.powerautomate.com).
-1. On the left pane, select **... More**, select **AI hub**.
-1. Under Discover an AI capability, select **AI models**.
+1. On the left pane, select **... More** > **AI hub**.
+1. Under **Discover an AI capability**, select **AI models**.
 
      *(Optional)* To keep AI models permanently on the menu for easy access, select the pin icon.
 
