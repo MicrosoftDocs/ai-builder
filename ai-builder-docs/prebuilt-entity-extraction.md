@@ -19,7 +19,7 @@ The prebuilt model is ready to use out of the box. For information about customi
 
 ### Explore entity extraction
 
-You can try out the entity extraction model before you import it into your flow by using the "try it out" feature.
+You can try out the entity extraction model before you import it into your flow.
 
 1. Sign in to [Power Apps](https://make.powerapps.com) or [Power Automate](https://make.powerautomate.com)
 2. On the left pane, select **... More**, select **AI hub**.
