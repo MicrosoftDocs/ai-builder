@@ -32,8 +32,14 @@ You need at least 10 data examples to start customizing the model. AI Builder wi
 To upload your data:
 
 1. Sign in to [Power Apps](https://make.powerapps.com/) or [Power Automate](https://flow.microsoft.com/).
-1. In the left pane, select **AI Builder** > **Explore**, and then select **Entity Extraction**.
-1. Enter a name for your model, and then select **Create**.
+1. In the left pane, select **... More** > **AI hub**.
+2. Under Discover an AI capability, select **AI models**.
+
+      _(Optional) To keep AI models permanently on the menu for easy access, select the pin icon._
+
+3. Select **Text**.
+4. Select **Entity Extraction Extract custom entities from your text**.
+1. Select **Create custom model**.
 1. Select the Microsoft Dataverse **Table** and the **Column** that contains your data.
 
    Here's an example of a selected table and column:
