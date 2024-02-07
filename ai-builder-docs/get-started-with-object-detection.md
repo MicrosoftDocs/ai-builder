@@ -13,11 +13,14 @@ ms.reviewer: angieandrews
 
 # Build your object detection custom model
 
-1. Sign in to [Power Apps](https://make.powerapps.com), and then select **AI Builder** > **Explore**.
+1. Sign in to [Power Apps](https://make.powerapps.com) or [Power Automate](https://make.powerautomate.com)
+2. On the left pane, Select **... More** > **AI hub**.
+3. Under Discover an AI capability, select **AI models**.
 
-1. Select **Images** > **Object detection** AI Builder custom model type.
-
-1. Select **Get started**.
+      _(Optional) To keep AI models permanently on the menu for easy access, select the pin icon._
+   
+4. Select **Images** > **Object detection - Detect custom objects in images**.
+5. Select **Create custom model**.
 
 ## Select the model domain
 
