@@ -17,16 +17,16 @@ ms.reviewer: angieandrews
 
 Now that you have your training data in Microsoft Dataverse, you can create a new model and configure it.
 
-1. Sign in to [Power Apps](https://make.powerapps.com/), and then select **AI Builder** > **Explore**.
+1. Sign in to [Power Apps](https://make.powerapps.com/) or [Power Automate](https://make.powerautomate.com)
+2. In the left pane, select **... More**, select **AI hub**.
+3. Under Discover an AI capability, select **AI models**.
 
-1. Select **Text**.
+      _(Optional) To keep AI models permanently on the menu for easy access, select the pin icon._
 
-1. Select **Category classification - Classify texts into custom categories**. 
+4. Select **Text**.
+5. Select **Category classification - Classify texts into custom categories**. 
 
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of the Category classification tile.](media/build-text-classification-model.png "Category classification - Classify texts into custom categories")
-
-1. Read the **Classify texts into custom categories** page, and then select **Get started**.
+1. Read the **Classify texts into custom categories** page, and then select **Create custom model**.
 
 1. Choose **Select text**, select the table, select the column where your training text is stored, and then choose **Select column**.
 
