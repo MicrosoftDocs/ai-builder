@@ -21,15 +21,14 @@ The prebuilt model is ready to use out of the box. For information about customi
 
 You can try out the entity extraction model before you import it into your flow by using the "try it out" feature.
 
-1. Sign in to [Power Apps](https://make.powerapps.com).
+1. Sign in to [Power Apps](https://make.powerapps.com) or [Power Automate](https://make.powerautomate.com)
+2. On the left pane, select **... More**, select **AI hub**.
+3. Under Discover an AI capability, select **AI models**.
 
-1. In the left pane, select **AI Builder** > **Explore**.
+    _(Optional) To keep AI models permanently on the menu for easy access, select the pin icon._
 
-1. Under **Get straight to productivity**, select **Entity Extraction**.
-
-1. In the **Entity Extraction** window, select **Try it out**.
-
-1. Select predefined text samples to analyze, or add your own text in the **Or add your own here** box to see how the model analyzes your text.
+4. Select **Entity Extraction - Extract key elements from text, and classifies them into predefined categories**.
+5. Select predefined text samples to analyze, or add your own text, select **Analyze text**  to see how the model analyzes your text.
 
 ### Use the formula bar
 
