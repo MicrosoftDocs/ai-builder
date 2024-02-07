@@ -20,7 +20,7 @@ The prebuilt category classification model is a ready to use AI model that's con
 
 ### Explore category classification
 
-You can see the category classification prebuilt model in action without the need to build a flow by using the "try it out" feature.
+You can see the category classification prebuilt model in action without the need to build a flow.
 
 1. Sign in to [Power Apps](https://make.powerapps.com) or [Power Automate](https://make.powerautomate.com)
 2. On the left pane, select **... More**, select **AI hub**.
