@@ -21,18 +21,16 @@ After you review the [requirements](form-processing-model-requirements.md), you 
 ## Sign in to AI Builder
 
 1. Sign in to [Power Apps](https://make.powerapps.com/) or [Power Automate](https://make.powerautomate.com).
-2. On the left pane, select **... More** > **AI hub**.
+1. On the left pane, select **... More** > **AI hub**.
+1. Under Discover an AI capability, select **AI models**.
 
-3. Under Discover an AI capability, select **AI models**.
-   
-      _(Optional) To keep AI models permanently on the menu for easy access, select the pin icon._
+    *(Optional)* To keep AI models permanently on the menu for easy access, select the pin icon.
 
-4. Select **Extract custom information from documents**.
-   
-5. Select **Create custom model**.
-6. A step-by-step wizard walks you through the process by asking you to list all data you want to extract from your document. If you want to create your model by using your own documents, make sure you have at least five examples that use the same layout. Otherwise, you can [use sample data](form-processing-sample-data.md) to create the model.
-7. Select **Train**.
-8. Test the model by selecting **Quick test**.
+1. Select **Extract custom information from documents**.
+1. Select **Create custom model**.
+1. A step-by-step wizard walks you through the process by asking you to list all data you want to extract from your document. If you want to create your model by using your own documents, make sure you have at least five examples that use the same layout. Otherwise, you can [use sample data](form-processing-sample-data.md) to create the model.
+1. Select **Train**.
+1. Test the model by selecting **Quick test**.
 
 ## Select the type of document
 

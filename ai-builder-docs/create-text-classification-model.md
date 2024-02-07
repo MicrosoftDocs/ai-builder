@@ -17,11 +17,11 @@ ms.reviewer: angieandrews
 
 Now that you have your training data in Microsoft Dataverse, you can create a new model and configure it.
 
-1. Sign in to [Power Apps](https://make.powerapps.com/) or [Power Automate](https://make.powerautomate.com)
-2. In the left pane, select **... More**, select **AI hub**.
-3. Under Discover an AI capability, select **AI models**.
+1. Sign in to [Power Apps](https://make.powerapps.com/) or [Power Automate](https://make.powerautomate.com).
+1. On the left pane, select **... More**, select **AI hub**.
+1 Under Discover an AI capability, select **AI models**.
 
-      _(Optional) To keep AI models permanently on the menu for easy access, select the pin icon._
+    *(Optional)* To keep AI models permanently on the menu for easy access, select the pin icon.
 
 4. Select **Text**.
 5. Select **Category classification - Classify texts into custom categories**. 

@@ -19,14 +19,14 @@ The sentiment analysis prebuilt model detects positive or negative sentiment in 
 
 You can try out the sentiment analysis model before you import it into your flow.
 
-1. Sign in to [Power Apps](https://make.powerapps.com) or [Power Automate](https://make.powerautomate.com)
-2. On the left pane, select **... More**, select **AI hub**.
-3. Under Discover an AI capability, select **AI models**.
+1. Sign in to [Power Apps](https://make.powerapps.com) or [Power Automate](https://make.powerautomate.com).
+1. On the left pane, select **... More**, select **AI hub**.
+1. Under Discover an AI capability, select **AI models**.
 
-    _(Optional) To keep AI models permanently on the menu for easy access, select the pin icon._
+    *(Optional)* To keep AI models permanently on the menu for easy access, select the pin icon.
 
-4. Select **Sentiment analysis - Detect positive, negative, or neutral sentiment in text data**.
-5. Select predefined text samples to analyze, or add your own text, select **Analyze text**  to see how the model analyzes your text.
+1. Select **Sentiment analysis - Detect positive, negative, or neutral sentiment in text data**.
+1. Select predefined text samples to analyze, or add your own text, select **Analyze text**  to see how the model analyzes your text.
 
 ### Use the formula bar
 
@@ -45,7 +45,7 @@ If you want to use this prebuilt model in Power Automate, you can find more info
 
 If text is detected, the sentiment analysis model outputs the following information: 
 
-- **Sentiment**: 
+- **Sentiment**:
   - Positive
   - Negative
   - Neutral
