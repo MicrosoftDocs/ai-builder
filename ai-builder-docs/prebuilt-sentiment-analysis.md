@@ -17,17 +17,16 @@ The sentiment analysis prebuilt model detects positive or negative sentiment in 
 
 ### Explore sentiment analysis
 
-You can try out the sentiment analysis model before you import it into your flow by using the "try it out" feature.
+You can try out the sentiment analysis model before you import it into your flow.
 
-1. Sign in to [Power Apps](https://make.powerapps.com).
+1. Sign in to [Power Apps](https://make.powerapps.com) or [Power Automate](https://make.powerautomate.com)
+2. On the left pane, select **... More**, select **AI hub**.
+3. Under Discover an AI capability, select **AI models**.
 
-1. In the left pane, select **AI Builder** > **Explore**.
+    _(Optional) To keep AI models permanently on the menu for easy access, select the pin icon._
 
-1. Under **Get straight to productivity**, select **Sentiment Analysis**.
-
-1. In the **Sentiment Analysis** window, select **Try it out**.
-
-1. Select predefined text samples to analyze, or add your own text in the **Add your own here** box to see how the model analyzes your text.
+4. Select **Sentiment analysis - Detect positive, negative, or neutral sentiment in text data**.
+5. Select predefined text samples to analyze, or add your own text, select **Analyze text**  to see how the model analyzes your text.
 
 ### Use the formula bar
 
