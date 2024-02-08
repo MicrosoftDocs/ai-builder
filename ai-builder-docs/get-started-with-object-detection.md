@@ -13,11 +13,14 @@ ms.reviewer: angieandrews
 
 # Build your object detection custom model
 
-1. Sign in to [Power Apps](https://make.powerapps.com), and then select **AI Builder** > **Explore**.
+1. Sign in to [Power Apps](https://make.powerapps.com) or [Power Automate](https://make.powerautomate.com).
+1. On the left pane, Select **... More** > **AI hub**.
+1. Under Discover an AI capability, select **AI models**.
 
-1. Select **Images** > **Object detection** AI Builder custom model type.
+    *(Optional)* To keep AI models permanently on the menu for easy access, select the pin icon.
 
-1. Select **Get started**.
+1. Select **Images** > **Object detection - Detect custom objects in images**.
+1. Select **Create custom model**.
 
 ## Select the model domain
 
@@ -27,7 +30,7 @@ The first thing you'll do when you create an AI Builder object detection model i
 - **Objects on retail shelves:** Detects products densely packed on shelves.
 - **Brand logos:** Optimized for logo detection.
 
-Select a model for your domain and click **Next**.
+Select a model for your domain and select **Next**.
 
 > [!NOTE]
 > Domain specific object detection uses more AI Builder credits than common object detection, and therefore costs more to use. To estimate the impact of using domain specific versus common object on your organization, use the [AI Builder calculator](https://powerapps.microsoft.com/ai-builder-calculator/).
@@ -76,16 +79,13 @@ Now let's move on to the image upload step. The pictures you collected ahead of 
 1. Make sure your images follow the qualitative and quantitative [guidance](collect-images.md).
 
 1. In AI Builder, select **Add images**.
-
 1. Select the data source where your images are stored, and then select the images that contain your objects.
-
 1. Confirm the images that appear in AI Builder before you upload them. Deselect any image you want to exclude.
 
    > [!div class="mx-imgBorder"]
    > ![Screenshot of the Upload images screen.](media/select-images.png "Upload images screen")
 
-1.  Select **Upload** <*number*> **images**.
-
+1. Select **Upload** <*number*> **images**.
 1. When the upload is complete, select **Close**, and then select **Next**.
 
 ## Tag images
@@ -93,9 +93,7 @@ Now let's move on to the image upload step. The pictures you collected ahead of 
 This section explains the tagging process that's a key part of object detection. You draw rectangles around the objects of interest, and then assign a name to the rectangle that you want the model to associate with this object.
 
 1. On the **Tag the objects in your images** screen, select the first image in your gallery.
-
 1. Draw a rectangle around the object. To do this, press and hold your mouse at the upper-left corner of the object, and then drag down to the lower-right corner of the object. The rectangle should fully encompass the object you want your model to recognize.
-
 1. After you draw a rectangle, you can associate a name to the object from the list of names you already selected.
 
    > [!div class="mx-imgBorder"]
