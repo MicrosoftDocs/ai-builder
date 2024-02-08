@@ -264,6 +264,8 @@
     href: prebuilt-text-recognizer-component-in-powerapps.md
   - name: Use the image description model in Power Apps (preview)
     href: image-description-in-powerapps.md
+  - name: Use prebuilt prompts in a Dataverse low-code plug-in
+    href: prebuilt-prompts-in-dataverse-plug-in-powerapps.md  
   - name: Use AI Builder models in Power Apps
     href: powerfx-in-powerapps.md
 - name: Use AI Builder in SharePoint
