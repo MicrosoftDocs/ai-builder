@@ -21,6 +21,8 @@
   items:
   - name: Overview
     href: prompts-overview.md
+  - name: Get started with prebuilt prompts (preview)
+    href: prebuilt-prompts.md  
   - name: Create a prompt
     href: create-a-custom-prompt.md
   - name: Share your prompt
