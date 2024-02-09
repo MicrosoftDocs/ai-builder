@@ -25,7 +25,7 @@ A prompt can be added as an action in a Power Automate flow so it's possible to 
 
 ## Use an existing prompt in a flow
 
-**Prerequisite**: You've created a custom prompt named **Task Identifier** that has one input called **Text**, as described in [Create a prompt](create-a-custom-prompt.md).
+**Prerequisite**: You've created a prompt named **Task Identifier** that has one input called **Text**, as described in [Create a custom prompt](create-a-custom-prompt.md).
 
 1. Sign in to [Power Automate](https://make.powerautomate.com/).
 1. Select **+Create** > **Instant cloud flow**.
@@ -65,7 +65,7 @@ A prompt can be added as an action in a Power Automate flow so it's possible to 
 
     :::image type="content" source="media/use-a-custom-prompt-in-flow/new-prompt.png" alt-text="Create a new prompt":::
 
-1. Follow the instruction from the [Create a prompt](create-a-custom-prompt.md) documentation to create your prompt instructions.
+1. Follow the instruction from the [Create a custom prompt](create-a-custom-prompt.md) documentation to create your prompt instructions.
 1. Save your prompt and follow the [instructions to use your prompt in a flow](use-a-custom-prompt-in-flow.md#use-an-existing-prompt-in-a-flow).
 
 ## Use the output of the GPT action

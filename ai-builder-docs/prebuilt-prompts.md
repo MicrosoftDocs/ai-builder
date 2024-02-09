@@ -1,23 +1,19 @@
 ﻿---
-title: Get started with prebuilt prompts (preview)
+title: Get started with prebuilt prompts
 description: Learn about the various prebuilt prompts available to you.
 author: DanaMartens
 contributors:
   - DanaMartens
   - v-aangie
 ms.topic: conceptual
-ms.date: 02/08/2024
+ms.date: 02/16/2024
 ms.author: dmartens
 ms.reviewer: angieandrews
 ---
 
-# Get started with prebuilt prompts (preview)
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
+# Get started with prebuilt prompts
 
 The Power Platform empowers makers with prebuilt prompts for common business scenarios such as summarizing, classifying, extracting entities, translating, assessing sentiment, or drafting a reply. These prompts allow you to generate AI-driven responses without the need to manually create a prompt. Instead of specifying both the prompt and the text to process, you can simply provide the text you want to analyze, and the AI will generate the desired output.
-
-[!INCLUDE [cc_preview_features_definition](./includes/cc-preview-features-definition.md)]
 
 You can use prebuilt prompts in multiple experiences, including the following:
 
@@ -27,18 +23,21 @@ You can use prebuilt prompts in multiple experiences, including the following:
 
 ## Prerequisites  
 
-- An environment in the United States.
+- An environment in a region where prompts are available.
+
+    To learn if prompts are available in your region, go to [Feature availability by region&mdash;Prompts](availability-region.md#promps).
+
 - A Power Apps or Dynamics 365 license.
 - A Dataverse database installed on the environment.
 - An AI Builder add-on.
 
-## Prebuilt prompts you can use as-is
+## Prebuilt prompts you can use 'as-is'
 
-The following tables describe the available prebuilt prompts. If you find a prebuilt prompt you want to use, go to [Use a prebuilt prompt](#use-a-prebuilt-prompt) in this article to learn how to use it in a Dataverse low-code plug-in, a Power App, or a Power Automate flow. If you don't find a prebuilt prompt that meets your needs, you can create a [custom prompt](https://learn.microsoft.com/ai-builder/create-a-custom-prompt).
+The following tables describe the available prebuilt prompts. If you find a prebuilt prompt you want to use, go to [Use a prebuilt prompt](#use-a-prebuilt-prompt) in this article to learn how to use it in a Dataverse low-code plug-in, a Power Apps app, or a Power Automate flow. If you don't find a prebuilt prompt that meets your needs, you can [create a custom prompt](create-a-custom-prompt.md).
 
 ### AISummarize
 
-Summarize the provided text.
+Summarize the text that you provide. For example, this prompt summarizes an email message or text from a document.
 
 #### Input for AISummarize
 
@@ -54,7 +53,7 @@ Summarize the provided text.
 
 ### AISentiment
 
-Detect the sentiment of the provided text.
+Detect the sentiment of the text that you provide. For example, this prompt detects whether the sentiment of a customer review is positive, negative, or neutral.
 
 #### Input for AISentiment
 
@@ -70,7 +69,7 @@ Detect the sentiment of the provided text.
 
 ### AIReply
 
-Draft a reply to the provided message.
+Draft a reply to the message that you provide. For example, this prompt drafts a reply to a customer's review of a product.
 
 #### Input for AIReply
 
@@ -86,14 +85,16 @@ Draft a reply to the provided message.
 
 ### AITranslate
 
-Translate text from another language. The source language doesn't need to be specified, and is automatically detected. To learn more about languages supported for the source and target language, go to [Translator language support&mdash;Translation](/azure/ai-services/translator/language-support#translation) and review the list of languages in the **Auto Language Detection** column.
+Translate text from another language. For example, this prompt translates a customer email or product review. The source language doesn't need to be specified, and is automatically detected.
+
+To learn more about languages supported for the source and target language, go to [Translator language support&mdash;Translation](/azure/ai-services/translator/language-support#translation) and review the list of languages in the **Auto Language Detection** column.
 
 #### Input for AITranslate
 
 | Name | Required | Type | Description   | Values     |
 |----------|--------------|----------|-------------------|----------------|
 | Text     | Yes          | string   | Text to translate | Text sentences |
-| TargetLanguage | No     | string   | Language code to which you want to translate. | A valid language code such as en for English. |
+| TargetLanguage | No     | string   | Language code to which you want to translate | A valid language code such as en for English |
 
 #### Output for AITranslate
 
@@ -105,7 +106,7 @@ Translate text from another language. The source language doesn't need to be spe
 
 Classify text into one or more provided categories. For example, the following list of categories may be used to classify issues submitted by your customers:
 
-\["Problem", "Billing", "How To", "Licensing"\] <!--What do brackets and quotes indicate? Should we use code attribute?-->
+`["Problem", "Billing", "How To", "Licensing"]`
 
 #### Input for AIClassify
 
@@ -143,15 +144,15 @@ The following sections provide links for how to use a prebuilt prompt in a Datav
 
 ### Use in a Dataverse low-code plug-in
 
-For details on how to use prebuilt prompts in a low-code plug-in, go to [Use prebuilt prompts in a Dataverse low-code plug-in](https://microsoft-my.sharepoint.com/:w:/p/dmartens/EbeLeF-jDcBJjqQ9EHbm4cEBySW73fBZQw4b7k6wgwJUig?e=s5YsRJ).
+To learn how to use prebuilt prompts in a low-code plug-in, go to [Use a prebuilt prompt in a Dataverse low-code plug-in](/ai-builder/prebuilt-prompts-in-dataverse-plug-in-powerapps).
 
 ### Use in Power Apps
 
-With the exception of AI Translate, each of the prebuilt prompts mentioned above can be used in Power Apps the same way you can use custom prompts. For details on how to use custom or prebuilt prompts in Power Apps, go to [Use your custom prompt in Power Apps](https://review.learn.microsoft.com/en-us/ai-builder/use-a-custom-prompt-in-app?branch=main&branchFallbackFrom=pr-en-us-766).
+With the exception of AI Translate, each of the prebuilt prompts mentioned above can be used in Power Apps the same way you can use custom prompts. To learn how to use custom or prebuilt prompts in Power Apps, go to [Use your custom prompt in Power Apps](use-a-custom-prompt-in-app.md).
 
 ### Use in Power Automate
 
-With the exception of AI Translate, each of the prebuilt prompts mentioned above can be used in Power Automate the same way you can use custom prompts. For details on how to use custom or prebuilt prompts in Power Automate, go to [Use your custom prompt in Power Automate flow](https://review.learn.microsoft.com/en-us/ai-builder/use-a-custom-prompt-in-flow?branch=main&branchFallbackFrom=pr-en-us-766).
+With the exception of AI Translate, each of the prebuilt prompts mentioned above can be used in Power Automate the same way you can use custom prompts. To learn how to use custom or prebuilt prompts in Power Automate, go to [Use your custom prompt in Power Automate flow](use-a-custom-prompt-in-flow.md).
 
 ## Provide feedback
 
@@ -159,4 +160,4 @@ If you have feedback of your experience with the current prebuilt prompts, or id
 
 ### See also
 
-[FAQ for text generation and prompts](https://learn.microsoft.com/ai-builder/faqs-text-generation)
+[FAQ for text generation and prompts](faqs-text-generation.md)
