@@ -39,12 +39,14 @@ Custom prompts, prebuilt prompts, and Create text with GPT aren't available with
 
 1. Sign in to	[Power Apps](https://make.powerapps.com) or [Power Automate](https://make.powerautomate.com).
 1. On the left pane, select ... More > AI hub.
-1. (If requested) Select **Create a database**, and then choose a currency and language.
-1. Select **Create my database**.
-    :::image type="content" source="media/administer-licensing/create-db.png" alt-text="Screenshot of the 'New database' screen. ":::
-1. Refresh the **Explore** page.
-1. At the top of the screen, select **Start free trial**.
-    :::image type="content" source="media/administer-licensing/start-free-trial.png" alt-text="Screenshot of Start free trial.":::
+1. If there is no database ("no database found")
+    1. Select **Create a database**, and then choose a currency and language.
+    1. Select **Create my database**.  
+![image](https://github.com/MicrosoftDocs/ai-builder-pr/assets/51075659/6bb1387b-e5a4-48ed-aa62-069ce0566032)  
+    1. Refresh the **Hub** page until "no database" message disappear.
+1. At the top of the screen, select **Start free trial**.  
+
+![image](https://github.com/MicrosoftDocs/ai-builder-pr/assets/51075659/ab9009eb-54f0-4de6-8839-99b9f4f1a168)
 
 > [!NOTE]
 > Your AI Builder trial license is applicable at the user level, not the environment level. You can use your trial license on multiple environments. Another user would have to start their own trial or paid license to use your models in any environment.
