@@ -38,7 +38,7 @@ Custom prompts, prebuilt prompts, and Create text with GPT aren't available with
 ## Activate an AI Builder trial license
 
 1. Sign in to	[Power Apps](https://make.powerapps.com) or [Power Automate](https://make.powerautomate.com).
-1. Select **AI Builder** > **Explore**.
+1. On the left pane, select ... More > AI hub.
 1. (If requested) Select **Create a database**, and then choose a currency and language.
 1. Select **Create my database**.
     :::image type="content" source="media/administer-licensing/create-db.png" alt-text="Screenshot of the 'New database' screen. ":::
@@ -57,8 +57,8 @@ To continue using AI Builder, purchase AI Builder add-on capacity and allocate A
 
 To renew your AI Builder trial license, do the following:
 
-1. Sign in to Power Apps or Power Automate.
-1. Select **AI Builder** > **Explore**.
+1. Sign in to	[Power Apps](https://make.powerapps.com) or [Power Automate](https://make.powerautomate.com).
+1. On the left pane, select ... More > AI hub.
 1. On the banner at the top of the screen, select **Extend trial**.
 
 ## Trial capacity
