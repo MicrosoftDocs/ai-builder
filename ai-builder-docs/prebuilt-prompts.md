@@ -25,7 +25,7 @@ You can use prebuilt prompts in multiple experiences, including the following:
 
 - An environment in a region where prompts are available.
 
-    To learn if prompts are available in your region, go to [Feature availability by region&mdash;Prompts](availability-region.md#promps).
+    To learn if prompts are available in your region, go to [Feature availability by region&mdash;Prompts](availability-region.md#prompts).
 
 - A Power Apps or Dynamics 365 license.
 - A Dataverse database installed on the environment.
@@ -144,7 +144,7 @@ The following sections provide links for how to use a prebuilt prompt in a Datav
 
 ### Use in a Dataverse low-code plug-in
 
-To learn how to use prebuilt prompts in a low-code plug-in, go to [Use a prebuilt prompt in a Dataverse low-code plug-in](/ai-builder/prebuilt-prompts-in-dataverse-plug-in-powerapps).
+To learn how to use prebuilt prompts in a low-code plug-in, go to [Use a prebuilt prompt in a Dataverse low-code plug-in](/ai-builder/prebuilt-prompts-in-dataverse-plug-in-powerapps.md).
 
 ### Use in Power Apps
 

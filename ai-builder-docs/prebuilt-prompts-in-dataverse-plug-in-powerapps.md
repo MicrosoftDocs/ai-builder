@@ -21,7 +21,7 @@ A low-code plug-in can enable advanced business logic without the need to write 
 
 ## Prerequisites
 
-- Verify the [prerequisites](/ai-builder/prebuilt-prompts#prerequisites) for using prebuilt prompts.
+- Verify the [prerequisites](/ai-builder/prebuilt-prompts.md#prerequisites) for using prebuilt prompts.
 - Basic understanding of [low-code plug-ins](/power-apps/maker/data-platform/low-code-plug-ins).
 
 ## Add a new column named 'Summary' to the Email table
@@ -50,7 +50,7 @@ Your next step is to add the new column to the form.
 1. Select **Email** > **Edit**.
 1. On the left navigation menu, select **Components**.
 
-    :::image type="content" source="media/prebuilt-prompts-in-dataverse-plug-in-powerapps/components.png" alt-text="Screenshot of a the 'Components' option that you will use to add the new column to the email table.":::
+    :::image type="content" source="media/prebuilt-prompts-in-dataverse-plug-in-powerapps/components.png" alt-text="Screenshot of the 'Components' option that you'll use to add the new column to the email table.":::
 
 1. Select and drag a **2-column section** onto the bottom of the form.
 1. With the new section selected, set the **Label** property to **AI Generated Content**.
@@ -60,7 +60,7 @@ Your next step is to add the new column to the form.
 1. In the properties section on the right side of the page, select the **Form field width** property and use the dropdown menu to change the value to **2 columns**.
 1. Select the **Form field height** property and use the up and down arrows to change the value to **5 rows**.
 
-    :::image type="content" source="media/prebuilt-prompts-in-dataverse-plug-in-powerapps/form-field-height.png" alt-text="Screenshot of a the 'Formatting' dialog with the new field width and height selections.":::
+    :::image type="content" source="media/prebuilt-prompts-in-dataverse-plug-in-powerapps/form-field-height.png" alt-text="Screenshot of the 'Formatting' dialog with the new field width and height selections.":::
 
 1. Select **Save and publish**.
 

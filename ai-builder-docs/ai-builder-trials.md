@@ -117,7 +117,7 @@ To learn more, go to [About trial environments](/power-platform/admin/trial-envi
 
 Any individual can try out the features of AI Builder for 30 days and incur no costs to your company. This option is available to any user in an organization (tenant) and can't be disabled by an admin. Once your company purchases some AI credits (for example, through capacity add-ons or inclusion in some licenses), trials aren't proposed to users anymore.
 
-You can block the use of AI Builder trial by disabling the **Allow unassigned credits** tenant setting in [Power Platform admin center](https://admin.powerplatform.microsoft.com/home). By disabling this setting, the only way to perform AI Builder actions in an environment is by assigning credits to this environment.
+You can block the use of AI Builder trial by disabling the **Allow unassigned credits** tenant setting in [Power Platform admin center](https://admin.powerplatform.microsoft.com/home). If you disable this setting, the only way to perform AI Builder actions in an environment is if you assign credits to this environment.
 
 ### I can't access custom prompts, prebuilt prompts, and Create text with GPT with my trial. What's happening?
 

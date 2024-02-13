@@ -87,7 +87,7 @@ Use the following screenshot as a guide to build and test your prompt.
 1. Enter a name for your prompt.
 1. Write or paste your prompt.
 
-    Alternatvely, you can build upon an existing template to give yourself a starting point.
+    Alternatively, you can build upon an existing template to give yourself a starting point.
 
 1. Add a dynamic value, and then select **Enter**.
 
