@@ -38,15 +38,17 @@ Custom prompts, prebuilt prompts, and Create text with GPT aren't available with
 ## Activate an AI Builder trial license
 
 1. Sign in to	[Power Apps](https://make.powerapps.com) or [Power Automate](https://make.powerautomate.com).
-1. On the left pane, select ... More > AI hub.
-1. If there is no database ("no database found")
+1. On the left pane, select **... More** > **AI hub**.
+1. If there's no database (you get the message, *no database found*), do the following:
     1. Select **Create a database**, and then choose a currency and language.
     1. Select **Create my database**.  
-![image](https://github.com/MicrosoftDocs/ai-builder-pr/assets/51075659/6bb1387b-e5a4-48ed-aa62-069ce0566032)  
-    1. Refresh the **Hub** page until "no database" message disappear.
-1. At the top of the screen, select **Start free trial**.  
 
-![image](https://github.com/MicrosoftDocs/ai-builder-pr/assets/51075659/ab9009eb-54f0-4de6-8839-99b9f4f1a168)
+        :::image type="content" source="media/ai-builder-trials/create-my-db.png" alt-text="Screenshot of creating a database.":::
+
+    1. Refresh the **Hub** page until the *no database found* message disappears.
+1. On the top of the screen, select **Start free trial**.  
+
+    :::image type="content" source="media/ai-builder-trials/start-free-trial.png" alt-text="Screenshot of 'Start free trial' button'.":::
 
 > [!NOTE]
 > Your AI Builder trial license is applicable at the user level, not the environment level. You can use your trial license on multiple environments. Another user would have to start their own trial or paid license to use your models in any environment.
@@ -60,7 +62,7 @@ To continue using AI Builder, purchase AI Builder add-on capacity and allocate A
 To renew your AI Builder trial license, do the following:
 
 1. Sign in to	[Power Apps](https://make.powerapps.com) or [Power Automate](https://make.powerautomate.com).
-1. On the left pane, select ... More > AI hub.
+1. On the left pane, select **... More** > **AI hub**.
 1. On the banner at the top of the screen, select **Extend trial**.
 
 ## Trial capacity
