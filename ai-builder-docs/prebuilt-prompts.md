@@ -144,7 +144,7 @@ The following sections provide links for how to use a prebuilt prompt in a Datav
 
 ### Use in a Dataverse low-code plug-in
 
-To learn how to use prebuilt prompts in a low-code plug-in, go to [Use a prebuilt prompt in a Dataverse low-code plug-in](/ai-builder/prebuilt-prompts-in-dataverse-plug-in-powerapps.md).
+To learn how to use prebuilt prompts in a low-code plug-in, go to Use a prebuilt prompt in a Dataverse low-code plug-in.
 
 ### Use in Power Apps
 
