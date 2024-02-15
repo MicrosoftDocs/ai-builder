@@ -31,9 +31,9 @@
     href: create-a-custom-prompt.md
   - name: Share your prompt
     href: share-your-prompt.md 
-  - name: Use your custom prompt in Power Apps
+  - name: Use your prompt in Power Apps
     href: use-a-custom-prompt-in-app.md
-  - name: Use your custom prompt in Power Automate
+  - name: Use your prompt in Power Automate
     href: use-a-custom-prompt-in-flow.md
   - name: Distribute your prompt using a solution
     href: distribute-prompt.md

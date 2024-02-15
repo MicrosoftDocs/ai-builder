@@ -31,7 +31,7 @@ You can use prebuilt prompts in multiple experiences, including the following:
 - A Dataverse database installed on the environment.
 - An AI Builder add-on.
 
-## Prebuilt prompts you can use 'as-is'
+## Available prebuilt prompts
 
 The following tables describe the available prebuilt prompts. If you find a prebuilt prompt you want to use, go to [Use a prebuilt prompt](#use-a-prebuilt-prompt) in this article to learn how to use it in a Dataverse low-code plug-in, a Power Apps app, or a Power Automate flow. If you don't find a prebuilt prompt that meets your needs, you can [create a custom prompt](create-a-custom-prompt.md).
 
@@ -144,15 +144,15 @@ The following sections provide links for how to use a prebuilt prompt in a Datav
 
 ### Use in a Dataverse low-code plug-in
 
-To learn how to use prebuilt prompts in a low-code plug-in, go to Use a prebuilt prompt in a Dataverse low-code plug-in.
+To learn how to use prebuilt prompts in a low-code plug-in, go to [Use a prebuilt prompt in a Dataverse low-code plug-in](/ai-builder/prebuilt-prompts-in-dataverse-plug-in-powerapps.md).
 
 ### Use in Power Apps
 
-With the exception of AI Translate, each of the prebuilt prompts mentioned above can be used in Power Apps the same way you can use custom prompts. To learn how to use custom or prebuilt prompts in Power Apps, go to [Use your custom prompt in Power Apps](use-a-custom-prompt-in-app.md).
+With the exception of AI Translate, each of the prebuilt prompts mentioned above can be used in Power Apps the same way you can use custom prompts. To learn how to use prompts in Power Apps, go to [Use your prompt in Power Apps](use-a-custom-prompt-in-app.md).
 
 ### Use in Power Automate
 
-With the exception of AI Translate, each of the prebuilt prompts mentioned above can be used in Power Automate the same way you can use custom prompts. To learn how to use custom or prebuilt prompts in Power Automate, go to [Use your custom prompt in Power Automate flow](use-a-custom-prompt-in-flow.md).
+With the exception of AI Translate, each of the prebuilt prompts mentioned above can be used in Power Automate the same way you can use custom prompts. To learn how to use prompts in Power Automate, go to [Use your prompt in Power Automate flow](use-a-custom-prompt-in-flow.md).
 
 ## Provide feedback
 

@@ -1,6 +1,6 @@
 ---
 title: Use your prompt in Power Apps
-description: Learn how to use your custom prompt in Power Apps.
+description: Learn how to use your prompt in Power Apps.
 author: phil-cmd
 contributors:
   - phil-cmd
