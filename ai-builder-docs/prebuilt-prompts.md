@@ -104,7 +104,7 @@ To learn more about languages supported for the source and target language, go t
 
 ### AIClassify
 
-Classify text into one or more provided categories. For example, the following list of categories may be used to classify issues submitted by your customers:
+Classify text into one or more provided categories. For example, the following list of categories might be used to classify issues submitted by your customers:
 
 `["Problem", "Billing", "How To", "Licensing"]`
 
@@ -136,7 +136,7 @@ Extract specified entities such as registration numbers, phone numbers, or names
 
 | Name       | Type   | Description  | Values    |
 |------------|--------|--------------|-----------|
-| ExtractedData | table    | Extracted data that matched the type of entity provided | Table of 0 or more rows of data matching the provided entity. |
+| ExtractedData | table    | Extracted data that matched the type of entity provided | Table of zero or more rows of data matching the provided entity. |
 
 ## Use a prebuilt prompt
 
