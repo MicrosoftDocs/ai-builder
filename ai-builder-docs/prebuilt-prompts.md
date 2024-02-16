@@ -13,9 +13,9 @@ ms.reviewer: angieandrews
 
 # Get started with prebuilt prompts
 
-The Power Platform empowers makers with prebuilt prompts for common business scenarios such as summarizing, classifying, extracting entities, translating, assessing sentiment, or drafting a reply. These prompts allow you to generate AI-driven responses without the need to manually create a prompt. Instead of specifying both the prompt and the text to process, you can simply provide the text you want to analyze, and the AI will generate the desired output.
+The Power Platform empowers makers with prebuilt prompts for common business scenarios such as summarizing, classifying, extracting entities, translating, assessing sentiment, or drafting a reply. These prompts allow you to generate AI-driven responses without the need to manually create a prompt. Instead of specifying both the prompt and the text to process, you can provide the text you want to analyze, and the AI generates the desired output.
 
-You can use prebuilt prompts in multiple experiences, including the following:
+You can use prebuilt prompts in multiple experiences such as:
 
 - Dataverse low-code plug-ins
 - Power Apps formulas
@@ -104,7 +104,7 @@ To learn more about languages supported for the source and target language, go t
 
 ### AIClassify
 
-Classify text into one or more provided categories. For example, the following list of categories may be used to classify issues submitted by your customers:
+Classify text into one or more provided categories. For example, the following list of categories might be used to classify issues submitted by your customers:
 
 `["Problem", "Billing", "How To", "Licensing"]`
 
@@ -136,7 +136,7 @@ Extract specified entities such as registration numbers, phone numbers, or names
 
 | Name       | Type   | Description  | Values    |
 |------------|--------|--------------|-----------|
-| ExtractedData | table    | Extracted data that matched the type of entity provided | Table of 0 or more rows of data matching the provided entity. |
+| ExtractedData | table    | Extracted data that matched the type of entity provided | Table of zero or more rows of data matching the provided entity. |
 
 ## Use a prebuilt prompt
 
@@ -148,15 +148,15 @@ To learn how to use prebuilt prompts in a low-code plug-in, go to [Use a prebuil
 
 ### Use in Power Apps
 
-With the exception of AI Translate, each of the prebuilt prompts mentioned above can be used in Power Apps the same way you can use custom prompts. To learn how to use prompts in Power Apps, go to [Use your prompt in Power Apps](use-a-custom-prompt-in-app.md).
+Except for AI Translate, each of the prebuilt prompts mentioned earlier can be used in Power Apps the same way you can use custom prompts. To learn how to use prompts in Power Apps, go to [Use your prompt in Power Apps](use-a-custom-prompt-in-app.md).
 
 ### Use in Power Automate
 
-With the exception of AI Translate, each of the prebuilt prompts mentioned above can be used in Power Automate the same way you can use custom prompts. To learn how to use prompts in Power Automate, go to [Use your prompt in Power Automate flow](use-a-custom-prompt-in-flow.md).
+Except for AI Translate, each of the prebuilt prompts mentioned earlier can be used in Power Automate the same way you can use custom prompts. To learn how to use prompts in Power Automate, go to [Use your prompt in Power Automate flow](use-a-custom-prompt-in-flow.md).
 
 ## Provide feedback
 
-If you have feedback of your experience with the current prebuilt prompts, or ideas for additional prebuilt prompts, you can share your thoughts on the [Power Apps Ideas](https://ideas.powerapps.com/d365community/forum/f1458c72-ae29-ed11-9db2-000d3a8c451e) portaL. To do so, select the **AI Builder** checkbox in the **Categories** list in the **Filters** sidebar.  
+If you have feedback of your experience with the current prebuilt prompts, or ideas for more prebuilt prompts, you can share your thoughts on the [Power Apps Ideas](https://ideas.powerapps.com/d365community/forum/f1458c72-ae29-ed11-9db2-000d3a8c451e) portaL. To do so, select the **AI Builder** checkbox in the **Categories** list in the **Filters** sidebar.  
 
 ### See also
 
