@@ -1,6 +1,6 @@
 ---
-title: Create a prompt
-description: Learn how to create a prompt.
+title: Create a custom prompt
+description: Learn how to create a custom prompt.
 author: phil-cmd
 contributors:
   - phil-cmd
@@ -14,7 +14,7 @@ ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
-# Create a prompt
+# Create a custom prompt
 
 > [!IMPORTANT]
 > - AI Builder prompts are running on GPT-3.5 Turbo model powered by [Azure OpenAI Service](/azure/ai-services/openai/whats-new).
@@ -25,7 +25,7 @@ ms.reviewer: angieandrews
 
 Custom prompts give makers the freedom to instruct the GPT model to behave in a certain way or to perform a specific task. By carefully crafting a prompt, you can generate responses that suit your specific business needs. This transforms the GPT model into a flexible tool to accomplish various tasks.
 
-**Use specific text for more relevant responses**
+### Use specific text for more relevant responses
 
 The goal of prompt engineering is to create an instruction that's as specific as possible to get a more relevant response from the GPT model. Your prompts should be specific to a topic and convey your intent.
 
@@ -43,7 +43,7 @@ If the generated text is too long or contains irrelevant information, adjust the
 - **Contextual**: It provides enough context for the GPT model to generate meaningful output.
 - **Relevant**: It's relevant to the task and provides the GPT model with enough information to generate meaningful output.
 
-**Parts of a prompt**
+### Parts of a prompt
 
 There are generally two parts to a prompt for a GPT model: the instruction and the context.
 
@@ -87,7 +87,7 @@ Use the following screenshot as a guide to build and test your prompt.
 1. Enter a name for your prompt.
 1. Write or paste your prompt.
 
-    Alternatvely, you can build upon an existing template to give yourself a starting point.
+    Alternatively, you can build upon an existing template to give yourself a starting point.
 
 1. Add a dynamic value, and then select **Enter**.
 
@@ -110,6 +110,8 @@ When you're satisfied, select **Save custom prompt**.
 :::image type="content" source="media/create-a-custom-prompt/prompt-test.png" alt-text="Screenshot of a prompt response.":::
 
 ## Next step
+
+Your next step is determined by the app you plan to use with your prompt.
 
 - Use in Power Apps
   - Empowers makers to incorporate existing prompts into their apps.
