@@ -21,8 +21,8 @@ A low-code plug-in can enable advanced business logic without the need to write 
 
 ## Prerequisites
 
-- Verify the [prerequisites](/ai-builder/prebuilt-prompts.md#prerequisites) for using prebuilt prompts.
-- Basic understanding of [low-code plug-ins](/power-apps/maker/data-platform/low-code-plug-ins).
+- Verify the [prerequisites](prebuilt-prompts.md#prerequisites) for using prebuilt prompts.
+- MAke sure you have a basic understanding of [low-code plug-ins](/power-apps/maker/data-platform/low-code-plug-ins).
 
 ## Add a new column named 'Summary' to the Email table
 
@@ -50,7 +50,7 @@ Your next step is to add the new column to the form.
 1. Select **Email** > **Edit**.
 1. On the left navigation menu, select **Components**.
 
-    :::image type="content" source="media/prebuilt-prompts-in-dataverse-plug-in-powerapps/components.png" alt-text="Screenshot of the 'Components' option that you'll use to add the new column to the email table.":::
+    :::image type="content" source="media/prebuilt-prompts-in-dataverse-plug-in-powerapps/components.png" alt-text="Screenshot of the 'Components' option that you use to add the new column to the email table.":::
 
 1. Select and drag a **2-column section** onto the bottom of the form.
 1. With the new section selected, set the **Label** property to **AI Generated Content**.
@@ -87,7 +87,7 @@ Now, you can create the plug-in.
 
 ## Test the low-code plug-in
 
-In the following example, the Sales Hub app is used. Any app where you have access to a table such as Account or Contact, which can have activities associated with it, will work.
+In the following example, the Sales Hub app is used. Any app where you have access to a table such as Account or Contact, which can have activities associated with it, works.
 
 1. Open a [model driven app](/power-apps/user/use-model-driven-apps), which includes the Account or Contact table.
 1. In the model driven app, select **Accounts**.
