@@ -1,5 +1,5 @@
 ---
-title: Create a custom prompt
+title: Create a prompt
 description: Learn how to create a custom prompt.
 author: phil-cmd
 contributors:
@@ -14,7 +14,7 @@ ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
-# Create a custom prompt
+# Create a prompt
 
 > [!IMPORTANT]
 > - AI Builder prompts are running on GPT-3.5 Turbo model powered by [Azure OpenAI Service](/azure/ai-services/openai/whats-new).
