@@ -38,13 +38,17 @@ Custom prompts, prebuilt prompts, and Create text with GPT aren't available with
 ## Activate an AI Builder trial license
 
 1. Sign in to	[Power Apps](https://make.powerapps.com) or [Power Automate](https://make.powerautomate.com).
-1. Select **AI Builder** > **Explore**.
-1. (If requested) Select **Create a database**, and then choose a currency and language.
-1. Select **Create my database**.
-    :::image type="content" source="media/administer-licensing/create-db.png" alt-text="Screenshot of the 'New database' screen. ":::
-1. Refresh the **Explore** page.
-1. At the top of the screen, select **Start free trial**.
-    :::image type="content" source="media/administer-licensing/start-free-trial.png" alt-text="Screenshot of Start free trial.":::
+1. On the left pane, select **... More** > **AI hub**.
+1. If there's no database (you get the message, *no database found*), do the following:
+    1. Select **Create a database**, and then choose a currency and language.
+    1. Select **Create my database**.  
+
+        :::image type="content" source="media/ai-builder-trials/create-my-db.png" alt-text="Screenshot of creating a database.":::
+
+    1. Refresh the **Hub** page until the *no database found* message disappears.
+1. On the top of the screen, select **Start free trial**.  
+
+    :::image type="content" source="media/ai-builder-trials/start-free-trial.png" alt-text="Screenshot of 'Start free trial' button'.":::
 
 > [!NOTE]
 > Your AI Builder trial license is applicable at the user level, not the environment level. You can use your trial license on multiple environments. Another user would have to start their own trial or paid license to use your models in any environment.
@@ -57,8 +61,8 @@ To continue using AI Builder, purchase AI Builder add-on capacity and allocate A
 
 To renew your AI Builder trial license, do the following:
 
-1. Sign in to Power Apps or Power Automate.
-1. Select **AI Builder** > **Explore**.
+1. Sign in to	[Power Apps](https://make.powerapps.com) or [Power Automate](https://make.powerautomate.com).
+1. On the left pane, select **... More** > **AI hub**.
 1. On the banner at the top of the screen, select **Extend trial**.
 
 ## Trial capacity
@@ -113,7 +117,7 @@ To learn more, go to [About trial environments](/power-platform/admin/trial-envi
 
 Any individual can try out the features of AI Builder for 30 days and incur no costs to your company. This option is available to any user in an organization (tenant) and can't be disabled by an admin. Once your company purchases some AI credits (for example, through capacity add-ons or inclusion in some licenses), trials aren't proposed to users anymore.
 
-You can block the use of AI Builder trial by disabling the **Allow unassigned credits** tenant setting in [Power Platform admin center](https://admin.powerplatform.microsoft.com/home). By disabling this setting, the only way to perform AI Builder actions in an environment is by assigning credits to this environment.
+You can block the use of AI Builder trial by disabling the **Allow unassigned credits** tenant setting in [Power Platform admin center](https://admin.powerplatform.microsoft.com/home). If you disable this setting, the only way to perform AI Builder actions in an environment is if you assign credits to this environment.
 
 ### I can't access custom prompts, prebuilt prompts, and Create text with GPT with my trial. What's happening?
 

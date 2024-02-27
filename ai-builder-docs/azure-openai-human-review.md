@@ -20,6 +20,7 @@ ms.collection:
 This article emphasizes the critical role of human review in deploying the [Create text with GPT](azure-openai-textgen.md) feature in Power Automate. This feature utilizes the *text generation* model from AI Builder, powered by Azure OpenAI Service. Although these models are highly effective, they can sometimes generate misleading or fabricated information and are susceptible to prompt injection attacks.
 
 > [!IMPORTANT]
+>
 > - AI Builder prompts are running on GPT-3.5 Turbo model powered by [Azure OpenAI Service](/azure/ai-services/openai/whats-new).
 > - This capability is [limited to some regions](availability-region.md#prompts).
 > - This capability might be subject to usage limits or capacity throttling.
@@ -48,4 +49,3 @@ Our objective is to further refine the text generation model with appropriate sa
 ### See also
 
 [Responsible AI - FAQ](faqs-text-generation.md)
-

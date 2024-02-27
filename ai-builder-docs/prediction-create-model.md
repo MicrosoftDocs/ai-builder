@@ -13,9 +13,14 @@ ms.reviewer: angieandrews
 
 This example creates a Power Apps prediction AI model that uses the Online Shopper Intention table in Microsoft Dataverse. To get this sample data into your Microsoft Power Platform environment, enable the **Deploy sample apps and data** setting when you create an environment as described in [Build a model in AI Builder](build-model.md). Or, follow the more detailed instructions in [Data preparation](prediction-data-prep.md). After your sample data is in Dataverse, follow these steps to create your model.
 
-1. Sign in to [Power Apps](https://make.powerapps.com), and then select **AI Builder** > **Explore**.
+1. Sign in to [Power Apps](https://make.powerapps.com) or [Power Automate](https://make.powerautomate.com).
+1. On the left pane, select **... More** > **AI hub**.
+1. Under **Discover an AI capability**, select **AI models**.
 
-1. Select **Prediction**. Enter a name for your model, and then select **Create**.
+    *(Optional)* To keep AI models permanently on the menu for easy access, select the pin icon.
+
+1. Select **Prediction - Predict future outcomes from historical data**.
+1. Select **Create custom model**.
 
 ## Select your historical outcome
 
@@ -27,13 +32,13 @@ Think of the prediction you want AI Builder to make. For example, for the questi
 
 Use this information to make your selections. Working with provided sample data, the question is "did this user who interacted with my online store make a purchase?" If they did, there should be revenue for that customer. Therefore, whether there's revenue for this customer should be the historical outcome. Wherever this information is empty is where AI Builder can help you make a prediction.
 
-1. In the **Table** drop-down menu, select the table that contains the data and the outcome you want to predict. For the sample data, select **Online shopper intention**.
+1. In the **Table** dropdown menu, select the table that contains the data and the outcome you want to predict. For the sample data, select **Online shopper intention**.
 
-1. In the **Column** drop-down menu, select the column that contains the outcome. For the sample data, select **Revenue (Label)**. Or, if you want to try out predicting a number, select **ExitRates**.
+1. In the **Column** dropdown menu, select the column that contains the outcome. For the sample data, select **Revenue (Label)**. Or, if you want to try out predicting a number, select **ExitRates**.
 
 1. If you selected an option set that contains two or more outcomes, consider mapping it to "Yes" or "No" because you want to predict whether something will happen.
 
-1. If you want to predict multiple outcomes, use the Brazilian e-commerce dataset in the sample, and select **BC Order** in the **Table** drop-down menu and **Delivery Timelines** in the **Column** drop-down menu.
+1. If you want to predict multiple outcomes, use the Brazilian e-commerce dataset in the sample, and select **BC Order** in the **Table** dropdown menu and **Delivery Timelines** in the **Column** dropdown menu.
 
 > [!NOTE]
 > AI Builder supports these data types for the outcome column:
