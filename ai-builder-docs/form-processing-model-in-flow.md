@@ -45,7 +45,7 @@ Congratulations! You've created a flow that uses an AI Builder document processi
 
 For documents that have multiple pages, it's possible to specify the page range to process.
 
-1. On the **Extrat information from documents** card, select **Show advanced options**. This option changes to **Hide advanced options**.
+1. On the **Extract information from documents** card, select **Show advanced options**. This option changes to **Hide advanced options**.
 1. In the **Pages** parameter, enter a page value or page range. Example: 1 or 3-5.
 
     :::image type="content" source="media/fp-pagerange.png" alt-text="Screenshot of the Pages field where you enter the page range.":::
