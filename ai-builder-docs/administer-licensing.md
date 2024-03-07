@@ -25,7 +25,7 @@ Access to AI Builder features within an environment requires AI Builder credits.
 
 **Credits allocation**: Once acquired, credits can be allocated (also known as assigned) to a specific environment, or left unallocated at an organization (tenant) level. By default, environments without allocated credits can consume unallocated credits. An administrator can prevent the use of unallocated credits by changing a setting in the [Power Platform admin center](https://admin.powerplatform.microsoft.com/home).
 
-Once an an environment has credits from either allocated or unallocated sources, it can use the AI Builder features.
+Once an environment has credits from either allocated or unallocated sources, it can use the AI Builder features.
 
 **Credits consumption**: Consumption is reset the first of each month. Credits are used when certain AI Builder actions take place, particularly when an AI Builder model is executed in a Power Automate flow or a Power Apps application. Additionally, credit consumption may occur during the training of an AI Builder model. The number of consumed credits depends on the AI Builder model.
 
