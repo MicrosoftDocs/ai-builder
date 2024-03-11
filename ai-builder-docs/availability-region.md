@@ -11,7 +11,7 @@ contributors:
   - antode
 ms.topic: conceptual
 ms.custom: 
-ms.date: 01/10/2024
+ms.date: 03/11/2024
 ms.author: jofernan
 ms.reviewer: angieandrews
 ---
@@ -111,7 +111,7 @@ The following features available in the commercial version of AI Builder aren't 
 - 30-day user trials
 - AI model copy across cloud boundaries (for example between Public and GCC or between GCC and GCC High)
 - [Document Automation](doc-automation.md) isn't available in GCC and GCC High
-- Custom prompts and prebuilt prompts are not available in GCC and GCC High
+- Custom prompts and prebuilt prompts aren't available in GCC and GCC High
 
 For more information about other limitations of Power Platform US Government, go to these topics: 
 
