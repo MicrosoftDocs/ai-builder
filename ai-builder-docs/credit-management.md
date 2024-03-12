@@ -98,7 +98,8 @@ To learn more, go to [Tenant settings](/power-platform/admin/tenant-settings).
 
 To learn more about how to allocate credits in the Power Platform admin center, go to [Allocate or change capacity in an environment](/power-platform/admin/capacity-add-on#allocate-or-change-capacity-in-an-environment).
 
-## Monitor usage
+## Monitor usage and understand credit consumption
+### Monitor usage
 
 As an administrator, you can view your overall credit consumption in the [Power Platform admin center](https://admin.powerplatform.microsoft.com/) in the **Resources** > **Capacity** > **Summary** tab.  
 
@@ -125,6 +126,11 @@ The following list presents AI Builder actions consuming credits. It isn't all-i
 | Train an object detection model.<br/><br/>Perform a **Quick test** on a trained object detection and document processing model.<br/><br/>Use custom documents, images or text to **try out** prebuilt models when using the tiles in the 'Explore' section.<br/><br/>Batch runs of the prediction and trainable category classification models for each row to be predicted.  | Select...<br/><br/>**Scan a business card** with the business card reader.<br/><br/>**Analyze** with the document processor.<br/><br/>**Detect** with the object detector.<br/><br/>**+ New image** with the text recognizer.<br/><br/>**Use an action** bound to an AI Builder model through [Power Fx](powerfx-in-powerapps.md).  |Run a flow using any of the actions inside the **AI Builder** category.<br/><br/>Run the generic action **Perform a bound action** of Dataverse on the entity AI Models and action name **Predict**.   |
 
 Each AI Builder model has a different credit consumption mechanism. To perform an assessment, go to the [AI Builder calculator](https://powerapps.microsoft.com/ai-builder-calculator/) site or obtain the full details in the [Power Platform Licensing Guide (pdf)](https://go.microsoft.com/fwlink/?linkid=2085130).
+
+### AI Prompt licensing
+AI Prompts can be utilized in Power Apps, Power Automate flows, and extended Copilots through the use of Copilot Studio. In the context of Power Apps and Power Automate flows, AI Prompts consume credits. The number of credits consumed depends on the length of the input and output, as well as the underlying Generative AI model used. The Licensing Guide and Calculator provide detailed information about each Generative AI model. Please note that changing the Generative AI model may increase the AI Builder credit consumption of your AI Prompt.  
+
+In the context of Copilot, AI Prompts do not consume AI Builder credits. However, triggering them does consume Copilot messages. It is important to note that some Generative AI models are not supported in Copilots. The default selected model is always supported.  
 
 ## Overage
 
