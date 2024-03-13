@@ -104,6 +104,14 @@ AI Builder is available in US Government environments with the features listed i
 |Text recognition   |GA|GA|-|
 |Text translation   |GA|GA|-|
 
+### Prompts
+|Feature |Government Community Cloud (GCC) |Government Community Cloud – High (GCC High) |Department of Defense (DoD) |
+|:-------|:-------:|:-------:|:-------:|
+|Custom prompts |GA\* |-|-|
+|Prebuilt prompts |GA\*|-|-|
+
+\*These regions require [enabling data movement cross-regions](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions) for the prompt feature to be enabled.
+
 ### US Government feature limitations
 
 The following features available in the commercial version of AI Builder aren't available to US Government customers:
@@ -111,7 +119,7 @@ The following features available in the commercial version of AI Builder aren't 
 - 30-day user trials
 - AI model copy across cloud boundaries (for example between Public and GCC or between GCC and GCC High)
 - [Document Automation](doc-automation.md) isn't available in GCC and GCC High
-- Custom prompts and prebuilt prompts aren't available in GCC and GCC High
+- Custom prompts and prebuilt prompts aren't available in GCC High
 
 For more information about other limitations of Power Platform US Government, go to these topics: 
 
