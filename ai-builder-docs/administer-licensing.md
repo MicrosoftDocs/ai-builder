@@ -17,7 +17,7 @@ ms.reviewer: angieandrews
 
 # Overview of licensing
 
-AI Builder is licensed on a capacity basis. The capacity is measured in terms of *service credits* or *AI Builder credits*. Qualifying prerequisites include having Power Apps, Power Automate, or Dynamics 365 license that allows you to create the Microsoft Power Platform environment.
+AI Builder is licensed on a monthly capacity basis. The capacity is measured in terms of *service credits* or *AI Builder credits*. Qualifying prerequisites include having Power Apps, Power Automate, or Dynamics 365 license that allows you to create the Microsoft Power Platform environment.
 
 Access to AI Builder features within an environment requires AI Builder credits.
 
@@ -34,6 +34,8 @@ Once an environment has credits from either allocated or unallocated sources, it
 **Credit overage**: Within the month, if you use more credits than you have, you will have some features blocked gradually because of overage. When an environment is in *simple overage*, you can run models and use more credits, but you can’t edit or create models. When an environment is in *important overage*, model runs are blocked. If this happens, you need to buy more credits or reassign them.
 
 **Trials**: You can try AI Builder for free in an organization’s tenants that don’t have AI Builder credits. In this case, AI Builder capacity is linked to the user and doesn't need to be allocated.
+
+As consumption is reset each month, the amount of credit to purchase and/or allocate should be the consumption of a single month. Unused credits don't roll over to the next month. With a 1 million credits Add-on purchased and allocated to a single environment, the environment can consume up to 1 million credit per month. Assuming this environment consumes 800,000 credits each month, then total consumption of the year would be 9.6 million credits.
 
 ## Learn more
 
