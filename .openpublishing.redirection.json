@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ai-builder-docs/azure-openai-textgen.md",
+      "redirect_url": "prompts-overview",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ai-builder-docs/lobe-overview.md",
       "redirect_url": "/power-platform/important-changes-coming",
       "redirect_document_id": "false"
