@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.collection: 
 - get-started
 - bap-ai-copilot
-ms.date: 12/20/2023
+ms.date: 03/28/2024
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---
@@ -90,7 +90,7 @@ Use the following screenshot as a guide to build and test your prompt.
     Alternatively, you can build upon an existing template to give yourself a starting point.
 
     > [!TIP]
-    > For help finding prompts you can use, go to the prompt library in the [Sample Solution Gallery](https://aka.ms/power-prompts).
+    > For help finding prompts you can use, go to the Prompt directory [Sample Solution Gallery](https://aka.ms/power-prompts).
 
 1. Add a dynamic value, and then select **Enter**.
 
