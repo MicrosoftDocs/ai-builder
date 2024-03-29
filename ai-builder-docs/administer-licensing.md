@@ -10,7 +10,7 @@ ms.topic: conceptual
 ms.collection: 
 - get-started
 - bap-ai-copilot
-ms.date: 01/10/2024
+ms.date: 03/29/2024
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---
@@ -39,9 +39,8 @@ As consumption is reset each month, the amount of credit to purchase and/or allo
 
 ## Learn more
 
-To learn more about licensing, go to [AI Builder licensing and credit management](credit-management.md).
-
-To learn more about trials, go to [AI Builder trial](ai-builder-trials.md).
+- To learn more about licensing, go to [AI Builder licensing and credit management](credit-management.md).
+- To learn more about trials, go to [AI Builder trial](ai-builder-trials.md).
 
 ### See also
 
