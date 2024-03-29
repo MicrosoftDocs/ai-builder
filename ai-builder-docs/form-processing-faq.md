@@ -22,7 +22,7 @@ This topic consists of frequently asked questions about the document processing 
 
 With document processing, you can build a custom AI model to extract information from various kind of documents. 
 - **Fixed-template documents** option is ideal if the elements of your documents can be found in similar places. It's usually the case for invoices, purchase orders, delivery orders and tax forms.
-- **General documents option** is ideal for any kind of document, including the ones supported by the first option option but also contracts, statement of work, letters and others. This option can be more powerful to extract data but requires longer training time.
+- **General documents** option is ideal for any kind of document, including the ones supported by the first option option but also contracts, statement of work, letters and others. This option can be more powerful to extract data but requires longer training time.
 
 Learn more: [Overview of the document processing model](form-processing-model-overview.md)
 
