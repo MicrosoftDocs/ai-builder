@@ -31,7 +31,7 @@ Interpret your accuracy score to identify what your model is struggling to extra
 
     > [!NOTE]
     > In the following cases you won’t see accuracy scores for document processing models:
-    > - If the model was trained by selecting ‘Unstructured and free-form documents’ as document type. Currently, accuracy scores are returned only for models of type ‘Structured and semi-structured documents’.
+    > - If the model was trained by selecting ‘General documents’ as document type. Currently, accuracy scores are returned only for models of type ‘Fixed-template documents’.
     > - Your model was imported from another environment.
     > - If your model was trained before January 1, 2022. In this case, you can retrain it.
 
