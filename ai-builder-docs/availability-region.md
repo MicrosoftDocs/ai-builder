@@ -86,8 +86,8 @@ AI Builder is available in US Government environments with the features listed i
 |Category classification|GA|GA|-|
 |Entity extraction|GA|GA|-|
 |Object detection|GA|GA|-|
-|Document processing (for structured and semi-structured documents) |GA|GA|-|
-|Document processing (for unstructured documents) |GA|GA|-|
+|Document processing (for fixed-template documents) |GA|GA|-|
+|Document processing (for general documents) |GA|GA|-|
 
 ### Prebuilt models
 |Feature |Government Community Cloud (GCC) |Government Community Cloud – High (GCC High) |Department of Defense (DoD) |
