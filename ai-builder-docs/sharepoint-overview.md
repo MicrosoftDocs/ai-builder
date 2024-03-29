@@ -17,8 +17,8 @@ ms.reviewer: angieandrews
 With the Microsoft Syntex service, you're able to create AI Builder models in SharePoint. To learn more, go to [Overview of Microsoft Syntex](/microsoft-365/contentunderstanding/syntex-overview).
 
 From the **Classify and Extract** menu in your SharePoint library, you can apply an existing AI model to a library or create a new one. Two model types are powered by AI Builder:
-- **Freeform document processing:** Creates AI Builder document processing models for unstructured or freeform documents like contracts, statements of work, letters, and more.
-- **Structured document processing:** Creates AI Builder document processing models for structured documents like invoices, purchase orders, delivery orders, tax documents, and more.
+- **Structured document processing:** Creates AI Builder document processing models for fixed-template documents like invoices, purchase orders, delivery orders, tax documents, and more.
+- **Freeform document processing:** Creates AI Builder document processing models for general documents like invoices, purchase orders, delivery orders, tax documents, but also contracts, statements of work, letters, and more.
 
 Once an AI Builder model is applied to a library, every document added to the library will be processed by the applied model. The results are displayed as new library columns.
 
