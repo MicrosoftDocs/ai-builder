@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.collection: 
 - get-started
 - bap-ai-copilot
-ms.date: 12/20/2023
+ms.date: 03/28/2024
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---
@@ -67,7 +67,7 @@ Download and print the AI Builder prompt engineering guide (10 pages, 10X13 inch
 Prompt builder provides the flexibility to create your own custom prompt by defining input variables that enable incorporating dynamic runtime content within a prompt. It gives you the ability to validate the prompt with **Test your prompt**, ensuring optimal prompt performance and correctness of the response before integration into your business solutions.
 
 1. Sign in to [Power Apps](https://make.powerapps.com), [Power Automate](https://make.powerautomate.com), or [Copilot Studio](https://copilotstudio.microsoft.com).
-1. On the left pane, select **AI prompts** or **Prompts** > **Create text using a prompt**.
+1. On the left pane, select **AI prompts** or **Prompts** > **Create text with GPT using a prompt**.
 
     For Power Apps and Power Automate, you might need to first select **AI hub** on the left pane.
 
@@ -88,6 +88,9 @@ Use the following screenshot as a guide to build and test your prompt.
 1. Write or paste your prompt.
 
     Alternatively, you can build upon an existing template to give yourself a starting point.
+
+    > [!TIP]
+    > For help finding prompts you can use, go to the Prompt directory [Sample Solution Gallery](https://aka.ms/power-prompts).
 
 1. Add a dynamic value, and then select **Enter**.
 
