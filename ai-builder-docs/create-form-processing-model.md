@@ -36,8 +36,8 @@ After you review the [requirements](form-processing-model-requirements.md), you 
 
 On the **Choose document type** step, select the type of document you want to build an AI model to automate data extraction. There are three options:
 
-- **Structured and semi-structured documents**. Structured and semi-structured documents are those where for a given layout, the fields, tables, checkboxes, and other items can be found in similar places. Examples of structured and semi-structured documents are invoices, purchase orders, delivery orders, tax documents, and more.
-- **Unstructured and free-form documents**. Unstructured documents are those where there's no set structure, usually free documents with a varying number of paragraphs. Examples of unstructured documents are contracts, statement of work, letters, and more.
+- **Fixed-template documents**. Previously known as Structured, this option is ideal when, for a given layout, the fields, tables, checkboxes, and other items can be found in similar places. You can teach this model to extract data from structured documents that have different layouts. This model has a quick training time.
+- **General documents**. Previously known as Unstructured, this option is ideal for any kind of documents, especially when there is no set structure or when the format is complex. You can teach this model to extract data from structured or unstructured documents that have different layouts. This model is powerful but had long training time.
 - **Invoices**. Augment the behaviors of the prebuilt invoice processing model by adding new fields to be extracted in addition to the ones by [default](prebuilt-invoice-processing.md#model-output), or samples of documents not properly extracted.
 
     :::image type="content" source="media/document-processing-choose-document-type.png" alt-text="Screenshot of the tiles under 'Select the type of documents your model will process'.":::
