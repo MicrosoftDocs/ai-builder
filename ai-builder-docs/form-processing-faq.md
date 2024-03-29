@@ -20,7 +20,11 @@ This topic consists of frequently asked questions about the document processing 
 
 ### What can I do with document processing?
 
-With document processing, you can build a custom AI model to extract information from documents. Document processing supports extracting data from structured, semi-structured documents like invoices, purchase orders, delivery orders, tax forms as well as unstructured documents such as contracts, statement of work, letters and others. Learn more: [Overview of the document processing model](form-processing-model-overview.md)
+With document processing, you can build a custom AI model to extract information from various kind of documents. 
+- **Fixed-template documents** option is ideal if the elements of your documents can be found in similar places. It's usually the case for invoices, purchase orders, delivery orders and tax forms.
+- **General documents option** is ideal for any kind of document, including the ones supported by the first option option but also contracts, statement of work, letters and others. This option can be more powerful to extract data but requires longer training time.
+
+Learn more: [Overview of the document processing model](form-processing-model-overview.md)
 
 ### What types of documents can document processing handle?
 
@@ -74,7 +78,7 @@ In the above cases, nothing can be done in AI Builder to improve the recognition
 
 ### Can I create a model with many collections?
 
-You can create up to 200 collections per model. However, training unstructured models with tens of collections can take several hours and&mdash;in rare occasions&mdash;time out. If your model has a great number of collections, expect to wait up to 24 hours for model training completion.
+You can create up to 200 collections per model. However, training **General documents** models with tens of collections can take several hours and&mdash;in rare occasions&mdash;time out. If your model has a great number of collections, expect to wait up to 24 hours for model training completion.
 
 ### Can I create a model in a solution?
 
@@ -82,7 +86,7 @@ Currently, it isn't possible to create a model in a solution.
 
 ### Can I use contracts and letters in my documents processing model?
 
-Yes, unstructured documents like contracts and letters are supported by document processing.
+Yes, unstructured documents like contracts and letters are supported by document processing, using the **General documents** option.
 
 ## Comparisons
 
