@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.collection: 
 - get-started
 - bap-ai-copilot
-ms.date: 01/10/2024
+ms.date: 03/29/2024
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
 # Overview of licensing
 
-AI Builder is licensed on a capacity basis. The capacity is measured in terms of *service credits* or *AI Builder credits*. Qualifying prerequisites include having Power Apps, Power Automate, or Dynamics 365 license that allows you to create the Microsoft Power Platform environment.
+AI Builder is licensed on a monthly capacity basis. The capacity is measured in terms of *service credits* or *AI Builder credits*. Qualifying prerequisites include having a Power Apps, Power Automate, or Dynamics 365 license that allows you to create the Microsoft Power Platform environment.
 
 Access to AI Builder features within an environment requires AI Builder credits.
 
@@ -35,11 +35,12 @@ Once an environment has credits from either allocated or unallocated sources, it
 
 **Trials**: You can try AI Builder for free in an organization’s tenants that don’t have AI Builder credits. In this case, AI Builder capacity is linked to the user and doesn't need to be allocated.
 
+As consumption is reset each month, the amount of credit to purchase and/or allocate should be the consumption of a single month. Unused credits don't roll over to the next month. With a 1 million credits add-on purchased and allocated to a single environment, the environment can consume up to 1 million credits per month. Assuming this environment consumes 800,000 credits each month, then total consumption of the year would be 9.6 million credits.
+
 ## Learn more
 
-To learn more about licensing, go to [AI Builder licensing and credit management](credit-management.md).
-
-To learn more about trials, go to [AI Builder trial](ai-builder-trials.md).
+- To learn more about licensing, go to [AI Builder licensing and credit management](credit-management.md).
+- To learn more about trials, go to [AI Builder trial](ai-builder-trials.md).
 
 ### See also
 
