@@ -22,7 +22,7 @@ A low-code plug-in can enable advanced business logic without the need to write 
 ## Prerequisites
 
 - Verify the [prerequisites](prebuilt-prompts.md#prerequisites) for using prebuilt prompts.
-- MAke sure you have a basic understanding of [low-code plug-ins](/power-apps/maker/data-platform/low-code-plug-ins).
+- Make sure you have a basic understanding of [low-code plug-ins](/power-apps/maker/data-platform/low-code-plug-ins).
 
 ## Add a new column named 'Summary' to the Email table
 
