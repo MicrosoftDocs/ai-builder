@@ -3,14 +3,15 @@ title: Improve the performance of your document processing model - AI Builder
 description: Learn tips to help you improve document processing model performance in AI Builder.
 author: JoeFernandezMS
 contributors:
+  - antrodfr
   - Phil-cmd
   - v-aangie
 ms.topic: conceptual
 ms.collection: 
 - get-started
 - bap-ai-copilot
-ms.date: 01/10/2024
-ms.author: jofernan
+ms.date: 04/11/2024
+ms.author: antrod
 ms.reviewer: angieandrews
 ---
 
@@ -25,8 +26,7 @@ Interpret your accuracy score to identify what your model is struggling to extra
 1. Sign in to [Power Apps](https://make.powerapps.com/) or [Power Automate](https://make.powerautomate.com/).
 1. On the left pane, select **... More** > **AI hub**.
 1. Under **Discover an AI capability**, select **AI models**.
-
-    *(Optional)* To keep **AI models** permanently on the menu for easy access, select the pin icon.
+1. (Optional) To keep **AI models** permanently on the menu for easy access, select the pin icon.
 1. Open the document processing model you want to investigate. You should see the accuracy score.
 
     > [!NOTE]
@@ -59,7 +59,7 @@ Interpret your accuracy score to identify what your model is struggling to extra
 
 ### What can I do if I have a low accuracy score for a field, table, or checkbox?
 
-1. Check that the field, table, or checkbox has been tagged correctly in all the documents.
+1. Check that the field, table, or checkbox is tagged correctly in all the documents.
 1. Provide more sample documents for training where the field, table, or checkbox is present.
 
 ### What can I do if I have a low accuracy score for a collection?
@@ -68,7 +68,7 @@ Check that the documents within the collection all have the same layout. To lear
 
 ## Add more documents to the training data
 
-The more documents you tag, the more AI Builder will learn how to better recognize the fields. To add more documents, edit your document processing model and upload more documents. You'll find the option to edit the model on the details page of the model.
+The more documents you tag, the more AI Builder learns how to better recognize the fields. To add more documents, edit your document processing model and upload more documents. You find the option to edit the model on the details page of the model.
 
 :::image type="content" source="media/improve-the-performance-of-your-form-processing-model/form-processing-edit-model.png" alt-text="Screenshot of the details page with the option to edit a document processing model.":::
 
@@ -80,7 +80,7 @@ The more documents you tag, the more AI Builder will learn how to better recogni
 - If possible, use text-based PDF documents instead of image-based documents. Scanned PDFs are handled as images.
 - When you create a document processing model, upload documents with the same layout where each document is a separate instance. For example, invoices from different months should be in separate documents and not all in the same one.
 - Documents that have different layouts should go [into different collections](create-form-processing-model.md#group-documents-by-collections) when you upload samples for training. 
-- If the document processing model is extracting values from neighboring fields from the one you want the model to extract, edit the model and tag adjacent values that are being picked up incorrectly as being different fields. By doing this, the model will better learn the boundaries for each field.
+- If the document processing model is extracting values from neighboring fields from the one you want the model to extract, edit the model and tag adjacent values that are being picked up incorrectly as being different fields. By doing this, the model better learns the boundaries for each field.
 
 ### See also
 

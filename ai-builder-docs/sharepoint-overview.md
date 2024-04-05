@@ -3,11 +3,11 @@ title: AI Builder in SharePoint with Microsoft Syntex overview - AI Builder
 description: Provides an overview of how to use your AI models in SharePoint with Microsoft Syntex.
 author: antrodfr
 contributors:
-  antrodfr
-  v-aangie
+  - antrodfr
+  - v-aangie
 ms.topic: overview
 ms.custom: 
-ms.date: 01/10/2024
+ms.date: 04/11/2024
 ms.author: antrod
 ms.reviewer: angieandrews
 ---
@@ -39,8 +39,8 @@ To learn more, go to [Roles and security in AI Builder](/ai-builder/security).
 
 ### See also
 
-[AI Builder document processing models](form-processing-model-overview.md)<br/>
-[Feature availability by region](availability-region.md)<br/>
-[Roles and security in AI Builder](security.md)
+- [AI Builder document processing models](form-processing-model-overview.md)<br/>
+- [Feature availability by region](availability-region.md)<br/>
+- [Roles and security in AI Builder](security.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
