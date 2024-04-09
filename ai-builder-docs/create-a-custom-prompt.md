@@ -17,16 +17,20 @@ ms.reviewer: angieandrews
 
 # Create a prompt
 
+Custom prompts give makers the freedom to instruct the GPT model to behave in a certain way or to perform a specific task. By carefully crafting a prompt, you can generate responses that suit your specific business needs. This transforms the GPT model into a flexible tool to accomplish various tasks.
+
 > [!IMPORTANT]
 > - AI Builder prompts are running on GPT-3.5 Turbo model powered by [Azure OpenAI Service](/azure/ai-services/openai/whats-new).
 > - This capability is [limited to some regions](availability-region.md#prompts).
 > - This capability might be subject to usage limits or capacity throttling.
 
-## What's a custom prompt
+## Supported languages
 
-Custom prompts give makers the freedom to instruct the GPT model to behave in a certain way or to perform a specific task. By carefully crafting a prompt, you can generate responses that suit your specific business needs. This transforms the GPT model into a flexible tool to accomplish various tasks.
+The following list of supported languages for AI prompts in AI Builder is subject to be updated:
 
-### Use specific text for more relevant responses
+Chinese (Simplified), Czech (Czech Republic), Danish (Denmark), Dutch (Netherlands), English (United States), Finnish (Finland), French (France), German (Germany), Greek (Greece), Italian (Italy), Japanese (Japan), Korean (Korea), Polish (Poland), Portuguese (Brazil), Russian (Russia), Spanish (Spain), Swedish (Sweden), Thai (Thailand), Turkish (Turkey)
+
+## Use specific text for more relevant responses
 
 The goal of prompt engineering is to create an instruction that's as specific as possible to get a more relevant response from the GPT model. Your prompts should be specific to a topic and convey your intent.
 
@@ -44,7 +48,7 @@ If the generated text is too long or contains irrelevant information, adjust the
 - **Contextual**: It provides enough context for the GPT model to generate meaningful output.
 - **Relevant**: It's relevant to the task and provides the GPT model with enough information to generate meaningful output.
 
-### Parts of a prompt
+## Parts of a prompt
 
 There are generally two parts to a prompt for a GPT model: the instruction and the context.
 
