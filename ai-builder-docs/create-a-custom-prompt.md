@@ -22,6 +22,12 @@ ms.reviewer: angieandrews
 > - This capability is [limited to some regions](availability-region.md#prompts).
 > - This capability might be subject to usage limits or capacity throttling.
 
+  > [!NOTE]
+  > - Languages currently supported for AI Prompts in AI Builder:
+Chinese(Simplified), Czech (Czech Republic), Danish (Denmark), Dutch (Netherlands), English (United States), Finnish (Finland), French (France),           German (Germany), Greek (Greece), Italian (Italy), Japanese (Japan), Korean (Korea), Polish (Poland), Portuguese (Brazil), Russian (Russia), Spanish         (Spain), Swedish (Sweden), Thai (Thailand), Turkish (Turkey)
+  > - This list of supported languages might be subject to be updated
+
+
 ## What's a custom prompt
 
 Custom prompts give makers the freedom to instruct the GPT model to behave in a certain way or to perform a specific task. By carefully crafting a prompt, you can generate responses that suit your specific business needs. This transforms the GPT model into a flexible tool to accomplish various tasks.
