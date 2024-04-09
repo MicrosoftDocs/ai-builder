@@ -4,12 +4,13 @@ description: Learn how to create a custom prompt.
 author: phil-cmd
 contributors:
   - phil-cmd
+  - CedrickBellarosa
   - v-aangie
 ms.topic: conceptual
 ms.collection: 
 - get-started
 - bap-ai-copilot
-ms.date: 03/28/2024
+ms.date: 04/09/2024
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---
@@ -58,7 +59,7 @@ A custom prompt can guide the GPT model to answer a question, complete text, tra
 
 **Download the guide here: [AI Builder prompt engineering guide (10 pages, 10X13 in.)](https://go.microsoft.com/fwlink/?linkid=2255775)** 
 
-:::image type="content" source="media/create-a-custom-prompt/prompt-engineering-guide.png" alt-text="Screenshot of AI Builder prompt engineering guide."::: 
+:::image type="content" source="media/create-a-custom-prompt/prompt-engineering-guide.png" alt-text="Screenshot of AI Builder prompt engineering guide.":::
 
 Download and print the AI Builder prompt engineering guide (10 pages, 10X13 inch size) to keep it handy and get help creating prompts.
 
@@ -73,13 +74,13 @@ Prompt builder provides the flexibility to create your own custom prompt by defi
 
 1. On the lower-right corner, select **Create custom prompt**.
 
-    :::image type="content" source="media/create-a-custom-prompt/custom-prompt-button.png" alt-text="Screenshot of the 'Create custom prompt' button."::: 
+    :::image type="content" source="media/create-a-custom-prompt/custom-prompt.svg" alt-text="Screenshot of the fields you fill in to create a custom prompt.":::
 
 ### Configure and test your prompt
 
 Use the following screenshot as a guide to build and test your prompt.
 
-:::image type="content" source="media/create-a-custom-prompt/configure-test.png" alt-text="Screenshot of the steps to configure and test your prompt."::: 
+:::image type="content" source="media/create-a-custom-prompt/configure-and-test.png" alt-text="Screenshot of the steps to configure and test your prompt.":::
 
 > [!TIP]
 > For help with creating prompts with more suggestions, refer to [Prompt engineering guide](#download-ai-builder-prompt-engineering-guide).
@@ -100,19 +101,18 @@ Use the following screenshot as a guide to build and test your prompt.
 
     The testing of prompts is an essential yet often under-emphasized capability. Manual testing is beneficial for iterative building experiences.
 
-1. Save your custom prompt by selecting **Save custom prompt**.
+1. (Optional) Insert input or data references to define how it must be used in context of the prompt.
 
 ### Review and save your prompt
 
 Prompt builder allows makers to save prompts to facilitate reusability, archiving, and future improvement of prompts.
 
-After you test your prompt with the sample value (in step 4), review it to see how well your prompt works.
+1. After you test your prompt with the sample value (in step 4), review it to see how well your prompt works.
+1. When you're satisfied, select **Save custom prompt**.
 
-When you're satisfied, select **Save custom prompt**.
+    :::image type="content" source="media/create-a-custom-prompt/review-and-save.png" alt-text="Screenshot of a prompt response.":::
 
-:::image type="content" source="media/create-a-custom-prompt/prompt-test.png" alt-text="Screenshot of a prompt response.":::
-
-## Next step
+## Use your prompt in Power Apps or Power Automate
 
 Your next step is determined by the app you plan to use with your prompt.
 
