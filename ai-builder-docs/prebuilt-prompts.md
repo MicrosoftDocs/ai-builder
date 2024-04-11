@@ -160,4 +160,5 @@ If you have feedback of your experience with the current prebuilt prompts, or id
 
 ### See also
 
-[FAQ for text generation and prompts](faqs-text-generation.md)
+- [AIClassify, AIExtract, AIReply, AISentiment, AISummarize, and AITranslate](/power-platform/power-fx/reference/function-ai) in Power Fx
+- [FAQ for text generation and prompts](faqs-text-generation.md)
