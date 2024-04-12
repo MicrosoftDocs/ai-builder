@@ -40,7 +40,7 @@ On the **Choose document type** step, select the type of document you want to bu
 - **General documents**: Previously known as Unstructured, this option is ideal for any kind of documents, especially when there's no set structure, or when the format is complex. You can teach this model to extract data from structured or unstructured documents that have different layouts. This model is powerful, but has long training time.
 - **Invoices**: Augment the behaviors of the prebuilt invoice processing model by adding new fields to be extracted in addition to the ones by [default](prebuilt-invoice-processing.md#model-output), or samples of documents not properly extracted.
 
-    :::image type="content" source="media/document-processing-choose-document-type.png" alt-text="Screenshot of the tiles under 'Select the type of documents your model will process'.":::
+    :::image type="content" source="media/document-processing-select-document-type.png" alt-text="Screenshot of the tiles under 'Select the type of documents your model will process'.":::
 
 ## Define information to extract
 
