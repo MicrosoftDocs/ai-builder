@@ -9,7 +9,7 @@ contributors:
   - v-aangie
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/11/2024
+ms.date: 04/12/2024
 ms.author: antrod
 ms.reviewer: angieandrews
 ---
@@ -40,13 +40,13 @@ On the **Choose document type** step, select the type of document you want to bu
 - **General documents**: Previously known as Unstructured, this option is ideal for any kind of documents, especially when there's no set structure, or when the format is complex. You can teach this model to extract data from structured or unstructured documents that have different layouts. This model is powerful, but has long training time.
 - **Invoices**: Augment the behaviors of the prebuilt invoice processing model by adding new fields to be extracted in addition to the ones by [default](prebuilt-invoice-processing.md#model-output), or samples of documents not properly extracted.
 
-    :::image type="content" source="media/document-processing-select-document-type.png" alt-text="Screenshot of the tiles under 'Select the type of documents your model will process'.":::
+    :::image type="content" source="media/create-form-processing-model/document-processing-select-document-type.png" alt-text="Screenshot of the tiles under 'Select the type of documents your model will process'.":::
 
 ## Define information to extract
 
 On the **Choose information to extract** screen, define the fields, tables, and checkboxes you want to teach your model to extract. Select the **+Add** button to start defining these.
 
-:::image type="content" source="media/define-information-to-extract.svg" alt-text="Screenshot of the step in the document processing wizard where you define the fields, tables, and checkboxes you want the AI model to extract.":::
+:::image type="content" source="media/create-form-processing-model/define-information-to-extract.svg" alt-text="Screenshot of the step in the document processing wizard where you define the fields, tables, and checkboxes you want the AI model to extract.":::
 
 1. For each **Text field**, provide a name for the field to use in the model.
 
@@ -73,11 +73,11 @@ On the **Choose information to extract** screen, define the fields, tables, and 
 
 A *collection* is a group of documents that share the same layout. Create as many collections as document layouts that you want your model to process. For example, if you're building an AI model to process invoices from two different vendors, each having their own invoice template, create two collections.
 
-:::image type="content" source="media/form-processing-multiple-layout-create-collections.gif" alt-text="Animation of creating collections.":::
+:::image type="content" source="media/create-form-processing-model/form-processing-multiple-layout-create-collections.gif" alt-text="Animation of creating collections.":::
 
 For each collection that you create, you need to upload at least five sample documents per collection. Files with formats JPG, PNG, and PDF files are currently accepted.
 
-:::image type="content" source="media/form-processing-multiple-layout-add-documents.gif" alt-text="Animation of uploading documents.":::
+:::image type="content" source="media/create-form-processing-model/form-processing-multiple-layout-add-documents.gif" alt-text="Animation of uploading documents.":::
 
  > [!NOTE]
  > You can create up to 200 collections per model.
