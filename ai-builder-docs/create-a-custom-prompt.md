@@ -86,9 +86,6 @@ Use the following screenshot as a guide to build and test your prompt.
 
 :::image type="content" source="media/create-a-custom-prompt/configure-and-test.png" alt-text="Screenshot of the steps to configure and test your prompt.":::
 
-> [!TIP]
-> For help with creating prompts with more suggestions, refer to [Prompt engineering guide](#download-ai-builder-prompt-engineering-guide).
-
 1. Enter a name for your prompt.
 1. Write or paste your prompt.
 
