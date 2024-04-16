@@ -128,9 +128,18 @@ The following list presents AI Builder actions consuming credits. It isn't all-i
 Each AI Builder model has a different credit consumption mechanism. To perform an assessment, go to the [AI Builder calculator](https://powerapps.microsoft.com/ai-builder-calculator/) site or obtain the full details in the [Power Platform Licensing Guide (pdf)](https://go.microsoft.com/fwlink/?linkid=2085130).
 
 ### AI Prompt licensing
-AI Prompts can be utilized in Power Apps, Power Automate flows, and extended Copilots through the use of Copilot Studio. In the context of Power Apps and Power Automate flows, AI Prompts consume credits. The number of credits consumed depends on the length of the input and output, as well as the underlying Generative AI model used. The Licensing Guide and Calculator provide detailed information about each Generative AI model. Please note that changing the Generative AI model may increase the AI Builder credit consumption of your AI Prompt.  
+AI Prompts can be utilized in Power Apps, Power Automate flows, and extended Copilots through the use of Copilot Studio. <br/> 
+In the context of Power Apps and Power Automate flows, AI Prompts consume credits.<br/>
+The number of credits consumed depends on the length of the input and output, as well as the underlying Generative AI model used. 
+The Licensing Guide and Calculator provide detailed information about each Generative AI model. Please note that changing the Generative AI model may increase the AI Builder credit consumption of your AI Prompt.  
 
 In the context of Copilot, AI Prompts do not consume AI Builder credits. However, triggering them does consume Copilot messages. It is important to note that some Generative AI models are not supported in Copilots. The default selected model is always supported.  
+
+|GPT model  |Status  |Licensing rules  | Functionalities|
+|---------|---------|---------|---------|
+|GPT 3.5| GA - Default model | Consumes credits in Apps, Flows . See Licensing Guide and Calculator | Trained on data up to Sept 2021. Context allowed up to 16k tokens |
+| GPT 4 | Preview | Free | Trained on data up to April 2023. Context allowed up to 128k tokens. Multilingual enhanced proficiency. Better than GPT 3.5 in technical redaction and creativity |
+
 
 ## Overage
 
