@@ -4,7 +4,7 @@ description: Learn about licensing and credit management in AI Builder.
 author: Antoine2F
 contributors:
   - jkom1
-  - - Antoine2F
+  - Antoine2F
   - v-aangie
 ms.topic: conceptual
 ms.date: 01/10/2024
