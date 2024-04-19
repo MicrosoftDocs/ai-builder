@@ -1,5 +1,5 @@
 ---
-title: AI Prompt Settings : model selection and Temperature
+title: AI Prompt Settings - model selection and Temperature
 description: Learn about Settings parameter in Prompt Builder
 author: Antoine2F
 contributors:
