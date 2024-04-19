@@ -130,10 +130,12 @@ Each AI Builder model has a different credit consumption mechanism. To perform a
 ### AI Prompt licensing
 AI Prompts can be utilized in Power Apps, Power Automate flows, and extended Copilots through the use of Copilot Studio. <br/> 
 In the context of Power Apps and Power Automate flows, AI Prompts consume credits.<br/>
-The number of credits consumed depends on the length of the input and output, as well as the underlying Generative AI model used. 
-The Licensing Guide and Calculator provide detailed information about each Generative AI model. Please note that changing the Generative AI model may increase the AI Builder credit consumption of your AI Prompt.  
+The number of consumed credits depends on the length of the input and output, as well as the underlying Generative AI model used. 
+The [Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130) (pdf file) and [Calculator](https://powerapps.microsoft.com/ai-builder-calculator/) provide detailed information about each Generative AI model. Please note that changing the Generative AI model may increase the AI Builder credit consumption of your AI Prompt.  
 
 In the context of Copilot, AI Prompts do not consume AI Builder credits. However, triggering them does consume Copilot messages. 
+
+See [AI Prompt Settings](prompt-modelsettings.md) documentation page
 
 ## Overage
 
@@ -217,7 +219,7 @@ You have a scenario with 32,000 receipts to process each month with receipt proc
 32,000 receipts require 32 credits per receipt (exact rates are in the [Microsoft Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130)), so you have 1,024,000 credits.
 
 > [!NOTE]
-> The [AI Builder calculator](https://powerapps.microsoft.com/en-us/ai-builder-calculator/) doesn’t give the exact number of AI Builder credits. It gives the number of add-ons, which is needed to cover the need. Here, it proposes to buy two (2) add-ons (2,000,000 credits) to cover the 1,024,000 credits.
+> The [AI Builder calculator](https://powerapps.microsoft.com/ai-builder-calculator/) doesn’t give the exact number of AI Builder credits. It gives the number of add-ons, which is needed to cover the need. Here, it proposes to buy two (2) add-ons (2,000,000 credits) to cover the 1,024,000 credits.
 
 Supposing you own five (5) Power Automate premium licenses, you're covered with a single add-on:
 
