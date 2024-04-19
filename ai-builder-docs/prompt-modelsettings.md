@@ -11,8 +11,8 @@ ms.author: antode
 ms.reviewer: angieandrews
 ---
 
-# Model Settings in Prompt Builder
-When creating a custom prompt in Prompt Builder, left hand panel includes a 'Settings' section.
+#  Prompt Settings 
+When creating a custom prompt in Prompt Builder, left hand panel includes a 'Settings' section. 
 
 This section allows to set these parameters:
 - model
