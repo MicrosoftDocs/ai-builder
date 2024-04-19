@@ -29,6 +29,8 @@
       href: prebuilt-prompts-in-dataverse-plug-in-powerapps.md
   - name: Create a prompt
     href: create-a-custom-prompt.md
+  - name: Prompt Settings
+    href: prompt-modelsettings.md
   - name: Share your prompt
     href: share-your-prompt.md 
   - name: Use your prompt in Power Apps
