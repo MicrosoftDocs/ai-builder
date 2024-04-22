@@ -25,8 +25,17 @@ This section allows to set these parameters:
 Let's explore the impact of these parameters.
 
 ## Prompt details
+In this section you can define the name of your prompt. This name will identify your prompt through the different the consumption experiences: Power Automate, Power Apps and Copilot Studio.
 
 ## Inputs
+Inputs can be added inside a prompt in order to inject data that is not defined yet at prompt creation time but can be known as prediction time. 
+
+Example: The following prompt includes an **Input** called EmailContent that will be passed at prediction time in a Power Automate flow.
+
+:::image type="content" source="media/prompt-settings/prompt-settings-input.png" alt-text="Prompt input":::
+
+It's possible to associate **Sample data** to an **Input** to test the prompt with relevant data.
+
 
 ## Data user (preview)
 
