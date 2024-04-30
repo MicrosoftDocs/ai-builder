@@ -11,38 +11,37 @@ ms.author: antode
 ms.reviewer: angieandrews
 ---
 
-#  Model Settings 
+#  Settings: Generative AI Model version and Temperature 
 When creating a custom prompt in Prompt Builder, right hand panel includes a 'Settings' section. 
 
 This section allows to set these parameters:
-- version
+- version of Generative AI model
 - temperature
 
 Let's explore the impact of these parameters.
 
-## Version
+## Version of Generative AI model
 The dropdown allows to select between the available Generative AI models, which will be used to generate the answer to your custom prompt.
 
-Default model is a GA GPT model. As of May 2024, it is GPT 3.5. Previous Prompts created in Prompt Builder relies on this default model.  
+Default model is a GA GPT model. As of May 2024, it is **GPT 3.5**. Previous Prompts created in Prompt Builder relies on this default model.  
 Exact version is GPT 3.5 turbo 0613, and it will switch to GPT 3.5 turbo 0125 model in June timeframe, as GPT 3.5 0613 is getting deprecated.
 GPT 3.5 model is consuming AI Builder credits when used in Apps or Flows.
 
-The other available model (as of May 2024) is GPT 4. As long as it's in preview mode, it won't consume AI Builder credits when used in Apps or Flows.  
+The other available model (as of May 2024) is **GPT 4**. As long as it's in preview mode, it won't consume AI Builder credits when used in Apps or Flows.  
 As a preview model, use is linked to AI Builder preview toggle in environment settings. ([Power Platform Admin Center](https://admin.powerplatform.microsoft.com/environments) -> select Environment -> Settings -> Features)
-When preview models are Off, GPT 4 cannot be selected in the dropdown and previously created prompts are blocked.  
-Exact version is subject to change.  
-
-### Use of AI Prompts in context of Copilot Studio
-AI Prompts don't consume AI Builder credits when in the context of Copilot Studio.
-When built using a GA generative AI model (like GPT 3.5), they consume messages.
-When built using a Preview generative AI model, they don't consume messages.
+When preview models are Off, GPT 4 cannot be selected in the dropdown and prompts previously created with GPT 4 are blocked.  
+Exact version is subject to change. (as of May 2024, it uses the GPT 4 0613 version)
 
 **Choice between available models should be based on status, licensing rules and functionalities**
 
-|GPT model  |Status  |Licensing rules  | Functionalities|
+|GPT model  |Status  |Licensing rules   | Functionalities|
 |---------|---------|---------|---------|
-|GPT 3.5| GA - Default model | Consumes credits in Apps, Flows . See Licensing Guide and Calculator | Trained on data up to Sept 2021. Context allowed up to 16k tokens |
-| GPT 4 | Preview | Free | Trained on data up to April 2023. Context allowed up to 128k tokens. Multilingual enhanced proficiency. Better than GPT 3.5 in technical redaction and creativity |
+|GPT 3.5| GA - Default model | Consumes credits in Apps, Flows . See [Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130) and AI Builder [Calculator](https://powerapps.microsoft.com/ai-builder-calculator/) | Trained on data up to Sept 2021. Context allowed up to 16k tokens |
+| GPT 4 | Preview | Free while in Preview | Trained on data up to April 2023. Context allowed up to 32k tokens. Multilingual enhanced proficiency. Better than GPT 3.5 in technical redaction and creativity |
+
+#### Use of AI Prompts in context of Copilot Studio
+AI Prompts don't consume AI Builder credits when in the context of Copilot Studio.
+See [Power Platform licensing guide](https://go.microsoft.com/fwlink/?linkid=2085130) to know more about message consumption.
 
 ## Temperature
 The slider allows to select the Temperature of the Generative AI model. It varies between 0 and 1, and guides the Generative AI model about how much creativity (1) vs deterministic answer (0) it should provide.
