@@ -29,7 +29,7 @@
       href: prebuilt-prompts-in-dataverse-plug-in-powerapps.md
   - name: Create a prompt
     href: create-a-custom-prompt.md
-  - name: Settings: model selection and temperature
+  - name: Settings (model selection and temperature)
     href: prompt-modelsettings.md
   - name: Share your prompt
     href: share-your-prompt.md 
