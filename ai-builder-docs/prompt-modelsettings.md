@@ -34,10 +34,10 @@ Exact version is subject to change. (as of May 2024, it uses the GPT 4 0613 vers
 
 **Choice between available models should be based on status, licensing rules and functionalities**
 
-|GPT model  |Status  |Licensing rules   | Functionalities|
-|---------|---------|---------|---------|
-|GPT 3.5| GA - Default model | Consumes credits in Apps, Flows . See [Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130) and AI Builder [Calculator](https://powerapps.microsoft.com/ai-builder-calculator/) | Trained on data up to Sept 2021. Context allowed up to 16k tokens |
-| GPT 4 | Preview | Free while in Preview | Trained on data up to April 2023. Context allowed up to 32k tokens. Multilingual enhanced proficiency. Better than GPT 3.5 in technical redaction and creativity |
+|GPT model  |Status  |Version |Licensing rules   | Functionalities|
+|---------|---------|---------|---------|---------|
+|GPT 3.5| GA - Default model | gpt-3.5-turbo-0613	| Consumes credits in Apps, Flows . See [Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130) and AI Builder [Calculator](https://powerapps.microsoft.com/ai-builder-calculator/) | Trained on data up to Sept 2021. Context allowed up to 16k tokens |
+| GPT 4 | Preview | gpt-4-32k-0613	| Free while in Preview | Trained on data up to Sept 2021. Context allowed up to 32k tokens. Multilingual enhanced proficiency. Better than GPT 3.5 in technical redaction and creativity |
 
 #### Use of AI Prompts in context of Copilot Studio
 AI Prompts don't consume AI Builder credits when in the context of Copilot Studio.
