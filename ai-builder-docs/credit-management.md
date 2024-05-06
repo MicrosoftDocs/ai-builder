@@ -119,14 +119,20 @@ Administrators also can access the [AI Builder Activity](activity-monitoring.md)
 
 ### AI Builder credit consumption
 
-The following list presents AI Builder actions consuming credits. It isn't all-inclusive and preview scenarios don't consume credits.
+The following list presents AI Builder actions consuming credits. It isn't all-inclusive. 
 
 |AI Builder Studio  |Power Apps  |Power Automate  |
 |---------|---------|---------|
-| Train an object detection model.<br/><br/>Perform a **Quick test** on a trained object detection and document processing model.<br/><br/>Use custom documents, images or text to **try out** prebuilt models when using the tiles in the 'Explore' section.<br/><br/>Batch runs of the prediction and trainable category classification models for each row to be predicted.  | Select...<br/><br/>**Scan a business card** with the business card reader.<br/><br/>**Analyze** with the document processor.<br/><br/>**Detect** with the object detector.<br/><br/>**+ New image** with the text recognizer.<br/><br/>**Use an action** bound to an AI Builder model through [Power Fx](powerfx-in-powerapps.md).  |Run a flow using any of the actions inside the **AI Builder** category.<br/><br/>Run the generic action **Perform a bound action** of Dataverse on the entity AI Models and action name **Predict**.   |
+| Train an object detection model.<br/><br/>Use custom documents, images or text to **try out** prebuilt models when using the tiles in the 'AI Models' section<br/><br/>Batch runs of the prediction and trainable category classification models for each row to be predicted.  | **Run an AI prompt or an AI function** generating Text <br/><br/>**Scan a business card** with the business card reader.<br/><br/>**Analyze** with the document processor.<br/><br/>**Detect** with the object detector.<br/><br/>**+ New image** with the text recognizer.<br/><br/>**Use an action** bound to an AI Builder model through [Power Fx](powerfx-in-powerapps.md).  |Run a flow using any of the actions inside the **AI Builder** category such as Extract information from document or create Text with GPT using a prompt.<br/><br/>Run the generic action **Perform a bound action** of Dataverse on the entity AI Models and action name **Predict**.   |
 
 Each AI Builder model has a different credit consumption mechanism. To perform an assessment, go to the [AI Builder calculator](https://powerapps.microsoft.com/ai-builder-calculator/) site or obtain the full details in the [Power Platform Licensing Guide (pdf)](https://go.microsoft.com/fwlink/?linkid=2085130).
-
+#### Free actions
+Preview scenarios don't consume credits. 
+<br/>
+Performing tests on custom models within AI Builder pages is now free:
+ - testing Prompts in Prompt Builder doesn't consume credits
+ - a **Quick test** on a trained object detection and document processing model doesn't consume credits
+ 
 ### AI Prompt licensing
 AI Prompts can be utilized in Power Apps, Power Automate flows, and extended Copilots through the use of Copilot Studio. <br/> 
 In the context of Power Apps and Power Automate flows, AI Prompts consume credits.<br/>
