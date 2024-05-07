@@ -40,15 +40,19 @@ By default the format will be **Auto detected**. That means, each time you test 
 
 :::image type="content" source="media/change-prompt-output/auto-detect.png" alt-text="Auto detect":::
 
-If you update the JSON example, the format becomes **Custom** and will never be updated if you test again your prompt. This is convenient when you don't want any prompt tweaking to influence the format or if you need to follow a very specific format.
+If you update the JSON example, the format becomes **Custom** and will never be updated if you test again your prompt. This is convenient when you don't want any prompt tweaking to influence the format or if you need to follow a very specific format. You can revert to auto detect mode by clicking on the **Back to Auto detect** icon.
+
+:::image type="content" source="media/change-prompt-output/back-auto.png" alt-text="Back to Auto detect":::
 
 To confirm the newly modified example, click on **Apply**. Then, click on **Test prompt** to check how your prompt response renders with the new format.
 
 :::image type="content" source="media/change-prompt-output/custom.png" alt-text="Custom":::
 
-When you've done all your modifications, make sure to click on **Save custom prompt**, otherwise all changes will be lost?
-
+When you've done all your modifications, make sure to click on **Save custom prompt**, otherwise all changes will be lost?.
 Note that at prompt save time, you are locking the latest **Auto-detected** format or the **Custom** format defined. It means that when you will use your prompt in Power Automate, Power Apps or Copilot topics, the saved format will be used and won't vary.
+
+At any time you can click on the **</>** icon to check the JSON schema that is generated out of the JSON example. This schema is not modifiable for now.
+
 
 ## Use a prompt with JSON output
 
@@ -63,7 +67,7 @@ In the following example, we'll see how an invoice received by email can be simp
 
 :::image type="content" source="media/change-prompt-output/ocr-json-flow.png" alt-text="Use OCR action":::
 
-3- As the previous action returns a table of lines within a table of page, it will be more convenient to aggregate all the lines in a unique variable. Intialize a variable, append the **Text** variable from the **Recognize text in an image or a PDF document** action.
+3- As the previous action returns a table of lines within a table of page, it will be more convenient to aggregate all the lines in a unique variable. Intialize a variable and append in this variable the **Text** dynamic value from the **Recognize text in an image or a PDF document** action.
 
 :::image type="content" source="media/change-prompt-output/ocr-append-json-flow.png" alt-text="Append OCR text":::
 
