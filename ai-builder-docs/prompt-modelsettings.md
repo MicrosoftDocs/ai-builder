@@ -20,7 +20,7 @@ When you create a custom prompt in prompt builder, the panel on the right includ
 This article explores the impact of these parameters.
 
 > [!NOTE]
-> This feature is in yhe process of rolling out and might not be available in your region yet.
+> This feature is in the process of rolling out and might not be available in your region yet.
 
 ## Version of generative AI model
 
