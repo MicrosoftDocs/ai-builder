@@ -14,8 +14,8 @@ ms.reviewer: angieandrews
 
 # Change the output of your prompt
 
-## Benefits
-By default, the prompt will generate a text as response. This can be convenient for many uses cases but if the response has several elements that need to be identified individually, the text response can be limited.
+## Benefits of using JSON output
+By default, the prompt will generate a text as response. This can be convenient for many uses cases but if the response has several elements that need to be identified individually, the text option can be limited.
 
 The JSON output allows you to generate a JSON structure for your prompt response instead of a text. This allows an easier processing of responses with multiple elements in Power Automate or Power Apps.
 
@@ -30,10 +30,10 @@ See [more details](change-prompt-output.md#use-cases) on the uses cases below in
 ## Create a prompt with JSON output
 ### Selecting JSON as output
 To change how the prompt response will be rendered, go to the **Output section** in the right panel and select **JSON (preview)** option.
-->Image of JSON output
 
 Make sure to clik on **Test prompt** to check how your response renders in JSON.
 
+:::image type="content" source="media/change-prompt-output/test-prompt-auto.png" alt-text="JSON option.":::
 
 ### Edit JSON format
 
