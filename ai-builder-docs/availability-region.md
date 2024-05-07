@@ -11,7 +11,7 @@ contributors:
   - antode
 ms.topic: conceptual
 ms.custom: 
-ms.date: 01/10/2024
+ms.date: 03/18/2024
 ms.author: jofernan
 ms.reviewer: angieandrews
 ---
@@ -39,8 +39,8 @@ The following tables show which AI Builder features are available in each region
 |Category classification|GA|GA|GA|GA| GA|GA|GA|GA|-|-|GA|-|GA|GA|GA|GA|
 |Entity extraction |GA|GA|GA|GA| GA|GA|GA|GA|-|-|GA|-|GA|GA|GA|GA|
 |Object detection|GA|GA|-|GA| -|-|GA|GA| -|-|-|-|-|-|GA|GA|
-|Document processing (for structured and semi-structured documents)  |GA|GA|GA|GA| GA|GA|GA|GA| GA|GA|GA| GA|GA|GA|GA|GA|
-|Document processing (for unstructured documents) |GA|GA|GA|GA|GA|-|GA|GA|-|-|GA|-| -|-|GA|GA|
+|Document processing (for fixed-template documents)  |GA|GA|GA|GA| GA|GA|GA|GA| GA|GA|GA| GA|GA|GA|GA|GA|
+|Document processing (for general documents) |GA|GA|GA|GA|GA|-|GA|GA|-|-|GA|-| -|-|GA|GA|
 
 ### Prebuilt models
 
@@ -64,8 +64,8 @@ The following tables show which AI Builder features are available in each region
 
 |Feature |Asia |Australia |Canada |Europe |France |Germany |India |Japan |Norway |South Africa |South America |South Korea |Switzerland |United Arab Emirates |United Kingdom |United States |
 |-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
-|Custom prompts |GA\* |GA |-|GA\*|-|GA\*|GA |GA\*|GA\*|GA\*|-|GA\*|GA\* |GA\*|GA |GA |
-|Prebuilt prompts |GA\* |GA |-|GA\*|-|GA\*|GA |GA\*|GA\*|GA\*|-|GA\*|GA\* |GA\*|GA |GA |
+|Custom prompts |GA\* |GA |GA\*|GA\*|GA\*|GA\*|GA |GA\*|GA\*|GA\*|GA\*|GA\*|GA\* |GA\*|GA |GA |
+|Prebuilt prompts |GA\* |GA |GA\*|GA\*|GA\*|GA\*|GA |GA\*|GA\*|GA\*|GA\*|GA\*|GA\* |GA\*|GA |GA |
 
 \*These regions require [enabling data movement cross-regions](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions) for the prompt feature to be enabled.
 
@@ -86,8 +86,8 @@ AI Builder is available in US Government environments with the features listed i
 |Category classification|GA|GA|-|
 |Entity extraction|GA|GA|-|
 |Object detection|GA|GA|-|
-|Document processing (for structured and semi-structured documents) |GA|GA|-|
-|Document processing (for unstructured documents) |GA|GA|-|
+|Document processing (for fixed-template documents) |GA|GA|-|
+|Document processing (for general documents) |GA|GA|-|
 
 ### Prebuilt models
 |Feature |Government Community Cloud (GCC) |Government Community Cloud – High (GCC High) |Department of Defense (DoD) |
@@ -104,16 +104,23 @@ AI Builder is available in US Government environments with the features listed i
 |Text recognition   |GA|GA|-|
 |Text translation   |GA|GA|-|
 
+### Prompts
+|Feature |Government Community Cloud (GCC) |Government Community Cloud – High (GCC High) |Department of Defense (DoD) |
+|:-------|:-------:|:-------:|:-------:|
+|Custom prompts |GA\* |GA\* |-|
+|Prebuilt prompts |GA\*|GA\* |-|
+
+\*These regions require [enabling data movement cross-regions](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions) for the prompt feature to be enabled.
+
 ### US Government feature limitations
 
 The following features available in the commercial version of AI Builder aren't available to US Government customers:
 
 - 30-day user trials
-- AI model copy across cloud boundaries (for example between Public and GCC or between GCC and GCC High)
+- AI models copy across cloud boundaries (for example between Public and GCC or between GCC and GCC High)
 - [Document Automation](doc-automation.md) isn't available in GCC and GCC High
-- Custom prompts and prebuilt prompts are not available in GCC and GCC High
 
-For more information about other limitations of Power Platform US Government, go to these topics: 
+For more information about other limitations of Power Platform US Government, go to these topics:
 
 - [Power Apps US Government feature limitations](/power-platform/admin/powerapps-us-government#power-apps-us-government-feature-limitations)
 - [Power Automate US Government feature limitations](/power-automate/us-govt#power-automate-us-government-feature-limitations)
