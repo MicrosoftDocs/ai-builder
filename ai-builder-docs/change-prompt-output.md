@@ -48,10 +48,11 @@ To confirm the newly modified example, click on **Apply**. Then, click on **Test
 
 :::image type="content" source="media/change-prompt-output/custom.png" alt-text="Custom":::
 
-When you've done all your modifications, make sure to click on **Save custom prompt**, otherwise all changes will be lost?.
+When you've done all your modifications, make sure to click on **Save custom prompt**, otherwise all changes will be lost.
+
 Note that at prompt save time, you are locking the latest **Auto-detected** format or the **Custom** format defined. It means that when you will use your prompt in Power Automate, Power Apps or Copilot topics, the saved format will be used and won't vary.
 
-At any time you can click on the **</>** icon to check the JSON schema that is generated out of the JSON example. This schema is not modifiable for now.
+At any time, you can click on the **</>** icon to check the JSON schema that is generated out of the JSON example. This schema is not modifiable for now.
 
 
 ## Use a prompt with JSON output
@@ -87,3 +88,10 @@ JSON support in Power Apps will come soon.
 
 ### In Copilot topics
 To be redacted.
+
+## Limitations
+- Using JSON field in Power Apps is not supported for now.
+- Modifying a JSON schema is not possible.
+- JSON format with nested arrays are not supported for now.
+- Defining a JSON format without field keys is not supported. Example: _["abc", "def"]_ is not supported but _["item1": "abc", "item 2": "def"]_ is supported.
+
