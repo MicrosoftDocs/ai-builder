@@ -25,13 +25,12 @@ Example of use cases that become possible with JSON output
 - Identify object attributes from text sources like emails or Dataverse data.
 - Get multiple categories or sentiments from a text.
 
-See [more details](change-prompt-output.md#use-cases) on the uses cases below in this documentation.
 
 ## Create a prompt with JSON output
 ### Selecting JSON as output
 To change how the prompt response will be rendered, go to the **Output section** in the right panel and select **JSON (preview)** option.
 
-Make sure to clik on **Test prompt** to check how your response renders in JSON.
+Make sure to click on **Test prompt** to check how your prompt response renders in JSON.
 
 :::image type="content" source="media/change-prompt-output/test-prompt-auto.png" alt-text="JSON option":::
 
@@ -41,17 +40,46 @@ By default the format will be **Auto detected**. That means, each time you test 
 
 :::image type="content" source="media/change-prompt-output/auto-detect.png" alt-text="Auto detect":::
 
-If you update the example, the format becomes **Custom** and will never be updated if you test again your prompt. This is convenient when you don't want any prompt tweaking to influence the format or if you need to follow a very specific format.
+If you update the JSON example, the format becomes **Custom** and will never be updated if you test again your prompt. This is convenient when you don't want any prompt tweaking to influence the format or if you need to follow a very specific format.
+
+To confirm the newly modified example, click on **Apply**. Then, click on **Test prompt** to check how your prompt response renders with the new format.
 
 :::image type="content" source="media/change-prompt-output/custom.png" alt-text="Custom":::
+
+When you've done all your modifications, make sure to click on **Save custom prompt**, otherwise all changes will be lost?
 
 Note that at prompt save time, you are locking the latest **Auto-detected** format or the **Custom** format defined. It means that when you will use your prompt in Power Automate, Power Apps or Copilot topics, the saved format will be used and won't vary.
 
 ## Use a prompt with JSON output
+
 ### In Power Automate
+After adding the **Create text with GPT action** in a Power Automate flow, you can use all the JSON fields as dynamic values, without the need to add a complex logic to parse the response.
+
+In the following example, we'll see how an invoice received by email can be simply processed using the prompt described above.
+
+1- Create a prompt with the trigger **When a new email arrives**. Make sure to set filters if you just need to process specific emails.
+
+2- Extract the text of the attachment(s) using the action **Recognize text in an image or a PDF document**. 
+
+:::image type="content" source="media/change-prompt-output/ocr-json-flow.png" alt-text="Use OCR action":::
+
+3- As the previous action returns a table of lines within a table of page, it will be more convenient to aggregate all the lines in a unique variable. Intialize a variable, append the **Text** variable from the **Recognize text in an image or a PDF document** action.
+
+:::image type="content" source="media/change-prompt-output/ocr-append-json-flow.png" alt-text="Append OCR text":::
+
+4- Include the **Create text with GPT action**, select your prompt with JSON output, and add the invoice variable you just created in the prompt input.
+
+:::image type="content" source="media/change-prompt-output/gpt-json-flow.png" alt-text="Use GPT action":::
+
+5- Send an email that contains the elements extracted by the prompt with JSON output.
+
+:::image type="content" source="media/change-prompt-output/gpt-output-json-flow.png" alt-text="Use JSON fields":::
+
+As you can see, this allows you to easily and safely use multiple values extracted from a text using a prompt.
+
 
 ### In Power Apps
+JSON support in Power Apps will come soon.
 
-
-## Use cases
-In this section, some uses cases are described to demonstrate how it can be powerful to use JSON output.
+### In Copilot topics
+To be redacted.
