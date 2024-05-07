@@ -3,11 +3,11 @@ title: AI Builder in SharePoint with Microsoft Syntex overview - AI Builder
 description: Provides an overview of how to use your AI models in SharePoint with Microsoft Syntex.
 author: antrodfr
 contributors:
-  antrodfr
-  v-aangie
+  - antrodfr
+  - v-aangie
 ms.topic: overview
 ms.custom: 
-ms.date: 01/10/2024
+ms.date: 04/11/2024
 ms.author: antrod
 ms.reviewer: angieandrews
 ---
@@ -17,8 +17,8 @@ ms.reviewer: angieandrews
 With the Microsoft Syntex service, you're able to create AI Builder models in SharePoint. To learn more, go to [Overview of Microsoft Syntex](/microsoft-365/contentunderstanding/syntex-overview).
 
 From the **Classify and Extract** menu in your SharePoint library, you can apply an existing AI model to a library or create a new one. Two model types are powered by AI Builder:
-- **Freeform document processing:** Creates AI Builder document processing models for unstructured or freeform documents like contracts, statements of work, letters, and more.
-- **Structured document processing:** Creates AI Builder document processing models for structured documents like invoices, purchase orders, delivery orders, tax documents, and more.
+- **Structured document processing:** Creates AI Builder document processing models for fixed-template documents like invoices, purchase orders, delivery orders, tax documents, and more.
+- **Freeform document processing:** Creates AI Builder document processing models for general documents like invoices, purchase orders, delivery orders, tax documents, but also contracts, statements of work, letters, and more.
 
 Once an AI Builder model is applied to a library, every document added to the library will be processed by the applied model. The results are displayed as new library columns.
 
@@ -39,8 +39,8 @@ To learn more, go to [Roles and security in AI Builder](/ai-builder/security).
 
 ### See also
 
-[AI Builder document processing models](form-processing-model-overview.md)<br/>
-[Feature availability by region](availability-region.md)<br/>
-[Roles and security in AI Builder](security.md)
+- [AI Builder document processing models](form-processing-model-overview.md)<br/>
+- [Feature availability by region](availability-region.md)<br/>
+- [Roles and security in AI Builder](security.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

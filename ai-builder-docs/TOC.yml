@@ -31,6 +31,8 @@
     href: create-a-custom-prompt.md
   - name: Model selection and temperature settings
     href: prompt-modelsettings.md
+  - name: Use your own data in a prompt
+    href: use-your-own-prompt-data.md    
   - name: Share your prompt
     href: share-your-prompt.md 
   - name: Use your prompt in Power Apps
@@ -308,7 +310,7 @@
   items:
   - name: Overview
     href: responsible-ai-overview.md
-  - name: FAQ for text generation and prompts
+  - name: FAQ for prompts and text generation capabilities
     href: faqs-text-generation.md
 
 
