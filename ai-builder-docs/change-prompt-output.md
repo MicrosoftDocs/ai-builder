@@ -62,7 +62,7 @@ After adding the **Create text with GPT action** in a Power Automate flow, you c
 
 In the following example, we'll see how an invoice received by email can be simply processed using the prompt described above.
 
-1- Create a prompt with the trigger **When a new email arrives**. Make sure to set filters if you just need to process specific emails.
+1- Create a flow with the trigger **When a new email arrives**. Make sure to set filters if you just need to process specific emails.
 
 2- Extract the text of the attachment(s) using the action **Recognize text in an image or a PDF document**. 
 
@@ -93,5 +93,5 @@ To be redacted.
 - Using JSON field in Power Apps is not supported for now.
 - Modifying a JSON schema is not possible.
 - JSON format with nested arrays are not supported for now.
-- Defining a JSON format without field keys is not supported. Example: _["abc", "def"]_ is not supported but _["item1": "abc", "item 2": "def"]_ is supported.
+- Defining a JSON format without field keys is not supported. Example: _["abc", "def"]_ is not supported but _[{"item1": "abc", "item 2": "def"}]_ is supported.
 
