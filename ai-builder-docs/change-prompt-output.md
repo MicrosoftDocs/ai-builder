@@ -33,17 +33,17 @@ To change how the prompt response will be rendered, go to the **Output section**
 
 Make sure to clik on **Test prompt** to check how your response renders in JSON.
 
-:::image type="content" source="media/change-prompt-output/test-prompt-auto.png" alt-text="JSON option.":::
+:::image type="content" source="media/change-prompt-output/test-prompt-auto.png" alt-text="JSON option":::
 
 ### Edit JSON format
 
 By default the format will be **Auto detected**. That means, each time you test your prompt, the format associated to the prompt will be refreshed with the one detected at testing time. This is convenient when you are iterating on your prompt instructions and want to see how the response format evolves.
 
-:::image type="content" source="media/change-prompt-output/auto-detect.png" alt-text="JSON option.":::
+:::image type="content" source="media/change-prompt-output/auto-detect.png" alt-text="Auto detect":::
 
 If you update the example, the format becomes **Custom** and will never be updated if you test again your prompt. This is convenient when you don't want any prompt tweaking to influence the format or if you need to follow a very specific format.
 
-:::image type="content" source="media/change-prompt-output/custom.png" alt-text="JSON option.":::
+:::image type="content" source="media/change-prompt-output/custom.png" alt-text="Custom":::
 
 Note that at prompt save time, you are locking the latest **Auto-detected** format or the **Custom** format defined. It means that when you will use your prompt in Power Automate, Power Apps or Copilot topics, the saved format will be used and won't vary.
 
