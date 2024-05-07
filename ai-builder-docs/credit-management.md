@@ -14,17 +14,11 @@ ms.reviewer: angieandrews
 
 # AI Builder licensing and credit management
 
-Access to AI Builder features within an environment requires AI Builder credits.
-
-AI Builder credits come with some specific user licenses, but mostly from AI Builder capacity add-on. To learn more, go to [Get entitlement to AI Builder credits](credit-management.md#get-entitlement-to-ai-builder-credits).
-
-Once acquired, credits can be allocated (also known as assigned) to a specific environment, or left at the organization (tenant) level. For more information, go to [Make credits available for an environment](credit-management.md#make-credits-available-for-an-environment-allocated-and-unallocated-credits).
+Access to AI Builder features within an environment requires AI Builder credits. AI Builder credits come with some specific user licenses, but mostly from AI Builder capacity add-on. To learn more, go to [Get entitlement to AI Builder credits](credit-management.md#get-entitlement-to-ai-builder-credits). Once acquired, credits can be allocated (also known as assigned) to a specific environment, or left at the organization (tenant) level. To learn more, go to [Make credits available for an environment](credit-management.md#make-credits-available-for-an-environment-allocated-and-unallocated-credits).
 
 Once an environment has access to credits, AI Builder features are enabled in this environment.
 
-Some AI Builder actions consume credits. To learn more, go to [AI Builder credit consumption](#ai-builder-credit-consumption) in this article.
-
-Credit consumption can be monitored. To learn more, go to [Monitor usage](#monitor-usage) in this article.
+Some AI Builder actions consume credits. To learn more, go to [AI Builder credit consumption](#ai-builder-credit-consumption) in this article. Credit consumption can be monitored. To learn more, go to [Monitor usage](#monitor-usage) in this article.
 
 In an environment, when consumption exceeds available credits, the environment is in overage and some features are progressively blocked. Purchase of new credits and/or reassignment needs to happen. To learn more, go to [Overage](#overage) in this article.
 
@@ -154,7 +148,7 @@ To learn more, go to [Model selection and temperature settings](prompt-modelsett
 
 ## Overage
 
-When browsing AI Builder pages in Power Apps or Power Automate portal, you might get this notification: **You've consumed all of your AI Builder credits. Creating, editing and viewing is blocked. Contact your administrator to get more capacity**. This notification means the monthly consumption of your environment is higher than the available (at environment or organization -tenant- level) credits.
+When browsing AI Builder pages in Power Apps or Power Automate portal, you might get this notification: **You've consumed all of your AI Builder credits. Creating, editing, and viewing is blocked. Contact your administrator to get more capacity**. This notification means the monthly consumption of your environment is higher than the available (at environment or organization -tenant- level) credits.
 
 Monthly consumption is computed from first day of the month and is refreshed on a daily basis.
   
@@ -194,7 +188,7 @@ In some cases, you might still see the overage banners, although extension credi
 
 Depending on the level of overage, these 200,000 credits might not be enough. They can be requested multiple times, but the number of extension requests per month and per year is limited. Each request grants 200,000 credits and triggers an email. 
 
-The purpose of these free credit extensions is to allow makers and admin to unblock themselves temporarily in case additional purchase and/or re-allocation can't be done in a timely manner. Customer shouldn't rely on credit extensions to cover repetitive overage. Repetitive overage must be managed with additional purchase and/or reallocation.
+The purpose of these free credit extensions is to allow makers and admin to unblock themselves temporarily in case additional purchase and/or reallocation can't be done in a timely manner. Customer shouldn't rely on credit extensions to cover repetitive overage. Repetitive overage must be managed with additional purchase and/or reallocation.
 
 ## Preview features
 
@@ -236,7 +230,7 @@ You have a scenario with 32,000 receipts to process each month with receipt proc
 > [!NOTE]
 > The [AI Builder calculator](https://powerapps.microsoft.com/ai-builder-calculator/) doesn’t give the exact number of AI Builder credits. It gives the number of add-ons, which is needed to cover the need. Here, it proposes to buy two (2) add-ons (2,000,000 credits) to cover the 1,024,000 credits.
 
-Supposing you own five (5) Power Automate premium licenses, you're covered with a single add-on:
+Suppose you own five (5) Power Automate premium licenses, you're covered with a single add-on:
 
 One (1) add-on + 5 Power Automate premium licenses = 1,025,000 credits, which is greater than your estimated consumption of 1,024,000 credits.
 
