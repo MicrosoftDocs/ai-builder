@@ -40,7 +40,7 @@ Exact version is subject to change. (as of May 2024, it uses the GPT 4 0613 vers
 | GPT 4 | Preview | gpt-4-32k-0613	| Free while in Preview | Trained on data up to Sept 2021. Context allowed up to 32k tokens. Multilingual enhanced proficiency. Better than GPT 3.5 in technical redaction and creativity |
 
 #### Use of AI Prompts in context of Copilot Studio
-AI Prompts don't consume AI Builder credits when in the context of Copilot Studio.
+AI Prompts don't consume AI Builder credits when in the context of Copilot Studio but consume messages when they are built on GA GPT model.
 See [Power Platform licensing guide](https://go.microsoft.com/fwlink/?linkid=2085130) to know more about message consumption.
 
 ## Temperature
