@@ -1,58 +1,67 @@
 ---
-title: AI Prompt Settings - model selection and Temperature
-description: Learn about Settings parameter in Prompt Builder
+title: Model selection and temperature settings
+description: Learn about the settings parameter in prompt builder.
 author: Antoine2F
 contributors:
   - Antoine2F
   - v-aangie
 ms.topic: conceptual
-ms.date: 04/20/2024
+ms.date: 05/13/2024
 ms.author: antode
 ms.reviewer: angieandrews
 ---
 
-#  Settings: Generative AI Model version and Temperature 
-When creating a custom prompt in Prompt Builder, right hand panel includes a 'Settings' section. 
+# Model selection and temperature settings
 
-This section allows to set these parameters:
-- version of Generative AI model
-- temperature
+When you create a custom prompt in prompt builder, the panel on the right includes a **Settings** section. This section allows you to set these parameters:
+- Version of the generative AI model
+- Temperature
 
-Let's explore the impact of these parameters.
+This article explores the impact of these parameters.
 
-## Version of Generative AI model
-The dropdown allows to select between the available Generative AI models, which will be used to generate the answer to your custom prompt.
+> [!NOTE]
+> This feature is in yhe process of rolling out and might not be available in your region yet.
 
-Default model is a GA GPT model. As of May 2024, it is **GPT 3.5**. Previous Prompts created in Prompt Builder relies on this default model.  
-Exact version is GPT 3.5 turbo 0613, and it will switch to GPT 3.5 turbo 0125 model in June timeframe, as GPT 3.5 0613 is getting deprecated.
-GPT 3.5 model is consuming AI Builder credits when used in Apps or Flows.
+## Version of generative AI model
 
-The other available model (as of May 2024) is **GPT 4**. As long as it's in preview mode, it won't consume AI Builder credits when used in Apps or Flows.  
-As a preview model, use is linked to AI Builder preview toggle in environment settings. ([Power Platform Admin Center](https://admin.powerplatform.microsoft.com/environments) -> select Environment -> Settings -> Features)
-When preview models are Off, GPT 4 cannot be selected in the dropdown and prompts previously created with GPT 4 are blocked.  
-Exact version is subject to change. (as of May 2024, it uses the GPT 4 0613 version)
+The dropdown menu allows you to select among the generative AI models, which generate the answer to your custom prompt.
 
-**Choice between available models should be based on status, licensing rules and functionalities**
+The default model is a GA (generally available) GPT model. As of May 2024, it's GPT 3.5. Previous prompts created in prompt builder rely on this default model.
+
+The exact version is GPT 3.5 turbo 0613. It switches to GPT 3.5 turbo 0125 model sometime in June, as GPT 3.5 0613 is getting deprecated. GPT 3.5 model is consuming AI Builder credits when used in Power Apps or Power Automate.
+
+The other available model as of May 2024 is GPT 4. As long as it's in preview, it doesn't consume AI Builder credits when used in Power Apps or Power Automate. As a preview model, its use is linked to the AI Builder preview toggle in environment settings. To get there, sign in to [Power Platform Admin Center](https://admin.powerplatform.microsoft.com/environments) and select **Environment** > **Settings** > **Features**.
+
+When preview models are Off, GPT 4 can't be selected in the dropdown menu, and prompts previously created with GPT 4 are blocked. The exact version is subject to change. As of May 2024, it uses the GPT 4 0613 version.
+
+### Choose a model
+
+Choose between the models based on status, licensing rules, and functionalities.
 
 |GPT model  |Status  |Version |Licensing rules   | Functionalities|
 |---------|---------|---------|---------|---------|
-|GPT 3.5| GA - Default model | gpt-3.5-turbo-0613	| Consumes credits in Apps, Flows . See [Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130) and AI Builder [Calculator](https://powerapps.microsoft.com/ai-builder-calculator/) | Trained on data up to Sept 2021. Context allowed up to 16k tokens |
-| GPT 4 | Preview | gpt-4-32k-0613	| Free while in Preview | Trained on data up to Sept 2021. Context allowed up to 32k tokens. Multilingual enhanced proficiency. Better than GPT 3.5 in technical redaction and creativity |
+|GPT 3.5| GA - Default model | gpt-3.5-turbo-0613	| Consumes credits in Power Apps and Power Automate. More information: [Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130) and AI Builder [Calculator](https://powerapps.microsoft.com/ai-builder-calculator/) | Trained on data up to Sept 2021. Context allowed up to 16k tokens |
+| GPT 4 | Preview | gpt-4-32k-0613	| Free while in Preview | Trained on data up to Sept 2021. Context allowed up to 32k tokens. Multilingual enhanced proficiency. Better than GPT 3.5 in technical redaction and creativity. |
 
-#### Use of AI Prompts in context of Copilot Studio
-AI Prompts don't consume AI Builder credits when in the context of Copilot Studio but consume messages when they are built on GA GPT model.
-See [Power Platform licensing guide](https://go.microsoft.com/fwlink/?linkid=2085130) to know more about message consumption.
+### Use of AI prompts in context of Microsoft Copilot Studio
+
+AI prompts don't consume AI Builder credits when in the context of Copilot Studio, but consume messages when they're built on a GA GPT model.
+
+To learn more about message consumption, go to [Power Platform licensing guide](https://go.microsoft.com/fwlink/?linkid=2085130).
 
 ## Temperature
-The slider allows to select the Temperature of the Generative AI model. It varies between 0 and 1, and guides the Generative AI model about how much creativity (1) vs deterministic answer (0) it should provide.
-Temperature is a parameter that controls the randomness of the output generated by the AI model. A lower temperature results in more predictable and conservative outputs, while a higher temperature allows for more creativity and diversity in the responses. It’s a way to fine-tune the balance between randomness and determinism in the model’s output.
-By default - and in previously created prompts - Temperature is 0.
+
+The slider allows you to select the temperature of the generative AI model. It varies between 0 and 1, and guides the generative AI model about how much creativity (1) vs deterministic answer (0) it should provide.
+
+Temperature is a parameter that controls the randomness of the output generated by the AI model. A lower temperature results in more predictable and conservative outputs. To compare, a higher temperature allows for more creativity and diversity in the responses. It’s a way to fine-tune the balance between randomness and determinism in the model’s output.
+
+By default temperature is 0, as in previously created prompts.
 
 |Temperature  |Functionality| Use in|
 |---------|---------|---------|
-|0| more predictable and conservative outputs<br>responses are more consistent| Prompts requiring high accuracy and less variability|
-|1| more creativity and diversity in the responses <br> more varied and sometimes more innovative responses| Prompts creating new out-of-the-box content |
+|0| More predictable and conservative outputs.<br>Responses are more consistent.| Prompts that require high accuracy and less variability.|
+|1| More creativity and diversity in the responses. <br> More varied and sometimes more innovative responses.| Prompts that create new out-of-the-box content |
 
-While adjusting the temperature can influence the model’s output, it doesn’t guarantee a specific result, as the AI’s responses are inherently probabilistic and can vary even with the same temperature setting.
+While adjusting the temperature can influence the model’s output, it doesn’t guarantee a specific result. The AI’s responses are inherently probabilistic and can vary even with the same temperature setting.
 
 

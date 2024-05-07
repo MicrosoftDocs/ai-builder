@@ -7,7 +7,7 @@ contributors:
   - Antoine2F
   - v-aangie
 ms.topic: conceptual
-ms.date: 01/10/2024
+ms.date: 05/07/2024
 ms.author: jelenak
 ms.reviewer: angieandrews
 ---
@@ -38,14 +38,13 @@ First, you need to be entitled to some AI Builder capacity. Entitlement can happ
 
 - Main source of credits is AI Builder credit add-on that you can purchase in the Microsoft 365 admin center:
 
-1. In the admin center, select **Billing** > [Purchase services](https://go.microsoft.com/fwlink/p/?linkid=868433).
+    1. In the admin center, select **Billing** > [Purchase services](https://go.microsoft.com/fwlink/p/?linkid=868433).
     You need to be the billing administrator of your organization (tenant) to access this page.
+    1. On the **Purchase services** page, do the following steps:
 
-1. On the **Purchase services** page, do the following steps:
-
-    1. Search for **AI Builder**.
-    1. Select **Details** of the **AI Builder Capacity add-on** tile
-    1. Follow the purchase process.
+        1. Search for **AI Builder**.
+        1. On the **AI Builder Capacity add-on** tile, select **Details**.
+        1. Follow the purchase process.
 
 ### Number of AI Builder credits by license
 
@@ -99,13 +98,16 @@ To learn more, go to [Tenant settings](/power-platform/admin/tenant-settings).
 To learn more about how to allocate credits in the Power Platform admin center, go to [Allocate or change capacity in an environment](/power-platform/admin/capacity-add-on#allocate-or-change-capacity-in-an-environment).
 
 ## Monitor usage and understand credit consumption
+
+You can gain insights into your AI Builder credit consumption by monitoring usage.
+
 ### Monitor usage
 
 As an administrator, you can view your overall credit consumption in the [Power Platform admin center](https://admin.powerplatform.microsoft.com/) in the **Resources** > **Capacity** > **Summary** tab.  
 
 The **Allocation bar** and the **Consumption bar** display the number of **allocated** credits and **consumed** credits out of the total number of **purchased** credits.
 
-:::image type="content" source="media/credit-management/ppac-consumption.png" alt-text="Screenshot of the overall AI Builder credit consumption in the Power Platform admin center.":::
+:::image type="content" source="media/credit-management/ppac-consumption.png" alt-text="Screenshot of the overall AI Builder credit consumption in Power Platform admin center.":::
 
 Credit extensions aren't counted in *purchased* credits.
 
@@ -119,29 +121,36 @@ Administrators also can access the [AI Builder Activity](activity-monitoring.md)
 
 ### AI Builder credit consumption
 
-The following list presents AI Builder actions consuming credits. It isn't all-inclusive. 
+The following list presents AI Builder actions that consume credits. It isn't all-inclusive.
 
 |AI Builder Studio  |Power Apps  |Power Automate  |
 |---------|---------|---------|
-| Train an object detection model.<br/><br/>Use custom documents, images or text to **try out** prebuilt models when using the tiles in the 'AI Models' section<br/><br/>Batch runs of the prediction and trainable category classification models for each row to be predicted.  | **Run an AI prompt or an AI function** generating Text <br/><br/>**Scan a business card** with the business card reader.<br/><br/>**Analyze** with the document processor.<br/><br/>**Detect** with the object detector.<br/><br/>**+ New image** with the text recognizer.<br/><br/>**Use an action** bound to an AI Builder model through [Power Fx](powerfx-in-powerapps.md).  |Run a flow using any of the actions inside the **AI Builder** category such as Extract information from document or create Text with GPT using a prompt.<br/><br/>Run the generic action **Perform a bound action** of Dataverse on the entity AI Models and action name **Predict**.   |
+| Train an object detection model.<br/><br/>Use custom documents, images or text to *try out* prebuilt models when using the tiles in the **AI models** section<br/><br/>Batch runs of the prediction and trainable category classification models for each row to be predicted.  | *Run an AI prompt or an AI function* generating text <br/><br/>*Scan a business card* with the business card reader.<br/><br/>*Analyze* with the document processor.<br/><br/>*Detect* with the object detector.<br/><br/>**+ New image** with the text recognizer.<br/><br/>*Use an action* bound to an AI Builder model in [Power Fx](powerfx-in-powerapps.md).  |Run a flow using any of the actions inside the **AI Builder** category, such as **Extract information from document**, or **Create text with GPT using a prompt**.<br/><br/>Run the generic action **Perform a bound action** of Dataverse on the entity AI models and action name **Predict**.   |
 
 Each AI Builder model has a different credit consumption mechanism. To perform an assessment, go to the [AI Builder calculator](https://powerapps.microsoft.com/ai-builder-calculator/) site or obtain the full details in the [Power Platform Licensing Guide (pdf)](https://go.microsoft.com/fwlink/?linkid=2085130).
+
 #### Free actions
-Preview scenarios don't consume credits. 
-<br/>
-Performing tests on custom models within AI Builder pages is now free:
- - testing Prompts in Prompt Builder doesn't consume credits
- - a **Quick test** on a trained object detection and document processing model doesn't consume credits
- 
-### AI Prompt licensing
-AI Prompts can be utilized in Power Apps, Power Automate flows, and extended Copilots through the use of Copilot Studio. <br/> 
-In the context of Power Apps and Power Automate flows, AI Prompts consume credits.<br/>
-The number of consumed credits depends on the length of the input and output, as well as the underlying Generative AI model used. 
-The [Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130) (pdf file) and [Calculator](https://powerapps.microsoft.com/ai-builder-calculator/) provide detailed information about each Generative AI model. Please note that changing the Generative AI model may increase the AI Builder credit consumption of your AI Prompt.  
 
-In the context of Copilot, AI Prompts do not consume AI Builder credits. However, triggering them does consume Copilot messages. 
+Preview scenarios don't consume credits.
 
-See [AI Prompt Settings](prompt-modelsettings.md) documentation page
+Performing tests on custom models in AI Builder pages is now free.
+
+- Testing prompts in prompt builder doesn't consume credits.
+- A **Quick test** on a trained object detection and document processing model doesn't consume credits.
+
+### AI prompt licensing
+
+AI prompts can be utilized in Power Apps, Power Automate flows, and extended Copilots by using Microsoft Copilot Studio.
+
+In the context of Power Apps and Power Automate flows, AI prompts consume credits.
+
+The number of consumed credits depends on the length of the input and output, and the underlying generative AI model used.
+
+The [Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130) (pdf file) and [Calculator](https://powerapps.microsoft.com/ai-builder-calculator/) provide detailed information about each Generative AI model. Changing the Generative AI model might increase the AI Builder credit consumption of your AI prompt.  
+
+In the context of Copilot, AI prompts don't consume AI Builder credits. However, triggering them does consume Copilot messages.
+
+To learn more, go to [Model selection and temperature settings](prompt-modelsettings.md).
 
 ## Overage
 
@@ -149,7 +158,7 @@ When browsing AI Builder pages in Power Apps or Power Automate portal, you might
 
 Monthly consumption is computed from first day of the month and is refreshed on a daily basis.
   
-Available credits are the assigned credits if credits have been assigned to the environment, or the unassigned credits if no credit has been assigned to the environment.  
+Available credits are the assigned credits if credits are assigned to the environment, or the unassigned credits if no credit is assigned to the environment.  
 
 ### Simple overage
 
@@ -181,11 +190,11 @@ Selecting **Request extension** in the overage banner in the AI Builder page or 
 - Add 200,000 free extension credits for the current month.
 
 These free temporary credits can't be allocated or assigned and can be used directly by any environment in overage after 10 minutes.
-In some cases, you may still see the overage banners although extension credits have already unblocked your Models.
+In some cases, you might still see the overage banners, although extension credits have already unblocked your models.
 
-Depending on the level of overage, these 200,000 credits may not be enough. They can be requested multiple times, but the number of extension requests per month and per year is limited. Each request grants 200,000 credits and triggers an email. 
+Depending on the level of overage, these 200,000 credits might not be enough. They can be requested multiple times, but the number of extension requests per month and per year is limited. Each request grants 200,000 credits and triggers an email. 
 
-The purpose of these free credit extensions is to allow makers and admin to unblock themselves temporarily in case additional purchase and/or re-allocation can't be done in a timely manner. Customer shouldn't rely on credit extensions to cover repetitive overage. Repetitive overage must be managed with additional purchase and/or re-allocation.
+The purpose of these free credit extensions is to allow makers and admin to unblock themselves temporarily in case additional purchase and/or re-allocation can't be done in a timely manner. Customer shouldn't rely on credit extensions to cover repetitive overage. Repetitive overage must be managed with additional purchase and/or reallocation.
 
 ## Preview features
 
@@ -235,14 +244,14 @@ One (1) add-on + 5 Power Automate premium licenses = 1,025,000 credits, which is
 
 Overall organization (tenant) level credit consumption is available in the [Power Platform admin center](https://admin.powerplatform.microsoft.com/) in the **Resources** > **Capacity** > **Summary** tab. The Consumption bar displays the number of *consumed* credits out of the total of *purchased* credits.
 
-The data is aggregated daily. Some data may be delayed; if so, the consumption bar shows all known consumption at the **Last updated** date in the tooltip box.
+The data is aggregated daily. Some data might be delayed; if so, the consumption bar shows all known consumption at the **Last updated** date in the tooltip box.
 
 Get details on your environment consumption by checking the [AI Builder consumption report](administer-consumption-report.md). It gives the amount of consumption per day per user per environment.
 Adding all the consumptions of the current month of a specific environment gives you the monthly consumption of this environment.
 
 ### How do I find out which model is using the most credits?
 
-Once you've identified which environment consumes the most credits with the [AI Builder consumption report](administer-consumption-report.md), you can leverage the model consumption data in the Dataverse **AI Event** table of that environment either in the Power Apps portal or the [AI Builder Activity](activity-monitoring.md) page in Power Automate.
+Once you identify which environment consumes the most credits with the [AI Builder consumption report](administer-consumption-report.md), you can leverage the model consumption data in the Dataverse **AI Event** table of that environment either in the Power Apps portal or the [AI Builder Activity](activity-monitoring.md) page in Power Automate.
 
 ### How do I know the number of purchased credits of my organization (tenant)?
 
@@ -250,11 +259,11 @@ The [consumption bar and allocation bar](https://go.microsoft.com/fwlink/?linkid
 
 Credits come from AI Builder add-ons and are also seeded in premium licenses like Power Automate Premium.
 
-You can go to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/) and select **Resources** > **Add-ons** > **Assign to an environment** to see the remaining AI Builder credits. It represents the purchased capacity which hasn't been allocated yet.
+You can go to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/) and select **Resources** > **Add-ons** > **Assign to an environment** to see the remaining AI Builder credits. It represents the purchased capacity, which isn't allocated yet.
 
 ### When is credit usage count reset? Is it based on license acquisition date?
 
-Credit usage is counted on a monthly basis, starting the first day of each month. It's not based on the license acquisition date. Credit usage of an environment shouldn't exceed the credit allocation.  
+Credit usage is counted on a monthly basis, starting the first day of each month. It isn't based on the license acquisition date. Credit usage of an environment shouldn't exceed the credit allocation.  
 
 ### What happened to the remaining capacity at the end of the month? Can it be used the following month?
 
@@ -282,7 +291,7 @@ Credit assignment and credit allocation are same concept. In documentation, we m
 
 ### What are the differences between allocated credits and unallocated credits?
 
-When an organization (tenant) has purchased AI Builder capacity, corresponding credits are by default unallocated and available as a pool for the organization (tenant). In this state, credits can be used on any environment without assigned credits, unless admin blocks usage of unallocated credits using the ['AI Builder Credit'](#block-use-of-unallocated-credits) organization (tenant) setting.
+When an organization (tenant) purchases AI Builder capacity, corresponding credits are by default unallocated and available as a pool for the organization (tenant). In this state, credits can be used on any environment without assigned credits, unless admin blocks usage of unallocated credits using the ['AI Builder Credit'](#block-use-of-unallocated-credits) organization (tenant) setting.
 
 The administrator can restrict usage by allocating all credits to specific environments or by blocking the usage of unallocated credits. They can reserve some capacity to an environment by allocating credits to this environment.
 
@@ -296,7 +305,7 @@ To learn how to allocate capacity in [Power Platform admin center](https://admin
 
 No, credits either come from environment allocation or comes from organization (tenant) level unallocated credits but there's no automatic switch from environment credits to organization (tenant) credits.
 
-As soon as environment has allocated credits, credits only come from environment credits.
+As soon as environment allocates credits, credits only come from environment credits.
 If environment consumption is higher than allocated credits, then environment is in overage.
 
 ### How do you consider the 'large margin' to block model runs in important overage?
@@ -309,7 +318,7 @@ For an environment without allocated credits, we apply the ‘large margin’ wh
 
 ### If an environment is in overage, do the limitations apply to all environments?
 
-No. Limitations only apply to the environments in overage. Other environments, whether consuming environment assignment or organization (tenant) level credits won't be affected.
+No. Limitations only apply to the environments in overage. Other environments, whether consuming environment assignment or organization (tenant) level credits aren't affected.
 
 For example, if an environment has no allocated credit, and organization (tenant) level credits aren't all consumed, then editing and running of AI Builder functions is allowed for this environment. This remains true when other environments with assigned credits are in overage.
 
