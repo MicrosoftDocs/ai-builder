@@ -50,7 +50,7 @@ To confirm the newly modified example, click on **Apply**. Then, click on **Test
 
 When you've done all your modifications, make sure to click on **Save custom prompt**, otherwise all changes will be lost.
 
-Note that at prompt save time, you are locking the latest **Auto-detected** format or the **Custom** format defined. It means that when you will use your prompt in Power Automate, Power Apps or Copilot topics, the saved format will be used and won't vary.
+Note that at prompt save time, you are locking the latest **Auto-detected** format or the **Custom** format defined. It means that when you will use your prompt in Power Automate or Power Apps, the saved format will be used and won't vary.
 
 At any time, you can click on the **</>** icon to check the JSON schema that is generated out of the JSON example. This schema is not modifiable for now.
 
@@ -86,8 +86,6 @@ As you can see, this allows you to easily and safely use multiple values extract
 ### In Power Apps
 JSON support in Power Apps will come soon.
 
-### In Copilot topics
-To be redacted.
 
 ## Limitations
 - Using JSON field in Power Apps is not supported for now.
