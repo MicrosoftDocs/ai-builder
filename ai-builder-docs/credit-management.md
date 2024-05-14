@@ -49,13 +49,12 @@ The following table explains the rules for number of credits per license.
 |AI Builder add-on (T1, T2, T3)|1,000,000|None.|
 | Power Apps Premium |500| Maximum = 1,000,000 credits per tenant.|
 | Power Apps per app |250| Maximum = 1,000,000 credits per tenant. Per app licenses purchased before November 2022 don't include any credits.|
-| Power Automate Premium |5,000| Maximum = 1,000,000 credits per tenant.\*|
+| Power Automate Premium |5,000| Maximum = 1,000,000 credits per tenant.|
 | Power Automate Process |5,000| Maximum = 1,000,000 credits per tenant.|
-| Power Automate Hosted RPA add-on |5,000| Maximum = 1,000,000 credits per tenant.\*|
-| Power Automate Unattended RPA add-on |5,000| Maximum = 1,000,000 credits per tenant.\*|
+| Power Automate Hosted RPA add-on |5,000| Maximum = 1,000,000 credits per tenant.|
+| Power Automate Unattended RPA add-on |5,000| Maximum = 1,000,000 credits per tenant.|
 |Dynamics 365 F&O|20,000| Maximum = 20,000 credits per tenant. |
 
-\*This maximum isn't enforced yet.
 
 ### Entitlement through AI Builder trial
 
@@ -315,6 +314,22 @@ For an environment without allocated credits, we apply the ‘large margin’ wh
 No. Limitations only apply to the environments in overage. Other environments, whether consuming environment assignment or organization (tenant) level credits aren't affected.
 
 For example, if an environment has no allocated credit, and organization (tenant) level credits aren't all consumed, then editing and running of AI Builder functions is allowed for this environment. This remains true when other environments with assigned credits are in overage.
+
+### I've created Prompts before the model selection was possible. Which model and temperature were used?
+
+By default, prompts are created with GPT 3.5 and Temperature = 0. Prompts created before the release of model/temperature selection feature, were set with these default values.
+
+### What happens to my Prompt using GPT 4 (preview), if AI Builder preview toggle is switched to off in PPAC?
+
+Your prompt will fail in any context (Testing prompt in Prompt Builder, Power Apps, Power Automate, or Copilot Studio).  
+You can edit your prompt and switch the model to GPT 3.5.
+
+### Are all tests free ?
+
+No. Testing Prompts, and testing trained models is now free.  
+Testing prebuilt models still consume credits, at the same rate as running them in Production.
+
+
 
 ### Do you have FAQ about AI Builder trials?
 
