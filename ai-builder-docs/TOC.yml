@@ -31,6 +31,10 @@
     href: create-a-custom-prompt.md
   - name: Change the output of your prompt
     href: change-prompt-output.md
+  - name: Model selection and temperature settings
+    href: prompt-modelsettings.md
+  - name: Use your own data in a prompt
+    href: use-your-own-prompt-data.md    
   - name: Share your prompt
     href: share-your-prompt.md 
   - name: Use your prompt in Power Apps

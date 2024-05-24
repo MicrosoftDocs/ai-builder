@@ -45,12 +45,13 @@
         "marycc",
         "tinaburden",
         "almostdunh",
-        "AshleyWoodruff"
+        "AshleyWoodruff",
+        "kimberleybrown",
+        "nathlaroche"
       ],
       "breadcrumb_path": "/ai-builder/breadcrumb/toc.json",
       "uhfHeaderId": "MSDocsHeader-PowerPlatform",
-      "feedback_system": "GitHub",
-      "feedback_github_repo": "MicrosoftDocs/ai-builder",
+      "feedback_system": "Standard",
       "feedback_product_url": "https://go.microsoft.com/fwlink/?linkid=2092048",
       "search.app": [
         "PowerApps",
