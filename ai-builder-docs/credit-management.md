@@ -7,7 +7,7 @@ contributors:
   - Antoine2F
   - v-aangie
 ms.topic: conceptual
-ms.date: 05/13/2024
+ms.date: 05/28/2024
 ms.author: antode
 ms.reviewer: angieandrews
 ---
@@ -315,21 +315,17 @@ No. Limitations only apply to the environments in overage. Other environments, w
 
 For example, if an environment has no allocated credit, and organization (tenant) level credits aren't all consumed, then editing and running of AI Builder functions is allowed for this environment. This remains true when other environments with assigned credits are in overage.
 
-### I've created Prompts before the model selection was possible. Which model and temperature were used?
+### I created prompts before the model selection was possible. Which model and temperature were used?
 
-By default, prompts are created with GPT 3.5 and Temperature = 0. Prompts created before the release of model/temperature selection feature, were set with these default values.
+By default, prompts are created with GPT 3.5 and temperature = 0. Prompts created before the release of the model/temperature selection feature were set with these default values.
 
-### What happens to my Prompt using GPT 4 (preview), if AI Builder preview toggle is switched to off in PPAC?
+### What happens to my prompt using GPT 4 (preview), if the AI Builder preview toggle is switched to off in Power Platform admin center?
 
-Your prompt will fail in any context (Testing prompt in Prompt Builder, Power Apps, Power Automate, or Copilot Studio).  
-You can edit your prompt and switch the model to GPT 3.5.
+Your prompt fails in any context (testing prompt in Prompt Builder, Power Apps, Power Automate, or Copilot Studio). You can edit your prompt and switch the model to GPT 3.5.
 
-### Are all tests free ?
+### Are all tests free?
 
-No. Testing Prompts, and testing trained models is now free.  
-Testing prebuilt models still consume credits, at the same rate as running them in Production.
-
-
+No. Testing prompts and testing trained models are now free. Testing prebuilt models still consumes credits at the same rate as running them in production.
 
 ### Do you have FAQ about AI Builder trials?
 
