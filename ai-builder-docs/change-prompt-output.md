@@ -1,95 +1,115 @@
 ---
 title: Change the output of your prompt
-description: Change the output of your prompt.
+description: Learn how to change the output of your prompt.
 author: antrod
 contributors:
   - antrod
+  - -phil-cmd
   - v-aangie
 ms.topic: conceptual
 ms.collection: 
-ms.date: 04/22/2024
+ms.date: 05/31/2024
 ms.author: antrod
 ms.reviewer: angieandrews
 ---
 
 # Change the output of your prompt
 
+By default, the prompt generates text as response. Text can be convenient for many uses cases. However, if the response has several elements that need to be identified individually, the text option can be limited.
+
 ## Benefits of using JSON output
-By default, the prompt will generate a text as response. This can be convenient for many uses cases but if the response has several elements that need to be identified individually, the text option can be limited.
 
-The JSON output allows you to generate a JSON structure for your prompt response instead of a text. This allows an easier processing of responses with multiple elements in Power Automate or Power Apps.
+The JSON output allows you to generate a JSON structure for your prompt response instead of a text. JSON allows an easier processing of responses with multiple elements in Power Automate or Power Apps.
 
-Example of use cases that become possible with JSON output
+Following is an example of use cases that become possible with JSON output:
+
 - Display structured content like project schedule or product information.
-- Extract data from text like invoices, purchase order, delivery forms and many more.
+- Extract data from text like invoices, purchase order, delivery forms, and many more.
 - Identify object attributes from text sources like emails or Dataverse data.
 - Get multiple categories or sentiments from a text.
 
-
 ## Create a prompt with JSON output
-### Selecting JSON as output
-To change how the prompt response will be rendered, go to the **Output section** in the right panel and select **JSON (preview)** option.
 
-Make sure to click on **Test prompt** to check how your prompt response renders in JSON.
+This section describes how to select JSON as output and edit the JSON format.
 
-:::image type="content" source="media/change-prompt-output/test-prompt-auto.png" alt-text="JSON option":::
+### Select JSON as output
+
+To change how the prompt response is rendered, follow these steps:
+
+1. On the panel to the right under the **Prompt settings** heading, select **Output** > **JSON (preview)**.
+1. On the bottom left, select **Test prompt** to check how your prompt response renders in JSON.
+
+    :::image type="content" source="media/change-prompt-output/test-prompt-auto.png" alt-text="Screenshot of the 'Back to auto-detect' icon.":::
 
 ### Edit JSON format
 
-By default the format will be **Auto detected**. That means, each time you test your prompt, the format associated to the prompt will be refreshed with the one detected at testing time. This is convenient when you are iterating on your prompt instructions and want to see how the response format evolves.
+By default, the format is **Auto detected**. This format means each time you test your prompt, the format associated to the prompt is refreshed with the one detected at testing time. This format is convenient when you're iterating on your prompt instructions and want to know how the response format evolves.
 
-:::image type="content" source="media/change-prompt-output/auto-detect.png" alt-text="Auto detect":::
+:::image type="content" source="media/change-prompt-output/auto-detect.png" alt-text="Screenshot of the custom format.":::
 
-If you update the JSON example, the format becomes **Custom** and will never be updated if you test again your prompt. This is convenient when you don't want any prompt tweaking to influence the format or if you need to follow a very specific format. You can revert to auto detect mode by clicking on the **Back to Auto detect** icon.
+If you update the JSON example, the format becomes **Custom** and is never updated if you test your prompt again. This format is convenient when you don't want prompt tweaking to influence the format, or if you need to follow a specific format.
 
-:::image type="content" source="media/change-prompt-output/back-auto.png" alt-text="Back to Auto detect":::
+You can revert to auto detect mode by selecting **Back to auto-detect**.
 
-To confirm the newly modified example, click on **Apply**. Then, click on **Test prompt** to check how your prompt response renders with the new format.
+:::image type="content" source="media/change-prompt-output/back-auto.png" alt-text="Screenshot of the 'Back to auto-detect' icon.":::
 
-:::image type="content" source="media/change-prompt-output/custom.png" alt-text="Custom":::
+To test and save your prompt, follow these steps:
 
-When you've done all your modifications, make sure to click on **Save custom prompt**, otherwise all changes will be lost.
+1. To confirm the newly modified example, select **Apply**.
+1. To check how your prompt response renders with the new format, select **Test prompt**.
+1. When you're done with your modifications, select **Save custom prompt**.
 
-Note that at prompt save time, you are locking the latest **Auto-detected** format or the **Custom** format defined. It means that when you will use your prompt in Power Automate or Power Apps, the saved format will be used and won't vary.
+    If you skip this step, your changes are lost.
 
-At any time, you can click on the **</>** icon to check the JSON schema that is generated out of the JSON example. This schema is not modifiable for now.
+    :::image type="content" source="media/change-prompt-output/custom.png" alt-text="Screenshot of the custom format.":::
 
+When you save your prompt, you're locking the latest **Auto-detected** format or the **Custom** format defined. This means when you use your prompt in Power Automate or Power Apps, the saved format is used and it doesn't vary.
 
-## Use a prompt with JSON output
+At any time, you can check the JSON schema that generates out of the JSON examples by selecting **</>**. You can't modify this schema currently.
 
-### In Power Automate
-After adding the **Create text with GPT action** in a Power Automate flow, you can use all the JSON fields as dynamic values, without the need to add a complex logic to parse the response.
+## Use a prompt with JSON output in Power Automate
 
-In the following example, we'll see how an invoice received by email can be simply processed using the prompt described above.
+After you add the **Created text with GPT** action in a Power Automate flow, you can use all the JSON fields as dynamic values without adding complex logic to parse the response.
 
-1- Create a flow with the trigger **When a new email arrives**. Make sure to set filters if you just need to process specific emails.
+> [!NOTE]
+> JSON support is available only for Power Automate. We're planning JSON support for Power Apps.
 
-2- Extract the text of the attachment(s) using the action **Recognize text in an image or a PDF document**. 
+The following example shows how you can process an invoice received by email using the prompt described in [Create a prompt with JSON output](#create-a-prompt-with-json-output) in this article.
 
-:::image type="content" source="media/change-prompt-output/ocr-json-flow.png" alt-text="Use OCR action":::
+1. Create a flow with the trigger, **When a new email arrives**.
 
-3- As the previous action returns a table of lines within a table of page, it will be more convenient to aggregate all the lines in a unique variable. Intialize a variable and append in this variable the **Text** dynamic value from the **Recognize text in an image or a PDF document** action.
+    To learn more, go to [Get started with triggers](/power-automate/triggers-introduction?tabs=classic-designer).
 
-:::image type="content" source="media/change-prompt-output/ocr-append-json-flow.png" alt-text="Append OCR text":::
+1. If you just need to process specific emails, make sure to set filters.
+1. Extract the text of the attachments with the action, **Recognize text in an image or a PDF document**.
 
-4- Include the **Create text with GPT action**, select your prompt with JSON output, and add the invoice variable you just created in the prompt input.
+    To learn more about how to create and modify a flow in the designer, go to [Understand the cloud flows designer](/power-automate/flows-designer).
 
-:::image type="content" source="media/change-prompt-output/gpt-json-flow.png" alt-text="Use GPT action":::
+1. As the previous action returns a table of lines within a table of the page, it's more convenient to aggregate all the lines in a unique variable.
 
-5- Send an email that contains the elements extracted by the prompt with JSON output.
+    Initialize a variable and append in this variable the **Text** dynamic value from the **Recognize text in an image or a PDF document** action.
 
-:::image type="content" source="media/change-prompt-output/gpt-output-json-flow.png" alt-text="Use JSON fields":::
+    :::image type="content" source="media/change-prompt-output/ocr-append-json-flow.png" alt-text="Append OCR text":::
 
-As you can see, this allows you to easily and safely use multiple values extracted from a text using a prompt.
+1. Complete the flow by doing the following steps:
+    1. In your flow, select **Create text with GPT using a prompt**.
+    1. On the **Parameters** tab in the **Prompt** field, select **prompt with JSON** as the output.
+    1. Add the invoice variable you just created in the prompt input.
 
+## Create an email with JSON output
 
-### In Power Apps
-JSON support in Power Apps will come soon.
+The following procedure allows you to easily and safely use multiple values extracted from a text using a prompt.
 
+1. In your flow, select **Send an email**.
+1. On the **Parameters** tab, send an email that contains the elements extracted by the prompt with JSON output.
+
+    :::image type="content" source="media/change-prompt-output/gpt-output-json-flow.png" alt-text="Append OCR text":::
 
 ## Limitations
-- Using JSON field in Power Apps is not supported for now.
-- Modifying a JSON schema is not possible.
-- JSON format with nested arrays are not supported for now.
-- Defining a JSON format without field keys is not supported. Example: _["abc", "def"]_ is not supported but _[{"item1": "abc", "item 2": "def"}]_ is supported.
+
+- We don't support use of the JSON field in Power Apps currently.
+- You can't modify a JSON schema.
+- We don't support JSON format with nested arrays currently.
+- We don't support defining a JSON format without field keys.<br/>
+    Example: `["abc", "def"]` isn't supported but `[{"item1": "abc", "item 2": "def"}]` is supported.
 
