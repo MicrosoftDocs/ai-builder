@@ -39,19 +39,19 @@ To change how the prompt response is rendered, follow these steps:
 1. On the panel to the right under the **Prompt settings** heading, select **Output** > **JSON (preview)**.
 1. On the bottom left, select **Test prompt** to check how your prompt response renders in JSON.
 
-    :::image type="content" source="media/change-prompt-output/test-prompt-auto.png" alt-text="Screenshot of the 'Back to auto-detect' icon.":::
+    :::image type="content" source="media/change-prompt-output/test-prompt-auto.png" alt-text="Screenshot of selections on the 'Prompt with JSON' page.":::
 
 ### Edit JSON format
 
 By default, the format is **Auto detected**. This format means each time you test your prompt, the format associated to the prompt is refreshed with the one detected at testing time. This format is convenient when you're iterating on your prompt instructions and want to know how the response format evolves.
 
-:::image type="content" source="media/change-prompt-output/auto-detect.png" alt-text="Screenshot of the custom format.":::
+:::image type="content" source="media/change-prompt-output/auto-detect.png" alt-text="Screenshot of the 'Auto-detected format'.":::
 
 If you update the JSON example, the format becomes **Custom** and is never updated if you test your prompt again. This format is convenient when you don't want prompt tweaking to influence the format, or if you need to follow a specific format.
 
 You can revert to auto detect mode by selecting **Back to auto-detect**.
 
-:::image type="content" source="media/change-prompt-output/back-auto.png" alt-text="Screenshot of the 'Back to auto-detect' icon.":::
+:::image type="content" source="media/change-prompt-output/back-auto.png" alt-text="Screenshot of the 'Back to auto-detected' icon.":::
 
 To test and save your prompt, follow these steps:
 
@@ -87,9 +87,9 @@ The following example shows how you can process an invoice received by email usi
 
 1. As the previous action returns a table of lines within a table of the page, it's more convenient to aggregate all the lines in a unique variable.
 
-    Initialize a variable and append in this variable the **Text** dynamic value from the **Recognize text in an image or a PDF document** action.
+    Initialize a variable and append the **Text** dynamic value from the **Recognize text in an image or a PDF document** action in this variable.
 
-    :::image type="content" source="media/change-prompt-output/ocr-append-json-flow.png" alt-text="Append OCR text":::
+    :::image type="content" source="media/change-prompt-output/ocr-append-json-flow.png" alt-text="Screenshot that shows append OCR text.":::
 
 1. Complete the flow by doing the following steps:
     1. In your flow, select **Create text with GPT using a prompt**.
@@ -103,7 +103,7 @@ The following procedure allows you to easily and safely use multiple values extr
 1. In your flow, select **Send an email**.
 1. On the **Parameters** tab, send an email that contains the elements extracted by the prompt with JSON output.
 
-    :::image type="content" source="media/change-prompt-output/gpt-output-json-flow.png" alt-text="Append OCR text":::
+    :::image type="content" source="media/change-prompt-output/gpt-output-json-flow.png" alt-text="Screenshot of the email body with the JSON fields.":::
 
 ## Limitations
 
