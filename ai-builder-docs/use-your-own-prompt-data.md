@@ -60,3 +60,7 @@ The following list describes the limitations of using your own data in a prompt.
     For example, you can use `Account.'Company Name (Contact)'.Name` and `Account.'Preferred User (User)'.'Last Name'` but not `Account.'Company Name (Contact)'.'Connected To (Connection)'.'Connection Name'`.
 
 - The total number of records that can be retrieved is limited to 1,000.
+
+### See also
+
+[Training: Create AI Builder prompts using your own Dataverse data (module)](/training/modules/ai-builder-grounded-prompts/)
