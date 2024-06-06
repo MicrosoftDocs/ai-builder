@@ -13,9 +13,13 @@ ms.author: antrod
 ms.reviewer: angieandrews
 ---
 
-# Change the output of your prompt
+# Change the output of your prompt (preview)
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
 By default, the prompt generates text as response. Text can be convenient for many uses cases. However, if the response has several elements that need to be identified individually, the text option can be limited.
+
+[!INCLUDE [cc_preview_features_definition](./includes/cc-preview-features-definition.md)]
 
 ## Benefits of using JSON output
 
@@ -109,7 +113,6 @@ The following procedure allows you to easily and safely use multiple values extr
 
 - We don't support use of the JSON field in Power Apps currently.
 - You can't modify a JSON schema.
-- We don't support JSON format with nested arrays currently.
 - We don't support defining a JSON format without field keys.<br/>
-    Example: `["abc", "def"]` isn't supported but `[{"item1": "abc", "item 2": "def"}]` is supported.
+    Example: `["abc", "def"]` isn't supported but `[{"Field1": "abc"}, {"Field1": "def"}]` is supported.
 
