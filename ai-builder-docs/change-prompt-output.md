@@ -1,5 +1,5 @@
 ---
-title: Change the output of your prompt
+title: Change the output of your prompt (preview)
 description: Learn how to change the output of your prompt.
 author: antrod
 contributors:
@@ -8,14 +8,18 @@ contributors:
   - v-aangie
 ms.topic: conceptual
 ms.collection: 
-ms.date: 05/31/2024
+ms.date: 06/07/2024
 ms.author: antrod
 ms.reviewer: angieandrews
 ---
 
-# Change the output of your prompt
+# Change the output of your prompt (preview)
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
 By default, the prompt generates text as response. Text can be convenient for many uses cases. However, if the response has several elements that need to be identified individually, the text option can be limited.
+
+[!INCLUDE [cc_preview_features_definition](./includes/cc-preview-features-definition.md)]
 
 ## Benefits of using JSON output
 
@@ -71,9 +75,6 @@ At any time, you can check the JSON schema that generates out of the JSON exampl
 
 After you add the **Created text with GPT** action in a Power Automate flow, you can use all the JSON fields as dynamic values without adding complex logic to parse the response.
 
-> [!NOTE]
-> JSON support is available only for Power Automate. We're planning JSON support for Power Apps.
-
 The following example shows how you can process an invoice received by email using the prompt described in [Create a prompt with JSON output](#create-a-prompt-with-json-output) in this article.
 
 1. Create a flow with the trigger, **When a new email arrives**.
@@ -96,7 +97,6 @@ The following example shows how you can process an invoice received by email usi
     1. On the **Parameters** tab in the **Prompt** field, select **prompt with JSON** as the output.
     1. Add the invoice variable you just created in the prompt input.
 
-## Create an email with JSON output
 
 The following procedure allows you to easily and safely use multiple values extracted from a text using a prompt.
 
@@ -105,11 +105,21 @@ The following procedure allows you to easily and safely use multiple values extr
 
     :::image type="content" source="media/change-prompt-output/gpt-output-json-flow.png" alt-text="Screenshot of the email body with the JSON fields.":::
 
+## Frequently asked questions
+
+### No JSON is returned in auto-detect mode
+
+It's possible that no JSON is returned after selecting **Test prompt** with the auto-detect mode activated. It might be because the prompt instructions contradict with the system instruction of returning a JSON. It could be solved by changing the prompt instruction and test again.
+
+### JSON format isn't updated at prompt runtime
+
+The latest JSON format detected in auto-detect mode or the latest JSON format defined in custom mode is recorded at prompt save time. This recorded JSON format is applied at prompt runtime, ensuring the  consistency of the response format even when dynamic inputs to the prompt are changing.
+
 ## Limitations
 
+- JSON support is available only for Power Automate. We're planning JSON support for Power Apps.
 - We don't support use of the JSON field in Power Apps currently.
 - You can't modify a JSON schema.
-- We don't support JSON format with nested arrays currently.
 - We don't support defining a JSON format without field keys.<br/>
-    Example: `["abc", "def"]` isn't supported but `[{"item1": "abc", "item 2": "def"}]` is supported.
+    Example: `["abc", "def"]` isn't supported but `[{"Field1": "abc"}, {"Field1": "def"}]` is supported.
 
