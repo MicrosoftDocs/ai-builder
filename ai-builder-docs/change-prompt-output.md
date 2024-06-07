@@ -1,5 +1,5 @@
 ---
-title: Change the output of your prompt
+title: Change the output of your prompt (preview)
 description: Learn how to change the output of your prompt.
 author: antrod
 contributors:
@@ -8,7 +8,7 @@ contributors:
   - v-aangie
 ms.topic: conceptual
 ms.collection: 
-ms.date: 05/31/2024
+ms.date: 06/07/2024
 ms.author: antrod
 ms.reviewer: angieandrews
 ---
@@ -105,19 +105,15 @@ The following procedure allows you to easily and safely use multiple values extr
 
     :::image type="content" source="media/change-prompt-output/gpt-output-json-flow.png" alt-text="Screenshot of the email body with the JSON fields.":::
 
-
 ## Frequently asked questions
 
 ### No JSON is returned in auto-detect mode
 
-It is possible that no JSON is returned after clicking on **Test prompt** with the auto-detect mode activated. It may be because the prompt instructions contradict with the system instruction of returning a JSON.
-It could be solved by changing a bit the prompt instruction and test again.
+It's possible that no JSON is returned after selecting **Test prompt** with the auto-detect mode activated. It might be because the prompt instructions contradict with the system instruction of returning a JSON. It could be solved by changing the prompt instruction and test again.
 
+### JSON format isn't updated at prompt runtime
 
-### JSON format is not updated at prompt runtime
-
-The latest JSON format detected (in auto-detect mode) or the latest JSON format defined (in custom mode) will be recorded at prompt save time. This recorded JSON format will be applied at prompt runtime, ensuring the  consistency of the response format even when dynamic inputs to the prompt are changing.
-
+The latest JSON format detected in auto-detect mode or the latest JSON format defined in custom mode is recorded at prompt save time. This recorded JSON format is applied at prompt runtime, ensuring the  consistency of the response format even when dynamic inputs to the prompt are changing.
 
 ## Limitations
 
