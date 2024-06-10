@@ -7,7 +7,7 @@ contributors:
   - Antoine2F
   - v-aangie
 ms.topic: conceptual
-ms.date: 05/28/2024
+ms.date: 06/10/2024
 ms.author: antode
 ms.reviewer: angieandrews
 ---
@@ -55,7 +55,6 @@ The following table explains the rules for number of credits per license.
 | Power Automate Unattended RPA add-on |5,000| Maximum = 1,000,000 credits per tenant.|
 |Dynamics 365 F&O|20,000| Maximum = 20,000 credits per tenant. |
 
-
 ### Entitlement through AI Builder trial
 
 Entitlement can be through a trial. Credits are then linked to a user. Trials are available only when there's no paid capacity within the organization (tenant).
@@ -77,7 +76,7 @@ Allocation happens in the [Power Platform admin center](https://admin.powerplatf
 
 ### Block use of unallocated credits
 
-The administrator can block the use of unallocated credits through an organization (tenant) setting in the [Power Platform admin center](https://admin.powerplatform.microsoft.com/). To do this, remove the check from the **Allow users to consume unassigned credits** checkbox.
+The administrator can block the use of unallocated credits through an organization (tenant) setting in [Power Platform admin center](https://admin.powerplatform.microsoft.com/). To do this, remove the check from the **Allow users to consume unassigned credits** checkbox.
 
 :::image type="content" source="media/credits.png" alt-text="Screenshot of the option to allow users to consume unassigned credits in Power Platform admin center.":::
 
@@ -176,17 +175,20 @@ To help estimate the required add-on capacity based on your estimated consumptio
 
 ### Request credit extension
 
-In the case of simple or important overage, and when additional purchase and/or reallocation of credit can't be done in a timely manner, we allow makers in the AI Builder portal and admins in the [Power Platform admin center](https://admin.powerplatform.microsoft.com/home) to request a free credit extension.
+In the case of simple or important overage, and when an additional purchase and/or reallocation of credit can't be done in a timely manner, makers in AI Builder and admins in the [Power Platform admin center](https://admin.powerplatform.microsoft.com/home) can request a free credit extension.
 
-Selecting **Request extension** in the overage banner in the AI Builder page or [Power Platform admin center](https://admin.powerplatform.microsoft.com/home) performs following actions:
+To perform the following actions, select **Request extension** in the overage banner in AI Builder or [Power Platform admin center](https://admin.powerplatform.microsoft.com/home):
+
 - Send an email to Power Platform admins.
 - Add 200,000 free extension credits for the current month.
 
-These free temporary credits can't be allocated or assigned and can be used directly by any environment in overage after 10 minutes.
-The number of purchased credits in Allocation bar or in the Consumption bar (see [Monitor usage](credit-management.md#monitor-usage)) is not modified with these free temporary credits. These added temporary credits don't appear in [Power Platform admin center](https://admin.powerplatform.microsoft.com/home).
-In some cases, you might still see the overage banners, although extension credits have already unblocked your models.
+These free temporary credits can't be allocated or assigned. Any environment in overage can use them after 10 minutes.
 
-Depending on the level of overage, these 200,000 credits might not be enough. They can be requested multiple times, but the number of extension requests per month and per year is limited. Each request grants 200,000 credits and triggers an email. 
+The number of purchased credits in the Allocation bar or in the Consumption bar isn't modified with these free temporary credits. To learn more, go to [Monitor usage](credit-management.md#monitor-usage). These added temporary credits don't appear in [Power Platform admin center](https://admin.powerplatform.microsoft.com/home).
+
+In some cases, you might still see the overage banners, although extension credits already unblock your models.
+
+Depending on the level of overage, these 200,000 credits might not be enough. They can be requested multiple times, but the number of extension requests per month and per year is limited. Each request grants 200,000 credits and triggers an email.
 
 The purpose of these free credit extensions is to allow makers and admin to unblock themselves temporarily in case additional purchase and/or reallocation can't be done in a timely manner. Customer shouldn't rely on credit extensions to cover repetitive overage. Repetitive overage must be managed with additional purchase and/or reallocation.
 
@@ -259,9 +261,9 @@ You can go to the [Power Platform admin center](https://admin.powerplatform.micr
 
 Credit usage is counted on a monthly basis, starting the first day of each month. It isn't based on the license acquisition date. Credit usage of an environment shouldn't exceed the credit allocation.  
 
-### What happened to the remaining capacity at the end of the month? Can it be used the following month?
+### What happens to the remaining capacity at the end of the month? Is it used the following month?
 
-No, unused capacity isn't carried over to the next month. Credit usage is counted on a monthly basis and reset on first day of the month. Available capacity is based on allocated capacity.
+No, unused capacity doesn't carry over to the next month. Credit usage is counted on a monthly basis and reset on first day of the month. Available capacity is based on allocated capacity.
 
 ### What can I do with the 5,000 AI credits included in the per user plan with attended RPA?
 
