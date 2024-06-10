@@ -183,7 +183,7 @@ Selecting **Request extension** in the overage banner in the AI Builder page or 
 - Add 200,000 free extension credits for the current month.
 
 These free temporary credits can't be allocated or assigned and can be used directly by any environment in overage after 10 minutes.
-Number of purchased credits in Allocation bar or in the Consumption bar (see [Monitor usage](credit-management.md#monitor-usage)) is not modified with these free temporary credits. These added temporary credits don't appear in [Power Platform admin center](https://admin.powerplatform.microsoft.com/home).
+The number of purchased credits in Allocation bar or in the Consumption bar (see [Monitor usage](credit-management.md#monitor-usage)) is not modified with these free temporary credits. These added temporary credits don't appear in [Power Platform admin center](https://admin.powerplatform.microsoft.com/home).
 In some cases, you might still see the overage banners, although extension credits have already unblocked your models.
 
 Depending on the level of overage, these 200,000 credits might not be enough. They can be requested multiple times, but the number of extension requests per month and per year is limited. Each request grants 200,000 credits and triggers an email. 
