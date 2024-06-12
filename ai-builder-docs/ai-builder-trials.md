@@ -119,12 +119,6 @@ Any individual can try out the features of AI Builder for 30 days and incur no c
 
 You can block the use of AI Builder trial by disabling the **Allow unassigned credits** tenant setting in [Power Platform admin center](https://admin.powerplatform.microsoft.com/home). If you disable this setting, the only way to perform AI Builder actions in an environment is if you assign credits to this environment.
 
-### I can't access custom prompts, prebuilt prompts, and Create text with GPT with my trial. What's happening?
-
-Custom prompts, prebuilt prompts, and Create text with GPT can't be used with an AI Builder trial. These features require paid AI Builder credit.
-
-To purchase AI Builder credits, go to [Get entitlement to AI Builder credits](https://go.microsoft.com/fwlink/?linkid=2239020).
-
 ### See also
 
 - [AI Builder licensing and credit management](credit-management.md)
