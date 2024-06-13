@@ -30,7 +30,7 @@ AI Builder provides a prompt building user experience that allows makers to buil
 
 ## Prerequisites
 
-- You have a basic understanding of how to write prompts. To learn more, go to the [AI Builder Prompting Guide](aka.ms/promptguide).
+- You have a basic understanding of how to write prompts. To learn more, download the [AI Builder Prompting Guide](https://aka.ms/promptguide).
 - Your environment is in the list of [available regions](availability-region.md).
 - You have a Power Apps or Power Automate license.
 - A Microsoft Dataverse database is installed on the environment.
