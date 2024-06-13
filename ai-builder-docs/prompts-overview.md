@@ -16,20 +16,20 @@ ms.reviewer: angieandrews
 
 # Overview of prompts
 
-This article explains prompt engineering and other key concepts to help you create powerful applications that can generate text from an input (prompt).
+This article explains prompts and prompt engineering as key concepts to help you create powerful generative AI capabilities that can be leveraged across Power Platform.
 
 A prompt is a natural language instruction that tells a large language model (LLM) to perform a task. The process is also known as *instruction tuning*. The model follows the prompt to determine the structure and content of the text it needs to generate. Prompt engineering is the process of creating and refining the prompt used by the model.
 
-AI Builder provides a prompt builder that allows makers to write, test, save, and use prompts to generate text.
+AI Builder provides a prompt building user experience that allows makers to build, test and save resuable prompts.
 
 > [!IMPORTANT]
-> - AI Builder prompts are running on GPT-3.5 Turbo model powered by [Azure OpenAI Service](/azure/ai-services/openai/whats-new).
+> - AI Builder prompts use GPT-3.5-Turbo or GPT-4 models powered by [Azure OpenAI Service](/azure/ai-services/openai/whats-new). 
 > - This capability is [limited to some regions](availability-region.md#prompts).
 > - This capability might be subject to usage limits or capacity throttling.
 
 ## Prerequisites
 
-- You have a basic understanding of how to write prompts.
+- You have a basic understanding of how to write prompts. Refer to aka.ms/promptguide to learm more.
 - Your environment is in the list of [available regions](availability-region.md).
 - You have a Power Apps or Power Automate license.
 - A Microsoft Dataverse database is installed on the environment.
@@ -37,11 +37,11 @@ AI Builder provides a prompt builder that allows makers to write, test, save, an
 
 ## What a prompt is and how to use it
 
-Think of a prompt as a task or a goal you give to the large language model (LLM). With prompt builder, you can build, test, and save your custom prompts. You can also use input variables to provide dynamic context data at runtime. You can share these prompts with others and use them in Power Automate, Power Apps, or Copilot Studio. For instance, you could make a prompt to pick out action items from your company emails and use it in a Power Automate flow to build an email processing automation.
+Think of a prompt as a task or a goal you give to the large language model (LLM). With prompt builder, you can build, test, and save your custom prompts. You can also use input variables and dataverse data to provide dynamic context data at runtime. You can share these prompts with others and use them in Power Automate, Power Apps, or Copilot Studio. For instance, you could make a prompt to pick out action items from your company emails and use it in a Power Automate flow to build an email processing automation.
 
 Prompt builder enables makers to devise custom prompts that cater to their specific business needs using natural language. These prompts can be employed for many tasks or business scenarios, such as summarizing content, categorizing data, extracting entities, translating languages, assessing sentiment, or formulating a response to a complaint.
 
-Prompts can be integrated into flows to build intelligent hands-off automation. Makers can also build advanced generative AI capabilities for their applications by describing them as natural language prompts. These prompts can be used to extend a custom copilot, thereby streamlining your daily business operations and boosting efficiency."
+Prompts can be integrated into flows to build intelligent hands-off automation. Makers can also build advanced generative AI capabilities for their applications by describing them as natural language prompts. These prompts can also be used to extend a copilot actiona and topics, thereby streamlining your daily business operations and boosting efficiency.
 
 ## Human oversight
 
