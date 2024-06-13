@@ -3,13 +3,14 @@ title: AI Builder trial
 description: Learn about the AI Builder trial.
 author: antoine2F
 contributors:
+  - ashbhati
   - Antoine2F
   - v-aangie
 ms.topic: conceptual
 ms.collection: 
 - get-started
 - bap-ai-copilot
-ms.date: 01/10/2024
+ms.date: 06/13/2024
 ms.author: antode
 ms.reviewer: angieandrews
 ---
@@ -39,7 +40,7 @@ Custom prompts, prebuilt prompts, and Create text with GPT aren't available with
 
 1. Sign in to	[Power Apps](https://make.powerapps.com) or [Power Automate](https://make.powerautomate.com).
 1. On the left pane, select **... More** > **AI hub**.
-1. If there's no database (you get the message, *no database found*), do the following:
+1. If there's no database (you get the message, *no database found*), do the following steps:
     1. Select **Create a database**, and then choose a currency and language.
     1. Select **Create my database**.  
 
@@ -57,9 +58,9 @@ Custom prompts, prebuilt prompts, and Create text with GPT aren't available with
 
 Your AI Builder trial license expires after 30 days.
 
-To continue using AI Builder, purchase AI Builder add-on capacity and allocate AI Builder capacity to your environments. You may also be able to extend the trial period. Trials can be extended a limited number of times. Extension can only occur after the trial expires.
+To continue using AI Builder, purchase AI Builder add-on capacity and allocate AI Builder capacity to your environments. You might also be able to extend the trial period. Trials can be extended a limited number of times. Extension can only occur after the trial expires.
 
-To renew your AI Builder trial license, do the following:
+To renew your AI Builder trial license, do the following steps:
 
 1. Sign in to	[Power Apps](https://make.powerapps.com) or [Power Automate](https://make.powerautomate.com).
 1. On the left pane, select **... More** > **AI hub**.
@@ -92,7 +93,7 @@ For answers to frequently asked questions, go to [AI Builder licensing FAQ](cred
 ### I exceeded my trial capacity. What can I do?
 
 - You can [purchase the AI Builder add-on](credit-management.md#get-entitlement-to-ai-builder-credits) and [allocate capacity](credit-management.md#make-credits-available-for-an-environment-allocated-and-unallocated-credits) to your environment.
-- You can wait for your trial to expire, then extend your trial. This adds new capacity.
+- You can wait for your trial to expire, then extend your trial. This extension adds new capacity.
 - You can share your existing model with another user who still has active trial with capacity.
 
 ### What happens after my trial license expires?
@@ -115,7 +116,7 @@ To learn more, go to [About trial environments](/power-platform/admin/trial-envi
 
 ### Can I block users in my organization from signing up for an AI Builder trial?
 
-Any individual can try out the features of AI Builder for 30 days and incur no costs to your company. This option is available to any user in an organization (tenant) and can't be disabled by an admin. Once your company purchases some AI credits (for example, through capacity add-ons or inclusion in some licenses), trials aren't proposed to users anymore.
+Any individual can try out the features of AI Builder for 30 days and incur no costs to your company. This option is available to any user in an organization (tenant) and an admin can't disable it. Once your company purchases some AI credits (for example, through capacity add-ons or inclusion in some licenses), trials aren't proposed to users anymore.
 
 You can block the use of AI Builder trial by disabling the **Allow unassigned credits** tenant setting in [Power Platform admin center](https://admin.powerplatform.microsoft.com/home). If you disable this setting, the only way to perform AI Builder actions in an environment is if you assign credits to this environment.
 
