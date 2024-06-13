@@ -6,7 +6,7 @@ contributors:
   - Antoine2F
   - v-aangie
 ms.topic: conceptual
-ms.date: 05/13/2024
+ms.date: 06/13/2024
 ms.author: antode
 ms.reviewer: angieandrews
 ---
@@ -14,13 +14,11 @@ ms.reviewer: angieandrews
 # Model selection and temperature settings
 
 When you create a custom prompt in prompt builder, the panel on the right includes a **Settings** section. This section allows you to set these parameters:
+
 - Version of the generative AI model
 - Temperature
 
 This article explores the impact of these parameters.
-
-> [!NOTE]
-> This feature is in the process of rolling out and might not be available in your region yet.
 
 ## Version of generative AI model
 
@@ -28,9 +26,9 @@ The dropdown menu allows you to select among the generative AI models, which gen
 
 The default model is a GA (generally available) GPT model. As of May 2024, it's GPT 3.5. Previous prompts created in prompt builder rely on this default model.
 
-The exact version is GPT 3.5 turbo 0613. It switches to GPT 3.5 turbo 0125 model sometime in June, as GPT 3.5 0613 is getting deprecated. GPT 3.5 model is consuming AI Builder credits when used in Power Apps or Power Automate.
+The exact version is GPT 3.5 turbo 0125. GPT 3.5 model is consuming AI Builder credits when used in Power Apps or Power Automate.
 
-The other available model as of May 2024 is GPT 4. As long as it's in preview, it doesn't consume AI Builder credits when used in Power Apps or Power Automate. As a preview model, its use is linked to the AI Builder preview toggle in environment settings. To get there, sign in to [Power Platform Admin Center](https://admin.powerplatform.microsoft.com/environments) and select **Environment** > **Settings** > **Features**.
+The other available model is GPT 4. As long as it's in preview, it doesn't consume AI Builder credits when used in Power Apps or Power Automate. As a preview model, its use is linked to the AI Builder preview toggle in environment settings. To get there, sign in to [Power Platform admin center](https://admin.powerplatform.microsoft.com/environments) and select **Environment** > **Settings** > **Features**.
 
 When preview models are Off, GPT 4 can't be selected in the dropdown menu, and prompts previously created with GPT 4 are blocked. The exact version is subject to change. As of May 2024, it uses the GPT 4 0613 version.
 
@@ -40,7 +38,7 @@ Choose between the models based on status, licensing rules, and functionalities.
 
 |GPT model  |Status  |Version |Licensing rules   | Functionalities|
 |---------|---------|---------|---------|---------|
-|GPT 3.5| GA - Default model | gpt-3.5-turbo-0613	| Consumes credits in Power Apps and Power Automate. More information: [Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130) and AI Builder [Calculator](https://powerapps.microsoft.com/ai-builder-calculator/) | Trained on data up to Sept 2021. Context allowed up to 16k tokens |
+|GPT 3.5| GA - Default model | gpt-3.5-turbo-0125	| Consumes credits in Power Apps and Power Automate. More information: [Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130) and AI Builder [calculator](https://powerapps.microsoft.com/ai-builder-calculator/) | Trained on data up to Sept 2021. Context allowed up to 16k tokens |
 | GPT 4 | Preview | gpt-4-32k-0613	| Free while in Preview | Trained on data up to Sept 2021. Context allowed up to 32k tokens. Multilingual enhanced proficiency. Better than GPT 3.5 in technical redaction and creativity. |
 
 ### Use of AI prompts in context of Microsoft Copilot Studio
@@ -63,5 +61,4 @@ By default temperature is 0, as in previously created prompts.
 |1| More creativity and diversity in the responses. <br> More varied and sometimes more innovative responses.| Prompts that create new out-of-the-box content |
 
 While adjusting the temperature can influence the model’s output, it doesn’t guarantee a specific result. The AI’s responses are inherently probabilistic and can vary even with the same temperature setting.
-
 
