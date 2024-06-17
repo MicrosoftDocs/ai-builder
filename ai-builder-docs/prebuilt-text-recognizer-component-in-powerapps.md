@@ -69,6 +69,19 @@ Additional design properties are available in the **Advanced** panel.
 
 These [guidelines](/powerapps/maker/canvas-apps/controls/control-button) for the Power Apps button control also apply to the text recognizer component.
 
+### Use the formula bar to retrieve the text value from the selected item in the TextRecognizer control
+
+Here’s a few examples
+
+This expression retrieves the text value of the selected item from the TextRecognizer1
+
+TextRecognizer1.Selected.Text
+
+This expression concatenates the values from the 'Text' property of the 'TextRecognizer1' control with a comma and space separator
+
+Concat(TextRecognizer1.Results,Text,", ")
+
+
 ### See also
 
 - [Text recognition model](prebuilt-text-recognition.md)  
