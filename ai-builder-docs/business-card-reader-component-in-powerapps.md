@@ -75,6 +75,20 @@ Additional design properties are available in the **Advanced** panel.
 
 These [guidelines](/powerapps/maker/canvas-apps/controls/control-button) for the Power Apps button control also apply to the business card reader component.
 
+### Use the formula bar to retrieve the text value from the selected item in the BusinessCardReader control
+
+Here’s a few examples
+
+This expression retrieves the value of the 'FullName' property from the 'BusinessCardReader1' variable.
+
+BusinessCardReader1.FullName
+
+This expression concatenates the CompanyName, FullName, JobTitle, FullAddress, and Email properties of the BusinessCardReader1 variable, separated by a special character represented by the Char(Float(10)) function.
+
+BusinessCardReader1.CompanyName & Char(10) & BusinessCardReader1.FullName & Char(10) & BusinessCardReader1.JobTitle & Char(10) & BusinessCardReader1.FullAddress & Char(10) &
+BusinessCardReader1.Email
+
+
 ### See also
 
 - [Core properties in Power Apps](/powerapps/maker/canvas-apps/controls/properties-core)
