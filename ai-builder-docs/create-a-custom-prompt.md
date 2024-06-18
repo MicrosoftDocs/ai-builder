@@ -71,7 +71,7 @@ Download and print the AI Builder prompt engineering guide (10 pages, 10X13 inch
 
 Prompt builder provides the flexibility to create your own custom prompt by defining input variables that enable incorporating dynamic runtime content within a prompt. It gives you the ability to validate the prompt with **Test your prompt**, ensuring optimal prompt performance and correctness of the response before integration into your business solutions.
 
-1. Sign in to [Power Apps](https://make.powerapps.com), [Power Automate](https://make.powerautomate.com), or [Copilot Studio](https://copilotstudio.microsoft.com).
+1. Sign in to [Power Apps](https://make.powerapps.com), [Power Automate](https://make.powerautomate.com).
 1. On the left pane, select **AI prompts** or **Prompts** > **Create text with GPT using a prompt**.
 
     For Power Apps and Power Automate, you might need to first select **AI hub** on the left pane.
