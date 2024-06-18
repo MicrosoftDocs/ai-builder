@@ -8,20 +8,20 @@ contributors:
   - v-angie
 ms.topic: conceptual
 ms.custom: 
-ms.date: 01/10/2024
+ms.date: 06/18/2024
 ms.author: jofernan
 ms.reviewer: angieandrews
 ---
 
 # Use the business card reader component in a canvas app in Power Apps
 
-Use the AI Builder business card reader component to detect business cards and extract their information. You can take photos directly in the component or load images that you've taken. Data is extracted and identified by using the properties listed below.
+Use the AI Builder business card reader component to detect business cards and extract their information. You can take photos directly in the component or load images that you took. Data is extracted and identified by using the properties listed in the [Key properties](#key-properties) section in this article.
 
-For information about canvas apps, see [What are canvas apps in Power Apps?](/powerapps/maker/canvas-apps/getting-started)
+To learn more about canvas apps, go to [What are canvas apps in Power Apps?](/powerapps/maker/canvas-apps/getting-started)
 
 ## Licensing requirements
 
-AI Builder is licensed as an add-on to your Power Apps or Power Automate licenses. For information about license capacity, pricing, and restrictions, see [AI Builder licensing](./administer-licensing.md).
+AI Builder is licensed as an add-on to your Power Apps or Power Automate licenses. To learn more about license capacity, pricing, and restrictions, go to [AI Builder licensing](./administer-licensing.md).
 
 ## Role requirements
 
@@ -29,7 +29,7 @@ You need the Basic User role to use the business card reader.
 
 ## Key properties
 
-If a business card is detected, the business card reader will extract information that it finds based on the following properties.
+If a business card is detected, the business card reader extracts information that it finds based on the following properties.
 
 |Property |Definition  |
 |---------|---------|
@@ -69,25 +69,26 @@ If a business card is detected, the business card reader will extract informatio
 | **X**| The distance between the left edge of the component and the left edge of its parent container or screen|
 | **Y**| The distance between the top edge of the component and the top edge of the parent container or screen |
 
-Additional design properties are available in the **Advanced** panel.
+More design properties are available in the **Advanced** panel.
 
 ## Accessibility guidelines
 
-These [guidelines](/powerapps/maker/canvas-apps/controls/control-button) for the Power Apps button control also apply to the business card reader component.
+The guidelines in [Button control in Power Apps](/power-apps/maker/canvas-apps/controls/control-button) also apply to the business card reader component.
 
-### Use the formula bar to retrieve the text value from the selected item in the BusinessCardReader control
+### Use the BusinessCardReader control
 
-Here’s a few examples
+Use the formula bar to retrieve the text value from the selected item in the BusinessCardReader control.
+
+Here are some examples:
 
 This expression retrieves the value of the 'FullName' property from the 'BusinessCardReader1' variable.
 
-BusinessCardReader1.FullName
+`BusinessCardReader1.FullName`
 
 This expression concatenates the CompanyName, FullName, JobTitle, FullAddress, and Email properties of the BusinessCardReader1 variable, separated by a special character represented by the Char(Float(10)) function.
 
-BusinessCardReader1.CompanyName & Char(10) & BusinessCardReader1.FullName & Char(10) & BusinessCardReader1.JobTitle & Char(10) & BusinessCardReader1.FullAddress & Char(10) &
-BusinessCardReader1.Email
-
+`BusinessCardReader1.CompanyName & Char(10) & BusinessCardReader1.FullName & Char(10) & BusinessCardReader1.JobTitle & Char(10) & BusinessCardReader1.FullAddress & Char(10) &
+BusinessCardReader1.Email`
 
 ### See also
 
