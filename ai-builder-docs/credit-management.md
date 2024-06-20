@@ -70,7 +70,7 @@ To learn more, go to [AI Builder trial](ai-builder-trials.md).
 
 By default, the credits are unallocated (also known as unassigned) and available as a pool on the organization (tenant), which can be used on any environment.
 
-As an administrator, you assess which environments must consume AI Builder credits. Use the [AI Builder calculator](https://powerapps.microsoft.com/ai-builder-calculator/) site to estimate how many predictions happen in a monthly period on each one and assess the credits to allocate.
+As an administrator, you assess which environments must consume AI Builder credits. Use the AI Builder rate card in [Microsoft Power Platform licensing guide](https://go.microsoft.com/fwlink/?linkid=2085130) (pdf) to estimate your credit's usage in a monthly period on each environment and assess the credits to allocate.
 
 Allocation happens in the [Power Platform admin center](https://admin.powerplatform.microsoft.com/) when you select **Resources** > **Capacity** > **Summary** tab, and then select **Assign to an environment** in the upper-left menu.
 
