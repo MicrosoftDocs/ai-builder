@@ -18,8 +18,8 @@ ms.reviewer: angieandrews
 
 AI Builder is licensed as a capacity add-on that must be allocated to a Microsoft Power Platform environment by an administrator. Each AI builder capability consumes credits at a different rate.
 
-- The [AI Builder calculator](https://flow.microsoft.com/ai-builder-calculator/) allows you to perform an assessment of what you need for your business.
-- The [AI Builder licensing page](administer-licensing.md) gives you more details on how AI Builder capacity works.
+- The [Microsoft Power Platform licensing guide](https://go.microsoft.com/fwlink/?linkid=2085130) (pdf) contains the precise rate card to understand the cost in AI Builder credits of each capability.
+- The [AI Builder licensing page](administer-licensing.md) gives you additional details on how AI Builder capacity works.
 
 In addition, administrators (org (tenant), Power Platform, and Dynamics 365 administrators) can download an Excel report that shows the actual capacity consumption in your tenant. The consumption report shows the capacity used in the 30 days preceding the selected target date for each environment. This makes it easier to compare your allocated capacity with the actual capacity consumption of your organization so you can fine-tune your capacity allocation.
 
@@ -70,7 +70,7 @@ You can compare the aggregated consumption for the current calendar month on eac
 
 ### See also
 
-- [Microsoft Power Apps and Power Automate Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=2085130)<br/>
+- [Microsoft Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=2085130)<br/>
 - [AI Builder licensing FAQ](/power-platform/admin/powerapps-flow-licensing-faq#ai-builder)
 - [Monitor model activity (preview)](activity-monitoring.md)
 
