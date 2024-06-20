@@ -76,12 +76,14 @@ Here’s a few examples
 
 This expression concatenates the values in the 'DetectedText' column of the 'ReceiptProcessor1' table, separated by a comma and a space.
 
-Concat(ReceiptProcessor1.DetectedText,Value,", ")
+`Concat(ReceiptProcessor1.DetectedText,Value,", ")`
 
 This expression retrieves the 'PurchasedItems' property from the 'ReceiptProcessor1' variable.
 
 Select +Insert , select Data table (preview)
-On the left pane Select DataTable1, enter in the formula bar ReceiptProcessor1.PurchasedItems
+
+On the left pane Select DataTable1, enter in the formula bar `ReceiptProcessor1.PurchasedItems`
+
 Select Fields, select + Add field, select Name, Price, Quantity, TotalPrice, select Add
 
 
