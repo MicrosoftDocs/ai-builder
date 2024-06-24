@@ -78,11 +78,15 @@ Here are some examples.
 
 This expression retrieves the text value of the selected item from the TextRecognizer1.
 
-`TextRecognizer1.Selected.Text`
+```power-fx
+TextRecognizer1.Selected.Text
+```
 
-This expression concatenates the values from the 'Text' property of the 'TextRecognizer1' control with a comma and space separator
+This expression concatenates the values from the 'Text' property of the 'TextRecognizer1' control with a comma and space separator.
 
-`Concat(TextRecognizer1.Results,Text,", ")`
+```power-fx
+Concat(TextRecognizer1.Results,Text,", ")
+```
 
 ### See also
 

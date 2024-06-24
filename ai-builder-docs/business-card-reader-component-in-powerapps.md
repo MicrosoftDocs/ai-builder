@@ -84,6 +84,7 @@ This expression concatenates the values in the 'DetectedText' column of the 'Rec
 ```power-fx
 Concat(ReceiptProcessor1.DetectedText,Value,", ")
 ```
+
 1. Select **+Insert** > **Data table (preview)**.
 1. On the left pane, select **DataTable1**.
 1. In the formula bar, enter the following:
@@ -91,6 +92,7 @@ Concat(ReceiptProcessor1.DetectedText,Value,", ")
     ```power-fx
     ReceiptProcessor1.PurchasedItems
     ```
+
 1. Select **Fields** > **+ Add field**.
 1. Select **Name**, **Price**, **Quantity**, and **TotalPrice**.
 1. Select **Add**.
