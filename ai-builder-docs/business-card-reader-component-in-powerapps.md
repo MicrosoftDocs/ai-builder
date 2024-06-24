@@ -75,20 +75,22 @@ More design properties are available in the **Advanced** panel.
 
 The guidelines in [Button control in Power Apps](/power-apps/maker/canvas-apps/controls/control-button) also apply to the business card reader component.
 
-### Use the BusinessCardReader control
+### Use the formula bar to retrieve the text value from the selected item in the BusinessCardReader control
 
-Use the formula bar to retrieve the text value from the selected item in the BusinessCardReader control.
+Here’s some examples.
 
-Here are some examples:
+This expression concatenates the values in the 'DetectedText' column of the 'ReceiptProcessor1' table, separated by a comma and a space.
 
-This expression retrieves the value of the 'FullName' property from the 'BusinessCardReader1' variable.
+`Concat(ReceiptProcessor1.DetectedText,Value,", ")`
 
-`BusinessCardReader1.FullName`
+This expression retrieves the 'PurchasedItems' property from the 'ReceiptProcessor1' variable.
 
-This expression concatenates the CompanyName, FullName, JobTitle, FullAddress, and Email properties of the BusinessCardReader1 variable, separated by a special character represented by the Char(Float(10)) function.
-
-`BusinessCardReader1.CompanyName & Char(10) & BusinessCardReader1.FullName & Char(10) & BusinessCardReader1.JobTitle & Char(10) & BusinessCardReader1.FullAddress & Char(10) &
-BusinessCardReader1.Email`
+1. Select **+Insert** > **Data table (preview)**.
+1. On the left pane, select **DataTable1**.
+1. Enter `ReceiptProcessor1.PurchasedItems` in the formula bar.
+1. Select **Fields,** > **+ Add field**.
+1. Select **Name**, **Price**, **Quantity**, and **TotalPrice**.
+1. Select **Add**.
 
 ### See also
 
