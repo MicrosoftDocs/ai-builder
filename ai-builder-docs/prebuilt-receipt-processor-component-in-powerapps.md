@@ -8,7 +8,7 @@ contributors:
 ms.topic: conceptual
 ms.custom: 
 ms.date: 06/24/2024
-ms.author: Phil-cmd
+ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
@@ -23,6 +23,7 @@ For more information about canvas apps, see [What are canvas apps in Power Apps?
 > - [!INCLUDE[cc_preview_features_definition](includes/cc-preview-features-definition.md)]
 
 ## Requirements
+
 The receipt processor component works best with sales receipts, those commonly used by restaurants, gas stations, and retailers, and others. Both print and handwritten text can be detected.
 
 Only English receipts from the United States are currently supported.
@@ -36,6 +37,7 @@ In order to get the best results, provide one clear photo or scan per receipt.
 - For PDF documents, only the first 200 pages are processed.
 
 ## Receipt properties
+
 |Property|Definition|
 |---------|---------|
 |**MerchantName**|Merchant name|
@@ -53,6 +55,7 @@ In order to get the best results, provide one clear photo or scan per receipt.
 > Receipt values are returned as strings. To manipulate them as numbers, you can use the [Value](/powerapps/maker/canvas-apps/functions/function-value) function. To manipulate them as dates or times, you can use the [DateValue](/powerapps/maker/canvas-apps/functions/function-datevalue-timevalue) and [TimeValue](/powerapps/maker/canvas-apps/functions/function-datevalue-timevalue) functions. You can also specify the language of the text with a language tag, such as "en-US".
 
 ## Additional properties
+
 |Property|Definition|
 |---------|---------|
 |**DetectedFields**|Additional information for each of the [receipt properties](#receipt-properties) <ul><li>**BoundingBox**: The coordinates of the field</li><li>**Confidence**: How confident the model is in the detection of the field</li><li>**PageNumber**: Which page the field is found on</li><li>**Value**: The value of the field</li></ul>|

@@ -9,7 +9,7 @@ contributors:
 ms.topic: conceptual
 ms.custom: 
 ms.date: 06/24/2024
-ms.author: Phil-cmd
+ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
@@ -81,13 +81,16 @@ Here are some examples.
 
 This expression concatenates the values in the 'DetectedText' column of the 'ReceiptProcessor1' table, separated by a comma and a space.
 
-`Concat(ReceiptProcessor1.DetectedText,Value,", ")`
-
-This expression retrieves the 'PurchasedItems' property from the 'ReceiptProcessor1' variable.
-
+```power-fx
+Concat(ReceiptProcessor1.DetectedText,Value,", ")
+```
 1. Select **+Insert** > **Data table (preview)**.
 1. On the left pane, select **DataTable1**.
-1. In the formula bar, enter `ReceiptProcessor1.PurchasedItems`.
+1. In the formula bar, enter the following:
+
+    ```power-fx
+    ReceiptProcessor1.PurchasedItems
+    ```
 1. Select **Fields** > **+ Add field**.
 1. Select **Name**, **Price**, **Quantity**, and **TotalPrice**.
 1. Select **Add**.
