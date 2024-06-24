@@ -1,11 +1,14 @@
 ---
-title: Use the text recognizer component in Power Apps - AI Builder | Microsoft Docs
+title: Use the text recognizer component in Power Apps - AI Builder
 description: Learn how to use the text recognizer component in Power Apps.
-author: v-aangie
+author: Phil-cmd
+contributors:
+  - Phil-cmd
+  - v-aandrews
 ms.topic: conceptual
 ms.custom: 
-ms.date: 01/10/2024
-ms.author: angieandrews
+ms.date: 06/24/2024
+ms.author: Phil-cmd
 ms.reviewer: angieandrews
 ---
 
@@ -69,18 +72,17 @@ Additional design properties are available in the **Advanced** panel.
 
 These [guidelines](/powerapps/maker/canvas-apps/controls/control-button) for the Power Apps button control also apply to the text recognizer component.
 
-### Use the formula bar to retrieve the text value from the selected item in the TextRecognizer control
+## Use the formula bar to retrieve the text value from the selected item in the TextRecognizer control
 
-Here’s a few examples
+Here are some examples.
 
-This expression retrieves the text value of the selected item from the TextRecognizer1
+This expression retrieves the text value of the selected item from the TextRecognizer1.
 
 `TextRecognizer1.Selected.Text`
 
 This expression concatenates the values from the 'Text' property of the 'TextRecognizer1' control with a comma and space separator
 
 `Concat(TextRecognizer1.Results,Text,", ")`
-
 
 ### See also
 

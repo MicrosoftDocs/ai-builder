@@ -1,11 +1,14 @@
 ---
-title: Use the receipt processor component in Power Apps - AI Builder | Microsoft Docs
-description: Learn how to use the receipt processor component in Power Apps
-author: v-aangie
+title: Use the receipt processor component in Power Apps - AI Builder
+description: Learn how to use the receipt processor component in Power Apps.
+author: Phil-cmd
+contributors:
+  - Phil-cmd
+  - v-aandrews
 ms.topic: conceptual
 ms.custom: 
-ms.date: 01/10/2024
-ms.author: angieandrews
+ms.date: 06/24/2024
+ms.author: Phil-cmd
 ms.reviewer: angieandrews
 ---
 
@@ -68,25 +71,12 @@ In order to get the best results, provide one clear photo or scan per receipt.
 Additional design properties are available in the **Advanced** panel.
 
 ## Accessibility guidelines
+
 These [guidelines](/powerapps/maker/canvas-apps/controls/control-button) for the Power Apps button control also apply to the text recognizer component.
 
-### Use the formula bar to retrieve the text value from the selected item in the ReceiptProcessor control
+## Use the formula bar to retrieve the text value from the selected item in the ReceiptProcessor control
 
-Here’s a few examples
-
-This expression concatenates the values in the 'DetectedText' column of the 'ReceiptProcessor1' table, separated by a comma and a space.
-
-`Concat(ReceiptProcessor1.DetectedText,Value,", ")`
-
-This expression retrieves the 'PurchasedItems' property from the 'ReceiptProcessor1' variable.
-
-Select +Insert , select Data table (preview)
-
-On the left pane Select DataTable1, enter in the formula bar `ReceiptProcessor1.PurchasedItems`
-
-Select Fields, select + Add field, select Name, Price, Quantity, TotalPrice, select Add
-
-
+For some examples, go to [Use the business card reader component in a canvas app in Power Apps](/ai-builder/business-card-reader-component-in-powerapps#use-the-formula-bar-to-retrieve-the-text-value-from-the-selected-item-in-the-businesscardreader-control).
 
 ### See also
 

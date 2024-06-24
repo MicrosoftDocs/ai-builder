@@ -3,13 +3,13 @@ title: Use the business card reader component in canvas apps in Power Apps - AI 
 description: Learn about the properties and information extracted by the business card reader component in a canvas app.
 author: joefernandezms
 contributors:
+  - Phil-cmd
   - joefernandezms
-  - phil-cmd
   - v-angie
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/18/2024
-ms.author: jofernan
+ms.date: 06/24/2024
+ms.author: Phil-cmd
 ms.reviewer: angieandrews
 ---
 
@@ -75,9 +75,9 @@ More design properties are available in the **Advanced** panel.
 
 The guidelines in [Button control in Power Apps](/power-apps/maker/canvas-apps/controls/control-button) also apply to the business card reader component.
 
-### Use the formula bar to retrieve the text value from the selected item in the BusinessCardReader control
+## Use the formula bar to retrieve the text value from the selected item in the BusinessCardReader control
 
-Here’s some examples.
+Here are some examples.
 
 This expression concatenates the values in the 'DetectedText' column of the 'ReceiptProcessor1' table, separated by a comma and a space.
 
@@ -87,8 +87,8 @@ This expression retrieves the 'PurchasedItems' property from the 'ReceiptProcess
 
 1. Select **+Insert** > **Data table (preview)**.
 1. On the left pane, select **DataTable1**.
-1. Enter `ReceiptProcessor1.PurchasedItems` in the formula bar.
-1. Select **Fields,** > **+ Add field**.
+1. In the formula bar, enter `ReceiptProcessor1.PurchasedItems`.
+1. Select **Fields** > **+ Add field**.
 1. Select **Name**, **Price**, **Quantity**, and **TotalPrice**.
 1. Select **Add**.
 
