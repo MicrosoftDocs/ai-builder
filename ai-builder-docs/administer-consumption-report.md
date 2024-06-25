@@ -3,14 +3,15 @@ title: AI Builder consumption report - AI Builder
 description: Learn about the consumption report, which shows how your AI credits are being used in the Microsoft Power Platform admin center.
 author: CedrickBellarosa
 contributors:
+  - Antoine2F
   - jkom1
   - CedrickBellarosa
   - phil-cmd
   - v-aangie
 ms.topic: conceptual
 ms.custom: bap-template
-ms.date: 01/10/2024
-ms.author: jelenak
+ms.date: 06/25/2024
+ms.author: antode
 ms.reviewer: angieandrews
 ---
 
@@ -18,7 +19,7 @@ ms.reviewer: angieandrews
 
 AI Builder is licensed as a capacity add-on that must be allocated to a Microsoft Power Platform environment by an administrator. Each AI builder capability consumes credits at a different rate.
 
-- The [Microsoft Power Platform licensing guide](https://go.microsoft.com/fwlink/?linkid=2085130) (pdf) contains the precise rate card to understand the cost in AI Builder credits of each capability.
+- The [Microsoft Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130) (pdf) contains the precise rate card to understand the cost in AI Builder credits of each capability.
 - The [AI Builder licensing page](administer-licensing.md) gives you additional details on how AI Builder capacity works.
 
 In addition, administrators (org (tenant), Power Platform, and Dynamics 365 administrators) can download an Excel report that shows the actual capacity consumption in your tenant. The consumption report shows the capacity used in the 30 days preceding the selected target date for each environment. This makes it easier to compare your allocated capacity with the actual capacity consumption of your organization so you can fine-tune your capacity allocation.
@@ -64,9 +65,9 @@ The report shows AI credits consumed by date for each environment.
 - **EnvironmentId**: The identifier visible in your Power Apps or Power Automate URL (for example, https://make.powerapps.com/environments/%GUID%).
 - **EnvironmentName**: The name of the environment.
 - **AIConsumption**: Contains the number of credits consumed by the user and in the environment for a given date.
-- **IsTrial**: If the value is **TRUE**, credits that have been consumed are AI Builder trial credits. **More information**: [Ai Builder trial](ai-builder-trials.md)
+- **IsTrial**: If the value is **TRUE**, credits that were consumed are AI Builder trial credits. **More information**: [Ai Builder trial](ai-builder-trials.md)
 
-You can compare the aggregated consumption for the current calendar month on each environment with what has been allocated. Using this information, you can take action to allocate more credits to environments that are in overage. Remember, the number of allocated credits by environment is visible and can be changed in the Power Platform admin center [Add-ons](https://admin.powerplatform.microsoft.com/resources/capacity#add-ons) page.
+You can compare the aggregated consumption for the current calendar month on each environment with what's allocated. Using this information, you can take action to allocate more credits to environments that are in overage. Remember, the number of allocated credits by environment is visible and can be changed in the Power Platform admin center [Add-ons](https://admin.powerplatform.microsoft.com/resources/capacity#add-ons) page.
 
 ### See also
 

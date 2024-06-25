@@ -3,11 +3,12 @@ title: AI Builder licensing and credit management
 description: Learn about licensing and credit management in AI Builder.
 author: Antoine2F
 contributors:
+  - Antoine2F
   - jkom1
   - Antoine2F
   - v-aangie
 ms.topic: conceptual
-ms.date: 06/10/2024
+ms.date: 06/25/2024
 ms.author: antode
 ms.reviewer: angieandrews
 ---
@@ -22,7 +23,7 @@ Some AI Builder actions consume credits. To learn more, go to [AI Builder credit
 
 In an environment, when consumption exceeds available credits, the environment is in overage and some features are progressively blocked. Purchase of new credits and/or reassignment needs to happen. To learn more, go to [Overage](#overage) in this article.
 
-AI Builder credits can also come from AI Builder trial. In that case, they're linked to the user and don't need to be allocated. To learn more, go to [AI Builder trial](ai-builder-trials.md).
+AI Builder credits can also come from AI Builder trial. In that case, they link to the user and don't need to be allocated. To learn more, go to [AI Builder trial](ai-builder-trials.md).
 
 ## Get entitlement to AI Builder credits
 
@@ -70,7 +71,7 @@ To learn more, go to [AI Builder trial](ai-builder-trials.md).
 
 By default, the credits are unallocated (also known as unassigned) and available as a pool on the organization (tenant), which can be used on any environment.
 
-As an administrator, you assess which environments must consume AI Builder credits. Use the AI Builder rate card in [Microsoft Power Platform licensing guide](https://go.microsoft.com/fwlink/?linkid=2085130) (pdf) to estimate your credit's usage in a monthly period on each environment and assess the credits to allocate.
+As an administrator, you assess which environments must consume AI Builder credits. To estimate your credit's usage in a monthly period on each environment and assess the credits to allocate, use the AI Builder rate card in [Microsoft Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130) (pdf).
 
 Allocation happens in the [Power Platform admin center](https://admin.powerplatform.microsoft.com/) when you select **Resources** > **Capacity** > **Summary** tab, and then select **Assign to an environment** in the upper-left menu.
 
