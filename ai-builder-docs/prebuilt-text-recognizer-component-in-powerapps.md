@@ -7,7 +7,7 @@ contributors:
   - v-aandrews
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/24/2024
+ms.date: 06/25/2024
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---
@@ -76,7 +76,7 @@ These [guidelines](/powerapps/maker/canvas-apps/controls/control-button) for the
 
 Here are some examples.
 
-This expression retrieves the text value of the selected item from the TextRecognizer1.
+This expression retrieves the text value of the selected item from the `TextRecognizer1`.
 
 ```power-fx
 TextRecognizer1.Selected.Text

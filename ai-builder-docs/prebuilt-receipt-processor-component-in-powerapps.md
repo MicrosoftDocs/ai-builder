@@ -7,7 +7,7 @@ contributors:
   - v-aandrews
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/24/2024
+ms.date: 06/25/2024
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---
@@ -79,7 +79,26 @@ These [guidelines](/powerapps/maker/canvas-apps/controls/control-button) for the
 
 ## Use the formula bar to retrieve the text value from the selected item in the ReceiptProcessor control
 
-For some examples, go to [Use the business card reader component in a canvas app in Power Apps](/ai-builder/business-card-reader-component-in-powerapps#use-the-formula-bar-to-retrieve-the-text-value-from-the-selected-item-in-the-businesscardreader-control).
+Here are some examples.
+
+This expression concatenates the values in the 'DetectedText' column of the 'ReceiptProcessor1' table, separated by a comma and a space.
+
+```power-fx
+Concat(ReceiptProcessor1.DetectedText,Value,", ")
+```
+
+This expression retrieves the `PurchasedItems` property from the `ReceiptProcessor1` variable.
+
+1. Select **+ Insert** > **Data table (preview)**.
+1. On the left pane, select **DataTable1**, and then enter the following in the formula bar:
+
+    ```power-fx
+    ReceiptProcessor1.PurchasedItems
+    ```
+
+1. Select **Fields** > **+ Add field**.
+1. Select **Name** > **Price** > **Quantity** > **TotalPrice**.
+1. Select **Add**.
 
 ### See also
 

@@ -8,7 +8,7 @@ contributors:
   - v-angie
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/24/2024
+ms.date: 06/25/2024
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---
@@ -79,23 +79,18 @@ The guidelines in [Button control in Power Apps](/power-apps/maker/canvas-apps/c
 
 Here are some examples.
 
-This expression concatenates the values in the 'DetectedText' column of the 'ReceiptProcessor1' table, separated by a comma and a space.
+This expression retrieves the value of the `FullName` property from the `BusinessCardReader1` variable.
 
 ```power-fx
-Concat(ReceiptProcessor1.DetectedText,Value,", ")
+BusinessCardReader1.FullName
 ```
 
-1. Select **+Insert** > **Data table (preview)**.
-1. On the left pane, select **DataTable1**.
-1. In the formula bar, enter the following:
+This expression concatenates the `CompanyName`, `FullName`, `JobTitle`, `FullAddress`, and `Email` properties of the `BusinessCardReader1` variable, separated by a special character represented by the `Char(Float(10))` function.
 
-    ```power-fx
-    ReceiptProcessor1.PurchasedItems
-    ```
-
-1. Select **Fields** > **+ Add field**.
-1. Select **Name**, **Price**, **Quantity**, and **TotalPrice**.
-1. Select **Add**.
+```power-fx
+BusinessCardReader1.CompanyName & Char(10) & BusinessCardReader1.FullName & Char(10) & BusinessCardReader1.JobTitle & Char(10) & BusinessCardReader1.FullAddress & Char(10) &
+BusinessCardReader1.Email
+```
 
 ### See also
 
