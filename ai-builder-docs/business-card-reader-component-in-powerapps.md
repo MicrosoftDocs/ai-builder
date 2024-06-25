@@ -3,13 +3,13 @@ title: Use the business card reader component in canvas apps in Power Apps - AI 
 description: Learn about the properties and information extracted by the business card reader component in a canvas app.
 author: joefernandezms
 contributors:
+  - Phil-cmd
   - joefernandezms
-  - phil-cmd
   - v-angie
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/18/2024
-ms.author: jofernan
+ms.date: 06/25/2024
+ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
@@ -75,20 +75,22 @@ More design properties are available in the **Advanced** panel.
 
 The guidelines in [Button control in Power Apps](/power-apps/maker/canvas-apps/controls/control-button) also apply to the business card reader component.
 
-### Use the BusinessCardReader control
+## Use the formula bar to retrieve the text value from the selected item in the BusinessCardReader control
 
-Use the formula bar to retrieve the text value from the selected item in the BusinessCardReader control.
+Here are some examples.
 
-Here are some examples:
+This expression retrieves the value of the `FullName` property from the `BusinessCardReader1` variable.
 
-This expression retrieves the value of the 'FullName' property from the 'BusinessCardReader1' variable.
+```power-fx
+BusinessCardReader1.FullName
+```
 
-`BusinessCardReader1.FullName`
+This expression concatenates the `CompanyName`, `FullName`, `JobTitle`, `FullAddress`, and `Email` properties of the `BusinessCardReader1` variable, separated by a special character represented by the `Char(Float(10))` function.
 
-This expression concatenates the CompanyName, FullName, JobTitle, FullAddress, and Email properties of the BusinessCardReader1 variable, separated by a special character represented by the Char(Float(10)) function.
-
-`BusinessCardReader1.CompanyName & Char(10) & BusinessCardReader1.FullName & Char(10) & BusinessCardReader1.JobTitle & Char(10) & BusinessCardReader1.FullAddress & Char(10) &
-BusinessCardReader1.Email`
+```power-fx
+BusinessCardReader1.CompanyName & Char(10) & BusinessCardReader1.FullName & Char(10) & BusinessCardReader1.JobTitle & Char(10) & BusinessCardReader1.FullAddress & Char(10) &
+BusinessCardReader1.Email
+```
 
 ### See also
 
