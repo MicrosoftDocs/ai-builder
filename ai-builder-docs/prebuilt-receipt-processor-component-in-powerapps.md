@@ -20,7 +20,7 @@ The AI Builder receipt processor component scans and extracts information from r
 
 For more information about canvas apps, see [What are canvas apps in Power Apps?](/powerapps/maker/canvas-apps/getting-started)
 
-> - [!INCLUDE[cc_preview_features_definition](includes/cc-preview-features-definition.md)]
+[!INCLUDE[cc_preview_features_definition](includes/cc-preview-features-definition.md)]
 
 ## Requirements
 
