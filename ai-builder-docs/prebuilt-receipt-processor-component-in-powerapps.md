@@ -1,11 +1,14 @@
 ---
-title: Use the receipt processor component in Power Apps - AI Builder | Microsoft Docs
-description: Learn how to use the receipt processor component in Power Apps
-author: v-aangie
+title: Use the receipt processor component in Power Apps - AI Builder
+description: Learn how to use the receipt processor component in Power Apps.
+author: Phil-cmd
+contributors:
+  - Phil-cmd
+  - v-aandrews
 ms.topic: conceptual
 ms.custom: 
-ms.date: 01/10/2024
-ms.author: angieandrews
+ms.date: 06/25/2024
+ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
@@ -20,6 +23,7 @@ For more information about canvas apps, see [What are canvas apps in Power Apps?
 [!INCLUDE[cc_preview_features_definition](includes/cc-preview-features-definition.md)]
 
 ## Requirements
+
 The receipt processor component works best with sales receipts, those commonly used by restaurants, gas stations, and retailers, and others. Both print and handwritten text can be detected.
 
 Only English receipts from the United States are currently supported.
@@ -33,6 +37,7 @@ In order to get the best results, provide one clear photo or scan per receipt.
 - For PDF documents, only the first 200 pages are processed.
 
 ## Receipt properties
+
 |Property|Definition|
 |---------|---------|
 |**MerchantName**|Merchant name|
@@ -50,6 +55,7 @@ In order to get the best results, provide one clear photo or scan per receipt.
 > Receipt values are returned as strings. To manipulate them as numbers, you can use the [Value](/powerapps/maker/canvas-apps/functions/function-value) function. To manipulate them as dates or times, you can use the [DateValue](/powerapps/maker/canvas-apps/functions/function-datevalue-timevalue) and [TimeValue](/powerapps/maker/canvas-apps/functions/function-datevalue-timevalue) functions. You can also specify the language of the text with a language tag, such as "en-US".
 
 ## Additional properties
+
 |Property|Definition|
 |---------|---------|
 |**DetectedFields**|Additional information for each of the [receipt properties](#receipt-properties) <ul><li>**BoundingBox**: The coordinates of the field</li><li>**Confidence**: How confident the model is in the detection of the field</li><li>**PageNumber**: Which page the field is found on</li><li>**Value**: The value of the field</li></ul>|
@@ -68,23 +74,31 @@ In order to get the best results, provide one clear photo or scan per receipt.
 Additional design properties are available in the **Advanced** panel.
 
 ## Accessibility guidelines
+
 These [guidelines](/powerapps/maker/canvas-apps/controls/control-button) for the Power Apps button control also apply to the text recognizer component.
 
-### Use the formula bar to retrieve the text value from the selected item in the ReceiptProcessor control
+## Use the formula bar to retrieve the text value from the selected item in the ReceiptProcessor control
 
-Here’s a few examples
+Here are some examples.
 
 This expression concatenates the values in the 'DetectedText' column of the 'ReceiptProcessor1' table, separated by a comma and a space.
 
+```power-fx
 Concat(ReceiptProcessor1.DetectedText,Value,", ")
+```
 
-This expression retrieves the 'PurchasedItems' property from the 'ReceiptProcessor1' variable.
+This expression retrieves the `PurchasedItems` property from the `ReceiptProcessor1` variable.
 
-Select +Insert , select Data table (preview)
-On the left pane Select DataTable1, enter in the formula bar ReceiptProcessor1.PurchasedItems
-Select Fields, select + Add field, select Name, Price, Quantity, TotalPrice, select Add
+1. Select **+ Insert** > **Data table (preview)**.
+1. On the left pane, select **DataTable1**, and then enter the following in the formula bar:
 
+    ```power-fx
+    ReceiptProcessor1.PurchasedItems
+    ```
 
+1. Select **Fields** > **+ Add field**.
+1. Select **Name** > **Price** > **Quantity** > **TotalPrice**.
+1. Select **Add**.
 
 ### See also
 
