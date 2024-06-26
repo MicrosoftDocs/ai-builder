@@ -17,7 +17,7 @@ The AI Builder receipt processor component scans and extracts information from r
 
 For more information about canvas apps, see [What are canvas apps in Power Apps?](/powerapps/maker/canvas-apps/getting-started)
 
-> - [!INCLUDE[cc_preview_features_definition](includes/cc-preview-features-definition.md)]
+[!INCLUDE[cc_preview_features_definition](includes/cc-preview-features-definition.md)]
 
 ## Requirements
 The receipt processor component works best with sales receipts, those commonly used by restaurants, gas stations, and retailers, and others. Both print and handwritten text can be detected.
