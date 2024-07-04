@@ -39,6 +39,7 @@ Choose between the models based on status, licensing rules, and functionalities.
 |GPT model  |Status  |Version |Licensing rules   | Functionalities| Regions availabilities |
 |---------|---------|---------|---------|---------|---------|
 |GPT 3.5| GA - Default model | gpt-3.5-turbo-0125	| Consumes credits in Power Apps and Power Automate. More information: [Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130)  | Trained on data up to Sept 2021. Context allowed up to 16k tokens | [Feature availability by Regions for prompts](availability-region.md)
+| GPT 4 | Preview | gpt-4-32k-0613 | Free while in Preview | Trained on data up to Sept 2021. Context allowed up to 32k tokens. Multilingual enhanced proficiency. Better than GPT 3.5 in technical redaction and creativity.|	[Feature availability by Regions for prompts](availability-region.md)
 | GPT 4 | Preview | gpt-4o	| Free while in Preview | GPT-4o has knowledge up to October 2023 and has a context length of 128k tokens. Multilingual enhanced proficiency. Better than GPT 3.5 in technical redaction and creativity. | <ul> <li>United States and other United States based regions July 10, 2024.</li> <li>Europe and other Europe based regions July 15, 2024</li> <li>Other Regions TBD.</li>
 </ul>|
 
