@@ -33,7 +33,7 @@ The first thing you'll do when you create an AI Builder object detection model i
 Select a model for your domain and select **Next**.
 
 > [!NOTE]
-> Domain specific object detection uses more AI Builder credits than common object detection, and therefore costs more to use. To estimate the impact of using domain specific versus common object on your organization, use the [AI Builder calculator](https://powerapps.microsoft.com/ai-builder-calculator/).
+> Domain specific object detection uses more AI Builder credits than common object detection, and therefore costs more to use. To estimate the impact of using domain specific versus common object on your organization, use the AI Builder rate card in [Microsoft Power Platform licensing guide](https://go.microsoft.com/fwlink/?linkid=2085130) (pdf).
 
 ## Provide object names
 
