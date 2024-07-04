@@ -30,7 +30,7 @@ The exact version is GPT 3.5 turbo 0125. GPT 3.5 model is consuming AI Builder c
 
 The other available model is GPT 4. As long as it's in preview, it doesn't consume AI Builder credits when used in Power Apps or Power Automate. As a preview model, its use is linked to the AI Builder preview toggle in environment settings. To get there, sign in to [Power Platform admin center](https://admin.powerplatform.microsoft.com/environments) and select **Environment** > **Settings** > **Features**.
 
-When preview models are Off, GPT 4 can't be selected in the dropdown menu, and prompts previously created with GPT 4 are blocked. The exact version is subject to change. Depending on the region availability, it uses the GPT-4o version.
+When preview models are Off, GPT 4 can't be selected in the dropdown menu, and prompts previously created with GPT 4 are blocked. The exact version is subject to change. Depending on the region availability, it uses the GPT-4o version or gpt-4-32k-0613 version.
 
 ### Choose a model
 
