@@ -120,7 +120,7 @@ The following list presents AI Builder actions that consume credits. It isn't al
 |---------|---------|---------|
 | Train an object detection model.<br/><br/>Use custom documents, images or text to *try out* prebuilt models when using the tiles in the **AI models** section.<br/><br/>Batch runs of the prediction and trainable category classification models for each row to be predicted.  | *Run an AI prompt or an AI function* generating text.<br/><br/>*Scan a business card* with the business card reader.<br/><br/>*Analyze* with the document processor.<br/><br/>*Detect* with the object detector.<br/><br/>**+ New image** with the text recognizer.<br/><br/>*Use an action* bound to an AI Builder model in [Power Fx](powerfx-in-powerapps.md).  |Run a flow using any of the actions inside the **AI Builder** category, such as **Extract information from document**, or **Create text with GPT using a prompt**.<br/><br/>Run the generic action **Perform a bound action** of Dataverse on the entity AI models and action name **Predict**.   |
 
-Each AI Builder model has a different credit consumption mechanism. To perform an assessment, go to the [AI Builder calculator](https://powerapps.microsoft.com/ai-builder-calculator/) site or obtain the full details in the [Power Platform Licensing Guide (pdf)](https://go.microsoft.com/fwlink/?linkid=2085130).
+Each AI Builder model has a different credit consumption mechanism. To perform an assessment, use the AI Builder rate card in [Microsoft Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130) (pdf). 
 
 #### Free actions
 
@@ -139,7 +139,7 @@ In the context of Power Apps and Power Automate flows, AI prompts consume credit
 
 The number of consumed credits depends on the length of the input and output, and the underlying generative AI model used.
 
-The [Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130) (pdf file) and [Calculator](https://powerapps.microsoft.com/ai-builder-calculator/) provide detailed information about each Generative AI model. Changing the Generative AI model might increase the AI Builder credit consumption of your AI prompt.  
+The [Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130) (pdf file) provides detailed information about each Generative AI model. Changing the Generative AI model might increase the AI Builder credit consumption of your AI prompt.  
 
 In the context of Copilot, AI prompts don't consume AI Builder credits. However, triggering them does consume Copilot messages.
 
@@ -172,7 +172,7 @@ To get details on your environment consumption, check [Monitor usage](credit-man
 
 If your environment has no more capacity, you need to provide capacity to your environment:  reallocate existing capacity from the organization (tenant) or environment level. Alternatively, you can purchase more capacity and make it available to your environment.
 
-To help estimate the required add-on capacity based on your estimated consumption, use the [AI Builder calculator](https://powerapps.microsoft.com/en-us/ai-builder-calculator/).
+To help estimate the required add-on capacity based on your estimated consumption, use the AI Builder rate card in [Microsoft Power Platform licensing guide](https://go.microsoft.com/fwlink/?linkid=2085130) (pdf).
 
 ### Request credit extension
 
@@ -229,9 +229,6 @@ One (1) add-on + 5 Power Automate premium licenses gives 1,000,000+5*5,000 = 1,0
 You have a scenario with 32,000 receipts to process each month with receipt processing.
 
 32,000 receipts require 32 credits per receipt (exact rates are in the [Microsoft Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130)), so you have 1,024,000 credits.
-
-> [!NOTE]
-> The [AI Builder calculator](https://powerapps.microsoft.com/ai-builder-calculator/) doesn’t give the exact number of AI Builder credits. It gives the number of add-ons, which is needed to cover the need. Here, it proposes to buy two (2) add-ons (2,000,000 credits) to cover the 1,024,000 credits.
 
 Suppose you own five (5) Power Automate premium licenses, you're covered with a single add-on:
 
@@ -340,7 +337,6 @@ Yes. To learn more, go to [AI Builder trial FAQ](ai-builder-trials.md#ai-builder
 - [AI Builder trial](ai-builder-trials.md)
 - [Microsoft Power Platform Licensing Guide (pdf)](https://go.microsoft.com/fwlink/?LinkId=2085130)
 - [Licensing FAQ for AI Builder](/power-platform/admin/powerapps-flow-licensing-faq#ai-builder)
-- [Estimate the AI Builder capacity that’s right for you in the calculator](https://powerapps.microsoft.com/ai-builder-calculator/)
 - [Training: Get started with AI Builder licensing (module)](/training/modules/get-started-with-ai-builder-licensing/)
 
 
