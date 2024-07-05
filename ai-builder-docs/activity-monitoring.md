@@ -42,7 +42,8 @@ Legend:
 The **AI Builder activity** page shows AI model activity, including activity that is generated in [Power Apps](/power-apps/powerapps-overview).
 
 1. Sign in to [Power Automate](https://make.powerautomate.com).
-1. On the left navigation pane, select **Monitor** \> **AI Builder activity (preview)**.
+1. On the left navigation pane, select **... More** \> **Discover all**.
+2. Under Monitor, select **AI Builder activity (preview)**
 1. (Optional) Customize the data that is shown by applying a filter for the timeframe or model. To apply a filter, select the relevant table heading.
 
     By default, data is shown for all AI models for the last seven days.
