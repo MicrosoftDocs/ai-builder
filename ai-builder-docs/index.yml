@@ -71,7 +71,19 @@ landingContent:
             url: manage-model.md  
           - text: Work with sample data
             url: build-model.md#deploy-sample-apps-and-data
-          
+
+  # Card
+  - title: Manage AI Builder
+    linkLists:
+      - linkListType: reference
+        links:
+          - text: Administer AI Builder
+            url: administer.md
+          - text: Licensing
+            url: administer-licensing.md
+          - text: Allocate capacity
+            url: /power-platform/admin/capacity-add-on     
+
   # Card
   - title: Use your AI models
     linkLists:
@@ -118,14 +130,4 @@ landingContent:
           - text: Microsoft support
             url: support.md#microsoft-support
 
-  # Card
-  - title: Manage AI Builder
-    linkLists:
-      - linkListType: reference
-        links:
-          - text: Administer AI Builder
-            url: administer.md
-          - text: Licensing
-            url: administer-licensing.md
-          - text: Allocate capacity
-            url: /power-platform/admin/capacity-add-on            
+       
