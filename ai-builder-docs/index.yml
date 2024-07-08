@@ -99,18 +99,6 @@ landingContent:
             url: prebuilt-prompts-in-dataverse-plug-in-powerapps.md
 
   # Card
-  - title: Manage AI Builder
-    linkLists:
-      - linkListType: reference
-        links:
-          - text: Administer AI Builder
-            url: administer.md
-          - text: Licensing
-            url: administer-licensing.md
-          - text: Allocate capacity
-            url: /power-platform/admin/capacity-add-on
-
-  # Card
   - title: What's new and planned?
     linkLists:
       - linkListType: whats-new
@@ -129,3 +117,15 @@ landingContent:
             url: share-your-experience.md
           - text: Microsoft support
             url: support.md#microsoft-support
+
+  # Card
+  - title: Manage AI Builder
+    linkLists:
+      - linkListType: reference
+        links:
+          - text: Administer AI Builder
+            url: administer.md
+          - text: Licensing
+            url: administer-licensing.md
+          - text: Allocate capacity
+            url: /power-platform/admin/capacity-add-on            
