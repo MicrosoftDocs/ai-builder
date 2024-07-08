@@ -43,8 +43,14 @@ landingContent:
     linkLists:
       - linkListType: how-to-guide
         links:
-          - text: Create a custom prompt with prompt builder
+          - text: Create a prompt
             url: create-a-custom-prompt.md
+          - text: Change the output of your prompt (preview)
+            url: change-prompt-output.md
+          - text: Model selection and temperature settings
+            url: prompt-modelsettings.md
+          - text: Use your own data in a prompt
+            url: use-your-own-prompt-data.md
           - text: Share your prompt
             url: share-your-prompt.md 
           - text: Use in Power Apps
@@ -81,6 +87,17 @@ landingContent:
             url: share-model.md
           - text: Distribute your AI models
             url: distribute-model.md
+
+  # Card
+  - title: Prebuilt AI prompts
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Get started with prebuilt prompts
+            url: prebuilt-prompts.md
+          - text: Use a prebuilt prompt in a Dataverse low-code plug-in in Power Apps (preview)
+            url: prebuilt-prompts-in-dataverse-plug-in-powerapps.md
+
   # Card
   - title: What's new and planned?
     linkLists:
