@@ -43,8 +43,14 @@ landingContent:
     linkLists:
       - linkListType: how-to-guide
         links:
-          - text: Create a custom prompt with prompt builder
+          - text: Create a prompt
             url: create-a-custom-prompt.md
+          - text: Change the output of your prompt (preview)
+            url: change-prompt-output.md
+          - text: Model selection and temperature settings
+            url: prompt-modelsettings.md
+          - text: Use your own data in a prompt
+            url: use-your-own-prompt-data.md
           - text: Share your prompt
             url: share-your-prompt.md 
           - text: Use in Power Apps
@@ -65,7 +71,7 @@ landingContent:
             url: manage-model.md  
           - text: Work with sample data
             url: build-model.md#deploy-sample-apps-and-data
-          
+
   # Card
   - title: Use your AI models
     linkLists:
@@ -81,15 +87,18 @@ landingContent:
             url: share-model.md
           - text: Distribute your AI models
             url: distribute-model.md
+
   # Card
-  - title: What's new and planned?
+  - title: Prebuilt AI prompts
     linkLists:
-      - linkListType: whats-new
+      - linkListType: how-to-guide
         links:
-          - text: Release plans
-            url: /power-platform-release-plan/2019wave2/ai-builder/
-          - text: Feature availability by region
-            url: availability-region.md      
+          - text: Get started with prebuilt prompts
+            url: prebuilt-prompts.md
+          - text: Use a prebuilt prompt in a Dataverse low-code plug-in in Power Apps (preview)
+            url: prebuilt-prompts-in-dataverse-plug-in-powerapps.md
+
+
   # Card
   - title: Manage AI Builder
     linkLists:
@@ -100,7 +109,8 @@ landingContent:
           - text: Licensing
             url: administer-licensing.md
           - text: Allocate capacity
-            url: /power-platform/admin/capacity-add-on
+            url: /power-platform/admin/capacity-add-on     
+
   # Card
   - title: Get support
     linkLists:
@@ -110,3 +120,13 @@ landingContent:
             url: share-your-experience.md
           - text: Microsoft support
             url: support.md#microsoft-support
+
+  # Card
+  - title: What's new and planned?
+    linkLists:
+      - linkListType: whats-new
+        links:
+          - text: Release plans
+            url: https://releaseplans.microsoft.com/?app=AI+Builder
+          - text: Feature availability by region
+            url: availability-region.md         
