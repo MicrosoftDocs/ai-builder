@@ -52,7 +52,7 @@ Congratulations! You've created a flow that uses a prebuilt category classificat
 |**Classification** |string |Entity identified|Issues, compliment, customer service, documentation, price & billing, staff |
 |**Confidence score** |float |How confident the model is in its prediction|Value in the range of 0 to 1. Values close to 1 indicate greater confidence that the extracted value is accurate |
 
-### See also
+## Related information
 
 - [Training: Get started with AI Builder category classification (module)](/training/modules/ai-builder-category-classification/)
 - [Category classification prebuilt model](prebuilt-category-classification.md)

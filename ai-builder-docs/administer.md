@@ -147,7 +147,7 @@ Applying an encryption key is a gesture performed by Power Platform admins, and 
 
 To learn more about the customer-managed key, and get step-by-step instructions to enable customer-managed keys, go to [Manage your customer-managed encryption key](/power-platform/admin/customer-managed-key). This enables you to leverage the single enterprise policy created on the environment to secure AI Builder models.
 
-### See also
+## Related information
 
 [Roles and security in AI Builder](security.md)<br/>
 [Feature availability by region](availability-region.md)<br/>

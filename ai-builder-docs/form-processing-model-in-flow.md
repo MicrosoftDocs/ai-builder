@@ -163,7 +163,7 @@ For incoming emails from the Microsoft 365 Outlook connector, email signatures a
 > [!div class="mx-imgBorder"]
 > ![Filter attachment condition.](media/form-processing-filter-sig.png "Add condition 'attachment is inline' ")
 
-### See also
+## Related information
 
 - [Overview of the document processing model](form-processing-model-overview.md)
 - [Training: Process custom documents with AI Builder (module)](/training/modules/get-started-with-form-processing/)

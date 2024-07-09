@@ -52,6 +52,6 @@ ms.reviewer: angieandrews
 
 Congratulations! You have created a flow that uses your key phrase extraction AI model. Select **Save** on the top right and then select **Test** to try out your flow.
 
-### See also
+## Related information
 
 [Key phrase extraction overview](prebuilt-key-phrase.md)

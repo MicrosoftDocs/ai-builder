@@ -43,7 +43,7 @@ Numerical prediction is when the question is answered with a number. Examples of
 - How many items do we need to keep in inventory?
 - How many leads should a sales team convert in a month?
 
-### See also
+## Related information
 
 [Feature availability by region](availability-region.md)  
 [Prediction model prerequisites](prediction-prereq.md)

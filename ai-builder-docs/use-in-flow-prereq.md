@@ -16,6 +16,6 @@ Before you can use AI Builder in Power Automate, you need:
 - An account with access to [Power Automate](https://flow.microsoft.com/)
 - A trained [AI Builder model](build-model.md) or an AI Builder [prebuilt model](prebuilt-overview.md).
 
-### See also
+## Related information
 
 [AI Builder prerequisites](build-model.md#prerequisites)

@@ -51,7 +51,7 @@ Congratulations! You've created a flow that uses a language detection model. Sel
 |**Confidence score** |float |How confident the model is in its prediction|Value in the range of 0 to 1. Values close to 1 indicate greater confidence that the identified sentiment is accurate |
 |**Language** |string |Language inferred from the text| Language code (ex.: "en", "fr", "zh_chs", "ru") |
 
-### See also
+## Related information
 
 [Language detection overview](prebuilt-language-detection.md)
 

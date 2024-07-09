@@ -125,6 +125,6 @@ Your next step is determined by the app you plan to use with your prompt.
   - Empowers makers to incorporate existing prompts into their flows.
   - [Use a prompt in Power Automate](use-a-custom-prompt-in-flow.md)
 
-### See also
+## Related information
 
 [Human review for automation with a prompt](azure-openai-human-review.md)
