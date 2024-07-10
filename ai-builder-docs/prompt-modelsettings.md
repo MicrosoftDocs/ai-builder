@@ -3,11 +3,12 @@ title: Model selection and temperature settings
 description: Learn about the settings parameter in prompt builder.
 author: Antoine2F
 contributors:
+  - Phil-cmd
   - Antoine2F
   - v-aangie
 ms.topic: conceptual
-ms.date: 06/13/2024
-ms.author: antode
+ms.date: 07/12/2024
+ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
@@ -36,13 +37,11 @@ When preview models are Off, GPT 4 can't be selected in the dropdown menu, and p
 
 Choose between the models based on status, licensing rules, and functionalities.
 
-|GPT model  |Status  |Version |Licensing rules   | Functionalities| Regions availabilities |
+|GPT model  |Status  |Version |Licensing rules   | Functionalities| Region availabilities |
 |---------|---------|---------|---------|---------|---------|
-|GPT 3.5| GA - Default model | gpt-3.5-turbo-0125	| Consumes credits in Power Apps and Power Automate. More information: [Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130)  | Trained on data up to Sept 2021. Context allowed up to 16k tokens | [Feature availability by Regions for prompts](availability-region.md)
-| GPT 4 | Preview | gpt-4-32k-0613 | Free while in Preview | Trained on data up to Sept 2021. Context allowed up to 32k tokens. Multilingual enhanced proficiency. Better than GPT 3.5 in technical redaction and creativity.|	[Feature availability by Regions for prompts](availability-region.md)
-| GPT 4 | Preview | gpt-4o	| Free while in Preview | GPT-4o has knowledge up to October 2023 and has a context length of 128k tokens. Multilingual enhanced proficiency. Better than GPT 3.5 in technical redaction and creativity. | <ul> <li>Available in United States and other United States based regions.</li>  <li>Other Regions in coming weeks.</li>
-</ul>|
-
+|GPT 3.5| GA - Default model | gpt-3.5-turbo-0125	| Consumes credits in Power Apps and Power Automate. More information: [Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130)  | Trained on data up to September 2021. Context allowed up to 16k tokens | [Feature availability by regions for prompts](availability-region.md)
+| GPT 4 | Preview | gpt-4-32k-0613 | Free while in Preview | Trained on data up to September 2021. Context allowed up to 32k tokens. Multilingual enhanced proficiency. Better than GPT 3.5 in technical redaction and creativity.|	[Feature availability by regions for prompts](availability-region.md)
+| GPT 4 | Preview | gpt-4o	| Free while in Preview | GPT-4o has knowledge up to October 2023 and has a context length of 128k tokens. Multilingual enhanced proficiency. Better than GPT 3.5 in technical redaction and creativity. | <ul> <li>Available in United States and other United States based regions.</li>  <li>Other regions are planned.</li> </ul>|
 
 ### Use of AI prompts in context of Microsoft Copilot Studio
 
