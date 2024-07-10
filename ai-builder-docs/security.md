@@ -96,7 +96,7 @@ The training files stored in the AI Builder File table are accessible only by th
 
 AI Builder doesn’t support shared ownership of a model. It's possible to change the owner by following this procedure in [Share your AI model](share-model.md#the-owner-of-a-model-has-left-the-company-how-can-we-allow-non-admin-users-to-edit-this-model).
 
-### See also
+## Related information
 
 [Security concepts in Dataverse](/power-platform/admin/wp-security-cds)
 

@@ -21,7 +21,7 @@ Download sample documents for AI Builder document processing: [English version](
 
 The [Get started with Document processing in AI Builder](/training/modules/get-started-with-form-processing/2-create-first-model) Learn module walks you through each step of the model creation process using the sample data.
 
-### See also
+## Related information
 
 [Use a document processing model in Power Automate](form-processing-model-in-flow.md)  
 [Use the form processor component in Power Apps](form-processor-component-in-powerapps.md)

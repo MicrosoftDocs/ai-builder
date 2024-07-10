@@ -18,7 +18,7 @@ Organizations of any size can use AI Builder object detection to add these capab
 
 [Collect images](collect-images.md)
 
-### See also
+## Related information
 
 - [Feature availability by region](availability-region.md)  
 - [Use an object detection model in Power Automate](object-detection-model-in-flow.md)

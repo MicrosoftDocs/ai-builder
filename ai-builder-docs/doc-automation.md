@@ -30,7 +30,7 @@ You can access the [document automation toolkit](https://flow.microsoft.com/mana
 
 To get step-by-step instructions on how to install, configure, and use the document automation kit, go to [Training: Automate the processing of documents with the AI Builder prepackaged solution (module)](/training/modules/get-started-ai-builder-document-automation/).
 
-### See also
+## Related information
 
 [Create a document processing model](create-form-processing-model.md)
 

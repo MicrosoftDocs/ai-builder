@@ -75,7 +75,7 @@ Congratulations! You created an app that uses an AI Builder Create text with GPT
 
 For a list of the parameters used in Azure OpenAI Service, go to [input parameters](azure-openai-model-pauto.md#input-parameters) and [output parameters](azure-openai-model-pauto.md#output-parameters) in Power Automate.
 
-### See also
+## Related information
 
 - [Text generation overview (preview)](prebuilt-azure-openai.md)
 - [How text generation works (preview)](azure-openai-textgen.md)

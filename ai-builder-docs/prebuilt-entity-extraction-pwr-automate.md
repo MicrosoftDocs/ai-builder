@@ -56,7 +56,7 @@ Congratulations! You've created a flow that uses an entity extraction model. Sel
 |**Starting location** |integer |Where the entity's first character appear in the line| |
 |**Character count** |integer |How long the entity is| |
 
-### See also
+## Related information
 
 [Entity extraction prebuilt model](prebuilt-entity-extraction.md)  
 [AI Builder in Power Automate overview](use-in-flow-overview.md)

@@ -24,7 +24,7 @@ After you've selected your data columns, select **Next** to view a summary of tr
 
 After the model is trained, you can [evaluate](manage-model.md#evaluate-your-model) its performance. Then [publish](publish-model.md) your model to start running predictions. After that, predictions run daily.
 
-### See also
+## Related information
 
 [Train your model in AI Builder](train-model.md)  
 [Publish your model in AI Builder](publish-model.md)

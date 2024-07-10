@@ -141,7 +141,7 @@ Every model is invoked using the predict verb. For example, a language detection
 | `'Language detection'.Predict("bonjour")` | `{ Language: “fr”, Confidence: 1}` |
 | `‘Text Recognition’.Predict(Image1.Image)` | `{ Pages: [ {Page: 1, Lines: [ { Text: "Contoso account", BoundingBox: { Left: .15, Top: .05, Width: .8, Height: .10 }, Confidence: .97 }, { Text: "Premium service", BoundingBox: { Left: .15, Top: .20,  Width: .8, Height: .10 }, Confidence: .96 }, { Text: "Paid in full", BoundingBox: { Left: .15, Top: .35, Width: .8, Height: .10 }, Confidence: .99 } } ] }` |
 
-### See also
+## Related information
 
 - [What are canvas apps?](/powerapps/maker/canvas-apps/getting-started)
 - [Get started with formulas in canvas apps](/power-apps/maker/canvas-apps/working-with-formulas)

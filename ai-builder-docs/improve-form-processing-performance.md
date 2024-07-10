@@ -82,7 +82,7 @@ The more documents you tag, the more AI Builder learns how to better recognize t
 - Documents that have different layouts should go [into different collections](create-form-processing-model.md#group-documents-by-collections) when you upload samples for training. 
 - If the document processing model is extracting values from neighboring fields from the one you want the model to extract, edit the model and tag adjacent values that are being picked up incorrectly as being different fields. By doing this, the model better learns the boundaries for each field.
 
-### See also
+## Related information
 
 - [Invoice processing prebuilt model](prebuilt-invoice-processing.md)
 - [Receipt processing prebuilt model](prebuilt-receipt-processing.md)

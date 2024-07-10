@@ -58,7 +58,7 @@ Prediction models created before April 2, 2020, don't support real-time predicti
 
 To use real-time prediction, create a flow in Power Automate. More information: [Use a prediction model in Power Automate](prediction-pwr-automate.md)
 
-### See also
+## Related information
 
 [Train your model in AI Builder](train-model.md)  
 [Publish your model in AI Builder](publish-model.md)

@@ -61,7 +61,7 @@ The text generation model has a prompt engineering interface with sample prompts
 
 The next window that opens is where you can create text that can be used for many tasks. [Learn how text generation works](azure-openai-textgen.md).
 
-### See also
+## Related information
 
 - [How text generation works (preview)](azure-openai-textgen.md)
 - [Use the text generation model in Power Apps (preview)](azure-openai-model-papp.md)

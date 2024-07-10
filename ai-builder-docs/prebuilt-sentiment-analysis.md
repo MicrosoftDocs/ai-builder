@@ -71,7 +71,7 @@ The following applies to calls made per environment across the following prebuil
 |:-----|:-----:|:-----:|
 |Calls (per environment)|400|60 seconds|
 
-### See also
+## Related information
 
 - [Training: Analyze the sentiment of text with AI Builder (module)](/training/modules/get-started-with-ai-builder-sentiment-analysis/)
 - [Video: How to set up instant Microsoft Teams notifications for negative emails in 1 minute](https://www.youtube.com/watch?v=qfmQAObXTHQ)

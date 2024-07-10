@@ -37,7 +37,7 @@ To help you get started quickly with prediction, AI Builder provides sample data
 
 [Data preparation](prediction-data-prep.md)
 
-### See also
+## Related information
 
 [AI model prerequisites](build-model.md#prerequisites)
 

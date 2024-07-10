@@ -86,7 +86,7 @@ For each collection that you create, you need to upload at least five sample doc
 
 [Tag documents in a document processing model](tag-form-processing-model.md)
 
-### See also
+## Related information
 
 [Training: Process custom documents with AI Builder (module)](/training/modules/get-started-with-form-processing/)
 

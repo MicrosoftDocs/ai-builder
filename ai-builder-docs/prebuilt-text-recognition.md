@@ -51,7 +51,7 @@ If a document is detected, the text recognition model outputs the following info
 |:-----|:-----|-----:|
 |Text recognition calls (per environment)|480|60 seconds|
 
-### See also
+## Related information
 
 [Training: Recognize text with AI Builder (module)](/training/modules/get-started-with-ai-builder-text-recognition/)
 
