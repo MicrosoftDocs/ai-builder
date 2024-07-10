@@ -42,7 +42,7 @@ As consumption is reset each month, the amount of credit to purchase and/or allo
 - To learn more about licensing, go to [AI Builder licensing and credit management](credit-management.md).
 - To learn more about trials, go to [AI Builder trial](ai-builder-trials.md).
 
-### See also
+## Related information
 
 - [Microsoft Power Platform Licensing Guide (pdf)](https://go.microsoft.com/fwlink/?LinkId=2085130)
 - [Licensing FAQ for AI Builder](/power-platform/admin/powerapps-flow-licensing-faq#ai-builder)

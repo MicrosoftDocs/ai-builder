@@ -46,7 +46,7 @@ From here, you can run more tests with other pictures. If you're happy with the 
 |:-----|:-----|-----:|
 |Object detection calls (per environment)|4800|60 seconds|
 
-### See also
+## Related information
 
 [Manage your model in AI Builder](manage-model.md)
 

@@ -117,7 +117,7 @@ Generic prediction models only work as part of a scheduled run. They can't be us
 
 [Distribute your AI model](distribute-model.md)
 
-### See also
+## Related information
 
 [Training: Manage models in AI Builder (module)](/training/modules/manage-models/)
 

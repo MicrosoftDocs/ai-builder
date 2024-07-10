@@ -59,7 +59,7 @@ Congratulations! You've created a flow that uses an AI Builder entity extraction
 |**Starting location** |integer |Where the entity's first character appear in the line| |
 |**Character count** |integer |How long the entity is| |
 
-### See also
+## Related information
 
 [Entity extraction model overview](entity-extraction-overview.md)
 

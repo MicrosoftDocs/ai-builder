@@ -100,7 +100,7 @@ This expression retrieves the `PurchasedItems` property from the `ReceiptProcess
 1. Select **Name** > **Price** > **Quantity** > **TotalPrice**.
 1. Select **Add**.
 
-### See also
+## Related information
 
 - [Receipt processing overview](prebuilt-receipt-processing.md)<br/> 
 - [Core properties in Power Apps](/powerapps/maker/canvas-apps/controls/properties-core)

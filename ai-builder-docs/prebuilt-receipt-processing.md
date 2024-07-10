@@ -64,7 +64,7 @@ The following applies to calls made per environment across document processing m
 |:-----|:-----|-----:|
 |Calls (per environment)|360|60 seconds|
 
-### See also
+## Related information
 
 [Training: Process receipts with AI Builder (module)](/training/modules/ai-builder-receipt-processing/)
 

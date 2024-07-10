@@ -23,7 +23,7 @@ Custom models are available in Power Automate and Power Apps. The following cust
 - [Object detection](object-detection-overview.md): Detect custom objects in images.
 - [Azure machine learning models](byo-model.md): Bring and package your own model.
 
-### See also
+## Related information
 
 - [AI Builder in Power Automate overview](use-in-flow-overview.md)
 - [AI Builder in Power Apps overview](use-in-powerapps-overview.md)

@@ -32,7 +32,7 @@ Object detection models are being upgraded for general availability. Your existi
 
 Until March 5, 2020, object detection models stored images as attachments in the Note entity. With this update, these models now use the new File and Image data types in Microsoft Dataverse, which enables a better and more optimized usage of capacity.
 
-### See also
+## Related information
 
 [Manage your model in AI Builder](manage-model.md)
 

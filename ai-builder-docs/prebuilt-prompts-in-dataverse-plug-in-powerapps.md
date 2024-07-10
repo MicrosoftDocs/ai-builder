@@ -124,6 +124,6 @@ In the following example, the Sales Hub app is used. Any app where you have acce
 
     :::image type="content" source="media/prebuilt-prompts-in-dataverse-plug-in-powerapps/summary.png" alt-text="Screenshot of a summary of the text in the email body.":::
 
-### See also
+## Related information
 
 [Use Dataverse low-code plug-ins (preview)](/power-apps/maker/data-platform/low-code-plug-ins?tabs=instant)

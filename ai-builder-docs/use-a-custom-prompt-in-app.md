@@ -67,6 +67,6 @@ Using a prompt in an application is similar to using a custom AI model. Once the
 1. Enter your text in the **Text input** screen.
 1. Check the AI Text generated in the text label.
 
-### See also
+## Related information
 
 [Human review for automation with a prompt](azure-openai-human-review.md)

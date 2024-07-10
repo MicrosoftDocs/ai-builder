@@ -56,7 +56,7 @@ The following applies to calls made per environment across the following prebuil
 |:-----|:-----|-----:|
 |Calls (per environment)|400|60 seconds|
 
-### See also
+## Related information
 
 [Training: Key phrase extraction prebuilt model (module)](/training/modules/get-started-with-ai-builder-key-phrase-extraction/)
 
