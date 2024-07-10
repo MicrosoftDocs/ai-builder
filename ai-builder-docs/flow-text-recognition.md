@@ -53,7 +53,7 @@ The detected text is embedded into **lines** sub list of the **results** list. Y
 |**Page number** |string |Page number of the text detected |
 |**Coordinates** |float |Coordinates of the text detected |
 
-### See also
+## Related information
 
 [Text recognition overview](prebuilt-text-recognition.md)
 

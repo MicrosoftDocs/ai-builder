@@ -92,7 +92,7 @@ Take a photo of text and save it to a database |Text recognition
 
 [Build a model](build-model.md)
 
-### See also
+## Related information
 
 [Feature availability by region](availability-region.md)
 

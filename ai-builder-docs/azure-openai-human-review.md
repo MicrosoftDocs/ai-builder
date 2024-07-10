@@ -46,6 +46,6 @@ We advocate for responsible AI practices as a means to reduce risks. Despite hav
 In recognition of the necessity for seamless automation, we're proactively enhancing our safety systems and seeking a deeper understanding of these challenges.
 Our objective is to further refine the text generation model with appropriate safety measures, in line with our principles of [responsible AI by design](https://blogs.microsoft.com/on-the-issues/2023/02/02/responsible-ai-chatgpt-artificial-intelligence/), returning control to developers wherever feasible.
 
-### See also
+## Related information
 
 [Responsible AI - FAQ](faqs-text-generation.md)

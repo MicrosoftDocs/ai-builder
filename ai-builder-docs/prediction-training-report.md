@@ -122,7 +122,7 @@ The AI model processes the data in the columns related to the outcome that will 
 
 Make sure the columns selected as being related to the outcome don't have a high correlation with the outcome column for a fair prediction.
 
-### See also
+## Related information
 
 [Common issues and resolutions for AI Builder](common-issues.md)
 

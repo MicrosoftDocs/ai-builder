@@ -98,7 +98,7 @@ You can enter a page value or page range in the **Pages** parameter. Example: 1 
 |**Top position of detected text**|float|Top position of the line of text. Returned as a part of a list of text.|
 |**Width of detected text**|float|Width of the line of text. Returned as a part of a list of text.|
 
-### See also
+## Related information
 
 - [Receipt processing overview](prebuilt-receipt-processing.md)
 - [Training: Process receipts with AI Builder (module)](/training/modules/ai-builder-receipt-processing/)

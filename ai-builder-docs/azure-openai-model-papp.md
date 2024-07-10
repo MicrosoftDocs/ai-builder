@@ -61,21 +61,21 @@ To bind the **Create text with GPT** model to a control, identify an event of th
 
 1. Notice the Power Fx function:
 
-```powerapps-dot
-Set(TextCompletionResult, 'Create text with GPT'.Predict(TextInput1.Text));
-````
+    ```power-fx
+    Set(TextCompletionResult, 'Create text with GPT'.Predict(TextInput1.Text));
+    ````
 
 The `.Predict()` on this model accepts a string as a parameter and returns the generated text as a response text. In the following example, we're passing the instruction from the text box as a prompt to the **Create text with GPT** model, and the response from the model appears in the **Response** label.  
 
 :::image type="content" alt-text="Screenshot of binding the model prediction to a control." source="media/azure-openai-model-papp/generate-text.png":::
 
-Congratulations! You've created an app that uses an AI Builder Create text with GPT capability. On the top of the screen, select **Save** to save all the changes in the app, and then select **Play** to test the application.  
+Congratulations! You created an app that uses an AI Builder Create text with GPT capability. On the top of the screen, select **Save** to save all the changes in the app, and then select **Play** to test the application.  
 
 ## Parameters
 
 For a list of the parameters used in Azure OpenAI Service, go to [input parameters](azure-openai-model-pauto.md#input-parameters) and [output parameters](azure-openai-model-pauto.md#output-parameters) in Power Automate.
 
-### See also
+## Related information
 
 - [Text generation overview (preview)](prebuilt-azure-openai.md)
 - [How text generation works (preview)](azure-openai-textgen.md)

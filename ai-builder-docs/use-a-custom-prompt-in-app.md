@@ -58,7 +58,7 @@ Using a prompt in an application is similar to using a custom AI model. Once the
     :::image type="content" source="media/use-a-custom-prompt-in-app/insert-menu.png" alt-text="Screenshot of adding data and a data source to your prompt.":::
 
 1. On the left pane, Select **label1** > **Text** (the property).
-1. In the formula bar, enter `result.text`.
+1. In the formula bar, enter `result.text`
 1. Select **Save**.
 
 ## Test your app
@@ -67,6 +67,6 @@ Using a prompt in an application is similar to using a custom AI model. Once the
 1. Enter your text in the **Text input** screen.
 1. Check the AI Text generated in the text label.
 
-### See also
+## Related information
 
 [Human review for automation with a prompt](azure-openai-human-review.md)

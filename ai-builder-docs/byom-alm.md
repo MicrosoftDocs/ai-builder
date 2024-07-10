@@ -213,7 +213,7 @@ For help on how to import solutions, go to [Import solutions for Power Apps](/po
 
 All components in the environment now reference the new version of the model.
 
-### See also
+## Related information
 
 [Overview of application lifecycle management](/power-platform/alm/overview-alm)<br/>
 [ALM basics](/power-platform/alm/basics-alm)<br/>

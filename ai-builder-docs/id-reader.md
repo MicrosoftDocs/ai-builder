@@ -81,6 +81,6 @@ The following example shows how to set up a flow to send the extracted informati
 
 :::image type="content" source="media/flow-id-reader-email.png" alt-text="Screenshot of a send email connector in a manually triggered extract information step in a flow.":::
 
-### See also
+## Related information
 
 [ID reader prebuilt model overview](prebuilt-id-reader.md)

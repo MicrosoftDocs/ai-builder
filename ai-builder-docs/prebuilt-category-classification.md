@@ -66,7 +66,7 @@ For information about how to use this prebuilt model in Power Automate, see [Use
 
 [Use the category classification prebuilt model in Power Automate](prebuilt-category-classification-pwr-automate.md)
 
-### See also
+## Related information
 
 [Overview of the category classification custom model](text-classification-overview.md)
 

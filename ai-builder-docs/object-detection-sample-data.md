@@ -39,7 +39,7 @@ Download [AIBuilder_Lab.zip](https://go.microsoft.com/fwlink/?linkid=2103171) fi
 8. Use the drop-down menu to select your target table, and then map your columns to the destination fields.
 9. Select **Next** to finish.
 
-### See also
+## Related information
 
 [Use the object detection component in Power Apps](object-detector-component-in-powerapps.md)
 

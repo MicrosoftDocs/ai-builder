@@ -97,7 +97,7 @@ Extract as a numbered list the action points from the: `[TextToExtract]`
 
 In this case, the user only needs to supply the text in `[TextToExtract]` from which they want to extract action points. The prebuilt prompt takes care of the rest.
 
-## See also
+## Related information
 
 - [Human review for automation with a prompt](azure-openai-human-review.md)
 - [Use your prompt in Power Apps](use-a-custom-prompt-in-app.md)

@@ -16,7 +16,7 @@ ms.reviewer: angieandrews
 
 The information about common issues in AI Builder and their potential workarounds is now available at [AI Builder troubleshooting](/troubleshoot/power-platform/ai-builder/welcome-ai-builder).
 
-### See also
+## Related information
 
 [Get support for AI Builder](support.md)
 

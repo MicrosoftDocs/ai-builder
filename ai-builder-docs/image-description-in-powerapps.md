@@ -53,6 +53,6 @@ Another way to integrate the AI Builder image description model in your app is t
 
 `'Image description'.Predict(UploadedImage1.Image)`
 
-### See also
+## Related information
 
 [Use AI Builder models in Power Apps](powerfx-in-powerapps.md)

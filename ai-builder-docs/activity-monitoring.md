@@ -3,12 +3,13 @@ title: Monitor model activity (preview)
 description: Learn how to monitor the activity or consumption of your AI models.
 author: jekom1
 contributors:
+  - phil-cmd 
   - jekom1
   - v-aangie
 ms.topic: conceptual
 ms.custom: 
-ms.date: 1/10/2024
-ms.author: jelenak
+ms.date: 07/10/2024
+ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
@@ -42,11 +43,11 @@ Legend:
 The **AI Builder activity** page shows AI model activity, including activity that is generated in [Power Apps](/power-apps/powerapps-overview).
 
 1. Sign in to [Power Automate](https://make.powerautomate.com).
-1. On the left navigation pane, select **... More** \> **Discover all**.
-2. Under Monitor, select **AI Builder activity (preview)**
-1. (Optional) Customize the data that is shown by applying a filter for the timeframe or model. To apply a filter, select the relevant table heading.
+1. On the left navigation pane, select **...More** > **Discover all**.
+1. Under **Monitor**, select **AI Builder activity (preview)**.
+1. (Optional) Customize the data that shows by applying a filter for the timeframe or model. To apply a filter, select the relevant table heading.
 
-    By default, data is shown for all AI models for the last seven days.
+    By default, data shows for all AI models for the last seven days.
 
 1. (Optional) To display more data, select **See more**.
 

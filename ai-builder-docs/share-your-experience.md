@@ -17,7 +17,7 @@ The forums are a great resource where anyone can read and discuss topics with ot
 
 Read and post in the [AI Builder forum](https://go.microsoft.com/fwlink/?linkid=2092048). Before you post a new question, search the discussion forum to see whether your question is already answered.
 
-### See also
+## Related information
 
 - [Microsoft Power Apps Community](https://powerusers.microsoft.com/t5/AI-Builder/bd-p/AIBuilder1)
 - [Microsoft Power Automate Community](https://powerusers.microsoft.com/t5/AI-Builder/bd-p/AIBuilder)

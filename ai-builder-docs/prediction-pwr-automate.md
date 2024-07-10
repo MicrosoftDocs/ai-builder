@@ -37,7 +37,7 @@ ms.reviewer: angieandrews
 
 Congratulations! You've created a flow that uses the real-time prediction feature in AI Builder. Select **Save** on the top right, and then select **Test** to try out your flow.
 
-### See also
+## Related information
 
 [Use your prediction model](prediction-use.md)  
 [Train your model in AI Builder](train-model.md)  

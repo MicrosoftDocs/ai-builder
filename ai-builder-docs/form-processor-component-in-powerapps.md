@@ -84,7 +84,7 @@ Additional design properties are available in the **Advanced** panel.
 
 These [guidelines](/powerapps/maker/canvas-apps/controls/control-button) for the Power Apps button control also apply to the form processor component.
 
-### See also
+## Related information
 
 - [Overview of the object detection model](object-detection-overview.md)  
 - [Core properties in Power Apps](/powerapps/maker/canvas-apps/controls/properties-core)
