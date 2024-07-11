@@ -6,7 +6,7 @@ contributors:
   - Antoine2F
   - v-aangie
 ms.topic: conceptual
-ms.date: 06/13/2024
+ms.date: 07/11/2024
 ms.author: antode
 ms.reviewer: angieandrews
 ---
@@ -38,7 +38,7 @@ Choose between the models based on status, licensing rules, and functionalities.
 
 |GPT model  |Status  |Version |Licensing rules   | Functionalities|
 |---------|---------|---------|---------|---------|
-|GPT 3.5| GA - Default model | gpt-3.5-turbo-0125	| Consumes credits in Power Apps and Power Automate. More information in AI Builder rate card in [Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130)  | Trained on data up to Sept 2021. Context allowed up to 16k tokens |
+|GPT 3.5| GA - Default model | gpt-3.5-turbo-0125	| Consumes credits in Power Apps and Power Automate. More information: AI Builder rate card in [Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130)  | Trained on data up to Sept 2021. Context allowed up to 16k tokens |
 | GPT 4 | Preview | gpt-4-32k-0613	| Free while in Preview | Trained on data up to Sept 2021. Context allowed up to 32k tokens. Multilingual enhanced proficiency. Better than GPT 3.5 in technical redaction and creativity. |
 
 ### Use of AI prompts in context of Microsoft Copilot Studio

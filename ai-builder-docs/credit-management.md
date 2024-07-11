@@ -8,7 +8,7 @@ contributors:
   - Antoine2F
   - v-aangie
 ms.topic: conceptual
-ms.date: 06/25/2024
+ms.date: 07/11/2024
 ms.author: antode
 ms.reviewer: angieandrews
 ---
@@ -120,7 +120,7 @@ The following list presents AI Builder actions that consume credits. It isn't al
 |---------|---------|---------|
 | Train an object detection model.<br/><br/>Use custom documents, images or text to *try out* prebuilt models when using the tiles in the **AI models** section.<br/><br/>Batch runs of the prediction and trainable category classification models for each row to be predicted.  | *Run an AI prompt or an AI function* generating text.<br/><br/>*Scan a business card* with the business card reader.<br/><br/>*Analyze* with the document processor.<br/><br/>*Detect* with the object detector.<br/><br/>**+ New image** with the text recognizer.<br/><br/>*Use an action* bound to an AI Builder model in [Power Fx](powerfx-in-powerapps.md).  |Run a flow using any of the actions inside the **AI Builder** category, such as **Extract information from document**, or **Create text with GPT using a prompt**.<br/><br/>Run the generic action **Perform a bound action** of Dataverse on the entity AI models and action name **Predict**.   |
 
-Each AI Builder model has a different credit consumption mechanism. To perform an assessment, use the AI Builder rate card in [Microsoft Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130) (pdf). 
+Each AI Builder model has a different credit consumption mechanism. To perform an assessment, use the AI Builder rate card in [Microsoft Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130) (pdf).
 
 #### Free actions
 
