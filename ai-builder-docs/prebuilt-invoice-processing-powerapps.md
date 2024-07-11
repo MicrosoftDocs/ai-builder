@@ -94,7 +94,7 @@ Currently, there's no invoice processing control available for canvas apps in Po
    > [!div class="mx-imgBorder"]
    > ![Finished app.](media/canvas-app-done.png "Finished app screen")
 
-### See also
+## Related information
 
 [Training: Extract invoice data with AI Builder’s prebuilt model (module)](/training/modules/ai-builder-invoice-processing/) 
 

@@ -92,7 +92,7 @@ BusinessCardReader1.CompanyName & Char(10) & BusinessCardReader1.FullName & Char
 BusinessCardReader1.Email
 ```
 
-### See also
+## Related information
 
 - [Core properties in Power Apps](/powerapps/maker/canvas-apps/controls/properties-core)
 - [Training: Extract information from business cards with AI Builder (module)](/training/modules/get-started-with-ai-business-card-reader/)

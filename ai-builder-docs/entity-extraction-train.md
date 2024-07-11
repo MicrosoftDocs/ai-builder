@@ -41,7 +41,7 @@ After you've published your model, you can use it in a Power Apps canvas app or 
 
  You can create a new version of your published model by selecting **Edit model** on the model details page. You can create new entity types or modify existing entity types.
 
-### See also
+## Related information
 
 [Feature availability by region](availability-region.md)
 

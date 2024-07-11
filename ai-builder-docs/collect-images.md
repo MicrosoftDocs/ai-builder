@@ -77,7 +77,7 @@ AI models can incorrectly learn characteristics that your images have in common.
 
 To correct this, use the above guidance on training with more varied images: provide images with different angles, backgrounds, object size, groups, and other variants.
 
-### See also
+## Related information
 
 [Get started with object detection](get-started-with-object-detection.md)
 

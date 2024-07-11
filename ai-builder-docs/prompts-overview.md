@@ -56,7 +56,7 @@ We're committed to creating [responsible AI](https://blogs.microsoft.com/on-the-
 
 [Learn more about transparency in the Azure OpenAI Service](/legal/cognitive-services/openai/transparency-note?context=%2Fazure%2Fcognitive-services%2Fopenai%2Fcontext%2Fcontext)
 
-### See also
+## Related information
 
 - [Create a prompt](create-a-custom-prompt.md)
 - [Human review for automation with a prompt](azure-openai-human-review.md)

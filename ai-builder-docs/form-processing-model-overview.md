@@ -23,7 +23,7 @@ After you train and [publish](publish-model.md) your model, you can use it in a 
 
 [Create a form-processing model](create-form-processing-model.md)
 
-### See also
+## Related information
 
 - [Feature availability by region](availability-region.md)  
 - [AI model types](model-types.md)

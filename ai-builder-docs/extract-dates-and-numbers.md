@@ -92,7 +92,7 @@ When the decimal separator is a comma (`,`), thousand separators or whitespace c
 
 [Train and publish your document processing model](form-processing-train.md)
 
-### See also
+## Related information
 
 [Training: Process custom documents with AI Builder (module)](/training/modules/get-started-with-form-processing/)
 

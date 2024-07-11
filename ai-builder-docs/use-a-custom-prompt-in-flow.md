@@ -138,6 +138,6 @@ Once the flow runs and an approval is generated, the assigned reviewers can chec
 
     :::image type="content" source="media/use-a-custom-prompt-in-flow/approvals.png" alt-text="Screenshot of configuring human oversight approvals.":::
 
-### See also
+## Related information
 
 [Human review for automation with a prompt](azure-openai-human-review.md)

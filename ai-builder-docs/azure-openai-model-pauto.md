@@ -92,6 +92,6 @@ The human receiving the AI-generated text to review has the possibility to accep
 | Text    |String | Generated text | The response that the model has generated based on the input instructions |
 | Finish reason | String  |  Finish reason returned by AI model  | - | 
 
-### See also
+## Related information
 
 [Use your custom prompt in a Power Automate flow (preview)](use-a-custom-prompt-in-flow.md)

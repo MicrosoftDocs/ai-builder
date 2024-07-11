@@ -72,6 +72,6 @@ This will happen if you didn't provide a minimum of 10 sample text records for t
 
 Add more sample text for the tag with missing data and retrain the model.
 
-### See also
+## Related information
 
 [Train your category classification model](train-text-classification-model.md)

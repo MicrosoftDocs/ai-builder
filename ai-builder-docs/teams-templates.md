@@ -61,7 +61,7 @@ You can use Power Automate templates in Teams that solve a specific business pur
 
 Created flows are visible and can be modified from the Power Automate home page. 
 
-### See also
+## Related information
 
 - [Use flows in Microsoft Teams](/power-automate/teams/overview)
 - [Video: How to set up instant Microsoft Teams notifications for negative emails in 1 minute](https://www.youtube.com/watch?v=qfmQAObXTHQ)

@@ -88,7 +88,7 @@ This expression concatenates the values from the 'Text' property of the 'TextRec
 Concat(TextRecognizer1.Results,Text,", ")
 ```
 
-### See also
+## Related information
 
 - [Text recognition model](prebuilt-text-recognition.md)  
 - [Core properties in Power Apps](/powerapps/maker/canvas-apps/controls/properties-core)

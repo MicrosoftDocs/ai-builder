@@ -48,6 +48,6 @@ For more information about data types and build types, go to [AI models and busi
 
 [Train your model in AI Builder](train-model.md)
 
-### See also
+## Related information
 
 [AI Builder actions are disabled/deactivated](/troubleshoot/power-platform/ai-builder/aibuilder-actions-are-disabled-deactivated)

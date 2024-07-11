@@ -137,7 +137,7 @@ If fields can’t be tagged in your document, go to [Fields couldn't be loaded f
 
 [Extract dates and numbers](extract-dates-and-numbers.md)
 
-### See also
+## Related information
 
 [Training: Process custom documents with AI Builder (module)](/training/modules/get-started-with-form-processing/)
 
