@@ -158,7 +158,7 @@ Except for AI Translate, each of the prebuilt prompts mentioned previously can b
 
 If you have feedback of your experience with the current prebuilt prompts, or ideas for more prebuilt prompts, you can share your thoughts on the [Power Apps Ideas](https://ideas.powerapps.com/d365community/forum/f1458c72-ae29-ed11-9db2-000d3a8c451e) portaL. To do so, select the **AI Builder** checkbox in the **Categories** list in the **Filters** sidebar.  
 
-### See also
+## Related information
 
 - [AIClassify, AIExtract, AIReply, AISentiment, AISummarize, and AITranslate](/power-platform/power-fx/reference/function-ai) in Power Fx
 - [FAQ for text generation and prompts](faqs-text-generation.md)

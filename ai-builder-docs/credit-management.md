@@ -332,7 +332,7 @@ No. Testing prompts and testing trained models are now free. Testing prebuilt mo
 
 Yes. To learn more, go to [AI Builder trial FAQ](ai-builder-trials.md#ai-builder-trial-faq).
 
-### See also
+## Related information
 
 - [AI Builder trial](ai-builder-trials.md)
 - [Microsoft Power Platform Licensing Guide (pdf)](https://go.microsoft.com/fwlink/?LinkId=2085130)

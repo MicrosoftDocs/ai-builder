@@ -58,6 +58,6 @@ After you register the model, you'll see it in the list of AI Builder models. On
 
 You're now ready to use your own model in AI Builder. You can perform application lifecycle management tasks such as export your own model by using a solution, import your model into the target environment, and upgrade your model in source or target environments.
 
-### See also
+## Related information
 
 [Package your own model by using solutions](byom-alm.md)

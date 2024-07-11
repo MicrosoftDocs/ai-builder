@@ -91,7 +91,7 @@ If your app uses a **data table** component to display results from the **object
 
 1. Reset the item's property to correctly display the content from the **object detector** component.
 
-### See also
+## Related information
 
 - [Feature availability by region](availability-region.md)  
 - [AI Builder in Power Automate](use-in-flow-overview.md)  

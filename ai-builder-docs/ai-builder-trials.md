@@ -120,7 +120,7 @@ Any individual can try out the features of AI Builder for 30 days and incur no c
 
 You can block the use of AI Builder trial by disabling the **Allow unassigned credits** tenant setting in [Power Platform admin center](https://admin.powerplatform.microsoft.com/home). If you disable this setting, the only way to perform AI Builder actions in an environment is if you assign credits to this environment.
 
-### See also
+## Related information
 
 - [AI Builder licensing and credit management](credit-management.md)
 - [Training: Get started with AI Builder licensing (module)](/training/modules/get-started-with-ai-builder-licensing/)

@@ -76,6 +76,6 @@ You can get started with the entity extraction model using sample data. The samp
    > [!div class="mx-imgBorder"]
    > ![Screenshot of the imported records in the Data tab.](media/entity-import-map-view.png "Imported records in the Data tab")
 
-### See also
+## Related information
 
 [Use Power Fx in AI Builder models in Power Apps (preview)](powerfx-in-powerapps.md)

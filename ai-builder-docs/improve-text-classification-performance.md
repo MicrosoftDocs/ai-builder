@@ -26,7 +26,7 @@ The more correctly labeled training data you have, the better your model will pe
 
 [Publish your category classification model](publish-text-classification-model.md) 
 
-### See also
+## Related information
 
 [Category classification prebuilt model](prebuilt-category-classification.md)
 

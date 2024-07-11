@@ -44,7 +44,7 @@ You can use the predict action in Power Automate with many different model types
 
 [Prerequisites](use-in-flow-prereq.md)
 
-### See also
+## Related information
 
 - [Feature availability by region](availability-region.md)  
 - [AI Builder in Power Apps overview](use-in-powerapps-overview.md)

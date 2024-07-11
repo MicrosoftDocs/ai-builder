@@ -76,7 +76,7 @@ If a valid identity document is detected, the model will try to locate and extra
 |Identity document reader calls (per environment)|24|60 seconds|
 
 
-### See also
+## Related information
 
 - [Use the ID reader prebuilt model in Power Automate](id-reader.md)
 - [Training: Extract data from passports and US driver licenses (module)](/training/modules/get-started-ai-builder-identity-document-reader/)

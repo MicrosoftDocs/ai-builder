@@ -93,7 +93,7 @@ If you want this column to be visible in your email grid view, follow these step
 
 1. Add a field to the form. For details, see [Add a field to a form](/dynamics365/customerengagement/on-premises/customize/add-field-form).
 
-### See also
+## Related information
 
 [Sentiment analysis overview](prebuilt-sentiment-analysis.md)
 

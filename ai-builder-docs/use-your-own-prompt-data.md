@@ -61,6 +61,6 @@ The following list describes the limitations of using your own data in a prompt.
 
 - The total number of records that can be retrieved is limited to 1,000.
 
-### See also
+## Related information
 
 [Training: Create AI Builder prompts using your own Dataverse data (module)](/training/modules/ai-builder-grounded-prompts/)

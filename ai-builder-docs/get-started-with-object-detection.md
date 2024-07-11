@@ -115,7 +115,7 @@ That's it! Congratulations, you've created a training set for object detection.
 
 [Train and publish your object detection model](object-detection-train-model.md)
 
-### See also
+## Related information
 
 [Use an object detection model in Power Automate](object-detection-model-in-flow.md) 
 

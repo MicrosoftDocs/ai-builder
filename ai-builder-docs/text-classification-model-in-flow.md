@@ -52,7 +52,7 @@ Congratulations! You've created a flow that uses an AI Builder category classifi
 |**Classification** |string |Table identified|Issues, compliment, customer service, documentation, price & billing, staff |
 |**Confidence score** |float |How confident the model is in its prediction|Value in the range of 0 to 1. Values close to 1 indicate greater confidence that the extracted value is accurate |
 
-### See also
+## Related information
 
 - [Overview of the category classification custom model](text-classification-overview.md)
 - [Training: Get started with AI Builder category classification (module)](/training/modules/ai-builder-category-classification/)

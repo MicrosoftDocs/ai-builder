@@ -77,7 +77,7 @@ For information on security for administrators, go to [Roles and security in AI 
 
 Download and print the AI Builder no code AI Cheat Sheet (landscape poster) to keep it handy. It's a practical guide for anyone exploring AI capabilities within the Power Platform, tailored for ease of use and decision making. This cheat sheet demystifies AI model selection.
 
-### See also
+## Related information
 
 - [Learn about AI model types](model-types.md)
 - [Training: Get started with AI Builder (module)](/training/modules/get-started-with-ai-builder/)
