@@ -116,7 +116,7 @@ For more information about enabling or disabling features in the Power Platform 
 
 By default, the AI prompts feature is enabled for makers to create and experiment with various AI-generated content. Admins can enable or disable this feature as needed.
 
-If you turn off [AI prompts](/ai-builder-docs/prompts-overview.md), you aren't be able to use custom or prebuilt prompts. These prompts are essential for tasks like summarizing, categorizing, translating, text completion and generation, and more. They help automate and streamline your work in Power Automate, Power Apps, and Copilot Studio.
+If you turn off [AI prompts](prompts-overview.md), you aren't be able to use custom or prebuilt prompts. These prompts are essential for tasks like summarizing, categorizing, translating, text completion and generation, and more. They help automate and streamline your work in Power Automate, Power Apps, and Copilot Studio.
 
 An AI prompt is a natural language instruction using a large language model such as GPT, that allows you to perform tasks and serve as a companion to help you meet specific business needs.
 
