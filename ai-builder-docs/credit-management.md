@@ -324,6 +324,11 @@ By default, prompts are created with GPT 3.5 and temperature = 0. Prompts create
 
 Your prompt fails in any context (testing prompt in Prompt Builder, Power Apps, Power Automate, or Copilot Studio). You can edit your prompt and switch the model to GPT 3.5.
 
+### What Licensing applies to AI Builder's AI functions?
+
+These AI Builder's AI functions AISummarize, AIExtract, AIReply, AIClassify, AISentiment are prebuilt prompts available in AI Prompts.
+The licensing which is applicable for these capabilities are in the AI Builder burn rate card "AI Prompts Create text with GPT 3.5" available in the [Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130)
+
 ### Are all tests free?
 
 No. Testing prompts and testing trained models are now free. Testing prebuilt models still consumes credits at the same rate as running them in production.
