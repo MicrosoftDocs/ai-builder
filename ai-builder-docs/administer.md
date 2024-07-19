@@ -8,7 +8,7 @@ contributors:
   - v-aangie
 ms.topic: conceptual
 ms.custom: 
-ms.date: 01/10/2024
+ms.date: 07/22/2024
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---
@@ -53,7 +53,7 @@ For more information on how to distribute an AI model as a solution component, g
 
 AI Builder models are fully moved, along with user data, during environment backup/restore and environment copy operations.
 
-After restore and copy operations, document processing and object detection models may be in the importing state for a few minutes while copies are made in the back end.
+After restore and copy operations, document processing and object detection models might be in the importing state for a few minutes while copies are made in the back end.
 
 ## Backup and restore
 
@@ -64,7 +64,7 @@ Microsoft Dataverse has backup and restore capabilities to help protect your app
   > [!NOTE]
   > For object detection and document processing models, the restore process might take some time to be completed. The AI Builder models list shows an "importing" status message while the restore operation is in progress.
 
-- **For models not supported by backup and restore**: If you restore an environment, you'll have to retrain and republish these models to make them available again.
+- **For models not supported by backup and restore**: If you restore an environment, you have to retrain and republish these models to make them available again.
 
 ## Prerequisite to set up an environment ready for AI Builder
 
@@ -101,16 +101,32 @@ To control AI Builder preview feature availability:
 ### Important points related to enabling or disabling the feature
 
 - If you disable **AI Builder preview models**:
-  - We don't delete existing models that users of this environment have created.
+  - We don't delete existing models that users of this environment created.
   - AI Builder components are disabled.
   - Existing experiences that use existing AI Builder components will fail or return errors.
   - Admins and owners can delete preview models.
 
 - If you enable **AI Builder preview models** again:
   - AI Builder components are available again.
-  - Components function as they did before the feature was disabled (assuming nothing else has changed).
+  - Components function as they did before the feature was disabled (assuming nothing else changed).
 
 For more information about enabling or disabling features in the Power Platform admin center, go to [Manage feature settings](/power-platform/admin/settings-features).
+
+## Enable or disable AI prompts in Power Platform and Copilot Studio
+
+By default, the AI prompts feature is enabled for makers to create and experiment with various AI-generated content. Admins can enable or disable this feature as needed.
+
+If you turn off [AI prompts](/ai-builder-docs/prompts-overview.md), you aren't be able to use custom or prebuilt prompts. These prompts are essential for tasks like summarizing, categorizing, translating, text completion and generation, and more. They help automate and streamline your work in Power Automate, Power Apps, and Copilot Studio.
+
+An AI prompt is a natural language instruction using a large language model such as GPT, that allows you to perform tasks and serve as a companion to help you meet specific business needs.
+
+Without this feature, these advanced capabilities aren't available.
+
+To control AI prompts feature availability:
+
+1. Sign in to [Power Platform admin center](https://admin.powerplatform.microsoft.com).
+1. In the admin center, select **Environments** > *[select an environment]* > **Settings** > **Product** > **Features**.
+1. On the **Features** settings page under **AI Builder**, enable or disable the **AI prompts** the toggle.
 
 ## Data loss prevention (DLP)
 
@@ -122,7 +138,7 @@ Connectors can be listed in three (3) categories: *Business*, *Non-business*, an
 
 - Business and Non-business connectors can’t share data within the same consumption experience in Microsoft Power Platform.
 
-  - For example, if you add the Dataverse connector in the *Business* category, and Microsoft Outlook in the *Non-business* category, you won’t be able to create a Power Automate flow that gets the output of an AI Builder model and sends it to a recipient in Outlook.
+  - For example, if you add the Dataverse connector in the *Business* category, and Microsoft Outlook in the *Non-business* category, you aren't able to create a Power Automate flow that gets the output of an AI Builder model and sends it to a recipient in Outlook.
 
 - Blocked connectors can’t be used in Power Platform consumption experiences.
 
@@ -143,7 +159,7 @@ All your data stored in Power Platform is encrypted at rest using Microsoft-mana
 >
 > Currently, customer-managed keys aren't leveraged to encrypt Object detection trained models. The training data of those modes stored in Dataverse is using customer managed keys.
 
-Applying an encryption key is a gesture performed by Power Platform admins, and is invisible to users. Users can create, save, use, and include in solutions AI Builder models in exactly the same way they would if the data was encrypted by Microsoft-managed keys.
+Applying an encryption key is a gesture performed by Power Platform admins, and is invisible to users. Users can create, save, use, and include in solutions AI Builder models in exactly the same way they can if the data was encrypted by Microsoft-managed keys.
 
 To learn more about the customer-managed key, and get step-by-step instructions to enable customer-managed keys, go to [Manage your customer-managed encryption key](/power-platform/admin/customer-managed-key). This enables you to leverage the single enterprise policy created on the environment to secure AI Builder models.
 
