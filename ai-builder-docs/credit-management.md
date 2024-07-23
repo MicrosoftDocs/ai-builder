@@ -8,7 +8,9 @@ contributors:
   - Antoine2F
   - v-aangie
 ms.topic: conceptual
-ms.date: 07/11/2024
+ms.collection: 
+    - bap-ai-copilot
+ms.date: 07/22/2024
 ms.author: antode
 ms.reviewer: angieandrews
 ---
@@ -323,6 +325,11 @@ By default, prompts are created with GPT 3.5 and temperature = 0. Prompts create
 ### What happens to my prompt using GPT 4 (preview), if the AI Builder preview toggle is switched to off in Power Platform admin center?
 
 Your prompt fails in any context (testing prompt in Prompt Builder, Power Apps, Power Automate, or Copilot Studio). You can edit your prompt and switch the model to GPT 3.5.
+
+### What licensing applies to AI Builder's AI functions?
+
+These AI Builder AI functions&mdash;AISummarize, AIExtract, AIReply, AIClassify, and AISentiment&mdash;are prebuilt prompts available in AI prompts.
+The licensing options applicable to these capabilities are in the AI Builder rate card, "AI prompts, Create text with GPT 3.5" in the [Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130).
 
 ### Are all tests free?
 
