@@ -7,7 +7,6 @@ contributors:
   - -phil-cmd
   - v-aangie
 ms.topic: conceptual
-ms.collection: 
 ms.date: 07/26/2024
 ms.author: antrod
 ms.reviewer: angieandrews
