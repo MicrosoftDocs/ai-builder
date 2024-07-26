@@ -8,9 +8,11 @@ contributors:
   - v-aangie
 ms.topic: conceptual
 ms.collection: 
-ms.date: 06/07/2024
+ms.date: 07/26/2024
 ms.author: antrod
 ms.reviewer: angieandrews
+ms.collection: 
+  - bap-ai-copilot
 ---
 
 # Change the output of your prompt (preview)
@@ -61,13 +63,13 @@ To test and save your prompt, follow these steps:
 
 1. To confirm the newly modified example, select **Apply**.
 1. To check how your prompt response renders with the new format, select **Test prompt**.
-1. When you're done with your modifications, select **Save custom prompt**.
+1. When you finish your modifications, select **Save custom prompt**.
 
     If you skip this step, your changes are lost.
 
     :::image type="content" source="media/change-prompt-output/custom.png" alt-text="Screenshot of the custom format.":::
 
-When you save your prompt, you're locking the latest **Auto-detected** format or the **Custom** format defined. This means when you use your prompt in Power Automate or Power Apps, the saved format is used and it doesn't vary.
+When you save your prompt, you're locking the latest **Auto-detected** format or the **Custom** format defined. This means when you use your prompt in Power Automate or Power Apps, the saved format is used&mdash;it doesn't vary.
 
 At any time, you can check the JSON schema that generates out of the JSON examples by selecting **</>**. You can't modify this schema currently.
 
@@ -95,7 +97,7 @@ The following example shows how you can process an invoice received by email usi
 1. Complete the flow by doing the following steps:
     1. In your flow, select **Create text with GPT using a prompt**.
     1. On the **Parameters** tab in the **Prompt** field, select **prompt with JSON** as the output.
-    1. Add the invoice variable you just created in the prompt input.
+    1. Add the invoice variable you created in the prompt input.
 
 
 The following procedure allows you to easily and safely use multiple values extracted from a text using a prompt.
@@ -105,19 +107,24 @@ The following procedure allows you to easily and safely use multiple values extr
 
     :::image type="content" source="media/change-prompt-output/gpt-output-json-flow.png" alt-text="Screenshot of the email body with the JSON fields.":::
 
-## Frequently asked questions
+## FAQ
 
-### A JSON could not be generated
-You may encounter the following error while testing a prompt: "A JSON could not be generated. Edit your prompt instruction and try again.".
-This may be because the model is enclosing the JSON output with metadata information that prevents successful verification of the required JSON format. Try adding the following instruction to your prompt to resolve the issue: "Don't include JSON markdown in your answer.".
+### A JSON couldn't be generated
+
+You might encounter the following error while testing a prompt: **A JSON could not be generated. Edit your prompt instruction and try again.**
+
+This error might be because the model is enclosing the JSON output with metadata information that prevents successful verification of the required JSON format. Try adding the following instruction to your prompt to resolve the issue: **Don't include JSON markdown in your answer**.
 
 ### No JSON is returned in auto-detect mode
+
 It's possible that no JSON is returned after selecting **Test prompt** with the auto-detect mode activated. It might be because the prompt instructions contradict with the system instruction of returning a JSON. It could be solved by changing the prompt instruction and test again.
 
 ### JSON format isn't updated at prompt runtime
+
 The latest JSON format detected in auto-detect mode or the latest JSON format defined in custom mode is recorded at prompt save time. This recorded JSON format is applied at prompt runtime, ensuring the  consistency of the response format even when dynamic inputs to the prompt are changing.
 
 ## Limitations
+
 - You can't modify a JSON schema.
 - We don't support defining a JSON format without field keys.<br/>
     Example: `["abc", "def"]` isn't supported but `[{"Field1": "abc"}, {"Field1": "def"}]` is supported.
