@@ -107,18 +107,17 @@ The following procedure allows you to easily and safely use multiple values extr
 
 ## Frequently asked questions
 
-### No JSON is returned in auto-detect mode
+### A JSON could not be generated
+You may encounter the following error while testing a prompt: "A JSON could not be generated. Edit your prompt instruction and try again.".
+This may be because the model is enclosing the JSON output with metadata information that prevents successful verification of the required JSON format. Try adding the following instruction to your prompt to resolve the issue: "Don't include JSON markdown in your answer.".
 
+### No JSON is returned in auto-detect mode
 It's possible that no JSON is returned after selecting **Test prompt** with the auto-detect mode activated. It might be because the prompt instructions contradict with the system instruction of returning a JSON. It could be solved by changing the prompt instruction and test again.
 
 ### JSON format isn't updated at prompt runtime
-
 The latest JSON format detected in auto-detect mode or the latest JSON format defined in custom mode is recorded at prompt save time. This recorded JSON format is applied at prompt runtime, ensuring the  consistency of the response format even when dynamic inputs to the prompt are changing.
 
 ## Limitations
-
-- JSON support is available only for Power Automate. We're planning JSON support for Power Apps.
-- We don't support use of the JSON field in Power Apps currently.
 - You can't modify a JSON schema.
 - We don't support defining a JSON format without field keys.<br/>
     Example: `["abc", "def"]` isn't supported but `[{"Field1": "abc"}, {"Field1": "def"}]` is supported.
