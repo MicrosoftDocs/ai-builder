@@ -68,11 +68,11 @@ To guide the copilot's responses in a semi-scripted conversation, add a prompt t
 
 1. Select **From blank** > **Add node**.
 
-    :::image type="content" source="media/use-a-custom-prompt-in-mcs/add-node.png" alt-text="Screenshot of how to add a topic.":::
+    :::image type="content" source="media/use-a-custom-prompt-in-mcs/add-node.png" alt-text="Screenshot of how to add a node.":::
 
 1. From the **Add a node** dropdown menu, select **Call an action** > **Create a prompt** (in the **Basic actions** tab).
 
-    :::image type="content" source="media/use-a-custom-prompt-in-mcs/create-prompt.png" alt-text="Screenshot of how to add a topic.":::
+    :::image type="content" source="media/use-a-custom-prompt-in-mcs/create-prompt.png" alt-text="Screenshot of the 'Create a prompt' action.":::
 
 1. In the **Prompt** field, enter instructions and other pertinent details for your use case.
 
@@ -83,7 +83,7 @@ If you want Copilot to decide whether to invoke the prompt based on the user's q
 1. Do steps 1 through 3 in [Add a prompt to a topic node](#add-a-prompt-to-a-topic-node).
 1. From the **Add node** dropdown menu, select **Call an action** > **Add a plugin action (preview)** (in the **Plugin (preview)** tab).
 
-    :::image type="content" source="media/use-a-custom-prompt-in-mcs/add-plugin.png" alt-text="Screenshot of how to add a topic.":::
+    :::image type="content" source="media/use-a-custom-prompt-in-mcs/add-plugin.png" alt-text="Screenshot of the 'Add a plugin action (preview)' action.":::
 
 1. In the **step 1 of 3: Choose an action** screen, search for and select your prompt in the **Discover an action** field.
 1. Select **Finish**.
