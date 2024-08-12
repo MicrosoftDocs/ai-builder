@@ -3,18 +3,20 @@ title: Use your own data in a prompt
 description: Learn how to use your own data in a prompt to get the answers you need.
 author: CedrickBellarosa
 contributors:
+  - Antrodfr
   - CedrickBellarosa
   - v-aangie
 ms.topic: conceptual
-ms.custom: 
-ms.date: 04/22/2024
-ms.author: cdbellar
+ms.collection: 
+    - bap-ai-copilot
+ms.date: 08/12/2024
+ms.author: antrod
 ms.reviewer: angieandrews
 ---
 
 # Use your own data in a prompt
 
-Custom prompts enable makers to use generative AI models addressing various type of content generation scenarios. These models use their default knowledge included in their training data to answer. However, this knowledge isn't sufficient to deal with use cases requiring business specific data context.
+Custom prompts enable makers to use generative AI models addressing various types of content generation scenarios. These models use their default knowledge included in their training data to answer. However, this knowledge isn't sufficient to deal with use cases requiring business specific data context.
 
 This point is where data Retrieval Augmented Generation (RAG) allows you to provide external information to augment the knowledge of the model. This augmentation can result in getting the answers you need.
 
@@ -24,9 +26,7 @@ Makers can use the **Data used** option to select one Dataverse table. The field
 
 :::image type="content" source="media/use-your-own-prompt-data/add-data.png" alt-text="Screenshot of how to select a Dataverse table as data to be used in the prompt builder.":::
 
-You can filter the data, which is retrieved by expanding the table and selecting the filtered field and **Filter value**. The value can be a free-form text, an input of the prompt, or when filtering on a *choice* or *option set* as one of its named values.
-
-To learn more about choices and option sets, go to [Types of columns](/power-apps/maker/data-platform/types-of-fields).
+You can filter the data, which is retrieved by expanding the table and selecting the filtered field and **Filter value**. The value can be free-form text or an input of the prompt.
 
 :::image type="content" source="media/use-your-own-prompt-data/filter-data.png" alt-text="Sscreenshot of how to filter the 'Opportunity' table's 'Status' based on inputs defined in the prompt builder or a list of values.":::
 
@@ -60,6 +60,7 @@ The following list describes the limitations of using your own data in a prompt.
     For example, you can use `Account.'Company Name (Contact)'.Name` and `Account.'Preferred User (User)'.'Last Name'` but not `Account.'Company Name (Contact)'.'Connected To (Connection)'.'Connection Name'`.
 
 - The total number of records that can be retrieved is limited to 1,000.
+- Filtering on choice/option set column isn't supported yet.
 
 ## Related information
 
