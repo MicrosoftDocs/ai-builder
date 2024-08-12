@@ -24,9 +24,7 @@ Makers can use the **Data used** option to select one Dataverse table. The field
 
 :::image type="content" source="media/use-your-own-prompt-data/add-data.png" alt-text="Screenshot of how to select a Dataverse table as data to be used in the prompt builder.":::
 
-You can filter the data, which is retrieved by expanding the table and selecting the filtered field and **Filter value**. The value can be a free-form text, an input of the prompt, or when filtering on a *choice* or *option set* as one of its named values.
-
-To learn more about choices and option sets, go to [Types of columns](/power-apps/maker/data-platform/types-of-fields).
+You can filter the data, which is retrieved by expanding the table and selecting the filtered field and **Filter value**. The value can be a free-form text or an input of the prompt.
 
 :::image type="content" source="media/use-your-own-prompt-data/filter-data.png" alt-text="Sscreenshot of how to filter the 'Opportunity' table's 'Status' based on inputs defined in the prompt builder or a list of values.":::
 
@@ -60,6 +58,7 @@ The following list describes the limitations of using your own data in a prompt.
     For example, you can use `Account.'Company Name (Contact)'.Name` and `Account.'Preferred User (User)'.'Last Name'` but not `Account.'Company Name (Contact)'.'Connected To (Connection)'.'Connection Name'`.
 
 - The total number of records that can be retrieved is limited to 1,000.
+- Filtering on choice/option set column isn't yet supported.
 
 ## Related information
 
