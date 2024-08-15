@@ -4,12 +4,13 @@ description: Learn how to create and use your prompt in Copilot Studio.
 author: phil-cmd
 contributors:
   - phil-cmd
+  - 
   - v-aangie
 ms.topic: conceptual
 ms.collection: 
 - get-started
 - bap-ai-copilot
-ms.date: 07/31/2024
+ms.date: 08/16/2024
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---
