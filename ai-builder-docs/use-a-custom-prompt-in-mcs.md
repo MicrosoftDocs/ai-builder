@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.collection: 
 - get-started
 - bap-ai-copilot
-ms.date: 08/16/2024
+ms.date: 08/19/2024
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
 # Use your prompt in Copilot Studio
 
-Use prompt in Copilot Studio to natural language actions as copilot extensions. These actions use the generative AI models from AI Builder and natural language understanding to address specific scenarios for your copilots. This means you can extend the capabilities of your copilots by simply creating natural language based prompt actions.
+Use *prompt in Copilot Studio* to natural language actions as copilot extensions. These actions use the generative AI models from AI Builder and natural language understanding to address specific scenarios for your copilots. This means you can extend the capabilities of your copilots by simply creating natural language based prompt actions.
 
 This article explains the two ways to extend copilots with prompt actions:
 
@@ -37,39 +37,43 @@ This article explains the two ways to extend copilots with prompt actions:
 
 ## Create a prompt action
 
-One of the ways to extend Microsoft copilots is prompt action. It does this by creating business specific natural language actions. The actions are interpretted by the GPT model to perform the necessary action as instructed. These actions are wrapped within a AI plugin definition, which copilots can invoke at runtime when a matching intent or utterance is encountered.
+Prompt actions are one of the ways to extend Microsoft Copilots. They do this by creating business specific natural language actions. The actions are interpretted by the GPT model to perform the necessary action as instructed. These actions are wrapped within a AI plugin definition, which copilots can invoke at runtime when a matching intent or utterance is encountered.
 
 1. Sign in to [Copilot Studio](https://copilotstudio.microsoft.com/).
 1. From the left navigation menu, select **Create**.
 1. Select **New Microsoft Copilot action** > **Copilot for Microsoft 365** > **New action** > **Prompt**.
 
-    The **Add a prompt action** wizard opens. This is a step-by-step guide for how to create a prompt action.
+    The **Add a prompt action** wizard opens.
 
-    1. The first step in the wizard is **Action details**. In the **Action name** and **Description** fields, add actions like a name and description of the action.
+### Use the wizard to create a prompt action
 
-        These are used by the copilot to perform a semantic matching of the action with the user query.
+ The **Add a prompt action** is a step-by-step guide for how to create a prompt action.
 
-    1. The second step in the wizard is **Create prompt**. This is where you enter the natural language action to describe the task you want GPT to perform.
+ 1. The first step is **Action details**. In the **Action name** and **Description** fields, add action details like a name and description of the action.
 
-        1. In the **Prompt** field, enter instructions and data that will be used to generate the response pertinent details for the use case. To enable Copilot to pass important pieces of information at the runtime to the prompt action, add input variables. Write your own instructions or begin from one of the existing prompt templates. Examples of prompts are `Summarize text`, `Extract information from text`, and `Classify text`.
+     These details are used by the copilot to perform a semantic matching of the action with the user query.
 
-            :::image type="content" source="media/use-a-custom-prompt-in-mcs/add-prompt-action.png" alt-text="Screenshot of how to add a prompt action.":::
+1. The second step is **Create prompt**. This screen is where you enter the natural language action to describe the task you want GPT to perform.
 
-        1. Try out your prompt by selecting **Test prompt**. Your prompt is generated and appears in the **Prompt response** field. You might need to revise and iterate on your prompt to meet your needs. 
-        1. When the prompt response looks good, select **Save custom prompt**.
-    1. The third step in the wizard is **Select action parameters**. This step ensures descriptive input and output names are selected such that Copilot is able to prefill it with information from user utterance and consume the output from the prompt action.
+    1. In the **Prompt** field, enter instructions and data that will be used to generate the response pertinent details for the use case. To enable Copilot to pass important pieces of information at the runtime to the prompt action, add input variables. Write your own instructions or begin from one of the existing prompt templates. Examples of prompts are `Summarize text`, `Extract information from text`, and `Classify text`.
 
-        1. In the **Input parameters** section, add the input variables that the prompt action needs to generate the response. These are the variables that you want to pass to the prompt action at runtime. You can add multiple input variables.
-        1. In the **Output parameters** section, add the output variables that the prompt action generates. These are the variables that you want to receive from the prompt action at runtime. You can add multiple output variables.
+        :::image type="content" source="media/use-a-custom-prompt-in-mcs/add-prompt-action.png" alt-text="Screenshot of how to add nstructions and data to a prompt.":::
 
-1. The fourth step in the wizard is **Review and test**. This step presents the opportunity for a copilot developer to test the prompt plugin by side-loading it in the Copilot for Microsoft 365.
+    1. Try out your prompt by selecting **Test prompt**. Your prompt is generated and appears in the **Prompt response** field. You might need to revise and iterate on your prompt to meet your needs.
+    1. When you're satisfied with the prompt response, select **Save custom prompt**.
+1. The third step is **Select action parameters**. This step ensures descriptive input and output names are selected such that Copilot is able to prefill it with information from user utterance and consume the output from the prompt action.
+
+    1. In the **Input parameters** section, add the input variables that the prompt action needs to generate the response. These are the variables that you want to pass to the prompt action at runtime. You can add multiple input variables.
+    1. In the **Output parameters** section, add the output variables that the prompt action generates. These are the variables that you want to receive from the prompt action at runtime. You can add multiple output variables.
+
+1. The fourth step is **Review and test**. This step presents the opportunity for a copilot developer to test the prompt plugin by side-loading it in the Copilot for Microsoft 365.
     1. To test the prompt plugin, select **Test action**.
     1. When it's ready to be tested on Copilopt for Microsoft 365, select **Open to test**.
     1. After you test the prompt and verify that it will perform as expected, select **Publish**.
 
-        :::image type="content" source="media/use-a-custom-prompt-in-mcs/review-test-publish.png" alt-text="Screenshot of how to add a prompt action.":::
+        :::image type="content" source="media/use-a-custom-prompt-in-mcs/review-test-publish.png" alt-text="Screenshot of how to test and publish your prompt.":::
 
-1. To see the confirmation message, select the fifth option in the wizard, **Publish**. This message displays: **Your prompt action is now published to Copilot for Microsoft 365**.
+1. The fifth step is **Publish**. Select it to see the confirmation message, **Your prompt action is now published to Copilot for Microsoft 365**.
 
     It might take a few minutes for your action to show up in copilot experiences. Meanwhile, you can review information about using and administering actions in [Copilot for Microsoft 365](/copilot/microsoft-365/).
 
@@ -79,16 +83,11 @@ To guide the copilot's responses in a semi-scripted conversation, add a prompt t
 
 1. On the left navigation menu, select **Copilots**, and then select your custom copilot.
 1. On the menu at the top of the screen, select **Topics** > **Add a topic**.
-
-    :::image type="content" source="media/use-a-custom-prompt-in-mcs/add-topic.png" alt-text="Screenshot of how to add a topic.":::
-
 1. Select **From blank** > **Add node**.
 
     :::image type="content" source="media/use-a-custom-prompt-in-mcs/add-node.png" alt-text="Screenshot of how to add a node.":::
 
 1. From the **Add a node** dropdown menu, select **Call an action** > **Create a prompt** (in the **Basic actions** tab).
-
-    :::image type="content" source="media/use-a-custom-prompt-in-mcs/create-prompt.png" alt-text="Screenshot of the 'Create a prompt' action.":::
 
 1. In the **Prompt** field, enter instructions and other pertinent details for your use case.
 
@@ -101,7 +100,7 @@ If you want Copilot to decide whether to invoke the prompt based on the user's q
 
     :::image type="content" source="media/use-a-custom-prompt-in-mcs/add-plugin.png" alt-text="Screenshot of the 'Add a plugin action (preview)' action.":::
 
-1. In the **step 1 of 3: Choose an action** screen, search for and select your prompt in the **Discover an action** field.
+1. In the **Step 1 of 3: Choose an action** screen, search for and select your prompt in the **Discover an action** field.
 1. Select **Finish**.
 
 ## Related information
