@@ -47,7 +47,7 @@ Prompt actions are one of the ways to extend Microsoft Copilots. They do this by
 
 ### Use the wizard to create a prompt action
 
- The **Add a prompt action** is a step-by-step guide for how to create a prompt action.
+ The **Add a prompt action** wizard is a step-by-step guide for how to create a prompt action.
 
  1. The first step is **Action details**. In the **Action name** and **Description** fields, add action details like a name and description of the action.
 
