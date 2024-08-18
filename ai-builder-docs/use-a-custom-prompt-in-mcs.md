@@ -37,7 +37,7 @@ This article explains the two ways to extend copilots with prompt actions:
 
 ## Create a prompt action
 
-Prompt actions are one of the ways to extend Microsoft Copilots. They do this by creating business specific natural language actions. The actions are interpretted by the GPT model to perform the necessary action as instructed. These actions are wrapped within a AI plugin definition, which copilots can invoke at runtime when a matching intent or utterance is encountered.
+Prompt actions are one of the ways to extend Microsoft Copilots. They do this by creating business specific natural language actions. The actions are interpreted by the GPT model to perform the necessary action as instructed. These actions are wrapped within a AI plugin definition, which copilots can invoke at runtime when a matching intent or utterance is encountered.
 
 1. Sign in to [Copilot Studio](https://copilotstudio.microsoft.com/).
 1. From the left navigation menu, select **Create**.
@@ -57,7 +57,7 @@ Prompt actions are one of the ways to extend Microsoft Copilots. They do this by
 
     1. In the **Prompt** field, enter instructions and data that will be used to generate the response pertinent details for the use case. To enable Copilot to pass important pieces of information at the runtime to the prompt action, add input variables. Write your own instructions or begin from one of the existing prompt templates. Examples of prompts are `Summarize text`, `Extract information from text`, and `Classify text`.
 
-        :::image type="content" source="media/use-a-custom-prompt-in-mcs/add-prompt-action.png" alt-text="Screenshot of how to add nstructions and data to a prompt.":::
+        :::image type="content" source="media/use-a-custom-prompt-in-mcs/add-prompt-action.png" alt-text="Screenshot of how to add instructions and data to a prompt.":::
 
     1. Try out your prompt by selecting **Test prompt**. Your prompt is generated and appears in the **Prompt response** field. You might need to revise and iterate on your prompt to meet your needs.
     1. When you're satisfied with the prompt response, select **Save custom prompt**.
@@ -68,7 +68,7 @@ Prompt actions are one of the ways to extend Microsoft Copilots. They do this by
 
 1. The fourth step is **Review and test**. This step presents the opportunity for a copilot developer to test the prompt plugin by side-loading it in the Copilot for Microsoft 365.
     1. To test the prompt plugin, select **Test action**.
-    1. When it's ready to be tested on Copilopt for Microsoft 365, select **Open to test**.
+    1. When it's ready to be tested on Copilot for Microsoft 365, select **Open to test**.
     1. After you test the prompt and verify that it will perform as expected, select **Publish**.
 
         :::image type="content" source="media/use-a-custom-prompt-in-mcs/review-test-publish.png" alt-text="Screenshot of how to test and publish your prompt.":::
@@ -108,7 +108,7 @@ If you want Copilot to decide whether to invoke the prompt based on the user's q
 - [Try prompt builder](https://aka.ms/tryprompts) 
 - [Prompt engineering guide](https://aka.ms/promptguide)
 - [Use prompts to make your copilot perform specific tasks](/microsoft-copilot-studio/nlu-prompt-node)
-- [How to use topics in a custom Copilot Studio](https://community.powerplatform.com/galleries/gallery-posts/?postid=a2fdb837-08bf-4011-a03b-66f27a10aa31)
+- [How to use topics in a custom copilot in Copilot Studio](https://community.powerplatform.com/galleries/gallery-posts/?postid=a2fdb837-08bf-4011-a03b-66f27a10aa31)
 - [Generate content or extract insights with AI Builder prompts](/microsoft-copilot-studio/copilot-ai-plugins?tabs=m365#generate-content-or-extract-insights-with-ai-builder-prompts)
 - [Create AI plugin actions for Microsoft Copilot (preview)](/microsoft-copilot-studio/copilot-ai-plugins?tabs=m365#generate-content-or-extract-insights-with-ai-builder-dynamic-prompts)
 
