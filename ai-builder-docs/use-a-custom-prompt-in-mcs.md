@@ -10,7 +10,7 @@ ms.topic: conceptual
 ms.collection: 
 - get-started
 - bap-ai-copilot
-ms.date: 08/19/2024
+ms.date: 08/20/2024
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---
@@ -51,11 +51,11 @@ Prompt actions are one of the ways to extend Microsoft Copilots. They do this by
 
  1. The first step is **Action details**. In the **Action name** and **Description** fields, add action details like a name and description of the action.
 
-     These details are used by the copilot to perform a semantic matching of the action with the user query.
+     These details are used by the copilot to perform a semantic matching of the action with the user query. Under **Solution**, a dropdown menu lists all solutions available within the current environment. If you defined a preferred solution, then it's preselected. Otherwise, select the solution you want to use. As an alternative, leave it for the wizard to auto create a new solution for this action.
 
 1. The second step is **Create prompt**. This screen is where you enter the natural language action to describe the task you want GPT to perform.
 
-    1. In the **Prompt** field, enter instructions and data that will be used to generate the response pertinent details for the use case. To enable Copilot to pass important pieces of information at the runtime to the prompt action, add input variables. Write your own instructions or begin from one of the existing prompt templates. Examples of prompts are `Summarize text`, `Extract information from text`, and `Classify text`.
+    1. In the **Prompt** field, enter instructions and data that's used to generate the response pertinent details for the use case. To enable Copilot to pass important pieces of information at the runtime to the prompt action, add input variables. Write your own instructions or begin from one of the existing prompt templates. Examples of prompts are `Summarize text`, `Extract information from text`, and `Classify text`.
 
         :::image type="content" source="media/use-a-custom-prompt-in-mcs/add-prompt-action.png" alt-text="Screenshot of how to add instructions and data to a prompt.":::
 
@@ -64,7 +64,7 @@ Prompt actions are one of the ways to extend Microsoft Copilots. They do this by
 1. The third step is **Select action parameters**. This step ensures descriptive input and output names are selected such that Copilot is able to prefill it with information from user utterance and consume the output from the prompt action.
 
     1. In the **Input parameters** section, add the input variables that the prompt action needs to generate the response. These are the variables that you want to pass to the prompt action at runtime. You can add multiple input variables.
-    1. In the **Output parameters** section, add the output variables that the prompt action generates. These are the variables that you want to receive from the prompt action at runtime. You can add multiple output variables.
+    1. In the **Output parameters** section, add the output variables that the prompt action generates. These are the variables that you want to receive from the prompt action at runtime.
 
 1. The fourth step is **Review and test**. This step presents the opportunity for a copilot developer to test the prompt plugin by side-loading it in the Copilot for Microsoft 365.
     1. To test the prompt plugin, select **Test action**.
