@@ -87,9 +87,15 @@ To guide the copilot's responses in a semi-scripted conversation, add a prompt t
 
     :::image type="content" source="media/use-a-custom-prompt-in-mcs/add-node.png" alt-text="Screenshot of how to add a node.":::
 
-1. From the **Add a node** dropdown menu, select **Call an action** > **Create a prompt** (in the **Basic actions** tab).
+1. From the **Add a node** dropdown menu, select **Call an action** > **Create a prompt** (in the **Basic actions** tab). You can also select an existing prompt to from the pop-up menu, as an action node for current topic.
+<img width="654" alt="image" src="https://github.com/user-attachments/assets/db0cbdcb-66cc-4699-a027-16bd7e464b79">
 
-1. In the **Prompt** field, enter instructions and other pertinent details for your use case.
+1. In the **Prompt** field, enter the prompt instructions, grounding data (if needed) and input varialables, relevant for the use case. The instruction define the action goal for the GPT model, data define the knowledge to be leveraged to act on the goals and input variable are placeholder for the information that the copilot will send to this action at the runtime while invoking the action.
+1. Select **Test prompt** button to test the output for you prompt, and ensure that the respose are compliant with the goals of this action. Do remember to provide sample input data that closely resembles the data that Copilot will be passing to this prompt action.
+<img width="901" alt="image" src="https://github.com/user-attachments/assets/f931a0eb-4e90-4c56-be89-36c205b148e3">
+1. Select **Save custom prompt** to finalize and save the action. A new node will get added to the topic workflow.
+1. You need to connect the input and output parameters of the prompt action node with input and output varaibles in the Topic.
+1. **Save** and **Test** the newly edited topic to ensure that its compliant with the expectation.
 
 ## Add a prompt to an AI plugin
 
