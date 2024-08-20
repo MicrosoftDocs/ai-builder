@@ -69,7 +69,7 @@ Prompt actions are one of the ways to extend Microsoft Copilots. They do this by
 1. The fourth step is **Review and test**. This step presents the opportunity for a copilot developer to test the prompt plugin by side-loading it in the Copilot for Microsoft 365.
     1. To test the prompt plugin, select **Test action**.
     1. When it's ready to be tested on Copilot for Microsoft 365, select **Open to test**.
-    1. After you test the prompt and verify that it will perform as expected, select **Publish**.
+    1. After you test the prompt and verify that it performs as expected, select **Publish**.
 
         :::image type="content" source="media/use-a-custom-prompt-in-mcs/review-test-publish.png" alt-text="Screenshot of how to test and publish your prompt.":::
 
@@ -87,14 +87,17 @@ To guide the copilot's responses in a semi-scripted conversation, add a prompt t
 
     :::image type="content" source="media/use-a-custom-prompt-in-mcs/add-node.png" alt-text="Screenshot of how to add a node.":::
 
-1. From the **Add a node** dropdown menu, select **Call an action** > **Create a prompt** (in the **Basic actions** tab). You can also select an existing prompt to from the pop-up menu, as an action node for current topic.
-<img width="654" alt="image" src="https://github.com/user-attachments/assets/db0cbdcb-66cc-4699-a027-16bd7e464b79">
+1. From the **Add a node** dropdown menu, select **Call an action** > **Create a prompt** (in the **Basic actions** tab). You can also select an existing prompt from the pop-up menu as an action node for current topic.
 
-1. In the **Prompt** field, enter the prompt instructions, grounding data (if needed) and input varialables, relevant for the use case. The instruction define the action goal for the GPT model, data define the knowledge to be leveraged to act on the goals and input variable are placeholder for the information that the copilot will send to this action at the runtime while invoking the action.
-1. Select **Test prompt** button to test the output for you prompt, and ensure that the respose are compliant with the goals of this action. Do remember to provide sample input data that closely resembles the data that Copilot will be passing to this prompt action.
-<img width="901" alt="image" src="https://github.com/user-attachments/assets/f931a0eb-4e90-4c56-be89-36c205b148e3">
-1. Select **Save custom prompt** to finalize and save the action. A new node will get added to the topic workflow.
-1. You need to connect the input and output parameters of the prompt action node with input and output varaibles in the Topic.
+    :::image type="content" source="media/use-a-custom-prompt-in-mcs/call-an-action.png" alt-text="Screenshot of selecting an action.":::
+
+1. In the **Prompt** field, enter the prompt instructions, grounding data (if needed), and input variables relevant for the use case. The instructions define the action goal for the GPT model, data defines the knowledge that's leveraged to act on the goals, and input variables are placeholders for the information that the copilot sends to this action at the runtime while invoking the action.
+1. Select **Test prompt** to test the output for you prompt, and ensure that the responses are compliant with the goals of this action. Provide sample input data that closely resembles the data that Copilot passes to this prompt action.
+
+    :::image type="content" source="media/use-a-custom-prompt-in-mcs/test-prompt.png" alt-text="Screenshot of testing your prompt.":::
+
+1. To finalize and save the action, select **Save custom prompt**. A new node gets added to the topic workflow.
+1. Connect the input and output parameters of the prompt action node with input and output variables in the topic.
 1. **Save** and **Test** the newly edited topic to ensure that its compliant with the expectation.
 
 ## Add a prompt to an AI plugin
