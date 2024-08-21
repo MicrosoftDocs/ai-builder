@@ -28,7 +28,7 @@ Custom prompts give makers the freedom to instruct the GPT model to behave in a 
 
 The following list of supported languages for AI prompts in AI Builder is subject to be updated:
 
-Chinese (Simplified), Czech (Czech Republic), Danish (Denmark), Dutch (Netherlands), English (United States), Finnish (Finland), French (France), German (Germany), Greek (Greece), Italian (Italy), Japanese (Japan), Korean (Korea), Polish (Poland), Portuguese (Brazil), Russian (Russia), Spanish (Spain), Swedish (Sweden), Thai (Thailand), Turkish (Turkey)
+Chinese (Simplified), Czech (Czech Republic), Danish (Denmark), Dutch (Netherlands), English (United States), Finnish (Finland), French (France), German (Germany), Greek (Greece), Italian (Italy), Japanese (Japan), Korean (Korea), Polish (Poland), Portuguese (Brazil), Russian (Russia), Spanish (Spain), Swedish (Sweden), Thai (Thailand), Turkish (Türkiye)
 
 ## Use specific text for more relevant responses
 
