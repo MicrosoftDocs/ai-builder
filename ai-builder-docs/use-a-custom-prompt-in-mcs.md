@@ -10,7 +10,7 @@ ms.topic: conceptual
 ms.collection: 
 - get-started
 - bap-ai-copilot
-ms.date: 08/20/2024
+ms.date: 08/22/2024
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---
@@ -53,7 +53,7 @@ Prompt actions are one of the ways to extend Microsoft Copilots. They do this by
 
      These details are used by the copilot to perform a semantic matching of the action with the user query. Under **Solution**, a dropdown menu lists all solutions available within the current environment. If you defined a preferred solution, then it's preselected. Otherwise, select the solution you want to use. As an alternative, leave it for the wizard to auto create a new solution for this action.
 
-    :::image type="content" source="media/use-a-custom-prompt-in-mcs/name-description.png" alt-text="Screenshot of how to add instructions and data to a prompt.":::
+    :::image type="content" source="media/use-a-custom-prompt-in-mcs/name-description.png" alt-text="Screenshot of prompt details.":::
 
 1. The second step is **Create prompt**. This screen is where you enter the natural language action to describe the task you want GPT to perform.
 
