@@ -87,9 +87,6 @@ To guide the copilot's responses in a semi-scripted conversation, add a prompt t
 1. In the **Prompt** field, enter the prompt instructions, grounding data (if needed), and input variables relevant for the use case.
 
 1. To test the output for your prompt, select **Test prompt**.
-
-    :::image type="content" source="media/use-a-custom-prompt-in-mcs/test-prompt.png" alt-text="Screenshot of testing your prompt.":::
-
 1. To finalize and save the action, select **Save custom prompt**. A new node gets added to the topic workflow.
 1. Connect the input and output parameters of the prompt action node with input and output variables in the topic.
 1. To ensure your newly edited topic is compliant with the expectation, save and test it.
@@ -101,6 +98,8 @@ If you want Copilot to decide whether to invoke the prompt based on the user's q
 1. Do steps 1 through 3 in [Add a prompt to a topic node](#add-a-prompt-to-a-topic-node).
 
 1. From the **Add node** dropdown menu, select **Call an action** > **Add a plugin action (preview)** (in the **Plugin (preview)** tab).
+
+    :::image type="content" source="media/use-a-custom-prompt-in-mcs/add-plugin.png" alt-text="Screenshot of the 'Add a plugin action (preview)' action.":::
 
 1. In the **Step 1 of 3: Choose an action** screen, search for and select your prompt in the **Discover an action** field.
 
