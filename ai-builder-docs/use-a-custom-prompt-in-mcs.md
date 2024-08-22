@@ -100,7 +100,7 @@ To guide the copilot's responses in a semi-scripted conversation, add a prompt t
 
 1. To finalize and save the action, select **Save custom prompt**. A new node gets added to the topic workflow.
 1. Connect the input and output parameters of the prompt action node with input and output variables in the topic.
-1. **Save** and **Test** the newly edited topic to ensure that its compliant with the expectation.
+1. **Save** and **Test** the newly edited topic to ensure that it's compliant with the expectation.
 
 ## Add a prompt to an AI plugin
 
