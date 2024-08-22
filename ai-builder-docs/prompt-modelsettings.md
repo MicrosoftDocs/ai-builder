@@ -28,6 +28,7 @@ The dropdown menu allows you to select among the generative AI models, which gen
 The standard model is a generally available (GA) GPT model. As of May 2024, this model is GPT 3.5. Previous prompts made with the prompt builder use this default model. The specific version in use is GPT 3.5 turbo 0125. When applied in Power Apps or Power Automate, the GPT 3.5 model consumes AI Builder credits.
 
 Another available model is also a generally available (GA) GPT model, specifically GPT 4. The exact version for this model is GPT 4o. When applied in Power Apps or Power Automate, the GPT 4 model consumes AI Builder credits.
+
 Please note that these exact versions may be subject to change.
 
 
