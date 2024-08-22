@@ -7,7 +7,7 @@ contributors:
   - Antoine2F
   - v-aangie
 ms.topic: conceptual
-ms.date: 07/15/2024
+ms.date: 08/22/2024
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---
@@ -21,16 +21,16 @@ When you create a custom prompt in prompt builder, the panel on the right includ
 
 This article explores the impact of these parameters.
 
-## Version of generative AI model
+## Version of a generative AI model
 
 The dropdown menu allows you to select among the generative AI models, which generate the answer to your custom prompt.
 
-The standard model is a generally available (GA) GPT model. As of May 2024, this model is GPT 3.5. Previous prompts made with the prompt builder use this default model. The specific version in use is GPT 3.5 turbo 0125. When applied in Power Apps or Power Automate, the GPT 3.5 model consumes AI Builder credits.
+The standard model is a generally available (GA) GPT model. As of May 2024, this model is GPT-3.5. Previous prompts made with the prompt builder use GPT-3.5 as the default. The specific version in use is gpt-3.5-turbo-0125.
+The GPT-4o model is also a GA GPT model.
 
-Another available model is also a generally available (GA) GPT model, specifically GPT 4. The exact version for this model is GPT 4o. When applied in Power Apps or Power Automate, the GPT 4 model consumes AI Builder credits.
+When applied in Power Apps or Power Automate, the GPT-3.5 and GPT-4o models consume AI Builder credits.
 
-Please note that these exact versions may be subject to change.
-
+These exact versions might be subject to change.
 
 ### Choose a model
 
@@ -38,8 +38,8 @@ Choose between the models based on status, licensing rules, and functionalities.
 
 |GPT model  |Status  |Version |Licensing rules   | Functionalities| Region availabilities |
 |---------|---------|---------|---------|---------|---------|
-|GPT 3.5| GA - Default model | gpt-3.5-turbo-0125	| Consumes credits in Power Apps and Power Automate. More information: [Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130)  | Trained on data up to September 2021. Context allowed up to 16k tokens | [Feature availability by regions for prompts](availability-region.md)
-| GPT 4 | GA | gpt-4o	| Consumes credits in Power Apps and Power Automate. More information: [Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130)  | GPT-4o has knowledge up to October 2023 and has a context length of 128k tokens. Multilingual enhanced proficiency. Better than GPT 3.5 in technical redaction and creativity. | [Feature availability by regions for prompts](availability-region.md)|
+|GPT-3.5| GA - Default model | gpt-3.5-turbo-0125	| Consumes credits in Power Apps and Power Automate. More information: [Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130)  | Trained on data up to September 2021. Context allowed up to 16k tokens | [Feature availability by regions for prompts](availability-region.md)
+| GPT-4 | GA | GPT-4o	| Consumes credits in Power Apps and Power Automate. More information: [Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130)  | GPT-4o has knowledge up to October 2023 and has a context length of 128k tokens. Multilingual enhanced proficiency. Better than GPT-3.5 in technical redaction and creativity. | [Feature availability by regions for prompts](availability-region.md)|
 
 ### Use of AI prompts in context of Microsoft Copilot Studio
 
