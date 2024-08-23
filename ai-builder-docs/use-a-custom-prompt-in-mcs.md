@@ -1,5 +1,5 @@
 ---
-title: Use your prompt in Copilot Studio
+title: Use your prompt actions in Copilot Studio
 description: Learn how to create and use your prompt in Copilot Studio.
 author: phil-cmd
 contributors:
@@ -15,7 +15,7 @@ ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
-# Use your prompt in Copilot Studio
+# Use your prompt actions in Copilot Studio
 
 Use *prompt in Copilot Studio* to natural language actions as copilot extensions. These actions use the generative AI models from AI Builder and natural language understanding to address specific scenarios for your copilots. This means you can extend the capabilities of your copilots by simply creating natural language based prompt actions.
 
