@@ -1,7 +1,7 @@
 ---
 title: Model selection and temperature settings
 description: Learn about the settings parameter in prompt builder.
-author: Antoine2F
+author: Phil-cmd
 contributors:
   - Phil-cmd
   - Antoine2F
