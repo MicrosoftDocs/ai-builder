@@ -10,7 +10,7 @@ ms.topic: conceptual
 ms.collection: 
 - get-started
 - bap-ai-copilot
-ms.date: 08/22/2024
+ms.date: 08/27/2024
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---
