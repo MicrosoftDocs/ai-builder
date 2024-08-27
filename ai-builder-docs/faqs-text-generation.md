@@ -1,7 +1,7 @@
 ---
 title: FAQ for prompts and text generation capabilities
 description: Learn about the AI technology used in prompts, key considerations and details about how the AI is used, how it was tested and evaluated, and limitations.
-ms.date: 04/05/2024
+ms.date: 08/27/2024
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: conceptual
@@ -64,8 +64,8 @@ The GPT-3.5 Turbo model is hosted on Azure OpenAI Service. To access it, you can
 To learn more, go to [What's new in Azure OpenAI Service?](/azure/ai-services/openai/whats-new)
 
 ## Is my data used to train or improve the large language models available on AI Builder?
-AI Builder prompts run on Azure OpenAI Service hosted by Microsoft. Customer data is not used to train or improve any of the Azure OpenAI
-Service foundation models. Microsoft does not share your customer data with a third party unless you’ve granted permission to do so. Neither customer prompts (input) with its grounding data nor the model responses (output) are used to train or improve Azure OpenAI Service foundation models.
+
+AI Builder prompts run on Azure OpenAI Service hosted by Microsoft. Customer data isn't used to train or improve any of the Azure OpenAI Service foundation models. Microsoft doesn't share your customer data with a third party unless you’ve granted permission to do so. Neither customer prompts (input) with its grounding data nor the model responses (output) are used to train or improve Azure OpenAI Service foundation models.
 
 ## Is the content added to the 'Create text with GPT using a prompt' action publicly accessible?
 
