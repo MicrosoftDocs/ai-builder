@@ -65,7 +65,7 @@ To learn more, go to [What's new in Azure OpenAI Service?](/azure/ai-services/op
 
 ## Is my data used to train or improve the large language models available on AI Builder?
 
-AI Builder prompts run on Azure OpenAI Service hosted by Microsoft. Customer data isn't used to train or improve any of the Azure OpenAI Service foundation models. Microsoft doesn't share your customer data with a third party unless you’ve granted permission to do so. Neither customer prompts (input) with its grounding data nor the model responses (output) are used to train or improve Azure OpenAI Service foundation models.
+AI Builder prompts run on Azure OpenAI Service hosted by Microsoft. Customer data is not used to train or improve any of the Azure OpenAI Service foundation models. Microsoft does not share your customer data with a third party unless you’ve granted permission to do so. Neither customer prompts (input) with its grounding data nor the model responses (output) are used to train or improve Azure OpenAI Service foundation models.
 
 ## Is the content added to the 'Create text with GPT using a prompt' action publicly accessible?
 
