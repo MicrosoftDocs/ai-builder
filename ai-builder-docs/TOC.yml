@@ -37,6 +37,8 @@
     href: use-your-own-prompt-data.md    
   - name: Share your prompt
     href: share-your-prompt.md 
+  - name: Use your prompt actions in Copilot Studio
+    href: use-a-custom-prompt-in-mcs.md
   - name: Use your prompt in Power Apps
     href: use-a-custom-prompt-in-app.md
   - name: Use your prompt in Power Automate
