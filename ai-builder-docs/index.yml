@@ -52,7 +52,9 @@ landingContent:
           - text: Use your own data in a prompt
             url: use-your-own-prompt-data.md
           - text: Share your prompt
-            url: share-your-prompt.md 
+            url: share-your-prompt.md
+          - text: Use prompt actions in Copilot Studio
+            url: use-a-custom-prompt-in-mcs.md
           - text: Use in Power Apps
             url: use-a-custom-prompt-in-app.md
           - text: Use in Power Automate
