@@ -35,8 +35,8 @@ landingContent:
             url: /training/browse/?products=ai-builder
        - linkListType: video
          links:
-          - text: Overview of AI Builder capabilities
-            url: https://www.youtube.com/watch?v=MGtomFKVDys
+          - text: Use AI Builder GPT to extract information from documents
+            url: https://www.youtube.com/watch?v=wRruAfioXBE
 
   # Card
   - title: Create and use prompts
