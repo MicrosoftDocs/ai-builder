@@ -1,7 +1,7 @@
 ---
 title: FAQ for prompts and text generation capabilities
 description: Learn about the AI technology used in prompts, key considerations and details about how the AI is used, how it was tested and evaluated, and limitations.
-ms.date: 08/27/2024
+ms.date: 09/10/2024
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: conceptual
