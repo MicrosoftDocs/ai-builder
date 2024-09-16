@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.collection: 
 - get-started
 - bap-ai-copilot
-ms.date: 12/18/2023
+ms.date: 09/16/2024
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---
@@ -21,7 +21,7 @@ Newly created prompts are private by default. This means they're visible and usa
 If you want other users of the environment or groups to use your prompt in Power Apps or Power Automate, you need to share it.
 
 > [!IMPORTANT]
-> - AI Builder prompts are running on GPT-3.5 Turbo and GPT-4o model versions powered by [Azure OpenAI Service](/azure/ai-services/openai/whats-new).
+> - AI Builder prompts are running on GPT 3.5 Turbo and GPT 4o model versions powered by [Azure OpenAI Service](/azure/ai-services/openai/whats-new).
 > - This capability is [limited to some regions](availability-region.md#prompts).
 > - This capability might be subject to usage limits or capacity throttling.
 
@@ -47,7 +47,7 @@ This section contains frequently asked questions and their answers.
 
 ### Can I allow other users to edit my prompts?
 
-No. When sharing a prompt with a user, they won't have the ability to edit or delete it.
+No. When you share a prompt with a user, they don't have the ability to edit or delete it.
 
 ### Can I stop sharing a prompt?
 

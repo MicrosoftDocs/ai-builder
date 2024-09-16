@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.collection: 
 - get-started
 - bap-ai-copilot
-ms.date: 12/18/2023
+ms.date: 09/16/2024
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---
@@ -19,13 +19,13 @@ ms.reviewer: angieandrews
 A prompt can be added as an action in a Power Automate flow so it's possible to generate text from it inside an automated process.
 
 > [!IMPORTANT]
-> - AI Builder prompts are running on GPT-3.5 Turbo and GPT-4o model versions powered by [Azure OpenAI Service](/azure/ai-services/openai/whats-new).
+> - AI Builder prompts are running on GPT 3.5 Turbo and GPT 4o model versions powered by [Azure OpenAI Service](/azure/ai-services/openai/whats-new).
 > - This capability is [limited to some regions](availability-region.md#prompts).
 > - This capability might be subject to usage limits or capacity throttling.
 
 ## Use an existing prompt in a flow
 
-**Prerequisite**: You've created a prompt named **Task Identifier** that has one input called **Text**, as described in [Create a custom prompt](create-a-custom-prompt.md).
+**Prerequisite**: You created a prompt named **Task Identifier** that has one input called **Text**, as described in [Create a custom prompt](create-a-custom-prompt.md).
 
 1. Sign in to [Power Automate](https://make.powerautomate.com/).
 1. Select **+Create** > **Instant cloud flow**.
@@ -47,7 +47,7 @@ A prompt can be added as an action in a Power Automate flow so it's possible to 
 
 1. On the left pane in the **Name** field, choose your custom prompt from the dropdown menu.
 
-    The following example uses **Task Identifier** as the custom prompt. Task Identifier is a custom prompt that has been previously built.
+    The following example uses **Task Identifier** as the custom prompt. Task Identifier is a custom prompt that was previously built.
 
     :::image type="content" source="media/use-a-custom-prompt-in-flow/custom-prompt.png" alt-text="Screenshot of the 'Task identifier' custom prompt.":::
 
