@@ -19,7 +19,7 @@ ms.reviewer: angieandrews
 A prompt can be added as an action in a Power Automate flow so it's possible to generate text from it inside an automated process.
 
 > [!IMPORTANT]
-> - AI Builder prompts are running on GPT 3.5 Turbo and GPT 4o model versions powered by [Azure OpenAI Service](/azure/ai-services/openai/whats-new).
+> - AI Builder prompts are running on GPT 3.5 Turbo and GPT 4o ("o" for "omni") model versions powered by [Azure OpenAI Service](/azure/ai-services/openai/whats-new).
 > - This capability is [limited to some regions](availability-region.md#prompts).
 > - This capability might be subject to usage limits or capacity throttling.
 
