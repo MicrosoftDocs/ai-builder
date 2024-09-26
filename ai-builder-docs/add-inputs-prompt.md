@@ -30,11 +30,18 @@ In the prompt builder experience, you have 2 options to include an input:
 :::image type="content" source="media/add-inputs-prompt/add-input-slash.png" alt-text="Add an input using /":::
 
 - Click on the input icon on the top right of the prompt builder experience, then **+ Add input** > **Text**. Give your input a name and provide a sample data now or later.
-:::image type="content" source="media/add-inputs-prompt/add-input-menu.png" alt-text="Add an input using /":::
+:::image type="content" source="media/add-inputs-prompt/add-input-menu.png" alt-text="Add an input using menu":::
 When using this second option, you need to include the input inside the prompt instruction using the "+ Insert" option at the top of the prompt builder experience.
 
 
 ## Text input
+Using text inputs you will be able to perform actions on text that is dyanmically passed to the prompt at run time, such as summarizatation, classification, extracting information, sentiment analysis, text generation and many more.
+
+:::image type="content" source="media/add-inputs-prompt/input-text-summarize.png" alt-text="Summarize with a text input":::
+
+If you are satisfied with your prompt, you can provide a sample value for your text input XXXX
+
+
 
 ## Image or document input (preview)
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
