@@ -17,6 +17,7 @@ ms.reviewer: angieandrews
 # Add text, image or document input to a prompt
 Within your prompt, you have the ability to include inputs that will allow users to pass text but also image or document (preview) to the prompt at run time.
 
+[!INCLUDE cc_preview_features_definition]
 
 > [!IMPORTANT]
 > - AI Builder prompts run on GPT 3.5 and GPT 4 models powered by [Azure OpenAI Service](/azure/ai-services/openai/whats-new).
@@ -26,8 +27,9 @@ Within your prompt, you have the ability to include inputs that will allow users
 ## Text input
 
 
-## Image or document input
+## Image or document input (preview)
 [!INCLUDEcc-beta-prerelease-disclaimer]
+
 
 [!INCLUDE cc_preview_features_definition]
 
