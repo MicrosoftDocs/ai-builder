@@ -29,6 +29,8 @@
       href: prebuilt-prompts-in-dataverse-plug-in-powerapps.md
   - name: Create a prompt
     href: create-a-custom-prompt.md
+  - name: Add text, image or document input to your prompt (preview)
+    href: add-inputs-prompt.md
   - name: Change the output of your prompt (preview)
     href: change-prompt-output.md
   - name: Model selection and temperature settings
