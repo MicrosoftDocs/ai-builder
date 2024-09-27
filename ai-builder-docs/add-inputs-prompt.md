@@ -35,32 +35,32 @@ When using this second option, you need to include the input inside the prompt i
 
 
 ## Text input
-Using text inputs you will be able to perform actions on text that is dyanmically passed to the prompt at run time, such as summarizatation, classification, extracting information, sentiment analysis, text generation and many more.
+Using text inputs you allows you to perform actions on text content that is dynamically passed to the prompt at run time, such as text summarization, text classification, extracting text information, sentiment analysis of text, text generation and many more.
 
 :::image type="content" source="media/add-inputs-prompt/input-text-summarize.png" alt-text="Summarize with a text input":::
 
-If you are satisfied with your prompt, you can provide a sample value for your text input XXXX
-
+If you are satisfied with your prompt, you can provide a sample value for your text input by clicking on the input icon on the top right of the prompt builder experience and adding text in the **Sample data** field of your input.
 
 
 ## Image or document input (preview)
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-
 [!INCLUDE [cc_preview_features_definition](./includes/cc-preview-features-definition.md)]
 
+Using image or document inputs allows you to perform actions on file content that is dynamically passed to the prompt at run time, such as file summarization, file categorization, extracting file information (both textual and visual), asking questions on file and many more. It is also possible to combine both text and document or image inputs.
 
-## Use your prompt in Power Apps or Power Automate
+:::image type="content" source="media/add-inputs-prompt/input-file-extraction.png" alt-text="Summarize with a text input":::
 
-Your next step is determined by the app you plan to use with your prompt.
+If you are satisfied with your prompt, you can provide a sample value for your file input by clicking on the input icon on the top right of the prompt builder experience, and uploading a file in the **Sample data** field of your input.
 
-- Use in Power Apps
-  - Empowers makers to incorporate existing prompts into their apps.
-  - [Use a prompt in Power Apps](use-a-custom-prompt-in-app.md)
+File type supported with image or document input are PNG, JPG, JPEG, BMP, TIFF and PDF.
 
-- Use in Power Automate
-  - Empowers makers to incorporate existing prompts into their flows.
-  - [Use a prompt in Power Automate](use-a-custom-prompt-in-flow.md)
+
+## Limitations
+
+- For image or document input, size limitation for the files passed to be prompt is 25Mb in total for all files.
+- For image or document input, you can't pass a file with a type other than PNG, JPG, JPEG, BMP, TIFF and PDF.
+
 
 ## Related information
 
