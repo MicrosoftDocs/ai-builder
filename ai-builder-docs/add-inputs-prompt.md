@@ -49,7 +49,7 @@ If you are satisfied with your prompt, you can provide a sample value for your t
 
 Using image or document inputs allows you to perform actions on file content that is dynamically passed to the prompt at run time, such as file summarization, file categorization, extracting file information (both textual and visual), asking questions on file and many more. It is also possible to combine both text and document or image inputs.
 
-:::image type="content" source="media/add-inputs-prompt/input-file-extraction.png" alt-text="Summarize with a text input":::
+:::image type="content" source="media/add-inputs-prompt/input-file-extraction.png" alt-text="Extract information from a document":::
 
 If you are satisfied with your prompt, you can provide a sample value for your file input by clicking on the input icon on the top right of the prompt builder experience, and uploading a file in the **Sample data** field of your input.
 
