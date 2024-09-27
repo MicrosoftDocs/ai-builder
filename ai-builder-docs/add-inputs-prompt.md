@@ -15,7 +15,7 @@ ms.reviewer: angieandrews
 ---
 
 # Add text, image or document input to a prompt
-Within your prompt, you have the ability to include inputs that will allow users to pass text but also image or document (preview) to the prompt at run time.
+Within your prompt, you have the ability to include inputs that will allow users to pass text but also image or document (preview) to the prompt at run time in an app, a flow or a copilot.
 
 
 > [!IMPORTANT]
@@ -60,9 +60,13 @@ File type supported with image or document input are PNG, JPG, JPEG, BMP, TIFF a
 
 - For image or document input, size limitation for the files passed to be prompt is 25Mb in total for all files.
 - For image or document input, you can't pass a file with a type other than PNG, JPG, JPEG, BMP, TIFF and PDF.
+- Image or document input is not yet supported for prompts in Copilot Studio.
 
 
 ## Related information
 
+- [Use your prompt actions in Copilot Studio](use-a-custom-prompt-in-mcs.md)
+- [Use your prompt in Power Apps](use-a-custom-prompt-in-app.md)
+- [Use your prompt in Power Automate](use-a-custom-prompt-in-flow.md)
 - [Human review for automation with a prompt](azure-openai-human-review.md)
 - [FAQ for prompts and text generation capabilities](faqs-text-generation.md)
