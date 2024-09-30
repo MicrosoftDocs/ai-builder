@@ -60,6 +60,7 @@ File type supported with image or document input are PNG, JPG, JPEG, BMP, TIFF a
 
 - For image or document input, size limitation for the files passed to be prompt is 25Mb in total for all files.
 - For image or document input, you can't pass a file with a type other than PNG, JPG, JPEG, BMP, TIFF and PDF.
+- For image or document input, extracting information from big documents may not be accurate and skip information, espacially for table lines.
 - Image or document input is not yet supported for prompts in Copilot Studio.
 
 
