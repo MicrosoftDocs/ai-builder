@@ -27,6 +27,8 @@ In an environment, when consumption exceeds available credits, the environment i
 
 AI Builder credits can also come from AI Builder trial. In that case, they link to the user and don't need to be allocated. To learn more, go to [AI Builder trial](ai-builder-trials.md).
 
+AI Builder is a premium feature: adding an AI Builder action to a flow or an app transforms it in a premium flow or premium app, with specific licensing requirements. 
+
 ## Get entitlement to AI Builder credits
 
 First, you need to be entitled to some AI Builder capacity. Entitlement can happen through one of the following paid capacities.
@@ -334,6 +336,10 @@ The licensing options applicable to these capabilities are in the AI Builder rat
 ### Are all tests free?
 
 No. Testing prompts and testing trained models are now free. Testing prebuilt models still consumes credits at the same rate as running them in production.
+As preview models are free, testing them is also free.
+
+### I've built an App which includes a Flow. I want to add an AI Builder action in this Flow. Will it turn my App into a premium App?
+Yes, by adding AI Builder action to a Flow, you turn this Flow into a premium Flow. Hence your App will now be a premium App, so will require premium license to be used.
 
 ### Do you have FAQ about AI Builder trials?
 
