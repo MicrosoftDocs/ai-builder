@@ -27,7 +27,8 @@ In an environment, when consumption exceeds available credits, the environment i
 
 AI Builder credits can also come from AI Builder trial. In that case, they link to the user and don't need to be allocated. To learn more, go to [AI Builder trial](ai-builder-trials.md).
 
-AI Builder is a premium feature: adding an AI Builder action to a flow or an app transforms it in a premium flow or premium app, with specific licensing requirements. 
+AI Builder is a premium feature within Power Apps: adding an AI Builder action to an App transforms it into a premium App. This is is also the case when incorporating a flow with an AI Builder action within an App. Premium Apps have specific licensing requirements.  
+In Power Automate, adding an AI Builder action to a flow doesn't transform it into a premium flow.
 
 ## Get entitlement to AI Builder credits
 
