@@ -49,6 +49,7 @@ The images you can process with the business card model must have these characte
   - BMP
   - PDF
 - Size: 50 MB maximum
+- The image dimensions must be between 50 x 50 pixels and 10,000 x 10,000 pixels.
 
 ## Model output
 
