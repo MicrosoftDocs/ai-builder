@@ -3,12 +3,13 @@ title: Business card prebuilt AI model - AI Builder
 description: Learn about the business card prebuilt AI Builder model.
 author: alanabrito
 contributors:
+  - JohannRichecoeur
   - alanabrito
   - phil-cmd
   - v-angie
 ms.topic: conceptual
 ms.custom: 
-ms.date: 01/10/2024
+ms.date: 10/09/2024
 ms.author: alanab
 ms.reviewer: angieandrews
 ---
@@ -49,6 +50,7 @@ The images you can process with the business card model must have these characte
   - BMP
   - PDF
 - Size: 50 MB maximum
+- The image dimensions must be between 50 x 50 pixels and 10,000 x 10,000 pixels
 
 ## Model output
 
