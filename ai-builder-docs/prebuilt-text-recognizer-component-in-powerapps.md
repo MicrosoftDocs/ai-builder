@@ -76,6 +76,12 @@ These [guidelines](/powerapps/maker/canvas-apps/controls/control-button) for the
 
 Here are some examples.
 
+This expression retrieves the full text recognized by TextRecognizer1.
+
+```power-fx
+TextRecognizer1.FullText
+```
+
 This expression retrieves the text value of the selected item from the `TextRecognizer1`.
 
 ```power-fx
