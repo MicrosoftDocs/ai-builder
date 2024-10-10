@@ -45,6 +45,7 @@ Microsoft Dataverse permissions have been mapped to the Dataverse standard roles
 |Create an app to call a model/prompt|&check;             |&check;                                 |&cross;                                                |&cross; |
 |Run a flow using a model/prompt     |&check;             |owned or shared flow using an owned or shared model/prompt|owned or shared flow using an owned or shared model/prompt|&cross; |
 |Run an app using a model/prompt     |&check;             |owned or shared app using an owned or shared model/prompt |owned or shared app using an owned or shared model/prompt |&cross; |
+|View AI Builder activity     |&check; (all rows)            |&check; (owned rows) |&check; (owned rows) |&cross; |
 
 ## Tables and privileges
 
