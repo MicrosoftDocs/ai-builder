@@ -57,6 +57,7 @@ The **AI Builder activity** section is helpful for makers who want to monitor th
 
 > [!NOTE]
 > - The monitoring data is stored in the **AI Event** table in your Dataverse instance. It persists in the table even if the model, flow, and app are deleted.
+> - Write access to this table is required to record AI model/prompt activity.
 > - The **AI Event** Dataverse table contains input of the AI model predict actions for text scenarios only.
 
 The data that you can display depends on your role.
