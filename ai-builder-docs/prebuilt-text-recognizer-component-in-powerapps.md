@@ -88,7 +88,7 @@ This expression retrieves the text value of the selected item from the `TextReco
 TextRecognizer1.Selected.Text
 ```
 
-This expression concatenates the values from the 'Text' property of the `TextRecognizer1` control with a comma and space separator.
+This expression concatenates the values from the `Text` property of the `TextRecognizer1` control with a comma and space separator.
 
 ```power-fx
 Concat(TextRecognizer1.Results,Text,", ")
