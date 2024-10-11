@@ -7,7 +7,7 @@ contributors:
   - v-aandrews
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/25/2024
+ms.date: 10/11/2024
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---
@@ -76,13 +76,19 @@ These [guidelines](/powerapps/maker/canvas-apps/controls/control-button) for the
 
 Here are some examples.
 
+This expression retrieves the full text recognized by `TextRecognizer1`.
+
+```power-fx
+TextRecognizer1.FullText
+```
+
 This expression retrieves the text value of the selected item from the `TextRecognizer1`.
 
 ```power-fx
 TextRecognizer1.Selected.Text
 ```
 
-This expression concatenates the values from the 'Text' property of the 'TextRecognizer1' control with a comma and space separator.
+This expression concatenates the values from the `Text` property of the `TextRecognizer1` control with a comma and space separator.
 
 ```power-fx
 Concat(TextRecognizer1.Results,Text,", ")
