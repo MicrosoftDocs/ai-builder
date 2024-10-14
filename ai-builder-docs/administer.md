@@ -80,7 +80,16 @@ To learn more, go to [AI Builder licensing and credit management](credit-managem
 
 Your AI model is deployed in the region that hosts the environment. For example, if your environment is created in the Europe region, your model is deployed in datacenters in Europe. For more information, go to [Environments overview](/power-platform/admin/environments-overview).
 
+Only training data is stored in Dataverse. It's used solely to train the AI Builder model and is never used for any other purpose. Training data is never shared externally.
+
 Images and documents used for training purposes in object detection and document processing models are persisted in Dataverse. In contrast, images and documents used at prediction time aren't persisted. Examples of non-persisted images and documents are those in a Power Apps component framework (PCF) control and in Power Automate. Inputs of text scenarios are persisted in the AI Event Dataverse table to allow users to monitor [AI Builder activity](activity-monitoring.md).
+
+Dataverse has strong security mechanisms that prevent unauthorized access to user data. Data stored to train your AI Builder model is only accessible by:
+
+- The owner of the model.
+- Individuals with Power Platform **System Administrator** and **System Customizer** roles in your organization.
+
+To learn more, go to [Roles and security in AI Builder](/ai-builder/security).
 
 ## Enable or disable AI Builder preview features
 
