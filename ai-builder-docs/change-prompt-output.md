@@ -125,3 +125,11 @@ The latest JSON format detected in auto-detect mode or the latest JSON format de
 - We don't support defining a JSON format without field keys.<br/>
     Example: `["abc", "def"]` isn't supported but `[{"Field1": "abc"}, {"Field1": "def"}]` is supported.
 
+## Related information
+
+- [Use your prompt actions in Copilot Studio](use-a-custom-prompt-in-mcs.md)
+- [Use your prompt in Power Apps](use-a-custom-prompt-in-app.md)
+- [Use your prompt in Power Automate](use-a-custom-prompt-in-flow.md)
+- [Human review for automation with a prompt](azure-openai-human-review.md)
+- [FAQ for prompts and text generation capabilities](faqs-text-generation.md)
+
