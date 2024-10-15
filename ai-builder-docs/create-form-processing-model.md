@@ -36,11 +36,9 @@ After you review the [requirements](form-processing-model-requirements.md), you 
 
 By selecting the toggle **Try the new model version (Preview)** you can try our latest preview model version for Fixed template documents and General documents
 
- > [!div class="mx-imgBorder"]
- > ![Fixed templates document type.](media/preview_fixed_templates.png "Select the 'Fixed templates document type' screen")
+:::image type="content" source="media/create-form-processing-model/preview_fixed_templates.png" alt-text="Screenshot of the tile Fixed templates document type.":::
 
- > [!div class="mx-imgBorder"]
- > ![General document type.](media/preview_general_documents.png "Select the 'General document type' screen")
+:::image type="content" source="media/create-form-processing-model/preview_general_documents.png" alt-text="Screenshot of the tile General document type.":::
 
 
 [!INCLUDE [cc_beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
