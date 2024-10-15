@@ -34,6 +34,15 @@ After you review the [requirements](form-processing-model-requirements.md), you 
 
 ## Select the type of document
 
+By selecting the toggle **Try the new model version (Preview)** you can try our latest preview model version for Fixed template documents and General documents
+
+
+
+
+[!INCLUDE [cc_beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
+
+[!INCLUDE [cc_preview_features_definition](./includes/cc-preview-features-definition.md)]
+
 On the **Choose document type** step, select the type of document you want to build an AI model to automate data extraction. There are three options:
 
 - **Fixed-template documents**: Previously known as Structured, this option is ideal when, for a given layout, the fields, tables, checkboxes, and other items can be found in similar places. You can teach this model to extract data from structured documents that have different layouts. This model has a quick training time.
