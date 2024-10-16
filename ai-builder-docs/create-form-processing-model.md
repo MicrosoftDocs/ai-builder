@@ -38,7 +38,7 @@ By selecting the toggle **Try the new model version (Preview)** you can try our 
 
 :::image type="content" source="media/create-form-processing-model/try_preview_toggle_yes.png" alt-text="Screenshot of the tile try preview toggle to yes.":::
 
-## Things you can try with the new model version (Preview)
+## Here are some suggestions for using the new model version (Preview)
 
 •	Edit an existing custom document processing model trained (GA) and train it with the preview version.
 
