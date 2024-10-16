@@ -40,10 +40,17 @@ By selecting the toggle **Try the new model version (Preview)** you can try our 
 
 ## Here are some suggestions for using the new model version (Preview)
 
+•	Edit the last Published model version GA and and train it with the preview version
+
+You can easily verify the version used to train and publish your model.
+Select **Settings**, and check **Published model version**, and **Last trained model version**
+
+
+
+
 •	Edit an existing custom document processing model trained (GA) and train it with the preview version.
 
 
-•	Edit an existing custom document processing model published (GA) and train it with the preview version.
 
 
 [!INCLUDE [cc_beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
