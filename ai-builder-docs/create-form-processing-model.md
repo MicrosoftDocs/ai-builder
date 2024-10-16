@@ -45,7 +45,7 @@ By selecting the toggle **Try the new model version (Preview)** you can try our 
 You can easily verify the version used to train and publish your model.
 Select **Settings**, and check **Published model version**, and **Last trained model version**
 
-
+:::image type="content" source="media/create-form-processing-model/Last Published model version GA and last trained model version Preview.png" alt-text="Screenshot of the Model Settings to see the last published model version GA and the last trained model version in Preview.":::
 
 
 •	Edit an existing custom document processing model trained (GA) and train it with the preview version.
