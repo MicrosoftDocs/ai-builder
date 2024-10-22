@@ -1,15 +1,16 @@
 ---
 title: Administer AI Builder - AI Builder
 description: Administrators can learn about AI custom models and environment lifecycle, backup and restore, managing capacity, enabling or disabling the feature, and data loss prevention in AI Builder.
-author: phil-cmd
+author: mregateiro
 contributors:
+  - mregateiro
+  - jekom1
   - Antoine2F
   - phil-cmd
   - v-aangie
 ms.topic: conceptual
-ms.custom: 
-ms.date: 07/22/2024
-ms.author: plarrue
+ms.date: 10/22/2024
+ms.author: miregate
 ms.reviewer: angieandrews
 ---
 
@@ -17,11 +18,11 @@ ms.reviewer: angieandrews
 
 Microsoft Power Platform administrators can use the [Power Apps admin center](https://admin.powerapps.com) and the [Power Platform admin center](https://admin.powerplatform.microsoft.com) to manage environments and settings for Power Apps and AI Builder.
 
-More information: [Power Platform administrator guide](/power-platform/admin/admin-documentation)
+Learn more in [Power Platform administrator guide](/power-platform/admin/admin-documentation).
 
 The availability, which is also known as the release status, of AI Builder is dependent on your region. For a breakdown of AI Builder feature availability by region, go to [Feature availability by region](availability-region.md).
 
-For more information, download the [AI Builder governance whitepaper](https://go.microsoft.com/fwlink/?linkid=2244137&clcid=0x409).
+Learn more by downloading the [AI Builder governance whitepaper](https://go.microsoft.com/fwlink/?linkid=2244137&clcid=0x409).
 
 ## AI custom model and environment lifecycle
 
@@ -47,7 +48,7 @@ In AI Builder, all the environments need to be provided with a Microsoft Dataver
 
 Moving models between environments can be done through the solution concept. Solutions are vehicles to move components between Microsoft Power Platform environments. To learn more, go to [Introduction to solutions](/power-apps/developer/data-platform/introduction-solutions).
 
-For more information on how to distribute an AI model as a solution component, go to [Distribute your AI model](distribute-model.md).
+Learn more about on how to distribute an AI model as a solution component in [Distribute your AI model](distribute-model.md).
 
 ### Environment lifecycle
 
@@ -78,9 +79,23 @@ To learn more, go to [AI Builder licensing and credit management](credit-managem
 
 ## Where and how are data stored in Dataverse?
 
-Your AI model is deployed in the region that hosts the environment. For example, if your environment is created in the Europe region, your model is deployed in datacenters in Europe. For more information, go to [Environments overview](/power-platform/admin/environments-overview).
+Your AI model is deployed in the region that hosts the environment. For example, if your environment is created in the Europe region, your model is deployed in datacenters in Europe. Learn more in [Environments overview](/power-platform/admin/environments-overview).
 
-Images and documents used for training purposes in object detection and document processing models are persisted in Dataverse. In contrast, images and documents used at prediction time aren't persisted. Examples of non-persisted images and documents are those in a Power Apps component framework (PCF) control and in Power Automate. Inputs of text scenarios are persisted in the AI Event Dataverse table to allow users to monitor [AI Builder activity](activity-monitoring.md).
+Images and documents used for training purposes in object detection and document processing models are persisted in Dataverse.
+
+  - They're used solely to train the AI Builder model and never used for any other purpose.
+  - Training data is never shared externally.
+
+In contrast, images and documents used at prediction time aren't persisted. Examples of non-persisted images and documents are those in a Power Apps component framework (PCF) control and in Power Automate.
+
+Inputs of text scenarios are persisted in the AI Event Dataverse table to allow users to monitor [AI Builder activity](activity-monitoring.md).
+
+Dataverse has strong security mechanisms that prevent unauthorized access to user data. Data stored to train your AI Builder model is only accessible by the following users:
+
+- The owner of the model.
+- Individuals with Power Platform **System Administrator** and **System Customizer** roles in your organization.
+
+Learn more in [Roles and security in AI Builder](/ai-builder/security).
 
 ## Enable or disable AI Builder preview features
 
@@ -103,7 +118,7 @@ To control AI Builder preview feature availability:
 - If you disable **AI Builder preview models**:
   - We don't delete existing models that users of this environment created.
   - AI Builder components are disabled.
-  - Existing experiences that use existing AI Builder components will fail or return errors.
+  - Existing experiences that use existing AI Builder components fail or return errors.
   - Admins and owners can delete preview models.
 
 - If you enable **AI Builder preview models** again:
@@ -118,7 +133,7 @@ By default, the AI prompts feature is enabled for makers to create and experimen
 
 If you turn off [AI prompts](prompts-overview.md), you aren't be able to use custom or prebuilt prompts. These prompts are essential for tasks like summarizing, categorizing, translating, text completion and generation, and more. They help automate and streamline your work in Power Automate, Power Apps, and Copilot Studio.
 
-An AI prompt is a natural language instruction using a large language model such as GPT, that allows you to perform tasks and serve as a companion to help you meet specific business needs.
+An AI prompt is a natural language instruction using a large language model such as GPT, which allows you to perform tasks and serve as a companion to help you meet specific business needs.
 
 Without this feature, these advanced capabilities aren't available.
 
@@ -142,7 +157,7 @@ Connectors can be listed in three (3) categories: *Business*, *Non-business*, an
 
 - Blocked connectors can’t be used in Power Platform consumption experiences.
 
-To learn more, go to [Data loss prevention policies](/power-platform/admin/wp-data-loss-prevention).
+Learn more in [Data loss prevention policies](/power-platform/admin/wp-data-loss-prevention).
 
 ## Move and copy environments
 
@@ -159,14 +174,14 @@ All your data stored in Power Platform is encrypted at rest using Microsoft-mana
 >
 > Currently, customer-managed keys aren't leveraged to encrypt Object detection trained models. The training data of those modes stored in Dataverse is using customer managed keys.
 
-Applying an encryption key is a gesture performed by Power Platform admins, and is invisible to users. Users can create, save, use, and include in solutions AI Builder models in exactly the same way they can if the data was encrypted by Microsoft-managed keys.
+Applying an encryption key is a gesture performed by Power Platform admins, and is invisible to users. Users can create, save, use, and include in solutions AI Builder models in exactly the same way as if the data was encrypted by Microsoft-managed keys.
 
-To learn more about the customer-managed key, and get step-by-step instructions to enable customer-managed keys, go to [Manage your customer-managed encryption key](/power-platform/admin/customer-managed-key). This enables you to leverage the single enterprise policy created on the environment to secure AI Builder models.
+Learn more about the customer-managed key and get step-by-step instructions to enable customer-managed keys in [Manage your customer-managed encryption key](/power-platform/admin/customer-managed-key). This enables you to leverage the single enterprise policy created on the environment to secure AI Builder models.
 
 ## Related information
 
-[Roles and security in AI Builder](security.md)<br/>
-[Feature availability by region](availability-region.md)<br/>
-[AI Builder consumption report](administer-consumption-report.md)
+- [Roles and security in AI Builder](security.md)
+- [Feature availability by region](availability-region.md)
+- [AI Builder consumption report](administer-consumption-report.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
