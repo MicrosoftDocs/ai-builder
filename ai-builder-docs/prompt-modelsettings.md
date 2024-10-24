@@ -29,7 +29,7 @@ The default model as of Nov 2024, is GPT 4o Mini (GA). It's possible to also use
 
 When prompt actions are used in Power Apps or Power Automate, they consume AI Builder credits.
 
-Note: Older prompts created in prompt builder relying on this default model GPT 3.5 model has been or will be auto-upgraded to GPT 4o Mini model.
+Note: Older prompts created in prompt builder relying on this default model GPT 3.5 model has been or will be auto-upgraded to GPT 4o Mini model. Government cloud will continue to use GPT 3.5 model until the end of November, 2024.
 
 ### Choose a model
 
