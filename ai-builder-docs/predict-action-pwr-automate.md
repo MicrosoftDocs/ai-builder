@@ -1,14 +1,14 @@
 ---
 title: Use predict action in Power Automate - AI Builder
 description: Learn how to use the predict action in Power Automate.
-author: Antonio-Rodrigues
+author: chplanty
 contributors:
+  - chplanty
   - Antonio-Rodrigues
   - v-aangie
 ms.topic: conceptual
-ms.custom: 
-ms.date: 01/10/2024
-ms.author: antrod
+ms.date: 10/24/2024
+ms.author: chplanty
 ms.reviewer: angieandrews
 ---
 
@@ -18,41 +18,34 @@ You can use dedicated actions for each AI Builder model in Power Automate. Howev
 
 ## Use a custom or prebuilt model
 
-1. Sign in to [Power Automate](https://flow.microsoft.com/).
+1. Sign in to [Power Automate](https://make.powerautomate.com/).
 
-1. Select **My flows** in the left pane, and then select **New flow** > **Instant cloud flow**.
+1. On the navigation pane to the left, select **My flows**, and then select **New flow** > **Instant cloud flow**.
 
-1. Name your flow, select **Manually trigger a flow** under **Choose how to trigger this flow**, and then select **Create**.
+1. Name your flow.
 
-1. Select **+ New step**, and then enter **predict** in the search bar.
+1. Under **Choose how to trigger this flow**, select **Manually trigger a flow**, and then select **Create**.
+
+1. Select **+New step**, and then enter **predict** in the search bar.
 
 1. Select **Predict from AI Builder** or **Predict using AI Builder models from Microsoft Dataverse**. Both actions offer the same features.
 
     :::image type="content" source="media/predict-action.png" alt-text="Screenshot of the Predict action.":::
 
-1. In the **Model** input, select a custom model you created or choose a prebuilt model. Here is the list of the prebuilt models available:
-   - Business card reader: BusinessCard model
-   - Category classification (prebuilt): Category/Classification model
-   - Entity extraction (prebuilt): EntityExtraction model
-   - Key phrase extraction: KeyPhraseExtraction model
-   - Language detection: LanguageDetection model
-   - Sentiment analysis: SentimentAnalysis model
-   - Text recognition: TextRecognition model
-   - Text generation (prebuilt): GptPromptEngineering model
+1. In the **Model** input, select a custom model you created or choose a prebuilt model.
 
->[!NOTE]
->
->To learn more about the input and output parameters of each model, refer to the documentation explaining how to use the selected model in the following documentation sections:
->- Use a custom AI Builder model in Power Automate
->- Use a prebuilt AI Builder model in Power Automate
+> [!NOTE]
+> Learn more about the input and output parameters of each model in the following sections in [AI Builder in Power Automate overview](use-in-flow-overview.md):
+>- [Custom AI models that you build and train](use-in-flow-overview.md#custom-ai-models-that-you-build-and-train)
+>- [Prebuilt AI models you can use in Power Automate right away](use-in-flow-overview.md#custom-ai-models-that-you-build-and-train)
 
 ## Use a dynamic model ID (advanced)
 
-For some complex use cases, you may need to pass a model ID dynamically to the predict action. For example, if you want to process different types of invoices using different models, you may want to automatically choose a model depending on the type of invoice.
+For some complex use cases, you might need to pass a model ID dynamically to the predict action. For example, if you want to process different types of invoices using different models, you might want to automatically choose a model depending on the type of invoice.
 
-In this section, we'll explain how to configure the AI Builder predict action for this specific purpose depending on the model type.
+In this section, you learn how to configure the AI Builder predict action for this specific purpose depending on the model type.
 
-1. Sign in to [Power Automate](https://flow.microsoft.com/).
+1. Sign in to [Power Automate](https://make.powerautomate.com/).
 
 1. Select **My flows** in the left pane, and then select **New flow** > **Instant cloud flow**.
 
@@ -64,7 +57,7 @@ In this section, we'll explain how to configure the AI Builder predict action fo
 
 1. Enter **model id** in the **Name** input, **String** in the **Type** input, and the actual model ID in the **Value** input.
 
-   The model ID can be found in the URL of the model's detail page in Power Apps:
+   You can find the model ID in the URL of the model's detail page in Power Apps:
    *make.powerapps.com/environment/[environment id]/aibuilder/models/**[model id]***
 
 1. Select **+ New step**, search for **predict** and then select **Predict from AI Builder**.
@@ -87,10 +80,12 @@ In this section, we'll explain how to configure the AI Builder predict action fo
         "@@odata.type": "Microsoft.Dynamics.CRM.expando",
         "mimeType": "@{triggerBody()['text']}",
         "base64Encoded": "@{string(triggerBody()?['file']?['contentBytes'])}",
-        "pageRange": "1"
+        "pages": "@{base64('1-2')}"
         }
     }
     ```
+
+    **pages** parameter is optional, and can be in the form '2' or as a range like '1-10'.
 
     :::image type="content" source="media/DynModelId-1.png" alt-text="Screenshot of the Predict action with dynamic model ID.":::
 
@@ -102,7 +97,7 @@ In this section, we'll explain how to configure the AI Builder predict action fo
 
      :::image type="content" source="media/DynModelId-3.png" alt-text="Screenshot of getting output from run results.":::
 
-1. Go back to your flow in edit mode. 
+1. Go back to your flow in edit mode.
 
 1. Select  **+ New step** and select the **Compose** action (or any other action to process your model output). Let's say your model output has the **Total** column. You can get it with the following formula:
 
@@ -114,7 +109,7 @@ In this section, we'll explain how to configure the AI Builder predict action fo
 
 ### Object detection model
 
-This process is similar to the infer request in step 4 in the *Document processing model* section:
+This process is similar to the infer request in step 4 in the [Document processing model](#document-processing-model) section:
 
 ```json
 {
@@ -128,7 +123,7 @@ This process is similar to the infer request in step 4 in the *Document processi
 
 ### Category classification model
 
-This process is similar to the infer request in step 4 in the *Document processing model* section:
+This process is similar to the infer request in step 4 in the [Document processing model](#document-processing-model) section:
 
 ```json
 {
