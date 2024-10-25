@@ -60,6 +60,7 @@ The following table explains the rules for number of credits per license.
 | Power Automate Hosted RPA add-on |5,000| Maximum = 1,000,000 credits per tenant.|
 | Power Automate Unattended RPA add-on |5,000| Maximum = 1,000,000 credits per tenant.|
 |Dynamics 365 F&O|20,000| Maximum = 20,000 credits per tenant. |
+| Power Apps for Cloud for Sustainability USL Plus | 25,000 | |
 
 ### Entitlement through AI Builder trial
 
