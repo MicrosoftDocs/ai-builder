@@ -319,7 +319,15 @@ For an environment without allocated credits, we apply the ‘large margin’ wh
 
 No. Limitations only apply to the environments in overage. Other environments, whether consuming environment assignment or organization (tenant) level credits aren't affected.
 
-For example, if an environment has no allocated credit, and organization (tenant) level credits aren't all consumed, then editing and running of AI Builder functions is allowed for this environment. This remains true when other environments with assigned credits are in overage.
+For example, if an environment has no allocated credit, and organization (tenant) level credits aren't all consumed, then editing and running of AI Builder functions is allowed for this environment. This remains true when other environments with assigned credits are in overage.  
+Consumption of unassigned credits will never affect the consumption of an environment with assigned credits, even if it's in overage. Consumption of credits in an environment with assigned credits will never affect the consumption of credits in other environments, even if it's in overage.  
+Global consumption graph is for information purpose, and indicates at least one environment is in overage, but doesn't mean that all environments are in overage. All environments with a consumption lower than their assignment, will continue to work as expected.
+
+### Will overage be charged? Will overage affect next month consumption?
+
+No, overage is considered as a grace period to help you adapt to new consumption pattern and is never charged. Overage doesn't affect next month consumption.
+You should worry about an environment which consumes more than its capacity during a month, because it may be blocked at some point in the month. (It will work again at the beginning of next month as consumption is reset) 
+You shouldn't worry about an environment whose monthly consumption is below its capacity.
 
 ### I created prompts before the model selection was possible. Which model and temperature were used?
 
