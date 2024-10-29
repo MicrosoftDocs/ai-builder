@@ -3,14 +3,15 @@ title: AI Builder licensing and credit management
 description: Learn about licensing and credit management in AI Builder.
 author: Antoine2F
 contributors:
+  - chplanty
   - Antoine2F
   - jkom1
   - v-aangie
 ms.topic: conceptual
 ms.collection: 
     - bap-ai-copilot
-ms.date: 10/03/2024
-ms.author: antode
+ms.date: 10/28/2024
+ms.author: chplanty
 ms.reviewer: angieandrews
 ---
 
@@ -59,7 +60,8 @@ The following table explains the rules for number of credits per license.
 | Power Automate Process |5,000| Maximum = 1,000,000 credits per tenant.|
 | Power Automate Hosted RPA add-on |5,000| Maximum = 1,000,000 credits per tenant.|
 | Power Automate Unattended RPA add-on |5,000| Maximum = 1,000,000 credits per tenant.|
-|Dynamics 365 F&O|20,000| Maximum = 20,000 credits per tenant. |
+| Dynamics 365 F&O|20,000| Maximum = 20,000 credits per tenant. |
+| Power Apps for Cloud for Sustainability USL Plus | 25,000 | None.|
 
 ### Entitlement through AI Builder trial
 
