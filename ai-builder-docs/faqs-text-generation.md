@@ -79,6 +79,10 @@ If you want other users of the environment or groups to use your prompt in Power
 
 To learn more, go to [Share your prompt](share-your-prompt.md).
 
+## How are images of people processed in AI Builder prompts?
+In AI Builder, when you submit images containing people, the system automatically applies a face-blurring feature to protect individual privacy. This blurring step helps meet privacy regulations by preventing identification based on facial features, as no facial recognition or template matching is involved. Instead, any identification of well-known individuals relies on contextual cues, like uniforms or unique settings, not on their faces. This privacy measure does not impact the quality of the results you receive but may be occasionally referenced in the system's responses.
+To learn more, go to [Face blurring] (https://learn.microsoft.com/en-us/legal/cognitive-services/openai/transparency-note?tabs=image#face-blurring)
+
 ## What are custom prompts and AI functions?
 
 ### Custom prompts
