@@ -24,7 +24,7 @@ A prompt is a natural language instruction that tells a large language model (LL
 AI Builder provides a prompt building user experience that allows makers to build, test, and save reusable prompts.
 
 > [!IMPORTANT]
-> - AI Builder prompts use GPT-3.5-Turbo or GPT-4 models powered by [Azure OpenAI Service](/azure/ai-services/openai/whats-new). 
+> - AI Builder prompts use GPT 4o Mini or GPT 4o models powered by [Azure OpenAI Service](/azure/ai-services/openai/whats-new). 
 > - This capability is [limited to some regions](availability-region.md#prompts).
 > - This capability might be subject to usage limits or capacity throttling.
 
