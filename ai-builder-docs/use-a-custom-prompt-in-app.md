@@ -22,7 +22,7 @@ Once you create and test your prompts using the prompt builder, you can use them
 Custom prompts can be invoked as Power Fx function calls, this allows you to seamlessly integrate AI capabilities into your application.
 
 > [!IMPORTANT]
-> - AI Builder prompts are running on GPT 3.5 Turbo and GPT 4o ("o" for "omni") model versions powered by [Azure OpenAI Service](/azure/ai-services/openai/whats-new).
+> - AI Builder prompts are running on GPT 4o Mini and GPT 4o model versions powered by [Azure OpenAI Service](/azure/ai-services/openai/whats-new).
 > - This capability is [limited to some regions](availability-region.md#prompts).
 > - This capability might be subject to usage limits or capacity throttling.
 
