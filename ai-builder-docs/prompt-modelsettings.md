@@ -25,11 +25,11 @@ This article explores the impact of these parameters.
 
 The dropdown menu allows you to select among the generative AI models, which generate the answer to your custom prompt.
 
-The default model as of Nov 2024, is GPT 4o Mini (GA). It's possible to also use the more power GPT 4o model (GA). These exact minor versions of these models are subject to change.
+The default model as of Nov 2024, is GPT 4o Mini (GA). It's possible to also use the more powerful GPT 4o model (GA). These exact minor versions of these models are subject to change.
 
 When prompt actions are used in Power Apps or Power Automate, they consume AI Builder credits.
 
-Note: Older prompts created in prompt builder relying on this default model GPT 3.5 model has been or will be auto-upgraded to GPT 4o Mini model. Government cloud will continue to use GPT 3.5 model until the end of November, 2024.
+Note: Older prompts created in prompt builder relying on this default model GPT 3.5 model have been or will be auto-upgraded to GPT 4o Mini model. Government cloud will continue to use GPT 3.5 model until the end of November, 2024.
 
 ### Choose a model
 
@@ -37,11 +37,12 @@ Choose between the models based on status and licensing rules.
 
 |GPT model  |Status   |Licensing rules   | Functionalities| Region availabilities |
 |---------|---------|---------|---------|---------|---------|
-|GPT 4o Mini | GA - Default model	| Consumes credits in Power Apps and Power Automate. More information: [Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130)  | Trained on data up to Decemver 2023. Context allowed up to 128k tokens. | [Feature availability by regions for prompts](availability-region.md)
+|GPT 4o Mini | GA - Default model	| Consumes credits in Power Apps and Power Automate. More information: [Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130)  | Trained on data up to December 2023. Context allowed up to 128k tokens. | [Feature availability by regions for prompts](availability-region.md)
 | GPT 4 | GA | Consumes credits in Power Apps and Power Automate. More information: [Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130)  | GPT 4o has knowledge up to October 2023 and has a context length of 128k tokens. | [Feature availability by regions for prompts](availability-region.md)|
 
 Choose between the model based on capabilities and scenarios.
-# Comparison of GPT-4o Mini and GPT-4o
+
+### Comparison of GPT-4o Mini and GPT-4o
 
 | Factors                     | GPT-4o Mini                          | GPT-4o                               |
 |---------------------------|--------------------------------------|--------------------------------------|
