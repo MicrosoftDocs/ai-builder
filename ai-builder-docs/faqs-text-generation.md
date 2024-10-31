@@ -80,8 +80,8 @@ If you want other users of the environment or groups to use your prompt in Power
 To learn more, go to [Share your prompt](share-your-prompt.md).
 
 ## How are images of people processed in AI Builder prompts?
-AI Builder is not intended to ve used for identifying individuals based on facial features or biometric data. In AI Builder, when you submit images containing people, the system automatically applies a face-blurring feature prior to analyzing the images to protect individual privacy. This blurring step helps address privacy concerns by preventing identification based on facial features, as no facial recognition or facial template matching is involved. Instead, any identification of well-known individuals relies on contextual cues, like uniforms or unique settings, not on their faces. This privacy measure should not impact the quality of the results you receive but face blurring may be occasionally referenced in the system's responses.
-To learn more, go to [Face blurring] (https://learn.microsoft.com/en-us/legal/cognitive-services/openai/transparency-note?tabs=image#face-blurring)
+AI Builder is not intended to be used for identifying individuals based on facial features or biometric data. In AI Builder, when you submit images containing people, the system automatically applies a face-blurring feature prior to analyzing the images to protect individual privacy. This blurring step helps address privacy concerns by preventing identification based on facial features, as no facial recognition or facial template matching is involved. Instead, any identification of well-known individuals relies on contextual cues, like uniforms or unique settings, not on their faces. This privacy measure should not impact the quality of the results you receive but face blurring may be occasionally referenced in the system's responses.
+To learn more, go to [Face blurring] (/legal/cognitive-services/openai/transparency-note?tabs=image#face-blurring)
 
 ## What are custom prompts and AI functions?
 
