@@ -21,7 +21,7 @@ This article emphasizes the critical role of human review in deploying the [Crea
 
 > [!IMPORTANT]
 >
-> - AI Builder prompts are running on GPT-3.5 Turbo and GPT-4 (preview) models powered by [Azure OpenAI Service](/azure/ai-services/openai/whats-new).
+> - AI Builder prompts are running on GPT 4o Mini and GPT 4o models powered by [Azure OpenAI Service](/azure/ai-services/openai/whats-new).
 > - This capability is [limited to some regions](availability-region.md#prompts).
 > - This capability might be subject to usage limits or capacity throttling.
 
