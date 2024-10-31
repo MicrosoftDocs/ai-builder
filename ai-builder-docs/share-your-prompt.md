@@ -1,16 +1,17 @@
 ---
 title: Share your prompt
 description: Learn how to share your prompt.
-author: phil-cmd
+author: ashbhati
 contributors:
+  - ashbhati
   - phil-cmd
   - v-aangie
 ms.topic: conceptual
 ms.collection: 
 - get-started
 - bap-ai-copilot
-ms.date: 09/16/2024
-ms.author: plarrue
+ms.date: 11/01/2024
+ms.author: ashbhati
 ms.reviewer: angieandrews
 ---
 

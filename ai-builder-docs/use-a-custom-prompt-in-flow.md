@@ -1,22 +1,23 @@
 ---
 title: Use your prompt in Power Automate
 description: Learn how to use your prompt in a Power Automate flow.
-author: phil-cmd
+author: ashbhati
 contributors:
+  - ashbhati
   - phil-cmd
   - v-aangie
 ms.topic: conceptual
 ms.collection: 
 - get-started
 - bap-ai-copilot
-ms.date: 09/16/2024
-ms.author: plarrue
+ms.date: 11/01/2024
+ms.author: ashbhati
 ms.reviewer: angieandrews
 ---
 
 # Use your prompt in Power Automate
 
-A prompt can be added as an action in a Power Automate flow so it's possible to generate text from it inside an automated process.
+You can add a prompt as an action in a Power Automate flow so it's possible to generate text from it inside an automated process.
 
 > [!IMPORTANT]
 > - AI Builder prompts are running on GPT 4o Mini and GPT 4o model versions powered by [Azure OpenAI Service](/azure/ai-services/openai/whats-new).
@@ -65,7 +66,7 @@ A prompt can be added as an action in a Power Automate flow so it's possible to 
 
     :::image type="content" source="media/use-a-custom-prompt-in-flow/new-prompt.png" alt-text="Create a new prompt":::
 
-1. Follow the instruction from the [Create a custom prompt](create-a-custom-prompt.md) documentation to create your prompt instructions.
+1. To create your prompt instructions, follow the instruction from [Create a custom prompt](create-a-custom-prompt.md).
 1. Save your prompt and follow the [instructions to use your prompt in a flow](use-a-custom-prompt-in-flow.md#use-an-existing-prompt-in-a-flow).
 
 ## Use the output of the GPT action

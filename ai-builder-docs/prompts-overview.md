@@ -1,7 +1,7 @@
 ---
 title: Prompts overview
 description: Learn about prompt engineering and other key concepts to help you create powerful applications that can generate text from your input.
-author: phil-cmd
+author: ashbhati
 contributors:
   - ashbhati
   - phil-cmd
@@ -10,8 +10,8 @@ ms.topic: conceptual
 ms.collection: 
 - get-started
 - bap-ai-copilot
-ms.date: 06/13/2024
-ms.author: plarrue
+ms.date: 11/01/2024
+ms.author: ashbhati
 ms.reviewer: angieandrews
 ---
 
@@ -42,11 +42,11 @@ Think of a prompt as a task or a goal you give to the large language model (LLM)
 
 Prompt builder enables makers to devise custom prompts that cater to their specific business needs using natural language. These prompts can be employed for many tasks or business scenarios, such as summarizing content, categorizing data, extracting entities, translating languages, assessing sentiment, or formulating a response to a complaint.
 
-Prompts can be integrated into flows to build intelligent hands-off automation. Makers can also build advanced generative AI capabilities for their applications by describing them as natural language prompts. These prompts can also be used to extend a copilot action and topics, thereby streamlining your daily business operations and boosting efficiency.
+Prompts can be integrated into flows to build intelligent hands-off automation. Makers can also build advanced generative AI capabilities for their applications by describing them as natural language prompts. They can also use these prompts to extend a copilot action and topics, thereby streamlining daily business operations and boosting efficiency.
 
 ## Human oversight
 
-Human oversight is an important step when working with content generated from a GPT model. Large language models like GPT are trained on huge amounts of data. AI-generated content can contain errors and biases. A human should review it before you post it online, send it to a customer, or use it to inform a business decision. Human oversight helps not only to identify potential errors and biases, but also to make sure the content is relevant to the intended use case and aligns with the company's values.
+Human oversight is an important step when working with content generated from a GPT model. Large language models like GPT are trained on huge amounts of data. AI-generated content can contain errors and biases. A human should review it before you post it online, send it to a customer, or use it to inform a business decision. Human oversight helps you to identify potential errors and biases. It also makes sure the content is relevant to the intended use case and aligns with the company's values.
 
 Human review can also help to identify any issues with the GPT model itself. For example, if the model is generating content that isn't relevant to the intended use case, then you might need to adjust the prompt.
 

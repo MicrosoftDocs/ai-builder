@@ -1,15 +1,15 @@
 ---
 title: Human review for automation with a prompt
 description: Learn about emphasizing human review for automation with a prompt.
-author: phil-cmd
+author: ashbhati
 contributors:
   - ashbhati
   - phil-cmd
   - v-aangie
 ms.topic: conceptual
 ms.custom: bap-template
-ms.date: 07/12/2024
-ms.author: plarrue
+ms.date: 11/01/2024
+ms.author: ashbhati
 ms.reviewer: angieandrews
 ms.collection: 
     - bap-ai-copilot
