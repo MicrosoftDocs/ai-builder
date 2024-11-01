@@ -1,17 +1,17 @@
 ---
 title: FAQ for prompts and text generation capabilities
 description: Learn about the AI technology used in prompts, key considerations and details about how the AI is used, how it was tested and evaluated, and limitations.
-ms.date: 09/10/2024
+ms.date: 11/01/2024
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: conceptual
-author: aashishb
+author: ashbhati
 contributors:
   - phil-cmd
-  - aashishb
+  - ashbhati
   - antoinecellerier
   - v-aangie
-ms.author: plarrue
+ms.author: ashbhati
 ms.reviewer: angieandrews
 ms.collection: 
     - bap-ai-copilot
@@ -23,11 +23,13 @@ These frequently asked questions (FAQ) describe the AI impact of AI Builder's pr
 
 ## What are prompts?
 
-The prompts feature in AI Builder offers users a versatile capability for developing AI-powered workflows, applications, data transformation, and customization of copilots. It allows for the creation of workflows and applications that summarize documents, create draft responses, classify text, and translate languages. This capability is powered by the Azure OpenAI Service, which utilizes Generative Pre-trained Transformer (GPT) technology. These models have been trained on vast amounts of text data, enabling them to generate text that resembles human-written content. To learn more about the Azure OpenAI Service, go to [Transparency Note for Azure OpenAI Service](/legal/cognitive-services/openai/transparency-note?tabs=text).
+The prompts feature in AI Builder offers users a versatile capability for developing AI-powered workflows, applications, data transformation, and customization of copilots. It allows for the creation of workflows and applications that summarize documents, create draft responses, classify text, and translate languages. This capability is powered by the Azure OpenAI Service, which utilizes Generative Pre-trained Transformer (GPT) technology. These models were trained on vast amounts of text data, enabling them to generate text that resembles human-written content. 
+
+Learn more in [Transparency Note for Azure OpenAI Service](/legal/cognitive-services/openai/transparency-note?tabs=text).
 
 ## What are the intended use cases of prompts?
 
-Prompts in AI Builder empower you to build intelligent applications, workflows, and extend copilots. They leverage the capabilities of pre-trained GPT models, which eliminates the need for custom model training. For example, the intent might be to build a workflow that summarizes incoming customer complaints. Then, it creates a ticket in an incident management tool based on the category of the incoming complaint. In this example, makers can simply instruct the model to categorize and summarize the incoming complaint to create a new incident.
+Prompts in AI Builder empower you to build intelligent applications, workflows, and extend copilots. They leverage the capabilities of pre-trained GPT models, which eliminates the need for custom model training. For example, the intent might be to build a workflow that summarizes incoming customer complaints. Then, it creates a ticket in an incident management tool based on the category of the incoming complaint. In this example, makers can instruct the model to categorize and summarize the incoming complaint to create a new incident.
 
 The following list contains the most popular use cases for this service:
 
@@ -41,7 +43,7 @@ In all these cases, users are responsible for the final outcome of the system. T
 
 ## How was the readiness of the prompts feature evaluated? What metrics are used to measure performance?
 
-The evaluation of this capability involves comprehensive testing across a range of safety parameters. This ensures that the feature aligns with our organization's responsible AI standards and principles. The service is also continually assessed for potential vulnerabilities. The performance metrics we use primarily involve the efficiency of content filtration and the degree of agreement between human and machine on filtered versus unfiltered content.
+The evaluation of this capability involves comprehensive testing across a range of safety parameters. This testing ensures that the feature aligns with our organization's responsible AI standards and principles. The service is also continually assessed for potential vulnerabilities. The performance metrics we use primarily involve the efficiency of content filtration and the degree of agreement between human and machine on filtered versus unfiltered content.
 
 ## What kind of content moderation is implemented for prompts?
 
@@ -51,21 +53,21 @@ The GPT models are trained on internet data, which is great for building a gener
 
 The use of this technology must be in accordance with requirements in the [Code of conduct for Azure OpenAI Service](/legal/cognitive-services/openai/code-of-conduct). This technology must not be used for generating content associated with political propaganda, hate speech, misinformation, self-harm, discrimination, explicit sexual material, or other content prohibited by the Code of Conduct. Unsupported applications of this technology include providing advice, use for legal, financial, health-related guidance, or future predictions, as well as financial, scientific, or mathematical calculations, and any other unsupported usage mentioned in the [Transparency Note for Azure OpenAI Service](/legal/cognitive-services/openai/transparency-note?tabs=text). Currently, the service is exclusively supported in the United States and is available only in the English language.
 
-AI-generated content can have mistakes, hence makers should inform the end users of their solution that the content generation by this model is created by AI in a transparent way. Clear communication of A generated content helps in avoiding overreliance. Makers should also infuse the possibility of the human review step to make sure that the AI generated content is accurate and appropriate before using it.
+AI-generated content can have mistakes, hence makers should inform the end users of their solution that the content generation by this model is created by AI in a transparent way. Clear communication of generated content helps in avoiding overreliance. Makers should also infuse the possibility of the human review step to make sure that the AI generated content is accurate and appropriate before using it.
 
 ## What operational factors and settings allow for effective and responsible use of the system?
 
-Content generated by the AI model is probabilistic in nature, and hence model responses could vary for the same prompt. The response generated might be incorrect or misleading and could cause unintended outcomes from the flow or app. For example, business customers might receive wrong or incorrect information, recommendations or support. Makers should implement meaningful human oversight within their flows and apps, as well as test their prompts for the potential to lead to generating harmful behaviors or prohibited content as listed in Microsoft Code of Conduct. Low-code developers should also be transparent about the use of AI in their apps and flows to inform the business user, indicating that the content is generated by AI. Additionally, generated responses might not match low code developer’s expectations due to length restrictions, content filtering, or model selection.
+Content generated by the AI model is probabilistic in nature, and hence model responses could vary for the same prompt. The response generated might be incorrect or misleading and could cause unintended outcomes from the flow or app. For example, business customers might receive wrong or incorrect information, recommendations or support. Makers should implement meaningful human oversight within their flows and apps, and test their prompts for the potential to lead to generating harmful behaviors or prohibited content as listed in Microsoft Code of Conduct. Low-code developers should also be transparent about the use of AI in their apps and flows to inform the business user, indicating that the content is generated by AI. Additionally, generated responses might not match low code developer’s expectations due to length restrictions, content filtering, or model selection.
 
 ## What is the GPT model called, where is it hosted, and how can I access it?
 
 The GPT-3.5 Turbo model is hosted on Azure OpenAI Service. To access it, you can use the Azure OpenAI Service REST APIs, Python SDK, or the web-based interface in Azure OpenAI Studio.
 
-To learn more, go to [What's new in Azure OpenAI Service?](/azure/ai-services/openai/whats-new)
+Learn more in [What's new in Azure OpenAI Service?](/azure/ai-services/openai/whats-new)
 
 ## Is my data used to train or improve the large language models available on AI Builder?
 
-AI Builder prompts run on Azure OpenAI Service hosted by Microsoft. Customer data is not used to train or improve any of the Azure OpenAI Service foundation models. Microsoft does not share your customer data with a third party unless you’ve granted permission to do so. Neither customer prompts (input) with its grounding data nor the model responses (output) are used to train or improve Azure OpenAI Service foundation models.
+AI Builder prompts run on Azure OpenAI Service hosted by Microsoft. Customer data is not used to train or improve any of the Azure OpenAI Service foundation models. Microsoft doesn't share your customer data with a third party unless you granted permission to do so. Neither customer prompts (input) with its grounding data nor the model responses (output) are used to train or improve Azure OpenAI Service foundation models.
 
 ## Is the content added to the 'Create text with GPT using a prompt' action publicly accessible?
 
@@ -77,7 +79,13 @@ Newly created prompts are private by default. This means they're visible and usa
 
 If you want other users of the environment or groups to use your prompt in Power Apps or Power Automate, you need to share it.
 
-To learn more, go to [Share your prompt](share-your-prompt.md).
+Learn more in [Share your prompt](share-your-prompt.md).
+
+## How are images of people processed in AI Builder prompts?
+
+AI Builder isn't intended to be used for identifying individuals based on facial features or biometric data. When you submit images containing people in AI Builder, the system automatically applies a face blurring feature before analyzing the images to protect individual privacy. This blurring step helps address privacy concerns by preventing identification based on facial features. With blurring, no facial recognition or facial template matching is involved. Instead, any identification of well-known individuals relies on contextual cues, like uniforms or unique settings, not on their faces. This privacy measure shouldn't impact the quality of the results you receive. Face blurring might be occasionally referenced in the system's responses.
+
+Learn more in [Face blurring](/legal/cognitive-services/openai/transparency-note?tabs=image#face-blurring).
 
 ## What are custom prompts and AI functions?
 

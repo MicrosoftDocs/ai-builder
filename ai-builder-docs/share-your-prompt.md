@@ -1,16 +1,17 @@
 ---
 title: Share your prompt
 description: Learn how to share your prompt.
-author: phil-cmd
+author: ashbhati
 contributors:
+  - ashbhati
   - phil-cmd
   - v-aangie
 ms.topic: conceptual
 ms.collection: 
 - get-started
 - bap-ai-copilot
-ms.date: 09/16/2024
-ms.author: plarrue
+ms.date: 11/01/2024
+ms.author: ashbhati
 ms.reviewer: angieandrews
 ---
 
@@ -21,7 +22,7 @@ Newly created prompts are private by default. This means they're visible and usa
 If you want other users of the environment or groups to use your prompt in Power Apps or Power Automate, you need to share it.
 
 > [!IMPORTANT]
-> - AI Builder prompts are running on GPT 3.5 Turbo and GPT 4o ("o" for "omni") model versions powered by [Azure OpenAI Service](/azure/ai-services/openai/whats-new).
+> - AI Builder prompts are running on GPT 4o Mini and GPT 4o model versions powered by [Azure OpenAI Service](/azure/ai-services/openai/whats-new).
 > - This capability is [limited to some regions](availability-region.md#prompts).
 > - This capability might be subject to usage limits or capacity throttling.
 
