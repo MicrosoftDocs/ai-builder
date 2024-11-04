@@ -46,7 +46,7 @@ On the **Choose document type** step, select the type of document you want to bu
 
 By selecting the toggle **Try the new model version (Preview)** you can try our latest preview model version for Fixed template documents and General documents
 
-##### Benefits of using the Preview Model
+#### Benefits of using the Preview Model
 
 **Enhanced Accuracy**: Expect higher accuracy in data extraction.
 
