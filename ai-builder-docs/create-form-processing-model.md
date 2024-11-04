@@ -34,15 +34,22 @@ After you review the [requirements](form-processing-model-requirements.md), you 
 
 ## Select the type of document
 
+On the **Choose document type** step, select the type of document you want to build an AI model to automate data extraction. There are three options:
+
+- **Fixed-template documents**: Previously known as Structured, this option is ideal when, for a given layout, the fields, tables, checkboxes, signatures and other items can be found in similar places. You can teach this model to extract data from structured documents that have different layouts. This model has a quick training time.
+- **General documents**: Previously known as Unstructured, this option is ideal for any kind of documents, especially when there's no set structure, or when the format is complex. You can teach this model to extract data from structured or unstructured documents that have different layouts. This model is powerful, but has long training time.
+- **Invoices**: Augment the behaviors of the prebuilt invoice processing model by adding new fields to be extracted in addition to the ones by [default](prebuilt-invoice-processing.md#model-output), or samples of documents not properly extracted.
+
+    :::image type="content" source="media/create-form-processing-model/preview_toggle_no.png" alt-text="Screenshot of the tiles under 'Select the type of documents your model will process'.":::
+
+## Try the new model version (Preview)
+
 By selecting the toggle **Try the new model version (Preview)** you can try our latest preview model version for Fixed template documents and General documents
 
 :::image type="content" source="media/create-form-processing-model/try_preview_toggle_yes.png" alt-text="Screenshot of the tile try preview toggle to yes.":::
 
-## Here are some suggestions for using the new model version (Preview)
 
-•	Edit the last Published model version GA and train it with the Preview version
-
-•	Edit the last Trained model version (GA) and train it with the Preview version.
+### How to check the model version
 
 You can easily verify the version used to train and publish your model.
 Select **Settings**, and check **Published model version**, and **Last trained model version**
@@ -54,13 +61,13 @@ Select **Settings**, and check **Published model version**, and **Last trained m
 
 [!INCLUDE [cc_preview_features_definition](./includes/cc-preview-features-definition.md)]
 
-On the **Choose document type** step, select the type of document you want to build an AI model to automate data extraction. There are three options:
+### How to change the model version
 
-- **Fixed-template documents**: Previously known as Structured, this option is ideal when, for a given layout, the fields, tables, checkboxes, signatures and other items can be found in similar places. You can teach this model to extract data from structured documents that have different layouts. This model has a quick training time.
-- **General documents**: Previously known as Unstructured, this option is ideal for any kind of documents, especially when there's no set structure, or when the format is complex. You can teach this model to extract data from structured or unstructured documents that have different layouts. This model is powerful, but has long training time.
-- **Invoices**: Augment the behaviors of the prebuilt invoice processing model by adding new fields to be extracted in addition to the ones by [default](prebuilt-invoice-processing.md#model-output), or samples of documents not properly extracted.
 
-    :::image type="content" source="media/create-form-processing-model/preview_toggle_no.png" alt-text="Screenshot of the tiles under 'Select the type of documents your model will process'.":::
+You can	edit the last Published model version GA and train it with the Preview version
+
+You can edit the last Trained model version (GA) and train it with the Preview version.
+
 
 ## Define information to extract
 
