@@ -40,11 +40,12 @@ On the **Choose document type** step, select the type of document you want to bu
 - **General documents**: Previously known as Unstructured, this option is ideal for any kind of documents, especially when there's no set structure, or when the format is complex. You can teach this model to extract data from structured or unstructured documents that have different layouts. This model is powerful, but has long training time.
 - **Invoices**: Augment the behaviors of the prebuilt invoice processing model by adding new fields to be extracted in addition to the ones by [default](prebuilt-invoice-processing.md#model-output), or samples of documents not properly extracted.
 
-    :::image type="content" source="media/create-form-processing-model/preview_toggle_no.png" alt-text="Screenshot of the tiles under 'Select the type of documents your model will process'.":::
 
 ## Try the new model version (Preview)
 
 By selecting the toggle **Try the new model version (Preview)** you can try our latest preview model version for Fixed template documents and General documents
+
+:::image type="content" source="media/create-form-processing-model/try_preview_toggle_yes.png" alt-text="Screenshot of the tile try preview toggle to yes.":::
 
 #### Benefits of using the Preview Model
 
@@ -54,7 +55,6 @@ By selecting the toggle **Try the new model version (Preview)** you can try our 
 
 **Confidence Scores for Tables**: For custom models, users gain access to confidence scores for tables, table rows, and individual table cells
 
-:::image type="content" source="media/create-form-processing-model/try_preview_toggle_yes.png" alt-text="Screenshot of the tile try preview toggle to yes.":::
 
 [!INCLUDE [cc_beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -75,6 +75,9 @@ You can edit the trained or Published model version (Preview) and train it with 
 
 1. Select **Edit model**
 1. Select **Try the new model version (Preview)**, select Toggle **No**
+
+:::image type="content" source="media/create-form-processing-model/preview_toggle_no.png" alt-text="Screenshot of the tiles under 'Select the type of documents your model will process'.":::
+   
 1. Select the type of documents (Fixed template documents or General documents)
 1. Select **Next**
 1. In Choose information to extract information, select +Add if you want to extract other fields if needed (_Optional_)
@@ -89,6 +92,9 @@ You can edit the trained or Published model general availability (GA) version an
 
 1. Select **Edit model**
 1. Select **Try the new model version (Preview)**, select Toggle **Yes**
+
+:::image type="content" source="media/create-form-processing-model/try_preview_toggle_yes.png" alt-text="Screenshot of the tile try preview toggle to yes.":::
+
 1. Select the type of documents (Fixed template documents or General documents)
 1. Select **Next**
 1. In Choose information to extract information, select +Add if you want to extract other fields if needed (_Optional_)
