@@ -46,6 +46,14 @@ On the **Choose document type** step, select the type of document you want to bu
 
 By selecting the toggle **Try the new model version (Preview)** you can try our latest preview model version for Fixed template documents and General documents
 
+##### Benefits of using the Preview Model
+
+**Enhanced Accuracy**: Expect higher accuracy in data extraction.
+
+**Confidence Scores for Tables**: For custom models, users gain access to confidence scores for tables, table rows, and individual table cells
+
+**Latest OCR Enhancements**: The preview model includes the latest Optical Character Recognition (OCR) updates, now in version 4.0. This update resolves many common OCR issues, especially when handling complex text formats like barcodes, QR codes, and watermarks.
+
 :::image type="content" source="media/create-form-processing-model/try_preview_toggle_yes.png" alt-text="Screenshot of the tile try preview toggle to yes.":::
 
 [!INCLUDE [cc_beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
