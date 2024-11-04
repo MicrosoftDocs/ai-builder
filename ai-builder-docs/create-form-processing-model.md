@@ -71,10 +71,33 @@ Select **Settings**, and check **Published model version**, and **Last trained m
 ### How to change the model version
 
 
-You can	edit the last Published model version GA and train it with the Preview version
+You can edit the trained or Published model version (Preview) and train it with the general availability (GA) version.
 
-You can edit the last Trained model version (GA) and train it with the Preview version.
+Select **Edit model**
+Select **Try the new model version (Preview)**, select Toggle **No**
+Select the type of documents (Fixed template documents or General documents)
+Select **Next**
+In Choose information to extract information, select +Add if you want to extract other fields if needed (_Optional_)
+Select **Next**
+In Add collections of documents, Select New collection if you want to add a new collection if needed (_Optional_)
+Select **Next**
+In Tag documents, review the tag of documents in your collection if needed (_Optional_)
+Select **Next**
+Select **Train**
 
+You can edit the trained or Published model general availability (GA) version and train it with the model version (Preview).
+
+Select **Edit model**
+Select **Try the new model version (Preview)**, select Toggle **Yes**
+Select the type of documents (Fixed template documents or General documents)
+Select **Next**
+In Choose information to extract information, select +Add if you want to extract other fields if needed (_Optional_)
+Select **Next**
+In Add collections of documents, Select New collection if you want to add a new collection if needed (_Optional_)
+Select **Next**
+In Tag documents, review the tag of documents in your collection if needed (_Optional_)
+Select **Next**
+Select **Train**
 
 ## Define information to extract
 
