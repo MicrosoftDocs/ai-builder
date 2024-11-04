@@ -48,6 +48,9 @@ By selecting the toggle **Try the new model version (Preview)** you can try our 
 
 :::image type="content" source="media/create-form-processing-model/try_preview_toggle_yes.png" alt-text="Screenshot of the tile try preview toggle to yes.":::
 
+[!INCLUDE [cc_beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
+
+[!INCLUDE [cc_preview_features_definition](./includes/cc-preview-features-definition.md)]
 
 ### How to check the model version
 
@@ -56,10 +59,6 @@ Select **Settings**, and check **Published model version**, and **Last trained m
 
 :::image type="content" source="media/create-form-processing-model/Last Published model version GA and last trained model version Preview.png" alt-text="Screenshot of the Model Settings to see the last published model version GA and the last trained model version in Preview.":::
 
-
-[!INCLUDE [cc_beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
-
-[!INCLUDE [cc_preview_features_definition](./includes/cc-preview-features-definition.md)]
 
 ### How to change the model version
 
