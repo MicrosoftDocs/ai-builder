@@ -76,7 +76,7 @@ You can edit the trained or Published model version (Preview) and train it with 
 1. Select **Edit model**
 1. Select **Try the new model version (Preview)**, select Toggle **No**
 
-:::image type="content" source="media/create-form-processing-model/preview_toggle_no.png" alt-text="Screenshot of the tiles under 'Select the type of documents your model will process'.":::
+:::image type="content" source="media/create-form-processing-model/select_documents_preview_toggle_No.png" alt-text="Screenshot of the tile try preview toggle to No.":::
    
 1. Select the type of documents (Fixed template documents or General documents)
 1. Select **Next**
@@ -93,7 +93,7 @@ You can edit the trained or Published model general availability (GA) version an
 1. Select **Edit model**
 1. Select **Try the new model version (Preview)**, select Toggle **Yes**
 
-:::image type="content" source="media/create-form-processing-model/try_preview_toggle_yes.png" alt-text="Screenshot of the tile try preview toggle to yes.":::
+:::image type="content" source="media/create-form-processing-model/select_documents_preview_toggle_yes.png" alt-text="Screenshot of the tile try preview toggle to yes.":::
 
 1. Select the type of documents (Fixed template documents or General documents)
 1. Select **Next**
