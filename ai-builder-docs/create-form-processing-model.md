@@ -50,7 +50,7 @@ By selecting the toggle **Try the new model version (Preview)** you can try our 
 
 **Enhanced Accuracy**: Expect higher accuracy in data extraction.
 
-**Latest OCR Enhancements**: The preview model includes the latest Optical Character Recognition (OCR) updates, now in version 4.0. This update resolves many common OCR issues, especially when handling complex text formats like barcodes, QR codes, and watermarks.
+**Latest OCR Enhancements**: The preview model includes the latest Optical Character Recognition (OCR) updates. This update resolves many common OCR issues, especially when handling complex text formats like barcodes, QR codes, and watermarks.
 
 **Confidence Scores for Tables**: For custom models, users gain access to confidence scores for tables, table rows, and individual table cells
 
