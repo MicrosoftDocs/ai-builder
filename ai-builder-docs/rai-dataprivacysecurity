@@ -1,0 +1,13 @@
+
+
+
+
+Your prompts (inputs) and completions (outputs), your embeddings, and your training data:
+
+are NOT available to other customers.
+are NOT available to OpenAI.
+are NOT used to improve OpenAI models.
+are NOT used to train, retrain, or improve Azure OpenAI Service foundation models.
+are NOT used to improve any Microsoft or 3rd party products or services without your permission or instruction.
+Your fine-tuned Azure OpenAI models are available exclusively for your use.
+The Azure OpenAI Service is operated by Microsoft as an Azure service; Microsoft hosts the OpenAI models in Microsoft’s Azure environment and the Service does NOT interact with any services operated by OpenAI (e.g. ChatGPT, or the OpenAI API).
