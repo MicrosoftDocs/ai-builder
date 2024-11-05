@@ -47,6 +47,10 @@ By selecting the toggle **Try the new model version (Preview)** you can try our 
 
 :::image type="content" source="media/create-form-processing-model/try_preview_toggle_yes.png" alt-text="Screenshot of the tile try preview toggle to yes.":::
 
+[!INCLUDE [cc_beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
+
+[!INCLUDE [cc_preview_features_definition](./includes/cc-preview-features-definition.md)]
+
 #### Benefits of using the Preview Model
 
 **Enhanced Accuracy**: Expect higher accuracy in data extraction.
@@ -55,10 +59,6 @@ By selecting the toggle **Try the new model version (Preview)** you can try our 
 
 **Confidence Scores for Tables**: You can get confidence scores for tables, table rows, and individual table cells
 
-
-[!INCLUDE [cc_beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
-
-[!INCLUDE [cc_preview_features_definition](./includes/cc-preview-features-definition.md)]
 
 ### How to check the model version
 
