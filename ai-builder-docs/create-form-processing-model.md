@@ -53,7 +53,7 @@ By selecting the toggle **Try the new model version (Preview)** you can try our 
 
 **Latest OCR Enhancements**: The preview model includes the latest Optical Character Recognition (OCR) updates. This update resolves many common OCR issues, especially when handling complex text formats like barcodes, QR codes, and watermarks.
 
-**Confidence Scores for Tables**: For custom models, users gain access to confidence scores for tables, table rows, and individual table cells
+**Confidence Scores for Tables**: You can get confidence scores for tables, table rows, and individual table cells
 
 
 [!INCLUDE [cc_beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
@@ -71,39 +71,22 @@ Select **Settings**, and check **Published model version**, and **Last trained m
 ### How to change the model version
 
 
-You can edit the trained or Published model version (Preview) and train it with the general availability (GA) version.
+-  You can edit the trained or Published model version (Preview) and train it with the general availability (GA) version.
 
 1. Select **Edit model**
 1. Select **Try the new model version (Preview)**, select Toggle **No**
 
 :::image type="content" source="media/create-form-processing-model/select_documents_preview_toggle_No.png" alt-text="Screenshot of the tile try preview toggle to No.":::
    
-1. Select the type of documents (Fixed template documents or General documents)
-1. Select **Next**
-1. In Choose information to extract information, select +Add if you want to extract other fields if needed (_Optional_)
-1. Select **Next**
-1. In Add collections of documents, Select New collection if you want to add a new collection if needed (_Optional_)
-1. Select **Next**
-1. In Tag documents, review the tag of documents in your collection if needed (_Optional_)
-1. Select **Next**
-1. Select **Train**
 
-You can edit the trained or Published model general availability (GA) version and train it with the model version (Preview).
+-  You can edit the trained or Published model general availability (GA) version and train it with the model version (Preview).
 
 1. Select **Edit model**
 1. Select **Try the new model version (Preview)**, select Toggle **Yes**
 
 :::image type="content" source="media/create-form-processing-model/select_documents_preview_toggle_yes.png" alt-text="Screenshot of the tile try preview toggle to yes.":::
 
-1. Select the type of documents (Fixed template documents or General documents)
-1. Select **Next**
-1. In Choose information to extract information, select +Add if you want to extract other fields if needed (_Optional_)
-1. Select **Next**
-1. In Add collections of documents, Select New collection if you want to add a new collection if needed (_Optional_)
-1. Select **Next**
-1. In Tag documents, review the tag of documents in your collection if needed (_Optional_)
-1. Select **Next**
-1. Select **Train**
+
 
 ## Define information to extract
 
