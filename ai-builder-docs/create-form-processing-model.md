@@ -84,7 +84,7 @@ Select **Settings**, and check **Published model version**, and **Last trained m
 1. Select **Edit model**
 1. Select **Try the new model version (Preview)**, select Toggle **Yes**
 
-:::image type="content" source="media/create-form-processing-model/select_documents_preview_toggle_yes.png" alt-text="Screenshot of the tile try preview toggle to yes.":::
+:::image type="content" source="media/create-form-processing-model/select_documents_preview_toggle_yes.png" alt-text="Screenshot showing the tile try preview toggle to yes.":::
 
 
 
