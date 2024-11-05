@@ -1,13 +1,25 @@
+---
+title: Data, privacy, and security for AI Builder
+description: AI Builder responsible AI data, privacy and security overview
+author: jekom1
+contributors: 
+  - jekom1
+  - phil-cmd
+  - v-aangie
+ms.topic: conceptual
+ms.custom: 
+ms.date: 11/5/2024
+ms.author: jelenak
+ms.reviewer: angieandrews
+---
 
+This article provides details regarding how data provided by you to AI Builder is processed, used, and stored. AI Builder stores and processes data to provide the service and allow you to monitor use. 
 
+[!IMPORTANT]
+> Your input or output data, your embeddings, and your training data:
+> are NOT available to other customers.
+> are NOT available to OpenAI.
+> are NOT used to improve OpenAI or Azure AI models.
+> are NOT used to train, retrain, or improve Azure AI foundation models.
+> are NOT used to improve any Microsoft or 3rd party products or services without your permission or instruction.
 
-
-Your prompts (inputs) and completions (outputs), your embeddings, and your training data:
-
-are NOT available to other customers.
-are NOT available to OpenAI.
-are NOT used to improve OpenAI models.
-are NOT used to train, retrain, or improve Azure OpenAI Service foundation models.
-are NOT used to improve any Microsoft or 3rd party products or services without your permission or instruction.
-Your fine-tuned Azure OpenAI models are available exclusively for your use.
-The Azure OpenAI Service is operated by Microsoft as an Azure service; Microsoft hosts the OpenAI models in Microsoft’s Azure environment and the Service does NOT interact with any services operated by OpenAI (e.g. ChatGPT, or the OpenAI API).
