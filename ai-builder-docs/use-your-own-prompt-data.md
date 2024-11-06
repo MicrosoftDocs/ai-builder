@@ -3,14 +3,14 @@ title: Use your own data in a prompt
 description: Learn how to use your own data in a prompt to get the answers you need.
 author: CedrickBellarosa
 contributors:
-  - Antrodfr
   - CedrickBellarosa
+  - Antrodfr
   - v-aangie
 ms.topic: conceptual
 ms.collection: 
     - bap-ai-copilot
-ms.date: 08/12/2024
-ms.author: antrod
+ms.date: 11/18/2024
+ms.author: cdbellar
 ms.reviewer: angieandrews
 ---
 
@@ -22,13 +22,21 @@ This point is where data Retrieval Augmented Generation (RAG) allows you to prov
 
 ## Add data and filter
 
-Makers can use the **Data used** option to select one Dataverse table. The fields of the active view of this table are used by the generative model to get more knowledge while answering based on the custom prompt defined and inputs provided.
+You can use the **Data used** option to select one or several Dataverse tables. The fields in these tables are used by the generative model to get more knowledge while answering based on the custom prompt defined and inputs provided.
+
+> [!NOTE]
+> Your prompt might produce better results after saving and when indexing is complete. You can check the indexing status icon in the **Data used** panel.
 
 :::image type="content" source="media/use-your-own-prompt-data/add-data.png" alt-text="Screenshot of how to select a Dataverse table as data to be used in the prompt builder.":::
 
 You can filter the data, which is retrieved by expanding the table and selecting the filtered field and **Filter value**. The value can be free-form text or an input of the prompt.
 
 :::image type="content" source="media/use-your-own-prompt-data/filter-data.png" alt-text="Sscreenshot of how to filter the 'Opportunity' table's 'Status' based on inputs defined in the prompt builder or a list of values.":::
+
+You can filter by creating an input named **Question**. The data matching the question in all the tables added is used. Your question can be expressed with natural language, for example, *Which are my accounts in Seattle?*
+
+:::image type="content" source="media/use-your-own-prompt-data/account-qa.png" alt-text="Screenshot of how to select a Dataverse table as data to be used in the prompt builder.":::
+new pic
 
 ## Insert data references in the prompt
 
@@ -38,13 +46,14 @@ Each data reference is used by the generative model to answer.
 
 :::image type="content" source="media/use-your-own-prompt-data/insert-data.png" alt-text="Screenshot of how to insert 'Data' or 'Inputs' references directly in the prompt.":::
 
-## Example of scenarios
+## Examples of scenarios
 
 The number of scenarios enabled by this capability is limited only by your creativity. The following list provides some examples.
 
 - Create a summary of the account named `Name` using only these columns: `Account.Name`, `Account.Description`, `Account.Orders (Order).Name`, `Account.Orders (Order).Amount`.
 - Classify the `Email` into one of these `Category.Name` matching based on `Category.Description`.
 - Draft a reply to this `Problem` matching data from `FAQ.Topic` and getting inspiration from `FAQ.Solution`.
+- Answer to the **Question** input by providing information about `Account.Account Name`, `Account.Account Number`, `Account.Address 1`, and `Account.Address 1: City`.
 
 ## Limitations
 
@@ -52,15 +61,9 @@ The following list describes the limitations of using your own data in a prompt.
 
 - Data source is limited to Dataverse tables.
 - Virtual table use isn't yet supported.
-- You can use only one table as the data source. However, you can reference fields from multiple relationships of this table.
-- Only the attributes with the following data types are available as **Filter attribute** and in **+ Insert**: `text`, `number`, `date and time`, `choice`, `currency`, and u`nique identifier`.
-- We support only English US formats for filtering values. For example, Filter value=121.5 is supported, while 121,5 isn't. Filter value=2024-12-25 is supported while 25/12/2024 isn't.
-- You can only use direct relationships of the table added as data source.
-
-    For example, you can use `Account.'Company Name (Contact)'.Name` and `Account.'Preferred User (User)'.'Last Name'` but not `Account.'Company Name (Contact)'.'Connected To (Connection)'.'Connection Name'`.
-
-- The total number of records that can be retrieved is limited to 1,000.
-- Filtering on choice/option set column isn't supported yet.
+- You can use only two levels of relationships for each table added as data source.
+    For example, you can use use `Account.'Company Name (Contact)'.Name` or `Account.'Company Name (Contact)'.'Connected To (Connection)'.'Connection Name'`.
+- The total number of records that can be retrieved is limited to 30.
 
 ## Related information
 
