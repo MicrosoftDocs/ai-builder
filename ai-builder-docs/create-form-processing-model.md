@@ -3,14 +3,14 @@ title: Create a document processing custom model in AI Builder
 description: Learn how to create a document processing model in AI Builder.
 author: JoeFernandezMS
 contributors:
+  - phil-cmd
   - antrodfr
   - JoeFernandezMS
-  - phil-cmd
   - v-aangie
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/12/2024
-ms.author: antrod
+ms.date: 10/24/2024
+ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
@@ -36,7 +36,7 @@ After you review the [requirements](form-processing-model-requirements.md), you 
 
 On the **Choose document type** step, select the type of document you want to build an AI model to automate data extraction. There are three options:
 
-- **Fixed-template documents**: Previously known as Structured, this option is ideal when, for a given layout, the fields, tables, checkboxes, and other items can be found in similar places. You can teach this model to extract data from structured documents that have different layouts. This model has a quick training time.
+- **Fixed-template documents**: Previously known as Structured, this option is ideal when, for a given layout, the fields, tables, checkboxes, signatures, and other items can be found in similar places. You can teach this model to extract data from structured documents that have different layouts. This model has a quick training time.
 - **General documents**: Previously known as Unstructured, this option is ideal for any kind of documents, especially when there's no set structure, or when the format is complex. You can teach this model to extract data from structured or unstructured documents that have different layouts. This model is powerful, but has long training time.
 - **Invoices**: Augment the behaviors of the prebuilt invoice processing model by adding new fields to be extracted in addition to the ones by [default](prebuilt-invoice-processing.md#model-output), or samples of documents not properly extracted.
 
