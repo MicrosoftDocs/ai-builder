@@ -7,17 +7,16 @@ contributors:
   - -phil-cmd
   - v-aangie
 ms.topic: conceptual
-ms.date: 07/26/2024
+ms.date: 11/06/2024
 ms.author: antrod
 ms.reviewer: angieandrews
-ms.collection: 
-  - bap-ai-copilot
+ms.collection: bap-ai-copilot
+ms.custom: ignite-2024
 ---
 
 # Change the output of your prompt
 
 By default, the prompt generates text as response. Text can be convenient for many uses cases. However, if the response has several elements that need to be identified individually, the text option can be limited.
-
 
 ## Benefits of using JSON output
 
@@ -94,7 +93,6 @@ The following example shows how you can process an invoice received by email usi
     1. In your flow, select **Create text with GPT using a prompt**.
     1. On the **Parameters** tab in the **Prompt** field, select **prompt with JSON** as the output.
     1. Add the invoice variable you created in the prompt input.
-
 
 The following procedure allows you to easily and safely use multiple values extracted from a text using a prompt.
 
