@@ -23,7 +23,7 @@ These frequently asked questions (FAQ) describe the AI impact of AI Builder's pr
 
 ## What are prompts?
 
-The prompts feature in AI Builder offers users a versatile capability for developing AI-powered workflows, applications, data transformation, and customization of copilots. It allows for the creation of workflows and applications that summarize documents, create draft responses, classify text, translate languages and extract content from images or documents. This capability is powered by the Azure OpenAI Service, which utilizes Generative Pre-trained Transformer (GPT) technology. These models have been trained on vast amounts of data, enabling them to generate text that resembles human-written content. To learn more about the Azure OpenAI Service, go to [Transparency Note for Azure OpenAI Service](/legal/cognitive-services/openai/transparency-note?tabs=text).
+The prompts feature in AI Builder offers users a versatile capability for developing AI-powered workflows, applications, data transformation, and customization of copilots. It allows for the creation of workflows and applications that summarize documents, create draft responses, classify text, translate languages, and extract content from images or documents. This capability is powered by the Azure OpenAI Service, which utilizes Generative Pre-trained Transformer (GPT) technology. These models have been trained on vast amounts of data, enabling them to generate text that resembles human-written content. To learn more about the Azure OpenAI Service, go to [Transparency Note for Azure OpenAI Service](/legal/cognitive-services/openai/transparency-note?tabs=text).
 
 ## What are the intended use cases of prompts?
 
@@ -35,8 +35,8 @@ The following list contains the most popular use cases for this service:
 - Suggestions of draft responses to customer queries, complaints, email, and more.
 - Extraction of information from contracts, emails, invoice, orders, and more.
 - Classification of content in desired categories (for example, whether an email is an order, complaint, or a return).
-- Sentiment analysis of a given text (for example, identifying sentiment of a product review).
-- Extract content from documents or images (for example, extract information from invoices or describe objects in an image)
+- Sentiment analysis of a given text (for example, identify sentiment of a product review).
+- Extract content from documents or images (for example, extract information from invoices, or describe objects in an image).
 
 In all these cases, users are responsible for the final outcome of the system. They're required to review the generated content for any potential inaccuracies of incompleteness before using it.
 
