@@ -1,16 +1,16 @@
 ---
 title: Create a document processing custom model in AI Builder
 description: Learn how to create a document processing model in AI Builder.
-author: JoeFernandezMS
+author: phil-cmd
 contributors:
+  - phil-cmd
   - antrodfr
   - JoeFernandezMS
-  - phil-cmd
   - v-aangie
 ms.topic: conceptual
 ms.custom: 
-ms.date: 04/12/2024
-ms.author: antrod
+ms.date: 11/06/2024
+ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
@@ -36,57 +36,48 @@ After you review the [requirements](form-processing-model-requirements.md), you 
 
 On the **Choose document type** step, select the type of document you want to build an AI model to automate data extraction. There are three options:
 
-- **Fixed-template documents**: Previously known as Structured, this option is ideal when, for a given layout, the fields, tables, checkboxes, signatures and other items can be found in similar places. You can teach this model to extract data from structured documents that have different layouts. This model has a quick training time.
+- **Fixed-template documents**: Previously known as Structured, this option is ideal when, for a given layout, the fields, tables, checkboxes, signatures, and other items can be found in similar places. You can teach this model to extract data from structured documents that have different layouts. This model has a quick training time.
 - **General documents**: Previously known as Unstructured, this option is ideal for any kind of documents, especially when there's no set structure, or when the format is complex. You can teach this model to extract data from structured or unstructured documents that have different layouts. This model is powerful, but has long training time.
 - **Invoices**: Augment the behaviors of the prebuilt invoice processing model by adding new fields to be extracted in addition to the ones by [default](prebuilt-invoice-processing.md#model-output), or samples of documents not properly extracted.
-
 
 ## Try the new model version (Preview)
 
 By selecting the toggle **Try the new model version (Preview)** you can try our latest preview model version for Fixed template documents and General documents
 
+> [!IMPORTANT]
+> - The new model version is a preview release.
+> - Preview releases aren't meant for production use and might have restricted functionality. These releases are subject to [supplemental terms of use](https://www.microsoft.com/en-us/business-applications/legal/supp-powerplatform-preview/), and are available before an official release so that customers can get early access and provide feedback.
+
 :::image type="content" source="media/create-form-processing-model/try_preview_toggle_yes.png" alt-text="Screenshot of the tile try preview toggle to yes.":::
 
-[!INCLUDE [cc_beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
+### Benefits of using the preview model
 
-[!INCLUDE [cc_preview_features_definition](./includes/cc-preview-features-definition.md)]
-
-#### Benefits of using the Preview Model
-
-**Enhanced Accuracy**: Expect higher accuracy in data extraction.
-
-**Latest OCR Enhancements**: The preview model includes the latest Optical Character Recognition (OCR) updates. This update resolves many common OCR issues, especially when handling complex text formats like barcodes, QR codes, and watermarks.
-
-**Confidence Scores for Tables**: You can get confidence scores for tables, table rows, and individual table cells
-
+- **Enhanced Accuracy**: Expect higher accuracy in data extraction.
+- **Latest OCR Enhancements**: The preview model includes the latest Optical Character Recognition (OCR) updates. This update resolves many common OCR issues, especially when handling complex text formats like barcodes, QR codes, and watermarks.
+- **Confidence Scores for Tables**: You can get confidence scores for tables, table rows, and individual table cells
 
 ### How to check the model version
 
 You can easily verify the version used to train and publish your model.
 Select **Settings**, and check **Published model version**, and **Last trained model version**
 
-:::image type="content" source="media/create-form-processing-model/Last Published model version GA and last trained model version Preview.png" alt-text="Screenshot of the Model Settings to see the last published model version GA and the last trained model version in Preview.":::
-
+:::image type="content" source="media/create-form-processing-model/Last Published model version GA and last trained model version Preview.png" alt-text="Screenshot of the 'Model settings' to get the last published model version GA and the last trained model version in preview.":::
 
 ### How to change the model version
 
-
--  You can edit the trained or Published model version (Preview) and train it with the general availability (GA) version.
+You can edit the trained or Published model version (Preview) and train it with the general availability (GA) version.
 
 1. Select **Edit model**
 1. Select **Try the new model version (Preview)**, select Toggle **No**
 
 :::image type="content" source="media/create-form-processing-model/select_documents_preview_toggle_No.png" alt-text="Screenshot of the tile try preview toggle to No.":::
-   
-
--  You can edit the trained or Published model general availability (GA) version and train it with the model version (Preview).
+  
+You can edit the trained or Published model general availability (GA) version and train it with the model version (Preview).
 
 1. Select **Edit model**
 1. Select **Try the new model version (Preview)**, select Toggle **Yes**
 
 :::image type="content" source="media/create-form-processing-model/select_documents_preview_toggle_yes.png" alt-text="Screenshot showing the tile try preview toggle to yes.":::
-
-
 
 ## Define information to extract
 
