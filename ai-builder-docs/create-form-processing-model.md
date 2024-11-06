@@ -8,7 +8,6 @@ contributors:
   - JoeFernandezMS
   - v-aangie
 ms.topic: conceptual
-ms.custom: 
 ms.date: 11/06/2024
 ms.author: plarrue
 ms.reviewer: angieandrews

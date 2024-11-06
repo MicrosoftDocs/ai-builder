@@ -4,12 +4,13 @@ description: Learn about licensing and credit management in AI Builder.
 author: Antoine2F
 contributors:
   - Antoine2F
+  - chplanty
   - jkom1
   - v-aangie
 ms.topic: conceptual
 ms.collection: 
     - bap-ai-copilot
-ms.date: 10/03/2024
+ms.date: 10/28/2024
 ms.author: antode
 ms.reviewer: angieandrews
 ---
@@ -59,7 +60,8 @@ The following table explains the rules for number of credits per license.
 | Power Automate Process |5,000| Maximum = 1,000,000 credits per tenant.|
 | Power Automate Hosted RPA add-on |5,000| Maximum = 1,000,000 credits per tenant.|
 | Power Automate Unattended RPA add-on |5,000| Maximum = 1,000,000 credits per tenant.|
-|Dynamics 365 F&O|20,000| Maximum = 20,000 credits per tenant. |
+| Dynamics 365 F&O|20,000| Maximum = 20,000 credits per tenant. |
+| Power Apps for Cloud for Sustainability USL Plus | 25,000 | None.|
 
 ### Entitlement through AI Builder trial
 
@@ -320,6 +322,18 @@ For an environment without allocated credits, we apply the ‘large margin’ wh
 No. Limitations only apply to the environments in overage. Other environments, whether consuming environment assignment or organization (tenant) level credits aren't affected.
 
 For example, if an environment has no allocated credit, and organization (tenant) level credits aren't all consumed, then editing and running of AI Builder functions is allowed for this environment. This remains true when other environments with assigned credits are in overage.
+
+Consumption of unassigned credits never affectS the consumption of an environment with assigned credits, even if it's in overage. Consumption of credits in an environment with assigned credits never affectS the consumption of credits in other environments, even if it's in overage.
+  
+Global consumption graph is for information purpose, and indicates at least one environment is in overage, but doesn't mean that all environments are in overage. All environments with a consumption lower than their assignment, continue to work as expected.
+
+### Will overage be charged? Will overage affect next month consumption?
+
+No, overage is considered as a grace period to help you adapt to new consumption pattern and is never charged. Overage doesn't affect the next month's consumption.
+
+You should be concerned with an environment that consumes more than its capacity during a month, because it might be blocked at some point in the month. It works again at the beginning of next month as consumption is reset.
+
+You shouldn't be concerned about an environment whose monthly consumption is below its capacity.
 
 ### I created prompts before the model selection was possible. Which model and temperature were used?
 
