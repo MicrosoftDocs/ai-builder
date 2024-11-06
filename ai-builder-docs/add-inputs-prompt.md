@@ -50,11 +50,11 @@ If you're satisfied with your prompt, you can provide a sample value for your te
 
 ## Image or document input (preview)
 
-When you use image or document inputs, you can perform actions on file content that's dynamically passed to the prompt at run time, such as file summarization, file categorization, extracting file information (both textual and visual), asking questions on file, and many more. It's also possible to combine both text and document or image inputs.
+When you use image or document inputs, you can perform actions on file content that's dynamically passed to the prompt at run time, such as file summarization, file categorization, extracting file information (both textual and visual), asking questions on file, and many more. It's also possible to combine both text and document or image inputs in the same prompt.
 
 [!INCLUDE [cc_preview_features_definition](./includes/cc-preview-features-definition.md)]
 
-When you use image or document inputs, you can perform actions on file content that's dynamically passed to the prompt at run time, such as file summarization, file categorization, extracting file information (both textual and visual), asking questions on file, and many more. It's also possible to combine both text and document or image inputs in the same prompt.
+:::image type="content" source="media/add-inputs-prompt/input-file-extraction.png" alt-text="Screenshot of extracting information from a document.":::
 
 If you're satisfied with your prompt, you can provide a sample value for your file input by selecting the input icon on the top right of the prompt builder experience, and uploading a file in the **Sample data** field of your input.
 
@@ -65,7 +65,7 @@ File types supported with image or document input are PNG, JPG, JPEG, BMP, TIFF,
 - For image or document input, size limitation for the files passed to be prompt is 25 MB in total for all files.
 - For image or document input, you can't pass a file with a type other than PNG, JPG, JPEG, BMP, TIFF, and PDF.
 - For image or document input, extracting information from large documents might not be accurate and skip information, especially for table lines.
-- There is a limilation of processing documents with less than 50 pages.
+- There's a limitation of processing documents with fewer than 50 pages.
 - Image or document input isn't yet supported for prompts in Copilot Studio.
 
 ## Related information
