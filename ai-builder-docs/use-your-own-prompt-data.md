@@ -7,8 +7,8 @@ contributors:
   - Antrodfr
   - v-aangie
 ms.topic: conceptual
-ms.collection: 
-    - bap-ai-copilot
+ms.collection: bap-ai-copilot
+ms.custom: ignite-2024
 ms.date: 11/18/2024
 ms.author: cdbellar
 ms.reviewer: angieandrews
@@ -35,8 +35,7 @@ You can filter the data, which is retrieved by expanding the table and selecting
 
 You can filter by creating an input named **Question**. The data matching the question in all the tables added is used. Your question can be expressed with natural language, for example, *Which are my accounts in Seattle?*
 
-:::image type="content" source="media/use-your-own-prompt-data/account-qa.png" alt-text="Screenshot of how to select a Dataverse table as data to be used in the prompt builder.":::
-new pic
+:::image type="content" source="media/use-your-own-prompt-data/account-qa.png" alt-text="Screenshot of how to filter using a 'Question' input.":::
 
 ## Insert data references in the prompt
 
@@ -64,6 +63,7 @@ The following list describes the limitations of using your own data in a prompt.
 - You can use only two levels of relationships for each table added as data source.
     For example, you can use use `Account.'Company Name (Contact)'.Name` or `Account.'Company Name (Contact)'.'Connected To (Connection)'.'Connection Name'`.
 - The total number of records that can be retrieved is limited to 30.
+- Filtering on choice/option set column isn't supported yet.
 
 ## Related information
 
