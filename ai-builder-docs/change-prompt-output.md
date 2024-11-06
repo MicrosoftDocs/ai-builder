@@ -3,6 +3,8 @@ title: Change the output of your prompt
 description: Learn how to change the output of your prompt.
 author: antrod
 contributors:
+  - ashbhati
+  - antoinecellerier
   - antrod
   - -phil-cmd
   - v-aangie
