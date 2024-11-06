@@ -19,11 +19,10 @@ ms.reviewer: angieandrews
 
 # Add text, image, or document input to a prompt
 
-Within your prompt, you have the ability to include inputs that allow users to pass text, image, and document (preview) input to the prompt at run time in an app, a flow, or a copilot.
-
+You can enhance your prompts by allowing users or systems to input text, images, or documents at runtime, whether in an app, a flow, or a copilot. This new capability to incorporate multimodal image and document data is currently in preview. By providing these input modalities, you enable the prompt to act on a diverse range of data types, thereby expanding the usability of the prompt and eliminating the need for developers to explicitly use OCR for processing images and documents.
 
 > [!IMPORTANT]
-> - AI Builder prompts run on GPT 3.5 and GPT 4 models powered by [Azure OpenAI Service](/azure/ai-services/openai/whats-new).
+> - AI Builder prompts run on GPT 4o Mini and GPT 4o models powered by [Azure OpenAI Service](/azure/ai-services/openai/whats-new).
 > - This capability is [limited to some regions](availability-region.md#prompts).
 > - This capability might be subject to usage limits or capacity throttling.
 
@@ -55,7 +54,7 @@ When you use image or document inputs, you can perform actions on file content t
 
 [!INCLUDE [cc_preview_features_definition](./includes/cc-preview-features-definition.md)]
 
-:::image type="content" source="media/add-inputs-prompt/input-file-extraction.png" alt-text="Screenshot of extracting information from a document.":::
+When you use image or document inputs, you can perform actions on file content that's dynamically passed to the prompt at run time, such as file summarization, file categorization, extracting file information (both textual and visual), asking questions on file, and many more. It's also possible to combine both text and document or image inputs in the same prompt.
 
 If you're satisfied with your prompt, you can provide a sample value for your file input by selecting the input icon on the top right of the prompt builder experience, and uploading a file in the **Sample data** field of your input.
 
@@ -63,9 +62,10 @@ File types supported with image or document input are PNG, JPG, JPEG, BMP, TIFF,
 
 ## Limitations
 
-- For image or document input, size limitation for the files passed to be a prompt is 25 MB in total for all files.
+- For image or document input, size limitation for the files passed to be prompt is 25 MB in total for all files.
 - For image or document input, you can't pass a file with a type other than PNG, JPG, JPEG, BMP, TIFF, and PDF.
 - For image or document input, extracting information from large documents might not be accurate and skip information, especially for table lines.
+- There is a limilation of processing documents with less than 50 pages.
 - Image or document input isn't yet supported for prompts in Copilot Studio.
 
 ## Related information
