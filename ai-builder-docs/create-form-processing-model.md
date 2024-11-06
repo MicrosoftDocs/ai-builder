@@ -42,7 +42,7 @@ On the **Choose document type** step, select the type of document you want to bu
 
 ## Try the new model version (Preview)
 
-By selecting the toggle **Try the new model version (Preview)** you can try our latest preview model version for Fixed template documents and General documents
+By selecting the toggle **Try the new model version (Preview)**, you can try the latest preview model version for Fixed template documents and General documents.
 
 > [!IMPORTANT]
 > - The new model version is a preview release.
@@ -58,24 +58,25 @@ By selecting the toggle **Try the new model version (Preview)** you can try our 
 
 ### How to check the model version
 
-You can easily verify the version used to train and publish your model.
-Select **Settings**, and check **Published model version**, and **Last trained model version**
+You can easily verify the version used to train and publish your model. Select **Settings** > **Published model version** > **Last trained model version**.
 
-:::image type="content" source="media/create-form-processing-model/Last Published model version GA and last trained model version Preview.png" alt-text="Screenshot of the 'Model settings' to get the last published model version GA and the last trained model version in preview.":::
+:::image type="content" source="media/create-form-processing-model/last-published-model-version-ga-last-trained-preview.png" alt-text="Screenshot of the 'Model settings' to get the last published model version GA and the last trained model version in preview.":::
 
 ### How to change the model version
 
-You can edit the trained or Published model version (Preview) and train it with the general availability (GA) version.
+You can edit the trained or published model version (preview) and train it with the general availability (GA) version.
 
-1. Select **Edit model**
-1. Select **Try the new model version (Preview)**, select Toggle **No**
+1. Select **Edit model**.
+1. Select **Try the new model version (Preview)**.
+1. Select Toggle **No**.
 
 :::image type="content" source="media/create-form-processing-model/select_documents_preview_toggle_No.png" alt-text="Screenshot of the tile try preview toggle to No.":::
   
 You can edit the trained or Published model general availability (GA) version and train it with the model version (Preview).
 
-1. Select **Edit model**
-1. Select **Try the new model version (Preview)**, select Toggle **Yes**
+1. Select **Edit model**.
+1. Select **Try the new model version (Preview)**.
+1. Select Toggle **Yes**.
 
 :::image type="content" source="media/create-form-processing-model/select_documents_preview_toggle_yes.png" alt-text="Screenshot showing the tile try preview toggle to yes.":::
 
