@@ -1,20 +1,21 @@
 ---
 title: Model selection and temperature settings
 description: Learn about the settings parameter in prompt builder.
-author: Phil-cmd
+author: ashbhati
 contributors:
+  - ashbhati
   - Phil-cmd
   - Antoine2F
   - v-aangie
 ms.topic: conceptual
-ms.date: 09/03/2024
-ms.author: plarrue
+ms.date: 11/01/2024
+ms.author: ashbhati
 ms.reviewer: angieandrews
 ---
 
 # Model selection and temperature settings
 
-When you create a custom prompt in prompt builder, the panel on the right includes a **Settings** section. This section allows you to set these parameters:
+When you create a prompt action in prompt builder, the panel on the right includes a **Settings** section. This section allows you to set these parameters:
 
 - Version of the generative AI model
 - Temperature
@@ -25,22 +26,38 @@ This article explores the impact of these parameters.
 
 The dropdown menu allows you to select among the generative AI models, which generate the answer to your custom prompt.
 
-The default model is a GA (generally available) GPT model. As of May 2024, it's GPT 3.5. Previous prompts created in prompt builder rely on this default model. The exact version is gpt-3.5-turbo-0125.
+The default model as of November 2024, is GPT 4o Mini (general availability, or GA). It's possible to also use the more powerful GPT 4o model (GA). These exact minor versions of these models are subject to change.
 
-The GPT 4 model is also a GA (generally available) model. The specific version in use is GPT 4o ("o" for "omni").
+When you use prompt actions in Power Apps or Power Automate, they consume AI Builder credits.
 
-These exact versions are subject to change.
-
-When applied in Power Apps or Power Automate, the GPT 3.5 and GPT 4o models consume AI Builder credits.
+> [!NOTE]
+> Older prompts created in prompt builder that rely on this default model GPT 3.5 model were or will be auto-upgraded to GPT 4o Mini model. Government cloud continues to use GPT 3.5 model until the end of November 2024.
 
 ### Choose a model
 
-Choose between the models based on status, licensing rules, and functionalities.
+Choose between the models based on status and licensing rules.
 
-|GPT model  |Status  |Version |Licensing rules   | Functionalities| Region availabilities |
-|---------|---------|---------|---------|---------|---------|
-|GPT 3.5| GA - Default model | gpt-3.5-turbo-0125	| Consumes credits in Power Apps and Power Automate. More information: [Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130)  | Trained on data up to September 2021. Context allowed up to 16k tokens. | [Feature availability by regions for prompts](availability-region.md)
-| GPT 4 | GA | GPT 4o ("o" for "omni")	| Consumes credits in Power Apps and Power Automate. More information: [Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130)  | GPT 4o has knowledge up to October 2023 and has a context length of 128k tokens. Multilingual enhanced proficiency. Better than GPT 3.5 in technical redaction and creativity. | [Feature availability by regions for prompts](availability-region.md)|
+|GPT model  |Status   |Licensing rules   | Functionalities| Region availabilities |
+|---------|---------|---------|---------|---------|
+|GPT 4o Mini | GA - Default model	| Consumes credits in Power Apps and Power Automate. More information: [Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130)  | Trained on data up to December 2023. Context allowed up to 128k tokens. | [Feature availability by regions for prompts](availability-region.md)
+| GPT 4 | GA | Consumes credits in Power Apps and Power Automate. More information: [Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130)  | GPT 4o has knowledge up to October 2023 and has a context length of 128k tokens. | [Feature availability by regions for prompts](availability-region.md)|
+
+Choose between the model based on capabilities and scenarios.
+
+### Comparison of GPT-4o Mini and GPT-4o
+
+| Factors                     | GPT-4o Mini                          | GPT-4o                               |
+|---------------------------|--------------------------------------|--------------------------------------|
+| **Cost**                  | Lower, more cost-effective           | Higher, premium pricing              |
+| **Performance**           | Good for most tasks                  | Superior for complex tasks           |
+| **Speed**                 | Faster processing                     | Might be slower due to complexity      |
+| **Use Cases**             | Summarization, information tasks | Complex data analysis, reasoning, and content creation tasks |
+
+## Decision Narrative
+
+When you need a cost-effective solution for moderately complex tasks, have limited computational resources, or require faster processing, choose GPT-4o Mini. It's ideal for projects with budget constraints and applications like customer support or efficient code analysis.
+
+When you're dealing with highly complex, multimodal tasks that require superior performance and detailed analysis, choose GPT-4o. It's the better choice for large-scale projects where accuracy and advanced capabilities are crucial. Another scenario where it's a better choice is when you have the budget and computational resources to support it. GPT-4o is also preferable for long-term projects that might grow in complexity over time.
 
 ### Use of AI prompts in context of Microsoft Copilot Studio
 
