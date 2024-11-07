@@ -63,7 +63,6 @@ The following list describes the limitations of using your own data in a prompt.
 - You can use only two levels of relationships for each table added as data source.
     For example, you can use use `Account.'Company Name (Contact)'.Name` or `Account.'Company Name (Contact)'.'Connected To (Connection)'.'Connection Name'`.
 - The total number of records that can be retrieved is limited to 30.
-- Filtering on choice/option set column isn't supported yet.
 
 ## Related information
 
