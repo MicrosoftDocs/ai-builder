@@ -9,7 +9,7 @@ contributors:
 ms.topic: conceptual
 ms.collection: 
     - bap-ai-copilot
-ms.date: 08/12/2024
+ms.date: 11/07/2024
 ms.author: antrod
 ms.reviewer: angieandrews
 ---
@@ -60,7 +60,6 @@ The following list describes the limitations of using your own data in a prompt.
     For example, you can use `Account.'Company Name (Contact)'.Name` and `Account.'Preferred User (User)'.'Last Name'` but not `Account.'Company Name (Contact)'.'Connected To (Connection)'.'Connection Name'`.
 
 - The total number of records that can be retrieved is limited to 1,000.
-- Filtering on choice/option set column isn't supported yet.
 
 ## Related information
 
