@@ -56,6 +56,6 @@ Congratulations! You've created a flow that uses an AI Builder category classifi
 
 - [Overview of the category classification custom model](text-classification-overview.md)
 - [Training: Get started with AI Builder category classification (module)](/training/modules/ai-builder-category-classification/)
-- [Use a category classification custom model](https://youtu.be/zgzpUylhaLQ?feature=shared)
+- [Use a category classification custom model (video)](https://youtu.be/zgzpUylhaLQ?feature=shared)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
