@@ -45,6 +45,8 @@ You can use the predict action in Power Automate with many different model types
 
 This table helps you identify which capabilities are associated with each AI Builder action.
 
+Each AI Builder capability has a different rate. Please refer to [Microsoft Power Platform Licensing Guide (pdf)](https://go.microsoft.com/fwlink/?LinkId=2085130) to get the latest rate card.
+
 |Power Automate AI Builder action|Capability|
 |-|-|
 |Analyze positive or negative sentiment in text|Sentiment analysis|
