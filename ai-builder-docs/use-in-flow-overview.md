@@ -62,7 +62,6 @@ This table helps you identify which capabilities are associated with each AI Bui
 |Extract information from receipts|	Receipt, Invoice, Identity document or Business card analysis|
 |Generate the key phrases from a text|	Key phrase extraction|
 |Generate description of an image | Image description (Preview) |
-|Predict|	Prediction|
 |Predict whether something will happen by field|	Real-time Prediction, Scheduled Prediction|
 |Predict whether something will happen by record ID|	Real-time Prediction, Scheduled Prediction|
 |Recognize text in an image or a PDF document|	Text recognition|
