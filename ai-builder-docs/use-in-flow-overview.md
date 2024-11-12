@@ -51,7 +51,7 @@ Each AI Builder capability has a different rate. Get the latest rate card inform
 |Analyze positive or negative sentiment in text|Sentiment analysis|
 |Classify text into categories with one of your custom models	|Category classification|
 |Classify text into categories with the standard model|	Category classification |
-|Create text with GPT using a prompt|	AI prompts, Create text with GPT-3.5||
+|Create text with GPT using a prompt|	AI prompts, Create text with GPT-3.5|
 |Create text with GPT using a prompt| AI prompts, Create text with GPT-4o|
 |Detect the language being used in the text|	Language detection|
 |Extract entities from text with one of your custom models|	Entity extraction|
