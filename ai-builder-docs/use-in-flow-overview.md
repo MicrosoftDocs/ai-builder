@@ -46,7 +46,7 @@ This table helps you identify which capabilities are associated with each AI Bui
 
 Each AI Builder capability has a different rate. Get the latest rate card information in [Microsoft Power Platform Licensing Guide (pdf)](https://go.microsoft.com/fwlink/?LinkId=2085130).
 
-|Power Automate AI Builder action|Capability|
+| Power Automate AI Builder action | Capability |
 |-|-|
 |Analyze positive or negative sentiment in text|Sentiment analysis|
 |Classify text into categories with one of your custom models	|Category classification|
