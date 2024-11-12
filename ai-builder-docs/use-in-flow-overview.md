@@ -1,19 +1,19 @@
 ---
-title: AI Builder in Power Automate overview - AI Builder | Microsoft Docs
-description: Provides an overview of how to create automated flows by using AI Builder in Power Automate.
-author: JoeFernandezMS
+title: AI Builder in Power Automate overview - AI Builder
+description: Get an overview of how to create automated flows by using AI Builder in Power Automate.
+author: Phil-cmd
 ms.topic: overview
-ms.date:   01/10/2024 
-ms.author: jofernan
+ms.date:   11/12/2024 
+ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
 # AI Builder in Power Automate overview
 
-Power Automate is a service that helps you create automated workflows between your favorite apps and services to synchronize files, get notifications, collect data, and more. More information: [Power Automate docs](/power-automate) 
+Power Automate is a service that helps you create automated workflows between your favorite apps and services to synchronize files, get notifications, collect data, and more. More information: [Power Automate docs](/power-automate)
 
  > [!NOTE]
- > For any AI Builder action in a cloud flow, ensure that you leave the default **Asynchronous Pattern** setting to **On**. This will ensure that results from the AI models are returned properly.
+ > For any AI Builder action in a cloud flow, ensure that you leave the default **Asynchronous Pattern** setting to **On**. This ensures that results from the AI models are returned properly.
 
 ## Prebuilt AI models you can use in Power Automate right away
 
@@ -40,7 +40,35 @@ Power Automate is a service that helps you create automated workflows between yo
 
 You can use the predict action in Power Automate with many different model types. For more information, see [Use the predict action in Power Automate](predict-action-pwr-automate.md).
 
-### Next step
+## Power Automate AI Builder action
+
+This table helps you identify which capabilities are associated with each AI Builder action.
+
+Each AI Builder capability has a different rate. Get the latest rate card information in [Microsoft Power Platform Licensing Guide (pdf)](https://go.microsoft.com/fwlink/?LinkId=2085130).
+
+| Power Automate AI Builder action | Capability |
+|-|-|
+|Analyze positive or negative sentiment in text|Sentiment analysis|
+|Classify text into categories with one of your custom models	|Category classification|
+|Classify text into categories with the standard model|	Category classification |
+|Create text with GPT using a prompt|	AI prompts, Create text with GPT-3.5|
+|Create text with GPT using a prompt| AI prompts, Create text with GPT-4o|
+|Detect the language being used in the text|	Language detection|
+|Extract entities from text with one of your custom models|	Entity extraction|
+|Extract entities from text with the standard model	|Entity extraction|
+|Extract information from business cards	|Receipt, Invoice, Identity document or Business card analysis|
+|Extract information from documents|	Document processing|
+|Extract information from identity documents|	Receipt, Invoice, Identity document or Business card analysis|
+|Extract information from invoices|	Receipt, Invoice, Identity document or Business card analysis|
+|Extract information from receipts|	Receipt, Invoice, Identity document or Business card analysis|
+|Generate the key phrases from a text|	Key phrase extraction|
+|Generate description of an image | Image description (Preview) |
+|Predict whether something will happen by field|	Real-time Prediction, Scheduled Prediction|
+|Predict whether something will happen by record ID|	Real-time Prediction, Scheduled Prediction|
+|Recognize text in an image or a PDF document|	Text recognition|
+|Translate text into another language|	Text translation|
+
+## Next step
 
 [Prerequisites](use-in-flow-prereq.md)
 
