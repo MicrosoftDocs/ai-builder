@@ -64,3 +64,22 @@ This expression concatenates the rounded confidence values of amounts in the inv
 ```power-fx
 Concat(FormProcessor1.Results.'Table invoice', Round(Amount.Confidence * 100,2) & "%", Char(10))
 ```
+
+## Common questions
+
+Q: Is it possible to see a confidence score for tables in Fixed templates document?
+A: Confidence score for tables are only available for general documents.
+
+Q: Is it possible to see a confidence score for rows in a table?
+A: We do not provide this information
+
+
+Q: What can I do if I have a low confidence score for a cell, table?
+1.	Check that the table is tagged correctly in all the documents.
+2.	Provide more sample documents for training where the table is present
+
+
+Related information
+Use a document processing model in Power Automate
+Use the form processor component in Power Apps
+
