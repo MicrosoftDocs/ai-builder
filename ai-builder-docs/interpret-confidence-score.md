@@ -48,11 +48,19 @@ In this example I have chosen to extract tabular information from my document wi
 Here’s some examples
 
 This expression retrieves the confidence value of the amount from the first row of the invoice table in the results of FormProcessor1.
+
+```power-fx
 First(FormProcessor1.Results.'Table invoice').Amount.Confidence
+```
 
 This expression retrieves the confidence value from the first item in the results of the `FormProcessor1` and multiplies it by 100 to convert it to a percentage format.
+
+```power-fx
 First(FormProcessor1.Results.'Table invoice').Item.Confidence *100
+```
 
 This expression concatenates the rounded confidence values of amounts in the invoice table, appending a percentage sign and a newline character after each value.
 
+```power-fx
 Concat(FormProcessor1.Results.'Table invoice', Round(Amount.Confidence * 100,2) & "%", Char(10))
+```
