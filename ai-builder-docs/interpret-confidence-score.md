@@ -32,6 +32,12 @@ You can check the confidence score of a table by performing a predict in a quick
 
 Place your cursor over the relevant area of the table to view its confidence score.
 
+<screenshot>
+
+Select the table to view its confidence score.
+
+<screenshot>
+
 ## Use Confidence score in a cloud flow
 
 
