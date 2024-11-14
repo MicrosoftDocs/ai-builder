@@ -32,7 +32,7 @@ This article provides details regarding how data provided by you to AI Builder i
 
 **We secure your data**: We help protect your data with encryption at rest and in transit, rigorous physical security controls, and data isolation between tenants.​
 
-**Your data is private**: We won’t use your data except as you instruct. Our commitments to privacy include support for [GDPR] (https://learn.microsoft.com/compliance/regulatory/gdpr), [ISO/IEC 27018] (https://learn.microsoft.com/compliance/regulatory/offering-ISO-27018), and our [Data Protection Addendum] (https://www.microsoft.com/licensing/docs/view/Microsoft-Products-and-Services-Data-Protection-Addendum-DPA).​
+**Your data is private**: We won’t use your data except as you instruct. Our commitments to privacy include support for [GDPR](https://learn.microsoft.com/compliance/regulatory/gdpr), [ISO/IEC 27018](https://learn.microsoft.com/compliance/regulatory/offering-ISO-27018), and our [Data Protection Addendum](https://www.microsoft.com/licensing/docs/view/Microsoft-Products-and-Services-Data-Protection-Addendum-DPA).​
 
 **You're protected against AI security risks**: We help safeguard against AI-focused risks such as harmful content and prompt injections.​
 ​
@@ -40,8 +40,8 @@ This article provides details regarding how data provided by you to AI Builder i
 
 ## Geo boundary compliance
 
-Where Azure Open AI is available, customer data does not leave geo boundary.​
-If Azure OpenAI is not available in a geo, admins have [granular controls] (https://review.learn.microsoft.com/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions) to manage cross geo data movement per environment.​
+For AI prompts, where Azure Open AI is available, customer data does not leave geo boundary.​
+If Azure Open AI is not available in a geo, admins have [granular controls](https://review.learn.microsoft.com/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions) to manage cross geo data movement per environment.​
 
-All data remains within the Azure Trust Boundar.
+For all AI Builder models or prompts, all data remains within the Azure Trust Boundary.
 The data required to train the Azure model is encrypted during transfer, remains in the environment’s geography, and is deleted soon after the model has been created. Data is only stored at rest in Dataverse, under your full control.
