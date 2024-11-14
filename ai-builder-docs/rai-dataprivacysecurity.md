@@ -13,29 +13,35 @@ ms.author: jelenak
 ms.reviewer: angieandrews
 ---
 
-This article provides details regarding how data provided by you to AI Builder is processed, used, and stored. AI Builder stores and processes data to provide the service and allow you to monitor its use. 
+# Data, Privacy, and Security
 
-[!IMPORTANT]
+This article provides details regarding how data provided by you to AI Builder is processed, used, and stored. AI Builder stores and processes data to provide the service and allow you to monitor its use. Behind the scenes, AI Builder generates or uses Azure AI models for most scenarios.
+
+![AIB Architecture](https://github.com/user-attachments/assets/b134645a-9680-49dc-b911-0cf37a0cefcf)
+
+
+> [!IMPORTANT]
 > Your input or output data, your embeddings, and your training data:
-> are NOT available to other customers.
-> are NOT available to OpenAI.
-> are NOT used to improve OpenAI or Azure AI models.
-> are NOT used to train, retrain, or improve Azure AI foundation models.
-> are NOT used to improve any Microsoft or 3rd party products or services without your permission or instruction.
+> - are NOT available to other customers.
+> - are NOT available to OpenAI.
+> - are NOT used to improve OpenAI or Azure AI models.
+> - are NOT used to train, retrain, or improve Azure AI foundation models.
+> - are NOT used to improve any Microsoft or 3rd party products or services without your permission or instruction.
 
-Enterprise data protection
+## Enterprise data protection
 
-We secure your data: We help protect your data with encryption at rest and in transit, rigorous physical security controls, and data isolation between tenants.​
+**We secure your data**: We help protect your data with encryption at rest and in transit, rigorous physical security controls, and data isolation between tenants.​
 
-Your data is private: We won’t use your data except as you instruct. Our commitments to privacy include support for GDPR, ISO/IEC 27018, and our Data Protection Addendum (link https://www.microsoft.com/licensing/docs/view/Microsoft-Products-and-Services-Data-Protection-Addendum-DPA).​
+**Your data is private**: We won’t use your data except as you instruct. Our commitments to privacy include support for [GDPR] (https://learn.microsoft.com/compliance/regulatory/gdpr), [ISO/IEC 27018] (https://learn.microsoft.com/compliance/regulatory/offering-ISO-27018), and our [Data Protection Addendum] (https://www.microsoft.com/licensing/docs/view/Microsoft-Products-and-Services-Data-Protection-Addendum-DPA).​
 
-Your access controls and policies apply to Copilot: Copilot respects your identity model and permissions, inherits your sensitivity labels, applies your retention policies, supports audit of interactions, and follows your administrative settings. The specific controls and policies will vary depending on the underlying subscription plan.​
+**You're protected against AI security risks**: We help safeguard against AI-focused risks such as harmful content and prompt injections.​
 ​
-You're protected against AI security risks: We help safeguard against AI-focused risks such as harmful content and prompt injections.​
-​
-Your data isn’t used to train foundation models: Microsoft Copilot uses the user’s context to create relevant responses. Copilot for Microsoft 365 also uses Microsoft Graph data. Consistent with our other Copilot offers, prompts, responses, and data accessed through Microsoft Graph aren't used to train foundation models.​
+**Your data isn’t used to train foundation models**: AI Builder uses the user’s context to create relevant responses. Consistent with our other AI offers, prompts, responses, and data accessed, aren't used to train foundation models.​
 
-Geo boundary compliance
+## Geo boundary compliance
 
 Where Azure Open AI is available, customer data does not leave geo boundary.​
-If Azure OpenAI is not available in a geo, admins have granular controls to manage cross geo data movement per environment.​
+If Azure OpenAI is not available in a geo, admins have [granular controls] (https://review.learn.microsoft.com/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions) to manage cross geo data movement per environment.​
+
+All data remains within the Azure Trust Boundar.
+The data required to train the Azure model is encrypted during transfer, remains in the environment’s geography, and is deleted soon after the model has been created. Data is only stored at rest in Dataverse, under your full control.
