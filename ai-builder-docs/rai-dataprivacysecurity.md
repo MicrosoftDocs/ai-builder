@@ -35,7 +35,7 @@ This article provides details regarding how data provided by you to AI Builder i
 **Your data is private**: We won’t use your data except as you instruct. Our commitments to privacy include support for [GDPR](https://learn.microsoft.com/compliance/regulatory/gdpr), [ISO/IEC 27018](https://learn.microsoft.com/compliance/regulatory/offering-ISO-27018), and our [Data Protection Addendum](https://www.microsoft.com/licensing/docs/view/Microsoft-Products-and-Services-Data-Protection-Addendum-DPA).​
 
 **You're protected against AI security risks**: We help safeguard against AI-focused risks such as harmful content and prompt injections.​
-​
+
 **Your data isn’t used to train foundation models**: AI Builder uses the user’s context to create relevant responses. Consistent with our other AI offers, prompts, responses, and data accessed, aren't used to train foundation models.​
 
 ## Geo boundary compliance
