@@ -314,6 +314,8 @@
   items:
   - name: Overview
     href: responsible-ai-overview.md
+  - name: Data, Privacy, and Security
+    href: rai-dataprivacysecurity.md
   - name: FAQ for prompts and text generation capabilities
     href: faqs-text-generation.md
 
