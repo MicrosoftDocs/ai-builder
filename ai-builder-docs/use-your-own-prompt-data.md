@@ -9,7 +9,7 @@ contributors:
 ms.topic: conceptual
 ms.collection: bap-ai-copilot
 ms.custom: ignite-2024
-ms.date: 11/18/2024
+ms.date: 11/15/2024
 ms.author: cdbellar
 ms.reviewer: angieandrews
 ---
