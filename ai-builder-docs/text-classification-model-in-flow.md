@@ -4,7 +4,7 @@ description: Provides information about how to use a category classification mod
 author: v-aangie
 ms.topic: conceptual
 ms.custom: 
-ms.date: 01/10/2024
+ms.date: 11/13/2024
 ms.author: angieandrews
 ms.reviewer: angieandrews
 ---
@@ -56,5 +56,6 @@ Congratulations! You've created a flow that uses an AI Builder category classifi
 
 - [Overview of the category classification custom model](text-classification-overview.md)
 - [Training: Get started with AI Builder category classification (module)](/training/modules/ai-builder-category-classification/)
+- [Use a category classification custom model (video)](https://youtu.be/zgzpUylhaLQ?feature=shared)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
