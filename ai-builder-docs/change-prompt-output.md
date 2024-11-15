@@ -9,7 +9,7 @@ contributors:
   - -phil-cmd
   - v-aangie
 ms.topic: conceptual
-ms.date: 11/06/2024
+ms.date: 11/15/2024
 ms.author: antrod
 ms.reviewer: angieandrews
 ms.collection: bap-ai-copilot
@@ -109,7 +109,7 @@ The following procedure allows you to easily and safely use multiple values extr
 
 You might encounter the following error while testing a prompt: **A JSON could not be generated. Edit your prompt instruction and try again.**
 
-This error might be because the model is enclosing the JSON output with metadata information that prevents successful verification of the required JSON format. Try adding the following instruction to your prompt to resolve the issue: **Show the output as a JSON.**.
+This error might be because the model is enclosing the JSON output with metadata information that prevents successful verification of the required JSON format. Try adding the following instruction to your prompt to resolve the issue: **Show the output as a JSON.**
 
 ### No JSON is returned in auto-detect mode
 
