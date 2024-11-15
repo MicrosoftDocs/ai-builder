@@ -1,26 +1,24 @@
 ---
-title: Change the output of your prompt (preview)
+title: Change the output of your prompt
 description: Learn how to change the output of your prompt.
 author: antrod
 contributors:
+  - ashbhati
+  - antoinecellerier
   - antrod
   - -phil-cmd
   - v-aangie
 ms.topic: conceptual
-ms.date: 07/26/2024
+ms.date: 11/15/2024
 ms.author: antrod
 ms.reviewer: angieandrews
-ms.collection: 
-  - bap-ai-copilot
+ms.collection: bap-ai-copilot
+ms.custom: ignite-2024
 ---
 
-# Change the output of your prompt (preview)
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
+# Change the output of your prompt
 
 By default, the prompt generates text as response. Text can be convenient for many uses cases. However, if the response has several elements that need to be identified individually, the text option can be limited.
-
-[!INCLUDE [cc_preview_features_definition](./includes/cc-preview-features-definition.md)]
 
 ## Benefits of using JSON output
 
@@ -41,7 +39,7 @@ This section describes how to select JSON as output and edit the JSON format.
 
 To change how the prompt response is rendered, follow these steps:
 
-1. On the panel to the right under the **Prompt settings** heading, select **Output** > **JSON (preview)**.
+1. On the panel to the right under the **Prompt settings** heading, select **Output** > **JSON**.
 1. On the bottom left, select **Test prompt** to check how your prompt response renders in JSON.
 
     :::image type="content" source="media/change-prompt-output/test-prompt-auto.png" alt-text="Screenshot of selections on the 'Prompt with JSON' page.":::
@@ -98,7 +96,6 @@ The following example shows how you can process an invoice received by email usi
     1. On the **Parameters** tab in the **Prompt** field, select **prompt with JSON** as the output.
     1. Add the invoice variable you created in the prompt input.
 
-
 The following procedure allows you to easily and safely use multiple values extracted from a text using a prompt.
 
 1. In your flow, select **Send an email**.
@@ -112,7 +109,7 @@ The following procedure allows you to easily and safely use multiple values extr
 
 You might encounter the following error while testing a prompt: **A JSON could not be generated. Edit your prompt instruction and try again.**
 
-This error might be because the model is enclosing the JSON output with metadata information that prevents successful verification of the required JSON format. Try adding the following instruction to your prompt to resolve the issue: **Don't include JSON markdown in your answer**.
+This error might be because the model is enclosing the JSON output with metadata information that prevents successful verification of the required JSON format. Try adding the following instruction to your prompt to resolve the issue: **Show the output as a JSON.**
 
 ### No JSON is returned in auto-detect mode
 
@@ -127,4 +124,12 @@ The latest JSON format detected in auto-detect mode or the latest JSON format de
 - You can't modify a JSON schema.
 - We don't support defining a JSON format without field keys.<br/>
     Example: `["abc", "def"]` isn't supported but `[{"Field1": "abc"}, {"Field1": "def"}]` is supported.
+
+## Related information
+
+- [Use your prompt actions in Copilot Studio](use-a-custom-prompt-in-mcs.md)
+- [Use your prompt in Power Apps](use-a-custom-prompt-in-app.md)
+- [Use your prompt in Power Automate](use-a-custom-prompt-in-flow.md)
+- [Human review for automation with a prompt](azure-openai-human-review.md)
+- [FAQ for prompts and text generation capabilities](faqs-text-generation.md)
 
