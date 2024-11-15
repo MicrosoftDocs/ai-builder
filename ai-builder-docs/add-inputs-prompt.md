@@ -1,5 +1,5 @@
 ---
-title: Add inputs to a prompt
+title: Add text, image, or document input to a prompt
 description: Learn how to add text, image, or document input to a prompt.
 author: antrod
 contributors:
@@ -11,7 +11,7 @@ ms.topic: conceptual
 ms.collection: 
 - get-started
 - bap-ai-copilot
-ms.date: 11/06/2024
+ms.date: 11/15/2024
 ms.custom: ignite-2024
 ms.author: antrod
 ms.reviewer: angieandrews
@@ -49,6 +49,8 @@ When you use text inputs, you can perform actions on text content that's dynamic
 If you're satisfied with your prompt, you can provide a sample value for your text input by selecting the input icon on the top right of the prompt builder experience and adding text in the **Sample data** field of your input.
 
 ## Image or document input (preview)
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
 When you use image or document inputs, you can perform actions on file content that's dynamically passed to the prompt at run time, such as file summarization, file categorization, extracting file information (both textual and visual), asking questions on file, and many more. It's also possible to combine both text and document or image inputs in the same prompt.
 
