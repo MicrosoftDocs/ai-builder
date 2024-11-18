@@ -43,7 +43,7 @@ Select the table to view its confidence score.
 
 ## Use the formula bar to retrieve the Confidence score value from the selected item in the Form Processor  control in Power Apps
 
-In this example I have chosen to extract tabular information from my document with a Table that I named 'Table 1' with 4 columns 'Date', 'Activity', 'Qty' and 'AMOUNT'
+In this example I have chosen to extract tabular information from my document with a Table that I named 'Table 1' with 4 columns 'Item', 'Quantity', 'Rate' and 'Amount'.
 
 Here’s some examples
 
@@ -56,7 +56,7 @@ First(FormProcessor1.Results.'Table 1').Amount.Confidence
 This expression retrieves the confidence value from the first item in the results of the `FormProcessor1` and multiplies it by 100 to convert it to a percentage format.
 
 ```power-fx
-First(FormProcessor1.Results.'Table 1').Activity.Confidence *100
+First(FormProcessor1.Results.'Table 1').Rate.Confidence *100
 ```
 
 This expression concatenates the rounded confidence values of amounts in the invoice table, appending a percentage sign and a newline character after each value.
