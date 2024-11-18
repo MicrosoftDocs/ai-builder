@@ -26,9 +26,9 @@ A confidence score for tables and cells in general documents quantifies how cert
 ## Use a quick test to retrieve the Confidence score value from the selected table
 
 You can check the confidence score of a table by performing a predict in a quick test
-1.	Sign in to https://make.powerautomate.com
-2.	On the left pane, select AI hub, select AI models
-3.	Select <your_model>, select Quick test, select Upload from my device, select <your_file>
+1.	Sign in to **https://make.powerautomate.com**
+2.	On the left pane, select **AI hub,** select **AI models**
+3.	Select **<your_model>**, select **Quick test**, select **Upload from my device**, select **<your_file>**
 
 Place your cursor over the relevant area of the table to view its confidence score.
 
@@ -46,12 +46,12 @@ Select the table to view its confidence score.
 5.	Select **+ Add an input**, select **File**
 6.	Select **+ New step**
 7.	Select **AI Builder**, select **Extract information from documents**
-8.	In AI Model, select **<your_model>**
-9.	In Form type, select your type, PDF, JPEG, PNG
-10.	in Form, select File content from the Dynamic content list
+8.	In **AI Model**, select **<your_model>**
+9.	In **Form type,** select your type, PDF, JPEG, PNG
+10.	in **Form**, select **File conten**t from the Dynamic content list
 11.	Select **+ New step**
 12.	Search **Compose (Data operation)**
-13.	in Input, select the value you want to see the value extracted
+13.	in **Input**, select the value you want to see the value extracted
 
 
 ## Use the formula bar to retrieve the Confidence score value from the selected item in the Form Processor  control in Power Apps
