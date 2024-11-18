@@ -70,6 +70,9 @@ Concat(FormProcessor1.Results.'Table invoice', Round(Amount.Confidence * 100,2) 
 Q: Is it possible to see a confidence score for tables in Fixed templates document?
 A: Confidence score for tables are only available for general documents.
 
+Q: Is it possible to see a confidence score of a multipage table?
+A: Yes
+
 Q: Is it possible to see a confidence score for rows in a table?
 A: We do not provide this information
 
