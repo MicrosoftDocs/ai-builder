@@ -61,8 +61,9 @@ The following list describes the limitations of using your own data in a prompt.
 - Data source is limited to Dataverse tables.
 - Virtual table use isn't yet supported.
 - You can use only two levels of relationships for each table added as data source.
-    For example, you can use use `Account.'Company Name (Contact)'.Name` or `Account.'Company Name (Contact)'.'Connected To (Connection)'.'Connection Name'`.
+    For example, you can use `Account.'Company Name (Contact)'.Name` or `Account.'Company Name (Contact)'.'Connected To (Connection)'.'Connection Name'`.
 - The total number of records that can be retrieved is limited to 30.
+- Environment's languages supported: English US, French, Japanese, Danish, Dutch, German, Italian, Brazilian Portuguese, Spanish, Simplified Chinese, Danish Norwegian, and Turkish.
 
 ## Related information
 
