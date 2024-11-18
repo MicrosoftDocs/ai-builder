@@ -1,18 +1,18 @@
 ---
 title:  Feature availability by region or US Government environment
 description: Learn which AI Builder features are available in each region or US Government environment. Lists the release status for each feature by region or US Government environment.
-author: chplanty
+author: phil-cmd
 contributors:
+  - phil-cmd
   - chplanty
   - xiao-wang-paris
-  - phil-cmd
   - JoeFernandezMS
   - jekom1
   - v-aangie
   - antode
 ms.topic: conceptual
-ms.date: 10/24/2024
-ms.author: chplanty
+ms.date: 11/18/2024
+ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
