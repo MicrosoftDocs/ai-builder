@@ -43,17 +43,16 @@ Select the table to view its confidence score.
 2.	Select Instant cloud flow
 3.	Select Manually trigger a flow
 4.	Select the action Manually trigger a flow
-5.	Select + Add an input > select File
+5.	Select + Add an input, select File
 6.	Select + New step
-7.	Select AI Builder > select Extract information from documents
-8.	In AI Model > <select your published model>
-9.	In Form type > <select your type, <PDF>, <JPEG>, <PNG>>
-10.	in Form > select File content from the Dynamic content list
+7.	Select AI Builder, select Extract information from documents
+8.	In AI Model, select <your_model>
+9.	In Form type, select your type, PDF, JPEG, PNG
+10.	in Form, select File content from the Dynamic content list
 11.	Select + New step
 12.	Search Compose (Data operation)
-13.	in Input > Select the value you want to see the value extracted
+13.	in Input, select the value you want to see the value extracted
 
-14.	
 
 ## Use the formula bar to retrieve the Confidence score value from the selected item in the Form Processor  control in Power Apps
 
