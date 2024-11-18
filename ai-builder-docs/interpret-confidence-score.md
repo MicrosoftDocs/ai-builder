@@ -36,7 +36,6 @@ Place your cursor over the relevant area of the table to view its confidence sco
 
 Select the table to view its confidence score.
 
-<screenshot>
 
 ## Use Confidence score in a cloud flow
 
