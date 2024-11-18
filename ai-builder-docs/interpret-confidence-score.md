@@ -32,7 +32,7 @@ You can check the confidence score of a table by performing a predict in a quick
 
 Place your cursor over the relevant area of the table to view its confidence score.
 
-<screenshot>
+:::image type="content" source="media/quick_test_confidence_score_table.png" alt-text="Screenshot of a quick test showing the confidence score of a table.":::
 
 Select the table to view its confidence score.
 
