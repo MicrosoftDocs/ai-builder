@@ -1,10 +1,10 @@
 ---
-title: Overview of the prediction model - AI Builder | Microsoft Docs
+title: Overview of the prediction model - AI Builder
 description: Describes the prediction model in AI Builder, and gives some examples of how you might use it.
-author: v-aangie
+author: phil-cmd
 ms.topic: overview
-ms.date: 01/10/2024
-ms.author: norliu
+ms.date: 11/20/2024
+ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
