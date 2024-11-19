@@ -86,6 +86,9 @@ A: Confidence score for tables are only available for general documents.
 Q: Is it possible to see a confidence score of a multipage table?
 A: Yes
 
+Q: Can i see the confidence score of a table with column type text, Number, Date and Checkbox?
+A: Yes, you can see the confidence score of these text data type
+
 Q: Is it possible to see a confidence score for rows in a table?
 A: We do not provide this information
 
