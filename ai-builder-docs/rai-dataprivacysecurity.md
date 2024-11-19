@@ -15,9 +15,13 @@ ms.reviewer: angieandrews
 
 # Data, Privacy, and Security
 
-This article provides details regarding how data provided by you to AI Builder is processed, used, and stored. AI Builder stores and processes data to provide the service and allow you to monitor its use. Behind the scenes, AI Builder generates or uses Azure AI models for most scenarios.
+This article provides details regarding how data provided by you to AI Builder is processed, used, and stored. AI Builder stores and processes data to provide the service and allow you to monitor its use. 
 
 ![AIB Architecture](https://github.com/user-attachments/assets/b134645a-9680-49dc-b911-0cf37a0cefcf)
+
+Behind the scenes, AI Builder generates or uses Azure AI models for most scenarios.
+
+![image](https://github.com/user-attachments/assets/52a0ae7e-85bf-474c-bee0-c93ce6ddf8e7)
 
 
 > [!IMPORTANT]
@@ -42,6 +46,12 @@ This article provides details regarding how data provided by you to AI Builder i
 
 For AI prompts, where Azure Open AI is available, customer data does not leave geo boundary.​
 If Azure Open AI is not available in a geo, admins have [granular controls](https://review.learn.microsoft.com/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions) to manage cross geo data movement per environment.​
+See [Feature availability per region](availability-region.md) for more details on features availabile within a region.
 
 For all AI Builder models or prompts, all data remains within the Azure Trust Boundary.
 The data required to train the Azure model is encrypted during transfer, remains in the environment’s geography, and is deleted soon after the model has been created. Data is only stored at rest in Dataverse, under your full control.
+
+## AI Prompts workflow
+
+![image](https://github.com/user-attachments/assets/1ad1077c-0176-4e38-8965-66aad36aaca4)
+
