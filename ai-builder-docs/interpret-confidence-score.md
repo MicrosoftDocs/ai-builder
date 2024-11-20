@@ -18,7 +18,7 @@ ms.reviewer: angieandrews
 A confidence score for tables and cells in general documents quantifies how certain the model is about its predictions on structured data. Higher scores indicate greater confidence, while lower scores suggest uncertainty. These scores help prioritize reliable outputs, guide human review, and improve accuracy in applications like data extraction, validation, and automated reporting.
 
 > [!NOTE]
-> Confidence scores for tables, and table cells are available with the Preview version for general documents
+> Confidence scores for tables and table cells are available in the Preview version for general documents
 
 
 <!--Please let me know if this is copilot/AI, preview or GA.-->
