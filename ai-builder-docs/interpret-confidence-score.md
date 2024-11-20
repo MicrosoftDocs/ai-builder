@@ -52,7 +52,7 @@ Select the table to view cells confidence score.
 10.	in **Form**, select **File conten**t from the Dynamic content list
 11.	Select **+ New step**
 12.	Search **Compose (Data operation)**
-13.	in **Input**, select the confidence score value you want to see extracted
+13.	in **Inputs**, select the confidence score value you want to see extracted from the Dynamic content list
 
 
 ## Use the formula bar to retrieve the Confidence score value from the selected item in the Form Processor  control in Power Apps
