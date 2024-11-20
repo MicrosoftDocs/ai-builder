@@ -52,12 +52,12 @@ Select the table to view cells confidence score.
 10.	in **Form**, select **File conten**t from the Dynamic content list
 11.	Select **+ New step**
 12.	Search **Compose (Data operation)**
-13.	in **Input**, select the value you want to see the value extracted
+13.	in **Input**, select the confidence score value you want to see extracted
 
 
 ## Use the formula bar to retrieve the Confidence score value from the selected item in the Form Processor  control in Power Apps
 
-In this example I have chosen to extract tabular information from my document with a Table that I named 'Table 1' with 4 columns 'Item', 'Quantity', 'Rate' and 'Amount'.
+In this example I have chosen to extract tabular information from my document with a Table that I named 'Table 1' with 4 columns 'Item', 'Qty'and 'Amount'.
 
 Here’s some examples
 
@@ -85,20 +85,20 @@ Q: Is it possible to see a confidence score for tables in Fixed templates docume
 A: Confidence score for tables are only available for general documents.
 
 Q: Is it possible to see a confidence score of a multipage table?
-A: Yes
+A: Yes.
 
 Q: Can i see the confidence score of a table with column type text, Number, Date and Checkbox?
-A: Yes, you can see the confidence score of these text data type
+A: Yes, you can see the confidence score of these text data type.
 
 Q: Is it possible to see a confidence score for rows in a table?
-A: We do not provide this information
+A: We do not provide this information.
 
 Q: Is it possible to see a confidence score of a table in a Power app?
-A: We do not provide this information
+A: We do not provide a confidence score for an entire table; however we provide confidence scores for individual cells.
 
 Q: What can I do if I have a low confidence score for a cell, table?
 1.	Check that the table is tagged correctly in all the documents.
-2.	Provide more sample documents for training where the table is present
+2.	Provide more sample documents for training where the table is present.
 
 
 Related information
