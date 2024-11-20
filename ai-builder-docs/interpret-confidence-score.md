@@ -34,8 +34,9 @@ Place your cursor over the relevant area of the table to view its confidence sco
 
 :::image type="content" source="media/quick_test_confidence_score_table.png" alt-text="Quick test showing the confidence score of a table.":::
 
-Select the table to view its confidence score.
+Select the table to view cells confidence score.
 
+:::image type="content" source="media/quick_test_confidence_score_table_cells.png" alt-text="Quick test showing the confidence score of a table.":::
 
 ## Use Confidence score in a cloud flow
 
