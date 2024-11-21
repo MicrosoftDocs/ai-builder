@@ -56,31 +56,42 @@ Select the table to view cells confidence score.
 
 :::image type="content" source="media/document_processing_predict_confidence_score_cloud_flow.png" alt-text="Predict showing the confidence score of cells and table in a cloud flow.":::
 
+Test your flow to view the confidence score of the table and cells
+
+:::image type="content" source="media/document_processing_predict_confidence_score_cloud_flow_result" alt-text="Predict showing the confidence score result of cells and table in a cloud flow.":::
+
+Selecy the next button in the **Apply to Each** action to view the confidence score results for other cells. Note that the table's confidence score will remain unchanged in this scenario.
+
+
+
 ## Use the formula bar to retrieve the Confidence score value from the selected item in the Form Processor  control in Power Apps
 
 In this example I have chosen to extract tabular information from my document with a Table that I named 'Table 1' with 4 columns 'Item', 'Qty'and 'Amount'.
 
 Here’s some examples
 
-This expression retrieves the confidence value of the amount from the first row of the invoice table in the results of FormProcessor1.
+This expression retrieves the confidence score value of the first row in the "Amount" column of the table "Table 1" in the results of FormProcessor1.
 
 ```power-fx
 First(FormProcessor1.Results.'Table 1').Amount.Confidence
 ```
 
-This expression retrieves the confidence value from the first item in the results of the `FormProcessor1` and multiplies it by 100 to convert it to a percentage format.
+This expression retrieves the confidence score value of the first row in the "Rate" column of the table "Table 1" in the results of the `FormProcessor1` and multiplies it by 100 to convert it to a percentage format.
 
 ```power-fx
 First(FormProcessor1.Results.'Table 1').Rate.Confidence *100
 ```
 
-This expression concatenates the rounded confidence values of amounts in the invoice table, appending a percentage sign and a newline character after each value.
+This expression concatenates the confidence score result for all rows in the "Amount" column of the table 'Table 1', appending a percentage sign and a newline character after each value.
 
 ```power-fx
 Concat(FormProcessor1.Results.'Table 1', Round(Amount.Confidence * 100,2) & "%", Char(10))
 ```
 
 ## Common questions
+
+Q: How the confidence score is calculated?
+A: The confidence score is calculated based on the properties of each field during training, like content, location.
 
 Q: Is it possible to see a confidence score for tables in Fixed templates document?
 A: Confidence score for tables are only available for general documents.
