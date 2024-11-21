@@ -106,7 +106,7 @@ Q: Is it possible to see a confidence score for rows in a table?
 A: We do not provide this information.
 
 Q: Is it possible to see a confidence score of a table in a Power app?
-A: We do not provide a confidence score for an entire table; however we provide confidence scores for individual cells.
+A: We do not provide a confidence score for an entire table for the moment; however we provide confidence scores for individual cells.
 
 Q: What can I do if I have a low confidence score for a cell, table?
 1.	Check that the table is tagged correctly in all the documents.
