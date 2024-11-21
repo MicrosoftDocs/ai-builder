@@ -54,7 +54,7 @@ Select the table to view cells confidence score.
 12.	Search **Compose (Data operation)**
 13.	in **Inputs**, select the confidence score value you want to see extracted from the Dynamic content list
 
-:::image type="content" source="media/predict_confidence_score_cloud_flow.png" alt-text="Predict showing the confidence score of cells and table in a cloud flow.":::
+:::image type="content" source="media/document_processing_predict_confidence_score_cloud_flow.png" alt-text="Predict showing the confidence score of cells and table in a cloud flow.":::
 
 ## Use the formula bar to retrieve the Confidence score value from the selected item in the Form Processor  control in Power Apps
 
