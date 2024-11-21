@@ -26,7 +26,8 @@ A confidence score for tables and cells in general documents quantifies how cert
 
 ## Use a quick test to retrieve the Confidence score value from the selected table
 
-You can check the confidence score of a table by performing a predict in a quick test
+You can check the confidence score of a table and table cells by performing a predict in a quick test
+
 1.	Sign in to **https://make.powerautomate.com**
 2.	On the left pane, select **AI hub,** select **AI models**
 3.	Select **<your_model>**, select **Quick test**, select **Upload from my device**, select **<your_file>**
@@ -40,6 +41,8 @@ Select the table to view cells confidence score.
 :::image type="content" source="media/quick_test_confidence_score_table_cells.png" alt-text="Quick test showing the confidence score of cells in a table.":::
 
 ## Use Confidence score in a cloud flow
+
+You can check the confidence score of a table and table cells by performing a predict in a cloud flow
 
 1.	Select **+ Create**
 2.	Select **Instant cloud flow**
@@ -65,7 +68,9 @@ Select the next arrow button in the **Apply to Each** action to view the confide
 
 
 
-## Use the formula bar to retrieve the Confidence score value from the selected item in the Form Processor  control in Power Apps
+## Use Confidence score in a canvas app
+
+Use the formula bar to retrieve the Confidence score value from the Form Processor control in Power Apps
 
 In this example I have chosen to extract tabular information from my document with a Table that I named 'Table 1' with 3 columns 'Item', 'Qty'and 'Amount'.
 
