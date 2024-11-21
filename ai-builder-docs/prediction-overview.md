@@ -14,9 +14,9 @@ AI Builder prediction models analyze patterns in historical data that you provid
 
 Use the prediction model to explore business questions that can be answered as one the following ways:
 
-- From two available options (binary).
-- From multiple possible outcomes.
-- Where the answer is a number.
+- From two available options (binary)
+- From multiple possible outcomes
+- Where the answer is a number
 
 ## Binary prediction
 
