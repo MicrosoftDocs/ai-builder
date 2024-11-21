@@ -8,14 +8,14 @@ contributors:
   - v-aangie
 ms.topic: conceptual
 ms.custom: 
-ms.date: 01/10/2024
+ms.date: 11/20/2024
 ms.author: ashbhati
 ms.reviewer: angieandrews
 ---
 
 # Use an AI Builder custom entity extraction AI model in Power Automate
 
-1. Sign in to [Power Automate](https://flow.microsoft.com/).
+1. Sign in to [Power Automate](https://make.powerautomate.com/).
 
 1. Select **My flows** in the left pane, and then select **New flow** > **Instant cloud flow**.
 
