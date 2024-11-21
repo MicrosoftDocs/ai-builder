@@ -46,15 +46,15 @@ You can check the confidence score of a table and table cells by performing a pr
 
 1.	Select **+ Create**
 2.	Select **Instant cloud flow**
-3.	Select **Manually trigger a flow**
-4.	Select the action Manually trigger a flow
+3.	Select **Manually trigger a flow**, select **Create**
+4.	Select the action **Manually trigger a flow**
 5.	Select **+ Add an input**, select **File**
-6.	Select **+ New step**
+6.	Select **Add an action**
 7.	Select **AI Builder**, select **Extract information from documents**
-8.	In **AI Model**, select **<your_model>**
-9.	In **Form type,** select your type, PDF, JPEG, PNG
-10.	in **Form**, select **File conten**t from the Dynamic content list
-11.	Select **+ New step**
+8.	In **AI Model**, select **<your_published_model>**
+9.	In **Form type,** select your type, JPEG Image, PDF Document, PNG Image
+10.	in **Form**, select **File content contentBytes** from the Dynamic content list
+11.	Select **Add an action**
 12.	Search **Compose (Data operation)**
 13.	in **Inputs**, select the confidence score value you want to see extracted from the Dynamic content list
 
@@ -98,7 +98,8 @@ Concat(FormProcessor1.Results.'Table 1', Round(Amount.Confidence * 100,2) & "%",
 
 **Q: How the confidence score is calculated?**
 
-A: The confidence score is calculated based on the properties of each field during training, like content, location.
+A: The confidence score is calculated based on data characteristics observed in the training samples, such as how frequently this field has corresponding value present, as well as the specific document used during prediction.Some properties are dataset specific, while others are field specific. These properties are then utilized to calculate confidence scores for each field.
+
 
 **Q: Is it possible to see a confidence score for tables in Fixed templates document?**
 
