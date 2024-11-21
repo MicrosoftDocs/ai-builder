@@ -96,30 +96,32 @@ Concat(FormProcessor1.Results.'Table 1', Round(Amount.Confidence * 100,2) & "%",
 
 ## Common questions
 
-Q: How the confidence score is calculated?
+**Q: How the confidence score is calculated?**
+
 A: The confidence score is calculated based on the properties of each field during training, like content, location.
 
-Q: Is it possible to see a confidence score for tables in Fixed templates document?
+**Q: Is it possible to see a confidence score for tables in Fixed templates document?**
 
 A: Confidence score for tables are only available for general documents.
 
-Q: Is it possible to see a confidence score of a multipage table?
+**Q: Is it possible to see a confidence score of a multipage table?**
 
 A: Yes.
 
-Q: Can i see the confidence score of a table with column type text, Number, Date and Checkbox?
+**Q: Can i see the confidence score of a table with column type text, Number, Date and Checkbox?**
 
 A: Yes, you can see the confidence score of these text data type.
 
-Q: Is it possible to see a confidence score for rows in a table?
+**Q: Is it possible to see a confidence score for rows in a table?**
 
 A: We do not provide this information.
 
-Q: Is it possible to see a confidence score of a table in a Power app?
 
-A: We do not provide a confidence score for an entire table for the moment; however we provide confidence scores for individual cells.
+**Q: Is it possible to see a confidence score of a table in a Power app?**
 
-Q: What can I do if I have a low confidence score for a cell, table?
+A: Currently, we do not provide a confidence score for an entire table; however, we do offer confidence scores for individual cells. We are actively working on adding support for table confidence scores in the future, but we cannot provide an ETA at this time.
+
+**Q: What can I do if I have a low confidence score for a cell, table?**
 
 1.	Check that the table is tagged correctly in all the documents.
 2.	Provide more sample documents for training where the table is present.
