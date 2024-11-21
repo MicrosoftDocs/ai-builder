@@ -24,12 +24,12 @@ A confidence score for tables and cells in general documents quantifies how cert
 
 <!--Please let me know if this is copilot/AI, preview or GA.-->
 
-## Use a quick test to retrieve the Confidence score value from the selected table
+## Use a quick test to retrieve the confidence score value of a table and table cells
 
 You can check the confidence score of a table and table cells by performing a predict in a quick test
 
-1.	Sign in to **https://make.powerautomate.com**
-2.	On the left pane, select **AI hub,** select **AI models**
+1.	Sign in to **https://make.powerautomate.com** or **https://make.powerapps.com**
+2.	On the left pane, select ... More, select **AI hub,** select **AI models**
 3.	Select **<your_model>**, select **Quick test**, select **Upload from my device**, select **<your_file>**
 
 Place your cursor over the relevant area of the table to view its confidence score.
