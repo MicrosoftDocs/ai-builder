@@ -120,7 +120,7 @@ Q: What can I do if I have a low confidence score for a cell, table?
 2.	Provide more sample documents for training where the table is present.
 
 
-Related information
+## Related information
 
 [Use a document processing model in Power Automate](form-processing-model-in-flow.md)
 
