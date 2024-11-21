@@ -61,7 +61,7 @@ Test your flow to view the confidence score of the table and cells
 
 :::image type="content" source="media/document_processing_predict_confidence_score_cloud_flow_result.png" alt-text="Predict showing the confidence score result of cells and table in a cloud flow.":::
 
-Selecy the next button in the **Apply to Each** action to view the confidence score results for other cells. Note that the table's confidence score will remain unchanged in this scenario.
+Selec the next arrow button in the **Apply to Each** action to view the confidence score results for other cells. Note that the table's confidence score will remain unchanged in this scenario.
 
 
 
