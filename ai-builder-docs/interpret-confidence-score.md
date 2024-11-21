@@ -20,6 +20,8 @@ A confidence score for tables and cells in general documents quantifies how cert
 > [!NOTE]
 > Confidence scores for tables and table cells are available in the Preview version for general documents
 
+[!INCLUDE cc_preview_features_definition]
+
 
 <!--Please let me know if this is copilot/AI, preview or GA.-->
 
@@ -94,26 +96,33 @@ Q: How the confidence score is calculated?
 A: The confidence score is calculated based on the properties of each field during training, like content, location.
 
 Q: Is it possible to see a confidence score for tables in Fixed templates document?
+
 A: Confidence score for tables are only available for general documents.
 
 Q: Is it possible to see a confidence score of a multipage table?
+
 A: Yes.
 
 Q: Can i see the confidence score of a table with column type text, Number, Date and Checkbox?
+
 A: Yes, you can see the confidence score of these text data type.
 
 Q: Is it possible to see a confidence score for rows in a table?
+
 A: We do not provide this information.
 
 Q: Is it possible to see a confidence score of a table in a Power app?
+
 A: We do not provide a confidence score for an entire table for the moment; however we provide confidence scores for individual cells.
 
 Q: What can I do if I have a low confidence score for a cell, table?
+
 1.	Check that the table is tagged correctly in all the documents.
 2.	Provide more sample documents for training where the table is present.
 
 
 Related information
-Use a document processing model in Power Automate
-Use the form processor component in Power Apps
+
+[Use a document processing model in Power Automate](form-processing-model-in-flow.md)
+[Use the form processor component in Power Apps](form-processor-component-in-powerapps.md)
 
