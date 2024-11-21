@@ -22,7 +22,6 @@ A confidence score for tables and cells in general documents quantifies how cert
 
 [!INCLUDE cc_preview_features_definition]
 
-
 <!--Please let me know if this is copilot/AI, preview or GA.-->
 
 ## Use a quick test to retrieve the Confidence score value from the selected table
@@ -60,7 +59,7 @@ Select the table to view cells confidence score.
 
 Test your flow to view the confidence score of the table and cells
 
-:::image type="content" source="media/document_processing_predict_confidence_score_cloud_flow_result" alt-text="Predict showing the confidence score result of cells and table in a cloud flow.":::
+:::image type="content" source="media/document_processing_predict_confidence_score_cloud_flow_result.png" alt-text="Predict showing the confidence score result of cells and table in a cloud flow.":::
 
 Selecy the next button in the **Apply to Each** action to view the confidence score results for other cells. Note that the table's confidence score will remain unchanged in this scenario.
 
