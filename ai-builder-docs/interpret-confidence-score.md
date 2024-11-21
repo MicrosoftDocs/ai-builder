@@ -61,13 +61,13 @@ Test your flow to view the confidence score of the table and cells
 
 :::image type="content" source="media/document_processing_predict_confidence_score_cloud_flow_result.png" alt-text="Predict showing the confidence score result of cells and table in a cloud flow.":::
 
-Selec the next arrow button in the **Apply to Each** action to view the confidence score results for other cells. Note that the table's confidence score will remain unchanged in this scenario.
+Select the next arrow button in the **Apply to Each** action to view the confidence score results for other cells. Note that the table's confidence score will remain unchanged in this scenario.
 
 
 
 ## Use the formula bar to retrieve the Confidence score value from the selected item in the Form Processor  control in Power Apps
 
-In this example I have chosen to extract tabular information from my document with a Table that I named 'Table 1' with 4 columns 'Item', 'Qty'and 'Amount'.
+In this example I have chosen to extract tabular information from my document with a Table that I named 'Table 1' with 3 columns 'Item', 'Qty'and 'Amount'.
 
 Here’s some examples
 
@@ -77,10 +77,10 @@ This expression retrieves the confidence score value of the first row in the "Am
 First(FormProcessor1.Results.'Table 1').Amount.Confidence
 ```
 
-This expression retrieves the confidence score value of the first row in the "Rate" column of the table "Table 1" in the results of the `FormProcessor1` and multiplies it by 100 to convert it to a percentage format.
+This expression retrieves the confidence score value of the first row in the "Qty" column of the table "Table 1" in the results of the `FormProcessor1` and multiplies it by 100 to convert it to a percentage format.
 
 ```power-fx
-First(FormProcessor1.Results.'Table 1').Rate.Confidence *100
+First(FormProcessor1.Results.'Table 1').Qty.Confidence *100
 ```
 
 This expression concatenates the confidence score result for all rows in the "Amount" column of the table 'Table 1', appending a percentage sign and a newline character after each value.
