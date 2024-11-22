@@ -1,9 +1,9 @@
 ---
-title: Overview of document processing model - AI Builder | Microsoft Docs
+title: Overview of document processing model - AI Builder
 description: This topic provides information about how to build and use document processing models in AI Builder.
 author: JoeFernandezMS
 ms.topic: overview
-ms.date: 01/10/2024
+ms.date: 11/20/2024
 ms.author: jofernan
 ms.reviewer: angieandrews
 ---
