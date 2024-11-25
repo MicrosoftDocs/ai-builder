@@ -121,6 +121,7 @@ Your next step is determined by the app you plan to use with your prompt.
 - Use in Power Apps
   - Empowers makers to incorporate existing prompts into their apps.
   - [Use a prompt in Power Apps](use-a-custom-prompt-in-app.md)
+  - [Configure a row summary for a model-driven app (preview)](https://review.learn.microsoft.com/en-us/power-apps/maker/data-platform/configure-form-row-summary?branch=matp-443302)
 
 - Use in Power Automate
   - Empowers makers to incorporate existing prompts into their flows.
