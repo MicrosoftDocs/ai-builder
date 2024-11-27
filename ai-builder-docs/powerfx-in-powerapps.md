@@ -1,5 +1,5 @@
 ---
-title: Use AI Builder models in Power Apps - AI Builder | Microsoft Docs
+title: Use AI Builder models in Power Apps - AI Builder
 description: Learn how to add more powerful and flexible integrations of AI models into your Power App.
 author: phil-cmd
 contributors:
@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.collection: 
 - get-started
 - bap-ai-copilot
-ms.date: 01/10/2024
+ms.date: 11/20/2024
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---

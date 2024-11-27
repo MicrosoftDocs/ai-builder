@@ -10,7 +10,7 @@ contributors:
   - v-aangie
 ms.topic: conceptual
 ms.custom: bap-template
-ms.date: 06/25/2024
+ms.date: 11/20/2024
 ms.author: antode
 ms.reviewer: angieandrews
 ---

@@ -1,8 +1,9 @@
 ---
 title: Create a prompt
 description: Learn how to create a custom prompt.
-author: phil-cmd
+author: ashbhati
 contributors:
+  - ashbhati
   - phil-cmd
   - CedrickBellarosa
   - v-aangie
@@ -10,8 +11,8 @@ ms.topic: conceptual
 ms.collection: 
 - get-started
 - bap-ai-copilot
-ms.date: 09/03/2024
-ms.author: plarrue
+ms.date: 11/05/2024
+ms.author: ashbhati
 ms.reviewer: angieandrews
 ---
 
@@ -20,7 +21,7 @@ ms.reviewer: angieandrews
 Custom prompts give makers the freedom to instruct the GPT model to behave in a certain way or to perform a specific task. By carefully crafting a prompt, you can generate responses that suit your specific business needs. This transforms the GPT model into a flexible tool to accomplish various tasks.
 
 > [!IMPORTANT]
-> - AI Builder prompts run on GPT 3.5 and GPT 4 models powered by [Azure OpenAI Service](/azure/ai-services/openai/whats-new).
+> - AI Builder prompts run on GPT 4o Mini and GPT 4o models powered by [Azure OpenAI Service](/azure/ai-services/openai/whats-new).
 > - This capability is [limited to some regions](availability-region.md#prompts).
 > - This capability might be subject to usage limits or capacity throttling.
 
