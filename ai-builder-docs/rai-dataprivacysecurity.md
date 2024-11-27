@@ -13,7 +13,7 @@ ms.author: jelenak
 ms.reviewer: angieandrews
 ---
 
-# Data, Privacy, and Security
+# Data, privacy, and security
 
 This article explains how data provided by you to AI Builder is processed, used, and stored. AI Builder stores and processes data to provide the service and allow you to monitor its use.
 
@@ -57,8 +57,8 @@ For all AI Builder models or prompts, all data remains within the Azure Trust Bo
 
 The data required to train the Azure model is encrypted during transfer, remains in the environment’s geography, and is deleted soon after the model is created. Data is only stored at rest in Dataverse, under your full control.
 
-## AI Prompts workflow
+## AI prompts workflow
 
 The following screenshot shows the AI prompts workflow. It starts with a prompt and then goes to Dataverse. Next, the prompt uses the AI Builder internal services. Finally, the prompt is sent to the GPT model and content moderation is applied.
 
-:::image type="content" source="media/rai-dataprivacysecurity/aib-prompts-workflow.png" alt-text="Screenshot of scenarios that use AI models.":::
+:::image type="content" source="media/rai-dataprivacysecurity/aib-prompts-workflow.png" alt-text="Screenshot of the AI prompts workflow.":::

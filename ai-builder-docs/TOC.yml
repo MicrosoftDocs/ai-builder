@@ -294,6 +294,8 @@
     href: administer.md
   - name: Roles and security
     href: security.md
+  - name: Data, privacy, and security
+    href: rai-dataprivacysecurity.md
   - name: Feature availability by region
     href: availability-region.md
 - name: Licensing and monitoring
@@ -316,8 +318,6 @@
   items:
   - name: Overview
     href: responsible-ai-overview.md
-  - name: Data, Privacy, and Security
-    href: rai-dataprivacysecurity.md
   - name: FAQ for prompts and text generation capabilities
     href: faqs-text-generation.md
 
