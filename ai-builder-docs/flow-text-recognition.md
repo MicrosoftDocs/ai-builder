@@ -28,13 +28,13 @@ ms.reviewer: angieandrews
 
 1. To process results, your can either use the full document text, a page text or the document text line by line.
 
-**Get the full document text or a full page text**
+### Get the full document text or a full page text**
 It can be useful if you need to perfom an action on the full document text or on a specific page text such as searching for a substring or passing it to a downstream action. You can for example post all the extracted text in a Teams channel using **Full text of the document** from the Dynamic content list.
 
-    > [!div class="mx-imgBorder"]
-    > ![Trigger text recognition flow.](media/trigger-text-recognition-2.png "Trigger text recognition flow")
+> [!div class="mx-imgBorder"]
+> ![Trigger text recognition flow.](media/trigger-text-recognition-2.png "Trigger text recognition flow")
 
-**Get the document text line by line**
+### Get the document text line by line**
 It can be useful if you need to isolate a specific line of text or reformat the text at your convenience.
 
 1. Select **+New step** > **Control**, and then select **Initialize variable** to create a string variable and name it **Extracted text** for example.
