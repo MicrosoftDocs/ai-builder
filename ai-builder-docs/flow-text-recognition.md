@@ -4,14 +4,14 @@ description: Learn how to use the text recognition prebuilt model in Power Autom
 author: alanabrito
 ms.topic: conceptual
 ms.custom: 
-ms.date: 11/20/2024
-ms.author: alanab
+ms.date: 12/04/2024
+ms.author: antrod
 ms.reviewer: angieandrews
 ---
 
 # Use the text recognition prebuilt model in Power Automate
 
-### Initializ the Power Automate flow
+### Initialize the Power Automate flow
 
 1. Sign in to [Power Automate](https://flow.microsoft.com/).
 
@@ -40,9 +40,7 @@ It can be useful if you need to perfom an action on the full document text or on
 It can be useful if you need to isolate a specific line of text or reformat the text at your convenience.
 
 1. Select **+New step** > **Control**, and then select **Initialize variable** to create a string variable and name it **Extracted text** for example.
-   
-1. Select **+New step** > **Control**, and then select **Initialize variable** to create a string variable and name it **Extracted text** for example.
-   
+  
 1. Select **+New step** > **Control**, and then select **Append to string variable**. In the **value** field, select **Text** from the Dynamic content list. It will auto generate 2 **Apply to each** actions as it is reading a list of lines text in a list of pages. You can then post all the extracted text in a Teams channel:
 
     > [!div class="mx-imgBorder"]
