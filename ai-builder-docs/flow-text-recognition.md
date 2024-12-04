@@ -26,11 +26,22 @@ ms.reviewer: angieandrews
     > [!div class="mx-imgBorder"]
     > ![Trigger text recognition flow.](media/trigger-text-recognition-2.png "Trigger text recognition flow")
 
-1. To process results, select **+New step** > **Control**, and then select **Apply to each**.
+1. To process results, your can either use the full document text, a page text or the document text line by line.
 
-1. Select the input, and then select **lines** from the Dynamic content list. This will add **results** to the input and automatically create another **Apply to each** action.
+**Get the full document text or a full page text**
+It can be useful if you need to perfom an action on the full document text or on a specific page text such as searching for a substring or passing it to a downstream action. You can for example post all the extracted text in a Teams channel using **Full text of the document** from the Dynamic content list.
 
-1. In the successive actions, you can use any columns extracted by the AI Builder model. For example, you can extract **Text** into a variable, and then post all the extracted text in a Teams channel:
+    > [!div class="mx-imgBorder"]
+    > ![Trigger text recognition flow.](media/trigger-text-recognition-2.png "Trigger text recognition flow")
+
+**Get the document text line by line**
+It can be useful if you need to isolate a specific line of text or reformat the text at your convenience.
+
+1. Select **+New step** > **Control**, and then select **Initialize variable** to create a string variable and name it **Extracted text** for example.
+   
+1. Select **+New step** > **Control**, and then select **Initialize variable** to create a string variable and name it **Extracted text** for example.
+   
+1. Select **+New step** > **Control**, and then select **Append to string variable**. In the **value** field, select **Text** from the Dynamic content list. It will auto generate 2 **Apply to each** actions as it is reading a list of lines text in a list of pages. You can then post all the extracted text in a Teams channel:
 
     > [!div class="mx-imgBorder"]
     > ![Text recognition flow example.](media/text-flow-example2-2.png "Text recognition flow example")
