@@ -51,7 +51,7 @@ To access the prompt library and select a template through the prompt builder, f
 
 1. Select **Prompt library**.
 
-    :::image type="content" source="media/prompt-library/prompt-library.png" alt-text="Screenshot of the 'Pprompt library' selection in the builder.":::
+    :::image type="content" source="media/prompt-library/prompt-library.png" alt-text="Screenshot of the 'Prompt library' selection in the builder.":::
 
 1. From the **Prompt library** screen, select the template of your choice.
 
