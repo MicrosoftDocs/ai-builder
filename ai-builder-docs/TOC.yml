@@ -294,7 +294,7 @@
     href: administer.md
   - name: Roles and security
     href: security.md
-  - name: Architecure
+  - name: Architecture
     href: ai-builder-architecture.md
   - name: Feature availability by region
     href: availability-region.md
