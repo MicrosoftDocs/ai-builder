@@ -1,5 +1,5 @@
 ---
-title: Data, privacy, and security for AI Builder
+title: AI Builder architecture
 description: AI Builder responsible AI data, privacy, and security overview
 author: jekom1
 contributors: 
@@ -8,25 +8,27 @@ contributors:
   - v-aangie
 ms.topic: conceptual
 ms.custom: 
-ms.date: 11/28/2024
+ms.date: 12/05/2024
 ms.author: jelenak
 ms.reviewer: angieandrews
+ms.collection: bap-ai-copilot
 ---
 
-# Data, privacy, and security
+# AI Builder architecture
 
 This article explains how data provided by you to AI Builder is processed, used, and stored. AI Builder stores and processes data to provide the service and allow you to monitor its use.
 
 The following screenshot shows the AI Builder architecture.
 
-:::image type="content" source="media/rai-dataprivacysecurity/aib-architecture.png" alt-text="Screenshot of AI Builder architecture.":::
+:::image type="content" source="media/ai-builder-architecture/aib-architecture.png" alt-text="Screenshot of AI Builder architecture.":::
 
 Behind the scenes, AI Builder generates or uses Azure AI models for most scenarios, as shown in the following screenshot.
 
-:::image type="content" source="media/rai-dataprivacysecurity/aib-models.png" alt-text="Screenshot of scenarios that use AI models.":::
+:::image type="content" source="media/ai-builder-architecture/aib-models.png" alt-text="Screenshot of scenarios that use AI models.":::
 
 > [!IMPORTANT]
 > Your input or output data, your embeddings, and your training data:
+>
 > - Aren't available to other customers.
 > - Aren't available to OpenAI.
 > - Aren't used to improve OpenAI or Azure AI models.
@@ -47,9 +49,9 @@ This section emphasizes Microsoft's commitment to data privacy, security, and co
 
 ## Geo boundary compliance
 
-For AI prompts where Azure Open AI is available, customer data doesn't leave the geo boundary.​
+For AI prompts where Azure OpenAI Service is available, customer data doesn't leave the geo boundary.​
 
-If Azure Open AI isn't available in a geo, admins have [granular controls](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions) to manage cross geo data movement per environment.​
+If Azure OpenAI Service isn't available in a geo, admins have [granular controls](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions) to manage cross geo data movement per environment.​
 
 Learn more about features available in a region in [Feature availability per region](availability-region.md).
 
@@ -59,6 +61,6 @@ The data required to train the Azure model is encrypted during transfer, remains
 
 ## AI prompts workflow
 
-The following screenshot shows the AI prompts workflow. It starts with a prompt and then goes to Dataverse. Next, the prompt uses the AI Builder internal services. Finally, the prompt is sent to the GPT model and content moderation is applied.
+The following screenshot shows the AI prompts workflow. After a prompt is created by AI Builder leveraging Dataverse, it can be consumed through Power Platform or Microsoft 365 products. To ensure responsible AI compliance of the prompt, AI Builder services communicate with Azure OpenAI and Azure AI Content Safety. The result is sent back as the prompt answer.
 
-:::image type="content" source="media/rai-dataprivacysecurity/aib-prompts-workflow.png" alt-text="Screenshot of the AI prompts workflow.":::
+:::image type="content" source="media/ai-builder-architecture/aib-prompts-workflow.png" alt-text="Screenshot of the AI prompts workflow.":::

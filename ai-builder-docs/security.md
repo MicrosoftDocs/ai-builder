@@ -1,14 +1,15 @@
 ---
 title: Roles and security in AI Builder - AI Builder
 description: Learn about security information related to roles, privileges, and access in AI Builder and the services it connects to.
-author: v-aangie
+author: jekom
 contributors:
   - jekom1
   - v-aangie
 ms.topic: conceptual
-ms.date: 10/10/2024
-ms.author: plarrue
+ms.date: 12/05/2024
+ms.author: jelenak
 ms.reviewer: angieandrews
+ms.collection: bap-ai-copilot
 ---
 
 # Roles and security in AI Builder
@@ -23,8 +24,7 @@ Some privileges are set by default in Dataverse. This allows built-in security r
 
 These security roles have privileges to the AI Builder tables in Dataverse. Custom security roles can create AI models and prompts if they have the same access to the AI Builder tables as the Environment Maker role.
 
-> [!div class="mx-imgBorder"]
-> ![Security roles screen.](media/security-roles-screen.png "Security roles screen")
+:::image type="content" source="media/security-roles-screen.png" alt-text="Screenshot of the security roles screen.":::
 
 Scenarios such as object detection, category classification, and prediction need read access to Dataverse tables. Make sure Environment Makers have access to them. They need those tables for objects to detect, tagged text, and input data.
 
