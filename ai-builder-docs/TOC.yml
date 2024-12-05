@@ -294,8 +294,8 @@
     href: administer.md
   - name: Roles and security
     href: security.md
-  - name: Data, privacy, and security
-    href: rai-dataprivacysecurity.md
+  - name: Architecure
+    href: ai-builder-architecture.md
   - name: Feature availability by region
     href: availability-region.md
 - name: Licensing and monitoring

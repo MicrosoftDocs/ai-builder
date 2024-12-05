@@ -1,12 +1,12 @@
 ---
 title: Roles and security in AI Builder - AI Builder
 description: Learn about security information related to roles, privileges, and access in AI Builder and the services it connects to.
-author: jekom
+author: jekom1
 contributors:
   - jekom1
   - v-aangie
 ms.topic: conceptual
-ms.date: 12/05/2024
+ms.date: 12/06/2024
 ms.author: jelenak
 ms.reviewer: angieandrews
 ms.collection: bap-ai-copilot

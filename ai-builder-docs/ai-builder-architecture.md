@@ -1,6 +1,6 @@
 ---
 title: AI Builder architecture
-description: AI Builder responsible AI data, privacy, and security overview
+description: Learn how data you provide to AI Builder is processed, used, and stored.
 author: jekom1
 contributors: 
   - jekom1
@@ -8,7 +8,7 @@ contributors:
   - v-aangie
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/05/2024
+ms.date: 12/06/2024
 ms.author: jelenak
 ms.reviewer: angieandrews
 ms.collection: bap-ai-copilot
@@ -16,7 +16,7 @@ ms.collection: bap-ai-copilot
 
 # AI Builder architecture
 
-This article explains how data provided by you to AI Builder is processed, used, and stored. AI Builder stores and processes data to provide the service and allow you to monitor its use.
+This article explains how data you provide to AI Builder is processed, used, and stored. AI Builder stores and processes data to provide the service and allow you to monitor its use.
 
 The following screenshot shows the AI Builder architecture.
 
@@ -61,6 +61,6 @@ The data required to train the Azure model is encrypted during transfer, remains
 
 ## AI prompts workflow
 
-The following screenshot shows the AI prompts workflow. After a prompt is created by AI Builder leveraging Dataverse, it can be consumed through Power Platform or Microsoft 365 products. To ensure responsible AI compliance of the prompt, AI Builder services communicate with Azure OpenAI and Azure AI Content Safety. The result is sent back as the prompt answer.
+The following screenshot shows the AI prompts workflow. After AI Builder creates a prompt leveraging Dataverse, it can be consumed through Power Platform or Microsoft 365 products. To ensure responsible AI compliance of the prompt, AI Builder services communicate with Azure OpenAI and Azure AI Content Safety. The result is sent back as the prompt answer.
 
 :::image type="content" source="media/ai-builder-architecture/aib-prompts-workflow.png" alt-text="Screenshot of the AI prompts workflow.":::
