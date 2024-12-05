@@ -1,12 +1,15 @@
 ---
 title: Get started with prompt library
-description: Learn how to access and use the Prompt library in Power Apps and Power Automate to expedite AI prompt creation.
-author: v-aangie
-contributors: 
+description: Learn how to access and use the prompt library to expedite AI prompt creation.
+author: phil-cmd
+contributors:
+  - phil-cmd
+  - v-aangie
 ms.topic: conceptual
 ms.date: 12/03/2024
-ms.author: 
+ms.author: plarrue
 ms.reviewer: angieandrews
+ms.collection: bap-ai-copilot
 ---
 
 # Get started with prompt library
@@ -25,14 +28,14 @@ You can access the prompt library either through the left navigation menu or the
 To access the prompt library and select a template through the left navigation menu, follow these steps:
 
 1. Sign in to [Power Apps](https://make.powerapps.com/) or [Power Automate](https://make.powerautomate.com/).
-1. Select **AI hub** > **Prompts**
+1. Select **AI hub** > **Prompts**.
 1. From the **Popular templates** list, select a template.
 
     To get an overview of all templates in the library, select **See all templates**.
 
     :::image type="content" source="media/prompt-library/all-templates.png" alt-text="Screenshot of the template selection screen in the prompt library.":::
 
-    You can use the **Search** field to find the one you're looking for. You can also search by categories, for example, **Language and text analysis**, **Content creation and management**, and **Tasks and role specific tools**.
+    Alternatively, you can use the **Search** field to find the one you're looking for. You can also search by categories, for example, **Language and text analysis**, **Content creation and management**, and **Tasks and role specific tools**.
 
     :::image type="content" source="media/prompt-library/template-search.png" alt-text="Screenshot of the search functionality in the prompt library.":::
 
@@ -40,19 +43,19 @@ To access the prompt library and select a template through the left navigation m
 
 To access the prompt library and select a template through the prompt builder, follow these steps:
 
-1. Sign in to [Power Apps](https://make.powerapps.com/), [Power Automate](https://make.powerautomate.com/)
-1. Select **AI hub**, Select **Prompts**
-1. Select **Build your own prompt**
+1. Sign in to [Power Apps](https://make.powerapps.com/) or [Power Automate](https://make.powerautomate.com/).
+1. Select **AI hub** > **Prompts**.
+1. Select **Build your own prompt**.
 
     :::image type="content" source="media/prompt-library/byo-prompt.png" alt-text="Screenshot of the build your own prompt option in the prompt library.":::
 
-1. Select **Prompt Library**
+1. Select **Prompt library**.
 
-    :::image type="content" source="media/prompt-library/prompt-library.png" alt-text="Screenshot of the prompt library selection in the builder.":::
+    :::image type="content" source="media/prompt-library/prompt-library.png" alt-text="Screenshot of the 'Pprompt library' selection in the builder.":::
 
-1. From the **Prompt Library** screen, select the template of your choice.
+1. From the **Prompt library** screen, select the template of your choice.
 
-    :::image type="content" source="media/prompt-library/prompt-library-screen.png" alt-text="Screenshot of the template selection in the Prompt Library screen.":::
+    :::image type="content" source="media/prompt-library/prompt-library-screen.png" alt-text="Screenshot of the template selection in the 'Prompt library' screen.":::
 
 ## Frequently asked questions
 
@@ -80,7 +83,7 @@ Learn more in [Model selection and temperature settings](https://go.microsoft.co
 
 ### Can I select the temperature of a template?
 
-Yes, From **Prompt settings**, select the slider to select the temperature of the AI model.
+Yes. From **Prompt settings**, select the slider to select the temperature of the AI model.
 
 Learn more in [Temperature](https://go.microsoft.com/fwlink/?linkid=2268182).
 
@@ -90,17 +93,17 @@ Yes. From the panel on the right, select **Data used** to add a single Dataverse
 
 Learn more in [Use your own data in a prompt](use-your-own-prompt-data.md).
 
-### Can I display the Prompt Library in Copilot Studio?
+### Can I display the prompt library in Microsoft Copilot Studio?
 
-No. It isn't currently available.
+No, it isn't currently available.
 
-### Can I see the Prompt Library in a canvas app?
+### Can I display the prompt library in a canvas app?
 
 No. However, if you create a prompt from a template, you can use this prompt in your canvas app.
 
 Learn more in [Use your prompt in Power Apps](use-a-custom-prompt-in-app.md).
 
-### Can I display the Prompt Library in a flow?
+### Can I display the prompt library in a flow?
 
 We don't provide this functionality yet. However, if you modify and save a template, you can use your saved prompt and use it in a cloud flow or automated cloud flow.
 
@@ -114,7 +117,7 @@ Yes. Our goal is to provide you with a set of templates that you can use in your
 
 Nice catch! Share it with us on [AI Builder community](share-your-experience.md).
 
-# Related information
+## Related information
 
 - [Create a prompt](create-a-custom-prompt.md)
 - [Add text, image, or document input to your prompt](add-inputs-prompt.md)
