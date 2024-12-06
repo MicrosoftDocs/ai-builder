@@ -113,9 +113,13 @@ Learn more in [Use your prompt in Power Automate](use-a-custom-prompt-in-flow.md
 
 Yes. Our goal is to provide you with a set of templates that you can use in your business.
 
+### Don't see what you need? 
+Share your thoughts and [suggest an idea](https://go.microsoft.com/fwlink/?linkid=2171994)
+
 ### I found a bug with a template. What can I do?
 
 Nice catch! Share it with us on [AI Builder community](share-your-experience.md).
+
 
 ## Related information
 
