@@ -1,14 +1,15 @@
 ---
 title: Roles and security in AI Builder - AI Builder
 description: Learn about security information related to roles, privileges, and access in AI Builder and the services it connects to.
-author: v-aangie
+author: jekom1
 contributors:
   - jekom1
   - v-aangie
 ms.topic: conceptual
-ms.date: 10/10/2024
-ms.author: plarrue
+ms.date: 12/06/2024
+ms.author: jelenak
 ms.reviewer: angieandrews
+ms.collection: bap-ai-copilot
 ---
 
 # Roles and security in AI Builder
@@ -23,8 +24,7 @@ Some privileges are set by default in Dataverse. This allows built-in security r
 
 These security roles have privileges to the AI Builder tables in Dataverse. Custom security roles can create AI models and prompts if they have the same access to the AI Builder tables as the Environment Maker role.
 
-> [!div class="mx-imgBorder"]
-> ![Security roles screen.](media/security-roles-screen.png "Security roles screen")
+:::image type="content" source="media/security-roles-screen.png" alt-text="Screenshot of the security roles screen.":::
 
 Scenarios such as object detection, category classification, and prediction need read access to Dataverse tables. Make sure Environment Makers have access to them. They need those tables for objects to detect, tagged text, and input data.
 
@@ -79,12 +79,12 @@ The following table shows the AI Builder system tables, which are installed by d
 
 |Dataverse table  |Contains  |Create<br/> Dataverse privilege  |Use<br/> Dataverse privilege  |
 |---------|---------|:---------:|:---------:|
-|AI Builder Dataset (FP, OD, EE)   |Model’s training configuration         | ![Users have access to the rows they've created](media/circle-no-fill.png "Users have access to the rows they've created")       |         |
-|AI Builder Dataset File (FP, OD)     |Model’s training configuration         | ![Users have access to the rows they've created](media/circle-no-fill.png "Users have access to the rows they've created")        |         |
-|AI Builder Dataset Record (EE)     |Model’s training data         | ![Users have access to the rows they've created](media/circle-no-fill.png "Users have access to the rows they've created")        |         |
-|AI Builder Dataset Container (FP, OD, EE)    |Model’s training configuration         | ![Users have access to the rows they've created](media/circle-no-fill.png "Users have access to the rows they've created")        |         |
-|AI Builder File (FP, OD)    | Model’s training files        | ![Users have access to the rows they've created](media/circle-no-fill.png "Users have access to the rows they've created")        |         |
-|AI Builder File Attached Data (FP, OD)   |Model’s training configuration         | ![Users have access to the rows they've created](media/circle-no-fill.png "Users have access to the rows they've created")        |         |
+|AI Builder Dataset (FP, OD, EE)   |Model’s training configuration         | ![Users have access to the rows they've created](media/circle-no-fill.png "Users have access to the rows they've created")       | ![Users have access to the rows they've created](media/circle-no-fill.png "Users have access to the rows they've created")<br/>(when shared)         |
+|AI Builder Dataset File (FP, OD)     |Model’s training configuration         | ![Users have access to the rows they've created](media/circle-no-fill.png "Users have access to the rows they've created")        | ![Users have access to the rows they've created](media/circle-no-fill.png "Users have access to the rows they've created")<br/>(when shared)         |
+|AI Builder Dataset Record (EE)     |Model’s training data         | ![Users have access to the rows they've created](media/circle-no-fill.png "Users have access to the rows they've created")        | ![Users have access to the rows they've created](media/circle-no-fill.png "Users have access to the rows they've created")<br/>(when shared)         |
+|AI Builder Dataset Container (FP, OD, EE)    |Model’s training configuration         | ![Users have access to the rows they've created](media/circle-no-fill.png "Users have access to the rows they've created")        | ![Users have access to the rows they've created](media/circle-no-fill.png "Users have access to the rows they've created")<br/>(when shared)         |
+|AI Builder File (FP, OD)    | Model’s training files        | ![Users have access to the rows they've created](media/circle-no-fill.png "Users have access to the rows they've created")        | ![Users have access to the rows they've created](media/circle-no-fill.png "Users have access to the rows they've created")<br/>(when shared)         |
+|AI Builder File Attached Data (FP, OD)   |Model’s training configuration         | ![Users have access to the rows they've created](media/circle-no-fill.png "Users have access to the rows they've created")        | ![Users have access to the rows they've created](media/circle-no-fill.png "Users have access to the rows they've created")<br/>(when shared)         |
 |AI Configuration    | Model's versions        | ![Users have access to the rows they've created](media/circle-no-fill.png "Users have access to the rows they've created")        | ![Users have access to the rows they've created](media/circle-no-fill.png "Users have access to the rows they've created")<br/>(when shared)        |
 |AI Event   | Model activity       | ![Users have access to the rows they've created](media/circle-no-fill.png "Users have access to the rows they've created")        | ![Users have access to the rows they've created](media/circle-no-fill.png "Users have access to the rows they've created")|
 |AI Model   | Model        | ![Users have access to the rows they've created](media/circle-no-fill.png "Users have access to the rows they've created")        | ![Users have access to the rows they've created](media/circle-no-fill.png "Users have access to the rows they've created")<br/>(when shared)         |
