@@ -1,11 +1,11 @@
 ---
-title: Train your AI Builder model - AI Builder| Microsoft Docs
+title: Train your AI Builder model - AI Builder
 description: Provides an overview of what it means to train your AI model, and provides steps to do so
-author: v-aangie
+author: phil-cmd
 ms.topic: conceptual
 ms.custom: 
-ms.date: 01/10/2024
-ms.author: angieandrews
+ms.date: 11/20/2024
+ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 

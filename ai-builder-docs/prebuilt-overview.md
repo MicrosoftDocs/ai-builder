@@ -1,10 +1,10 @@
 ---
 title: Overview of prebuilt AI models - AI Builder
 description: Learn about the prebuilt AI models that are available in AI Builder.
-author: v-aangie
+author: phil-cmd
 ms.topic: overview
-ms.date: 1/10/2024
-ms.author: angieandrews
+ms.date: 11/20/2024
+ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
@@ -13,7 +13,6 @@ ms.reviewer: angieandrews
 AI Builder prebuilt models help you add intelligence to apps and flows without having to gather data and then build, train, and publish your own models. For example, in Power Apps, you can add a component based on a prebuilt model that recognizes contact information from business cards. You can use a prebuilt model in Power Automate to analyze whether customer feedback was positive or negative.
 
 Prebuilt models are available in Power Automate and Power Apps. The following prebuilt models are currently available in AI Builder.
-
 
 - [Invoice processing](prebuilt-invoice-processing.md)
 - [Text recognition](prebuilt-text-recognition.md)

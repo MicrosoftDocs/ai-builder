@@ -1,10 +1,10 @@
 ---
-title: Text recognition prebuilt AI model - AI Builder | Microsoft Docs
+title: Text recognition prebuilt AI model - AI Builder
 description: Describes the text recognition prebuilt AI models that are available in AI Builder.
 author: alanabrito
 ms.topic: conceptual
 ms.custom: 
-ms.date: 1/10/2024
+ms.date: 11/20/2024
 ms.author: alanab
 ms.reviewer: angieandrews
 ---

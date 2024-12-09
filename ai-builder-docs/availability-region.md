@@ -66,6 +66,7 @@ The following tables show which AI Builder features are available in each region
 |------------------|------|-----------|--------|--------|--------|---------|-------|-------|--------|-----------|--------------|---------------|-------------|-------------|----------------------|----------------|---------------|
 | Custom prompts   | GA\* | GA        | GA\*   | GA\*   | GA\*   | GA\*    | GA    | GA\*  | GA\*   | GA\*      | GA\*         | GA\*          | GA\*        | GA\*        | GA\*                 | GA             | GA            |
 | Prebuilt prompts | GA\* | GA        | GA\*   | GA\*   | GA\*   | GA\*    | GA    | GA\*  | GA\*   | GA\*      | GA\*         | GA\*          | GA\*        | GA\*        | GA\*                 | GA             | GA            |
+| Add image or document input to a prompt | Preview\* | Preview\* | Preview\* | Preview\* |Preview\* | Preview\* | Preview\* | Preview\* | Preview\* | Preview\* | Preview\* | Preview\* | Preview\* | Preview\* | Preview\* | - | Preview\* |
 
 \*These regions require [enabling data movement cross-regions](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions) for the prompt feature to be enabled.
 
@@ -122,6 +123,7 @@ The following features available in the commercial version of AI Builder aren't 
 - 30-day user trials
 - AI models copy across cloud boundaries (for example, between Public and GCC or between GCC and GCC High)
 - [Document Automation](doc-automation.md) isn't available in GCC and GCC High
+- [Add image or document input to a prompt](add-inputs-prompt.md) isn't available in GCC and GCC High
 
 Learn about other limitations of Power Platform US Government in the following articles:
 
