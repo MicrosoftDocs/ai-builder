@@ -8,7 +8,7 @@ contributors:
   - JoeFernandezMS
   - v-aangie
 ms.topic: conceptual
-ms.date: 11/06/2024
+ms.date: 12/12/2024
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---
@@ -35,8 +35,8 @@ After you review the [requirements](form-processing-model-requirements.md), you 
 
 On the **Choose document type** step, select the type of document you want to build an AI model to automate data extraction. There are three options:
 
-- **Fixed-template documents**: Previously known as Structured, this option is ideal when, for a given layout, the fields, tables, checkboxes, signatures, and other items can be found in similar places. You can teach this model to extract data from structured documents that have different layouts. This model has a quick training time.
-- **General documents**: Previously known as Unstructured, this option is ideal for any kind of documents, especially when there's no set structure, or when the format is complex. You can teach this model to extract data from structured or unstructured documents that have different layouts. This model is powerful, but has long training time.
+- **Fixed-template documents**: Previously known as *structured*, this option is ideal when, for a given layout, the fields, tables, checkboxes, signatures, and other items can be found in similar places. You can teach this model to extract data from structured documents that have different layouts. This model has a quick training time.
+- **General documents**: Previously known as *unstructured*, this option is ideal for any kind of documents, especially when there's no set structure, or when the format is complex. You can teach this model to extract data from structured or unstructured documents that have different layouts. This model is powerful, but has long training time.
 - **Invoices**: Augment the behaviors of the prebuilt invoice processing model by adding new fields to be extracted in addition to the ones by [default](prebuilt-invoice-processing.md#model-output), or samples of documents not properly extracted.
 
 ## Try the new model version (Preview)
@@ -55,9 +55,9 @@ By selecting the toggle **Try the new model version (Preview)**, you can try the
 
 ### Benefits of using the preview model
 
-- **Enhanced Accuracy**: Expect higher accuracy in data extraction.
-- **Latest OCR Enhancements**: The preview model includes the latest Optical Character Recognition (OCR) updates. This update resolves many common OCR issues, especially when handling complex text formats like barcodes, QR codes, and watermarks.
-- **Confidence Scores for Tables**: You can get confidence scores for tables, table rows, and individual table cells
+- **Enhanced accuracy**: Expect higher accuracy in data extraction.
+- **Latest OCR enhancements**: The preview model includes the latest Optical Character Recognition (OCR) updates. This update resolves many common OCR issues, especially when handling complex text formats like barcodes, QR codes, and watermarks.
+- **Confidence scores for tables**: You can get confidence scores for tables, table rows, and individual table cells
 
 ### How to check the model version
 
@@ -71,15 +71,15 @@ You can edit the trained or published model version (preview) and train it with 
 
 1. Select **Edit model**.
 1. Select **Try the new model version (Preview)**.
-1. Select Toggle **No**.
+1. Select the **No** toggle.
 
 :::image type="content" source="media/create-form-processing-model/select_documents_preview_toggle_No.png" alt-text="Screenshot of the tile try preview toggle to No.":::
   
-You can edit the trained or Published model general availability (GA) version and train it with the model version (Preview).
+You can edit the trained or published model general availability (GA) version and train it with the model version (Preview).
 
 1. Select **Edit model**.
 1. Select **Try the new model version (Preview)**.
-1. Select Toggle **Yes**.
+1. Select the **Yes** toggle.
 
 :::image type="content" source="media/create-form-processing-model/select_documents_preview_toggle_yes.png" alt-text="Screenshot showing the tile try preview toggle to yes.":::
 
@@ -90,7 +90,6 @@ On the **Choose information to extract** screen, define the fields, tables, and 
 :::image type="content" source="media/create-form-processing-model/define-information-to-extract.svg" alt-text="Screenshot of the step in the document processing wizard where you define the fields, tables, and checkboxes you want the AI model to extract.":::
 
 1. For each **Text field**, provide a name for the field to use in the model.
-
 1. For each **Number field**, provide a name for the field to use in the model.
 
     Also, define the format dot (**.**) or comma (**,**) as a decimal separator.
@@ -131,6 +130,5 @@ For each collection that you create, you need to upload at least five sample doc
 
 [Training: Process custom documents with AI Builder (module)](/training/modules/get-started-with-form-processing/)
 
-[Interpret confidence score for tables and table cells](interpret-confidence-score.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

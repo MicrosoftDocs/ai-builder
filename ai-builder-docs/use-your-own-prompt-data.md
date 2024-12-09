@@ -9,7 +9,7 @@ contributors:
 ms.topic: conceptual
 ms.collection: 
     - bap-ai-copilot
-ms.date: 11/07/2024
+ms.date: 12/12/2024
 ms.author: antrod
 ms.reviewer: angieandrews
 ---
