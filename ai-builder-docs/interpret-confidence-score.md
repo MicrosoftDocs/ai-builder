@@ -78,7 +78,7 @@ This expression retrieves the confidence score value of the first row in the `Am
 First(FormProcessor1.Results.'Table 1').Amount.Confidence
 ````
 
-This expression retrieves the confidence score value of the first row in the "Qty" column of the table "Table 1" in the results of the `FormProcessor1` and multiplies it by 100 to convert it to a percentage format.
+This expression retrieves the confidence score value of the first row in the `Qty` column of the table `Table 1` in the results of **FormProcessor1**, and multiplies it by 100 to convert it to a percentage format.
 
 ```power-fx
 First(FormProcessor1.Results.'Table 1').Qty.Confidence *100
