@@ -98,7 +98,7 @@ The following are frequently asked questions about confidence scores for tables 
 
 The confidence score is calculated based on data characteristics observed in the training samples, such as how frequently this field has corresponding value present, and the specific document used during prediction. Some properties are dataset specific, while others are field specific. These properties are then utilized to calculate confidence scores for each field.
 
-### Is it possible to see a confidence score for tables in fixed templates documents?**
+### Is it possible to get a confidence score for tables in fixed templates documents?
 
 The confidence score for tables is available only for general documents.
 
@@ -106,9 +106,9 @@ The confidence score for tables is available only for general documents.
 
 Yes.
 
-### Can I see the confidence score of a table with column type text, number, date, and checkbox?**
+### Can I get the confidence score of a table with column type text, number, date, and checkbox?
 
-Yes, you can see the confidence score of these text data types.
+Yes, you can get the confidence score of these text data types.
 
 ### Is it possible to get a confidence score for rows in a table?
 
