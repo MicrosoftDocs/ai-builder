@@ -8,79 +8,75 @@ contributors:
 ms.topic: conceptual
 ms.collection: 
 - bap-ai-copilot
-ms.date: 11/12/2024
+ms.date: 12/12/2024
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
-# Interpret confidence score for tables and table cells (Preview)
+# Interpret confidence score for tables and table cells (preview)
 
-A confidence score for tables and cells in general documents quantifies how certain the model is about its predictions on structured data. Higher scores indicate greater confidence, while lower scores suggest uncertainty. These scores help prioritize reliable outputs, guide human review, and improve accuracy in applications like data extraction, validation, and automated reporting.
+[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-> [!NOTE]
-> Confidence scores for tables and table cells are available in the Preview version for general documents
+A confidence score for tables and cells in general documents quantifies how certain the model is about its predictions of structured data. Higher scores indicate greater confidence, and lower scores suggest uncertainty. These scores help prioritize reliable outputs, guide human review, and improve accuracy in applications like data extraction, validation, and automated reporting.
+
+Confidence scores for tables and table cells are available in the preview version for general documents.
 
 [!INCLUDE [cc_preview_features_definition](./includes/cc-preview-features-definition.md)]
 
-<!--Please let me know if this is copilot/AI, preview or GA.-->
-
 ## Use a quick test to retrieve the confidence score value of a table and table cells
 
-You can check the confidence score of a table and table cells by performing a predict in a quick test
+You can check the confidence score of a table and table cells by performing a predict in a quick test.
 
-1.	Sign in to **https://make.powerautomate.com** or **https://make.powerapps.com**
-2.	On the left pane, select **... More**, select **AI hub,** select **AI models**
-3.	Select **<your_model>**, select **Quick test**, select **Upload from my device**, select **<your_file>**
+1. Sign in to [Power Automate](https://make.powerautomate.com) or [Power Apps](https://make.powerapps.com).
+1. On the left pane, select **... More** > **AI hub** > **AI models**.
+1. Select ***<your_model>***.
+1. Select **Quick test** > **Upload from my device**.
+1. Select ***<your_file>***.
 
-Place your cursor over the relevant area of the table to view its confidence score.
+To view its confidence score, place your cursor over the relevant area of the table.
 
-:::image type="content" source="media/quick_test_confidence_score_table.png" alt-text="Quick test showing the confidence score of a table.":::
+:::image type="content" source="media/interpret-confidence-score/quick-test-confidence-score-table.png" alt-text="Screenshot of a quick test showing the confidence score of a table.":::
 
 Select the table to view cells confidence score.
 
-:::image type="content" source="media/quick_test_confidence_score_table_cells.png" alt-text="Quick test showing the confidence score of cells in a table.":::
+:::image type="content" source="media/interpret-confidence-score/quick-test-confidence-score-table-cells.png" alt-text="Quick test showing the confidence score of cells in a table.":::
 
-## Use Confidence score in a cloud flow
+## Use the confidence score in a cloud flow
 
-You can check the confidence score of a table and table cells by performing a predict in a cloud flow
+You can check the confidence score of a table and table cells by performing a predict in a cloud flow.
 
-1.	Select **+ Create**
-2.	Select **Instant cloud flow**
-3.	Select **Manually trigger a flow**, select **Create**
-4.	Select the action **Manually trigger a flow**
-5.	Select **+ Add an input**, select **File**
-6.	Select **Add an action**
-7.	Select **AI Builder**, select **Extract information from documents**
-8.	In **AI Model**, select **<your_published_model>**
-9.	In **Form type,** select your type, JPEG Image, PDF Document, PNG Image
-10.	in **Form**, select **File content contentBytes** from the Dynamic content list
-11.	Select **Add an action**
-12.	Search **Compose (Data operation)**
-13.	in **Inputs**, select the confidence score value you want to see extracted from the Dynamic content list
+1. Select **+ Create** > **Instant cloud flow**.
+1. Select **Manually trigger a flow** > **Create**.
+1. Select the action **Manually trigger a flow** > **+ Add an input** > **File** > **Add an action**.
+1. Select **AI Builder** > **Extract information from documents**.
+1. In the **AI Model** field, select ***<your_published_model>***.
+1. In the **Form type** field, select your type (JPEG image, PDF document, PNG image).
+1. In the **Form** field, select **File content contentBytes** from the **Dynamic content** list.
+1. Select **Add an action**.
+1. Search **Compose (Data operation)**.
+1. In the **Inputs** field, select the confidence score value you want extracted from the **Dynamic content** list.
 
-:::image type="content" source="media/document_processing_predict_confidence_score_cloud_flow.png" alt-text="Predict showing the confidence score of cells and table in a cloud flow.":::
+    :::image type="content" source="media/interpret-confidence-score/document-processing-predict-confidence-score_cloud-flow.png" alt-text="Screenshot of predict showing the confidence score of cells and table in a cloud flow.":::
 
-Test your flow to view the confidence score of the table and cells
+    To view the confidence score of the table and cells, test your flow.
 
-:::image type="content" source="media/document_processing_predict_confidence_score_cloud_flow_result.png" alt-text="Predict showing the confidence score result of cells and table in a cloud flow.":::
+    :::image type="content" source="media/interpret-confidence-score/document-processing-predict-confidence-score-cloud-flow-result.png" alt-text="Predict showing the confidence score result of cells and table in a cloud flow.":::
 
-Select the next arrow button in the **Apply to Each** action to view the confidence score results for other cells. Note that the table's confidence score will remain unchanged in this scenario.
+    To view the confidence score results for other cells, select the next arrow (**>**) in the **Apply to Each** action. The table's confidence score remains unchanged in this scenario.
 
+## Use the confidence score in a canvas app
 
+To retrieve the confidence score value from the form processor control in Power Apps, use the formula bar.
 
-## Use Confidence score in a canvas app
+The following example shows tabular information to be extracted from a document with a table named `Table 1` with three columns: `Item`, `Qty`, and `Amount`.
 
-Use the formula bar to retrieve the Confidence score value from the Form Processor control in Power Apps
+### Examples
 
-In this example I have chosen to extract tabular information from my document with a Table that I named 'Table 1' with 3 columns 'Item', 'Qty'and 'Amount'.
+This expression retrieves the confidence score value of the first row in the `Amount` column of the table `Table 1` in the results of **FormProcessor1**.
 
-Here’s some examples
-
-This expression retrieves the confidence score value of the first row in the "Amount" column of the table "Table 1" in the results of FormProcessor1.
-
-```power-fx
+````power-fx
 First(FormProcessor1.Results.'Table 1').Amount.Confidence
-```
+````
 
 This expression retrieves the confidence score value of the first row in the "Qty" column of the table "Table 1" in the results of the `FormProcessor1` and multiplies it by 100 to convert it to a percentage format.
 
@@ -88,49 +84,47 @@ This expression retrieves the confidence score value of the first row in the "Qt
 First(FormProcessor1.Results.'Table 1').Qty.Confidence *100
 ```
 
-This expression concatenates the confidence score result for all rows in the "Amount" column of the table 'Table 1', appending a percentage sign and a newline character after each value.
+This expression concatenates the confidence score result for all rows in the `Amount` column of the table `Table 1`, appending a percentage sign and a newline character after each value.
 
 ```power-fx
 Concat(FormProcessor1.Results.'Table 1', Round(Amount.Confidence * 100,2) & "%", Char(10))
 ```
 
-## Common questions
+## FAQ
 
-**Q: How the confidence score is calculated?**
+The following are frequently asked questions about confidence scores for tables and table cells.
 
-A: The confidence score is calculated based on data characteristics observed in the training samples, such as how frequently this field has corresponding value present, as well as the specific document used during prediction.Some properties are dataset specific, while others are field specific. These properties are then utilized to calculate confidence scores for each field.
+### How is the confidence score calculated?
 
+The confidence score is calculated based on data characteristics observed in the training samples, such as how frequently this field has corresponding value present, and the specific document used during prediction. Some properties are dataset specific, while others are field specific. These properties are then utilized to calculate confidence scores for each field.
 
-**Q: Is it possible to see a confidence score for tables in Fixed templates document?**
+### Is it possible to see a confidence score for tables in fixed templates documents?**
 
-A: Confidence score for tables are only available for general documents.
+The confidence score for tables is available only for general documents.
 
-**Q: Is it possible to see a confidence score of a multipage table?**
+### Is it possible to get a confidence score of a multipage table?
 
-A: Yes.
+Yes.
 
-**Q: Can i see the confidence score of a table with column type text, Number, Date and Checkbox?**
+### Can I see the confidence score of a table with column type text, number, date, and checkbox?**
 
-A: Yes, you can see the confidence score of these text data type.
+Yes, you can see the confidence score of these text data types.
 
-**Q: Is it possible to see a confidence score for rows in a table?**
+### Is it possible to get a confidence score for rows in a table?
 
-A: We do not provide this information.
+We don't provide this information.
 
+### Is it possible to get a confidence score of a table in a Power app?
 
-**Q: Is it possible to see a confidence score of a table in a Power app?**
+Currently, we don't provide a confidence score for an entire table; however, we do offer confidence scores for individual cells.
 
-A: Currently, we do not provide a confidence score for an entire table; however, we do offer confidence scores for individual cells. We are actively working on adding support for table confidence scores in the future, but we cannot provide an ETA at this time.
+### What can I do if I have a low confidence score for a cell, table?
 
-**Q: What can I do if I have a low confidence score for a cell, table?**
-
-1.	Check that the table is tagged correctly in all the documents.
-2.	Provide more sample documents for training where the table is present.
-
+1. Check that the table is tagged correctly in all the documents.
+1. Provide more sample documents for training where the table is present.
 
 ## Related information
 
-[Use a document processing model in Power Automate](form-processing-model-in-flow.md)
-
-[Use the form processor component in Power Apps](form-processor-component-in-powerapps.md)
+- [Use a document processing model in Power Automate](form-processing-model-in-flow.md)
+- [Use the form processor component in Power Apps](form-processor-component-in-powerapps.md)
 

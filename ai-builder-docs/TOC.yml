@@ -102,7 +102,7 @@
         href: form-processing-train.md
       - name: Improve document processing model performance
         href: improve-form-processing-performance.md
-      - name: Interpret confidence score for tables and table cells
+      - name: Interpret confidence score for tables and table cells (preview)
         href: interpret-confidence-score.md
       - name: Use sample data
         href: form-processing-sample-data.md
