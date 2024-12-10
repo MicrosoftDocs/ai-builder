@@ -114,7 +114,7 @@ Yes, you can get the confidence score of these text data types.
 
 We don't provide this information.
 
-### Is it possible to get a confidence score of a table in a Power app?
+### Is it possible to get a confidence score of a table in an app in Power Apps?
 
 Currently, we don't provide a confidence score for an entire table; however, we do offer confidence scores for individual cells.
 
