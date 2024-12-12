@@ -1,10 +1,9 @@
 ---
 title: FAQ for prompts and text generation capabilities
 description: Learn about the AI technology used in prompts, key considerations and details about how the AI is used, how it was tested and evaluated, and limitations.
-ms.date: 11/15/2024
+ms.date: 11/01/2024
 ms.custom: 
   - responsible-ai-faqs
-  - ignite-2024
 ms.topic: conceptual
 author: ashbhati
 contributors:
@@ -38,8 +37,7 @@ The following list contains the most popular use cases for this service:
 - Suggestions of draft responses to customer queries, complaints, email, and more.
 - Extraction of information from contracts, emails, invoice, orders, and more.
 - Classification of content in desired categories (for example, whether an email is an order, complaint, or a return).
-- Sentiment analysis of a given text (for example, identify sentiment of a product review).
-- Extract content from documents or images (for example, extract information from invoices, or describe objects in an image).
+- Sentiment analysis of a given text (for example, identifying sentiment of a product review).
 
 In all these cases, users are responsible for the final outcome of the system. They're required to review the generated content for any potential inaccuracies of incompleteness before using it.
 
@@ -53,7 +51,7 @@ The GPT models are trained on internet data, which is great for building a gener
 
 ## What are the limitations of the prompts feature? How can users minimize the impact of prompt limitations when using the system?
 
-The use of this technology must be in accordance with requirements in the [Code of conduct for Azure OpenAI Service](/legal/cognitive-services/openai/code-of-conduct). This technology must not be used for generating content associated with political propaganda, hate speech, misinformation, self-harm, discrimination, explicit sexual material, or other content prohibited by the Code of Conduct. Unsupported applications of this technology include providing advice, use for legal, financial, health-related guidance, or future predictions, as well as financial, scientific, or mathematical calculations, and any other unsupported usage mentioned in the [Transparency Note for Azure OpenAI Service](/legal/cognitive-services/openai/transparency-note?tabs=text).
+The use of this technology must be in accordance with requirements in the [Code of conduct for Azure OpenAI Service](/legal/cognitive-services/openai/code-of-conduct). This technology must not be used for generating content associated with political propaganda, hate speech, misinformation, self-harm, discrimination, explicit sexual material, or other content prohibited by the Code of Conduct. Unsupported applications of this technology include providing advice, use for legal, financial, health-related guidance, or future predictions, as well as financial, scientific, or mathematical calculations, and any other unsupported usage mentioned in the [Transparency Note for Azure OpenAI Service](/legal/cognitive-services/openai/transparency-note?tabs=text). Currently, the service is exclusively supported in the United States and is available only in the English language.
 
 AI-generated content can have mistakes, hence makers should inform the end users of their solution that the content generation by this model is created by AI in a transparent way. Clear communication of generated content helps in avoiding overreliance. Makers should also infuse the possibility of the human review step to make sure that the AI generated content is accurate and appropriate before using it.
 
@@ -97,7 +95,7 @@ Learn more in [Face blurring](/legal/cognitive-services/openai/transparency-note
 
 **Example**
 
-With a language model, a custom prompt can guide the model to answer a question, complete text, translate languages, summarize a document, identify tasks, to-dos, action items in text, and extract content from images or documents. The complexity of a custom prompt can range from a single sentence to something more intricate, depending on the task.
+With a language model, a custom prompt can guide the model to answer a question, complete text, translate languages, summarize a document, and identify tasks, to-dos, and action items in text. The complexity of a custom prompt can range from a single sentence to something more intricate, depending on the task.
 
 ### AI functions
 

@@ -1,5 +1,5 @@
 ---
-title: AI Builder in Power Automate overview - AI Builder | Microsoft Docs
+title: AI Builder in Power Automate overview - AI Builder
 description: Get an overview of how to create automated flows by using AI Builder in Power Automate.
 author: Phil-cmd
 ms.topic: overview

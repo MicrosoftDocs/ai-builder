@@ -42,7 +42,7 @@ In the prompt builder experience, you have two options to include an input:
 
 ## Text input
 
-When you use text inputs, you can perform actions on text content that's dynamically passed to the prompt at run time, such as text summarization, text classification, extracting text information, sentiment analysis of text, text generation, and many more.
+When you use text inputs, you can perform actions on text content that dynamically passes to the prompt at run time, such as text summarization, text classification, extracting text information, sentiment analysis of text, text generation, and many more.
 
 :::image type="content" source="media/add-inputs-prompt/input-text-summarize.png" alt-text="Screenshot of summarize with a text input.":::
 
@@ -52,7 +52,7 @@ If you're satisfied with your prompt, you can provide a sample value for your te
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-When you use image or document inputs, you can perform actions on file content that's dynamically passed to the prompt at run time, such as file summarization, file categorization, extracting file information (both textual and visual), asking questions on file, and many more. It's also possible to combine both text and document or image inputs in the same prompt.
+When you use image or document inputs, you can perform actions on file content that dynamically passes to the prompt at run time, such as file summarization, file categorization, extracting file information (both textual and visual), asking questions on file, and many more. It's also possible to combine both text and document or image inputs in the same prompt.
 
 [!INCLUDE [cc_preview_features_definition](./includes/cc-preview-features-definition.md)]
 
