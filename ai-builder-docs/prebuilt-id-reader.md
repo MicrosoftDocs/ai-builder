@@ -56,7 +56,7 @@ If a valid identity document is detected, the model tries to locate and extract 
 |Last name     |   N/A      |
 |Gender     |    N/A     |
 |Date of birth     |    N/A     |
-|Place of birth     |    US green card only     |
+|Place of birth     |    US green card only    |
 |Region     | US driver license only        |
 |Country     |    N/A     |
 |Nationality     | Passport only        |
