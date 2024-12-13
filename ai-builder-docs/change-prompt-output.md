@@ -1,5 +1,5 @@
 ---
-title: Change the output of your prompt (preview)
+title: Change the output of your prompt
 description: Learn how to change the output of your prompt.
 author: antrod
 contributors:
@@ -14,13 +14,10 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-# Change the output of your prompt (preview)
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
+# Change the output of your prompt
 
 By default, the prompt generates text as response. Text can be convenient for many uses cases. However, if the response has several elements that need to be identified individually, the text option can be limited.
 
-[!INCLUDE [cc_preview_features_definition](./includes/cc-preview-features-definition.md)]
 
 ## Benefits of using JSON output
 
@@ -41,7 +38,7 @@ This section describes how to select JSON as output and edit the JSON format.
 
 To change how the prompt response is rendered, follow these steps:
 
-1. On the panel to the right under the **Prompt settings** heading, select **Output** > **JSON (preview)**.
+1. On the panel to the right under the **Prompt settings** heading, select **Output** > **JSON**.
 1. On the bottom left, select **Test prompt** to check how your prompt response renders in JSON.
 
     :::image type="content" source="media/change-prompt-output/test-prompt-auto.png" alt-text="Screenshot of selections on the 'Prompt with JSON' page.":::
