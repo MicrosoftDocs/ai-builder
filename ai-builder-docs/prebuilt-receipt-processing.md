@@ -1,15 +1,15 @@
 ---
 title: Receipt processing prebuilt AI model - AI Builder
 description: Learn about the receipt processing prebuilt AI model from AI Builder.
-author: JoeFernandezMS
+author: phil-cmd
 contributors:
   - JoeFernandezMS
   - phil-cmd
   - v-aangie
 ms.topic: conceptual
 ms.custom: 
-ms.date: 1/10/2024
-ms.author: jofernan
+ms.date: 12/13/2024
+ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
@@ -56,7 +56,7 @@ If a receipt is detected, the receipt processing model will output the following
 |**Total**|Total|
 |**DetectedText**|The list of all recognized lines of text on the receipt|
 
-## Limits 
+## Limits
 
 Receipt model does not support multipage documents.
 
