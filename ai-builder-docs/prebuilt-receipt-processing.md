@@ -58,6 +58,8 @@ If a receipt is detected, the receipt processing model will output the following
 
 ## Limits 
 
+Receipt model does not support multipage documents.
+
 The following applies to calls made per environment across document processing models including prebuilt models: receipt processing and invoice processing.
 
 |**Action**|**Limit**|**Renewal period**|
