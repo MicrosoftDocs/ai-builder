@@ -24,7 +24,8 @@ The following screenshot shows the AI Builder architecture.
 
 Behind the scenes, AI Builder generates or uses Azure AI models for most scenarios, as shown in the following screenshot.
 
-:::image type="content" source="media/ai-builder-architecture/aib-models.png" alt-text="Screenshot of scenarios that use AI models.":::
+![image](https://github.com/user-attachments/assets/80de3b81-2007-4d5c-8a36-90d828a9c23a)
+
 
 > [!IMPORTANT]
 > Your input or output data, your embeddings, and your training data:
@@ -64,3 +65,7 @@ The data required to train the Azure model is encrypted during transfer, remains
 The following screenshot shows the AI prompts workflow. After AI Builder creates a prompt leveraging Dataverse, it can be consumed through Power Platform or Microsoft 365 products. To ensure responsible AI compliance of the prompt, AI Builder services communicate with Azure OpenAI and Azure AI Content Safety. The result is sent back as the prompt answer.
 
 :::image type="content" source="media/ai-builder-architecture/aib-prompts-workflow.png" alt-text="Screenshot of the AI prompts workflow.":::
+
+## Related information
+
+[FAQ for Copilot data security and privacy for Dynamics 365 and Power Platform](/power-platform/faqs-copilot-data-security-privacy)
