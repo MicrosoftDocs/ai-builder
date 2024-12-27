@@ -86,25 +86,28 @@ Go to the Invoice Processing Supported Languages and Files section for a clearer
 
   You can select your desired field from the available field
 
-  <<picture>>
+  :::image type="content" source="media/invoice_processing_all_available_fields_formula.png" alt-text="Screenshot of all available text Fields.":::
   
 1. Select **Save**, and select the play button
 
-   <<picture>>
+  :::image type="content" source="media/invoice_processing_invoice_id_result.png" alt-text="Screenshot of the result of an invoice ID.":::
+  
 
 You can also use this formula to retrieve the first item from the result and extract the description of that item as a text string.
 
 ```power-fx
 First('Invoice processing'.Predict(UploadedImage1.Image).Tables.Items.Rows).Description.Value.Text
 ```
- <<picture>>
+ :::image type="content" source="media/invoice_processing_first_description_result.png" alt-text="Screenshot of the first item from the result.":::
+  
 
 This expression concatenates the text values from the "Description" field of each row in the prediction results of an image related to invoice, separating each value with a comma and a space.
 
 ```power-fx
 Concat('Invoiceprocessing'.Predict(UploadedImage1.Image).Tables.Items.Rows,Description.Value.Text,", ")
 ```
- <<picture>>
+ :::image type="content" source="media/invoice_processing_concat_description_result.png" alt-text="Screenshot of all text values from the description field.":::
+ 
  
 ## Related information
 
