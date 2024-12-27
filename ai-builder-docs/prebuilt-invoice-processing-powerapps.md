@@ -113,4 +113,4 @@ Concat('Invoiceprocessing'.Predict(UploadedImage1.Image).Tables.Items.Rows,Descr
 
 [Invoice processing overview](prebuilt-invoice-processing.md)
 
-[Power FX formula reference overview](formula-reference-overview.md)
+[Power FX formula reference overview](power-fx/formula-reference-overview.md)
