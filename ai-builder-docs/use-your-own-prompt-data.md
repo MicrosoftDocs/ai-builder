@@ -51,6 +51,7 @@ The number of scenarios enabled by this capability is limited only by your creat
 The following list describes the limitations of using your own data in a prompt.
 
 - Data source is limited to Dataverse tables.
+- Dataverse Environment languages supported: English US, French, Japanese, Danish, Dutch, German, Italian, Brazilian Portuguese, Spanish, Simplified Chinese, Danish Norwegian, and Turkish.
 - Virtual table use isn't yet supported.
 - You can use only one table as the data source. However, you can reference fields from multiple relationships of this table.
 - Only the attributes with the following data types are available as **Filter attribute** and in **+ Insert**: `text`, `number`, `date and time`, `choice`, `currency`, and u`nique identifier`.
