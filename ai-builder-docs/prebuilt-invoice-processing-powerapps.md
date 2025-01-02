@@ -14,6 +14,7 @@ ms.reviewer: angieandrews
 AI Builder invoice processing combined with Power FX lets you extract key details from invoices like invoice ID, vendor names, dates, quickly and accurately. This low-code solution simplifies data handling and streamlines financial processes.
 
 **Supported document types:**
+
 •	Invoices
 
 ## Requirements
