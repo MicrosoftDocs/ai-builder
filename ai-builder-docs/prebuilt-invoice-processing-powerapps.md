@@ -1,7 +1,7 @@
 ---
 title: Use invoice processing in Power Apps - AI Builder
 description: Learn how to use AI Builder invoice processing in Power Apps.
-author: JoeFernandezMS
+author: plarrue
 ms.topic: conceptual
 ms.custom: 
 ms.date: 12/27/2024
@@ -104,12 +104,14 @@ First('Invoice processing'.Predict(UploadedImage1.Image).Tables.Items.Rows).Desc
 This expression concatenates the text values from the "Description" field of each row in the prediction results of an image related to invoice, separating each value with a comma and a space.
 
 ```power-fx
-Concat('Invoiceprocessing'.Predict(UploadedImage1.Image).Tables.Items.Rows,Description.Value.Text,", ")
+Concat('Invoice processing'.Predict(UploadedImage1.Image).Tables.Items.Rows, Description.Value.Text, Char(10))
 ```
  :::image type="content" source="media/invoice_processing_concat_description_result.png" alt-text="Screenshot of all text values from the description field.":::
  
  
 ## Related information
+
+[Cookbook: How to use AI Builder Invoice Processing in Power Apps](https://community.powerplatform.com/galleries/gallery-posts/?postid=59a0bbb0-b4c6-ef11-b8e8-7c1e52182eb9)
 
 [Invoice processing overview](prebuilt-invoice-processing.md)
 
