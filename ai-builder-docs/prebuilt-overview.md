@@ -33,7 +33,7 @@ Download the guide here: <link to add>
 
 :::image type="content" source="media/AI Builder's prebuilt model combined with Power FX Cheat Sheet.png" alt-text="Screenshot of the AI Builder's prebuilt model combined with Power FX Cheat Sheet.":::
 
-Download the AI Builder's prebuilt model combined with PowerFX cheat sheet (landscape poster) to keep it handy. It's a practical guide for anyone exploring or starting AI Builder's prebuilt model in Power Apps. This cheat sheet demystifies AI Builder's prebuilt model Power FX formulas.
+Download the AI Builder's prebuilt model combined with PowerFX cheat sheet for quick reference. This guide is perfect for those beginning to explore AI Builder’s prebuilt models in Power Apps, offering insights into using Power FX formulas effectively. It simplifies key concepts to enhance decision-making and ease of use.
 
 To learn more, go to [Use AI Builder models in Power Apps](/ai-builder/powerfx-in-powerapps).
 
