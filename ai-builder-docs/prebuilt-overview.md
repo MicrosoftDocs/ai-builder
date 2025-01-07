@@ -28,6 +28,11 @@ Prebuilt models are available in Power Automate and Power Apps. The following pr
 - [Text translation](prebuilt-text-translation.md)  
 - [Image description (preview)](prebuilt-image-description.md)
 
+# Download: AI Builder's prebuilt model combined with Power FX cheat sheet
+Download the guide here: <link to add>
+
+Download the AI Builder's prebuilt model combined with PowerFX cheat sheet (landscape poster) to keep it handy. It's a practical guide for anyone exploring or starting AI Builder's prebuilt model in Power Apps. This cheat sheet demystifies AI Builder's prebuilt model Power FX formulas.
+
 To learn more, go to [Use AI Builder models in Power Apps](/ai-builder/powerfx-in-powerapps).
 
 ## Related information
