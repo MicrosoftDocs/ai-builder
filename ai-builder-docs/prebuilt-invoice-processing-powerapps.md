@@ -1,30 +1,29 @@
 ---
 title: Use invoice processing in Power Apps - AI Builder
 description: Learn how to use AI Builder invoice processing in Power Apps.
-author: plarrue
+author: phil-cmd
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/27/2024
+ms.date: 01/08/2025
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
 # Use invoice processing in Power Apps
 
-AI Builder invoice processing combined with Power FX lets you extract key details from invoices like invoice ID, vendor names, dates, quickly and accurately. This low-code solution simplifies data handling and streamlines financial processes.
+AI Builder invoice processing combined with Power Fx lets you extract key details from invoices like invoice ID, vendor names, and dates, quickly and accurately. This low-code solution simplifies data handling and streamlines financial processes.
 
-**Supported document types:**
-
-•	Invoices
+**Supported document types**: Invoices
 
 ## Requirements
 
 For best results, provide one clear photo or high-quality scan per document.
-Go to the Invoice Processing Supported Languages and Files section for a clearer understanding of the requirements
 
-## Available Fields
+Get a clearer understanding of the requirements in the **Invoice Processing Supported Languages and Files** section.
 
-|Available Fields|Type|
+## Available fields
+
+|Available fields|Type|
 |----------------|----|
 |AmountDue|Text|
 |BillingAddress|Text|
@@ -69,51 +68,47 @@ Go to the Invoice Processing Supported Languages and Files section for a clearer
 |Unit|Text|
 |UnitPrice|Text|
 
-
-
 ## Build your canvas app
 
-1. Sign in to [Power Apps](https://make.powerapps.com/). 
-1. Select **+Create** in the left-side navigation pane.
-1. Select the **Canvas app from blank** tile. 
+1. Sign in to [Power Apps](https://make.powerapps.com/).
+1. On the left-side navigation pane, select **+Create**.
+1. Select the **Canvas app from blank** tile.
 1. Name your app, select either **Tablet** or **Phone** format, and then select **Create**.
-1. In the app editor, from the left navigation pane, select **Data**, select **Add data**, search **Invoice processing**
-1. Select **+Insert**, select **Add picture**
-1. Select **+Insert**, select **Text label **
-1. Select **Label1**, enter a formula like the following example, where UploadedImage1 is the image container:
-```power-fx
-'Invoice processing'.Predict(UploadedImage1.Image).Fields.InvoiceId.Value.Text
-```
+1. In the app editor, from the left navigation pane, select **Data** > **Add data**, and then search **Invoice processing**.
+1. Select **+Insert** > **Add picture**.
+1. Select **+Insert** > **Text label**.
+1. Select **Label1** and enter a formula like the following example, where `UploadedImage1` is the image container:
 
-  You can select your desired field from the available field
+    ```power-fx
+    'Invoice processing'.Predict(UploadedImage1.Image).Fields.InvoiceId.Value.Text
+    ```
 
-  :::image type="content" source="media/invoice_processing_all_available_fields_formula.png" alt-text="Screenshot of all available text Fields.":::
+      You can select your desired field from the available field.
+
+     :::image type="content" source="media/prebuilt-invoice-processing-powerapps/invoice-processing-all-available-field-formula.png" alt-text="Screenshot of all available text fields.":::
   
-1. Select **Save**, and select the play button
+1. Select **Save**, and then select the play button.
 
-  :::image type="content" source="media/invoice_processing_invoice_id_result.png" alt-text="Screenshot of the result of an invoice ID.":::
+    :::image type="content" source="media/prebuilt-invoice-processing-powerapps/invoice-processing-invoice-id-result.png" alt-text="Screenshot of the result of an invoice ID.":::
   
-
 You can also use this formula to retrieve the first item from the result and extract the description of that item as a text string.
 
 ```power-fx
 First('Invoice processing'.Predict(UploadedImage1.Image).Tables.Items.Rows).Description.Value.Text
 ```
- :::image type="content" source="media/invoice_processing_first_description_result.png" alt-text="Screenshot of the first item from the result.":::
-  
 
-This expression concatenates the text values from the "Description" field of each row in the prediction results of an image related to invoice, separating each value with a comma and a space.
+ :::image type="content" source="media/prebuilt-invoice-processing-powerapps/invoice-processing-first-description-result.png" alt-text="Screenshot of the first item from the result.":::
+  
+This expression concatenates the text values from the **Description** field of each row in the prediction results of an image related to invoice, and separates each value with a comma and a space.
 
 ```power-fx
 Concat('Invoice processing'.Predict(UploadedImage1.Image).Tables.Items.Rows, Description.Value.Text, Char(10))
 ```
- :::image type="content" source="media/invoice_processing_concat_description_result.png" alt-text="Screenshot of all text values from the description field.":::
- 
- 
+
+:::image type="content" source="media/prebuilt-invoice-processing-powerapps/invoice-processing-concat-description-result.png" alt-text="Screenshot of all text values from the description field.":::
+
 ## Related information
 
-[Cookbook: How to use AI Builder Invoice Processing in Power Apps](https://community.powerplatform.com/galleries/gallery-posts/?postid=59a0bbb0-b4c6-ef11-b8e8-7c1e52182eb9)
-
-[Invoice processing overview](prebuilt-invoice-processing.md)
-
-[Power FX formula reference overview](https://learn.microsoft.com/power-platform/power-fx/formula-reference-overview)
+- [Cookbook: How to use AI Builder Invoice Processing in Power Apps](https://community.powerplatform.com/galleries/gallery-posts/?postid=59a0bbb0-b4c6-ef11-b8e8-7c1e52182eb9)
+- [Invoice processing overview](prebuilt-invoice-processing.md)
+- [Power Fx formula reference overview](/power-platform/power-fx/formula-reference-overview)
