@@ -24,8 +24,7 @@ The following screenshot shows the AI Builder architecture.
 
 Behind the scenes, AI Builder generates or uses Azure AI models for most scenarios, as shown in the following screenshot.
 
-![image](https://github.com/user-attachments/assets/80de3b81-2007-4d5c-8a36-90d828a9c23a)
-
+:::image type="content" source="media/ai-builder-architecture/aib-models.png" alt-text="Screenshot of scenarios that use AI models.":::
 
 > [!IMPORTANT]
 > Your input or output data, your embeddings, and your training data:
