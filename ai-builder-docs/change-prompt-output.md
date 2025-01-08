@@ -18,7 +18,6 @@ ms.collection:
 
 By default, the prompt generates text as response. Text can be convenient for many uses cases. However, if the response has several elements that need to be identified individually, the text option can be limited.
 
-
 ## Benefits of using JSON output
 
 The JSON output allows you to generate a JSON structure for your prompt response instead of a text. JSON allows an easier processing of responses with multiple elements in Power Automate or Power Apps.
@@ -95,7 +94,6 @@ The following example shows how you can process an invoice received by email usi
     1. On the **Parameters** tab in the **Prompt** field, select **prompt with JSON** as the output.
     1. Add the invoice variable you created in the prompt input.
 
-
 The following procedure allows you to easily and safely use multiple values extracted from a text using a prompt.
 
 1. In your flow, select **Send an email**.
@@ -109,7 +107,7 @@ The following procedure allows you to easily and safely use multiple values extr
 
 You might encounter the following error while testing a prompt: **A JSON could not be generated. Edit your prompt instruction and try again.**
 
-This error might be because the model is enclosing the JSON output with metadata information that prevents successful verification of the required JSON format. Try adding the following instruction to your prompt to resolve the issue: **Don't include JSON markdown in your answer**.
+This error might be because the model is enclosing the JSON output with metadata information that prevents successful verification of the required JSON format. To resolve the issue, try adding the following instruction to your prompt: **Don't include JSON markdown in your answer**.
 
 ### No JSON is returned in auto-detect mode
 
@@ -125,3 +123,6 @@ The latest JSON format detected in auto-detect mode or the latest JSON format de
 - We don't support defining a JSON format without field keys.<br/>
     Example: `["abc", "def"]` isn't supported but `[{"Field1": "abc"}, {"Field1": "def"}]` is supported.
 
+## Related information
+
+[Video: AI Builder: JSON outputs in prompt builder](https://www.youtube.com/watch?v=F0fGnWrRY_I)
