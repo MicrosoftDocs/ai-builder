@@ -28,13 +28,12 @@ Prebuilt models are available in Power Automate and Power Apps. The following pr
 - [Text translation](prebuilt-text-translation.md)  
 - [Image description (preview)](prebuilt-image-description.md)
 
-To learn more, go to [Use AI Builder models in Power Apps](/ai-builder/powerfx-in-powerapps).
+Learn more in [Use AI Builder models in Power Apps](/ai-builder/powerfx-in-powerapps).
 
 ## Related information
 
-[AI Builder in Power Automate overview](use-in-flow-overview.md)  
-[AI Builder in Power Apps overview](use-in-powerapps-overview.md)  
-[Feature availability by region](availability-region.md)
-
+- [AI Builder in Power Automate overview](use-in-flow-overview.md)  
+- [AI Builder in Power Apps overview](use-in-powerapps-overview.md)
+- [Feature availability by region](availability-region.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
