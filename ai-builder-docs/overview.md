@@ -69,13 +69,13 @@ If you're an administrator and want information on model and environments, go to
 
 For information on security for administrators, go to [Roles and security in AI Builder](security.md).
 
-## Download: AI Builder no code AI Cheat Sheet
+## Download AI Builder no code AI cheat sheet
 
-**Download the guide here: [No code AI Cheat Sheet by AI Builder (landscape poster)](https://aka.ms/aibuildercheatsheet)** 
+Download and print the AI Builder no code AI cheat sheet (landscape poster) to keep it handy. It's a practical guide for anyone exploring AI capabilities within the Power Platform, tailored for ease of use and decision making. This cheat sheet demystifies AI model selection.
 
-:::image type="content" source="media/no-code-ai-cheat-sheet.png" alt-text="Screenshot of no code AI Cheat Sheet by AI Builder."::: 
+Download the guide here: [AI Builder no code AI cheat sheet (landscape poster)](https://aka.ms/aibuildercheatsheet)
 
-Download and print the AI Builder no code AI Cheat Sheet (landscape poster) to keep it handy. It's a practical guide for anyone exploring AI capabilities within the Power Platform, tailored for ease of use and decision making. This cheat sheet demystifies AI model selection.
+
 
 ## Related information
 
