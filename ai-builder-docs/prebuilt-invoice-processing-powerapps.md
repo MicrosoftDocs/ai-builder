@@ -19,7 +19,7 @@ AI Builder invoice processing combined with Power Fx lets you extract key detail
 
 For best results, provide one clear photo or high-quality scan per document.
 
-Get a clearer understanding of the requirements in the **Invoice Processing Supported Languages and Files** section.
+Learn more about requirements in the [Supported languages and files](prebuilt-invoice-processing.md#supported-languages-and-files) section in [Invoice processing prebuilt AI model](prebuilt-invoice-processing.md).
 
 ## Available fields
 
