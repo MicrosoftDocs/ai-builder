@@ -1,101 +1,114 @@
 ---
 title: Use invoice processing in Power Apps - AI Builder
 description: Learn how to use AI Builder invoice processing in Power Apps.
-author: JoeFernandezMS
+author: phil-cmd
 ms.topic: conceptual
 ms.custom: 
-ms.date: 11/20/2024
-ms.author: jofernan
+ms.date: 01/08/2025
+ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
 # Use invoice processing in Power Apps
 
-Currently, there's no invoice processing control available for canvas apps in Power Apps. But you can create an app that calls a Power Automate flow that uses the invoice processing prebuilt AI model, and then return the results back to your app. The following example shows how to do this:
+AI Builder invoice processing combined with Power Fx lets you extract key details from invoices like invoice ID, vendor names, and dates, quickly and accurately. This low-code solution simplifies data handling and streamlines financial processes.
 
-## Build your flow
+**Supported document types**: Invoices
 
-1. Sign in to [Power Automate](https://flow.microsoft.com).
+## Requirements
 
-1. Make sure you are in the same Power Platform environment where you'll have your canvas app. Check the environment on the top right of the page.
+For best results, provide one clear photo or high-quality scan per document.
 
-1. On the pane to the left, select **Flows**.
+Learn more about requirements in the [Supported languages and files](prebuilt-invoice-processing.md#supported-languages-and-files) section in [Invoice processing prebuilt AI model](prebuilt-invoice-processing.md).
 
-1. Select **New flow** > **Instant cloud flow**.
+## Available fields
 
-1. Name your flow “Invoice processing flow”, and then select **Power Apps** under **Choose how to trigger this flow**.
+|Available fields|Type|
+|----------------|----|
+|AmountDue|Text|
+|BillingAddress|Text|
+|BillingAddressRecipient|Text|
+|CustomerAddress|Text|
+|CustomerAddressRecipient|Text|
+|CustomerId|Text|
+|CustomerName|Text|
+|Customer TaxId|Text|
+|DueDate|Text|
+|InvoiceDate|Text|
+|InvoiceId|Text|
+|InvoiceTotal|Text|
+|paymentTerms|Text|
+|PreviousUnpaidBalance|Text|
+|PurchaseOrder|Text|
+|RemittanceAddress|Text|
+|RemittanceAddressRecipient|Text|
+|ServiceAddress|Text|
+|ServiceAddressRecipient|Text|
+|ServiceEndDate|Text|
+|ServiceStartDate|Text|
+|ShippingAddress|Text|
+|ShippingAddressRecipient|Text|
+|SubTotal|Text|
+|TotalTax|Text|
+|VendorAddress|Text|
+|VendorAddressRecipient|Text|
+|VendorName|Text|
+|VendorTaxId|Text|
 
-1. Select **Create**.
+## Available table items
 
-1. Select **+ New step** > **AI Builder**, and then select **Extract information from invoices** in the **Actions** list.
-
-1. Select the **Invoice file** input and then select **Ask in Power Apps** in the **Dynamic content** list.
-
-   > [!div class="mx-imgBorder"]
-   > ![Process and save information.](media/flow-process-and-save.png "Choose dynamic content")
-
-1. Select **+ New step**, search for *respond to a powerapp*, and then select **Respond to a PowerApp or flow** in the **Actions** list.
-
-   For this example we’re going to add two text outputs: *Invoice ID* and *Invoice Total*. You might want to add more or different outputs based on the extracted invoice fields you want to send back to your canvas app.
-
-   To add the inputs:
-
-   1. Select **+Add an output** > **Text**. 
-
-   1. Replace **Enter title** with **Invoice ID**.
-
-   1. Select the new **Invoice ID** input, and then select **Invoice ID** from the **Dynamic content** list.
-
-   1. Select **+ Add an input** > **Text**.
-
-   1. Replace **Enter title** with **Invoice Total**.
-
-   1. Select the new **Invoice Total** input, and then select **Invoice total (text)** from the **Dynamic content** list.
-
-      > [!div class="mx-imgBorder"]
-      > ![Respond to a Power App tile.](media/flow-respond-to-power-app.png "Configure the 'Respond to Power App' screen")
-
-1. Save your flow.
+|Available items|Type|
+|---------------|----|
+|Amount|Text|
+|Date|Text|
+|Description|Text|
+|ProductCode|Text|
+|Quantity|Text|
+|Tax|Text|
+|Unit|Text|
+|UnitPrice|Text|
 
 ## Build your canvas app
 
-1. Sign in to [Power Apps](https://make.powerapps.com/). 
-1. Make sure you are on the same Microsoft Power Platform environment where you created the flow on the top right of the page. 
-1. Select **+Create** in the left-side navigation pane.
-1. Select the **Canvas app from blank** tile. 
+1. Sign in to [Power Apps](https://make.powerapps.com/).
+1. On the left-side navigation pane, select **+Create**.
+1. Select the **Canvas app from blank** tile.
 1. Name your app, select either **Tablet** or **Phone** format, and then select **Create**.
-1. In the app editor, select **Insert** > **Media** > **Add picture** to insert a control into your app where users can upload a picture from a device or camera.
-1. Select the **AddMediaButton1** control on the left. 
-1. On the formula bar on the top, select the **OnSelect** event.
+1. In the app editor, from the left navigation pane, select **Data** > **Add data**, and then search **Invoice processing**.
+1. Select **+Insert** > **Add picture**.
+1. Select **+Insert** > **Text label**.
+1. Select **Label1** and enter a formula like the following example, where `UploadedImage1` is the image container:
 
+    ```power-fx
+    'Invoice processing'.Predict(UploadedImage1.Image).Fields.InvoiceId.Value.Text
+    ```
 
-1. Select the **Action** menu and select **Power Automate**. Choose the flow that we created in the previous steps. If you don’t see the flow, make sure you are on the same Power Platform environment as where you created the flow, you can check the environment on the top right of the page.
-   > [!div class="mx-imgBorder"]
-   > ![Action menu.](media/canvas-app-action-menu.png "Select the 'Action' menu")
+      You can select your desired field from the available field.
 
-1. Enter the following formula on the **OnSelect** event for the **AddMediaButton1** control. This formula tells the app to call the flow we’ve built once a new image is uploaded and saves the results we received from the flow in variables.
+     :::image type="content" source="media/prebuilt-invoice-processing-powerapps/invoice-processing-all-available-field-formula.png" alt-text="Screenshot of all available text fields.":::
+  
+1. Select **Save**, and then select the play button.
 
-   The name of the variables and name of your flow might be different depending on how you configured it when building the flow:
+    :::image type="content" source="media/prebuilt-invoice-processing-powerapps/invoice-processing-invoice-id-result.png" alt-text="Screenshot of the result of an invoice ID.":::
+  
+You can also use this formula to retrieve the first item from the result and extract the description of that item as a text string.
 
-   > *Set(FlowResults, Invoiceprocessingflow.Run(AddMediaButton1.Media));*
-   >
-   > *Set(InvoiceId, FlowResults.invoice_id);*
-   >
-   > *Set(InvoiceTotal, FlowResults.invoice_total);*
+```power-fx
+First('Invoice processing'.Predict(UploadedImage1.Image).Tables.Items.Rows).Description.Value.Text
+```
 
-   > [!div class="mx-imgBorder"]
-   > ![Formula menu.](media/canvas-app-formula.png "Enter the formula")
+ :::image type="content" source="media/prebuilt-invoice-processing-powerapps/invoice-processing-first-description-result.png" alt-text="Screenshot of the first item from the result.":::
+  
+This expression concatenates the text values from the **Description** field of each row in the prediction results of an image related to invoice, and separates each value with a comma and a space.
 
-1. Now let’s add two labels and two text inputs to display the results we'll get from the flow. Change the Default property for each text input to take the values from the variables we've defined in the previous step.
-   > [!div class="mx-imgBorder"]
-   > ![Add labels and text inputs.](media/canvas-app-add-labels.png "Add two labels and two text inputs")
+```power-fx
+Concat('Invoice processing'.Predict(UploadedImage1.Image).Tables.Items.Rows, Description.Value.Text, Char(10))
+```
 
-1. The app is now ready to run! Select the **Play** icon on the top right to test it.
-   > [!div class="mx-imgBorder"]
-   > ![Finished app.](media/canvas-app-done.png "Finished app screen")
+:::image type="content" source="media/prebuilt-invoice-processing-powerapps/invoice-processing-concat-description-result.png" alt-text="Screenshot of all text values from the description field.":::
 
 ## Related information
 
-[Training: Extract invoice data with AI Builder’s prebuilt model (module)](/training/modules/ai-builder-invoice-processing/) 
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+- [Cookbook: How to use AI Builder Invoice Processing in Power Apps](https://community.powerplatform.com/galleries/gallery-posts/?postid=59a0bbb0-b4c6-ef11-b8e8-7c1e52182eb9)
+- [Invoice processing overview](prebuilt-invoice-processing.md)
+- [Power Fx formula reference overview](/power-platform/power-fx/formula-reference-overview)
