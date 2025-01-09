@@ -3,7 +3,7 @@ title: Overview of prebuilt AI models - AI Builder
 description: Learn about the prebuilt AI models that are available in AI Builder.
 author: phil-cmd
 ms.topic: overview
-ms.date: 11/20/2024
+ms.date: 01/09/2025
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---
@@ -29,6 +29,12 @@ Prebuilt models are available in Power Automate and Power Apps. The following pr
 - [Image description (preview)](prebuilt-image-description.md)
 
 Learn more in [Use AI Builder models in Power Apps](/ai-builder/powerfx-in-powerapps).
+
+## Download AI Builder's prebuilt model combined with Power Fx cheat sheet
+
+Download the AI Builder prebuilt model combined with Power Fx cheat sheet for quick reference. This guide is perfect for those beginning to explore AI Builder’s prebuilt models in Power Apps, offering insights into using Power Fx formulas effectively. It simplifies key concepts to enhance decision-making and ease of use.
+
+Download the guide here: [AI Builder prebuilt model combined with Power Fx cheat sheet](https://go.microsoft.com/fwlink/?linkid=2300739)
 
 ## Related information
 
