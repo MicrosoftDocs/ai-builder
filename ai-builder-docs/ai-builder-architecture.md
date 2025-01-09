@@ -8,7 +8,7 @@ contributors:
   - v-aangie
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/06/2024
+ms.date: 12/09/2025
 ms.author: jelenak
 ms.reviewer: angieandrews
 ms.collection: bap-ai-copilot
