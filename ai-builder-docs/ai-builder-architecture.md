@@ -8,7 +8,7 @@ contributors:
   - v-aangie
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/06/2024
+ms.date: 12/09/2025
 ms.author: jelenak
 ms.reviewer: angieandrews
 ms.collection: bap-ai-copilot
@@ -64,3 +64,7 @@ The data required to train the Azure model is encrypted during transfer, remains
 The following screenshot shows the AI prompts workflow. After AI Builder creates a prompt leveraging Dataverse, it can be consumed through Power Platform or Microsoft 365 products. To ensure responsible AI compliance of the prompt, AI Builder services communicate with Azure OpenAI and Azure AI Content Safety. The result is sent back as the prompt answer.
 
 :::image type="content" source="media/ai-builder-architecture/aib-prompts-workflow.png" alt-text="Screenshot of the AI prompts workflow.":::
+
+## Related information
+
+[FAQ for Copilot data security and privacy for Dynamics 365 and Power Platform](/power-platform/faqs-copilot-data-security-privacy)
