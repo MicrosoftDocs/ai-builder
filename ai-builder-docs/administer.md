@@ -137,11 +137,20 @@ An AI prompt is a natural language instruction using a large language model such
 
 Without this feature, these advanced capabilities aren't available.
 
-To control AI prompts feature availability:
+To control AI prompts feature availability for an environment:
 
 1. Sign in to [Power Platform admin center](https://admin.powerplatform.microsoft.com).
-1. In the admin center, select **Environments** > *[select an environment]* > **Settings** > **Product** > **Features**.
-1. On the **Features** settings page under **AI Builder**, enable or disable the **AI prompts** the toggle.
+2. In the admin center, select **Environments** > *[select an environment]* > **Settings** > **Product** > **Features**.
+3. On the **Features** settings page under **AI Builder**, enable or disable the **AI prompts** the toggle.
+
+If your environment is part of an [environment group](/power-platform/admin/environment-groups), you can also govern AI prompts feature availability through the AI prompts environment group rule. 
+
+1. Sign in to [Power Platform admin center](https://admin.powerplatform.microsoft.com).
+2. In the admin center, select **Environment groups** > *[select an environment group]* > **Rules**.
+3. On the **Rules** tab under **AI prompts**, enable or disable the **AI prompts** toggle > **Save**
+4. Select **Publish rules** to apply the rules to the environments in the group.
+
+If an environment group rule governing AI prompts is published, it locks the AI prompts setting at the environment-level, preventing any system administrator of those individual environments from editing the setting. To change the setting, admins must modify the corresponding rule in the environment group that includes the environment. 
 
 ## Data loss prevention (DLP)
 
@@ -163,9 +172,7 @@ Learn more in [Data loss prevention policies](/power-platform/admin/wp-data-loss
 
 For prediction and prebuilt models, moving and copying environments is fully supported. For other models, after you move or copy an environment, you have to retrain and republish existing models to make them available again.
 
-## Customer-managed keys (CMK) (preview)
-
-[!INCLUDE [cc_preview_features_definition](./includes/cc-preview-features-definition.md)]
+## Customer-managed keys (CMK)
 
 All your data stored in Power Platform is encrypted at rest using Microsoft-managed keys by default. With customer-managed keys (CMKs), you can bring your own encryption keys to encrypt Power Platform data, including AI Builder training data and trained models. This allows you to have an extra protective layer to manage your Power Platform assets. With this feature, you can rotate or swap encryption keys on demand. It also prevents Microsoft’s access to your customer data, if you choose to revoke key access to Microsoft services at any time.
 
