@@ -7,7 +7,7 @@ contribuors:
   - angieandrews
 ms.topic: conceptual
 ms.custom: 
-ms.date: 01/13/2025
+ms.date: 01/21/2025
 ms.author: sjayapal
 ms.reviewer: angieandrews
 ---
@@ -48,9 +48,9 @@ If you're happy with your model, you can select **Publish** to publish it. When 
 
 After publishing your form-processing model, you can use it in a [Power Apps canvas app](./form-processor-component-in-powerapps.md) or in [Power Automate](./form-processing-model-in-flow.md).
 
-## Limitation
+## Limitations
 
-- Calls made per environment across document processing models, including prebuilt models like receipt processing and invoice processing, are limited to 360 calls per 60 seconds
+- Calls made per environment across document processing models, including prebuilt models like receipt processing and invoice processing, are limited to 360 calls per 60 seconds.
 
 - If file processing exceeds 90 seconds during a quick test, you encounter a **408 - Dependency Timeout** error. The reason is that the quick test is designed with a 90-second time-out limit. To ensure smooth testing, use files with fewer pages and a smaller size. For larger files, we recommend that you create a Power Automate flow to validate them. The Power Automate flow uses the `Predict` operation, which offers a 60-minute time-out. This makes it ideal for testing large files efficiently.
 
