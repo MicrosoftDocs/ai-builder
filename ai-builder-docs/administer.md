@@ -174,12 +174,12 @@ For prediction and prebuilt models, moving and copying environments is fully sup
 
 ## Customer-managed keys (CMK)
 
-All your data stored in Power Platform is encrypted at rest using Microsoft-managed keys by default. With customer-managed keys (CMKs), you can bring your own encryption keys to encrypt Power Platform data, including AI Builder training data and trained models. This allows you to have an extra protective layer to manage your Power Platform assets. With this feature, you can rotate or swap encryption keys on demand. It also prevents Microsoft’s access to your customer data, if you choose to revoke key access to Microsoft services at any time.
+All your data stored in Power Platform is encrypted at rest using Microsoft-managed keys by default. With customer-managed keys (CMKs), you can bring your own encryption keys to encrypt Power Platform data, including AI Builder training data and trained custom models or prompts. This allows you to have an extra protective layer to manage your Power Platform assets. With this feature, you can rotate or swap encryption keys on demand. It also prevents Microsoft’s access to your customer data, if you choose to revoke key access to Microsoft services at any time.
 
 > [!IMPORTANT]
-> Only models created or copied to the environment after CMK is enabled are encrypted at rest with that key.
+> Only models or prompts created or copied to the environment after CMK is enabled are encrypted at rest with that key.
 >
-> Currently, customer-managed keys aren't leveraged to encrypt Object detection trained models. The training data of those modes stored in Dataverse is using customer managed keys.
+> Currently, Object detection trained models continue to be encrypted using Microsoft-managed keys. The training data of those models is stored in Dataverse, using customer managed keys if CMK is enabled.
 
 Applying an encryption key is a gesture performed by Power Platform admins, and is invisible to users. Users can create, save, use, and include in solutions AI Builder models in exactly the same way as if the data was encrypted by Microsoft-managed keys.
 
