@@ -10,8 +10,8 @@ contributors:
 ms.topic: conceptual
 ms.collection: 
     - bap-ai-copilot
-ms.date: 01/08/2025
-ms.author: chplanty
+ms.date: 01/24/2025
+ms.author: cdbellar
 ms.reviewer: angieandrews
 ---
 
@@ -23,13 +23,17 @@ This point is where data Retrieval Augmented Generation (RAG) allows you to prov
 
 ## Add data and filter
 
-Makers can use the **Data used** option to select one Dataverse table. The fields of the active view of this table are used by the generative model to get more knowledge while answering based on the custom prompt defined and inputs provided.
+Makers can use the **Data used** option to select one or several Dataverse tables. The fields in these tables are used by the generative model to get more knowledge while answering based on the custom prompt defined and inputs provided.
 
 :::image type="content" source="media/use-your-own-prompt-data/add-data.png" alt-text="Screenshot of how to select a Dataverse table as data to be used in the prompt builder.":::
 
 You can filter the data, which is retrieved by expanding the table and selecting the filtered field and **Filter value**. The value can be free-form text or an input of the prompt.
 
-:::image type="content" source="media/use-your-own-prompt-data/filter-data.png" alt-text="Sscreenshot of how to filter the 'Opportunity' table's 'Status' based on inputs defined in the prompt builder or a list of values.":::
+:::image type="content" source="media/use-your-own-prompt-data/filter-data.png" alt-text="Screenshot of how to filter the 'Opportunity' table's 'Status' based on inputs defined in the prompt builder or a list of values.":::
+
+You can also filter by creating an input named **Question**. The data matching the question, which can be expressed with natural language, in all the tables added is used.
+
+:::image type="content" source="media/use-your-own-prompt-data/question-data.png" alt-text="Screenshot of how to use the input filter 'Question' to find all data matching a question in all the tables added.":::
 
 ## Insert data references in the prompt
 
@@ -46,6 +50,7 @@ The number of scenarios enabled by this capability is limited only by your creat
 - Create a summary of the account named `Name` using only these columns: `Account.Name`, `Account.Description`, `Account.Orders (Order).Name`, `Account.Orders (Order).Amount`.
 - Classify the `Email` into one of these `Category.Name` matching based on `Category.Description`.
 - Draft a reply to this `Problem` matching data from `FAQ.Topic` and getting inspiration from `FAQ.Solution`.
+- Get answers to the `Question` by providing information about `Account.Account Name`, `Account.Account Number`, `Account.Address 1`, and `Account.Address 1: City`.
 
 ## Limitations
 
