@@ -25,9 +25,6 @@ This point is where data Retrieval Augmented Generation (RAG) allows you to prov
 
 Makers can use the **Data used** option to select one or several Dataverse tables. The fields in these tables are used by the generative model to get more knowledge while answering based on the custom prompt defined and inputs provided.
 
-> [!NOTE]
-> Your prompt might produce better results after saving and when indexing is complete. You can check the indexing status icon in the **Data used** list.
-
 :::image type="content" source="media/use-your-own-prompt-data/add-data.png" alt-text="Screenshot of how to select a Dataverse table as data to be used in the prompt builder.":::
 
 You can filter the data, which is retrieved by expanding the table and selecting the filtered field and **Filter value**. The value can be free-form text or an input of the prompt.
