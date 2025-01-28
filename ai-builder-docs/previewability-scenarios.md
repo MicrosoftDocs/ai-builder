@@ -4,7 +4,7 @@ description: Explain why some scenarios are in preview and what it means.
 author: Antoine2F
 ms.topic: conceptual
 ms.custom: 
-ms.date: 01/27/2026
+ms.date: 01/27/2025
 ms.author: antode
 ms.reviewer: angieandrews
 ---
