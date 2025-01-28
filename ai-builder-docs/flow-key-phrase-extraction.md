@@ -4,7 +4,7 @@ description: Learn how to set up and use the AI Builder key phrase extraction pr
 author: alanabrito
 ms.topic: conceptual
 ms.custom: 
-ms.date: 01/10/2024
+ms.date: 01/27/2025
 ms.author: alanab
 ms.reviewer: angieandrews
 ---

@@ -7,7 +7,7 @@ contributors:
   - v-aandrews
 ms.topic: conceptual
 ms.custom: 
-ms.date: 06/25/2024
+ms.date: 01/27/2025
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---
@@ -51,7 +51,7 @@ In order to get the best results, provide one clear photo or scan per receipt.
 |**Tip**|Tip|
 |**Total**|Total|
 
->[!NOTE]
+> [!NOTE]
 > Receipt values are returned as strings. To manipulate them as numbers, you can use the [Value](/powerapps/maker/canvas-apps/functions/function-value) function. To manipulate them as dates or times, you can use the [DateValue](/powerapps/maker/canvas-apps/functions/function-datevalue-timevalue) and [TimeValue](/powerapps/maker/canvas-apps/functions/function-datevalue-timevalue) functions. You can also specify the language of the text with a language tag, such as "en-US".
 
 ## Additional properties
