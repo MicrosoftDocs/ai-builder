@@ -11,7 +11,7 @@ ms.topic: conceptual
 ms.collection: 
 - get-started
 - bap-ai-copilot
-ms.date: 11/15/2024
+ms.date: 01/28/2025
 ms.custom: ignite-2024
 ms.author: antrod
 ms.reviewer: angieandrews
@@ -60,12 +60,12 @@ When you use image or document inputs, you can perform actions on file content t
 
 If you're satisfied with your prompt, you can provide a sample value for your file input by selecting the input icon on the top right of the prompt builder experience, and uploading a file in the **Sample data** field of your input.
 
-File types supported with image or document input are PNG, JPG, JPEG and PDF.
+File types supported with image or document input are PNG, JPG, JPEG, and PDF.
 
 ## Limitations
 
 - For image or document input, size limitation for the files passed to be prompt is 25 MB in total for all files.
-- For image or document input, you can't pass a file with a type other than PNG, JPG, JPEG and PDF.
+- For image or document input, you can't pass a file with a type other than PNG, JPG, JPEG, and PDF.
 - For image or document input, extracting information from large documents might not be accurate and skip information, especially for table lines.
 - There's a limitation of processing documents with fewer than 50 pages.
 - Image or document input isn't yet supported for prompts in Copilot Studio.
