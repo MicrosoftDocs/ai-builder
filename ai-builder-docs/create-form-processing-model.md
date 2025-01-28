@@ -41,6 +41,10 @@ On the **Choose document type** step, select the type of document you want to bu
 
 ## Try the new model version (Preview)
 
+Prerequisites
+
+Your environment must be located in the US, or in Canada
+
 By selecting the toggle **Try the new model version (Preview)**, you can try the latest preview model version for Fixed template documents and General documents.
 
 > [!IMPORTANT]
