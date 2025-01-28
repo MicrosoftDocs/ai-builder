@@ -4,7 +4,7 @@ description: Describes the prebuilt language detection AI Builder model.
 author: alanabrito
 ms.topic: conceptual
 ms.custom: 
-ms.date: 01/10/2024
+ms.date: 01/28/2025
 ms.author: alanab
 ms.reviewer: angieandrews
 ---

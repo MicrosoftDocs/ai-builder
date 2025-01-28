@@ -1,10 +1,10 @@
 ---
-title: Use sample data to do category classification - AI Builder | Microsoft Docs
+title: Use sample data to do category classification - AI Builder
 description: Provides steps to create a category classification model in AI Builder using sample data provided by Microsoft.
 author: v-aangie
 ms.topic: conceptual
 ms.custom: 
-ms.date: 01/10/2024
+ms.date: 01/28/2025
 ms.author: angieandrews
 ms.reviewer: angieandrews
 ---
