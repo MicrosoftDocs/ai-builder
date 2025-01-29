@@ -1,10 +1,10 @@
 ---
-title: Train your category classification model - AI Builder | Microsoft Docs
+title: Train your category classification model - AI Builder
 description: Provides step-by-step instructions on how to train your category classification model.
 author: norliu 
 ms.topic: conceptual
 ms.custom: 
-ms.date: 01/10/2024
+ms.date: 01/28/2025
 ms.author: norliu 
 ms.reviewer: angieandrews
 ---

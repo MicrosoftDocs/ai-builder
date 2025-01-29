@@ -4,7 +4,7 @@ description: Learn how to create a Power Automate flow that uses the real-time p
 author: billba
 ms.topic: conceptual
 ms.custom: 
-ms.date: 01/10/2024
+ms.date: 01/27/2025
 ms.author: billba
 ms.reviewer: angieandrews
 ---

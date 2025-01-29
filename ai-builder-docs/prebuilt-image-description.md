@@ -11,7 +11,7 @@ ms.topic: overview
 ms.collection: 
 - get-started
 - bap-ai-copilot
-ms.date: 01/10/2024
+ms.date: 01/27/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
