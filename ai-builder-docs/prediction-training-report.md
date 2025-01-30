@@ -1,10 +1,10 @@
 ---
-title: Prediction model training errors and warnings - AI Builder | Microsoft Docs
+title: Prediction model training errors and warnings - AI Builder
 description: Describes the errors and warnings that might appear on the AI Builder prediction model details page.
 author: norliu
 ms.topic: conceptual
 ms.custom: 
-ms.date: 01/10/2024
+ms.date: 01/28/2025
 ms.author: norliu
 ms.reviewer: angieandrews
 ---

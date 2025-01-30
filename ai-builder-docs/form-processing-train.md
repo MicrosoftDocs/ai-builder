@@ -1,11 +1,14 @@
 ---
 title: Train and publish your document processing model in AI Builder
 description: Learn how to train, validate, and test your document processing model in AI Builder.
-author: JoeFernandezMS
+author: jsowndarrajan02
+contribuors:
+  - jsowndarrajan02
+  - angieandrews
 ms.topic: conceptual
 ms.custom: 
-ms.date: 01/10/2024
-ms.author: jofernan
+ms.date: 01/27/2025
+ms.author: sjayapal
 ms.reviewer: angieandrews
 ---
 
@@ -23,7 +26,7 @@ After you create your document processing model, you can train, test, and publis
 
 1. On the details page, select **Quick test**.
 
-1. You can either drag a document or select **Upload from my device** to upload your test file. The quick-test should only take a few seconds before displaying the results.
+1. You can either drag a document or select **Upload from my device** to upload your test file. The quick test should only take a few seconds before displaying the results.
 
 1. Select **Start over** to run another test, or **Close** if you're finished.
 
@@ -43,20 +46,18 @@ If you have trouble training your model, try these suggestions:
 
 If you're happy with your model, you can select **Publish** to publish it. When publishing is complete, your model is promoted as **Published** and is ready to be used. More information: [Publish your model in AI Builder](publish-model.md)
 
-After you've published your form-processing model, you can use it in a [Power Apps canvas app](./form-processor-component-in-powerapps.md) or in [Power Automate](./form-processing-model-in-flow.md).
+After publishing your form-processing model, you can use it in a [Power Apps canvas app](./form-processor-component-in-powerapps.md) or in [Power Automate](./form-processing-model-in-flow.md).
 
-## Limits
+## Limitations
 
-The following applies to calls made per environment across document processing models including prebuilt models: receipt processing and invoice processing.
+- Calls made per environment across document processing models, including prebuilt models like receipt processing and invoice processing, are limited to 360 calls per 60 seconds.
 
-|**Action**|**Limit**|**Renewal period**|
-|:-----|:-----|-----:|
-|Calls (per environment)|360|60 seconds|
+- If file processing exceeds 90 seconds during a quick test, you encounter a **408 - Dependency Timeout** error. The reason is that the quick test is designed with a 90-second time-out limit. To ensure smooth testing, use files with fewer pages and a smaller size. For larger files, we recommend that you create a Power Automate flow to validate them. The Power Automate flow uses the `Predict` operation, which offers a 60-minute time-out. This makes it ideal for testing large files efficiently.
 
 ## Related information
 
-[Use a document processing model in Power Automate](form-processing-model-in-flow.md)  
-[Use the form processor component in Power Apps](form-processor-component-in-powerapps.md)
+- [Use a document processing model in Power Automate](form-processing-model-in-flow.md)  
+- [Use the form processor component in Power Apps](form-processor-component-in-powerapps.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

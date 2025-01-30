@@ -4,7 +4,7 @@ description: Provides the information you need to know before you can use AI Bui
 author: JoeFernandezMS
 ms.topic: conceptual
 ms.custom:
-ms.date: 01/10/2024
+ms.date: 01/27/2025
 ms.author: jofernan
 ms.reviewer: angieandrews
 ---
