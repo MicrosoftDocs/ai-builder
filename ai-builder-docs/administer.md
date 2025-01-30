@@ -9,7 +9,7 @@ contributors:
   - phil-cmd
   - v-aangie
 ms.topic: conceptual
-ms.date: 10/22/2024
+ms.date: 01/30/2025
 ms.author: miregate
 ms.reviewer: angieandrews
 ---
@@ -141,14 +141,15 @@ To control AI prompts feature availability for an environment:
 
 1. Sign in to [Power Platform admin center](https://admin.powerplatform.microsoft.com).
 2. In the admin center, select **Environments** > *[select an environment]* > **Settings** > **Product** > **Features**.
-3. On the **Features** settings page under **AI Builder**, enable or disable the **AI prompts** the toggle.
+3. On the **Features** settings page under **AI Builder**, enable or disable the **AI prompts** toggle.
 
 If your environment is part of an [environment group](/power-platform/admin/environment-groups), you can also govern AI prompts feature availability through the AI prompts environment group rule. 
 
 1. Sign in to [Power Platform admin center](https://admin.powerplatform.microsoft.com).
 2. In the admin center, select **Environment groups** > *[select an environment group]* > **Rules**.
-3. On the **Rules** tab under **AI prompts**, enable or disable the **AI prompts** toggle > **Save**
-4. Select **Publish rules** to apply the rules to the environments in the group.
+3. On the **Rules** tab under **AI prompts**, enable or disable the **AI prompts** toggle.
+4. **Save** the changes.
+5. Select **Publish rules** to apply the rules to the environments in the group.
 
 If an environment group rule governing AI prompts is published, it locks the AI prompts setting at the environment-level, preventing any system administrator of those individual environments from editing the setting. To change the setting, admins must modify the corresponding rule in the environment group that includes the environment. 
 
@@ -177,13 +178,13 @@ For prediction and prebuilt models, moving and copying environments is fully sup
 All your data stored in Power Platform is encrypted at rest using Microsoft-managed keys by default. With customer-managed keys (CMKs), you can bring your own encryption keys to encrypt Power Platform data, including AI Builder training data and trained custom models or prompts. This allows you to have an extra protective layer to manage your Power Platform assets. With this feature, you can rotate or swap encryption keys on demand. It also prevents Microsoft’s access to your customer data, if you choose to revoke key access to Microsoft services at any time.
 
 > [!IMPORTANT]
-> Only models or prompts created or copied to the environment after CMK is enabled are encrypted at rest with that key.
+> Only models or prompts that are created or copied to the environment after CMK is enabled are encrypted at rest with that key.
 >
-> Currently, Object detection trained models continue to be encrypted using Microsoft-managed keys. The training data of those models is stored in Dataverse, using customer managed keys if CMK is enabled.
+> Currently, Object detection trained models continue to be encrypted using Microsoft-managed keys. The training data of those models is stored in Dataverse, using CMK if enabled.
 
 Applying an encryption key is a gesture performed by Power Platform admins, and is invisible to users. Users can create, save, use, and include in solutions AI Builder models in exactly the same way as if the data was encrypted by Microsoft-managed keys.
 
-Learn more about the customer-managed key and get step-by-step instructions to enable customer-managed keys in [Manage your customer-managed encryption key](/power-platform/admin/customer-managed-key). This enables you to leverage the single enterprise policy created on the environment to secure AI Builder models.
+Learn more about the customer-managed key and get step-by-step instructions to enable customer-managed keys in [Manage your customer-managed encryption key](/power-platform/admin/customer-managed-key). This enables you to use the single enterprise policy created on the environment to secure AI Builder models.
 
 ## Related information
 
