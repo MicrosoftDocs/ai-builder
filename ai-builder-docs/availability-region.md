@@ -111,10 +111,9 @@ AI Builder is available in US Government environments with the features listed i
 
 | Feature          | Government Community Cloud (GCC) | Government Community Cloud – High (GCC High) | Department of Defense (DoD) |
 |:-----------------|:--------------------------------:|:--------------------------------------------:|:---------------------------:|
-| Custom prompts   |               GA\*               |                     GA\*                     |              -              |
-| Prebuilt prompts |               GA\*               |                     GA\*                     |              -              |
+| Custom prompts   |               GA                 |                     GA                       |              -              |
+| Prebuilt prompts |               GA                 |                     GA                       |              -              |
 
-\*These regions require [enabling data movement cross-regions](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions) for the prompt feature to be enabled.
 
 ### US Government feature limitations
 
