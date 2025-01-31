@@ -33,8 +33,7 @@ What you get an AI Builder trial license:
 - Create and use AI models in any environment (trial or production).
 - Store your AI model results in Dataverse.
 - Use AI model in your apps, flows, and more.
-
-Custom prompts, prebuilt prompts, and Create text with GPT aren't available with an AI Builder trial.
+- Use Custom prompts, prebuilt prompts, and Create text with GPT are now available with an AI Builder trial.
 
 ## Activate an AI Builder trial license
 
