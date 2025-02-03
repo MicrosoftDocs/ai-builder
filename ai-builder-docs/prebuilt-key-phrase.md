@@ -4,7 +4,7 @@ description: Describes the prebuilt key phrase extraction AI model in AI Builder
 author: alanabrito
 ms.topic: conceptual
 ms.custom: 
-ms.date: 01/10/2024
+ms.date: 01/27/2025
 ms.author: alanab
 ms.reviewer: angieandrews
 ---
