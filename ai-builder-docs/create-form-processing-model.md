@@ -8,7 +8,7 @@ contributors:
   - JoeFernandezMS
   - v-aangie
 ms.topic: conceptual
-ms.date: 12/12/2024
+ms.date: 03/02/2025
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---
@@ -41,10 +41,6 @@ On the **Choose document type** step, select the type of document you want to bu
 
 ## Try the new model version (Preview)
 
-**Prerequisites**
-
-- Your environment must be located in one of the following regions: Canada, France, India, or the United States.
-
 By selecting the toggle **Try the new model version (Preview)**, you can try the latest preview model version for Fixed template documents and General documents.
 
 > [!IMPORTANT]
@@ -52,6 +48,10 @@ By selecting the toggle **Try the new model version (Preview)**, you can try the
 > - Preview releases aren't meant for production use and might have restricted functionality. These releases are subject to [supplemental terms of use](https://www.microsoft.com/en-us/business-applications/legal/supp-powerplatform-preview/), and are available before an official release so that customers can get early access and provide feedback.
 
 :::image type="content" source="media/create-form-processing-model/try_preview_toggle_yes.png" alt-text="Screenshot of the tile try preview toggle to yes.":::
+
+### Prerequisites
+
+Your environment must be located in one of the following regions: Canada, France, India, or the United States.
 
 ### Benefits of using the preview model
 
