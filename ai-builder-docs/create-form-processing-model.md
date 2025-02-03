@@ -8,7 +8,7 @@ contributors:
   - JoeFernandezMS
   - v-aangie
 ms.topic: conceptual
-ms.date: 03/02/2025
+ms.date: 02/04/2025
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---
@@ -49,7 +49,7 @@ By selecting the toggle **Try the new model version (Preview)**, you can try the
 
 :::image type="content" source="media/create-form-processing-model/try_preview_toggle_yes.png" alt-text="Screenshot of the tile try preview toggle to yes.":::
 
-### Prerequisites
+### Prerequisite
 
 Your environment must be located in one of the following regions: Canada, France, India, or the United States.
 
