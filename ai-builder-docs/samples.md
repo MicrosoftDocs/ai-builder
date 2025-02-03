@@ -21,12 +21,12 @@ Sample data is available for several AI Builder model types, together with instr
 - [Use sample data to do object detection](object-detection-sample-data.md)
 - [Use sample data to do document processing](form-processing-sample-data.md)
 
-# Build AI-Powered canvas apps with sample data and prompts
+## Build AI-powered canvas apps with sample data and prompts
 
-The solution includes sample data, canvas apps, prompts, and tables for several AI Builder apps. Each option comes with detailed instructions to guide you through using these components together. Select one of these options to get started:
+The solution includes sample data, canvas apps, prompts, and tables for several AI Builder apps. Each option comes with detailed instructions to guide you through using these components together. Select an option to get started:
 
-- [Create a canvas app to develop a receipt reader that utilizes prompts](link)
-- [Create a canvas app to develop a document identity reader that utilizes prompts](link)
+- [Create a canvas app to develop a receipt reader that utilizes prompts](https://go.microsoft.com/fwlink/?linkid=2301859&clcid=0x409)
+- [Create a canvas app to develop a document identity reader that utilizes prompts](https://go.microsoft.com/fwlink/?linkid=2301870)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
