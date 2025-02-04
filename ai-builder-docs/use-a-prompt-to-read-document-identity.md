@@ -16,7 +16,7 @@ ms.reviewer: angieandrews
 
 This sample allows you to explore a canvas app that extracts information from identity documents, such as a U.S. passport or a French identity card, using a prompt and a Dataverse table.
 
-:::image type="content" source="media/id_reader_app.png" alt-text="Screenshot of the id reader app.":::
+:::image type="content" source="media/id-reader-app.png" alt-text="Screenshot of the id reader app.":::
 
 
 **Prerequisite:** 
