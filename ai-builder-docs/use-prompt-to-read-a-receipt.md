@@ -38,6 +38,12 @@ On the left navigation pane, select **Apps**, select **My apps**, you should hav
 
 You can now run the app to try it out.
 
+### Try it out
+
+- Select a camera control within the canvas app.
+- Capture an image of a receipt using either the front or rear camera.
+- Extract the receipt data as a JSON object.
+- Save the output JSON data as a row in a Dataverse table.
 
 ### Helpful links
 
