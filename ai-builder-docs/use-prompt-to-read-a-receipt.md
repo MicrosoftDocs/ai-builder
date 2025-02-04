@@ -17,11 +17,13 @@ ms.reviewer: angieandrews
 This sample demonstrates how to use a canvas app to extract information from a receipt with the help of a prompt and a Dataverse table.
 
 
-# Prerequisite: 
+### Prerequisite: 
 
 - Active Power Apps plan
 - AI Builder credits
 - Dataverse environment
+
+### Import Solution
 
 Sign in to [Power Automate](https://make.powerautomate.com/). or [Power Apps](https://make.powerapps.com/).
 
@@ -30,15 +32,15 @@ On the left navigation pane, select **Solutions**, select **Import Solution**
 Select **Browse** for the solution file to import ["Receiptreader_1_0_0_1.zip"](https://go.microsoft.com/fwlink/?linkid=2301859) , select **Next**, select **Import**
 (it may takes a few minutes to import the solution)
 
+### Try it out
+
 On the left navigation pane, select **Tables**, you should have 2 tables called "Table receipt" and "World Currencies"
 
 On the left navigation pane, select **... More**, select **AI hub**, select **Prompts**, select **My Prompts**, you should have a prompt called 'Receipt reader'
 
 On the left navigation pane, select **Apps**, select **My apps**, you should have a canvas app called "Receipt Reader v1"
 
-You can now run the app to try it out.
-
-### Try it out
+**You can now run the app to try it out.**
 
 - Select a camera control within the canvas app.
 - Capture an image of a receipt using either the front or rear camera.
