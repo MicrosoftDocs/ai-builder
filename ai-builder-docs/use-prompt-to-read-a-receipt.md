@@ -18,6 +18,7 @@ This sample demonstrates how to use a canvas app to extract information from a r
 
 :::image type="content" source="media/receipt_reader_app.png" alt-text="Screenshot of the receipt reader app.":::
 
+
 ### Prerequisite: 
 
 - Active Power Apps plan

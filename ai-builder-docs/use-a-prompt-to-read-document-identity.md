@@ -18,6 +18,7 @@ This sample allows you to explore a canvas app that extracts information from id
 
 :::image type="content" source="media/id_reader_app.png" alt-text="Screenshot of the id reader app.":::
 
+
 ### Prerequisite: 
 
 - Active Power Apps plan
