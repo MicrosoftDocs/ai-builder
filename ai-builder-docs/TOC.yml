@@ -13,7 +13,7 @@
     - name: Sample data and prompts  
       items:
         - name: Sample data
-        - href: samples.md
+          href: samples.md
         - name: Use a prompt to read a receipt
           href: use-prompt-to-read-a-receipt.md
         - name: Use a prompt to a read a document identity
