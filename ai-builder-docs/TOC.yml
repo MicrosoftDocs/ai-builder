@@ -12,7 +12,7 @@
       href: learn-ai-builder.md
     - name: Sample data and prompts  
       items:
-        - name: Sample data
+        - name: Use sample data
           href: samples.md
         - name: Use a prompt to read a receipt
           href: use-prompt-to-read-a-receipt.md
