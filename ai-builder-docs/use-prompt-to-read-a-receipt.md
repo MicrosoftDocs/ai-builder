@@ -16,7 +16,7 @@ ms.reviewer: angieandrews
 
 This sample demonstrates how to use a canvas app to extract information from a receipt with the help of a prompt and a Dataverse table.
 
-:::image type="content" source="ai-builder-docs/receipt_reader_app.png" alt-text="Screenshot of the receipt reader app.":::
+:::image type="content" source="media/receipt_reader_app.png" alt-text="Screenshot of the receipt reader app.":::
 
 
 **Prerequisite:**
