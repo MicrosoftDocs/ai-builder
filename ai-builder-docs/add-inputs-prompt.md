@@ -11,7 +11,7 @@ ms.topic: conceptual
 ms.collection: 
 - get-started
 - bap-ai-copilot
-ms.date: 11/15/2024
+ms.date: 01/28/2025
 ms.custom: ignite-2024
 ms.author: antrod
 ms.reviewer: angieandrews
@@ -60,7 +60,7 @@ When you use image or document inputs, you can perform actions on file content t
 
 If you're satisfied with your prompt, you can provide a sample value for your file input by selecting the input icon on the top right of the prompt builder experience, and uploading a file in the **Sample data** field of your input.
 
-File types supported with image or document input are PNG, JPG, JPEG, BMP, TIFF, and PDF.
+File types supported with image or document input are PNG, JPG, JPEG, and PDF.
 
 ## Limitations
 

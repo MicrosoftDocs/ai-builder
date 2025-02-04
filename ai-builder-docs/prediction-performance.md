@@ -4,7 +4,7 @@ description: Provides information to help you better understand prediction model
 author: v-aangie
 ms.topic: conceptual
 ms.custom: 
-ms.date: 01/10/2024
+ms.date: 01/27/2025
 ms.author: norliu
 ms.reviewer: angieandrews
 ---
