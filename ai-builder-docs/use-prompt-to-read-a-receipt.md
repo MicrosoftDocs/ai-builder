@@ -45,11 +45,3 @@ You can now run the app to try it out.
 - https://aka.ms/PromptJsonOutput
 - https://aka.ms/MultiModalPrompts
 
-
-### Solution information
-
-- Receipt reader 1.0.0.1
-- Default Publisher
-- Unmanaged solution
-
-[Receipt reader](https://go.microsoft.com/fwlink/?linkid=2301859)
