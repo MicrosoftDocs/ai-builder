@@ -26,10 +26,10 @@ Sample data is available for several AI Builder model types, together with instr
 
 ## Build AI-powered canvas apps with sample data and prompts
 
-The solution includes sample data, canvas apps, prompts, and tables for several AI Builder apps. Each option comes with detailed instructions to guide you through using these components together. To get started, select one of the following options:
+The solution includes sample data, canvas apps, prompts, and tables for several AI Builder apps. Each option comes with detailed instructions to guide you through using these components together. To get started, select one of the following options.
 
-- [Create a canvas app to develop a receipt reader that utilizes prompts](https://go.microsoft.com/fwlink/?linkid=2301859)
-- [Create a canvas app to develop a document identity reader that utilizes prompts](https://go.microsoft.com/fwlink/?linkid=2301870)
+- **Create a canvas app to develop a receipt reader that utilizes prompts**: [Receipt reader](https://go.microsoft.com/fwlink/?linkid=2301859)
+- **Create a canvas app to develop a document identity reader that utilizes prompts**: [ID reader](https://go.microsoft.com/fwlink/?linkid=2301870)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
