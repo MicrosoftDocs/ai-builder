@@ -1,8 +1,9 @@
 ---
 title: Add text, image, or document input to a prompt
 description: Learn how to add text, image, or document input to a prompt.
-author: antrod
+author: chplanty
 contributors:
+  - chplanty
   - ashbhati
   - antoinecellerier
   - antrod
@@ -11,9 +12,9 @@ ms.topic: conceptual
 ms.collection: 
 - get-started
 - bap-ai-copilot
-ms.date: 01/28/2025
+ms.date: 02/04/2025
 ms.custom: ignite-2024
-ms.author: antrod
+ms.author: chplanty
 ms.reviewer: angieandrews
 ---
 
