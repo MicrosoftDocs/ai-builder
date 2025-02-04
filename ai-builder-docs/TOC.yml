@@ -10,8 +10,14 @@
     items:
     - name: Labs
       href: learn-ai-builder.md
-    - name: Sample data
-      href: samples.md  
+    - name: Sample data and prompts  
+      items:
+        - name: Sample data
+        - href: samples.md
+        - name: Use a prompt to read a receipt
+          href: use-prompt-to-read-a-receipt.md
+        - name: Use a prompt to a read a document identity
+          href: use-a-prompt-to-read-document-identity.md
   - name: Preview features
     href: previewability-scenarios.md
   - name: AI Builder community
