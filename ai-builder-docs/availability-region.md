@@ -3,6 +3,7 @@ title:  Feature availability by region or US Government environment
 description: Learn which AI Builder features are available in each region or US Government environment. Lists the release status for each feature by region or US Government environment.
 author: phil-cmd
 contributors:
+  - Antoine2F
   - phil-cmd
   - chplanty
   - xiao-wang-paris
@@ -11,8 +12,8 @@ contributors:
   - v-aangie
   - antode
 ms.topic: conceptual
-ms.date: 11/18/2024
-ms.author: plarrue
+ms.date: 02/04/2025
+ms.author: antode
 ms.reviewer: angieandrews
 ---
 
@@ -111,10 +112,8 @@ AI Builder is available in US Government environments with the features listed i
 
 | Feature          | Government Community Cloud (GCC) | Government Community Cloud – High (GCC High) | Department of Defense (DoD) |
 |:-----------------|:--------------------------------:|:--------------------------------------------:|:---------------------------:|
-| Custom prompts   |               GA\*               |                     GA\*                     |              -              |
-| Prebuilt prompts |               GA\*               |                     GA\*                     |              -              |
-
-\*These regions require [enabling data movement cross-regions](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions) for the prompt feature to be enabled.
+| Custom prompts   |               GA                 |                     GA                       |              -              |
+| Prebuilt prompts |               GA                 |                     GA                       |              -              |
 
 ### US Government feature limitations
 
