@@ -16,8 +16,6 @@ ms.reviewer: angieandrews
 
 This sample demonstrates how to use a canvas app to extract information from a receipt with the help of a prompt and a Dataverse table.
 
-:::image type="content" source="media/receipt-reader-app.png" alt-text="Screenshot of the receipt reader app.":::
-
 
 **Prerequisite:**
 
@@ -48,6 +46,8 @@ On the left navigation pane, select **Apps**, select **My apps**, you should hav
 - Capture an image of a receipt using either the front or rear camera.
 - Extract the receipt data as a JSON object with a prompt.
 - Save the output JSON data as a row in a Dataverse table.
+
+  :::image type="content" source="media/receipt-reader-app.png" alt-text="Screenshot of the receipt reader app.":::
 
 ### Helpful links
 
