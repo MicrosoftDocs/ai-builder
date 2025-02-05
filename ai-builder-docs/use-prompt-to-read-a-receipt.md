@@ -34,6 +34,8 @@ Before you start the import process, make sure you meet the prerequisites[Prereq
 
 ## Try it out
 
+Before you begin, make sure you have the following set up:
+
 1. On the left navigation pane, select **Tables**. You should have two (2) tables called **Table receipt** and **World Currencies**.
 1. On the left navigation pane, select **... More** > **AI hub** > **Prompts** > **My Prompts**. You should have a prompt called **Receipt reader**.
 1. On the left navigation pane, select **Apps** > **My apps**. You should have a canvas app called **Receipt Reader v1**.
