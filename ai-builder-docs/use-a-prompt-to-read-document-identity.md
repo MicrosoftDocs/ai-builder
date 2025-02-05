@@ -36,7 +36,6 @@ Before you start the import process, make sure you meet the prerequisites.
 
 ## Try it out
 
-Before you try out the solution, you need to select your canvas app.
 
 1. On the left navigation pane, select **Tables**. You should have a table called **Table document identity**.
 1. On the left navigation pane, select **... More** > **AI hub** > **Prompts** > **My Prompts**. You should have a prompt called **Document identity reader**.
