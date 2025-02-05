@@ -16,8 +16,6 @@ ms.reviewer: angieandrews
 
 This sample allows you to explore a canvas app that extracts information from identity documents, such as a U.S. passport or a French identity card, using a prompt and a Dataverse table.
 
-:::image type="content" source="media/use-a-prompt-to-read-document-identity/id-reader-app.png" alt-text="Screenshot of the id reader app.":::
-
 ## Prerequisites
 
 - Active Power Apps plan
@@ -47,6 +45,8 @@ Before you start the import process, make sure you meet the prerequisites.
 1. Capture an image of an identity document with the front or rear camera.
 1. Extract the document's information and output it as a JSON object with a prompt.
 1. Save the output JSON data as a row in a Dataverse table.
+
+:::image type="content" source="media/use-a-prompt-to-read-document-identity/id-reader-app.png" alt-text="Screenshot of the id reader app.":::
 
 ## Related information
 
