@@ -24,7 +24,7 @@ This sample allows you to explore a canvas app that extracts information from id
 
 ## Import the solution
 
-Before you start the import process, make sure you meet the prerequisites.
+Before you start the import process, make sure you meet the [prerequisites](#prerequisites).
 
 1. Sign in to [Power Automate](https://make.powerautomate.com/) or [Power Apps](https://make.powerapps.com/).
 1. On the left navigation pane, select **Solutions** > **Import Solution**.
@@ -33,7 +33,6 @@ Before you start the import process, make sure you meet the prerequisites.
     It might take a few minutes to import the solution.
 
 ## Try it out
-
 
 1. On the left navigation pane, select **Tables**. You should have a table called **Table document identity**.
 1. On the left navigation pane, select **... More** > **AI hub** > **Prompts** > **My Prompts**. You should have a prompt called **Document identity reader**.
@@ -46,7 +45,7 @@ Before you start the import process, make sure you meet the prerequisites.
 1. Extract the document's information and output it as a JSON object with a prompt.
 1. Save the output JSON data as a row in a Dataverse table.
 
-:::image type="content" source="media/use-a-prompt-to-read-document-identity/id-reader-app.png" alt-text="Screenshot of the id reader app.":::
+    :::image type="content" source="media/use-a-prompt-to-read-document-identity/id-reader-app.png" alt-text="Screenshot of the id reader app.":::
 
 ## Related information
 

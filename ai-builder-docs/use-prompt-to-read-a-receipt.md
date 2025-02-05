@@ -7,7 +7,7 @@ contributors:
   - v-aangie
 ms.topic: conceptual
 ms.custom:
-ms.date: 02/04/2025
+ms.date: 02/05/2025
 ms.author: angieandrews
 ms.reviewer: angieandrews
 ---
@@ -16,42 +16,40 @@ ms.reviewer: angieandrews
 
 This sample demonstrates how to use a canvas app to extract information from a receipt with the help of a prompt and a Dataverse table.
 
-
-**Prerequisite:**
+## Prerequisites
 
 - Active Power Apps plan
 - AI Builder credits
 - Dataverse environment
 
-### Import Solution
+## Import the solution
 
-Sign in to [Power Automate](https://make.powerautomate.com/). or [Power Apps](https://make.powerapps.com/).
+Before you start the import process, make sure you meet the prerequisites[Prerequisites](#prerequisites).
 
-On the left navigation pane, select **Solutions**, select **Import Solution**
+1. Sign in to [Power Automate](https://make.powerautomate.com/) or [Power Apps](https://make.powerapps.com/).
+1. On the left navigation pane, select **Solutions** > **Import Solution**.
+1. To import the solution file, select **Browse** > ["Receiptreader_1_0_0_1.zip"](https://go.microsoft.com/fwlink/?linkid=2301859) > **Next** > **Import**.
 
-Select **Browse** for the solution file to import ["Receiptreader_1_0_0_1.zip"](https://go.microsoft.com/fwlink/?linkid=2301859) , select **Next**, select **Import**
-(it may takes a few minutes to import the solution)
+    It might take a few minutes to import the solution.
 
-### Try it out
+## Try it out
 
-On the left navigation pane, select **Tables**, you should have 2 tables called "Table receipt" and "World Currencies"
+1. On the left navigation pane, select **Tables**. You should have two (2) tables called **Table receipt** and **World Currencies**.
+1. On the left navigation pane, select **... More** > **AI hub** > **Prompts** > **My Prompts**. You should have a prompt called **Receipt reader**.
+1. On the left navigation pane, select **Apps** > **My apps**. You should have a canvas app called **Receipt Reader v1**.
 
-On the left navigation pane, select **... More**, select **AI hub**, select **Prompts**, select **My Prompts**, you should have a prompt called 'Receipt reader'
+You can now run the app to try it out.
 
-On the left navigation pane, select **Apps**, select **My apps**, you should have a canvas app called "Receipt Reader v1"
+1. In the canvas app, select a camera control.
+1. Capture an image of a receipt with the front or rear camera.
+1. Extract the receipt data as a JSON object with a prompt.
+1. Save the output JSON data as a row in a Dataverse table.
 
-**You can now run the app to try it out.**
+    :::image type="content" source="media/use-prompt-to-read-a-receipt/receipt-reader-app.png" alt-text="Screenshot of the receipt reader app.":::
 
-- Select a camera control within the canvas app.
-- Capture an image of a receipt using either the front or rear camera.
-- Extract the receipt data as a JSON object with a prompt.
-- Save the output JSON data as a row in a Dataverse table.
+## Related information
 
-  :::image type="content" source="media/receipt-reader-app.png" alt-text="Screenshot of the receipt reader app.":::
-
-### Helpful links
-
-- https://aka.ms/AIBuilderDataGrounding
-- https://aka.ms/PromptJsonOutput
-- https://aka.ms/MultiModalPrompts
+- [Use your own data in a prompt](use-your-own-prompt-data.md)
+- [Change the output of your prompt](change-prompt-output.md)
+- [Add text, image, or document input to a prompt](add-inputs-prompt.md)
 
