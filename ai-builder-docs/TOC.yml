@@ -16,7 +16,7 @@
           href: samples.md
         - name: Use a prompt to read a receipt
           href: use-prompt-to-read-a-receipt.md
-        - name: Use a prompt to a read a document identity
+        - name: Use a prompt to read a document identity
           href: use-a-prompt-to-read-document-identity.md
   - name: Preview features
     href: previewability-scenarios.md
