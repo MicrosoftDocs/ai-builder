@@ -7,7 +7,7 @@ contributors:
   - v-aangie
 ms.topic: conceptual
 ms.custom:
-ms.date: 02/04/2025
+ms.date: 02/05/2025
 ms.author: angieandrews
 ms.reviewer: angieandrews
 ---
@@ -23,5 +23,13 @@ Sample data is available for several AI Builder model types, together with instr
 - [Use sample data to do entity extraction](entity-extraction-sample-data.md)
 - [Use sample data to do object detection](object-detection-sample-data.md)
 - [Use sample data to do document processing](form-processing-sample-data.md)
+
+## Build AI-powered canvas apps with sample data and prompts
+
+The solution includes sample data, canvas apps, prompts, and tables for several AI Builder apps. Each option comes with detailed instructions to guide you through using these components together. To get started, select one of the following options.
+
+- [Create a canvas app to develop a receipt reader that utilizes prompts](use-prompt-to-read-a-receipt.md)
+- [Create a canvas app to develop a document identity reader that utilizes prompts](use-a-prompt-to-read-document-identity.md)
+
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
