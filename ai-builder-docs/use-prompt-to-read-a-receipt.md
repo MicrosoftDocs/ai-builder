@@ -24,7 +24,7 @@ This sample demonstrates how to use a canvas app to extract information from a r
 
 ## Import the solution
 
-Before you start the import process, make sure you meet the prerequisites[Prerequisites](#prerequisites).
+Before you start the import process, make sure you meet the [prerequisites](#prerequisites).
 
 1. Sign in to [Power Automate](https://make.powerautomate.com/) or [Power Apps](https://make.powerapps.com/).
 1. On the left navigation pane, select **Solutions** > **Import Solution**.
