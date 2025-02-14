@@ -51,7 +51,7 @@ By selecting the toggle **Try the new model version (Preview)**, you can try the
 
 ### Prerequisite
 
-Your environment must be located in one of the following regions: Canada, France, India, or the United States.
+Your environment must be located in one of the following regions: Australia, Asia, Canada, France, Japan, India, United States, and South America.
 
 ### Benefits of using the preview model
 
