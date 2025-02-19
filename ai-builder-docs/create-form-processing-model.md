@@ -8,7 +8,7 @@ contributors:
   - JoeFernandezMS
   - v-aangie
 ms.topic: conceptual
-ms.date: 02/18/2025
+ms.date: 02/19/2025
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---
@@ -51,7 +51,7 @@ By selecting the toggle **Try the new model version (Preview)**, you can try the
 
 ### Prerequisite
 
-Your environment must be located in one of the following regions: Australia, Asia, Canada, Europe, France, Japan, India, Norway ,South Africa, South America, United Arab Emirates and United States. 
+Your environment must be located in one of the following regions: Australia, Asia, Canada, Europe, France, Japan, India, Norway, South Africa, South America, United Arab Emirates, and United States.
 
 ### Benefits of using the preview model
 
