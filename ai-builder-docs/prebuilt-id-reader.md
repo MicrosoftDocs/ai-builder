@@ -56,11 +56,11 @@ If a valid identity document is detected, the model tries to locate and extract 
 |Last name     |   N/A      |
 |Gender     |    N/A     |
 |Date of birth     |    N/A     |
-|Place of birth     |    US green card only    |
+|Place of birth     |    N/A    |
 |Region     | US driver license only        |
 |Country     |    N/A     |
 |Nationality     | Passport only        |
-|Street address     | US driver license only        |
+|Street address     | N/A        |
 |Identity document number     |    N/A     |
 |Date of issue    |    N/A     |
 |Identity document expiration date     |    N/A     |
