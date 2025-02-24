@@ -94,6 +94,7 @@ AI Builder mitigates most of the risks involved when using images or documents i
 - Images or documents can include special and possibly hidden instructions that might compromise or override the initial prompt.
 - Images or documents can contain instructions that could lead to the generation of content that is under intellectual property (IP).
 - Prompts can produce biased comments on images or documents.
+- Extracting information from low-quality images or document can lead to hallucination.
 
 ## What are custom prompts and AI functions?
 
