@@ -87,6 +87,14 @@ AI Builder isn't intended to be used for identifying individuals based on facial
 
 Learn more in [Face blurring](/legal/cognitive-services/openai/transparency-note?tabs=image#face-blurring).
 
+## Potential harms when using images or documents in prompts
+AI Builder mitigates most of the risks involved when using images or documents in prompts, but some risks still require extra care from the prompt creator:
+
+- Images or documents can contain harmful text or visuals that may impact your downstream processes.
+- Images or documents can include special and possibly hidden instructions that might compromise or override the initial prompt.
+- Images or documents can contain instructions that could lead to the generation of content that is under intellectual property (IP).
+- Prompts can produce biased comments on images or documents.
+
 ## What are custom prompts and AI functions?
 
 ### Custom prompts
