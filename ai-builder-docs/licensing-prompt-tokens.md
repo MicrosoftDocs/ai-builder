@@ -37,12 +37,12 @@ The combination of input tokens, output tokens and the model version allows to c
 
 When building solutions that include prompts, it can be important for you to assess the average cost of a prompt. Here are two possibilities to achieve that goal:
 
-**Check the credits display in the prompt builder**
+### Check the credits display in the prompt builder
 When testing a prompt in AI Hub within Power Automate or Power Apps portal, you'll be able to see the credits consumed by your prompt (testing is free, so it's a theoritical value).
 
 :::image type="content" source="media/credits-prompt-builder.png" alt-text="Credits display in Prompt builder":::
 
-**Get the token count from a Power Automate flow**
+### Get the token count from a Power Automate flow
 When calling a prompt action in a flow, you can see the associated input and tokens using formulas.
 
 Input tokens:
