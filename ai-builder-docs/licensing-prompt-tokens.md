@@ -58,7 +58,24 @@ outputs('Create_text_with_GPT_using_a_prompt')?['body/responsev2/predictionOutpu
 :::image type="content" source="media/tokens-prompt-flow.png" alt-text="Tokens formulas in Power Automate":::
 
 ## How image or documents are translated into tokens
-todo
+When you pass an image to a prompt, it gets converted into tokens.
+When you pass a PDF document into a prompt, it gets first conerted into images (1 image per page) and then into tokens.
+
+We are using the [**auto**](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/gpt-with-vision?tabs=rest#detail-parameter-settings-in-image-processing-low-high-auto) setting when passing images to Azure OpenAI. This means the token cost of an image depend on the initial resoution of the image.
+
+### Low resolution image
+Images with resolution lower than 512 x 512 pixels have the flat conversion rate of 85 tokens per image, regardless of size.
+
+### High resolution images
+For images with resolution higher than 512 x 512 pixel, the token conversion happens in two steps:
+
+**Image resize**
+The image is resized to fit within a 2048 x 2048 pixel square. If the shortest side is larger than 768 pixels, the image is further resized so that the shortest side is 768 pixels long. The aspect ratio is preserved during resizing.
+
+**Tokens conversion**
+Once resized, the image is divided into 512 x 512 pixel tiles. Any partial tiles are rounded up to a full tile. The number of tiles determines the total token cost: Each 512 x 512 pixel tile costs 170 tokens. An extra 85 base tokens are added to the total.
+
+[See more details and examples](https://learn.microsoft.com/en-us/azure/ai-services/openai/overview#image-tokens) on Azure OpenAI Image to tokens conversion.
 
 ## Related information
 
