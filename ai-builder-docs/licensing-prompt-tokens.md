@@ -61,9 +61,9 @@ outputs('Create_text_with_GPT_using_a_prompt')?['body/responsev2/predictionOutpu
 When you pass an image to a prompt, it gets converted into tokens.
 When you pass a PDF document into a prompt, it first gets converted into images (one image per page) and then into tokens.
 
-The tokens to image conversion fully applies the [Azure open AI logic](https://learn.microsoft.com/en-us/azure/ai-services/openai/overview#image-tokens). 
+The tokens to image conversion fully applies the [Azure open AI logic](https://learn.microsoft.com/azure/ai-services/openai/overview#image-tokens). 
 
-We are using the [**auto**](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/gpt-with-vision?tabs=rest#detail-parameter-settings-in-image-processing-low-high-auto) setting when passing images to Azure OpenAI. This means the token cost of an image depends on its initial resoution.
+We are using the [**auto**](https://learn.microsoft.com/azure/ai-services/openai/how-to/gpt-with-vision?tabs=rest#detail-parameter-settings-in-image-processing-low-high-auto) setting when passing images to Azure OpenAI. This means the token cost of an image depends on its initial resoution.
 
 ### Low resolution image
 Images with resolution lower than 512 x 512 pixels have the flat conversion rate of 85 tokens per image, regardless of size.
@@ -81,9 +81,9 @@ Once resized, the image is divided into 512 x 512 pixel tiles. Any partial tiles
 
 ## Related information
 
+- [Licensing and credit management](credit-management.md)
 - [Microsoft Power Platform Licensing Guide (pdf)](https://go.microsoft.com/fwlink/?LinkId=2085130)
-- [Licensing FAQ for AI Builder](/power-platform/admin/powerapps-flow-licensing-faq#ai-builder)
-- [Training: Get started with AI Builder licensing (module)](/training/modules/get-started-with-ai-builder-licensing/)
+- [Add text, image, or document input to a prompt](add-inputs-prompt.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
