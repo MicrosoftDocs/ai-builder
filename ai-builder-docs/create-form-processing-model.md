@@ -8,7 +8,7 @@ contributors:
   - JoeFernandezMS
   - v-aangie
 ms.topic: conceptual
-ms.date: 02/20/2025
+ms.date: 03/03/2025
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---
@@ -41,7 +41,7 @@ On the **Choose document type** step, select the type of document you want to bu
 
 ## Try the new model version (Preview)
 
-By selecting the toggle **Try the new model version (Preview)**, you can try the latest preview model version for Fixed template documents, General documents and Invoices.
+By selecting the toggle **Try the new model version (Preview)**, you can try the latest preview model version for **Fixed template documents**, **General documents**, and **Invoices**.
 
 > [!IMPORTANT]
 > - The new model version is a preview release.
