@@ -144,13 +144,8 @@ AI prompts can be utilized in Power Apps, Power Automate flows, and extended Cop
 
 In the context of Power Apps and Power Automate flows, AI prompts consume credits.
 
-The number of consumed credits depends on the length of the input and output, and the underlying generative AI model used.
+The number of consumed credits depends on the input tokens, output tokens, and the underlying generative AI model used. [Learn more about Prompt Tokens](licensing-prompt-tokens.md)
 
-The [Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130) (pdf file) provides detailed information about each Generative AI model. Changing the Generative AI model might increase the AI Builder credit consumption of your AI prompt.  
-
-In the context of Copilot, AI prompts don't consume AI Builder credits. However, triggering them does consume Copilot messages.
-
-Learn more in [Model selection and temperature settings](prompt-modelsettings.md).
 
 ## Overage
 
