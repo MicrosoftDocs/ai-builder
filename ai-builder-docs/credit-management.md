@@ -129,14 +129,12 @@ The following list presents AI Builder actions that consume credits. It isn't al
 
 Each AI Builder model has a different credit consumption mechanism. To perform an assessment, use the AI Builder rate card in [Microsoft Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130) (pdf).
 
-#### Free actions
+### Free actions
 
-Preview scenarios don't consume credits.
-
-Performing tests on custom models in AI Builder pages is now free.
-
+- Preview scenarios don't consume credits, except the preview feature to pass images or documents to a prompt.
 - Testing prompts in prompt builder doesn't consume credits.
 - A **Quick test** on a trained object detection and document processing model doesn't consume credits.
+
 
 ### AI prompt licensing
 
@@ -144,7 +142,7 @@ AI prompts can be utilized in Power Apps, Power Automate flows, and extended Cop
 
 In the context of Power Apps and Power Automate flows, AI prompts consume credits.
 
-The number of consumed credits depends on the input tokens, output tokens, and the underlying generative AI model used. [Learn more about Prompt Tokens](licensing-prompt-tokens.md)
+The number of consumed credits depends on the input tokens, output tokens, and the underlying generative AI model used. [Learn more about Prompt tokens](licensing-prompt-tokens.md)
 
 
 ## Overage
@@ -195,9 +193,6 @@ Depending on the level of overage, these 200,000 credits might not be enough. Th
 
 The purpose of these free credit extensions is to allow makers and admin to unblock themselves temporarily in case another purchase and/or reallocation can't be done in a timely manner. Customer shouldn't rely on credit extensions to cover repetitive overage. Repetitive overage must be managed with another purchase and/or reallocation.
 
-## Preview features
-
-AI Builder features that are in preview release status are free to use. You don't need to obtain a license to use AI Builder preview features.
 
 ## AI Builder licensing FAQ
 
