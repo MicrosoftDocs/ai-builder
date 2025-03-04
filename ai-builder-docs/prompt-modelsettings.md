@@ -26,12 +26,9 @@ This article explores the impact of these parameters.
 
 The dropdown menu allows you to select among the generative AI models, which generate the answer to your custom prompt.
 
-The default model as of November 2024, is GPT 4o Mini (general availability, or GA). It's possible to also use the more powerful GPT 4o model (GA) and o1 model (Preview). The exact minor versions of these models are subject to change.
+The default model as of November 2024, is GPT 4o Mini (general availability, or GA). It's possible to also use the more powerful GPT 4o model (GA) and o1 model (Paid Preview). The exact minor versions of these models are subject to change.
 
 When you use prompt actions in Power Apps or Power Automate, they consume AI Builder credits.
-
-> [!NOTE]
-> Older prompts created in prompt builder that rely on this default model GPT 3.5 model were or will be auto-upgraded to GPT 4o Mini model. Government cloud continues to use GPT 3.5 model until the end of November 2024.
 
 ### Choose a model
 
@@ -41,7 +38,7 @@ Choose between the models based on status and licensing rules.
 |---------|---------|---------|---------|---------|
 |GPT 4o Mini | GA - Default model	| Consumes credits in Power Apps and Power Automate. More information: [Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130)  | Trained on data up to December 2023. Context allowed up to 128k tokens. | [Feature availability by regions for prompts](availability-region.md)
 | GPT 4 | GA | Consumes credits in Power Apps and Power Automate. More information: [Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130)  | GPT 4o has knowledge up to October 2023 and has a context length of 128k tokens. | [Feature availability by regions for prompts](availability-region.md)|
-| o1 | Preview | Consumes credits in Power Apps and Power Automate. More information: [Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130)  | o1 has knowledge up to October 2023 and has a context length of 128k tokens. | [Feature availability by regions for prompts](availability-region.md)|
+| o1 | Paid Preview | Consumes credits in Power Apps and Power Automate. More information: [Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130)  | o1 has knowledge up to October 2023 and has a context length of 128k tokens. | [Feature availability by regions for prompts](availability-region.md)|
 
 Choose between the model based on capabilities and scenarios.
 
@@ -49,7 +46,7 @@ Choose between the model based on capabilities and scenarios.
 
 | Factors                     | GPT-4o Mini                          | GPT-4o                               | o1
 |---------------------------|--------------------------------------|--------------------------------------|--------------------------------------|
-| **Cost**                  | Lower, more cost-effective           | Higher, premium pricing              | Higher, premium pricing              |
+| **Cost**                  | Lower, more cost-effective           | Higher, premium pricing              | Higher, premium pricing (paid preview) |
 | **Performance**           | Good for most tasks                  | Superior for complex tasks           | Trained for reasoning tasks          |
 | **Speed**                 | Faster processing                    | Might be slower due to complexity    | Slower as it reasons before responding |
 | **Use Cases**             | Summarization, information tasks | Image and document processing, as well complex content creation tasks |  Complex data analysis and reasoning tasks |
