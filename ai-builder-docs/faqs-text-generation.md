@@ -99,7 +99,7 @@ AI Builder mitigates most of the risks involved when using images or documents i
 
 ## How is the o1 model different from GPT models?
 
-The o1 model stands out from GPT models primarily due to its advanced reasoning capabilities. It achieves this by generating detailed internal chains of thought before responding, leading to improved performance in mathematics, coding, and analytical tasks. However, this approach results in increased computational requirements and slower response times compared to GPT models. GPT-4o, for instance, excels in general language tasks and offers faster, cost-effective responses, making it suitable for applications where quick outputs are essential. Please note that o1 reasoning model in Prompts, which is currently in paid preview.
+The o1 model stands out from GPT models primarily due to its advanced reasoning capabilities. It achieves this by generating detailed internal chains of thought before responding, leading to improved performance in mathematics, coding, and analytical tasks. However, this approach results in increased computational requirements and slower response times compared to GPT models. GPT-4o, for instance, excels in general language tasks and offers faster, cost-effective responses, making it suitable for applications where quick outputs are essential. Please note that o1 reasoning model in Prompts is currently in paid preview.
 
 ## What are custom prompts and AI functions?
 
