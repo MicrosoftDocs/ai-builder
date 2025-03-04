@@ -10,7 +10,7 @@ contributors:
 ms.topic: conceptual
 ms.collection: 
     - bap-ai-copilot
-ms.date: 10/28/2024
+ms.date: 03/04/2025
 ms.author: antode
 ms.reviewer: angieandrews
 ---
@@ -35,7 +35,7 @@ In Power Automate, adding an AI Builder action to a flow doesn't transform it in
 
 First, you need to be entitled to some AI Builder capacity. Entitlement can happen through one of the following paid capacities.
 
-- Some Microsoft products like Power Apps per app plan, Power Apps per user plan, and Power Automate Premium (previously Power Automate per user with attended RPA) plan include  AI Builder capacity. Your environment admin can check entitlement in Power Platform admin center by following the instructions in [Capacity add-ons](/power-platform/admin/capacity-add-on). When this number isn't enough, you need to complete it with one or more AI Builder capacity add-ons.
+- Some Microsoft products like Power Apps per app plan, Power Apps per user plan, and Power Automate Premium (previously Power Automate per user with attended RPA) plan include AI Builder capacity. Your environment admin can check entitlement in Power Platform admin center by following the instructions in [Capacity add-ons](/power-platform/admin/capacity-add-on). When this number isn't enough, you need to complete it with one or more AI Builder capacity add-ons.
 
 - Main source of credits is AI Builder credit add-on that you can purchase in the Microsoft 365 admin center:
 
@@ -135,15 +135,13 @@ Each AI Builder model has a different credit consumption mechanism. To perform a
 - Testing prompts in prompt builder doesn't consume credits.
 - A **Quick test** on a trained object detection and document processing model doesn't consume credits.
 
-
 ### AI prompt licensing
 
 AI prompts can be utilized in Power Apps, Power Automate flows, and extended Copilots by using Microsoft Copilot Studio.
 
 In the context of Power Apps and Power Automate flows, AI prompts consume credits.
 
-The number of consumed credits depends on the input tokens, output tokens, and the underlying generative AI model used. [Learn more about Prompt tokens](licensing-prompt-tokens.md)
-
+The number of consumed credits depends on the input tokens, output tokens, and the underlying generative AI model used. Learn more in [Prompt tokens](licensing-prompt-tokens.md).
 
 ## Overage
 
@@ -311,13 +309,13 @@ For an environment without allocated credits, we apply the ‘large margin’ wh
 
 No. Limitations only apply to the environments in overage. Other environments, whether consuming environment assignment or organization (tenant) level credits aren't affected.
 
-For example, if an environment has no allocated credit, and organization (tenant) level credits aren't all consumed, then editing and running of AI Builder functions is allowed for this environment. This remains true when other environments with assigned credits are in overage.
+For example, if an environment has no allocated credit, and organization (tenant) level credits aren't all consumed, then editing and running of AI Builder functions are allowed for this environment. This remains true when other environments with assigned credits are in overage.
 
 Consumption of unassigned credits never affectS the consumption of an environment with assigned credits, even if it's in overage. Consumption of credits in an environment with assigned credits never affectS the consumption of credits in other environments, even if it's in overage.
   
 Global consumption graph is for information purpose, and indicates at least one environment is in overage, but doesn't mean that all environments are in overage. All environments with a consumption lower than their assignment, continue to work as expected.
 
-### Will overage be charged? Will overage affect next month consumption?
+### Are overages charged? Do overages affect next month consumption?
 
 No, overage is considered as a grace period to help you adapt to new consumption pattern and is never charged. Overage doesn't affect the next month's consumption.
 
