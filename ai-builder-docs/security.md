@@ -6,7 +6,7 @@ contributors:
   - jekom1
   - v-aangie
 ms.topic: conceptual
-ms.date: 12/06/2024
+ms.date: 03/06/2025
 ms.author: jelenak
 ms.reviewer: angieandrews
 ms.collection: bap-ai-copilot
@@ -83,6 +83,7 @@ The following table shows the AI Builder system tables, which are installed by d
 |AI Builder Dataset File (FP, OD)     |Model’s training configuration         | ![Users have access to the rows they've created](media/circle-no-fill.png "Users have access to the rows they've created")        | ![Users have access to the rows they've created](media/circle-no-fill.png "Users have access to the rows they've created")<br/>(when shared)         |
 |AI Builder Dataset Record (EE)     |Model’s training data         | ![Users have access to the rows they've created](media/circle-no-fill.png "Users have access to the rows they've created")        | ![Users have access to the rows they've created](media/circle-no-fill.png "Users have access to the rows they've created")<br/>(when shared)         |
 |AI Builder Dataset Container (FP, OD, EE)    |Model’s training configuration         | ![Users have access to the rows they've created](media/circle-no-fill.png "Users have access to the rows they've created")        | ![Users have access to the rows they've created](media/circle-no-fill.png "Users have access to the rows they've created")<br/>(when shared)         |
+|AI Builder Feedback Loop   | Model's feedback loop storage       | ![Users have access to the rows they've created](media/circle-no-fill.png "Users have access to the rows they've created")        | ![Users have access to the rows they've created](media/circle-no-fill.png "Users have access to the rows they've created")|
 |AI Builder File (FP, OD)    | Model’s training files        | ![Users have access to the rows they've created](media/circle-no-fill.png "Users have access to the rows they've created")        | ![Users have access to the rows they've created](media/circle-no-fill.png "Users have access to the rows they've created")<br/>(when shared)         |
 |AI Builder File Attached Data (FP, OD)   |Model’s training configuration         | ![Users have access to the rows they've created](media/circle-no-fill.png "Users have access to the rows they've created")        | ![Users have access to the rows they've created](media/circle-no-fill.png "Users have access to the rows they've created")<br/>(when shared)         |
 |AI Configuration    | Model's versions        | ![Users have access to the rows they've created](media/circle-no-fill.png "Users have access to the rows they've created")        | ![Users have access to the rows they've created](media/circle-no-fill.png "Users have access to the rows they've created")<br/>(when shared)        |
