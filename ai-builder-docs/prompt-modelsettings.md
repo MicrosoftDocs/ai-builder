@@ -8,7 +8,7 @@ contributors:
   - Antoine2F
   - v-aangie
 ms.topic: conceptual
-ms.date: 11/01/2024
+ms.date: 03/07/2025
 ms.author: ashbhati
 ms.reviewer: angieandrews
 ---
@@ -26,7 +26,7 @@ This article explores the impact of these parameters.
 
 The dropdown menu allows you to select among the generative AI models, which generate the answer to your custom prompt.
 
-The default model as of November 2024, is GPT 4o Mini (general availability, or GA). It's possible to also use the more powerful GPT 4o model (GA) and o1 model (Paid Preview). The exact minor versions of these models are subject to change.
+The default model as of November 2024 is GPT-4o Mini (general availability, or GA). You can also use the more powerful GPT-4o model (GA), and o1 model (paid preview). The exact minor versions of these models might change.
 
 When you use prompt actions in Power Apps or Power Automate, they consume AI Builder credits.
 
@@ -42,7 +42,7 @@ Choose between the models based on status and licensing rules.
 
 Choose between the model based on capabilities and scenarios.
 
-### Comparison of GPT-4o Mini, GPT-4o and o1
+### Comparison of GPT-4o Mini, GPT-4o, and o1
 
 | Factors                     | GPT-4o Mini                          | GPT-4o                               | o1
 |---------------------------|--------------------------------------|--------------------------------------|--------------------------------------|
@@ -57,11 +57,11 @@ When you need a cost-effective solution for moderately complex tasks, have limit
 
 When you're dealing with highly complex, multimodal tasks that require superior performance and detailed analysis, choose GPT-4o. It's the better choice for large-scale projects where accuracy and advanced capabilities are crucial. Another scenario where it's a better choice is when you have the budget and computational resources to support it. GPT-4o is also preferable for long-term projects that might grow in complexity over time.
 
-For projects requiring advanced reasoning capabilities, the o1 model shines. It is particularly suitable for scenarios that demand sophisticated problem-solving and critical thinking. The o1 model excels in environments where nuanced reasoning, complex decision-making, and detailed analysis are important. 
+For projects requiring advanced reasoning capabilities, the o1 model excels. It's suitable for scenarios that demand sophisticated problem-solving and critical thinking. The o1 model excels in environments where nuanced reasoning, complex decision-making, and detailed analysis are important. 
 
 ### Use of AI prompts in context of Microsoft Copilot Studio
 
-AI prompts don't consume AI Builder credits when in the context of Copilot Studio, but consume messages.
+AI prompts don't consume AI Builder credits in the Copilot Studio but consume messages.
 
 Learn more about message consumption in the [Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130).
 
@@ -78,5 +78,7 @@ By default, the temperature is 0, as in previously created prompts.
 |0| More predictable and conservative outputs.<br>Responses are more consistent.| Prompts that require high accuracy and less variability.|
 |1| More creativity and diversity in the responses. <br> More varied and sometimes more innovative responses.| Prompts that create new out-of-the-box content |
 
-While adjusting the temperature can influence the model’s output, it doesn’t guarantee a specific result. The AI’s responses are inherently probabilistic and can vary even with the same temperature setting. Please note that temperature setting is not available for the o1 model, and hence you'll find the slider disabled when the o1 model is selected.
+Adjusting the temperature can influence the model’s output, but it doesn’t guarantee a specific result. The AI’s responses are inherently probabilistic and can vary even with the same temperature setting. 
 
+> [!NOTE]
+> The temperature setting isn't available for the o1 model, so the slider is disabled when the o1 model is selected.

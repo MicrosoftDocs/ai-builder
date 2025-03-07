@@ -1,7 +1,7 @@
 ---
 title: FAQ for prompts and text generation capabilities
 description: Learn about the AI technology used in prompts, key considerations, and details about how the AI is used, how it was tested and evaluated, and limitations.
-ms.date: 02/26/2025
+ms.date: 03/07/2025
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: conceptual
@@ -99,7 +99,10 @@ AI Builder mitigates most of the risks involved when using images or documents i
 
 ## How is the o1 model different from GPT models?
 
-The o1 model stands out from GPT models primarily due to its advanced reasoning capabilities. It achieves this by generating detailed internal chains of thought before responding, leading to improved performance in mathematics, coding, and analytical tasks. However, this approach results in increased computational requirements and slower response times compared to GPT models. GPT-4o, for instance, excels in general language tasks and offers faster, cost-effective responses, making it suitable for applications where quick outputs are essential. Please note that o1 reasoning model in Prompts is currently in paid preview.
+The o1 model stands out from GPT models primarily due to its advanced reasoning capabilities. It  generates detailed internal chains of thought before responding, leading to improved performance in mathematics, coding, and analytical tasks. However, this approach results in increased computational requirements and slower response times compared to GPT models. GPT-4o, for instance, excels in general language tasks and offers faster, cost-effective responses, making it suitable for applications where quick outputs are essential.
+
+> [!NOTE]
+> The o1 reasoning model in prompts is currently in a paid preview.
 
 ## What are custom prompts and AI functions?
 

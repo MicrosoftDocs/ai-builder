@@ -10,7 +10,7 @@ contributors:
 ms.topic: conceptual
 ms.collection: 
     - bap-ai-copilot
-ms.date: 10/28/2024
+ms.date: 03/07/2025
 ms.author: antode
 ms.reviewer: angieandrews
 ---
@@ -131,7 +131,7 @@ Each AI Builder model has a different credit consumption mechanism. To perform a
 
 #### Free actions
 
-Preview scenarios do not consume credits, except when using the o1 reasoning model in Prompts, which is currently in paid preview.
+Preview scenarios don't consume credits, except when using the o1 reasoning model in prompts, which is currently in a paid preview.
 
 Performing tests on custom models in AI Builder pages is free.
 
@@ -202,7 +202,7 @@ The purpose of these free credit extensions is to allow makers and admin to unbl
 
 ## Preview features
 
-AI Builder features that are in preview release status are free to use. You don't need to obtain a license to use AI Builder preview features. However, the o1 reasoning model in Prompts is currently in paid preview.
+AI Builder features in preview release status are free to use. You don't need a license to use AI Builder preview features. However, the o1 reasoning model in prompts is currently in a paid preview.
 
 ## AI Builder licensing FAQ
 
@@ -341,7 +341,7 @@ By default, prompts are created with GPT 3.5 and temperature = 0. Prompts create
 
 ### What happens to my prompt using o1 reasoning model (preview), if the AI Builder preview toggle is switched to off in Power Platform admin center?
 
-Your prompt fails in any context (testing prompt in Prompt Builder, Power Apps, Power Automate, or Copilot Studio). You can edit your prompt and switch the model to GPT-4o-mini or GPT-4o models.
+Your prompt fails in any context (testing prompt in Prompt Builder, Power Apps, Power Automate, or Copilot Studio). You can edit your prompt and switch the model to GPT-4o mini or GPT-4o.
 
 ### What licensing applies to AI Builder's AI functions?
 
@@ -350,7 +350,7 @@ The licensing options applicable to these capabilities are in the AI Builder rat
 
 ### Are all tests free?
 
-No. Testing prompts and testing trained models are free. Testing prebuilt models still consumes credits at the same rate as running them in production. However, the o1 reasoning model in Prompts is currently in paid preview.
+No. Testing prompts and testing trained models are free. Testing prebuilt models consumes credits at the same rate as running them in production. However, the o1 reasoning model in prompts is currently in a paid preview.
 
 ### I built an app that includes a flow. I want to add an AI Builder action in this flow. Does it turn my app into a premium app?
 
