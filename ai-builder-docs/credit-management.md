@@ -11,7 +11,7 @@ ms.topic: conceptual
 ms.collection: 
     - bap-ai-copilot
 ms.date: 03/07/2025
-ms.author: antode
+ms.author: ashbhati
 ms.reviewer: angieandrews
 ---
 
