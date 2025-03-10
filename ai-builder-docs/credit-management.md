@@ -10,8 +10,8 @@ contributors:
 ms.topic: conceptual
 ms.collection: 
     - bap-ai-copilot
-ms.date: 03/04/2025
-ms.author: antode
+ms.date: 03/10/2025
+ms.author: ashbhati
 ms.reviewer: angieandrews
 ---
 
@@ -129,7 +129,9 @@ The following list presents AI Builder actions that consume credits. It isn't al
 
 Each AI Builder model has a different credit consumption mechanism. To perform an assessment, use the AI Builder rate card in [Microsoft Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130) (pdf).
 
-### Free actions
+#### Free actions
+
+Preview scenarios don't consume credits, except when using the o1 reasoning model in prompts, which is currently in a paid preview.
 
 - Preview scenarios don't consume credits, except the preview feature to pass images or documents to a prompt.
 - Testing prompts in prompt builder doesn't consume credits.
@@ -191,6 +193,9 @@ Depending on the level of overage, these 200,000 credits might not be enough. Th
 
 The purpose of these free credit extensions is to allow makers and admin to unblock themselves temporarily in case another purchase and/or reallocation can't be done in a timely manner. Customer shouldn't rely on credit extensions to cover repetitive overage. Repetitive overage must be managed with another purchase and/or reallocation.
 
+## Preview features
+
+AI Builder features in preview release status are free to use. You don't need a license to use AI Builder preview features. However, the o1 reasoning model in prompts is currently in a paid preview.
 
 ## AI Builder licensing FAQ
 
@@ -327,9 +332,9 @@ You shouldn't be concerned about an environment whose monthly consumption is bel
 
 By default, prompts are created with GPT 3.5 and temperature = 0. Prompts created before the release of the model/temperature selection feature were set with these default values.
 
-### What happens to my prompt using GPT 4 (preview), if the AI Builder preview toggle is switched to off in Power Platform admin center?
+### What happens to my prompt using o1 reasoning model (preview), if the AI Builder preview toggle is switched to off in Power Platform admin center?
 
-Your prompt fails in any context (testing prompt in Prompt Builder, Power Apps, Power Automate, or Copilot Studio). You can edit your prompt and switch the model to GPT 3.5.
+Your prompt fails in any context (testing prompt in Prompt Builder, Power Apps, Power Automate, or Copilot Studio). You can edit your prompt and switch the model to GPT-4o mini or GPT-4o.
 
 ### What licensing applies to AI Builder's AI functions?
 
@@ -338,7 +343,7 @@ The licensing options applicable to these capabilities are in the AI Builder rat
 
 ### Are all tests free?
 
-No. Testing prompts and testing trained models are now free. Testing prebuilt models still consumes credits at the same rate as running them in production. As preview models are free, testing them is also free.
+No. Testing prompts and testing trained models are free. Testing prebuilt models consumes credits at the same rate as running them in production. However, the o1 reasoning model in prompts is currently in a paid preview.
 
 ### I built an app that includes a flow. I want to add an AI Builder action in this flow. Does it turn my app into a premium app?
 
