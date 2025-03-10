@@ -8,7 +8,7 @@ contributors:
   - Antoine2F
   - v-aangie
 ms.topic: conceptual
-ms.date: 11/01/2024
+ms.date: 03/10/2025
 ms.author: ashbhati
 ms.reviewer: angieandrews
 ---
@@ -26,12 +26,9 @@ This article explores the impact of these parameters.
 
 The dropdown menu allows you to select among the generative AI models, which generate the answer to your custom prompt.
 
-The default model as of November 2024, is GPT 4o Mini (general availability, or GA). It's possible to also use the more powerful GPT 4o model (GA). These exact minor versions of these models are subject to change.
+The default model as of November 2024 is GPT-4o Mini (general availability, or GA). You can also use the more powerful GPT-4o model (GA), and o1 model (paid preview). The exact minor versions of these models might change.
 
 When you use prompt actions in Power Apps or Power Automate, they consume AI Builder credits.
-
-> [!NOTE]
-> Older prompts created in prompt builder that rely on this default model GPT 3.5 model were or will be auto-upgraded to GPT 4o Mini model. Government cloud continues to use GPT 3.5 model until the end of November 2024.
 
 ### Choose a model
 
@@ -41,17 +38,18 @@ Choose between the models based on status and licensing rules.
 |---------|---------|---------|---------|---------|
 |GPT 4o Mini | GA - Default model	| Consumes credits in Power Apps and Power Automate. More information: [Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130)  | Trained on data up to December 2023. Context allowed up to 128k tokens. | [Feature availability by regions for prompts](availability-region.md)
 | GPT 4 | GA | Consumes credits in Power Apps and Power Automate. More information: [Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130)  | GPT 4o has knowledge up to October 2023 and has a context length of 128k tokens. | [Feature availability by regions for prompts](availability-region.md)|
+| o1 | Paid Preview | Consumes credits in Power Apps and Power Automate. More information: [Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130)  | o1 has knowledge up to October 2023 and has a context length of 128k tokens. | [Feature availability by regions for prompts](availability-region.md)|
 
 Choose between the model based on capabilities and scenarios.
 
-### Comparison of GPT-4o Mini and GPT-4o
+### Comparison of GPT-4o Mini, GPT-4o, and o1
 
-| Factors                     | GPT-4o Mini                          | GPT-4o                               |
-|---------------------------|--------------------------------------|--------------------------------------|
-| **Cost**                  | Lower, more cost-effective           | Higher, premium pricing              |
-| **Performance**           | Good for most tasks                  | Superior for complex tasks           |
-| **Speed**                 | Faster processing                     | Might be slower due to complexity      |
-| **Use Cases**             | Summarization, information tasks | Complex data analysis, reasoning, and content creation tasks |
+| Factors                     | GPT-4o Mini                          | GPT-4o                               | o1
+|---------------------------|--------------------------------------|--------------------------------------|--------------------------------------|
+| **Cost**                  | Lower, more cost-effective           | Higher, premium pricing              | Higher, premium pricing (paid preview) |
+| **Performance**           | Good for most tasks                  | Superior for complex tasks           | Trained for reasoning tasks          |
+| **Speed**                 | Faster processing                    | Might be slower due to complexity    | Slower as it reasons before responding |
+| **Use Cases**             | Summarization, information tasks | Image and document processing, as well complex content creation tasks |  Complex data analysis and reasoning tasks |
 
 ## Decision Narrative
 
@@ -59,9 +57,11 @@ When you need a cost-effective solution for moderately complex tasks, have limit
 
 When you're dealing with highly complex, multimodal tasks that require superior performance and detailed analysis, choose GPT-4o. It's the better choice for large-scale projects where accuracy and advanced capabilities are crucial. Another scenario where it's a better choice is when you have the budget and computational resources to support it. GPT-4o is also preferable for long-term projects that might grow in complexity over time.
 
+For projects requiring advanced reasoning capabilities, the o1 model excels. It's suitable for scenarios that demand sophisticated problem-solving and critical thinking. The o1 model excels in environments where nuanced reasoning, complex decision-making, and detailed analysis are important. 
+
 ### Use of AI prompts in context of Microsoft Copilot Studio
 
-AI prompts don't consume AI Builder credits when in the context of Copilot Studio, but consume messages when they're built on a GA GPT model.
+AI prompts don't consume AI Builder credits in the Copilot Studio but consume messages.
 
 Learn more about message consumption in the [Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130).
 
@@ -78,5 +78,7 @@ By default, the temperature is 0, as in previously created prompts.
 |0| More predictable and conservative outputs.<br>Responses are more consistent.| Prompts that require high accuracy and less variability.|
 |1| More creativity and diversity in the responses. <br> More varied and sometimes more innovative responses.| Prompts that create new out-of-the-box content |
 
-While adjusting the temperature can influence the model’s output, it doesn’t guarantee a specific result. The AI’s responses are inherently probabilistic and can vary even with the same temperature setting.
+Adjusting the temperature can influence the model’s output, but it doesn’t guarantee a specific result. The AI’s responses are inherently probabilistic and can vary even with the same temperature setting. 
 
+> [!NOTE]
+> The temperature setting isn't available for the o1 model, so the slider is disabled when the o1 model is selected.
