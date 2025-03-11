@@ -38,18 +38,18 @@ Choose between the models based on status and licensing rules.
 |---------|---------|---------|---------|---------|
 |GPT 4o Mini | GA - Default model	| Consumes credits in Power Apps and Power Automate. More information: [Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130)  | Trained on data up to December 2023. Context allowed up to 128k tokens. | [Feature availability by regions for prompts](availability-region.md)
 | GPT 4 | GA | Consumes credits in Power Apps and Power Automate. More information: [Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130)  | GPT 4o has knowledge up to October 2023 and has a context length of 128k tokens. | [Feature availability by regions for prompts](availability-region.md)|
-| o1 | Paid preview | Consumes credits in Power Apps and Power Automate. More information: [Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130). o1 model consumes 140 credits for 1k input tokens and 560 credits for 1k output tokens. <br>Consumes message in Copilot Studio starting April 7. More information: [Message in Copilot Studio](https://go.microsoft.com/fwlink/?linkid=2307400)  | o1 has knowledge up to October 2023 and has a context length of 128k tokens. | [Feature availability by regions for prompts](availability-region.md)|
+| o1 | Paid Preview | Consumes credits in Power Apps and Power Automate. More information: [Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130). o1 model consumes 140 credits for 1K input tokens and 560 credits for 1K output tokens. <br>Consumes message in Copilot Studio starting April 7. More information: [Message in Copilot Studio](https://go.microsoft.com/fwlink/?linkid=2307400)  | o1 has knowledge up to October 2023 and has a context length of 128k tokens. | [Feature availability by regions for prompts](availability-region.md)|
 
 Choose between the model based on capabilities and scenarios.
 
 ### Comparison of GPT-4o Mini, GPT-4o, and o1
 
-| Factors                     | GPT-4o Mini                   | o1                |
-|---------------------------|----------------------|---------------------------------|
+| Factors                     | GPT-4o Mini        | GPT-4o             | o1         |
+|---------------------------|----------------------|--------------------|------------|
 | Cost                  | Lower, more cost-effective           | Higher, premium pricing              | Higher, premium pricing (paid preview) |
 | Performance           | Good for most tasks                  | Superior for complex tasks           | Trained for reasoning tasks          |
 | Speed                 | Faster processing                    | Might be slower due to complexity    | Slower as it reasons before responding |
-| Use Cases             | Summarization, information tasks | Image and document processing, as well complex content creation tasks |  Complex data analysis and reasoning tasks |
+| Use cases             | Summarization, information tasks | Image and document processing, as well complex content creation tasks |  Complex data analysis and reasoning tasks |
 
 ## Decision narrative
 
