@@ -46,10 +46,10 @@ Choose between the model based on capabilities and scenarios.
 
 | Factors                     | GPT-4o Mini        | GPT-4o             | o1         |
 |---------------------------|----------------------|--------------------|------------|
-| Cost                  | Lower, more cost-effective           | Higher, premium pricing              | Higher, premium pricing (paid preview) |
-| Performance           | Good for most tasks                  | Superior for complex tasks           | Trained for reasoning tasks          |
-| Speed                 | Faster processing                    | Might be slower due to complexity    | Slower as it reasons before responding |
-| Use cases             | Summarization, information tasks | Image and document processing, as well complex content creation tasks |  Complex data analysis and reasoning tasks |
+| **Cost**                  | Lower, more cost-effective           | Higher, premium pricing              | Higher, premium pricing (paid preview) |
+| **Performance**           | Good for most tasks                  | Superior for complex tasks           | Trained for reasoning tasks          |
+| **Speed**                 | Faster processing                    | Might be slower due to complexity    | Slower as it reasons before responding |
+| **Use cases**             | Summarization, information tasks | Image and document processing, as well complex content creation tasks |  Complex data analysis and reasoning tasks |
 
 ## Decision narrative
 
