@@ -45,6 +45,22 @@ Yes. Document processing can extract printed and handwritten text from your docu
 
 For high-quality documents that use the same layout, five sample documents should be sufficient. For low-quality documents (for example, scans of poor quality, more sample documents might be necessary. To improve results, use 15 to 20 sample documents.
 
+Best Practices:
+
+**For Template Documents:**
+
+- 1 layout per collection.
+- A minimum of 5 and a maximum of 20 documents per collection (do not exceed this limit).
+- The layout must be identical within the same collection.
+
+**For General Documents:**
+
+- Include both structured and unstructured documents.
+- One layout per collection (if multiple collections).
+- A minimum of 5 and a maximum of 20 documents per collection (do not exceed this limit).
+- Use different layouts across different collections.
+
+
 ### Can a single form-processing model extract information from documents that have different layouts or templates?
 
 Yes. By using the collections feature, you train a single form-processing model to handle documents that have different layouts.
