@@ -50,8 +50,9 @@ Best Practices:
 **For Template Documents:**
 
 - 1 layout per collection.
-- A minimum of 5 and a maximum of 20 documents per collection (do not exceed this limit).
 - The layout must be identical within the same collection.
+- A minimum of 5 and a maximum of 20 documents per collection (do not exceed this limit).
+
 
 **For General Documents:**
 
