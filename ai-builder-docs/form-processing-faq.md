@@ -55,10 +55,10 @@ Best Practices:
 
 **For General Documents:**
 
-- Include both structured and unstructured documents.
-- One layout per collection (if multiple collections).
+- create a single model for all variations of a document type including both structured and unstructured documents.
+- Label fields relevant to their values for better extraction accuracy. 
+    For example, use "supplier_id" for a supplier ID. Field names should match the document's language.
 - A minimum of 5 and a maximum of 20 documents per collection (do not exceed this limit).
-- Use different layouts across different collections.
 
 
 ### Can a single form-processing model extract information from documents that have different layouts or templates?
