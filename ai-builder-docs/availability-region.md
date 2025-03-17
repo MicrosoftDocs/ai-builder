@@ -1,8 +1,9 @@
 ---
 title:  Feature availability by region or US Government environment
 description: Learn which AI Builder features are available in each region or US Government environment. Lists the release status for each feature by region or US Government environment.
-author: phil-cmd
+author: CedrickBellarosa
 contributors:
+  - CedrickBellarosa
   - Antoine2F
   - phil-cmd
   - chplanty
@@ -12,8 +13,8 @@ contributors:
   - v-aangie
   - antode
 ms.topic: conceptual
-ms.date: 02/04/2025
-ms.author: antode
+ms.date: 03/17/2025
+ms.author: cdbellar
 ms.reviewer: angieandrews
 ---
 
@@ -30,7 +31,7 @@ Your AI Builder models are deployed in the region that hosts your Microsoft Powe
 The following tables show which AI Builder features are available in each region, and the release status (general availability or preview) for each feature. A dash (-) indicates that the feature isn't available.
 
 > [!NOTE]
-> For a view of what's planned for AI Builder, including new features, release status, and regional availability, go to the [AI Builder release plans](/power-platform-release-plan/2020wave1/ai-builder/).
+> View what is planned for AI Builder, including new features, release status, and regional availability, in [AI Builder release plans](/power-platform-release-plan/2020wave1/ai-builder/).
 
 ### Custom models
 
@@ -63,14 +64,14 @@ The following tables show which AI Builder features are available in each region
 
 ### Prompts
 
+In the following table, **(GA)** and **(Paid preview)** mean that the feature is available and uses an Azure OpenAI service in another region. Learn more in [enabling data movement cross-regions](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions).
+
 | Feature          | Asia | Australia | Canada | Europe | France | Germany | India | Japan | Norway | Singapore | South Africa | South America | South Korea | Switzerland | United Arab Emirates | United Kingdom | United States |
 |------------------|------|-----------|--------|--------|--------|---------|-------|-------|--------|-----------|--------------|---------------|-------------|-------------|----------------------|----------------|---------------|
 | GPT-4o mini   | (GA) | GA        | (GA)   | (GA)   | (GA)   | (GA)    | GA    | (GA)  | (GA)   | (GA)      | (GA)         | (GA)          | (GA)        | (GA)        | (GA)                 | GA             | GA            |
 | GPT-4o | (GA) | GA        | (GA)   | (GA)   | (GA)   | (GA)    | GA    | (GA)  | (GA)   | (GA)      | (GA)         | (GA)          | (GA)        | (GA)        | (GA)                 | GA             | GA            |
 | GPT-4o using image or document input | (Paid preview) | Paid preview | (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview) | Paid preview | (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview) | - | Paid preview |
 | o1 | (Paid preview) | -        | (Paid preview)   | -   | -   | -    | -    | (Paid preview)  | -   | (Paid preview)      | (Paid preview)         | (Paid preview)          | (Paid preview)        | -        | (Paid preview)                 | -             | Paid preview            |
-
-() means that the feature is available and uses an Azure Open AI service in another region. Learn more in [enabling data movement cross-regions](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions).
 
 ## US Government
 
