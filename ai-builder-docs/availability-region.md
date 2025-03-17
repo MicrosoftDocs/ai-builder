@@ -65,11 +65,12 @@ The following tables show which AI Builder features are available in each region
 
 | Feature          | Asia | Australia | Canada | Europe | France | Germany | India | Japan | Norway | Singapore | South Africa | South America | South Korea | Switzerland | United Arab Emirates | United Kingdom | United States |
 |------------------|------|-----------|--------|--------|--------|---------|-------|-------|--------|-----------|--------------|---------------|-------------|-------------|----------------------|----------------|---------------|
-| Custom prompts   | GA\* | GA        | GA\*   | GA\*   | GA\*   | GA\*    | GA    | GA\*  | GA\*   | GA\*      | GA\*         | GA\*          | GA\*        | GA\*        | GA\*                 | GA             | GA            |
-| Prebuilt prompts | GA\* | GA        | GA\*   | GA\*   | GA\*   | GA\*    | GA    | GA\*  | GA\*   | GA\*      | GA\*         | GA\*          | GA\*        | GA\*        | GA\*                 | GA             | GA            |
-| Add image or document input to a prompt | Preview\* | Preview\* | Preview\* | Preview\* |Preview\* | Preview\* | Preview\* | Preview\* | Preview\* | Preview\* | Preview\* | Preview\* | Preview\* | Preview\* | Preview\* | - | Preview\* |
+| GPT-4o mini   | (GA) | GA        | (GA)   | (GA)   | (GA)   | (GA)    | GA    | (GA)  | (GA)   | (GA)      | (GA)         | (GA)          | (GA)        | (GA)        | (GA)                 | GA             | GA            |
+| GPT-4o | (GA) | GA        | (GA)   | (GA)   | (GA)   | (GA)    | GA    | (GA)  | (GA)   | (GA)      | (GA)         | (GA)          | (GA)        | (GA)        | (GA)                 | GA             | GA            |
+| GPT-4o using image or document input | (Paid preview) | Paid preview | (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview) | Paid preview | (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview) | - | Paid preview |
+| o1 | (Paid preview) | -        | (Paid preview)   | -   | -   | -    | -    | (Paid preview)  | -   | (Paid preview)      | (Paid preview)         | (Paid preview)          | (Paid preview)        | -        | (Paid preview)                 | -             | Paid preview            |
 
-\*These regions require [enabling data movement cross-regions](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions) for the prompt feature to be enabled.
+() means that the feature is available and uses an Azure Open AI service in another region. Learn more in [enabling data movement cross-regions](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions).
 
 ## US Government
 
@@ -112,8 +113,10 @@ AI Builder is available in US Government environments with the features listed i
 
 | Feature          | Government Community Cloud (GCC) | Government Community Cloud – High (GCC High) | Department of Defense (DoD) |
 |:-----------------|:--------------------------------:|:--------------------------------------------:|:---------------------------:|
-| Custom prompts   |               GA                 |                     GA                       |              -              |
-| Prebuilt prompts |               GA                 |                     GA                       |              -              |
+| GPT-4o mini      |               GA                 |                     GA                       |              -              |
+| GPT-4o           |               GA                 |                     GA                       |              -              |
+| GPT-4o using image or document as input |               -                 |                     -                       |              -              |
+| o1           |               -                 |                     -                       |              -              |
 
 ### US Government feature limitations
 
