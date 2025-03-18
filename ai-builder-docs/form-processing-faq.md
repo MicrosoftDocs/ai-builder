@@ -1,12 +1,13 @@
 ---
 title: FAQ for document processing
 description: Learn the answers to frequently asked questions about the document processing model in AI Builder.
-author: JoeFernandezMS
+author: Phil-cmd
 ms.topic: faq
 ms.custom: 
-ms.date: 04/11/2024
-ms.author: antrod
+ms.date: 03/18/2025
+ms.author: plarrue
 contributors:
+  - Phil-cmd
   - antrodfr
   - v-aangie
 ms.reviewer: angieandrews
@@ -45,6 +46,20 @@ Yes. Document processing can extract printed and handwritten text from your docu
 
 For high-quality documents that use the same layout, five sample documents should be sufficient. For low-quality documents (for example, scans of poor quality, more sample documents might be necessary. To improve results, use 15 to 20 sample documents.
 
+#### Best practices
+
+- **For template documents**
+    - One (1) layout per collection.
+    - The layout must be identical within the same collection.
+    - A minimum of five (5) and a maximum of 20 documents per collection (don't exceed this limit).
+
+- **For general documents**
+    - Create a single model for all variations of a document type including both structured and unstructured documents.
+    - Label fields relevant to their values for better extraction accuracy.
+
+        For example, use "supplier_id" for a supplier ID. Field names should match the document's language.
+    - A minimum of five (5) and a maximum of 20 documents per collection (don't exceed this limit).
+
 ### Can a single form-processing model extract information from documents that have different layouts or templates?
 
 Yes. By using the collections feature, you train a single form-processing model to handle documents that have different layouts.
@@ -80,7 +95,7 @@ You can process up to 360 documents per environment, every 60 seconds.
 In the above cases, nothing can be done in AI Builder to improve the recognition. We recommand to improve the quality and layout of the source document to solve similar issues.
 
 > [!NOTE]
-> The OCR technology to detect characters is constantly improved by Microsoft, so such issues happen less often.
+> Microsoft constantly improves the OCR technology to detect characters, so such issues happen less often.
 
 ### Can I create a model with many collections?
 
@@ -100,8 +115,8 @@ Yes, unstructured documents like contracts and letters are supported by document
 
 Depending on your situation, you might need to use a particular model or a combination of them.
 
-Use [text recognition](prebuilt-text-recognition.md) when you want to extract all the text present in an image or a PDF. You can then, for example, search for a keyword in the text that's extracted, or build some fixed rules to extract certain items.
- 
+Use [text recognition](prebuilt-text-recognition.md) when you want to extract all the text present in an image or a PDF. You can then, for example, search for a keyword in the text that is extracted, or build some fixed rules to extract certain items.
+
 If you want to extract information from invoices, receipts, passports, driver's licenses, or business cards, start with the corresponding prebuilt model:
 
 - [Invoice processing](prebuilt-invoice-processing.md)
