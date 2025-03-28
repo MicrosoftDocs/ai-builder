@@ -11,9 +11,11 @@ ms.topic: conceptual
 ms.collection: 
 - get-started
 - bap-ai-copilot
-ms.date: 11/05/2024
+ms.date: 03/28/2025
 ms.author: ashbhati
 ms.reviewer: angieandrews
+ms.custom:
+  - DevRelAdv
 ---
 
 # Create a prompt
@@ -125,6 +127,11 @@ Your next step is determined by the app you plan to use with your prompt.
 - Use in Power Automate
   - Empowers makers to incorporate existing prompts into their flows.
   - [Use a prompt in Power Automate](use-a-custom-prompt-in-flow.md)
+
+Learn how to include your prompt in a flow in this quick video:</br>
+</br>
+  
+> [!VIDEO 0b76ebb0-c95c-483b-b29b-7d5c0921f3a9]
 
 ## Related information
 
