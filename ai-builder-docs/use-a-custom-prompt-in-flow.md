@@ -10,7 +10,7 @@ ms.topic: conceptual
 ms.collection: 
 - get-started
 - bap-ai-copilot
-ms.date: 11/01/2024
+ms.date: 03/28/2025
 ms.author: ashbhati
 ms.reviewer: angieandrews
 ---
@@ -55,6 +55,11 @@ You can add a prompt as an action in a Power Automate flow so it's possible to g
 1. On the left pane in the **Input Text** field, select **Input** Text from the Dynamic content list to the right.
 
     :::image type="content" source="media/use-a-custom-prompt-in-flow/input-text-dynamic.png" alt-text="Screenshot of selecting the 'Input' text from the Dynamic content list for the 'Input Text' field.":::
+
+Learn more about how to include your prompt in a flow in this quick video:</br>
+</br>
+
+> [!VIDEO 0b76ebb0-c95c-483b-b29b-7d5c0921f3a9]
 
 ## Create a new prompt in a flow
 
