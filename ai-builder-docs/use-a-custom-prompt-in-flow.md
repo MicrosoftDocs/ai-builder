@@ -13,6 +13,8 @@ ms.collection:
 ms.date: 03/28/2025
 ms.author: ashbhati
 ms.reviewer: angieandrews
+ms.custom:
+  - DevRelAdv
 ---
 
 # Use your prompt in Power Automate
