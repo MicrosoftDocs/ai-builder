@@ -49,13 +49,9 @@ When you use text inputs, you can perform actions on text content that dynamical
 
 If you're satisfied with your prompt, you can provide a sample value for your text input by selecting the input icon on the top right of the prompt builder experience and adding text in the **Sample data** field of your input.
 
-## Image or document input (preview)
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
+## Image or document input
 
 When you use image or document inputs, you can perform actions on file content that dynamically passes to the prompt at run time, such as file summarization, file categorization, extracting file information (both textual and visual), asking questions on file, and many more. It's also possible to combine both text and document or image inputs in the same prompt.
-
-[!INCLUDE [cc_preview_features_definition](./includes/cc-preview-features-definition.md)]
 
 :::image type="content" source="media/add-inputs-prompt/input-file-extraction.png" alt-text="Screenshot of extracting information from a document.":::
 
