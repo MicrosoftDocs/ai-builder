@@ -3,16 +3,16 @@ title: Add text, image, or document input to a prompt
 description: Learn how to add text, image, or document input to a prompt.
 author: chplanty
 contributors:
+  - antrod
   - chplanty
   - ashbhati
   - antoinecellerier
-  - antrod
   - v-aangie
 ms.topic: conceptual
 ms.collection: 
 - get-started
 - bap-ai-copilot
-ms.date: 02/04/2025
+ms.date: 03/31/2025
 ms.custom: ignite-2024
 ms.author: chplanty
 ms.reviewer: angieandrews
@@ -20,7 +20,7 @@ ms.reviewer: angieandrews
 
 # Add text, image, or document input to a prompt
 
-You can enhance your prompts by allowing users or systems to input text, images, or documents at runtime, whether in an app, a flow, or a copilot. This new capability to incorporate multimodal image and document data is currently in preview. By providing these input modalities, you enable the prompt to act on a diverse range of data types, thereby expanding the usability of the prompt and eliminating the need for developers to explicitly use OCR for processing images and documents.
+You can enhance your prompts by allowing users or systems to input text, images, or documents at runtime, whether in an app, a flow, or a copilot. By providing these input modalities, you enable the prompt to act on a diverse range of data types, thereby expanding the usability of the prompt and eliminating the need for developers to explicitly use OCR for processing images and documents.
 
 > [!IMPORTANT]
 > - AI Builder prompts run on GPT 4o Mini and GPT 4o models powered by [Azure OpenAI Service](/azure/ai-services/openai/whats-new).
@@ -49,13 +49,9 @@ When you use text inputs, you can perform actions on text content that dynamical
 
 If you're satisfied with your prompt, you can provide a sample value for your text input by selecting the input icon on the top right of the prompt builder experience and adding text in the **Sample data** field of your input.
 
-## Image or document input (preview)
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
+## Image or document input
 
 When you use image or document inputs, you can perform actions on file content that dynamically passes to the prompt at run time, such as file summarization, file categorization, extracting file information (both textual and visual), asking questions on file, and many more. It's also possible to combine both text and document or image inputs in the same prompt.
-
-[!INCLUDE [cc_preview_features_definition](./includes/cc-preview-features-definition.md)]
 
 :::image type="content" source="media/add-inputs-prompt/input-file-extraction.png" alt-text="Screenshot of extracting information from a document.":::
 
