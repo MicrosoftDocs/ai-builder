@@ -3,16 +3,16 @@ title: Add text, image, or document input to a prompt
 description: Learn how to add text, image, or document input to a prompt.
 author: chplanty
 contributors:
+  - antrod
   - chplanty
   - ashbhati
   - antoinecellerier
-  - antrod
   - v-aangie
 ms.topic: conceptual
 ms.collection: 
 - get-started
 - bap-ai-copilot
-ms.date: 02/04/2025
+ms.date: 03/31/2025
 ms.custom: ignite-2024
 ms.author: chplanty
 ms.reviewer: angieandrews
@@ -20,7 +20,7 @@ ms.reviewer: angieandrews
 
 # Add text, image, or document input to a prompt
 
-You can enhance your prompts by allowing users or systems to input text, images, or documents at runtime, whether in an app, a flow, or a copilot. This new capability to incorporate multimodal image and document data is currently in preview. By providing these input modalities, you enable the prompt to act on a diverse range of data types, thereby expanding the usability of the prompt and eliminating the need for developers to explicitly use OCR for processing images and documents.
+You can enhance your prompts by allowing users or systems to input text, images, or documents at runtime, whether in an app, a flow, or a copilot. By providing these input modalities, you enable the prompt to act on a diverse range of data types, thereby expanding the usability of the prompt and eliminating the need for developers to explicitly use OCR for processing images and documents.
 
 > [!IMPORTANT]
 > - AI Builder prompts run on GPT 4o Mini and GPT 4o models powered by [Azure OpenAI Service](/azure/ai-services/openai/whats-new).
