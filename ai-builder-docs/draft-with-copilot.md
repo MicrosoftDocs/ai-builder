@@ -1,42 +1,53 @@
 ---
-title: Get started with copilot
-description: Learn how to use the copilot to expedite AI prompt creation.
+title: Get started with Copilot
+description: Learn how to use Copilot to expedite AI prompt creation.
 author: ashbhati
-contributors: v-aangie
+contributors:
+  - ashbhati
+  - v-aangie
 ms.topic: conceptual
-ms.date: 03/31/2025
+ms.date: 04/01/2025
 ms.author: ashbhati
 ms.reviewer: angieandrews
 ms.collection: bap-ai-copilot
 ---
   
-# Get started with copilot
+# Get started with Copilot
 
-Prompt Builder is the  authoring tool for creating AI prompts within Microsoft Power Platform. A better written prompt generalizes well and leads to better outcomes. To help you move faster and reduce the time spent writing prompts from scratch, you can now use Copilot to draft your prompts directly within the tool. Copilot provides intelligent suggestions based on your intent, helping you frame effective prompts while applying prompt engineering best practices. Whether you're designing prompts for summarizing data or generating natural language responses, Copilot gives you a high-quality starting point aligned with your solution goals. 
+Prompt builder is the authoring tool for creating AI prompts within Microsoft Power Platform. A better written prompt generalizes well and leads to better outcomes. To help you move faster and reduce the time spent writing prompts from scratch, you can now use Copilot to draft your prompts directly within the tool. Copilot provides intelligent suggestions based on your intent, helping you frame effective prompts while applying prompt engineering best practices. Whether you're designing prompts for summarizing data or generating natural language responses, Copilot gives you a high-quality starting point aligned with your solution goals.
 
 > [!IMPORTANT]
-> - AI Builder prompts are running on LLM models powered by [Azure OpenAI Service](/azure/ai-services/openai/whats-new).
+> - AI Builder prompts run on large language models (LLMs) powered by [Azure OpenAI Service](/azure/ai-services/openai/whats-new).
 > - This capability is [limited to some regions](availability-region.md#prompts).
 > - This capability might be subject to usage limits or capacity throttling.
 
-This feature empowers makers of all skill levels to create reliable and well-structured prompts quickly, accelerating your agent, app or workflow development and helping you focus on business outcomes instead of prompt syntax. You can take benefit of copilot prompt draft on all the prompt builder surfaces. 
+This feature empowers makers of all skill levels to create reliable and well-structured prompts quickly, accelerating your agent, app, or workflow development and helping you focus on business outcomes instead of prompt syntax. You can benefit from a Copilot prompt draft on all the prompt builder surfaces.
 
-## Use the prompt builder
+## Use prompt builder
 
-To access the copilot in the prompt builder, follow these steps:
+To access Copilot in prompt builder, follow these steps:
 
-1. Sign in to [Power Apps](https://make.powerapps.com/), [Power Automate](https://make.powerautomate.com/) or [Copilot Studio](https://copilotstudio.microsoft.com/).
-1. Select **AI hub** > **Prompts** > **Build your own prompt** in Power Apps and Power Automate or **Tools** > **Prompts** in Copilot Studio.
-1. Type your intent in the **Write your prompt with Copilot** section and click the 'Sumbit' button.
-1. The copilot would suggest a draft prompt based on your intent. Review the suggested prompt and click on "Keep it" button.
-1. You can edit the suggested draft from copilot as per your need, and test the prompt outcomes.
+1. Sign in to [Power Apps](https://make.powerapps.com/), [Power Automate](https://make.powerautomate.com/), or [Copilot Studio](https://copilotstudio.microsoft.com/).
+1. Depending on the app you're signed in to, do one of the following:
+    - (Power Apps or Power Automate) Select **AI hub** > **Prompts** > **Build your own prompt**.
+    - (Copilot Studio) Select **Tools** > **Prompts**.
+1. In the **Write your prompt with Copilot** section, type your intent and select **Submit**.
 
-## Frequently asked questions
+    Copilot suggests a draft prompt based on your intent.
 
-## Can the copilot generate grounded prompts?
-Copilot doesn't has the ability to generate grounded prompts yet.
+1. Review the suggested prompt and select **Keep it**.
+1. Edit the suggested draft from Copilot as per your need, and test the prompt outcomes.
 
-## Can copilot improve my own draft?
+## FAQ
+
+This section contains frequently asked questions and their answers.
+
+### Can Copilot generate grounded prompts?
+
+Copilot can't generate grounded prompts yet.
+
+### Can Copilot improve my own draft?
+
 Copilot can't improve an existing prompt. It can only be used in generating new drafts.
 
 ## Related information
