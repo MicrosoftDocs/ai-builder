@@ -17,6 +17,7 @@ ms.collection: bap-ai-copilot
 Prompt builder is the authoring tool for creating AI prompts within Microsoft Power Platform. A better written prompt generalizes well and leads to better outcomes. To help you move faster and reduce the time spent writing prompts from scratch, you can now use Copilot to draft your prompts directly within the tool. Copilot provides intelligent suggestions based on your intent, helping you frame effective prompts while applying prompt engineering best practices. Whether you're designing prompts for summarizing data or generating natural language responses, Copilot gives you a high-quality starting point aligned with your solution goals.
 
 > [!IMPORTANT]
+> - This feature is Public Preview.
 > - AI Builder prompts run on large language models (LLMs) powered by [Azure OpenAI Service](/azure/ai-services/openai/whats-new).
 > - This capability is [limited to some regions](availability-region.md#prompts).
 > - This capability might be subject to usage limits or capacity throttling.
@@ -31,12 +32,18 @@ To access Copilot in prompt builder, follow these steps:
 1. Depending on the app you're signed in to, do one of the following:
     - (Power Apps or Power Automate) Select **AI hub** > **Prompts** > **Build your own prompt**.
     - (Copilot Studio) Select **Tools** > **Prompts**.
+  ![image](https://github.com/user-attachments/assets/7f67ae85-bbbd-48c4-851c-a3d9de021ffa)
+
 1. In the **Write your prompt with Copilot** section, type your intent and select **Submit**.
+   ![image](https://github.com/user-attachments/assets/bc25bff4-8223-4bfb-84b4-2bf639fd6e09)
 
     Copilot suggests a draft prompt based on your intent.
-
+   
 1. Review the suggested prompt and select **Keep it**.
+    ![image](https://github.com/user-attachments/assets/15288c3a-9a81-4e9f-a169-54be7898f369)   
+
 1. Edit the suggested draft from Copilot as per your need, and test the prompt outcomes.
+  ![image](https://github.com/user-attachments/assets/40cbc117-1a7a-492d-a68a-7b7c171ccf4b)
 
 ## FAQ
 
