@@ -32,18 +32,22 @@ To access Copilot in prompt builder, follow these steps:
 1. Depending on the app you're signed in to, do one of the following:
     - (Power Apps or Power Automate) Select **AI hub** > **Prompts** > **Build your own prompt**.
     - (Copilot Studio) Select **Tools** > **Prompts**.
-  ![image](https://github.com/user-attachments/assets/7f67ae85-bbbd-48c4-851c-a3d9de021ffa)
+ 
+    :::image type="content" source="media/draft-with-copilot/sign-in.png" alt-text="Screenshot of a sample screen when you sign in.":::
 
 1. In the **Write your prompt with Copilot** section, type your intent and select **Submit**.
-   ![image](https://github.com/user-attachments/assets/bc25bff4-8223-4bfb-84b4-2bf639fd6e09)
+
+    :::image type="content" source="media/draft-with-copilot/write-prompt.png" alt-text="Screenshot of a prompt written with Copilot.":::
 
     Copilot suggests a draft prompt based on your intent.
-   
+  
 1. Review the suggested prompt and select **Keep it**.
-    ![image](https://github.com/user-attachments/assets/15288c3a-9a81-4e9f-a169-54be7898f369)   
+
+    :::image type="content" source="media/draft-with-copilot/keep-it.png" alt-text="Screenshot of a Copilot suggested prompt and the 'Keep it' button.":::
 
 1. Edit the suggested draft from Copilot as per your need, and test the prompt outcomes.
-  ![image](https://github.com/user-attachments/assets/40cbc117-1a7a-492d-a68a-7b7c171ccf4b)
+
+    :::image type="content" source="media/draft-with-copilot/edit-test.png" alt-text="Screenshot of the instructions panel and the model response panel.":::
 
 ## FAQ
 
