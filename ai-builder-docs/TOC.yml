@@ -35,10 +35,10 @@
       href: prebuilt-prompts-in-dataverse-plug-in-powerapps.md
   - name: Custom AI prompts
     items:
-    - name: Get started with Copilot
-      href: draft-with-copilot.md
     - name: Create a prompt
       href: create-a-custom-prompt.md
+    - name: Get started with Copilot (preview)
+      href: draft-with-copilot.md
     - name: Get started with prompt library
       href: prompt-library.md    
   - name: Add text, image, or document input to your prompt

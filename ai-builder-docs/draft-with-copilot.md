@@ -1,5 +1,5 @@
 ---
-title: Get started with Copilot
+title: Get started with Copilot (preview)
 description: Learn how to use Copilot to expedite AI prompt creation.
 author: ashbhati
 contributors:
@@ -12,12 +12,14 @@ ms.reviewer: angieandrews
 ms.collection: bap-ai-copilot
 ---
   
-# Get started with Copilot
+# Get started with Copilot (preview)
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
 Prompt builder is the authoring tool for creating AI prompts within Microsoft Power Platform. A better written prompt generalizes well and leads to better outcomes. To help you move faster and reduce the time spent writing prompts from scratch, you can now use Copilot to draft your prompts directly within the tool. Copilot provides intelligent suggestions based on your intent, helping you frame effective prompts while applying prompt engineering best practices. Whether you're designing prompts for summarizing data or generating natural language responses, Copilot gives you a high-quality starting point aligned with your solution goals.
 
 > [!IMPORTANT]
-> - This feature is Public Preview.
+> - This feature is in Public Preview.
 > - AI Builder prompts run on large language models (LLMs) powered by [Azure OpenAI Service](/azure/ai-services/openai/whats-new).
 > - This capability is [limited to some regions](availability-region.md#prompts).
 > - This capability might be subject to usage limits or capacity throttling.
