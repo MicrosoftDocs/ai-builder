@@ -67,7 +67,7 @@ You can easily verify the version used to train and publish your model. Select *
 
 On the **Choose information to extract** screen, define the fields, tables, and checkboxes you want to teach your model to extract. Select the **+Add** button to start defining these.
 
-:::image type="content" source="media/create-form-processing-model/define-information-to-extract.svg" alt-text="Screenshot of the step in the document processing wizard where you define the fields, tables, and checkboxes you want the AI model to extract.":::
+:::image type="content" source="media/create-form-processing-model/choose_information_to_extract.png" alt-text="Screenshot of the step in the document processing wizard where you define the fields, tables, and checkboxes you want the AI model to extract.":::
 
 1. For each **Text field**, provide a name for the field to use in the model.
 1. For each **Number field**, provide a name for the field to use in the model.
