@@ -39,49 +39,27 @@ On the **Choose document type** step, select the type of document you want to bu
 - **General documents**: Previously known as *unstructured*, this option is ideal for any kind of documents, especially when there's no set structure, or when the format is complex. You can teach this model to extract data from structured or unstructured documents that have different layouts. This model is powerful, but has long training time.
 - **Invoices**: Augment the behaviors of the prebuilt invoice processing model by adding new fields to be extracted in addition to the ones by [default](prebuilt-invoice-processing.md#model-output), or samples of documents not properly extracted.
 
-## Try the new model version (Preview)
+## Understanding document intelligence versions
 
-By selecting the toggle **Try the new model version (Preview)**, you can try the latest preview model version for **Fixed template documents**, **General documents**, and **Invoices**.
+**Document Intelligence v4.0 (GA)**
 
-> [!IMPORTANT]
-> - The new model version is a preview release.
-> - Preview releases aren't meant for production use and might have restricted functionality. These releases are subject to [supplemental terms of use](https://www.microsoft.com/en-us/business-applications/legal/supp-powerplatform-preview/), and are available before an official release so that customers can get early access and provide feedback.
+In addition to the new features below, v4.0 retains all the capabilities of v3.1
 
-:::image type="content" source="media/create-form-processing-model/try_preview_toggle_yes.png" alt-text="Screenshot of the tile try preview toggle to yes.":::
+- Overlapping fields: v4.0 supports overlapping fields in custom models , which allows for better extraction from documents with complex layouts.
+- Signature detection: v4.0 introduces the ability to detect signatures in documents, which is especially useful for contracts, agreements, and other signed forms.
+- Confidence scores for tables: Provides confidence scores for table and table cells.
+- OCR engine improvements: v4.0 includes advancements to the OCR engine, enhancing text recognition accuracy and handling a broader range of document types and formats.
 
-### Prerequisite
+**Document Intelligence v3.1 (GA)**
 
-Your environment must be located in one of the following regions: Australia, Asia, Canada, Europe, France, Germany, Japan, India, Norway, South Africa, South America, South Korea, Switzerland, United Arab Emirates, and United States.
-
-### Benefits of using the preview model
-
-- **Enhanced accuracy**: Expect higher accuracy in data extraction.
-- **Latest OCR enhancements**: The preview model includes the latest Optical Character Recognition (OCR) updates. This update resolves many common OCR issues, especially when handling complex text formats like barcodes, QR codes, and watermarks.
-- **Confidence scores for tables**: You can get confidence scores for tables, table rows, and individual table cells
+- v3.1 offers support for custom models that are trained to recognize specific data patterns, such as unique text fields or structures.
+- v3.1 also provides custom template models, where users can create templates based on the layout and structure of their documents.
 
 ### How to check the model version
 
 You can easily verify the version used to train and publish your model. Select **Settings** > **Published model version** > **Last trained model version**.
 
 :::image type="content" source="media/create-form-processing-model/last-published-model-version-ga-last-trained-preview.png" alt-text="Screenshot of the 'Model settings' to get the last published model version GA and the last trained model version in preview.":::
-
-### How to change the model version
-
-You can edit the trained or published model version (preview) and train it with the general availability (GA) version.
-
-1. Select **Edit model**.
-1. Select **Try the new model version (Preview)**.
-1. Select the **No** toggle.
-
-:::image type="content" source="media/create-form-processing-model/select_documents_preview_toggle_No.png" alt-text="Screenshot of the tile try preview toggle to No.":::
-  
-You can edit the trained or published model general availability (GA) version and train it with the model version (Preview).
-
-1. Select **Edit model**.
-1. Select **Try the new model version (Preview)**.
-1. Select the **Yes** toggle.
-
-:::image type="content" source="media/create-form-processing-model/select_documents_preview_toggle_yes.png" alt-text="Screenshot showing the tile try preview toggle to yes.":::
 
 ## Define information to extract
 
