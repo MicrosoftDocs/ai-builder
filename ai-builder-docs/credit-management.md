@@ -14,6 +14,8 @@ ms.date: 03/10/2025
 ms.author: ashbhati
 ms.reviewer: angieandrews
 ---
+> [!NOTE]
+> This pages focuses on AI Builder **in Power Apps and Power Automate context**. The use of AI Tools - Prompts and Models - in Microsoft Copilot Studio or Agent flows follows another licensing : [learn more about Copilot Studio licensing](https://learn.microsoft.com/microsoft-copilot-studio/requirements-messages-management#message-scenarios)
 
 # AI Builder licensing and credit management
 
