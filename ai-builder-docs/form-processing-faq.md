@@ -59,6 +59,16 @@ For high-quality documents that use the same layout, five sample documents shoul
 
         For example, use "supplier_id" for a supplier ID. Field names should match the document's language.
     - A minimum of five (5) and a maximum of 20 documents per collection (don't exceed this limit).
+ 
+#### My model is currently published in v3.1 (GA), and I’m planning to retrain it using v4.0 (GA). Is it necessary to re-tag all of my documents?
+
+Unless you're adding new fields, checkboxes, tables, signatures for data extraction, or new documents to the collection, there's no need to re-tag all the documents.
+
+#### Can I switch from one document type to another?
+
+Yes, when editing your model, you can switch from a fixed template documents type to a general documents type, and vice versa.
+However, this switch is not supported for invoices.
+_Unless you're adding new fields, checkboxes, tables, signatures for data extraction, or new documents to the collection, there's no need to re-tag all the documents._
 
 ### Can a single form-processing model extract information from documents that have different layouts or templates?
 
