@@ -61,7 +61,7 @@ In addition to the new features below, v4.0 retains all the capabilities of v3.1
 
 You can easily verify the version used to train and publish your model. Select **Settings** > **Published model version** > **Last trained model version**.
 
-:::image type="content" source="media/create-form-processing-model/last-published-model-version-ga-last-trained-preview.png" alt-text="Screenshot of the 'Model settings' to get the last published model version GA and the last trained model version in preview.":::
+:::image type="content" source="media/create-form-processing-model/model_settings.png" alt-text="Screenshot of the 'Model settings' to get the last published model version GA and the last trained model version GA.":::
 
 ## Define information to extract
 
