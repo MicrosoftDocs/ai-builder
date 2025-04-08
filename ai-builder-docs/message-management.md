@@ -13,12 +13,13 @@ ms.author: Antoine2F
 ms.reviewer: angieandrews
 ---
 
+# AI Builder licensing in Microsoft Copilot Studio : Message management
+
 > [!NOTE]
-> This pages focuses on AI Builder **in Copilot Studio and Agent flows context**. The use of AI Builder - Prompts and Models - in Power Apps or Power Automate follows another licensing : [AI Builder licensing and credit management
+> This pages focuses on AI Builder **in Copilot Studio and Agent flows context**. The use of AI Builder Models and Prompts in Power Apps or Power Automate is explained here: [AI Builder licensing and credit management
 ](credit-management.md)
 
-# AI Builder licensing in Microsoft Copilot Studio : Message management
-Access to AI Builder features in  Copilot Studio within an environment requires Copilot Studio capacity : Messages.  
+Access to AI Builder features in  Copilot Studio within an environment requires Copilot Studio capacity, which uses the "Message" currency.  
 Message acquisition (through prepaid Packs) and assignment is explained here:
 [Copilot Studio licensing](https://learn.microsoft.com/en-us/microsoft-copilot-studio/billing-licensing)
 
