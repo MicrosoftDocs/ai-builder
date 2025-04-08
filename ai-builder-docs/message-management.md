@@ -1,5 +1,5 @@
 ---
-title: AI Builder licensing in Microsoft Copilot Studio : Message management
+title: AI Builder licensing in Microsoft Copilot Studio - Message management
 description: Learn about licensing and message management of AI Builder in Microsoft Copilot Studio
 author: Antoine2F
 contributors:
