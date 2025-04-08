@@ -316,7 +316,9 @@
   items:
   - name: Licensing and credit management
     href: credit-management.md
-  - name: AI Builder trial
+  - name: Licensing and message management
+    href: message-management.md
+  - name: Try AI Builder for Power Apps and Power Automate
     href: ai-builder-trials.md
   - name: Prompt tokens
     href: licensing-prompt-tokens.md
