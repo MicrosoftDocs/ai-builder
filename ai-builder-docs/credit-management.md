@@ -20,7 +20,7 @@ ms.reviewer: angieandrews
 > [!NOTE]
 > This page focuses on AI Builder in the **Power Apps and Power Automate context**.
 > The use of AI models and prompts in Copilot Studio or Agent flows is explained in [AI Builder licensing in Copilot Studio](message-management.md)  
-> Learn more at [Copilot Studio licensing](https://learn.microsoft.com/microsoft-copilot-studio/requirements-messages-management#message-scenarios).
+> Learn more at [Copilot Studio licensing](/microsoft-copilot-studio/requirements-messages-management#message-scenarios).
 
 
 Access to AI Builder features within an environment requires AI Builder credits. AI Builder credits come with some specific user licenses, but mostly from AI Builder capacity add-on. To learn more, go to [Get entitlement to AI Builder credits](credit-management.md#get-entitlement-to-ai-builder-credits). Once acquired, credits can be allocated (also known as assigned) to a specific environment, or left at the organization (tenant) level. Learn more in [Make credits available for an environment](credit-management.md#make-credits-available-for-an-environment-allocated-and-unallocated-credits).
