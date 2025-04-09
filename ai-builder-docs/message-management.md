@@ -1,5 +1,5 @@
 ---
-title: AI Builder licensing in Microsoft Copilot Studio - Message management
+title: AI Builder licensing and message management in Microsoft Copilot Studio
 description: Learn about licensing and message management of AI Builder in Microsoft Copilot Studio
 author: Antoine2F
 contributors:
@@ -8,7 +8,7 @@ contributors:
 ms.topic: conceptual
 ms.collection: 
     - bap-ai-copilot
-ms.date: 04/08/2025
+ms.date: 04/09/2025
 ms.author: Antoine2F
 ms.reviewer: angieandrews
 ---
@@ -16,23 +16,26 @@ ms.reviewer: angieandrews
 # AI Builder licensing in Microsoft Copilot Studio : Message management
 
 > [!NOTE]
-> This pages focuses on AI Builder **in Copilot Studio and Agent flows context**. The use of AI Builder Models and Prompts in Power Apps or Power Automate is explained here: [AI Builder licensing and credit management
-](credit-management.md)
+> This pages focuses on AI Builder in the **Copilot Studio and Agent flows context**. The use of AI Builder models and prompts in Power Apps or Power Automate is explained in [AI Builder licensing and credit management](credit-management.md).
 
-Access to AI Builder features in  Copilot Studio within an environment requires Copilot Studio capacity, which uses the "Message" currency.  
-Message acquisition (through prepaid Packs) and assignment is explained here:
-[Copilot Studio licensing](https://learn.microsoft.com/en-us/microsoft-copilot-studio/billing-licensing)
+Access to AI Builder features in Microsoft Copilot Studio within an environment requires Copilot Studio capacity, which uses the Message currency.  
+Message acquisition through prepaid packs and assignment is explained in
+[Copilot Studio licensing](/microsoft-copilot-studio/billing-licensing).
 
-## AI Builder capabilities in Copilot Studio senarios
-In Copilot Studio, there are several scenarios involving AI Builder capabilities:
- - use Prompts within Topics
- - use Prompts within Actions
- - use AI Models (Document Processing, Text recognition, ...) or Prompts within Agent flows
+## AI Builder capabilities in Copilot Studio scenarios
 
-All these different scenarios consume Messages.
+In Copilot Studio, several scenarios involve AI Builder capabilities:
+
+ - Use Prompts within topics.
+ - Use Prompts within actions.
+ - Use AI Models (such as Document Processing and Text recognition) or prompts within agent flows.
+
+All these scenarios consume messages.
 
 ## Message consumption rates
-Each AI Builder capability is mapped to one of these 4 Copilot Studio/AI Tools features : 
+
+Each AI Builder capability maps to one of these four Copilot Studio/AI Tools features:
+ 
 | Copilot Studio/AI Tools features         | Unit        |
 |------------------------------------------|-------------|
 |Text and generative AI tools (basic)      | response    |
@@ -40,10 +43,11 @@ Each AI Builder capability is mapped to one of these 4 Copilot Studio/AI Tools f
 |Text and generative AI tools (premium)    | response    |
 | Content Processing Tools                 | page        |
 
-Using an AI Builder capability will consume units of these features. For instance, extracting information from a 2 pages document within an Agent Flow will consume 2 pages of 'Content Document Processing'.  
-The cost per unit is published in Licensing Guide [pdf](https://go.microsoft.com/fwlink/?linkid=2085130) and in this Copilot Studio documentation page: [Billing rates and management](https://learn.microsoft.com/microsoft-copilot-studio/requirements-messages-management#message-scenarios)
+Using an AI Builder capability consumes units of these features. For example, extracting information from a two-page document within an agent flow consumes two pages of **Content Document Processing**.  
+The cost per unit is published in the [Licensing Guide (PDF)](https://go.microsoft.com/fwlink/?linkid=2085130) and in [Billing rates and management](/microsoft-copilot-studio/requirements-messages-management#message-scenarios).
 
-Here is the mapping between AI Builder capability and Copilot Studio features:
+Here is the mapping between AI Builder capabilities and Copilot Studio features:
+
  | AI Builder capability | Copilot Studio/AI Tools features | Unit |
 |------------------------------------------|-------------|-------------|
 | Prompt using gpt 4o-mini model      | Text and generative AI tools (basic)     | 1 response per 1K tokens*   |
@@ -67,20 +71,26 @@ Here is the mapping between AI Builder capability and Copilot Studio features:
 | Category classification (custom)    | Text and generative AI tools (standard)  | 1 response per 1K characters|
 
 ## Message consumption rules
-Prompts in Topics or Actions triggered from the Agent embedded Test panel are free.  
-Prompts and Models in Agent flows always consume Messages, even when triggered from an Agent embedded Test panel, or from flow designer.
-As soon as a classic flow is transformed into an Agent flows, AI Builder Prompts and Models within this flow begin consuming Messages instead of Credits.
+
+Prompts in topics or actions triggered from the agent-embedded test panel are free.  
+Prompts and models in agent flows always consume messages, even when triggered from an agent-embedded test panel, or from the flow designer.
+When a classic flow is transformed into an agent flow, AI Builder prompts and models within this flow begin consuming messages instead of credits.
 Testing a prompt (within Prompt Builder) or a model (within the Model page) is free.
 
 ### Examples
-###Agent with Prompts in Topics
-An HR agent is configured with a 'Benefit' topic, which uses a Prompt (based on 4o mini) to retrieve specific information about sick days from a Dataverse table. An employee asks this agent about sick days. This triggers the Prompt. The size of input (included system prompt) and output is 4200 tokens (~16 000 characters). 
-This employee's request has consumed 5 responses of "Text and generative AI tools (basic)" feature, so 0.5 Messages, plus the cost of the Copilot Studio classic answer or generative answer.
 
-### Agent flow with Custom document processing
-An agent flow is triggered when receiving email from a particular address. It process the attached file which contains 3 pages, using a custom Document processing model. 
-This consumes 3 pages of "Content Processing Tools" feature, so 24 messages.  
-This is in addition to the cost of the Agent flow actions. 
+The following examples illustrate the message consumption rules.
+
+#### Agent with prompts in topics
+
+An HR agent is configured with a **Benefit** topic, which uses a prompt (based on 4o mini) to retrieve specific information about sick days from a Dataverse table. An employee asks this agent about sick days. This triggers the prompt. The size of input (included system prompt) and output is 4200 tokens (~16,000 characters). 
+This employee's request has consumed 5 responses of the **Text and generative AI tools (basic)** feature, which equals 0.5 Messages, plus the cost of the Copilot Studio classic answer or generative answer.
+
+#### Agent flow with custom document processing
+
+An agent flow is triggered when receiving email from a specific address. It processes the attached file, which contains 3 pages, using a custom document processing model. 
+This consumes 3 pages of the **Content Processing Tools** feature, which equals 24 messages.  
+This is in addition to the cost of the agent flow actions. 
 
 
 

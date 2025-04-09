@@ -1,5 +1,5 @@
 ---
-title: AI Builder trial
+title: Try AI Builder for Power Apps and Power Automate
 description: Learn about the AI Builder trial.
 author: antoine2F
 contributors:
