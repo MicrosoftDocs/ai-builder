@@ -48,8 +48,8 @@ Here's the mapping between AI Builder capabilities and Copilot Studio features:
 
  | AI Builder capability | Copilot Studio/AI Tools features | Unit |
 |------------------------------------------|-------------|-------------|
-| Prompt using gpt 4o-mini model      | Text and generative AI tools (basic)     | 1 response per 1K tokens*   |
-| Prompt using gpt 4o model           | Text and generative AI tools (standard)  | 1 response per 1K tokens*   |
+| Prompt using GPT 4o-mini model      | Text and generative AI tools (basic)     | 1 response per 1K tokens*   |
+| Prompt using GPT 4o model           | Text and generative AI tools (standard)  | 1 response per 1K tokens*   |
 | Prompt using o1 model               | Text and generative AI tools (premium)   | 1 response per 1K tokens*   |
 | Custom document processing model    | Content processing tools                 | 1 page                      |
 | Invoice processing                  | Content processing tools                 | 1 page                      |
