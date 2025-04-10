@@ -110,5 +110,6 @@ For each collection that you create, you need to upload at least five sample doc
 
 - [Training: Process custom documents with AI Builder (module)](/training/modules/get-started-with-form-processing/)
 - [Interpret confidence score for tables and table cells](interpret-confidence-score.md)
+- [FAQ for document processing](form-processing-faq.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
