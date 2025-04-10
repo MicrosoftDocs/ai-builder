@@ -23,7 +23,7 @@ Access to AI Builder features within an environment requires AI Builder credits.
 
 > [!NOTE]
 > - Learn how to use AI models and prompts in Copilot Studio or agent flows in [AI Builder licensing in Copilot Studio](message-management.md).
-> - Learn about licencing in [Copilot Studio licensing](/microsoft-copilot-studio/requirements-messages-management#message-scenarios).
+> - Learn about licensing in [Copilot Studio licensing](/microsoft-copilot-studio/requirements-messages-management#message-scenarios).
 
 Once an environment has access to credits, AI Builder features are enabled in this environment.
 
