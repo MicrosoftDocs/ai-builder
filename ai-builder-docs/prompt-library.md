@@ -35,7 +35,7 @@ To access the prompt library and select a template through the left navigation m
 
     :::image type="content" source="media/prompt-library/all-templates.png" alt-text="Screenshot of the template selection screen in the prompt library.":::
 
-    Alternatively, you can use the **Search** field to find the one you're looking for. You can also search by categories, for example, **Language and text analysis**, **Content creation and management**, and **Tasks and role specific tools**.
+    Alternatively, you can use the **Search** field to find the one you're looking for. You can also search by Job Type for example, **Common**, **Customer service**, **Legal**, **Marketing**, **Communications**, **Information technology**, **Learning**, **HR**, **Finance**, **Architecture**, and **Sales** or by Task for example, **Analyze**, **Classify**, **Create**, **Extract**, and **Summarize**.
 
     :::image type="content" source="media/prompt-library/template-search.png" alt-text="Screenshot of the search functionality in the prompt library.":::
 
