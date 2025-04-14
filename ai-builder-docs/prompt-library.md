@@ -61,10 +61,10 @@ To access the prompt library and select a template through the prompt builder, f
 
 **From Copilot Studio**
 1. Sign in to [Copilot Studio](https://copilotstudio.com/)
-2. On the left nav, Select Tools
-3. Select + Create a Tool
-4. Select New Prompt
-5. Select Browse prompt library
+2. On the left nav, Select **Tools**
+3. Select **+ Create a Tool**
+4. Select **New Prompt**
+5. Select **Browse prompt library**
 
 :::image type="content" source="media/prompt-library/copilot-studio-browse-prompt-library.png" alt-text="Screenshot of the browse prompt library screen in Copilot Studio Prompt builder.":::
 
