@@ -43,7 +43,7 @@ To access the prompt library and select a template through the left navigation m
 
 To access the prompt library and select a template through the prompt builder, follow these steps:
 
-**From Power Automate and Power Apps**
+**From Power Apps or Power Automate**
 
 1. Sign in to [Power Apps](https://make.powerapps.com/) or [Power Automate](https://make.powerautomate.com/).
 1. Select **AI hub** > **Prompts**.
