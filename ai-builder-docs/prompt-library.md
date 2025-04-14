@@ -43,6 +43,8 @@ To access the prompt library and select a template through the left navigation m
 
 To access the prompt library and select a template through the prompt builder, follow these steps:
 
+**From Power Automate and Power Apps**
+
 1. Sign in to [Power Apps](https://make.powerapps.com/) or [Power Automate](https://make.powerautomate.com/).
 1. Select **AI hub** > **Prompts**.
 1. Select **Build your own prompt**.
@@ -56,6 +58,16 @@ To access the prompt library and select a template through the prompt builder, f
 1. From the **Prompt library** screen, select the template of your choice.
 
     :::image type="content" source="media/prompt-library/prompt-library-screen.png" alt-text="Screenshot of the template selection in the 'Prompt library' screen.":::
+
+**From Copilot Studio**
+1. Sign in to [Copilot Studio](https://copilotstudio.com/)
+2. On the left nav, Select Tools
+3. Select + Create a Tool
+4. Select New Prompt
+5. Select Browse prompt library
+
+:::image type="content" source="media/prompt-library/copilot-studio-browse-prompt-library.png" alt-text="Screenshot of the browse prompt library screen in Copilot Studio Prompt builder.":::
+
 
 ## Frequently asked questions
 
@@ -77,7 +89,7 @@ Learn more in [Change the output of your prompt](change-prompt-output.md).
 
 ### Can I select the GPT model of a template?
 
-Yes. From **Prompt settings**, choose **Standard GPT-4o mini (default)** or **Advanced GPT-4o**.
+Yes. From **Prompt settings**, choose **Basic GPT-4o mini (default)** or **Standard GPT-4o**.
 
 Learn more in [Generative AI model versions](prompt-modelsettings.md#generative-ai-model-versions).
 
@@ -92,10 +104,6 @@ Learn more in [Temperature](https://go.microsoft.com/fwlink/?linkid=2268182).
 Yes. From the panel on the right, select **Data used** to add a single Dataverse table
 
 Learn more in [Use your own data in a prompt](use-your-own-prompt-data.md).
-
-### Can I display the prompt library in Microsoft Copilot Studio?
-
-No, it isn't currently available.
 
 ### Can I display the prompt library in a canvas app?
 
