@@ -51,11 +51,11 @@ To access the prompt library and select a template through the prompt builder, f
 
     :::image type="content" source="media/prompt-library/select-build-yourown-prompt.png" alt-text="Screenshot of the build your own prompt option in the prompt library.":::
 
-1. Select **Brows prompt library**.
+1. Select **Browse prompt library**.
 
     :::image type="content" source="media/prompt-library/select-browse-prompt-library.png" alt-text="Screenshot of the 'Prompt library' selection in the builder.":::
 
-1. From the **Prompt library** screen, select the template of your choice.
+1. From the **Prompt library** screen, select the template, the job type and the task of your choice.
 
     :::image type="content" source="media/prompt-library/select-prompt-template.png" alt-text="Screenshot of the template selection in the 'Prompt library' screen.":::
 
