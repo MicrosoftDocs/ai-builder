@@ -33,11 +33,11 @@ To access the prompt library and select a template through the left navigation m
 
     To get an overview of all templates in the library, select **See all templates**.
 
-    :::image type="content" source="media/prompt-library/all-templates.png" alt-text="Screenshot of the template selection screen in the prompt library.":::
+    :::image type="content" source="media/prompt-library/see-all-templates.png" alt-text="Screenshot of the template selection screen in the prompt library.":::
 
     Alternatively, you can use the **Search** field to find the one you're looking for. You can also search by Job Type for example, **Common**, **Customer service**, **Legal**, **Marketing**, **Communications**, **Information technology**, **Learning**, **HR**, **Finance**, **Architecture**, and **Sales** or by Task for example, **Analyze**, **Classify**, **Create**, **Extract**, and **Summarize**.
 
-    :::image type="content" source="media/prompt-library/template-search.png" alt-text="Screenshot of the search functionality in the prompt library.":::
+    :::image type="content" source="media/prompt-library/prompt-library-select-jobtype-task.png" alt-text="Screenshot of the job type, task and search functionality in the prompt library.":::
 
 ## Use the prompt builder
 
@@ -49,15 +49,15 @@ To access the prompt library and select a template through the prompt builder, f
 1. Select **AI hub** > **Prompts**.
 1. Select **Build your own prompt**.
 
-    :::image type="content" source="media/prompt-library/byo-prompt.png" alt-text="Screenshot of the build your own prompt option in the prompt library.":::
+    :::image type="content" source="media/prompt-library/select-build-yourown-prompt.png" alt-text="Screenshot of the build your own prompt option in the prompt library.":::
 
-1. Select **Prompt library**.
+1. Select **Brows prompt library**.
 
-    :::image type="content" source="media/prompt-library/prompt-library.png" alt-text="Screenshot of the 'Prompt library' selection in the builder.":::
+    :::image type="content" source="media/prompt-library/select-browse-prompt-library.png" alt-text="Screenshot of the 'Prompt library' selection in the builder.":::
 
 1. From the **Prompt library** screen, select the template of your choice.
 
-    :::image type="content" source="media/prompt-library/prompt-library-screen.png" alt-text="Screenshot of the template selection in the 'Prompt library' screen.":::
+    :::image type="content" source="media/prompt-library/select-prompt-template.png" alt-text="Screenshot of the template selection in the 'Prompt library' screen.":::
 
 **From Copilot Studio**
 1. Sign in to [Copilot Studio](https://copilotstudio.com/)
