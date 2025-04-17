@@ -8,7 +8,7 @@ contributors:
   - JoeFernandezMS
   - v-aangie
 ms.topic: conceptual
-ms.date: 03/03/2025
+ms.date: 04/17/2025
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---
@@ -23,7 +23,7 @@ After you review the [requirements](form-processing-model-requirements.md), you 
 1. On the left pane, select **... More** > **AI hub**.
 1. Under **Discover an AI capability**, select **AI models**.
 
-    *(Optional)* To keep AI models permanently on the menu for easy access, select the pin icon.
+    *(Optional)* To keep AI models permanently on the menu for easy access, select the **pin** icon.
 
 1. Select **Extract custom information from documents**.
 1. Select **Create custom model**.
@@ -45,23 +45,25 @@ On the **Choose document type** step, select the type of document you want to bu
 
 **Document Intelligence v4.0 (GA)**
 
-In addition to the new features below, v4.0 retains all the capabilities of v3.1
+In addition to the features listed below, v4.0 retains all the capabilities of v3.1
 
-- Overlapping fields: v4.0 supports overlapping fields in custom models , which allows for better extraction from documents with complex layouts.
-- Signature detection: v4.0 introduces the ability to detect signatures in documents, which is especially useful for contracts, agreements, and other signed forms.
-- Confidence scores for tables: Provides confidence scores for table and table cells.
-- OCR engine improvements: v4.0 includes advancements to the OCR engine, enhancing text recognition accuracy and handling a broader range of document types and formats.
+- Overlapping fields: v4.0 supports overlapping fields in custom models, which lets you extract information more effectively from documents with complex layouts.
+- Signature detection: v4.0 detects signatures in documents, which is especially useful for contracts, agreements, and other signed forms.
+- Confidence scores for tables: v4.0 provides confidence scores for table and their cells.
+- OCR engine improvements: v4.0 improves the OCR engine, enhancing text recognition accuracy and supporting more document types and formats.
 
 **Document Intelligence v3.1 (GA)**
 
-- v3.1 offers support for custom models that are trained to recognize specific data patterns, such as unique text fields or structures.
-- v3.1 also provides custom template models, where users can create templates based on the layout and structure of their documents.
+- v3.1 supports custom models trained to recognize specific data patterns, such as unique text fields or structures.
+- v3.1 includes custom template models that let users create templates based on their document layout and structure.
 
 ### How to check the model version
 
-You can easily verify the version used to train and publish your model. Select **Settings** > **Published model version** > **Last trained model version**.
+You can verify the version used to train and publish your model. Select **Settings** > **Published model version** > **Last trained model version**.
 
-:::image type="content" source="media/create-form-processing-model/model_settings.png" alt-text="Screenshot of the 'Model settings' to get the last published model version GA and the last trained model version GA.":::
+:::image type="content" source="media/create-form-processing-model/model_settings1.png" alt-text="Screenshot of the 'Model settings' to get the last published model version GA and the last trained model version GA.":::
+
+You can move a model from v3.1 to v4.0 by editing, retraining, and publishing it. Re-tagging or other specific modification aren't necessary. Learn more in [FAQ for document processing](form-processing-faq.md)
 
 ## Define information to extract
 
