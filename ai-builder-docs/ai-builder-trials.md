@@ -1,5 +1,5 @@
 ---
-title: AI Builder trial
+title: Try AI Builder for Power Apps and Power Automate
 description: Learn about the AI Builder trial.
 author: antoine2F
 contributors:
@@ -15,7 +15,7 @@ ms.author: antode
 ms.reviewer: angieandrews
 ---
 
-# AI Builder trial
+# Try AI Builder for Power Apps and Power Automate
 
 To get started using AI Builder, use premium features for a limited time with a [trial license](https://powerapps.microsoft.com/ai-builder/). Alternatively, use preview features without obtaining a license at all.
 

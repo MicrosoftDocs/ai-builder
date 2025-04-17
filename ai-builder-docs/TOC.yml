@@ -316,6 +316,8 @@
   items:
   - name: Licensing and credit management
     href: credit-management.md
+  - name: Licensing and message management
+    href: message-management.md
   - name: AI Builder trial
     href: ai-builder-trials.md
   - name: Prompt tokens
