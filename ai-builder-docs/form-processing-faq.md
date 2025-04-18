@@ -1,10 +1,10 @@
 ---
 title: FAQ for document processing
-description: Learn the answers to frequently asked questions about the document processing model in AI Builder.
+description: Learn the answers to frequently asked questions about the document. processing model in AI Builder.
 author: Phil-cmd
 ms.topic: faq
 ms.custom: 
-ms.date: 04/17/2025
+ms.date: 04/21/2025
 ms.author: plarrue
 contributors:
   - Phil-cmd
@@ -15,7 +15,7 @@ ms.reviewer: angieandrews
 
 # FAQ for document processing
 
-This article consists of frequently asked questions about the document processing model in AI Builder. If you don't find your question here, review the [overview of the document processing AI model](form-processing-model-overview.md) or submit your question to the [Power Automate Community for AI Builder](https://powerusers.microsoft.com/t5/AI-Builder/bd-p/AIBuilder).
+This article consists of frequently asked questions about the document processing model in AI Builder. If you don't find your question here, review [Overview of the document processing AI model](form-processing-model-overview.md) or submit your question to the [Power Automate Community for AI Builder](https://powerusers.microsoft.com/t5/AI-Builder/bd-p/AIBuilder).
 
 ## Functionality
 
@@ -44,7 +44,7 @@ Yes. Document processing can extract printed and handwritten text from your docu
 
 ### How many samples do I need to train a document processing model?
 
-For high-quality documents that use the same layout, five sample documents should be sufficient. For low-quality documents (for example, scans of poor quality, more sample documents might be necessary. To improve results, use 15 to 20 sample documents.
+For high-quality documents that use the same layout, five sample documents should be sufficient. For low-quality documents (for example, scans of poor quality), more sample documents might be necessary. To improve results, use 15 to 20 sample documents.
 
 #### Best practices
 
@@ -59,16 +59,14 @@ For high-quality documents that use the same layout, five sample documents shoul
 
         For example, use "supplier_id" for a supplier ID. Field names should match the document's language.
     - A minimum of five (5) and a maximum of 20 documents per collection (don't exceed this limit).
- 
-#### My model is currently published in v3.1 (GA), and I’m planning to retrain it using v4.0 (GA). Is it necessary to re-tag all of my documents?
+
+#### My model is currently published in v3.1 (GA), and I'm planning to retrain it using v4.0 (GA). Is it necessary to re-tag all of my documents?
 
 Unless you're adding new fields, checkboxes, tables, signatures for data extraction, or new documents to the collection, you don't need to re-tag all the documents.
 
 #### Can I switch from one document type to another?
 
-Yes, when editing your model, you can switch between a fixed template document type and a general document type.
-However, this switch isn't supported for invoices.
-_Unless you're adding new fields, checkboxes, tables, signatures for data extraction, or new documents to the collection, you don't need to re-tag all the documents._
+Yes, when editing your model, you can switch between a fixed template document type and a general document type. However, this switch isn't supported for invoices.
 
 ### Can a single form-processing model extract information from documents that have different layouts or templates?
 
@@ -102,10 +100,10 @@ You can process up to 360 documents per environment, every 60 seconds.
 - It can happen that some characters over or close to others get recognized incorrectly: O (letter) over a vertical line becomes a 0 (number), 5 (number) over a line becomes a $ (American dollar sign), l_ (lowercase letter, underscore) becomes an L (uppercase letter), and more.
 - It can happen that some characters on documents of poor quality get recognized incorrectly, or not at all.
 
-In the above cases, nothing can be done in AI Builder to improve the recognition. We recommand to improve the quality and layout of the source document to solve similar issues.
+In the previous cases, nothing can be done in AI Builder to improve the recognition. We recommand to improve the quality and layout of the source document to solve similar issues.
 
 > [!NOTE]
-> Microsoft constantly improves the OCR technology to detect characters, so such issues happen less often.
+> Microsoft constantly improves the optical character recognition (OCR) technology to detect characters, so such issues happen less often.
 
 ### Can I create a model with many collections?
 
