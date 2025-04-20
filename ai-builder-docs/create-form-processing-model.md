@@ -50,7 +50,7 @@ On the **Choose document type** step, select the type of document you want to bu
 
 ## Understand document intelligence versions
 
-The document intelligence model is available in two versions: **v4.0** and **v3.1**. The version you use depends on the type of model you create.
+The document intelligence model is available in two versions: v4.0 and v3.1. The version of your model depends on when you last edited the model.
 
 ### Document Intelligence v4.0 - General Availability (GA)
 
