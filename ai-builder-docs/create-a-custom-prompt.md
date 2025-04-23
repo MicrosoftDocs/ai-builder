@@ -70,16 +70,16 @@ A custom prompt can guide the GPT model to answer a question, complete text, tra
 
 Download and print the AI Builder prompt engineering guide (10 pages, 10X13 inch size) to keep it handy and get help creating prompts.
 
-## Create a GPT prompt
+## Create a prompt
 
-Prompt builder provides the flexibility to create your own custom prompt by defining input variables that enable incorporating dynamic runtime content within a prompt. It gives you the ability to validate the prompt with **Test your prompt**, ensuring optimal prompt performance and correctness of the response before integration into your business solutions.
+Prompt builder provides the flexibility to create your own custom prompt by defining input variables that enable incorporating dynamic runtime content within a prompt. It gives you the ability to validate the prompt, ensuring optimal prompt performance and correctness of the response before integration into your business solutions.
 
 1. Sign in to [Power Apps](https://make.powerapps.com), [Power Automate](https://make.powerautomate.com), or [Copilot Studio](https://copilotstudio.microsoft.com).
-1. On the left pane, select **AI prompts** or **Prompts** > **Create text with GPT using a prompt**.
-
-    For Power Apps and Power Automate, you might need to first select **AI hub** on the left pane.
-
-1. On the lower-right corner, select **Create custom prompt**.
+1. For Power Apps and Power Automate, select **AI hub** > **Prompts** > **Build your own prompt**.
+1. For Copilot Studio, there are multiple ways to create a prompt
+    1. Select **Agents**, pick or create an agent, then select **Actions** > **Add an action** > **New action** > **New prompt**
+    2. Select **Agents**, pick or create an agent, then select **Topics**. Pick or create a topic, add a node, then select **Add an action** > **New prompt**
+    3. Select **Library** > **Add new** > **Prompt**. Prompts created in the library can then be used in any agent action or topic.
 
     :::image type="content" source="media/create-a-custom-prompt/custom-prompt.svg" alt-text="Screenshot of the fields you fill in to create a custom prompt.":::
 
