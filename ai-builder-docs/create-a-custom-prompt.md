@@ -81,31 +81,31 @@ Prompt builder provides the flexibility to create your own custom prompt by defi
     2. Select **Agents**, pick or create an agent, then select **Topics**. Pick or create a topic, add a node, then select **Add an action** > **New prompt**
     3. Select **Library** > **Add new** > **Prompt**. Prompts created in the library can then be used in any agent action or topic.
 
-    :::image type="content" source="media/create-a-custom-prompt/custom-prompt.svg" alt-text="Screenshot of the fields you fill in to create a custom prompt.":::
+    :::image type="content" source="media/create-a-custom-prompt/custom-prompt.png" alt-text="Screenshot of the fields you fill in to create a custom prompt.":::
 
 ### Configure and test your prompt
 
 Use the following screenshot as a guide to build and test your prompt.
 
-:::image type="content" source="media/create-a-custom-prompt/configure-and-test.png" alt-text="Screenshot of the steps to configure and test your prompt.":::
+:::image type="content" source="media/create-a-custom-prompt/custom-prompt.png" alt-text="Screenshot of the steps to configure and test your prompt.":::
 
-1. Enter a name for your prompt.
-1. Write or paste your prompt.
-
-    Alternatively, you can build upon an existing template to give yourself a starting point.
+1. Enter a custom name for your prompt by clicking on the generated name at the top left of the prompt.
+   
+1. Write your prompt or select a prompt template.
 
     > [!TIP]
-    > For help finding prompts you can use, go to the Prompt directory [Sample Solution Gallery](https://aka.ms/power-prompts).
+    > For access even more prompt templates, go to the Prompt directory [Sample Solution Gallery](https://aka.ms/power-prompts).
 
-1. Add a dynamic value, and then select **Enter**.
+1. Include an input object by typing **/** or selecting **Add content**, then select **Input**.
 
-    In the process of building prompts, makers often need to provide context data to ensure that the GPT model generates appropriate responses. To facilitate this, dynamic values are used in the prompt, serving as placeholders that get filled with actual data at runtime.
+    Input objects allow you to pass dynamic values to the prompt at runtime.
   
-1. Test your prompt using the sample value.
+1. Test your prompt using a sample value for your inputs.
 
-    The testing of prompts is an essential yet often under-emphasized capability. Manual testing is beneficial for iterative building experiences.
+1. Additionally, you can add knowledge objects in your prompt by typing **/** or selecting **Add content**, then select any of the knowledge entries available.
 
-1. (Optional) Insert input or data references to define how it must be used in context of the prompt.
+    Knowledge objects allow your prompt to give answer in the context of your business data.
+   
 
 ### Review and save your prompt
 
