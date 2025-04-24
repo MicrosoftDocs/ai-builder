@@ -20,22 +20,22 @@ ms.custom:
 
 # Create a prompt
 
-Custom prompts give makers the freedom to instruct the GPT model to behave in a certain way or to perform a specific task. By carefully crafting a prompt, you can generate responses that suit your specific business needs. This transforms the GPT model into a flexible tool to accomplish various tasks.
+Custom prompts give makers the freedom to instruct the generative AI model to behave in a certain way or to perform a specific task. By carefully crafting a prompt, you can generate responses that suit your specific business needs. This transforms the model into a flexible tool to accomplish various tasks.
 
 > [!IMPORTANT]
-> - AI Builder prompts run on GPT 4o Mini and GPT 4o models powered by [Azure OpenAI Service](/azure/ai-services/openai/whats-new).
+> - AI Builder prompts run on GPT models powered by [Azure OpenAI Service](/azure/ai-services/openai/whats-new).
 > - This capability is [limited to some regions](availability-region.md#prompts).
 > - This capability might be subject to usage limits or capacity throttling.
 
 ## Supported languages
 
-The following list of supported languages for AI prompts in AI Builder is subject to be updated:
+The following list of supported languages for prompts in AI Builder is subject to be updated:
 
 Chinese (Simplified), Czech (Czech Republic), Danish (Denmark), Dutch (Netherlands), English (United States), Finnish (Finland), French (France), German (Germany), Greek (Greece), Italian (Italy), Japanese (Japan), Korean (Korea), Polish (Poland), Portuguese (Brazil), Russian (Russia), Spanish (Spain), Swedish (Sweden), Thai (Thailand), Turkish (Türkiye)
 
 ## Use specific text for more relevant responses
 
-The goal of prompt engineering is to create an instruction that's as specific as possible to get a more relevant response from the GPT model. Your prompts should be specific to a topic and convey your intent.
+The goal of prompt engineering is to create an instruction that's as specific as possible to get a more relevant response from the  model. Your prompts should be specific to a topic and convey your intent.
 
 A prompt might include the following  information:
 
@@ -53,14 +53,14 @@ If the generated text is too long or contains irrelevant information, adjust the
 
 ## Parts of a prompt
 
-There are generally two parts to a prompt for a GPT model: the instruction and the context.
+There are generally two parts to a prompt: the instruction and the context.
 
 - The instruction is the first part of the prompt. It should provide clear directions on what the GPT model should do, for example, "Summarize this email in three bullets."
-- The context is the second part of the prompt. It should provide the information the GPT model needs to generate an appropriate response, for example, "The email contains customer feedback from the past week."
+- The context is the second part of the prompt. It should provide the information the model needs to generate an appropriate response, for example, "The email contains customer feedback from the past week."
 
 **Example**
 
-A custom prompt can guide the GPT model to answer a question, complete text, translate languages, summarize a document, and identify tasks, to-dos, and action items in text. The complexity of a custom prompt can range from a single sentence to something more intricate, depending on the task.
+A custom prompt can guide the model to answer a question, complete text, translate languages, summarize a document, and identify tasks, to-dos, and action items in text. The complexity of a custom prompt can range from a single sentence to something more intricate, depending on the task.
 
 ## Download: AI Builder prompt engineering guide
 
