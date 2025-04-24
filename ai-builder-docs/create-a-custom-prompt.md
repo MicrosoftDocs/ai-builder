@@ -93,15 +93,19 @@ Prompt builder provides the flexibility to create your own custom prompt by defi
     > To access a larger set of prompt templates, go to the Prompt directory [Sample Solution Gallery](https://aka.ms/power-prompts).
 
 1. Include an input object by typing **/** or selecting **Add content**, then select **Input**. Input objects allow you to pass dynamic values to the prompt at runtime.
-  
-1. Test your prompt using a sample value for your inputs.
 
-1. Additionally, you can add knowledge objects in your prompt by typing **/** or selecting **Add content**, then select any of the knowledge entries available. Knowledge objects allow your prompt to give answer in the context of your business data.
+   :::image type="content" source="media/create-a-custom-prompt/custom-prompt-add-input.png" alt-text="Add input.":::
+
+   In this view, you can also select a knowledge object in the **Knowledge** section. A knowledge object represents a set of data that is retrieved through a data source connection, like Dataverse. This allows your prompt to generate answers that are related to your business data.
+  
+1. Enter a sample value for each of your inputs.
+
+   :::image type="content" source="media/create-a-custom-prompt/custom-prompt-input-sample.png" alt-text="Add input.":::
+  
+1. Select **Test** to run your prompt and review its response.
    
-1. After you test your prompt with the sample value, review it to see how well your prompt works.
 1. When you're satisfied, select **Save**.
 
-    :::image type="content" source="media/create-a-custom-prompt/review-and-save.png" alt-text="Screenshot of a prompt response.":::
 
 ## Use your prompt in Power Apps or Power Automate
 
