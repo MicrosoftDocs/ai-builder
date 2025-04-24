@@ -23,24 +23,16 @@
   - name: AI Builder community
     href: share-your-experience.md
     displayName: forums; support; help
-- name: AI prompts
+- name: Prompts
   items:
   - name: Overview
     href: prompts-overview.md
-  - name: Prebuilt AI prompts
-    items:
-    - name: Get started with prebuilt prompts
-      href: prebuilt-prompts.md  
-    - name: Use a prebuilt prompt in a Dataverse low-code plug-in in power apps (preview)
-      href: prebuilt-prompts-in-dataverse-plug-in-powerapps.md
-  - name: Custom AI prompts
-    items:
-    - name: Create a prompt
-      href: create-a-custom-prompt.md
-    - name: Get started with Copilot (preview)
-      href: draft-with-copilot.md
-    - name: Get started with prompt library
-      href: prompt-library.md    
+  - name: Create a prompt
+    href: create-a-custom-prompt.md
+  - name: Get started with Copilot (preview)
+    href: draft-with-copilot.md
+  - name: Get started with prompt library
+    href: prompt-library.md    
   - name: Add text, image, or document input to your prompt
     href: add-inputs-prompt.md
   - name: Change the output of your prompt
@@ -51,16 +43,24 @@
     href: use-your-own-prompt-data.md    
   - name: Share your prompt
     href: share-your-prompt.md 
-  - name: Use your prompt actions in Copilot Studio
-    href: use-a-custom-prompt-in-mcs.md
-  - name: Use your prompt in Power Apps
-    href: use-a-custom-prompt-in-app.md
-  - name: Use your prompt in Power Automate
-    href: use-a-custom-prompt-in-flow.md
   - name: Distribute your prompt using a solution
     href: distribute-prompt.md
+  - name: Use your prompt
+    items:
+    - name: Use your prompt actions in Copilot Studio
+      href: use-a-custom-prompt-in-mcs.md
+    - name: Use your prompt in Power Apps
+      href: use-a-custom-prompt-in-app.md
+    - name: Use your prompt in Power Automate
+      href: use-a-custom-prompt-in-flow.md
   - name: Human review for automation with a prompt
     href: azure-openai-human-review.md
+  - name: Prebuilt prompts
+    items:
+    - name: Get started with prebuilt prompts
+      href: prebuilt-prompts.md  
+    - name: Use a prebuilt prompt in a Dataverse low-code plug-in in power apps (preview)
+      href: prebuilt-prompts-in-dataverse-plug-in-powerapps.md
 - name: AI models
   items:
   - name: AI models and business scenarios
