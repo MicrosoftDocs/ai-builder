@@ -13,15 +13,15 @@ ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
-# Interpret confidence score for tables and table cells (preview)
+# Interpret confidence score for tables and table cells
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
 A confidence score for tables and cells in general documents quantifies how certain the model is about its predictions of structured data. Higher scores indicate greater confidence, and lower scores suggest uncertainty. These scores help prioritize reliable outputs, guide human review, and improve accuracy in applications like data extraction, validation, and automated reporting.
 
-Confidence scores for tables and table cells are available in the preview version for general documents.
+Confidence scores for tables and table cells are available for general documents.
 
-[!INCLUDE [cc_preview_features_definition](./includes/cc-preview-features-definition.md)]
+
 
 ## Use a quick test to retrieve the confidence score value of a table and table cells
 
