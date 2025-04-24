@@ -24,7 +24,7 @@ A prompt is a natural language instruction that tells a large language model (LL
 AI Builder provides a prompt building user experience that allows makers to build, test, and save reusable prompts.
 
 > [!IMPORTANT]
-> - AI Builder prompts use GPT 4o Mini or GPT 4o models powered by [Azure OpenAI Service](/azure/ai-services/openai/whats-new). 
+> - AI Builder prompts use GPT models powered by [Azure OpenAI Service](/azure/ai-services/openai/whats-new). 
 > - This capability is [limited to some regions](availability-region.md#prompts).
 > - This capability might be subject to usage limits or capacity throttling.
 
@@ -32,9 +32,10 @@ AI Builder provides a prompt building user experience that allows makers to buil
 
 - You have a basic understanding of how to write prompts. To learn more, download the [AI Builder Prompting Guide](https://aka.ms/promptguide).
 - Your environment is in the list of [available regions](availability-region.md).
-- You have a Power Apps or Power Automate license.
+- You have a Power Apps, Power Automate or Copilot Studio license, and:
+    - You have pre-purchased AI Builder credits if you use prompts in Power Apps or Power Automate
+    - You have pre-purchased messages, or pay-go active for messages, if you use prompts in Copilot Studio
 - A Microsoft Dataverse database is installed on the environment.
-- You have an AI Builder add-on.
 
 ## What a prompt is and how to use it
 
