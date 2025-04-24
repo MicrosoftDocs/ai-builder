@@ -57,7 +57,7 @@ File types supported with image or document input are PNG, JPG, JPEG, and PDF.
 - For image or document input, you can't pass a file with a type other than PNG, JPG, JPEG, and PDF.
 - For image or document input, extracting information from large documents might not be accurate and skip information, especially for table lines.
 - There's a limitation of processing documents with fewer than 50 pages.
-- Image or document input isn't yet supported for prompts in Copilot Studio.
+- Image or document is supported in Copilot Studio topics but not in actions yet.
 
 ## Related information
 
