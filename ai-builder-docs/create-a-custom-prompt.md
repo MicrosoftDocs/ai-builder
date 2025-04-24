@@ -85,34 +85,21 @@ Prompt builder provides the flexibility to create your own custom prompt by defi
 
 ### Configure and test your prompt
 
-Use the following screenshot as a guide to build and test your prompt.
-
-:::image type="content" source="media/create-a-custom-prompt/custom-prompt.png" alt-text="Screenshot of the steps to configure and test your prompt.":::
-
 1. Enter a custom name for your prompt by clicking on the generated name at the top left of the prompt.
    
 1. Write your prompt or select a prompt template.
 
     > [!TIP]
-    > For access even more prompt templates, go to the Prompt directory [Sample Solution Gallery](https://aka.ms/power-prompts).
+    > To access a larger set of prompt templates, go to the Prompt directory [Sample Solution Gallery](https://aka.ms/power-prompts).
 
-1. Include an input object by typing **/** or selecting **Add content**, then select **Input**.
-
-    Input objects allow you to pass dynamic values to the prompt at runtime.
+1. Include an input object by typing **/** or selecting **Add content**, then select **Input**. Input objects allow you to pass dynamic values to the prompt at runtime.
   
 1. Test your prompt using a sample value for your inputs.
 
-1. Additionally, you can add knowledge objects in your prompt by typing **/** or selecting **Add content**, then select any of the knowledge entries available.
-
-    Knowledge objects allow your prompt to give answer in the context of your business data.
+1. Additionally, you can add knowledge objects in your prompt by typing **/** or selecting **Add content**, then select any of the knowledge entries available. Knowledge objects allow your prompt to give answer in the context of your business data.
    
-
-### Review and save your prompt
-
-Prompt builder allows makers to save prompts to facilitate reusability, archiving, and future improvement of prompts.
-
-1. After you test your prompt with the sample value (in step 4), review it to see how well your prompt works.
-1. When you're satisfied, select **Save custom prompt**.
+1. After you test your prompt with the sample value, review it to see how well your prompt works.
+1. When you're satisfied, select **Save**.
 
     :::image type="content" source="media/create-a-custom-prompt/review-and-save.png" alt-text="Screenshot of a prompt response.":::
 
