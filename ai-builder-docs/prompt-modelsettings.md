@@ -17,7 +17,7 @@ ms.reviewer: angieandrews
 # Change the model version and settings
 
 ## Model version
-You can change the model version by selecting **Model** at the top of the prompt builder.The dropdown menu allows you to select among the generative AI models, which generate the answer to your custom prompt.
+You can change the model version by selecting **Model** at the top of the prompt builder. The dropdown menu allows you to select among the generative AI models, which generate the answer to your custom prompt.
 
 The default model as of November 2024 is GPT-4o mini (general availabile, or GA). You can also use the more powerful GPT-4o model (GA), and o1 model (paid preview). The exact minor versions of these models might change.
 
@@ -58,9 +58,9 @@ For projects requiring advanced reasoning capabilities, the o1 model excels. It'
 
 You can access the setting panel by selecting **...** > **Settings** at the top of the prompt builder. You can change the following settings:
 
-- Temperature: Lower temperatures lead to predictable results, while higher temperatures would allow more diverse or creative responses.
-- Record retrieval: Number of record retrieved for your knowledge sources.
-- Include links in the response: When checked, the response will include links citation of the record retrieved.
+- **Temperature**: Lower temperatures lead to predictable results, while higher temperatures would allow more diverse or creative responses.
+- **Record retrieval**: Number of record retrieved for your knowledge sources.
+- **Include links in the response**: When checked, the response will include links citation of the record retrieved.
 
 
 ### Temperature
