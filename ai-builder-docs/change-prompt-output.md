@@ -67,34 +67,31 @@ At any time, you can check the JSON schema that generates out of the JSON exampl
 
 ## Use a prompt with JSON output in Power Automate
 
-After you add the **Run a prompt** action in a Power Automate flow, you can use all the JSON fields as dynamic values without adding complex logic to parse the response.
+In this section we will guide you to create the following flow:
 
-The following example shows how you can process an invoice received by email using the prompt described in [Create a prompt with JSON output](#create-a-prompt-with-json-output) in this article.
+<<Image>>
 
-1. Create a flow with the trigger, **When a new email arrives**.
+1. Create a prompt to process invoices with an **Image or document** as input.
+
+   To learn more, go to [Add text, image, or document input to a prompt](/add-inputs-prompt).
+
+   :::image type="content" source="media/change-prompt-output/invoice-prompt.png" alt-text="Screenshot of invoice processing prompt.":::
+
+1. Update the JSON format by providing the following JSON example:
+
+:::image type="content" source="media/change-prompt-output/custom-format.png" alt-text="Screenshot of custom JSON format.":::
+
+1. Create a flow with the trigger, **When a new email arrives**. If you just need to process specific emails, make sure to set filters.
 
     To learn more, go to [Get started with triggers](/power-automate/triggers-introduction?tabs=classic-designer).
 
-1. If you just need to process specific emails, make sure to set filters.
-1. Extract the text of the attachments with the action, **Recognize text in an image or a PDF document**.
+1. Add the action **Run a prompt** and select the prompt you created in the first step.
 
-    To learn more about how to create and modify a flow in the designer, go to [Understand the cloud flows designer](/power-automate/flows-designer).
+1. In the **invoice** input, add the attachment of the email coming from the trigger action.
 
-1. As the previous action returns a table of lines within a table of the page, it's more convenient to aggregate all the lines in a unique variable.
-
-    Initialize a variable and append the **Text** dynamic value from the **Recognize text in an image or a PDF document** action in this variable.
-
-    :::image type="content" source="media/change-prompt-output/ocr-append-json-flow.png" alt-text="Screenshot that shows append OCR text.":::
-
-1. Complete the flow by doing the following steps:
-    1. In your flow, select **Create text with GPT using a prompt**.
-    1. On the **Parameters** tab in the **Prompt** field, select **prompt with JSON** as the output.
-    1. Add the invoice variable you created in the prompt input.
-
-The following procedure allows you to easily and safely use multiple values extracted from a text using a prompt.
-
-1. In your flow, select **Send an email**.
-1. On the **Parameters** tab, send an email that contains the elements extracted by the prompt with JSON output.
+1. Add the action **Send an email**.
+   
+1. Edit the body of the email so it contains the elements extracted by the prompt with JSON output.
 
     :::image type="content" source="media/change-prompt-output/gpt-output-json-flow.png" alt-text="Screenshot of the email body with the JSON fields.":::
 
