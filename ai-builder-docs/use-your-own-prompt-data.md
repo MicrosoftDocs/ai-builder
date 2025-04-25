@@ -15,25 +15,31 @@ ms.author: cdbellar
 ms.reviewer: angieandrews
 ---
 
-# Use your own data in a prompt
+# Add knowledge to a prompt
 
-Custom prompts enable makers to use generative AI models addressing various types of content generation scenarios. These models use their default knowledge included in their training data to answer. However, this knowledge isn't sufficient to deal with use cases requiring business specific data context.
+Prompts enable makers to use generative AI models addressing various types of content generation scenarios. These models use their default knowledge included in their training data to answer. However, this knowledge isn't sufficient to deal with use cases requiring business specific data context.
 
 This point is where data Retrieval Augmented Generation (RAG) allows you to provide external information to augment the knowledge of the model. This augmentation can result in getting the answers you need.
 
-## Add data and filter
+## Add knwoledge and filter
 
-Makers can use the **Data used** option to select one or several Dataverse tables. The fields in these tables are used by the generative model to get more knowledge while answering based on the custom prompt defined and inputs provided.
+1. By typing **/** or selecting **Add content**, users can select a data source object from the **Knowledge** section. 
 
-:::image type="content" source="media/use-your-own-prompt-data/add-data.png" alt-text="Screenshot of how to select a Dataverse table as data to be used in the prompt builder.":::
+   :::image type="content" source="media/use-your-own-prompt-data/select-data-source.png" alt-text="Screenshot of how to select a data source.":::
 
-You can filter the data, which is retrieved by expanding the table and selecting the filtered field and **Filter value**. The value can be free-form text or an input of the prompt.
+1. Users need to navigate in the data source and select one or multiple columns. They will be added as knowledge objects in the prompt.
 
-:::image type="content" source="media/use-your-own-prompt-data/filter-data.png" alt-text="Screenshot of how to filter the 'Opportunity' table's 'Status' based on inputs defined in the prompt builder or a list of values.":::
+    :::image type="content" source="media/use-your-own-prompt-data/add-data.png" alt-text="Screenshot of selected column.":::
 
-You can also filter by creating an input named **Question**. The data matching the question, which can be expressed with natural language, in all the tables added is used.
+1. You can filter the knowledge which is retrieved by clicking the knowledge object, then **Filter attribute** and selecting the field to filter in **Filter attribute**. You can set a free-form text or an input of the prompt inside **Filter value**.
 
-:::image type="content" source="media/use-your-own-prompt-data/question-data.png" alt-text="Screenshot of how to use the input filter 'Question' to find all data matching a question in all the tables added.":::
+    :::image type="content" source="media/use-your-own-prompt-data/filter-data.png" alt-text="Screenshot of how to filter column value.":::
+
+1. You cane also filter using an input. Let's create a prompt that gets all the accounts using the value of an input called named **Question**. 
+
+    :::image type="content" source="media/use-your-own-prompt-data/question-data.png" alt-text="Screenshot of how to use the input to filter knowledge":::
+
+   The prompt will automatically filter all knowledge objects using the value of this input, which can be expressed with natural language.
 
 ## Insert data references in the prompt
 
