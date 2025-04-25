@@ -20,7 +20,7 @@ By default, the prompt generates text as response. Text can be convenient for ma
 
 ## Benefits of using JSON output
 
-The JSON output allows you to generate a JSON structure for your prompt response instead of a text. JSON allows an easier processing of responses with multiple elements in Power Automate or Power Apps.
+The JSON output allows you to generate a JSON structure for your prompt response instead of a text. JSON allows an easier processing of responses with multiple elements in agents, flows or apps.
 
 Following is an example of use cases that become possible with JSON output:
 
@@ -35,14 +35,15 @@ This section describes how to select JSON as output and edit the JSON format.
 
 ### Select JSON as output
 
-To change how the prompt response is rendered, follow these steps:
-
-1. On the panel to the right under the **Prompt settings** heading, select **Output** > **JSON**.
-1. On the bottom left, select **Test prompt** to check how your prompt response renders in JSON.
+To change how the prompt response is rendered,  select **JSON** as output on the top right.
 
     :::image type="content" source="media/change-prompt-output/test-prompt-auto.png" alt-text="Screenshot of selections on the 'Prompt with JSON' page.":::
 
 ### Edit JSON format
+
+To view or edit the JSON format, click on the settings icon at the left of **Output: JSON**.
+
+:::image type="content" source="media/change-prompt-output/output-settings.png" alt-text="Screenshot of the output settings.":::
 
 By default, the format is **Auto detected**. This format means each time you test your prompt, the format associated to the prompt is refreshed with the one detected at testing time. This format is convenient when you're iterating on your prompt instructions and want to know how the response format evolves.
 
@@ -50,27 +51,23 @@ By default, the format is **Auto detected**. This format means each time you tes
 
 If you update the JSON example, the format becomes **Custom** and is never updated if you test your prompt again. This format is convenient when you don't want prompt tweaking to influence the format, or if you need to follow a specific format.
 
-You can revert to auto detect mode by selecting **Back to auto-detect**.
+You can revert to auto detect mode by selecting **Back to auto-detect** icon.
 
 :::image type="content" source="media/change-prompt-output/back-auto.png" alt-text="Screenshot of the 'Back to auto-detected' icon.":::
 
 To test and save your prompt, follow these steps:
 
 1. To confirm the newly modified example, select **Apply**.
-1. To check how your prompt response renders with the new format, select **Test prompt**.
-1. When you finish your modifications, select **Save custom prompt**.
+1. To check how your prompt response renders with the new format, select **Test**.
+1. When you finish your modifications, select **Save custom**. If you skip this step, your changes are lost.
 
-    If you skip this step, your changes are lost.
-
-    :::image type="content" source="media/change-prompt-output/custom.png" alt-text="Screenshot of the custom format.":::
-
-When you save your prompt, you're locking the latest **Auto-detected** format or the **Custom** format defined. This means when you use your prompt in Power Automate or Power Apps, the saved format is used&mdash;it doesn't vary.
+When you save your prompt, you're locking the latest **Auto-detected** format or the **Custom** format defined. This means when you use your prompt in an agent, a flow or an app, the saved format is used&mdash;it doesn't vary.
 
 At any time, you can check the JSON schema that generates out of the JSON examples by selecting **</>**. You can't modify this schema currently.
 
 ## Use a prompt with JSON output in Power Automate
 
-After you add the **Created text with GPT** action in a Power Automate flow, you can use all the JSON fields as dynamic values without adding complex logic to parse the response.
+After you add the **Run a prompt** action in a Power Automate flow, you can use all the JSON fields as dynamic values without adding complex logic to parse the response.
 
 The following example shows how you can process an invoice received by email using the prompt described in [Create a prompt with JSON output](#create-a-prompt-with-json-output) in this article.
 
