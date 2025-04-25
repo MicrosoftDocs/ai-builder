@@ -37,7 +37,7 @@ This section describes how to select JSON as output and edit the JSON format.
 
 To change how the prompt response is rendered,  select **JSON** as output on the top right.
 
-    :::image type="content" source="media/change-prompt-output/test-prompt-auto.png" alt-text="Screenshot of selections on the 'Prompt with JSON' page.":::
+:::image type="content" source="media/change-prompt-output/test-prompt-auto.png" alt-text="Screenshot of selections on the 'Prompt with JSON' page.":::
 
 ### Edit JSON format
 
