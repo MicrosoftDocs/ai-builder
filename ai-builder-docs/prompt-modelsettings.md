@@ -1,11 +1,12 @@
 ---
-title: Model selection and temperature settings
-description: Learn about the settings parameter in prompt builder.
+title: Model versions and settings
+description: Learn about the settings in prompt builder.
 author: ashbhati
 contributors:
   - ashbhati
   - Phil-cmd
   - Antoine2F
+  - antrod
   - v-aangie
 ms.topic: conceptual
 ms.date: 03/11/2025
@@ -13,26 +14,18 @@ ms.author: ashbhati
 ms.reviewer: angieandrews
 ---
 
-# Model selection and temperature settings
+# Change the model version and settings
 
-When you create a prompt action in prompt builder, the panel on the right includes a **Settings** section. This section allows you to set these parameters:
+## Model version
+You can change the model version by selecting **Model** at the top of the prompt builder.The dropdown menu allows you to select among the generative AI models, which generate the answer to your custom prompt.
 
-- Version of the generative AI model
-- Temperature
+The default model as of November 2024 is GPT-4o mini (general availabile, or GA). You can also use the more powerful GPT-4o model (GA), and o1 model (paid preview). The exact minor versions of these models might change.
 
-This article explores the impact of these parameters.
+When you use prompts in Power Apps or Power Automate, they consume AI Builder credits. When you use prompts in Copilot Studio, they consume messages. To learn more, go to [AI Builder licensing and credit management](/ai-builder/credit-management).
 
-## Generative AI model versions
 
-The dropdown menu allows you to select among the generative AI models, which generate the answer to your custom prompt.
 
-The default model as of November 2024 is GPT-4o Mini (general availability, or GA). You can also use the more powerful GPT-4o model (GA), and o1 model (paid preview). The exact minor versions of these models might change.
-
-When you use prompt actions in Power Apps or Power Automate, they consume AI Builder credits.
-
-### Choose a model
-
-Choose between the models based on status and licensing rules.
+### Models details
 
 |GPT model  |Status   |Licensing rules   | Functionalities| Region availabilities |
 |---------|---------|---------|---------|---------|
@@ -42,7 +35,7 @@ Choose between the models based on status and licensing rules.
 
 Choose between the model based on capabilities and scenarios.
 
-### Comparison of GPT-4o Mini, GPT-4o, and o1
+### Models comparison
 
 | Factors                     | GPT-4o Mini        | GPT-4o             | o1         |
 |---------------------------|----------------------|--------------------|------------|
@@ -51,7 +44,8 @@ Choose between the model based on capabilities and scenarios.
 | **Speed**                 | Faster processing                    | Might be slower due to complexity    | Slower as it reasons before responding |
 | **Use cases**             | Summarization, information tasks | Image and document processing, as well complex content creation tasks |  Complex data analysis and reasoning tasks |
 
-## Decision narrative
+
+### Decision narrative
 
 When you need a cost-effective solution for moderately complex tasks, have limited computational resources, or require faster processing, choose GPT-4o Mini. It's ideal for projects with budget constraints and applications like customer support or efficient code analysis.
 
@@ -59,13 +53,17 @@ When you're dealing with highly complex, multimodal tasks that require superior 
 
 For projects requiring advanced reasoning capabilities, the o1 model excels. It's suitable for scenarios that demand sophisticated problem-solving and critical thinking. The o1 model excels in environments where nuanced reasoning, complex decision-making, and detailed analysis are important. 
 
-### Use of AI prompts in context of Microsoft Copilot Studio
 
-AI prompts don't consume AI Builder credits in the Copilot Studio but consume messages.
+## Model settings
 
-Learn more about message consumption in the [Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130).
+You can access the setting panel by selecting **...** > **Settings** at the top of the prompt builder. You can change the following settings:
 
-## Temperature
+- Temperature: Lower temperatures lead to predictable results, while higher temperatures would allow more diverse or creative responses.
+- Record retrieval: Number of record retrieved for your knowledge sources.
+- Include links in the response: When checked, the response will include links citation of the record retrieved.
+
+
+### Temperature
 
 The slider allows you to select the temperature of the generative AI model. It varies between 0 and 1, and guides the generative AI model about how much creativity (1) vs deterministic answer (0) it should provide.
 
