@@ -69,7 +69,7 @@ At any time, you can check the JSON schema that generates out of the JSON exampl
 
 In this section we will guide you to create the following flow:
 
-<<Image>>
+:::image type="content" source="media/change-prompt-output/output-flow.png" alt-text="Screenshot of a flow with a prompt":::
 
 1. Create a prompt to process invoices with an **Image or document** as input.
 
@@ -79,7 +79,7 @@ In this section we will guide you to create the following flow:
 
 1. Update the JSON format by providing the following JSON example:
 
-:::image type="content" source="media/change-prompt-output/custom-format.png" alt-text="Screenshot of custom JSON format.":::
+   :::image type="content" source="media/change-prompt-output/custom-format.png" alt-text="Screenshot of custom JSON format.":::
 
 1. Create a flow with the trigger, **When a new email arrives**. If you just need to process specific emails, make sure to set filters.
 
@@ -88,6 +88,8 @@ In this section we will guide you to create the following flow:
 1. Add the action **Run a prompt** and select the prompt you created in the first step.
 
 1. In the **invoice** input, add the attachment of the email coming from the trigger action.
+
+   :::image type="content" source="media/change-prompt-output/output-flow-prompt.png" alt-text="Screenshot prompt parameters in flow.":::
 
 1. Add the action **Send an email**.
    
