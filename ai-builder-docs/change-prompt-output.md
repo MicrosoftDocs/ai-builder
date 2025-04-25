@@ -73,7 +73,7 @@ In this section we will guide you to create the following flow:
 
 1. Create a prompt to process invoices with an **Image or document** as input.
 
-   To learn more, go to [Add text, image, or document input to a prompt](/add-inputs-prompt).
+   To learn more, go to [Add text, image, or document input to a prompt](/ai-builder/add-inputs-prompt).
 
    :::image type="content" source="media/change-prompt-output/invoice-prompt.png" alt-text="Screenshot of invoice processing prompt.":::
 
