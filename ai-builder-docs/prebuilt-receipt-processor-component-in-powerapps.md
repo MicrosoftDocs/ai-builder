@@ -7,24 +7,20 @@ contributors:
   - v-aandrews
 ms.topic: conceptual
 ms.custom: 
-ms.date: 01/27/2025
+ms.date: 04/25/2025
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
 # Use the receipt processor component in Power Apps
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
-
-The AI Builder receipt processor component scans and extracts information from receipts. You can take photos directly within the component or load images that have already taken. The data is recognized and extracted using the properties below.
+The AI Builder receipt processor component scans and extracts information from receipts. You can take photos directly within the component or load images that were already taken. The data is recognized and extracted using the properties listed in this article.
 
 For more information about canvas apps, see [What are canvas apps in Power Apps?](/powerapps/maker/canvas-apps/getting-started)
 
-[!INCLUDE[cc_preview_features_definition](includes/cc-preview-features-definition.md)]
-
 ## Requirements
 
-The receipt processor component works best with sales receipts, those commonly used by restaurants, gas stations, and retailers, and others. Both print and handwritten text can be detected.
+The receipt processor component works best with sales receipts that are commonly used by restaurants, gas stations, retailers, and others. Both print and handwritten text can be detected.
 
 Only English receipts from the United States are currently supported.
 
@@ -61,7 +57,7 @@ In order to get the best results, provide one clear photo or scan per receipt.
 |**DetectedFields**|Additional information for each of the [receipt properties](#receipt-properties) <ul><li>**BoundingBox**: The coordinates of the field</li><li>**Confidence**: How confident the model is in the detection of the field</li><li>**PageNumber**: Which page the field is found on</li><li>**Value**: The value of the field</li></ul>|
 |**DetectedText**|The list of all recognized lines of text on the receipt <ul><li>**BoundingBox**: The coordinates of the line of text</li><li>**PageNumber**: Which page the line of text is found on</li><li>**Value**: The line of text</li></ul>|
 |**OriginalImage**|The original image before processing|
-|**DisplayMode**|<ul><li>**Edit**: Allows user input</li><li>**View**: Only displays data</li><li>**Disabled**: Does not allow user input</li></ul>|
+|**DisplayMode**|<ul><li>**Edit**: Allows user input</li><li>**View**: Only displays data</li><li>**Disabled**: Doesn't allow user input</li></ul>|
 |**Height**|The height of the component|
 |**ImageDisplayed**|Whether the component displays the image or not|
 |**ShowBoundingBoxes**|Whether the component displays the bounding boxes or not|
@@ -71,7 +67,7 @@ In order to get the best results, provide one clear photo or scan per receipt.
 |**X**|The distance between the left edge of the component and the left edge of the parent container or screen|
 |**Y**|The distance between the top edge of the component and the top edge of the parent container or screen|
 
-Additional design properties are available in the **Advanced** panel.
+More design properties are available in the **Advanced** panel.
 
 ## Accessibility guidelines
 
