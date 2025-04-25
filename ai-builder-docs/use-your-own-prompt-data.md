@@ -35,19 +35,12 @@ This point is where data Retrieval Augmented Generation (RAG) allows you to prov
 
     :::image type="content" source="media/use-your-own-prompt-data/filter-data.png" alt-text="Screenshot of how to filter column value.":::
 
-1. You cane also filter using an input. Let's create a prompt that gets all the accounts using the value of an input called named **Question**. 
+1. You can also filter using an input. Let's create a prompt that gets all the accounts using the value of an input called named **Question**. 
 
     :::image type="content" source="media/use-your-own-prompt-data/question-data.png" alt-text="Screenshot of how to use the input to filter knowledge":::
 
    The prompt will automatically filter all knowledge objects using the value of this input, which can be expressed with natural language.
 
-## Insert data references in the prompt
-
-You can also insert multiple data and related tables' data references in your prompt and use it with natural language by selecting **Insert** and navigating through the data and relationships.
-
-Each data reference is used by the generative model to answer.
-
-:::image type="content" source="media/use-your-own-prompt-data/insert-data.png" alt-text="Screenshot of how to insert 'Data' or 'Inputs' references directly in the prompt.":::
 
 ## Example of scenarios
 
@@ -66,7 +59,7 @@ The following list describes the limitations of using your own data in a prompt.
 - Dataverse environment languages supported: English US, French, Japanese, Danish, Dutch, German, Italian, Brazilian Portuguese, Spanish, Simplified Chinese, Danish Norwegian, and Turkish.
 - Virtual table use isn't yet supported.
 - You can use only one table as the data source. However, you can reference fields from multiple relationships of this table.
-- Only the attributes with the following data types are available as **Filter attribute** and in **+ Insert**: `text`, `number`, `date and time`, `choice`, `currency`, and u`nique identifier`.
+- Only the columns with the following data types are available to insert in the prompt and filter: `text`, `number`, `date and time`, `choice`, `currency`, and u`nique identifier`.
 - We support only English US formats for filtering values. For example, Filter value=121.5 is supported, while 121,5 isn't. Filter value=2024-12-25 is supported while 25/12/2024 isn't.
 - You can only use direct relationships of the table added as data source.
 
