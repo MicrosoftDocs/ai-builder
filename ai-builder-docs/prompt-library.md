@@ -17,7 +17,7 @@ ms.collection: bap-ai-copilot
 The prompt library feature provides a collection of predesigned prompts, serving as *templates to expedite the creation of AI prompts*. This resource accelerates development, and ensures best practices are followed in prompt engineering. You can modify templates to suit specific needs, adjusting language, tone, and detail to match organizational standards and requirements. The templates cover key areas like document extraction, data transformation, and content generation. This makes it easy for you to find the right starting point for your intelligent automation goals.
 
 > [!IMPORTANT]
-> - AI Builder prompts are running on GPT 4o Mini and GPT 4o model versions powered by [Azure OpenAI Service](/azure/ai-services/openai/whats-new).
+> - AI Builder prompts use GPT models powered by [Azure OpenAI Service](/azure/ai-services/openai/whats-new).
 > - This capability is [limited to some regions](availability-region.md#prompts).
 > - This capability might be subject to usage limits or capacity throttling.
 
