@@ -21,7 +21,7 @@ Prompts enable makers to use generative AI models addressing various types of co
 
 This point is where data Retrieval Augmented Generation (RAG) allows you to provide external information to augment the knowledge of the model. This augmentation can result in getting the answers you need.
 
-## Add knwoledge and filter
+## Add knowledge and filter
 
 This section describes how to add knowledge to a prompt and filter it.
 

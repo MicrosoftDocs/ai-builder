@@ -17,7 +17,7 @@ ms.reviewer: angieandrews
 
 # Overview of prompts
 
-This article explains prompts and prompt engineering as key concepts to help you create powerful generative AI capabilities that can be leveraged across Power Platform.
+This article explains prompts and prompt engineering as key concepts to help you create powerful generative AI capabilities that can be used across Power Platform.
 
 A prompt is a natural language instruction that tells a large language model (LLM) to perform a task. The process is also known as *instruction tuning*. The model follows the prompt to determine the structure and content of the text it needs to generate. Prompt engineering is the process of creating and refining the prompt used by the model.
 
@@ -32,9 +32,9 @@ AI Builder provides a prompt building user experience that allows makers to buil
 
 - You have a basic understanding of how to write prompts. To learn more, download the [AI Builder Prompting Guide](https://aka.ms/promptguide).
 - Your environment is in the list of [available regions](availability-region.md).
-- You nned a Power Apps, Power Automate or Copilot Studio license, and:
+- You need a Power Apps, Power Automate or Copilot Studio license, and:
     - Pre-purchased AI Builder credits if you use prompts in Power Apps or Power Automate.
-    - Pre-purchased messages, or pay-go active for messages if you use prompts in Copilot Studio.
+    - Pre-purchased messages, or pay-as-you-go active for messages if you use prompts in Copilot Studio.
 - A Microsoft Dataverse database is installed on the environment.
 
 ## What a prompt is and how to use it
