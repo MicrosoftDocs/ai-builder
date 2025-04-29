@@ -12,7 +12,7 @@ ms.topic: conceptual
 ms.collection: 
 - get-started
 - bap-ai-copilot
-ms.date: 03/31/2025
+ms.date: 04/29/2025
 ms.custom: ignite-2024
 ms.author: antrod
 ms.reviewer: angieandrews
@@ -29,7 +29,7 @@ You can enhance your prompts by allowing users or systems to input text, images,
 
 ## Add an input to a prompt
 
-You can include an input object by typing **/** or selecting **Add content**, then select **Text** or **Image or document** in the **Input** section. 
+You include an input object by typing **/** or selecting **Add content**, then selecting **Text** or **Image or document** in the **Input** section. 
 
    :::image type="content" source="media/create-a-custom-prompt/custom-prompt-add-input.png" alt-text="Add input.":::
 

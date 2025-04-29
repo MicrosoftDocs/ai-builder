@@ -9,21 +9,22 @@ contributors:
   - antrod
   - v-aangie
 ms.topic: conceptual
-ms.date: 03/11/2025
+ms.date: 04/29/2025
 ms.author: ashbhati
 ms.reviewer: angieandrews
 ---
 
 # Change the model version and settings
 
+This article explains how to change the model version and settings in the prompt builder. The model version and settings can affect the performance and behavior of the generative AI model.
+
 ## Model version
-You can change the model version by selecting **Model** at the top of the prompt builder. The dropdown menu allows you to select among the generative AI models, which generate the answer to your custom prompt.
 
-The default model as of November 2024 is GPT-4o mini (general availabile, or GA). You can also use the more powerful GPT-4o model (GA), and o1 model (paid preview). The exact minor versions of these models might change.
+You can change the model version by selecting **Model** at the top of the prompt builder. The dropdown menu allows you to select from the generative AI models that generate answers to your custom prompt.
 
-When you use prompts in Power Apps or Power Automate, they consume AI Builder credits. When you use prompts in Copilot Studio, they consume messages. To learn more, go to [AI Builder licensing and credit management](/ai-builder/credit-management).
+The default model as of November 2024 is GPT-4o mini (general available, or GA). You can also use the more powerful GPT-4o model (GA), and o1 model (paid preview). The exact minor versions of these models might change.
 
-
+Using prompts in Power Apps or Power Automate consumes AI Builder credits, while using prompts in Copilot Studio consumes messages. Learn more in [AI Builder licensing and credit management](/ai-builder/credit-management).
 
 ### Models details
 
@@ -58,9 +59,9 @@ For projects requiring advanced reasoning capabilities, the o1 model excels. It'
 
 You can access the setting panel by selecting **...** > **Settings** at the top of the prompt builder. You can change the following settings:
 
-- **Temperature**: Lower temperatures lead to predictable results, while higher temperatures would allow more diverse or creative responses.
+- **Temperature**: Lower temperatures lead to predictable results, while higher temperatures allow more diverse or creative responses.
 - **Record retrieval**: Number of record retrieved for your knowledge sources.
-- **Include links in the response**: When checked, the response will include links citation of the record retrieved.
+- **Include links in the response**: When selected, the response includes link citations for the retrieved records.
 
 
 ### Temperature

@@ -11,7 +11,7 @@ ms.topic: conceptual
 ms.collection: 
 - get-started
 - bap-ai-copilot
-ms.date: 03/28/2025
+ms.date: 04/29/2025
 ms.author: ashbhati
 ms.reviewer: angieandrews
 ms.custom:
@@ -35,7 +35,7 @@ Chinese (Simplified), Czech (Czech Republic), Danish (Denmark), Dutch (Netherlan
 
 ## Use specific text for more relevant responses
 
-The goal of prompt engineering is to create an instruction that's as specific as possible to get a more relevant response from the  model. Your prompts should be specific to a topic and convey your intent.
+The goal of prompt engineering is to create an instruction that's as specific as possible to get a more relevant response from the model. Your prompts should be specific to a topic and convey your intent.
 
 A prompt might include the following  information:
 
@@ -76,33 +76,33 @@ Prompt builder provides the flexibility to create your own custom prompt by defi
 
 1. Sign in to [Power Apps](https://make.powerapps.com), [Power Automate](https://make.powerautomate.com), or [Copilot Studio](https://copilotstudio.microsoft.com).
 1. For Power Apps and Power Automate, select **AI hub** > **Prompts** > **Build your own prompt**.
-1. For Copilot Studio, there are multiple ways to create a prompt
-    1. Select **Agents**, pick or create an agent, then select **Actions** > **Add an action** > **New action** > **New prompt**
-    2. Select **Agents**, pick or create an agent, then select **Topics**. Pick or create a topic, add a node, then select **Add an action** > **New prompt**
-    3. Select **Library** > **Add new** > **Prompt**. Prompts created in the library can then be used in any agent action or topic.
+1. For Copilot Studio, there are multiple ways to create a prompt:
+    1. Select **Agents**, pick or create an agent, and then select **Actions** > **Add an action** > **New action** > **New prompt**
+    2. Select **Agents**, pick or create an agent, and then select **Topics**. Pick or create a topic, add a node, then select **Add an action** > **New prompt**
+    3. Select **Library** > **Add new** > **Prompt**. Prompts created in the library can be used in any agent action or topic.
 
     :::image type="content" source="media/create-a-custom-prompt/custom-prompt.png" alt-text="Screenshot of the fields you fill in to create a custom prompt.":::
 
 ### Configure and test your prompt
 
-1. Enter a custom name for your prompt by clicking on the generated name at the top left of the prompt.
+1. Enter a custom name for your prompt by selecting on the generated name at the top left of the prompt.
    
-1. Write your prompt or select a prompt template.
+1. Write your prompt or choose a prompt template.
 
     > [!TIP]
     > To access a larger set of prompt templates, go to the Prompt directory [Sample Solution Gallery](https://aka.ms/power-prompts).
 
-1. Include an input object by typing **/** or selecting **Add content**, then select **Text** or **Image or document** in the **Input** section. Inputs allow you to pass dynamic values to the prompt at runtime.
+1. Include an input object by typing **/** or selecting **Add content**, and then select **Text** or **Image or document** in the **Input** section. Inputs allow you to pass dynamic values to the prompt at runtime.
 
-   :::image type="content" source="media/create-a-custom-prompt/custom-prompt-add-input.png" alt-text="Add input.":::
+   :::image type="content" source="media/create-a-custom-prompt/custom-prompt-add-input.png" alt-text="Screenshot of the Add input option.":::
 
-   In this view, you can also select a knowledge object in the **Knowledge** section. A knowledge represents a set of data that is retrieved through a data source connection, like Dataverse. This allows your prompt to generate answers that are related to your business data.
+   In this view, you can also select a knowledge object in the **Knowledge** section. A knowledge represents a set of data retrieved through a data source connection, like Dataverse. This allows your prompt to generate answers that are related to your business data.
   
-1. Enter a sample value for each of your inputs.
+1. Type a sample value for each input.
 
-   :::image type="content" source="media/create-a-custom-prompt/custom-prompt-input-sample.png" alt-text="Add input sample.":::
+   :::image type="content" source="media/create-a-custom-prompt/custom-prompt-input-sample.png" alt-text="Screenshot showing how to add a sample input value.":::
   
-1. Select **Test** to run your prompt and review its response.
+1. Select **Test** to run the prompt and review its response.
    
 1. When you're satisfied, select **Save**.
 

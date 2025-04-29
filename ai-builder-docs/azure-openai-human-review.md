@@ -8,7 +8,7 @@ contributors:
   - v-aangie
 ms.topic: conceptual
 ms.custom: bap-template
-ms.date: 11/01/2024
+ms.date: 04/29/2025
 ms.author: ashbhati
 ms.reviewer: angieandrews
 ms.collection: 
@@ -17,11 +17,11 @@ ms.collection:
 
 # Human review for automation with a prompt
 
-This article emphasizes the critical role of human review in running a prompt in Power Automate. A prompt utilizes generative AI models powered by Azure OpenAI Service. Although these models are highly effective, they can sometimes generate misleading or fabricated information and are susceptible to prompt injection attacks.
+This article explains the critical role of human review when running a prompt in Power Automate. Prompts use generative AI models powered by Azure OpenAI Service. Although these models are highly effective, they can sometimes generate misleading or fabricated information and are susceptible to prompt injection attacks.
 
 > [!IMPORTANT]
 >
-> - AI Builder prompts are running on models powered by [Azure OpenAI Service](/azure/ai-services/openai/whats-new).
+> - AI Builder prompts are running on GPT models powered by [Azure OpenAI Service](/azure/ai-services/openai/whats-new).
 > - This capability is [limited to some regions](availability-region.md#prompts).
 > - This capability might be subject to usage limits or capacity throttling.
 
@@ -29,7 +29,7 @@ This article emphasizes the critical role of human review in running a prompt in
 
 A prompt injection attack occurs when a third-party takes advantage of the model's inherent trust in all input sources. The attacker injects a prompt into content that a legitimate user asks the AI solution to interact with, leading to a change in the AI solution's output, and potentially, its actions.
 
-For instance, consider a scenario where a citizen developer uses a prompt to formulate responses to customer complaints collected from various platforms such as emails, social media, or forums. An attacker could insert a prompt into the content from one of these sources. This scenario could deceive the model into generating a response that differs from the intended one. The response could be inappropriate, incorrect, or harmful. Incorrect information being dispatched to customers might negatively affect the company's reputation and customer relationships.
+Consider a scenario where a citizen developer uses a prompt to create responses to customer complaints collected from various platforms such as emails, social media, or forums. An attacker might insert a prompt into the content from one of these sources, deceiving the model into generating an unintended response. The response can be inappropriate, incorrect, or harmful. Sending incorrect information to customers might harm the company's reputation and customer relationships.  
 
 ## Fabrication in AI models
 

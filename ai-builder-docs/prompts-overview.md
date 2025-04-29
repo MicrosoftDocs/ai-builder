@@ -10,7 +10,7 @@ ms.topic: conceptual
 ms.collection: 
 - get-started
 - bap-ai-copilot
-ms.date: 11/01/2024
+ms.date: 04/29/2025
 ms.author: ashbhati
 ms.reviewer: angieandrews
 ---
@@ -32,9 +32,9 @@ AI Builder provides a prompt building user experience that allows makers to buil
 
 - You have a basic understanding of how to write prompts. To learn more, download the [AI Builder Prompting Guide](https://aka.ms/promptguide).
 - Your environment is in the list of [available regions](availability-region.md).
-- You have a Power Apps, Power Automate or Copilot Studio license, and:
-    - You have pre-purchased AI Builder credits if you use prompts in Power Apps or Power Automate
-    - You have pre-purchased messages, or pay-go active for messages, if you use prompts in Copilot Studio
+- You nned a Power Apps, Power Automate or Copilot Studio license, and:
+    - Pre-purchased AI Builder credits if you use prompts in Power Apps or Power Automate.
+    - Pre-purchased messages, or pay-go active for messages if you use prompts in Copilot Studio.
 - A Microsoft Dataverse database is installed on the environment.
 
 ## What a prompt is and how to use it
