@@ -11,7 +11,7 @@ ms.topic: conceptual
 ms.collection: 
 - get-started
 - bap-ai-copilot
-ms.date: 03/28/2025
+ms.date: 04/30/2025
 ms.author: ashbhati
 ms.reviewer: angieandrews
 ms.custom:
@@ -20,22 +20,22 @@ ms.custom:
 
 # Create a prompt
 
-Custom prompts give makers the freedom to instruct the GPT model to behave in a certain way or to perform a specific task. By carefully crafting a prompt, you can generate responses that suit your specific business needs. This transforms the GPT model into a flexible tool to accomplish various tasks.
+Custom prompts give makers the freedom to instruct the generative AI model to behave in a certain way or to perform a specific task. By carefully crafting a prompt, you can generate responses that suit your specific business needs. This transforms the model into a flexible tool to accomplish various tasks.
 
 > [!IMPORTANT]
-> - AI Builder prompts run on GPT 4o Mini and GPT 4o models powered by [Azure OpenAI Service](/azure/ai-services/openai/whats-new).
+> - AI Builder prompts run on GPT models powered by [Azure OpenAI Service](/azure/ai-services/openai/whats-new).
 > - This capability is [limited to some regions](availability-region.md#prompts).
 > - This capability might be subject to usage limits or capacity throttling.
 
 ## Supported languages
 
-The following list of supported languages for AI prompts in AI Builder is subject to be updated:
+The following list of supported languages for prompts in AI Builder is subject to be updated:
 
 Chinese (Simplified), Czech (Czech Republic), Danish (Denmark), Dutch (Netherlands), English (United States), Finnish (Finland), French (France), German (Germany), Greek (Greece), Italian (Italy), Japanese (Japan), Korean (Korea), Polish (Poland), Portuguese (Brazil), Russian (Russia), Spanish (Spain), Swedish (Sweden), Thai (Thailand), Turkish (Türkiye)
 
 ## Use specific text for more relevant responses
 
-The goal of prompt engineering is to create an instruction that's as specific as possible to get a more relevant response from the GPT model. Your prompts should be specific to a topic and convey your intent.
+The goal of prompt engineering is to create an instruction that's as specific as possible to get a more relevant response from the model. Your prompts should be specific to a topic and convey your intent.
 
 A prompt might include the following  information:
 
@@ -53,72 +53,60 @@ If the generated text is too long or contains irrelevant information, adjust the
 
 ## Parts of a prompt
 
-There are generally two parts to a prompt for a GPT model: the instruction and the context.
+There are generally two parts to a prompt: the instruction and the context.
 
-- The instruction is the first part of the prompt. It should provide clear directions on what the GPT model should do, for example, "Summarize this email in three bullets."
-- The context is the second part of the prompt. It should provide the information the GPT model needs to generate an appropriate response, for example, "The email contains customer feedback from the past week."
+- The instruction is the first part of the prompt. It should provide clear directions on what the GPT model should do, for example, *Summarize this email in three bullets.*
+- The context is the second part of the prompt. It should provide the information the model needs to generate an appropriate response, for example, *The email contains customer feedback from the past week.*
 
-**Example**
+### Example
 
-A custom prompt can guide the GPT model to answer a question, complete text, translate languages, summarize a document, and identify tasks, to-dos, and action items in text. The complexity of a custom prompt can range from a single sentence to something more intricate, depending on the task.
+A custom prompt can guide the model to answer a question, complete text, translate languages, summarize a document, and identify tasks, to-dos, and action items in text. The complexity of a custom prompt can range from a single sentence to something more intricate, depending on the task.
 
 ## Download: AI Builder prompt engineering guide
 
 **Download the guide here: [AI Builder prompt engineering guide (10 pages, 10X13 in.)](https://go.microsoft.com/fwlink/?linkid=2255775)** 
 
-:::image type="content" source="media/create-a-custom-prompt/prompt-engineering-guide.png" alt-text="Screenshot of AI Builder prompt engineering guide.":::
+:::image type="content" source="media/create-a-custom-prompt/prompt-engineering-guide.png" alt-text="Screenshot of 'AI Builder prompt engineering guide'.":::
 
 Download and print the AI Builder prompt engineering guide (10 pages, 10X13 inch size) to keep it handy and get help creating prompts.
 
-## Create a GPT prompt
+## Create a prompt
 
-Prompt builder provides the flexibility to create your own custom prompt by defining input variables that enable incorporating dynamic runtime content within a prompt. It gives you the ability to validate the prompt with **Test your prompt**, ensuring optimal prompt performance and correctness of the response before integration into your business solutions.
+Prompt builder provides the flexibility to create your own custom prompt by defining input variables that enable incorporating dynamic runtime content within a prompt. It gives you the ability to validate the prompt, ensuring optimal prompt performance and correctness of the response before integration into your business solutions.
 
 1. Sign in to [Power Apps](https://make.powerapps.com), [Power Automate](https://make.powerautomate.com), or [Copilot Studio](https://copilotstudio.microsoft.com).
-1. On the left pane, select **AI prompts** or **Prompts** > **Create text with GPT using a prompt**.
+1. For Power Apps and Power Automate, select **AI hub** > **Prompts** > **Build your own prompt**.
+1. For Copilot Studio, there are multiple ways to create a prompt:
+    1. Select **Agents** > pick or create an agent > **Actions** > **Add an action** > **New action** > **New prompt**.
+    1. Select **Agents** > pick or create an agent > **Topics**. Pick or create a topic, add a node, and then select **Add an action** > **New prompt**.
+    1. Select **Library** > **Add new** > **Prompt**. Prompts created in the library can be used in any agent action or topic.
 
-    For Power Apps and Power Automate, you might need to first select **AI hub** on the left pane.
-
-1. On the lower-right corner, select **Create custom prompt**.
-
-    :::image type="content" source="media/create-a-custom-prompt/custom-prompt.svg" alt-text="Screenshot of the fields you fill in to create a custom prompt.":::
+    :::image type="content" source="media/create-a-custom-prompt/custom-prompt.png" alt-text="Screenshot of the fields you fill in to create a custom prompt.":::
 
 ### Configure and test your prompt
 
-Use the following screenshot as a guide to build and test your prompt.
-
-:::image type="content" source="media/create-a-custom-prompt/configure-and-test.png" alt-text="Screenshot of the steps to configure and test your prompt.":::
-
-1. Enter a name for your prompt.
-1. Write or paste your prompt.
-
-    Alternatively, you can build upon an existing template to give yourself a starting point.
+1. Enter a custom name for your prompt by selecting on the generated name at the top left of the prompt.
+1. Write your prompt or choose a prompt template.
 
     > [!TIP]
-    > For help finding prompts you can use, go to the Prompt directory [Sample Solution Gallery](https://aka.ms/power-prompts).
+    > To access a larger set of prompt templates, go to the Prompt directory [Sample Solution Gallery](https://aka.ms/power-prompts).
 
-1. Add a dynamic value, and then select **Enter**.
+1. Include an input object by typing **/** or selecting **Add content**, and then select **Text** or **Image or document** in the **Input** section. Inputs allow you to pass dynamic values to the prompt at runtime.
 
-    In the process of building prompts, makers often need to provide context data to ensure that the GPT model generates appropriate responses. To facilitate this, dynamic values are used in the prompt, serving as placeholders that get filled with actual data at runtime.
+   :::image type="content" source="media/create-a-custom-prompt/custom-prompt-add-input.png" alt-text="Screenshot of the 'Add input' option.":::
+
+   In this view, you can also select a knowledge object in the **Knowledge** section. A knowledge represents a set of data retrieved through a data source connection, like Dataverse. This allows your prompt to generate answers that are related to your business data.
   
-1. Test your prompt using the sample value.
+1. Type a sample value for each input.
 
-    The testing of prompts is an essential yet often under-emphasized capability. Manual testing is beneficial for iterative building experiences.
-
-1. (Optional) Insert input or data references to define how it must be used in context of the prompt.
-
-### Review and save your prompt
-
-Prompt builder allows makers to save prompts to facilitate reusability, archiving, and future improvement of prompts.
-
-1. After you test your prompt with the sample value (in step 4), review it to see how well your prompt works.
-1. When you're satisfied, select **Save custom prompt**.
-
-    :::image type="content" source="media/create-a-custom-prompt/review-and-save.png" alt-text="Screenshot of a prompt response.":::
+   :::image type="content" source="media/create-a-custom-prompt/custom-prompt-input-sample.png" alt-text="Screenshot showing how to add a sample input value.":::
+  
+1. Select **Test** to run the prompt and review its response.
+1. When you're satisfied, select **Save**.
 
 ## Use your prompt in Power Apps or Power Automate
 
-Your next step is determined by the app you plan to use with your prompt.
+The app you plan to use with your prompt determines your next step.
 
 - Use in Power Apps
   - Empowers makers to incorporate existing prompts into their apps.
@@ -128,7 +116,7 @@ Your next step is determined by the app you plan to use with your prompt.
   - Empowers makers to incorporate existing prompts into their flows.
   - [Use a prompt in Power Automate](use-a-custom-prompt-in-flow.md)
 
-Learn how to include your prompt in a flow in this quick video:</br>
+Check out this short video to learn how to include your prompt in a flow.</br>
 </br>
   
 > [!VIDEO 0b76ebb0-c95c-483b-b29b-7d5c0921f3a9]
