@@ -7,7 +7,7 @@ contributors:
   - -phil-cmd
   - v-aangie
 ms.topic: conceptual
-ms.date: 12/12/2024
+ms.date: 04/29/2025
 ms.author: antrod
 ms.reviewer: angieandrews
 ms.collection: 
@@ -20,7 +20,7 @@ By default, the prompt generates text as response. Text can be convenient for ma
 
 ## Benefits of using JSON output
 
-The JSON output allows you to generate a JSON structure for your prompt response instead of a text. JSON allows an easier processing of responses with multiple elements in agents, flows or apps.
+The JSON output lets you generate a JSON structure for your prompt response instead of text. JSON makes it easier to process responses with multiple elements in agents, flows, or apps.
 
 Following is an example of use cases that become possible with JSON output:
 
@@ -35,13 +35,13 @@ This section describes how to select JSON as output and edit the JSON format.
 
 ### Select JSON as output
 
-To change how the prompt response is rendered,  select **JSON** as output on the top right.
+To change how the prompt response is rendered, select **JSON** as the output in the top-right corner.
 
 :::image type="content" source="media/change-prompt-output/test-prompt-auto.png" alt-text="Screenshot of selections on the 'Prompt with JSON' page.":::
 
 ### Edit JSON format
 
-To view or edit the JSON format, click on the settings icon at the left of **Output: JSON**.
+To view or edit the JSON format, select the settings icon to the left of **Output: JSON**.
 
 :::image type="content" source="media/change-prompt-output/output-settings.png" alt-text="Screenshot of the output settings.":::
 
@@ -51,7 +51,7 @@ By default, the format is **Auto detected**. This format means each time you tes
 
 If you update the JSON example, the format becomes **Custom** and is never updated if you test your prompt again. This format is convenient when you don't want prompt tweaking to influence the format, or if you need to follow a specific format.
 
-You can revert to auto detect mode by selecting **Back to auto-detect** icon.
+You can revert to auto-detect mode by selecting the **Back to auto-detect** icon.
 
 :::image type="content" source="media/change-prompt-output/back-auto.png" alt-text="Screenshot of the 'Back to auto-detected' icon.":::
 
@@ -61,41 +61,41 @@ To test and save your prompt, follow these steps:
 1. To check how your prompt response renders with the new format, select **Test**.
 1. When you finish your modifications, select **Save custom**. If you skip this step, your changes are lost.
 
-When you save your prompt, you're locking the latest **Auto-detected** format or the **Custom** format defined. This means when you use your prompt in an agent, a flow or an app, the saved format is used&mdash;it doesn't vary.
+When you save your prompt, you're locking the latest **Auto-detected** format or the **Custom** format defined. This means when you use your prompt in an agent, a flow, or an app, the saved format is used&mdash;it doesn't vary.
 
 At any time, you can check the JSON schema that generates out of the JSON examples by selecting **</>**. You can't modify this schema currently.
 
 ## Use a prompt with JSON output in Power Automate
 
-In this section we will guide you to create the following flow:
+This section guides you to create the following flow:
 
 :::image type="content" source="media/change-prompt-output/output-flow.png" alt-text="Screenshot of a flow with a prompt":::
 
-1. Create a prompt to process invoices with an **Image or document** as input.
+1. Create a prompt to process invoices using an **Image or document** as input.
 
-   To learn more, go to [Add text, image, or document input to a prompt](/ai-builder/add-inputs-prompt).
+   Learn more in [Add text, image, or document input to a prompt](/ai-builder/add-inputs-prompt).
 
-   :::image type="content" source="media/change-prompt-output/invoice-prompt.png" alt-text="Screenshot of invoice processing prompt.":::
+   :::image type="content" source="media/change-prompt-output/invoice-prompt.png" alt-text="Screenshot of an invoice processing prompt.":::
 
 1. Update the JSON format by providing the following JSON example:
 
-   :::image type="content" source="media/change-prompt-output/custom-format.png" alt-text="Screenshot of custom JSON format.":::
+   :::image type="content" source="media/change-prompt-output/custom-format.png" alt-text="Screenshot of a custom JSON format.":::
 
-1. Create a flow with the trigger, **When a new email arrives**. If you just need to process specific emails, make sure to set filters.
+1. Create a flow with the **When a new email arrives** trigger. To process specific emails, make sure to set filters.
 
-    To learn more, go to [Get started with triggers](/power-automate/triggers-introduction?tabs=classic-designer).
+    Learn more in [Get started with triggers](/power-automate/triggers-introduction?tabs=classic-designer).
 
-1. Add the action **Run a prompt** and select the prompt you created in the first step.
+1. Add the **Run a prompt** action, and select the prompt you created in the first step.
 
-1. In the **invoice** input, add the attachment of the email coming from the trigger action.
+1. In the **invoice** input, add the email attachment from the trigger action.
 
-   :::image type="content" source="media/change-prompt-output/output-flow-prompt.png" alt-text="Screenshot prompt parameters in flow.":::
+   :::image type="content" source="media/change-prompt-output/output-flow-prompt.png" alt-text="Screenshot of prompt parameters in flow.":::
 
-1. Add the action **Send an email**.
+1. Add the **Send an email** action.
    
-1. Edit the body of the email so it contains the elements extracted by the prompt with JSON output.
+1. Edit the email body to include the elements extracted by the prompt with JSON output.
 
-    :::image type="content" source="media/change-prompt-output/gpt-output-json-flow.png" alt-text="Screenshot of the email body with the JSON fields.":::
+    :::image type="content" source="media/change-prompt-output/gpt-output-json-flow.png" alt-text="Screenshot of an email body showing JSON fields.":::
 
 ## FAQ
 
