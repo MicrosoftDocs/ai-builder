@@ -3,13 +3,14 @@ title: Human review for automation with a prompt
 description: Learn about emphasizing human review for automation with a prompt.
 author: ashbhati
 contributors:
+  - antrodfr
   - ashbhati
   - phil-cmd
   - v-aangie
 ms.topic: conceptual
 ms.custom: bap-template
-ms.date: 04/29/2025
-ms.author: ashbhati
+ms.date: 04/30/2025
+ms.author: antrod
 ms.reviewer: angieandrews
 ms.collection: 
     - bap-ai-copilot
@@ -48,4 +49,4 @@ Our objective is to further refine the generative AI models used by prompts with
 
 ## Related information
 
-[Responsible AI - FAQ](faqs-text-generation.md)
+[FAQ for prompts and text generation capabilities](faqs-text-generation.md)

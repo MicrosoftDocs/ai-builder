@@ -11,7 +11,7 @@ ms.topic: conceptual
 ms.collection: 
 - get-started
 - bap-ai-copilot
-ms.date: 04/29/2025
+ms.date: 04/30/2025
 ms.author: ashbhati
 ms.reviewer: angieandrews
 ms.custom:
@@ -55,10 +55,10 @@ If the generated text is too long or contains irrelevant information, adjust the
 
 There are generally two parts to a prompt: the instruction and the context.
 
-- The instruction is the first part of the prompt. It should provide clear directions on what the GPT model should do, for example, "Summarize this email in three bullets."
-- The context is the second part of the prompt. It should provide the information the model needs to generate an appropriate response, for example, "The email contains customer feedback from the past week."
+- The instruction is the first part of the prompt. It should provide clear directions on what the GPT model should do, for example, *Summarize this email in three bullets.*
+- The context is the second part of the prompt. It should provide the information the model needs to generate an appropriate response, for example, *The email contains customer feedback from the past week.*
 
-**Example**
+### Example
 
 A custom prompt can guide the model to answer a question, complete text, translate languages, summarize a document, and identify tasks, to-dos, and action items in text. The complexity of a custom prompt can range from a single sentence to something more intricate, depending on the task.
 
@@ -66,7 +66,7 @@ A custom prompt can guide the model to answer a question, complete text, transla
 
 **Download the guide here: [AI Builder prompt engineering guide (10 pages, 10X13 in.)](https://go.microsoft.com/fwlink/?linkid=2255775)** 
 
-:::image type="content" source="media/create-a-custom-prompt/prompt-engineering-guide.png" alt-text="Screenshot of AI Builder prompt engineering guide.":::
+:::image type="content" source="media/create-a-custom-prompt/prompt-engineering-guide.png" alt-text="Screenshot of 'AI Builder prompt engineering guide'.":::
 
 Download and print the AI Builder prompt engineering guide (10 pages, 10X13 inch size) to keep it handy and get help creating prompts.
 
@@ -77,16 +77,15 @@ Prompt builder provides the flexibility to create your own custom prompt by defi
 1. Sign in to [Power Apps](https://make.powerapps.com), [Power Automate](https://make.powerautomate.com), or [Copilot Studio](https://copilotstudio.microsoft.com).
 1. For Power Apps and Power Automate, select **AI hub** > **Prompts** > **Build your own prompt**.
 1. For Copilot Studio, there are multiple ways to create a prompt:
-    1. Select **Agents**, pick or create an agent, and then select **Actions** > **Add an action** > **New action** > **New prompt**
-    2. Select **Agents**, pick or create an agent, and then select **Topics**. Pick or create a topic, add a node, then select **Add an action** > **New prompt**
-    3. Select **Library** > **Add new** > **Prompt**. Prompts created in the library can be used in any agent action or topic.
+    1. Select **Agents** > pick or create an agent > **Actions** > **Add an action** > **New action** > **New prompt**.
+    1. Select **Agents** > pick or create an agent > **Topics**. Pick or create a topic, add a node, and then select **Add an action** > **New prompt**.
+    1. Select **Library** > **Add new** > **Prompt**. Prompts created in the library can be used in any agent action or topic.
 
     :::image type="content" source="media/create-a-custom-prompt/custom-prompt.png" alt-text="Screenshot of the fields you fill in to create a custom prompt.":::
 
 ### Configure and test your prompt
 
 1. Enter a custom name for your prompt by selecting on the generated name at the top left of the prompt.
-   
 1. Write your prompt or choose a prompt template.
 
     > [!TIP]
@@ -94,7 +93,7 @@ Prompt builder provides the flexibility to create your own custom prompt by defi
 
 1. Include an input object by typing **/** or selecting **Add content**, and then select **Text** or **Image or document** in the **Input** section. Inputs allow you to pass dynamic values to the prompt at runtime.
 
-   :::image type="content" source="media/create-a-custom-prompt/custom-prompt-add-input.png" alt-text="Screenshot of the Add input option.":::
+   :::image type="content" source="media/create-a-custom-prompt/custom-prompt-add-input.png" alt-text="Screenshot of the 'Add input' option.":::
 
    In this view, you can also select a knowledge object in the **Knowledge** section. A knowledge represents a set of data retrieved through a data source connection, like Dataverse. This allows your prompt to generate answers that are related to your business data.
   
@@ -103,13 +102,11 @@ Prompt builder provides the flexibility to create your own custom prompt by defi
    :::image type="content" source="media/create-a-custom-prompt/custom-prompt-input-sample.png" alt-text="Screenshot showing how to add a sample input value.":::
   
 1. Select **Test** to run the prompt and review its response.
-   
 1. When you're satisfied, select **Save**.
-
 
 ## Use your prompt in Power Apps or Power Automate
 
-Your next step is determined by the app you plan to use with your prompt.
+The app you plan to use with your prompt determines your next step.
 
 - Use in Power Apps
   - Empowers makers to incorporate existing prompts into their apps.
@@ -119,7 +116,7 @@ Your next step is determined by the app you plan to use with your prompt.
   - Empowers makers to incorporate existing prompts into their flows.
   - [Use a prompt in Power Automate](use-a-custom-prompt-in-flow.md)
 
-Learn how to include your prompt in a flow in this quick video:</br>
+Check out this short video to learn how to include your prompt in a flow.</br>
 </br>
   
 > [!VIDEO 0b76ebb0-c95c-483b-b29b-7d5c0921f3a9]

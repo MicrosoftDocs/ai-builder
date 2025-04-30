@@ -1,9 +1,9 @@
 ---
 title: Add text, image, or document input to a prompt
 description: Learn how to add text, image, or document input to a prompt.
-author: chplanty
+author: antrodfr
 contributors:
-  - antrod
+  - antrodfr
   - chplanty
   - ashbhati
   - antoinecellerier
@@ -12,7 +12,7 @@ ms.topic: conceptual
 ms.collection: 
 - get-started
 - bap-ai-copilot
-ms.date: 04/29/2025
+ms.date: 04/30/2025
 ms.custom: ignite-2024
 ms.author: antrod
 ms.reviewer: angieandrews
@@ -20,7 +20,7 @@ ms.reviewer: angieandrews
 
 # Add text, image, or document input to a prompt
 
-You can enhance your prompts by allowing users or systems to input text, images, or documents at prompt runtime, whether in an app, a flow, or a copilot agent. By providing these input modalities, you enable the prompt to act on a diverse range of data types, thereby expanding the usability of the prompt.
+You can enhance your prompts by allowing users or systems to input text, images, or documents at prompt runtime, whether in an app, a flow, or a copilot agent. By providing these input modalities, you enable the prompt to act on a diverse range of data types, which expands the usability of the prompt.
 
 > [!IMPORTANT]
 > - AI Builder prompts run on GPT models powered by [Azure OpenAI Service](/azure/ai-services/openai/whats-new).
@@ -29,21 +29,21 @@ You can enhance your prompts by allowing users or systems to input text, images,
 
 ## Add an input to a prompt
 
-You include an input object by typing **/** or selecting **Add content**, then selecting **Text** or **Image or document** in the **Input** section. 
+To include an input object, type **/** or select **Add content**. Then, select **Text** or **Image or document** in the **Input** section.
 
-   :::image type="content" source="media/create-a-custom-prompt/custom-prompt-add-input.png" alt-text="Add input.":::
+:::image type="content" source="media/create-a-custom-prompt/custom-prompt-add-input.png" alt-text="Screenshot of adding input.":::
 
 ## Text input
 
-When you use text inputs, you can perform actions on text content that dynamically passes to the prompt at runtime, such as text summarization, text classification, extracting text information, sentiment analysis of text, text generation, and many more.
+When you use text inputs, you can perform actions on text content that dynamically pass to the prompt at runtime, such as text summarization, text classification, extracting text information, sentiment analysis of text, text generation, and more.
 
-:::image type="content" source="media/add-inputs-prompt/input-text-summarize.png" alt-text="Screenshot of summarize with a text input.":::
+:::image type="content" source="media/add-inputs-prompt/input-text-summarize.png" alt-text="Screenshot of summarizing with a text input.":::
 
 If you're satisfied with your prompt, you can provide a sample value for your text input by selecting the input icon on the top right of the prompt builder experience and adding text in the **Sample data** field of your input.
 
 ## Image or document input
 
-When you use image or document inputs, you can perform actions on file content that dynamically passes to the prompt at run time, such as file summarization, file categorization, extracting file information (both textual and visual), asking questions on file, and many more. It's also possible to combine both text and document or image inputs in the same prompt.
+When you use image or document inputs, you can perform actions on file content that dynamically pass to the prompt at run time, such as file summarization, file categorization, extracting file information (both textual and visual), asking questions on file, and many more. It's also possible to combine both text and document or image inputs in the same prompt.
 
 :::image type="content" source="media/add-inputs-prompt/input-file-extraction.png" alt-text="Screenshot of extracting information from a document.":::
 

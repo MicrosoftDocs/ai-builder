@@ -1,13 +1,13 @@
 ---
 title: Change the output of your prompt
 description: Learn how to change the output of your prompt.
-author: antrod
+author: antrodfr
 contributors:
-  - antrod
+  - antrodfr
   - -phil-cmd
   - v-aangie
 ms.topic: conceptual
-ms.date: 04/29/2025
+ms.date: 04/30/2025
 ms.author: antrod
 ms.reviewer: angieandrews
 ms.collection: 
