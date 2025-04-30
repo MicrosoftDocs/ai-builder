@@ -117,7 +117,7 @@ AI Builder is available in US Government environments with the features listed i
 |:-----------------|:--------------------------------:|:--------------------------------------------:|:---------------------------:|
 | GPT-4o mini      |               GA                 |                     GA                       |              -              |
 | GPT-4o           |               GA                 |                     GA                       |              -              |
-| GPT-4o using image or document as input |               GA                 |                     GA                       |              -              |
+| GPT-4o using image or document as input |               -                 |                     -                       |              -              |
 | o1           |               -                 |                     -                       |              -              |
 
 ### US Government feature limitations
