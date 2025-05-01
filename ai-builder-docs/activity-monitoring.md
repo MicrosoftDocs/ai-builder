@@ -1,6 +1,6 @@
 ---
-title: Monitor model activity (preview)
-description: Learn how to monitor the activity or consumption of your AI models.
+title: Monitor AI Builder models and prompts activity
+description: Learn how to monitor the activity or consumption of your AI models and prompts.
 author: jekom1
 contributors: 
   - jekom1
@@ -13,47 +13,51 @@ ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
-# Monitor model activity (preview)
+# Monitor AI Builder models and prompts activity 
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-As you use your AI models, you might have to access data to monitor their activity or consumption.
+As you use your AI models and prompts, you might have to access data to monitor their activity or consumption.
 
 > [!IMPORTANT]
 > - This is a preview feature.
 > - Preview features aren’t meant for production use and may have restricted functionality. These features are available before an official release so that customers can get early access and provide feedback.
 > - This feature might not yet be available in your region.
 
-The **AI Builder activity** section of the Power Automate portal provides tables and charts that you can use to monitor AI models and the data that they process, and to track AI credit consumption.
+The **Monitor activity** section of the AI Hub in Power Automate portal provides tables that you can use to monitor AI models&prompts and the data that they process, and to track their consumption.
 
 :::image type="content" source="media/activity-monitoring/activity-monitoring-legend.png" alt-text="Screenshot of the AI Builder activity (preview) page.":::
 
-Legend:
-
-1. **Data processed**: The text input of the AI model predict action for text processing models, or the value **Image** or **Document** for other models.
-1. **Data type**: The data type that the AI model processed: **Text**, **Jpeg**, **Png**, **Bmp**, **Pdf**, or **Unknown**.
-1. **Date**: The processing date.
-1. **Model**: The name of the AI model that was used. If the model has been deleted, **Deleted** is shown.
-1. **Status**: The processing status: **Processing**, **Processed**, or **Failed**.
-1. **Processed by**: The name of the person who did the predict action. This person is typically the owner of the Power Automate flow or the person who ran the app that was created in Power Apps.
-1. **AI Credits**: The number of credits that were consumed for the predict action.
-
 ## View AI Builder activity
 
-The **AI Builder activity** page shows AI model activity, including activity that is generated in [Power Apps](/power-apps/powerapps-overview).
+The **AI Builder activity** page shows AI model and prompts activity, including activity that is generated in [Power Apps](/power-apps/powerapps-overview) and Microsoft Copilot Studio.
 
 1. Sign in to [Power Automate](https://make.powerautomate.com).
-1. On the left navigation pane, select **...More** > **Discover all**.
-1. Under **Monitor**, select **AI Builder activity (preview)**.
-1. (Optional) Customize the data that shows by applying a filter for the timeframe or model. To apply a filter, select the relevant table heading.
+2. Click on "AI Hub" on the left navigation pane
+3. Select "Monitor activity" tile
+1. (Optional) Customize the data that shows by applying a filter for the timeframe or tool type.
+   [image here]
 
     By default, data shows for all AI models for the last seven days.
+Legend:
 
-1. (Optional) To display more data, select **See more**.
+1. **Processed time**: The processing date
+2. **Tool name**: The name of the AI model or prompt
+3. **Input**: The text input of the AI model predict action for text processing models, or the value **Image** or **Document** for other models/prompts.
+4. **Output**: The output of the GPT prompt (model response) in the selected output format
+5. **Used in**: The consumption source of the AI model or prompt. It can be Power Automate, Power Apps, Copilot Studio or Quick Test for saved but not consumed prompts.
+6. **Consumption**: The numeric value for the consumption for related AI model or prompt run.
+
+   More details can be shown when click on each event on the table.
+   [image here]
+   Legend:
+   
+1. **Processed by**: The name of the person who did the predict action. This person is typically the owner of the Power Automate flow or the person who ran the app that was created in Power Apps.
+1. **Model**: The name of the language model that is used in the prompt run.
 
 ## Monitoring data for makers and admins
 
-The **AI Builder activity** section is helpful for makers who want to monitor the use of their AI models. It's also helpful for environment admins who want to monitor all activity in an environment.
+The **AI Builder activity** section is helpful for makers who want to monitor the use of their AI models and prompts. It's also helpful for environment admins who want to monitor all activity in an environment.
 
 > [!NOTE]
 > - The monitoring data is stored in the **AI Event** table in your Dataverse instance. It persists in the table even if the model, flow, and app are deleted.
@@ -88,7 +92,7 @@ The following table shows an AI Builder activity monitoring Dataverse table that
 
 | Display name | System name | Details |
 |--------|--------|--------|
-| AI Event | Msdyn\_aievent | The **AI Event** table stores activity data about AI model activity (*predicts*). This data includes the processed data type, processed data information for text scenarios, processing date, processing status, and credits consumed. |
+| AI Event | Msdyn\_aievent | The **AI Event** table stores activity data about AI model and prompt activity. This data includes the processed data type, processed data information for text scenarios, processing date, processing status, and consumption. |
 
 As the data is stored in your **AI Event** Dataverse table, you can export it in comma-separated values (CSV) format. [Learn how to export data.](/power-apps/maker/data-platform/data-platform-import-export#export-data0)
 
