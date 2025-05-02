@@ -38,8 +38,8 @@ Legend:
 2. **Tool name**: The AI model or prompt name.
 3. **Input**: The text input of the AI model predict action for text processing models, or the value **Image** or **Document** for other models/prompts.
 4. **Output**: The GPT prompt output (model response) in the selected output format.
-5. **Used in**: The consumption source of the AI model or prompt. It can be Power Automate, Power Apps, Copilot Studio or Quick Test for saved but not consumed prompts.
-6. **Consumption**: The numeric conspution value for the related AI model or prompt run.
+5. **Used in**: The consumption source of the AI model or prompt. It can be Power Automate, Power Apps, Copilot Studio, or Quick Test for saved but not consumed prompts.
+6. **Consumption**: The numeric consumption value for the related AI model or prompt run.
 
   More details can be shown when you select each event in the table.
 
@@ -79,7 +79,7 @@ In addition to on-demand bulk-delete jobs, you can schedule recurrent bulk-delet
 To create bulk-delete jobs in Dataverse, you must have the **Bulk Delete** privilege in at least one of the roles that have been assigned to you.
 
 > [!CAUTION]
-> When you delete Dataverse data, it's permanently deleted from your environment. There is no way to recover individual records after they have been deleted.
+> When you delete Dataverse data, it's permanently deleted from your environment. There's no way to recover individual records after they have been deleted.
 
 ### Export a Dataverse table
 
