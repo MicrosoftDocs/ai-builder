@@ -103,8 +103,6 @@ To illustrate this procedure, we use the following example where we've trained a
 > [!div class="mx-imgBorder"]
 > !['Add a row into a table' card.](media/form-processing-iterate-table-2.png "A flow that iterates over a table extracted by a document processing model.")
 
-> [!NOTE]
-> Tables extracted by document processing currently don't return a confidence score.
 
 ### Process outputs of checkboxes in Power Automate
 
