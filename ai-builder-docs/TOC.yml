@@ -324,7 +324,7 @@
     href: licensing-prompt-tokens.md
   - name: Consumption report
     href: administer-consumption-report.md
-  - name: Monitor model activity (preview)
+  - name: Monitor AI Builder models and prompts activity
     href: activity-monitoring.md  
 - name: Troubleshoot
   items:

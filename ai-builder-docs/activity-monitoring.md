@@ -8,52 +8,48 @@ contributors:
   - v-aangie
 ms.topic: conceptual
 ms.custom: 
-ms.date: 01/27/2025
+ms.date: 05/02/2025
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
 # Monitor AI Builder models and prompts activity 
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
-
 As you use your AI models and prompts, you might have to access data to monitor their activity or consumption.
 
-> [!IMPORTANT]
-> - This is a preview feature.
-> - Preview features aren’t meant for production use and may have restricted functionality. These features are available before an official release so that customers can get early access and provide feedback.
-> - This feature might not yet be available in your region.
-
-The **Monitor activity** section of the AI Hub in Power Automate portal provides tables that you can use to monitor AI models&prompts and the data that they process, and to track their consumption.
+The **Monitor activity** section of the AI Hub in the Power Automate portal provides tables that you can use to monitor AI models and prompts and the data that they process, and to track their consumption.
 
 :::image type="content" source="media/activity-monitoring/activity-monitoring-legend.png" alt-text="Screenshot of the AI Builder activity (preview) page.":::
 
 ## View AI Builder activity
 
-The **AI Builder activity** page shows AI model and prompts activity, including activity that is generated in [Power Apps](/power-apps/powerapps-overview) and Microsoft Copilot Studio.
+The **AI Builder activity** page shows AI model and prompts activity, including activity generated in [Power Apps](/power-apps/powerapps-overview) and [Microsoft Copilot Studio](/microsoft-copilot-studio/fundamentals-what-is-copilot-studio).
 
 1. Sign in to [Power Automate](https://make.powerautomate.com).
-2. Click on "AI Hub" on the left navigation pane
-3. Select "Monitor activity" tile
-1. (Optional) Customize the data that shows by applying a filter for the timeframe or tool type.
+2. Select **AI Hub** on the left navigation pane.
+3. Select **Monitor activity**.
+4. (Optional) Customize the displayed data that shows by filtering the timeframe or tool type.
+   
    [image here]
 
-    By default, data shows for all AI models for the last seven days.
+   By default, data displays for all AI models from the last seven days.
+
 Legend:
 
-1. **Processed time**: The processing date
-2. **Tool name**: The name of the AI model or prompt
+1. **Processed time**: The time when processing occurs.
+2. **Tool name**: The AI model or prompt name.
 3. **Input**: The text input of the AI model predict action for text processing models, or the value **Image** or **Document** for other models/prompts.
-4. **Output**: The output of the GPT prompt (model response) in the selected output format
+4. **Output**: The GPT prompt output (model response) in the selected output format.
 5. **Used in**: The consumption source of the AI model or prompt. It can be Power Automate, Power Apps, Copilot Studio or Quick Test for saved but not consumed prompts.
-6. **Consumption**: The numeric value for the consumption for related AI model or prompt run.
+6. **Consumption**: The numeric conspution value for the related AI model or prompt run.
 
-   More details can be shown when click on each event on the table.
-   [image here]
-   Legend:
-   
-1. **Processed by**: The name of the person who did the predict action. This person is typically the owner of the Power Automate flow or the person who ran the app that was created in Power Apps.
-1. **Model**: The name of the language model that is used in the prompt run.
+  More details can be shown when you select each event in the table.
+  [image here]
+
+Legend:
+
+1. **Processed by**: The name of the person who performs the predict action. This person is typically the owner of the Power Automate flow or the person who runs the app created in Power Apps.
+1. **Model**: The name of the language model used in the prompt run.
 
 ## Monitoring data for makers and admins
 
