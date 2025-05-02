@@ -44,14 +44,14 @@ Learn more in [What is Power Apps?](/power-apps/powerapps-overview) and [Copilot
     1. **Used in**: The consumption source of the AI model or prompt. It can be Power Automate, Power Apps, Copilot Studio, or Quick Test for saved but not consumed prompts.
     1. **Consumption**: The numeric consumption value for the related AI model or prompt run.
 
-  More details show when you select each event in the table.
+      More details show when you select each event in the table.
 
-   <!--image here-->
+       <!--image here-->
 
-    Legend:
+        Legend:
 
-    1. **Processed by**: The name of the person who performs the predict action. This person is typically the owner of the Power Automate cloud flow or the person who runs the app created in Power Apps.
-    1. **Model**: The name of the language model used in the prompt run.
+        1. **Processed by**: The name of the person who performs the predict action. This person is typically the owner of the Power Automate cloud flow or the person who runs the app created in Power Apps.
+        1. **Model**: The name of the language model used in the prompt run.
 
 ## Monitor data for makers and admins
 
