@@ -19,8 +19,6 @@ As you use your AI models and prompts, you might have to access data to monitor 
 
 The **Monitor activity** section of the AI Hub in the Power Automate portal provides tables that you can use to monitor AI models and prompts and the data that they process, and to track their consumption.
 
-:::image type="content" source="media/activity-monitoring/activity-monitoring-legend.png" alt-text="Screenshot of the AI Builder activity (preview) page.":::
-
 ## View AI Builder activity
 
 The **AI Builder activity** page shows AI model and prompts activity, including activity generated in [Power Apps](/power-apps/powerapps-overview) and [Microsoft Copilot Studio](/microsoft-copilot-studio/fundamentals-what-is-copilot-studio).
@@ -44,6 +42,7 @@ Legend:
 6. **Consumption**: The numeric conspution value for the related AI model or prompt run.
 
   More details can be shown when you select each event in the table.
+
   [image here]
 
 Legend:
