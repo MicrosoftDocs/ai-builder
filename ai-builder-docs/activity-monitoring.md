@@ -1,62 +1,65 @@
 ---
 title: Monitor AI Builder models and prompts activity
 description: Learn how to monitor the activity or consumption of your AI models and prompts.
-author: jekom1
+author: CerenKiroglu
 contributors: 
+  - CerenKiroglu
   - jekom1
   - phil-cmd
   - v-aangie
 ms.topic: conceptual
 ms.custom: 
-ms.date: 05/02/2025
-ms.author: plarrue
+ms.date: 05/14/2025
+ms.author: cerenkiroglu
 ms.reviewer: angieandrews
 ---
 
-# Monitor AI Builder models and prompts activity 
+# Monitor AI Builder models and prompts activity
 
 As you use your AI models and prompts, you might have to access data to monitor their activity or consumption.
 
-The **Monitor activity** section of the AI Hub in the Power Automate portal provides tables that you can use to monitor AI models and prompts and the data that they process, and to track their consumption.
+The **Monitor activity** section of the AI hub in the Power Automate portal provides tables that you can use to monitor AI models and prompts. You can also monitor the data that they process, and track their consumption.
 
 ## View AI Builder activity
 
-The **AI Builder activity** page shows AI model and prompts activity, including activity generated in [Power Apps](/power-apps/powerapps-overview) and [Microsoft Copilot Studio](/microsoft-copilot-studio/fundamentals-what-is-copilot-studio).
+The **AI Builder activity** page shows AI model and prompts activity, including activity generated in Power Apps and Microsoft Copilot Studio.
+
+Learn more in [What is Power Apps?](/power-apps/powerapps-overview) and [Copilot Studio overview](/microsoft-copilot-studio/fundamentals-what-is-copilot-studio).
 
 1. Sign in to [Power Automate](https://make.powerautomate.com).
-2. Select **AI Hub** on the left navigation pane.
-3. Select **Monitor activity**.
-4. (Optional) Customize the displayed data that shows by filtering the timeframe or tool type.
-   
-   [image here]
+1. On the navigation pane to the left, select **AI hub**.
+1. Select **Monitor activity**.
+1. (Optional) Customize the data that shows by filtering the timeframe or tool type.
+
+   <!--image here-->
 
    By default, data displays for all AI models from the last seven days.
 
-Legend:
+    Legend:
 
-1. **Processed time**: The time when processing occurs.
-2. **Tool name**: The AI model or prompt name.
-3. **Input**: The text input of the AI model predict action for text processing models, or the value **Image** or **Document** for other models/prompts.
-4. **Output**: The GPT prompt output (model response) in the selected output format.
-5. **Used in**: The consumption source of the AI model or prompt. It can be Power Automate, Power Apps, Copilot Studio, or Quick Test for saved but not consumed prompts.
-6. **Consumption**: The numeric consumption value for the related AI model or prompt run.
+    1. **Processed time**: The time when processing occurs.
+    1. **Tool name**: The AI model or prompt name.
+    1. **Input**: The text input of the AI model `predict` action for text processing models, or the value **Image** or **Document** for other models and prompts.
+    1. **Output**: The GPT prompt output (model response) in the selected output format.
+    1. **Used in**: The consumption source of the AI model or prompt. It can be Power Automate, Power Apps, Copilot Studio, or Quick Test for saved but not consumed prompts.
+    1. **Consumption**: The numeric consumption value for the related AI model or prompt run.
 
-  More details can be shown when you select each event in the table.
+  More details show when you select each event in the table.
 
-  [image here]
+   <!--image here-->
 
-Legend:
+    Legend:
 
-1. **Processed by**: The name of the person who performs the predict action. This person is typically the owner of the Power Automate flow or the person who runs the app created in Power Apps.
-1. **Model**: The name of the language model used in the prompt run.
+    1. **Processed by**: The name of the person who performs the predict action. This person is typically the owner of the Power Automate cloud flow or the person who runs the app created in Power Apps.
+    1. **Model**: The name of the language model used in the prompt run.
 
-## Monitoring data for makers and admins
+## Monitor data for makers and admins
 
-The **AI Builder activity** section is helpful for makers who want to monitor the use of their AI models and prompts. It's also helpful for environment admins who want to monitor all activity in an environment.
+The **AI Builder activity** section is helpful if you want to monitor the use of your AI models and prompts. It's also helpful for environment admins who want to monitor all activity in an environment.
 
 > [!NOTE]
-> - The monitoring data is stored in the **AI Event** table in your Dataverse instance. It persists in the table even if the model, flow, and app are deleted.
-> - Write access to this table is required to record AI model/prompt activity.
+> - The monitoring data is stored in the **AI Event** table in your Dataverse instance. It persists in the table even if you delete the model, flow, and app.
+> - You're required to have Write access to this table to record AI model and prompt activity.
 > - The **AI Event** Dataverse table contains input of the AI model predict actions for text scenarios only.
 
 The data that you can display depends on your role.
@@ -76,10 +79,10 @@ This section of the article explains how to identify the historical AI Builder a
 
 In addition to on-demand bulk-delete jobs, you can schedule recurrent bulk-delete jobs that find and delete records in a table that are, for example, older than a specified number of days (`OlderThanXDays` query function).
 
-To create bulk-delete jobs in Dataverse, you must have the **Bulk Delete** privilege in at least one of the roles that have been assigned to you.
+To create bulk-delete jobs in Dataverse, you must have the **Bulk Delete** privilege in at least one of the roles that is assigned to you.
 
 > [!CAUTION]
-> When you delete Dataverse data, it's permanently deleted from your environment. There's no way to recover individual records after they have been deleted.
+> When you delete Dataverse data, it is permanently deleted from your environment. There's no way to recover individual records after you delete them.
 
 ### Export a Dataverse table
 
@@ -89,7 +92,7 @@ The following table shows an AI Builder activity monitoring Dataverse table that
 |--------|--------|--------|
 | AI Event | Msdyn\_aievent | The **AI Event** table stores activity data about AI model and prompt activity. This data includes the processed data type, processed data information for text scenarios, processing date, processing status, and consumption. |
 
-As the data is stored in your **AI Event** Dataverse table, you can export it in comma-separated values (CSV) format. [Learn how to export data.](/power-apps/maker/data-platform/data-platform-import-export#export-data0)
+As the data is stored in your **AI Event** Dataverse table, you can export it in comma-separated values (CSV) format. Learn how to export data in [Import data from Excel and export data to CSV](/power-apps/maker/data-platform/data-platform-import-export#export-data0).
 
 :::image type="content" source="media/activity-monitoring/export.png" alt-text="Screenshot that shows how to export data from a Dataverse table.":::
 
@@ -98,7 +101,7 @@ As the data is stored in your **AI Event** Dataverse table, you can export it in
 To delete AI Builder activity monitoring data, you must create a bulk-delete job. To bulk-delete data in Dataverse, follow these steps.
 
 > [!CAUTION]
-> Before you perform bulk-delete operations, thoroughly test and review your filter results. Bulk-delete operations are irreversible.
+> Bulk-delete operations are irreversible. Before you perform bulk-delete operations, thoroughly test and review your filter results.
 
 1. Sign in to [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
 1. On the left navigation pane, select **Environments**, select your environment, and then select **Settings** on the top menu bar.
