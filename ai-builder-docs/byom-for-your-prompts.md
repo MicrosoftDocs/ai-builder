@@ -16,7 +16,7 @@ ms.reviewer: angieandrews
 
 # Bring your own model for your prompts
 
-The Azure AI Foundry models for prompts are available within Copilot Studio, Power Apps, and Power Automate. This native integration with Azure AI Foundry brings the latest frontier models into your prompts in Copilot Studio.
+The *Azure AI Foundry models for prompts* is available within Copilot Studio, Power Apps, and Power Automate. This native integration with Azure AI Foundry brings the latest frontier models into your prompts in Copilot Studio.
 
 This includes the following models:
 
