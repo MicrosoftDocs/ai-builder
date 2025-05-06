@@ -2,7 +2,7 @@
 title: Use your prediction model - AI Builder
 description: Describes how to run your model. Provides information about the schedule feature, which allows you to automatically retrain and run your prediction model at the cadence you choose. 
 author: v-aangie
-ms.topic: conceptual
+ms.topic: article
 ms.custom: 
 ms.date: 01/28/2025
 ms.author: angieandrews
