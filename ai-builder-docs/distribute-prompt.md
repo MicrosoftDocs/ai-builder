@@ -5,7 +5,7 @@ author: antrodfr
 contributors:
   - antrodfr
   - v-aangie
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 01/28/2025
 ms.author: antrod
