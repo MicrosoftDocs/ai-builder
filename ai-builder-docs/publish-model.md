@@ -2,7 +2,7 @@
 title: Publish a model in AI Builder - AI Builder | Microsoft Docs
 description: Provides step-by-step instructions for publishing your model in AI Builder.
 author: v-aangie
-ms.topic: conceptual
+ms.topic: article
 ms.custom: 
 ms.date: 01/27/2025
 ms.author: angieandrews
