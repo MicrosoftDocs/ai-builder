@@ -7,7 +7,7 @@ contributors:
   - phil-cmd
   - JoeFernandezMS
   - v-aangie
-ms.topic: conceptual
+ms.topic: article
 ms.collection: 
 - get-started
 - bap-ai-copilot
