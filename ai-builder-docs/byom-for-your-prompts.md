@@ -1,6 +1,6 @@
 ---
 title: Bring your own model for your prompts
-description: Learn how to models into your prompts in Microsoft Copilot Studio.
+description: Learn how to bring your own models into your prompts so that you can use them in Microsoft Copilot Studio, Power Apps, and Power Automate.
 author: MKBajwa-PM
 contributors:
   - MKBajwa-PM
@@ -21,7 +21,7 @@ The *Azure AI Foundry models for prompts* is available within Copilot Studio, Po
 This includes the following models:
 
 - [OpenAI GPT 4.5](https://azure.microsoft.com/blog/announcing-new-models-customization-tools-and-enterprise-agent-upgrades-in-azure-ai-foundry/?msockid=04801c13147c64e30fc30f7415cf65e4)
-- [Llama](https://learn.microsoft.com/azure/ai-foundry/concepts/models-featured#meta)
+- [Llama](/azure/ai-foundry/concepts/models-featured#meta)
 - [DeepSeek](https://azure.microsoft.com/blog/deepseek-r1-is-now-available-on-azure-ai-foundry-and-github/?msockid=04801c13147c64e30fc30f7415cf65e4)
 - And 1,800 plus more in [Azure AI Foundry / Model
   catalog](https://ai.azure.com/explore/models?tid=72f988bf-86f1-41af-91ab-2d7cd011db47)
@@ -61,10 +61,9 @@ After you create an agent, add a topic to your agent in Copilot Studio.
 
     :::image type="content" source="media/byom-for-your-prompts/connect-from.png" alt-text="Screenshot of the 'Connect model from AI foundry' option in the 'Model' field.>":::
 
-1. Enter information about the model that you can find for your deployed
-    model from AI Azure Foundry, and then select **Connect**.
+1. In the **Connect a model from Azure AI Foundry** screen, enter information about the model that you can find for your deployed model from AI Azure Foundry, and then select **Connect**.
 
-    :::image type="content" source="media/byom-for-your-prompts/byom-connect.png" alt-text="Screenshot of the saved topic.>":::
+    :::image type="content" source="media/byom-for-your-prompts/byom-connect.png" alt-text="Screenshot of the 'Connect a model from Azure AI Foundry' screen.>":::
 
     Your model is now added to the **Model** dropdown menu.
 
