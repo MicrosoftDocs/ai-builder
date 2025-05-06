@@ -2,7 +2,7 @@
 title: Use the prediction model in Power Apps - AI Builder | Microsoft Docs
 description: Learn how to use the prediction model in a model-driven app.
 author: JoeFernandezMS
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 01/27/2025
 ms.author: jofernan

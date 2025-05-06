@@ -6,7 +6,7 @@ contributors:
   - aashishb
   - phil-cmd
   - v-aangie
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom:
 ms.date: 01/27/2025
 ms.author: ashbhati

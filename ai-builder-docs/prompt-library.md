@@ -5,7 +5,7 @@ author: phil-cmd
 contributors:
   - phil-cmd
   - v-aangie
-ms.topic: conceptual
+ms.topic: get-started
 ms.date: 12/11/2024
 ms.author: plarrue
 ms.reviewer: angieandrews

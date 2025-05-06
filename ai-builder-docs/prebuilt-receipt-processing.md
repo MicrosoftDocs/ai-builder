@@ -6,7 +6,7 @@ contributors:
   - JoeFernandezMS
   - phil-cmd
   - v-aangie
-ms.topic: conceptual
+ms.topic: article
 ms.custom: 
 ms.date: 04/23/2025
 ms.author: plarrue

@@ -7,7 +7,7 @@ contributors:
   - phil-cmd
   - CedrickBellarosa
   - v-aangie
-ms.topic: conceptual
+ms.topic: how-to
 ms.collection: 
 - get-started
 - bap-ai-copilot
