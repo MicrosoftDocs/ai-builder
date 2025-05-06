@@ -2,7 +2,7 @@
 title: Build your object detection custom model
 description: This topic lays out the first steps you'll perform to build an object detection AI model. 
 author: amina196
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 01/27/2025
 ms.collection: 
 - get-started

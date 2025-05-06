@@ -1,11 +1,11 @@
-﻿---
+---
 title: Get started with prebuilt prompts
 description: Learn about the various prebuilt prompts available to you.
 author: DanaMartens
 contributors:
   - DanaMartens
   - v-aangie
-ms.topic: conceptual
+ms.topic: get-started
 ms.date: 01/27/2025
 ms.author: dmartens
 ms.reviewer: angieandrews
