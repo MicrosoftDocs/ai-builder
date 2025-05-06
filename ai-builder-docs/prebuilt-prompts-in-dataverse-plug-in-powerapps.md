@@ -1,11 +1,11 @@
-﻿---
+---
 title: Use a prebuilt prompt in a Dataverse low-code plug-in in Power Apps (preview)
 description: Learn how to use a prebuilt prompt in a Dataverse low-code plug-in in Power Apps.
 author: DanaMartens
 contributors:
   - DanaMartens
   - v-aangie
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 01/28/2025
 ms.author: dmartens
 ms.reviewer: angieandrews

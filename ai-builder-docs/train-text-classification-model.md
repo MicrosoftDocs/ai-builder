@@ -2,7 +2,7 @@
 title: Train your category classification model - AI Builder
 description: Provides step-by-step instructions on how to train your category classification model.
 author: norliu 
-ms.topic: conceptual
+ms.topic: article
 ms.custom: 
 ms.date: 01/28/2025
 ms.author: norliu 
