@@ -5,7 +5,7 @@ author: v-aangie
 contributors:
   - antode
   - v-aangie
-ms.topic: conceptual
+ms.topic: article
 ms.custom: 
 ms.date: 01/10/2024
 ms.author: antode
