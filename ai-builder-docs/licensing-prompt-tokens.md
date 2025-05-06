@@ -5,7 +5,7 @@ author: antrod
 contributors:
   - antrod
   - v-aangie
-ms.topic: conceptual
+ms.topic: how-to
 ms.collection: 
     - bap-ai-copilot
 ms.date: 03/04/2025
