@@ -6,7 +6,7 @@ contributors:
   - antrodfr
   - -phil-cmd
   - v-aangie
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/30/2025
 ms.author: antrod
 ms.reviewer: angieandrews
