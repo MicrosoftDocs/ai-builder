@@ -8,7 +8,7 @@ contributors:
   - Antoine2F
   - antrod
   - v-aangie
-ms.topic: conceptual
+ms.topic: article
 ms.date: 04/29/2025
 ms.author: ashbhati
 ms.reviewer: angieandrews

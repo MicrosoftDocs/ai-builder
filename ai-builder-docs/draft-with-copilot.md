@@ -5,7 +5,7 @@ author: ashbhati
 contributors:
   - ashbhati
   - v-aangie
-ms.topic: conceptual
+ms.topic: get-started
 ms.date: 04/01/2025
 ms.author: ashbhati
 ms.reviewer: angieandrews
