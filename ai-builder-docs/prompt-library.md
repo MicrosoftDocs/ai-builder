@@ -89,7 +89,7 @@ Learn more in [Change the output of your prompt](change-prompt-output.md).
 
 ### Can I select the GPT model of a template?
 
-Yes. From **Prompt settings**, choose **Basic GPT-4o mini (default)** or **Standard GPT-4o**.
+Yes. From **Prompt model**, choose a Managed model.
 
 Learn more in [Generative AI model versions](prompt-modelsettings.md#generative-ai-model-versions).
 
