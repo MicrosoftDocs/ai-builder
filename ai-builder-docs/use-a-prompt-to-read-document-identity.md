@@ -5,7 +5,7 @@ author: phil-cmd
 contributors:
   - phil-cmd
   - v-aangie
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom:
 ms.date: 02/05/2025
 ms.author: angieandrews

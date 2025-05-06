@@ -8,7 +8,7 @@ contributors:
   - CedrickBellarosa
   - phil-cmd
   - v-aangie
-ms.topic: conceptual
+ms.topic: article
 ms.custom: bap-template
 ms.date: 11/20/2024
 ms.author: antode

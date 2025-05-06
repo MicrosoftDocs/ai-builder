@@ -2,7 +2,7 @@
 title: Use the document processing model in Power Automate
 description: Learn how to use a document processing model in Power Automate.
 author: JoeFernandezMS
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: bap-template
 ms.date: 05/02/2025
 ms.author: phil-cmd
