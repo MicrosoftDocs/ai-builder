@@ -2,7 +2,7 @@
 title: Use entity extraction model in Power Automate - AI Builder
 description: Provides step by step instructions to use AI Builder entity extraction in Power Automate.
 author: phil-cmd
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 11/20/2024
 ms.author: plarrue
