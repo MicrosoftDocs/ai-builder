@@ -5,7 +5,7 @@ author: Antoine2F
 contributors:
   - Antoine2F
   - v-aangie
-ms.topic: conceptual
+ms.topic: article
 ms.collection: 
     - bap-ai-copilot
 ms.date: 04/10/2025
