@@ -2,7 +2,7 @@
 title: Use sample data to do prediction - AI Builder | Microsoft Docs
 description: Provides steps to create a prediction model in AI Builder using sample data provided by Microsoft.
 author: aminabrandt
-ms.topic: conceptual
+ms.topic: article
 ms.custom: 
 ms.date: 01/27/2025
 ms.author: ambran
