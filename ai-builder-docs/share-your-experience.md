@@ -2,7 +2,7 @@
 title: AI Builder community
 description: Learn about Microsoft forums, where you can read and contribute to discussions about AI Builder.
 author: v-aangie
-ms.topic: conceptual
+ms.topic: article
 ms.custom:
 ms.date: 01/28/2025
 ms.author: angieandrews

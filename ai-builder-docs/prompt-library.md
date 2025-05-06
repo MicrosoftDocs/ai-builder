@@ -91,7 +91,7 @@ Learn more in [Change the output of your prompt](change-prompt-output.md).
 
 Yes. From **Prompt model**, choose a Managed model.
 
-Learn more in [Generative AI model versions](prompt-modelsettings.md#generative-ai-model-versions).
+Learn more in [Generative AI model versions](prompt-modelsettings.md#model-version).
 
 ### Can I select the temperature of a template?
 

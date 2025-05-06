@@ -2,7 +2,7 @@
 title: Prediction model performance - AI Builder | Microsoft Docs
 description: Provides information to help you better understand prediction model performance, and how performance scores are calculated
 author: v-aangie
-ms.topic: conceptual
+ms.topic: article
 ms.custom: 
 ms.date: 01/27/2025
 ms.author: norliu

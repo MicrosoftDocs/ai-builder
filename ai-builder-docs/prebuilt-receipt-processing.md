@@ -8,7 +8,7 @@ contributors:
   - v-aangie
 ms.topic: conceptual
 ms.custom: 
-ms.date: 12/16/2024
+ms.date: 04/23/2025
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---
@@ -35,7 +35,7 @@ To get the best results, provide one clear photo or scan per receipt.
 - The file size must not exceed 20 MB.
 - The image dimensions must be between 50 x 50 pixels and 10,000 x 10,000 pixels.
 - PDF dimensions must be at most 17 x 17 inches, which is the equivalent of the Legal or A3 paper sizes or smaller.
-- For PDF documents, only the first 2,000 pages are processed.
+- Only the first page containing a receipt is processed.
 
 ## Model output
 
