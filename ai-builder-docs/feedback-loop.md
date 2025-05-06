@@ -6,7 +6,7 @@ contributors:
   - antrod
   - phil-cmd
   - v-angie
-ms.topic: conceptual
+ms.topic: article
 ms.custom:
 ms.date: 1/10/2024
 ms.author: antrod

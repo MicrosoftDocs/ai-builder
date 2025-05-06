@@ -2,7 +2,7 @@
 title: Publish your category classification model - AI Builder
 description: Provides the information you need to know to publish your category classification model in AI Builder.
 author: v-aangie
-ms.topic: conceptual
+ms.topic: article
 ms.custom: 
 ms.date: 01/28/2025
 ms.author: angieandrews

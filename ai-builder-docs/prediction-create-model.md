@@ -2,7 +2,7 @@
 title: Create a prediction model - AI Builder | Microsoft Docs
 description: This topic lays out the steps you need to follow to create a prediction model in AI Builder. 
 author: v-aangie
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 01/27/2025
 ms.author: sdarapu
