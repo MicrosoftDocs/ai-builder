@@ -2,7 +2,7 @@
 title: Transition to the new document processing model version - AI Builder | Microsoft Docs
 description: Preview document processing model versions aren't compatible with updated model versions, so you have to re-create existing models. 
 author: JoeFernandezMS
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 01/28/2025
 ms.author: Jofernan

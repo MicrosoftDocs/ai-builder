@@ -2,7 +2,7 @@
 title: Use the sentiment analysis prebuilt model in Power Automate - AI Builder
 description: Learn how to use the sentiment analysis prebuilt model in your flows.
 author: joefernandezms
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 11/20/2024
 ms.author: jofernan

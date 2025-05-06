@@ -2,7 +2,7 @@
 title: Use the key phrase extraction prebuilt model in Power Automate - AI Builder | Microsoft Docs
 description: Learn how to set up and use the AI Builder key phrase extraction prebuilt model in Power Automate.
 author: alanabrito
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 01/27/2025
 ms.author: alanab

@@ -2,7 +2,7 @@
 title: Use the language detection prebuilt model in Power Automate - AI Builder | Microsoft Docs
 description: Learn how to use the AI Builder language detection prebuilt model in your flows.
 author: JoefernandezMS
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 01/28/2025
 ms.author: jofernan
