@@ -16,7 +16,7 @@ ms.reviewer: angieandrews
 
 # Bring your own model for your prompts
 
-The *Azure AI Foundry models for prompts* is available within Copilot Studio, Power Apps, and Power Automate. This native integration with Azure AI Foundry brings the latest frontier models into your prompts in Copilot Studio.
+The *Azure AI Foundry models for prompts* feature is available within Copilot Studio, Power Apps, and Power Automate. This native integration with Azure AI Foundry brings the latest frontier models into your prompts in Copilot Studio.
 
 This includes the following models:
 
@@ -26,7 +26,7 @@ This includes the following models:
 - And 1,800 plus more in [Azure AI Foundry / Model
   catalog](https://ai.azure.com/explore/models?tid=72f988bf-86f1-41af-91ab-2d7cd011db47)
 
-You can access a diverse portfolio of AI models, including cutting-edge open-source solutions, industry-specific models, and task-based AI capabilities&mdash;all within the trusted, scalable, and enterprise-ready platform of Copilot Studio. With the native Azure AI Foundry integration, we bring the best capabilities from across our platforms into Copilot Studio to make it the one-stop hub to build agents.
+You can access a diverse portfolio of AI models, including cutting-edge open-source solutions, industry-specific models, and task-based AI capabilities&mdash;all within the trusted, scalable, and enterprise-ready platform of Copilot Studio. With the native Azure AI Foundry integration, we bring the best capabilities from across our platforms into Copilot Studio to make it your one-stop hub to build agents.
 
 Learn more in [Use your prompt actions in Copilot Studio](use-a-custom-prompt-in-mcs.md).
 
@@ -42,10 +42,10 @@ To use this feature, create an agent in Copilot Studio for your scenario.
 
 ## Add and configure a topic
 
-After you create an agent, add a topic to your agent in Copilot Studio.
+After you create an agent, add a topic to it.
 
 1. In Copilot Studio, select **Topics** > **Add a topic**.
-1. Specify a trigger for your topic. <!--Say how you do this. The screenshot doesn't show it; We should describe it in the step, not the screenshot; they're not localized.-->
+1. Specify a trigger for your topic.
 
 1. To add a node, select the plus sign (**+**).
 1. To add a prompt, select **Add an action** > **New prompt**.
@@ -69,7 +69,7 @@ After you create an agent, add a topic to your agent in Copilot Studio.
 
 ## Test your prompt
 
-1. Select **Test Prompt** > **Create to add** your prompt to the node. <!--The two labels don't match the screenshot. Are these the correct names?-->
+1. Select **Test Prompt** > **Create to add** your prompt to the node.
 
     Your prompt is now added to your topic.
 
@@ -80,18 +80,15 @@ After you create an agent, add a topic to your agent in Copilot Studio.
 > [!NOTE]
 > You can also access your *bring your own model* prompt in the library in Copilot Studio, Power apps, and Power Automate.
 
-<!--Where's the library? Is it the same for all apps?-->
-
 ## Known limitations
 
-- This feature is currently available only in the FRE region. <!--What does FRE mean?-->
+- This feature is currently available only in the FRE region.
 - This feature works with models in Azure AI foundry with **chat completion** type.
 - This feature is available only to Environment maker or higher roles.
-- Currently, bring your own models works only with text and Dataverse tables.
+- Currently, *bring your own models* works only with text and Dataverse tables.
 
 > [!NOTE]
 > We recommend you apply Responsible AI (RAI) policies as applicable for the models you want to use and manage that in Azure AI Foundry.
 >
 > Learn more in [Responsible AI for Azure AI Foundry](/azure/ai-foundry/responsible-use-of-ai-overview).
-
 
