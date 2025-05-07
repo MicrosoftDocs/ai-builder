@@ -11,19 +11,20 @@ ms.reviewer: angieandrews
 
 # Use a document processing model in Power Automate
 
+> [!NOTE]
+> Since May 2025, **Extract information from documents** action name is now **Process documents**.
+
 To use a document processing model in Power Automate, follow these steps.
 
 1. Sign in to [Power Automate](https://make.powerautomate.com/).
+   
+1. Select **+Create** > **Instant cloud flow**.
+   
+1. Select **Manually trigger a flow** > **Create**.
+   
+1. Select **Manually trigger a flow**, and then select **+Add an input** > **File** in the left panel.
 
-1. Select **My flows** > **New flow** > **Instant cloud flow**.
-
-1. Enter a name for your flow.
-
-1. Under **Choose how to trigger this flow**, select **Manually trigger a flow**, and then select **Create**.
-
-1. Expand **Manually trigger a flow**, and then select **+Add an input** > **File** as the input type.
-
-1. Select **+New step** > **AI Builder**, and then select **Extract information from documents** in the list of actions.
+1. In the designer, select **+** after **Manually trigger a flow**, and then select **Process documents** in the list of actions.
 
 1. Select the document processing model you want to use, and then select the document type.
 
@@ -31,15 +32,14 @@ To use a document processing model in Power Automate, follow these steps.
 
     :::image type="content" source="media/flow-select-file-content-2.png" alt-text="Screenshot of 'File Content' in the 'Form' field.":::
 
-1. In the successive actions, you can use any of the fields and tables extracted by the AI Builder model. For example, let's say that your model is trained to extract the `Lot number`, the `Net weight`, and the `Gross weight` values. You also want to post these to a Microsoft Teams channel after AI Builder has extracted them from the document. You should add the **Post a message** action from the Microsoft Teams connector, and then select your fields from the list of tokens.
+1. In the successive actions, you can use any of the fields and tables extracted by the AI Builder model. For example, let's say that your model is trained to extract the `InvoiceID`, and the `Total` values. You also want to post these to a Microsoft Teams channel after AI Builder has extracted them from the document. You should add the **Post message in a chat or channel** action, and then the output fields from the AI Builder model.
 
     > [!NOTE]
     >
-    >- To retrieve the value for a field, select **<field_name> value** . For example, for the *Lot number* field, select **Lot number value**.
-    >- To retrieve the value for a checkbox, select **<checkbox_name> value**. For example, for a checkbox named *Priority shipping*, select **Priority shipping value**. The return value is of type Boolean: `true` if the checkbox is marked as selected in the document, `false` if it’s not.
-    >- To retrieve the confidence score for an extracted item, select **<field_name> confidence score**. For example, for the *Lot number* field, select **Lot number confidence score**.
+    >- To retrieve the value for a field, select **<field_name> value**.
+    >- To retrieve the confidence score for an extracted item, select **<field_name> confidence score**.
 
-      :::image type="content" source="media/flow-fp-overview-2AA.png" alt-text="Screenshot of document processing flow 'Post a message' screen with the 'Dynamic content' list.":::
+      :::image type="content" source="media/flow-fp-overview-2AA.png" alt-text="Screenshot of 'Post message in a chat or channel'.":::
 
 Congratulations! You created a flow that uses an AI Builder document processing model. Select **Save** on the top right, and then select **Test** to try out your flow.
 
@@ -47,7 +47,7 @@ Congratulations! You created a flow that uses an AI Builder document processing 
 
 For documents that have multiple pages, it's possible to specify the page range to process.
 
-1. On the **Extract information from documents** card, select **Show advanced options**. This option changes to **Hide advanced options**.
+1. On the **Process documents** card, select **Advanced parameters**, and then select **Pages**.
 1. In the **Pages** parameter, enter a page value or page range. Example: 1 or 3-5.
 
     :::image type="content" source="media/fp-pagerange.png" alt-text="Screenshot of the Pages field where you enter the page range.":::
@@ -80,7 +80,7 @@ For documents that have multiple pages, it's possible to specify the page range 
 
 > [!NOTE]
 >
->- More output parameters minght be proposed such as field coordinates, polygons, bounding boxes and page numbers. These aren't listed on purpose as they're intended for advanced use.
+>- More output parameters might be proposed such as field coordinates, polygons, bounding boxes and page numbers. These aren't listed on purpose as they're intended for advanced use.
 >
 >- Coordinates are represented as percentages of the document's height and width, originating from the top-left corner. For instance, if coordinates X = 0.10 and Y = 0.20 are given, this signifies a location at 10% of the document's width along the X-axis and 20% of its height along the Y-axis, both measured from the top-left corner.
 
