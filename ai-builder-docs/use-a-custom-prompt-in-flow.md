@@ -30,7 +30,7 @@ You can add a prompt as an action in a Power Automate flow so it's possible to g
 ## Use an existing prompt in a flow
 
 > [!NOTE]
-> Since May 2025, **Create text with GPT using a prompt** action name is now **Run a prompt**.
+> Since May 2025, **Create text with GPT using a prompt** action name is **Run a prompt**.
 
 **Prerequisite**: You created a prompt named **Task Identifier** that has one input called **Text**, as described in [Create a custom prompt](create-a-custom-prompt.md).
 
