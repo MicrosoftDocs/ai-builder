@@ -12,7 +12,7 @@ ms.collection:
 - get-started
 - bap-ai-copilot
 ms.date: 05/07/2025
-ms.author: androd
+ms.author: antrod
 ms.reviewer: angieandrews
 ms.custom:
   - DevRelAdv
