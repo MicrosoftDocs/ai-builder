@@ -6,7 +6,7 @@ contributors:
   - ashbhati
   - phil-cmd
   - v-aangie
-ms.topic: conceptual
+ms.topic: article
 ms.custom: bap-template
 ms.date: 01/27/2025
 ms.author: ashbhati

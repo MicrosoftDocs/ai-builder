@@ -5,7 +5,7 @@ author: phil-cmd
 contributors:
   - phil-cmd
   - v-aangie
-ms.topic: conceptual
+ms.topic: how-to
 ms.collection: 
 - bap-ai-copilot
 ms.date: 04/25/2025

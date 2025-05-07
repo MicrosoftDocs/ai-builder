@@ -6,7 +6,7 @@ contributors:
   - chplanty
   - Antonio-Rodrigues
   - v-aangie
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 10/24/2024
 ms.author: chplanty
 ms.reviewer: angieandrews

@@ -6,7 +6,7 @@ contributors:
   - phil-cmd
   - Antoine2F
   - v-aangie
-ms.topic: conceptual
+ms.topic: concept-article
 ms.collection: 
 - get-started
 - bap-ai-copilot

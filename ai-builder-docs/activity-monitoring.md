@@ -7,7 +7,7 @@ contributors:
   - jekom1
   - phil-cmd
   - v-aangie
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 05/14/2025
 ms.author: cerenkiroglu

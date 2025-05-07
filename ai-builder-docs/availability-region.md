@@ -13,7 +13,7 @@ contributors:
   - jekom1
   - v-aangie
   - antode
-ms.topic: conceptual
+ms.topic: article
 ms.date: 04/30/2025
 ms.author: cdbellar
 ms.reviewer: angieandrews
