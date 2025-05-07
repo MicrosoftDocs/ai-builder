@@ -12,7 +12,7 @@ ms.reviewer: angieandrews
 # Use a document processing model in Power Automate
 
 > [!NOTE]
-> Since May 2025, **Extract information from documents** action name is now **Process documents**.
+> Since May 2025, **Extract information from documents** action name is **Process documents**.
 
 To use a document processing model in Power Automate, follow these steps.
 
