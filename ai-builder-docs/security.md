@@ -5,7 +5,7 @@ author: jekom1
 contributors:
   - jekom1
   - v-aangie
-ms.topic: conceptual
+ms.topic: article
 ms.date: 03/10/2025
 ms.author: jelenak
 ms.reviewer: angieandrews

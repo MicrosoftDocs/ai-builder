@@ -7,7 +7,7 @@ contributors:
   - chplanty
   - jkom1
   - v-aangie
-ms.topic: conceptual
+ms.topic: article
 ms.collection: 
     - bap-ai-copilot
 ms.date: 04/10/2025

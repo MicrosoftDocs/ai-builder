@@ -2,7 +2,7 @@
 title: Support - AI Builder
 description: Shows where to get help with AI Builder.
 author: v-aangie
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom:
 ms.date: 01/28/2025
 ms.author: angieandrews

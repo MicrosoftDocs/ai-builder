@@ -4,7 +4,7 @@ description: Learn about the AI technology used in prompts, key considerations, 
 ms.date: 03/10/2025
 ms.custom: 
   - responsible-ai-faqs
-ms.topic: conceptual
+ms.topic: faq
 author: ashbhati
 contributors:
   - phil-cmd
