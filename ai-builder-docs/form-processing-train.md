@@ -5,7 +5,7 @@ author: jsowndarrajan02
 contribuors:
   - jsowndarrajan02
   - angieandrews
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 01/27/2025
 ms.author: sjayapal

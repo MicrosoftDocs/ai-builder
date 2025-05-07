@@ -2,7 +2,7 @@
 title: Train and publish your prediction model - AI Builder | Microsoft Docs
 description: Walks you through the steps needed to train your prediction model, and leads you to the next steps. 
 author: antrodfr
-ms.topic: conceptual
+ms.topic: article
 ms.custom: 
 ms.date: 01/28/2025
 ms.author: antrod

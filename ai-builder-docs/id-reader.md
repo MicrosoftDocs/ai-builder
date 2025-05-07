@@ -2,7 +2,7 @@
 title: Use the ID reader prebuilt model in Power Automate
 description: Learn how to use the prebuilt ID reader AI Builder model to extract information from identity documents. 
 author: phil-cmd
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 01/27/2025
 ms.author: angieandrews

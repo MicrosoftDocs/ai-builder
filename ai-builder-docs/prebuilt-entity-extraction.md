@@ -2,7 +2,7 @@
 title: Entity extraction prebuilt AI model - AI Builder
 description: Describes the prebuilt entity extraction AI Builder model.
 author: phil-cmd
-ms.topic: conceptual
+ms.topic: article
 ms.custom: 
 ms.date: 11/20/2024
 ms.author: plarrue

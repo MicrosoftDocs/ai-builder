@@ -2,7 +2,7 @@
 title: AI Builder labs - AI Builder
 description: Provides information about resources to help you learn more about AI Builder 
 author: v-aangie
-ms.topic: conceptual
+ms.topic: article
 ms.custom:
 ms.date: 01/27/2025
 ms.author: angieandrews
