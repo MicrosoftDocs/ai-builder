@@ -77,9 +77,9 @@ Prompt builder provides the flexibility to create your own custom prompt by defi
 1. Sign in to [Power Apps](https://make.powerapps.com), [Power Automate](https://make.powerautomate.com), or [Copilot Studio](https://copilotstudio.microsoft.com).
 1. For Power Apps and Power Automate, select **AI hub** > **Prompts** > **Build your own prompt**.
 1. For Copilot Studio, there are multiple ways to create a prompt:
-    1. Select **Agents** > pick or create an agent > **Actions** > **Add an action** > **New action** > **New prompt**.
-    1. Select **Agents** > pick or create an agent > **Topics**. Pick or create a topic, add a node, and then select **Add an action** > **New prompt**.
-    1. Select **Library** > **Add new** > **Prompt**. Prompts created in the library can be used in any agent action or topic.
+    1. Select **Agents** > pick or create an agent > **Tools** > **Add a tool** > **New tool** > **Prompt**.
+    1. Select **Agents** > pick or create an agent > **Topics**. Pick or create a topic, select Add node, and then select **Add a tool** > **New prompt**.
+    1. Select **Tools** > **Add a tool** > **New tool** > **Prompt**. Prompts created in Tools can be used in any agent or topic.
 
     :::image type="content" source="media/create-a-custom-prompt/custom-prompt.png" alt-text="Screenshot of the fields you fill in to create a custom prompt.":::
 
