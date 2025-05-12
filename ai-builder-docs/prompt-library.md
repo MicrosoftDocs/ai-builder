@@ -43,6 +43,17 @@ To access the prompt library and select a template through the left navigation m
 
 To access the prompt library and select a template through the prompt builder, follow these steps:
 
+### From Copilot Studio
+
+1. Sign in to [Copilot Studio](https://copilotstudio.com/).
+2. On the left navigation pane, select **Tools**.
+3. Select **+ Create a Tool**.
+4. Select **New Prompt**.
+5. Select **Browse prompt library** to search for a template, and select the job type and task of your choice
+
+    :::image type="content" source="media/prompt-library/copilot-studio-browse-prompt-library.png" alt-text="Screenshot of the browse prompt library screen in Copilot Studio Prompt builder.":::
+   
+
 ### From Power Apps or Power Automate
 
 1. Sign in to [Power Apps](https://make.powerapps.com/) or [Power Automate](https://make.powerautomate.com/).
@@ -58,16 +69,6 @@ To access the prompt library and select a template through the prompt builder, f
 1. From the **Browse Prompt library** screen, search for a template, and select the job type and task of your choice.
 
     :::image type="content" source="media/prompt-library/select-prompt-template.png" alt-text="Screenshot of the template selection in the 'Prompt library' screen.":::
-
-### From Copilot Studio
-
-1. Sign in to [Copilot Studio](https://copilotstudio.com/).
-2. On the left navigation pane, select **Tools**.
-3. Select **+ Create a Tool**.
-4. Select **New Prompt**.
-5. Select **Browse prompt library** to search for a template, and select the job type and task of your choice
-
-    :::image type="content" source="media/prompt-library/copilot-studio-browse-prompt-library.png" alt-text="Screenshot of the browse prompt library screen in Copilot Studio Prompt builder.":::
 
 
 ## Frequently asked questions
