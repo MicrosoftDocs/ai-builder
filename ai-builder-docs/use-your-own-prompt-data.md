@@ -7,7 +7,7 @@ contributors:
   - Antrodfr
   - CedrickBellarosa
   - v-aangie
-ms.topic: conceptual
+ms.topic: article
 ms.collection: 
     - bap-ai-copilot
 ms.date: 04/29/2025

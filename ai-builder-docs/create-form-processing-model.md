@@ -8,7 +8,7 @@ contributors:
   - antrodfr
   - JoeFernandezMS
   - v-aangie
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/21/2025
 ms.author: plarrue
 ms.reviewer: angieandrews

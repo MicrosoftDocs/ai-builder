@@ -2,7 +2,7 @@
 title: Manage your model in AI Builder - AI Builder | Microsoft Docs
 description: Provides detailed information about how to manage your AI models in AI Builder.
 author: phil-cmd
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 01/27/2025
 ms.author: plarrue

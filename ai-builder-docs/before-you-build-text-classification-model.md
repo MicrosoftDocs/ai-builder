@@ -5,7 +5,7 @@ author: phil-cmd
 contributors:
   - phil-md
   - v-aangie
-ms.topic: conceptual
+ms.topic: article
 ms.custom: 
 ms.date: 01/27/2025
 ms.author: plarrue

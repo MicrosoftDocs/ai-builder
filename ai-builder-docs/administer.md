@@ -8,7 +8,7 @@ contributors:
   - Antoine2F
   - phil-cmd
   - v-aangie
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 01/30/2025
 ms.author: jelenak
 ms.reviewer: angieandrews

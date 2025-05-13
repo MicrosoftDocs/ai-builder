@@ -3,15 +3,16 @@ title: Use your prompt in Power Automate
 description: Learn how to use your prompt in a Power Automate flow.
 author: ashbhati
 contributors:
+  - antrodfr
   - ashbhati
   - phil-cmd
   - v-aangie
-ms.topic: conceptual
+ms.topic: how-to
 ms.collection: 
 - get-started
 - bap-ai-copilot
-ms.date: 03/28/2025
-ms.author: ashbhati
+ms.date: 05/07/2025
+ms.author: antrod
 ms.reviewer: angieandrews
 ms.custom:
   - DevRelAdv
@@ -22,41 +23,26 @@ ms.custom:
 You can add a prompt as an action in a Power Automate flow so it's possible to generate text from it inside an automated process.
 
 > [!IMPORTANT]
-> - AI Builder prompts are running on GPT 4o Mini and GPT 4o model versions powered by [Azure OpenAI Service](/azure/ai-services/openai/whats-new).
+> - AI Builder prompts are running on GPT model versions powered by [Azure OpenAI Service](/azure/ai-services/openai/whats-new).
 > - This capability is [limited to some regions](availability-region.md#prompts).
 > - This capability might be subject to usage limits or capacity throttling.
 
 ## Use an existing prompt in a flow
 
+> [!NOTE]
+> Since May 2025, **Create text with GPT using a prompt** action name is **Run a prompt**.
+
 **Prerequisite**: You created a prompt named **Task Identifier** that has one input called **Text**, as described in [Create a custom prompt](create-a-custom-prompt.md).
 
 1. Sign in to [Power Automate](https://make.powerautomate.com/).
 1. Select **+Create** > **Instant cloud flow**.
-1. Name the flow **Task ID**.
 1. Select **Manually trigger a flow** > **Create**.
-1. In the designer, select **manually trigger a flow**.
-1. On the **Parameters** tab to the left, select **+Add an input**.
+1. In the designer, select **+** after **Manually trigger a flow**.
+1. On the left pane, select the action **Run a prompt**.
+1. On the left pane in the **Prompt** field, choose your prompt from the dropdown menu.
+1. If your prompt has inputs, you'll see them appear below the selected prompt. You will be able to fill them with any content from previous actions.
 
-    :::image type="content" source="media/use-a-custom-prompt-in-flow/input-parameter.png" alt-text="Screenshot of adding 'Text' as an input.":::
-
-1. Select **Text**, and then enter a name.  
-
-    :::image type="content" source="media/use-a-custom-prompt-in-flow/input-text.png" alt-text="Screenshot of adding an input.":::
-
-1. In the designer, select **+Insert a new step** after **Manually trigger a flow**.
-1. On the left pane in the **Search** field, enter **GPT** and select the action **Create text with GPT using a prompt**.
-
-    :::image type="content" source="media/use-a-custom-prompt-in-flow/gpt-parameters.png" alt-text="Screenshot of a prompt test.":::
-
-1. On the left pane in the **Name** field, choose your custom prompt from the dropdown menu.
-
-    The following example uses **Task Identifier** as the custom prompt. Task Identifier is a custom prompt that was previously built.
-
-    :::image type="content" source="media/use-a-custom-prompt-in-flow/custom-prompt.png" alt-text="Screenshot of the 'Task identifier' custom prompt.":::
-
-1. On the left pane in the **Input Text** field, select **Input** Text from the Dynamic content list to the right.
-
-    :::image type="content" source="media/use-a-custom-prompt-in-flow/input-text-dynamic.png" alt-text="Screenshot of selecting the 'Input' text from the Dynamic content list for the 'Input Text' field.":::
+    :::image type="content" source="media/use-a-custom-prompt-in-flow/input-text-dynamic.png" alt-text="Screenshot of selected prompt with input.":::
 
 Learn more about how to include your prompt in a flow in this quick video:</br>
 </br>
@@ -67,40 +53,40 @@ Learn more about how to include your prompt in a flow in this quick video:</br>
 
 1. Sign in to [Power Automate](https://make.powerautomate.com/).
 1. Select **+Create** > **Instant cloud flow**.
-1. In the designer, select **+Insert a new step** after **Manually trigger a flow**.
-1. On the left pane in the **Search** field, enter **GPT** and select the action **Create text with GPT using a prompt**.
-1. On the left pane in the **Name** field, select **New custom prompt** from the dropdown menu.
+1. Select **Manually trigger a flow** > **Create**.
+1. In the designer, select **+** after **Manually trigger a flow**.
+1. On the left pane select the action **Run a prompt**.
+1. On the left pane in the **Prompt** field, select **New custom prompt** from the dropdown menu.
 
     :::image type="content" source="media/use-a-custom-prompt-in-flow/new-prompt.png" alt-text="Create a new prompt":::
 
 1. To create your prompt instructions, follow the instruction from [Create a custom prompt](create-a-custom-prompt.md).
-1. Save your prompt and follow the [instructions to use your prompt in a flow](use-a-custom-prompt-in-flow.md#use-an-existing-prompt-in-a-flow).
 
-## Use the output of the GPT action
+## Use the output of the prompt action
 
-The **Create text with GPT using a prompt** action generates a flow variable called **Text**, which represents the output of your prompt generated by the GPT model. You can use this variable at your convenience in downstream actions.
+The **Run a prompt** action generates a flow variables that can be used at your convenience in downstream actions.
 
 For example, let's send a Teams message that encompasses the **Text** variable:
 
-1. In the designer, select **+Insert a new step** after the **Create text with GPT using a prompt** action.
+1. In the designer, select **+Insert a new step** after the **Run a prompt** action.
 1. Search for the action **Post message in a chat or channel** and select it.
 1. Fill in the parameters, making sure you select the **Text** variable in the body of the Teams message.
 
-   :::image type="content" source="media/use-a-custom-prompt-in-flow/use-gpt-response.png" alt-text="Use the prompt output":::
+   :::image type="content" source="media/use-a-custom-prompt-in-flow/use-gpt-response.png" alt-text="Use the prompt output.":::
 
 1. Once you're satisfied with your flow, you can save it and select **Test** on the top right corner.
 1. Make sure to enter values for the input variables that would be used in your flow, and then select **Run flow**.
 1. Visualize the message received in Teams.
 
-   :::image type="content" source="media/use-a-custom-prompt-in-flow/outputs-teams.png" alt-text="Screenshot of outputs.":::
+   :::image type="content" source="media/use-a-custom-prompt-in-flow/outputs-teams.png" alt-text="Screenshot of Teams message.":::
 
 ## Incorporate human review
 
-Having humans review the output generated by the GPT model allow an organization to ensure that this output is of high quality, aligns with ethical standards, and meets specific requirements. This combination of AI and human oversight optimizes processes and enhances overall outcomes. Learn [why human review is important](azure-openai-human-review.md).
+Having humans review the output generated by a prompt allow an organization to ensure that this output is of high quality, aligns with ethical standards, and meets specific requirements. This combination of AI and human oversight optimizes processes and enhances overall outcomes. Learn [why human review is important](azure-openai-human-review.md).
 
 This section explains how to add a human review step after the prompt action in a flow.
 
-1. In the designer after the **Create text with GPT using a prompt** card, select **+Insert a new step**.
+1. In the designer after the **Run a prompt** card, select **+**.
 1. On the left pane in the **Search** field, enter **Approvals**.
 1. To the right of the **Approvals** heading, select **See more**.
 
@@ -137,7 +123,7 @@ This section explains how to add a human review step after the prompt action in 
 
     :::image type="content" source="media/use-a-custom-prompt-in-flow/post-message.png" alt-text="Screenshot of adding parameters for 'Post message in a chat or channel'.":::
 
-Once the flow runs and an approval is generated, the assigned reviewers can check the text generated by the GPT model from the **Approvals** menu in the Power Automate portal:
+Once the flow runs and an approval generates, the assigned reviewers can check the text generated by the model from the **Approvals** menu in the Power Automate portal.
 
 1. From the left pane, select **Approvals**, and then select the **Received** tab.  
 1. Open the approval to review and edit the text if needed.

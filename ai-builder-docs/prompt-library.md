@@ -5,8 +5,8 @@ author: phil-cmd
 contributors:
   - phil-cmd
   - v-aangie
-ms.topic: conceptual
 ms.date: 05/19/2025
+ms.topic: get-started
 ms.author: plarrue
 ms.reviewer: angieandrews
 ms.collection: bap-ai-copilot

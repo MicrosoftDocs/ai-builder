@@ -6,7 +6,7 @@ contributors:
   - CedrickBellarosa
   - phil-cmd
   - v-aangie
-ms.topic: conceptual
+ms.topic: article
 ms.custom: 
 ms.date: 01/27/2025
 ms.author: cdbellar
