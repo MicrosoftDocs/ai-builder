@@ -6,7 +6,7 @@ contributors:
   - phil-cmd
   - v-aangie
 ms.topic: conceptual
-ms.date: 05/07/2025
+ms.date: 05/19/2025
 ms.author: plarrue
 ms.reviewer: angieandrews
 ms.collection: bap-ai-copilot
@@ -35,7 +35,7 @@ To access the prompt library and select a template through the left navigation m
 
     :::image type="content" source="media/prompt-library/see-all-templates.png" alt-text="Screenshot of the template selection screen in the prompt library.":::
 
-    Alternatively, you can use the **Search** field to find the one you're looking for. You can also search by Job Type for example, **Common**, **Customer service**, **Legal**, **Marketing**, **Communications**, **Information technology**, **Learning**, **HR**, **Finance**, **Architecture**, and **Sales** or by Task for example, **Analyze**, **Classify**, **Create**, **Extract**, and **Summarize**.
+    Alternatively, you can use the **Search** field to find the one you're looking for. You can also search by Job type for example, **Common**, **Customer service**, **Legal**, **Marketing**, **Communications**, **Information technology**, **Learning**, **HR**, **Finance**, **Architecture**, and **Sales**, or by Task for example, **Analyze**, **Classify**, **Create**, **Extract**, and **Summarize**.
 
     :::image type="content" source="media/prompt-library/prompt-library-select-jobtype-task.png" alt-text="Screenshot of the job type, task, and search functionality in the prompt library.":::
 
@@ -49,10 +49,9 @@ To access the prompt library and select a template through the prompt builder, f
 2. On the left navigation pane, select **Tools**.
 3. Select **+ Create a Tool**.
 4. Select **New Prompt**.
-5. Select **Browse prompt library** to search for a template, and select the job type and task of your choice
+5. Select **Browse prompt library** to search for a template, and select the job type and task of your choice.
 
-    :::image type="content" source="media/prompt-library/copilot-studio-browse-prompt-library.png" alt-text="Screenshot of the browse prompt library screen in Copilot Studio Prompt builder.":::
-   
+    :::image type="content" source="media/prompt-library/copilot-studio-browse-prompt-library.png" alt-text="Screenshot of the browse prompt library screen in Copilot Studio prompt builder.":::
 
 ### From Power Apps or Power Automate
 
@@ -66,10 +65,9 @@ To access the prompt library and select a template through the prompt builder, f
 
     :::image type="content" source="media/prompt-library/select-browse-prompt-library.png" alt-text="Screenshot of the 'Prompt library' selection in the builder.":::
 
-1. From the **Browse Prompt library** screen, search for a template, and select the job type and task of your choice.
+1. From the **Browse prompt library** screen, search for a template, and select the job type and task of your choice.
 
     :::image type="content" source="media/prompt-library/select-prompt-template.png" alt-text="Screenshot of the template selection in the 'Prompt library' screen.":::
-
 
 ## Frequently asked questions
 
@@ -91,7 +89,7 @@ Learn more in [Change the output of your prompt](change-prompt-output.md).
 
 ### Can I select the GPT model of a template?
 
-Yes. From **Prompt model**, choose a Managed model.
+Yes. From **Prompt model**, choose a managed model.
 
 Learn more in [Model version](prompt-modelsettings.md#model-version).
 
