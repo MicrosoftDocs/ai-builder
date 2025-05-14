@@ -5,11 +5,11 @@ author: MKBajwa-PM
 contributors:
   - MKBajwa-PM
   - v-aangie
-ms.topic: conceptual
+ms.topic: article
 ms.collection: 
 - overview
 - bap-ai-copilot
-ms.date: 05/06/2025
+ms.date: 05/19/2025
 ms.author: mbajwa
 ms.reviewer: angieandrews
 ---
@@ -45,7 +45,7 @@ To use this feature, create an agent in Copilot Studio for your scenario.
 After you create an agent, add a topic to it.
 
 1. In Copilot Studio, select **Topics** > **Add a topic**.
-1. Specify a trigger for your topic.
+1. Specify a trigger for your topic. (Learn more in [Add an event trigger](/microsoft-copilot-studio/authoring-trigger-event)).
 
 1. To add a node, select the plus sign (**+**).
 1. To add a prompt, select **Add an action** > **New prompt**.
@@ -61,7 +61,8 @@ After you create an agent, add a topic to it.
 
     :::image type="content" source="media/byom-for-your-prompts/connect-from.png" alt-text="Screenshot of the 'Connect model from AI foundry' option in the 'Model' field.>":::
 
-1. In the **Connect a model from Azure AI Foundry** screen, enter information about the model that you can find for your deployed model from AI Azure Foundry, and then select **Connect**.
+1. In the **Connect a model from Azure AI Foundry** screen, enter information about the model from [Azure AI Foundry / Model
+  catalog](https://ai.azure.com/explore/models?tid=72f988bf-86f1-41af-91ab-2d7cd011db47), and then select **Connect**.
 
     :::image type="content" source="media/byom-for-your-prompts/byom-connect.png" alt-text="Screenshot of the 'Connect a model from Azure AI Foundry' screen.>":::
 
@@ -69,23 +70,11 @@ After you create an agent, add a topic to it.
 
 ## Test your prompt
 
-1. Select **Test Prompt** > **Create to add** your prompt to the node.
-
-    Your prompt is now added to your topic.
-
+1. In the designer, select the **Prompt** card.
 1. To save your topic, select **Save**. You can now use it in your agent.
+1. In the Copilot panel, select **Test your Copilot** to test your prompt.
 
-    :::image type="content" source="media/byom-for-your-prompts/save-prompt-topic.png" alt-text="Screenshot of the saved topic.>":::
-
-> [!NOTE]
-> You can also access your *bring your own model* prompt in the library in Copilot Studio, Power apps, and Power Automate.
-
-## Known limitations
-
-- This feature is currently available only in the FRE region.
-- This feature works with models in Azure AI foundry with **chat completion** type.
-- This feature is available only to Environment maker or higher roles.
-- Currently, *bring your own models* works only with text and Dataverse tables.
+    :::image type="content" source="media/byom-for-your-prompts/save-prompt-topic.png" alt-text="Screenshot of the saved topic.":::
 
 > [!NOTE]
 > We recommend you apply Responsible AI (RAI) policies as applicable for the models you want to use and manage that in Azure AI Foundry.
