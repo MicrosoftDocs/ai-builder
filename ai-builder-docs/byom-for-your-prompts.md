@@ -28,7 +28,11 @@ This includes the following models:
 
 You can access a diverse portfolio of AI models, including cutting-edge open-source solutions, industry-specific models, and task-based AI capabilities&mdash;all within the trusted, scalable, and enterprise-ready platform of Copilot Studio. With the native Azure AI Foundry integration, we bring the best capabilities from across our platforms into Copilot Studio to make it your one-stop hub to build agents.
 
-Learn more in [Use your prompt actions in Copilot Studio](use-a-custom-prompt-in-mcs.md).
+Learn how to use your prompt in Copilot Studio, Power Apps, and Power Automate by selecting from the following links:
+
+- [Use your prompt actions in Copilot Studio](use-a-custom-prompt-in-mcs.md)
+- [Use your prompt in Power Apps](use-a-custom-prompt-in-app.md)
+- [Use your prompt in Power Automate](use-a-custom-prompt-in-flow.md)
 
 ## Create an agent
 
@@ -81,3 +85,8 @@ After you create an agent, add a topic to it.
 >
 > Learn more in [Responsible AI for Azure AI Foundry](/azure/ai-foundry/responsible-use-of-ai-overview).
 
+## Related information
+
+- [Use your prompt actions in Copilot Studio](use-a-custom-prompt-in-mcs.md)
+- [Use your prompt in Power Apps](use-a-custom-prompt-in-app.md)
+- [Use your prompt in Power Automate](use-a-custom-prompt-in-flow.md)
