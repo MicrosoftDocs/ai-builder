@@ -48,12 +48,14 @@ To use this feature, create an agent in Copilot Studio for your scenario.
 
 You can add prompt directly as an action to an agent or add prompt to a topic.
 1. Add as Action in agent:
-![image](https://github.com/user-attachments/assets/689eae2f-f702-47e3-a2b5-e06c3ac73f89)
+![image](https://github.com/user-attachments/assets/af9a3f8f-e7b9-4cfd-b7fd-8dfedcee0d6a)
 
 2.Add prompt as Topic:
- :::image type="content" source="media/byom-for-your-prompts/add-prompt.png" alt-text="Screenshot of a trigger and action in Copilot Studio.>":::
+ ![image](https://github.com/user-attachments/assets/7ec807b3-37a9-4eeb-8113-590604fe594c)
+
 3. Add from Tools:
-![image](https://github.com/user-attachments/assets/8262f7a0-4018-4636-a369-7111112a3b80)
+![image](https://github.com/user-attachments/assets/93b73721-0fcf-499f-8b48-da3284854746)
+
 
 
 
