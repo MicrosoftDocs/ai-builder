@@ -44,9 +44,9 @@ To use this feature, create an agent in Copilot Studio for your scenario.
 
     Learn about alternative instructions in [Create an agent](/microsoft-copilot-studio/authoring-first-bot?tabs=web#create-an-agent).
 
-## Add Prompt in Agent.
+## Add a prompt in an agent
 
-You can add prompt directly as an action to an agent or add prompt to a topic.
+You can add a prompt directly as an action to an agent, or add a prompt to a topic.
 1. Add as Action in agent:
 ![image](https://github.com/user-attachments/assets/af9a3f8f-e7b9-4cfd-b7fd-8dfedcee0d6a)
 
@@ -55,9 +55,6 @@ You can add prompt directly as an action to an agent or add prompt to a topic.
 
 3. Add from Tools:
 ![image](https://github.com/user-attachments/assets/93b73721-0fcf-499f-8b48-da3284854746)
-
-
-
 
 ## Add and configure a prompt
 
@@ -86,20 +83,18 @@ After you create an agent, add prompt as an action.You can create Prompt
        6. When image input is added the dropdown will only show models from foundary that work with images.
           ![image](https://github.com/user-attachments/assets/98c740f5-0d37-4e1d-9cdc-cfd4d5fd065b)
 
+## How can I manage my foundary model?
 
-
-## How can I manage my foundary model:
-
-1.The Azure AI foundary models are connected by connected. You can set the governace policy for this connector in policy page in PPAC.Under name 'Azure AI Foundary'
+1.The Azure AI foundary models are connected by connected. You can set the governace policy for this connector in policy page in PPAC.Under name 'Azure AI Foundary'.
 ![image](https://github.com/user-attachments/assets/62a6b7a1-9be2-47ba-9ea3-b213c221071b)
 2.Each model with which maker has set-up a connection is also available as a connection page.
 ![image](https://github.com/user-attachments/assets/71e258b2-df47-43b0-ac2c-c8bfa53bae99)
 
 This currently supports models with chat completion type.
 
-## Limitation:
-Some models eg: Mistral, O3 and O1 are not supported today and will be available in June.
+### Limitation
 
+Some models, for example 'Mistral', 'O3', and 'O1', aren't supported.
 
 > [!NOTE]
 > We recommend you apply Responsible AI (RAI) policies as applicable for the models you want to use and manage that in Azure AI Foundry.
