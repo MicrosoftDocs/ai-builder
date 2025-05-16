@@ -19,19 +19,22 @@ ms.reviewer: angieandrews
 As you use your AI models and prompts, you might have to access data to monitor their activity or consumption.
 
 The **Monitor activity** section of the AI hub in the Power Automate portal provides tables that you can use to monitor AI models and prompts. You can also monitor the data that they process, and track their consumption.
+ **<!--image here-->**
+![Monitor Activity from AIHub](https://github.com/user-attachments/assets/f00f2c84-54c6-424f-ba46-563c4b76fa74)
 
 ## View AI Builder activity
 
-The **AI Builder activity** page shows AI model and prompts activity, including activity generated in Power Apps and Microsoft Copilot Studio.
+The **AI Builder activity** page shows AI model and prompts activity, including activity generated in Power Automate, Power Apps and Microsoft Copilot Studio.
 
 Learn more in [What is Power Apps?](/power-apps/powerapps-overview) and [Copilot Studio overview](/microsoft-copilot-studio/fundamentals-what-is-copilot-studio).
 
 1. Sign in to [Power Automate](https://make.powerautomate.com).
 1. On the navigation pane to the left, select **AI hub**.
 1. Select **Monitor activity**.
-1. (Optional) Customize the data that shows by filtering the timeframe or tool type.
+1. (Optional) Review the acitivity on the page and customize the data that shows by filtering the timeframe or tool type.
 
-   <!--image here-->
+   **<!--image here-->**
+![New AIBuilder Activity Page](https://github.com/user-attachments/assets/5bf4af91-ac9b-405b-be57-af03d1a1067a)
 
    By default, data displays for all AI models from the last seven days.
 
@@ -46,7 +49,8 @@ Learn more in [What is Power Apps?](/power-apps/powerapps-overview) and [Copilot
 
       More details show when you select each event in the table.
 
-       <!--image here-->
+      **<!--image here-->**
+   ![Details page for AIBuilder activity monitoring](https://github.com/user-attachments/assets/4b21d521-7860-45ea-8f70-5c6adbcc1d56)
 
         Legend:
 
