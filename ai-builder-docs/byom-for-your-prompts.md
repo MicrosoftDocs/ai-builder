@@ -44,41 +44,58 @@ To use this feature, create an agent in Copilot Studio for your scenario.
 
     Learn about alternative instructions in [Create an agent](/microsoft-copilot-studio/authoring-first-bot?tabs=web#create-an-agent).
 
-## Add and configure a topic
+## Add Prompt in Agent.
 
-After you create an agent, add a topic to it.
+You can add prompt directly as an action to an agent or add prompt to a topic.
+1. Add as Action in agent:
+![image](https://github.com/user-attachments/assets/b82a721c-1b9a-4de5-b329-a24ee15ea052)
+2.Add prompt as Topic:
+ :::image type="content" source="media/byom-for-your-prompts/add-prompt.png" alt-text="Screenshot of a trigger and action in Copilot Studio.>":::
+3. Add from Tools:
+![image](https://github.com/user-attachments/assets/91190057-e6a1-4ab2-abc6-845e3824de50)
 
-1. In Copilot Studio, select **Topics** > **Add a topic**.
-1. Specify a trigger for your topic. (Learn more in [Add an event trigger](/microsoft-copilot-studio/authoring-trigger-event)).
 
-1. To add a node, select the plus sign (**+**).
-1. To add a prompt, select **Add an action** > **New prompt**.
+## Add and configure a prompt
 
-    :::image type="content" source="media/byom-for-your-prompts/add-prompt.png" alt-text="Screenshot of a trigger and action in Copilot Studio.>":::
+After you create an agent, add prompt as an action.You can create Prompt
 
-1. At the top of the screen, enter a name for your prompt.
-1. Enter your prompt in one of the following ways:
+1. In Copilot Studio, select **Tool** > **Prompt**.
+![image](https://github.com/user-attachments/assets/2802a427-c59b-4bb3-89c0-f474ea91cf01)
+
+2. At the top of the screen, enter a name for your prompt.
+ Enter your prompt in one of the following ways:
     - Write or paste your own prompt under the **Instructions** heading.
     - Get help from Copilot by describing what you want your prompt to so under the **Get started with Copilot** heading. Copilot suggests a prompt for you.
 
-1. On the panel to the left next to **Instructions**, select the dropdown menu in the **Model** field, and select **Connect model from AI Foundry**.
+3.On the panel to the left next to **Instructions**, select the dropdown menu in the **Model** field, and select **+** to connect model from Azure AI Foundry.
+![image](https://github.com/user-attachments/assets/717d8d08-8311-4693-a418-d51276fb2ff3)
 
-    :::image type="content" source="media/byom-for-your-prompts/connect-from.png" alt-text="Screenshot of the 'Connect model from AI foundry' option in the 'Model' field.>":::
 
-1. In the **Connect a model from Azure AI Foundry** screen, enter information about the model from [Azure AI Foundry / Model
+4. In the **Connect a model from Azure AI Foundry** screen, enter information about the model from [Azure AI Foundry / Model
   catalog](https://ai.azure.com/explore/models?tid=72f988bf-86f1-41af-91ab-2d7cd011db47), and then select **Connect**.
 
-    :::image type="content" source="media/byom-for-your-prompts/byom-connect.png" alt-text="Screenshot of the 'Connect a model from Azure AI Foundry' screen.>":::
+   ![image](https://github.com/user-attachments/assets/d81b6a1b-f3f3-46c1-bcae-39ddb681f976)
 
-    Your model is now added to the **Model** dropdown menu.
+    5. Your model is now added to the **Model** dropdown menu.
+       ![image](https://github.com/user-attachments/assets/434400be-d54d-4133-8944-21de2d47b5ce)
 
-## Test your prompt
+       6. When image input is added the dropdown will only show models from foundary that work with images.
+          ![image](https://github.com/user-attachments/assets/98c740f5-0d37-4e1d-9cdc-cfd4d5fd065b)
 
-1. In the designer, select the **Prompt** card.
-1. To save your topic, select **Save**. You can now use it in your agent.
-1. In the Copilot panel, select **Test your Copilot** to test your prompt.
 
-    :::image type="content" source="media/byom-for-your-prompts/save-prompt-topic.png" alt-text="Screenshot of the saved topic.":::
+
+## How can I manage my foundary model:
+
+1.The Azure AI foundary models are connected by connected. You can set the governace policy for this connector in policy page in PPAC.Under name 'Azure AI Foundary'
+![image](https://github.com/user-attachments/assets/62a6b7a1-9be2-47ba-9ea3-b213c221071b)
+2.Each model with which maker has set-up a connection is also available as a connection page.
+![image](https://github.com/user-attachments/assets/71e258b2-df47-43b0-ac2c-c8bfa53bae99)
+
+This currently supports models with chat completion type.
+
+## Limitation:
+Some models eg: Mistral, O3 and O1 are not supported today and will be available in June.
+
 
 > [!NOTE]
 > We recommend you apply Responsible AI (RAI) policies as applicable for the models you want to use and manage that in Azure AI Foundry.
