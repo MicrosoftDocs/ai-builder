@@ -9,7 +9,7 @@ contributors:
   - v-aangie
 ms.topic: how-to
 ms.custom: 
-ms.date: 05/14/2025
+ms.date: 05/19/2025
 ms.author: cerenkiroglu
 ms.reviewer: angieandrews
 ---
@@ -19,50 +19,50 @@ ms.reviewer: angieandrews
 As you use your AI models and prompts, you might have to access data to monitor their activity or consumption.
 
 The **Monitor activity** section of the AI hub in the Power Automate portal provides tables that you can use to monitor AI models and prompts. You can also monitor the data that they process, and track their consumption.
- **<!--image here-->**
-![Monitor Activity from AIHub](https://github.com/user-attachments/assets/f00f2c84-54c6-424f-ba46-563c4b76fa74)
+
+:::image type="content" source="media/activity-monitoring/ai-hub.png" alt-text="Screenshot of the 'Monitor activity' tile in the AI hub.":::
 
 ## View AI Builder activity
 
-The **AI Builder activity** page shows AI model and prompts activity, including activity generated in Power Automate, Power Apps and Microsoft Copilot Studio.
+The **AI Builder activity** page shows AI model and prompts activity, including activity generated in Power Automate, Power Apps, and Microsoft Copilot Studio.
 
 Learn more in [What is Power Apps?](/power-apps/powerapps-overview) and [Copilot Studio overview](/microsoft-copilot-studio/fundamentals-what-is-copilot-studio).
 
 1. Sign in to [Power Automate](https://make.powerautomate.com).
 1. On the navigation pane to the left, select **AI hub**.
 1. Select **Monitor activity**.
-1. (Optional) Review the acitivity on the page and customize the data that shows by filtering the timeframe or tool type.
+1. (Optional) Review the activity on the page and customize the data that shows by filtering the timeframe or tool type.
 
-   **<!--image here-->**
-![New AIBuilder Activity Page](https://github.com/user-attachments/assets/5bf4af91-ac9b-405b-be57-af03d1a1067a)
+    :::image type="content" source="media/activity-monitoring/activity-page.png" alt-text="Screenshot of the 'AI Builder activity' page in Power Automate.":::
 
    By default, data displays for all AI models from the last seven days.
 
-    Legend:
+   The following table describes the columns on the **AI Builder activity** page.
 
-    1. **Processed time**: The time when processing occurs.
-    1. **Tool name**: The AI model or prompt name.
-    1. **Input**: The text input of the AI model `predict` action for text processing models, or the value **Image** or **Document** for other models and prompts.
-    1. **Output**: The GPT prompt output (model response) in the selected output format.
-    1. **Used in**: The consumption source of the AI model or prompt. It can be Power Automate, Power Apps, Copilot Studio, or Quick Test for saved but not consumed prompts.
-    1. **Consumption**: The numeric consumption value for the related AI model or prompt run.
+   | Column heading | Description |
+   |---|---|
+   | Processed by | The time when processing occurs. |
+   | Tool name  | The AI model or prompt name.  |
+   | Input  | The text input of the AI model `predict` action for text processing models, or the value **Image** or **Document** for other models and prompts.  |
+   | Output | The GPT prompt output (model response) in the selected output format. |
+   | Used in | The consumption source of the AI model or prompt. It can be Power Automate, Power Apps, Copilot Studio, or Quick Test for saved but not consumed prompts. |
+   | Consumption  | The numeric consumption value for the related AI model or prompt run.|
 
-      More details show when you select each event in the table.
+    When you select each event in the table, more details show.
 
-      **<!--image here-->**
-   ![Details page for AIBuilder activity monitoring](https://github.com/user-attachments/assets/4b21d521-7860-45ea-8f70-5c6adbcc1d56)
+    :::image type="content" source="media/activity-monitoring/details-page.png" alt-text="Screenshot of the details page for AI Builder activity monitoring in Power Automate.":::
 
-        Legend:
-
-        1. **Processed by**: The name of the person who performs the predict action. This person is typically the owner of the Power Automate cloud flow or the person who runs the app created in Power Apps.
-        1. **Model**: The name of the language model used in the prompt run.
+    | Detail  | Description |
+    |---|---|
+    | Processed by | The name of the person who performs the predict action. This person is typically the owner of the Power Automate cloud flow or the person who runs the app created in Power Apps. |
+    | Model | The name of the language model used in the prompt run. |
 
 ## Monitor data for makers and admins
 
-The **AI Builder activity** section is helpful if you want to monitor the use of your AI models and prompts. It's also helpful for environment admins who want to monitor all activity in an environment.
+If you want to monitor the use of your AI models and prompts, the **AI Builder activity** section is helpful. It's also helpful for environment admins who want to monitor all activity in an environment.
 
 > [!NOTE]
-> - The monitoring data is stored in the **AI Event** table in your Dataverse instance. It persists in the table even if you delete the model, flow, and app.
+> - The monitoring data is stored in the **AI Event** table in your Dataverse instance. It persists in the table even if you delete the model, cloud flow, and app.
 > - You're required to have Write access to this table to record AI model and prompt activity.
 > - The **AI Event** Dataverse table contains input of the AI model predict actions for text scenarios only.
 
@@ -124,4 +124,5 @@ To delete AI Builder activity monitoring data, you must create a bulk-delete job
 1. In the **days** list, select the frequency that you want the job to run at.
 1. If you want to receive a notification email, select the **Send an email to me (\<*your email address*\>) when this job is finished** checkbox.
 1. Select **Next**.
-1. On the **Review and Submit Bulk Deletion Details** page, review the bulk-delete job, and then select **Submit** to create the recurring job.
+1. On the **Review and Submit Bulk Deletion Details** page, review the bulk-delete job.
+1. Select **Submit** to create the recurring job.
