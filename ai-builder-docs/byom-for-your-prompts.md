@@ -87,7 +87,7 @@ After you create an agent, add prompt as an action to create a prompt.
 
     On the panel to the right of **Instructions**, select the dropdown menu in the **Model** field, and select the plus sign (**+**) to connect to a model from Azure AI Foundry.
 
-    :::image type="content" source="media/byom-for-your-prompts/prompt-description.png" alt-text="Screenshot of the 'New Prompt" screen, where you add a prompt and select a model.":::
+    :::image type="content" source="media/byom-for-your-prompts/prompt-description.png" alt-text="Screenshot of the 'New Prompt' screen, where you add a prompt and select a model.":::
 
 1. In the **Connect a model from Azure AI Foundry** screen, enter information about the model from [Azure AI Foundry / Model
   catalog](https://ai.azure.com/explore/models?tid=72f988bf-86f1-41af-91ab-2d7cd011db47). Make sure to add the **Model deployment name** and **Base model name** exactly as they appear in Azure AI Foundry.
