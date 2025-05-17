@@ -14,7 +14,7 @@ ms.author: mbajwa
 ms.reviewer: angieandrews
 ---
 
-# Bring your own model for your prompts
+# Bring your own model for your prompts (preview)
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
