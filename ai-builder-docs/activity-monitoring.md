@@ -41,7 +41,7 @@ Learn more in [What is Power Apps?](/power-apps/powerapps-overview) and [Copilot
 
    | Column heading | Description |
    |---|---|
-   | Processed by | The time when processing occurs. |
+   | Processed time | The time when processing occurs. |
    | Tool name  | The AI model or prompt name.  |
    | Input  | The text input of the AI model `predict` action for text processing models, or the value **Image** or **Document** for other models and prompts.  |
    | Output | The GPT prompt output (model response) in the selected output format. |
