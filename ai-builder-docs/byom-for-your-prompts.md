@@ -28,7 +28,9 @@ This includes the following models:
 - And 1,800 plus more in [Azure AI Foundry / Model
   catalog](https://ai.azure.com/explore/models?tid=72f988bf-86f1-41af-91ab-2d7cd011db47)
 
-[!INCLUDE[cc_preview_features_definition](./includes/cc-preview-features-definition.md)]
+> [!IMPORTANT]
+> - This is a preview feature.
+> - Preview features are available before an official release so that customers can get early access and provide feedback.
 
 You can access a diverse portfolio of AI models, including cutting-edge open-source solutions, industry-specific models, and task-based AI capabilities&mdash;all within the trusted, scalable, and enterprise-ready platform of Copilot Studio. With the native Azure AI Foundry integration, we bring the best capabilities from across our platforms into Copilot Studio to make it your one-stop hub to build agents.
 
