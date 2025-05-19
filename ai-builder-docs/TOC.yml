@@ -45,6 +45,8 @@
     href: distribute-prompt.md
   - name: Change the model version and settings
     href: prompt-modelsettings.md
+  - name: Bring your own model for your prompts (preview)
+    href: byom-for-your-prompts.md
   - name: Use your prompt
     items:
     - name: Use your prompt in Copilot Studio
@@ -324,7 +326,7 @@
     href: licensing-prompt-tokens.md
   - name: Consumption report
     href: administer-consumption-report.md
-  - name: Monitor model activity (preview)
+  - name: Monitor AI Builder models and prompts activity
     href: activity-monitoring.md  
 - name: Troubleshoot
   items:

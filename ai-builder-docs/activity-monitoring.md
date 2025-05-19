@@ -1,63 +1,69 @@
 ---
-title: Monitor model activity (preview)
-description: Learn how to monitor the activity or consumption of your AI models.
-author: jekom1
+title: Monitor AI Builder models and prompts activity
+description: Learn how to monitor the activity or consumption of your AI models and prompts.
+author: CerenKiroglu
 contributors: 
+  - CerenKiroglu
   - jekom1
   - phil-cmd
   - v-aangie
 ms.topic: how-to
 ms.custom: 
-ms.date: 01/27/2025
-ms.author: plarrue
+ms.date: 05/19/2025
+ms.author: cerenkiroglu
 ms.reviewer: angieandrews
 ---
 
-# Monitor model activity (preview)
+# Monitor AI Builder models and prompts activity
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
+As you use your AI models and prompts, you might have to access data to monitor their activity or consumption.
 
-As you use your AI models, you might have to access data to monitor their activity or consumption.
+The **Monitor activity** section of the AI hub in the Power Automate portal provides tables that you can use to monitor AI models and prompts. You can also monitor the data that they process, and track their consumption.
 
-> [!IMPORTANT]
-> - This is a preview feature.
-> - Preview features aren’t meant for production use and may have restricted functionality. These features are available before an official release so that customers can get early access and provide feedback.
-> - This feature might not yet be available in your region.
-
-The **AI Builder activity** section of the Power Automate portal provides tables and charts that you can use to monitor AI models and the data that they process, and to track AI credit consumption.
-
-:::image type="content" source="media/activity-monitoring/activity-monitoring-legend.png" alt-text="Screenshot of the AI Builder activity (preview) page.":::
-
-Legend:
-
-1. **Data processed**: The text input of the AI model predict action for text processing models, or the value **Image** or **Document** for other models.
-1. **Data type**: The data type that the AI model processed: **Text**, **Jpeg**, **Png**, **Bmp**, **Pdf**, or **Unknown**.
-1. **Date**: The processing date.
-1. **Model**: The name of the AI model that was used. If the model has been deleted, **Deleted** is shown.
-1. **Status**: The processing status: **Processing**, **Processed**, or **Failed**.
-1. **Processed by**: The name of the person who did the predict action. This person is typically the owner of the Power Automate flow or the person who ran the app that was created in Power Apps.
-1. **AI Credits**: The number of credits that were consumed for the predict action.
+:::image type="content" source="media/activity-monitoring/ai-hub.png" alt-text="Screenshot of the 'Monitor activity' tile in the AI hub.":::
 
 ## View AI Builder activity
 
-The **AI Builder activity** page shows AI model activity, including activity that is generated in [Power Apps](/power-apps/powerapps-overview).
+The **AI Builder activity** page shows AI model and prompts activity, including activity generated in Power Automate, Power Apps, and Microsoft Copilot Studio.
+
+Learn more in [What is Power Apps?](/power-apps/powerapps-overview) and [Copilot Studio overview](/microsoft-copilot-studio/fundamentals-what-is-copilot-studio).
 
 1. Sign in to [Power Automate](https://make.powerautomate.com).
-1. On the left navigation pane, select **...More** > **Discover all**.
-1. Under **Monitor**, select **AI Builder activity (preview)**.
-1. (Optional) Customize the data that shows by applying a filter for the timeframe or model. To apply a filter, select the relevant table heading.
+1. On the navigation pane to the left, select **AI hub**.
+1. Select **Monitor activity**.
+1. (Optional) Review the activity on the page and customize the data that shows by filtering the timeframe or tool type.
 
-    By default, data shows for all AI models for the last seven days.
+    :::image type="content" source="media/activity-monitoring/activity-page.png" alt-text="Screenshot of the 'AI Builder activity' page in Power Automate.":::
 
-1. (Optional) To display more data, select **See more**.
+   By default, data displays for all AI models from the last seven days.
 
-## Monitoring data for makers and admins
+   The following table describes the columns on the **AI Builder activity** page.
 
-The **AI Builder activity** section is helpful for makers who want to monitor the use of their AI models. It's also helpful for environment admins who want to monitor all activity in an environment.
+   | Column heading | Description |
+   |---|---|
+   | Processed time | The time when processing occurs. |
+   | Tool name  | The AI model or prompt name.  |
+   | Input  | The text input of the AI model `predict` action for text processing models, or the value **Image** or **Document** for other models and prompts.  |
+   | Output | The GPT prompt output (model response) in the selected output format. |
+   | Used in | The consumption source of the AI model or prompt. It can be Power Automate, Power Apps, Copilot Studio, or Quick Test for saved but not consumed prompts. |
+   | Consumption  | The numeric consumption value for the related AI model or prompt run.|
+
+    When you select each event in the table, more details show.
+
+    :::image type="content" source="media/activity-monitoring/details-page.png" alt-text="Screenshot of the details page for AI Builder activity monitoring in Power Automate.":::
+
+    | Detail  | Description |
+    |---|---|
+    | Processed by | The name of the person who performs the predict action. This person is typically the owner of the Power Automate cloud flow or the person who runs the app created in Power Apps. |
+    | Model | The name of the language model used in the prompt run. |
+
+## Monitor data for makers and admins
+
+If you want to monitor the use of your AI models and prompts, the **AI Builder activity** section is helpful. It's also helpful for environment admins who want to monitor all activity in an environment.
 
 > [!NOTE]
-> - The monitoring data is stored in the **AI Event** table in your Dataverse instance. It persists in the table even if the model, flow, and app are deleted.
-> - Write access to this table is required to record AI model/prompt activity.
+> - The monitoring data is stored in the **AI Event** table in your Dataverse instance. It persists in the table even if you delete the model, cloud flow, and app.
+> - You're required to have Write access to this table to record AI model and prompt activity.
 > - The **AI Event** Dataverse table contains input of the AI model predict actions for text scenarios only.
 
 The data that you can display depends on your role.
@@ -77,10 +83,10 @@ This section of the article explains how to identify the historical AI Builder a
 
 In addition to on-demand bulk-delete jobs, you can schedule recurrent bulk-delete jobs that find and delete records in a table that are, for example, older than a specified number of days (`OlderThanXDays` query function).
 
-To create bulk-delete jobs in Dataverse, you must have the **Bulk Delete** privilege in at least one of the roles that have been assigned to you.
+To create bulk-delete jobs in Dataverse, you must have the **Bulk Delete** privilege in at least one of the roles that is assigned to you.
 
 > [!CAUTION]
-> When you delete Dataverse data, it's permanently deleted from your environment. There is no way to recover individual records after they have been deleted.
+> When you delete Dataverse data, it is permanently deleted from your environment. There's no way to recover individual records after you delete them.
 
 ### Export a Dataverse table
 
@@ -88,9 +94,9 @@ The following table shows an AI Builder activity monitoring Dataverse table that
 
 | Display name | System name | Details |
 |--------|--------|--------|
-| AI Event | Msdyn\_aievent | The **AI Event** table stores activity data about AI model activity (*predicts*). This data includes the processed data type, processed data information for text scenarios, processing date, processing status, and credits consumed. |
+| AI Event | Msdyn\_aievent | The **AI Event** table stores activity data about AI model and prompt activity. This data includes the processed data type, processed data information for text scenarios, processing date, processing status, and consumption. |
 
-As the data is stored in your **AI Event** Dataverse table, you can export it in comma-separated values (CSV) format. [Learn how to export data.](/power-apps/maker/data-platform/data-platform-import-export#export-data0)
+As the data is stored in your **AI Event** Dataverse table, you can export it in comma-separated values (CSV) format. Learn how to export data in [Import data from Excel and export data to CSV](/power-apps/maker/data-platform/data-platform-import-export#export-data0).
 
 :::image type="content" source="media/activity-monitoring/export.png" alt-text="Screenshot that shows how to export data from a Dataverse table.":::
 
@@ -99,7 +105,7 @@ As the data is stored in your **AI Event** Dataverse table, you can export it in
 To delete AI Builder activity monitoring data, you must create a bulk-delete job. To bulk-delete data in Dataverse, follow these steps.
 
 > [!CAUTION]
-> Before you perform bulk-delete operations, thoroughly test and review your filter results. Bulk-delete operations are irreversible.
+> Bulk-delete operations are irreversible. Before you perform bulk-delete operations, thoroughly test and review your filter results.
 
 1. Sign in to [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
 1. On the left navigation pane, select **Environments**, select your environment, and then select **Settings** on the top menu bar.
@@ -118,4 +124,5 @@ To delete AI Builder activity monitoring data, you must create a bulk-delete job
 1. In the **days** list, select the frequency that you want the job to run at.
 1. If you want to receive a notification email, select the **Send an email to me (\<*your email address*\>) when this job is finished** checkbox.
 1. Select **Next**.
-1. On the **Review and Submit Bulk Deletion Details** page, review the bulk-delete job, and then select **Submit** to create the recurring job.
+1. On the **Review and Submit Bulk Deletion Details** page, review the bulk-delete job.
+1. Select **Submit** to create the recurring job.
