@@ -30,7 +30,7 @@ This includes the following models:
 
 > [!IMPORTANT]
 > - This is a production-ready preview feature.
->- Production-ready previews are subject to [supplemental terms of use](https://go.microsoft.com/fwlink/linkid=2189520).
+>- Production-ready previews are subject to [supplemental terms of use](https://go.microsoft.com/fwlink/?linkid=2189520).
 
 You can access a diverse portfolio of AI models, including cutting-edge open-source solutions, industry-specific models, and task-based AI capabilities&mdash;all within the trusted, scalable, and enterprise-ready platform of Copilot Studio. With the native Azure AI Foundry integration, we bring the best capabilities from across our platforms into Copilot Studio to make it your one-stop hub to build agents.
 
