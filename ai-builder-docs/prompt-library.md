@@ -5,8 +5,8 @@ author: phil-cmd
 contributors:
   - phil-cmd
   - v-aangie
+ms.date: 05/19/2025
 ms.topic: get-started
-ms.date: 12/11/2024
 ms.author: plarrue
 ms.reviewer: angieandrews
 ms.collection: bap-ai-copilot
@@ -17,7 +17,7 @@ ms.collection: bap-ai-copilot
 The prompt library feature provides a collection of predesigned prompts, serving as *templates to expedite the creation of AI prompts*. This resource accelerates development, and ensures best practices are followed in prompt engineering. You can modify templates to suit specific needs, adjusting language, tone, and detail to match organizational standards and requirements. The templates cover key areas like document extraction, data transformation, and content generation. This makes it easy for you to find the right starting point for your intelligent automation goals.
 
 > [!IMPORTANT]
-> - AI Builder prompts are running on GPT 4o Mini and GPT 4o model versions powered by [Azure OpenAI Service](/azure/ai-services/openai/whats-new).
+> - AI Builder prompts use GPT models powered by [Azure OpenAI Service](/azure/ai-services/openai/whats-new).
 > - This capability is [limited to some regions](availability-region.md#prompts).
 > - This capability might be subject to usage limits or capacity throttling.
 
@@ -33,29 +33,41 @@ To access the prompt library and select a template through the left navigation m
 
     To get an overview of all templates in the library, select **See all templates**.
 
-    :::image type="content" source="media/prompt-library/all-templates.png" alt-text="Screenshot of the template selection screen in the prompt library.":::
+    :::image type="content" source="media/prompt-library/see-all-templates.png" alt-text="Screenshot of the template selection screen in the prompt library.":::
 
-    Alternatively, you can use the **Search** field to find the one you're looking for. You can also search by categories, for example, **Language and text analysis**, **Content creation and management**, and **Tasks and role specific tools**.
+    Alternatively, you can use the **Search** field to find the one you're looking for. You can also search by Job type for example, **Common**, **Customer service**, **Legal**, **Marketing**, **Communications**, **Information technology**, **Learning**, **HR**, **Finance**, **Architecture**, and **Sales**, or by Task for example, **Analyze**, **Classify**, **Create**, **Extract**, and **Summarize**.
 
-    :::image type="content" source="media/prompt-library/template-search.png" alt-text="Screenshot of the search functionality in the prompt library.":::
+    :::image type="content" source="media/prompt-library/prompt-library-select-jobtype-task.png" alt-text="Screenshot of the job type, task, and search functionality in the prompt library.":::
 
 ## Use the prompt builder
 
 To access the prompt library and select a template through the prompt builder, follow these steps:
 
+### From Copilot Studio
+
+1. Sign in to [Copilot Studio](https://copilotstudio.com/).
+2. On the left navigation pane, select **Tools**.
+3. Select **+ Create a Tool**.
+4. Select **New Prompt**.
+5. Select **Browse prompt library** to search for a template, and select the job type and task of your choice.
+
+    :::image type="content" source="media/prompt-library/copilot-studio-browse-prompt-library.png" alt-text="Screenshot of the browse prompt library screen in Copilot Studio prompt builder.":::
+
+### From Power Apps or Power Automate
+
 1. Sign in to [Power Apps](https://make.powerapps.com/) or [Power Automate](https://make.powerautomate.com/).
 1. Select **AI hub** > **Prompts**.
 1. Select **Build your own prompt**.
 
-    :::image type="content" source="media/prompt-library/byo-prompt.png" alt-text="Screenshot of the build your own prompt option in the prompt library.":::
+    :::image type="content" source="media/prompt-library/select-build-yourown-prompt.png" alt-text="Screenshot of the build your own prompt option in the prompt library.":::
 
-1. Select **Prompt library**.
+1. Select **Browse prompt library**.
 
-    :::image type="content" source="media/prompt-library/prompt-library.png" alt-text="Screenshot of the 'Prompt library' selection in the builder.":::
+    :::image type="content" source="media/prompt-library/select-browse-prompt-library.png" alt-text="Screenshot of the 'Prompt library' selection in the builder.":::
 
-1. From the **Prompt library** screen, select the template of your choice.
+1. From the **Browse prompt library** screen, search for a template, and select the job type and task of your choice.
 
-    :::image type="content" source="media/prompt-library/prompt-library-screen.png" alt-text="Screenshot of the template selection in the 'Prompt library' screen.":::
+    :::image type="content" source="media/prompt-library/select-prompt-template.png" alt-text="Screenshot of the template selection in the 'Prompt library' screen.":::
 
 ## Frequently asked questions
 
@@ -77,9 +89,9 @@ Learn more in [Change the output of your prompt](change-prompt-output.md).
 
 ### Can I select the GPT model of a template?
 
-Yes. From **Prompt settings**, choose **Standard GPT-4o mini (default)** or **Advanced GPT-4o**.
+Yes. From **Prompt model**, choose a managed model.
 
-Learn more in [Generative AI model versions](prompt-modelsettings.md#model-version).
+Learn more in [Model version](prompt-modelsettings.md#model-version).
 
 ### Can I select the temperature of a template?
 
@@ -92,10 +104,6 @@ Learn more in [Temperature](https://go.microsoft.com/fwlink/?linkid=2268182).
 Yes. From the panel on the right, select **Data used** to add a single Dataverse table
 
 Learn more in [Use your own data in a prompt](use-your-own-prompt-data.md).
-
-### Can I display the prompt library in Microsoft Copilot Studio?
-
-No, it isn't currently available.
 
 ### Can I display the prompt library in a canvas app?
 
