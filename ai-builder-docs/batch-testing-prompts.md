@@ -1,5 +1,5 @@
 ---
-title: Batch testing for prompts
+title: Batch testing for prompts (preview)
 description: Learn to use batch testing for prompts to validate and improve prompts used in AI tools across the platform.
 author: antrodfr
 contributors:
@@ -25,7 +25,7 @@ Prompts enable you to create custom generative AI tools for business automation 
 >- This is a production-ready preview feature.
 >- Production-ready previews are subject to [supplemental terms of use](https://go.microsoft.com/fwlink/?linkid=2189520).
 >- AI Builder prompts run on GPT models powered by [Azure OpenAI Service](/azure/ai-services/openai/whats-new).
->- This capability is [limited to some regions](availability-region.md#prompts).
+>- This capability might not br available in your region yet. Learn more in the **Prompts** section in [Feature availability by region or US Government environment](availability-region.md#prompts).
 >- This capability might be subject to usage limits or capacity throttling.
 
 ## Core features of batch testing
@@ -53,10 +53,10 @@ You can create and manage test datasets in multiple ways:
 
 The framework offers you flexibility in defining evaluation criteria:
 
-- Prebuilt criteria: Includes options for tasks like JSON validation, exact match, semantic similarity, and response quality check.
-- Passing score: You can tailor the passing score to fit unique use case depending upon the threshold that you set when a test result should be considered as pass or fail.
+- **Prebuilt criteria**: Includes options for tasks like JSON validation, exact match, semantic similarity, and response quality check.
+- **Passing score**: You can tailor the passing score to fit unique use case depending upon the threshold that you set when a test result should be considered as pass or fail.
 
-## Run History Insights
+## Run history insights
 
 Run history allows you to monitor and analyze test results over time, including:
 
@@ -64,11 +64,11 @@ Run history allows you to monitor and analyze test results over time, including:
 - Compare outcomes from different runs to identify trends or regressions.
 - Access details of why a certain test result was classified pass or fail thus offering more detailed for diagnosis.
 
-## How to Use the Test Framework
+## How to use the Test framework
 
 Use the following steps to set up and run batch tests for your prompts.
 
-### Define the Test Dataset
+### Define the Test dataset
 
 Step 1 in the batch testing process is to define the test dataset.
 
@@ -139,7 +139,7 @@ You can:
 
 ### Monitor and iterate
 
-Step 5 in the batch testing process is to monitor and iterate. Use the run history to track performance over time. Continuously improve prompts through iterative testing and evaluation.
+Step 5 in the batch testing process is to monitor and iterate. To track performance over time, use the run history. Continuously improve prompts through iterative testing and evaluation.
 
 The following list contains the key benefits:
 - Improved confidence and trust in AI tool outcomes.
