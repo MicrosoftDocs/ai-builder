@@ -14,7 +14,8 @@ ms.author: antrod
 ms.reviewer: angieandrews
 ---
 
-# Batch testing for prompts
+# Batch testing for prompts (preview)
+[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
 Prompts enable you to create custom generative AI tools for business automation and agents. Ensuring the accuracy, reliability, and efficiency of these tools is critical. Batch testing of Prompts is designed to enable you to validate, and improve prompts used in AI tools across the platform. 
 
@@ -22,6 +23,10 @@ Prompts enable you to create custom generative AI tools for business automation 
 > - AI Builder prompts run on GPT models powered by [Azure OpenAI Service](/azure/ai-services/openai/whats-new).
 > - This capability is [limited to some regions](availability-region.md#prompts).
 > - This capability might be subject to usage limits or capacity throttling.
+
+> [!IMPORTANT]
+> - This is a production-ready preview feature.
+>- Production-ready previews are subject to [supplemental terms of use](https://go.microsoft.com/fwlink/?linkid=2189520).
 
 ## Core features of batch testing
 
@@ -64,8 +69,8 @@ Run history allows users to monitor and analyze test results over time, includin
 1.	You can also a set upload test cases by selecting on **Upload test case**. If you want to check the format of the file you need to upload, click on **Download test data schema**.
 :::image type="content" source="media/batch-testing/upload-test-case.png" alt-text="Screenshot of adding a test case.":::
 
-Select the test lines to keep and save to generate the test cases.
-:::image type="content" source="media/batch-testing/list-uploaded-test-case.png" alt-text="Screenshot of uploaded test cases.":::
+    Select the test lines to keep and save to generate the test cases.
+    :::image type="content" source="media/batch-testing/list-uploaded-test-case.png" alt-text="Screenshot of uploaded test cases.":::
 
 Users can also define define datasets by generating synthetic datasets using AI, selecting **Generate**, or from past activity, selecting **Create from activity**.
 
