@@ -1,9 +1,10 @@
 ---
 title: Batch testing for prompts
-description: Batch testing for prompts
+description: Learn to use batch testing for prompts to validate and improve prompts used in AI tools across the platform.
 author: antrodfr
 contributors:
   - antrodfr
+  - v-aangie
 ms.topic: article
 ms.collection: 
 - get-started
@@ -15,97 +16,137 @@ ms.reviewer: angieandrews
 ---
 
 # Batch testing for prompts (preview)
+
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-Prompts enable you to create custom generative AI tools for business automation and agents. Ensuring the accuracy, reliability, and efficiency of these tools is critical. Batch testing of Prompts is designed to enable you to validate, and improve prompts used in AI tools across the platform. 
+Prompts enable you to create custom generative AI tools for business automation and agents. Ensuring the accuracy, reliability, and efficiency of these tools is critical. Batch testing of prompts is designed to enable you to validate and improve prompts used in AI tools across the platform.
 
 > [!IMPORTANT]
-> - AI Builder prompts run on GPT models powered by [Azure OpenAI Service](/azure/ai-services/openai/whats-new).
-> - This capability is [limited to some regions](availability-region.md#prompts).
-> - This capability might be subject to usage limits or capacity throttling.
-
-> [!IMPORTANT]
-> - This is a production-ready preview feature.
+>- This is a production-ready preview feature.
 >- Production-ready previews are subject to [supplemental terms of use](https://go.microsoft.com/fwlink/?linkid=2189520).
+>- AI Builder prompts run on GPT models powered by [Azure OpenAI Service](/azure/ai-services/openai/whats-new).
+>- This capability is [limited to some regions](availability-region.md#prompts).
+>- This capability might be subject to usage limits or capacity throttling.
 
 ## Core features of batch testing
 
-Batch testing provides a systematic approach for validating prompts on diverse datasets. Users can:
+Batch testing provides a systematic approach for validating prompts on diverse datasets. You can:
+
 - Upload or generate test datasets for comprehensive evaluation.
 - Define evaluation criteria for judging the test results.
 - Execute batch tests to assess prompt behavior across the test dataset.
 - Compare outcomes over time to ensure continuous improvement.
-- Ability for you to review and adjust automatic evaluations, ensuring alignment with your specific needs.
+- Review and adjust automatic evaluations to ensure alignment with your specific needs.
 
-An accuracy score is calculated based on test results, giving users empirical data to trust their AI tools. 
+An accuracy score is calculated based on test results, giving you empirical data to trust your AI tools.
 
 ## Test dataset management
 
 You can create and manage test datasets in multiple ways:
+
 - Import historical data from past prompt interactions.
 - Upload pre-labeled datasets in CSV format.
 - Leverage AI-generated synthetic test data for diverse scenarios.
 - Manually create or refine test cases within the interface.
 
 ## Evaluation criteria
-The framework offers flexibility in defining evaluation criteria:
-- Prebuilt Criteria: Includes options for tasks like JSON validation, exact match, semantic similarity and response quality check.
-- Passing Score: You can tailor the passing score to fit unique use case depending upon the threshold that you set when a test result should be considered as pass or fail.
+
+The framework offers you flexibility in defining evaluation criteria:
+
+- Prebuilt criteria: Includes options for tasks like JSON validation, exact match, semantic similarity, and response quality check.
+- Passing score: You can tailor the passing score to fit unique use case depending upon the threshold that you set when a test result should be considered as pass or fail.
 
 ## Run History Insights
-Run history allows users to monitor and analyze test results over time, including:
-- Tracking accuracy score progression across multiple test runs.
-- Comparing outcomes from different runs to identify trends or regressions.
-- Accessing details of why a certain test result was classified pass or fail thus offering more detailed for diagnosis.
+
+Run history allows you to monitor and analyze test results over time, including:
+
+- Track accuracy score progression across multiple test runs.
+- Compare outcomes from different runs to identify trends or regressions.
+- Access details of why a certain test result was classified pass or fail thus offering more detailed for diagnosis.
 
 ## How to Use the Test Framework
-### Step 1: Define the Test Dataset
-1.	Open **Test hub**
-:::image type="content" source="media/batch-testing/test-gub-get-started.png" alt-text="Screenshot of Test hub.":::
 
-1.	You can add test cases individually by selecting on **Add test case**
-:::image type="content" source="media/batch-testing/add-test-case.png" alt-text="Screenshot of adding a test case.":::
+Use the following steps to set up and run batch tests for your prompts.
 
-1.	You can also a set upload test cases by selecting on **Upload test case**. If you want to check the format of the file you need to upload, click on **Download test data schema**.
-:::image type="content" source="media/batch-testing/upload-test-case.png" alt-text="Screenshot of adding a test case.":::
+### Define the Test Dataset
 
-    Select the test lines to keep and save to generate the test cases.
-    :::image type="content" source="media/batch-testing/list-uploaded-test-case.png" alt-text="Screenshot of uploaded test cases.":::
+Step 1 in the batch testing process is to define the test dataset.
 
-Users can also define define datasets by generating synthetic datasets using AI, selecting **Generate**, or from past activity, selecting **Create from activity**.
+1. Sign in to [Power Apps](https://make.powerapps.com) or [Power Automate](https://make.powerautomate.com).
+1. On the navigation pane to the left, select **AI Builder** > **Test hub**.
 
-### Step 2: Set evaluation criteria
-In the **Test hub** screen, select **Evaluation criteria**.
-:::image type="content" source="media/batch-testing/evaluation-criteria.png" alt-text="Screenshot of evaluation criteria.":::
+    :::image type="content" source="media/batch-testing-prompts/test-gub-get-started.png" alt-text="Screenshot of Test hub.":::
 
-Choose from prebuilt criteria like semantic similarity, selecting **Response quality**, or JSON validation, selecting **JSON correctness**. Adjust the pass score threshold tailored to specific needs. These criteria and passing score determine how outputs will be assessed during the evaluation process.
+1. To add test cases individually, select **Add test case**.
 
-### Step 3: Run batch tests
-Select the test cases to run and click on **Run selected**. The framework evaluates results against the defined criteria, providing insights into the prompt's performance.
+    :::image type="content" source="media/batch-testing-prompts/add-test-case.png" alt-text="Screenshot of adding a test case.":::
 
-:::image type="content" source="media/batch-testing/run-tests.png" alt-text="Screenshot of tests to run.":::
+1. To set upload test cases, select **Upload**.
 
-### Step 4: Review test results
-Users can:
+    If you want to check the format of the file you need to upload, select **Download test data schema**.
+
+    :::image type="content" source="media/batch-testing-prompts/upload-test-case.png" alt-text="Screenshot of uploading or downloading test data schema.":::
+
+1. Select the test lines to keep and save to generate the test cases.
+  
+    :::image type="content" source="media/batch-testing-prompts/list-uploaded-test-case.png" alt-text="Screenshot of the uploaded test cases.":::
+
+You can also define datasets by selecting the following in the **Test hub** menu:
+- To generate synthetic datasets using AI, select **Generate**.
+- To choose from past activity, select **Create from activity**.
+
+### Set evaluation criteria
+
+Step 2 in the batch testing process involves defining the evaluation criteria for the test cases.
+
+1. In the **Test hub** screen, select **Evaluation criteria**.
+1. Choose from the following prebuilt criteria:
+    - For semantic similarity, select **Response quality**.
+    - For JSON validation, select **JSON correctness**.
+1. Adjust the pass score threshold tailored to specific needs.
+
+    :::image type="content" source="media/batch-testing-prompts/evaluation-criteria.png" alt-text="Screenshot of evaluation criteria.":::
+
+    These criteria and passing score determine how outputs are assessed during the evaluation process.
+
+### Run batch tests
+
+Step 3 in the batch testing process is to run the batch tests.
+
+1. Select the test cases to run.
+1. Select **Run selected**.
+
+    The framework evaluates results against the defined criteria, providing insights into the prompt's performance.
+
+    :::image type="content" source="media/batch-testing-prompts/run-tests.png" alt-text="Screenshot of tests to run.":::
+
+### Review test results
+
+Step 4 in the batch testing process is to review the test results.
+
+You can:
 - View test responses, accuracy scores, and evaluation details.
 - Refine evaluation metrics to suit their needs.
 - Identify areas for improvement and optimize their prompt.
 
-1. Select **Run history** to access previous runs.
-:::image type="content" source="media/batch-testing/run-history.png" alt-text="Screenshot of run history.":::
+1. To access previous runs, select **Run history**.
 
-1. Select the run to view details
-:::image type="content" source="media/batch-testing/run-details.png" alt-text="Screenshot of run details.":::
+    :::image type="content" source="media/batch-testing-prompts/run-history.png" alt-text="Screenshot of run history.":::
 
-### Step 4: Monitor and iterate
-Utilize the run history to track performance over time. Continuously improve prompts through iterative testing and evaluation.
+1. To view details, select the run.
 
-Key Benefits:
+    :::image type="content" source="media/batch-testing-prompts/run-details.png" alt-text="Screenshot of run details.":::
+
+### Monitor and iterate
+
+Step 5 in the batch testing process is to monitor and iterate. Use the run history to track performance over time. Continuously improve prompts through iterative testing and evaluation.
+
+The following list contains the key benefits:
 - Improved confidence and trust in AI tool outcomes.
 - Standardized and repeatable testing processes.
 - Enhanced efficiency through automation and AI-assisted tools.
 - Customizable evaluation options for diverse business scenarios.
 
-
 ## Related information
-- [FAQ for prompts and text generation capabilities](faqs-text-generation.md)
+
+[FAQ for prompts and text generation capabilities](faqs-text-generation.md)
