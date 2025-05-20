@@ -47,6 +47,8 @@
     href: prompt-modelsettings.md
   - name: Bring your own model for your prompts (preview)
     href: byom-for-your-prompts.md
+  - name: Batch testing for prompts
+    href: batch-testing-prompts.md
   - name: Use your prompt
     items:
     - name: Use your prompt in Copilot Studio
