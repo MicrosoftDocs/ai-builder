@@ -39,11 +39,9 @@ To access the prompt library and select a template through the left navigation m
 
     :::image type="content" source="media/prompt-library/prompt-library-select-jobtype-task.png" alt-text="Screenshot of the job type, task, and search functionality in the prompt library.":::
 
-## Use the prompt builder
+## Use the prompt builder from Power Apps or Power Automate
 
 To access the prompt library and select a template through the prompt builder, follow these steps:
-
-### From Power Apps or Power Automate
 
 1. Sign in to [Power Apps](https://make.powerapps.com/) or [Power Automate](https://make.powerautomate.com/).
 1. Select **AI hub** > **Prompts**.
