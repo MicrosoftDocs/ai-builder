@@ -64,6 +64,9 @@ For high-quality documents that use the same layout, five sample documents shoul
 
 Unless you're adding new fields, checkboxes, tables, signatures for data extraction, or new documents to the collection, you don't need to re-tag all the documents.
 
+  - Before publishing your model, it's recommended to [quick test your model](form-processing-train.md#quick-test-your-model) using one or more samples to verify and ensure all your desired fields are properly extracted.
+  
+
 #### Can I switch from one document type to another?
 
 Yes, when editing your model, you can switch between a fixed template document type and a general document type. However, this switch isn't supported for invoices.
