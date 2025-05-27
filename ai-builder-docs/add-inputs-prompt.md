@@ -18,7 +18,7 @@ ms.author: antrod
 ms.reviewer: angieandrews
 ---
 
-# Add text, image, or document input to a prompt
+# Add inputs to a prompt
 
 You can enhance your prompts by allowing users or systems to input text, images, or documents at prompt runtime, whether in an app, a flow, or a copilot agent. By providing these input modalities, you enable the prompt to act on a diverse range of data types, which expands the usability of the prompt.
 
@@ -29,7 +29,7 @@ You can enhance your prompts by allowing users or systems to input text, images,
 
 ## Add an input to a prompt
 
-To include an input object, type **/** or select **Add content**. Then, select **Text** or **Image or document** in the **Input** section.
+To include an input object, type **/** or select **Add content**. Then, select **Text**,  **Image or document** or **Power Fx** in the **Input** section.
 
 :::image type="content" source="media/create-a-custom-prompt/custom-prompt-add-input.png" alt-text="Screenshot of adding input.":::
 
@@ -50,6 +50,16 @@ When you use image or document inputs, you can perform actions on file content t
 If you're satisfied with your prompt, you can provide a sample value for your file input by selecting the input icon on the top right of the prompt builder experience, and uploading a file in the **Sample data** field of your input.
 
 File types supported with image or document input are PNG, JPG, JPEG, and PDF.
+
+## Power Fx input
+
+When you use Power Fx inputs, you augment your prompt with formulas. You perform operations like retrieving the current date, formatting or searching text, performing calculations, or working with memory tables. You can use any Power Fx functions that aren't related to connectors. You can use your prompt inputs as arguments for the function with this syntax: `Input.'Your input name'`. 
+
+For example, you can get the current date and apply formatting provided as a prompt input with: `Text(Now(), Input.'Date Format')`.
+
+:::image type="content" source="media/add-inputs-prompt/input-power-fx-formula.png" alt-text="Screenshot of using Power Fx formulas in a prompt.":::
+
+Learn more in [Power Fx formula reference overview](/power-platform/power-fx/formula-reference-overview) about the functions available.
 
 ## Limitations
 
