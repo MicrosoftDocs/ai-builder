@@ -31,7 +31,7 @@ You can enhance your prompts by allowing users or systems to input text, images,
 
 To include an input object, type **/** or select **Add content**. Then, select **Text**,  **Image or document** or **Power Fx** in the **Input** section.
 
-:::image type="content" source="media/create-a-custom-prompt/custom-prompt-add-input.png" alt-text="Screenshot of adding input.":::
+:::image type="content" source="media/add-inputs-prompt/custom-prompt-add-input.png" alt-text="Screenshot of adding input.":::
 
 ## Text input
 
