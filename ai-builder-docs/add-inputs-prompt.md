@@ -67,7 +67,8 @@ Learn more in [Power Fx formula reference overview](/power-platform/power-fx/for
 - For image or document input, you can't pass a file with a type other than PNG, JPG, JPEG, and PDF.
 - For image or document input, extracting information from large documents might not be accurate and skip information, especially for table lines.
 - There's a limitation of processing documents with fewer than 50 pages.
-- Image or document is supported in Copilot Studio topics but not in actions yet.
+- Image or document input isn't yet supported for prompts in Copilot Studio.
+- Power Fx inputs, such as `Filter()` or `Patch()`, to retrieve or update data aren't supported.
 
 ## Related information
 
