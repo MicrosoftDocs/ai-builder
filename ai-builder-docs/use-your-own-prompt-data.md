@@ -53,9 +53,6 @@ Each data reference is used by the generative model to answer.
 
 You can select an existing connection to Salesforce, Oracle, SAP or Zendesk, then select a table and insert one or several fields in the prompt, filtering the data on an attribute.
 
-> [!IMPORTANT]
-> Your authentication credentials connect to an external system and its data. Adding this prompt in agents, flows, or applications lets any end user of the agent, flow, or application access this external system and its data using your credentials. This might expose sensitive or confidential information to unauthorized users who don't have permissions to those systems or data.
-
 :::image type="content" source="media/use-your-own-prompt-data/use-connectors.png" alt-text="Screenshot of how to insert connectors references directly in the prompt.":::
 
 ## Example of scenarios
@@ -72,7 +69,7 @@ The number of scenarios enabled by this capability is limited only by your creat
 The following list describes the limitations of using your own data in a prompt.
 
 - Data sources are limited to Dataverse and Salesforce, Oracle, SAP, and ZenDesk connector tables.
-- The prompt author's credentials are used when prompts with connector data sources are added in an agent, flow, or application. Support for end-user credentials is coming soon.
+- Connectors can only be used for prompts in Power Automate at the moment. We will expand to agents and apps soon. 
 - Dataverse environment languages supported: English US, French, Japanese, Danish, Dutch, German, Italian, Brazilian Portuguese, Spanish, Simplified Chinese, Danish Norwegian, and Turkish.
 - Virtual table use isn't yet supported.
 - Only attributes with the following data types are available as **Filter attributes**: `text`, `number`, `date and time`, `choice`, `currency`, and `unique identifier`.
