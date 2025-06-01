@@ -1,6 +1,6 @@
 ---
-title: Use your own data in a prompt
-description: Learn how to use your own data in a prompt to get the answers you need.
+title: Add knowledge to your prompt
+description: Learn how to add knowledge to your prompt to get the answers you need.
 author: CedrickBellarosa
 contributors:
   - chplanty
@@ -15,9 +15,9 @@ ms.author: cdbellar
 ms.reviewer: angieandrews
 ---
 
-# Add knowledge to a prompt
+# Add knowledge to your prompt
 
-Prompts enable makers to use generative AI models addressing various types of content generation scenarios. These models use their default knowledge included in their training data to answer. However, this knowledge isn't sufficient to deal with use cases requiring business specific data context.
+Prompts enable you to use generative AI models addressing various types of content generation scenarios. These models use their default knowledge included in their training data to answer. However, this knowledge isn't sufficient to deal with use cases requiring business specific data context.
 
 This point is where data Retrieval Augmented Generation (RAG) allows you to provide external information to augment the knowledge of the model. This augmentation can result in getting the answers you need.
 
