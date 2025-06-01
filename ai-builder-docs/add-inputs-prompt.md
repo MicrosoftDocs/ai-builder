@@ -1,24 +1,25 @@
 ---
-title: Add text, image, or document input to a prompt
+title: Add inputs to your prompt
 description: Learn how to add text, image, or document input to a prompt.
 author: antrodfr
 contributors:
   - antrodfr
+  - CedrickBellarosa
   - chplanty
   - ashbhati
   - antoinecellerier
   - v-aangie
-ms.topic: article
+ms.topic: concept-article
 ms.collection: 
 - get-started
 - bap-ai-copilot
-ms.date: 04/30/2025
+ms.date: 06/03/2025
 ms.custom: ignite-2024
 ms.author: antrod
 ms.reviewer: angieandrews
 ---
 
-# Add inputs to a prompt
+# Add inputs to your prompt
 
 You can enhance your prompts by allowing users or systems to input text, images, or documents at prompt runtime, whether in an app, a flow, or a copilot agent. By providing these input modalities, you enable the prompt to act on a diverse range of data types, which expands the usability of the prompt.
 
@@ -29,9 +30,14 @@ You can enhance your prompts by allowing users or systems to input text, images,
 
 ## Add an input to a prompt
 
-To include an input object, type **/** or select **Add content**. Then, select **Text**,  **Image or document** or **Power Fx** in the **Input** section.
+To include an input object:
 
-:::image type="content" source="media/add-inputs-prompt/custom-prompt-add-input.png" alt-text="Screenshot of adding input.":::
+1. On the navigation pane, select **AI hub** > **Prompts**
+1. Select the prompt you want to add an input to, or create a new one.
+1. In the **Instructions** panel, type **/** or select **Add content**.
+1. in the **Input** section of the dropdown menu, select **Text**, **Image or document**, or **Power Fx**.
+
+    :::image type="content" source="media/add-inputs-prompt/custom-prompt-add-input.png" alt-text="Screenshot of adding input.":::
 
 ## Text input
 
@@ -53,9 +59,9 @@ File types supported with image or document input are PNG, JPG, JPEG, and PDF.
 
 ## Power Fx input
 
-When you use Power Fx inputs, you augment your prompt with formulas. You perform operations like retrieving the current date, formatting or searching text, performing calculations, or working with memory tables. You can use any Power Fx functions that aren't related to connectors. You can use your prompt inputs as arguments for the function with this syntax: `Input.'Your input name'`. 
+When you use Power Fx inputs, you augment your prompt with formulas. You perform operations like retrieving the current date, formatting or searching text, performing calculations, or working with memory tables. You can use any Power Fx functions that aren't related to connectors. You can use your prompt inputs as arguments for the function with this syntax: `Input.'Your input name'`.
 
-For example, you can get the current date and apply formatting provided as a prompt input with: `Text(Now(), Input.'Date Format')`.
+For example, you can get the current date and apply formatting provided as a prompt input with this syntax: `Text(Now(), Input.'Date Format')`.
 
 :::image type="content" source="media/add-inputs-prompt/input-power-fx-formula.png" alt-text="Screenshot of using Power Fx formulas in a prompt.":::
 
@@ -67,11 +73,11 @@ Learn more in [Power Fx formula reference overview](/power-platform/power-fx/for
 - For image or document input, you can't pass a file with a type other than PNG, JPG, JPEG, and PDF.
 - For image or document input, extracting information from large documents might not be accurate and skip information, especially for table lines.
 - There's a limitation of processing documents with fewer than 50 pages.
-- Image or document input isn't yet supported for prompts in Copilot Studio.
+- Image or document input isn't yet supported for prompts in Microsoft Copilot Studio.
 
 ## Related information
 
-- [Use your prompt actions in Copilot Studio](use-a-custom-prompt-in-mcs.md)
+- [Use your prompt actions in Microsoft Copilot Studio](use-a-custom-prompt-in-mcs.md)
 - [Use your prompt in Power Apps](use-a-custom-prompt-in-app.md)
 - [Use your prompt in Power Automate](use-a-custom-prompt-in-flow.md)
 - [Human review for automation with a prompt](azure-openai-human-review.md)

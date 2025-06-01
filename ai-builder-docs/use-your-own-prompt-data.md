@@ -7,10 +7,10 @@ contributors:
   - Antrodfr
   - CedrickBellarosa
   - v-aangie
-ms.topic: article
+ms.topic: concept-article
 ms.collection: 
     - bap-ai-copilot
-ms.date: 04/29/2025
+ms.date: 06/03/2025
 ms.author: cdbellar
 ms.reviewer: angieandrews
 ---
@@ -45,13 +45,13 @@ This section describes how to add knowledge to a prompt and filter it.
 
 ## Insert data references in the prompt
 
-You can also insert multiple data and related tables' data references in your prompt and use it with natural language by selecting **Insert** and navigating through the data and relationships.
+You can insert multiple data and related tables' data references in your prompt and use it with natural language. Do this by selecting **Insert** and navigating through the data and relationships.
 
-Each data reference is used by the generative model to answer.
+The generative model uses each data reference to answer.
 
 ## Use connectors
 
-You can select an existing connection to Salesforce, Oracle, SAP or Zendesk, then select a table and insert one or several fields in the prompt, filtering the data on an attribute.
+You can select an existing connection to Salesforce, Oracle, SAP, or Zendesk. Then, select a table and insert one or several fields in the prompt, filtering the data on an attribute.
 
 :::image type="content" source="media/use-your-own-prompt-data/use-connectors.png" alt-text="Screenshot of how to insert connectors references directly in the prompt.":::
 
@@ -69,20 +69,19 @@ The number of scenarios enabled by this capability is limited only by your creat
 The following list describes the limitations of using your own data in a prompt.
 
 - Data sources are limited to Dataverse and Salesforce, Oracle, SAP, and ZenDesk connector tables.
-- Connectors can only be used for prompts in Power Automate at the moment. We will expand to agents and apps soon. 
+- Connectors can only be used for prompts in Power Automate.
 - Dataverse environment languages supported: English US, French, Japanese, Danish, Dutch, German, Italian, Brazilian Portuguese, Spanish, Simplified Chinese, Danish Norwegian, and Turkish.
 - Virtual table use isn't yet supported.
 - Only attributes with the following data types are available as **Filter attributes**: `text`, `number`, `date and time`, `choice`, `currency`, and `unique identifier`.
-- Relationships are supported only for Dataverse, and you can select up to two levels of relationships for the table added as a data source.
+- Relationships are supported only for Dataverse. You can select up to two levels of relationships for the table added as a data source.
 
     For example, you can use `Account.'Company Name (Contact)'.Name` or `Account.'Company Name (Contact)'.'Connected To (Connection)'.'Connection Name'`.
 
-- The  number of records retrieved is 30 by default, but you can increase this limit to 1,000 in the settings.
-
+- The number of records retrieved is 30 by default. You can increase this limit to 1,000 in the settings.
 
 ## Related information
 
-- [Use your prompt actions in Copilot Studio](use-a-custom-prompt-in-mcs.md)
+- [Use your prompt actions in Microsoft Copilot Studio](use-a-custom-prompt-in-mcs.md)
 - [Use your prompt in Power Automate](use-a-custom-prompt-in-flow.md)
 - [Use your prompt in Power Apps](use-a-custom-prompt-in-app.md)
 - [Training: Create AI Builder prompts using your own Dataverse data (module)](/training/modules/ai-builder-grounded-prompts/)
