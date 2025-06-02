@@ -12,7 +12,7 @@ ms.topic: how-to
 ms.collection: 
 - get-started
 - bap-ai-copilot
-ms.date: 05/19/2025
+ms.date: 06/02/2025
 ms.author: ashbhati
 ms.reviewer: angieandrews
 ms.custom:
@@ -21,7 +21,7 @@ ms.custom:
 
 # Create a prompt
 
-Custom prompts give makers the freedom to instruct the generative AI model to behave in a certain way or to perform a specific task. By carefully crafting a prompt, you can generate responses that suit your specific business needs. This transforms the model into a flexible tool to accomplish various tasks.
+Custom prompts allow you to instruct the generative AI model to behave in a certain way or to perform a specific task. By carefully crafting a prompt, you can generate responses that suit your specific business needs. This transforms the model into a flexible tool to accomplish various tasks.
 
 > [!IMPORTANT]
 > - AI Builder prompts run on GPT models powered by [Azure OpenAI Service](/azure/ai-services/openai/whats-new).
@@ -38,7 +38,7 @@ Chinese (Simplified), Czech (Czech Republic), Danish (Denmark), Dutch (Netherlan
 
 The goal of prompt engineering is to create an instruction that's as specific as possible to get a more relevant response from the model. Your prompts should be specific to a topic and convey your intent.
 
-A prompt might include the following  information:
+A prompt might include the following information:
 
 - The topic
 - Keywords or phrases that are associated with the topic
