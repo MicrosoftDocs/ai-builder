@@ -25,7 +25,7 @@ Prompts enable you to create custom generative AI tools for business automation 
 >- This is a production-ready preview feature.
 >- Production-ready previews are subject to [supplemental terms of use](https://go.microsoft.com/fwlink/?linkid=2189520).
 >- AI Builder prompts run on GPT models powered by [Azure OpenAI Service](/azure/ai-services/openai/whats-new).
->- This capability might not br available in your region yet. Learn more in the **Prompts** section in [Feature availability by region or US Government environment](availability-region.md#prompts).
+>- This capability might not be available in your region yet. Learn more in the **Prompts** section in [Feature availability by region or US Government environment](availability-region.md#prompts).
 >- This capability might be subject to usage limits or capacity throttling.
 
 ## Core features of batch testing
@@ -73,9 +73,19 @@ Use the following steps to set up and run batch tests for your prompts.
 Step 1 in the batch testing process is to define the test dataset.
 
 1. Sign in to [Power Apps](https://make.powerapps.com) or [Power Automate](https://make.powerautomate.com).
-1. On the navigation pane to the left, select **AI Builder** > **Test hub**.
+1. On the navigation pane to the left, select **AI hub**.
+1. Under **Recently created**, select **Prompts**.
 
-    :::image type="content" source="media/batch-testing-prompts/test-gub-get-started.png" alt-text="Screenshot of Test hub.":::
+    :::image type="content" source="media/batch-testing-prompts/ai-hub-prompts.png" alt-text="Screenshot of recently created prompts.":::
+
+1. Next to the prompt name, select the vertical ellipsis (&vellip;).
+1. Select **Test hub (Preview)**.
+
+    :::image type="content" source="media/batch-testing-prompts/more.png" alt-text="Screenshot of the 'More' menu with the 'Test hub - Preview' option.":::
+
+    The Test hub (preview) opens.
+
+    :::image type="content" source="media/batch-testing-prompts/test-gub-get-started.png" alt-text="Screenshot of the Test hub screen.":::
 
 1. To add test cases individually, select **Add test case**.
 
@@ -87,13 +97,12 @@ Step 1 in the batch testing process is to define the test dataset.
 
     :::image type="content" source="media/batch-testing-prompts/upload-test-case.png" alt-text="Screenshot of uploading or downloading test data schema.":::
 
-1. Select the test lines to keep and save to generate the test cases.
+1. To generate synthetic datasets using AI, select **Generate**.
+1. Select the test lines to keep and then select **Save**.
   
     :::image type="content" source="media/batch-testing-prompts/list-uploaded-test-case.png" alt-text="Screenshot of the uploaded test cases.":::
 
-You can also define datasets by selecting the following in the **Test hub** menu:
-- To generate synthetic datasets using AI, select **Generate**.
-- To choose from past activity, select **Create from activity**.
+You can also define datasets by selecting the following in the **Test hub** menu. To choose from past activity, select **Create from activity**.
 
 ### Set evaluation criteria
 
