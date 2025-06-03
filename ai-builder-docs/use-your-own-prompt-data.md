@@ -1,23 +1,23 @@
 ---
-title: Use your own data in a prompt
-description: Learn how to use your own data in a prompt to get the answers you need.
+title: Add knowledge to your prompt
+description: Learn how to add knowledge to your prompt to get the answers you need.
 author: CedrickBellarosa
 contributors:
   - chplanty
   - Antrodfr
   - CedrickBellarosa
   - v-aangie
-ms.topic: article
+ms.topic: concept-article
 ms.collection: 
     - bap-ai-copilot
-ms.date: 04/29/2025
+ms.date: 06/03/2025
 ms.author: cdbellar
 ms.reviewer: angieandrews
 ---
 
-# Add knowledge to a prompt
+# Add knowledge to your prompt
 
-Prompts enable makers to use generative AI models addressing various types of content generation scenarios. These models use their default knowledge included in their training data to answer. However, this knowledge isn't sufficient to deal with use cases requiring business specific data context.
+Prompts enable you to use generative AI models addressing various types of content generation scenarios. These models use their default knowledge included in their training data to answer. However, this knowledge isn't sufficient to deal with use cases requiring business specific data context.
 
 This point is where data Retrieval Augmented Generation (RAG) allows you to provide external information to augment the knowledge of the model. This augmentation can result in getting the answers you need.
 
@@ -43,6 +43,17 @@ This section describes how to add knowledge to a prompt and filter it.
 
    The prompt automatically filters all knowledge objects using the value of this input, expressed in natural language.
 
+## Insert data references in the prompt
+
+You can insert multiple data and related tables' data references in your prompt and use it with natural language. Do this by selecting **Insert** and navigating through the data and relationships.
+
+The generative model uses each data reference to answer.
+
+## Use connectors
+
+You can select an existing connection to Salesforce, Oracle, SAP, or Zendesk. Then, select a table and insert one or several fields in the prompt, filtering the data on an attribute.
+
+:::image type="content" source="media/use-your-own-prompt-data/use-connectors.png" alt-text="Screenshot of how to insert connectors references directly in the prompt.":::
 
 ## Example of scenarios
 
@@ -57,18 +68,20 @@ The number of scenarios enabled by this capability is limited only by your creat
 
 The following list describes the limitations of using your own data in a prompt.
 
-- Data source is limited to Dataverse tables.
+- Data sources are limited to Dataverse and Salesforce, Oracle, SAP, and ZenDesk connector tables.
+- Connectors can only be used for prompts in Power Automate.
 - Dataverse environment languages supported: English US, French, Japanese, Danish, Dutch, German, Italian, Brazilian Portuguese, Spanish, Simplified Chinese, Danish Norwegian, and Turkish.
 - Virtual table use isn't yet supported.
-- You can use only one table as the data source. However, you can reference fields from multiple relationships of this table.
-- Only the columns with the following data types are available to insert in the prompt and filter: `text`, `number`, `date and time`, `choice`, `currency`, and `unique identifier`.
-- We support only English US formats for filtering values. For example, Filter value=121.5 is supported, while 121,5 isn't. Filter value=2024-12-25 is supported while 25/12/2024 isn't.
-- You can only use direct relationships of the table added as data source.
+- Only attributes with the following data types are available as **Filter attributes**: `text`, `number`, `date and time`, `choice`, `currency`, and `unique identifier`.
+- Relationships are supported only for Dataverse. You can select up to two levels of relationships for the table added as a data source.
 
-    For example, you can use `Account.'Company Name (Contact)'.Name` and `Account.'Preferred User (User)'.'Last Name'` but not `Account.'Company Name (Contact)'.'Connected To (Connection)'.'Connection Name'`.
+    For example, you can use `Account.'Company Name (Contact)'.Name` or `Account.'Company Name (Contact)'.'Connected To (Connection)'.'Connection Name'`.
 
-- The total number of records that can be retrieved is limited to 1,000.
+- The number of records retrieved is 30 by default. You can increase this limit to 1,000 in the settings.
 
 ## Related information
 
-[Training: Create AI Builder prompts using your own Dataverse data (module)](/training/modules/ai-builder-grounded-prompts/)
+- [Use your prompt actions in Microsoft Copilot Studio](use-a-custom-prompt-in-mcs.md)
+- [Use your prompt in Power Automate](use-a-custom-prompt-in-flow.md)
+- [Use your prompt in Power Apps](use-a-custom-prompt-in-app.md)
+- [Training: Create AI Builder prompts using your own Dataverse data (module)](/training/modules/ai-builder-grounded-prompts/)
