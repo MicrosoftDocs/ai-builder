@@ -3,6 +3,7 @@ title: Create a prompt
 description: Learn how to create a custom prompt.
 author: ashbhati
 contributors:
+  - cyrilanderson
   - ashbhati
   - phil-cmd
   - CedrickBellarosa
@@ -11,7 +12,7 @@ ms.topic: how-to
 ms.collection: 
 - get-started
 - bap-ai-copilot
-ms.date: 04/30/2025
+ms.date: 06/02/2025
 ms.author: ashbhati
 ms.reviewer: angieandrews
 ms.custom:
@@ -20,7 +21,7 @@ ms.custom:
 
 # Create a prompt
 
-Custom prompts give makers the freedom to instruct the generative AI model to behave in a certain way or to perform a specific task. By carefully crafting a prompt, you can generate responses that suit your specific business needs. This transforms the model into a flexible tool to accomplish various tasks.
+Custom prompts allow you to instruct the generative AI model to behave in a certain way or to perform a specific task. By carefully crafting a prompt, you can generate responses that suit your specific business needs. This transforms the model into a flexible tool to accomplish various tasks.
 
 > [!IMPORTANT]
 > - AI Builder prompts run on GPT models powered by [Azure OpenAI Service](/azure/ai-services/openai/whats-new).
@@ -37,7 +38,7 @@ Chinese (Simplified), Czech (Czech Republic), Danish (Denmark), Dutch (Netherlan
 
 The goal of prompt engineering is to create an instruction that's as specific as possible to get a more relevant response from the model. Your prompts should be specific to a topic and convey your intent.
 
-A prompt might include the following  information:
+A prompt might include the following information:
 
 - The topic
 - Keywords or phrases that are associated with the topic
@@ -77,9 +78,9 @@ Prompt builder provides the flexibility to create your own custom prompt by defi
 1. Sign in to [Power Apps](https://make.powerapps.com), [Power Automate](https://make.powerautomate.com), or [Copilot Studio](https://copilotstudio.microsoft.com).
 1. For Power Apps and Power Automate, select **AI hub** > **Prompts** > **Build your own prompt**.
 1. For Copilot Studio, there are multiple ways to create a prompt:
-    1. Select **Agents** > pick or create an agent > **Actions** > **Add an action** > **New action** > **New prompt**.
-    1. Select **Agents** > pick or create an agent > **Topics**. Pick or create a topic, add a node, and then select **Add an action** > **New prompt**.
-    1. Select **Library** > **Add new** > **Prompt**. Prompts created in the library can be used in any agent action or topic.
+    1. Select **Agents** > pick or create an agent > **Tools** > **Add a tool** > **New tool** > **Prompt**.
+    1. Select **Agents** > pick or create an agent > **Topics**. Pick or create a topic, select **Add node**, and then select **Add a tool** > **New prompt**.
+    1. Select **Tools** > **Add a tool** > **New tool** > **Prompt**. Prompts created in Tools can be used in any agent or topic.
 
     :::image type="content" source="media/create-a-custom-prompt/custom-prompt.png" alt-text="Screenshot of the fields you fill in to create a custom prompt.":::
 
