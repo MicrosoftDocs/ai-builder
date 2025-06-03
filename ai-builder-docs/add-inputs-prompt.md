@@ -1,6 +1,6 @@
 ---
 title: Add inputs to your prompt
-description: Learn how to add text, image, or document input to a prompt.
+description: Learn how to add text, and image or document input to a prompt.
 author: antrodfr
 contributors:
   - antrodfr
@@ -45,7 +45,9 @@ When you use text inputs, you can perform actions on text content that dynamical
 
 :::image type="content" source="media/add-inputs-prompt/input-text-summarize.png" alt-text="Screenshot of summarizing with a text input.":::
 
-If you're satisfied with your prompt, you can provide a sample value for your text input by selecting the input icon on the top right of the prompt builder experience and adding text in the **Sample data** field of your input.
+If you're satisfied with your prompt, select **Text input** in the prompt instructions to add **Sample data**. You can also change the input name from **Text input** to the value of your choice in the **Name** field.
+
+:::image type="content" source="media/add-inputs-prompt/text-input.png" alt-text="Screenshot of changing the input name and adding sample data.":::
 
 ## Image or document input
 
@@ -53,7 +55,9 @@ When you use image or document inputs, you can perform actions on file content t
 
 :::image type="content" source="media/add-inputs-prompt/input-file-extraction.png" alt-text="Screenshot of extracting information from a document.":::
 
-If you're satisfied with your prompt, you can provide a sample value for your file input by selecting the input icon on the top right of the prompt builder experience, and uploading a file in the **Sample data** field of your input.
+If you're satisfied with your prompt, select **Document input** in the prompt instructions to add **Sample data**. You can also change the input name from **Document input** to the value of your choice in the **Name** field.
+
+:::image type="content" source="media/add-inputs-prompt/text-input.png" alt-text="Screenshot of changing the input name and uploading sample data.":::
 
 File types supported with image or document input are PNG, JPG, JPEG, and PDF.
 
