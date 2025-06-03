@@ -57,7 +57,7 @@ When you use image or document inputs, you can perform actions on file content t
 
 If you're satisfied with your prompt, select **Document input** in the prompt instructions to add **Sample data**. You can also change the input name from **Document input** to the value of your choice in the **Name** field.
 
-:::image type="content" source="media/add-inputs-prompt/text-input.png" alt-text="Screenshot of changing the input name and uploading sample data.":::
+:::image type="content" source="media/add-inputs-prompt/document-input.png" alt-text="Screenshot of changing the input name and uploading sample data.":::
 
 File types supported with image or document input are PNG, JPG, JPEG, and PDF.
 
