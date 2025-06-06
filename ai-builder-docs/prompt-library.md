@@ -39,7 +39,7 @@ To access the prompt library and select a template through the left navigation m
 
     :::image type="content" source="media/prompt-library/prompt-library-select-jobtype-task.png" alt-text="Screenshot of the job type, task, and search functionality in the prompt library.":::
 
-## Use the prompt library from Copilot Studio
+## Use the prompt Library from Copilot Studio
 
 To access the prompt library and select a template through the prompt builder, follow these steps:
 
