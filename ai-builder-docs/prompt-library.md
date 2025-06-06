@@ -5,7 +5,7 @@ author: phil-cmd
 contributors:
   - phil-cmd
   - v-aangie
-ms.date: 05/19/2025
+ms.date: 06/06/2025
 ms.topic: get-started
 ms.author: plarrue
 ms.reviewer: angieandrews
@@ -39,9 +39,21 @@ To access the prompt library and select a template through the left navigation m
 
     :::image type="content" source="media/prompt-library/prompt-library-select-jobtype-task.png" alt-text="Screenshot of the job type, task, and search functionality in the prompt library.":::
 
-## Use the prompt builder from Power Apps or Power Automate
+## Use the prompt library from Copilot Studio
 
-To access the prompt library and select a template through the prompt builder, follow these steps:
+To access the prompt library and select a template through the prompt builder, follow these steps.
+
+1. Sign in to [Copilot Studio](https://copilotstudio.com/).
+1. On the left navigation pane, select **Tools**.
+1. Select **+ Create a Tool**.
+1. Select **New Prompt**.
+1. To search for a template and select the job type and task of your choice, select **Browse prompt library**.
+
+    :::image type="content" source="media/prompt-library/copilot-studio-browse-prompt-library.png" alt-text="Screenshot of the 'Browse prompt library' screen in Copilot Studio prompt builder.":::
+
+## Use the prompt library from Power Apps or Power Automate
+
+To access the prompt library and select a template through the prompt builder, follow these steps.
 
 1. Sign in to [Power Apps](https://make.powerapps.com/) or [Power Automate](https://make.powerautomate.com/).
 1. Select **AI hub** > **Prompts**.
@@ -116,7 +128,6 @@ Share your thoughts and [suggest an idea](https://go.microsoft.com/fwlink/?linki
 ### I found a bug with a template. What can I do?
 
 Nice catch! Share it with us on [AI Builder community](share-your-experience.md).
-
 
 ## Related information
 
