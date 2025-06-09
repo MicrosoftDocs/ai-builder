@@ -22,10 +22,10 @@ The *Azure AI Foundry models for prompts* feature is available within Copilot St
 
 This includes the following models:
 
-- [OpenAI GPT 4.5](https://azure.microsoft.com/blog/announcing-new-models-customization-tools-and-enterprise-agent-upgrades-in-azure-ai-foundry/?msockid=04801c13147c64e30fc30f7415cf65e4)
+- [OpenAI Models](https://azure.microsoft.com/blog/announcing-new-models-customization-tools-and-enterprise-agent-upgrades-in-azure-ai-foundry/?msockid=04801c13147c64e30fc30f7415cf65e4)
 - [Llama](/azure/ai-foundry/concepts/models-featured#meta)
 - [DeepSeek](https://azure.microsoft.com/blog/deepseek-r1-is-now-available-on-azure-ai-foundry-and-github/?msockid=04801c13147c64e30fc30f7415cf65e4)
-- And 1,800 plus more in [Azure AI Foundry / Model
+- And 11,000 plus more in [Azure AI Foundry / Model
   catalog](https://ai.azure.com/explore/models?tid=72f988bf-86f1-41af-91ab-2d7cd011db47)
 
 > [!IMPORTANT]
@@ -116,6 +116,7 @@ The following models work with images:
 - GPT-4o-mini
 - GPT-4
 - GPT-4.5-preview
+- Grok
 
 ## Manage your Azure AI Foundry model
 
@@ -131,7 +132,7 @@ This currently supports models with chat completion type.
 
 ### Limitation
 
-Some models, for example **Mistral**, **O3**, **LLana**, and **O4 mini** aren't supported yet.
+Some models, for example **Mistral**, **O3**, **LLama**, and **O4 mini** aren't supported yet.
 
 > [!NOTE]
 > We recommend you apply Responsible AI (RAI) policies as applicable for the models you want to use and manage that in Azure AI Foundry.
