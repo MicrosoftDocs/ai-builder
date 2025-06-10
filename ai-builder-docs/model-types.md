@@ -55,7 +55,7 @@ The following table lists the data type, models type, and build type.
 | Documents       | [Receipt processing](prebuilt-receipt-processing.md)      | ReceiptScanning            | Prebuilt            |
 | Documents       | [Invoice processing](prebuilt-invoice-processing.md)      | InvoiceProcessing            | Prebuilt            |
 | Documents       | [ID reader](prebuilt-id-reader.md)      | IdentityDocument            | Prebuilt            |
-|Text             | [Text generation (preview)](prebuilt-azure-openai.md)         | GptPowerPrompt, (GptPromptEngineering was used during Preview)| Prebuilt  |
+| Text            | [Custom Prompt](use-a-custom-prompt-in-flow.md)         | CustomPrompt            | Prebuilt  |
 | Text            | Category classification  | TextClassificationV2            | [Prebuilt (preview)](prebuilt-category-classification.md) and [custom](text-classification-overview.md) |
 | Text            | Entity extraction       | EntityExtraction       | [Prebuilt](prebuilt-entity-extraction.md) and [custom](entity-extraction-overview.md) |
 | Text            | [Key phrase extraction](prebuilt-key-phrase.md)   | KeyPhraseExtraction            | Prebuilt            |
