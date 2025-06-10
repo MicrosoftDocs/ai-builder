@@ -8,7 +8,7 @@ contributors:
   - v-aangie
 ms.topic: article
 ms.custom: 
-ms.date: 04/23/2025
+ms.date: 06/10/2025
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---
@@ -40,7 +40,6 @@ To get the best results, provide one clear photo or scan per receipt.
 ## Model output
 
 If a receipt is detected, the receipt processing model will output the following information:
-
 
 |Property|Definition|
 |---------|---------|
