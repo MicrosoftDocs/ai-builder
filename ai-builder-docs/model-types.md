@@ -7,7 +7,7 @@ contributors:
   - v-aangie
 ms.topic: article
 ms.custom:
-ms.date: 11/20/2024
+ms.date: 06/13/2025
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---
@@ -16,7 +16,7 @@ ms.reviewer: angieandrews
 
 In AI Builder, you can choose from several model types that are suited to different business scenarios. Here are some examples:
 
-- If you want to use intelligence to detect your products in images, you can refine a *custom* AI Builder object detection model. With a customizable model, you'll build, train, and publish it for your intended use.
+- If you want to use intelligence to detect your products in images, you can refine a *custom* AI Builder object detection model. With a customizable model, you build, train, and publish it for your intended use.
 
 - If you want to use intelligence to automate your expense reports by scanning and processing business receipts, you can use a *prebuilt* AI Builder receipt scanning model. All prebuilt models allow you to go straight to productivity.
 
@@ -43,9 +43,9 @@ The following table lists the data type, models type, and build type.
 
 - **Data type**: Describes the type of AI that the models use (for example, documents, text, structured data, or images). 
 
-- **Build type**: Indicates whether it’s a customizable model that you'll need to build, train, and publish for your intended use, or if it's a prebuilt model that’s ready to use. In general, use *custom* AI Builder models for applications where you're working with data that’s unique to your business. Use *prebuilt* models for scenarios that are common across different types of businesses.
+- **Build type**: Indicates whether it's a customizable model that you need to build, train, and publish for your intended use, or if it's a prebuilt model that's ready to use. In general, use *custom* AI Builder models for applications where you're working with data that's unique to your business. Use *prebuilt* models for scenarios that are common across different types of businesses.
 
-[Common business scenarios](#common-business-scenarios) and the model types that are suited to them are described later in this topic.
+[Common business scenarios](#common-business-scenarios) and the model types that are suited to them are described later in this article.
 
 | Data type       | Model type              | AI Template table UniqueName mapping          | Build type          |
 |-----------------|-------------------------|---------------------|---------------------|

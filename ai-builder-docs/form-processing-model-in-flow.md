@@ -4,7 +4,7 @@ description: Learn how to use a document processing model in Power Automate.
 author: antrodfr
 ms.topic: how-to
 ms.custom: bap-template
-ms.date: 05/07/2025
+ms.date: 06/13/2025
 ms.author: antrod
 ms.reviewer: angieandrews
 ---
@@ -12,7 +12,7 @@ ms.reviewer: angieandrews
 # Use a document processing model in Power Automate
 
 > [!NOTE]
-> Since May 2025, **Extract information from documents** action name is **Process documents**.
+> Since May 2025, the **Extract information from documents** action name is **Process documents**.
 
 To use a document processing model in Power Automate, follow these steps.
 
@@ -35,7 +35,7 @@ To use a document processing model in Power Automate, follow these steps.
 
       :::image type="content" source="media/flow-fp-overview-2AA.png" alt-text="Screenshot of 'Post message in a chat or channel'.":::
 
-Congratulations! You created a flow that uses an AI Builder document processing model. Select **Save** on the top right, and then select **Test** to try out your flow.
+Congratulations! You created a cloud flow that uses an AI Builder document processing model. Select **Save** on the top right, and then select **Test** to try out your cloud flow.
 
 ## Page range
 
@@ -90,7 +90,7 @@ To illustrate this procedure, we use the following example where we trained a do
 
     :::image type="content" source="media/form-processing-iterate-table-1.png" alt-text="Screenshot of the 'Process and save information from forms' screen.":::
 
-1. Once you add this value, the action where you added it is automatically inserted into an **Apply to each** control. This way, every row in the table is processed when the flow runs.
+1. Once you add this value, the action where you added it is automatically inserted into an **Apply to each** control. This way, every row in the table is processed when the cloud flow runs.
 1. Keep adding columns you want to iterate.
 
     :::image type="content" source="media/form-processing-iterate-table-2.png" alt-text="Screenshot of the 'Add a row into a table' card.":::
@@ -103,7 +103,7 @@ One way you can check its value is with a **Condition** action. If the checkbox 
 
 :::image type="content" source="media/form-processing-retreive-checkbox.png" alt-text="Screenshot of retrieving a checkbox value in a condition.":::
 
-Another option is to map the `true`/`false` output of the checkbox to other values of your choice by using the [if](/azure/logic-apps/workflow-definition-language-functions-reference#if) expression. For example, you might have a column in an Excel file where you want to write ‘Priority’ if one of the checkboxes in the document is selected, or ‘Non-priority’ if not selected. To do this, you can use the following expression: `if(<document processing output>, 'Priority', 'Non-priority')`. The following animation shows an example.
+Another option is to map the `true`/`false` output of the checkbox to other values of your choice by using the [if](/azure/logic-apps/workflow-definition-language-functions-reference#if) expression. For example, you might have a column in an Excel file where you want to write 'Priority' if one of the checkboxes in the document is selected, or 'Non-priority' if not selected. To do this, you can use the following expression: `if(<document processing output>, 'Priority', 'Non-priority')`. The following animation shows an example.
 
 :::image type="content" source="media/form-processing-retreive-checkbox-2.gif" alt-text="Animation showing how to use an expression to map the Boolean value returned by a checkbox.":::
 
@@ -114,7 +114,7 @@ To illustrate, the *Total* value extracted by the document processing model migh
 `replace(<document processing output>, '$', '')`
 
 > [!div class="mx-imgBorder"]
-> ![Animation of the Replace currency expression.](media/form-processing-remove-currency.gif "Add the expression above into the input field of an action in your flow. Remember to replace the first parameter of the expression by the document processing output you want to remove the currency symbol.")
+> ![Animation of the Replace currency expression.](media/form-processing-remove-currency.gif "Add the expression above into the input field of an action in your cloud flow. Remember to replace the first parameter of the expression by the document processing output you want to remove the currency symbol.")
 
 ### Convert a document processing output string to a number in Power Automate
 
@@ -122,7 +122,7 @@ AI Builder document processing returns all extracted values as strings. If the d
 
 `float('<document processing output>')`
 
-:::image type="content" source="media/form-processing-convert-number.gif" alt-text="Animation showing how to add the 'Convert to number' expression into the input field of an action in your flow.":::
+:::image type="content" source="media/form-processing-convert-number.gif" alt-text="Animation showing how to add the 'Convert to number' expression into the input field of an action in your cloud flow.":::
 
 ### Remove blank spaces in a document processing output in Power Automate
 
@@ -131,7 +131,7 @@ To remove blank spaces from output values, use the [replace](/azure/logic-apps/w
 `replace(<document processing output>, ' ', '')`
 
 > [!div class="mx-imgBorder"]
-> ![Animation of the Replace spaces expression.](media/form-processing-remove-spaces.gif "Add the expression above into the input field of an action in your flow. Remember to replace the first parameter of the expression by the document processing output you want to remove blank spaces.")
+> ![Animation of the Replace spaces expression.](media/form-processing-remove-spaces.gif "Add the expression above into the input field of an action in your cloud flow. Remember to replace the first parameter of the expression by the document processing output you want to remove blank spaces.")
 
 ### Convert a document processing output string to a date in Power Automate
 
@@ -140,11 +140,11 @@ AI Builder document processing returns all outputs as strings. If the destinatio
 `formatDateTime(<document processing output>)`
 
 > [!div class="mx-imgBorder"]
-> ![Animation of the formatDateTime expression.](media/form-processing-convert-date.gif "Add the expression above into the input field of an action in your flow. Remember to replace the first parameter of the expression by the document processing output you want to convert to date.")
+> ![Animation of the formatDateTime expression.](media/form-processing-convert-date.gif "Add the expression above into the input field of an action in your cloud flow. Remember to replace the first parameter of the expression by the document processing output you want to convert to date.")
 
 ### Filter email signature from a flow so that it's not processed by the document processing model (Microsoft 365 Outlook)
 
-For incoming emails from the Microsoft 365 Outlook connector, email signatures are picked up by Power Automate as attachments. To keep these from being processed by the document processing model, add a condition to your flow that checks if the output from the Microsoft 365 Outlook connector named **Attachments is Inline** is equal to false. In the **If yes** branch of the condition, add the document processing action. With this, only email attachments that aren't inline signatures are processed.
+For incoming emails from the Microsoft 365 Outlook connector, email signatures are picked up by Power Automate as attachments. To keep these from being processed by the document processing model, add a condition to your cloud flow that checks if the output from the Microsoft 365 Outlook connector named **Attachments is Inline** is equal to false. In the **If yes** branch of the condition, add the document processing action. With this, only email attachments that aren't inline signatures are processed.
 
 :::image type="content" source="media/form-processing-filter-sig.png" alt-text="Screenshot of the Filter attachment condition.":::
 

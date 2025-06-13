@@ -10,7 +10,7 @@ ms.topic: concept-article
 ms.collection: 
 - get-started
 - bap-ai-copilot
-ms.date: 04/29/2025
+ms.date: 06/13/2025
 ms.author: ashbhati
 ms.reviewer: angieandrews
 ---
@@ -39,11 +39,11 @@ AI Builder provides a prompt building user experience that allows makers to buil
 
 ## What a prompt is and how to use it
 
-Think of a prompt as a task or a goal you give to the large language model (LLM). With prompt builder, you can build, test, and save your custom prompts. You can also use input variables and Dataverse data to provide dynamic context data at runtime. You can share these prompts with others and use them in Power Automate, Power Apps, or Copilot Studio. For instance, you could make a prompt to pick out action items from your company emails and use it in a Power Automate flow to build an email processing automation.
+Think of a prompt as a task or a goal you give to the large language model (LLM). With prompt builder, you can build, test, and save your custom prompts. You can also use input variables and Dataverse data to provide dynamic context data at runtime. You can share these prompts with others and use them in Power Automate, Power Apps, or Copilot Studio. For instance, you could make a prompt to pick out action items from your company emails and use it in a Power Automate cloud flow to build an email processing automation.
 
 Prompt builder enables makers to devise custom prompts that cater to their specific business needs using natural language. These prompts can be employed for many tasks or business scenarios, such as summarizing content, categorizing data, extracting entities, translating languages, assessing sentiment, or formulating a response to a complaint.
 
-Prompts can be integrated into flows to build intelligent hands-off automation. Makers can also build advanced generative AI capabilities for their applications by describing them as natural language prompts. They can also use these prompts to extend a copilot action and topics, thereby streamlining daily business operations and boosting efficiency.
+Prompts can be integrated into cloud flows to build intelligent hands-off automation. Makers can also build advanced generative AI capabilities for their applications by describing them as natural language prompts. They can also use these prompts to extend a copilot action and topics, thereby streamlining daily business operations and boosting efficiency.
 
 ## Human oversight
 
