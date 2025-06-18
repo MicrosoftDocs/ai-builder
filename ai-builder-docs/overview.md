@@ -6,7 +6,7 @@ contributors:
   - phil-cmd
   - v-aangie
 ms.topic: overview
-ms.date: 11/20/2024
+ms.date: 06/13/2025
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---
@@ -35,7 +35,7 @@ To add intelligence to your business:
 
 1. **Train your AI model**: Training is an automatic process. It teaches your AI model how to resolve your business problem (for example, how to recognize your products on an image) based on your business data and tailoring. When trained, your AI model can generate insights such as the result of a prediction, or the list and number of objects detected in an image.
 
-1. **Use insights from your AI model**: Use the results from your AI model across Power Platform to create solutions that meet your business needs, even if you have no coding skills. For example, you can create a flow that automates document processing in Power Automate or an app in Power Apps that predicts whether a supplier will be out of compliance.
+1. **Use insights from your AI model**: Use the results from your AI model across Power Platform to create solutions that meet your business needs, even if you have no coding skills. For example, you can create a cloud flow that automates document processing in Power Automate, or an app in Power Apps that predicts whether a supplier will be out of compliance.
 
 ## Learn to use AI Builder
 
@@ -49,10 +49,10 @@ Get started with AI Builder using the following learning resources:
 
 ## Release status
 
-Some features in AI Builder haven't been released yet for general availability (GA) and remain in preview status.
+Some features in AI Builder aren't released yet for general availability (GA) and remain in preview status.
 
 > [!IMPORTANT]
-> - Preview features aren’t meant for production use and may have restricted functionality. These features are available before an official release so that customers can get early access and provide feedback.
+> - Preview features aren’t meant for production use and might have restricted functionality. These features are available before an official release so that customers can get early access and provide feedback.
 > - Administrators can control preview feature availability for their environment by using the Power Platform admin center. More information: [Enable or disable AI Builder preview features](administer.md#enable-or-disable-ai-builder-preview-features)
 
 Because of technical dependencies, some features are released differently in various locations. For a breakdown of the release status of AI Builder features and model types for your region, go to [Feature availability by region](availability-region.md).
@@ -74,8 +74,6 @@ For information on security for administrators, go to [Roles and security in AI 
 Download and print the AI Builder no code AI cheat sheet (landscape poster) to keep it handy. It's a practical guide for anyone exploring AI capabilities within the Power Platform, tailored for ease of use and decision making. This cheat sheet demystifies AI model selection.
 
 Download the guide here: [AI Builder no code AI cheat sheet (landscape poster)](https://aka.ms/aibuildercheatsheet)
-
-
 
 ## Related information
 
