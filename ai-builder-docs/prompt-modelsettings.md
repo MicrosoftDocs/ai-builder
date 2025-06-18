@@ -21,7 +21,7 @@ This article explains how to change the model version and settings in the prompt
 
 You can change the model version by selecting **Model** at the top of the prompt builder. The dropdown menu allows you to select from the generative AI models that generate answers to your custom prompt.
 
-The default model as of November 2024 is GPT-4o mini (general available, or GA). You can also use the more powerful GPT-4o model (GA), and o1 model (paid preview). The exact minor versions of these models might change.
+The default model as of November 2024 is GPT-4o mini (general available, or GA). You can also use the more powerful GPT-4o model (GA), o1 model (paid public preview), or GPT 4.1 model (paid public preview). The exact minor versions of these models might change.
 
 Using prompts in Power Apps or Power Automate consumes AI Builder credits, while using prompts in Copilot Studio consumes messages. Learn more in [AI Builder licensing and credit management](/ai-builder/credit-management).
 
@@ -31,8 +31,8 @@ Using prompts in Power Apps or Power Automate consumes AI Builder credits, while
 |---------|---------|---------|---------|---------|
 |GPT 4o Mini | GA - Default model	| Consumes credits in Power Apps and Power Automate. More information: [Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130) <br>Consumes message in Copilot Studio. More information: [Message in Copilot Studio](https://go.microsoft.com/fwlink/?linkid=2307400)  | Trained on data up to October 2023. Context allowed up to 128k tokens. | [Feature availability by regions for prompts](availability-region.md)
 | GPT 4o | GA | Consumes credits in Power Apps and Power Automate. More information: [Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130)  <br>Consumes message in Copilot Studio. More information: [Message in Copilot Studio](https://go.microsoft.com/fwlink/?linkid=2307400) | Trained on data up to October 2023. Context allowed up to 128k tokens. | [Feature availability by regions for prompts](availability-region.md)|
-| o1 | Paid preview | Consumes credits in Power Apps and Power Automate. More information: [Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130).   <br>Consumes message in Copilot Studio. More information: [Message in Copilot Studio](https://go.microsoft.com/fwlink/?linkid=2307400)  | Trained on data up to October 2023. Context allowed up to 200k tokens. | [Feature availability by regions for prompts](availability-region.md)|
-| GPT 4.1 | Paid preview | Consumes credits in Power Apps and Power Automate. <br>Consumes message in Copilot Studio. <br> GPT 4.1 model is a Standard model and consumes same rates as GPT 4o. | Trained on data up to June 2024. Context allowed up to 1M tokens. <br>Consumes message in Copilot Studio. More information: [Message in Copilot Studio](https://go.microsoft.com/fwlink/?linkid=2307400)  | [Feature availability by regions for prompts](availability-region.md)|
+| o1 | Paid Public preview | Consumes credits in Power Apps and Power Automate. More information: [Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130).   <br>Consumes message in Copilot Studio. More information: [Message in Copilot Studio](https://go.microsoft.com/fwlink/?linkid=2307400)  | Trained on data up to October 2023. Context allowed up to 200k tokens. | [Feature availability by regions for prompts](availability-region.md)|
+| GPT 4.1 | Paid Public preview | Consumes credits in Power Apps and Power Automate. <br>Consumes message in Copilot Studio. <br> GPT 4.1 model is a Standard model and consumes same rates as GPT 4o. | Trained on data up to June 2024. Context allowed up to 1M tokens.| [Feature availability by regions for prompts](availability-region.md)|
 
 Choose between the model based on capabilities and scenarios.
 
@@ -81,3 +81,15 @@ Adjusting the temperature can influence the model’s output, but it doesn’t g
 
 > [!NOTE]
 > The temperature setting isn't available for the o1 model, so the slider is disabled when the o1 model is selected.
+
+## Upoming Model Updates
+4o mini model will be replaced by 4.1 mini model during the first week of July 2025. At this date, existing prompts running on 4o mini will now run on 4.1 mini, and default model will now be 4.1 mini.  
+4.1 mini rates in credits and messages are the same as 4o mini, so there won't be any change from licensing perspective.  
+4.1 mini release will come with higher maximum context window (1M tokens), and support of image and document input.  
+
+4.1 model will GA in the second half of July 2025, and 4o model will be replaced by this 4.1 model in the same timeframe. That means existing prompts running on 4o  will run on 4.1 after this update. 
+
+
+
+
+
