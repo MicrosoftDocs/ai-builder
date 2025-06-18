@@ -15,7 +15,7 @@ contributors:
   - antode
 ms.topic: article
 ms.date: 06/18/2025
-ms.author: Antoine2F
+ms.author: antode
 ms.reviewer: angieandrews
 ---
 
