@@ -1,15 +1,14 @@
 ---
 title: Model versions and settings
 description: Learn about the settings in prompt builder.
-author: ashbhati
+author: Antoine2F
 contributors:
-  - ashbhati
   - Phil-cmd
   - Antoine2F
   - antrod
   - v-aangie
 ms.topic: article
-ms.date: 04/29/2025
+ms.date: 06/18/2025
 ms.author: ashbhati
 ms.reviewer: angieandrews
 ---
@@ -30,17 +29,18 @@ Using prompts in Power Apps or Power Automate consumes AI Builder credits, while
 
 |GPT model  |Status   |Licensing rules   | Functionalities| Region availabilities |
 |---------|---------|---------|---------|---------|
-|GPT 4o Mini | GA - Default model	| Consumes credits in Power Apps and Power Automate. More information: [Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130)  | Trained on data up to December 2023. Context allowed up to 128k tokens. | [Feature availability by regions for prompts](availability-region.md)
-| GPT 4 | GA | Consumes credits in Power Apps and Power Automate. More information: [Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130)  | GPT 4o has knowledge up to October 2023 and has a context length of 128k tokens. | [Feature availability by regions for prompts](availability-region.md)|
-| o1 | Paid preview | Consumes credits in Power Apps and Power Automate. More information: [Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130). o1 model consumes 140 credits for 1K input tokens and 560 credits for 1K output tokens. <br>Consumes message in Copilot Studio starting April 7. More information: [Message in Copilot Studio](https://go.microsoft.com/fwlink/?linkid=2307400)  | o1 has knowledge up to October 2023 and has a context length of 128k tokens. | [Feature availability by regions for prompts](availability-region.md)|
+|GPT 4o Mini | GA - Default model	| Consumes credits in Power Apps and Power Automate. More information: [Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130) <br>Consumes message in Copilot Studio. More information: [Message in Copilot Studio](https://go.microsoft.com/fwlink/?linkid=2307400)  | Trained on data up to October 2023. Context allowed up to 128k tokens. | [Feature availability by regions for prompts](availability-region.md)
+| GPT 4o | GA | Consumes credits in Power Apps and Power Automate. More information: [Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130)  <br>Consumes message in Copilot Studio. More information: [Message in Copilot Studio](https://go.microsoft.com/fwlink/?linkid=2307400) | Trained on data up to October 2023. Context allowed up to 128k tokens. | [Feature availability by regions for prompts](availability-region.md)|
+| o1 | Paid preview | Consumes credits in Power Apps and Power Automate. More information: [Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130).   <br>Consumes message in Copilot Studio. More information: [Message in Copilot Studio](https://go.microsoft.com/fwlink/?linkid=2307400)  | Trained on data up to October 2023. Context allowed up to 200k tokens. | [Feature availability by regions for prompts](availability-region.md)|
+| GPT 4.1 | Paid preview | Consumes credits in Power Apps and Power Automate. <br>Consumes message in Copilot Studio. <br> GPT 4.1 model is a Standard model and consumes same rates as GPT 4o. | Trained on data up to June 2024. Context allowed up to 1M tokens. <br>Consumes message in Copilot Studio. More information: [Message in Copilot Studio](https://go.microsoft.com/fwlink/?linkid=2307400)  | [Feature availability by regions for prompts](availability-region.md)|
 
 Choose between the model based on capabilities and scenarios.
 
 ### Models comparison
 
-| Factors                     | GPT-4o Mini        | GPT-4o             | o1         |
+| Factors                     | GPT-4o mini  (default)      | GPT-4o , GPT 4.1   | o1         |
 |---------------------------|----------------------|--------------------|------------|
-| **Cost**                  | Lower, more cost-effective           | Higher, premium pricing              | Higher, premium pricing (paid preview) |
+| **Cost**                  | Lower, more cost-effective           | Standard pricing              | Premium pricing (paid preview) |
 | **Performance**           | Good for most tasks                  | Superior for complex tasks           | Trained for reasoning tasks          |
 | **Speed**                 | Faster processing                    | Might be slower due to complexity    | Slower as it reasons before responding |
 | **Use cases**             | Summarization, information tasks | Image and document processing, as well complex content creation tasks |  Complex data analysis and reasoning tasks |
@@ -50,7 +50,7 @@ Choose between the model based on capabilities and scenarios.
 
 When you need a cost-effective solution for moderately complex tasks, have limited computational resources, or require faster processing, choose GPT-4o Mini. It's ideal for projects with budget constraints and applications like customer support or efficient code analysis.
 
-When you're dealing with highly complex, multimodal tasks that require superior performance and detailed analysis, choose GPT-4o. It's the better choice for large-scale projects where accuracy and advanced capabilities are crucial. Another scenario where it's a better choice is when you have the budget and computational resources to support it. GPT-4o is also preferable for long-term projects that might grow in complexity over time.
+When you're dealing with highly complex, multimodal tasks that require superior performance and detailed analysis, choose GPT-4o or GPT 4.1. It's the better choice for large-scale projects where accuracy and advanced capabilities are crucial. Another scenario where it's a better choice is when you have the budget and computational resources to support it. GPT-4o is also preferable for long-term projects that might grow in complexity over time.
 
 For projects requiring advanced reasoning capabilities, the o1 model excels. It's suitable for scenarios that demand sophisticated problem-solving and critical thinking. The o1 model excels in environments where nuanced reasoning, complex decision-making, and detailed analysis are important. 
 
