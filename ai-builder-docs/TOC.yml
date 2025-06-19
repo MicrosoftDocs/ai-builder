@@ -99,7 +99,9 @@
     - name: Image description (preview)
       href: prebuilt-image-description.md
     - name: Text generation model (preview) (deprecated)
-      href: prebuilt-azure-openai.md  
+      href: prebuilt-azure-openai.md
+    - name: Contract processing
+      href: prebuilt-contract.md
   - name: Custom AI models
     items:
     - name: Overview
