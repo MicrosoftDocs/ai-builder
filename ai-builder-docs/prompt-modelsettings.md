@@ -82,7 +82,7 @@ Adjusting the temperature can influence the model’s output, but it doesn’t g
 > [!NOTE]
 > The temperature setting isn't available for the o1 model, so the slider is disabled when the o1 model is selected.
 
-## Upoming Model Updates
+## Upcoming Model Updates
 4o mini model will be replaced by 4.1 mini model during the first week of July 2025. At this date, existing prompts running on 4o mini will now run on 4.1 mini, and default model will now be 4.1 mini.  
 4.1 mini rates in credits and messages are the same as 4o mini, so there won't be any change from licensing perspective.  
 4.1 mini release will come with higher maximum context window (1M tokens), and support of image and document input.  
