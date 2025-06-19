@@ -3,6 +3,7 @@ title: Use the text generation model in Power Apps (preview)
 description: Learn how to use the text generation model with AI Builder in Power Apps.
 author: ashbhati
 contributors:
+  - MeeraDi
   - ashbhati
   - phil-cmd
   - v-aangie
@@ -21,10 +22,10 @@ Text generation is powered by Azure OpenAI in Foundry Models, which is built on 
 
 > [!IMPORTANT]
 > - This is a preview feature.
-> - Preview features aren’t meant for production use and may have restricted functionality. These features are available before an official release so that customers can get early access and provide feedback.
+> - Preview features aren’t meant for production use and might have restricted functionality. These features are available before an official release so that customers can get early access and provide feedback.
 > - [View our preview terms](https://go.microsoft.com/fwlink/?linkid=2189520).
 > - This capability is only available in United States region.
-> - This capability may be subject to usage limits or capacity throttling.
+> - This capability might be subject to usage limits or capacity throttling.
 
 ## Add an AI model as a data source
 
@@ -33,7 +34,7 @@ The following example creates a simple app that answers a question entered in a 
 1. Sign in to [Power Apps](https://make.powerapps.com).
 
 1. On the left navigation pane, select **Apps**.
-1. On the menu at the top, select **+ New app** > **Canvas**. 
+1. On the menu at the top, select **+ New app** > **Canvas**.
 
 1. Enter a name for the app and choose between **Tablet** and **Phone** for the format of the app.
 
