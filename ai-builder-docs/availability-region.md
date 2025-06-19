@@ -1,7 +1,7 @@
 ---
 title:  Feature availability by region or US Government environment
 description: Learn which AI Builder features are available in each region or US Government environment. Lists the release status for each feature by region or US Government environment.
-author: CedrickBellarosa
+author: Antoine2F
 contributors:
   - antrodfr
   - CedrickBellarosa
@@ -14,8 +14,8 @@ contributors:
   - v-aangie
   - antode
 ms.topic: article
-ms.date: 04/30/2025
-ms.author: cdbellar
+ms.date: 06/19/2025
+ms.author: antode
 ms.reviewer: angieandrews
 ---
 
@@ -67,12 +67,13 @@ The following tables show which AI Builder features are available in each region
 
 In the following table, **(GA)** and **(Paid preview)** mean that the feature is available and uses an Azure OpenAI service in another region. Learn more in [enabling data movement cross-regions](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions).
 
-| Feature                              | Asia           | Australia      | Canada         | Europe         | France         | Germany        | India                | Japan          | Norway         | Singapore             | South Africa   | South America  | Korea          | Singapore      | Sweden         | Switzerland    | United Arab Emirates | United Kingdom  | United States  |
-|--------------------------------------|----------------|----------------|----------------|----------------|----------------|----------------|----------------------|----------------|----------------|-----------------------|----------------|----------------|----------------|----------------|----------------|----------------|----------------------|-----------------|----------------|
-| GPT-4o mini                          | (GA)           | GA             | (GA)           | (GA)           | (GA)           | (GA)           | GA                   | (GA)           | (GA)           | (GA)                  | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)                 | GA              | GA             |
-| GPT-4o                               | (GA)           | GA             | (GA)           | (GA)           | (GA)           | (GA)           | GA                   | (GA)           | (GA)           | (GA)                  | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)                 | GA              | GA             |
-| GPT-4o using image or document input | (GA)           | GA             | (GA)           | (GA)           | (GA)           | (GA)           | GA                   | (GA)           | (GA)           | (GA)                  | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)                 | -               | GA             |
-| o1                                   | (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview)       | (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview)       | (Paid preview)  | Paid preview   |
+| Feature                              | Asia          | Australia      | Canada         | Europe         | France         | Germany        | India         | Japan          | Norway         | Singapore      | South Africa   | South America  | Korea          | Singapore      | Sweden         | Switzerland    |United Arab Emirates|United Kingdom| United States  |
+|--------------------------------------|---------------|----------------|----------------|----------------|----------------|----------------|---------------|----------------|----------------|----------------|----------------|----------------|----------------|----------------|----------------|----------------|--------------------|--------------|----------------|
+| GPT-4o mini                          | (GA)          | GA             | (GA)           | (GA)           | (GA)           | (GA)           | GA            | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)               | GA           | GA             |
+| GPT-4o                               | (GA)          | GA             | (GA)           | (GA)           | (GA)           | (GA)           | GA            | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)               | GA           | GA             |
+| GPT-4o using image or document input | (GA)          | GA             | (GA)           | (GA)           | (GA)           | (GA)           | GA            | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)               | -            | GA             |
+| o1                                   | (Paid preview)| (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview)| (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview)     |(Paid preview)| Paid preview   |
+| GPT-4.1                              | (Paid preview)| (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview)| (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview)     |(Paid preview)| Paid preview   |
 
 ## US Government
 
@@ -113,12 +114,13 @@ AI Builder is available in US Government environments with the features listed i
 
 ### Prompts (US Government)
 
-| Feature          | Government Community Cloud (GCC) | Government Community Cloud – High (GCC High) | Department of Defense (DoD) |
-|:-----------------|:--------------------------------:|:--------------------------------------------:|:---------------------------:|
-| GPT-4o mini      |               GA                 |                     GA                       |              -              |
-| GPT-4o           |               GA                 |                     GA                       |              -              |
-| GPT-4o using image or document as input |               -                 |                     -                       |              -              |
-| o1           |               -                 |                     -                       |              -              |
+| Feature                                 | Government Community Cloud (GCC) | Government Community Cloud – High (GCC High) | Department of Defense (DoD) |
+|:----------------------------------------|:--------------------------------:|:--------------------------------------------:|:---------------------------:|
+| GPT-4o mini                             |               GA                 |                     GA                       |              -              |
+| GPT-4o                                  |               GA                 |                     GA                       |              -              |
+| GPT-4o using image or document as input |               -                  |                     -                        |              -              |
+| o1                                      |               -                  |                     -                        |              -              |
+| GPT-4.1                                 |               -                  |                     -                        |              -              |
 
 ### US Government feature limitations
 
