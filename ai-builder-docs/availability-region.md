@@ -14,7 +14,7 @@ contributors:
   - v-aangie
   - antode
 ms.topic: article
-ms.date: 06/18/2025
+ms.date: 06/19/2025
 ms.author: antode
 ms.reviewer: angieandrews
 ---
@@ -120,7 +120,7 @@ AI Builder is available in US Government environments with the features listed i
 | GPT-4o                                  |               GA                 |                     GA                       |              -              |
 | GPT-4o using image or document as input |               -                  |                     -                        |              -              |
 | o1                                      |               -                  |                     -                        |              -              |
-| GPT 4.1                                 |               -                  |                     -                        |              -              |
+| GPT-4.1                                 |               -                  |                     -                        |              -              |
 
 ### US Government feature limitations
 
