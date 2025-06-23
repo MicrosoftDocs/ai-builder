@@ -8,7 +8,7 @@ contributors:
   - v-aangie
 ms.topic: how-to
 ms.custom: 
-ms.date: 11/20/2024
+ms.date: 06/23/2025
 ms.author: ashbhati
 ms.reviewer: angieandrews
 ---
@@ -35,9 +35,9 @@ ms.reviewer: angieandrews
 1. In the successive actions, you can use any columns and tables extracted by the AI Builder model. The following example saves each inferred **Entity type**, **Entity value** and **Confidence score** into an Excel table.
 
     > [!div class="mx-imgBorder"]
-    > ![Entity extraction flow example.](media/flow-eec-example.png "Entity extraction flow example")
+    > ![Entity extraction cloud flow example.](media/flow-eec-example.png "Entity extraction cloud flow example")
 
-Congratulations! You've created a flow that uses an AI Builder entity extraction model. Select **Save** on the top right, and then select **Test** to try out your flow.
+Congratulations! You created a cloud flow that uses an AI Builder entity extraction model. Select **Save** on the top right, and then select **Test** to try out your cloud flow.
 
 ## Parameters
 

@@ -8,7 +8,7 @@ contributors:
   - v-aangie
 ms.topic: how-to
 ms.custom: 
-ms.date: 11/20/2024
+ms.date: 06/23/2025
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---
@@ -50,10 +50,10 @@ You can use Power Automate templates in Teams that solve a specific business pur
 
     :::image type="content" source="media/start-trial.png" alt-text="Screenshot of the 30-day free trial message.":::
 
-1. Enter the parameters required by the template to create the flow.
+1. Enter the parameters required by the template to create the cloud flow.
 
     > [!NOTE]
-    > It's also possible to select **Edit in advanced mode**. This will open the full flow editor within Teams.
+    > It's also possible to select **Edit in advanced mode**. This opens the full flow editor within Teams.
 
 1. Once you entered all the parameters, select **Create flow**. After few seconds, your flow will be created and ready to use.
 
