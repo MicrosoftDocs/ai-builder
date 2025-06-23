@@ -7,7 +7,7 @@ contributors:
   - Antonio-Rodrigues
   - v-aangie
 ms.topic: how-to
-ms.date: 10/24/2024
+ms.date: 06/23/2025
 ms.author: chplanty
 ms.reviewer: angieandrews
 ---
@@ -22,7 +22,7 @@ You can use dedicated actions for each AI Builder model in Power Automate. Howev
 
 1. On the navigation pane to the left, select **My flows**, and then select **New flow** > **Instant cloud flow**.
 
-1. Name your flow.
+1. Name your cloud flow.
 
 1. Under **Choose how to trigger this flow**, select **Manually trigger a flow**, and then select **Create**.
 
@@ -49,7 +49,7 @@ In this section, you learn how to configure the AI Builder predict action for th
 
 1. Select **My flows** in the left pane, and then select **New flow** > **Instant cloud flow**.
 
-1. Name your flow, select **Manually trigger a flow** under **Choose how to trigger this flow**, and then select **Create**.
+1. Name your cloud flow, select **Manually trigger a flow** under **Choose how to trigger this flow**, and then select **Create**.
 
 1. Select **+ New step**.
 
@@ -89,15 +89,15 @@ In this section, you learn how to configure the AI Builder predict action for th
 
     :::image type="content" source="media/DynModelId-1.png" alt-text="Screenshot of the Predict action with dynamic model ID.":::
 
-1. Select **Save** in the upper-right corner, and then select **Test** to try out your flow:
+1. Select **Save** in the upper-right corner, and then select **Test** to try out your cloud flow:
 
     :::image type="content" source="media/DynModelId-2.png" alt-text="Screenshot of testing the predict action.":::
 
-1. In the flow run details, get the model JSON output in the **OUTPUTS** section of the predict action. This output is useful to build downstream actions using values of the model.
+1. In the cloud flow run details, get the model JSON output in the **OUTPUTS** section of the predict action. This output is useful to build downstream actions using values of the model.
 
      :::image type="content" source="media/DynModelId-3.png" alt-text="Screenshot of getting output from run results.":::
 
-1. Go back to your flow in edit mode.
+1. Go back to your cloud flow in edit mode.
 
 1. Select  **+ New step** and select the **Compose** action (or any other action to process your model output). Let's say your model output has the **Total** column. You can get it with the following formula:
 

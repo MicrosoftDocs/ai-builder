@@ -5,7 +5,7 @@ author: phil-cmd
 contributors:
   - phil-cmd
   - v-aangie
-ms.date: 06/06/2025
+ms.date: 06/23/2025
 ms.topic: get-started
 ms.author: plarrue
 ms.reviewer: angieandrews
