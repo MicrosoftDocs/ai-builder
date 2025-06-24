@@ -3,7 +3,7 @@ title: Overview of prebuilt AI models - AI Builder
 description: Learn about the prebuilt AI models that are available in AI Builder.
 author: phil-cmd
 ms.topic: overview
-ms.date: 01/09/2025
+ms.date: 06/27/2025
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---
@@ -14,6 +14,7 @@ AI Builder prebuilt models help you add intelligence to apps and flows without h
 
 Prebuilt models are available in Power Automate and Power Apps. The following prebuilt models are currently available in AI Builder.
 
+- [Contract](prebuilt-contract.md)
 - [Invoice processing](prebuilt-invoice-processing.md)
 - [Text recognition](prebuilt-text-recognition.md)
 - [Sentiment analysis](prebuilt-sentiment-analysis.md)
@@ -22,7 +23,7 @@ Prebuilt models are available in Power Automate and Power Apps. The following pr
 - [ID reader](prebuilt-id-reader.md)
 - [Key phrase extraction](prebuilt-key-phrase.md)
 - [Business card reader](prebuilt-business-card.md)
-- [Category classification ](prebuilt-category-classification.md)
+- [Category classification](prebuilt-category-classification.md)
 - [Text generation (preview) (deprecated)](prebuilt-azure-openai.md)
 - [Language detection](prebuilt-language-detection.md)
 - [Text translation](prebuilt-text-translation.md)  

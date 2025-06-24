@@ -3,7 +3,7 @@ title: AI Builder in Power Automate overview - AI Builder
 description: Get an overview of how to create automated flows by using AI Builder in Power Automate.
 author: Phil-cmd
 ms.topic: overview
-ms.date: 06/13/2025 
+ms.date: 06/27/2025 
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---
@@ -19,6 +19,7 @@ Power Automate is a service that helps you create automated workflows between yo
 
 * [Business card reader model](flow-business-card-reader.md)
 * [Category classification model](prebuilt-category-classification-pwr-automate.md)
+* [Contract model](prebuilt-contract.md)
 * [Entity extraction model](prebuilt-entity-extraction-pwr-automate.md)
 * [ID reader model (preview)](prebuilt-id-reader.md)
 * [Key phrase extraction model](flow-key-phrase-extraction.md)
