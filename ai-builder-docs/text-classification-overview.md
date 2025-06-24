@@ -3,7 +3,7 @@ title: Overview of category classification model - AI Builder
 description: Describes category classification models. Gives an overview of how to build and use category classification models in AI Builder. 
 author: phil-cmd
 ms.topic: overview
-ms.date: 11/20/2024
+ms.date: 06/23/2025
 ms.author: plarrue 
 ms.reviewer: angieandrews
 ---

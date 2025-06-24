@@ -7,7 +7,7 @@ contributors:
   - -phil-cmd
   - v-aangie
 ms.topic: how-to
-ms.date: 04/30/2025
+ms.date: 06/23/2025
 ms.author: antrod
 ms.reviewer: angieandrews
 ms.collection: 
@@ -20,7 +20,7 @@ By default, the prompt generates text as response. Text can be convenient for ma
 
 ## Benefits of using JSON output
 
-The JSON output lets you generate a JSON structure for your prompt response instead of text. JSON makes it easier to process responses with multiple elements in agents, flows, or apps.
+The JSON output lets you generate a JSON structure for your prompt response instead of text. JSON makes it easier to process responses with multiple elements in agents, cloud flows, or apps.
 
 Following is an example of use cases that become possible with JSON output:
 
@@ -61,15 +61,15 @@ To test and save your prompt, follow these steps:
 1. To check how your prompt response renders with the new format, select **Test**.
 1. When you finish your modifications, select **Save custom**. If you skip this step, your changes are lost.
 
-When you save your prompt, you're locking the latest **Auto-detected** format or the **Custom** format defined. This means when you use your prompt in an agent, a flow, or an app, the saved format is used&mdash;it doesn't vary.
+When you save your prompt, you're locking the latest **Auto-detected** format or the **Custom** format defined. This means when you use your prompt in an agent, a cloud flow, or an app, the saved format is used&mdash;it doesn't vary.
 
 At any time, you can check the JSON schema that generates out of the JSON examples by selecting **</>**. You can't modify this schema currently.
 
 ## Use a prompt with JSON output in Power Automate
 
-This section guides you to create the following flow:
+This section guides you to create the following cloud flow:
 
-:::image type="content" source="media/change-prompt-output/output-flow.png" alt-text="Screenshot of a flow with a prompt":::
+:::image type="content" source="media/change-prompt-output/output-flow.png" alt-text="Screenshot of a cloud flow with a prompt":::
 
 1. Create a prompt to process invoices using an **Image or document** as input.
 
@@ -81,7 +81,7 @@ This section guides you to create the following flow:
 
    :::image type="content" source="media/change-prompt-output/custom-format.png" alt-text="Screenshot of a custom JSON format.":::
 
-1. Create a flow with the **When a new email arrives** trigger. To process specific emails, make sure to set filters.
+1. Create a cloud flow with the **When a new email arrives** trigger. To process specific emails, make sure to set filters.
 
     Learn more in [Get started with triggers](/power-automate/triggers-introduction?tabs=classic-designer).
 
@@ -89,7 +89,7 @@ This section guides you to create the following flow:
 
 1. In the **invoice** input, add the email attachment from the trigger action.
 
-   :::image type="content" source="media/change-prompt-output/output-flow-prompt.png" alt-text="Screenshot of prompt parameters in flow.":::
+   :::image type="content" source="media/change-prompt-output/output-flow-prompt.png" alt-text="Screenshot of prompt parameters in a cloud flow.":::
 
 1. Add the **Send an email** action.
    

@@ -9,7 +9,7 @@ contributors:
   - v-aangie
 ms.topic: article
 ms.custom: bap-template
-ms.date: 04/30/2025
+ms.date: 06/23/2025
 ms.author: antrod
 ms.reviewer: angieandrews
 ms.collection: 
@@ -36,9 +36,9 @@ Consider a scenario where a citizen developer uses a prompt to create responses 
 
 Fabrication, also known as hallucination, is another challenge faced by AI models, including generative AI models used by prompts. Fabrication occurs when the AI model generates information that isn't based on provided inputs or pre-existing data, essentially *inventing* or *hallucinating* information.
 
-For instance, if the AI model is asked to generate a summary of a historical event based on a given text, it might include details or events that weren't mentioned in the source text. For example, a flow creates a synopsis of a meeting based on the transcript of the recording. The input data includes details about the attendees, the articles discussed, and the decisions made. However, the model might generate a summary that includes an action item or a decision that was never discussed in the meeting. This situation is an instance of fabrication, where the model has *hallucinated* information that doesn't exist in the input data.
+For instance, if the AI model is asked to generate a summary of a historical event based on a given text, it might include details or events that weren't mentioned in the source text. For example, a cloud flow creates a synopsis of a meeting based on the transcript of the recording. The input data includes details about the attendees, the articles discussed, and the decisions made. However, the model might generate a summary that includes an action item or a decision that was never discussed in the meeting. This situation is an instance of fabrication, where the model has *hallucinated* information that doesn't exist in the input data.
 
-To mitigate the risk of fabrication, it's crucial to implement responsible AI practices. This includes rigorous testing of the prompt and the flow, providing the model with as much grounding information as possible and finally implementing a robust system for human oversight.
+To mitigate the risk of fabrication, it's crucial to implement responsible AI practices. This includes rigorous testing of the prompt and the cloud flow, providing the model with as much grounding information as possible and finally implementing a robust system for human oversight.
 
 ## Address risks through responsible AI practices
 
