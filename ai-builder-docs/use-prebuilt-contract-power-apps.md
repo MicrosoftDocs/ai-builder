@@ -78,7 +78,7 @@ This expression concatenates the text values from the **Clause** field of each r
 Concat('Contract Model'.Predict(UploadedImage1.Image).Tables.Parties.Rows,Clause.Value.Text, Char(10))
 ```
 
-:::image type="content" source="media/use-prebuilt-contract-power-apps/power-fx-contract-concatenate-clause-fields.png" alt-text="Screenshot of a first clause field for a contract document.":::
+:::image type="content" source="media/use-prebuilt-contract-power-apps/power-fx-contract-concatenate-clause-fields.png" alt-text="Screenshot of a first clause field with concatenated text values for a contract document.":::
 
 ## Related information
 

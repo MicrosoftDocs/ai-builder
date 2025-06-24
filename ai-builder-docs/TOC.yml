@@ -265,7 +265,7 @@
       - name: Business card reader model
         href: flow-business-card-reader.md
       - name: Contract model
-        href: use-prebuilt-contract-power-automade.md
+        href: use-prebuilt-contract-power-automate.md
     - name: Text
       items:
       - name: Sentiment analysis model

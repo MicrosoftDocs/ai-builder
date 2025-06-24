@@ -17,8 +17,8 @@ The contract prebuilt model uses Optical Character Recognition (OCR) capabilitie
 
 To learn how to use the contract prebuilt model, select from the following articles:
 
-- **Power Apps**: [Use the contract prebuilt model in Power Apps](use-prebuilt-contract-in-papps.md)
-- **Power Automate**: [Use the contract prebuilt model in Power Automate](use-prebuilt-contract-in-pauto.md)
+- **Power Apps**: [Use the contract prebuilt model in Power Apps](use-prebuilt-contract-power-apps.md)
+- **Power Automate**: [Use the contract prebuilt model in Power Automate](use-prebuilt-contract-power-automate.md)
 
 ## Supported language, format, and size
 
