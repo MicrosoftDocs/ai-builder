@@ -86,12 +86,8 @@
         href: prebuilt-id-reader.md
       - name: Business card reader
         href: prebuilt-business-card.md
-      - name: Health insurance card reader
-        href: prebuilt-health-insurance-card.md
       - name: Contract processing
         href: prebuilt-contract.md
-      - name: Tax document processing
-        href: prebuilt-tax-document.md
     - name: Text
       items:
       - name: Sentiment analysis
@@ -268,12 +264,8 @@
         href: id-reader.md  
       - name: Business card reader model
         href: flow-business-card-reader.md
-      - name: Health insurance card model
-        href: use-prebuilt-health-insurance-card-in-pauto.md
       - name: Contract model
-        href: use-prebuilt-contract-in-pauto.md
-      - name: Tax document model
-        href: use-prebuilt-tax-document-in-pauto.md  
+        href: use-prebuilt-contract-power-automade.md
     - name: Text
       items:
       - name: Sentiment analysis model
@@ -317,7 +309,7 @@
       - name: Use in a model-driven app
         href: business-card-reader-component-model-driven.md
     - name: Contract model
-      href: use-prebuilt-contract-in-papps.md
+      href: use-prebuilt-contract-power-apps.md
   - name: Images
     items:
     - name: Image description model (preview)

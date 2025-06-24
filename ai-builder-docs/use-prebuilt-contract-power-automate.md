@@ -24,7 +24,7 @@ In this article, you learn how to create a flow that uses the contract model.
 1. In the designer, select **+Insert a new action** (below the **Manually trigger a flow** card) > **AI Builder** > **Extract information from Contract**.
 1. Specify **File Content** as the contract document file you want to process in your flow.
 
-    :::image type="content" source="media/use-prebuilt-contract-in-pauto/extract-information-from-contract-file-input.png" alt-text="Screenshot of a manually triggered extract information step in a flow, with an contract document selected.":::
+    :::image type="content" source="media/use-prebuilt-contract-power-automate/extract-information-from-contract-file-input.png" alt-text="Screenshot of a manually triggered extract information step in a flow, with an contract document selected.":::
 
 Congratulations! You've created a flow that uses the contract model. In the command bar, select **Save**, and then select **Test** to try out your flow.
 
@@ -40,7 +40,7 @@ Congratulations! You've created a flow that uses the contract model. In the comm
 
 The following example shows how to set up a flow to send the extracted information of the contract document in a Data operation (Compose).
 
-:::image type="content" source="media/use-prebuilt-contract-in-pauto/extract-information-from-contract-compose.png" alt-text="Screenshot of a manually triggered extract information step in a flow, with a contract document selected and output the result in a data operation.":::
+:::image type="content" source="media/use-prebuilt-contract-power-automate/extract-information-from-contract-compose.png" alt-text="Screenshot of a manually triggered extract information step in a flow, with a contract document selected and output the result in a data operation.":::
 
 ## Related information
 

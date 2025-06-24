@@ -19,7 +19,7 @@ This low-code app simplifies contract document handling.
 
 ## Requirements
 
-Learn more about requirements in the [Supported language, format, and size](prebuilt-contract.md#supported-language-format-and-size) section in Contract prebuilt AI model.
+Learn more about requirements in the [Supported language, format, and size](prebuilt-contract.md#supported-language-format-and-size) section in [Contract prebuilt model](prebuilt-contract.md).
 
 ## Available fields
 
@@ -58,11 +58,11 @@ Learn more about requirements in the [Supported language, format, and size](preb
 
     You can select your desired field from the available field.
 
-    :::image type="content" source="media/use-prebuilt-contract-in-papps/powerfx-contract-select-fields.png" alt-text="Screenshot of all available text fields for a contract document.":::
+    :::image type="content" source="media/use-prebuilt-contract-power-apps/power-fx-contract-select-fields.png" alt-text="Screenshot of all available text fields for a contract document.":::
 
 1. Select **Save**, and then select the **Play** button.
 
-    :::image type="content" source="media/use-prebuilt-contract-in-papps/powerfx-contract-select-fields-title.png" alt-text="Screenshot of a title text field for a contract document.":::
+    :::image type="content" source="media/use-prebuilt-contract-power-apps/power-fx-contract-select-fields-title.png" alt-text="Screenshot of a title text field for a contract document.":::
 
 You can also use this formula to retrieve the first item from the result and extract the description of that item as a text string.
 
@@ -70,7 +70,7 @@ You can also use this formula to retrieve the first item from the result and ext
 First('Contract Model'.Predict(UploadedImage1.Image).Tables.Parties.Rows).Clause.Value.Text
 ```
 
-:::image type="content" source="media/use-prebuilt-contract-in-papps/powerfx-contract-first-clause-fields.png" alt-text="Screenshot of a first clause field for a contract document.":::
+:::image type="content" source="media/use-prebuilt-contract-power-apps/power-fx-contract-first-clause-fields.png" alt-text="Screenshot of a first clause field for a contract document.":::
 
 This expression concatenates the text values from the **Clause** field of each row in the prediction results of an image related to a contract document, and separates each value with a comma and a space.
 
@@ -78,7 +78,7 @@ This expression concatenates the text values from the **Clause** field of each r
 Concat('Contract Model'.Predict(UploadedImage1.Image).Tables.Parties.Rows,Clause.Value.Text, Char(10))
 ```
 
-:::image type="content" source="media/use-prebuilt-contract-in-papps/powerfx-contract-concat-clause-fields.png" alt-text="Screenshot of a first clause field for a contract document.":::
+:::image type="content" source="media/use-prebuilt-contract-power-apps/power-fx-contract-concatenate-clause-fields.png" alt-text="Screenshot of a first clause field for a contract document.":::
 
 ## Related information
 
