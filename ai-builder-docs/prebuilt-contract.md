@@ -20,7 +20,7 @@ To learn how to use the contract prebuilt model, select from the following artic
 - **Power Apps**: [Use the contract prebuilt model in Power Apps](use-prebuilt-contract-power-apps.md)
 - **Power Automate**: [Use the contract prebuilt model in Power Automate](use-prebuilt-contract-power-automate.md)
 
-## Supported language, format, and size
+## Supported language, format, and file size
 
 ### Supported language
 
@@ -37,7 +37,7 @@ For best results, provide one clear photo or high-quality scan per document.
 |**Image**|<ul><li>**JPEG/JPG**</li><li>**PNG**</li><li>**BMP**</li></ul>|  
 |**Document**|<ul><li>**PDF** (If password-locked, remove the lock before submission.)</li></ul>|
 
-### Supported size
+### Supported file size
 
 - The file size for analyzing documents is 20 MB
 - The image dimensions must be between 50 pixels x 50 pixels and 10,000 pixels x 10,000 pixels

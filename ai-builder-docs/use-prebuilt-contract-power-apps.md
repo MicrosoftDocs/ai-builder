@@ -19,7 +19,7 @@ This low-code app simplifies contract document handling.
 
 ## Requirements
 
-Learn more about requirements in the [Supported language, format, and size](prebuilt-contract.md#supported-language-format-and-size) section in [Contract prebuilt model](prebuilt-contract.md).
+Learn more about requirements in the [Supported language, format, and file size](prebuilt-contract.md#supported-language-format-and-file-size) section in [Contract prebuilt model](prebuilt-contract.md).
 
 ## Available fields
 
@@ -46,7 +46,6 @@ Learn more about requirements in the [Supported language, format, and size](preb
 1. On the navigation pane to the left, select **+Create.**
 1. Select the **Start with a blank canvas** tile.
 1. Select the size you would like to use for your canvas app&mdash;either **Responsive**, **Tablet size**, or **Phone size**.
-1. Select how you want to start building your app&mdash;either **Create a form** or **Create a gallery**. You can also skip this step by selecting **Skip**.
 1. In the app editor, from the left navigation pane, select **Data** > **Add data**, and then search **Contract model**.
 1. Select **+Insert** > **Add picture**.
 1. Select **+Insert** > **Text label**.
