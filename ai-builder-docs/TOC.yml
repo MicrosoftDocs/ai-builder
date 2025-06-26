@@ -86,7 +86,7 @@
         href: prebuilt-id-reader.md
       - name: Business card reader
         href: prebuilt-business-card.md
-      - name: Contract processing
+      - name: Contract processing (preview)
         href: prebuilt-contract-processing.md
     - name: Text
       items:
@@ -264,7 +264,7 @@
         href: id-reader.md  
       - name: Business card reader model
         href: flow-business-card-reader.md
-      - name: Contract processing model
+      - name: Contract processing model (preview)
         href: use-prebuilt-contract-processing-power-automate.md
     - name: Text
       items:
@@ -308,7 +308,7 @@
         href: business-card-reader-component-in-powerapps.md
       - name: Use in a model-driven app
         href: business-card-reader-component-model-driven.md
-    - name: Contract processing model
+    - name: Contract processing model (preview)
       href: use-prebuilt-contract-processing-power-apps.md
   - name: Images
     items:

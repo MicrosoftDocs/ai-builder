@@ -1,5 +1,5 @@
 ---
-title: Contract processing prebuilt model
+title: Contract processing prebuilt model (preview)
 description: Learn about the contract processing prebuilt model in AI Builder.
 author: phil-cmd
 ms.topic: conceptual
@@ -9,9 +9,13 @@ ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
-# Contract processing prebuilt model
+# Contract processing prebuilt model (preview)
+
+[!INCLUDE [cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
 The contract processing prebuilt model uses Optical Character Recognition (OCR) capabilities to analyze and extract key fields and line items from contract entities. Contracts can be of various formats and quality including phone-captured images, scanned documents, and digital PDFs.
+
+[!INCLUDE[cc_preview_features_definition](./includes/cc-preview-features-definition.md)]
 
 ## Learn how to use the contract processing prebuilt model
 

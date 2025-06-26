@@ -1,5 +1,5 @@
 ---
-title: Use the contract processing prebuilt model in Power Apps
+title: Use the contract processing prebuilt model in Power Apps (preview)
 description: Learn how to use the AI Builder contract processing prebuilt model in Power Apps.
 author: phil-cmd
 ms.topic: conceptual
@@ -9,11 +9,15 @@ ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
-# Use the contract processing prebuilt model in Power Apps
+# Use the contract processing prebuilt model in Power Apps (preview)
+
+[!INCLUDE [cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
 AI Builder contract processing model combined with Power Fx lets you extract key details from a contract document like title, contract ID, list of legal parties, list of jurisdictions, execution date, effective date, expiration date, contract duration, and renewal date, quickly and accurately.
 
 This low-code app simplifies contract document handling.
+
+[!INCLUDE[cc_preview_features_definition](./includes/cc-preview-features-definition.md)]
 
 **Supported document types**: Contract
 
