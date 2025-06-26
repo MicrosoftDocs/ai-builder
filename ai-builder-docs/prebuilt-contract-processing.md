@@ -1,6 +1,6 @@
 ---
-title: Contract prebuilt model
-description: Learn about the contract prebuilt model in AI Builder.
+title: Contract processing prebuilt model
+description: Learn about the contract processing prebuilt model in AI Builder.
 author: phil-cmd
 ms.topic: conceptual
 ms.custom: 
@@ -9,16 +9,16 @@ ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
-# Contract prebuilt model
+# Contract processing prebuilt model
 
-The contract prebuilt model uses Optical Character Recognition (OCR) capabilities to analyze and extract key fields and line items from contract entities. Contracts can be of various formats and quality including phone-captured images, scanned documents, and digital PDFs.
+The contract processing prebuilt model uses Optical Character Recognition (OCR) capabilities to analyze and extract key fields and line items from contract entities. Contracts can be of various formats and quality including phone-captured images, scanned documents, and digital PDFs.
 
-## Learn how to use the contract prebuilt model
+## Learn how to use the contract processing prebuilt model
 
-To learn how to use the contract prebuilt model, select from the following articles:
+To learn how to use the contract processing prebuilt model, select from the following articles:
 
-- **Power Apps**: [Use the contract prebuilt model in Power Apps](use-prebuilt-contract-power-apps.md)
-- **Power Automate**: [Use the contract prebuilt model in Power Automate](use-prebuilt-contract-power-automate.md)
+- **Power Apps**: [Use the contract processing prebuilt model in Power Apps](use-prebuilt-contract-processing-power-apps.md)
+- **Power Automate**: [Use the contract processing prebuilt model in Power Automate](use-prebuilt-contract-processing-power-automate.md)
 
 ## Supported language, format, and file size
 

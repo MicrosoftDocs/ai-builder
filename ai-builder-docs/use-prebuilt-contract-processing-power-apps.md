@@ -1,6 +1,6 @@
 ---
-title: Use the contract prebuilt model in Power Apps
-description: Learn how to use the AI Builder contract prebuilt model in Power Apps.
+title: Use the contract processing prebuilt model in Power Apps
+description: Learn how to use the AI Builder contract processing prebuilt model in Power Apps.
 author: phil-cmd
 ms.topic: conceptual
 ms.custom: 
@@ -9,9 +9,9 @@ ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
-# Use the contract prebuilt model in Power Apps
+# Use the contract processing prebuilt model in Power Apps
 
-AI Builder contract model combined with Power Fx lets you extract key details from a contract document like title, contract ID, list of legal parties, list of jurisdictions, execution date, effective date, expiration date, contract duration, and renewal date, quickly and accurately.
+AI Builder contract processing model combined with Power Fx lets you extract key details from a contract document like title, contract ID, list of legal parties, list of jurisdictions, execution date, effective date, expiration date, contract duration, and renewal date, quickly and accurately.
 
 This low-code app simplifies contract document handling.
 
@@ -19,7 +19,7 @@ This low-code app simplifies contract document handling.
 
 ## Requirements
 
-Learn more about requirements in the [Supported language, format, and file size](prebuilt-contract.md#supported-language-format-and-file-size) section in [Contract prebuilt model](prebuilt-contract.md).
+Learn more about requirements in the [Supported language, format, and file size](prebuilt-contract-processing.md#supported-language-format-and-file-size) section in [Contract processing prebuilt model](prebuilt-contract-processing.md).
 
 ## Available fields
 
@@ -81,5 +81,5 @@ Concat('Contract Model'.Predict(UploadedImage1.Image).Tables.Parties.Rows,Clause
 
 ## Related information
 
-- [Contract prebuilt model](prebuilt-contract.md)
+- [Contract processing prebuilt model](prebuilt-contract-processing.md)
 - [Power Fx formula reference overview](/power-platform/power-fx/formula-reference-overview)

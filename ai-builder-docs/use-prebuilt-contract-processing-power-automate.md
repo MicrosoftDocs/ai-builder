@@ -1,6 +1,6 @@
 ---
-title: Use the contract prebuilt model in Power Automate
-description: Learn how to use the AI Builder contract prebuilt model in Power Automate.
+title: Use the contract processing prebuilt model in Power Automate
+description: Learn how to use the AI Builder contract processing prebuilt model in Power Automate.
 author: phil-cmd
 ms.topic: conceptual
 ms.custom: 
@@ -9,9 +9,9 @@ ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
-# Use the contract prebuilt model in Power Automate
+# Use the contract processingprebuilt model in Power Automate
 
-In this article, you learn how to create a flow that uses the contract model.
+In this article, you learn how to create a flow that uses the contract processing model.
 
 1. Sign in to [Power Automate](https://flow.microsoft.com/).
 1. On the navigation pane to the left, select **My flows**, and then select **New flow** > **Instant cloud flow** in the command bar at the top.
@@ -26,7 +26,7 @@ In this article, you learn how to create a flow that uses the contract model.
 
     :::image type="content" source="media/use-prebuilt-contract-power-automate/extract-information-from-contract-file-input.png" alt-text="Screenshot of a manually triggered extract information step in a flow, with an contract document selected.":::
 
-Congratulations! You've created a flow that uses the contract model. In the command bar, select **Save**, and then select **Test** to try out your flow.
+Congratulations! You've created a flow that uses the contract processing model. In the command bar, select **Save**, and then select **Test** to try out your flow.
 
 ## Test the flow
 
@@ -44,4 +44,4 @@ The following example shows how to set up a flow to send the extracted informati
 
 ## Related information
 
-[Contract prebuilt model](prebuilt-contract.md)
+[Contract processing prebuilt model](prebuilt-contract-processing.md)

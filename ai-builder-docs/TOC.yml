@@ -86,8 +86,8 @@
         href: prebuilt-id-reader.md
       - name: Business card reader
         href: prebuilt-business-card.md
-      - name: Contract
-        href: prebuilt-contract.md
+      - name: Contract processing
+        href: prebuilt-contract-processing.md
     - name: Text
       items:
       - name: Sentiment analysis
@@ -264,8 +264,8 @@
         href: id-reader.md  
       - name: Business card reader model
         href: flow-business-card-reader.md
-      - name: Contract model
-        href: use-prebuilt-contract-power-automate.md
+      - name: Contract processing model
+        href: use-prebuilt-contract-processing-power-automate.md
     - name: Text
       items:
       - name: Sentiment analysis model
@@ -308,8 +308,8 @@
         href: business-card-reader-component-in-powerapps.md
       - name: Use in a model-driven app
         href: business-card-reader-component-model-driven.md
-    - name: Contract model
-      href: use-prebuilt-contract-power-apps.md
+    - name: Contract processing model
+      href: use-prebuilt-contract-processing-power-apps.md
   - name: Images
     items:
     - name: Image description model (preview)

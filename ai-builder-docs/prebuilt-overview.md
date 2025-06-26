@@ -14,7 +14,7 @@ AI Builder prebuilt models help you add intelligence to apps and flows without h
 
 Prebuilt models are available in Power Automate and Power Apps. The following prebuilt models are currently available in AI Builder.
 
-- [Contract](prebuilt-contract.md)
+- [Contract processing](prebuilt-contract-processing.md)
 - [Invoice processing](prebuilt-invoice-processing.md)
 - [Text recognition](prebuilt-text-recognition.md)
 - [Sentiment analysis](prebuilt-sentiment-analysis.md)
