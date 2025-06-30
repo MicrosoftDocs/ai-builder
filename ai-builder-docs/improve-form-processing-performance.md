@@ -6,11 +6,11 @@ contributors:
   - antrodfr
   - Phil-cmd
   - v-aangie
-ms.topic: conceptual
+ms.topic: how-to
 ms.collection: 
 - get-started
 - bap-ai-copilot
-ms.date: 11/20/2024
+ms.date: 06/23/2025
 ms.author: antrod
 ms.reviewer: angieandrews
 ---

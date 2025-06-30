@@ -7,25 +7,31 @@ contributors:
   - chplanty
   - jkom1
   - v-aangie
-ms.topic: conceptual
+ms.topic: article
 ms.collection: 
     - bap-ai-copilot
-ms.date: 10/28/2024
+ms.date: 04/10/2025
 ms.author: antode
 ms.reviewer: angieandrews
 ---
 
 # AI Builder licensing and credit management
 
-Access to AI Builder features within an environment requires AI Builder credits. AI Builder credits come with some specific user licenses, but mostly from AI Builder capacity add-on. To learn more, go to [Get entitlement to AI Builder credits](credit-management.md#get-entitlement-to-ai-builder-credits). Once acquired, credits can be allocated (also known as assigned) to a specific environment, or left at the organization (tenant) level. Learn more in [Make credits available for an environment](credit-management.md#make-credits-available-for-an-environment-allocated-and-unallocated-credits).
+This article focuses on AI Builder in the Power Apps and Power Automate context.
+
+Access to AI Builder features within an environment requires AI Builder credits. AI Builder credits come with some specific user licenses, but mostly from AI Builder capacity add-on. Learn more in [Get entitlement to AI Builder credits](credit-management.md#get-entitlement-to-ai-builder-credits). Once acquired, credits can be allocated (also known as assigned) to a specific environment, or left at the organization (tenant) level. Learn more in [Make credits available for an environment](credit-management.md#make-credits-available-for-an-environment-allocated-and-unallocated-credits).
+
+> [!NOTE]
+> - Learn how to use AI models and prompts in Copilot Studio or agent flows in [AI Builder licensing in Copilot Studio](message-management.md).
+> - Learn about licensing in [Copilot Studio licensing](/microsoft-copilot-studio/requirements-messages-management#message-scenarios).
 
 Once an environment has access to credits, AI Builder features are enabled in this environment.
 
 Some AI Builder actions consume credits. Learn more in [AI Builder credit consumption](#ai-builder-credit-consumption) in this article. Credit consumption can be monitored. Learn more in [Monitor usage](#monitor-usage) in this article.
 
-In an environment, when consumption exceeds available credits, the environment is in overage and some features are progressively blocked. Purchase of new credits and/or reassignment needs to happen. Learn more in [Overage](#overage) in this article.
+In an environment, when consumption exceeds available credits, the environment is in overage and some features are progressively blocked. You need to purchase credits and/or reassign credits. Learn more in [Overage](#overage) in this article.
 
-AI Builder credits can also come from AI Builder trial. In that case, they link to the user and don't need to be allocated. Learn more in [AI Builder trial](ai-builder-trials.md).
+AI Builder credits can also come from AI Builder trial. In this case, they link to the user and don't need to be allocated. Learn more in [AI Builder trial](ai-builder-trials.md).
 
 AI Builder is a premium feature within Power Apps. Adding an AI Builder action to an app transforms it into a premium app. This is also the case when incorporating a flow with an AI Builder action within an app. Premium apps have specific licensing requirements.
 
@@ -35,12 +41,13 @@ In Power Automate, adding an AI Builder action to a flow doesn't transform it in
 
 First, you need to be entitled to some AI Builder capacity. Entitlement can happen through one of the following paid capacities.
 
-- Some Microsoft products like Power Apps per app plan, Power Apps per user plan, and Power Automate Premium (previously Power Automate per user with attended RPA) plan include  AI Builder capacity. Your environment admin can check entitlement in Power Platform admin center by following the instructions in [Capacity add-ons](/power-platform/admin/capacity-add-on). When this number isn't enough, you need to complete it with one or more AI Builder capacity add-ons.
+- Some Microsoft products like Power Apps per app plan, Power Apps per user plan, and Power Automate Premium (previously Power Automate per user with attended RPA) plan include AI Builder capacity. Your environment admin can check entitlement in Power Platform admin center by following the instructions in [Capacity add-ons](/power-platform/admin/capacity-add-on). When this number isn't enough, you need to complete it with one or more AI Builder capacity add-ons.
 
-- Main source of credits is AI Builder credit add-on that you can purchase in the Microsoft 365 admin center:
+- The main source of credits is the AI Builder credit add-on, which you can purchase in the Microsoft 365 admin center:
 
     1. In the admin center, select **Billing** > [Purchase services](https://go.microsoft.com/fwlink/p/?linkid=868433).
-    You need to be the billing administrator of your organization (tenant) to access this page.
+  
+        You need to be the billing administrator of your organization (tenant) to access this page.
     1. On the **Purchase services** page, do the following steps:
 
         1. Search for **AI Builder**.
@@ -67,7 +74,7 @@ The following table explains the rules for number of credits per license.
 
 Entitlement can be through a trial. Credits are then linked to a user. Trials are available only when there's no paid capacity within the organization (tenant).
 
-In a trial, there's no need of allocating credits to an environment. Trials can be used in any environment. A trial brings 200,000 credits and is valid 30 days.
+In a trial, there's no need for allocating credits to an environment. Trials can be used in any environment. A trial brings 200,000 credits and is valid 30 days.
 
 Once credits are consumed, AI Builder models are blocked for this user.
 At the end of the 30 days, a trial can be renewed, and user receives another 200,000 credits. Renewal is only allowed for a limited number of times.
@@ -86,7 +93,7 @@ Allocation happens in the [Power Platform admin center](https://admin.powerplatf
 
 The administrator can block the use of unallocated credits through an organization (tenant) setting in [Power Platform admin center](https://admin.powerplatform.microsoft.com/). To do this, remove the check from the **Allow users to consume unassigned credits** checkbox.
 
-:::image type="content" source="media/credits.png" alt-text="Screenshot of the option to allow users to consume unassigned credits in Power Platform admin center.":::
+:::image type="content" source="media/credit-management/credits.png" alt-text="Screenshot of the option to allow users to consume unassigned credits in Power Platform admin center.":::
 
 By default, this setting is enabled. When disabled, only environments with allocated credits have access to AI Builder features.
 
@@ -131,10 +138,9 @@ Each AI Builder model has a different credit consumption mechanism. To perform a
 
 #### Free actions
 
-Preview scenarios don't consume credits.
+Preview scenarios don't consume credits, except when using the o1 reasoning model in prompts, which is currently in a paid preview.
 
-Performing tests on custom models in AI Builder pages is now free.
-
+- Preview scenarios don't consume credits, except the preview feature to pass images or documents to a prompt.
 - Testing prompts in prompt builder doesn't consume credits.
 - A **Quick test** on a trained object detection and document processing model doesn't consume credits.
 
@@ -144,13 +150,7 @@ AI prompts can be utilized in Power Apps, Power Automate flows, and extended Cop
 
 In the context of Power Apps and Power Automate flows, AI prompts consume credits.
 
-The number of consumed credits depends on the length of the input and output, and the underlying generative AI model used.
-
-The [Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130) (pdf file) provides detailed information about each Generative AI model. Changing the Generative AI model might increase the AI Builder credit consumption of your AI prompt.  
-
-In the context of Copilot, AI prompts don't consume AI Builder credits. However, triggering them does consume Copilot messages.
-
-Learn more in [Model selection and temperature settings](prompt-modelsettings.md).
+The number of consumed credits depends on the input tokens, output tokens, and the underlying generative AI model used. Learn more in [Prompt tokens](licensing-prompt-tokens.md).
 
 ## Overage
 
@@ -202,7 +202,7 @@ The purpose of these free credit extensions is to allow makers and admin to unbl
 
 ## Preview features
 
-AI Builder features that are in preview release status are free to use. You don't need to obtain a license to use AI Builder preview features.
+AI Builder features in preview release status are free to use. You don't need a license to use AI Builder preview features. However, the o1 reasoning model in prompts is currently in a paid preview.
 
 ## AI Builder licensing FAQ
 
@@ -227,11 +227,11 @@ Then [allocate more capacity](credit-management.md#make-credits-available-for-an
 
 Credits coming from the AI Builder add-on (1,000,000 credits per add-on) and credits coming from licenses with seeded capacity (like Power Automate premium, which brings 5,000 credits) are gathered at the tenant level. They represent your entitlement.
 
-**Example 1**
+Example 1:
 
 One (1) add-on + 5 Power Automate premium licenses gives 1,000,000+5*5,000 = 1,025,000 credits that you can assign and consume in any scenario.
 
-**Example 2**
+Example 2:
 
 You have a scenario with 32,000 receipts to process each month with receipt processing.
 
@@ -321,13 +321,13 @@ For an environment without allocated credits, we apply the ‘large margin’ wh
 
 No. Limitations only apply to the environments in overage. Other environments, whether consuming environment assignment or organization (tenant) level credits aren't affected.
 
-For example, if an environment has no allocated credit, and organization (tenant) level credits aren't all consumed, then editing and running of AI Builder functions is allowed for this environment. This remains true when other environments with assigned credits are in overage.
+For example, if an environment has no allocated credit, and organization (tenant) level credits aren't all consumed, then editing and running of AI Builder functions are allowed for this environment. This remains true when other environments with assigned credits are in overage.
 
 Consumption of unassigned credits never affectS the consumption of an environment with assigned credits, even if it's in overage. Consumption of credits in an environment with assigned credits never affectS the consumption of credits in other environments, even if it's in overage.
   
 Global consumption graph is for information purpose, and indicates at least one environment is in overage, but doesn't mean that all environments are in overage. All environments with a consumption lower than their assignment, continue to work as expected.
 
-### Will overage be charged? Will overage affect next month consumption?
+### Are overages charged? Do overages affect next month consumption?
 
 No, overage is considered as a grace period to help you adapt to new consumption pattern and is never charged. Overage doesn't affect the next month's consumption.
 
@@ -339,9 +339,9 @@ You shouldn't be concerned about an environment whose monthly consumption is bel
 
 By default, prompts are created with GPT 3.5 and temperature = 0. Prompts created before the release of the model/temperature selection feature were set with these default values.
 
-### What happens to my prompt using GPT 4 (preview), if the AI Builder preview toggle is switched to off in Power Platform admin center?
+### What happens to my prompt using o1 reasoning model (preview), if the AI Builder preview toggle is switched to off in Power Platform admin center?
 
-Your prompt fails in any context (testing prompt in Prompt Builder, Power Apps, Power Automate, or Copilot Studio). You can edit your prompt and switch the model to GPT 3.5.
+Your prompt fails in any context (testing prompt in prompt builder, Power Apps, Power Automate, or Copilot Studio). You can edit your prompt and switch the model to GPT-4o mini or GPT-4o.
 
 ### What licensing applies to AI Builder's AI functions?
 
@@ -350,7 +350,7 @@ The licensing options applicable to these capabilities are in the AI Builder rat
 
 ### Are all tests free?
 
-No. Testing prompts and testing trained models are now free. Testing prebuilt models still consumes credits at the same rate as running them in production. As preview models are free, testing them is also free.
+No. Testing prompts and testing trained models are free. Testing prebuilt models consumes credits at the same rate as running them in production. However, the o1 reasoning model in prompts is currently in a paid preview.
 
 ### I built an app that includes a flow. I want to add an AI Builder action in this flow. Does it turn my app into a premium app?
 

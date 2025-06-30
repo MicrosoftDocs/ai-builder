@@ -6,9 +6,9 @@ contributors:
   - JoeFernandezMS
   - phil-cmd
   - v-aangie
-ms.topic: conceptual
+ms.topic: article
 ms.custom: 
-ms.date: 11/20/2024
+ms.date: 02/21/2025
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---
@@ -56,11 +56,11 @@ If a valid identity document is detected, the model tries to locate and extract 
 |Last name     |   N/A      |
 |Gender     |    N/A     |
 |Date of birth     |    N/A     |
-|Place of birth     |    US green card only    |
+|Place of birth     |    N/A    |
 |Region     | US driver license only        |
 |Country     |    N/A     |
 |Nationality     | Passport only        |
-|Street address     | US driver license only        |
+|Street address     | N/A        |
 |Identity document number     |    N/A     |
 |Date of issue    |    N/A     |
 |Identity document expiration date     |    N/A     |

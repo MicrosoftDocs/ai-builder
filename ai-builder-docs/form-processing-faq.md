@@ -1,12 +1,13 @@
 ---
 title: FAQ for document processing
-description: Learn the answers to frequently asked questions about the document processing model in AI Builder.
-author: JoeFernandezMS
+description: Learn the answers to frequently asked questions about the document. processing model in AI Builder.
+author: Phil-cmd
 ms.topic: faq
 ms.custom: 
-ms.date: 04/11/2024
-ms.author: antrod
+ms.date: 05/23/2025
+ms.author: plarrue
 contributors:
+  - Phil-cmd
   - antrodfr
   - v-aangie
 ms.reviewer: angieandrews
@@ -14,7 +15,7 @@ ms.reviewer: angieandrews
 
 # FAQ for document processing
 
-This article consists of frequently asked questions about the document processing model in AI Builder. If you don't find your question here, review the [overview of the document processing AI model](form-processing-model-overview.md) or submit your question to the [Power Automate Community for AI Builder](https://powerusers.microsoft.com/t5/AI-Builder/bd-p/AIBuilder).
+This article consists of frequently asked questions about the document processing model in AI Builder. If you don't find your question here, review [Overview of the document processing AI model](form-processing-model-overview.md) or submit your question to the [Power Automate Community for AI Builder](https://powerusers.microsoft.com/t5/AI-Builder/bd-p/AIBuilder).
 
 ## Functionality
 
@@ -25,7 +26,7 @@ With document processing, you can build a custom AI model to extract information
 - The **Fixed-template documents** option is ideal if the elements of your documents can be found in similar places. It's usually the case for invoices, purchase orders, delivery orders, and tax forms.
 - **General documents** option is ideal for any kind of document, including the ones supported by the first option but also contracts, statement of work, letters, and others. This option can be more powerful to extract data, but requires longer training time.
 
-Learn more: [Overview of the document processing model](form-processing-model-overview.md)
+Learn more in [Overview of the document processing model](form-processing-model-overview.md).
 
 ### What types of documents can document processing handle?
 
@@ -35,7 +36,7 @@ Supported file types are PDF, JPG, and PNG.
 
 Document processing can extract fields, tables, and checkboxes from documents.
 
-Learn more: [Define information to extract](create-form-processing-model.md#define-information-to-extract)
+Learn more in [Define information to extract](create-form-processing-model.md#define-information-to-extract).
 
 ### Can I extract handwritten text from documents?
 
@@ -43,13 +44,37 @@ Yes. Document processing can extract printed and handwritten text from your docu
 
 ### How many samples do I need to train a document processing model?
 
-For high-quality documents that use the same layout, five sample documents should be sufficient. For low-quality documents (for example, scans of poor quality, more sample documents might be necessary. To improve results, use 15 to 20 sample documents.
+For high-quality documents that use the same layout, five sample documents should be sufficient. For low-quality documents (for example, scans of poor quality), more sample documents might be necessary. To improve results, use 15 to 20 sample documents.
+
+#### Best practices
+
+- **For template documents**
+    - One (1) layout per collection.
+    - The layout must be identical within the same collection.
+    - A minimum of five (5) and a maximum of 20 documents per collection (don't exceed this limit).
+
+- **For general documents**
+    - Create a single model for all variations of a document type including both structured and unstructured documents.
+    - Label fields relevant to their values for better extraction accuracy.
+
+        For example, use "supplier_id" for a supplier ID. Field names should match the document's language.
+    - A minimum of five (5) and a maximum of 20 documents per collection (don't exceed this limit).
+
+#### My model is currently published in v3.1 (GA), and I'm planning to retrain it using v4.0 (GA). Is it necessary to re-tag all of my documents?
+
+Unless you're adding new fields, checkboxes, tables, signatures for data extraction, or new documents to the collection, you don't need to re-tag all the documents.
+
+Before publishing your model, it's recommended to [quick test your model](form-processing-train.md#quick-test-your-model) using one or more samples to verify and ensure all your desired fields are properly extracted.
+  
+#### Can I switch from one document type to another?
+
+Yes, when editing your model, you can switch between a fixed template document type and a general document type. However, this switch isn't supported for invoices.
 
 ### Can a single form-processing model extract information from documents that have different layouts or templates?
 
 Yes. By using the collections feature, you train a single form-processing model to handle documents that have different layouts.
 
-Learn more: [Group documents by collections](create-form-processing-model.md#group-documents-by-collections)
+Learn more in [Group documents by collections](create-form-processing-model.md#group-documents-by-collections).
 
 ### Can document processing handle *multiple* forms in a *single* document?
 
@@ -57,13 +82,13 @@ Each form needs to be in a separate file. For example, if you have a PDF documen
 
 You can also specify pages for the document processing model to handle. This way you can take advantage of the model's functionality to loop page by page, and process one form at a time.
 
-Learn more: [Page range](form-processing-model-in-flow.md#page-range)
+Learn more in [Page range](form-processing-model-in-flow.md#page-range).
 
 ### I trained a document processing model but I'm not getting good results when it comes to extracted data. How can I improve the model?
 
 If your model is returning poor results after you trained it, edit the model and provide more samples for training. The more samples you provide, the more the AI model learns how to extract data from your documents.
 
-Learn more: [Improve the performance of your document processing model](improve-form-processing-performance.md)
+Learn more in [Improve the performance of your document processing model](improve-form-processing-performance.md).
 
 ## Limitations
 
@@ -77,10 +102,10 @@ You can process up to 360 documents per environment, every 60 seconds.
 - It can happen that some characters over or close to others get recognized incorrectly: O (letter) over a vertical line becomes a 0 (number), 5 (number) over a line becomes a $ (American dollar sign), l_ (lowercase letter, underscore) becomes an L (uppercase letter), and more.
 - It can happen that some characters on documents of poor quality get recognized incorrectly, or not at all.
 
-In the above cases, nothing can be done in AI Builder to improve the recognition. We recommand to improve the quality and layout of the source document to solve similar issues.
+In the previous cases, nothing can be done in AI Builder to improve the recognition. We recommand to improve the quality and layout of the source document to solve similar issues.
 
 > [!NOTE]
-> The OCR technology to detect characters is constantly improved by Microsoft, so such issues happen less often.
+> Microsoft constantly improves the optical character recognition (OCR) technology to detect characters, so such issues happen less often.
 
 ### Can I create a model with many collections?
 
@@ -100,8 +125,8 @@ Yes, unstructured documents like contracts and letters are supported by document
 
 Depending on your situation, you might need to use a particular model or a combination of them.
 
-Use [text recognition](prebuilt-text-recognition.md) when you want to extract all the text present in an image or a PDF. You can then, for example, search for a keyword in the text that's extracted, or build some fixed rules to extract certain items.
- 
+Use [text recognition](prebuilt-text-recognition.md) when you want to extract all the text present in an image or a PDF. You can then, for example, search for a keyword in the text that is extracted, or build some fixed rules to extract certain items.
+
 If you want to extract information from invoices, receipts, passports, driver's licenses, or business cards, start with the corresponding prebuilt model:
 
 - [Invoice processing](prebuilt-invoice-processing.md)
@@ -113,7 +138,7 @@ You can use these prebuilt models immediately, without having to create a new mo
 
 For any other document type, you can create a custom document processing model to extract the fields and tables you need. This also applies if you need additional information not provided by the prebuilt model.
 
-Learn more: [Custom document processing model](form-processing-model-overview.md)
+Learn more in [Custom document processing model](form-processing-model-overview.md).
 
 ### What is the difference between AI Builder document processing and Azure Form Recognizer?
 
@@ -129,4 +154,4 @@ AI Builder document processing is built on top of Azure Form Recognizer. This pr
 
 You can start trying out document processing for free by starting a [trial](administer-licensing.md). After you evaluate it, you need to purchase AI Builder credits to use document processing. Every page you process with document processing consumes AI Builder credits, even if the page doesn't contain data to extract. AI Builder credits can be purchased through AI Builder add-ons.
 
-Learn more: [AI Builder licensing](administer-licensing.md)
+Learn more in [AI Builder licensing](administer-licensing.md).

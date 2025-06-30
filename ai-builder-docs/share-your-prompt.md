@@ -6,11 +6,11 @@ contributors:
   - ashbhati
   - phil-cmd
   - v-aangie
-ms.topic: conceptual
+ms.topic: article
 ms.collection: 
 - get-started
 - bap-ai-copilot
-ms.date: 11/01/2024
+ms.date: 06/23/2025
 ms.author: ashbhati
 ms.reviewer: angieandrews
 ---

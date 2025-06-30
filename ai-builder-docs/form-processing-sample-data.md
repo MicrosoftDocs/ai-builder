@@ -2,7 +2,7 @@
 title: Use sample data to do document processing - AI Builder | Microsoft Docs
 description: Provides the information you need to try out a document processing model with sample data AI Builder.
 author: JoeFernandezMS
-ms.topic: conceptual
+ms.topic: article
 ms.custom: 
 ms.date: 01/27/2025
 ms.author: Jofernan

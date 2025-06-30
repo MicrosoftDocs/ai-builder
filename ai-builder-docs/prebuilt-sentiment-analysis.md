@@ -2,9 +2,9 @@
 title: Sentiment analysis prebuilt AI model - AI Builder
 description: Describes the prebuilt sentiment analysis AI model in AI Builder.
 author: alanabrito
-ms.topic: conceptual
+ms.topic: article
 ms.custom: 
-ms.date: 11/20/2024
+ms.date: 06/23/2025
 ms.author: alanab
 ms.reviewer: angieandrews
 ---
@@ -17,7 +17,7 @@ The sentiment analysis prebuilt model detects positive or negative sentiment in 
 
 ### Explore sentiment analysis
 
-You can try out the sentiment analysis model before you import it into your flow.
+You can try out the sentiment analysis model before you import it into your cloud flow.
 
 1. Sign in to [Power Apps](https://make.powerapps.com) or [Power Automate](https://make.powerautomate.com).
 1. On the left pane, select **... More** > **AI hub**.

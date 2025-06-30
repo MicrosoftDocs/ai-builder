@@ -6,9 +6,9 @@ contributors:
   - antrod
   - phil-cmd
   - v-angie
-ms.topic: conceptual
+ms.topic: article
 ms.custom:
-ms.date: 1/10/2024
+ms.date: 06/23/2025
 ms.author: antrod
 ms.reviewer: angieandrews
 ---
@@ -26,11 +26,11 @@ After the model creation, it's likely that you'll need to improve your model reg
 
 ## Select documents to add in the feedback loop
 
-The first thing you'll have to do is select the data eligible for the feedback loop. This has to be done from within the Power Automate flow that runs your model.
+The first thing you'll have to do is select the data eligible for the feedback loop. This has to be done from within the Power Automate cloud flow that runs your model.
 
-### New Power Automate flow
+### New Power Automate cloud flow
 
-If you don't have a Power Automate flow to run your model yet, you can create a new one from the model detail page after publishing the model.
+If you don't have a Power Automate cloud flow to run your model yet, you can create a new one from the model detail page after publishing the model.
 
 1. Sign in to [Power Apps](https://make.powerapps.com/) or [Power Automate](https://flow.microsoft.com/signin).
 
@@ -59,15 +59,15 @@ In this example, we updated the condition stating that confidence score of the *
 > [!NOTE]
 > The feedback loop storage is a Microsoft Dataverse table within the the same environment in which the flow runs. The table is called **AI Builder Feedback Loop**. Unless you need to delete records in the table, you don't need to access it directly to make the feedback loop work.
 
-### Existing Power Automate flow
+### Existing Power Automate cloud flow
 
-If you already have a flow running with your AI Builder model, you'll be able to add the feedback loop storage functionality within.
+If you already have a cloud flow running with your AI Builder model, you're able to add the feedback loop storage functionality within.
 
 1. Sign in to [Power Automate](https://flow.microsoft.com/signin).
 
 1. On the left pane, select **My flows**.
 
-1. Select your Power Automate flow.
+1. Select your Power Automate cloud flow.
 
 1. On the toolbar, select **Edit**.
 
@@ -117,9 +117,6 @@ Your model is now improved with new documents coming from the feedback loop.
 ## Limitations
 
 - The feedback loop feature is limited to custom document processing models.
-
-- Feedback loop data can be added only from Power Automate flows.
-
+- Feedback loop data can be added only from Power Automate cloud flows.
 - Feedback loop data can't transit between environments currently.
-
-- The owner of the model and owner of the flow containing the feedback loop logic should be the same person.
+- The owner of the model and owner of the cloud flow containing the feedback loop logic should be the same person.

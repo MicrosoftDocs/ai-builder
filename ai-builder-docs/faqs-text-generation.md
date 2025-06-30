@@ -1,10 +1,10 @@
 ---
 title: FAQ for prompts and text generation capabilities
-description: Learn about the AI technology used in prompts, key considerations and details about how the AI is used, how it was tested and evaluated, and limitations.
-ms.date: 11/01/2024
+description: Learn about the AI technology used in prompts, key considerations, and details about how the AI is used, how it was tested and evaluated, and limitations.
+ms.date: 03/10/2025
 ms.custom: 
   - responsible-ai-faqs
-ms.topic: conceptual
+ms.topic: faq
 author: ashbhati
 contributors:
   - phil-cmd
@@ -67,7 +67,7 @@ Learn more in [What's new in Azure OpenAI Service?](/azure/ai-services/openai/wh
 
 ## Is my data used to train or improve the large language models available on AI Builder?
 
-AI Builder prompts run on Azure OpenAI Service hosted by Microsoft. Customer data is not used to train or improve any of the Azure OpenAI Service foundation models. Microsoft doesn't share your customer data with a third party unless you granted permission to do so. Neither customer prompts (input) with its grounding data nor the model responses (output) are used to train or improve Azure OpenAI Service foundation models.
+AI Builder prompts run on Azure OpenAI Service hosted by Microsoft. Customer data isn't used to train or improve any of the Azure OpenAI Service foundation models. Microsoft doesn't share your customer data with a third party unless you granted permission to do so. Neither customer prompts (input) with its grounding data nor the model responses (output) are used to train or improve Azure OpenAI Service foundation models.
 
 ## Is the content added to the 'Create text with GPT using a prompt' action publicly accessible?
 
@@ -86,6 +86,23 @@ Learn more in [Share your prompt](share-your-prompt.md).
 AI Builder isn't intended to be used for identifying individuals based on facial features or biometric data. When you submit images containing people in AI Builder, the system automatically applies a face blurring feature before analyzing the images to protect individual privacy. This blurring step helps address privacy concerns by preventing identification based on facial features. With blurring, no facial recognition or facial template matching is involved. Instead, any identification of well-known individuals relies on contextual cues, like uniforms or unique settings, not on their faces. This privacy measure shouldn't impact the quality of the results you receive. Face blurring might be occasionally referenced in the system's responses.
 
 Learn more in [Face blurring](/legal/cognitive-services/openai/transparency-note?tabs=image#face-blurring).
+
+## Potential harms when using images or documents in prompts
+
+AI Builder mitigates most of the risks involved when using images or documents in prompts, but some risks still require extra care from the prompt creator:
+
+- Images or documents can contain harmful text or visuals that might impact your downstream processes.
+- Images or documents can include special and possibly hidden instructions that might compromise or override the initial prompt.
+- Images or documents can contain instructions that could lead to the generation of content that is under intellectual property (IP).
+- Prompts can produce biased comments on images or documents.
+- Extracting information from low-quality images or document can lead to hallucination.
+
+## How is the o1 model different from GPT models?
+
+The o1 model stands out from GPT models primarily due to its advanced reasoning capabilities. It  generates detailed internal chains of thought before responding, leading to improved performance in mathematics, coding, and analytical tasks. However, this approach results in increased computational requirements and slower response times compared to GPT models. GPT-4o, for instance, excels in general language tasks and offers faster, cost-effective responses, making it suitable for applications where quick outputs are essential.
+
+> [!NOTE]
+> The o1 reasoning model in prompts is currently in a paid preview.
 
 ## What are custom prompts and AI functions?
 

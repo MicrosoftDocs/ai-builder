@@ -2,9 +2,9 @@
 title: Use entity extraction model in Power Automate - AI Builder
 description: Provides step by step instructions to use AI Builder entity extraction in Power Automate.
 author: phil-cmd
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
-ms.date: 11/20/2024
+ms.date: 06/23/2025
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---
@@ -15,7 +15,7 @@ ms.reviewer: angieandrews
 
 1. On the left pane, select **My flows**, and then select **New flow** > **Automated cloud flow**.
 
-1. Name your flow, select **When a new email arrives V3 (Office 365 Outlook)** under **Choose your flow's trigger**, and then select **Create**.
+1. Name your cloud flow, select **When a new email arrives V3 (Office 365 Outlook)** under **Choose your flow's trigger**, and then select **Create**.
 
 1.	Select **+ New step**.
 
@@ -36,7 +36,7 @@ ms.reviewer: angieandrews
    > [!div class="mx-imgBorder"]
    > ![Choose an a action'.](media/flow-eep-example.png "Send an email")
 
-Congratulations! You've created a flow that uses an entity extraction model. Select **Save** on the top right, and then select **Test** to try out your flow.
+Congratulations! You created a cloud flow that uses an entity extraction model. Select **Save** on the top right, and then select **Test** to try out your cloud flow.
 
 ## Parameters
 

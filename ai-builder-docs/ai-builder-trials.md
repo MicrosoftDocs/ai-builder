@@ -1,21 +1,21 @@
 ---
-title: AI Builder trial
+title: Try AI Builder for Power Apps and Power Automate
 description: Learn about the AI Builder trial.
 author: antoine2F
 contributors:
   - ashbhati
   - Antoine2F
   - v-aangie
-ms.topic: conceptual
+ms.topic: how-to
 ms.collection: 
 - get-started
 - bap-ai-copilot
-ms.date: 11/20/2024
+ms.date: 02/04/2025
 ms.author: antode
 ms.reviewer: angieandrews
 ---
 
-# AI Builder trial
+# Try AI Builder for Power Apps and Power Automate
 
 To get started using AI Builder, use premium features for a limited time with a [trial license](https://powerapps.microsoft.com/ai-builder/). Alternatively, use preview features without obtaining a license at all.
 
@@ -33,8 +33,7 @@ What you get an AI Builder trial license:
 - Create and use AI models in any environment (trial or production).
 - Store your AI model results in Dataverse.
 - Use AI model in your apps, flows, and more.
-
-Custom prompts, prebuilt prompts, and Create text with GPT aren't available with an AI Builder trial.
+- Use custom prompts, prebuilt prompts, and create text with GPT are now available with an AI Builder trial.
 
 ## Activate an AI Builder trial license
 

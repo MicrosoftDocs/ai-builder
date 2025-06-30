@@ -2,9 +2,9 @@
 title: Entity extraction prebuilt AI model - AI Builder
 description: Describes the prebuilt entity extraction AI Builder model.
 author: phil-cmd
-ms.topic: conceptual
+ms.topic: article
 ms.custom: 
-ms.date: 11/20/2024
+ms.date: 06/23/2025
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---
@@ -19,7 +19,7 @@ The prebuilt model is ready to use out of the box. For information about customi
 
 ### Explore entity extraction
 
-You can try out the entity extraction model before you import it into your flow.
+You can try out the entity extraction model before you import it into your cloud flow.
 
 1. Sign in to [Power Apps](https://make.powerapps.com) or [Power Automate](https://make.powerautomate.com).
 1. On the left pane, select **... More** > **AI hub**.

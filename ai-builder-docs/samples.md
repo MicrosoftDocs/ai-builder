@@ -1,10 +1,13 @@
 ---
-title: Start using AI Builder with sample data - AI Builder | Microsoft Docs
+title: Start using AI Builder with sample data - AI Builder
 description: Shows where you can obtain sample data to start using AI Builder.
-author: v-aangie
-ms.topic: conceptual
+author: phil-cmd
+contributors:
+  - phil-cmd
+  - v-aangie
+ms.topic: article
 ms.custom:
-ms.date: 01/27/2025
+ms.date: 02/05/2025
 ms.author: angieandrews
 ms.reviewer: angieandrews
 ---
@@ -13,7 +16,7 @@ ms.reviewer: angieandrews
 
 Don't have any data of your own to create a model? No problem! We've got you covered.
 
-Sample data is available for several AI Builder model types, together with instructions for working with the sample data. Select one of these options to get started:
+Sample data is available for several AI Builder model types, together with instructions for working with the sample data. To get started, select one of the following options:
 
 - [Use sample data to do prediction](prediction-sample-data.md)
 - [Use sample data to do category classification](text-classification-sample-data.md)
@@ -21,12 +24,12 @@ Sample data is available for several AI Builder model types, together with instr
 - [Use sample data to do object detection](object-detection-sample-data.md)
 - [Use sample data to do document processing](form-processing-sample-data.md)
 
-# Build AI-Powered canvas apps with sample data and prompts
+## Build AI-powered canvas apps with sample data and prompts
 
-The solution includes sample data, canvas apps, prompts, and tables for several AI Builder apps. Each option comes with detailed instructions to guide you through using these components together. Select one of these options to get started:
+The solution includes sample data, canvas apps, prompts, and tables for several AI Builder apps. Each option comes with detailed instructions to guide you through using these components together. To get started, select one of the following options.
 
-- [Create a canvas app to develop a receipt reader that utilizes prompts](link)
-- [Create a canvas app to develop a document identity reader that utilizes prompts](link)
+- [Create a canvas app to develop a receipt reader that utilizes prompts](use-prompt-to-read-a-receipt.md)
+- [Create a canvas app to develop a document identity reader that utilizes prompts](use-a-prompt-to-read-document-identity.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -2,9 +2,9 @@
 title: Use the text recognition prebuilt model in Power Automate - AI Builder
 description: Learn how to use the text recognition prebuilt model in Power Automate. 
 author: antrodfr
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
-ms.date: 12/04/2024
+ms.date: 06/23/2025
 ms.author: antrod
 ms.reviewer: angieandrews
 ---
@@ -15,20 +15,20 @@ The text recognition prebuilt model in AI Builder extracts printed and handwritt
 
 This document provides a guide on using the text recognition prebuilt model in Power Automate.
 
-## Initialize the Power Automate flow
+## Initialize the Power Automate cloud flow
 
-Initializing the Power Automate flow is the first step in setting up your automated process. This step allows you to define the trigger and the initial input parameters for your flow. When you initialize, you can ensure that your flow starts correctly and has the necessary information to process the text recognition tasks efficiently.
+Initializing the Power Automate cloud flow is the first step in setting up your automated process. This step allows you to define the trigger and the initial input parameters for your cloud flow. When you initialize, you can ensure that your cloud flow starts correctly and has the necessary information to process the text recognition tasks efficiently.
 
-To initialize your flow, follow these steps:
+To initialize your cloud flow, follow these steps:
 
 1. Sign in to [Power Automate](https://make.powerautomate.com/).
 1. On the navigation menu to the left, select **My flows**, and then select **New flow** > **Instant cloud flow**.
-1. Name your flow, select **Manually trigger a flow** under **Choose how to trigger this flow**, and then select **Create**.
+1. Name your cloud flow, select **Manually trigger a flow** under **Choose how to trigger this flow**, and then select **Create**.
 1. Expand **Manually trigger a flow**, and then select **+Add an input** > **File** as the input type.
 1. Select **+New step** > **AI Builder**, and then select **Recognize text in an image or a PDF document** in the list of actions.
 1. Select the **Image** input, and then select **File Content** from the **Dynamic content** list:
 
-    :::image type="content" source="media/trigger-text-recognition-2.png" alt-text="Screenshot of initializing a Power Automate flow in the 'Parameters' tab.":::
+    :::image type="content" source="media/trigger-text-recognition-2.png" alt-text="Screenshot of initializing a Power Automate cloud flow in the 'Parameters' tab.":::
 
 1. To process results, your can either use the full document text, a page text, or the document text line by line.
 
@@ -53,7 +53,7 @@ Getting the document text line by line can be useful if you need to isolate a sp
 
     :::image type="content" source="media/text-flow-example2-2.png" alt-text="Screenshot of getting text line by line.":::
 
-Congratulations! You created a flow that uses a text recognition model. You can continue to build on this flow until it suits your needs. Select **Save** on the top right, and then select **Test** to try out your flow.
+Congratulations! You created a cloud flow that uses a text recognition model. You can continue to build on this cloud flow until it suits your needs. Select **Save** on the top right, and then select **Test** to try out your cloud flow.
 
 ## Parameters
 

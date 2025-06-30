@@ -3,7 +3,7 @@ title: Overview of the prediction model - AI Builder
 description: Describes the prediction model in AI Builder, and gives some examples of how you might use it.
 author: phil-cmd
 ms.topic: overview
-ms.date: 11/20/2024
+ms.date: 06/23/2025
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---

@@ -6,25 +6,25 @@ contributors:
   - ashbhati
   - phil-cmd
   - v-aangie
-ms.topic: conceptual
+ms.topic: concept-article
 ms.collection: 
 - get-started
 - bap-ai-copilot
-ms.date: 11/01/2024
+ms.date: 06/13/2025
 ms.author: ashbhati
 ms.reviewer: angieandrews
 ---
 
 # Overview of prompts
 
-This article explains prompts and prompt engineering as key concepts to help you create powerful generative AI capabilities that can be leveraged across Power Platform.
+This article explains prompts and prompt engineering as key concepts to help you create powerful generative AI capabilities that can be used across Power Platform.
 
 A prompt is a natural language instruction that tells a large language model (LLM) to perform a task. The process is also known as *instruction tuning*. The model follows the prompt to determine the structure and content of the text it needs to generate. Prompt engineering is the process of creating and refining the prompt used by the model.
 
 AI Builder provides a prompt building user experience that allows makers to build, test, and save reusable prompts.
 
 > [!IMPORTANT]
-> - AI Builder prompts use GPT 4o Mini or GPT 4o models powered by [Azure OpenAI Service](/azure/ai-services/openai/whats-new). 
+> - AI Builder prompts use GPT models powered by [Azure OpenAI Service](/azure/ai-services/openai/whats-new). 
 > - This capability is [limited to some regions](availability-region.md#prompts).
 > - This capability might be subject to usage limits or capacity throttling.
 
@@ -32,17 +32,18 @@ AI Builder provides a prompt building user experience that allows makers to buil
 
 - You have a basic understanding of how to write prompts. To learn more, download the [AI Builder Prompting Guide](https://aka.ms/promptguide).
 - Your environment is in the list of [available regions](availability-region.md).
-- You have a Power Apps or Power Automate license.
+- You need a Power Apps, Power Automate or Copilot Studio license, and:
+    - Pre-purchased AI Builder credits if you use prompts in Power Apps or Power Automate.
+    - Pre-purchased messages, or pay-as-you-go active for messages if you use prompts in Copilot Studio.
 - A Microsoft Dataverse database is installed on the environment.
-- You have an AI Builder add-on.
 
 ## What a prompt is and how to use it
 
-Think of a prompt as a task or a goal you give to the large language model (LLM). With prompt builder, you can build, test, and save your custom prompts. You can also use input variables and Dataverse data to provide dynamic context data at runtime. You can share these prompts with others and use them in Power Automate, Power Apps, or Copilot Studio. For instance, you could make a prompt to pick out action items from your company emails and use it in a Power Automate flow to build an email processing automation.
+Think of a prompt as a task or a goal you give to the large language model (LLM). With prompt builder, you can build, test, and save your custom prompts. You can also use input variables and Dataverse data to provide dynamic context data at runtime. You can share these prompts with others and use them in Power Automate, Power Apps, or Copilot Studio. For instance, you could make a prompt to pick out action items from your company emails and use it in a Power Automate cloud flow to build an email processing automation.
 
 Prompt builder enables makers to devise custom prompts that cater to their specific business needs using natural language. These prompts can be employed for many tasks or business scenarios, such as summarizing content, categorizing data, extracting entities, translating languages, assessing sentiment, or formulating a response to a complaint.
 
-Prompts can be integrated into flows to build intelligent hands-off automation. Makers can also build advanced generative AI capabilities for their applications by describing them as natural language prompts. They can also use these prompts to extend a copilot action and topics, thereby streamlining daily business operations and boosting efficiency.
+Prompts can be integrated into cloud flows to build intelligent hands-off automation. Makers can also build advanced generative AI capabilities for their applications by describing them as natural language prompts. They can also use these prompts to extend a copilot action and topics, thereby streamlining daily business operations and boosting efficiency.
 
 ## Human oversight
 

@@ -1,27 +1,25 @@
 ---
-title: Overview of document processing model - AI Builder
-description: This topic provides information about how to build and use document processing models in AI Builder.
+title: Document processing model overview - AI Builder
+description: Learn how to build and use document processing models in AI Builder.
 author: JoeFernandezMS
 ms.topic: overview
-ms.date: 11/20/2024
-ms.author: jofernan
+ms.date: 06/24/2025
+ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
-# Overview of the document processing model
+# Document processing model overview
 
-Document processing lets you read and save information from standard documents such as invoices or tax documents. When you automate this process, you can save valuable time by reviewing, extracting, organizing, and saving the data automatically by using Power Automate and Power Apps.
+Document processing lets you read and save information from standard documents such as invoices or tax documents. When you automate this process, you can save valuable time by reviewing, extracting, organizing, and saving the data automatically by using [Power Automate](form-processing-model-in-flow.md) and [Power Apps](form-processor-component-in-powerapps.md).
 
-[Train](train-model.md) your model and define the information to be extracted from your forms. You only need five form documents to get started. Quickly get accurate results tailored to your specific content. With AI Builder, you don't need a lot of manual intervention or data science expertise.
+Before you can use the document processing model, you need to *train* and *publish* your model.
 
-After you train and [publish](publish-model.md) your model, you can use it in a flow in [Power Automate](form-processing-model-in-flow.md) or in a canvas app in [Power Apps](form-processor-component-in-powerapps.md).
+- [Train](train-model.md) your model and define the information to be extracted from your documents. You only need five documents to get started. Quickly get accurate results tailored to your specific content. With AI Builder, you don't need much manual intervention or data science expertise.
+- After you train and [publish](publish-model.md) your model, you can use it in a cloud flow in [Power Automate](form-processing-model-in-flow.md) or in a canvas app in [Power Apps](form-processor-component-in-powerapps.md).
 
- > [!NOTE]
- > Document processing name used to be form processing until June 2022.
+## Next step
 
-### Next step
-
-[Create a form-processing model](create-form-processing-model.md)
+[Create a document processing model](create-form-processing-model.md)
 
 ## Related information
 
@@ -30,3 +28,4 @@ After you train and [publish](publish-model.md) your model, you can use it in a 
 - [Training: Process custom documents with AI Builder (module)](/training/modules/get-started-with-form-processing/)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
+

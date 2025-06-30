@@ -2,7 +2,7 @@
 title: View generated results - AI Builder | Microsoft Docs
 description: Provides steps to view category classification predictions after you publish your model in AI Builder.
 author: ashishb 
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
 ms.date: 01/28/2025
 ms.author: angieandrews

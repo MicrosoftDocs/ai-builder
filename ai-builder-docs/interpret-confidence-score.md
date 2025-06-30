@@ -5,23 +5,19 @@ author: phil-cmd
 contributors:
   - phil-cmd
   - v-aangie
-ms.topic: conceptual
+ms.topic: how-to
 ms.collection: 
 - bap-ai-copilot
-ms.date: 12/12/2024
+ms.date: 06/23/2025
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
-# Interpret confidence score for tables and table cells (preview)
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
+# Interpret confidence score for tables and table cells
 
 A confidence score for tables and cells in general documents quantifies how certain the model is about its predictions of structured data. Higher scores indicate greater confidence, and lower scores suggest uncertainty. These scores help prioritize reliable outputs, guide human review, and improve accuracy in applications like data extraction, validation, and automated reporting.
 
-Confidence scores for tables and table cells are available in the preview version for general documents.
-
-[!INCLUDE [cc_preview_features_definition](./includes/cc-preview-features-definition.md)]
+Confidence scores for tables and table cells are available for general documents.
 
 ## Use a quick test to retrieve the confidence score value of a table and table cells
 
@@ -58,7 +54,7 @@ You can check the confidence score of a table and table cells by performing a pr
 
     :::image type="content" source="media/interpret-confidence-score/document-processing-predict-confidence-score_cloud-flow.png" alt-text="Screenshot of predict showing the confidence score of cells and table in a cloud flow.":::
 
-    To view the confidence score of the table and cells, test your flow.
+    To view the confidence score of the table and cells, test your cloud flow.
 
     :::image type="content" source="media/interpret-confidence-score/document-processing-predict-confidence-score-cloud-flow-result.png" alt-text="Predict showing the confidence score result of cells and table in a cloud flow.":::
 
