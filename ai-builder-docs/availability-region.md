@@ -14,8 +14,8 @@ contributors:
   - v-aangie
   - antode
 ms.topic: article
-ms.date: 06/19/2025
-ms.author: antode
+ms.date: 06/30/2025
+ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
@@ -54,6 +54,7 @@ The following tables show which AI Builder features are available in each region
 | Entity extraction        | GA      | GA        | GA      | GA      | GA      | GA      | GA      | -       | -       | -       | -         | -            | GA            | GA      | GA          | GA                   | GA             | GA            |
 | Identity document reader | GA      | GA        | GA      | GA      | GA      | GA      | GA      | GA      | GA      | GA      | GA        | GA           | GA            | GA      | GA          | GA                   | GA             | GA            |
 | Image description        | Preview | Preview   | Preview | Preview | Preview | Preview | Preview | Preview | Preview | Preview | Preview   | Preview      | Preview       | Preview | Preview     | Preview              | Preview        | Preview       |
+| Contract processing        | Preview | Preview   | Preview | Preview | Preview | Preview | Preview | Preview | Preview | Preview | Preview   | Preview      | Preview       | Preview | Preview     | Preview              | Preview        | Preview       |
 | Invoice processing       | GA      | GA        | GA      | GA      | GA      | GA      | GA      | GA      | GA      | GA      | GA        | GA           | GA            | GA      | GA          | GA                   | GA             | GA            |
 | Key phrase extraction    | GA      | GA        | GA      | GA      | GA      | GA      | GA      | GA      | GA      | GA      | GA        | GA           | GA            | GA      | GA          | GA                   | GA             | GA            |
 | Language detection       | GA      | GA        | GA      | GA      | GA      | GA      | GA      | GA      | GA      | GA      | GA        | GA           | GA            | GA      | GA          | GA                   | GA             | GA            |
