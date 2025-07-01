@@ -27,7 +27,7 @@ You can enhance your prompts by allowing users or systems to input text, images,
 > - AI Builder prompts run on GPT models powered by [Azure OpenAI Service](/azure/ai-services/openai/whats-new).
 > - This capability is [limited to some regions](availability-region.md#prompts).
 > - This capability might be subject to usage limits or capacity throttling.
-> - Inputs cannot contain instructions; any such instructions will be ignored for security reasons.
+> - Inputs cannot contain instructions; any such instructions are forbidden for security reasons.
 
 ## Add an input to a prompt
 
