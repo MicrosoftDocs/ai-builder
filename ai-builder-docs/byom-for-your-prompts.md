@@ -10,6 +10,7 @@ ms.collection:
 - overview
 - bap-ai-copilot
 ms.date: 05/19/2025
+ms.update-cycle: 180-days
 ms.author: mbajwa
 ms.reviewer: angieandrews
 ---

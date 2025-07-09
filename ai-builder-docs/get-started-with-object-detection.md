@@ -4,6 +4,7 @@ description: This topic lays out the first steps you'll perform to build an obje
 author: amina196
 ms.topic: how-to
 ms.date: 01/27/2025
+ms.update-cycle: 180-days
 ms.collection: 
 - get-started
 - bap-ai-copilot
