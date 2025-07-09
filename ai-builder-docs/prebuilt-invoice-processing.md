@@ -46,79 +46,101 @@ To get the best results, provide one clear photo or scan per invoice.
 
 If an invoice is detected, the invoice processing model outputs the following information:
 
-|     Property                                        |     Definition                                                                                                      |
-|-----------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-|     Amount due   (text)                             |     Amount due as written on the invoice.                                                                            |
-|     Amount due   (number)                           |     Amount due in standardized number format. Example: 1234.98.                                                      |
-|     Confidence of   amount due                      |     How confident the model is in its prediction. Score between 0 (low confidence) and 1 (high confidence).       |
-|     Billing address                               |     Billing   address.                                                                                               |
-|     Confidence of   billing address                 |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).       |
-|     Billing   address recipient                     |     Billing   address recipient.                                                                                     |
-|     Confidence of   billing address recipient       |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).       |
-|     Customer   address                              |     Customer address.                                                                                                |
-|     Confidence of   customer address                |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).       |
-|     Customer   address recipient                    |     Customer address recipient.                                                                                      |
-|     Confidence of   customer address recipient      |     How confident the model is in its prediction. Score between 0 (low confidence) and 1 (high   confidence).       |
-|     Customer ID                                     |     Customer ID.                                                                                                     |
-|     Confidence of   customer ID                     |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).       |
-|     Customer name                                   |     Customer name.                                                                                                   |
-|     Confidence of   customer name                   |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).       |
-|     Customer tax ID                                 |     The taxpayer number associated with the customer.                                                                |
-|     Confidence of customer tax ID                   |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).       |
-|     Due date   (text)                               |     Due date as written on the invoice.                                                                              |
-|     Due date   (date)                               |     Due date in standardized   date format. Example: 2019-05-31.                                           |
-|     Confidence of   due date                        |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).       |
-|     Invoice date   (text)                           |     Invoice date   as written on the invoice.                                                                        |
-|     Invoice date   (date)                           |     Invoice date   in standardized date format. Example: 2019-05-31.                                       |
-|     Confidence of   invoice date                    |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).       |
-|     Invoice ID                                      |     Invoice ID.                                                                                                      |
-|     Confidence of   invoice ID                      |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).       |
-|     Invoice total   (text)                          |     Invoice total   as written on the invoice.                                                                       |
-|     Invoice total   (number)                        |     Invoice total   in standardized date format. Example: 2019-05-31.                                      |
-|     Confidence of   invoice total                   |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).       |
-|     Line Items                                      |     The line items extracted from the invoice. Confidence scores are available for each column.  <ul><li>**Line item amount**: Amount for a line item. Returned in text and number format.</li><li>**Line item description**: Description for a line item. Returned in text format.</li><li>**Line item quantity**: Quantity for a line item. Returned in text and number format.</li><li>**Line item unit price**: Unit price for a line item. Returned in text and number format.</li><li>**Line item product code**: Product code for a line item. Returned in text format.</li><li>**Line item unit**: Unit for a line item (for example, kg and lb). Returned in text format.</li><li>**Line item date**: Date for a line item. Returned in text and date format.</li><li>**Line item tax**: Tax for a line item. Returned in text and number format.</li><li>**Line item all columns**: Returns all the columns from the line item as a line of text.</li></ul>                                               |
-|     Payment terms                                   |     The terms of payment for the invoice.                                                                          |
-|     Confidence of   payment terms                   |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).       |
-|     Purchase   order                                |     Purchase   order.                                                                                                |
-|     Confidence of   purchase order                  |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).       |
-|     Previous unpaid balance (text)                  |     Previous unpaid balance as written on the invoice.                                                               |
-|     Previous unpaid balance (number)                |     Previous unpaid balance in standardized number format. Example: 1234.98.                                         |
-|     Confidence of   previous unpaid balance         |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).       |
-|     Remittance   address                            |     Remittance   address.                                                                                            |
-|     Confidence of   remittance address              |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).       |
-|     Remittance   address recipient                  |     Remittance   address recipient.                                                                                  |
-|     Confidence of   remittance address recipient    |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).       |
-|     Service   address                               |     Service   address.                                                                                               |
-|     Confidence of   service address                 |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).       |
-|     Service   address recipient                     |     Service   address recipient.                                                                                     |
-|     Confidence of   service address recipient       |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).       |
-|     Service start date (text)                       |     Service start date as written on the invoice.                                                                   |
-|     Service start date (date)                       |     Service start date in standardized   date format. Example: 2019-05-31.                                           |
-|     Confidence of   service start date              |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).       |
-|     Service end date (text)                         |     Service end date as written on the invoice.                                                                     |
-|     Service end date (date)                         |     Service end date in standardized   date format. Example: 2019-05-31.                                             |
-|     Confidence of   service end date                |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).       |
-|     Shipping   address                              |     Shipping   address.                                                                                              |
-|     Confidence of   shipping address                |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).       |
-|     Shipping   address recipient                    |     Shipping   address recipient.                                                                                    |
-|     Confidence of   shipping address recipient      |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).       |
-|     Subtotal   (text)                               |     Subtotal as written on the invoice.                                                                              |
-|     Subtotal   (number)                             |     Subtotal in standardized number format. Example: 1234.98.                                                        |
-|     Confidence of   subtotal                        |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).       |
-|     Total tax   (text)                              |     Total tax as written on the invoice.                                                                             |
-|     Total tax   (number)                            |     Total tax in standardized number format. Example: 1234.98.                                                       |
-|     Confidence of   total tax                       |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).       |
-|     Vendor   address                                |     Vendor   address.                                                                                                |
-|     Confidence of   vendor address                  |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).       |
-|     Vendor   address recipient                      |     Vendor   address recipient.                                                                                      |
-|     Confidence of   vendor address recipient        |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).       |
-|     Vendor name                                     |     Vendor name.                                                                                                     |
-|     Confidence of   vendor name                     |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).       |
-|     Vendor tax ID                                   |     The taxpayer number associated with the vendor.                                                                  |
-|     Confidence of   vendor tax ID                   |     How confident the model is in its prediction. Score between 0 (low confidence)   and 1 (high confidence).       |
-|     Detected text                                   |     Line of recognized text from running OCR on an invoice. Returned as a part of a list of text.                   |
-|     Detected key                                    |     Key-value pairs are all the identified labels or keys and their associated responses or values. You can use these to extract additional values that aren't part of the predefined list of fields.                       |
-|     Detected value                                  |     Key-value pairs are all the identified labels or keys and their associated responses or values. You can use these to extract additional values that aren't part of the predefined list of fields.                       |
+| Field | Description |
+|:------|:------------|
+|`CustomerName`|Customer being invoiced|
+|`CustomerId`|Reference ID for the customer|
+|`PurchaseOrder`|A purchase order reference number|
+|`InvoiceId`|ID for this specific invoice (often 'Invoice Number')|
+|`InvoiceDate`|Date the invoice was issued|
+|`DueDate`|Date payment for this invoice is due|
+|`VendorName`|Vendor who has created this invoice|
+|`VendorAddress`|Mailing address for the Vendor|
+|`VendorAddressRecipient`|Name associated with the VendorAddress|
+|`CustomerAddress`|Mailing address for the Customer|
+|`CustomerAddressRecipient`|Name associated with the CustomerAddress|
+|`BillingAddress`|Explicit billing address for the customer|
+|`BillingAddressRecipient`|Name associated with the BillingAddress|
+|`ShippingAddress`|Explicit shipping address for the customer|
+|`ShippingAddressRecipient`|Name associated with the ShippingAddress|
+|`SubTotal`|Subtotal field identified on this invoice|
+|`TotalDiscount`|Total discount field identified on this invoice|
+|`TotalTax`|Total tax field identified on this invoice|
+|`InvoiceTotal`|Total new charges associated with this invoice|
+|`AmountDue`|Total Amount Due to the vendor|
+|`PreviousUnpaidBalance`|Explicit previously unpaid balance|
+|`RemittanceAddress`|Explicit remittance or payment address for the customer|
+|`RemittanceAddressRecipient`|Name associated with the RemittanceAddress|
+|`ServiceAddress`|Explicit service address or property address for the customer|
+|`ServiceAddressRecipient`|Name associated with the ServiceAddress|
+|`ServiceStartDate`|First date for the service period (for example, a utility bill service period)|
+|`ServiceEndDate`|End date for the service period (for example, a utility bill service period)|
+|`VendorTaxId`|The government ID number associated with the vendor|
+|`CustomerTaxId`|The government ID number associated with the customer|
+|`PaymentTerm`|The terms under which the payment is meant to be paid|
+|`KVKNumber`|A unique identifier for businesses registered in the Netherlands|
+|**`Jurisdictions`**|List of jurisdictions<ul><li>**Clause**: Full description of the jurisdiction</li><li>**Region**: Court location</li></ul>|
+|**`PaymentDetails`**|List of payment details<ul><li>**IBAN**: International bank account number</li><li>**BankAccountNumber**: Bank account number, a unique identifier for a bank account</li><li>**BPayBillerCode**: Biller code for BPay, an alphanumeric identifier unique to a biller or their product/service</li><li>**BPayReference**: Reference number for BPay, a unique identifier for a specific customer's bill transaction</li><li>**SWIFT**: ISO9362, an international standard for Business Identifier Codes (BIC)</li></ul>|
+|**`TaxDetails`**|List of tax details<ul><li>**Amount**: The amount of the tax detail</li><li>**Rate**: The rate of the tax detail</li></ul>|
+|**`PaidInFourInstallements`**|List of tax details<ul><li>**Amount**: The installement amount due</li><li>**DueDate**: The installement due date</li></ul>|
+|**`Items`**|List of tax details<ul><li>**Amount**: The amount of the line item</li><li>**Date**: Date corresponding to each line item. Often it is a date the line item was shipped</li><li>**Description**: The text description for the invoice line item</li><li>**Quantity**: The quantity for this invoice line item</li><li>**ProductCode**: Product code, product number, or SKU associated with the specific line item</li><li>**Tax**: Tax associated with each line item. Possible values include tax amount, tax %, and tax Y/N</li><li>**TaxRate**: Tax rate associated with each line item</li><li>**Unit**: The unit of the line item, e.g, kg, lb etc.</li><li>**UnitPrice**: The net or gross price (depending on the gross invoice setting of the invoice) of one unit of this item</li></ul>|
+
+
+
+## Confidence score
+
+|Field|Confidence score|
+|----------|:-----------:|
+|`CustomerName`|✔️|
+|`CustomerId`|✔️|
+|`PurchaseOrder`|✔️|
+|`InvoiceId`|✔️|
+|`InvoiceDate`|✔️|
+|`DueDate`|✔️|
+|`VendorName`|✔️|
+|`VendorAddress`|✔️|
+|`VendorAddressRecipient`|✔️||
+|`CustomerAddress`|✔️|
+|`CustomerAddressRecipient`|✔️|
+|`BillingAddress`|✔️|
+|`BillingAddressRecipient`|✔️|
+|`ShippingAddress`|✔️|
+|`ShippingAddressRecipient`|✔️|
+|`SubTotal`|✔️|
+|`TotalDiscount`|✔️|
+|`TotalTax`|✔️|
+|`InvoiceTotal`|✔️|
+|`AmountDue`|✔️|
+|`PreviousUnpaidBalance`|✔️|
+|`RemittanceAddress`|✔️|
+|`RemittanceAddressRecipient`|✔️|
+|`ServiceAddress`|✔️|
+|`ServiceAddressRecipient`|✔️|
+|`ServiceStartDate`|✔️|
+|`ServiceEndDate`|✔️|
+|`VendorTaxId`|✔️|
+|`CustomerTaxId`|✔️|
+|`PaymentTerm`|✔️|
+|`KVKNumber`|✔️|
+|`PaymentDetails.*.IBAN`|✔️|
+|`PaymentDetails.*.SWIFT`|✔️|
+|`PaymentDetails.*.BankAccountNumber`|✔️|
+|`PaymentDetails.*.BPayBillerCode`|✔️|
+|`PaymentDetails.*.BPayReference`|✔️|
+|`TaxDetails.*.Amount`|✔️|
+|`TaxDetails.*.Rate`|✔️|
+|`PaidInFourInstallements.*.Amount`|✔️|
+|`PaidInFourInstallements.*.DueDate`|✔️|
+|`Items.*.Amount`|✔️|
+|`Items.*.Date`|✔️|
+|`Items.*.Description`|✔️|
+|`Items.*.Quantity`|✔️|
+|`Items.*.ProductCode`|✔️|
+|`Items.*.Tax`|✔️|
+|`Items.*.TaxRate`|✔️|
+|`Items.*.Unit`|✔️|
+|`Items.*.UnitPrice`|✔️|
+
 
 ## Key-value pairs
 
