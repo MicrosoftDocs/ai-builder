@@ -10,6 +10,7 @@ ms.collection:
 - get-started
 - bap-ai-copilot
 ms.date: 05/20/2025
+ms.update-cycle: 180-days
 ms.custom: build-2025
 ms.author: antrod
 ms.reviewer: angieandrews
