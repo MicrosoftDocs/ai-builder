@@ -11,6 +11,7 @@ ms.topic: concept-article
 ms.collection: 
     - bap-ai-copilot
 ms.date: 06/03/2025
+ms.update-cycle: 180-days
 ms.author: cdbellar
 ms.reviewer: angieandrews
 ---

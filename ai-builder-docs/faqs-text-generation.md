@@ -2,6 +2,7 @@
 title: FAQ for prompts and text generation capabilities
 description: Learn about the AI technology used in prompts, key considerations, and details about how the AI is used, how it was tested and evaluated, and limitations.
 ms.date: 07/01/2025
+ms.update-cycle: 180-days
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: faq
