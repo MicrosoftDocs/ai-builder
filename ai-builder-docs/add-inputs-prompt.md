@@ -14,6 +14,7 @@ ms.collection:
 - get-started
 - bap-ai-copilot
 ms.date: 06/03/2025
+ms.update-cycle: 180-days
 ms.custom: ignite-2024
 ms.author: antrod
 ms.reviewer: angieandrews
