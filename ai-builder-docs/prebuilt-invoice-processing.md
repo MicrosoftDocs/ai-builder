@@ -11,7 +11,7 @@ ms.topic: article
 ms.collection: 
 - get-started
 - bap-ai-copilot
-ms.date: 06/13/2025
+ms.date: 07/14/2025
 ms.update-cycle: 180-days
 ms.author: plarrue
 ms.reviewer: angieandrews
@@ -25,11 +25,11 @@ The **Invoices** model allows you to augment the default behavior by building a 
 
 ## Use in Power Apps
 
-To learn how to use the invoice processing prebuilt model in Power Apps, go to [Use the invoice processing prebuilt model in Power Apps](prebuilt-invoice-processing-powerapps.md).
+Learn how to use the invoice processing prebuilt model in Power Apps in [Use the invoice processing prebuilt model in Power Apps](prebuilt-invoice-processing-powerapps.md).
 
 ## Use in Power Automate
 
-To learn how to use the invoice processing prebuilt model in Power Automate, go to [Use the invoice processing prebuilt model in Power Automate](flow-invoice-processing.md).  
+Learn how to use the invoice processing prebuilt model in Power Automate in [Use the invoice processing prebuilt model in Power Automate](flow-invoice-processing.md).  
 
 ## Supported languages and files
 
@@ -55,7 +55,7 @@ If an invoice is detected, the invoice processing model outputs the following in
 |`InvoiceId`|ID for this specific invoice (often 'Invoice Number')|
 |`InvoiceDate`|Date the invoice was issued|
 |`DueDate`|Date payment for this invoice is due|
-|`VendorName`|Vendor who has created this invoice|
+|`VendorName`|Vendor who created this invoice|
 |`VendorAddress`|Mailing address for the Vendor|
 |`VendorAddressRecipient`|Name associated with the VendorAddress|
 |`CustomerAddress`|Mailing address for the Customer|
@@ -83,10 +83,8 @@ If an invoice is detected, the invoice processing model outputs the following in
 |**`Jurisdictions`**|List of jurisdictions<ul><li>**Clause**: Full description of the jurisdiction</li><li>**Region**: Court location</li></ul>|
 |**`PaymentDetails`**|List of payment details<ul><li>**IBAN**: International bank account number</li><li>**BankAccountNumber**: Bank account number, a unique identifier for a bank account</li><li>**BPayBillerCode**: Biller code for BPay, an alphanumeric identifier unique to a biller or their product/service</li><li>**BPayReference**: Reference number for BPay, a unique identifier for a specific customer's bill transaction</li><li>**SWIFT**: ISO9362, an international standard for Business Identifier Codes (BIC)</li></ul>|
 |**`TaxDetails`**|List of tax details<ul><li>**Amount**: The amount of the tax detail</li><li>**Rate**: The rate of the tax detail</li></ul>|
-|**`PaidInFourInstallements`**|List of tax details<ul><li>**Amount**: The installement amount due</li><li>**DueDate**: The installement due date</li></ul>|
-|**`Items`**|List of tax details<ul><li>**Amount**: The amount of the line item</li><li>**Date**: Date corresponding to each line item. Often it is a date the line item was shipped</li><li>**Description**: The text description for the invoice line item</li><li>**Quantity**: The quantity for this invoice line item</li><li>**ProductCode**: Product code, product number, or SKU associated with the specific line item</li><li>**Tax**: Tax associated with each line item. Possible values include tax amount, tax %, and tax Y/N</li><li>**TaxRate**: Tax rate associated with each line item</li><li>**Unit**: The unit of the line item, e.g, kg, lb etc.</li><li>**UnitPrice**: The net or gross price (depending on the gross invoice setting of the invoice) of one unit of this item</li></ul>|
-
-
+|**`PaidInFourInstallements`**|List of tax details<ul><li>**Amount**: The installment amount due</li><li>**DueDate**: The installment due date</li></ul>|
+|**`Items`**|List of tax details<ul><li>**Amount**: The amount of the line item</li><li>**Date**: Date corresponding to each line item. Often it's a date the line item was shipped</li><li>**Description**: The text description for the invoice line item</li><li>**Quantity**: The quantity for this invoice line item</li><li>**ProductCode**: Product code, product number, or SKU associated with the specific line item</li><li>**Tax**: Tax associated with each line item. Possible values include tax amount, tax %, and tax Y/N</li><li>**TaxRate**: Tax rate associated with each line item</li><li>**Unit**: The unit of the line item, for example, kg, lb, and others.</li><li>**UnitPrice**: The net or gross price (depending on the gross invoice setting of the invoice) of one unit of this item</li></ul>|
 
 ## Confidence score
 
@@ -142,7 +140,6 @@ If an invoice is detected, the invoice processing model outputs the following in
 |`Items.*.Unit`|✔️|
 |`Items.*.UnitPrice`|✔️|
 
-
 ## Key-value pairs
 
 Key-value pairs are all the identified labels or keys and their associated responses or values. You can use these to extract additional values that aren't part of the predefined list of fields.
@@ -153,7 +150,7 @@ To visualize all key-value pairs detected by the invoice processing model, you c
 
 :::image type="content" source="media/invoice-processing-kvp-run.png" alt-text="Screenshot of all key-value pairs on an invoice - results.":::
 
-To extract a specific key for which you know its value, you can use the **Filter array** action as shown on the screenshot below. In the example of the screenshot, we want to extract the value for the key **Tel .:**
+To extract a specific key for which you know its value, you can use the **Filter array** action as shown on the following screenshot. In the example of the screenshot, we want to extract the value for the key **Tel .:**
 
 :::image type="content" source="media/invoice-processing-kvp-extract.png" alt-text="Screenshot of how to retrieve a value given a key.":::
 
@@ -194,8 +191,8 @@ In this example, we trained a custom document processing model to extract the to
 The cloud flow is triggered when a new invoice is added to a SharePoint folder. It then calls the invoice processing prebuilt AI model to extract its data. Next, we check if the confidence score for the *Invoice total value* property is less than 0.65. If it’s the case, we then call a custom document processing model that we trained with invoices where we usually get a low confidence score for the total field. Finally, we save the extracted data from the invoice into an Excel file.
 
 :::image type="content" source="media/invoice-and-form-process-flow2.png" alt-text="Screenshot of an invoice and document processing cloud flow for low scores.":::
- 
-### Use the invoice processing prebuilt model to handle invoices that a custom document processing model hasn’t been trained to handle
+
+### Use the invoice processing prebuilt model to handle invoices that a custom document processing model isn't trained to handle
 
 One way to use the invoice processing prebuilt model is to use it as a fallback model to handle invoices that you didn't train in your custom document processing model. For example, let's say you built a document processing model, and trained it to extract data from your top 20 invoice providers. You could then use the invoice processing prebuilt model to process all new invoices or lower volume invoices. Here’s an example of how you could do it:
 
