@@ -8,6 +8,7 @@ contributors:
   - v-aangie
 ms.topic: how-to
 ms.date: 06/23/2025
+ms.update-cycle: 180-days
 ms.author: antrod
 ms.reviewer: angieandrews
 ms.collection: 
