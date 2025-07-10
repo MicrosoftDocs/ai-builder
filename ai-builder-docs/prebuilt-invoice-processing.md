@@ -88,7 +88,7 @@ If an invoice is detected, the invoice processing model outputs the following in
 
 ## Confidence score
 
-|Field|Confidence score|
+| Field | Confidence score |
 |----------|:-----------:|
 |`CustomerName`|✔️|
 |`CustomerId`|✔️|
