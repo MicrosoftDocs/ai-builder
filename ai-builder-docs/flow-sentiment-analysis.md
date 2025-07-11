@@ -4,20 +4,20 @@ description: Learn how to use the sentiment analysis prebuilt model in your flow
 author: joefernandezms
 ms.topic: how-to
 ms.custom: 
-ms.date: 11/20/2024
+ms.date: 06/23/2025
 ms.author: jofernan
 ms.reviewer: angieandrews
 ---
 
 # Use the sentiment analysis prebuilt model in Power Automate
 
-In this article, we will create a flow that uses the AI Builder sentiment analysis prebuilt model.
+In this article, you create a cloud flow that uses the AI Builder sentiment analysis prebuilt model.
 
 1. Sign in to [Power Automate](https://flow.microsoft.com/).
 
 1. Select **My flows** in the left pane, and then select **New flow** > **Instant cloud flow**.
 
-1. Name your flow, select **Manually trigger a flow** under **Choose how to trigger this flow**, and then select **Create**.
+1. Name your cloud flow, select **Manually trigger a flow** under **Choose how to trigger this flow**, and then select **Create**.
 
 1. Expand **Manually trigger a flow**, and then select **+Add an input** > **Text**.
 
@@ -37,7 +37,7 @@ In this article, we will create a flow that uses the AI Builder sentiment analys
     > [!div class="mx-imgBorder"]
     > ![Add row in Excel.](media/flow-sentiment-analysis-22.png "Add row in Excel")
 
-Congratulations! You've created a flow that uses the sentiment analysis model. Select **Save** on the top right, and then select **Test** to try out your flow.
+Congratulations! You created a cloud flow that uses the sentiment analysis model. Select **Save** on the top right, and then select **Test** to try out your cloud flow.
 
 ## Parameters
 

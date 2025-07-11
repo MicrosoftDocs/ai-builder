@@ -10,7 +10,8 @@ ms.topic: concept-article
 ms.collection: 
 - get-started
 - bap-ai-copilot
-ms.date: 11/20/2024
+ms.date: 06/13/2025
+ms.update-cycle: 180-days
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---
@@ -27,11 +28,11 @@ Access to AI Builder features within an environment requires AI Builder credits.
 
 Once an environment has credits from either allocated or unallocated sources, it can use the AI Builder features.
 
-**Credits consumption**: Consumption is reset the first of each month. Credits are used when certain AI Builder actions take place, particularly when an AI Builder model is executed in a Power Automate flow or a Power Apps application. Additionally, credit consumption may occur during the training of an AI Builder model. The number of consumed credits depends on the AI Builder model.
+**Credits consumption**: Consumption is reset the first of each month. Credits are used when certain AI Builder actions take place, particularly when an AI Builder model is executed in a Power Automate cloud flow or a Power Apps application. Additionally, credit consumption might occur during the training of an AI Builder model. The number of consumed credits depends on the AI Builder model.
 
-**Credit monitoring**: Credit consumption can be monitored so that the admin and maker know how many credits have been consumed since the beginning of the month.
+**Credit monitoring**: Credit consumption can be monitored so that the admin and maker know how many credits were consumed since the beginning of the month.
 
-**Credit overage**: Within the month, if you use more credits than you have, you will have some features blocked gradually because of overage. When an environment is in *simple overage*, you can run models and use more credits, but you can’t edit or create models. When an environment is in *important overage*, model runs are blocked. If this happens, you need to buy more credits or reassign them.
+**Credit overage**: Within the month, if you use more credits than you have, some features are blocked gradually because of overage. When an environment is in *simple overage*, you can run models and use more credits, but you can’t edit or create models. When an environment is in *important overage*, model runs are blocked. If this happens, you need to buy more credits or reassign them.
 
 **Trials**: You can try AI Builder for free in an organization’s tenants that don’t have AI Builder credits. In this case, AI Builder capacity is linked to the user and doesn't need to be allocated.
 

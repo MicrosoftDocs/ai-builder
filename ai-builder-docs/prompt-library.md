@@ -5,7 +5,8 @@ author: phil-cmd
 contributors:
   - phil-cmd
   - v-aangie
-ms.date: 06/06/2025
+ms.date: 06/23/2025
+ms.update-cycle: 180-days
 ms.topic: get-started
 ms.author: plarrue
 ms.reviewer: angieandrews

@@ -11,7 +11,8 @@ ms.topic: article
 ms.collection: 
 - get-started
 - bap-ai-copilot
-ms.date: 11/20/2024
+ms.date: 06/13/2025
+ms.update-cycle: 180-days
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---
@@ -124,7 +125,7 @@ If an invoice is detected, the invoice processing model outputs the following in
 
 Key-value pairs are all the identified labels or keys and their associated responses or values. You can use these to extract additional values that aren't part of the predefined list of fields.
 
-To visualize all key-value pairs detected by the invoice processing model, you can add a **Create HTML table** action in your flow as shown in the screenshot and run the flow.
+To visualize all key-value pairs detected by the invoice processing model, you can add a **Create HTML table** action in your cloud flow as shown in the screenshot and run the cloud flow.
 
 :::image type="content" source="media/invoice-processing-kvp-definition.png" alt-text="Screenshot of all key-value pairs on an invoice.":::
 
@@ -152,33 +153,33 @@ The invoice processing prebuilt AI model is designed to extract common fields fo
 
 - **Use document processing**: With AI Builder, you can also build your own custom AI model to extract specific fields and tables you need for the documents you work with. Just [create a document processing model](form-processing-model-overview.md) and train it to extract all the information from an invoice that doesn’t work well with the invoice extraction model.
 
-Once you train your custom document processing model, you can combine it with the invoice processing prebuilt model in a Power Automate flow.
+Once you train your custom document processing model, you can combine it with the invoice processing prebuilt model in a Power Automate cloud flow.
 
 Here are some examples:
 
 ### Use a custom document processing model to extract additional fields that aren't returned by the invoice processing prebuilt model
 
-In this example, we've trained a custom document processing model to extract a *loyalty program number*, only present in invoices from providers Adatum and Contoso.
+In this example, we trained a custom document processing model to extract a *loyalty program number*, only present in invoices from providers Adatum and Contoso.
 
-The flow is triggered when a new invoice is added to a SharePoint folder. It then calls the invoice processing prebuilt AI model to extract its data. Next, we check if the vendor for the invoice that has been processed is either from Adatum or Contoso. If it’s the case, we then call a custom document processing model that we’ve trained to get that loyalty number. Finally, we save the extracted data from the invoice in an Excel file.
+The cloud flow is triggered when a new invoice is added to a SharePoint folder. It then calls the invoice processing prebuilt AI model to extract its data. Next, we check if the vendor for the invoice that was processed is either from Adatum or Contoso. If it's the case, we then call a custom document processing model that we trained to get that loyalty number. Finally, we save the extracted data from the invoice in an Excel file.
 
-:::image type="content" source="media/invoice-and-form-process-flow.png" alt-text="Screenshot of an invoice and document processing flow.":::
+:::image type="content" source="media/invoice-and-form-process-flow.png" alt-text="Screenshot of an invoice and document processing cloud flow.":::
 
 ### Use a custom document processing model if the confidence score for a field returned by the invoice processing prebuilt model is low
 
-In this example, we've trained a custom document processing model to extract the total amount from invoices where we usually get a low confidence score when using the invoice processing prebuilt model.
+In this example, we trained a custom document processing model to extract the total amount from invoices where we usually get a low confidence score when using the invoice processing prebuilt model.
 
-The flow is triggered when a new invoice is added to a SharePoint folder. It then calls the invoice processing prebuilt AI model to extract its data. Next, we check if the confidence score for the *Invoice total value* property is less than 0.65. If it’s the case, we then call a custom document processing model that we’ve trained with invoices where we usually get a low confidence score for the total field. Finally, we save the extracted data from the invoice into an Excel file.
+The cloud flow is triggered when a new invoice is added to a SharePoint folder. It then calls the invoice processing prebuilt AI model to extract its data. Next, we check if the confidence score for the *Invoice total value* property is less than 0.65. If it’s the case, we then call a custom document processing model that we trained with invoices where we usually get a low confidence score for the total field. Finally, we save the extracted data from the invoice into an Excel file.
 
-:::image type="content" source="media/invoice-and-form-process-flow2.png" alt-text="Screenshot of an invoice and document processing flow for low scores.":::
+:::image type="content" source="media/invoice-and-form-process-flow2.png" alt-text="Screenshot of an invoice and document processing cloud flow for low scores.":::
  
 ### Use the invoice processing prebuilt model to handle invoices that a custom document processing model hasn’t been trained to handle
 
-One way to use the invoice processing prebuilt model is to use it as a fallback model to handle invoices that you haven’t trained in your custom document processing model. For example, let's say you built a document processing model, and trained it to extract data from your top 20 invoice providers. You could then use the invoice processing prebuilt model to process all new invoices or lower volume invoices. Here’s an example of how you could do it:
+One way to use the invoice processing prebuilt model is to use it as a fallback model to handle invoices that you didn't train in your custom document processing model. For example, let's say you built a document processing model, and trained it to extract data from your top 20 invoice providers. You could then use the invoice processing prebuilt model to process all new invoices or lower volume invoices. Here’s an example of how you could do it:
 
-This flow is triggered when a new invoice is added to a SharePoint folder. It then calls a custom document processing model to extract its data. Next, we check if the confidence score for the detected collection is less than 0.65. If it’s the case, it probably means the provided invoice isn't a good match for the custom model. We then call the prebuilt invoice processing model. Finally, we save the extracted data from the invoice in an Excel file.
+This cloud flow is triggered when a new invoice is added to a SharePoint folder. It then calls a custom document processing model to extract its data. Next, we check if the confidence score for the detected collection is less than 0.65. If it’s the case, it probably means the provided invoice isn't a good match for the custom model. We then call the prebuilt invoice processing model. Finally, we save the extracted data from the invoice in an Excel file.
 
-:::image type="content" source="media/invoice-and-form-process-flow3.png" alt-text="Screenshot of an invoice and document processing flow for new invoices.":::
+:::image type="content" source="media/invoice-and-form-process-flow3.png" alt-text="Screenshot of an invoice and document processing cloud flow for new invoices.":::
 
 ## Related information
 

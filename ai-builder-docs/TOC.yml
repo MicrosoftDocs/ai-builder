@@ -74,32 +74,40 @@
     items:
     - name: Overview
       href: prebuilt-overview.md
-    - name: Invoice processing
-      href: prebuilt-invoice-processing.md
-    - name: Text recognition
-      href: prebuilt-text-recognition.md       
-    - name: Sentiment analysis
-      href: prebuilt-sentiment-analysis.md
-    - name: Receipt processing
-      href: prebuilt-receipt-processing.md
-    - name: Entity extraction 
-      href: prebuilt-entity-extraction.md
-    - name: ID reader
-      href: prebuilt-id-reader.md
-    - name: Key phrase extraction
-      href: prebuilt-key-phrase.md
-    - name: Business card reader
-      href: prebuilt-business-card.md
-    - name: Category classification
-      href: prebuilt-category-classification.md
-    - name: Language detection
-      href: prebuilt-language-detection.md  
-    - name: Text translation
-      href: prebuilt-text-translation.md
-    - name: Image description (preview)
-      href: prebuilt-image-description.md
-    - name: Text generation model (preview) (deprecated)
-      href: prebuilt-azure-openai.md  
+    - name: Documents
+      items:
+      - name: Invoice processing
+        href: prebuilt-invoice-processing.md
+      - name: Text recognition
+        href: prebuilt-text-recognition.md 
+      - name: Receipt processing
+        href: prebuilt-receipt-processing.md
+      - name: Identity document reader
+        href: prebuilt-id-reader.md
+      - name: Business card reader
+        href: prebuilt-business-card.md
+      - name: Contract processing (preview)
+        href: prebuilt-contract-processing.md
+    - name: Text
+      items:
+      - name: Sentiment analysis
+        href: prebuilt-sentiment-analysis.md
+      - name: Category classification
+        href: prebuilt-category-classification.md
+      - name: Entity extraction 
+        href: prebuilt-entity-extraction.md
+      - name: Key phrase extraction
+        href: prebuilt-key-phrase.md
+      - name: Language detection
+        href: prebuilt-language-detection.md  
+      - name: Text translation
+        href: prebuilt-text-translation.md
+    - name: Images
+      items:
+      - name: Image description (preview)
+        href: prebuilt-image-description.md
+      - name: Text generation model (preview) (deprecated)
+        href: prebuilt-azure-openai.md
   - name: Custom AI models
     items:
     - name: Overview
@@ -244,62 +252,78 @@
       href: prediction-pwr-automate.md
   - name: Use a prebuilt AI Builder model in Power Automate
     items:
-    - name: Business card reader model
-      href: flow-business-card-reader.md
-    - name: Category classification model 
-      href: prebuilt-category-classification-pwr-automate.md    
-    - name: Entity extraction model
-      href: prebuilt-entity-extraction-pwr-automate.md
-    - name: ID reader model
-      href: id-reader.md  
-    - name: Invoice processing model
-      href: flow-invoice-processing.md
-    - name: Key phrase extraction model
-      href: flow-key-phrase-extraction.md
-    - name: Language detection model
-      href: flow-language-detection.md
-    - name: Receipt processing model
-      href: flow-receipt-processing.md
-    - name: Sentiment analysis model
-      href: flow-sentiment-analysis.md
-    - name: Text recognition model
-      href: flow-text-recognition.md
-    - name: Text translation model
-      href: flow-text-translation.md
-    - name: Image description model
-      href: flow-image-description.md
-    - name: Text generation model (deprecated)
-      href: azure-openai-model-pauto.md      
+    - name: Documents
+      items:
+      - name: Invoice processing model
+        href: flow-invoice-processing.md
+      - name: Text recognition model
+        href: flow-text-recognition.md
+      - name: Receipt processing model
+        href: flow-receipt-processing.md
+      - name: Identity document reader model
+        href: id-reader.md  
+      - name: Business card reader model
+        href: flow-business-card-reader.md
+      - name: Contract processing model (preview)
+        href: use-prebuilt-contract-processing-power-automate.md
+    - name: Text
+      items:
+      - name: Sentiment analysis model
+        href: flow-sentiment-analysis.md
+      - name: Category classification model 
+        href: prebuilt-category-classification-pwr-automate.md    
+      - name: Entity extraction model
+        href: prebuilt-entity-extraction-pwr-automate.md
+      - name: Key phrase extraction model
+        href: flow-key-phrase-extraction.md
+      - name: Language detection model
+        href: flow-language-detection.md
+      - name: Text translation model
+        href: flow-text-translation.md
+    - name: Image
+      items:
+      - name: Image description model
+        href: flow-image-description.md
+      - name: Text generation model (deprecated)
+        href: azure-openai-model-pauto.md   
   - name: Predict action
     href: predict-action-pwr-automate.md
 - name: Use AI Builder in Power Apps
   items:
   - name: Overview
     href: use-in-powerapps-overview.md
-  - name: Use the text generation model in Power Apps (preview)
-    href: azure-openai-model-papp.md
-  - name: Use the prediction model in Power Apps
-    href: prediction-model-driven-app.md
-  - name: Use the form processor component in Power Apps
-    href: form-processor-component-in-powerapps.md
-  - name: Use the object detection component in Power Apps
-    href: object-detector-component-in-powerapps.md
-  - name: Use the business card reader component in Power Apps
+  - name: Documents
     items:
-    - name: Use in a canvas app
-      href: business-card-reader-component-in-powerapps.md
-    - name: Use in a model-driven app
-      href: business-card-reader-component-model-driven.md
-  - name: Use invoice processing in Power Apps
-    href: prebuilt-invoice-processing-powerapps.md
-  - name: Use the receipt processor component in Power Apps
-    href: prebuilt-receipt-processor-component-in-powerapps.md
-  - name: Use the text recognizer component in Power Apps
-    href: prebuilt-text-recognizer-component-in-powerapps.md
-  - name: Use the image description model in Power Apps (preview)
-    href: image-description-in-powerapps.md
-  - name: Use AI Builder models in Power Apps
-    href: powerfx-in-powerapps.md
+    - name: Document processor component
+      href: form-processor-component-in-powerapps.md
+    - name: Invoice processing model
+      href: prebuilt-invoice-processing-powerapps.md
+    - name: Text recognizer component
+      href: prebuilt-text-recognizer-component-in-powerapps.md
+    - name: Receipt processor component
+      href: prebuilt-receipt-processor-component-in-powerapps.md
+    - name: Business card reader component
+      items:
+      - name: Use in a canvas app
+        href: business-card-reader-component-in-powerapps.md
+      - name: Use in a model-driven app
+        href: business-card-reader-component-model-driven.md
+    - name: Contract processing model (preview)
+      href: use-prebuilt-contract-processing-power-apps.md
+  - name: Images
+    items:
+    - name: Image description model (preview)
+      href: image-description-in-powerapps.md
+    - name: Object detection model
+      href: object-detector-component-in-powerapps.md
+  - name: All other AI models
+    items:
+    - name: Text generation model (preview)
+      href: azure-openai-model-papp.md
+    - name: Prediction model
+      href: prediction-model-driven-app.md
+    - name: AI Builder models with Power Fx
+      href: powerfx-in-powerapps.md
 - name: Use AI Builder in SharePoint
   href: sharepoint-overview.md
 - name: Use AI Builder in Teams

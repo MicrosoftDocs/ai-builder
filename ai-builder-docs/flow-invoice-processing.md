@@ -4,7 +4,7 @@ description: Learn how to use the invoice processing prebuilt model in Power Aut
 author: JoeFernandezMS
 ms.topic: how-to
 ms.custom: 
-ms.date: 11/20/2024
+ms.date: 06/23/2025
 ms.author: jofernan
 ms.reviewer: angieandrews
 ---
@@ -15,7 +15,7 @@ ms.reviewer: angieandrews
 
 1. Select **My flows** in the left pane, and then select **New flow** > **Instant cloud flow**.
 
-1. Name your flow, select **Manually trigger a flow** under **Choose how to trigger this flow**, and then select **Create**.
+1. Name your cloud flow, select **Manually trigger a flow** under **Choose how to trigger this flow**, and then select **Create**.
 
 1. Expand **Manually trigger a flow**, and then select **+Add an input** > **File** as the input type.
 
@@ -33,7 +33,7 @@ ms.reviewer: angieandrews
     > [!div class="mx-imgBorder"]
     > ![Flow example.](media/ip-flow-example.png "Example flow screens")
 
-Congratulations! You've created a flow that uses the AI Builder invoice processing model. Select **Save** on the top right, and then select **Test** to try out your flow.
+Congratulations! You've created a cloud flow that uses the AI Builder invoice processing model. Select **Save** on the top right, and then select **Test** to try out your cloud flow.
 
 ## Page range
 

@@ -8,7 +8,8 @@ contributors:
 ms.topic: how-to
 ms.collection: 
 - bap-ai-copilot
-ms.date: 04/25/2025
+ms.date: 06/23/2025
+ms.update-cycle: 180-days
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---
@@ -54,7 +55,7 @@ You can check the confidence score of a table and table cells by performing a pr
 
     :::image type="content" source="media/interpret-confidence-score/document-processing-predict-confidence-score_cloud-flow.png" alt-text="Screenshot of predict showing the confidence score of cells and table in a cloud flow.":::
 
-    To view the confidence score of the table and cells, test your flow.
+    To view the confidence score of the table and cells, test your cloud flow.
 
     :::image type="content" source="media/interpret-confidence-score/document-processing-predict-confidence-score-cloud-flow-result.png" alt-text="Predict showing the confidence score result of cells and table in a cloud flow.":::
 

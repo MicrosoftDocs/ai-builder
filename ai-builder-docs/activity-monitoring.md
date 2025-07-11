@@ -9,7 +9,7 @@ contributors:
   - v-aangie
 ms.topic: how-to
 ms.custom: 
-ms.date: 05/19/2025
+ms.date: 06/18/2025
 ms.author: cerenkiroglu
 ms.reviewer: angieandrews
 ---
@@ -63,7 +63,7 @@ If you want to monitor the use of your AI models and prompts, the **AI Builder a
 
 > [!NOTE]
 > - The monitoring data is stored in the **AI Event** table in your Dataverse instance. It persists in the table even if you delete the model, cloud flow, and app.
-> - You're required to have Write access to this table to record AI model and prompt activity.
+> - You're required to have Create access to this table to record AI model and prompt activity.
 > - The **AI Event** Dataverse table contains input of the AI model predict actions for text scenarios only.
 
 The data that you can display depends on your role.
