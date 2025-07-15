@@ -1,5 +1,5 @@
 ---
-title: Model versions and settings
+title: Change the model version and settings
 description: Learn about the settings in prompt builder.
 author: Antoine2F
 contributors:
@@ -21,7 +21,7 @@ This article explains how to change the model version and settings in the prompt
 
 You can change the model version by selecting **Model** at the top of the prompt builder. The dropdown menu allows you to select from the generative AI models that generate answers to your custom prompt.
 
-The default model as of July 2025 is GPT-4.1 mini (general available, or GA). You can also use the more powerful GPT-4o model (GA), o3 model (GA), or GPT 4.1 model (paid public preview). The versions of these models might change.
+The default model as of July 2025 is GPT-4.1 mini (general availability, or GA). You can also use the more powerful GPT-4o model (GA), o3 model (GA), or GPT 4.1 model (paid public preview). The versions of these models might change.
 
 Using prompts in Power Apps or Power Automate consumes AI Builder credits, while using prompts in Copilot Studio consumes messages. Learn more in [AI Builder licensing and credit management](/ai-builder/credit-management).
 
@@ -81,10 +81,9 @@ Adjusting the temperature can influence the model’s output, but it doesn't gua
 
 ## Model updates
 
-- During the first week of July 2025, 4o mini model has been replaced by 4.1 mini model. Existing prompts previously running on 4o mini now run on 4.1 mini.
+- During the first week of July 2025, 4.1 mini model replaced 4o mini model. Existing prompts previously running on 4o mini now run on 4.1 mini.
   - 4.1 mini rates in credits and messages are the same as 4o mini.  
   - 4.1 mini supports image and document input.  
-- o3 model has replaced o1 model and is in general availability (GA). Existing prompts previously running on o1 now run on o3.
+- o3 model replaced o1 model and is in general availability (GA). Existing prompts previously running on o1 now run on o3.
 - 4.1 model will be in general availability (GA) in the second half of July 2025, and will replace 4o model. Existing prompts running on 4o will run on 4.1 after this update.
-
 
