@@ -8,7 +8,7 @@ contributors:
 ms.topic: article
 ms.collection: 
     - bap-ai-copilot
-ms.date: 04/10/2025
+ms.date: 07/15/2025
 ms.update-cycle: 180-days
 ms.author: antode
 ms.reviewer: angieandrews
@@ -49,9 +49,9 @@ Here's the mapping between AI Builder capabilities and Copilot Studio features:
 
  | AI Builder capability | Copilot Studio/AI Tools features | Unit |
 |------------------------------------------|-------------|-------------|
-| Prompt using GPT 4o-mini model      | Text and generative AI tools (basic)     | 1 response per 1K tokens*   |
+| Prompt using GPT 4.1-mini model     | Text and generative AI tools (basic)     | 1 response per 1K tokens*   |
 | Prompt using GPT 4o model           | Text and generative AI tools (standard)  | 1 response per 1K tokens*   |
-| Prompt using o1 model               | Text and generative AI tools (premium)   | 1 response per 1K tokens*   |
+| Prompt using o1, o3 model           | Text and generative AI tools (premium)   | 1 response per 1K tokens*   |
 | Custom document processing model    | Content processing tools                 | 1 page                      |
 | Invoice processing                  | Content processing tools                 | 1 page                      |
 | Receipt processing                  | Content processing tools                 | 1 image = 1 page            |
@@ -75,7 +75,7 @@ The following list contains message consumption rules.
 
 - Prompts in topics or actions triggered from the agent-embedded test panel are free.  
 - Prompts and models in agent flows always consume messages, even when triggered from an agent-embedded test panel, or from the flow designer.
- - When a classic flow is transformed into an agent flow, AI Builder prompts and models within this flow begin consuming messages instead of credits.
+- When a classic flow is transformed into an agent flow, AI Builder prompts and models within this flow begin consuming messages instead of credits.
 - Testing a prompt (within Prompt Builder) or a model (within the Model page) is free.
 
 ### Examples
@@ -84,13 +84,12 @@ The following examples illustrate the message consumption rules.
 
 #### Agent with prompts in topics
 
-An HR agent is configured with a **Benefit** topic, which uses a prompt (based on 4o mini) to retrieve specific information about sick days from a Dataverse table. An employee asks this agent about sick days. This triggers the prompt. The size of input (included system prompt) and output is 4200 tokens (~16,000 characters).
+An HR agent is configured with a **Benefit** topic, which uses a prompt (based on 4o mini) to retrieve specific information about sick days from a Dataverse table. An employee asks this agent about sick days. This triggers the prompt. The size of input (included system prompt) and output is 4,200 tokens (~16,000 characters).
 
-This employee's request has consumed five (5) responses of the **Text and generative AI tools (basic)** feature, which equals 0.5 Messages, plus the cost of the Copilot Studio classic answer or generative answer.
+This employee's request consumed five (5) responses of the **Text and generative AI tools (basic)** feature, which equals 0.5 Messages, plus the cost of the Copilot Studio classic answer or generative answer.
 
 #### Agent flow with custom document processing
 
 An agent flow is triggered when receiving email from a specific address. It processes the attached file, which contains three (3) pages, using a custom document processing model.
 
-This consumes (3) pages of the content processing tools feature, which equals 24 messages. 
-This is in addition to the cost of the agent flow actions.
+This consumes (3) pages of the content processing tools feature, which equals 24 messages. This is in addition to the cost of the agent flow actions.
