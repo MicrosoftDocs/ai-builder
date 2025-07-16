@@ -97,7 +97,7 @@ If an invoice is detected, the invoice processing model outputs the following in
 |`DueDate`|✔️|
 |`VendorName`|✔️|
 |`VendorAddress`|✔️|
-|`VendorAddressRecipient`|✔️||
+|`VendorAddressRecipient`|✔️|
 |`CustomerAddress`|✔️|
 |`CustomerAddressRecipient`|✔️|
 |`BillingAddress`|✔️|
