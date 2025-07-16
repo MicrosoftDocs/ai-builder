@@ -12,7 +12,7 @@ ms.topic: how-to
 ms.collection: 
 - get-started
 - bap-ai-copilot
-ms.date: 07/01/2025
+ms.date: 07/016/2025
 ms.author: antode
 ms.reviewer: angieandrews
 ms.custom:
@@ -32,7 +32,7 @@ Custom prompts allow you to instruct the generative AI model to behave in a cert
 
 The following list of supported languages for prompts in AI Builder is subject to be updated:
 
-Arabic, Chinese (Simplified), Czech (Czech Republic), Danish (Denmark), Dutch (Netherlands), English (United States), Finnish (Finland), French (France), German (Germany), Greek (Greece), Hebrew,  Italian (Italy), Japanese (Japan), Korean (Korea), Polish (Poland), Portuguese (Brazil), Russian (Russia), Spanish (Spain), Swedish (Sweden), Thai (Thailand), Turkish (Türkiye)
+Arabic, Chinese (Simplified), Czech (Czech Republic), Danish (Denmark), Dutch (Netherlands), English (United States), Finnish (Finland), French (France), German (Germany), Greek (Greece), Hebrew, Italian (Italy), Japanese (Japan), Korean (Korea), Polish (Poland), Portuguese (Brazil), Russian (Russia), Spanish (Spain), Swedish (Sweden), Thai (Thailand), Turkish (Türkiye)
 
 ## Use specific text for more relevant responses
 
