@@ -3,6 +3,7 @@ title: Add inputs to your prompt
 description: Learn how to add text, and image or document input to a prompt.
 author: antrodfr
 contributors:
+  - Antoine2F
   - antrodfr
   - CedrickBellarosa
   - chplanty
@@ -13,10 +14,10 @@ ms.topic: concept-article
 ms.collection: 
 - get-started
 - bap-ai-copilot
-ms.date: 06/03/2025
+ms.date: 07/16/2025
 ms.update-cycle: 180-days
 ms.custom: ignite-2024
-ms.author: antrod
+ms.author: antode
 ms.reviewer: angieandrews
 ---
 
@@ -28,6 +29,7 @@ You can enhance your prompts by allowing users or systems to input text, images,
 > - AI Builder prompts run on GPT models powered by [Azure OpenAI Service](/azure/ai-services/openai/whats-new).
 > - This capability is [limited to some regions](availability-region.md#prompts).
 > - This capability might be subject to usage limits or capacity throttling.
+> - Inputs can't contain instructions. Any such instructions are forbidden for security reasons.
 
 ## Add an input to a prompt
 

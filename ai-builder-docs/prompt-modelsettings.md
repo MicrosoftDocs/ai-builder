@@ -3,13 +3,14 @@ title: Change the model version and settings
 description: Learn about the settings in prompt builder.
 author: Antoine2F
 contributors:
+  - chplanty
   - Phil-cmd
   - Antoine2F
   - antrod
   - v-aangie
 ms.topic: article
-ms.date: 07/15/2025
-ms.author: antode
+ms.date: 07/16/2025
+ms.author: chplanty
 ms.reviewer: angieandrews
 ---
 
@@ -23,16 +24,16 @@ You can change the model version by selecting **Model** at the top of the prompt
 
 The default model as of July 2025 is GPT-4.1 mini (general availability, or GA). You can also use the more powerful GPT-4o model (GA), o3 model (GA), or GPT 4.1 model (paid public preview). The versions of these models might change.
 
-Using prompts in Power Apps or Power Automate consumes AI Builder credits, while using prompts in Copilot Studio consumes messages. Learn more in [AI Builder licensing and credit management](/ai-builder/credit-management).
+Using prompts in Power Apps or Power Automate consumes AI Builder credits, while using prompts in Microsoft Copilot Studio consumes messages. Learn more in [AI Builder licensing and credit management](/ai-builder/credit-management).
 
 ### Models details
 
 |GPT model  |Status   |Licensing rules   | Functionalities| Region availabilities |
 |---------|---------|---------|---------|---------|
-|GPT 4.1 mini | GA - Default model	| Consumes credits in Power Apps and Power Automate. More information: [Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130) <br>Consumes message in Microsoft Copilot Studio. More information: [Message in Copilot Studio](https://go.microsoft.com/fwlink/?linkid=2307400)  | Trained on data up to June 2024. Context allowed up to 128k tokens. | [Feature availability by regions for prompts](availability-region.md)
-| GPT 4o | GA | Consumes credits in Power Apps and Power Automate. More information: [Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130)  <br>Consumes message in Copilot Studio. More information: [Message in Copilot Studio](https://go.microsoft.com/fwlink/?linkid=2307400) | Trained on data up to October 2023. Context allowed up to 128k tokens. | [Feature availability by regions for prompts](availability-region.md)|
-| o3 | GA | Consumes credits in Power Apps and Power Automate. More information: [Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130).   <br>Consumes message in Copilot Studio. More information: [Message in Copilot Studio](https://go.microsoft.com/fwlink/?linkid=2307400)  | Trained on data up to June 2024. Context allowed up to 200k tokens. | [Feature availability by regions for prompts](availability-region.md)|
-| GPT 4.1 | Paid Public preview | Consumes credits in Power Apps and Power Automate. <br>Consumes message in Copilot Studio. <br> GPT 4.1 model is a Standard model and consumes same rates as GPT 4o. | Trained on data up to June 2024. Context allowed up to 1M tokens.| [Feature availability by regions for prompts](availability-region.md)|
+|GPT 4.1 mini | GA - Default model	| Consumes credits in Power Apps and Power Automate. More information: [Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130) <br>Consumes message in Microsoft Copilot Studio. More information: [Message in Copilot Studio](https://go.microsoft.com/fwlink/?linkid=2307400)  | Trained on data up to June 2024. Context allowed up to 128K tokens. | [Feature availability by regions for prompts](availability-region.md)
+| GPT 4o | GA | Consumes credits in Power Apps and Power Automate. More information: [Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130)  <br>Consumes message in Copilot Studio. More information: [Message in Copilot Studio](https://go.microsoft.com/fwlink/?linkid=2307400) | Trained on data up to October 2023. Context allowed up to 128K tokens. | [Feature availability by regions for prompts](availability-region.md)|
+| o3 | GA | Consumes credits in Power Apps and Power Automate. More information: [Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130).   <br>Consumes message in Copilot Studio. More information: [Message in Copilot Studio](https://go.microsoft.com/fwlink/?linkid=2307400)  | Trained on data up to June 2024. Context allowed up to 200K tokens. | [Feature availability by regions for prompts](availability-region.md)|
+| GPT 4.1 | Paid public preview | Consumes credits in Power Apps and Power Automate. <br>Consumes message in Copilot Studio. <br> GPT 4.1 model is a Standard model and consumes same rates as GPT 4o. | Trained on data up to June 2024. Context allowed up to 128K tokens.| [Feature availability by regions for prompts](availability-region.md)|
 
 Choose between the model based on capabilities and scenarios.
 
