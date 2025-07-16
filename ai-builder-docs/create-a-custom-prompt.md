@@ -12,7 +12,7 @@ ms.topic: how-to
 ms.collection: 
 - get-started
 - bap-ai-copilot
-ms.date: 07/016/2025
+ms.date: 07/16/2025
 ms.author: antode
 ms.reviewer: angieandrews
 ms.custom:
