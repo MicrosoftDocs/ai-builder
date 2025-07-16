@@ -1,7 +1,7 @@
 ---
 title: FAQ for prompts and text generation capabilities
 description: Learn about the AI technology used in prompts, key considerations, and details about how the AI is used, how it was tested and evaluated, and limitations.
-ms.date: 03/10/2025
+ms.date: 07/15/2025
 ms.update-cycle: 180-days
 ms.custom: 
   - responsible-ai-faqs
@@ -12,7 +12,7 @@ contributors:
   - ashbhati
   - antoinecellerier
   - v-aangie
-ms.author: ashbhati
+ms.author: antode
 ms.reviewer: angieandrews
 ms.collection: 
     - bap-ai-copilot
@@ -98,12 +98,12 @@ AI Builder mitigates most of the risks involved when using images or documents i
 - Prompts can produce biased comments on images or documents.
 - Extracting information from low-quality images or document can lead to hallucination.
 
-## How is the o1 model different from GPT models?
+## How are the o1 or o3 models different from GPT models?
 
-The o1 model stands out from GPT models primarily due to its advanced reasoning capabilities. It  generates detailed internal chains of thought before responding, leading to improved performance in mathematics, coding, and analytical tasks. However, this approach results in increased computational requirements and slower response times compared to GPT models. GPT-4o, for instance, excels in general language tasks and offers faster, cost-effective responses, making it suitable for applications where quick outputs are essential.
+The o1 or o3 models stand out from GPT models primarily due to their advanced reasoning capabilities. It generates detailed internal chains of thought before responding, leading to improved performance in mathematics, coding, and analytical tasks. However, this approach results in increased computational requirements and slower response times compared to GPT models. GPT-4o or GPT-4.1, for instance, excels in general language tasks and offers faster, cost-effective responses, making it suitable for applications where quick outputs are essential.
 
 > [!NOTE]
-> The o1 reasoning model in prompts is currently in a paid preview.
+> The o1 and o3 reasoning models in prompts are currently in a paid preview.
 
 ## What are custom prompts and AI functions?
 

@@ -8,7 +8,7 @@ contributors:
   - v-aangie
 ms.topic: article
 ms.custom: 
-ms.date: 06/23/2025
+ms.date: 07/11/2025
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---
@@ -41,7 +41,6 @@ To get the best results, provide one clear photo or scan per receipt.
 
 If a receipt is detected, the receipt processing model will output the following information:
 
-
 |Property|Definition|
 |---------|---------|
 |**MerchantName**|Merchant name|
@@ -51,10 +50,12 @@ If a receipt is detected, the receipt processing model will output the following
 |**TransactionTime**|Transaction time|
 |**PurchasedItems**|The list of purchased items <ul><li>**Name**: Name of the purchased item</li><li>**Price**: Price of the purchased item</li><li>**Quantity**: Quantity of the purchased item</li><li>**TotalPrice**: Total price of the purchased item</li></ul>|
 |**Subtotal**|Subtotal|
-|**Tax**|Tax|
+|**TaxDetails**|The list of tax details <ul><li>**Amount**: The amount of the tax detail </li><li>**Rate**: The rate of the tax detail</li><li>**NetAmount**: The net amount before tax </li><li>**Description**: The description of the tax detail</li></ul>|
 |**Tip**|Tip|
 |**Total**|Total|
 |**DetectedText**|The list of all recognized lines of text on the receipt|
+|**CountryRegion**|The country or region where the receipt was issued|
+|**ReceiptType**|The type of receipt|
 
 ## Limits
 
