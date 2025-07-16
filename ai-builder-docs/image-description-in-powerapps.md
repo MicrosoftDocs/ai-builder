@@ -12,6 +12,7 @@ ms.collection:
 - get-started
 - bap-ai-copilot
 ms.date: 01/28/2025
+ms.update-cycle: 180-days
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
