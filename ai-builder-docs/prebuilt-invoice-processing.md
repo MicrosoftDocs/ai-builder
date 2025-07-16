@@ -11,7 +11,7 @@ ms.topic: article
 ms.collection: 
 - get-started
 - bap-ai-copilot
-ms.date: 07/14/2025
+ms.date: 07/16/2025
 ms.update-cycle: 180-days
 ms.author: plarrue
 ms.reviewer: angieandrews
@@ -80,7 +80,6 @@ If an invoice is detected, the invoice processing model outputs the following in
 |`CustomerTaxId`|The government ID number associated with the customer|
 |`PaymentTerm`|The terms under which the payment is meant to be paid|
 |`KVKNumber`|A unique identifier for businesses registered in the Netherlands|
-|**`Jurisdictions`**|List of jurisdictions<ul><li>**Clause**: Full description of the jurisdiction</li><li>**Region**: Court location</li></ul>|
 |**`PaymentDetails`**|List of payment details<ul><li>**IBAN**: International bank account number</li><li>**BankAccountNumber**: Bank account number, a unique identifier for a bank account</li><li>**BPayBillerCode**: Biller code for BPay, an alphanumeric identifier unique to a biller or their product/service</li><li>**BPayReference**: Reference number for BPay, a unique identifier for a specific customer's bill transaction</li><li>**SWIFT**: ISO9362, an international standard for Business Identifier Codes (BIC)</li></ul>|
 |**`TaxDetails`**|List of tax details<ul><li>**Amount**: The amount of the tax detail</li><li>**Rate**: The rate of the tax detail</li></ul>|
 |**`PaidInFourInstallements`**|List of tax details<ul><li>**Amount**: The installment amount due</li><li>**DueDate**: The installment due date</li></ul>|
