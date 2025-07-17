@@ -12,6 +12,7 @@ ms.topic: how-to
 ms.date: 04/21/2025
 ms.author: plarrue
 ms.reviewer: angieandrews
+ms.custom: sfi-image-nochange
 ---
 
 # Create a document processing custom model
