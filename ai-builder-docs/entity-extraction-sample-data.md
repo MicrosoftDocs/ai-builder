@@ -7,10 +7,11 @@ contributors:
   - phil-cmd
   - v-aangie
 ms.topic: how-to
-ms.custom: 
 ms.date: 01/28/2025
 ms.author: ashbhati
 ms.reviewer: angieandrews
+ms.custom:
+  - sfi-image-nochange
 ---
 
 # Use sample data to do entity extraction

@@ -6,10 +6,11 @@ contributors:
   - phil-md
   - v-aangie
 ms.topic: article
-ms.custom: 
 ms.date: 01/27/2025
 ms.author: plarrue
 ms.reviewer: angieandrews
+ms.custom:
+  - sfi-image-nochange
 ---
 
 # Before you build a category classification model
