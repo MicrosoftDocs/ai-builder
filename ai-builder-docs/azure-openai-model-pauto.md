@@ -8,10 +8,12 @@ contributors:
   - phil-cmd
   - v-aangie
 ms.topic: how-to
-ms.custom: bap-template
 ms.date: 01/27/2025
 ms.author: antrod
 ms.reviewer: angieandrews
+ms.custom:
+  - bap-template
+  - sfi-image-nochange
 ---
 
 # Use the text generation model in Power Automate (deprecated)

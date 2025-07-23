@@ -18,6 +18,7 @@ ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc
   - ai-seo-date:11/15/2023
+  - sfi-image-nochange
 ---
 
 # Use the image description prebuilt model in Power Automate (preview)
