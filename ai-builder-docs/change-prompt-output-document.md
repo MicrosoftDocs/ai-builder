@@ -1,13 +1,12 @@
 ---
-title: Change the output of your prompt
-description: Learn how to change the output of your prompt.
+title: Document output
+description: Learn how to manage document output.
 author: antrodfr
 contributors:
   - antrodfr
-  - -phil-cmd
   - v-aangie
 ms.topic: how-to
-ms.date: 06/23/2025
+ms.date: 07/23/2025
 ms.update-cycle: 180-days
 ms.author: antrod
 ms.reviewer: angieandrews
@@ -15,28 +14,23 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-# Change the output of your prompt
+## Benefits of using document output
 
-By default, the prompt generates text as response. Text can be convenient for many uses cases. However, if the response has several elements that need to be identified individually, the text option can be limited.
+The document output lets you generate a Word document for your prompt response instead of text. The generated document follows a template that needs to be provided in the document output settings.
 
-## Benefits of using JSON output
+Following is an example of use cases that become possible with document output:
 
-The JSON output lets you generate a JSON structure for your prompt response instead of text. JSON makes it easier to process responses with multiple elements in agents, cloud flows, or apps.
+- Generate business documents within automations such as invoices, RFPs, contracts, and more.
+- Build reports or write documentation by gathering information from various sources.
+- Answer users with a specific document during chat sessions when using an agent.
 
-Following is an example of use cases that become possible with JSON output:
 
-- Display structured content like project schedule or product information.
-- Extract data from text like invoices, purchase order, delivery forms, and many more.
-- Identify object attributes from text sources like emails or Dataverse data.
-- Get multiple categories or sentiments from a text.
+## Create a prompt with document output
 
-## Create a prompt with JSON output
+This section describes how to select document as output and supply a Word document template.
 
-This section describes how to select JSON as output and edit the JSON format.
-
-### Select JSON as output
-
-To change how the prompt response is rendered, select **JSON** as the output in the top-right corner.
+1- 
+To change how the prompt response is rendered, select **Document** as the output in the top-right corner.
 
 :::image type="content" source="media/change-prompt-output/test-prompt-auto.png" alt-text="Screenshot of selections on the 'Prompt with JSON' page.":::
 
