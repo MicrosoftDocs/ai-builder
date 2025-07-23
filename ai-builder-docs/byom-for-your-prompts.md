@@ -15,7 +15,7 @@ ms.author: mbajwa
 ms.reviewer: angieandrews
 ---
 
-# Bring your own model for your prompts (preview)
+# Bring your own model for your prompts 
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -129,10 +129,6 @@ Each model where a maker set up a connection is also available as a connection p
 :::image type="content" source="media/byom-for-your-prompts/contoso-connections.png" alt-text="Screenshot of the 'Connections' page in Power Apps.":::
 
 This currently supports models with chat completion type.
-
-### Limitation
-
-Some models, for example **Mistral**, **O3**, **LLana**, and **O4 mini** aren't supported yet.
 
 > [!NOTE]
 > We recommend you apply Responsible AI (RAI) policies as applicable for the models you want to use and manage that in Azure AI Foundry.
