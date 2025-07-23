@@ -38,7 +38,7 @@
   - name: Add knowledge to your prompt
     href: use-your-own-prompt-data.md    
   - name: Change the output of your prompt
-     items:
+    items:
     - name: JSON output
       href: change-prompt-output.md
     - name: Document output
