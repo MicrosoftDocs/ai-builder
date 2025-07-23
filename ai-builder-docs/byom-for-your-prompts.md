@@ -1,5 +1,5 @@
 ---
-title: Bring your own model for your prompts (preview)
+title: Bring your own model for your prompts
 description: Learn how to bring your own models into your prompts so that you can use them in Microsoft Copilot Studio, Power Apps, and Power Automate.
 author: MKBajwa-PM
 contributors:
@@ -9,15 +9,13 @@ ms.topic: article
 ms.collection: 
 - overview
 - bap-ai-copilot
-ms.date: 05/19/2025
+ms.date: 07/23/2025
 ms.update-cycle: 180-days
 ms.author: mbajwa
 ms.reviewer: angieandrews
 ---
 
-# Bring your own model for your prompts (preview)
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
+# Bring your own model for your prompts
 
 The *Azure AI Foundry models for prompts* feature is available within Copilot Studio, Power Apps, and Power Automate. This native integration with Azure AI Foundry brings the latest frontier models into your prompts in Copilot Studio.
 
@@ -28,10 +26,6 @@ This includes the following models:
 - [DeepSeek](https://azure.microsoft.com/blog/deepseek-r1-is-now-available-on-azure-ai-foundry-and-github/?msockid=04801c13147c64e30fc30f7415cf65e4)
 - And 1,800 plus more in [Azure AI Foundry / Model
   catalog](https://ai.azure.com/explore/models?tid=72f988bf-86f1-41af-91ab-2d7cd011db47)
-
-> [!IMPORTANT]
-> - This is a production-ready preview feature.
->- Production-ready previews are subject to [supplemental terms of use](https://go.microsoft.com/fwlink/?linkid=2189520).
 
 You can access a diverse portfolio of AI models, including cutting-edge open-source solutions, industry-specific models, and task-based AI capabilities&mdash;all within the trusted, scalable, and enterprise-ready platform of Copilot Studio. With the native Azure AI Foundry integration, we bring the best capabilities from across our platforms into Copilot Studio to make it your one-stop hub to build agents.
 
@@ -85,12 +79,12 @@ After you create an agent, add prompt as an action to create a prompt.
 1. At the top of the screen, enter a name for your prompt.
 1. Enter your prompt in one of the following ways:
     - Use your own prompt: Under the **Instructions** heading, write or paste your own prompt.
-    - Get help from Copilot: Under the **Get started with Copilot** heading, describe what you want your prompt to do, and then select the right arrow. Copilot suggests a prompt for you.
+    - Get help from Copilot: Under the **Get started with Copilot** heading, describe what you want your prompt to do, and then select the right arrow. Copilot suggests a prompt for you. If you want to use it, select **Keep it**.
 1. While working with prompts, you can choose a model you want to work with. By default, you have some managed models available. You can also bring in Azure AI Foundry models and use them for your prompt.
 
     On the panel to the right of **Instructions**, select the dropdown menu in the **Model** field, and select the plus sign (**+**) to connect to a model from Azure AI Foundry.
 
-    :::image type="content" source="media/byom-for-your-prompts/prompt-description.png" alt-text="Screenshot of the 'New Prompt' screen, where you add a prompt and select a model.":::
+    :::image type="content" source="media/byom-for-your-prompts/prompt-description.png" alt-text="Screenshot of the 'Custom Prompt' screen, where you add a prompt and select a model.":::
 
 1. In the **Connect a model from Azure AI Foundry** screen, enter information about the model from [Azure AI Foundry / Model
   catalog](https://ai.azure.com/explore/models?tid=72f988bf-86f1-41af-91ab-2d7cd011db47). Make sure to add the **Model deployment name** and **Base model name** exactly as they appear in Azure AI Foundry.
@@ -102,7 +96,7 @@ After you create an agent, add prompt as an action to create a prompt.
 
 Your model is now added to the **Model** dropdown menu. You can now select this model for your prompt and add it to the agent. Anytime this prompt runs, it always uses the selected model.
 
-:::image type="content" source="media/byom-for-your-prompts/prompt-model.png" alt-text="Screenshot of the 'Model' dropdown menu.":::
+:::image type="content" source="media/byom-for-your-prompts/prompt-model-ga.png" alt-text="Screenshot of the 'Model' dropdown menu.":::
 
 These models also work well with image and documents input. However, some models have a limitation. When image input is added, the dropdown menu shows only models from Azure AI Foundry that work with images. This allows you to select a model where you can be successful when you use images or documents.
 
