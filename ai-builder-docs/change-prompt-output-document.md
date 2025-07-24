@@ -1,4 +1,4 @@
----
+<img width="436" height="280" alt="image" src="https://github.com/user-attachments/assets/7e31a241-8545-4c6c-b69c-4ffc3190cf1b" />---
 title: Document output
 description: Learn how to manage document output.
 author: antrodfr
@@ -41,10 +41,10 @@ Let's suppose we want to create an invoice using unstructured information passed
     - Fields to replace should not contain any space in the name.
   
     > [!IMPORTANT]
-    > Your layout can't exceed 25Mb and can't be confidential or contain passwords.
+    > Your document layout can't exceed 25Mb and can't be confidential or contain passwords.
 
     For our scenario, we will use the following this invoice document layout:
-    :::image type="content" source="media/change-prompt-output/invoice-layout.png" alt-text="Screenshot of invoice layout document.":::
+    :::image type="content" source="media/change-prompt-output/invoice-template.png" alt-text="Screenshot of invoice layout document.":::
 
     You can also download it [here](url).
 
@@ -58,19 +58,19 @@ Let's suppose we want to create an invoice using unstructured information passed
 
     The content of the **Text input** could contain all the information about an Invoice. Example:
     
-      _Invoice INV-2025-074 – Payment Due by 2025-08-07
-      Please find below the details of your invoice:
-      Invoice Date: 2025-07-24
-      Invoice Number: INV-2025-074
-      Customer ID: CUST-45892
-      Billed To: Adatum
-      Billing Address: 145 Greenfield Avenue, Suite 12, Springfield, IL 62704
-      Due Date: 2025-08-07
-      Products/Services Provided:
-      - Office Chair ErgoComfort X1 – Qty: 2 – Unit Price: $189.00
-      - Standing Desk ProLift 120 – Qty: 1 – Unit Price: $499.00 
-      - LED Desk Lamp BrightLite – Qty: 3 – Unit Price: $49.00
-      Subtotal: $1,024.00_
+      __Invoice INV-2025-074 – Payment Due by 2025-08-07_
+      _Please find below the details of your invoice:_
+      _Invoice Date: 2025-07-24_
+      _Invoice Number: INV-2025-074_
+      _Customer ID: CUST-45892_
+      _Billed To: Adatum_
+      _Billing Address: 145 Greenfield Avenue, Suite 12, Springfield, IL 62704_
+      _Due Date: 2025-08-07_
+      _Products/Services Provided:_
+      _- Office Chair ErgoComfort X1 – Qty: 2 – Unit Price: $189.00_
+      _- Standing Desk ProLift 120 – Qty: 1 – Unit Price: $499.00_
+      _- LED Desk Lamp BrightLite – Qty: 3 – Unit Price: $49.00_
+      _Subtotal: $1,024.00_
 
 6. Download the document that appears on the right. All fields should be filled-in.
 
@@ -110,5 +110,6 @@ It's not possible to generate a document without uploading a layout.
 
 - Defining a text formatting in the instruction is not supported. For example: set a field in bold, add a title or change the color.
 - Only generating a Word document is supported for now.
+- When uploading a document of more than 5Mb, the prompts needs to be saved before testing.
 
 
