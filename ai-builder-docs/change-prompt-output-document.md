@@ -14,7 +14,7 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-## Benefits of using document output
+# Document output for prompts
 
 The document output lets you generate a Word document for your prompt response instead of text. The generated document follows a template that needs to be provided in the document output settings.
 
@@ -27,40 +27,41 @@ Following is an example of use cases that become possible with document output:
 
 ## Create a prompt with document output
 
-This section describes how to select document as output and supply a Word document template.
+This section describes how to select document as output and supply a Word document template. 
+Let's suppose we want to create an invoice using unstructured information passed to the prompt.
 
-1- 
-To change how the prompt response is rendered, select **Document** as the output in the top-right corner.
+1. Select **Document (preview)** as the output in the top-right corner.
+1. Select **Document settings** that appeared left of the **Document (preview)** output option.
+   
+  :::image type="content" source="media/change-prompt-output/xxx.png" alt-text="Screenshot of document settings option":::
 
-:::image type="content" source="media/change-prompt-output/test-prompt-auto.png" alt-text="Screenshot of selections on the 'Prompt with JSON' page.":::
+1. Upload a Word template document that contains fields to replace by the prompt. Follow these rules:
+  - Fields to replace should be identified using double curly brackets. _Example: {{FirstName}}_
+  - Fields to replace in a table should identify the table name and the column name, separated with a point. _Example: {{items.quantity}}_
+  - Fields to replace should not contain any space in the name.
 
-### Edit JSON format
+For our scenario, we will use the following this invoice document template:
+    :::image type="content" source="media/change-prompt-output/xxx.png" alt-text="Screenshot of invoice template document":::
 
-To view or edit the JSON format, select the settings icon to the left of **Output: JSON**.
+You can also download it [here](url).
 
-:::image type="content" source="media/change-prompt-output/output-settings.png" alt-text="Screenshot of the output settings.":::
+1. After uploading the template, all the identified fields to replace will be displayed for review.
 
-By default, the format is **Auto detected**. This format means each time you test your prompt, the format associated to the prompt is refreshed with the one detected at testing time. This format is convenient when you're iterating on your prompt instructions and want to know how the response format evolves.
+  :::image type="content" source="media/change-prompt-output/xxx.png" alt-text="Screenshot of fields to replace":::
 
-:::image type="content" source="media/change-prompt-output/auto-detect.png" alt-text="Screenshot of the 'Auto-detected format'.":::
+1. Let's now write the instruction that will allow to generate the adequate text for each field to replace.
 
-If you update the JSON example, the format becomes **Custom** and is never updated if you test your prompt again. This format is convenient when you don't want prompt tweaking to influence the format, or if you need to follow a specific format.
+:::image type="content" source="media/change-prompt-output/xxx.png" alt-text="Screenshot of prompt instruction for document creation":::
 
-You can revert to auto-detect mode by selecting the **Back to auto-detect** icon.
+If the fields to replace have meaningful names, the AI model could efficiently generate the right text for each field to replace with minimal. It's recommanded to add specific instruction to correctly fill-in each field to replace, expecially when:
+  - The name of the field to replace may be ambiguous, like multiple people names.
+  - There is a specific formatting needed, like date format.
+  - Additional rules must be applied, like text combinations or calculations.
 
-:::image type="content" source="media/change-prompt-output/back-auto.png" alt-text="Screenshot of the 'Back to auto-detected' icon.":::
+1. Click on **Test** and download the document that appears on the right. All the fields should be filled-in.
 
-To test and save your prompt, follow these steps:
 
-1. To confirm the newly modified example, select **Apply**.
-1. To check how your prompt response renders with the new format, select **Test**.
-1. When you finish your modifications, select **Save custom**. If you skip this step, your changes are lost.
-
-When you save your prompt, you're locking the latest **Auto-detected** format or the **Custom** format defined. This means when you use your prompt in an agent, a cloud flow, or an app, the saved format is used&mdash;it doesn't vary.
-
-At any time, you can check the JSON schema that generates out of the JSON examples by selecting **</>**. You can't modify this schema currently.
-
-## Use a prompt with JSON output in Power Automate
+## Use a prompt with document output in flow or agent flow
 
 This section guides you to create the following cloud flow:
 
