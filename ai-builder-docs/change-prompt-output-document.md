@@ -31,35 +31,52 @@ This section describes how to select document as output and supply a Word docume
 Let's suppose we want to create an invoice using unstructured information passed to the prompt.
 
 1. Select **Document (preview)** as the output in the top-right corner.
-1. Select **Document settings** that appeared left of the **Document (preview)** output option.
+2. Select **Document settings** that appeared left of the **Document (preview)** output option.
    
-  :::image type="content" source="media/change-prompt-output/xxx.png" alt-text="Screenshot of document settings option":::
+  :::image type="content" source="media/change-prompt-output/document-settings.png" alt-text="Screenshot of document settings option":::
 
-1. Upload a Word template document that contains fields to replace by the prompt. Follow these rules:
+3. Upload a Word template document that contains fields to replace by the prompt. Follow these rules:
   - Fields to replace should be identified using double curly brackets. _Example: {{FirstName}}_
   - Fields to replace in a table should identify the table name and the column name, separated with a point. _Example: {{items.quantity}}_
   - Fields to replace should not contain any space in the name.
 
 For our scenario, we will use the following this invoice document template:
-    :::image type="content" source="media/change-prompt-output/xxx.png" alt-text="Screenshot of invoice template document":::
+    :::image type="content" source="media/change-prompt-output/invoice-template.png.png" alt-text="Screenshot of invoice template document":::
 
 You can also download it [here](url).
 
-1. After uploading the template, all the identified fields to replace will be displayed for review.
+4. After uploading the template, all the identified fields to replace will be displayed for review.
 
-  :::image type="content" source="media/change-prompt-output/xxx.png" alt-text="Screenshot of fields to replace":::
+  :::image type="content" source="media/change-prompt-output/document-settings-fields.png" alt-text="Screenshot of fields to replace":::
 
-1. Let's now write the instruction that will allow to generate the adequate text for each field to replace.
+5. Let's now write the instruction that will allow to generate the adequate text for each field to replace and click on **Test**.
 
-:::image type="content" source="media/change-prompt-output/xxx.png" alt-text="Screenshot of prompt instruction for document creation":::
+:::image type="content" source="media/change-prompt-output/prompt-instruction.png" alt-text="Screenshot of prompt instruction for document creation":::
 
-If the fields to replace have meaningful names, the AI model could efficiently generate the right text for each field to replace with minimal. It's recommanded to add specific instruction to correctly fill-in each field to replace, expecially when:
-  - The name of the field to replace may be ambiguous, like multiple people names.
-  - There is a specific formatting needed, like date format.
-  - Additional rules must be applied, like text combinations or calculations.
+The content of the **Text input** could contain all the information about an Invoice. Example:
+Subject: Invoice INV-2025-074 – Payment Due by 2025-08-07
 
-1. Click on **Test** and download the document that appears on the right. All the fields should be filled-in.
+_Dear Adatum,
+I hope this message finds you well. Please find below the details of your invoice:
+Invoice Date: 2025-07-24
+Invoice Number: INV-2025-074
+Customer ID: CUST-45892
+Billed To: Adatum
+Billing Address: 145 Greenfield Avenue, Suite 12, Springfield, IL 62704
+Due Date: 2025-08-07
+Products/Services Provided:
+- Office Chair ErgoComfort X1 – Qty: 2 – Unit Price: $189.00
+- Standing Desk ProLift 120 – Qty: 1 – Unit Price: $499.00 
+- LED Desk Lamp BrightLite – Qty: 3 – Unit Price: $49.00
+Subtotal: $1,024.00_
 
+6. Download the document that appears on the right. All the fields should be filled-in.
+
+> [!NOTE]
+> If the fields to replace have meaningful names, the AI model could efficiently generate the right text for each field to replace with minimal. It's recommanded to add specific instruction to correctly fill-in each field to replace, expecially when:
+>  - The name of the field to replace may be ambiguous, like multiple people names.
+>  - There is a specific formatting needed, like date format.
+>  - Additional rules must be applied, like text combinations or calculations.
 
 ## Use a prompt with document output in flow or agent flow
 
@@ -67,10 +84,9 @@ This section guides you to create the following cloud flow:
 
 :::image type="content" source="media/change-prompt-output/output-flow.png" alt-text="Screenshot of a cloud flow with a prompt":::
 
-1. Create a prompt to process invoices using an **Image or document** as input.
-
-   Learn more in [Add text, image, or document input to a prompt](/ai-builder/add-inputs-prompt).
-
+1. Create a new flow and select the trigger action **When a new email arrives (V3)**.
+1. Add the action **Run a prompt** and select the prompt created previously. Select the email content as input.
+   
    :::image type="content" source="media/change-prompt-output/invoice-prompt.png" alt-text="Screenshot of an invoice processing prompt.":::
 
 1. Update the JSON format by providing the following JSON example:
