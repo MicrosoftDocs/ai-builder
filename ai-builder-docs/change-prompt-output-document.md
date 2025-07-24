@@ -56,19 +56,19 @@ Let's suppose we want to create an invoice using unstructured information passed
     :::image type="content" source="media/change-prompt-output/prompt-instruction.png" alt-text="Screenshot of prompt instruction for document creation.":::
 
     The content of the **Text input** could contain all the information about an Invoice. Example:  
-       ```Invoice INV-2025-074 – Payment Due by 2025-08-07<br>
-       Please find below the details of your invoice:<br>
-       Invoice Date: 2025-07-24<br>
-       Invoice Number: INV-2025-074<br>
-       Customer ID: CUST-45892<br>
-       Billed To: Adatum<br>
-       Billing Address: 145 Greenfield Avenue, Suite 12, Springfield, IL 62704<br>
-       Due Date: 2025-08-07<br>
-       Products/Services Provided:<br>
-       - Office Chair ErgoComfort X1 – Qty: 2 – Unit Price: $189.00<br>
-       - Standing Desk ProLift 120 – Qty: 1 – Unit Price: $499.00<br>
-       - LED Desk Lamp BrightLite – Qty: 3 – Unit Price: $49.00<br>
-       Subtotal: $1,024.00```
+         ```Invoice INV-2025-074 – Payment Due by 2025-08-07
+         Please find below the details of your invoice:
+         Invoice Date: 2025-07-24
+         Invoice Number: INV-2025-074
+         Customer ID: CUST-45892
+         Billed To: Adatum
+         Billing Address: 145 Greenfield Avenue, Suite 12, Springfield, IL 62704
+         Due Date: 2025-08-07
+         Products/Services Provided:
+         - Office Chair ErgoComfort X1 – Qty: 2 – Unit Price: $189.00
+         - Standing Desk ProLift 120 – Qty: 1 – Unit Price: $499.00
+         - LED Desk Lamp BrightLite – Qty: 3 – Unit Price: $49.00
+         Subtotal: $1,024.00```
 
 7. Download the document that appears on the right. All fields should be filled-in.
 
