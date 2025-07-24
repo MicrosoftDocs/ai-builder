@@ -15,6 +15,7 @@ ms.collection:
 ---
 
 # Document output for prompts
+[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
 The document output lets you generate a Word document for your prompt response instead of text. The generated document follows a layout that needs to be provided in the document output settings.
 
@@ -23,6 +24,13 @@ Following is an example of use cases that become possible with document output:
 - Generate business documents within automations such as invoices, RFPs, contracts, and more.
 - Build reports or write documentation by gathering information from various sources.
 - Answer users with a specific document during chat sessions when using an agent.
+
+> [!IMPORTANT]
+>- This is a production-ready preview feature.
+>- Production-ready previews are subject to [supplemental terms of use](https://go.microsoft.com/fwlink/?linkid=2189520).
+>- AI Builder prompts run on GPT models powered by [Azure OpenAI Service](/azure/ai-services/openai/whats-new).
+>- This capability might not be available in your region yet. Learn more in the **Prompts** section in [Feature availability by region or US Government environment](availability-region.md#prompts).
+>- This capability might be subject to usage limits or capacity throttling.
 
 
 ## Create a prompt with document output
@@ -110,4 +118,6 @@ It's not possible to generate a document without uploading a layout.
 - Only generating a Word document is supported for now.
 - When uploading a document of more than 5Mb, the prompts needs to be saved before testing.
 
+## Related information
 
+[FAQ for prompts and text generation capabilities](faqs-text-generation.md)
