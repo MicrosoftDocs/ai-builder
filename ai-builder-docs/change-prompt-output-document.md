@@ -46,7 +46,6 @@ Let's suppose we want to create an invoice using unstructured information passed
     For our scenario, we will use the following this invoice document layout:
     :::image type="content" source="media/change-prompt-output/invoice-template.png" alt-text="Screenshot of invoice layout document.":::
 
-    You can also download it [here](url).
 
 4. After uploading the layout, all the identified fields to replace will be displayed for review.
 
@@ -57,22 +56,21 @@ Let's suppose we want to create an invoice using unstructured information passed
     :::image type="content" source="media/change-prompt-output/prompt-instruction.png" alt-text="Screenshot of prompt instruction for document creation.":::
 
     The content of the **Text input** could contain all the information about an Invoice. Example:
-    
-      __Invoice INV-2025-074 – Payment Due by 2025-08-07_
-      _Please find below the details of your invoice:_
-      _Invoice Date: 2025-07-24_
-      _Invoice Number: INV-2025-074_
-      _Customer ID: CUST-45892_
-      _Billed To: Adatum_
-      _Billing Address: 145 Greenfield Avenue, Suite 12, Springfield, IL 62704_
-      _Due Date: 2025-08-07_
-      _Products/Services Provided:_
-      _- Office Chair ErgoComfort X1 – Qty: 2 – Unit Price: $189.00_
-      _- Standing Desk ProLift 120 – Qty: 1 – Unit Price: $499.00_
-      _- LED Desk Lamp BrightLite – Qty: 3 – Unit Price: $49.00_
-      _Subtotal: $1,024.00_
+       _Invoice INV-2025-074 – Payment Due by 2025-08-07_
+       _Please find below the details of your invoice:_
+       _Invoice Date: 2025-07-24_
+       _Invoice Number: INV-2025-074_
+       _Customer ID: CUST-45892_
+       _Billed To: Adatum_
+       _Billing Address: 145 Greenfield Avenue, Suite 12, Springfield, IL 62704_
+       _Due Date: 2025-08-07_
+       _Products/Services Provided:_
+       _- Office Chair ErgoComfort X1 – Qty: 2 – Unit Price: $189.00_
+       _- Standing Desk ProLift 120 – Qty: 1 – Unit Price: $499.00_
+       _- LED Desk Lamp BrightLite – Qty: 3 – Unit Price: $49.00_
+       _Subtotal: $1,024.00_
 
-6. Download the document that appears on the right. All fields should be filled-in.
+7. Download the document that appears on the right. All fields should be filled-in.
 
     > [!NOTE]
     > If the fields to replace have meaningful names, the AI model could efficiently generate the right text for each field to replace with minimal instruction. It's however recommanded to add specific instruction to correctly fill-in each field to replace, expecially when:
