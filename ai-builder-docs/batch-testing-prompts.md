@@ -71,39 +71,32 @@ Use the following steps to set up and run batch tests for your prompts.
 
 ### Define the Test dataset
 
-Step 1 in the batch testing process is to define the test dataset.
-
-1. Sign in to [Power Apps](https://make.powerapps.com) or [Power Automate](https://make.powerautomate.com).
-1. On the navigation pane to the left, select **AI hub**.
-1. Under **Recently created**, select **Prompts**.
-
-    :::image type="content" source="media/batch-testing-prompts/ai-hub-prompts.png" alt-text="Screenshot of recently created prompts.":::
+1. Sign in to [Copilot Studio](https://copilotstudio.microsoft.com), [Power Apps](https://make.powerapps.com) or [Power Automate](https://make.powerautomate.com).
+1. Access the list of prompts:
+   - In Copilot Studio, select **Tools** and filter on prompts.
+   - In Power Apps and Power Automate, select **AI hub**.
 
 1. Next to the prompt name, select the vertical ellipsis (&vellip;).
 1. Select **Test hub (Preview)**.
 
     :::image type="content" source="media/batch-testing-prompts/more.png" alt-text="Screenshot of the 'More' menu with the 'Test hub - Preview' option.":::
 
-    The Test hub (preview) opens.
+   In Copilot Studio, the test hub will appear as following:
 
     :::image type="content" source="media/batch-testing-prompts/test-gub-get-started.png" alt-text="Screenshot of the Test hub screen.":::
 
-1. To add test cases individually, select **Add test case**.
+1. Add your test cases using one the available options:
+   - **Upload**: allows you to upload test cases using a csv file. If you want to check the format of the file you need to upload, select Download test data schema.
+     :::image type="content" source="media/batch-testing-prompts/upload-test-case.png" alt-text="Screenshot of uploading or downloading test data schema.":::
 
-    :::image type="content" source="media/batch-testing-prompts/add-test-case.png" alt-text="Screenshot of adding a test case.":::
+   - **AI-generate**: allows you to generate test cases using AI based on your prompt.
+   - **Use activity data**: allows you to pull the recent prompt activity to help you get started.
+   - **Manually Add**: allows to create test cases manually.
 
-1. To set upload test cases, select **Upload**.
-
-    If you want to check the format of the file you need to upload, select **Download test data schema**.
-
-    :::image type="content" source="media/batch-testing-prompts/upload-test-case.png" alt-text="Screenshot of uploading or downloading test data schema.":::
-
-1. To generate synthetic datasets using AI, select **Generate**.
-1. Select the test lines to keep and then select **Save**.
+Any of the option will help you create a list of test cases that you will be able to run:
   
     :::image type="content" source="media/batch-testing-prompts/list-uploaded-test-case.png" alt-text="Screenshot of the uploaded test cases.":::
 
-You can also define datasets by selecting the following in the **Test hub** menu. To choose from past activity, select **Create from activity**.
 
 ### Set evaluation criteria
 
