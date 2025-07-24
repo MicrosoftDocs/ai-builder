@@ -1,4 +1,4 @@
-<img width="436" height="280" alt="image" src="https://github.com/user-attachments/assets/7e31a241-8545-4c6c-b69c-4ffc3190cf1b" />---
+---
 title: Document output
 description: Learn how to manage document output.
 author: antrodfr
