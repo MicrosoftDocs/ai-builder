@@ -93,62 +93,59 @@ Use the following steps to set up and run batch tests for your prompts.
    - **Use activity data**: allows you to pull the recent prompt activity to help you get started.
    - **Manually Add**: allows to create test cases manually.
 
-Any of the option will help you create a list of test cases that you will be able to run:
-  
-    :::image type="content" source="media/batch-testing-prompts/list-uploaded-test-case.png" alt-text="Screenshot of the uploaded test cases.":::
+   Any of the option will help you create a list of test cases that you will be able to run:
+    
+      :::image type="content" source="media/batch-testing-prompts/list-uploaded-test-case.png" alt-text="Screenshot of the uploaded test cases.":::
 
 
 ### Set evaluation criteria
 
-Step 2 in the batch testing process involves defining the evaluation criteria for the test cases.
+1. After creating the test cases, select **Configure criteria** in the configuration section on the right:
+    :::image type="content" source="media/batch-testing-prompts/configure-eval-criteria.png" alt-text="Screenshot of configure evaluation criteria.":::
 
-1. In the **Test hub** screen, select **Evaluation criteria**.
-1. Choose from the following prebuilt criteria:
-    - For semantic similarity, select **Response quality**.
-    - For JSON validation, select **JSON correctness**.
-1. Adjust the pass score threshold tailored to specific needs.
+1. Define the **Passing score** which is the minimum score requiresd for a response to pass.
+   
+1. Choose one of the following prebuilt criteria:
+    - **Response quality**: Tests responses for clarity, helpfulness, and tone
+    - **Response matches**: Tests responses for specific words and meanings
+    - **JSON correctness**: Tests that responses follow your data schema
+
 
     :::image type="content" source="media/batch-testing-prompts/evaluation-criteria.png" alt-text="Screenshot of evaluation criteria.":::
 
-    These criteria and passing score determine how outputs are assessed during the evaluation process.
+    These criteria and passing score determine how test cases outputs are assessed during the evaluation process.
+
 
 ### Run batch tests
 
-Step 3 in the batch testing process is to run the batch tests.
-
-1. Select the test cases to run.
-1. Select **Run selected**.
-
-    The framework evaluates results against the defined criteria, providing insights into the prompt's performance.
+1. In the test cases screen, click on **Run all** to run evaluation on all the test cases or select the test cases to run and click on **Run selected**.
 
     :::image type="content" source="media/batch-testing-prompts/run-tests.png" alt-text="Screenshot of tests to run.":::
 
-### Review test results
+   The test hub evaluates results against the defined criteria, providing insights into the prompt's performance.
 
-Step 4 in the batch testing process is to review the test results.
+1. Once the test cases evaluation is done, you'll see the result screen appear
+
+    :::image type="content" source="media/batch-testing-prompts/xxx.png" alt-text="Screenshot of tests results.":::
+   
+
+### Review test results
 
 You can:
 - View test responses, accuracy scores, and evaluation details.
 - Refine evaluation metrics to suit their needs.
 - Identify areas for improvement and optimize their prompt.
 
-1. To access previous runs, select **Run history**.
+1. To access previous evaluation runs, select the prompt name at the top of the screen in Copilot Studio, or select **Run history** in Power Apps or Power Automate.
 
     :::image type="content" source="media/batch-testing-prompts/run-history.png" alt-text="Screenshot of run history.":::
 
-1. To view details, select the run.
+1. To view details, select the evaluation run.
 
     :::image type="content" source="media/batch-testing-prompts/run-details.png" alt-text="Screenshot of run details.":::
 
-### Monitor and iterate
+Iterate on the test cases evaluation and monitor any significant change between evaluation runs.
 
-Step 5 in the batch testing process is to monitor and iterate. To track performance over time, use the run history. Continuously improve prompts through iterative testing and evaluation.
-
-The following list contains the key benefits:
-- Improved confidence and trust in AI tool outcomes.
-- Standardized and repeatable testing processes.
-- Enhanced efficiency through automation and AI-assisted tools.
-- Customizable evaluation options for diverse business scenarios.
 
 ## Related information
 
