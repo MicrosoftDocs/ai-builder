@@ -41,7 +41,7 @@
     items:
     - name: JSON output
       href: change-prompt-output.md
-    - name: Document output
+    - name: Document output (preview)
       href: change-prompt-output-document.md
   - name: Share your prompt
     href: share-your-prompt.md 
