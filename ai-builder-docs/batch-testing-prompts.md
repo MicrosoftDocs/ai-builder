@@ -87,8 +87,6 @@ Use the following steps to set up and run batch tests for your prompts.
 
 1. Add your test cases using one the available options:
    - **Upload**: allows you to upload test cases using a csv file. If you want to check the format of the file you need to upload, select Download test data schema.
-     :::image type="content" source="media/batch-testing-prompts/upload-test-case.png" alt-text="Screenshot of uploading or downloading test data schema.":::
-
    - **AI-generate**: allows you to generate test cases using AI based on your prompt.
    - **Use activity data**: allows you to pull the recent prompt activity to help you get started.
    - **Manually Add**: allows to create test cases manually.
@@ -110,10 +108,9 @@ Use the following steps to set up and run batch tests for your prompts.
     - **Response matches**: Tests responses for specific words and meanings
     - **JSON correctness**: Tests that responses follow your data schema
 
+      :::image type="content" source="media/batch-testing-prompts/evaluation-criteria.png" alt-text="Screenshot of evaluation criteria.":::
 
-    :::image type="content" source="media/batch-testing-prompts/evaluation-criteria.png" alt-text="Screenshot of evaluation criteria.":::
-
-    These criteria and passing score determine how test cases outputs are assessed during the evaluation process.
+      These criteria and passing score determine how test cases outputs are assessed during the evaluation process.
 
 
 ### Run batch tests
@@ -124,7 +121,7 @@ Use the following steps to set up and run batch tests for your prompts.
 
    The test hub evaluates results against the defined criteria, providing insights into the prompt's performance.
 
-1. Once the test cases evaluation is done, you'll see the result screen appear
+1. Once the test cases evaluation is done, you'll see the result screen appear:
 
     :::image type="content" source="media/batch-testing-prompts/xxx.png" alt-text="Screenshot of tests results.":::
    
