@@ -54,6 +54,7 @@ Let's suppose we want to create an invoice using unstructured information passed
     :::image type="content" source="media/change-prompt-output/prompt-instruction.png" alt-text="Screenshot of prompt instruction for document creation":::
 
   The content of the **Text input** could contain all the information about an Invoice. Example:
+    
     _Invoice INV-2025-074 – Payment Due by 2025-08-07
     Please find below the details of your invoice:
     Invoice Date: 2025-07-24
@@ -71,7 +72,7 @@ Let's suppose we want to create an invoice using unstructured information passed
 6. Download the document that appears on the right. All fields should be filled-in.
 
     > [!NOTE]
-    > If the fields to replace have meaningful names, the AI model could efficiently generate the right text for each field to replace with minimal. It's recommanded to add specific instruction to correctly fill-in each field to replace, expecially when:
+    > If the fields to replace have meaningful names, the AI model could efficiently generate the right text for each field to replace with minimal instruction. It's however recommanded to add specific instruction to correctly fill-in each field to replace, expecially when:
     >  - The name of the field to replace may be ambiguous, like multiple people names.
     >  - There is a specific formatting needed, like date format.
     >  - Additional rules must be applied, like text combinations or calculations.
