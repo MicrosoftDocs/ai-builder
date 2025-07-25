@@ -8,6 +8,7 @@ ms.custom:
 ms.topic: faq
 author: Antoine2F
 contributors:
+  - Antoine2F
   - phil-cmd
   - antoinecellerier
   - v-aangie
@@ -97,7 +98,7 @@ AI Builder mitigates most of the risks involved when using images or documents i
 - Prompts can produce biased comments on images or documents.
 - Extracting information from low-quality images or document can lead to hallucination.
 
-## How is o3 model different from GPT models?
+## How is the o3 model different from GPT models?
 
 The o3 model stands out from GPT models primarily due to its advanced reasoning capabilities. It generates detailed internal chains of thought before responding, leading to improved performance in mathematics, coding, and analytical tasks. However, this approach results in increased computational requirements and slower response times compared to GPT models. GPT-4o or GPT-4.1, for instance, excels in general language tasks and offers faster, cost-effective responses, making it suitable for applications where quick outputs are essential.
 

@@ -14,12 +14,12 @@ contributors:
   - v-aangie
   - antode
 ms.topic: article
-ms.date: 07/24/2025
+ms.date: 07/25/2025
 ms.author: antode
 ms.reviewer: angieandrews
 ---
 
-# Feature availability by region or US Government environment
+# Feature availability by region
 
 AI Builder was initially released in Europe and the United States. Other regions continue to be added; however, the availability and release status of AI Builder features vary by location.
 
