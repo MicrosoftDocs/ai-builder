@@ -49,7 +49,7 @@ Let's suppose we want to create an invoice using unstructured information passed
     - Fields to replace should not contain any space in the name.
   
     > [!IMPORTANT]
-    > Your document layout can't exceed 25Mb and can't be confidential or contain passwords.
+    > Your document layout can't exceed 20Mb and can't be confidential or contain passwords.
 
     For our scenario, we will use the following this invoice document layout:
     :::image type="content" source="media/change-prompt-output/invoice-template.png" alt-text="Screenshot of invoice layout document.":::
@@ -116,7 +116,8 @@ It's not possible to generate a document without uploading a layout.
 
 - Defining a text formatting in the instruction is not supported. For example: set a field in bold, add a title or change the color.
 - Only generating a Word document is supported for now.
-- When uploading a document of more than 5Mb, the prompts needs to be saved before testing.
+- A document layout can't be more than 20Mb.
+- When uploading a document layout of more than 5Mb, the prompts needs to be saved and reopened before testing.
 
 ## Related information
 
