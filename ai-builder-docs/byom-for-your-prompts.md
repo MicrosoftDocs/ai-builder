@@ -9,7 +9,7 @@ ms.topic: article
 ms.collection: 
 - overview
 - bap-ai-copilot
-ms.date: 07/23/2025
+ms.date: 07/24/2025
 ms.update-cycle: 180-days
 ms.author: mbajwa
 ms.reviewer: angieandrews
@@ -123,10 +123,6 @@ Each model where a maker set up a connection is also available as a connection p
 :::image type="content" source="media/byom-for-your-prompts/contoso-connections.png" alt-text="Screenshot of the 'Connections' page in Power Apps.":::
 
 This currently supports models with chat completion type.
-
-### Limitation
-
-Some models, for example **Mistral**, **O3**, **LLana**, and **O4 mini** aren't supported yet.
 
 > [!NOTE]
 > We recommend you apply Responsible AI (RAI) policies as applicable for the models you want to use and manage that in Azure AI Foundry.
