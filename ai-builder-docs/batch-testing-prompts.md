@@ -41,35 +41,11 @@ Batch testing provides a systematic approach for validating prompts on diverse d
 
 An accuracy score is calculated based on test results, giving you empirical data to trust your AI tools.
 
-## Test dataset management
-
-You can create and manage test datasets in multiple ways:
-
-- Import historical data from past prompt interactions.
-- Upload pre-labeled datasets in CSV format.
-- Leverage AI-generated synthetic test data for diverse scenarios.
-- Manually create or refine test cases within the interface.
-
-## Evaluation criteria
-
-The framework offers you flexibility in defining evaluation criteria:
-
-- **Prebuilt criteria**: Includes options for tasks like JSON validation, exact match, semantic similarity, and response quality check.
-- **Passing score**: You can tailor the passing score to fit unique use case depending upon the threshold that you set when a test result should be considered as pass or fail.
-
-## Run history insights
-
-Run history allows you to monitor and analyze test results over time, including:
-
-- Track accuracy score progression across multiple test runs.
-- Compare outcomes from different runs to identify trends or regressions.
-- Access details of why a certain test result was classified pass or fail thus offering more detailed for diagnosis.
-
-## How to use the Test framework
+## How to use batch testing
 
 Use the following steps to set up and run batch tests for your prompts.
 
-### Define the Test dataset
+### Define the test cases
 
 1. Sign in to [Copilot Studio](https://copilotstudio.microsoft.com), [Power Apps](https://make.powerapps.com) or [Power Automate](https://make.powerautomate.com).
 1. Access the list of prompts:
@@ -123,15 +99,8 @@ Use the following steps to set up and run batch tests for your prompts.
 
 1. Once the test cases evaluation is done, you'll see the result screen appear:
 
-    :::image type="content" source="media/batch-testing-prompts/xxx.png" alt-text="Screenshot of tests results.":::
+    :::image type="content" source="media/batch-testing-prompts/run-result.png" alt-text="Screenshot of tests results.":::
    
-
-### Review test results
-
-You can:
-- View test responses, accuracy scores, and evaluation details.
-- Refine evaluation metrics to suit their needs.
-- Identify areas for improvement and optimize their prompt.
 
 1. To access previous evaluation runs, select the prompt name at the top of the screen in Copilot Studio, or select **Run history** in Power Apps or Power Automate.
 
@@ -139,7 +108,10 @@ You can:
 
 1. To view details, select the evaluation run.
 
-    :::image type="content" source="media/batch-testing-prompts/run-details.png" alt-text="Screenshot of run details.":::
+Run history allows you to monitor and analyze test results over time, including:
+- Track accuracy score progression across multiple test runs.
+- Compare outcomes from different runs to identify trends or regressions.
+- Access details of why a certain test result was classified pass or fail thus offering more detailed for diagnosis.
 
 Iterate on the test cases evaluation and monitor any significant change between evaluation runs.
 
