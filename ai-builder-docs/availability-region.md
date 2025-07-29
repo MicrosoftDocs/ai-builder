@@ -14,7 +14,7 @@ contributors:
   - v-aangie
   - antode
 ms.topic: article
-ms.date: 07/25/2025
+ms.date: 07/29/2025
 ms.author: antode
 ms.reviewer: angieandrews
 ---
@@ -38,10 +38,9 @@ In the following table, **(GA)** and **(Paid preview)** mean that the feature is
 | Feature                              | Asia          | Australia      | Canada         | Europe         | France         | Germany        | India         | Japan          | Norway         | Singapore      | South Africa   | South America  | Korea          | Singapore      | Sweden         | Switzerland    |United Arab Emirates|United Kingdom| United States  |
 |--------------------------------------|---------------|----------------|----------------|----------------|----------------|----------------|---------------|----------------|----------------|----------------|----------------|----------------|----------------|----------------|----------------|----------------|--------------------|--------------|----------------|
 | GPT-4.1 mini                         | (GA)          | GA             | (GA)           | (GA)           | (GA)           | (GA)           | GA            | (GA)           | (GA)           | GA             | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)               | GA           | GA             |
-| GPT-4o                               | (GA)          | GA             | (GA)           | (GA)           | (GA)           | (GA)           | GA            | (GA)           | (GA)           |  GA            | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)               | GA           | GA             |
-| GPT-4o using image or document input | (GA)          | GA             | (GA)           | (GA)           | (GA)           | (GA)           | GA            | (GA)           | (GA)           |  GA            | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)               | -            | GA             |
+| GPT-4.1                             | (GA)          | GA             | (GA)           | (GA)           | (GA)           | (GA)            | GA            | (GA)           | (GA)           | GA            | (GA)         | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)               | GA           | GA             |
 | o3                                   | (GA)          | GA             | (GA)           | (GA)           | (GA)           | (GA)           | (GA)          | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)               |(GA)           | GA            |
-| GPT-4.1                              | (Paid preview)| Paid preview   | (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview)| (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview)     |Paid preview| Paid preview   |
+
 
 ### Custom models
 
