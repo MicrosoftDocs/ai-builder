@@ -9,7 +9,7 @@ contributors:
   - antrod
   - v-aangie
 ms.topic: article
-ms.date: 07/29/2025
+ms.date: 07/30/2025
 ms.author: antode
 ms.reviewer: angieandrews
 ---
@@ -22,7 +22,7 @@ This article explains how to change the model version and settings in the prompt
 
 You can change the model version by selecting **Model** at the top of the prompt builder. The dropdown menu allows you to select from the generative AI models that generate answers to your custom prompt.
 
-The default model as of July 2025 is GPT-4.1 mini (general availability, or GA). You can also use the more powerful GPT-4o model (GA), o3 model (GA), or GPT 4.1 model (paid public preview). The versions of these models might change.
+The default model as of July 2025 is GPT-4.1 mini, which is in general availability (GA). You can also use the more powerful GPT-4o model (GA), o3 model (GA), or GPT 4.1 model (paid public preview). The versions of these models might change.
 
 Using prompts in Power Apps or Power Automate consumes AI Builder credits, while using prompts in Microsoft Copilot Studio consumes messages. Learn more in [AI Builder licensing and credit management](/ai-builder/credit-management).
 
@@ -30,8 +30,8 @@ Using prompts in Power Apps or Power Automate consumes AI Builder credits, while
 
 |GPT model  |Status   |Licensing rules   | Functionalities| Region availabilities |
 |---------|---------|---------|---------|---------|
-|GPT-4.1 mini | GA - Default model	| Consumes AIB credits in Power Apps and flows following the **Basic** rate. [learn more](https://go.microsoft.com/fwlink/?linkid=2085130) <br>Consumes messages in Microsoft Copilot Studio following the **Basic** rate. [learn more](https://go.microsoft.com/fwlink/?linkid=2307400)  | Trained on data up to June 2024. Context allowed up to 128K tokens. | [Feature availability by regions for prompts](availability-region.md)
-| GPT-4.1 | GA | Consumes AIB credits in Power Apps and flows following the **Standard** rate. [learn more](https://go.microsoft.com/fwlink/?linkid=2085130) <br>Consumes messages in Microsoft Copilot Studio following the **Standard** rate. [learn more](https://go.microsoft.com/fwlink/?linkid=2307400) | Trained on data up to June 2024. Context allowed up to 128K tokens.| [Feature availability by regions for prompts](availability-region.md)|
+|GPT-4.1 mini | GA - Default model	| Consumes AI Builder credits in Power Apps and flows following the **Basic** rate. [learn more](https://go.microsoft.com/fwlink/?linkid=2085130) <br>Consumes messages in Microsoft Copilot Studio following the **Basic** rate. [learn more](https://go.microsoft.com/fwlink/?linkid=2307400)  | Trained on data up to June 2024. Context allowed up to 128K tokens. | [Feature availability by regions for prompts](availability-region.md)
+| GPT-4.1 | GA | Consumes AI Builder credits in Power Apps and flows following the **Standard** rate. [learn more](https://go.microsoft.com/fwlink/?linkid=2085130) <br>Consumes messages in Microsoft Copilot Studio following the **Standard** rate. [learn more](https://go.microsoft.com/fwlink/?linkid=2307400) | Trained on data up to June 2024. Context allowed up to 128K tokens.| [Feature availability by regions for prompts](availability-region.md)|
 | o3 | GA | Consumes AIB credits in Power Apps and flows following the **Premium** rate. [learn more](https://go.microsoft.com/fwlink/?linkid=2085130) <br>Consumes messages in Microsoft Copilot Studio following the **Premium** rate. [learn more](https://go.microsoft.com/fwlink/?linkid=2307400)  | Trained on data up to June 2024. Context allowed up to 200K tokens. | [Feature availability by regions for prompts](availability-region.md)|
 
 Choose between the model based on capabilities and scenarios.  
@@ -82,8 +82,8 @@ Adjusting the temperature can influence the model’s output, but it doesn't gua
 
 ## Model updates
 
-- During July 2025, following models have been updated: 
-  - GPT-4.1 mini model has replaced GPT-4o mini model. Existing prompts previously running on GPT-4o mini now run on GPT-4.1 mini, using same **Basic** rates.
-  - GPT-4.1 model has replaced GPT-4o and is in general availability (GA). Existing prompts previously running on GPT-4o now run on GPT-4.1, using same **Standard** rates.
-  - o3 model has replaced o1 model and is in general availability (GA). Existing prompts previously running on o1 now run on o3, using same **Premium** rates.
+- During July 2025, the following models were updated:
+  - GPT-4.1 mini model replaced GPT-4o mini model. Existing prompts previously running on GPT-4o mini now run on GPT-4.1 mini, using same **Basic** rates.
+  - GPT-4.1 model replaced GPT-4o and is in GA. Existing prompts previously running on GPT-4o now run on GPT-4.1, using same **Standard** rates.
+  - o3 model replaced o1 model and is in GA. Existing prompts previously running on o1 now run on o3, using same **Premium** rates.
 
