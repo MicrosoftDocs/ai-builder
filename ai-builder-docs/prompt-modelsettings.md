@@ -34,7 +34,8 @@ Using prompts in Power Apps or Power Automate consumes AI Builder credits, while
 | GPT-4.1 | GA | Consumes AIB credits in Power Apps and flows following the **Standard** rate. [learn more](https://go.microsoft.com/fwlink/?linkid=2085130) <br>Consumes messages in Microsoft Copilot Studio following the **Standard** rate. [learn more](https://go.microsoft.com/fwlink/?linkid=2307400) | Trained on data up to June 2024. Context allowed up to 128K tokens.| [Feature availability by regions for prompts](availability-region.md)|
 | o3 | GA | Consumes AIB credits in Power Apps and flows following the **Premium** rate. [learn more](https://go.microsoft.com/fwlink/?linkid=2085130) <br>Consumes messages in Microsoft Copilot Studio following the **Premium** rate. [learn more](https://go.microsoft.com/fwlink/?linkid=2307400)  | Trained on data up to June 2024. Context allowed up to 200K tokens. | [Feature availability by regions for prompts](availability-region.md)|
 
-Choose between the model based on capabilities and scenarios.
+Choose between the model based on capabilities and scenarios.  
+In some regions like US government regions, GPT-4o mini and GPT-4o are still in use. These models follow licensing rules and offer functionalities comparable to GPT-4.1 mini and GPT-4.1, respectively. Check [Feature availability by regions for prompts](availability-region.md).  
 
 ### Models comparison
 
