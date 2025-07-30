@@ -41,6 +41,7 @@ In the following table, **(GA)** and **(Paid preview)** mean that the feature is
 | GPT-4.1                             | (GA)          | GA             | (GA)           | (GA)           | (GA)           | (GA)            | (GA)            | (GA)           | (GA)           | GA            | (GA)         | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)               | GA           | GA             |
 | o3                                   | (GA)          | GA             | (GA)           | (GA)           | (GA)           | (GA)           | (GA)          | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)               |(GA)           | GA            |
 
+Additionally, GPT-4o is still available in India. 
 
 ### Custom models
 
