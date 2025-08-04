@@ -4,13 +4,14 @@ description: Learn about prompt tokens and licensing in AI Builder.
 author: antrod
 contributors:
   - antrod
+  - phil-cmd
   - v-aangie
 ms.topic: how-to
 ms.collection: 
     - bap-ai-copilot
-ms.date: 03/04/2025
+ms.date: 08/04/2025
 ms.update-cycle: 180-days
-ms.author: antrod
+ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
@@ -57,16 +58,16 @@ When you call a prompt action in a flow, you can get the associated input and to
 #### Input tokens
 
 ```
-outputs('Create_text_with_GPT_using_a_prompt')?['body/responsev2/predictionOutput/promptTokens']
+outputs('Run_a_prompt')?['body/responsev2/predictionOutput/promptTokens']
 ```
 
 #### Output tokens
 
 ```
-outputs('Create_text_with_GPT_using_a_prompt')?['body/responsev2/predictionOutput/completionTokens']
+outputs('Run_a_prompt')?['body/responsev2/predictionOutput/completionTokens']
 ```
 
-:::image type="content" source="media/licensing-prompt-tokens/tokens-prompt-flow.png" alt-text="Screenshot of token formulas in Power Automate.":::
+:::image type="content" source="media/licensing-prompt-tokens/tokens-prompt-input-output-flow.png" alt-text="Screenshot of token formulas input and output in a Power Automate cloud flow.":::
 
 ## How image or documents are translated into tokens
 
