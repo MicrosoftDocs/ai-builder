@@ -4,13 +4,14 @@ description: Learn about prompt tokens and licensing in AI Builder.
 author: antrod
 contributors:
   - antrod
+  - phil-cmd
   - v-aangie
 ms.topic: how-to
 ms.collection: 
     - bap-ai-copilot
-ms.date: 03/04/2025
+ms.date: 08/04/2025
 ms.update-cycle: 180-days
-ms.author: antrod
+ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
