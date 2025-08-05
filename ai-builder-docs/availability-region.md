@@ -14,7 +14,7 @@ contributors:
   - v-aangie
   - antode
 ms.topic: article
-ms.date: 07/30/2025
+ms.date: 08/05/2025
 ms.author: antode
 ms.reviewer: angieandrews
 ---
@@ -33,16 +33,13 @@ The following tables show which AI Builder features are available in each region
 
 ### Prompts
 
-In the following table, **(GA)** and **(Paid preview)** mean that the feature is available and uses an Azure OpenAI service in another region. Learn more in [enabling data movement cross-regions](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions).
+In the following table, (GA) means that the feature is available and uses an Azure OpenAI service in another region. Learn more in [enabling data movement cross-regions](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions).
 
 | Feature                              | Asia          | Australia      | Canada         | Europe         | France         | Germany        | India         | Japan          | Norway         | Singapore      | South Africa   | South America  | Korea          | Singapore      | Sweden         | Switzerland    |United Arab Emirates|United Kingdom| United States  |
 |--------------------------------------|---------------|----------------|----------------|----------------|----------------|----------------|---------------|----------------|----------------|----------------|----------------|----------------|----------------|----------------|----------------|----------------|--------------------|--------------|----------------|
 | GPT-4.1 mini                         | (GA)          | GA             | (GA)           | (GA)           | (GA)           | (GA)           | GA            | (GA)           | (GA)           | GA             | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)               | GA           | GA             |
-| GPT-4.1                             | (GA)          | GA             | (GA)           | (GA)           | (GA)           | (GA)            | (GA)            | (GA)           | (GA)           | GA            | (GA)         | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)               | GA           | GA             |
-| o3                                   | (GA)          | GA             | (GA)           | (GA)           | (GA)           | (GA)           | (GA)          | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)               |(GA)           | GA            |
-
-Additionally, GPT-4o is still available in India. 
-
+| GPT-4.1                             | (GA)          | GA             | (GA)           | (GA)           | (GA)           | (GA)            | GA            | (GA)           | (GA)           | GA            | (GA)         | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)               | GA           | GA             |
+| o3                                   | (GA)          | (GA)             | (GA)           | (GA)           | (GA)           | (GA)           | (GA)          | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)               |(GA)           | GA            |
 ### Custom models
 
 | Feature                                            | Asia | Australia | Canada | Europe | France | Germany | India | Japan | Korea       | Norway | Singapore | South Africa | South America | Sweden | Switzerland | United Arab Emirates | United Kingdom | United States |
