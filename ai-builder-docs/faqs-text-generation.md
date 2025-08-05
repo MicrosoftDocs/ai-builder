@@ -1,7 +1,7 @@
 ---
 title: FAQ for prompts and text generation capabilities
 description: Learn about the AI technology used in prompts, key considerations, and details about how the AI is used, how it was tested and evaluated, and limitations.
-ms.date: 07/25/2025
+ms.date: 08/05/2025
 ms.update-cycle: 180-days
 ms.custom: 
   - responsible-ai-faqs
@@ -24,7 +24,7 @@ These frequently asked questions (FAQ) describe the AI impact of AI Builder's pr
 
 ## What are prompts?
 
-The prompts feature in AI Builder offers users a versatile capability for developing AI-powered workflows, applications, data transformation, and customization of copilots. It allows for the creation of workflows and applications that summarize documents, create draft responses, classify text, and translate languages. This capability is powered by the Azure OpenAI Service, which utilizes Generative Pre-trained Transformer (GPT) technology. These models were trained on vast amounts of text data, enabling them to generate text that resembles human-written content. 
+The prompts feature in AI Builder offers users a versatile capability for developing AI-powered workflows, applications, data transformation, and customization of copilots. It allows for the creation of workflows and applications that summarize documents, create draft responses, classify text, and translate languages. This capability is powered by the Azure OpenAI Service, which utilizes Generative Pre-trained Transformer (GPT) technology. These models were trained on vast amounts of text data, enabling them to generate text that resembles human-written content.
 
 Learn more in [Transparency Note for Azure OpenAI Service](/legal/cognitive-services/openai/transparency-note?tabs=text).
 
@@ -52,7 +52,7 @@ The GPT models are trained on internet data, which is great for building a gener
 
 ## What are the limitations of the prompts feature? How can users minimize the impact of prompt limitations when using the system?
 
-The use of this technology must be in accordance with requirements in the [Code of conduct for Azure OpenAI Service](/legal/cognitive-services/openai/code-of-conduct). This technology must not be used for generating content associated with political propaganda, hate speech, misinformation, self-harm, discrimination, explicit sexual material, or other content prohibited by the Code of Conduct. Unsupported applications of this technology include providing advice, use for legal, financial, health-related guidance, or future predictions, as well as financial, scientific, or mathematical calculations, and any other unsupported usage mentioned in the [Transparency Note for Azure OpenAI Service](/legal/cognitive-services/openai/transparency-note?tabs=text). Currently, the service is exclusively supported in the United States and is available only in the English language.
+The use of this technology must be in accordance with requirements in the [Code of conduct for Azure OpenAI Service](/legal/cognitive-services/openai/code-of-conduct). This technology must not be used for generating content associated with political propaganda, hate speech, misinformation, self-harm, discrimination, explicit sexual material, or other content prohibited by the Code of Conduct. Unsupported applications of this technology include providing advice, use for legal, financial, health-related guidance, or future predictions, as well as financial, scientific, or mathematical calculations, and any other unsupported usage mentioned in the [Transparency Note for Azure OpenAI Service](/legal/cognitive-services/openai/transparency-note?tabs=text).
 
 AI-generated content can have mistakes, hence makers should inform the end users of their solution that the content generation by this model is created by AI in a transparent way. Clear communication of generated content helps in avoiding overreliance. Makers should also infuse the possibility of the human review step to make sure that the AI generated content is accurate and appropriate before using it.
 
