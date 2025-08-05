@@ -9,7 +9,7 @@ contributors:
   - antrod
   - v-aangie
 ms.topic: article
-ms.date: 07/30/2025
+ms.date: 08/04/2025
 ms.author: antode
 ms.reviewer: angieandrews
 ---
@@ -22,7 +22,7 @@ This article explains how to change the model version and settings in the prompt
 
 You can change the model version by selecting **Model** at the top of the prompt builder. The dropdown menu allows you to select from the generative AI models that generate answers to your custom prompt.
 
-The default model as of July 2025 is GPT-4.1 mini, which is in general availability (GA). You can also use the more powerful GPT-4o model (GA), o3 model (GA), or GPT 4.1 model (paid public preview). The versions of these models might change.
+The default model as of July 2025 is GPT-4.1 mini, which is in general availability (GA). You can also use the more powerful GPT-4.1 model (GA) or o3 model (GA). The versions of these models might change.
 
 Using prompts in Power Apps or Power Automate consumes AI Builder credits, while using prompts in Microsoft Copilot Studio consumes messages. Learn more in [AI Builder licensing and credit management](/ai-builder/credit-management).
 
@@ -34,16 +34,17 @@ Using prompts in Power Apps or Power Automate consumes AI Builder credits, while
 | GPT-4.1 | GA | Consumes AI Builder credits in Power Apps and flows following the **Standard** rate. [learn more](https://go.microsoft.com/fwlink/?linkid=2085130) <br>Consumes messages in Microsoft Copilot Studio following the **Standard** rate. [learn more](https://go.microsoft.com/fwlink/?linkid=2307400) | Trained on data up to June 2024. Context allowed up to 128K tokens.| [Feature availability by regions for prompts](availability-region.md)|
 | o3 | GA | Consumes AIB credits in Power Apps and flows following the **Premium** rate. [learn more](https://go.microsoft.com/fwlink/?linkid=2085130) <br>Consumes messages in Microsoft Copilot Studio following the **Premium** rate. [learn more](https://go.microsoft.com/fwlink/?linkid=2307400)  | Trained on data up to June 2024. Context allowed up to 200K tokens. | [Feature availability by regions for prompts](availability-region.md)|
 
-Choose between the model based on capabilities and scenarios.  
-In some regions like US government regions, GPT-4o mini and GPT-4o are still in use. These models follow licensing rules and offer functionalities comparable to GPT-4.1 mini and GPT-4.1, respectively. Check [Feature availability by regions for prompts](availability-region.md).  
+Choose between the models based on capabilities and scenarios.  
+
+GPT-4o mini and GPT-4o continue to be used in U.S. government regions. These models follow licensing rules and offer functionalities comparable to GPT-4.1 mini and GPT-4.1, respectively. Check [Feature availability by regions for prompts](availability-region.md).  
 
 ### Models comparison
 
-| Factors                     | GPT-4.1 mini  (default)      | GPT-4.1   | o3         |
-|---------------------------|----------------------|--------------------|------------|
-| **Cost**                  | **Basic** pricing, more cost-effective           | **Standard** pricing              | **Premium** pricing (paid preview) |
-| **Performance**           | Good for most tasks                  | Superior for complex tasks           | Trained for reasoning tasks          |
-| **Speed**                 | Faster processing                    | Might be slower due to complexity    | Slower as it reasons before responding |
+| Factors                     | GPT-4.1 mini  (default)             | GPT-4.1                              | o3                                      |
+|---------------------------|---------------------------------------|--------------------------------------|-----------------------------------------|
+| **Cost**                  | **Basic** pricing, more cost-effective| **Standard** pricing                 | **Premium** pricing (paid preview)      |
+| **Performance**           | Good for most tasks                   | Superior for complex tasks           | Trained for reasoning tasks             |
+| **Speed**                 | Faster processing                     | Might be slower due to complexity    | Slower as it reasons before responding  |
 | **Use cases**             | Summarization, information tasks, image and document processing | Image and document processing, as well complex content creation tasks |  Complex data analysis and reasoning tasks, image and document processing |
 
 ### Decision narrative
