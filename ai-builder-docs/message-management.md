@@ -8,7 +8,7 @@ contributors:
 ms.topic: article
 ms.collection: 
     - bap-ai-copilot
-ms.date: 07/15/2025
+ms.date: 08/06/2025
 ms.update-cycle: 180-days
 ms.author: antode
 ms.reviewer: angieandrews
@@ -78,7 +78,12 @@ The following list contains message consumption rules.
 - When a classic flow is transformed into an agent flow, AI Builder prompts and models within this flow begin consuming messages instead of credits.
 - Testing a prompt (within Prompt Builder) or a model (within the Model page) is free.
 
-### Examples
+## How to train a custom model to be used in Agent flow
+Training a custom model (Document processing, Object detection) happens in Power Apps or Power Automate portal, in 'AI Model' page. It requires access to AIB credits during training. This access can be removed once the model is published.
+For example, to train a custom Document processing model, you can assign 1 AI Builder credit to your environment, train and publish the model, then remove this assigned credit. 
+Your published model will be available in Agent flow and will consume messages.
+
+## Examples
 
 The following examples illustrate the message consumption rules.
 
