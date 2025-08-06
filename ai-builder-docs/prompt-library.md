@@ -92,7 +92,7 @@ Learn more in [Change the output of your prompt](change-prompt-output.md).
 
 Yes. From **Prompt model**, choose a managed model.
 
-Learn more in [Model version](prompt-modelsettings.md#model-version).
+Learn more in [Model version](prompt-modelsettings.md#model-selection).
 
 ### Can I select the temperature of a template?
 
