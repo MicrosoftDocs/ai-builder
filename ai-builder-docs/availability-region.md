@@ -14,7 +14,7 @@ contributors:
   - v-aangie
   - antode
 ms.topic: article
-ms.date: 08/05/2025
+ms.date: 08/06/2025
 ms.author: antode
 ms.reviewer: angieandrews
 ---
@@ -40,6 +40,9 @@ In the following table, (GA) means that the feature is available and uses an Azu
 | GPT-4.1 mini                         | (GA)          | GA             | (GA)           | (GA)           | (GA)           | (GA)           | GA            | (GA)           | (GA)           | GA             | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)               | GA           | GA             |
 | GPT-4.1                             | (GA)          | GA             | (GA)           | (GA)           | (GA)           | (GA)            | GA            | (GA)           | (GA)           | GA            | (GA)         | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)               | GA           | GA             |
 | o3                                   | (GA)          | (GA)             | (GA)           | (GA)           | (GA)           | (GA)           | (GA)          | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)               |(GA)           | GA            |
+
+**GPT-5 chat** and **GPT-5 reasoning** are in Paid Preview and are only available in [Early Release Cycle environments](/power-platform/admin/early-release) (i.e. where "Get new feature early" toggle has been checked). 
+
 ### Custom models
 
 | Feature                                            | Asia | Australia | Canada | Europe | France | Germany | India | Japan | Korea       | Norway | Singapore | South Africa | South America | Sweden | Switzerland | United Arab Emirates | United Kingdom | United States |
