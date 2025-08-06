@@ -9,7 +9,7 @@ contributors:
   - antrod
   - v-aangie
 ms.topic: article
-ms.date: 08/06/2025
+ms.date: 08/07/2025
 ms.author: antode
 ms.reviewer: angieandrews
 ---
@@ -23,11 +23,9 @@ This article explains how to change the model version and settings in the prompt
 You can change the model by selecting **Model** at the top of the prompt builder. The dropdown menu allows you to select from the generative AI models that generate answers to your custom prompt.
 
 The default model is GPT-4.1 mini, which is in general availability (GA). You can also use the more powerful GPT-4.1 model (GA) or o3 model (GA). The versions of these models might change.  
-We also propose GPT-5 chat (Paid Preview) and GPT-5 reasoning (Paid Preview). 
-Check availability of models by region in  [Feature availability by regions for prompts](availability-region.md).
+We also propose GPT-5 chat (Paid Preview) and GPT-5 reasoning (Paid Preview). Check availability of models by region in [Feature availability by regions for prompts](availability-region.md).
 
 Using prompts in Power Apps or Power Automate consumes **AI Builder credits**, while using prompts in Microsoft Copilot Studio consumes **messages**. Learn more in [AI Builder licensing and credit management](/ai-builder/credit-management).
-
 
 ### Models details
 
@@ -41,7 +39,7 @@ Using prompts in Power Apps or Power Automate consumes **AI Builder credits**, w
 
 GPT-4o mini and GPT-4o continue to be used in U.S. government regions. These models follow licensing rules and offer functionalities comparable to GPT-4.1 mini and GPT-4.1, respectively.  
 
-Choose between the models based on  region availability, functionalities, and use cases: check [Feature availability by regions for prompts](availability-region.md)  and the Models comparison below.
+Choose between the models based on region availability, functionalities, and use cases: check [Feature availability by regions for prompts](availability-region.md)  and the Models comparison below.
 
 ### Models comparison
 
