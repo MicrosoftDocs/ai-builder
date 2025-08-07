@@ -9,7 +9,7 @@ contributors:
   - antrod
   - v-aangie
 ms.topic: article
-ms.date: 08/05/2025
+ms.date: 08/07/2025
 ms.author: antode
 ms.reviewer: angieandrews
 ---
@@ -18,34 +18,38 @@ ms.reviewer: angieandrews
 
 This article explains how to change the model version and settings in the prompt builder. The model version and settings can affect the performance and behavior of the generative AI model.
 
-## Model version
+## Model selection
 
-You can change the model version by selecting **Model** at the top of the prompt builder. The dropdown menu allows you to select from the generative AI models that generate answers to your custom prompt.
+You can change the model by selecting **Model** at the top of the prompt builder. The dropdown menu allows you to select from the generative AI models that generate answers to your custom prompt.
 
-The default model as of July 2025 is GPT-4.1 mini, which is in general availability (GA). You can also use the more powerful GPT-4.1 model (GA) or o3 model (GA). The versions of these models might change.
+The default model is GPT-4.1 mini. You can also use the more powerful GPT-4.1 model or o3 model. The versions of these models might change.  
 
-Using prompts in Power Apps or Power Automate consumes AI Builder credits, while using prompts in Microsoft Copilot Studio consumes messages. Learn more in [AI Builder licensing and credit management](/ai-builder/credit-management).
+In addition, we propose GPT-5 chat (preview) and GPT-5 reasoning (preview). Check availability of models by region in [Feature availability by regions for prompts](availability-region.md#prompts).
+
+Using prompts in Power Apps or Power Automate consumes *AI Builder credits*, while using prompts in Microsoft Copilot Studio consumes *messages*. Learn more in [AI Builder licensing and credit management](credit-management.md).
 
 ### Models details
 
-|GPT model  |Status   |Licensing rules   | Functionalities| Region availabilities |
-|---------|---------|---------|---------|---------|
-|GPT-4.1 mini | GA - Default model	| Consumes AI Builder credits in Power Apps and flows following the **Basic** rate. [learn more](https://go.microsoft.com/fwlink/?linkid=2085130) <br>Consumes messages in Microsoft Copilot Studio following the **Basic** rate. [learn more](https://go.microsoft.com/fwlink/?linkid=2307400)  | Trained on data up to June 2024. Context allowed up to 128K tokens. | [Feature availability by regions for prompts](availability-region.md)
-| GPT-4.1 | GA | Consumes AI Builder credits in Power Apps and flows following the **Standard** rate. [learn more](https://go.microsoft.com/fwlink/?linkid=2085130) <br>Consumes messages in Microsoft Copilot Studio following the **Standard** rate. [learn more](https://go.microsoft.com/fwlink/?linkid=2307400) | Trained on data up to June 2024. Context allowed up to 128K tokens.| [Feature availability by regions for prompts](availability-region.md)|
-| o3 | GA | Consumes AIB credits in Power Apps and flows following the **Premium** rate. [learn more](https://go.microsoft.com/fwlink/?linkid=2085130) <br>Consumes messages in Microsoft Copilot Studio following the **Premium** rate. [learn more](https://go.microsoft.com/fwlink/?linkid=2307400)  | Trained on data up to June 2024. Context allowed up to 200K tokens. | [Feature availability by regions for prompts](availability-region.md)|
+|GPT model  |Licensing rules   | Functionalities|
+|-----------|------------------|----------------|
+|GPT-4.1 mini <br> (Default model) | Charged at the **Basic** rate. <br> Consumes *messages* in Microsoft Copilot Studio (more information: [Message scenarios](https://go.microsoft.com/fwlink/?linkid=2307400)) and *AI Builder credits* in Power Apps and flows (more information: [Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130))  | Trained on data up to June 2024. Context allowed up to 128K tokens. |
+| GPT-4.1 | Charged at the **Standard** rate. <br> Consumes  *messages* in Microsoft Copilot Studio (more information: [Message scenarios](https://go.microsoft.com/fwlink/?linkid=2307400)) and *AI Builder credits* in Power Apps and flows (more information: [Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130)) | Trained on data up to June 2024. Context allowed up to 128K tokens.|
+| o3 | Charged at the **Premium** rate. <br> Consumes  *messages* in Microsoft Copilot Studio (more information: [Message scenarios](https://go.microsoft.com/fwlink/?linkid=2307400)) and *AI Builder credits* in Power Apps and flows (more information: [Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130))   | Trained on data up to June 2024. Context allowed up to 200K tokens. | 
+| GPT-5 chat (preview) | Charged at the **Standard** rate. <br> Consumes  *messages* in Microsoft Copilot Studio (more information: [Message scenarios](https://go.microsoft.com/fwlink/?linkid=2307400)) and *AI Builder credits* in Power Apps and flows (more information: [Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130))  | Trained on data up to June 2025. Context allowed up to 1M tokens. |
+| GPT-5 reasoning (preview) | Charged at the **Premium** rate. <br> Consumes  *messages* in Microsoft Copilot Studio (more information: [Message scenarios](https://go.microsoft.com/fwlink/?linkid=2307400)) and *AI Builder credits* in Power Apps and flows (more information: [Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130))  | Trained on data up to June 2025. Context allowed up to 1M tokens. |
 
-Choose between the models based on capabilities and scenarios.  
+GPT-4o mini and GPT-4o continue to be used in U.S. government regions. These models follow licensing rules and offer functionalities comparable to GPT-4.1 mini and GPT-4.1, respectively.  
 
-GPT-4o mini and GPT-4o continue to be used in U.S. government regions. These models follow licensing rules and offer functionalities comparable to GPT-4.1 mini and GPT-4.1, respectively. Check [Feature availability by regions for prompts](availability-region.md).  
+Choose between the models based on region availability, functionalities, and use cases. Check [Feature availability by regions for prompts](availability-region.md#prompts)  and the following [Models comparison](#models-comparison).
 
 ### Models comparison
 
-| Factors                     | GPT-4.1 mini  (default)             | GPT-4.1                              | o3                                      |
-|---------------------------|---------------------------------------|--------------------------------------|-----------------------------------------|
-| **Cost**                  | **Basic** pricing, more cost-effective| **Standard** pricing                 | **Premium** pricing (paid preview)      |
-| **Performance**           | Good for most tasks                   | Superior for complex tasks           | Trained for reasoning tasks             |
-| **Speed**                 | Faster processing                     | Might be slower due to complexity    | Slower as it reasons before responding  |
-| **Use cases**             | Summarization, information tasks, image and document processing | Image and document processing, as well complex content creation tasks |  Complex data analysis and reasoning tasks, image and document processing |
+| Factors                     | GPT-4.1 mini  (default)             | GPT-4.1                              | o3                                      | GPT-5 chat (preview)                  | GPT-5 reasoning (preview)            |
+|---------------------------|---------------------------------------|--------------------------------------|-----------------------------------------|---------------------------------------|--------------------------------------|
+| Cost                  | **Basic** pricing, more cost-effective| **Standard** pricing                 | **Premium** pricing                     |**Standard** pricing                   |   **Premium** pricing                |
+| Performance           | Good for most tasks                   | Superior for complex tasks           | Trained for reasoning tasks             | Highest scores in document understanding and response accuracy|  Highest score in reasoning tasks like planning or complex analysis|
+| Speed              | Faster processing                     | Might be slower due to complexity    | Slower, as it reasons before responding  | Enhanced, compared to GPT 4.1          | Slow, as it reasons before responding |
+| Use cases            | Summarization, information tasks, image and document processing | Image and document processing, advanced content creation tasks |  Data analysis and reasoning tasks, image and document processing | More advanced document processing, responses requiring high accuracy | Handle highest  complexity of  data analysis and reasoning tasks |
 
 ### Decision narrative
 
@@ -53,7 +57,9 @@ When you need a cost-effective solution for moderately complex tasks, have limit
 
 When you're dealing with highly complex, multimodal tasks that require superior performance and detailed analysis, choose GPT-4.1. It's the better choice for large-scale projects where accuracy and advanced capabilities are crucial. Another scenario where it's a better choice is when you have the budget and computational resources to support it. GPT-4.1 is also preferable for long-term projects that might grow in complexity over time.
 
-For projects requiring advanced reasoning capabilities, the o3 model excels. It's suitable for scenarios that demand sophisticated problem-solving and critical thinking. The o3 model excels in environments where nuanced reasoning, complex decision-making, and detailed analysis are important. 
+For projects requiring advanced reasoning capabilities, the o3 model excels. It's suitable for scenarios that demand sophisticated problem-solving and critical thinking. The o3 model excels in environments where nuanced reasoning, complex decision-making, and detailed analysis are important.
+
+GPT-5 chat and GPT-5 reasoning models are the most up-to-date model available, incorporating recent developments in AI about response accuracy, answers being more context aware, better document and image processing, or data analysis.
 
 ## Model settings
 
@@ -87,4 +93,4 @@ Adjusting the temperature can influence the model’s output, but it doesn't gua
   - GPT-4.1 mini model replaced GPT-4o mini model. Existing prompts previously running on GPT-4o mini now run on GPT-4.1 mini, using same **Basic** rates.
   - GPT-4.1 model replaced GPT-4o and is in GA. Existing prompts previously running on GPT-4o now run on GPT-4.1, using same **Standard** rates.
   - o3 model replaced o1 model and is in GA. Existing prompts previously running on o1 now run on o3, using same **Premium** rates.
-
+- In August 2025, we added GPT-5 chat and GPT-5 reasoning to the model selector (preview).

@@ -3,9 +3,9 @@ title:  Feature availability by region
 description: Learn which AI Builder features are available in each region or US Government environment. Lists the release status for each feature by region or US Government environment.
 author: Antoine2F
 contributors:
+  - Antoine2F
   - antrodfr
   - CedrickBellarosa
-  - Antoine2F
   - phil-cmd
   - chplanty
   - xiao-wang-paris
@@ -14,7 +14,7 @@ contributors:
   - v-aangie
   - antode
 ms.topic: article
-ms.date: 08/05/2025
+ms.date: 08/07/2025
 ms.author: antode
 ms.reviewer: angieandrews
 ---
@@ -40,6 +40,9 @@ In the following table, (GA) means that the feature is available and uses an Azu
 | GPT-4.1 mini                         | (GA)          | GA             | (GA)           | (GA)           | (GA)           | (GA)           | GA            | (GA)           | (GA)           | GA             | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)               | GA           | GA             |
 | GPT-4.1                             | (GA)          | GA             | (GA)           | (GA)           | (GA)           | (GA)            | GA            | (GA)           | (GA)           | GA            | (GA)         | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)               | GA           | GA             |
 | o3                                   | (GA)          | (GA)             | (GA)           | (GA)           | (GA)           | (GA)           | (GA)          | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)               |(GA)           | GA            |
+
+**GPT-5 chat** (preview) and **GPT-5 reasoning** (preview) are available only in **US** [early release cycle environments](/power-platform/admin/early-release) (where the **Get new feature early** toggle is checked in the **New environment** pane when you create a new environment).
+
 ### Custom models
 
 | Feature                                            | Asia | Australia | Canada | Europe | France | Germany | India | Japan | Korea       | Norway | Singapore | South Africa | South America | Sweden | Switzerland | United Arab Emirates | United Kingdom | United States |
