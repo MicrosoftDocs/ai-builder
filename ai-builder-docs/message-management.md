@@ -8,7 +8,7 @@ contributors:
 ms.topic: article
 ms.collection: 
     - bap-ai-copilot
-ms.date: 07/15/2025
+ms.date: 08/7/2025
 ms.update-cycle: 180-days
 ms.author: antode
 ms.reviewer: angieandrews
@@ -73,10 +73,11 @@ Here's the mapping between AI Builder capabilities and Copilot Studio features:
 
 The following list contains message consumption rules.
 
-- Prompts in topics or actions triggered from the agent-embedded test panel are free.  
+- Prompts in topics or actions triggered from the agent-embedded test panel are free.
 - Prompts and models in agent flows always consume messages, even when triggered from an agent-embedded test panel, or from the flow designer.
 - When a classic flow is transformed into an agent flow, AI Builder prompts and models within this flow begin consuming messages instead of credits.
 - Testing a prompt (within Prompt Builder) or a model (within the Model page) is free.
+- Prompts in agents or agent flows consume messages, even with models in preview. Such models are tagged as 'paid preview'.
 
 ### Examples
 
