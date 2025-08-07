@@ -41,7 +41,7 @@ In the following table, (GA) means that the feature is available and uses an Azu
 | GPT-4.1                             | (GA)          | GA             | (GA)           | (GA)           | (GA)           | (GA)            | GA            | (GA)           | (GA)           | GA            | (GA)         | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)               | GA           | GA             |
 | o3                                   | (GA)          | (GA)             | (GA)           | (GA)           | (GA)           | (GA)           | (GA)          | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)               |(GA)           | GA            |
 
-**GPT-5 chat** and **GPT-5 reasoning** are in paid preview and are available only in [Early release cycle environments](/power-platform/admin/early-release) (for example, where the **Get new feature early** toggle is checked in the **New environment** pane when you create a new environment).
+**GPT-5 chat** (preview) and **GPT-5 reasoning** (preview) are available only in [Early release cycle environments](/power-platform/admin/early-release) (where the **Get new feature early** toggle is checked in the **New environment** pane when you create a new environment).
 
 ### Custom models
 
