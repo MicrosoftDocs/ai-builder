@@ -8,7 +8,7 @@ contributors:
 ms.topic: article
 ms.collection: 
     - bap-ai-copilot
-ms.date: 08/7/2025
+ms.date: 08/07/2025
 ms.update-cycle: 180-days
 ms.author: antode
 ms.reviewer: angieandrews
@@ -93,4 +93,4 @@ This employee's request consumed five (5) responses of the **Text and generative
 
 An agent flow is triggered when receiving email from a specific address. It processes the attached file, which contains three (3) pages, using a custom document processing model.
 
-This consumes (3) pages of the content processing tools feature, which equals 24 messages. This is in addition to the cost of the agent flow actions.
+This consumes three (3) pages of the content processing tools feature, which equals 24 messages. This is in addition to the cost of the agent flow actions.

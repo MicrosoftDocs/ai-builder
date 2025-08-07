@@ -10,7 +10,7 @@ contributors:
 ms.topic: article
 ms.collection: 
     - bap-ai-copilot
-ms.date: 04/10/2025
+ms.date: 08/07/2025
 ms.update-cycle: 180-days
 ms.author: antode
 ms.reviewer: angieandrews
@@ -139,7 +139,7 @@ Each AI Builder model has a different credit consumption mechanism. To perform a
 
 #### Free actions
 
-Preview scenarios in AI Models don't consume credits. However, using a Prompt in Power Automate or Power Apps consumes credits, even if underlying model is preview: such models are tagged as 'paid preview'in Prompt Builder. 
+Preview scenarios in AI Models don't consume credits. However, using a prompt in Power Automate or Power Apps consumes credits, even if the underlying model is preview: such models are tagged as 'paid preview' in prompt builder.
 
 - Testing prompts in prompt builder doesn't consume credits.
 - A **Quick test** on a trained object detection and document processing model doesn't consume credits.
