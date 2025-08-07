@@ -139,9 +139,8 @@ Each AI Builder model has a different credit consumption mechanism. To perform a
 
 #### Free actions
 
-Preview scenarios don't consume credits, except when using the o1 reasoning model in prompts, which is currently in a paid preview.
+Preview scenarios in AI Models don't consume credits. However, using a Prompt in Power Automate or Power Apps consumes credits, even if underlying model is preview: such models are tagged as 'paid preview'in Prompt Builder. 
 
-- Preview scenarios don't consume credits, except the preview feature to pass images or documents to a prompt.
 - Testing prompts in prompt builder doesn't consume credits.
 - A **Quick test** on a trained object detection and document processing model doesn't consume credits.
 
