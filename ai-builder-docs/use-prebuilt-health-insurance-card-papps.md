@@ -87,5 +87,5 @@ Concat(
 
 ## Related information
 
-- [Health insurance card Model](prebuilt-health-insurance-card-model.md)
+- [Health insurance card processing model](prebuilt-health-insurance-card.md)
 - [Power Fx formula reference overview](/power-platform/power-fx/formula-reference-overview)

@@ -19,8 +19,8 @@ The model extracts information such as insurer, member, prescription, group numb
 
 To learn how to use the health insurance card processing prebuilt model, select from the following articles:
 
-- **Power Apps**: [Use the health insurance card processing prebuilt model in Power Apps](use-prebuilt-health-insurance-card-in-papps.md)
-- **Power Automate**: [Use the health insurance card processing prebuilt model in Power Automate](use-prebuilt-health-insurance-card-in-pauto.md)
+- **Power Apps**: [Use the health insurance card processing prebuilt model in Power Apps](use-prebuilt-health-insurance-card-papps.md)
+- **Power Automate**: [Use the health insurance card processing prebuilt model in Power Automate](use-prebuilt-health-insurance-card-pauto.md)
 
 ## Supported language, format, and size
 
