@@ -23,7 +23,7 @@ ms.reviewer: angieandrews
 
 - Specify File Content as the contract document file you want to process in your flow.
 
-    :::image type="content" source="media/use-prebuilt-health-insurance-card-pauto/extract-information-from-health-insurance-card-file-input.png" alt-text="Screenshot of a manually triggered extract information step in a flow, with a health insurance card selected.":::
+    :::image type="content" source="media/use-prebuilt-health-insurance-card-power-automate/extract-information-from-health-insurance-card-file-input.png" alt-text="Screenshot of a manually triggered extract information step in a flow, with a health insurance card selected.":::
 
 Congratulations! You've created a flow that uses the health insurance card processing model. Select Save, and then select Test in the upper-right corner to try out your flow.
 

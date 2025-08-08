@@ -61,11 +61,11 @@ Learn about requirements in [Supported language, format, and size](prebuilt-heal
 ```
 You can select your desired field from the available field.
 
-:::image type="content" source="media/use-prebuilt-health-insurance-card-papps/powerfx-select-fields-health-insurance-card.png" alt-text="Screenshot of all available text fields for a health insurance card.":::
+:::image type="content" source="media/use-prebuilt-health-insurance-card-power-apps/powerfx-select-fields-health-insurance-card.png" alt-text="Screenshot of all available text fields for a health insurance card.":::
 
 -  Select Save, and then select the play button.
 
-:::image type="content" source="media/use-prebuilt-health-insurance-card-papps/powerfx-select-fields-health-insurance-save.png" alt-text="Screenshot of an insurer text field for a health insurance card.":::
+    :::image type="content" source="media/use-prebuilt-health-insurance-card-power-apps/powerfx-select-fields-health-insurance-save.png" alt-text="Screenshot of an insurer text field for a health insurance card.":::
 
 You can also use this formula to retrieve the first item from the result and extract the name of that item as a text string.
 
@@ -73,7 +73,7 @@ You can also use this formula to retrieve the first item from the result and ext
 First('Health insurance card Model'.Predict(UploadedImage1.Image).Tables.Member.Rows).Name.Value.Text
 ```
 
-:::image type="content" source="media/use-prebuilt-health-insurance-card-papps/powerfx-first-row-table-name-fields-health-insurance.png" alt-text="Screenshot of a first member field for a health insurance card.":::
+:::image type="content" source="media/use-prebuilt-health-insurance-card-power-apps/powerfx-first-row-table-name-fields-health-insurance.png" alt-text="Screenshot of a first member field for a health insurance card.":::
 
 This expression concatenates the text values from the CoPay Benefits field of each row in the prediction results of an image related to a health insurance card, and separates each value.
 
@@ -83,9 +83,9 @@ Concat(
 )
 ```
 
-:::image type="content" source="media/use-prebuilt-health-insurance-card-papps/powerfx-concat-table-name-fields-copays-health-insurance.png" alt-text="Screenshot of Copays benefits fields amount and benefit for a health insurance card.":::
+:::image type="content" source="media/use-prebuilt-health-insurance-card-power-apps/powerfx-concat-table-name-fields-copays-health-insurance.png" alt-text="Screenshot of Copays benefits fields amount and benefit for a health insurance card.":::
 
 ## Related information
 
-- [Health insurance card processing model](prebuilt-health-insurance-card.md)
+- [Health insurance card processing model](prebuilt-health-insurance-card-model.md)
 - [Power Fx formula reference overview](/power-platform/power-fx/formula-reference-overview)

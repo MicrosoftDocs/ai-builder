@@ -267,7 +267,7 @@
       - name: Business card reader model
         href: flow-business-card-reader.md
       - name: Health insurance card processing model
-        href: use-prebuilt-health-insurance-card-pauto.md  
+        href: use-prebuilt-health-insurance-card-power-automate.md  
       - name: Contract processing model (preview)
         href: use-prebuilt-contract-processing-power-automate.md
     - name: Text
@@ -313,7 +313,7 @@
       - name: Use in a model-driven app
         href: business-card-reader-component-model-driven.md
     - name: Health insurance card processing model
-      href: use-prebuilt-health-insurance-card-powerapps.md
+      href: use-prebuilt-health-insurance-card-power-apps.md
     - name: Contract processing model (preview)
       href: use-prebuilt-contract-processing-power-apps.md
   - name: Images
