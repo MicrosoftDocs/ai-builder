@@ -109,9 +109,9 @@ To control AI Builder preview feature availability:
 
 1. Sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com).
 
-1. In the admin center, go to **Environments** > *[select an environment]* > **Settings** > **Features**.
+1. In the admin center, go to **Manage** > **Environments** > *[select an environment]* > **Settings** > **Features**.
 
-1. On the **Features** settings page, under **AI Builder**, enable or disable **AI Builder preview models**.
+1. On the **Features** settings page, under **Preview and experimental AI models**, enable or disable **Let people use AI models that are experimental or in preview**.
 
 ### Important points related to enabling or disabling the feature
 
