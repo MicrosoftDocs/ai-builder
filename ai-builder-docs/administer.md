@@ -97,13 +97,13 @@ Dataverse has strong security mechanisms that prevent unauthorized access to use
 
 Learn more in [Roles and security in AI Builder](/ai-builder/security).
 
-## Enable or disable AI Builder preview features
+## Enable or disable preview features or models
 
 Some AI Builder features are released for general availability. Others remain in preview release status.
 
-Preview features appear on the Explore page with the **Preview** label. In the Power Platform admin center, administrators control whether users have access to preview features.
+Preview features and models are marked with the **Preview** label. In the Power Platform admin center, administrators control whether users have access to preview and experimental features and models.
 
-By default, the **AI Builder preview models** feature is enabled for any eligible environment. Eligible environments must have Microsoft Dataverse and be in a [supported region](availability-region.md). If the environment isn't eligible, the **AI Builder preview models** feature doesn't appear in the Power Platform admin center.
+By default, the **Preview and experimental AI models** (called **AI Builder preview models** before August 2025) feature is enabled for any eligible environment. Eligible environments must have Microsoft Dataverse and be in a [supported region](availability-region.md). If the environment isn't eligible, the **Preview and experimental AI models** feature doesn't appear in the Power Platform admin center.
 
 To control AI Builder preview feature availability:
 
@@ -115,13 +115,13 @@ To control AI Builder preview feature availability:
 
 ### Important points related to enabling or disabling the feature
 
-- If you disable **AI Builder preview models**:
+- If you disable **Preview and experimental AI models**:
   - We don't delete existing models that users of this environment created.
   - AI Builder components are disabled.
   - Existing experiences that use existing AI Builder components fail or return errors.
   - Admins and owners can delete preview models.
 
-- If you enable **AI Builder preview models** again:
+- If you enable **Preview and experimental AI models** again:
   - AI Builder components are available again.
   - Components function as they did before the feature was disabled (assuming nothing else changed).
 
