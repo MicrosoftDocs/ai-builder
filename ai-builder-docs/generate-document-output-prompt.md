@@ -1,5 +1,5 @@
 ---
-title: Generate 'Document (Preview)' output for a prompt (preview)
+title: Generate 'Document (preview)' output for a prompt (preview)
 description: Learn how to manage document output.
 author: antrodfr
 contributors:
@@ -14,7 +14,7 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-# Generate 'Document (Preview)' output for a prompt (preview)
+# Generate 'Document (preview)' output for a prompt (preview)
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
 The document output lets you generate a Word document for your prompt response instead of text. The generated document follows a layout that needs to be provided in the document output settings.
