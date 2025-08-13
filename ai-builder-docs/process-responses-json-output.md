@@ -17,7 +17,7 @@ ms.collection:
 
 # Process responses with JSON output
 
-By default, the prompt generates text as response. Text can be convenient for many uses cases. However, if the response has several elements that need to be identified individually, the text option can be limited.
+By default, the prompt generates text as response. Text can be convenient for many uses cases; however, if the response has several elements that need to be identified individually, the text option can be limited.
 
 ## Benefits of using JSON output
 
