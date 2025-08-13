@@ -1,13 +1,13 @@
 ---
-title: Change the output of your prompt
-description: Learn how to change the output of your prompt.
+title: Process responses with JSON output
+description: Learn how to create a document prompt, use it in Power Automate, and edit the prompt. 
 author: antrodfr
 contributors:
   - antrodfr
   - -phil-cmd
   - v-aangie
 ms.topic: how-to
-ms.date: 06/23/2025
+ms.date: 08/19/2025
 ms.update-cycle: 180-days
 ms.author: antrod
 ms.reviewer: angieandrews
@@ -15,7 +15,7 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-# Change the output of your prompt
+# Process responses with JSON output
 
 By default, the prompt generates text as response. Text can be convenient for many uses cases. However, if the response has several elements that need to be identified individually, the text option can be limited.
 
@@ -38,23 +38,23 @@ This section describes how to select JSON as output and edit the JSON format.
 
 To change how the prompt response is rendered, select **JSON** as the output in the top-right corner.
 
-:::image type="content" source="media/change-prompt-output/test-prompt-auto.png" alt-text="Screenshot of selections on the 'Prompt with JSON' page.":::
+:::image type="content" source="media/process-responses-json-output/test-prompt-auto.png" alt-text="Screenshot of selections on the 'Prompt with JSON' page.":::
 
 ### Edit JSON format
 
 To view or edit the JSON format, select the settings icon to the left of **Output: JSON**.
 
-:::image type="content" source="media/change-prompt-output/output-settings.png" alt-text="Screenshot of the output settings.":::
+:::image type="content" source="media/process-responses-json-output/output-settings.png" alt-text="Screenshot of the output settings.":::
 
 By default, the format is **Auto detected**. This format means each time you test your prompt, the format associated to the prompt is refreshed with the one detected at testing time. This format is convenient when you're iterating on your prompt instructions and want to know how the response format evolves.
 
-:::image type="content" source="media/change-prompt-output/auto-detect.png" alt-text="Screenshot of the 'Auto-detected format'.":::
+:::image type="content" source="media/process-responses-json-output/auto-detect.png" alt-text="Screenshot of the 'Auto-detected format'.":::
 
 If you update the JSON example, the format becomes **Custom** and is never updated if you test your prompt again. This format is convenient when you don't want prompt tweaking to influence the format, or if you need to follow a specific format.
 
 You can revert to auto-detect mode by selecting the **Back to auto-detect** icon.
 
-:::image type="content" source="media/change-prompt-output/back-auto.png" alt-text="Screenshot of the 'Back to auto-detected' icon.":::
+:::image type="content" source="media/process-responses-json-output/back-auto.png" alt-text="Screenshot of the 'Back to auto-detected' icon.":::
 
 To test and save your prompt, follow these steps:
 
@@ -70,17 +70,17 @@ At any time, you can check the JSON schema that generates out of the JSON exampl
 
 This section guides you to create the following cloud flow:
 
-:::image type="content" source="media/change-prompt-output/output-flow.png" alt-text="Screenshot of a cloud flow with a prompt":::
+:::image type="content" source="media/process-responses-json-output/output-flow.png" alt-text="Screenshot of a cloud flow with a prompt":::
 
 1. Create a prompt to process invoices using an **Image or document** as input.
 
    Learn more in [Add text, image, or document input to a prompt](/ai-builder/add-inputs-prompt).
 
-   :::image type="content" source="media/change-prompt-output/invoice-prompt.png" alt-text="Screenshot of an invoice processing prompt.":::
+   :::image type="content" source="media/process-responses-json-output/invoice-prompt.png" alt-text="Screenshot of an invoice processing prompt.":::
 
 1. Update the JSON format by providing the following JSON example:
 
-   :::image type="content" source="media/change-prompt-output/custom-format.png" alt-text="Screenshot of a custom JSON format.":::
+   :::image type="content" source="media/process-responses-json-output/custom-format.png" alt-text="Screenshot of a custom JSON format.":::
 
 1. Create a cloud flow with the **When a new email arrives** trigger. To process specific emails, make sure to set filters.
 
@@ -90,13 +90,13 @@ This section guides you to create the following cloud flow:
 
 1. In the **invoice** input, add the email attachment from the trigger action.
 
-   :::image type="content" source="media/change-prompt-output/output-flow-prompt.png" alt-text="Screenshot of prompt parameters in a cloud flow.":::
+   :::image type="content" source="media/process-responses-json-output/output-flow-prompt.png" alt-text="Screenshot of prompt parameters in a cloud flow.":::
 
 1. Add the **Send an email** action.
    
 1. Edit the email body to include the elements extracted by the prompt with JSON output.
 
-    :::image type="content" source="media/change-prompt-output/gpt-output-json-flow.png" alt-text="Screenshot of an email body showing JSON fields.":::
+    :::image type="content" source="media/process-responses-json-output/gpt-output-json-flow.png" alt-text="Screenshot of an email body showing JSON fields.":::
 
 ## FAQ
 

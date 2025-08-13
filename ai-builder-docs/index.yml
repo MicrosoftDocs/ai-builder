@@ -47,8 +47,8 @@ landingContent:
         links:
           - text: Create a prompt
             url: create-a-custom-prompt.md
-          - text: Change the output of your prompt (preview)
-            url: change-prompt-output.md
+          - text: Process responses with JSON output
+            url: process-responses-json-output.md
           - text: Model selection and temperature settings
             url: prompt-modelsettings.md
           - text: Use your own data in a prompt

@@ -39,10 +39,10 @@
     href: use-your-own-prompt-data.md    
   - name: Change the output of your prompt
     items:
-    - name: JSON output
-      href: change-prompt-output.md
-    - name: Document output (preview)
-      href: change-prompt-output-document.md
+    - name: Process responses with JSON output
+      href: process-responses-json-output.md
+    - name: Generate 'Document (Preview)' output for a prompt (preview)
+      href: generate-document-output-prompt.md
   - name: Share your prompt
     href: share-your-prompt.md 
   - name: Distribute your prompt using a solution
