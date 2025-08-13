@@ -9,7 +9,7 @@ ms.topic: article
 ms.collection: 
 - get-started
 - bap-ai-copilot
-ms.date: 05/20/2025
+ms.date: 08/15/2025
 ms.update-cycle: 180-days
 ms.custom: build-2025
 ms.author: antrod
@@ -47,9 +47,9 @@ Use the following steps to set up and run batch tests for your prompts.
 
 ### Define the test cases
 
-1. Sign in to [Copilot Studio](https://copilotstudio.microsoft.com), [Power Apps](https://make.powerapps.com) or [Power Automate](https://make.powerautomate.com).
+1. Sign in to [Copilot Studio](https://copilotstudio.microsoft.com), [Power Apps](https://make.powerapps.com), or [Power Automate](https://make.powerautomate.com).
 1. Access the list of prompts:
-   - In Copilot Studio, select **Tools** and filter on prompts.
+   - In Copilot Studio, select **Tools**, and then filter on prompts.
    - In Power Apps and Power Automate, select **AI hub**.
 
 1. Next to the prompt name, select the vertical ellipsis (&vellip;).
@@ -57,50 +57,48 @@ Use the following steps to set up and run batch tests for your prompts.
 
     :::image type="content" source="media/batch-testing-prompts/more.png" alt-text="Screenshot of the 'More' menu with the 'Test hub - Preview' option.":::
 
-   In Copilot Studio, the test hub will appear as following:
+    In Copilot Studio, the test hub looks like the following screenshot:
 
     :::image type="content" source="media/batch-testing-prompts/test-gub-get-started.png" alt-text="Screenshot of the Test hub screen.":::
 
 1. Add your test cases using one the available options:
-   - **Upload**: allows you to upload test cases using a csv file. If you want to check the format of the file you need to upload, select Download test data schema.
-   - **AI-generate**: allows you to generate test cases using AI based on your prompt.
-   - **Use activity data**: allows you to pull the recent prompt activity to help you get started.
-   - **Manually Add**: allows to create test cases manually.
+   - **Upload**: Allows you to upload test cases using a csv file. If you want to check the format of the file you need to upload, select Download test data schema.
+   - **AI-generate**: Allows you to generate test cases using AI based on your prompt.
+   - **Use activity data**: Allows you to pull the recent prompt activity to help you get started.
+   - **Manually Add**: Allows you to create test cases manually.
 
-   Any of the option will help you create a list of test cases that you will be able to run:
-    
-      :::image type="content" source="media/batch-testing-prompts/list-uploaded-test-case.png" alt-text="Screenshot of the uploaded test cases.":::
+   Any of the options help you create a list of test cases that you're able to run:
 
+   :::image type="content" source="media/batch-testing-prompts/list-uploaded-test-case.png" alt-text="Screenshot of the uploaded test cases.":::
 
 ### Set evaluation criteria
 
-1. After creating the test cases, select **Configure criteria** in the configuration section on the right:
+1. After you create the test cases, select **Configure criteria** in the configuration section on the right:
+
     :::image type="content" source="media/batch-testing-prompts/configure-eval-criteria.png" alt-text="Screenshot of configure evaluation criteria.":::
 
-1. Define the **Passing score** which is the minimum score requiresd for a response to pass.
-   
+1. Define the **Passing score**, which is the minimum score required for a response to pass.
+
 1. Choose one of the following prebuilt criteria:
     - **Response quality**: Tests responses for clarity, helpfulness, and tone
     - **Response matches**: Tests responses for specific words and meanings
     - **JSON correctness**: Tests that responses follow your data schema
 
-      :::image type="content" source="media/batch-testing-prompts/evaluation-criteria.png" alt-text="Screenshot of evaluation criteria.":::
+    :::image type="content" source="media/batch-testing-prompts/evaluation-criteria.png" alt-text="Screenshot of evaluation criteria.":::
 
-      These criteria and passing score determine how test cases outputs are assessed during the evaluation process.
-
+    These criteria and passing score determine how test cases outputs are assessed during the evaluation process.
 
 ### Run batch tests
 
-1. In the test cases screen, click on **Run all** to run evaluation on all the test cases or select the test cases to run and click on **Run selected**.
+1. In the test cases screen, select **Run all** to run evaluation on all the test cases, or select the test cases to run and select **Run selected**.
 
     :::image type="content" source="media/batch-testing-prompts/run-tests.png" alt-text="Screenshot of tests to run.":::
 
    The test hub evaluates results against the defined criteria, providing insights into the prompt's performance.
 
-1. Once the test cases evaluation is done, you'll see the result screen appear:
+1. Once the test cases evaluation is done, the result screen appears:
 
     :::image type="content" source="media/batch-testing-prompts/run-result.png" alt-text="Screenshot of tests results.":::
-   
 
 1. To access previous evaluation runs, select the prompt name at the top of the screen in Copilot Studio, or select **Run history** in Power Apps or Power Automate.
 
@@ -109,12 +107,12 @@ Use the following steps to set up and run batch tests for your prompts.
 1. To view details, select the evaluation run.
 
 Run history allows you to monitor and analyze test results over time, including:
+
 - Track accuracy score progression across multiple test runs.
 - Compare outcomes from different runs to identify trends or regressions.
-- Access details of why a certain test result was classified pass or fail thus offering more detailed for diagnosis.
+- Access details of why a certain test result was classified pass or fail, thus offering more details for diagnosis.
 
 Iterate on the test cases evaluation and monitor any significant change between evaluation runs.
-
 
 ## Related information
 
