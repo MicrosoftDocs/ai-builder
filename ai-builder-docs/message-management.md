@@ -8,7 +8,7 @@ contributors:
 ms.topic: article
 ms.collection: 
     - bap-ai-copilot
-ms.date: 07/15/2025
+ms.date: 08/07/2025
 ms.update-cycle: 180-days
 ms.author: antode
 ms.reviewer: angieandrews
@@ -47,11 +47,11 @@ The cost per unit is published in the [Licensing Guide (PDF)](https://go.microso
 
 Here's the mapping between AI Builder capabilities and Copilot Studio features:
 
- | AI Builder capability | Copilot Studio/AI Tools features | Unit |
-|------------------------------------------|-------------|-------------|
-| Prompt using GPT 4.1-mini model     | Text and generative AI tools (basic)     | 1 response per 1K tokens*   |
-| Prompt using GPT 4o model           | Text and generative AI tools (standard)  | 1 response per 1K tokens*   |
-| Prompt using o1, o3 model           | Text and generative AI tools (premium)   | 1 response per 1K tokens*   |
+ | AI Builder capability                   | Copilot Studio/AI Tools features         |                        Unit |
+|------------------------------------------|------------------------------------------|-----------------------------|
+| Prompt using GPT-4.1 mini model          | Text and generative AI tools (basic)     | 1 response per 1K tokens*   |
+| Prompt using GPT-4.1, GPT-5 chat model   | Text and generative AI tools (standard)  | 1 response per 1K tokens*   |
+| Prompt using o3, GPT-5 reasoning model   | Text and generative AI tools (premium)   | 1 response per 1K tokens*   |
 | Custom document processing model    | Content processing tools                 | 1 page                      |
 | Invoice processing                  | Content processing tools                 | 1 page                      |
 | Receipt processing                  | Content processing tools                 | 1 image = 1 page            |
@@ -73,10 +73,11 @@ Here's the mapping between AI Builder capabilities and Copilot Studio features:
 
 The following list contains message consumption rules.
 
-- Prompts in topics or actions triggered from the agent-embedded test panel are free.  
+- Prompts in topics or actions triggered from the agent-embedded test panel are free.
 - Prompts and models in agent flows always consume messages, even when triggered from an agent-embedded test panel, or from the flow designer.
 - When a classic flow is transformed into an agent flow, AI Builder prompts and models within this flow begin consuming messages instead of credits.
 - Testing a prompt (within Prompt Builder) or a model (within the Model page) is free.
+- Prompts in agents or agent flows consume messages, even with models in preview. Such models are tagged as 'paid preview'.
 
 ### Examples
 
@@ -92,4 +93,4 @@ This employee's request consumed five (5) responses of the **Text and generative
 
 An agent flow is triggered when receiving email from a specific address. It processes the attached file, which contains three (3) pages, using a custom document processing model.
 
-This consumes (3) pages of the content processing tools feature, which equals 24 messages. This is in addition to the cost of the agent flow actions.
+This consumes three (3) pages of the content processing tools feature, which equals 24 messages. This is in addition to the cost of the agent flow actions.

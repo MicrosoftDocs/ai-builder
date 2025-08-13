@@ -49,7 +49,7 @@
     href: distribute-prompt.md
   - name: Change the model version and settings
     href: prompt-modelsettings.md
-  - name: Bring your own model for your prompts (preview)
+  - name: Bring your own model for your prompts
     href: byom-for-your-prompts.md
   - name: Batch testing for prompts (preview)
     href: batch-testing-prompts.md
