@@ -1,11 +1,11 @@
 ---
-title:  Feature availability by region or US Government environment
+title:  Feature availability by region 
 description: Learn which AI Builder features are available in each region or US Government environment. Lists the release status for each feature by region or US Government environment.
 author: Antoine2F
 contributors:
+  - Antoine2F
   - antrodfr
   - CedrickBellarosa
-  - Antoine2F
   - phil-cmd
   - chplanty
   - xiao-wang-paris
@@ -14,12 +14,12 @@ contributors:
   - v-aangie
   - antode
 ms.topic: article
-ms.date: 06/30/2025
-ms.author: plarrue
+ms.date: 08/07/2025
+ms.author: antode
 ms.reviewer: angieandrews
 ---
 
-# Feature availability by region or US Government environment
+# Feature availability by region
 
 AI Builder was initially released in Europe and the United States. Other regions continue to be added; however, the availability and release status of AI Builder features vary by location.
 
@@ -31,8 +31,17 @@ Your AI Builder models are deployed in the region that hosts your Microsoft Powe
 
 The following tables show which AI Builder features are available in each region, and the release status (general availability or preview) for each feature. A dash (-) indicates that the feature isn't available.
 
-> [!NOTE]
-> View what is planned for AI Builder, including new features, release status, and regional availability, in [AI Builder release plans](/power-platform-release-plan/2020wave1/ai-builder/).
+### Prompts
+
+In the following table, (GA) means that the feature is available and uses an Azure OpenAI service in another region. Learn more in [enabling data movement cross-regions](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions).
+
+| Feature                              | Asia          | Australia      | Canada         | Europe         | France         | Germany        | India         | Japan          | Norway         | Singapore      | South Africa   | South America  | Korea          | Singapore      | Sweden         | Switzerland    |United Arab Emirates|United Kingdom| United States  |
+|--------------------------------------|---------------|----------------|----------------|----------------|----------------|----------------|---------------|----------------|----------------|----------------|----------------|----------------|----------------|----------------|----------------|----------------|--------------------|--------------|----------------|
+| GPT-4.1 mini                         | (GA)          | GA             | (GA)           | (GA)           | (GA)           | (GA)           | GA            | (GA)           | (GA)           | GA             | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)               | GA           | GA             |
+| GPT-4.1                             | (GA)          | GA             | (GA)           | (GA)           | (GA)           | (GA)            | GA            | (GA)           | (GA)           | GA            | (GA)         | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)               | GA           | GA             |
+| o3                                   | (GA)          | (GA)             | (GA)           | (GA)           | (GA)           | (GA)           | (GA)          | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)               |(GA)           | GA            |
+
+**GPT-5 chat** (preview) and **GPT-5 reasoning** (preview) are available only in **US** [early release cycle environments](/power-platform/admin/early-release) (where the **Get new feature early** toggle is checked in the **New environment** pane when you create a new environment).
 
 ### Custom models
 
@@ -64,17 +73,6 @@ The following tables show which AI Builder features are available in each region
 | Text recognition         | GA      | GA        | GA      | GA      | GA      | GA      | GA      | GA      | GA      | GA      | GA        | GA           | GA            | GA      | GA          | GA                   | GA             | GA            |
 | Text translation         | -       | -         | -       | GA      | -       | -       | -       | -       | -       | -       | -         | -            | -             | -       | -           | -                    | -              | GA            |
 
-### Prompts
-
-In the following table, **(GA)** and **(Paid preview)** mean that the feature is available and uses an Azure OpenAI service in another region. Learn more in [enabling data movement cross-regions](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions).
-
-| Feature                              | Asia          | Australia      | Canada         | Europe         | France         | Germany        | India         | Japan          | Norway         | Singapore      | South Africa   | South America  | Korea          | Singapore      | Sweden         | Switzerland    |United Arab Emirates|United Kingdom| United States  |
-|--------------------------------------|---------------|----------------|----------------|----------------|----------------|----------------|---------------|----------------|----------------|----------------|----------------|----------------|----------------|----------------|----------------|----------------|--------------------|--------------|----------------|
-| GPT-4o mini                          | (GA)          | GA             | (GA)           | (GA)           | (GA)           | (GA)           | GA            | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)               | GA           | GA             |
-| GPT-4o                               | (GA)          | GA             | (GA)           | (GA)           | (GA)           | (GA)           | GA            | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)               | GA           | GA             |
-| GPT-4o using image or document input | (GA)          | GA             | (GA)           | (GA)           | (GA)           | (GA)           | GA            | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)               | -            | GA             |
-| o1                                   | (Paid preview)| (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview)| (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview)     |(Paid preview)| Paid preview   |
-| GPT-4.1                              | (Paid preview)| (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview)| (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview) | (Paid preview)     |(Paid preview)| Paid preview   |
 
 ## US Government
 
@@ -85,6 +83,17 @@ AI Builder is available in US Government environments with the features listed i
 >
 > - [Power Apps US Government](/power-platform/admin/powerapps-us-government)
 > - [Power Automate US Government](/power-automate/us-govt)
+
+### Prompts (US Government)
+
+| Feature                                 | Government Community Cloud (GCC) | Government Community Cloud – High (GCC High) | Department of Defense (DoD) |
+|:----------------------------------------|:--------------------------------:|:--------------------------------------------:|:---------------------------:|
+| GPT-4o mini                             |               GA                 |                     GA                       |              -              |
+| GPT-4o                                  |               GA                 |                     GA                       |              -              |
+| GPT-4o using image or document as input |               -                  |                     -                        |              -              |
+| o3                                      |               -                  |                     -                        |              -              |
+| GPT-4.1 mini                            |               -                  |                     -                        |              -              |
+| GPT-4.1                                 |               -                  |                     -                        |              -              |
 
 ### Custom models (US Government)
 
@@ -112,16 +121,6 @@ AI Builder is available in US Government environments with the features listed i
 | Sentiment analysis       |                GA                |                      GA                      |              -              |
 | Text recognition         |                GA                |                      GA                      |              -              |
 | Text translation         |                GA                |                      GA                      |              -              |
-
-### Prompts (US Government)
-
-| Feature                                 | Government Community Cloud (GCC) | Government Community Cloud – High (GCC High) | Department of Defense (DoD) |
-|:----------------------------------------|:--------------------------------:|:--------------------------------------------:|:---------------------------:|
-| GPT-4o mini                             |               GA                 |                     GA                       |              -              |
-| GPT-4o                                  |               GA                 |                     GA                       |              -              |
-| GPT-4o using image or document as input |               -                  |                     -                        |              -              |
-| o1                                      |               -                  |                     -                        |              -              |
-| GPT-4.1                                 |               -                  |                     -                        |              -              |
 
 ### US Government feature limitations
 
