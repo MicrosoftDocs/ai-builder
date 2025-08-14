@@ -6,9 +6,9 @@ contributors:
   - ashbhati
   - v-aangie
 ms.topic: get-started
-ms.date: 04/01/2025
+ms.date: 08/13/2025
 ms.update-cycle: 180-days
-ms.author: ashbhati
+ms.author: benapple
 ms.reviewer: angieandrews
 ms.collection: bap-ai-copilot
 ---
@@ -70,10 +70,9 @@ Copilot can't improve an existing prompt. It can only be used in generating new 
 - [Create a prompt](create-a-custom-prompt.md)
 - [Get started with prompt library](prompt-library.md)
 - [Add text, image, or document input to your prompt](add-inputs-prompt.md)
-- [Change the output of your prompt](change-prompt-output.md)
+- [Process responses with JSON output](process-responses-json-output.md)
 - [Model selection and temperature settings](prompt-modelsettings.md)
 - [Use your own data in a prompt](use-your-own-prompt-data.md)
 - [Use your prompt in Power Automate](use-a-custom-prompt-in-flow.md)
 - [Use your prompt in Power Apps](use-a-custom-prompt-in-app.md)
-
 
