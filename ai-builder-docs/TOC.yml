@@ -41,7 +41,7 @@
     items:
     - name: Process responses with JSON output
       href: process-responses-json-output.md
-    - name: Generate 'Document (Preview)' output for a prompt (preview)
+    - name: Generate 'Document (preview)' output for a prompt (preview)
       href: generate-document-output-prompt.md
   - name: Share your prompt
     href: share-your-prompt.md 

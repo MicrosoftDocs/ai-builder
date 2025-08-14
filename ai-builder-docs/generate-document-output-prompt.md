@@ -17,9 +17,9 @@ ms.collection:
 # Generate 'Document (preview)' output for a prompt (preview)
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-The document output lets you generate a Word document for your prompt response instead of text. The generated document follows a layout that needs to be provided in the document output settings.
+The output of the 'Document (preview)' feature lets you generate a Microsoft Word document for your prompt response instead of text. The generated document follows a layout that needs to be provided in the document output settings.
 
-Following is an example of possible use cases with document output:
+The fFollowing list contains some possible use cases with document output:
 
 - Generate business documents within automations such as invoices, request for proposals (RFPs), contracts, and more.
 - Build reports or write documentation by gathering information from various sources.
@@ -38,7 +38,7 @@ This section describes how to select document as output and supply a Word docume
 
 1. As the output, select **Document (preview)** in the top-right corner.
 1. To the left of the **Document (preview)** output option, select **Document settings**.
-   
+
     :::image type="content" source="media/generate-document-output-prompt/document-settings.png" alt-text="Screenshot of document settings option.":::
 
 1. Select **select to browse** and upload a Word document layout that contains fields to replace by the prompt.
@@ -51,20 +51,20 @@ This section describes how to select document as output and supply a Word docume
     > [!IMPORTANT]
     > Your document layout can't exceed 20MB, can't be confidential, or contain passwords.
 
-    For this scenario, you use the following this invoice document layout:
+    For this scenario, you'll use the following this invoice document layout:
 
     :::image type="content" source="media/generate-document-output-prompt/invoice-template.png" alt-text="Screenshot of invoice layout document.":::
 
-1. After uploading the layout, the identified fields to replace display for review.
+1. After uploading the layout, the identified fields to replace display for your review.
 
     :::image type="content" source="media/generate-document-output-prompt/document-settings-fields.png" alt-text="Screenshot of fields to replace.":::
 
 1. Write the instruction that will allow you to generate the adequate text for each field to replace.
-1. Select**Test**.
+1. Select **Test**.
 
     :::image type="content" source="media/generate-document-output-prompt/prompt-instruction.png" alt-text="Screenshot of prompt instruction for document creation.":::
 
-    The content of the **Text input** could contain all the information about an invoice. 
+    The content of the **Text input** could contain all the information about an invoice.
 
     Example:  
          Invoice INV-2025-074 – Payment Due by 2025-08-07  
@@ -119,8 +119,8 @@ It's not possible to generate a document without uploading a layout.
 
 ## Limitations
 
-- Defining a text formatting in the instruction isn't supported. For example, you can't set a field in bold, or add a title or change the color.
-- Only generating a Word document is supported.
+- Defining a text formatting in the instruction isn't supported. For example, you can't set a field in bold, or add a title, or change the color.
+- Generating only a Word document is supported.
 - A document layout can't be more than 20MB.
 - When uploading a document layout of more than 5MB, the prompt needs to be saved and reopened before testing.
 
