@@ -6,7 +6,7 @@ contributors:
   - antrodfr
   - v-aangie
 ms.topic: how-to
-ms.date: 08/19/2025
+ms.date: 08/14/2025
 ms.update-cycle: 180-days
 ms.author: antrod
 ms.reviewer: angieandrews
@@ -19,7 +19,7 @@ ms.collection:
 
 The output of the 'Document (preview)' feature lets you generate a Microsoft Word document for your prompt response instead of text. The generated document follows a layout that needs to be provided in the document output settings.
 
-The fFollowing list contains some possible use cases with document output:
+The following list contains some possible use cases with document output:
 
 - Generate business documents within automations such as invoices, request for proposals (RFPs), contracts, and more.
 - Build reports or write documentation by gathering information from various sources.
@@ -51,7 +51,7 @@ This section describes how to select document as output and supply a Word docume
     > [!IMPORTANT]
     > Your document layout can't exceed 20MB, can't be confidential, or contain passwords.
 
-    For this scenario, you'll use the following this invoice document layout:
+    For this scenario, you'll use the following invoice document layout:
 
     :::image type="content" source="media/generate-document-output-prompt/invoice-template.png" alt-text="Screenshot of invoice layout document.":::
 
@@ -103,7 +103,7 @@ This section describes how to select document as output and supply a Word docume
 
    :::image type="content" source="media/generate-document-output-prompt/file-creation-flow.png" alt-text="Screenshot of file creation in a flow.":::
 
-You can now send you an email with invoice information and get your file created in your OneDrive folder.
+1. You can now send yourself an email with invoice information and get your file created in your OneDrive folder.
 
 ## FAQ
 
