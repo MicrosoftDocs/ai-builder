@@ -5,7 +5,7 @@ author: phil-cmd
 contributors:
   - phil-cmd
   - v-aangie
-ms.date: 06/23/2025
+ms.date: 08/13/2025
 ms.update-cycle: 180-days
 ms.topic: get-started
 ms.author: plarrue
@@ -86,7 +86,7 @@ Learn more in [Add text, image, or document input to a prompt](add-inputs-prompt
 
 Yes, you can use **Text** or **JSON** output format.
 
-Learn more in [Change the output of your prompt](change-prompt-output.md).
+Learn more in [Process responses with JSON output](process-responses-json-output.md).
 
 ### Can I select the GPT model of a template?
 
@@ -134,7 +134,7 @@ Nice catch! Share it with us on [AI Builder community](share-your-experience.md)
 
 - [Create a prompt](create-a-custom-prompt.md)
 - [Add text, image, or document input to your prompt](add-inputs-prompt.md)
-- [Change the output of your prompt](change-prompt-output.md)
+- [Process responses with JSON output](process-responses-json-output.md)
 - [Model selection and temperature settings](prompt-modelsettings.md)
 - [Use your own data in a prompt](use-your-own-prompt-data.md)
 - [Use your prompt in Power Automate](use-a-custom-prompt-in-flow.md)
