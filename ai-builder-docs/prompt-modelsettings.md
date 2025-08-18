@@ -9,7 +9,7 @@ contributors:
   - antrod
   - v-aangie
 ms.topic: article
-ms.date: 08/07/2025
+ms.date: 08/10/2025
 ms.author: antode
 ms.reviewer: angieandrews
 ---
@@ -35,8 +35,8 @@ Using prompts in Power Apps or Power Automate consumes *AI Builder credits*, whi
 |GPT-4.1 mini <br> (Default model) | Charged at the **Basic** rate. <br> Consumes *messages* in Microsoft Copilot Studio (more information: [Message scenarios](https://go.microsoft.com/fwlink/?linkid=2307400)) and *AI Builder credits* in Power Apps and flows (more information: [Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130))  | Trained on data up to June 2024. Context allowed up to 128K tokens. |
 | GPT-4.1 | Charged at the **Standard** rate. <br> Consumes  *messages* in Microsoft Copilot Studio (more information: [Message scenarios](https://go.microsoft.com/fwlink/?linkid=2307400)) and *AI Builder credits* in Power Apps and flows (more information: [Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130)) | Trained on data up to June 2024. Context allowed up to 128K tokens.|
 | o3 | Charged at the **Premium** rate. <br> Consumes  *messages* in Microsoft Copilot Studio (more information: [Message scenarios](https://go.microsoft.com/fwlink/?linkid=2307400)) and *AI Builder credits* in Power Apps and flows (more information: [Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130))   | Trained on data up to June 2024. Context allowed up to 200K tokens. | 
-| GPT-5 chat (preview) | Charged at the **Standard** rate. <br> Consumes  *messages* in Microsoft Copilot Studio (more information: [Message scenarios](https://go.microsoft.com/fwlink/?linkid=2307400)) and *AI Builder credits* in Power Apps and flows (more information: [Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130))  | Trained on data up to June 2025. Context allowed up to 1M tokens. |
-| GPT-5 reasoning (preview) | Charged at the **Premium** rate. <br> Consumes  *messages* in Microsoft Copilot Studio (more information: [Message scenarios](https://go.microsoft.com/fwlink/?linkid=2307400)) and *AI Builder credits* in Power Apps and flows (more information: [Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130))  | Trained on data up to June 2025. Context allowed up to 1M tokens. |
+| GPT-5 chat (preview) | Charged at the **Standard** rate. <br> Consumes  *messages* in Microsoft Copilot Studio (more information: [Message scenarios](https://go.microsoft.com/fwlink/?linkid=2307400)) and *AI Builder credits* in Power Apps and flows (more information: [Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130))  | Trained on data up to Septembre 2024. Context allowed up to 400K tokens. |
+| GPT-5 reasoning (preview) | Charged at the **Premium** rate. <br> Consumes  *messages* in Microsoft Copilot Studio (more information: [Message scenarios](https://go.microsoft.com/fwlink/?linkid=2307400)) and *AI Builder credits* in Power Apps and flows (more information: [Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130))  | Trained on data up to October 2024. Context allowed up to 400K tokens. |
 
 GPT-4o mini and GPT-4o continue to be used in U.S. government regions. These models follow licensing rules and offer functionalities comparable to GPT-4.1 mini and GPT-4.1, respectively.  
 

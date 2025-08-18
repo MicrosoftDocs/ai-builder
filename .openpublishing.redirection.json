@@ -109,6 +109,11 @@
       "source_path": "ai-builder-docs/transparency-note-azure-openai.md",
       "redirect_url": "faqs-text-generation",
       "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-builder-docs/change-prompt-output.md",
+      "redirect_url": "process-responses-json-output",
+      "redirect_document_id": false
     }
   ]
 }
