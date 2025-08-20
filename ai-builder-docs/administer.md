@@ -105,7 +105,7 @@ Preview features and models are marked with the **Preview** label. In the Power 
 
 By default, the **Preview and experimental AI models** (called **AI Builder preview models** before August 2025) feature is enabled for any eligible environment. Eligible environments must have Microsoft Dataverse and be in a [supported region](availability-region.md). If the environment isn't eligible, the **Preview and experimental AI models** feature doesn't appear in the Power Platform admin center.
 
-To control AI Builder preview feature availability:
+To control preview and experimental AI model or feature availability for an environment:
 
 1. Sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com).
 
@@ -113,16 +113,26 @@ To control AI Builder preview feature availability:
 
 1. On the **Features** settings page, under **Preview and experimental AI models**, enable or disable **Let people use AI models that are experimental or in preview**.
 
+If your environment is part of an [environment group](/power-platform/admin/environment-groups), you can also govern preview and experimental AI model or feature availability through the "Preview and experimental AI model" environment group rule.
+
+1. Sign in to [Power Platform admin center](https://admin.powerplatform.microsoft.com).
+1. In the admin center, select **Manage** > **Environment groups** > *[select an environment group]* > **Rules**.
+1. On the **Rules** tab under **Preview and experimental AI models**, enable or disable the **Preview and experimental AI models** checkbox.
+1. **Save** the changes.
+1. To apply the rules to the environments in the group, select **Publish rules**.
+
+If an environment group rule governing preview and experimental AI models and features is published, it locks the preview and experimental AI models setting at the environment-level, preventing any system administrator of those individual environments from editing the setting. To change the setting, admins must modify the corresponding rule in the environment group that includes the environment. 
+
 ### Important points related to enabling or disabling the feature
 
 - If you disable **Preview and experimental AI models**:
-  - We don't delete existing models that users of this environment created.
-  - AI Builder components are disabled.
-  - Existing experiences that use existing AI Builder components fail or return errors.
+  - We don't delete existing models or prompts that users of this environment created.
+  - Preview AI Builder components are disabled.
+  - Existing experiences that use existing preview AI Builder components fail or return errors.
   - Admins and owners can delete preview models.
 
 - If you enable **Preview and experimental AI models** again:
-  - AI Builder components are available again.
+  - Preview AI Builder components are available again.
   - Components function as they did before the feature was disabled (assuming nothing else changed).
 
 For more information about enabling or disabling features in the Power Platform admin center, go to [Manage feature settings](/power-platform/admin/settings-features).
