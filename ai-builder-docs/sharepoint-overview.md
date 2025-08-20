@@ -1,26 +1,26 @@
 ---
-title: AI Builder in SharePoint with Microsoft Syntex overview - AI Builder
-description: Provides an overview of how to use your AI models in SharePoint with Microsoft Syntex.
+title: AI Builder in SharePoint with document processing overview - AI Builder
+description: Provides an overview of how to use your AI models in SharePointwith document processing in Microsoft 365.
 author: antrodfr
 contributors:
   - antrodfr
   - v-aangie
 ms.topic: overview
 ms.custom: 
-ms.date: 06/23/2025
+ms.date: 08/20/2025
 ms.author: antrod
 ms.reviewer: angieandrews
 ---
 
-# AI Builder in SharePoint with Microsoft Syntex overview
+# AI Builder in SharePoint with document processing overview
 
-With the Microsoft Syntex service, you're able to create AI Builder models in SharePoint. To learn more, go to [Overview of Microsoft Syntex](/microsoft-365/contentunderstanding/syntex-overview).
+With document processing in Microsoft 365, you're able to create AI Builder models in SharePoint. Learn more in [Overview of document processing](/microsoft-365/contentunderstanding/syntex-overview).
 
 From the **Classify and Extract** menu in your SharePoint library, you can apply an existing AI model to a library or create a new one. Two model types are powered by AI Builder:
 - **Structured document processing:** Creates AI Builder document processing models for fixed-template documents like invoices, purchase orders, delivery orders, tax documents, and more.
-- **Freeform document processing:** Creates AI Builder document processing models for general documents like invoices, purchase orders, delivery orders, tax documents, but also contracts, statements of work, letters, and more.
+- **Freeform document processing:** Creates AI Builder document processing models for general documents like invoices, purchase orders, delivery orders, and tax documents. It also creates models for contracts, statements of work, letters, and more.
 
-Once an AI Builder model is applied to a library, every document added to the library will be processed by the applied model. The results are displayed as new library columns.
+Once an AI Builder model is applied to a library, every document added to the library is processed by the applied model. The results are displayed as new library columns.
 
 To learn about requirements and get step-by-step instructions on how to use this service, go to [Work with models](/microsoft-365/contentunderstanding/model-types-overview).
 
@@ -35,7 +35,7 @@ Dataverse has strong security mechanisms that prevent unauthorized access to use
 - The owner of the model.
 - Individuals with Power Platform **System Administrator** and **System Customizer** roles in your organization.
 
-To learn more, go to [Roles and security in AI Builder](/ai-builder/security).
+Learn more in [Roles and security in AI Builder](/ai-builder/security).
 
 ## Related information
 
