@@ -9,7 +9,7 @@ ms.topic: article
 ms.collection: 
 - get-started
 - bap-ai-copilot
-ms.date: 08/15/2025
+ms.date: 08/20/2025
 ms.update-cycle: 180-days
 ms.custom: build-2025
 ms.author: antrod
@@ -52,10 +52,12 @@ Use the following steps to set up and run batch tests for your prompts.
    - In Copilot Studio, select **Tools**, and then filter on prompts.
    - In Power Apps and Power Automate, select **AI hub**.
 
-1. Next to the prompt name, select the vertical ellipsis (&vellip;).
+1. Next to the prompt name, select the ellipsis (**...**).
 1. Select **Test hub (Preview)**.
 
-    :::image type="content" source="media/batch-testing-prompts/more.png" alt-text="Screenshot of the 'More' menu with the 'Test hub - Preview' option.":::
+    Here's an example of the **Tools** screen in Copilot Studio:
+
+    :::image type="content" source="media/batch-testing-prompts/mcs-new-tool.png" alt-text="Screenshot of the menu with the 'Test hub - Preview' option.":::
 
     In Copilot Studio, the test hub looks like the following screenshot:
 
