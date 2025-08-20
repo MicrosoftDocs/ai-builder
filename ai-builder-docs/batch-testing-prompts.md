@@ -57,7 +57,7 @@ Use the following steps to set up and run batch tests for your prompts.
 
     Here's an example of the **Tools** screen in Copilot Studio:
 
-    :::image type="content" source="media/batch-testing-prompts/mcs-new-tool.png" alt-text="Screenshot of the menu with the 'Test hub - Preview' option.":::
+    :::image type="content" source="media/batch-testing-prompts/new-tool.png" alt-text="Screenshot of the menu with the 'Test hub - Preview' option.":::
 
     In Copilot Studio, the test hub looks like the following screenshot:
 
