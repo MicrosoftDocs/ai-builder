@@ -49,7 +49,7 @@ The models you create and the models that are shared with you appear in the mode
 
 When a model is shared with you as a user, you can use it in Power Apps or Power Automate, but you can't view details or edit the model. No actions are available for models in the **Shared with me** list.
 
-As an admin or owner of a model, you might encounter a model where the only available action is **Delete**. This happens when the model type is no longer supported. It might be that the model type was a preview feature, and the admin [disabled AI Builder preview features](administer.md#enable-or-disable-ai-builder-preview-features).
+As an admin or owner of a model, you might encounter a model where the only available action is **Delete**. This happens when the model type is no longer supported. It might be that the model type was a preview feature, and the admin [disabled preview and experimental AI models and features](administer.md#enable-or-disable-preview-features-or-models).
 
 ## FAQ
 
