@@ -3,11 +3,12 @@ title: Overview of AI Builder
 description: Learn how to use AI Builder to add intelligence to your apps.
 author: phil-cmd
 contributors:
+  - jekom1
   - phil-cmd
   - v-aangie
 ms.topic: overview
-ms.date: 06/13/2025
-ms.author: plarrue
+ms.date: 08/29/2025
+ms.author: jelenak
 ms.reviewer: angieandrews
 ---
 

@@ -9,7 +9,7 @@ contributors:
   - phil-cmd
   - v-aangie
 ms.topic: how-to
-ms.date: 01/30/2025
+ms.date: 08/29/2025
 ms.author: jelenak
 ms.reviewer: angieandrews
 ---
@@ -86,7 +86,7 @@ Images and documents used for training purposes in object detection and document
   - They're used solely to train the AI Builder model and never used for any other purpose.
   - Training data is never shared externally.
 
-In contrast, images and documents used at prediction time aren't persisted. Examples of non-persisted images and documents are those in a Power Apps component framework (PCF) control and in Power Automate.
+In contrast, images and documents used at prediction time aren't persisted. Examples of nonpersisted images and documents are those in a Power Apps component framework (PCF) control and in Power Automate.
 
 Inputs of text scenarios are persisted in the AI Event Dataverse table to allow users to monitor [AI Builder activity](activity-monitoring.md).
 
@@ -109,19 +109,19 @@ To control preview and experimental AI model or feature availability for an envi
 
 1. Sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com).
 
-1. In the admin center, go to **Manage** > **Environments** > *[select an environment]* > **Settings** > **Features**.
+1. In the admin center, select **Manage** > **Environments** > *[select an environment]* > **Settings** > **Features**.
 
 1. On the **Features** settings page, under **Preview and experimental AI models**, enable or disable **Let people use AI models that are experimental or in preview**.
 
-If your environment is part of an [environment group](/power-platform/admin/environment-groups), you can also govern preview and experimental AI model or feature availability through the "Preview and experimental AI model" environment group rule.
+    If your environment is part of an [environment group](/power-platform/admin/environment-groups), you can also govern preview and experimental AI model or feature availability through the **Preview and experimental AI models** environment group rule.
 
 1. Sign in to [Power Platform admin center](https://admin.powerplatform.microsoft.com).
 1. In the admin center, select **Manage** > **Environment groups** > *[select an environment group]* > **Rules**.
 1. On the **Rules** tab under **Preview and experimental AI models**, enable or disable the **Preview and experimental AI models** checkbox.
-1. **Save** the changes.
+1. Select **Save** to save the changes.
 1. To apply the rules to the environments in the group, select **Publish rules**.
 
-If an environment group rule governing preview and experimental AI models and features is published, it locks the preview and experimental AI models setting at the environment-level, preventing any system administrator of those individual environments from editing the setting. To change the setting, admins must modify the corresponding rule in the environment group that includes the environment. 
+    If an environment group rule governing preview and experimental AI models and features is published, it locks the preview and experimental AI models setting at the environment level. This prevents a system administrator of those individual environments from editing the setting. To change the setting, admins must modify the corresponding rule in the environment group that includes the environment.
 
 ### Important points related to enabling or disabling the feature
 
@@ -192,7 +192,7 @@ All your data stored in Power Platform is encrypted at rest using Microsoft-mana
 >
 > Currently, object detection trained models continue to be encrypted using Microsoft-managed keys. The training data of those models is stored in Dataverse, using customer managed keys (CMK) if enabled.
 
-Applying an encryption key is a gesture performed by Power Platform admins, and is invisible to users. Users can create, save, use, and include in solutions AI Builder models in exactly the same way as if the data was encrypted by Microsoft-managed keys.
+Applying an encryption key is a gesture performed by Power Platform admins, and is invisible to users. Users can create, save, use, and include in solutions AI Builder models in exactly the same way as if Microsoft-managed keys encrypted the data.
 
 Learn more about the customer-managed key and get step-by-step instructions to enable customer-managed keys in [Manage your customer-managed encryption key](/power-platform/admin/customer-managed-key). This enables you to use the single enterprise policy created on the environment to secure AI Builder models.
 

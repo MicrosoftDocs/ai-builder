@@ -9,8 +9,8 @@ contributors:
   - v-aangie
 ms.topic: how-to
 ms.custom: 
-ms.date: 06/18/2025
-ms.author: cerenkiroglu
+ms.date: 08/29/2025
+ms.author: jelenak
 ms.reviewer: angieandrews
 ---
 
@@ -86,7 +86,7 @@ In addition to on-demand bulk-delete jobs, you can schedule recurrent bulk-delet
 To create bulk-delete jobs in Dataverse, you must have the **Bulk Delete** privilege in at least one of the roles that is assigned to you.
 
 > [!CAUTION]
-> When you delete Dataverse data, it is permanently deleted from your environment. There's no way to recover individual records after you delete them.
+> When you delete Dataverse data, it's permanently deleted from your environment. There's no way to recover individual records after you delete them.
 
 ### Export a Dataverse table
 
