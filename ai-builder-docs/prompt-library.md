@@ -5,7 +5,7 @@ author: phil-cmd
 contributors:
   - phil-cmd
   - v-aangie
-ms.date: 08/13/2025
+ms.date: 08/27/2025
 ms.update-cycle: 180-days
 ms.topic: get-started
 ms.author: plarrue
@@ -71,6 +71,10 @@ To access the prompt library and select a template through the prompt builder, f
     :::image type="content" source="media/prompt-library/select-prompt-template.png" alt-text="Screenshot of the template selection in the 'Prompt library' screen.":::
 
 ## Frequently asked questions
+
+### Can I copy a template link?
+
+Yes, simply select the link icon on any template. Within the same tenant, a copied template link can be launched from a default environment.
 
 ### Can I edit a template?
 
