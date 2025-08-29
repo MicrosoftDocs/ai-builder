@@ -3,12 +3,13 @@ title: Share your AI model - AI Builder
 description: Learn how to share your model in AI Builder.
 author: Antoine2F
 contributors:
+  - jekom1
   - Antoine2F
   - v-aandrews
 ms.topic: how-to
 ms.custom: 
-ms.date: 01/27/2025
-ms.author: antode
+ms.date: 08/29/2025
+ms.author: jelenak
 ms.reviewer: angieandrews
 ---
 
@@ -33,9 +34,9 @@ The share action is also available on the model detail screen in AI Builder, wit
 
 When you select the share action, a share panel appears. The share panel is where you select Microsoft Dataverse users and teams in your organization, and share your model with them.
 
-- Sharing your model with a user or a team as a **User** gives the user or team the ability to see and run your model. However, this user or team won't be able to edit, retrain, publish, share, or delete the model. They also won't be able to access the data you used to train your model.
+- Sharing your model with a user or a team as a **User** gives the user or team the ability to see and run your model. However, this user or team isn't able to edit, retrain, publish, share, or delete the model. They also can't access the data you used to train your model.
 
-- Sharing your model with a user or a team as a **Co-owner** gives the user or team the ability to see, run, edit, retrain, publish, or share the model. This user or team will be able to access the data you used to train your model. They won't be able to delete the model.
+- Sharing your model with a user or a team as a **Co-owner** gives the user or team the ability to see, run, edit, retrain, publish, or share the model. This user or team is able to access the data you used to train your model. They can't delete the model.
 
 ## Model list views
 
@@ -45,17 +46,17 @@ The models you create and the models that are shared with you appear in the mode
 - **Shared with me**
 
  > [!NOTE]
- > If you're an administrator of the environment, all models in your environment appear in the **Shared with me** view, whether they've been shared or not.
+ > If you're an administrator of the environment, all models in your environment appear in the **Shared with me** view, whether or not they're shared.
 
 When a model is shared with you as a user, you can use it in Power Apps or Power Automate, but you can't view details or edit the model. No actions are available for models in the **Shared with me** list.
 
-As an admin or owner of a model, you might encounter a model where the only available action is **Delete**. This happens when the model type is no longer supported. It might be that the model type was a preview feature, and the admin [disabled AI Builder preview features](administer.md#enable-or-disable-ai-builder-preview-features).
+As an admin or owner of a model, you might encounter a model where the only available action is **Delete**. This happens when the model type is no longer supported. It might be that the model type was a preview feature, and the admin [disabled preview and experimental AI models and features](administer.md#enable-or-disable-preview-features-or-models).
 
 ## FAQ
 
 ### Is the sharing step necessary to use an app that includes calls to an AI model? Why is app sharing not enough?
 
-App sharing only allows users to open the app. Things like data access or AI model access are granted separately. AI model access is given through the sharing mechanism. Without it, users can open the app, but the app<!--Suggested--> can't execute a call to the AI model.
+App sharing only allows users to open the app. Things like data access or AI model access are granted separately. AI model access is given through the sharing mechanism. Without it, users can open the app, but the app can't execute a call to the AI model.
 
 ### Is the sharing step necessary to allow other environment makers to use my model in their apps?
 
@@ -63,11 +64,11 @@ Yes. Your model isn't listed in the AI model control if it isn't shared with the
 
 ### Can I allow other users to edit my model?
 
-Yes. When sharing a model, look for the user or team to share the model with and select the option **Co-owner**.
+Yes. When you share a model, look for the user or team to share the model with and select the option **Co-owner**.
 
 Users with the **System Customizer** role can edit models from other users by default. Modifying models with **System Customizer** role isn't supported by AI Builder and you might face unexpected issues.
 
-### The owner of a model has left the company. How can we allow non-admin users to edit this model?
+### The owner of a model left the company. How can we allow non-admin users to edit this model?
 
 A user with the **System Customizer** role can perform this action. To learn more about roles, go to [Roles and security](security.md#roles).
 
@@ -89,9 +90,9 @@ To change the ownership of a model:
 
     :::image type="content" source="media/change-model-ownership-settings.png" alt-text="Screenshot of AI Models dropdown menu.":::
 
-1. You'll get a list of the AI models in the environment. Select the model you want to reassign, and select **Assign AI Models**. A window will open where you can change the owner of the model.
+1. You get a list of the AI models in the environment. Select the model you want to reassign, and select **Assign AI Models**. A window opens where you can change the owner of the model.
 
-If the model you're changing the ownership is a *document processing* model or an *object detection* model, you'll also need to reassign the **AI Builder Datasets Container** associated with the model.
+If the model you're changing the ownership is a *document processing* model or an *object detection* model, you also need to reassign the **AI Builder Datasets Container** associated with the model.
 
  To reassign **AI Builder Datasets Containers**:
 
@@ -103,7 +104,7 @@ If the model you're changing the ownership is a *document processing* model or a
 
 1. Select the row associated to the model you're reassigning.
 
-1. Select **Assign AI Builder Datasets Containers**. A window will open where you can change the owner.
+1. Select **Assign AI Builder Datasets Containers**. A window opens where you can change the owner.
 
 ### Can I disable the sharing feature for AI model makers and only allow admins to do it?
 
