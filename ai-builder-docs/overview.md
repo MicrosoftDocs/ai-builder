@@ -54,7 +54,7 @@ Some features in AI Builder aren't released yet for general availability (GA) an
 
 > [!IMPORTANT]
 > - Preview features aren’t meant for production use and might have restricted functionality. These features are available before an official release so that customers can get early access and provide feedback.
-> - Administrators can control preview feature availability for their environment by using the Power Platform admin center. More information: [Enable or disable preview and experimental AI models or features](administer.md#enable-or-disable-preview-features-or-models)
+> - Administrators can control preview feature availability for their environment by using the Power Platform admin center. More information: [Enable or disable preview features or models](administer.md#enable-or-disable-preview-features-or-models)
 
 Because of technical dependencies, some features are released differently in various locations. For a breakdown of the release status of AI Builder features and model types for your region, go to [Feature availability by region](availability-region.md).
 
