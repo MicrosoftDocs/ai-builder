@@ -1,6 +1,6 @@
 ---
-title: Process responses with JSON output
-description: Learn how to create a document prompt, use it in Power Automate, and edit the prompt. 
+title: JSON output
+description: Learn how to use JSON output for your prompt. 
 author: antrodfr
 contributors:
   - antrodfr
@@ -15,7 +15,7 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-# Process responses with JSON output
+# JSON output
 
 By default, the prompt generates text as response. Text can be convenient for many uses cases; however, if the response has several elements that need to be identified individually, the text option can be limited.
 
