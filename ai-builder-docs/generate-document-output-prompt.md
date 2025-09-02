@@ -1,5 +1,5 @@
 ---
-title: Generate 'Document (preview)' output for a prompt (preview)
+title: Document output (preview)
 description: Learn how to manage document output.
 author: antrodfr
 contributors:
@@ -14,7 +14,7 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-# Generate 'Document (preview)' output for a prompt (preview)
+# Document output (preview)
 [!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
 The output of the 'Document (preview)' feature lets you generate a Microsoft Word document for your prompt response instead of text. The generated document follows a layout that needs to be provided in the document output settings.
@@ -55,7 +55,7 @@ This section describes how to select document as output and supply a Word docume
 
     :::image type="content" source="media/generate-document-output-prompt/invoice-template.png" alt-text="Screenshot of invoice layout document.":::
 
-1. After uploading the layout, the identified fields to replace display for your review.
+1. After you upload the layout, the identified fields to replace display for your review.
 
     :::image type="content" source="media/generate-document-output-prompt/document-settings-fields.png" alt-text="Screenshot of fields to replace.":::
 
@@ -122,8 +122,9 @@ It's not possible to generate a document without uploading a layout.
 - Defining a text formatting in the instruction isn't supported. For example, you can't set a field in bold, or add a title, or change the color.
 - Generating only a Word document is supported.
 - A document layout can't be more than 20MB.
-- When uploading a document layout of more than 5MB, the prompt needs to be saved and reopened before testing.
+- When you upload a document layout of more than 5MB, you need to save and reopen the prompt before testing.
 
 ## Related information
 
 [FAQ for prompts and text generation capabilities](faqs-text-generation.md)
+     
