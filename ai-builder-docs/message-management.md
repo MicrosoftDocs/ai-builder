@@ -1,5 +1,5 @@
 ---
-title: AI Builder licensing and Copilot credit management in Microsoft Copilot Studio
+title: "AI Builder licensing in Microsoft Copilot Studio: Copilot credit management"
 description: Learn about licensing and Copilot credit management of AI Builder in Microsoft Copilot Studio
 author: Antoine2F
 contributors:
@@ -77,13 +77,13 @@ The following list contains Copilot credit consumption rules.
 - Prompts and models in agent flows always consume Copilot credits, even when triggered from an agent-embedded test panel, or from the flow designer.
 - When a classic flow is transformed into an agent flow, AI Builder prompts and models within this flow begin consuming Copilot credit instead of AI Builder credits.
 - Testing a prompt (within prompt builder) or a model (within the **AI models** page) is free.
-- Prompts in agents or agent flows consume Copilot credits, even with models in preview. 
+- Prompts in agents or agent flows consume Copilot credits, even with models in preview.
 
 ## Train a custom model to be used in an agent flow
 
-Training a custom model (for example, *document processing* and *object detection*) happens in the Power Apps or Power Automate portal, in the **AI models** page. It requires access to AIB credits during training. This access can be removed once the model is published.
+Training a custom model (for example, *document processing* and *object detection*) happens in the Power Apps or Power Automate portal, in the **AI models** page. It requires access to AI Builder credits during training. This access can be removed once the model is published.
 
-For example, to train a custom document processing model, you can assign one (1) AI Builder credit to your environment, train and publish the model, then remove this assigned AIB credit.
+For example, to train a custom document processing model, you can assign one (1) AI Builder credit to your environment, train and publish the model, then remove this assigned AI Builder credit.
 
 Your published model is available in an agent flow and consumes Copilot credits.
 
