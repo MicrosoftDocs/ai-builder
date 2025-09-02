@@ -20,7 +20,7 @@ ms.reviewer: angieandrews
 
 This article focuses on AI Builder in the Power Apps and Power Automate context.
 
-Access to AI Builder features within an environment requires AI Builder credits. AI Builder credits come with some specific user licenses, but mostly from AI Builder capacity add-on. Learn more in [Get entitlement to AI Builder credits](credit-management.md#get-entitlement-to-ai-builder-credits). Once acquired, credits can be allocated (also known as assigned) to a specific environment, or left at the organization (tenant) level. Learn more in [Make credits available for an environment](credit-management.md#make-credits-available-for-an-environment-allocated-and-unallocated-credits).
+Access to AI Builder features within an environment requires AI Builder credits. AI Builder credits come with some specific user licenses, but mostly from AI Builder capacity add-on. Learn more in [Get entitlement to AI Builder credits](credit-management.md#get-entitlement-to-ai-builder-credits). Once acquired, credits can be allocated (also known as assigned) to a specific environment, or left at the organization (tenant) level. Learn more in [Make credits available for an environment](credit-management.md#make-ai-builder-credits-available-for-an-environment-allocated-and-unallocated-credits).
 
 > [!NOTE]
 > - Learn how to use AI models and prompts in Copilot Studio or agent flows in [AI Builder licensing in Copilot Studio](message-management.md).
@@ -174,7 +174,8 @@ As long as overage isn't important, AI Builder models continue to run and consum
 
 When monthly consumption becomes higher than the available AI Builder credits by a large margin, running models in flows and apps is blocked. In this state, AI Builder actions fail with `EntitlementNotAvailable` `QuotaExceeded` error codes. In flow editor, remediation panel displays **All AI Builder credits in this environment have been consumed**.
 
-To get details on your environment allocation, check [Make credits available for an environment ](credit-management.md#make-credits-available-for-an-environment-allocated-and-unallocated-credits) section in this document.
+To get details on your environment allocation, check the [Make credits available for an environment](credit-management.md#make-ai-builder-credits-available-for-an-environment-allocated-and-unallocated-credits) section in this article.
+
 To get details on your environment consumption, check [Monitor usage](credit-management.md#monitor-usage) section in this article.
 
 If your environment has no more capacity, you need to provide capacity to your environment:  reallocate existing capacity from the organization (tenant) or environment level. Alternatively, you can purchase more capacity and make it available to your environment.
@@ -298,7 +299,7 @@ The administrator can restrict usage by allocating all AI Builder credits to spe
 
 Environments with allocated AI Builder credits only consume allocated AI Builder credits. There's no automatic switch to unallocated AI Builder credit consumption when in overage. Environments without allocated AI Builder credits only consume unallocated AI Builder credits.
 
-Learn more in [Make credits available for an environment](#make-credits-available-for-an-environment-allocated-and-unallocated-credits) in this article.
+Learn more in [Make credits available for an environment](credit-management.md#make-ai-builder-credits-available-for-an-environment-allocated-and-unallocated-credits) in this article.
 
 Learn how to allocate capacity in [Power Platform admin center](https://admin.powerplatform.microsoft.com/) in [Allocate or change capacity in an environment](/power-platform/admin/capacity-add-on#allocate-or-change-capacity-in-an-environment).
 

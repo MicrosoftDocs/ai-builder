@@ -80,7 +80,7 @@ The following functions aren't available when you exceed capacity:
 - Scheduled model run or retrain.
   - Some scenarios allow scheduled run or retrain, which is configured on the model settings panel. These scheduled tasks fail when you exceed capacity. Therefore, data isn't refreshed, and the model isn't retrained.
 
-To continue using AI Builder when you exceed capacity, [purchase AI Builder add-on](credit-management.md#get-entitlement-to-ai-builder-credits), and [allocate capacity](credit-management.md#make-credits-available-for-an-environment-allocated-and-unallocated-credits) to your environments.
+To continue using AI Builder when you exceed capacity, [purchase AI Builder add-on](credit-management.md#get-entitlement-to-ai-builder-credits), and [allocate capacity](credit-management.md#make-ai-builder-credits-available-for-an-environment-allocated-and-unallocated-credits) to your environments.
 
 When you extend a trial after expiration, capacity is reset. You can again run and train your models, and create new ones. Scheduled run and retrain instances resume according to the existing settings.
 
@@ -92,7 +92,7 @@ For answers to frequently asked questions, go to [AI Builder licensing FAQ](cred
 
 ### I exceeded my trial capacity. What can I do?
 
-- You can [purchase the AI Builder add-on](credit-management.md#get-entitlement-to-ai-builder-credits) and [allocate capacity](credit-management.md#make-credits-available-for-an-environment-allocated-and-unallocated-credits) to your environment.
+- You can [purchase the AI Builder add-on](credit-management.md#get-entitlement-to-ai-builder-credits) and [allocate capacity](credit-management.md#make-ai-builder-credits-available-for-an-environment-allocated-and-unallocated-credits) to your environment.
 - You can wait for your trial to expire, then extend your trial. This extension adds new capacity.
 - You can share your existing model with another user who still has active trial with capacity.
 
@@ -102,7 +102,7 @@ After your AI Builder trial license expires, or if you exceed capacity:
 
 - Your models aren't deleted.
 - You need to [purchase AI Builder add-on](credit-management.md#get-entitlement-to-ai-builder-credits) to continue using your AI models.
-- An administrator must [allocate AI Builder capacity](credit-management.md#make-credits-available-for-an-environment-allocated-and-unallocated-credits) to any environment where you want to use AI Builder.
+- An administrator must [allocate AI Builder capacity](credit-management.md#make-ai-builder-credits-available-for-an-environment-allocated-and-unallocated-credits) to any environment where you want to use AI Builder.
 - You can't create or modify AI Builder models, and no new inference is possible when the trial expires if you don't purchase a license.
 - You can also extend your trial, but only for a limited number of times.
 
