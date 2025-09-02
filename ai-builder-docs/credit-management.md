@@ -219,10 +219,10 @@ Each AI Builder capability consumes AI Builder credits at a different rate. You 
 - **No capacity was found**
 - **Credit usage exceeds allocation**
 
-You need to check entitlement allocation of your environment. If there's no allocation, and no allocation at the organization (tenant) level, [allocate capacity](credit-management.md#make-credits-available-for-an-environment-allocated-and-unallocated-credits) to the environment or organization (tenant) level from other environments or by [purchasing AI Builder add-on](credit-management.md#get-entitlement-to-ai-builder-credits).
+You need to check entitlement allocation of your environment. If there's no allocation, and no allocation at the organization (tenant) level, [allocate capacity](credit-management.md#make-ai-builder-credits-available-for-an-environment-allocated-and-unallocated-credits) to the environment or organization (tenant) level from other environments or by [purchasing AI Builder add-on](credit-management.md#get-entitlement-to-ai-builder-credits).
 
 If there are AI Builder credits allocated or available at organization (tenant) level, compare the number with the [AI Builder consumption report](administer-consumption-report.md).
-Then [allocate more capacity](credit-management.md#make-credits-available-for-an-environment-allocated-and-unallocated-credits) eventually by [purchasing the AI Builder add-on](credit-management.md#get-entitlement-to-ai-builder-credits).
+Then [allocate more capacity](credit-management.md#make-ai-builder-credits-available-for-an-environment-allocated-and-unallocated-credits) eventually by [purchasing the AI Builder add-on](credit-management.md#get-entitlement-to-ai-builder-credits).
 
 ### I have seeded AI Builder credits. How many add-ons should I buy to cover my need?
 
@@ -293,7 +293,7 @@ AI Builder credit assignment and AI Builder credit allocation are same concept. 
 
 ### What are the differences between allocated AI Builder credits and unallocated AI Builder credits?
 
-When an organization (tenant) purchases AI Builder capacity, corresponding AI Builder credits are by default unallocated and available as a pool for the organization (tenant). In this state, AI Builder credits can be used on any environment without assigned credits, unless admin blocks usage of unallocated AI Builder credits using the ['AI Builder credit'](#block-use-of-unallocated-credits) organization (tenant) setting.
+When an organization (tenant) purchases AI Builder capacity, corresponding AI Builder credits are by default unallocated and available as a pool for the organization (tenant). In this state, AI Builder credits can be used on any environment without assigned credits, unless admin blocks usage of unallocated AI Builder credits using the ['AI Builder credit'](#block-use-of-unallocated-ai-builder-credits) organization (tenant) setting.
 
 The administrator can restrict usage by allocating all AI Builder credits to specific environments or by blocking the usage of unallocated AI Builder credits. They can reserve some capacity to an environment by allocating AI Builder credits to this environment.
 
