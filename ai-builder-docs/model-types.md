@@ -7,7 +7,7 @@ contributors:
   - v-aangie
 ms.topic: article
 ms.custom:
-ms.date: 06/13/2025
+ms.date: 09/03/2025
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---
@@ -68,7 +68,6 @@ The following table lists the data type, models type, and build type.
 | Images          | [Image Description](prebuilt-image-description.md)        | ImageDescription | Prebuilt (preview)              |
 | Images          | [Text Recognition](prebuilt-text-recognition.md)        | TextRecognition | Prebuilt              |
 |           | Preview version of App Copilot      | CopilotSidePanePredict | Prebuilt (preview)              |
-
 
 ## Common business scenarios
 

@@ -4,7 +4,7 @@ description: Describes the prebuilt entity extraction AI Builder model.
 author: phil-cmd
 ms.topic: article
 ms.custom: 
-ms.date: 06/23/2025
+ms.date: 09/03/2025
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---
@@ -13,7 +13,7 @@ ms.reviewer: angieandrews
 
 The prebuilt entity extraction model recognizes specific data from text that's of interest to your business. The model identifies key elements from text, and then classifies them into predefined categories. This can help to transform unstructured data into structured data that's machine-readable. You can then apply processing to retrieve information, extract facts, and answer questions.
 
-The prebuilt model is ready to use out of the box. For information about customizing your entity extraction to suit your specific needs, see [Overview of the entity extraction custom model](entity-extraction-overview.md).
+The prebuilt model is ready to use out of the box. Learn more about customizing your entity extraction to suit your specific needs in [Overview of the entity extraction custom model](entity-extraction-overview.md).
 
 ## Use in Power Apps
 
@@ -28,11 +28,11 @@ You can try out the entity extraction model before you import it into your cloud
     *(Optional)* To keep AI models permanently on the menu for easy access, select the pin icon.
 
 1. Select **Entity Extraction - Extract key elements from text, and classifies them into predefined categories**.
-1. Select predefined text samples to analyze, or add your own text, select **Analyze text**  to see how the model analyzes your text.
+1. Select predefined text samples to analyze, or add your own text, select **Analyze text** to display how the model analyzes your text.
 
 ### Use the formula bar
 
-You can integrate your AI Builder entity extraction model in Power Apps Studio by using the formula bar. For more information, see [Use Power Fx in AI Builder models in Power Apps (preview)](powerfx-in-powerapps.md).
+You can integrate your AI Builder entity extraction model in Power Apps Studio by using the formula bar. Learn more in [Use Power Fx in AI Builder models in Power Apps (preview)](powerfx-in-powerapps.md).
 
 ## Use in Power Automate
 

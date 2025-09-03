@@ -4,8 +4,8 @@ description: Describes the prebuilt sentiment analysis AI model in AI Builder.
 author: alanabrito
 ms.topic: article
 ms.custom: 
-ms.date: 06/23/2025
-ms.author: alanab
+ms.date: 09/03/2025
+ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
@@ -26,15 +26,15 @@ You can try out the sentiment analysis model before you import it into your clou
     *(Optional)* To keep AI models permanently on the menu for easy access, select the pin icon.
 
 1. Select **Sentiment analysis - Detect positive, negative, or neutral sentiment in text data**.
-1. Select predefined text samples to analyze, or add your own text, select **Analyze text**  to see how the model analyzes your text.
+1. Select predefined text samples to analyze, or add your own text, select **Analyze text**  to display how the model analyzes your text.
 
 ### Use the formula bar
 
-You can integrate your AI Builder sentiment analysis models in Power Apps Studio by using the formula bar. For more information, see [Use Power Fx in AI Builder models in Power Apps (preview)](powerfx-in-powerapps.md).
+You can integrate your AI Builder sentiment analysis models in Power Apps Studio by using the formula bar. Learn more in [Use Power Fx in AI Builder models in Power Apps (preview)](powerfx-in-powerapps.md).
 
 ## Use in Power Automate
 
-If you want to use this prebuilt model in Power Automate, you can find more information in [Use the sentiment analysis prebuilt model in Power Automate](flow-sentiment-analysis.md).
+If you want to use this prebuilt model in Power Automate, you can learn more in [Use the sentiment analysis prebuilt model in Power Automate](flow-sentiment-analysis.md).
   
 ## Supported language and data format
 

@@ -7,8 +7,8 @@ contributors:
   - v-aangie
 ms.topic: article
 ms.custom: 
-ms.date: 06/23/2025
-ms.author: antode
+ms.date: 09/03/2025
+ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
@@ -29,15 +29,15 @@ You can display the category classification prebuilt model in action without the
     *(Optional)* To keep AI models permanently on the menu for easy access, select the pin icon.
 
 1. Select **Category classification - Classify customer feedback into predefined categories**.
-1. Select predefined text samples to analyze, select **Analyze text** to see how the model analyzes your text.
+1. Select predefined text samples to analyze, select **Analyze text** to display how the model analyzes your text.
 
 ### Use the formula bar
 
-You can integrate your AI Builder category classification model in Power Apps Studio by using the formula bar. For more information, see [Use Power Fx in AI Builder models in Power Apps (preview)](powerfx-in-powerapps.md).
+You can integrate your AI Builder category classification model in Power Apps Studio by using the formula bar. Learn more in [Use Power Fx in AI Builder models in Power Apps (preview)](powerfx-in-powerapps.md).
 
 ## Use in Power Automate
 
-For information about how to use this prebuilt model in Power Automate, see [Use the category classification prebuilt model in Power Automate](prebuilt-category-classification-pwr-automate.md).
+Learn more about how to use this prebuilt model in Power Automate in [Use the category classification prebuilt model in Power Automate](prebuilt-category-classification-pwr-automate.md).
 
 ## Supported data format and languages
 
