@@ -68,6 +68,8 @@ The following table shows the mapping between AI Builder capabilities and Copilo
 | Entity extraction (prebuilt)        | Text and generative AI tools (standard)  | 1 response per 1K characters|
 | Entity extraction (custom)          | Text and generative AI tools (standard)  | 1 response per 1K characters|
 | Category classification (custom)    | Text and generative AI tools (standard)  | 1 response per 1K characters|
+| Code execution (read complex file/sources)   | Text and generative AI tools (premium)  | TBD|
+| Code generation (response/output generation)   | Text and generative AI tools (premium)  | TBD |
 
 ## Copilot credit consumption rules
 
