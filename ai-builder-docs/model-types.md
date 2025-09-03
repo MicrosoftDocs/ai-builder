@@ -29,7 +29,7 @@ To build a model with AI Builder:
 1. Sign in to [Power Apps](https://make.powerapps.com) or [Power Automate](https://make.powerautomate.com).
 
 1. On the left pane, select **... More** > **AI hub**.
-1. Under **Discover an AI capability**, select **AI models**.
+1. Select **AI models**.
 
     *(Optional)* To keep **AI models** permanently on the menu for easy access, select the pin icon.
 
@@ -55,6 +55,7 @@ The following table lists the data type, models type, and build type.
 | Documents       | [Receipt processing](prebuilt-receipt-processing.md)      | ReceiptScanning            | Prebuilt            |
 | Documents       | [Invoice processing](prebuilt-invoice-processing.md)      | InvoiceProcessing            | Prebuilt            |
 | Documents       | [ID reader](prebuilt-id-reader.md)      | IdentityDocument            | Prebuilt            |
+| Documents       |[Contract processing](prebuilt-contract-processing.md) | ContractDocument | Prebuilt            |
 |Text             | [Text generation (preview)](prebuilt-azure-openai.md)         | GptPowerPrompt, (GptPromptEngineering was used during Preview)| Prebuilt  |
 | Text            | Category classification  | TextClassificationV2            | [Prebuilt (preview)](prebuilt-category-classification.md) and [custom](text-classification-overview.md) |
 | Text            | Entity extraction       | EntityExtraction       | [Prebuilt](prebuilt-entity-extraction.md) and [custom](entity-extraction-overview.md) |
@@ -77,6 +78,7 @@ The different types of AI models in AI Builder provide you with a broad range of
 | ----- | ----- |
 Automate customer application processing|Document processing
 Automate expense reports|Receipt processing
+Automate the extraction of key clauses and data points from contracts|Contract processing
 Categorize user feedback based on their focus | Category classification
 Extract insights from product reviews | Entity extraction
 Identify language of text | Language detection
