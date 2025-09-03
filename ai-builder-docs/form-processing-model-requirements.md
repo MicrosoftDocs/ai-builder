@@ -7,8 +7,8 @@ contributors:
   - v-aangie
 ms.topic: article
 ms.custom:
-ms.date: 06/23/2025
-ms.author: antrod
+ms.date: 09/03/2025
+ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
@@ -34,17 +34,17 @@ Afrikaans, Albanian, Arabic, Bulgarian, Chinese (Han (Simplified variant)), Chin
 Document processing works on input documents that meet the following requirements:
 
 - JPG, PNG, or PDF format (text or scanned). Text-embedded PDFs are better, because there won't be any errors in character extraction and location.
-- TIFF files can't be used for training. You'll need to use documents in PDF, JPG or PNG format to train a model. Once the model has been trained, it can extract data from TIFF files when the model is used in a Power Automate cloud flow.
+- TIFF files can't be used for training. You need to use documents in PDF, JPG or PNG format to train a model. Once the model is trained, it can extract data from TIFF files when the model is used in a Power Automate cloud flow.
 - If your PDFs are password-locked, you must remove the lock before submitting them.
-- Maximum document size to process must not exceed 20 MB. 
+- Maximum document size to process must not exceed 20 MB.
 - For images, dimensions must be between 50 &times; 50 and 10,000 &times; 10,000 pixels.
 - If scanned from paper documents, scans should be high-quality images.
 - You can create up to 200 collections per model.
 - In a cloud flow, the limit of fields that can be tagged for document processing is 300.
 
 > [!NOTE]
-> - Extracting signatures from documents isn't currently supported.<br />
-> - Fields that split across page boundaries aren't currently supported.<br />
+> - Extracting signatures from documents is currently supported only for fixed template documents.
+> - Fields that split across page boundaries aren't currently supported.
 > - Rows that break from one page to another aren't currently supported.
 
 ## Optimization tip
