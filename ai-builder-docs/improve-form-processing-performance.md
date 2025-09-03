@@ -62,6 +62,7 @@ Interpret your accuracy score to identify what your model is struggling to extra
 
 1. Check that the field, table, or checkbox is tagged correctly in all the documents.
 1. Provide more sample documents for training where the field, table, or checkbox is present.
+   [Check Best practices](https://learn.microsoft.com/ai-builder/form-processing-faq#best-practices)
 
 ### What can I do if I have a low accuracy score for a collection?
 
