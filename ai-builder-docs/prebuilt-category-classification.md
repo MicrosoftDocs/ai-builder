@@ -24,7 +24,7 @@ You can display the category classification prebuilt model in action without the
 
 1. Sign in to [Power Apps](https://make.powerapps.com) or [Power Automate](https://make.powerautomate.com).
 1. On the left pane, select **... More** > **AI hub**.
-1. Under Discover an AI capability, select **AI models**.
+1. Select **AI models**.
 
     *(Optional)* To keep AI models permanently on the menu for easy access, select the pin icon.
 
