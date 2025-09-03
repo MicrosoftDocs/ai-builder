@@ -43,7 +43,7 @@ Document processing works on input documents that meet the following requirement
 - In a cloud flow, the limit of fields that can be tagged for document processing is 300.
 
 > [!NOTE]
-> - Extracting signatures from documents isn't currently supported.<br />
+> - Extracting signatures from documents is currently supported only for Fixed template documents.<br />
 > - Fields that split across page boundaries aren't currently supported.<br />
 > - Rows that break from one page to another aren't currently supported.
 
