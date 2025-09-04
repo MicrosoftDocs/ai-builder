@@ -62,7 +62,7 @@ For information about license capacity, pricing, and restrictions:
 
 - [Find the right Power Apps plan for your business needs](https://powerapps.microsoft.com/pricing/)
 - [Power Automate pricing](https://flow.microsoft.com/pricing/)
-- [AI Builder licensing and credit management](credit-management.md)
+- [Licensing and AI Builder credits](credit-management.md)
 
 ## For administrators
 

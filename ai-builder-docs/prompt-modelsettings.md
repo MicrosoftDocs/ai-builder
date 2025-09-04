@@ -26,7 +26,7 @@ The default model is GPT-4.1 mini. You can also use the more powerful GPT-4.1 mo
 
 In addition, we propose GPT-5 chat (preview) and GPT-5 reasoning (preview). Check availability of models by region in [Feature availability by regions for prompts](availability-region.md#prompts).
 
-Using prompts in Power Apps or Power Automate consumes *AI Builder credits*, while using prompts in Microsoft Copilot Studio consumes *messages*. Learn more in [AI Builder licensing and credit management](credit-management.md).
+Using prompts in Power Apps or Power Automate consumes *AI Builder credits*, while using prompts in Microsoft Copilot Studio consumes *messages*. Learn more in [Licensing and AI Builder credits](credit-management.md).
 
 ### Models details
 
