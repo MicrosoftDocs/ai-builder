@@ -69,6 +69,8 @@ The following table shows the mapping between AI Builder capabilities and Copilo
 | Entity extraction (custom)          | Text and generative AI tools (standard)  | 1 response per 1K characters|
 | Category classification (custom)    | Text and generative AI tools (standard)  | 1 response per 1K characters|
 
+\* sum of input and output tokens - Learn more in [Prompt tokens](licensing-prompt-tokens.md).
+
 ## Copilot credit consumption rules
 
 The following list contains Copilot credit consumption rules.
