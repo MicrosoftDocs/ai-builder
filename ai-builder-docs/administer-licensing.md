@@ -21,7 +21,7 @@ ms.reviewer: angieandrews
 AI Builder is licensed on a monthly capacity basis. In Power Automate or Power Apps context, the capacity is measured in terms of *AI Builder credits*. Qualifying prerequisites include having a Power Apps, Power Automate, or Dynamics 365 license that allows you to create the Microsoft Power Platform environment.
 
 > [!NOTE]
-> In Copilot Studio context, AI Builder features don't require *AI Builder credits*, but consume *Copilot credits*.  Learn more in [Licensing and Copilot credits](message-management.md).
+> In Copilot Studio context, AI Builder features don't require *AI Builder credits*, but consume *Copilot Credits*.  Learn more in [Licensing and Copilot Credits](message-management.md).
 
 This section provides an overview on *AI Builder credits* management.
 
@@ -44,7 +44,7 @@ As consumption is reset each month, the amount of AI Builder credit to purchase 
 ## Learn more
 
 - Learn more about licensing in Power Automate and Power Apps context in [Licensing and AI Builder credits](credit-management.md).
-- Learn more about licensing in Copilot Studio context in [Licensing and Copilot credits](message-management.md).
+- Learn more about licensing in Copilot Studio context in [Licensing and Copilot Credits](message-management.md).
 - Learn more about trials in [AI Builder trial](ai-builder-trials.md).
 
 ## Related information
