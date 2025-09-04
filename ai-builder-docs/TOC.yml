@@ -348,7 +348,7 @@
   items:
   - name: Licensing and AI Builder credits
     href: credit-management.md
-  - name: Licensing and Copilot credits
+  - name: Licensing and Copilot Credits
     href: message-management.md
   - name: AI Builder trial
     href: ai-builder-trials.md
