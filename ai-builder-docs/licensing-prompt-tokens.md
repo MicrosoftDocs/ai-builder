@@ -10,9 +10,9 @@ contributors:
 ms.topic: how-to
 ms.collection: 
     - bap-ai-copilot
-ms.date: 08/04/2025
+ms.date: 09/04/2025
 ms.update-cycle: 180-days
-ms.author: plarrue
+ms.author: antode
 ms.reviewer: angieandrews
 ---
 
@@ -33,7 +33,7 @@ When you create a prompt instruction and run it, the following happens:
 
 The input tokens are a sum of the tokens coming from:
 
-- The system metaprompt from Microsoft. This system prompt isn't visible and is essential for the safety of your prompt response.  It may equate to approximately 1200 tokens, though this can vary.
+- The system metaprompt from Microsoft. This system prompt isn't visible and is essential for the safety of your prompt response. It might equate to approximately 1,200 tokens, though this can vary.
 - The prompt instruction.
 - If any, the input values.
 - If any, the knowledge data retrieved.
@@ -95,7 +95,7 @@ For images with resolution higher than 512 x 512 pixels, the token conversion ha
 
 ## Related information
 
-- [Licensing and credit management](credit-management.md)
+- [Licensing and AI Builder credits](credit-management.md)
 - [Microsoft Power Platform Licensing Guide (PDF)](https://go.microsoft.com/fwlink/?LinkId=2085130)
 - [Add text, image, or document input to a prompt](add-inputs-prompt.md)
 

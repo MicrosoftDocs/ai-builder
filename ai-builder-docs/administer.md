@@ -75,7 +75,7 @@ AI Builder is licensed as an add-on to your Power Apps, Power Automate, or Dynam
 
 Access to AI Builder features within an environment requires access to AI Builder credits.
 
-To learn more, go to [AI Builder licensing and credit management](credit-management.md).
+Learn more in [Licensing and AI Builder credits](credit-management.md).
 
 ## Where and how data is stored in Dataverse
 

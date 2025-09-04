@@ -1,5 +1,5 @@
 ---
-title: "AI Builder licensing in Microsoft Copilot Studio: Copilot credit management"
+title: Licensing and Copilot credits
 description: Learn about licensing and Copilot credit management of AI Builder in Microsoft Copilot Studio
 author: Antoine2F
 contributors:
@@ -8,15 +8,15 @@ contributors:
 ms.topic: article
 ms.collection: 
     - bap-ai-copilot
-ms.date: 09/02/2025
+ms.date: 09/04/2025
 ms.update-cycle: 180-days
 ms.author: antode
 ms.reviewer: angieandrews
 ---
 
-# AI Builder licensing in Microsoft Copilot Studio: Copilot credit management
+# Licensing and Copilot credits
 
-This article focuses on AI Builder in the Microsoft Copilot Studio and agent flows context. Learn how to use AI Builder models and prompts in Power Apps or Power Automate in [AI Builder licensing and credit management](credit-management.md).
+This article focuses on AI Builder in the Microsoft Copilot Studio and agent flows context. Learn how to use AI Builder models and prompts in Power Apps or Power Automate in [Licensing and AI Builder credits](credit-management.md).
 
 Access to AI Builder features in Copilot Studio within an environment requires Copilot Studio capacity, which uses the *Copilot credit* currency. Learn about Copilot credit acquisition through prepaid packs and assignment in [Copilot Studio licensing](/microsoft-copilot-studio/billing-licensing).
 
@@ -69,7 +69,7 @@ The following table shows the mapping between AI Builder capabilities and Copilo
 | Entity extraction (custom)          | Text and generative AI tools (standard)  | 1 response per 1K characters|
 | Category classification (custom)    | Text and generative AI tools (standard)  | 1 response per 1K characters|
 
-\* sum of input and output tokens - Learn more in [Prompt tokens](licensing-prompt-tokens.md).
+\* Sum of input and output tokens. Learn more in [Prompt tokens](licensing-prompt-tokens.md).
 
 ## Copilot credit consumption rules
 
