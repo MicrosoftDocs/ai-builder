@@ -8,7 +8,7 @@ contributors:
 ms.topic: article
 ms.collection: 
     - bap-ai-copilot
-ms.date: 09/02/2025
+ms.date: 09/04/2025
 ms.update-cycle: 180-days
 ms.author: antode
 ms.reviewer: angieandrews
@@ -68,8 +68,8 @@ The following table shows the mapping between AI Builder capabilities and Copilo
 | Entity extraction (prebuilt)        | Text and generative AI tools (standard)  | 1 response per 1K characters|
 | Entity extraction (custom)          | Text and generative AI tools (standard)  | 1 response per 1K characters|
 | Category classification (custom)    | Text and generative AI tools (standard)  | 1 response per 1K characters|
-| Code execution (read complex file/sources)   | Text and generative AI tools (premium)  | TBD|
-| Code generation (response/output generation)   | Text and generative AI tools (premium)  | TBD |
+| Code execution (read complex file/sources)   | Text and generative AI tools (premium)  | 1 response per code execution |
+| Code generation (response/output generation)   | Text and generative AI tools (premium)  | 1 response per code generation |
 
 ## Copilot credit consumption rules
 
