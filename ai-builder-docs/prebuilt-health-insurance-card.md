@@ -1,5 +1,5 @@
 ---
-title: Health insurance card processing prebuilt model
+title: Health insurance card processing prebuilt model (preview)
 description: Learn about the health insurance card processing prebuilt model in AI Builder.
 author: phil-cmd
 ms.topic: conceptual
@@ -9,11 +9,15 @@ ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
-# Health insurance card processing prebuilt model
+# Health insurance card processing prebuilt model (preview)
+
+[!INCLUDE [cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
 The health insurance card processing prebuilt model uses Optical Character Recognition (OCR) capabilities to analyze and extract key information from a US health insurance card. It extracts information from US health insurance card images.
 
 The model extracts information such as insurer, member, prescription, group number, and more.
+
+[!INCLUDE[cc_preview_features_definition](./includes/cc-preview-features-definition.md)]
 
 ## Learn how to use the health insurance card prebuilt model
 

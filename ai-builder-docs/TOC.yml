@@ -90,9 +90,9 @@
         href: prebuilt-id-reader.md
       - name: Business card reader
         href: prebuilt-business-card.md
-      - name: Health insurance card processing
+      - name: Health insurance card processing (preview)
         href: prebuilt-health-insurance-card.md
-      - name: Contract processing
+      - name: Contract processing (preview)
         href: prebuilt-contract-processing.md
     - name: Text
       items:
@@ -316,7 +316,7 @@
         href: business-card-reader-component-in-powerapps.md
       - name: Use in a model-driven app
         href: business-card-reader-component-model-driven.md
-    - name: Health insurance card processing model
+    - name: Health insurance card processing model (preview)
       href: use-prebuilt-health-insurance-card-power-apps.md
     - name: Contract processing model (preview)
       href: use-prebuilt-contract-processing-power-apps.md
