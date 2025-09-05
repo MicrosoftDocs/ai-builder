@@ -11,6 +11,12 @@ ms.reviewer: angieandrews
 
 # Use the health insurance card processing prebuilt model in Power Automate
 
+[!INCLUDE cc-beta-prerelease-disclaimer]
+
+In this article, you learn how to create a flow that uses the health insurance card model.
+
+[!INCLUDEcc_preview_features_definition]
+
 1. Sign in to [Power Automate](https://make.powerautomate.com/).
 1. On the navigation pane to the left, select **My flows**, and then select **New flow** > **Instant cloud flow** in the menu at the top.
 1. Name your flow.
