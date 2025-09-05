@@ -9,7 +9,7 @@ ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
-# Use the health insurance card processing prebuilt model in Power Apps
+# Use the health insurance card processing prebuilt model in Power Apps (preview)
 
 AI Builder health insurance card model combined with Power Fx lets you extract key details from health insurance card like Insurer, Member, IdNumber, Group Number, Prescription Info, Effective Date, Medicare or Medicaid Info, and more, quickly and accurately. This low-code app simplifies health insurance card handling.
 
