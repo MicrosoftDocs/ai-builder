@@ -1,6 +1,6 @@
 ---
-title: "AI Builder licensing in Microsoft Copilot Studio: Copilot credit management"
-description: Learn about licensing and Copilot credit management of AI Builder in Microsoft Copilot Studio
+title: Licensing and Copilot Credits
+description: Learn about licensing and Copilot Credits in AI Builder in Microsoft Copilot Studio
 author: Antoine2F
 contributors:
   - Antoine2F
@@ -14,11 +14,11 @@ ms.author: antode
 ms.reviewer: angieandrews
 ---
 
-# AI Builder licensing in Microsoft Copilot Studio: Copilot credit management
+# Licensing and Copilot Credits
 
-This article focuses on AI Builder in the Microsoft Copilot Studio and agent flows context. Learn how to use AI Builder models and prompts in Power Apps or Power Automate in [AI Builder licensing and credit management](credit-management.md).
+This article focuses on AI Builder in the Microsoft Copilot Studio and agent flows context. Learn how to use AI Builder models and prompts in Power Apps or Power Automate in [Licensing and AI Builder credits](credit-management.md).
 
-Access to AI Builder features in Copilot Studio within an environment requires Copilot Studio capacity, which uses the *Copilot credit* currency. Learn about Copilot credit acquisition through prepaid packs and assignment in [Copilot Studio licensing](/microsoft-copilot-studio/billing-licensing).
+Access to AI Builder features in Copilot Studio within an environment requires Copilot Studio capacity, which uses the *Copilot Credit* currency. Learn about Copilot Credit acquisition through prepaid packs and assignment in [Copilot Studio licensing](/microsoft-copilot-studio/billing-licensing).
 
 ## AI Builder capabilities in Copilot Studio scenarios
 
@@ -28,9 +28,9 @@ In Copilot Studio, several scenarios involve AI Builder capabilities:
 - Use prompts within actions.
 - Use AI models (such as *document processing* or *text recognition*) or prompts within agent flows.
 
-All these scenarios consume Copilot credits.
+All these scenarios consume Copilot Credits.
 
-## Copilot credit consumption rates
+## Copilot Credit consumption rates
 
 Each AI Builder capability maps to one of the following Copilot Studio/AI Tools features.
  
@@ -71,15 +71,17 @@ The following table shows the mapping between AI Builder capabilities and Copilo
 | Code execution (read complex file/sources)   | Text and generative AI tools (premium)  | 1 response per code execution |
 | Code generation (response/output generation)   | Text and generative AI tools (premium)  | 1 response per code generation |
 
-## Copilot credit consumption rules
+\* Sum of input and output tokens. Learn more in [Prompt tokens](licensing-prompt-tokens.md).
 
-The following list contains Copilot credit consumption rules.
+## Copilot Credit consumption rules
+
+The following list contains Copilot Credit consumption rules.
 
 - Prompts in topics or actions triggered from the agent-embedded test panel are free.
-- Prompts and models in agent flows always consume Copilot credits, even when triggered from an agent-embedded test panel, or from the flow designer.
-- When a classic flow is transformed into an agent flow, AI Builder prompts and models within this flow begin consuming Copilot credit instead of AI Builder credits.
+- Prompts and models in agent flows always consume Copilot Credits, even when triggered from an agent-embedded test panel, or from the flow designer.
+- When a classic flow is transformed into an agent flow, AI Builder prompts and models within this flow begin consuming Copilot Credit instead of AI Builder credits.
 - Testing a prompt (within prompt builder) or a model (within the **AI models** page) is free.
-- Prompts in agents or agent flows consume Copilot credits, even with models in preview.
+- Prompts in agents or agent flows consume Copilot Credits, even with models in preview.
 
 ## Train a custom model to be used in an agent flow
 
@@ -87,20 +89,20 @@ Training a custom model (for example, *document processing* and *object detectio
 
 For example, to train a custom document processing model, you can assign one (1) AI Builder credit to your environment, train and publish the model, then remove this assigned AI Builder credit.
 
-Your published model is available in an agent flow and consumes Copilot credits.
+Your published model is available in an agent flow and consumes Copilot Credits.
 
-## Copilot credit consumption examples
+## Copilot Credit consumption examples
 
-The following examples explain the Copilot credit consumption rules.
+The following examples explain the Copilot Credit consumption rules.
 
 ### Agent with prompts in topics
 
 A Human Resources (HR) agent is configured with a **Benefit** topic, which uses a prompt (based on 4.1 mini) to retrieve specific information about sick days from a Dataverse table. An employee asks this agent about sick days. This triggers the prompt. The size of the input (including the system prompt) and output is 4,200 tokens (about 16,000 characters).
 
-This employee's request consumed five (5) responses of the **text and generative AI tools (basic)** feature, which equals 0.5 Copilot credits, plus the cost of the Copilot Studio classic answer or generative answer.
+This employee's request consumed five (5) responses of the **text and generative AI tools (basic)** feature, which equals 0.5 Copilot Credits, plus the cost of the Copilot Studio classic answer or generative answer.
 
 ### Agent cloud flow with custom document processing
 
 An agent cloud flow is triggered when receiving email from a specific address. It processes the attached file, which contains three (3) pages, using a custom document processing model.
 
-This consumes three (3) pages of the content processing tools feature, which equals 24 Copilot credits. This is in addition to the cost of the agent flow actions.
+This consumes three (3) pages of the content processing tools feature, which equals 24 Copilot Credits. This is in addition to the cost of the agent flow actions.
