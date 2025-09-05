@@ -5,10 +5,12 @@ author: Antoine2F
 contributors:
   - Antoine2F
   - v-aangie
+ms.contributor:
+  - cyanderson
 ms.topic: article
 ms.collection: 
     - bap-ai-copilot
-ms.date: 09/04/2025
+ms.date: 09/05/2025
 ms.update-cycle: 180-days
 ms.author: antode
 ms.reviewer: angieandrews
