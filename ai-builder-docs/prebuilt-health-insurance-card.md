@@ -70,6 +70,4 @@ If a health insurance card is detected, the health insurance card processing mod
 |:-----|:-----|-----:|
 |Calls (per environment)|360|60 seconds|
 
-## Related information
 
-<!--placeholder-->
