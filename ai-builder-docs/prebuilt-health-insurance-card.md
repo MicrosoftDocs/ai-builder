@@ -41,7 +41,7 @@ For best results, provide one clear photo or high-quality scan per document.
 
 ### Supported size
 
-- The file size for analyzing documents is <!--placeholder--> MB.
+- The file size for analyzing documents is 20 MB.
 - The image dimensions must be between 50 pixels x 50 pixels and 10,000 pixels x 10,000 pixels.
 - The minimum height of the text to be extracted is 12 pixels for a 1024 x 768 pixel image. This dimension corresponds to about 8 point text at 150 dots per inch (DPI).
 
