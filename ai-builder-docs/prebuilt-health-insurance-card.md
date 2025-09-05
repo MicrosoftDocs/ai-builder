@@ -13,7 +13,7 @@ ms.reviewer: angieandrews
 
 The health insurance card processing prebuilt model uses Optical Character Recognition (OCR) capabilities to analyze and extract key information from a US health insurance card. It extracts information from US health insurance card images.
 
-The model extracts information such as insurer, member, prescription, group number, and more. <!--model output-->
+The model extracts information such as insurer, member, prescription, group number, and more.
 
 ## Learn how to use the health insurance card prebuilt model
 

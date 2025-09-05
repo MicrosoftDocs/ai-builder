@@ -270,7 +270,7 @@
         href: id-reader.md  
       - name: Business card reader model
         href: flow-business-card-reader.md
-      - name: Health insurance card processing model
+      - name: Health insurance card processing model (preview)
         href: use-prebuilt-health-insurance-card-power-automate.md  
       - name: Contract processing model (preview)
         href: use-prebuilt-contract-processing-power-automate.md
