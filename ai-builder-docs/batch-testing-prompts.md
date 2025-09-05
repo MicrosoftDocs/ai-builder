@@ -9,7 +9,7 @@ ms.topic: article
 ms.collection: 
 - get-started
 - bap-ai-copilot
-ms.date: 05/20/2025
+ms.date: 08/20/2025
 ms.update-cycle: 180-days
 ms.custom: build-2025
 ms.author: antrod
@@ -41,121 +41,80 @@ Batch testing provides a systematic approach for validating prompts on diverse d
 
 An accuracy score is calculated based on test results, giving you empirical data to trust your AI tools.
 
-## Test dataset management
+## How to use batch testing
 
-You can create and manage test datasets in multiple ways:
+Use the following steps to set up and run batch tests for your prompts.
 
-- Import historical data from past prompt interactions.
-- Upload pre-labeled datasets in CSV format.
-- Leverage AI-generated synthetic test data for diverse scenarios.
-- Manually create or refine test cases within the interface.
+### Define the test cases
 
-## Evaluation criteria
+1. Sign in to [Copilot Studio](https://copilotstudio.microsoft.com), [Power Apps](https://make.powerapps.com), or [Power Automate](https://make.powerautomate.com).
+1. Access the list of prompts:
+   - In Copilot Studio, select **Tools**, and then filter on prompts.
+   - In Power Apps and Power Automate, select **AI hub**.
 
-The framework offers you flexibility in defining evaluation criteria:
+1. Next to the prompt name, select the ellipsis (**...**).
+1. Select **Test hub (Preview)**.
 
-- **Prebuilt criteria**: Includes options for tasks like JSON validation, exact match, semantic similarity, and response quality check.
-- **Passing score**: You can tailor the passing score to fit unique use case depending upon the threshold that you set when a test result should be considered as pass or fail.
+    Here's an example of the **Tools** screen in Copilot Studio:
 
-## Run history insights
+    :::image type="content" source="media/batch-testing-prompts/new-tool.png" alt-text="Screenshot of the menu with the 'Test hub - Preview' option.":::
+
+    In Copilot Studio, the test hub looks like the following screenshot:
+
+    :::image type="content" source="media/batch-testing-prompts/test-gub-get-started.png" alt-text="Screenshot of the Test hub screen.":::
+
+1. Add your test cases using one the available options:
+   - **Upload**: Allows you to upload test cases using a csv file. If you want to check the format of the file you need to upload, select Download test data schema.
+   - **AI-generate**: Allows you to generate test cases using AI based on your prompt.
+   - **Use activity data**: Allows you to pull the recent prompt activity to help you get started.
+   - **Manually Add**: Allows you to create test cases manually.
+
+   Any of the options help you create a list of test cases that you're able to run:
+
+   :::image type="content" source="media/batch-testing-prompts/list-uploaded-test-case.png" alt-text="Screenshot of the uploaded test cases.":::
+
+### Set evaluation criteria
+
+1. After you create the test cases, select **Configure criteria** in the configuration section on the right:
+
+    :::image type="content" source="media/batch-testing-prompts/configure-eval-criteria.png" alt-text="Screenshot of configure evaluation criteria.":::
+
+1. Define the **Passing score**, which is the minimum score required for a response to pass.
+
+1. Choose one of the following prebuilt criteria:
+    - **Response quality**: Tests responses for clarity, helpfulness, and tone
+    - **Response matches**: Tests responses for specific words and meanings
+    - **JSON correctness**: Tests that responses follow your data schema
+
+    :::image type="content" source="media/batch-testing-prompts/evaluation-criteria.png" alt-text="Screenshot of evaluation criteria.":::
+
+    These criteria and passing score determine how test cases outputs are assessed during the evaluation process.
+
+### Run batch tests
+
+1. In the test cases screen, select **Run all** to run evaluation on all the test cases, or select the test cases to run and select **Run selected**.
+
+    :::image type="content" source="media/batch-testing-prompts/run-tests.png" alt-text="Screenshot of tests to run.":::
+
+   The test hub evaluates results against the defined criteria, providing insights into the prompt's performance.
+
+1. Once the test cases evaluation is done, the result screen appears:
+
+    :::image type="content" source="media/batch-testing-prompts/run-result.png" alt-text="Screenshot of tests results.":::
+
+1. To access previous evaluation runs, select the prompt name at the top of the screen in Copilot Studio, or select **Run history** in Power Apps or Power Automate.
+
+    :::image type="content" source="media/batch-testing-prompts/run-history.png" alt-text="Screenshot of run history.":::
+
+1. To view details, select the evaluation run.
 
 Run history allows you to monitor and analyze test results over time, including:
 
 - Track accuracy score progression across multiple test runs.
 - Compare outcomes from different runs to identify trends or regressions.
-- Access details of why a certain test result was classified pass or fail thus offering more detailed for diagnosis.
+- Access details of why a certain test result was classified pass or fail, thus offering more details for diagnosis.
 
-## How to use the Test framework
-
-Use the following steps to set up and run batch tests for your prompts.
-
-### Define the Test dataset
-
-Step 1 in the batch testing process is to define the test dataset.
-
-1. Sign in to [Power Apps](https://make.powerapps.com) or [Power Automate](https://make.powerautomate.com).
-1. On the navigation pane to the left, select **AI hub**.
-1. Under **Recently created**, select **Prompts**.
-
-    :::image type="content" source="media/batch-testing-prompts/ai-hub-prompts.png" alt-text="Screenshot of recently created prompts.":::
-
-1. Next to the prompt name, select the vertical ellipsis (&vellip;).
-1. Select **Test hub (Preview)**.
-
-    :::image type="content" source="media/batch-testing-prompts/more.png" alt-text="Screenshot of the 'More' menu with the 'Test hub - Preview' option.":::
-
-    The Test hub (preview) opens.
-
-    :::image type="content" source="media/batch-testing-prompts/test-gub-get-started.png" alt-text="Screenshot of the Test hub screen.":::
-
-1. To add test cases individually, select **Add test case**.
-
-    :::image type="content" source="media/batch-testing-prompts/add-test-case.png" alt-text="Screenshot of adding a test case.":::
-
-1. To set upload test cases, select **Upload**.
-
-    If you want to check the format of the file you need to upload, select **Download test data schema**.
-
-    :::image type="content" source="media/batch-testing-prompts/upload-test-case.png" alt-text="Screenshot of uploading or downloading test data schema.":::
-
-1. To generate synthetic datasets using AI, select **Generate**.
-1. Select the test lines to keep and then select **Save**.
-  
-    :::image type="content" source="media/batch-testing-prompts/list-uploaded-test-case.png" alt-text="Screenshot of the uploaded test cases.":::
-
-You can also define datasets by selecting the following in the **Test hub** menu. To choose from past activity, select **Create from activity**.
-
-### Set evaluation criteria
-
-Step 2 in the batch testing process involves defining the evaluation criteria for the test cases.
-
-1. In the **Test hub** screen, select **Evaluation criteria**.
-1. Choose from the following prebuilt criteria:
-    - For semantic similarity, select **Response quality**.
-    - For JSON validation, select **JSON correctness**.
-1. Adjust the pass score threshold tailored to specific needs.
-
-    :::image type="content" source="media/batch-testing-prompts/evaluation-criteria.png" alt-text="Screenshot of evaluation criteria.":::
-
-    These criteria and passing score determine how outputs are assessed during the evaluation process.
-
-### Run batch tests
-
-Step 3 in the batch testing process is to run the batch tests.
-
-1. Select the test cases to run.
-1. Select **Run selected**.
-
-    The framework evaluates results against the defined criteria, providing insights into the prompt's performance.
-
-    :::image type="content" source="media/batch-testing-prompts/run-tests.png" alt-text="Screenshot of tests to run.":::
-
-### Review test results
-
-Step 4 in the batch testing process is to review the test results.
-
-You can:
-- View test responses, accuracy scores, and evaluation details.
-- Refine evaluation metrics to suit their needs.
-- Identify areas for improvement and optimize their prompt.
-
-1. To access previous runs, select **Run history**.
-
-    :::image type="content" source="media/batch-testing-prompts/run-history.png" alt-text="Screenshot of run history.":::
-
-1. To view details, select the run.
-
-    :::image type="content" source="media/batch-testing-prompts/run-details.png" alt-text="Screenshot of run details.":::
-
-### Monitor and iterate
-
-Step 5 in the batch testing process is to monitor and iterate. To track performance over time, use the run history. Continuously improve prompts through iterative testing and evaluation.
-
-The following list contains the key benefits:
-- Improved confidence and trust in AI tool outcomes.
-- Standardized and repeatable testing processes.
-- Enhanced efficiency through automation and AI-assisted tools.
-- Customizable evaluation options for diverse business scenarios.
+Iterate on the test cases evaluation and monitor any significant change between evaluation runs.
 
 ## Related information
 

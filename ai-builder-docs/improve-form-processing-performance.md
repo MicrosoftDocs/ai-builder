@@ -10,9 +10,9 @@ ms.topic: how-to
 ms.collection: 
 - get-started
 - bap-ai-copilot
-ms.date: 06/23/2025
+ms.date: 09/03/2025
 ms.update-cycle: 180-days
-ms.author: antrod
+ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
@@ -28,15 +28,15 @@ Interpret your accuracy score to identify what your model is struggling to extra
 1. On the left pane, select **... More** > **AI hub**.
 1. Under **Discover an AI capability**, select **AI models**.
 1. (Optional) To keep **AI models** permanently on the menu for easy access, select the pin icon.
-1. Open the document processing model you want to investigate. You should see the accuracy score.
+1. Open the document processing model you want to investigate. The accuracy score should display.
 
     > [!NOTE]
-    > In the following cases you won’t see accuracy scores for document processing models:
-    > - If the model was trained by selecting ‘General documents’ as document type. Currently, accuracy scores are returned only for models of type ‘Fixed-template documents’.
+    > In the following cases, you don't get accuracy scores for document processing models:
+    > - If the model was trained by selecting 'General documents' as document type. Currently, accuracy scores are returned only for models of type 'Fixed-template documents'.
     > - Your model was imported from another environment.
     > - If your model was trained before January 1, 2022. In this case, you can retrain it.
 
-1. On the model details page, you should see the general accuracy score.
+1. On the model details page, you should get the general accuracy score.
 
     :::image type="content" source="media/improve-the-performance-of-your-form-processing-model/accuracy-score.png" alt-text="Screenshot of the accuracy score.":::
 
@@ -54,7 +54,7 @@ Interpret your accuracy score to identify what your model is struggling to extra
 
     :::image type="content" source="media/improve-the-performance-of-your-form-processing-model/field-evaluation-poor.png" alt-text="Screenshot of a poor accuracy score in the 'Field' tab.":::
 
-    See suggestions on what you can do to improve your model by hovering over items with a poor accuracy score. For example, you might see a recommendation to [provide more sample documents](#add-more-documents-to-the-training-data) for training.
+    Suggestions on what you can do to improve your model display by hovering over items with a poor accuracy score. For example, a recommendation to [provide more sample documents](#add-more-documents-to-the-training-data) for training might display.
 
 ## Common questions
 
@@ -62,10 +62,11 @@ Interpret your accuracy score to identify what your model is struggling to extra
 
 1. Check that the field, table, or checkbox is tagged correctly in all the documents.
 1. Provide more sample documents for training where the field, table, or checkbox is present.
+1. Review [Best practices](form-processing-faq.md#best-practices).
 
 ### What can I do if I have a low accuracy score for a collection?
 
-Check that the documents within the collection all have the same layout. To learn more about collections, go to [Group documents by collections](create-form-processing-model.md#group-documents-by-collections). 
+Check that the documents within the collection all have the same layout. To learn more about collections, go to [Group documents by collections](create-form-processing-model.md#group-documents-by-collections).
 
 ## Add more documents to the training data
 

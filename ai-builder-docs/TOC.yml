@@ -38,7 +38,11 @@
   - name: Add knowledge to your prompt
     href: use-your-own-prompt-data.md    
   - name: Change the output of your prompt
-    href: change-prompt-output.md
+    items:
+    - name: JSON output
+      href: process-responses-json-output.md
+    - name: Document output (preview)
+      href: generate-document-output-prompt.md
   - name: Share your prompt
     href: share-your-prompt.md 
   - name: Distribute your prompt using a solution
@@ -348,9 +352,9 @@
     href: availability-region.md
 - name: Licensing and monitoring
   items:
-  - name: Licensing and credit management
+  - name: Licensing and AI Builder credits
     href: credit-management.md
-  - name: Licensing and message management
+  - name: Licensing and Copilot Credits
     href: message-management.md
   - name: AI Builder trial
     href: ai-builder-trials.md

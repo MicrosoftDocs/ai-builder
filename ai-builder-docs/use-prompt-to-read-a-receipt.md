@@ -7,7 +7,7 @@ contributors:
   - v-aangie
 ms.topic: how-to
 ms.custom:
-ms.date: 02/05/2025
+ms.date: 08/13/2025
 ms.author: angieandrews
 ms.reviewer: angieandrews
 ---
@@ -52,6 +52,6 @@ You can now run the app to try it out.
 ## Related information
 
 - [Use your own data in a prompt](use-your-own-prompt-data.md)
-- [Change the output of your prompt](change-prompt-output.md)
+- [Process responses with JSON output](process-responses-json-output.md)
 - [Add text, image, or document input to a prompt](add-inputs-prompt.md)
 
