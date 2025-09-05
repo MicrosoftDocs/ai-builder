@@ -4,7 +4,7 @@ description: Learn about the health insurance card processing prebuilt model in 
 author: phil-cmd
 ms.topic: conceptual
 ms.custom: 
-ms.date: 08/08/2025
+ms.date: 09/05/2025
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---
@@ -41,8 +41,8 @@ For best results, provide one clear photo or high-quality scan per document.
 
 ### Supported size
 
-- The file size for analyzing documents is <!--placeholder--> MB
-- The image dimensions must be between 50 pixels x 50 pixels and 10,000 pixels x 10,000 pixels
+- The file size for analyzing documents is <!--placeholder--> MB.
+- The image dimensions must be between 50 pixels x 50 pixels and 10,000 pixels x 10,000 pixels.
 - The minimum height of the text to be extracted is 12 pixels for a 1024 x 768 pixel image. This dimension corresponds to about 8 point text at 150 dots per inch (DPI).
 
 ## Model output
