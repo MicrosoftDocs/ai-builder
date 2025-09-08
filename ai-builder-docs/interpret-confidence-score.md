@@ -118,7 +118,7 @@ Currently, we don't provide a confidence score for an entire table; however, we 
 ### What can I do if I have a low confidence score for a cell, table?
 
 1. Check that the table is tagged correctly in all the documents.
-1. Provide more sample documents for training where the table is present.
+1. Provide more sample documents for training where the table is present. [Check best practices](https://learn.microsoft.com/ai-builder/form-processing-faq#best-practices)
 
 ## Related information
 
