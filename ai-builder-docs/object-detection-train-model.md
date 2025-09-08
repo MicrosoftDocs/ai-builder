@@ -4,7 +4,7 @@ description: Provides steps to train and publish your object detection model in 
 author: aminabrandt
 ms.topic: how-to
 ms.custom: 
-ms.date: 01/28/2025
+ms.date: 09/08/2025
 ms.author: ambran
 ms.reviewer: angieandrews
 ---

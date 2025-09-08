@@ -7,8 +7,8 @@ contributors:
   - phil-cmd
   - v-aangie
 ms.topic: how-to
-ms.date: 01/28/2025
-ms.author: ashbhati
+ms.date: 09/08/2025
+ms.author: plarrue
 ms.reviewer: angieandrews
 ms.custom:
   - sfi-image-nochange
