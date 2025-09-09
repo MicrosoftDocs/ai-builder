@@ -8,8 +8,8 @@ contributors:
   - v-aangie
 ms.topic: article
 ms.custom: bap-template
-ms.date: 01/27/2025
-ms.author: ashbhati
+ms.date: 09/08/2025
+ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
@@ -18,7 +18,7 @@ ms.reviewer: angieandrews
 [!INCLUDE [cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
 > [!IMPORTANT]
-> - This feature is deprecated and isn't be visible anymore.
+> - This feature is deprecated and isn't visible anymore.
 > - The [new prompt builder feature](use-a-custom-prompt-in-flow.md) should be used instead.
 
 ### Prerequisites
@@ -36,7 +36,7 @@ The text generation model's capability is a powerful tool in AI Builder. It enab
 - Classify text into different categories.
 - Translate text from one language to another.
 
-Text generation is powered by Azure OpenAI Service, which is built on Generative Pre-trained Transformer (GPT) technology. These large language models have been trained on a massive amount of text data. This enables them to generate text that's similar to human written text.
+Text generation is powered by Azure OpenAI Service, which is built on Generative Pre-trained Transformer (GPT) technology. These large language models were trained on a massive amount of text data. This enables them to generate text that's similar to human written text.
 
 > [!IMPORTANT]
 > - This is a preview feature.

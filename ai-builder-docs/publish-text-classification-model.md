@@ -4,8 +4,8 @@ description: Provides the information you need to know to publish your category 
 author: v-aangie
 ms.topic: article
 ms.custom: 
-ms.date: 01/28/2025
-ms.author: angieandrews
+ms.date: 09/08/2025
+ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
