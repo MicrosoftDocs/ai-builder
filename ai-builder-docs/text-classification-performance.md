@@ -4,8 +4,8 @@ description: Provides an understanding of how to evaluate and understand categor
 author: ashishb
 ms.topic: concept-article
 ms.custom: 
-ms.date: 01/28/2025
-ms.author: angieandrews 
+ms.date: 09/08/2025
+ms.author: plarrue 
 ms.reviewer: angieandrews
 ---
 

@@ -4,7 +4,7 @@ description: Learn how to use the text translation prebuilt model in your flows.
 author: alanabrito
 ms.topic: how-to
 ms.custom: 
-ms.date: 01/27/2025
+ms.date: 09/08/2025
 ms.author: alanab
 ms.reviewer: angieandrews
 ---

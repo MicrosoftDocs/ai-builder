@@ -4,8 +4,8 @@ description: Provides step-by-step instructions for publishing your model in AI 
 author: v-aangie
 ms.topic: article
 ms.custom: 
-ms.date: 01/27/2025
-ms.author: angieandrews
+ms.date: 09/08/2025
+ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 

@@ -6,7 +6,7 @@ contributors:
   - DanaMartens
   - v-aangie
 ms.topic: get-started
-ms.date: 01/27/2025
+ms.date: 09/08/2025
 ms.author: dmartens
 ms.reviewer: angieandrews
 ---

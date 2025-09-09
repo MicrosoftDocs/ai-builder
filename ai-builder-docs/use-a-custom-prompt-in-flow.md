@@ -11,7 +11,7 @@ ms.topic: how-to
 ms.collection: 
 - get-started
 - bap-ai-copilot
-ms.date: 05/07/2025
+ms.date: 09/08/2025
 ms.update-cycle: 180-days
 ms.author: antrod
 ms.reviewer: angieandrews
