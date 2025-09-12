@@ -10,9 +10,9 @@ ms.topic: concept-article
 ms.collection: 
 - get-started
 - bap-ai-copilot
-ms.date: 06/13/2025
+ms.date: 09/12/2025
 ms.update-cycle: 180-days
-ms.author: ashbhati
+ms.author: antrod
 ms.reviewer: angieandrews
 ---
 
