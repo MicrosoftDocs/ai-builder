@@ -14,8 +14,8 @@ contributors:
   - v-aangie
   - antode
 ms.topic: article
-ms.date: 08/07/2025
-ms.author: antode
+ms.date: 08/12/2025
+ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
@@ -64,6 +64,7 @@ In the following table, (GA) means that the feature is available and uses an Azu
 | Identity document reader | GA      | GA        | GA      | GA      | GA      | GA      | GA      | GA      | GA      | GA      | GA        | GA           | GA            | GA      | GA          | GA                   | GA             | GA            |
 | Image description        | Preview | Preview   | Preview | Preview | Preview | Preview | Preview | Preview | Preview | Preview | Preview   | Preview      | Preview       | Preview | Preview     | Preview              | Preview        | Preview       |
 | Contract processing        | Preview | Preview   | Preview | Preview | Preview | Preview | Preview | Preview | Preview | Preview | Preview   | Preview      | Preview       | Preview | Preview     | Preview              | Preview        | Preview       |
+| Health insurance card processing        | Preview | Preview   | Preview | Preview | Preview | Preview | Preview | Preview | Preview | Preview | Preview   | Preview      | Preview       | Preview | Preview     | Preview              | Preview        | Preview       |
 | Invoice processing       | GA      | GA        | GA      | GA      | GA      | GA      | GA      | GA      | GA      | GA      | GA        | GA           | GA            | GA      | GA          | GA                   | GA             | GA            |
 | Key phrase extraction    | GA      | GA        | GA      | GA      | GA      | GA      | GA      | GA      | GA      | GA      | GA        | GA           | GA            | GA      | GA          | GA                   | GA             | GA            |
 | Language detection       | GA      | GA        | GA      | GA      | GA      | GA      | GA      | GA      | GA      | GA      | GA        | GA           | GA            | GA      | GA          | GA                   | GA             | GA            |
