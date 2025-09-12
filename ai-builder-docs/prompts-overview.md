@@ -10,9 +10,9 @@ ms.topic: concept-article
 ms.collection: 
 - get-started
 - bap-ai-copilot
-ms.date: 06/13/2025
+ms.date: 09/12/2025
 ms.update-cycle: 180-days
-ms.author: ashbhati
+ms.author: antrod
 ms.reviewer: angieandrews
 ---
 
@@ -31,7 +31,7 @@ AI Builder provides a prompt building user experience that allows makers to buil
 
 ## Prerequisites
 
-- You have a basic understanding of how to write prompts. To learn more, download the [AI Builder Prompting Guide](https://aka.ms/promptguide).
+- You have a basic understanding of how to write prompts.
 - Your environment is in the list of [available regions](availability-region.md).
 - You need a Power Apps, Power Automate or Copilot Studio license, and:
     - Pre-purchased AI Builder credits if you use prompts in Power Apps or Power Automate.
