@@ -14,8 +14,8 @@ contributors:
   - v-aangie
   - antode
 ms.topic: article
-ms.date: 08/07/2025
-ms.author: antode
+ms.date: 08/12/2025
+ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
