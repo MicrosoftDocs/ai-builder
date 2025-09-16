@@ -10,7 +10,7 @@ contributors:
 ms.topic: article
 ms.collection: 
     - bap-ai-copilot
-ms.date: 09/04/2025
+ms.date: 09/16/2025
 ms.update-cycle: 180-days
 ms.author: antode
 ms.reviewer: angieandrews
@@ -63,7 +63,7 @@ The following table explains the rules for number of credits per license.
 |-|-|-|
 |AI Builder add-on (T1, T2, T3)|1,000,000|None.|
 | Power Apps Premium |500| Maximum = 1,000,000 AI Builder credits per tenant.|
-| Power Apps per app |250| Maximum = 1,000,000 AI Builder credits per tenant. Per app licenses purchased before November 2022 don't include any credits.|
+| Power Apps per app |250| Maximum = 1,000,000 AI Builder credits per tenant. Per app licenses purchased before November 2022, don't include any credits.|
 | Power Automate Premium |5,000| Maximum = 1,000,000 AI Builder credits per tenant.|
 | Power Automate Process |5,000| Maximum = 1,000,000 AI Builder credits per tenant.|
 | Power Automate Hosted RPA add-on |5,000| Maximum = 1,000,000 AI Builder credits per tenant.|
@@ -355,7 +355,7 @@ No. Testing prompts and testing trained models are free. Testing prebuilt models
 
 ### I built an app that includes a flow. I want to add an AI Builder action in this flow. Does it turn my app into a premium app?
 
-Yes. By adding an AI Builder action to a flow, you turn this flow into a premium flow. Hence, your app is now a premium app, so it requires a premium license to be used.
+Yes. By adding an AI Builder action to a flow inside your app, you turn your app into a premium app, so it requires a premium license to be used. However, your flow isn't considered as a premium flow.
 
 ### Do you have FAQ about AI Builder trials?
 
