@@ -18,12 +18,17 @@ ms.reviewer: angieandrews
 
 # Overview of licensing
 
+> [!NOTE]
+> A major change will happen on November 1st 2025: starting this date, AI Builder features in the Power Apps/Automate context will be able to consume Copilot Credits.  
+> The new licensing system will first check availability of AI Builder credits, and consume if any. In case of overage or absence, the system will check and consume Copilot Credits.  
+> Learn more in New AI Builder Licensing page
+> This page focuses on the current behavior, before November 1st 2025. 
+
 AI Builder is licensed on a monthly capacity basis. In Power Automate or Power Apps context, the capacity is measured in terms of *AI Builder credits*. Qualifying prerequisites include having a Power Apps, Power Automate, or Dynamics 365 license that allows you to create the Microsoft Power Platform environment.
 
-> [!NOTE]
-> In Copilot Studio context, AI Builder features don't require *AI Builder credits*, but consume *Copilot Credits*.  Learn more in [Licensing and Copilot Credits](message-management.md).
+In Copilot Studio context, AI Builder features don't require *AI Builder credits*, but consume *Copilot Credits*.  Learn more in [Licensing and Copilot Credits](message-management.md).
 
-This section provides an overview on *AI Builder credits* management.
+This section provides an overview on *AI Builder credits* management with current behavior, before November 1st 2025.
 
 **AI Builder credits entitlement**:  AI Builder credits come mostly from purchasing AI Builder capacity add-ons. Some user licenses also give you a certain amount of AI Builder credits per month as part of their benefits.
 
