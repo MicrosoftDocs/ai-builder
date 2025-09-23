@@ -61,12 +61,13 @@ Prepaid pack Copilot Credits can be assigned to environments. Each environment h
 
 ### Copilot Credit Rate card
 Each AI Builder Model or Prompt is consuming one of these 4 Copilot Features:  
-| Feature                                | Cost per page/image/1K characters/1K tokens | Prompts or Models consuming this feature |
-|----------------------------------------|---------------------------------------------|------------------------------------------|
-|Text and generative AI tools (basic)    | 0.1 Copilot Credit                          |Prompts using basic LLM,  Text recognition, Sentiment analysis, Language detection, Key phrase extraction|
-|Text and generative AI tools (standard) | 1.5  Copilot Credits                        |Prompts using standard LLM, Text translation, Entity extraction, Category classification|
-|Text and generative AI tools (premium)  | 10   Copilot Credits                        |Prompts using premium LLM|
-|Content processing tools                | 8  Copilot Credits                          |Custom document processing, Invoice processing, Receipt processing, Identity document reader, Object detection |
+
+| Feature                                | Cost per page/image/1K characters/1K tokens | Prompts or Models consuming this feature |  
+|----------------------------------------|---------------------------------------------|------------------------------------------|  
+|Text and generative AI tools (basic)    | 0.1 Copilot Credit                          |Prompts using basic LLM,  Text recognition, Sentiment analysis, Language detection, Key phrase extraction|  
+|Text and generative AI tools (standard) | 1.5  Copilot Credits                        |Prompts using standard LLM, Text translation, Entity extraction, Category classification|  
+|Text and generative AI tools (premium)  | 10   Copilot Credits                        |Prompts using premium LLM|  
+|Content processing tools                | 8  Copilot Credits                          |Custom document processing, Invoice processing, Receipt processing, Identity document reader, Object detection |  
  
 Prompts are using the 'per 1K tokens' unit: for each prompt, the licensing system computes the size of input + output (including system prompt, reasoning) in tokens and rounds it up.  
 This provides the number of 'Feature' which will be consumed.
