@@ -13,7 +13,7 @@ ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
-# Bring your own AI model into AI Builder
+# Bring your own AI model into AI Builder (preview)
 
 You can bring your own model into AI Builder so that it can function like any AI Builder custom model. You can use your model in Microsoft Power Platform by using Power Automate, or you can build apps with Power Apps.
 
