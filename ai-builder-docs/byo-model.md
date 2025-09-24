@@ -19,6 +19,10 @@ You can bring your own model into AI Builder so that it can function like any AI
 
 When you use your own model, it's sometimes referred to as a *model endpoint*, which enables communication. When you use your own model, limitations apply. These [limitations](#limitations) are described later in this article.
 
+> [!IMPORTANT]
+> - This feature is in preview.
+> - Preview features aren’t meant for production use and may have restricted functionality. These features are available before an official release so that customers can get early access and provide feedback.
+
 ## Create your own model
 
 Outside of AI Builder, you can create your own model by using the Azure Machine Learning platform. To use the model in AI Builder, it must meet certain requirements:
