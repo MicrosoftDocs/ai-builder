@@ -8,23 +8,23 @@ contributors:
   - v-aangie
 ms.topic: how-to
 ms.custom:
-ms.date: 09/08/2025
-ms.author: plarrue
+ms.date: 09/24/2025
+ms.author: jelenak
 ms.reviewer: angieandrews
 ---
 
 # Package your own model using solutions (preview)
 
-> [!IMPORTANT]
-> - This feature is in preview.
-> - Preview features aren’t meant for production use and may have restricted functionality. These features are available before an official release so that customers can get early access and provide feedback.
+[!INCLUDE [cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
-After you've [registered](byo-model.md#register-your-own-model) your own model in AI Builder using a Python package, you can package your model using solutions to perform application lifecycle management (ALM) tasks, such as:
+After you [register](byo-model.md#register-your-own-model) your own model in AI Builder using a Python package, you can package your model using solutions to perform application lifecycle management (ALM) tasks, such as:
 
 - [Export your own model using a solution](#export-your-own-model-using-a-solution).
 - [Import your own model into the target environment](#import-your-own-model-into-the-target-environment).
 - [Upgrade your own model in source or target environments](#upgrade-your-own-model).
 - [Stage your own model for upgrade](#stage-your-own-model-for-upgrade).
+
+[!INCLUDE [cc_preview_features_definition](./includes/cc-preview-features-definition.md)]
 
 Solutions are used to transport apps and components from one environment to another. They're also used to apply a set of customizations to existing apps. For detailed information about solutions and how they're used to apply ALM concepts across Microsoft Power Platform, go to [Overview of application lifecycle management](/power-platform/alm/overview-alm).
 
