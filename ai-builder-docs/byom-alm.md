@@ -15,6 +15,10 @@ ms.reviewer: angieandrews
 
 # Package your own model using solutions
 
+> [!IMPORTANT]
+> - This feature is in preview.
+> - Preview features aren’t meant for production use and may have restricted functionality. These features are available before an official release so that customers can get early access and provide feedback.
+
 After you've [registered](byo-model.md#register-your-own-model) your own model in AI Builder using a Python package, you can package your model using solutions to perform application lifecycle management (ALM) tasks, such as:
 
 - [Export your own model using a solution](#export-your-own-model-using-a-solution).
