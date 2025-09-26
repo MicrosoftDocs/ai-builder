@@ -29,7 +29,7 @@ In Power Automate and Power Apps context, AI Builder features are licensed exclu
 
 Starting November 1, 2025, AI Builder features in Power Automate and Power Apps context will also be licensed based on Copilot Credits. Existing customers with paid or seeded AI Builder credits can continue using their AI Builder credits. When AI Builder credits are in overage or not present, the licensing system checks Copilot Credits availability, and allows the feature to run, if any.
 
-New customers aren't able to purchase paid AI Builder credits add-on, and no longer receive seeded AI Builder credits in Power Automate premium licenses. They need Copilot Credits to access and run AI Builder features in Power Automate and Power Apps context.
+New customers aren't able to purchase paid AI Builder Capacity Add-on, and no longer receive seeded AI Builder credits in Power Automate premium licenses. They need Copilot Credits to access and run AI Builder features in Power Automate and Power Apps context.
 
 The change comes along with many simplifications:
 
