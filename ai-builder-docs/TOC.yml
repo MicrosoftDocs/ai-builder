@@ -6,8 +6,6 @@
     href: overview.md
   - name: Overview of licensing
     href: administer-licensing.md
-  - name: AI Builder licensing rules
-    href: dual-mode-licensing.md
   - name: Labs and sample data
     items:
     - name: Labs

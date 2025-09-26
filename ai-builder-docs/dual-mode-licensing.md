@@ -29,7 +29,7 @@ In Power Automate and Power Apps context, AI Builder features are licensed exclu
 
 Starting November 1, 2025, AI Builder features in Power Automate and Power Apps context will also be licensed based on Copilot Credits. Existing customers with paid or seeded AI Builder credits can continue using their AI Builder credits. When AI Builder credits are in overage or not present, the licensing system checks Copilot Credits availability, and allows the feature to run, if any.
 
-New customers aren't able to purchase paid AI Builder credits addon, and no longer receive seeded AI Builder credits in Power Automate premium licenses. They need Copilot Credits to access and run AI Builder features in Power Automate and Power Apps context.
+New customers aren't able to purchase paid AI Builder credits add-on, and no longer receive seeded AI Builder credits in Power Automate premium licenses. They need Copilot Credits to access and run AI Builder features in Power Automate and Power Apps context.
 
 The change comes along with many simplifications:
 
@@ -53,7 +53,7 @@ It was already the case for AI Builder features in Copilot Studio context. For n
 ## Copilot Credits management
 
 Copilot Credits can be purchased as prepaid packs, and are also available as pay-as-you-go.
-Prepaid pack Copilot Credits can be assigned to environments. Each environment has a toggle to indicate whether it can consume unassigned Copilot Credits or not, called 'Draw from the available capacity in my tenant'
+Prepaid pack Copilot Credits can be assigned to environments. Each environment has a toggle to indicate whether it can consume unassigned Copilot Credits or not, called 'Draw from the available capacity in my tenant'.
 
 ### Copilot Credit rate card
 
@@ -80,11 +80,11 @@ Sentiment analysis, language detection, key phrase extraction, text translation,
 
 ## Consumption monitoring
 
-Copilot Credit consumption now includes consumption coming from Power Automate and Power Apps context. It can be monitored in the **Power Platform admin center** > **Copilot Studio** section. AI Builder credit consumption continues to be monitored in the **Power Platform admin center** > **Add-ons** section.  
+Copilot Credit consumption now includes consumption coming from Power Automate and Power Apps context. It can be monitored in the [Power Platform admin center](https://admin.powerplatform.microsoft.com) > **Copilot Studio** section. AI Builder credit consumption continues to be monitored in the [Power Platform admin center](https://admin.powerplatform.microsoft.com) > **Licensing** > **Capacity add-ons** section.  
 
 For environments using AI Builder credits first, then Copilot Credits, admins need to check both reports. However, the AI Builder activity in Power Automate helps you understand whether a particular action was billed in AI Builder credit or Copilot Credit.
 
-Banners in the Power Platform admin center/add-ons section and emails continue to inform admins about AI Builder credit overages.
+Banners in the [Power Platform admin center](https://admin.powerplatform.microsoft.com) add-ons section and emails continue to inform admins about AI Builder credit overages.
 
 ## End of AI Builder trials
 
@@ -96,8 +96,8 @@ Starting November 1, 2025, new customers can't start or renew AI Builder trials.
 
 Extension requests are available up to the end of October 2025.
 
-Starting November 1, 2025, environments in overage block the run of AI Builder features unless Copilot Credits are available, or an admin allocates more AI Builder credits to the environment.
+Starting November 1, 2025, environments in overage block the run of AI Builder features unless Copilot Credits are available, or an admin allocates more AI Builder credits to the environment. This blocking is for business runs only, using features in Power Apps or Power Automate cloud flows. It doesn't impact maker access to AI Builder portal pages such as training or quick testing models.
 
 ## Ungated access to AI models and prompts in Power Automate and Power Apps portals
 
-Makers can train custom models and test prebuilt and custom models or prompts in the Power Automate and Power Apps portal, without any AI Builder credits or Copilot Credits. This is also true when environment is in overage of AI Builder credits. Admins can block access to prompts using a specific toggle in Power Platform admin center.
+Makers can train custom models and test prebuilt and custom models or prompts in the Power Automate and Power Apps portal, without any AI Builder credits or Copilot Credits. This is also true when environment is in overage of AI Builder credits. Admins can block access to prompts using a specific toggle in [Power Platform admin center](https://admin.powerplatform.microsoft.com).
