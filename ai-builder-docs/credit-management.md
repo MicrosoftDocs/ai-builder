@@ -10,7 +10,7 @@ contributors:
 ms.topic: article
 ms.collection: 
     - bap-ai-copilot
-ms.date: 09/16/2025
+ms.date: 10/01/2025
 ms.update-cycle: 180-days
 ms.author: antode
 ms.reviewer: angieandrews
@@ -18,15 +18,16 @@ ms.reviewer: angieandrews
 
 # Licensing and AI Builder credits
 
-This article focuses on AI Builder in the Power Apps and Power Automate context.
+This article focuses on AI Builder in the Power Apps and Power Automate context before November 1, 2025.
 
 > [!NOTE]
-> A major change will happen on November 1st 2025: starting this date, AI Builder features in the Power Apps/Automate context will be able to consume Copilot Credits.  
-> System will first check availability of AI Builder credits. In case of overage or absence, system will check and consume Copilot Credits.  
-> Learn more in New AI Builder Licensing page
-> This page focuses on the current behavior, before November 1st 2025.  
+> - On November 1, 2025, there will be a major change to AI Builder licensing. Starting on this date, AI Builder features in the Power Apps and Power Automate context will be able to consume Copilot Credits.  
+> - The new licensing system will first check availability of AI Builder credits, and consume if any. In case of overage or absence, the system will check and consume Copilot Credits.  
+> - Learn more in [Copilot Credits based licensing](dual-mode-licensing.md).
 
-Access to AI Builder features within an environment requires AI Builder credits. AI Builder credits come with some specific user licenses, but mostly from AI Builder capacity add-on. Learn more in [Get entitlement to AI Builder credits](credit-management.md#get-entitlement-to-ai-builder-credits). Once acquired, credits can be allocated (also known as assigned) to a specific environment, or left at the organization (tenant) level. Learn more in [Make credits available for an environment](credit-management.md#make-ai-builder-credits-available-for-an-environment-allocated-and-unallocated-credits).
+Access to AI Builder features within an environment requires AI Builder credits. AI Builder credits come with some specific user licenses, but mostly from AI Builder capacity add-on. Learn more in [Get entitlement to AI Builder credits](credit-management.md#get-entitlement-to-ai-builder-credits). 
+
+Once acquired, credits can be allocated (also known as assigned) to a specific environment, or left at the organization (tenant) level. Learn more in [Make credits available for an environment](credit-management.md#make-ai-builder-credits-available-for-an-environment-allocated-and-unallocated-credits).
 
 - Learn how to use AI models and prompts in Copilot Studio or agent flows in [Licensing and Copilot Credits](message-management.md).
 - Learn about licensing in [Copilot Studio licensing](/microsoft-copilot-studio/requirements-messages-management#message-scenarios).

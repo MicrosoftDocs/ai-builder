@@ -6,6 +6,8 @@
     href: overview.md
   - name: Overview of licensing
     href: administer-licensing.md
+  - name: Copilot Credits based licensing
+    href: dual-mode-licensing.md
   - name: Labs and sample data
     items:
     - name: Labs
