@@ -114,6 +114,16 @@
       "source_path": "ai-builder-docs/change-prompt-output.md",
       "redirect_url": "process-responses-json-output",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-builder-docs/byo-model.md",
+      "redirect_url": "/ai-builder/byom-for-your-prompts",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-builder-docs/byom-alm.md",
+      "redirect_url": "/ai-builder/byom-for-your-prompts",
+      "redirect_document_id": false
     }
   ]
 }

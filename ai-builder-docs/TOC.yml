@@ -214,12 +214,6 @@
         href: entity-extraction-train.md
       - name: Use sample data
         href: entity-extraction-sample-data.md       
-    - name: Azure machine learning models (preview)
-      items:
-      - name: Create and register your own model
-        href: byo-model.md
-      - name: Package your own model using solutions
-        href: byom-alm.md   
   - name: Build custom AI models
     items:
     - name: Build a model
