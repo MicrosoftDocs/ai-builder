@@ -10,7 +10,7 @@ ms.topic: concept-article
 ms.collection: 
 - get-started
 - bap-ai-copilot
-ms.date: 09/02/2025
+ms.date: 10/01/2025
 ms.update-cycle: 180-days
 ms.author: antode
 ms.reviewer: angieandrews
@@ -18,12 +18,16 @@ ms.reviewer: angieandrews
 
 # Overview of licensing
 
-AI Builder is licensed on a monthly capacity basis. In Power Automate or Power Apps context, the capacity is measured in terms of *AI Builder credits*. Qualifying prerequisites include having a Power Apps, Power Automate, or Dynamics 365 license that allows you to create the Microsoft Power Platform environment.
+This article provides an overview of *AI Builder credits* management before November 1, 2025.
 
 > [!NOTE]
-> In Copilot Studio context, AI Builder features don't require *AI Builder credits*, but consume *Copilot Credits*.  Learn more in [Licensing and Copilot Credits](message-management.md).
+> - On November 1, 2025, there will be a major change to AI Builder licensing. Starting on this date, AI Builder features in the Power Apps and Power Automate context will be able to consume Copilot Credits.  
+> - The new licensing system will first check availability of AI Builder credits, and consume if any. In case of overage or absence, the system will check and consume Copilot Credits.  
+> - Learn more in [Copilot Credits based licensing](dual-mode-licensing.md).
 
-This section provides an overview on *AI Builder credits* management.
+AI Builder is licensed on a monthly capacity basis. In Power Automate or Power Apps context, the capacity is measured in terms of *AI Builder credits*. Qualifying prerequisites include having a Power Apps, Power Automate, or Dynamics 365 license that allows you to create the Microsoft Power Platform environment.
+
+In Copilot Studio context, AI Builder features don't require *AI Builder credits*, but consume *Copilot Credits*.  Learn more in [Licensing and Copilot Credits](message-management.md).
 
 **AI Builder credits entitlement**:  AI Builder credits come mostly from purchasing AI Builder capacity add-ons. Some user licenses also give you a certain amount of AI Builder credits per month as part of their benefits.
 
