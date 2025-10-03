@@ -1,6 +1,6 @@
 ---
 title: Licensing and Copilot Credits
-description: Learn about licensing and Copilot Credits in AI Tools in Microsoft Copilot Studio
+description: Learn about licensing and Copilot Credits in AI tools in Microsoft Copilot Studio
 author: Antoine2F
 contributors:
   - Antoine2F
@@ -35,15 +35,15 @@ All these scenarios consume Copilot Credits.
 ## Copilot Credit consumption rates
 
 Each AI Tools/AI Builder capability maps to one of the following Copilot Studio/AI Tools features.
- 
-| Copilot Studio/AI tools features         | Unit        | Rate per Unit|
+
+| Copilot Studio/AI tools features         | Unit        | Rate per unit|
 |------------------------------------------|-------------|-------------------|
 |Text and generative AI tools (basic)      | response¹    | 0.1 Copilot Credit|
 |Text and generative AI tools (standard)   | response¹    | 1.5 Copilot Credit|
 |Text and generative AI tools (premium)    | response¹    | 10 Copilot Credits|
 | Content processing tools                 | page        | 8 Copilot Credits |  
 
-¹ 1 response is either 1K tokens, or 1K chars, or 1 page, depending on the capability. See the detailed table below
+¹ 1 response is either 1K tokens, or 1K characters, or 1 page, depending on the capability. Review the following table.
 
 Using an AI Tool/AI Builder capability consumes units of these features. For example, extracting information from a two-page document within an agent flow consumes two pages of *content document processing*.
 
@@ -89,7 +89,7 @@ The following list contains Copilot Credit consumption rules.
 
 ## Train a custom model to be used in an agent flow
 
-Training a custom model (for example, *document processing* and *object detection*) happens in the Power Apps or Power Automate portal, in the **AI models** page. Training doesn't require any AI Builder credits or Copilot Credits.
+Training a custom model (for example, *document processing* and *object detection*) happens in the Power Apps or Power Automate portal, in the **AI models** page. Training doesn't require AI Builder credits or Copilot Credits.
 
 Your published model is available in an agent flow and consumes Copilot Credits.
 

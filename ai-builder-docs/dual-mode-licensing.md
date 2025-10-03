@@ -8,7 +8,7 @@ contributors:
 ms.topic: article
 ms.collection: 
     - bap-ai-copilot
-ms.date: 09/26/2025
+ms.date: 10/03/2025
 ms.update-cycle: 180-days
 ms.author: antode
 ms.reviewer: angieandrews
@@ -29,7 +29,7 @@ In Power Automate and Power Apps context, AI Builder features are licensed exclu
 
 Starting November 1, 2025, AI Builder features in Power Automate and Power Apps context will also be licensed based on Copilot Credits. Existing customers with paid or seeded AI Builder credits can continue using their AI Builder credits. When AI Builder credits are in overage or not present, the licensing system checks Copilot Credits availability, and allows the feature to run, if any.
 
-New customers aren't able to purchase paid AI Builder Capacity Add-on, and no longer receive seeded AI Builder credits in Power Automate premium licenses. They need Copilot Credits to access and run AI Builder features in Power Automate and Power Apps context. Existing customers will keep AI Builder capacity linked to their Add-on licenses, as long as they are active. Existing customers will keep their amount of seeded AI Builder credits for 1 year (this amount is based on a snapshot taken on 10/31). Seeded credits will be totally removed on 11/1/2026.
+New customers aren't able to purchase paid AI Builder Capacity Add-on, and no longer receive seeded AI Builder credits in Power Automate premium licenses. They need Copilot Credits to access and run AI Builder features in Power Automate and Power Apps context. Existing customers keep AI Builder capacity linked to their Add-on licenses, as long as they're active. Existing customers keep their number of seeded AI Builder credits for 1 year (this number is based on a snapshot taken on October 31). Seeded credits will be removed on November 1, 2026.
 
 The change comes along with many simplifications:
 
@@ -104,7 +104,7 @@ Makers can train custom models and test prebuilt and custom models or prompts in
 
 ## AI Tool Capability Pricing Comparison Table
 
-|AI Tool capability                            | Unit | Copilot Studio Feature| Copilot<BR> Credit<BR> rate| $ cost *|| AI Builder<BR> credit<BR> rate| $ cost **| Number of Copilot packs for 1 AIB addon|
+|AI Tool capability                            | Unit | Copilot Studio feature| Copilot Credit rate| $ cost *|| AI Builder credit rate| $ cost **| Number of Copilot packs for 1 AI Builder Add-on|
 |----------------------------------------------|------|-----------------------|--------------------|-----|-|---------------------|--|---|
 |Prompt (basic LLM model)                      |1k tokens| Text and generative AI tools (basic) |0.1 | 0.0008||1 (input), 3 (output) |0.0006 ¹|  4|
 | Prompt (standard LLM model)                  | 1k tokens  | Text and generative AI tools (standard)        | 1.5 | 0.012 || 20 (input), 60 (output)      | 0.012 ¹                   | 3|
@@ -119,9 +119,8 @@ Makers can train custom models and test prebuilt and custom models or prompts in
 | Object detection                             | 1 image    | Content Processing Tools                        | 8                    | 0.064                    || 8                             | 0.004                    |40|
 | Business card reader, Prediction             | N/A        |                                                | free                 |                          || free                          |                          |
 
-\* using yearly prepaid Copilot Studio pack   
-** using yearly prepaid AI Builder add-on  
+\* Using yearly prepaid Copilot Studio pack<br/>
+** Using yearly prepaid AI Builder Add-on  
 ¹ Based on 900 input tokens + 100 output tokens  
-² free as long as in preview  
- free as long as in preview
+² Free as long as in preview  
  
