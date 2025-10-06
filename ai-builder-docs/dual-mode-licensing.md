@@ -8,7 +8,7 @@ contributors:
 ms.topic: article
 ms.collection: 
     - bap-ai-copilot
-ms.date: 10/03/2025
+ms.date: 10/06/2025
 ms.update-cycle: 180-days
 ms.author: antode
 ms.reviewer: angieandrews
@@ -92,7 +92,7 @@ Users who started AI Builder trials are able to use them until the end of the tr
 
 Starting November 1, 2025, new customers can't start or renew AI Builder trials. They need to use Copilot Credits to use AI Builder features.  
 
-## End of Extension requests
+## End of extension requests
 
 Extension requests are available up to the end of October 2025.
 
@@ -102,22 +102,22 @@ Starting November 1, 2025, environments in overage block the run of AI Builder f
 
 Makers can train custom models and test prebuilt and custom models or prompts in the Power Automate and Power Apps portal, without any AI Builder credits or Copilot Credits. This is also true when environment is in overage of AI Builder credits. Admins can block access to prompts using a specific toggle in [Power Platform admin center](https://admin.powerplatform.microsoft.com).
 
-## AI tool Capability Pricing Comparison Table
+## AI tool Capability Pricing Comparison table
 
 |AI tool capability                            | Unit | Copilot Studio feature| Copilot Credit rate| $ cost *| AI Builder credit rate| $ cost **| Number of Copilot packs for 1 AI Builder Add-on|
 |----------------------------------------------|------|-----------------------|--------------------|-----|---------------------|--|---|
 |Prompt (basic LLM model)                      |1k tokens| Text and generative AI tools (basic) |0.1 | 0.0008|1 (input), 3 (output) |0.0006 ¹|  4|
 | Prompt (standard LLM model)                  | 1k tokens  | Text and generative AI tools (standard)        | 1.5 | 0.012 | 20 (input), 60 (output)      | 0.012 ¹                   | 3|
 | Prompt (premium LLM model)                   | 1k tokens  | Text and generative AI tools (premium)         | 10                   | 0.08                     | 140 (input), 560 (output)    | 0.091 ¹                   |3|
-| Custom Document Processing                   | 1 page     | Content Processing Tools                        | 8                    | 0.064                    | 100                           | 0.05                     |4|
+| Custom document processing                   | 1 page     | Content processing tools                        | 8                    | 0.064                    | 100                           | 0.05                     |4|
 | Text translation                             | 1k chars   | Text and generative AI tools (standard)        | 1.5                  | 0.012                    | 22                            | 0.011                    |3|
-| Simple Text analysis: sentiment analysis, <BR>language detection, key phrase extraction | 1k chars   | Text and generative AI tools (basic)           | 0.1                  | 0.0008                  | 2                             | 0.001                    |2|
-| Advanced Text analysis: category classification, <BR>entity extraction             | 1k chars   | Text and generative AI tools (standard)        | 1.5                  | 0.012                    | 20                            | 0.01                     |3|
+| Simple text analysis: sentiment analysis, <br/>language detection, key phrase extraction | 1k chars   | Text and generative AI tools (basic)           | 0.1                  | 0.0008                  | 2                             | 0.001                    |2|
+| Advanced text analysis: category classification, <br/>entity extraction             | 1k chars   | Text and generative AI tools (standard)        | 1.5                  | 0.012                    | 20                            | 0.01                     |3|
 | Text recognition (OCR)                       | 1 page     | Text and generative AI tools (basic)           | 0.1                  | 0.0008                   | 3                             | 0.0015                   |2|
-| Receipt, Invoice, Identity document analysis | 1 page     | Content Processing Tools                        | 8                    | 0.064                    | 32                            | 0.016                    |10|
-| Contract processing, Health insurance card <BR>processing, Image description ²      | 1 image    | Content Processing Tools                        | 8                    | 0.064                    | 32                            | 0.016                    |10|
-| Object detection                             | 1 image    | Content Processing Tools                        | 8                    | 0.064                    | 8                             | 0.004                    |40|
-| Business card reader, Prediction             | n/a        |     n/a                                           | free                 |    n/a                      | free                          |   n/a                       | n/a |
+| Receipt, invoice, identity document analysis | 1 page     | Content processing tools                        | 8                    | 0.064                    | 32                            | 0.016                    |10|
+| Contract processing, health insurance card <br/>processing, image description ²      | 1 image    | Content processing tools                        | 8                    | 0.064                    | 32                            | 0.016                    |10|
+| Object detection                             | 1 image    | Content processing tools                        | 8                    | 0.064                    | 8                             | 0.004                    |40|
+| Business card reader, prediction             | n/a        |     n/a                                           | free                 |    n/a                      | free                          |   n/a                       | n/a |
 
 \* Using yearly prepaid Copilot Studio pack<br/>
 ** Using yearly prepaid AI Builder Add-on  
