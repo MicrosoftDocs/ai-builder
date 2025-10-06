@@ -18,9 +18,9 @@ ms.reviewer: angieandrews
 
 # Licensing and Copilot Credits
 
-This article focuses on AI Tools/AI Builder capabilities in the Microsoft Copilot Studio and agent flows context. Learn how to use AI Tools/AI Builder models and prompts in Power Apps or Power Automate in [Licensing and AI Builder credits](credit-management.md).
+This article focuses on AI tools/AI Builder capabilities in the Microsoft Copilot Studio and agent flows context. Learn how to use AI tools/AI Builder models and prompts in Power Apps or Power Automate in [Licensing and AI Builder credits](credit-management.md).
 
-Access to AI Tools/AI Builder capabilities in Copilot Studio within an environment requires Copilot Studio capacity, which uses the *Copilot Credit* currency. Learn about Copilot Credit acquisition through prepaid packs and assignment in [Copilot Studio licensing](/microsoft-copilot-studio/billing-licensing).
+Access to AI tools/AI Builder capabilities in Copilot Studio within an environment requires Copilot Studio capacity, which uses the *Copilot Credit* currency. Learn about Copilot Credit acquisition through prepaid packs and assignment in [Copilot Studio licensing](/microsoft-copilot-studio/billing-licensing).
 
 ## AI Tools/AI Builder capabilities in Copilot Studio scenarios
 
@@ -45,11 +45,11 @@ Each AI Tools/AI Builder capability maps to one of the following Copilot Studio/
 
 ¹ 1 response is either 1K tokens, or 1K characters, or 1 page, depending on the capability. Review the following table.
 
-Using an AI Tool/AI Builder capability consumes units of these features. For example, extracting information from a two-page document within an agent flow consumes two pages of *content document processing*.
+Using an AI tool/AI Builder capability consumes units of these features. For example, extracting information from a two-page document within an agent flow consumes two pages of *content document processing*.
 
 The cost per unit is also published in [Billing rates and management](/microsoft-copilot-studio/requirements-messages-management#copilot-credits-and-events-scenarios).
 
-The following table shows the mapping between AI Tools/ AI Builder capabilities and Copilot Studio features.
+The following table shows the mapping between AI tools/ AI Builder capabilities and Copilot Studio features.
 
  | AI Tools/AI Builder capability                   | Copilot Studio features         |                  Rate and Unit |
 |------------------------------------------|------------------------------------------|-----------------------------|
