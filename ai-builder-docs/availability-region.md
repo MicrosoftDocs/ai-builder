@@ -14,7 +14,7 @@ contributors:
   - v-aangie
   - antode
 ms.topic: article
-ms.date: 08/12/2025
+ms.date: 10/08/2025
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---
@@ -40,8 +40,8 @@ In the following table, (GA) or (Preview) means that the feature is available bu
 | GPT-4.1 mini                         | GA          | GA             | (GA)           | (GA)           | (GA)           | (GA)           | GA            | (GA)           | (GA)           | GA             | (GA)           | (GA)           | (GA)           |  (GA)          | (GA)           | (GA)               | GA           | GA             |
 | GPT-4.1                              | GA          | GA             | (GA)           | (GA)           | (GA)           | (GA)           | GA            | (GA)           | (GA)           | GA             | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)               | GA           | GA             |
 | o3                                   | (GA)        | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)          | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)               |(GA)          | GA             |
-| GPT-5 chat                           |             |                |                | (Preview)      |                |                |               |                |                |                |                |                |                |                |                |                    |              | Preview        |
-| GPT-5 reasoning                      |             |                |                | (Preview)      |                |                |               |                |                |                |                |                |                |                |                |                    |              | Preview        |
+| GPT-5 chat                          |      -       |       -         | -               | (Preview)      |  -             | -              |  -            |  -             |  -             |   -            |                |     -          |   -            | -              |  -             |  -                 |  -           | Preview        |
+| GPT-5 reasoning      |  -          |  -             |   -            | (Preview)      |  -             |   -            |  -            |  -             |   -            | -              |  -             |   -            |  -             |   -            |   -            |   -                |              | Preview        |
 
 
 
