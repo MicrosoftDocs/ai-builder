@@ -12,10 +12,9 @@ contributors:
   - JoeFernandezMS
   - jekom1
   - v-aangie
-  - antode
 ms.topic: article
 ms.date: 10/08/2025
-ms.author: plarrue
+ms.author: antode
 ms.reviewer: angieandrews
 ---
 
