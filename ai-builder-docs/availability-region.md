@@ -12,10 +12,9 @@ contributors:
   - JoeFernandezMS
   - jekom1
   - v-aangie
-  - antode
 ms.topic: article
-ms.date: 08/12/2025
-ms.author: plarrue
+ms.date: 10/08/2025
+ms.author: antode
 ms.reviewer: angieandrews
 ---
 
@@ -33,15 +32,15 @@ The following tables show which AI Builder features are available in each region
 
 ### Prompts
 
-In the following table, (GA) means that the feature is available and uses an Azure OpenAI service in another region. Learn more in [enabling data movement cross-regions](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions).
+In the following table, (GA) or (Preview) means that the feature is available but uses an Azure OpenAI service in another region. Learn more in [enabling data movement cross-regions](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions).
 
-| Feature                              | Asia          | Australia      | Canada         | Europe         | France         | Germany        | India         | Japan          | Norway         | Singapore      | South Africa   | South America  | Korea          | Singapore      | Sweden         | Switzerland    |United Arab Emirates|United Kingdom| United States  |
-|--------------------------------------|---------------|----------------|----------------|----------------|----------------|----------------|---------------|----------------|----------------|----------------|----------------|----------------|----------------|----------------|----------------|----------------|--------------------|--------------|----------------|
-| GPT-4.1 mini                         | (GA)          | GA             | (GA)           | (GA)           | (GA)           | (GA)           | GA            | (GA)           | (GA)           | GA             | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)               | GA           | GA             |
-| GPT-4.1                             | (GA)          | GA             | (GA)           | (GA)           | (GA)           | (GA)            | GA            | (GA)           | (GA)           | GA            | (GA)         | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)               | GA           | GA             |
-| o3                                   | (GA)          | (GA)             | (GA)           | (GA)           | (GA)           | (GA)           | (GA)          | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)               |(GA)           | GA            |
-
-**GPT-5 chat** (preview) and **GPT-5 reasoning** (preview) are available only in **US** [early release cycle environments](/power-platform/admin/early-release) (where the **Get new feature early** toggle is checked in the **New environment** pane when you create a new environment).
+| Feature                              | Asia        | Australia      | Canada         | Europe         | France         | Germany        | India         | Japan          | Norway         | Singapore      | South Africa   | South America  | Korea          | Sweden         | Switzerland    |United Arab Emirates|United Kingdom| United States  |
+|--------------------------------------|-------------|----------------|----------------|----------------|----------------|----------------|---------------|----------------|----------------|----------------|----------------|----------------|----------------|----------------|----------------|--------------------|--------------|----------------|
+| GPT-4.1 mini                         | GA          | GA             | (GA)           | (GA)           | (GA)           | (GA)           | GA            | (GA)           | (GA)           | GA             | (GA)           | (GA)           | (GA)           |  (GA)          | (GA)           | (GA)               | GA           | GA             |
+| GPT-4.1                              | GA          | GA             | (GA)           | (GA)           | (GA)           | (GA)           | GA            | (GA)           | (GA)           | GA             | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)               | GA           | GA             |
+| o3                                   | (GA)        | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)          | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)               |(GA)          | GA             |
+| GPT-5 chat        |      -       |       -         | -               | (Preview)      |  -             | -              | -             |  -             | -             | -          | -               |  -           |  -            | -              |  -             |  -                 |  -           |
+| GPT-5 reasoning      |  -          |  -             |   -            | (Preview)      |  -             |   -            |  -            |  -             |  -            | -              |  -             |   -            |  -             |  -            |  -            | -                | -        | Preview        |
 
 ### Custom models
 
@@ -73,7 +72,6 @@ In the following table, (GA) means that the feature is available and uses an Azu
 | Text generation          | -       | -         | -       | -       | -       | -       | -       | -       | -       | -       | -         | -            | -             | -       | -           | -                    | -              | Preview       |
 | Text recognition         | GA      | GA        | GA      | GA      | GA      | GA      | GA      | GA      | GA      | GA      | GA        | GA           | GA            | GA      | GA          | GA                   | GA             | GA            |
 | Text translation         | -       | -         | -       | GA      | -       | -       | -       | -       | -       | -       | -         | -            | -             | -       | -           | -                    | -              | GA            |
-
 
 ## US Government
 
@@ -140,4 +138,5 @@ Learn about other limitations of Power Platform US Government in the following a
 ## Related information
 
 [AI model types](model-types.md)
+
 
