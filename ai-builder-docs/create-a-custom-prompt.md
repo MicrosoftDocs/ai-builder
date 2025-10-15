@@ -12,8 +12,8 @@ ms.topic: how-to
 ms.collection: 
 - get-started
 - bap-ai-copilot
-ms.date: 07/16/2025
-ms.author: antode
+ms.date: 10/14/2025
+ms.author: plarrue
 ms.reviewer: angieandrews
 ms.custom:
   - DevRelAdv
