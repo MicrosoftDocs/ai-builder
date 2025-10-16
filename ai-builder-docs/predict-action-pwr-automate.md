@@ -67,7 +67,7 @@ In this section, you learn how to configure the AI Builder predict action for th
    The **Infer request** column value depends on the model type.
 
 > [!NOTE]
-> the dynamic model ID is supported only for Document Processing, this is not suppoerted for prompts.
+> the dynamic model ID is supported only for Document Processing, this is not supported for prompts.
 
 ### Document processing model
 
