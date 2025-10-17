@@ -39,11 +39,11 @@ To access Copilot in prompt builder, follow these steps:
     - (Power Apps or Power Automate) Select **AI hub** > **Prompts** > **Build your own prompt**.
   
  
-    :::image type="content" source="media/draft-with-copilot/prompt-builder-draft-with-copilot-copilot-studio" alt-text="Screenshot of the prompt builder with Copilot window.":::
+    :::image type="content" source="media/draft-with-copilot/prompt-builder-draft-with-copilot-copilot-studio.png" alt-text="Screenshot of the prompt builder with Copilot window.":::
 
 1. In the **Write your prompt with Copilot** section, type your intent and select **Submit**.
 
-    :::image type="content" source="media/draft-with-copilot/prompt-builder-draft-with-copilot-write-prompt" alt-text="Screenshot of a sample in Copilot.":::
+    :::image type="content" source="media/draft-with-copilot/prompt-builder-draft-with-copilot-write-prompt.png" alt-text="Screenshot of a sample in Copilot.":::
 
     Copilot suggests a draft prompt based on your intent.
   
