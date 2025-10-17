@@ -6,9 +6,9 @@ contributors:
   - ashbhati
   - v-aangie
 ms.topic: get-started
-ms.date: 08/13/2025
+ms.date: 10/17/2025
 ms.update-cycle: 180-days
-ms.author: benapple
+ms.author: plarrue
 ms.reviewer: angieandrews
 ms.collection: bap-ai-copilot
 ---
@@ -21,7 +21,7 @@ Prompt builder is the authoring tool for creating AI prompts within Microsoft Po
 
 > [!IMPORTANT]
 > - This feature is in preview.
-> - AI Prompts run on large language models (LLMs) powered by [Azure OpenAI Service](/azure/ai-services/openai/whats-new).
+> - AI prompts run on large language models (LLMs) powered by [Azure OpenAI Service](/azure/ai-services/openai/whats-new).
 > - This capability is [limited to some regions](availability-region.md#prompts).
 > - This capability might be subject to usage limits or capacity throttling.
 
@@ -31,17 +31,16 @@ This feature empowers makers of all skill levels to create reliable and well-str
 
 To access Copilot in prompt builder, follow these steps:
 
-1. Sign in to  [Copilot Studio](https://copilotstudio.microsoft.com/) or [Power Apps](https://make.powerapps.com/), [Power Automate](https://make.powerautomate.com/)
+1. Sign in to [Copilot Studio](https://copilotstudio.microsoft.com/), [Power Apps](https://make.powerapps.com/), or [Power Automate](https://make.powerautomate.com/).
 
 1. Depending on the app you're signed in to, do one of the following:
 
     - (Copilot Studio) Select **Tools** > **+ New tool** > **Prompts**.
     - (Power Apps or Power Automate) Select **AI hub** > **Prompts** > **Build your own prompt**.
   
- 
     :::image type="content" source="media/draft-with-copilot/prompt-builder-draft-with-copilot-copilot-studio.png" alt-text="Screenshot of the prompt builder with Copilot window.":::
 
-1. In the **Write your prompt with Copilot** section, type your intent and select **Submit**.
+1. In the **Get started with Copilot (Preview)** section, type your intent and select **Submit**.
 
     :::image type="content" source="media/draft-with-copilot/prompt-builder-draft-with-copilot-write-prompt.png" alt-text="Screenshot of a sample in Copilot.":::
 
@@ -51,7 +50,7 @@ To access Copilot in prompt builder, follow these steps:
 
     :::image type="content" source="media/draft-with-copilot/prompt-builder-draft-with-copilot-keep-it.png" alt-text="Screenshot of a Copilot suggested prompt and the 'Keep it' button.":::
 
-1. Edit the suggested draft from Copilot as per your need, and test the prompt outcomes.
+1. Edit the suggested draft from Copilot as needed, and test the prompt outcomes.
 
     :::image type="content" source="media/draft-with-copilot/prompt-builder-draft-with-copilot-edit-test.png" alt-text="Screenshot of the instructions panel and the model response panel.":::
 
