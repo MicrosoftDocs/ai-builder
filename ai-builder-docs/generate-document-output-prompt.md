@@ -6,7 +6,7 @@ contributors:
   - antrodfr
   - v-aangie
 ms.topic: how-to
-ms.date: 08/14/2025
+ms.date: 10/20/2025
 ms.update-cycle: 180-days
 ms.author: antrod
 ms.reviewer: angieandrews
@@ -126,5 +126,5 @@ It's not possible to generate a document without uploading a layout.
 
 ## Related information
 
-[FAQ for prompts and text generation capabilities](faqs-text-generation.md)
+[FAQ for prompts](faqs-prompts.md)
      

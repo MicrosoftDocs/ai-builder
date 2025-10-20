@@ -9,7 +9,7 @@ contributors:
   - v-aangie
 ms.topic: article
 ms.custom: bap-template
-ms.date: 06/23/2025
+ms.date: 10/20/2025
 ms.update-cycle: 180-days
 ms.author: antrod
 ms.reviewer: angieandrews
@@ -50,4 +50,4 @@ Our objective is to further refine the generative AI models used by prompts with
 
 ## Related information
 
-[FAQ for prompts and text generation capabilities](faqs-text-generation.md)
+[FAQ for prompts](faqs-prompts.md)
