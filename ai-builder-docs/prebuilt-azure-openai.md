@@ -8,7 +8,7 @@ contributors:
   - v-aangie
 ms.topic: article
 ms.custom: bap-template
-ms.date: 09/08/2025
+ms.date: 10/20/2025
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---
@@ -66,5 +66,5 @@ The next window that opens is where you can create text that can be used for man
 - [How text generation works (preview)](azure-openai-textgen.md)
 - [Use the text generation model in Power Apps (preview)](azure-openai-model-papp.md)
 - [Use the text generation model in Power Automate (preview)](azure-openai-model-pauto.md)
-- [FAQ for text generation](faqs-text-generation.md)
+- [FAQ for prompts](faqs-prompts.md)
 - [Human review for automation with Text generation model (preview)](azure-openai-human-review.md)

@@ -1,7 +1,7 @@
 ---
-title: FAQ for prompts and text generation capabilities
+title: FAQ for prompts
 description: Learn about the AI technology used in prompts, key considerations, and details about how the AI is used, how it was tested and evaluated, and limitations.
-ms.date: 08/05/2025
+ms.date: 10/20/2025
 ms.update-cycle: 180-days
 ms.custom: 
   - responsible-ai-faqs
@@ -18,7 +18,7 @@ ms.collection:
     - bap-ai-copilot
 ---
 
-# FAQ for prompts and text generation capabilities
+# FAQ for prompts
 
 These frequently asked questions (FAQ) describe the AI impact of AI Builder's prompts feature.
 

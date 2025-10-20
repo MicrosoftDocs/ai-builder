@@ -124,6 +124,11 @@
       "source_path": "ai-builder-docs/byom-alm.md",
       "redirect_url": "/ai-builder/byom-for-your-prompts",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-builder-docs/faqs-text-generation.md",
+      "redirect_url": "/ai-builder/faqs-prompts",
+      "redirect_document_id": false
     }
   ]
 }

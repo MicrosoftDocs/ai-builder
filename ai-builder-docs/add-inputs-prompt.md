@@ -14,7 +14,7 @@ ms.topic: concept-article
 ms.collection: 
 - get-started
 - bap-ai-copilot
-ms.date: 07/16/2025
+ms.date: 10/20/2025
 ms.update-cycle: 180-days
 ms.custom: ignite-2024
 ms.author: antode
@@ -88,4 +88,4 @@ Learn more in [Power Fx formula reference overview](/power-platform/power-fx/for
 - [Use your prompt in Power Apps](use-a-custom-prompt-in-app.md)
 - [Use your prompt in Power Automate](use-a-custom-prompt-in-flow.md)
 - [Human review for automation with a prompt](azure-openai-human-review.md)
-- [FAQ for prompts and text generation capabilities](faqs-text-generation.md)
+- [FAQ for prompts](faqs-prompts.md)
