@@ -370,8 +370,8 @@
   items:
   - name: Overview
     href: responsible-ai-overview.md
-  - name: FAQ for prompts and text generation capabilities
-    href: faqs-text-generation.md
+  - name: FAQ for prompts
+    href: faqs-prompts.md
 
 
 

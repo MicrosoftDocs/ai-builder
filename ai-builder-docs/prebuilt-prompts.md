@@ -6,7 +6,7 @@ contributors:
   - DanaMartens
   - v-aangie
 ms.topic: get-started
-ms.date: 09/08/2025
+ms.date: 10/20/2025
 ms.author: dmartens
 ms.reviewer: angieandrews
 ---
@@ -161,4 +161,4 @@ If you have feedback of your experience with the current prebuilt prompts, or id
 ## Related information
 
 - [AIClassify, AIExtract, AIReply, AISentiment, AISummarize, and AITranslate](/power-platform/power-fx/reference/function-ai) in Power Fx
-- [FAQ for text generation and prompts](faqs-text-generation.md)
+- [FAQ for prompts](faqs-prompts.md)

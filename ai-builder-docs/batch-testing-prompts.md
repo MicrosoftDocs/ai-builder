@@ -9,7 +9,7 @@ ms.topic: article
 ms.collection: 
 - get-started
 - bap-ai-copilot
-ms.date: 08/20/2025
+ms.date: 10/20/2025
 ms.update-cycle: 180-days
 ms.custom: build-2025
 ms.author: antrod
@@ -118,4 +118,4 @@ Iterate on the test cases evaluation and monitor any significant change between 
 
 ## Related information
 
-[FAQ for prompts and text generation capabilities](faqs-text-generation.md)
+[FAQ for prompts](faqs-prompts.md)
