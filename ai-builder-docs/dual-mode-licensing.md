@@ -8,7 +8,7 @@ contributors:
 ms.topic: article
 ms.collection: 
     - bap-ai-copilot
-ms.date: 10/06/2025
+ms.date: 10/24/2025
 ms.update-cycle: 180-days
 ms.author: antode
 ms.reviewer: angieandrews
@@ -23,17 +23,18 @@ AI Builder features (AI prompts and AI models) are available in two different co
 - **Power Automate and Power Apps context**: Allows you to enrich cloud flows or apps with AI prompts or AI models like document processing tools.
 - **Microsoft Copilot Studio context**: Allows you to enrich agents with AI prompts or agent flows with AI prompts or AI models like document processing tools. In this context, AI Builder features are sometimes called *AI tools*.
 
-In Copilot Studio context, AI Builder features are licensed based on Copilot Credits. This doesn't change.  
+In Copilot Studio context, AI Builder features are licensed based on Copilot Credits. This licensure doesn't change.  
 
 In Power Automate and Power Apps context, AI Builder features are licensed exclusively based on AI Builder credits up to November 1, 2025.  
 
 Starting November 1, 2025, AI Builder features in Power Automate and Power Apps context will also be licensed based on Copilot Credits. Existing customers with paid or seeded AI Builder credits can continue using their AI Builder credits. When AI Builder credits are in overage or not present, the licensing system checks Copilot Credits availability, and allows the feature to run, if any.
 
-New customers aren't able to purchase paid AI Builder Capacity Add-on. They need Copilot Credits to access and run AI Builder features in Power Automate and Power Apps context. 
-For existing customers, renewal and additional purchase of AI Builder capacity add-ons will still be possible up to November 1,2026. They will keep the AI Builder capacity linked to their Add-on licenses, as long as their licenses are active.
-AI Builder credits seeded in premium licenses will continue to be granted up to November 1, 2026; at this date they will be totally removed for both existing and new customers.  
+New customers aren't able to purchase a paid AI Builder capacity add-on. They need Copilot Credits to access and run AI Builder features in Power Automate and Power Apps context.
 
-The change comes along with many simplifications:
+For existing customers, renewal and more purchase of AI Builder capacity add-ons will still be possible up to November 1, 2026. They keep the AI Builder capacity linked to their add-on licenses, as long as their licenses are active.
+AI Builder credits seeded in premium licenses will continue to be granted up to November 1, 2026; at this date, they'll be removed for both existing and new customers.  
+
+The change comes with many simplifications:
 
 - Access to AI prompts and AI models page in Power Automate and Power Apps portal doesn't require any AI Builder credits or Copilot Credits.
 - All custom model trainings are now free.
@@ -68,7 +69,7 @@ Each AI Builder model or prompt is consuming one of these four Copilot features:
 |Text and generative AI tools (premium)  | 10   Copilot Credits                        |Prompts using premium LLM. |  
 |Content processing tools                | 8  Copilot Credits                          |Custom document processing, invoice processing, receipt processing, identity document reader, or object detection. |  
 
-For each prompt using the 'per 1K tokens' unit, the licensing system computes the size of input + output (including system prompt, reasoning) in tokens and rounds it up. This provides the number of 'Feature' that will be consumed.
+For each prompt using the 'per 1 K tokens' unit, the licensing system computes the size of input + output (including system prompt, reasoning) in tokens and rounds it up. This calculation provides the number of 'Feature' that's consumed.
 
 **Example**: A prompt based on a standard model with 3.1K tokens in input and 1.5K tokens in output consumes 5 * 1.5 Copilot Credits = 7.5 Copilot Credits.
 
@@ -122,39 +123,49 @@ Makers can train custom models and test prebuilt and custom models or prompts in
 | Business card reader, prediction             | n/a        |     n/a                                           | free                 |    n/a                      | free                          |   n/a                       | n/a |
 
 \* Using yearly prepaid Copilot Studio pack<br/>
-** Using yearly prepaid AI Builder Add-on  
+** Using yearly prepaid AI Builder add-on  
 ¹ Based on 900 input tokens + 100 output tokens  
 ² Free as long as in preview  
 
-# FAQ
-## How will this transition affect our existing contracts and current license entitlements?
-Existing customers will retain access to their AI Builder credits coming from AI Builder add-ons, until the end of their AI Builder add-ons contracts. Existing customers will retain access to their AI Builder credits coming from seeded premium licenses up to November 1st, 2026.
-From November 1st 2025 these AI Builder credits will be consumed first. If AI Builder credits are exhausted or unavailable, the system will attempt to use Copilot Studio credits. If no Copilot Credits are available, usage will be blocked. 
+## FAQ
 
-## Will there be automatic conversion or migration of AI Builder credits to Copilot Studio credits?
-There is no automatic conversion of AI Builder credits to Copilot Studio credits. Instead, a dual-mode licensing model will apply: environments will first consume AI Builder credits, then Copilot Studio credits if needed. 
+Use the following FAQ to learn more about Copilot Credits based licensing for AI Builder.
 
-## What is the exact conversion ratio between AI Builder service credits and Copilot Studio credits in AI Builder usage?
-There will be no conversion of entitlement from one currency into the other currency. Rates are different for each scenario. The comparison table above helps determining the number of Copilot Credit packs to purchase to replace AI Builder
+### How will this transition affect our existing contracts and current license entitlements?
 
-## New segmentation (Basic, Standard, Premium, Content Processing) is unfamiliar. How does this mapping apply to existing AI Builder workloads?
-The new segmentation (Basic, Standard, Premium, Content Processing) refers to tiers of AI capabilities. Existing AI Builder workloads will map to these tiers based on the type of model or prompt used. For instance, Sentiment analysis model is mapped to Text and generative AI tools (basic), and Entity extraction maps to Text and generative AI tools (standard).
+Existing customers will retain access to their AI Builder credits coming from AI Builder add-ons until the end of their AI Builder add-ons contracts. Existing customers will retain access to their AI Builder credits coming from seeded premium licenses up to November 1, 2026.
 
-## #What will happen to AI Builder credits currently included in licenses such as Power Apps Premium, Power Automate Premium, and Dynamics 365 Finance, etc.?
-The seeded AI Builder credits from licenses like Power Apps Premium or Dynamics 365 will remain usable (on a monthly basis) until November 1, 2026, based on the number of active licenses. 
-After Nov 1st 2026, these seeded credits will be removed for all new and  existing customers (even those with an Enterprise Agreement), and Copilot Studio credits will be required for continued access (or active AI Builder add-ons). 
+From November 1, 2025, these AI Builder credits will be consumed first. If AI Builder credits are exhausted or unavailable, the system will attempt to use Copilot Studio Credits. If no Copilot Credits are available, usage will be blocked.
 
+### Will there be automatic conversion or migration of AI Builder credits to Copilot Studio Credits?
 
-## How long will these credits remain available, and will they transition to Copilot Studio credits after November 2026?
-Seeded Credits will be available to use until 1st of November 2026. After that date they will become unavailable. There will be no transition to Copilot Studio Credits. 
-Credits coming from AI Builder addons will remain available until the end of contracts.
+There's no automatic conversion of AI Builder credits to Copilot Studio Credits. Instead, a dual-mode licensing model will apply: environments first consume AI Builder credits, then Copilot Studio Credits, if needed.
 
+### What is the exact conversion ratio between AI Builder service credits and Copilot Studio Credits in AI Builder usage?
 
-## What new administrative controls will be available in Power Platform Admin Center to monitor, allocate, or restrict Copilot Studio credit usage?
-The Power Platform Admin Center now includes detailed capacity management tools: 
- - Daily usage tracking per environment 
- - Allocation of prepaid or PAYG Copilot Studio credits 
- - Product-level consumption insights 
- - Governance features like environment routing, DLP policies, and audit logs 
+There won't be a conversion of entitlement from one currency into the other currency. Rates are different for each scenario. The previous [comparison table](#ai tool capability pricing comparison-table) helps determine the number of Copilot Credit packs to purchase to replace AI Builder.
 
- 
+### New segmentation (Basic, Standard, Premium, Content Processing) is unfamiliar. How does this mapping apply to existing AI Builder workloads?
+
+The new segmentation (Basic, Standard, Premium, Content Processing) refers to tiers of AI capabilities. Existing AI Builder workloads will map to these tiers based on the type of model or prompt used. For instance, the sentiment analysis model is mapped to *text and generative AI tools (Basic)*, and entity extraction maps to *text and generative AI tools (Standard)*.
+
+### What happens to AI Builder credits currently included in licenses such as Power Apps Premium, Power Automate Premium, and Dynamics 365 Finance, and others?
+
+The seeded AI Builder credits from licenses like Power Apps Premium or Dynamics 365 will remain usable (on a monthly basis) until November 1, 2026, based on the number of active licenses.
+
+After Nov 1, 2026, these seeded credits will be removed for all new and existing customers, including those with an Enterprise Agreement. Copilot Studio Credits will be required for continued access (or active AI Builder add-ons).
+
+### How long do these credits remain available, and will they transition to Copilot Studio Credits after November 2026?
+
+Seeded Credits are available to use until November 1, 2026. After that date, they'll become unavailable. There won't be a transition to Copilot Studio Credits.
+Credits coming from AI Builder add-ons will remain available until the end of contracts.
+
+### What new administrative controls will be available in Power Platform admin center to monitor, allocate, or restrict Copilot Studio Credit usage?
+
+The Power Platform admin center now includes detailed capacity management tools:
+
+ - Daily usage tracking per environment
+ - Allocation of prepaid or pay-as-you-go Copilot Studio Credits
+ - Product level consumption insights
+ - Governance features like environment routing, DLP (data loss prevention) policies, and audit logs
+
