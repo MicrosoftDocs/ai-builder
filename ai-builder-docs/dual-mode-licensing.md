@@ -23,11 +23,11 @@ AI Builder features (AI prompts and AI models) are available in two different co
 - **Power Automate and Power Apps context**: Allows you to enrich cloud flows or apps with AI prompts or AI models like document processing tools.
 - **Microsoft Copilot Studio context**: Allows you to enrich agents with AI prompts or agent flows with AI prompts or AI models like document processing tools. In this context, AI Builder features are sometimes called *AI tools*.
 
-In Copilot Studio context, AI Builder features are licensed based on Copilot Credits. This licensure doesn't change.  
+In Copilot Studio context, AI Builder features are licensed based on Copilot Credits. This rule doesn't change.  
 
 In Power Automate and Power Apps context, AI Builder features are licensed exclusively based on AI Builder credits up to November 1, 2025.  
 
-Starting November 1, 2025, AI Builder features in Power Automate and Power Apps context will also be licensed based on Copilot Credits. Existing customers with paid or seeded AI Builder credits can continue using their AI Builder credits. When AI Builder credits are in overage or not present, the licensing system checks Copilot Credits availability, and allows the feature to run, if any.
+As of November 1, 2025, AI Builder features in Power Automate and Power Apps context will also be licensed based on Copilot Credits. Existing customers with paid or seeded AI Builder credits can continue using their AI Builder credits. When AI Builder credits are in overage or not present, the licensing system checks Copilot Credits availability, and allows the feature to run, if any.
 
 New customers aren't able to purchase a paid AI Builder capacity add-on. They need Copilot Credits to access and run AI Builder features in Power Automate and Power Apps context.
 
@@ -93,13 +93,13 @@ Banners in the [Power Platform admin center](https://admin.powerplatform.microso
 
 Users who started AI Builder trials are able to use them until the end of the trial period (30 days), within the consumption limit (200,000 AI Builder credits).
 
-Starting November 1, 2025, new customers can't start or renew AI Builder trials. They need to use Copilot Credits to use AI Builder features.  
+As of November 1, 2025, new customers can't start or renew AI Builder trials. They need to use Copilot Credits to use AI Builder features.  
 
 ## End of extension requests
 
 Extension requests are available up to the end of October 2025.
 
-Starting November 1, 2025, environments in overage block the run of AI Builder features unless Copilot Credits are available, or an admin allocates more AI Builder credits to the environment. This blocking is for business runs only, using features in Power Apps or Power Automate cloud flows. It doesn't impact maker access to AI Builder portal pages such as training or quick testing models.
+As of November 1, 2025, environments in overage block the run of AI Builder features unless Copilot Credits are available, or an admin allocates more AI Builder credits to the environment. This blocking is for business runs only, using features in Power Apps or Power Automate cloud flows. It doesn't impact maker access to AI Builder portal pages such as training or quick testing models.
 
 ## Ungated access to AI models and prompts in Power Automate and Power Apps portals
 
@@ -141,9 +141,9 @@ From November 1, 2025, these AI Builder credits will be consumed first. If AI Bu
 
 There's no automatic conversion of AI Builder credits to Copilot Studio Credits. Instead, a dual-mode licensing model will apply: environments first consume AI Builder credits, then Copilot Studio Credits, if needed.
 
-### What is the exact conversion ratio between AI Builder service credits and Copilot Studio Credits in AI Builder usage?
+### What's the exact conversion ratio between AI Builder service credits and Copilot Studio Credits in AI Builder usage?
 
-There won't be a conversion of entitlement from one currency into the other currency. Rates are different for each scenario. The previous [comparison table](#aitoolcapabilitypricingcomparison-table) helps determine the number of Copilot Credit packs to purchase to replace AI Builder.
+There isn't a conversion of entitlement from one currency into the other currency. Rates are different for each scenario. The previous [comparison table](#aitoolcapabilitypricingcomparison-table) helps determine the number of Copilot Credit packs to purchase to replace AI Builder.
 
 ### New segmentation (Basic, Standard, Premium, Content Processing) is unfamiliar. How does this mapping apply to existing AI Builder workloads?
 
