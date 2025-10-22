@@ -143,7 +143,7 @@ There's no automatic conversion of AI Builder credits to Copilot Studio Credits.
 
 ### What is the exact conversion ratio between AI Builder service credits and Copilot Studio Credits in AI Builder usage?
 
-There won't be a conversion of entitlement from one currency into the other currency. Rates are different for each scenario. The previous [comparison table](#ai tool capability pricing comparison-table) helps determine the number of Copilot Credit packs to purchase to replace AI Builder.
+There won't be a conversion of entitlement from one currency into the other currency. Rates are different for each scenario. The previous [comparison table](#aitoolcapabilitypricingcomparison-table) helps determine the number of Copilot Credit packs to purchase to replace AI Builder.
 
 ### New segmentation (Basic, Standard, Premium, Content Processing) is unfamiliar. How does this mapping apply to existing AI Builder workloads?
 
