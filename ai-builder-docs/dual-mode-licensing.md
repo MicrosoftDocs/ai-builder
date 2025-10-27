@@ -8,7 +8,7 @@ contributors:
 ms.topic: article
 ms.collection: 
     - bap-ai-copilot
-ms.date: 10/24/2025
+ms.date: 10/27/2025
 ms.update-cycle: 180-days
 ms.author: antode
 ms.reviewer: angieandrews
@@ -16,7 +16,7 @@ ms.reviewer: angieandrews
 
 # Copilot Credits based licensing
 
-On November 1, 2025, there will be a major change to AI Builder licensing. This article explains the change.  
+In November 2025, there will be a major change to AI Builder licensing. This article explains the change.  
 
 AI Builder features (AI prompts and AI models) are available in two different contexts:
 
@@ -25,9 +25,9 @@ AI Builder features (AI prompts and AI models) are available in two different co
 
 In Copilot Studio context, AI Builder features are licensed based on Copilot Credits. This rule doesn't change.  
 
-In Power Automate and Power Apps context, AI Builder features are licensed exclusively based on AI Builder credits up to November 1, 2025.  
+In Power Automate and Power Apps context, AI Builder features are licensed exclusively based on AI Builder credits up to November 2025.  
 
-As of November 1, 2025, AI Builder features in Power Automate and Power Apps context will also be licensed based on Copilot Credits. Existing customers with paid or seeded AI Builder credits can continue using their AI Builder credits. When AI Builder credits are in overage or not present, the licensing system checks Copilot Credits availability, and allows the feature to run, if any.
+Starting November 2025, AI Builder features in Power Automate and Power Apps context will also be licensed based on Copilot Credits. Existing customers with paid or seeded AI Builder credits can continue using their AI Builder credits. When AI Builder credits are in overage or not present, the licensing system checks Copilot Credits availability, and allows the feature to run, if any.
 
 New customers aren't able to purchase a paid AI Builder capacity add-on. They need Copilot Credits to access and run AI Builder features in Power Automate and Power Apps context.
 
@@ -42,6 +42,15 @@ The change comes with many simplifications:
 - AI Builder trials are no longer available.
 - There's no distinction between simple and important overage.
 - There are no longer extension requests.
+
+## Detailed roll out calendar
+|Date|Event|
+|----------|--------------------------|
+|11/01/2025                  | End of Sales for AI Builder capacity add-ons, end of overage distinction, binary classification and busines cards are free|
+|between 11/03 and 11/06 2025| Progressive activation of dual mode, end of trial in different regions, end of extension requests |
+|11/01/2026                  | End of renewal and true-up (End of Life) for AI Builder capacity add-ons; End of seeded credits for all customers |
+| after 11/01/2026           | Customers with active AI Builder capacity add-ons continue using their AI Builder credits to run AI Builder features|
+
 
 ## Dual mode for existing customers: Check AI Builder credits first, then fall back to Copilot Credits
 
