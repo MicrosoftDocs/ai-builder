@@ -6,8 +6,6 @@
     href: overview.md
   - name: Overview of licensing
     href: administer-licensing.md
-  - name: Copilot Credits based licensing
-    href: dual-mode-licensing.md
   - name: Labs and sample data
     items:
     - name: Labs
@@ -352,8 +350,6 @@
     href: credit-management.md
   - name: Licensing and Copilot Credits
     href: message-management.md
-  - name: AI Builder trial
-    href: ai-builder-trials.md
   - name: Prompt tokens
     href: licensing-prompt-tokens.md
   - name: Consumption report
