@@ -350,6 +350,8 @@
     href: credit-management.md
   - name: Licensing and Copilot Credits
     href: message-management.md
+  - name: End of AI Builder credits
+    href: endofaibcredits.md  
   - name: Prompt tokens
     href: licensing-prompt-tokens.md
   - name: Consumption report
