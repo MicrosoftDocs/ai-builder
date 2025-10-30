@@ -79,9 +79,9 @@ As consumption is reset each month, the amount of Copilot Credits or AI Builder 
 
 ## Learn more
 
-- Learn more about AI Builder licensing with AI Builder credits [Licensing and AI Builder credits](credit-management.md).
 - Learn more about AI Builder licensing with Copilot Credits [Licensing and Copilot Credits](message-management.md).
-- Learn more on the end of AI Builder add-ons and AI Builder seeded credits [End of AI Builder credits](end-aibcredits.md)
+- Learn more about AI Builder licensing with AI Builder credits [Licensing and AI Builder credits](credit-management.md).
+- Learn more on the end of AI Builder capacity add-ons and AI Builder seeded credits [End of AI Builder credits](endofaibcredits.md)
 
 
 ## Related information
