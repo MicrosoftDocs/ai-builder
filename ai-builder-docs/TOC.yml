@@ -346,10 +346,10 @@
     href: availability-region.md
 - name: Licensing and monitoring
   items:
-  - name: Licensing and AI Builder credits
-    href: credit-management.md
   - name: Licensing and Copilot Credits
     href: message-management.md
+  - name: Licensing and AI Builder credits
+    href: credit-management.md
   - name: End of AI Builder credits
     href: endofaibcredits.md  
   - name: Prompt tokens
