@@ -18,7 +18,7 @@ ms.reviewer: angieandrews
 
 # Overview of licensing
 
-In Copilot Studio context, AI Builder features always consume *Copilot Credits*.  Learn more in [Licensing and Copilot Credits](message-management.md). 
+In Copilot Studio context, AI Builder features always consume *Copilot Credits*.  Learn more in [Licensing and Copilot Credits](message-management.md).   
 In Power Apps and Power Automate context, AI Builder features consume either  *AI Builder credits* ([Licensing and AI Builder credits](credit-management.md)), or *Copilot Credits*  ([Licensing and Copilot Credits](message-management.md)).
 
 AI Builder is licensed on a capacity basis. Building custom models and testing models (including Prompts) don't require AI Builder credits or Copilot Credits. Running them in agents, agent flows, apps or flow consume these credits. Qualifying prerequisites include having a Microsoft Power Platform environment with Dataverse. 
@@ -81,6 +81,7 @@ As consumption is reset each month, the amount of Copilot Credits or AI Builder 
 
 - Learn more about AI Builder licensing with AI Builder credits [Licensing and AI Builder credits](credit-management.md).
 - Learn more about AI Builder licensing with Copilot Credits [Licensing and Copilot Credits](message-management.md).
+- Learn more on the end of AI Builder add-ons and AI Builder seeded credits [End of AI Builder credits](end-aibcredits.md)
 
 
 ## Related information
