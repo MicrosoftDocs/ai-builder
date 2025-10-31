@@ -17,7 +17,7 @@ ms.reviewer: angieandrews
 # End of AI Builder credits
 
 In October 2025, Microsoft announced a progressive end of AI Builder credits. This article explains the change.  
-The progressive end of AI Builder credits doesn't impact AI Builder features : they will continue to be supported in all contexts, using Copilot Credits.  
+The progressive end of AI Builder credits doesn't impact AI Builder features: they will continue to be supported in all contexts, using Copilot Credits.  
 AI Builder credits were available as capacity packs (AI Builder capacity add-ons) which provided 1 million AI Builder credits, and as seeded capacity in Power Platform licenses, like Power Apps premium licenses, or Power Automate premium licenses.
 
 Both AI Builder capacity add-ons and seeded credits in premium licenses are impacted by this end of AI Builder credits, with different calendars.

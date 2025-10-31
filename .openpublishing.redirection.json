@@ -135,9 +135,10 @@
       "redirect_url": "/ai-builder/administer-licensing",
       "redirect_document_id": false
     },
-    {"source_path": "dual-mode-licensing.md",
-     "redirect_url": "/ai-builder/administer-licensing",
-     "redirect_document_id": false
+    {
+      "source_path": "dual-mode-licensing.md",
+      "redirect_url": "/ai-builder/administer-licensing",
+      "redirect_document_id": false
     }
     
   ]
