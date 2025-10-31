@@ -54,12 +54,12 @@ Once an environment has Copilot Credits available, it can run the AI Builder fea
 
 ### Consumption
 
-- Consumption is reset the first of each month. Copilot Credits are consumed when agents, agent flows, apps, or flows run AI Builder features. A billing rate table shows how many Copilot Credits each action consumes.
+- Consumption is reset the first of each month. When agents, agent flows, apps, or flows run AI Builder features they use Copilot Credits. A billing rate table shows how many Copilot Credits each action consumes.
 - Similarly, AI Builder credits are used when AI Builder actions occur in apps and flows, and these AI Builder credits are available. A billing rate table shows how many AI Builder credits each action consumes.
 
 ### Monitoring
 
-- Copilot Credit and AI Builder credit consumption can be monitored so that the admin and maker can track consumption throughout each monthly cycle.
+- Copilot Credit and AI Builder credit consumption can be monitored so that admins and makers can track consumption throughout each monthly cycle.
 
 ### Overage
 
