@@ -22,10 +22,10 @@ AI Builder credits were available as capacity packs (AI Builder capacity add-ons
 
 Both AI Builder capacity add-ons and seeded credits in premium licenses are impacted by this end of AI Builder credits, with different calendars.
 
-
 ## Detailed  calendar
+
 |Date                         |Event                                        | Who is involved                                                           | How are they impacted |
-|----------------------------|----------------------------------------------|---------------------------------------------------------------------------|                       |
+|----------------------------|----------------------------------------------|---------------------------------------------------------------------------|-------------------------- |
 |11/01/2025                  | End of Sales for AI Builder capacity add-ons | New 'add-on' customers  = customers without any active AI Builder capacity add-ons | New 'add-on' customers can't purchase AI Builder capacity add-ons. |
 |11/01/2025                  |(no change)                                   | Existing 'add-on' customers with active AI Builder capacity add-ons                | Existing 'add-on' customers can still use their AI Builder credits linked to their AI Builder capacity add-ons, but also renew them, and purchase new ones. |
 |11/01/2025                  |(no change)                                   | New 'seeded' customers = customer without any active seeded AI Builder credits     | New 'seeded' customers can purchase premium licenses which will provide AI Builder seeded credits that they can use to run AI Builder features.  |
@@ -33,7 +33,6 @@ Both AI Builder capacity add-ons and seeded credits in premium licenses are impa
 |11/01/2026                  | End of Life of AI Builder capacity add-ons   | Existing add-on customers with active AI Builder capacity add-ons                  | Existing 'add-on' customers can still use their credits linked to their active AI Builder capacity add-ons, but cannot renew them, or purchase new ones. |
 |11/01/2026                  | End of seeded AI Builder credits             | Existing 'seeded' customers with active seeded AI Builder credits                  | Existing 'seeded' customers won't receive seeded AI Builder credits any more. These seeded AI Builder credits will be definitively removed from their premium licenses. |
 | after 11/01/2026           | (no change)                                  | Existing add-on customers with active AI Builder capacity add-ons                  | Customers with active AI Builder capacity add-ons continue using their AI Builder credits to run AI Builder features until their licenses expire|
-
 
 ## FAQ
 
@@ -63,7 +62,7 @@ Credits coming from AI Builder add-ons will remain available until the end of co
 
 ### What's the exact conversion ratio between AI Builder service credits and Copilot Studio Credits in AI Builder usage?
 
-There isn't a conversion of entitlement from one currency into the other currency. Rates are different for each scenario. The previous [comparison table](#aitoolcapabilitypricingcomparison-table) helps determine the number of Copilot Credit packs to purchase to replace AI Builder capacity.
+There isn't a conversion of entitlement from one currency into the other currency. Rates are different for each scenario.
 
 ### New segmentation (Basic, Standard, Premium, Content Processing) is unfamiliar. How does this mapping apply to existing AI Builder workloads?
 
@@ -73,7 +72,7 @@ The new segmentation (Basic, Standard, Premium, Content Processing) refers to ti
 
 The Power Platform admin center now includes detailed capacity management tools:
 
- - Daily usage tracking per environment
- - Allocation of prepaid or pay-as-you-go Copilot Studio Credits
- - Product level consumption insights
- - Governance features like environment routing, DLP (data loss prevention) policies, and audit logs
+- Daily usage tracking per environment
+- Allocation of prepaid or pay-as-you-go Copilot Studio Credits
+- Product level consumption insights
+- Governance features like environment routing, DLP (data loss prevention) policies, and audit logs

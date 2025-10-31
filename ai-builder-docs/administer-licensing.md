@@ -6,6 +6,7 @@ contributors:
   - phil-cmd
   - Antoine2F
   - v-aangie
+  - EllenWehrle
 ms.topic: concept-article
 ms.collection: 
 - get-started
@@ -25,35 +26,35 @@ AI Builder is licensed on a capacity basis. Building custom models and testing m
 
 > [!NOTE]
 >
-> - On November 1, 2025, there's a major change to AI Builder licensing. Starting on this date, AI Builder features in Power Apps and Power Automate can consume both AI Builder credits, or Copilot Credits if there are no available AI Builder credits.
-> - AI Builder capacity add-ons can only be purchased as a renewal or true-up by existing customers. New customers must purchase Copilot Credits to run AI Builder features. 
+> - On November 1, 2025, there are major changes to AI Builder licensing. Starting on this date, AI Builder features in Power Apps and Power Automate can consume both AI Builder credits, or Copilot Credits if there are no available AI Builder credits.
+> - AI Builder capacity add-ons can only be purchased as a renewal or true-up by existing customers. New customers must purchase Copilot Credits to run AI Builder features.
 > - AI Builder credits seeded in Power Platform or Dynamics licenses will be removed in November 2026.
 > - AI Builder trials are discontinued.
 
 ## Entitlement, allocation, and consumption of Copilot Credits and AI Builder credits
 
-**Entitlement**:
+### Entitlement
 
 - Copilot Credits come from Microsoft Copilot Studio licenses that that can be set up as pay-as-you-go credits or prepaid capacity packs.
 - AI Builder credits come mostly from purchasing AI Builder capacity add-ons. Some user licenses also provide an amount of AI Builder credits per month up to November 2026.
 
-**Allocation**:
+### Allocation
 
-- When acquired as Copilot Studio licenses, Copilot Credits can be allocated (also known as assigned) to a specific environment in PPAC, or left unallocated at an organization (tenant) level.
-- Similarly, AI Builder credits can be allocated to a specific environment, or left unallocated. 
+- When acquired as Copilot Studio licenses, Copilot Credits can be allocated (also known as assigned) to a specific environment in Power Platform admin center (PPAC), or left unallocated at an organization (tenant) level.
+- Similarly, AI Builder credits can be allocated to a specific environment, or left unallocated.
 
 Once an environment has Copilot Credits available, it can run the AI Builder features in all contexts. Having AI Builder credits available allows running these features only in a Power Apps and Power Automate context.
 
-**Consumption**:
+### Consumption
 
 - Consumption is reset the first of each month. Copilot Credits are consumed when agents, agent flows, apps, or flows run AI Builder features. A billing rate table determines how many Copilot Credits are consumed for each action.
 - Similarly, AI Builder credits are used when AI Builder actions occur in apps and flows, and these AI Builder credits are available. A billing rate table determines how many AI Builder credits are consumed for each action.
 
-**Monitoring**:
+### Monitoring
 
 - Copilot Credit and AI Builder credit consumption can be monitored so that the admin and maker know how many were consumed since the beginning of the month.
 
-**Overage**:
+### Overage
 
 - Within the month, if you use more AI Builder credits than available in your environment, features will try to use **Copilot Credits**.
 - If there is none, or once you use more Copilot Credits than available in your environment, model runs are blocked. If this happens, you need to buy more or reassign AI Builder credits or Copilot Credits to your environment.

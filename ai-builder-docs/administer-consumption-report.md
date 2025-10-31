@@ -10,7 +10,7 @@ contributors:
   - v-aangie
 ms.topic: article
 ms.custom: bap-template
-ms.date: 06/13/2025
+ms.date: 11/01/2025
 ms.author: antode
 ms.reviewer: angieandrews
 ---
@@ -65,7 +65,7 @@ The report shows AI credits consumed by date for each environment.
 - **EnvironmentId**: The identifier visible in your Power Apps or Power Automate URL (for example, https://make.powerapps.com/environments/%GUID%).
 - **EnvironmentName**: The name of the environment.
 - **AIConsumption**: Contains the number of credits consumed by the user and in the environment for a given date.
-- **IsTrial**: If the value is **TRUE**, credits that were consumed are AI Builder trial credits. **More information**: [Ai Builder trial](ai-builder-trials.md)
+- **IsTrial**: If the value is **TRUE**, credits that were consumed are AI Builder trial credits. Note, as of November 1, 2025, AI Builder trials are discontinued.
 
 You can compare the aggregated consumption for the current calendar month on each environment with what's allocated. Using this information, you can take action to allocate more credits to environments that are in overage. Remember, the number of allocated credits by environment is visible and can be changed in the Power Platform admin center [Add-ons](https://admin.powerplatform.microsoft.com/resources/capacity#add-ons) page.
 
