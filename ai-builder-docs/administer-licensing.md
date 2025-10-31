@@ -50,16 +50,16 @@ Learn more about Copilot Credits and AI Builder credits.
 - When acquired as Copilot Studio licenses, Copilot Credits can be allocated (also known as assigned) to a specific environment in Power Platform admin center (PPAC), or left unallocated at an organization (tenant) level.
 - Similarly, AI Builder credits can be allocated to a specific environment, or left unallocated.
 
-Once an environment has Copilot Credits available, it can run the AI Builder features in all contexts. Having AI Builder credits available allows running these features only in a Power Apps and Power Automate context.
+Once an environment has Copilot Credits available, it can run the AI Builder features in all contexts. Having AI Builder credits available only allows these features to run in a Power Apps and Power Automate context.
 
 ### Consumption
 
-- Consumption is reset the first of each month. Copilot Credits are consumed when agents, agent flows, apps, or flows run AI Builder features. A billing rate table determines how many Copilot Credits are consumed for each action.
-- Similarly, AI Builder credits are used when AI Builder actions occur in apps and flows, and these AI Builder credits are available. A billing rate table determines how many AI Builder credits are consumed for each action.
+- Consumption is reset the first of each month. Copilot Credits are consumed when agents, agent flows, apps, or flows run AI Builder features. A billing rate table shows how many Copilot Credits each action consumes.
+- Similarly, AI Builder credits are used when AI Builder actions occur in apps and flows, and these AI Builder credits are available. A billing rate table shows how many AI Builder credits each action consumes.
 
 ### Monitoring
 
-- Copilot Credit and AI Builder credit consumption can be monitored so that the admin and maker know how many were consumed since the beginning of the month.
+- Copilot Credit and AI Builder credit consumption can be monitored so that the admin and maker can track consumption throughout each monthly cycle.
 
 ### Overage
 
