@@ -18,40 +18,39 @@ ms.reviewer: angieandrews
 
 # Overview of licensing
 
-In Copilot Studio context, AI Builder features always consume *Copilot Credits*.  Learn more in [Licensing and Copilot Credits](message-management.md).   
-In Power Apps and Power Automate context, AI Builder features consume either  *AI Builder credits* ([Licensing and AI Builder credits](credit-management.md)), or *Copilot Credits*  ([Licensing and Copilot Credits](message-management.md)).
+In Copilot Studio, AI Builder features always consume *Copilot Credits*. Learn more in [Licensing and Copilot Credits](message-management.md).   
+In Power Apps and Power Automate, AI Builder features consume either *AI Builder credits* ([Licensing and AI Builder credits](credit-management.md)), or *Copilot Credits*  ([Licensing and Copilot Credits](message-management.md)).
 
-AI Builder is licensed on a capacity basis. Building custom models and testing models (including Prompts) don't require AI Builder credits or Copilot Credits. Running them in agents, agent flows, apps or flow consume these credits. Qualifying prerequisites include having a Microsoft Power Platform environment with Dataverse. 
+AI Builder is licensed on a capacity basis. Building custom models and testing models (including prompts) don't require AI Builder credits or Copilot Credits. Running them in agents, agent flows, apps, or flows consume these credits. Qualifying prerequisites include having a Microsoft Power Platform environment with Dataverse. 
 
 > [!NOTE]
-> - On November 1, 2025, there has been be a major change to AI Builder licensing. Starting on this date, AI Builder features in the Power Apps and Power Automate context can consume both AI Builder credits, or Copilot Credits if there is no available AI Builder credits.
+> - On November 1, 2025, there's a major change to AI Builder licensing. Starting on this date, AI Builder features in Power Apps and Power Automate can consume both AI Builder credits, or Copilot Credits if there is no available AI Builder credits.
 > - AI Builder capacity add-ons can only be purchased as a renewal or true-up by existing customers. New customers must purchase Copilot Credits to run AI Builder features. 
-> - AI Builder  credits seeded in Power platform or Dynamics licenses will be removed in November 2026.
-> - AI Builder trials were discontinued.
+> - AI Builder credits seeded in Power Platform or Dynamics licenses will be removed in November 2026.
+> - AI Builder trials are discontinued.
 
 # Entitlement, allocation, and consumption of Copilot Credits and AI Builder credits
 
 **Entitlement**: 
- - Copilot Credits can come from Microsoft Copilot Studio licenses ("prepaid packs"), Paygo, or PrePurchase Prepaid Packs.
- - AI Builder credits come mostly from purchasing AI Builder capacity add-ons. Some user licenses also provides an amount of AI Builder credits per month up to November 2026.
+ - Copilot Credits come from Microsoft Copilot Studio licenses that that can be set up as pay-as-you-go credits or prepaid capacity packs.
+ - AI Builder credits come mostly from purchasing AI Builder capacity add-ons. Some user licenses also provide an amount of AI Builder credits per month up to November 2026.
 
 **Allocation**
- - When acquired as Copilot studio licenses, Copilot Credits can be allocated (also known as assigned) to a specific environment in PPAC, or left unallocated at an organization (tenant) level. 
+ - When acquired as Copilot Studio licenses, Copilot Credits can be allocated (also known as assigned) to a specific environment in PPAC, or left unallocated at an organization (tenant) level. 
  - Similarly, AI Builder credits can be allocated to a specific environment, or left unallocated. 
 
-Once an environment has Copilot Credits available, it can run the AI Builder features in all contexts. Having AI Builder credits available allows running these features only in Power Apps and Power Automate context.
+Once an environment has Copilot Credits available, it can run the AI Builder features in all contexts. Having AI Builder credits available allows running these features only in a Power Apps and Power Automate context.
 
 **Consumption**
- - Consumption is reset the first of each month. Copilot Credits are consumed when agents, agent flows, apps or flows run AI Builder features. A billing rate table determines how many Copilot Credits will be consumed for each action.
- - Similarly, AI Builder credits are used when AI Builder actions occur in apps and flows, and these AI Builder credits are available. A billing rate table determines how many AI Builder credits will be consumed for each action.
+ - Consumption is reset the first of each month. Copilot Credits are consumed when agents, agent flows, apps, or flows run AI Builder features. A billing rate table determines how many Copilot Credits are consumed for each action.
+ - Similarly, AI Builder credits are used when AI Builder actions occur in apps and flows, and these AI Builder credits are available. A billing rate table determines how many AI Builder credits are consumed for each action.
 
 **Monitoring**: 
  - Copilot Credit and AI Builder credit consumption can be monitored so that the admin and maker know how many were consumed since the beginning of the month.
 
 **Overage**
- - within the month, if you use more AI Builder credits than available in your environment, features will try to use **Copilot Credits**.
- - if there is none, or once you use more Copilot Credits than available in your environment, model runs are blocked. If this happens, you need to buy more or reassign AI Builder credits or Copilot Credits to your environment.
-
+ - Within the month, if you use more AI Builder credits than available in your environment, features will try to use **Copilot Credits**.
+ - If there is none, or once you use more Copilot Credits than available in your environment, model runs are blocked. If this happens, you need to buy more or reassign AI Builder credits or Copilot Credits to your environment.
 
 As consumption is reset each month, the amount of Copilot Credits or AI Builder credit to purchase and/or allocate should be the maximum consumption of a single month. Unused Copilot Credits or AI Builder credits don't roll over to the next month.  
 
