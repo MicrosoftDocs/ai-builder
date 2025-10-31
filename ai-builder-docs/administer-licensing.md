@@ -50,7 +50,7 @@ Learn more about Copilot Credits and AI Builder credits.
 - When acquired as Copilot Studio licenses, Copilot Credits can be allocated (also known as assigned) to a specific environment in Power Platform admin center (PPAC), or left unallocated at an organization (tenant) level.
 - Similarly, AI Builder credits can be allocated to a specific environment, or left unallocated.
 
-Once an environment has Copilot Credits available, it can run the AI Builder features in all contexts. Having AI Builder credits available only allows these features to run in a Power Apps and Power Automate context.
+Once an environment has Copilot Credits available, it can run the AI Builder features in all contexts. If an environment only has AI Builder credits available, it can only run AI Builder features in Power Apps and Power Automate.
 
 ### Consumption
 
