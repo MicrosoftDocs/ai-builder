@@ -62,7 +62,7 @@ Credits coming from AI Builder add-ons will remain available until the end of co
 
 ### What's the exact conversion ratio between AI Builder service credits and Copilot Studio Credits in AI Builder usage?
 
-There isn't a conversion of entitlement from one currency into the other currency. Rates are different for each scenario.
+There isn't a conversion of entitlement from one currency into the other currency. Rates are different for each scenario. See more details in the [AI Builder capability rate table](administer-licensing.md#aibuildercapabilityrate-table).
 
 ### New segmentation (Basic, Standard, Premium, Content Processing) is unfamiliar. How does this mapping apply to existing AI Builder workloads?
 

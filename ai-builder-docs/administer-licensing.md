@@ -64,9 +64,9 @@ Once an environment has Copilot Credits available, it can run the AI Builder fea
 ### Overage
 
 - Within the month, if you use more AI Builder credits than available in your environment, features will try to use **Copilot Credits**.
-- If there is none, or once you use more Copilot Credits than available in your environment, model runs are blocked. If this happens, you need to buy more or reassign AI Builder credits or Copilot Credits to your environment.
+- If there are none, or once you use more Copilot Credits than available in your environment, the model runs are blocked. If this happens, you need to buy more or reassign AI Builder credits or Copilot Credits to your environment.
 
-As consumption is reset each month, the amount of Copilot Credits or AI Builder credits to purchase and/or allocate should be the maximum consumption in a single month. Unused Copilot Credits or AI Builder credits don't roll over to the next month.  
+As consumption is reset each month, the amount of Copilot Credits or AI Builder credits to purchase and/or allocate should only be enough to cover the maximum consumption in a single month. Unused Copilot Credits or AI Builder credits don't roll over to the next month.  
 
 ## AI Builder Capability Rate table
 

@@ -61,9 +61,9 @@ Each AI Tools/AI Builder capability maps to one of the following Copilot Studio/
 
 Using an AI tool/AI Builder capability consumes units of these features. For example, extracting information from a two-page document within an agent flow consumes two pages of *content document processing*.
 
-The cost per unit is also published in [Billing rates and management](/microsoft-copilot-studio/requirements-messages-management#copilot-credits-and-events-scenarios).
+The cost per unit is published in [Billing rates and management](/microsoft-copilot-studio/requirements-messages-management#copilot-credits-and-events-scenarios).
 
-The rate of each AI tools/AI Builder capability is detailed in [AI Builder capability rate table](administer-licensing.md#aibuildercapabilityrate-table)
+The rate of each AI tools/AI Builder capability is detailed in [AI Builder capability rate table](administer-licensing.md#aibuildercapabilityrate-table).
 
 ## Copilot Credit monitoring
 
