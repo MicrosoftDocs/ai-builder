@@ -38,6 +38,8 @@ Qualifying prerequisites include having a Microsoft Power Platform environment w
 
 ## Entitlement, allocation, and consumption of Copilot Credits and AI Builder credits
 
+Learn more about Copilot Credits and AI Builder credits.
+
 ### Entitlement
 
 - Copilot Credits come from Microsoft Copilot Studio licenses that that can be set up as pay-as-you-go credits or prepaid capacity packs.
