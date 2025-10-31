@@ -24,7 +24,7 @@ In Power Apps and Power Automate, AI Builder features consume either *AI Builder
 AI Builder is licensed on a capacity basis. Building custom models and testing models (including prompts) don't require AI Builder credits or Copilot Credits. Running them in agents, agent flows, apps, or flows consume these credits. Qualifying prerequisites include having a Microsoft Power Platform environment with Dataverse. 
 
 > [!NOTE]
-> - On November 1, 2025, there's a major change to AI Builder licensing. Starting on this date, AI Builder features in Power Apps and Power Automate can consume both AI Builder credits, or Copilot Credits if there is no available AI Builder credits.
+> - On November 1, 2025, there's a major change to AI Builder licensing. Starting on this date, AI Builder features in Power Apps and Power Automate can consume both AI Builder credits, or Copilot Credits if there are no available AI Builder credits.
 > - AI Builder capacity add-ons can only be purchased as a renewal or true-up by existing customers. New customers must purchase Copilot Credits to run AI Builder features. 
 > - AI Builder credits seeded in Power Platform or Dynamics licenses will be removed in November 2026.
 > - AI Builder trials are discontinued.
@@ -36,7 +36,7 @@ AI Builder is licensed on a capacity basis. Building custom models and testing m
  - AI Builder credits come mostly from purchasing AI Builder capacity add-ons. Some user licenses also provide an amount of AI Builder credits per month up to November 2026.
 
 **Allocation**
- - When acquired as Copilot Studio licenses, Copilot Credits can be allocated (also known as assigned) to a specific environment in PPAC, or left unallocated at an organization (tenant) level. 
+ - When acquired as Copilot Studio licenses, Copilot Credits can be allocated (also known as assigned) to a specific environment in PPAC, or left unallocated at an organization (tenant) level.
  - Similarly, AI Builder credits can be allocated to a specific environment, or left unallocated. 
 
 Once an environment has Copilot Credits available, it can run the AI Builder features in all contexts. Having AI Builder credits available allows running these features only in a Power Apps and Power Automate context.
