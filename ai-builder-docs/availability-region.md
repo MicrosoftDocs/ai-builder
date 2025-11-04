@@ -42,6 +42,12 @@ In the following table, (GA) or (Preview) means that the feature is available bu
 | GPT-5 chat                           |      -      |      -         | -              | (Preview)      |  -             | -              | -             |  -             | -              | -              | -              |  -             |  -             | -              |  -             |  -                 |  -           | Preview        |
 | GPT-5 reasoning                      |  -          |  -             |   -            | (Preview)      |  -             |   -            |  -            |  -             |  -             | -              |  -             |   -            |  -             |  -             |  -             | -                  | -            | Preview        |
 
+
+> [!IMPORTANT]
+> By November 31, 2025:
+> - The o3 model will be migrated to the GPT‑5 reasoning model, which will become generally available. If you have prompts currently using the o3 model, the migration will be automatic, but we strongly recommend testing your prompts with the GPT‑5 reasoning model as soon as possible.
+> - The GPT‑5 chat model will also move to a more stable version and become generally available.
+
 ### Custom models
 
 | Feature                                            | Asia | Australia | Canada | Europe | France | Germany | India | Japan | Korea       | Norway | Singapore | South Africa | South America | Sweden | Switzerland | United Arab Emirates | United Kingdom | United States |
