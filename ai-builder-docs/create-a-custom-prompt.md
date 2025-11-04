@@ -116,4 +116,5 @@ Check out this short video to learn how to include your prompt in a flow.</br>
 
 ## Related information
 
-[Human review for automation with a prompt](azure-openai-human-review.md)
+- [Human review for automation with a prompt](azure-openai-human-review.md)
+- [Video: Getting started with Prompt Library in Copilot Studio](https://www.youtube.com/watch?v=ZSlHC_0JVac)
