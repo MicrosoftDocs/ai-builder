@@ -13,7 +13,7 @@ contributors:
   - jekom1
   - v-aangie
 ms.topic: article
-ms.date: 11/04/2025
+ms.date: 11/05/2025
 ms.author: antode
 ms.reviewer: angieandrews
 ---
@@ -42,11 +42,11 @@ In the following table, (GA) or (Preview) means that the feature is available bu
 | GPT-5 chat                           |      -      |      -         | -              | (Preview)      |  -             | -              | -             |  -             | -              | -              | -              |  -             |  -             | -              |  -             |  -                 |  -           | Preview        |
 | GPT-5 reasoning                      |  -          |  -             |   -            | (Preview)      |  -             |   -            |  -            |  -             |  -             | -              |  -             |   -            |  -             |  -             |  -             | -                  | -            | Preview        |
 
-
 > [!IMPORTANT]
-> By November 30, 2025:
-> - The o3 model will be migrated to the GPT‑5 reasoning model, which will become generally available. If you have prompts currently using the o3 model, the migration will be automatic, but we strongly recommend testing your prompts with the GPT‑5 reasoning model as soon as possible.
-> - The GPT‑5 chat model will also move to a more stable version and become generally available.
+> During November 2025, we'll progressively:
+> - Migrate the o3 model to the GPT 5 reasoning model, which will become generally available. If you have prompts currently using the o3 model, the migration will be automatic, but we recommend testing your prompts with the GPT 5 reasoning model as soon as possible.
+> - Move to a more stable version of the GPT 5 chat model, which will also become generally available.
+
 
 ### Custom models
 
