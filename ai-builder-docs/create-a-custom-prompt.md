@@ -12,7 +12,7 @@ ms.topic: how-to
 ms.collection: 
 - get-started
 - bap-ai-copilot
-ms.date: 10/14/2025
+ms.date: 10/31/2025
 ms.author: plarrue
 ms.reviewer: angieandrews
 ms.custom:
@@ -62,14 +62,6 @@ There are generally two parts to a prompt: the instruction and the context.
 ### Example
 
 A custom prompt can guide the model to answer a question, complete text, translate languages, summarize a document, and identify tasks, to-dos, and action items in text. The complexity of a custom prompt can range from a single sentence to something more intricate, depending on the task.
-
-## Download: AI Builder prompt engineering guide
-
-**Download the guide here: [AI Builder prompt engineering guide (10 pages, 10X13 in.)](https://go.microsoft.com/fwlink/?linkid=2255775)** 
-
-:::image type="content" source="media/create-a-custom-prompt/prompt-engineering-guide.png" alt-text="Screenshot of 'AI Builder prompt engineering guide'.":::
-
-Download and print the AI Builder prompt engineering guide (10 pages, 10X13 inch size) to keep it handy and get help creating prompts.
 
 ## Create a prompt
 
@@ -124,4 +116,5 @@ Check out this short video to learn how to include your prompt in a flow.</br>
 
 ## Related information
 
-[Human review for automation with a prompt](azure-openai-human-review.md)
+- [Human review for automation with a prompt](azure-openai-human-review.md)
+- [Video: Getting started with Prompt Library in Copilot Studio](https://www.youtube.com/watch?v=ZSlHC_0JVac)

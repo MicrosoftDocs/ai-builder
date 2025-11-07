@@ -129,6 +129,17 @@
       "source_path": "ai-builder-docs/faqs-text-generation.md",
       "redirect_url": "/ai-builder/faqs-prompts",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-builder-docs/ai-builder-trials.md",
+      "redirect_url": "/ai-builder/administer-licensing",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-builder-docs/dual-mode-licensing.md",
+      "redirect_url": "/ai-builder/administer-licensing",
+      "redirect_document_id": false
     }
+    
   ]
 }
