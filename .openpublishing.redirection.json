@@ -139,6 +139,81 @@
       "source_path": "ai-builder-docs/dual-mode-licensing.md",
       "redirect_url": "/ai-builder/administer-licensing",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-builder-docs/prompts-overview.md",
+      "redirect_url": "/microsoft-copilot-studio/prompts-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-builder-docs/create-a-custom-prompt.md",
+      "redirect_url": "/microsoft-copilot-studio/create-custom-prompt",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-builder-docs/draft-with-copilot.md",
+      "redirect_url": "/microsoft-copilot-studio/draft-with-copilot",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-builder-docs/prompt-library.md",
+      "redirect_url": "/microsoft-copilot-studio/prompt-library",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-builder-docs/add-inputs-prompt.md",
+      "redirect_url": "/microsoft-copilot-studio/add-inputs-prompt",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-builder-docs/use-your-own-prompt-data.md",
+      "redirect_url": "/microsoft-copilot-studio/use-your-own-prompt-data",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-builder-docs/process-responses-json-output.md",
+      "redirect_url": "/microsoft-copilot-studio/process-responses-json-output",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-builder-docs/generate-document-output-prompt.md",
+      "redirect_url": "/microsoft-copilot-studio/generate-document-output-prompt",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-builder-docs/share-your-prompt.md",
+      "redirect_url": "/microsoft-copilot-studio/share-your-prompt",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-builder-docs/distribute-prompt.md",
+      "redirect_url": "/microsoft-copilot-studio/distribute-prompt",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-builder-docs/prompt-modelsettings.md",
+      "redirect_url": "/microsoft-copilot-studio/prompt-model-settings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-builder-docs/byom-for-your-prompts.md",
+      "redirect_url": "/microsoft-copilot-studio/bring-your-own-model-prompts",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-builder-docs/batch-testing-prompts.md",
+      "redirect_url": "/microsoft-copilot-studio/batch-testing-prompts",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-builder-docs/prebuilt-prompts.md",
+      "redirect_url": "/microsoft-copilot-studio/prebuilt-prompts",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-builder-docs/azure-openai-human-review.md",
+      "redirect_url": "/microsoft-copilot-studio/azure-openai-human-review",
+      "redirect_document_id": false
     }
     
   ]

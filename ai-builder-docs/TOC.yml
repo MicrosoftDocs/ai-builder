@@ -25,13 +25,13 @@
     displayName: forums; support; help
 - name: Prompts
   items:
-  - name: Overview
+  - name: Prompts overview
     href: /microsoft-copilot-studio/prompts-overview
   - name: Create a prompt
-    href: /microsoft-copilot-studio/create-a-custom-prompt
-  - name: Get started with Copilot (preview)
+    href: /microsoft-copilot-studio/create-custom-prompt
+  - name: Create prompts with Copilot (preview)
     href: /microsoft-copilot-studio/draft-with-copilot
-  - name: Get started with prompt library
+  - name: Get started with the prompt library
     href: /microsoft-copilot-studio/prompt-library
   - name: Add inputs to your prompt
     href: /microsoft-copilot-studio/add-inputs-prompt
@@ -48,25 +48,25 @@
   - name: Distribute your prompt using a solution
     href: /microsoft-copilot-studio/distribute-prompt
   - name: Change the model version and settings
-    href: /microsoft-copilot-studio/prompt-modelsettings
+    href: /microsoft-copilot-studio/prompt-model-settings
   - name: Bring your own model for your prompts
-    href: /microsoft-copilot-studio/byom-for-your-prompts
+    href: /microsoft-copilot-studio/bring-your-own-model-prompts
   - name: Batch testing for prompts (preview)
     href: /microsoft-copilot-studio/batch-testing-prompts
   - name: Use your prompt
     items:
     - name: Use your prompt in Copilot Studio
-      href: /microsoft-copilot-studio/use-a-custom-prompt-in-mcs
+      href: /microsoft-copilot-studio/use-custom-prompt-copilot-studio
     - name: Use your prompt in Power Apps
-      href: /microsoft-copilot-studio/use-a-custom-prompt-in-app
+      href: use-a-custom-prompt-in-app
     - name: Use your prompt in Power Automate
-      href: /microsoft-copilot-studio/use-a-custom-prompt-in-flow
+      href: use-a-custom-prompt-in-flow
   - name: Prebuilt prompts
     items:
     - name: Get started with prebuilt prompts
       href: /microsoft-copilot-studio/prebuilt-prompts
     - name: Use a prebuilt prompt in a Dataverse low-code plug-in in Power Apps (preview)
-      href: /microsoft-copilot-studio/prebuilt-prompts-in-dataverse-plug-in-powerapps
+      href: prebuilt-prompts-in-dataverse-plug-in-powerapps
   - name: Human review for automation with a prompt
     href: /microsoft-copilot-studio/azure-openai-human-review
 - name: AI models
