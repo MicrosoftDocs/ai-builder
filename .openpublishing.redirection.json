@@ -206,11 +206,6 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "ai-builder-docs/prebuilt-prompts.md",
-      "redirect_url": "/microsoft-copilot-studio/prebuilt-prompts",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "ai-builder-docs/azure-openai-human-review.md",
       "redirect_url": "/microsoft-copilot-studio/azure-openai-human-review",
       "redirect_document_id": false

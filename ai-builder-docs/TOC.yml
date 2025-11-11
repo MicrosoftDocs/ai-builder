@@ -64,7 +64,7 @@
   - name: Prebuilt prompts
     items:
     - name: Get started with prebuilt prompts
-      href: /microsoft-copilot-studio/prebuilt-prompts
+      href: prebuilt-prompts.md
     - name: Use a prebuilt prompt in a Dataverse low-code plug-in in Power Apps (preview)
       href: prebuilt-prompts-in-dataverse-plug-in-powerapps.md
   - name: Human review for automation with a prompt
