@@ -1,7 +1,7 @@
 ---
 title: Monitor AI Builder models and prompts activity
 description: Learn how to monitor the activity or consumption of your AI models and prompts.
-author: jekom1u
+author: jekom1
 contributors: 
   - CerenKiroglu
   - jekom1
