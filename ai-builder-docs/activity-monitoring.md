@@ -1,7 +1,7 @@
 ---
 title: Monitor AI Builder models and prompts activity
 description: Learn how to monitor the activity or consumption of your AI models and prompts.
-author: CerenKiroglu
+author: jekom1u
 contributors: 
   - CerenKiroglu
   - jekom1
@@ -29,8 +29,8 @@ The **AI Builder activity** page shows AI model and prompts activity, including 
 Learn more in [What is Power Apps?](/power-apps/powerapps-overview) and [Copilot Studio overview](/microsoft-copilot-studio/fundamentals-what-is-copilot-studio).
 
 1. Sign in to [Power Automate](https://make.powerautomate.com).
-1. On the navigation pane to the left, select **AI hub**.
-1. Select **Monitor activity**.
+1. On the navigation pane to the left, select **Automation center**.
+1. Select **AI Builder activity** in the **Monitor** section.
 1. (Optional) Review the activity on the page and customize the data that shows by filtering the timeframe or tool type.
 
     :::image type="content" source="media/activity-monitoring/activity-page.png" alt-text="Screenshot of the 'AI Builder activity' page in Power Automate.":::
