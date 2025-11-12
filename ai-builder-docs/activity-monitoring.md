@@ -33,7 +33,7 @@ Learn more in [What is Power Apps?](/power-apps/powerapps-overview) and [Copilot
 1. Select **AI Builder activity** in the **Monitor** section.
 1. (Optional) Review the activity on the page and customize the data that shows by filtering the timeframe or tool type.
 
-    :::image type="content" source="media/activity-monitoring/activity-page.png" alt-text="Screenshot of the 'AI Builder activity' page in Power Automate.":::
+    :::image type="content" source="media/activity-monitoring/activity-and_new_entry.png" alt-text="Screenshot of the 'AI Builder activity' page in Power Automate Automation center.":::
 
    By default, data displays for all AI models from the last seven days.
 
