@@ -9,7 +9,7 @@ contributors:
   - v-aangie
 ms.topic: how-to
 ms.custom: 
-ms.date: 08/29/2025
+ms.date: 11/13/2025
 ms.author: jelenak
 ms.reviewer: angieandrews
 ---
@@ -29,11 +29,11 @@ The **AI Builder activity** page shows AI model and prompts activity, including 
 Learn more in [What is Power Apps?](/power-apps/powerapps-overview) and [Copilot Studio overview](/microsoft-copilot-studio/fundamentals-what-is-copilot-studio).
 
 1. Sign in to [Power Automate](https://make.powerautomate.com).
-1. On the navigation pane to the left, select **Automation center**.
-1. Select **AI Builder activity** in the **Monitor** section.
-1. (Optional) Review the activity on the page and customize the data that shows by filtering the timeframe or tool type.
+1. On the navigation pane to the left, select **Automation Center**.
+1. In the **Monitor** section, select **AI Builder activity**.
+1. (Optional) Review the activity on the page, and then customize the data that shows by filtering the timeframe or tool type.
 
-    :::image type="content" source="media/activity-monitoring/activity-and_new_entry.png" alt-text="Screenshot of the 'AI Builder activity' page in Power Automate Automation center.":::
+    :::image type="content" source="media/activity-monitoring/activity-new-entry.png" alt-text="Screenshot of the 'AI Builder activity' page in Power Automate Automation center.":::
 
    By default, data displays for all AI models from the last seven days.
 
@@ -113,7 +113,7 @@ To delete AI Builder activity monitoring data, you must create a bulk-delete job
 1. Select **New** on the command bar above the **All Bulk Deletion System Jobs** grid. The **Bulk Deletion Wizard** appears, where you define a query for the records that you want to delete.
 1. Select **Next**.
 1. In the **Look for** list, select the **AI Events** table.
-1. In the search criteria area, add the filter that should return the records that you want to delete. For example, the filter in the following screenshot finds all AI Builder model activity that is older than six months.
+1. In the search criteria area, add the filter that should return the records that you want to delete. For example, the filter in the following screenshot finds all AI Builder model activity that's older than six months.
 
     :::image type="content" source="media/activity-monitoring/search.png" alt-text="Screenshot of search criteria.":::
 
