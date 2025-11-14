@@ -25,38 +25,38 @@
     displayName: forums; support; help
 - name: Prompts
   items:
-  - name: Overview
-    href: prompts-overview.md
+  - name: Prompts overview
+    href: /microsoft-copilot-studio/prompts-overview
   - name: Create a prompt
-    href: create-a-custom-prompt.md
-  - name: Get started with Copilot (preview)
-    href: draft-with-copilot.md
-  - name: Get started with prompt library
-    href: prompt-library.md    
+    href: /microsoft-copilot-studio/create-custom-prompt
+  - name: Create prompts with Copilot (preview)
+    href: /microsoft-copilot-studio/draft-with-copilot
+  - name: Get started with the prompt library
+    href: /microsoft-copilot-studio/prompt-library
   - name: Add inputs to your prompt
-    href: add-inputs-prompt.md
+    href: /microsoft-copilot-studio/add-inputs-prompt
   - name: Add knowledge to your prompt
-    href: use-your-own-prompt-data.md    
+    href: /microsoft-copilot-studio/use-your-own-prompt-data
   - name: Change the output of your prompt
     items:
     - name: JSON output
-      href: process-responses-json-output.md
+      href: /microsoft-copilot-studio/process-responses-json-output
     - name: Document output (preview)
-      href: generate-document-output-prompt.md
+      href: /microsoft-copilot-studio/generate-document-output-prompt
   - name: Share your prompt
-    href: share-your-prompt.md 
+    href: /microsoft-copilot-studio/share-your-prompt
   - name: Distribute your prompt using a solution
-    href: distribute-prompt.md
+    href: /microsoft-copilot-studio/distribute-prompt
   - name: Change the model version and settings
-    href: prompt-modelsettings.md
+    href: /microsoft-copilot-studio/prompt-model-settings
   - name: Bring your own model for your prompts
-    href: byom-for-your-prompts.md
+    href: /microsoft-copilot-studio/bring-your-own-model-prompts
   - name: Batch testing for prompts (preview)
-    href: batch-testing-prompts.md
+    href: /microsoft-copilot-studio/batch-testing-prompts
   - name: Use your prompt
     items:
     - name: Use your prompt in Copilot Studio
-      href: use-a-custom-prompt-in-mcs.md
+      href: /microsoft-copilot-studio/use-custom-prompt-copilot-studio
     - name: Use your prompt in Power Apps
       href: use-a-custom-prompt-in-app.md
     - name: Use your prompt in Power Automate
@@ -64,11 +64,11 @@
   - name: Prebuilt prompts
     items:
     - name: Get started with prebuilt prompts
-      href: prebuilt-prompts.md  
+      href: prebuilt-prompts.md
     - name: Use a prebuilt prompt in a Dataverse low-code plug-in in Power Apps (preview)
       href: prebuilt-prompts-in-dataverse-plug-in-powerapps.md
   - name: Human review for automation with a prompt
-    href: azure-openai-human-review.md
+    href: /microsoft-copilot-studio/azure-openai-human-review
 - name: AI models
   items:
   - name: AI models and business scenarios
@@ -369,7 +369,7 @@
   - name: Overview
     href: responsible-ai-overview.md
   - name: FAQ for prompts
-    href: faqs-prompts.md
+    href: /microsoft-copilot-studio/faq-prompts
 
 
 
