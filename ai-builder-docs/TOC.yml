@@ -56,7 +56,7 @@
   - name: Use your prompt
     items:
     - name: Use your prompt in Copilot Studio
-      href: /microsoft-copilot-studio/use-custom-prompt-copilot-studio
+      href: use-a-custom-prompt-in-mcs.md
     - name: Use your prompt in Power Apps
       href: use-a-custom-prompt-in-app.md
     - name: Use your prompt in Power Automate
