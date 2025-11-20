@@ -43,7 +43,7 @@ Learn more about Copilot Credits and AI Builder credits.
 ### Entitlement
 
 - Copilot Credits are the common currency across Copilot Studio capabilities. They're available through pay-as-you-go meters, prepurchase plans, and Copilot Credit prepaid pack subscriptions (providing monthly capacity).
-- AI Builder credits come mostly from purchasing AI Builder capacity add-ons (providing monthly capacity). Some user licenses also provide a number of AI Builder credits per month up to November 2026.
+- AI Builder credits come mostly from purchasing AI Builder capacity add-ons (providing monthly capacity). Some user licenses also provide many AI Builder credits per month up to November 2026.
 
 ### Allocation
 
@@ -56,7 +56,7 @@ Once an environment has Copilot Credits available, it can run the AI Builder fea
 
 - Consumption is reset the first of each month. When agents, agent flows, apps, or flows run AI Builder features they use Copilot Credits. A billing rate table shows how many Copilot Credits each action consumes.
 - Similarly, AI Builder credits are used when AI Builder actions occur in apps and flows, and these AI Builder credits are available. A billing rate table shows how many AI Builder credits each action consumes.
- 
+
 Agents and agent flows only consume Copilot Credits. AI Builder features in apps and flows first try to consume AI Builder credits, then if absent or exhausted, they try to consume Copilot Credits.
 
 ### Monitoring
@@ -77,13 +77,13 @@ As consumption is reset each month, the amount of Copilot Credits or AI Builder 
 | Prompt (basic LLM model)                             | 1k tokens     | Text and generative AI tools (basic)     | 0.1                      | 0.001                   | 1.2<sup>2</sup>            | 0.0006                  |
 | Prompt (standard LLM model)                          | 1k tokens     | Text and generative AI tools (standard)  | 1.5                      | 0.015                   | 24<sup>2</sup>             | 0.012                   |
 | Prompt (premium LLM model)                           | 1k tokens     | Text and generative AI tools (premium)   | 10                       | 0.1                     | 182<sup>2</sup>            | 0.091                   |
-| Contract processing, health insurance card processing,image description<sup>1</sup> | 1 image       | Content processing tools                  | 8                        | 0.08                    | 32                          | 0.016                   |
+| Contract processing, health insurance card processing, image description<sup>1</sup> | 1 image       | Content processing tools                  | 8                        | 0.08                    | 32                          | 0.016                   |
 | Object detection                                     | 1 image       | Content processing tools                  | 8                        | 0.08                    | 8                           | 0.004                   |
 | Custom document processing                           | 1 page        | Content processing tools                  | 8                        | 0.08                    | 100                         | 0.05                    |
 | Receipt, invoice, identity document analysis         | 1 page        | Content processing tools                  | 8                        | 0.08                    | 32                          | 0.016                   |
 | Text recognition (OCR)                               | 1 page        | Text and generative AI tools (basic)      | 0.1                      | 0.001                   | 3                           | 0.0015                  |
-| Simple text analysis: sentiment, language detection,key phrase extraction | 1k chars      | Text and generative AI tools (basic)      | 0.1                      | 0.001                   | 2                           | 0.001                   |
-| Advanced text analysis: category classification,entity extraction | 1k chars      | Text and generative AI tools (standard)   | 1.5                      | 0.015                   | 20                          | 0.01                    |
+| Simple text analysis: sentiment, language detection, key phrase extraction | 1k chars      | Text and generative AI tools (basic)      | 0.1                      | 0.001                   | 2                           | 0.001                   |
+| Advanced text analysis: category classification, entity extraction | 1k chars      | Text and generative AI tools (standard)   | 1.5                      | 0.015                   | 20                          | 0.01                    |
 | Text translation                                     | 1k chars      | Text and generative AI tools (standard)   | 1.5                      | 0.015                   | 22                          | 0.011                   |
 | Business card reader, prediction                     | n/a           | n/a                                       | free                     | n/a                     | free                        | n/a                     |
 
