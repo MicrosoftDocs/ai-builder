@@ -89,7 +89,7 @@ As consumption is reset each month, the amount of Copilot Credits or AI Builder 
 
 
 \* Based on PayGo billing, 1 Copilot Credit = $0.01  
-** Based on yearly prepaid Tier 1 AI Builder add-on  : monthly capacity = 1 million AIBuilder credits, $500 per month
+** Based on yearly prepaid Tier 1 AI Builder add-on  : monthly capacity = 1 million AIBuilder credits, $500 per month  
 <sup>1</sup> Free as long as in preview  
 <sup>2</sup> Estimation per 1K tokens, based on average request where input represents 90% of consumed tokens, and output represents 10%. 
 Here are exact rates: 
