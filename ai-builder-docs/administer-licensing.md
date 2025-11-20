@@ -92,6 +92,7 @@ As consumption is reset each month, the amount of Copilot Credits or AI Builder 
 <sup>1</sup> Free as long as in preview.
 <sup>2</sup> Estimation per 1K tokens, based on average request where input represents 90% of consumed tokens, and output represents 10%.
 Here are exact rates:
+
 |AI Builder / AI tool capability                            | AI Builder credit per 1K tokens in input     | AI Builder credit per 1K tokens in output  | 
 |----------------------------------------------|----------------------------------------------|--------------------------------------------|
 | Prompt (basic LLM model)                     |1                                             |3                                           |  
