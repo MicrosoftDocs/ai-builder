@@ -87,24 +87,22 @@ As consumption is reset each month, the amount of Copilot Credits or AI Builder 
 | Text translation                                     | 1k chars      | Text and generative AI tools (standard)   | 1.5                      | 0.015                   | 22                          | 0.011                   |
 | Business card reader, prediction                     | n/a           | n/a                                       | free                     | n/a                     | free                        | n/a                     |
 
-
-\* Based on PayGo billing, 1 Copilot Credit = $0.01  
-** Based on yearly prepaid Tier 1 AI Builder add-on  : monthly capacity = 1 million AIBuilder credits, $500 per month  
-<sup>1</sup> Free as long as in preview  
-<sup>2</sup> Estimation per 1K tokens, based on average request where input represents 90% of consumed tokens, and output represents 10%. 
-Here are exact rates: 
+\* Based on pay-as-you-go billing, 1 Copilot Credit = $0.01.  
+** Based on yearly prepaid Tier 1 AI Builder add-on: Monthly capacity = 1 million AIBuilder credits, $500 per month.  
+<sup>1</sup> Free as long as in preview.
+<sup>2</sup> Estimation per 1K tokens, based on average request where input represents 90% of consumed tokens, and output represents 10%.
+Here are exact rates:
 |AI Builder / AI tool capability                            | AI Builder credit per 1K tokens in input     | AI Builder credit per 1K tokens in output  | 
 |----------------------------------------------|----------------------------------------------|--------------------------------------------|
 | Prompt (basic LLM model)                     |1                                             |3                                           |  
-| Prompt (standard LLM model)                  |20                                            |60                                          | 
+| Prompt (standard LLM model)                  |20                                            |60                                          |
 | Prompt (premium LLM model)                   |140                                           |560                                         |
-
 
 ## Learn more
 
-- Learn more about AI Builder licensing with Copilot Credits [Licensing and Copilot Credits](message-management.md).
-- Learn more about AI Builder licensing with AI Builder credits [Licensing and AI Builder credits](credit-management.md).
-- Learn more on the end of AI Builder capacity add-ons and AI Builder seeded credits [End of AI Builder credits](endofaibcredits.md)
+- Learn more about AI Builder licensing with Copilot Credits in [Licensing and Copilot Credits](message-management.md).
+- Learn more about AI Builder licensing with AI Builder credits in [Licensing and AI Builder credits](credit-management.md).
+- Learn more on the end of AI Builder capacity add-ons and AI Builder seeded credits in [End of AI Builder credits](endofaibcredits.md).
 
 ## Related information
 
