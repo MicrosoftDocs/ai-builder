@@ -43,7 +43,7 @@ Learn more about Copilot Credits and AI Builder credits.
 ### Entitlement
 
 - Copilot Credits are the common currency across Copilot Studio capabilities. They're available through pay-as-you-go meters, prepurchase plans, and Copilot Credit prepaid pack subscriptions (providing monthly capacity).
-- AI Builder credits come mostly from purchasing AI Builder capacity add-ons (providing monthly capacity). Some user licenses also provide an amount of AI Builder credits per month up to November 2026.
+- AI Builder credits come mostly from purchasing AI Builder capacity add-ons (providing monthly capacity). Some user licenses also provide a number of AI Builder credits per month up to November 2026.
 
 ### Allocation
 
@@ -57,7 +57,7 @@ Once an environment has Copilot Credits available, it can run the AI Builder fea
 - Consumption is reset the first of each month. When agents, agent flows, apps, or flows run AI Builder features they use Copilot Credits. A billing rate table shows how many Copilot Credits each action consumes.
 - Similarly, AI Builder credits are used when AI Builder actions occur in apps and flows, and these AI Builder credits are available. A billing rate table shows how many AI Builder credits each action consumes.
  
-Agents and agent flows only consume Copilot Credits. AI Builder features in apps and flows first try to consume AI Builder credits, then, if absent or exhausted, they try to consume Copilot Credits.
+Agents and agent flows only consume Copilot Credits. AI Builder features in apps and flows first try to consume AI Builder credits, then if absent or exhausted, they try to consume Copilot Credits.
 
 ### Monitoring
 
@@ -65,8 +65,8 @@ Agents and agent flows only consume Copilot Credits. AI Builder features in apps
 
 ### Overage
 
-- Within the month, if you use more AI Builder credits than available in your environment, features will try to use **Copilot Credits**.
-- If there are none, or once you use more Copilot Credits than available in your environment, the model runs are blocked. If this happens, you need to buy more or reassign AI Builder credits or Copilot Credits to your environment.
+- Within the month, if you use more AI Builder credits than available in your environment, features try to use **Copilot Credits**.
+- If there aren't any, or once you use more Copilot Credits than available in your environment, the model runs are blocked. If this happens, you need to buy more or reassign AI Builder credits or Copilot Credits to your environment.
 
 As consumption is reset each month, the amount of Copilot Credits or AI Builder credits to purchase and/or allocate should only be enough to cover the maximum consumption you expect in a single month. Unused Copilot Credits or AI Builder credits don't roll over to the next month.  
 
