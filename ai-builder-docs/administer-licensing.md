@@ -72,7 +72,7 @@ As consumption is reset each month, the amount of Copilot Credits or AI Builder 
 
 ## AI Builder Capability Rate table
 
-| **AI Builder/ AI tool capability**                               | **Unit**       | **Copilot Studio feature**                | **Copilot Credit rate** | **Corresponding $ cost*** | **AI Builder credit rate** | **Corresponding $ cost** ** |
+| **AI Builder/ AI tool capability**                               | **Unit**       | **Copilot Studio feature**                | **Copilot Credit rate** | **Copilot Studio $ cost*** | **AI Builder credit rate** | **AI Builder $ cost** ** |
 |------------------------------------------------------|---------------|-------------------------------------------|--------------------------|-------------------------|-----------------------------|--------------------------|
 | Prompt (basic LLM model)                             | 1k tokens     | Text and generative AI tools (basic)     | 0.1                      | 0.001                   | 1.2<sup>2</sup>            | 0.0006                  |
 | Prompt (standard LLM model)                          | 1k tokens     | Text and generative AI tools (standard)  | 1.5                      | 0.015                   | 24<sup>2</sup>             | 0.012                   |
