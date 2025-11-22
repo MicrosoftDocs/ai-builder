@@ -16,8 +16,9 @@ ms.reviewer: angieandrews
 
 # End of AI Builder credits
 
-In October 2025, Microsoft announced a progressive end of AI Builder credits. This article explains the change.  
-The progressive end of AI Builder credits doesn't impact AI Builder features: they will continue to be supported in all contexts, using Copilot Credits.  
+In October 2025, Microsoft announced a progressive end of AI Builder credits. This article explains the change.
+
+The progressive end of AI Builder credits doesn't impact AI Builder features: they'll continue to be supported in all contexts, using Copilot Credits.  
 AI Builder credits were available as capacity packs (AI Builder capacity add-ons) which provided 1 million AI Builder credits, and as seeded capacity in Power Platform licenses, like Power Apps premium licenses, or Power Automate premium licenses.
 
 Both AI Builder capacity add-ons and seeded credits in premium licenses are impacted by this end of AI Builder credits, with different calendars.
@@ -28,10 +29,10 @@ Both AI Builder capacity add-ons and seeded credits in premium licenses are impa
 |----------------------------|----------------------------------------------|---------------------------------------------------------------------------|-------------------------- |
 |11/01/2025                  | End of Sales for AI Builder capacity add-ons | New 'add-on' customers  = customers without any active AI Builder capacity add-ons | New 'add-on' customers can't purchase AI Builder capacity add-ons. |
 |11/01/2025                  |(no change)                                   | Existing 'add-on' customers with active AI Builder capacity add-ons                | Existing 'add-on' customers can still use their AI Builder credits linked to their AI Builder capacity add-ons, but also renew them, and purchase new ones. |
-|11/01/2025                  |(no change)                                   | New 'seeded' customers = customer without any active seeded AI Builder credits     | New 'seeded' customers can purchase premium licenses which will provide AI Builder seeded credits that they can use to run AI Builder features.  |
+|11/01/2025                  |(no change)                                   | New 'seeded' customers = customer without any active seeded AI Builder credits     | New 'seeded' customers can purchase premium licenses, which provide AI Builder seeded credits that they can use to run AI Builder features.  |
 |11/01/2025                  |(no change)                                   | Existing 'seeded' customers = customers with active seeded AI Builder credits      | Existing 'seeded' customers can  use their seeded AI Builder credits linked to their premium licenses, renew or add new premium licenses. |
-|11/01/2026                  | End of Life of AI Builder capacity add-ons   | Existing add-on customers with active AI Builder capacity add-ons                  | Existing 'add-on' customers can still use their credits linked to their active AI Builder capacity add-ons, but cannot renew them, or purchase new ones. |
-|11/01/2026                  | End of seeded AI Builder credits             | Existing 'seeded' customers with active seeded AI Builder credits                  | Existing 'seeded' customers won't receive seeded AI Builder credits any more. These seeded AI Builder credits will be definitively removed from their premium licenses. |
+|11/01/2026                  | End of Life of AI Builder capacity add-ons   | Existing add-on customers with active AI Builder capacity add-ons                  | Existing 'add-on' customers can still use their credits linked to their active AI Builder capacity add-ons, but can't renew them, or purchase new ones. |
+|11/01/2026                  | End of seeded AI Builder credits             | Existing 'seeded' customers with active seeded AI Builder credits                  | Existing 'seeded' customers won't receive seeded AI Builder credits anymore. These seeded AI Builder credits will be removed from their premium licenses. |
 | after 11/01/2026           | (no change)                                  | Existing add-on customers with active AI Builder capacity add-ons                  | Customers with active AI Builder capacity add-ons continue using their AI Builder credits to run AI Builder features until their licenses expire|
 
 ## FAQ
@@ -53,12 +54,13 @@ In order to replace the AI Builder credits which will progressively end, custome
 
 The seeded AI Builder credits from licenses like Power Apps Premium or Dynamics 365 will remain usable (on a monthly basis) until November 1, 2026, based on the number of active licenses.
 
-After Nov 1, 2026, these seeded credits will be removed for all new and existing customers, including those with an Enterprise Agreement. Copilot Studio Credits will be required for continued access (or active AI Builder add-ons).
+After November 1, 2026, these seeded credits will be removed for all new and existing customers, including those with an Enterprise Agreement. Copilot Studio Credits will be required for continued access (or active AI Builder add-ons).
 
 ### How long do these credits remain available, and will they transition to Copilot Studio Credits after November 2026?
 
-Seeded Credits are available to use until November 1, 2026. After that date, they'll become unavailable. There won't be a transition to Copilot Studio Credits.
-Credits coming from AI Builder add-ons will remain available until the end of contracts.
+Seeded credits are available to use until November 1, 2026. After that date, they're unavailable. There isn't a transition to Copilot Studio Credits.
+
+Credits coming from AI Builder add-ons remain available until the end of contracts.
 
 ### What's the exact conversion ratio between AI Builder service credits and Copilot Studio Credits in AI Builder usage?
 

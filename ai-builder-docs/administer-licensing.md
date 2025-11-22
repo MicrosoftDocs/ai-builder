@@ -11,7 +11,7 @@ ms.topic: concept-article
 ms.collection: 
 - get-started
 - bap-ai-copilot
-ms.date: 11/01/2025
+ms.date: 11/20/2025
 ms.update-cycle: 180-days
 ms.author: antode
 ms.reviewer: angieandrews
@@ -42,12 +42,12 @@ Learn more about Copilot Credits and AI Builder credits.
 
 ### Entitlement
 
-- Copilot Credits come from Microsoft Copilot Studio licenses that that can be set up as pay-as-you-go credits or prepaid capacity packs.
-- AI Builder credits come mostly from purchasing AI Builder capacity add-ons. Some user licenses also provide an amount of AI Builder credits per month up to November 2026.
+- Copilot Credits are the common currency across Copilot Studio capabilities. They're available through pay-as-you-go meters, prepurchase plans, and Copilot Credit prepaid pack subscriptions (providing monthly capacity).
+- AI Builder credits come mostly from purchasing AI Builder capacity add-ons (providing monthly capacity). Some user licenses also provide many AI Builder credits per month up to November 2026.
 
 ### Allocation
 
-- When acquired as Copilot Studio licenses, Copilot Credits can be allocated (also known as assigned) to a specific environment in Power Platform admin center (PPAC), or left unallocated at an organization (tenant) level.
+- When acquired as prepaid pack subscription, Copilot Credits can be allocated (also known as assigned) to a specific environment in Power Platform admin center (PPAC), or left unallocated at an organization (tenant) level.
 - Similarly, AI Builder credits can be allocated to a specific environment, or left unallocated.
 
 Once an environment has Copilot Credits available, it can run the AI Builder features in all contexts. If an environment only has AI Builder credits available, it can only run AI Builder features in Power Apps and Power Automate.
@@ -57,49 +57,59 @@ Once an environment has Copilot Credits available, it can run the AI Builder fea
 - Consumption is reset the first of each month. When agents, agent flows, apps, or flows run AI Builder features they use Copilot Credits. A billing rate table shows how many Copilot Credits each action consumes.
 - Similarly, AI Builder credits are used when AI Builder actions occur in apps and flows, and these AI Builder credits are available. A billing rate table shows how many AI Builder credits each action consumes.
 
+Agents and agent flows only consume Copilot Credits. AI Builder features in apps and flows first try to consume AI Builder credits, then if absent or exhausted, they try to consume Copilot Credits.
+
 ### Monitoring
 
 - Copilot Credit and AI Builder credit consumption can be monitored so that admins and makers can track consumption throughout each monthly cycle.
 
 ### Overage
 
-- Within the month, if you use more AI Builder credits than available in your environment, features will try to use **Copilot Credits**.
-- If there are none, or once you use more Copilot Credits than available in your environment, the model runs are blocked. If this happens, you need to buy more or reassign AI Builder credits or Copilot Credits to your environment.
+- Within the month, if you use more AI Builder credits than available in your environment, features try to use **Copilot Credits**.
+- If there aren't any, or once you use more Copilot Credits than available in your environment, the model runs are blocked. If this happens, you need to buy more or reassign AI Builder credits or Copilot Credits to your environment.
 
 As consumption is reset each month, the amount of Copilot Credits or AI Builder credits to purchase and/or allocate should only be enough to cover the maximum consumption you expect in a single month. Unused Copilot Credits or AI Builder credits don't roll over to the next month.  
 
 ## AI Builder Capability Rate table
 
-|AI tool capability                            | Unit       | Copilot Studio feature| Copilot Credit rate| $ cost *| AI Builder credit rate| $ cost **| Number of Copilot packs for 1 AI Builder Add-on|
-|----------------------------------------------|------------|-----------------------|--------------------|-----|---------------------|--|---|
-| Prompt (basic LLM model)                     |1k tokens   | Text and generative AI tools (basic) |0.1 | 0.0008|1 (input), 3 (output) |0.0006 <sup>1</sup>|  4|
-| Prompt (standard LLM model)                  | 1k tokens  | Text and generative AI tools (standard)        | 1.5 | 0.012 | 20 (input), 60 (output)      | 0.012 <sup>1</sup>                   | 3|
-| Prompt (premium LLM model)                   | 1k tokens  | Text and generative AI tools (premium)         | 10                   | 0.08                     | 140 (input), 560 (output)    | 0.091 <sup>1</sup>                   |3|
-| Custom document processing                   | 1 page     | Content processing tools                        | 8                    | 0.064                    | 100                           | 0.05                     |4|
-| Text translation                             | 1k chars   | Text and generative AI tools (standard)        | 1.5                  | 0.012                    | 22                            | 0.011                    |3|
-| Simple text analysis: sentiment analysis, <br/>language detection, key phrase extraction | 1k chars   | Text and generative AI tools (basic)           | 0.1                  | 0.0008                  | 2                             | 0.001                    |2|
-| Advanced text analysis: category classification, <br/>entity extraction             | 1k chars   | Text and generative AI tools (standard)        | 1.5                  | 0.012                    | 20                            | 0.01                     |3|
-| Text recognition (OCR)                       | 1 page     | Text and generative AI tools (basic)           | 0.1                  | 0.0008                   | 3                             | 0.0015                   |2|
-| Receipt, invoice, identity document analysis | 1 page     | Content processing tools                        | 8                    | 0.064                    | 32                            | 0.016                    |10|
-| Contract processing, health insurance card <br/>processing, image description <sup>2</sup>      | 1 image    | Content processing tools                        | 8                    | 0.064                    | 32                            | 0.016                    |10|
-| Object detection                             | 1 image    | Content processing tools                        | 8                    | 0.064                    | 8                             | 0.004                    |40|
-| Business card reader, prediction             | n/a        |     n/a                                           | free                 |    n/a                      | free                          |   n/a                       | n/a |
+| **AI Builder/ AI tool capability**                               | **Unit**       | **Copilot Studio feature**                | **Copilot Credit rate** | **Copilot Studio $ cost*** | **AI Builder credit rate** | **AI Builder $ cost** ** |
+|------------------------------------------------------|---------------|-------------------------------------------|--------------------------|-------------------------|-----------------------------|--------------------------|
+| Prompt (basic LLM model)                             | 1k tokens     | Text and generative AI tools (basic)     | 0.1                      | 0.001                   | 1.2<sup>2</sup>            | 0.0006                  |
+| Prompt (standard LLM model)                          | 1k tokens     | Text and generative AI tools (standard)  | 1.5                      | 0.015                   | 24<sup>2</sup>             | 0.012                   |
+| Prompt (premium LLM model)                           | 1k tokens     | Text and generative AI tools (premium)   | 10                       | 0.1                     | 182<sup>2</sup>            | 0.091                   |
+| Contract processing, health insurance card processing, image description<sup>1</sup> | 1 image       | Content processing tools                  | 8                        | 0.08                    | 32                          | 0.016                   |
+| Object detection                                     | 1 image       | Content processing tools                  | 8                        | 0.08                    | 8                           | 0.004                   |
+| Custom document processing                           | 1 page        | Content processing tools                  | 8                        | 0.08                    | 100                         | 0.05                    |
+| Receipt, invoice, identity document analysis         | 1 page        | Content processing tools                  | 8                        | 0.08                    | 32                          | 0.016                   |
+| Text recognition (OCR)                               | 1 page        | Text and generative AI tools (basic)      | 0.1                      | 0.001                   | 3                           | 0.0015                  |
+| Simple text analysis: sentiment, language detection, key phrase extraction | 1k chars      | Text and generative AI tools (basic)      | 0.1                      | 0.001                   | 2                           | 0.001                   |
+| Advanced text analysis: category classification, entity extraction | 1k chars      | Text and generative AI tools (standard)   | 1.5                      | 0.015                   | 20                          | 0.01                    |
+| Text translation                                     | 1k chars      | Text and generative AI tools (standard)   | 1.5                      | 0.015                   | 22                          | 0.011                   |
+| Business card reader, prediction                     | n/a           | n/a                                       | free                     | n/a                     | free                        | n/a                     |
 
-\* Using yearly prepaid Copilot Studio license (prepaid pack)<br/>
-** Using yearly prepaid AI Builder add-on  
-<sup>1</sup> Based on 900 input tokens + 100 output tokens (eg: 0.9 + 0.3  = 1.2 credits/1K tokens for basic)
-<sup>2</sup> Free as long as in preview  
+\* Based on pay-as-you-go billing, 1 Copilot Credit = $0.01.  
+** Based on yearly prepaid Tier 1 AI Builder add-on: Monthly capacity = 1 million AIBuilder credits, $500 per month.  
+<sup>1</sup> Free as long as in preview.
+<sup>2</sup> Estimation per 1K tokens, based on average request where input represents 90% of consumed tokens, and output represents 10%.
+Here are exact rates:
+
+|AI Builder / AI tool capability                            | AI Builder credit per 1K tokens in input     | AI Builder credit per 1K tokens in output  | 
+|----------------------------------------------|----------------------------------------------|--------------------------------------------|
+| Prompt (basic LLM model)                     |1                                             |3                                           |  
+| Prompt (standard LLM model)                  |20                                            |60                                          |
+| Prompt (premium LLM model)                   |140                                           |560                                         |
 
 ## Learn more
 
-- Learn more about AI Builder licensing with Copilot Credits [Licensing and Copilot Credits](message-management.md).
-- Learn more about AI Builder licensing with AI Builder credits [Licensing and AI Builder credits](credit-management.md).
-- Learn more on the end of AI Builder capacity add-ons and AI Builder seeded credits [End of AI Builder credits](endofaibcredits.md)
+- Learn more about AI Builder licensing with Copilot Credits in [Licensing and Copilot Credits](message-management.md).
+- Learn more about AI Builder licensing with AI Builder credits in [Licensing and AI Builder credits](credit-management.md).
+- Learn more on the end of AI Builder capacity add-ons and AI Builder seeded credits in [End of AI Builder credits](endofaibcredits.md).
 
 ## Related information
 
 - [Microsoft Power Platform Licensing Guide (pdf)](https://go.microsoft.com/fwlink/?LinkId=2085130)
 - [Microsoft Copilot Studio Licensing Guide (pdf)](https://go.microsoft.com/fwlink/?linkid=2320995)
+- [Copilot Studio licensing](/microsoft-copilot-studio/billing-licensing)
 - [Licensing FAQ for AI Builder](/power-platform/admin/powerapps-flow-licensing-faq#ai-builder)
 - [Training: Get started with AI Builder licensing (module)](/training/modules/get-started-with-ai-builder-licensing/)
 
