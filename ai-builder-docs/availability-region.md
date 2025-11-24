@@ -40,7 +40,6 @@ In the following table, (GA) or (Preview) means that the feature is available bu
 | GPT-4.1                              | GA          | GA             | (GA)           | (GA)           | (GA)           | (GA)           | GA            | (GA)           | (GA)           | GA             | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)               | GA           | GA             |
 | o3                                   | (GA)        | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)          | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)               |(GA)          | GA             |
 | GPT-5 chat                                   | (GA)        | (GA)           | (GA)           | GA           | (GA)           | (GA)           | (GA)          | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)               |(GA)          | GA             |
-
 | GPT-5 reasoning | (GA) | (GA) | (GA) | GA | (GA) | (GA) | (GA) | (GA) | (GA) | (GA) | (GA) | (GA) | (GA) | (GA) | (GA) | (GA) |(GA) | GA |
 
 > [!IMPORTANT]
