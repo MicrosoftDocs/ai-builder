@@ -41,6 +41,8 @@ In the following table, (GA) or (Preview) means that the feature is available bu
 | o3                                   | (GA)        | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)          | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)               |(GA)          | GA             |
 | GPT-5 chat                                   | (GA)        | (GA)           | (GA)           | GA           | (GA)           | (GA)           | (GA)          | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)               |(GA)          | GA             |
 
+| GPT-5 reasoning | (GA) | (GA) | (GA) | GA | (GA) | (GA) | (GA) | (GA) | (GA) | (GA) | (GA) | (GA) | (GA) | (GA) | (GA) | (GA) |(GA) | GA |
+
 > [!IMPORTANT]
 > In November 2025, we're progressively migrating the o3 model to the GPT-5 reasoning model. Prompts that run on the o3 model are automatically transitioning to the GPT-5 reasoning model without action required from you. It's possible to revert temporarily to the o3 model by requesting it through a support request on prompts. This exception will last until December 17, 2025, after which the o3 model will be permanently retired.
 
