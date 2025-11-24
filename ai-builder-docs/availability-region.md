@@ -13,8 +13,8 @@ contributors:
   - jekom1
   - v-aangie
 ms.topic: article
-ms.date: 11/05/2025
-ms.author: antode
+ms.date: 11/22/2025
+ms.author: antrod
 ms.reviewer: angieandrews
 ---
 
@@ -39,14 +39,11 @@ In the following table, (GA) or (Preview) means that the feature is available bu
 | GPT-4.1 mini                         | GA          | GA             | (GA)           | (GA)           | (GA)           | (GA)           | GA            | (GA)           | (GA)           | GA             | (GA)           | (GA)           | (GA)           |  (GA)          | (GA)           | (GA)               | GA           | GA             |
 | GPT-4.1                              | GA          | GA             | (GA)           | (GA)           | (GA)           | (GA)           | GA            | (GA)           | (GA)           | GA             | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)               | GA           | GA             |
 | o3                                   | (GA)        | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)          | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)               |(GA)          | GA             |
-| GPT-5 chat                           |      -      |      -         | -              | (Preview)      |  -             | -              | -             |  -             | -              | -              | -              |  -             |  -             | -              |  -             |  -                 |  -           | Preview        |
-| GPT-5 reasoning                      |  -          |  -             |   -            | (Preview)      |  -             |   -            |  -            |  -             |  -             | -              |  -             |   -            |  -             |  -             |  -             | -                  | -            | Preview        |
+| GPT-5 chat                                   | (GA)        | (GA)           | (GA)           | GA           | (GA)           | (GA)           | (GA)          | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)               |(GA)          | GA             |
+| GPT-5 reasoning | (GA) | (GA) | (GA) | GA | (GA) | (GA) | (GA) | (GA) | (GA) | (GA) | (GA) | (GA) | (GA) | (GA) | (GA) | (GA) |(GA) | GA |
 
 > [!IMPORTANT]
-> During November 2025, we'll progressively:
-> - Migrate the o3 model to the GPT 5 reasoning model, which will become generally available. If you have prompts currently using the o3 model, the migration will be automatic, but we recommend testing your prompts with the GPT 5 reasoning model as soon as possible.
-> - Move to a more stable version of the GPT 5 chat model, which will also become generally available.
-
+> In November 2025, we're progressively migrating the o3 model to the GPT-5 reasoning model. Prompts that run on the o3 model are automatically transitioning to the GPT-5 reasoning model without action required from you. It's possible to revert temporarily to the o3 model by requesting it through a support request on prompts. This exception will last until December 17, 2025, after which the o3 model will be permanently retired.
 
 ### Custom models
 
