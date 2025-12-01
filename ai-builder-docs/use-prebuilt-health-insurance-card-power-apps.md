@@ -2,7 +2,7 @@
 title: Use the health insurance card processing prebuilt model in Power Apps (preview)
 description: Learn how to use the AI Builder health insurance card prebuilt model in Power Apps.
 author: phil-cmd
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom: 
 ms.date: 09/05/2025
 ms.author: plarrue
