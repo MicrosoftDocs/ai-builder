@@ -2,7 +2,7 @@
 title: Health insurance card processing prebuilt model (preview)
 description: Learn about the health insurance card processing prebuilt model in AI Builder.
 author: phil-cmd
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom: 
 ms.date: 09/05/2025
 ms.author: plarrue
