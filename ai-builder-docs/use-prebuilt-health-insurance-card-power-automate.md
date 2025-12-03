@@ -2,7 +2,7 @@
 title: Use the health insurance card processing prebuilt model in Power Automate (preview)
 description: Learn how to use the AI Builder health insurance card processing prebuilt model in Power Automate.
 author: phil-cmd
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom: 
 ms.date: 09/05/2025
 ms.author: plarrue

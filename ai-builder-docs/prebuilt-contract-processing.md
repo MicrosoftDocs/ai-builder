@@ -2,7 +2,7 @@
 title: Contract processing prebuilt model (preview)
 description: Learn about the contract processing prebuilt model in AI Builder.
 author: phil-cmd
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom: 
 ms.date: 06/27/2025
 ms.author: plarrue
