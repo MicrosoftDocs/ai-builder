@@ -13,7 +13,7 @@ contributors:
   - jekom1
   - v-aangie
 ms.topic: article
-ms.date: 11/22/2025
+ms.date: 12/11/2025
 ms.author: antrod
 ms.reviewer: angieandrews
 ---
@@ -32,7 +32,7 @@ The following tables show which AI Builder features are available in each region
 
 ### Prompts
 
-Prompts availability can be found in [Model availability by region](/microsoft-copilot-studio/prompt-model-settings#model-availability-by-region).
+You can find prompts availability in [Model availability by region](/microsoft-copilot-studio/prompt-model-settings#model-availability-by-region).
 
 ### Custom models
 
@@ -77,7 +77,7 @@ AI Builder is available in US Government environments with the features listed i
 
 ### Prompts (US Government)
 
-Prompts availability can be found in [Model availability by region](/microsoft-copilot-studio/prompt-model-settings#model-availability-by-region).
+You can find prompts availability in [Model availability by region](/microsoft-copilot-studio/prompt-model-settings#model-availability-by-region).
 
 ### Custom models (US Government)
 
