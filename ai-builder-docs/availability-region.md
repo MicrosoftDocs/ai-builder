@@ -13,7 +13,7 @@ contributors:
   - jekom1
   - v-aangie
 ms.topic: article
-ms.date: 11/22/2025
+ms.date: 12/11/2025
 ms.author: antrod
 ms.reviewer: angieandrews
 ---
@@ -32,18 +32,7 @@ The following tables show which AI Builder features are available in each region
 
 ### Prompts
 
-In the following table, (GA) or (Preview) means that the feature is available but uses an Azure OpenAI service in another region. Learn more in [enabling data movement cross-regions](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions).
-
-| Feature                              | Asia        | Australia      | Canada         | Europe         | France         | Germany        | India         | Japan          | Norway         | Singapore      | South Africa   | South America  | Korea          | Sweden         | Switzerland    |United Arab Emirates|United Kingdom| United States  |
-|--------------------------------------|-------------|----------------|----------------|----------------|----------------|----------------|---------------|----------------|----------------|----------------|----------------|----------------|----------------|----------------|----------------|--------------------|--------------|----------------|
-| GPT-4.1 mini                         | GA          | GA             | (GA)           | (GA)           | (GA)           | (GA)           | GA            | (GA)           | (GA)           | GA             | (GA)           | (GA)           | (GA)           |  (GA)          | (GA)           | (GA)               | GA           | GA             |
-| GPT-4.1                              | GA          | GA             | (GA)           | (GA)           | (GA)           | (GA)           | GA            | (GA)           | (GA)           | GA             | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)               | GA           | GA             |
-| o3                                   | (GA)        | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)          | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)               |(GA)          | GA             |
-| GPT-5 chat                                   | (GA)        | (GA)           | (GA)           | GA           | (GA)           | (GA)           | (GA)          | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)               |(GA)          | GA             |
-| GPT-5 reasoning | (GA) | (GA) | (GA) | GA | (GA) | (GA) | (GA) | (GA) | (GA) | (GA) | (GA) | (GA) | (GA) | (GA) | (GA) | (GA) |(GA) | GA |
-
-> [!IMPORTANT]
-> In November 2025, we're progressively migrating the o3 model to the GPT-5 reasoning model. Prompts that run on the o3 model are automatically transitioning to the GPT-5 reasoning model without action required from you. It's possible to revert temporarily to the o3 model by requesting it through a support request on prompts. This exception will last until December 17, 2025, after which the o3 model will be permanently retired.
+You can find prompts availability in [Model availability by region](/microsoft-copilot-studio/prompt-model-settings#model-availability-by-region).
 
 ### Custom models
 
@@ -88,14 +77,7 @@ AI Builder is available in US Government environments with the features listed i
 
 ### Prompts (US Government)
 
-| Feature                                 | Government Community Cloud (GCC) | Government Community Cloud – High (GCC High) | Department of Defense (DoD) |
-|:----------------------------------------|:--------------------------------:|:--------------------------------------------:|:---------------------------:|
-| GPT-4o mini                             |               GA                 |                     GA                       |              -              |
-| GPT-4o                                  |               GA                 |                     GA                       |              -              |
-| GPT-4o using image or document as input |               -                  |                     -                        |              -              |
-| o3                                      |               -                  |                     -                        |              -              |
-| GPT-4.1 mini                            |               -                  |                     -                        |              -              |
-| GPT-4.1                                 |               -                  |                     -                        |              -              |
+You can find prompts availability in [Model availability by region](/microsoft-copilot-studio/prompt-model-settings#model-availability-by-region).
 
 ### Custom models (US Government)
 
