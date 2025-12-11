@@ -32,7 +32,7 @@ The following tables show which AI Builder features are available in each region
 
 ### Prompts
 
-In the following table, (GA), (Preview) or (experimental) means that the feature is available but uses an Azure OpenAI service in another region. Learn more in [enabling data movement cross-regions](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions).
+In the following table, (GA), (Preview) or (Experimental) means that the feature is available but uses an Azure OpenAI service in another region. Learn more in [enabling data movement cross-regions](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions).
 
 | Feature                              | Asia        | Australia      | Canada         | Europe         | France         | Germany        | India         | Japan          | Norway         | Singapore      | South Africa   | South America  | Korea          | Sweden         | Switzerland    |United Arab Emirates|United Kingdom| United States  |
 |--------------------------------------|-------------|----------------|----------------|----------------|----------------|----------------|---------------|----------------|----------------|----------------|----------------|----------------|----------------|----------------|----------------|--------------------|--------------|----------------|
@@ -44,7 +44,7 @@ In the following table, (GA), (Preview) or (experimental) means that the feature
 | GPT-5.2 chat  |  -        | -           | -           | -          | -           | -           | -          | -           | -           | -           | -           | -           | -           | -           | -           | -               | -          | Experimental            |
 | GPT-5.2 reasoning | -        | -           | -           | -          | -           | -           | -          | -           | -           | -           | -           | -           | -           | -           | -           | -               | -          | Experimental            |
 
-Learn more on release stages of prompt models here: [Change the model version](microsoft-copilot-studio/prompt-model-settings).
+Learn more on release stages of prompt models here: [Change the model version](/microsoft-copilot-studio/prompt-model-settings).
 
 > [!IMPORTANT]
 > In November 2025, we migrated the o3 model to the GPT-5 reasoning model. Prompts that ran on the o3 model were automatically transitioned to the GPT-5 reasoning model without action required from you. It's possible to revert temporarily to the o3 model by requesting it through a support request on prompts. This exception lasts until December 17, 2025, after which the o3 model will be permanently retired.
