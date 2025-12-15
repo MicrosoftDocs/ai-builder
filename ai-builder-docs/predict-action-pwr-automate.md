@@ -7,7 +7,7 @@ contributors:
   - Antonio-Rodrigues
   - v-aangie
 ms.topic: how-to
-ms.date: 06/23/2025
+ms.date: 12/15/2025
 ms.author: chplanty
 ms.reviewer: angieandrews
 ---
@@ -60,14 +60,14 @@ In this section, you learn how to configure the AI Builder predict action for th
    You can find the model ID in the URL of the model's detail page in Power Apps:
    *make.powerapps.com/environment/[environment id]/aibuilder/models/**[model id]***
 
-1. Select **+ New step**, search for **predict** and then select **Predict from AI Builder**.
+1. Select **+ New step**, search for **predict**, and then select **Predict from AI Builder**.
 
 1. Select the input > **Enter custom value**, and then enter **model id** from step 6.
 
    The **Infer request** column value depends on the model type.
 
 > [!NOTE]
-> the dynamic model ID is supported only for Document Processing, this is not supported for prompts.
+> The dynamic model ID is supported only for document processing; it isn't supported for prompts.
 
 ### Document processing model
 
