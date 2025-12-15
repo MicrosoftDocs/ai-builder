@@ -7,8 +7,8 @@ contributors:
   - v-aangie
 ms.topic: article
 ms.custom:
-ms.date: 02/05/2025
-ms.author: angieandrews
+ms.date: 09/08/2025
+ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 

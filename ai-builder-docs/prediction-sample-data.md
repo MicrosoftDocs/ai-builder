@@ -4,8 +4,8 @@ description: Provides steps to create a prediction model in AI Builder using sam
 author: aminabrandt
 ms.topic: article
 ms.custom: 
-ms.date: 01/27/2025
-ms.author: ambran
+ms.date: 09/08/2025
+ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 

@@ -1,16 +1,15 @@
 ---
-title: Use your prediction model in Power Automate - AI Builder | Microsoft Docs
+title: Use your prediction model in Power Automate - AI Builder
 description: Learn how to create a Power Automate flow that uses the real-time prediction feature.
 author: billba
 ms.topic: how-to
 ms.custom: 
-ms.date: 01/27/2025
+ms.date: 09/08/2025
 ms.author: billba
 ms.reviewer: angieandrews
 ---
 
 # Use a prediction model in Power Automate
-
 
 1. Sign in to [Power Automate](https://flow.microsoft.com/).
 

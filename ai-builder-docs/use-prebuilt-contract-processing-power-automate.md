@@ -2,7 +2,7 @@
 title: Use the contract processing prebuilt model in Power Automate (preview)
 description: Learn how to use the AI Builder contract processing prebuilt model in Power Automate.
 author: phil-cmd
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom: 
 ms.date: 06/27/2025
 ms.author: plarrue

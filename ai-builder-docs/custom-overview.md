@@ -3,7 +3,7 @@ title: Overview of custom AI models - AI Builder
 description: Learn about the custom AI models that are available in AI Builder.
 author: phil-cmd
 ms.topic: overview
-ms.date: 01/27/2025
+ms.date: 09/08/2025
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---

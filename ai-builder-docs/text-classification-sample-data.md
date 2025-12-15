@@ -4,7 +4,7 @@ description: Provides steps to create a category classification model in AI Buil
 author: v-aangie
 ms.topic: how-to
 ms.custom: 
-ms.date: 01/28/2025
+ms.date: 09/08/2025
 ms.author: angieandrews
 ms.reviewer: angieandrews
 ---

@@ -6,7 +6,7 @@ contributors:
   - jekom1
   - v-aangie
 ms.topic: article
-ms.date: 03/10/2025
+ms.date: 09/08/2025
 ms.update-cycle: 180-days
 ms.author: jelenak
 ms.reviewer: angieandrews
@@ -100,7 +100,7 @@ The following table shows the AI Builder system tables, which are installed by d
 
 The training files stored in the AI Builder File table are accessible only by the person who created the model. The exception is the administrator, who can view and delete any model, related data, and configuration.
 
-AI Builder doesn’t support shared ownership of a model. It's possible to change the owner by following this procedure in [Share your AI model](share-model.md#the-owner-of-a-model-has-left-the-company-how-can-we-allow-non-admin-users-to-edit-this-model).
+AI Builder doesn’t support shared ownership of a model. It's possible to change the owner by following the procedure in [Share your AI model](share-model.md#the-owner-of-a-model-left-the-company-how-can-we-allow-non-admin-users-to-edit-this-model).
 
 ## Related information
 

@@ -9,7 +9,7 @@ contributors:
   - phil-cmd
   - v-aangie
 ms.topic: how-to
-ms.date: 01/30/2025
+ms.date: 08/29/2025
 ms.author: jelenak
 ms.reviewer: angieandrews
 ---
@@ -75,9 +75,9 @@ AI Builder is licensed as an add-on to your Power Apps, Power Automate, or Dynam
 
 Access to AI Builder features within an environment requires access to AI Builder credits.
 
-To learn more, go to [AI Builder licensing and credit management](credit-management.md).
+Learn more in [Licensing and AI Builder credits](credit-management.md).
 
-## Where and how are data stored in Dataverse?
+## Where and how data is stored in Dataverse
 
 Your AI model is deployed in the region that hosts the environment. For example, if your environment is created in the Europe region, your model is deployed in datacenters in Europe. Learn more in [Environments overview](/power-platform/admin/environments-overview).
 
@@ -86,7 +86,7 @@ Images and documents used for training purposes in object detection and document
   - They're used solely to train the AI Builder model and never used for any other purpose.
   - Training data is never shared externally.
 
-In contrast, images and documents used at prediction time aren't persisted. Examples of non-persisted images and documents are those in a Power Apps component framework (PCF) control and in Power Automate.
+In contrast, images and documents used at prediction time aren't persisted. Examples of nonpersisted images and documents are those in a Power Apps component framework (PCF) control and in Power Automate.
 
 Inputs of text scenarios are persisted in the AI Event Dataverse table to allow users to monitor [AI Builder activity](activity-monitoring.md).
 
@@ -97,32 +97,40 @@ Dataverse has strong security mechanisms that prevent unauthorized access to use
 
 Learn more in [Roles and security in AI Builder](/ai-builder/security).
 
-## Enable or disable AI Builder preview features
+## Enable or disable preview features or models
 
 Some AI Builder features are released for general availability. Others remain in preview release status.
 
-Preview features appear on the Explore page with the **Preview** label. In the Power Platform admin center, administrators control whether users have access to preview features.
+Preview features and models are marked with the **Preview** label. In the Power Platform admin center, administrators control whether users have access to preview and experimental features and models.
 
-By default, the **AI Builder preview models** feature is enabled for any eligible environment. Eligible environments must have Microsoft Dataverse and be in a [supported region](availability-region.md). If the environment isn't eligible, the **AI Builder preview models** feature doesn't appear in the Power Platform admin center.
+By default, the **Preview and experimental AI models** (called **AI Builder preview models** before August 2025) feature is enabled for any eligible environment. Eligible environments must have Microsoft Dataverse and be in a [supported region](availability-region.md). If the environment isn't eligible, the **Preview and experimental AI models** feature doesn't appear in the Power Platform admin center.
 
-To control AI Builder preview feature availability:
+To control preview and experimental AI model or feature availability for an environment:
 
-1. Sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com).
+1. Sign in to [Power Platform admin center](https://admin.powerplatform.microsoft.com).
+1. In the admin center, select **Manage** > **Environments** > *[select an environment]* > **Settings** > **Features**.
+1. On the **Features** settings page, under **Preview and experimental AI models**, enable or disable **Let people use AI models that are experimental or in preview**.
 
-1. In the admin center, go to **Environments** > *[select an environment]* > **Settings** > **Features**.
+If your environment is part of an [environment group](/power-platform/admin/environment-groups), you can also govern preview and experimental AI model or feature availability through the **Preview and experimental AI models** environment group rule.
 
-1. On the **Features** settings page, under **AI Builder**, enable or disable **AI Builder preview models**.
+1. Sign in to [Power Platform admin center](https://admin.powerplatform.microsoft.com).
+1. In the admin center, select **Manage** > **Environment groups** > *[select an environment group]* > **Rules**.
+1. On the **Rules** tab under **Preview and experimental AI models**, enable or disable the **Preview and experimental AI models** checkbox.
+1. Select **Save** to save the changes.
+1. To apply the rules to the environments in the group, select **Publish rules**.
+
+If an environment group rule governing preview and experimental AI models and features is published, it locks the preview and experimental AI models setting at the environment level. This prevents a system administrator of those individual environments from editing the setting. To change the setting, admins must modify the corresponding rule in the environment group that includes the environment.
 
 ### Important points related to enabling or disabling the feature
 
-- If you disable **AI Builder preview models**:
-  - We don't delete existing models that users of this environment created.
-  - AI Builder components are disabled.
-  - Existing experiences that use existing AI Builder components fail or return errors.
+- If you disable **Preview and experimental AI models**:
+  - We don't delete existing models or prompts that users of this environment created.
+  - Preview AI Builder components are disabled.
+  - Existing experiences that use existing preview AI Builder components fail or return errors.
   - Admins and owners can delete preview models.
 
-- If you enable **AI Builder preview models** again:
-  - AI Builder components are available again.
+- If you enable **Preview and experimental AI models** again:
+  - Preview AI Builder components are available again.
   - Components function as they did before the feature was disabled (assuming nothing else changed).
 
 For more information about enabling or disabling features in the Power Platform admin center, go to [Manage feature settings](/power-platform/admin/settings-features).
@@ -182,7 +190,7 @@ All your data stored in Power Platform is encrypted at rest using Microsoft-mana
 >
 > Currently, object detection trained models continue to be encrypted using Microsoft-managed keys. The training data of those models is stored in Dataverse, using customer managed keys (CMK) if enabled.
 
-Applying an encryption key is a gesture performed by Power Platform admins, and is invisible to users. Users can create, save, use, and include in solutions AI Builder models in exactly the same way as if the data was encrypted by Microsoft-managed keys.
+Applying an encryption key is a gesture performed by Power Platform admins, and is invisible to users. Users can create, save, use, and include in solutions AI Builder models in exactly the same way as if Microsoft-managed keys encrypted the data.
 
 Learn more about the customer-managed key and get step-by-step instructions to enable customer-managed keys in [Manage your customer-managed encryption key](/power-platform/admin/customer-managed-key). This enables you to use the single enterprise policy created on the environment to secure AI Builder models.
 

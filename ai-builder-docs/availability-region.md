@@ -12,10 +12,9 @@ contributors:
   - JoeFernandezMS
   - jekom1
   - v-aangie
-  - antode
 ms.topic: article
-ms.date: 08/07/2025
-ms.author: antode
+ms.date: 12/11/2025
+ms.author: antrod
 ms.reviewer: angieandrews
 ---
 
@@ -33,15 +32,7 @@ The following tables show which AI Builder features are available in each region
 
 ### Prompts
 
-In the following table, (GA) means that the feature is available and uses an Azure OpenAI service in another region. Learn more in [enabling data movement cross-regions](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions).
-
-| Feature                              | Asia          | Australia      | Canada         | Europe         | France         | Germany        | India         | Japan          | Norway         | Singapore      | South Africa   | South America  | Korea          | Singapore      | Sweden         | Switzerland    |United Arab Emirates|United Kingdom| United States  |
-|--------------------------------------|---------------|----------------|----------------|----------------|----------------|----------------|---------------|----------------|----------------|----------------|----------------|----------------|----------------|----------------|----------------|----------------|--------------------|--------------|----------------|
-| GPT-4.1 mini                         | (GA)          | GA             | (GA)           | (GA)           | (GA)           | (GA)           | GA            | (GA)           | (GA)           | GA             | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)               | GA           | GA             |
-| GPT-4.1                             | (GA)          | GA             | (GA)           | (GA)           | (GA)           | (GA)            | GA            | (GA)           | (GA)           | GA            | (GA)         | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)               | GA           | GA             |
-| o3                                   | (GA)          | (GA)             | (GA)           | (GA)           | (GA)           | (GA)           | (GA)          | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)           | (GA)               |(GA)           | GA            |
-
-**GPT-5 chat** (preview) and **GPT-5 reasoning** (preview) are available only in **US** [early release cycle environments](/power-platform/admin/early-release) (where the **Get new feature early** toggle is checked in the **New environment** pane when you create a new environment).
+You can find prompts availability in [Model availability by region](/microsoft-copilot-studio/prompt-model-settings#model-availability-by-region).
 
 ### Custom models
 
@@ -64,6 +55,7 @@ In the following table, (GA) means that the feature is available and uses an Azu
 | Identity document reader | GA      | GA        | GA      | GA      | GA      | GA      | GA      | GA      | GA      | GA      | GA        | GA           | GA            | GA      | GA          | GA                   | GA             | GA            |
 | Image description        | Preview | Preview   | Preview | Preview | Preview | Preview | Preview | Preview | Preview | Preview | Preview   | Preview      | Preview       | Preview | Preview     | Preview              | Preview        | Preview       |
 | Contract processing        | Preview | Preview   | Preview | Preview | Preview | Preview | Preview | Preview | Preview | Preview | Preview   | Preview      | Preview       | Preview | Preview     | Preview              | Preview        | Preview       |
+| Health insurance card processing        | Preview | Preview   | Preview | Preview | Preview | Preview | Preview | Preview | Preview | Preview | Preview   | Preview      | Preview       | Preview | Preview     | Preview              | Preview        | Preview       |
 | Invoice processing       | GA      | GA        | GA      | GA      | GA      | GA      | GA      | GA      | GA      | GA      | GA        | GA           | GA            | GA      | GA          | GA                   | GA             | GA            |
 | Key phrase extraction    | GA      | GA        | GA      | GA      | GA      | GA      | GA      | GA      | GA      | GA      | GA        | GA           | GA            | GA      | GA          | GA                   | GA             | GA            |
 | Language detection       | GA      | GA        | GA      | GA      | GA      | GA      | GA      | GA      | GA      | GA      | GA        | GA           | GA            | GA      | GA          | GA                   | GA             | GA            |
@@ -72,7 +64,6 @@ In the following table, (GA) means that the feature is available and uses an Azu
 | Text generation          | -       | -         | -       | -       | -       | -       | -       | -       | -       | -       | -         | -            | -             | -       | -           | -                    | -              | Preview       |
 | Text recognition         | GA      | GA        | GA      | GA      | GA      | GA      | GA      | GA      | GA      | GA      | GA        | GA           | GA            | GA      | GA          | GA                   | GA             | GA            |
 | Text translation         | -       | -         | -       | GA      | -       | -       | -       | -       | -       | -       | -         | -            | -             | -       | -           | -                    | -              | GA            |
-
 
 ## US Government
 
@@ -86,14 +77,7 @@ AI Builder is available in US Government environments with the features listed i
 
 ### Prompts (US Government)
 
-| Feature                                 | Government Community Cloud (GCC) | Government Community Cloud – High (GCC High) | Department of Defense (DoD) |
-|:----------------------------------------|:--------------------------------:|:--------------------------------------------:|:---------------------------:|
-| GPT-4o mini                             |               GA                 |                     GA                       |              -              |
-| GPT-4o                                  |               GA                 |                     GA                       |              -              |
-| GPT-4o using image or document as input |               -                  |                     -                        |              -              |
-| o3                                      |               -                  |                     -                        |              -              |
-| GPT-4.1 mini                            |               -                  |                     -                        |              -              |
-| GPT-4.1                                 |               -                  |                     -                        |              -              |
+You can find prompts availability in [Model availability by region](/microsoft-copilot-studio/prompt-model-settings#model-availability-by-region).
 
 ### Custom models (US Government)
 
@@ -139,4 +123,5 @@ Learn about other limitations of Power Platform US Government in the following a
 ## Related information
 
 [AI model types](model-types.md)
+
 

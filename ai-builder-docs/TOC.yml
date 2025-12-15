@@ -25,34 +25,34 @@
     displayName: forums; support; help
 - name: Prompts
   items:
-  - name: Overview
-    href: prompts-overview.md
+  - name: Prompts overview
+    href: /microsoft-copilot-studio/prompts-overview
   - name: Create a prompt
-    href: create-a-custom-prompt.md
-  - name: Get started with Copilot (preview)
-    href: draft-with-copilot.md
-  - name: Get started with prompt library
-    href: prompt-library.md    
+    href: /microsoft-copilot-studio/create-custom-prompt
+  - name: Create prompts with Copilot (preview)
+    href: /microsoft-copilot-studio/draft-with-copilot
+  - name: Get started with the prompt library
+    href: /microsoft-copilot-studio/prompt-library
   - name: Add inputs to your prompt
-    href: add-inputs-prompt.md
+    href: /microsoft-copilot-studio/add-inputs-prompt
   - name: Add knowledge to your prompt
-    href: use-your-own-prompt-data.md    
+    href: /microsoft-copilot-studio/use-your-own-prompt-data
   - name: Change the output of your prompt
     items:
-    - name: Process responses with JSON output
-      href: process-responses-json-output.md
-    - name: Generate 'Document (preview)' output for a prompt (preview)
-      href: generate-document-output-prompt.md
+    - name: JSON output
+      href: /microsoft-copilot-studio/process-responses-json-output
+    - name: Document output (preview)
+      href: /microsoft-copilot-studio/generate-document-output-prompt
   - name: Share your prompt
-    href: share-your-prompt.md 
+    href: /microsoft-copilot-studio/share-your-prompt
   - name: Distribute your prompt using a solution
-    href: distribute-prompt.md
+    href: /microsoft-copilot-studio/distribute-prompt
   - name: Change the model version and settings
-    href: prompt-modelsettings.md
+    href: /microsoft-copilot-studio/prompt-model-settings
   - name: Bring your own model for your prompts
-    href: byom-for-your-prompts.md
+    href: /microsoft-copilot-studio/bring-your-own-model-prompts
   - name: Batch testing for prompts (preview)
-    href: batch-testing-prompts.md
+    href: /microsoft-copilot-studio/batch-testing-prompts
   - name: Use your prompt
     items:
     - name: Use your prompt in Copilot Studio
@@ -64,11 +64,11 @@
   - name: Prebuilt prompts
     items:
     - name: Get started with prebuilt prompts
-      href: prebuilt-prompts.md  
+      href: prebuilt-prompts.md
     - name: Use a prebuilt prompt in a Dataverse low-code plug-in in Power Apps (preview)
       href: prebuilt-prompts-in-dataverse-plug-in-powerapps.md
   - name: Human review for automation with a prompt
-    href: azure-openai-human-review.md
+    href: /microsoft-copilot-studio/azure-openai-human-review
 - name: AI models
   items:
   - name: AI models and business scenarios
@@ -90,6 +90,8 @@
         href: prebuilt-id-reader.md
       - name: Business card reader
         href: prebuilt-business-card.md
+      - name: Health insurance card processing (preview)
+        href: prebuilt-health-insurance-card.md
       - name: Contract processing (preview)
         href: prebuilt-contract-processing.md
     - name: Text
@@ -212,12 +214,6 @@
         href: entity-extraction-train.md
       - name: Use sample data
         href: entity-extraction-sample-data.md       
-    - name: Azure machine learning models
-      items:
-      - name: Create and register your own model
-        href: byo-model.md
-      - name: Package your own model using solutions
-        href: byom-alm.md   
   - name: Build custom AI models
     items:
     - name: Build a model
@@ -268,6 +264,8 @@
         href: id-reader.md  
       - name: Business card reader model
         href: flow-business-card-reader.md
+      - name: Health insurance card processing model (preview)
+        href: use-prebuilt-health-insurance-card-power-automate.md  
       - name: Contract processing model (preview)
         href: use-prebuilt-contract-processing-power-automate.md
     - name: Text
@@ -312,6 +310,8 @@
         href: business-card-reader-component-in-powerapps.md
       - name: Use in a model-driven app
         href: business-card-reader-component-model-driven.md
+    - name: Health insurance card processing model (preview)
+      href: use-prebuilt-health-insurance-card-power-apps.md
     - name: Contract processing model (preview)
       href: use-prebuilt-contract-processing-power-apps.md
   - name: Images
@@ -346,12 +346,12 @@
     href: availability-region.md
 - name: Licensing and monitoring
   items:
-  - name: Licensing and credit management
-    href: credit-management.md
-  - name: Licensing and message management
+  - name: Licensing and Copilot Credits
     href: message-management.md
-  - name: AI Builder trial
-    href: ai-builder-trials.md
+  - name: Licensing and AI Builder credits
+    href: credit-management.md
+  - name: End of AI Builder credits
+    href: endofaibcredits.md  
   - name: Prompt tokens
     href: licensing-prompt-tokens.md
   - name: Consumption report
@@ -368,8 +368,8 @@
   items:
   - name: Overview
     href: responsible-ai-overview.md
-  - name: FAQ for prompts and text generation capabilities
-    href: faqs-text-generation.md
+  - name: FAQ for prompts
+    href: /microsoft-copilot-studio/faq-prompts
 
 
 

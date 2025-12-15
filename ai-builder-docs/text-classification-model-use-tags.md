@@ -4,8 +4,8 @@ description: Provides information about how to use category classification model
 author: v-aangie 
 ms.topic: how-to
 ms.custom: 
-ms.date: 01/28/2025
-ms.author: angieandrews
+ms.date: 09/08/2025
+ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
