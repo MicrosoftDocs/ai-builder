@@ -1,0 +1,103 @@
+---
+title: Prompts performance and execution
+description: Get best practices to minimize performance and execution problems with prompts.
+author: CedrickBellarosa
+contributors:
+  - v-aangie
+ms.topic: article
+ms.custom: 
+ms.date: 12/18/2025
+ms.author: CedrickBellarosa
+ms.reviewer: angieandrews
+---
+
+# Prompts performance and execution
+
+Before proceeding, it is essential to understand how prompts operate. The system first retrieves any RAG based data, such as Dataverse tables associated with the prompt. It then analyzes input documents. Finally, the collected information, combined with the instructions, is processed by the LLM.
+The larger the combined input, the longer the response time, with document data being the most significant contributor.
+
+We need to consider these points in the context of the prompt constraints:
+-	Prompt execution is limited to 100 seconds.
+-	Each model has a maximum allowable size for the combined input, including instructions, data, and the model’s response.
+-	Although we regularly increase GPU capacity, resources remain finite and are allocated per region and per model. See [Model availability by region](/microsoft-copilot-studio/prompt-model-settings#model-availability-by-region).
+
+As a result, you may encounter issues such as execution timeouts, token‑window limits being reached, inconsistent response times, or throttling. The best practices below will help you minimize these problems.
+
+## Choose the most efficient model for the task
+
+More advanced models generally take longer to respond. Always start with the Basic model for your scenario, then consider the Standard model, and reserve the Premium model only for tasks that truly require it.
+
+Example: Using a Premium model for a simple sentiment analysis task is unnecessary.
+
+## Optimize the length of the model output
+
+The length of the output is the largest single factor that affects both response time and cost.
+
+### Constrain the model
+
+When generating summaries or similar outputs, specify limits such as word or sentence counts. Without constraints, model responses can vary in length, complexity and time.
+
+Example: "Summarize in 50 words."
+
+### Optimize JSON structure
+
+When using JSON outputs, reduce complexity by simplifying the structure and minimizing the number of keys. 
+
+Example: These two outputs contain the same information, but the second one is significantly more compact and efficient.
+| {                                           | {                   |
+|  "extracted data from document": {          |   "policy": "value" |
+|   "Contoso internal policy number": "value" |  }                  |
+|  }                                          |                     |
+| }                                           |                     |
+
+### Consider only necessary information
+
+Avoid asking the model to produce information that will not be used. Any unnecessary content increases cost and latency.
+
+Example: Only request the model to provide a "reason" if it is actually needed for human validation or auditability.
+
+## Optimize the size of the model input
+
+The size of the input has moderate impact on response time and cost, especially when processing documents or images.
+
+### Avoid redundancy
+
+Repeating similar instructions increases costs and may confuse the model.
+
+Example: Avoid providing multiple instructions that convey the same requirement.
+"Convert the numbers in US format ... While analyzing the content, always use US norms"
+
+### Be concise
+
+Models understand concise and direct instructions. Brief prompts are not only easier to process but often deliver more precise results.
+
+Example: The second prompt is more efficient.
+| Generate a summary from this [Content].                         | Summarize [content] as bullet points with professional tone. |
+| The summary must be professional and formatted as bullet point. |                                                              |
+
+### Reduce input size
+Inputs often contain content that is irrelevant for the analysis (e.g., HTML tags, repeated email signatures, boilerplate text). Pre‑process the content when possible: extract text, clean formatting, or summarize large sections before sending them to a more complex prompt.
+
+Example: Use the "HTML to Text node" in a workflow when analyzing an email with a prompt. 
+
+### Process documents only when required
+
+Document processing is expensive. If the same document is used repeatedly, extract its content once and reuse it instead of reprocessing it each time.
+
+Example: In this example, [Guideline Document] should not be processed at each run but rather provided to the prompt as text.
+"Consider this [Guideline Document] to extract information from this [Document to process]"
+
+### Process long documents in sections
+
+Long documents may cause timeouts or exceed token limits. When possible, process content incrementally, page by page, or by truncating unnecessary pages beforehand. Same apply to other content types like emails by providing only the most recent thread.
+
+Example: Use the "AI Builder Recognize text in image or document" to get page content and process each page result with an apply to each.
+
+### Use filters when applying Retrieval Augmented Generation (RAG)
+
+When adding business context from sources such as Dataverse tables, retrieve only the necessary fields and apply filters to reduce the data set.
+
+Example: Filter products by the "Computer devices" family and retrieve only the "Name" field before matching product names in an email.
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
