@@ -27,6 +27,8 @@
   items:
   - name: Prompts overview
     href: /microsoft-copilot-studio/prompts-overview
+  - name: Prompts performance and execution
+    href: /microsoft-copilot-studio/prompts-performance-execution  
   - name: Create a prompt
     href: /microsoft-copilot-studio/create-custom-prompt
   - name: Create prompts with Copilot (preview)
