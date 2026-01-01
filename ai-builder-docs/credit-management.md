@@ -44,7 +44,7 @@ First, you need to be entitled to some AI Builder capacity. Entitlement can happ
 
 - Some Microsoft products like Power Apps per app plan, Power Apps per user plan, and Power Automate Premium (previously Power Automate per user with attended RPA) plan include AI Builder capacity. Your environment admin can check entitlement in Power Platform admin center by following the instructions in [Capacity add-ons](/power-platform/admin/capacity-add-on). These seeded AI Builder credits will be removed on 11/1/2026. When this number isn't enough, you need to complete it with one or more AI Builder capacity add-ons.
 
-- The main source of AI Builder credits is the AI Builder credit add-on. If you are an existing customer, ou can renew or get additional ones in the Microsoft 365 admin center up to November 1, 2026. New customers can't purchase AI Builder capacity add-on any more, and must purchase Copilot Credits. See [Licensing and Copilot Credits](message-management.md)
+- The main source of AI Builder credits is the AI Builder credit add-on. If you are an existing customer, you can renew or get additional ones in the Microsoft 365 admin center up to November 1, 2026. New customers can't purchase AI Builder capacity add-on any more, and must purchase Copilot Credits. See [Licensing and Copilot Credits](message-management.md)
 
 ### Number of AI Builder credits by license
 
