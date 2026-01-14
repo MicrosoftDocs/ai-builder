@@ -4,7 +4,7 @@ description: Learn how to use a prebuilt category classification AI Builder mode
 author: norliu
 ms.topic: how-to
 ms.custom: 
-ms.date: 09/08/2025
+ms.date: 01/14/2026
 ms.author: norliu
 ms.reviewer: angieandrews
 ---

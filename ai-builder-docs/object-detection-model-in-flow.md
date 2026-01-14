@@ -4,7 +4,7 @@ description: Learn how to use an object detection model in Power Automate
 author: v-aangie
 ms.topic: how-to
 ms.custom: 
-ms.date: 09/08/2025
+ms.date: 01/14/2026
 ms.author: angieandrews
 ms.reviewer: angieandrews
 ---

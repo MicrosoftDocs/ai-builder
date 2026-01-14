@@ -4,7 +4,7 @@ description: Learn about the contract processing prebuilt model in AI Builder.
 author: phil-cmd
 ms.topic: concept-article
 ms.custom: 
-ms.date: 06/27/2025
+ms.date: 01/14/2026
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---

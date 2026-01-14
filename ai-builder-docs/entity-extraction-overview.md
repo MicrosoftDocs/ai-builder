@@ -7,8 +7,8 @@ contributors:
   - phil-cmd
   - v-aangie
 ms.topic: overview
-ms.date: 06/23/2025
-ms.author: ashbhati
+ms.date: 01/14/2026
+ms.author: plarrue
 ms.reviewer: angieandrews
 ---
 
