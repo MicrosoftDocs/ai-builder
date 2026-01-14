@@ -3,7 +3,7 @@ title: Document processing model overview - AI Builder
 description: Learn how to build and use document processing models in AI Builder.
 author: JoeFernandezMS
 ms.topic: overview
-ms.date: 06/24/2025
+ms.date: 01/14/2026
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---

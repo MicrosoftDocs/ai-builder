@@ -4,7 +4,7 @@ description: Learn how to use the AI Builder health insurance card processing pr
 author: phil-cmd
 ms.topic: concept-article
 ms.custom: 
-ms.date: 09/05/2025
+ms.date: 01/14/2026
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---

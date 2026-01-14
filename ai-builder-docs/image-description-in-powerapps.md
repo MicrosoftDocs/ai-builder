@@ -11,7 +11,7 @@ ms.topic: how-to
 ms.collection: 
 - get-started
 - bap-ai-copilot
-ms.date: 09/08/2025
+ms.date: 01/14/2026
 ms.update-cycle: 180-days
 ms.custom:
   - bap-template

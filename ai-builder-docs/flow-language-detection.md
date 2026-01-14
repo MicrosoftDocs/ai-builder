@@ -4,7 +4,7 @@ description: Learn how to use the AI Builder language detection prebuilt model i
 author: JoefernandezMS
 ms.topic: how-to
 ms.custom: 
-ms.date: 09/08/2025
+ms.date: 01/14/2026
 ms.author: jofernan
 ms.reviewer: angieandrews
 ---

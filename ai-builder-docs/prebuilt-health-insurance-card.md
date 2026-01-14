@@ -4,7 +4,7 @@ description: Learn about the health insurance card processing prebuilt model in 
 author: phil-cmd
 ms.topic: concept-article
 ms.custom: 
-ms.date: 09/05/2025
+ms.date: 01/14/2026
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---
