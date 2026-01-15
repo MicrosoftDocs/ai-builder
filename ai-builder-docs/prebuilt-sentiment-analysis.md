@@ -4,7 +4,7 @@ description: Describes the prebuilt sentiment analysis AI model in AI Builder.
 author: alanabrito
 ms.topic: article
 ms.custom: 
-ms.date: 09/03/2025
+ms.date: 01/14/2026
 ms.author: plarrue
 ms.reviewer: angieandrews
 ---

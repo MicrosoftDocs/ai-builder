@@ -10,7 +10,7 @@ ms.contributor:
 ms.topic: article
 ms.collection: 
     - bap-ai-copilot
-ms.date: 11/1/2025
+ms.date: 01/14/2026
 ms.update-cycle: 180-days
 ms.author: antode
 ms.reviewer: angieandrews

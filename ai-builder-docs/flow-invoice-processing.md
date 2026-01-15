@@ -4,7 +4,7 @@ description: Learn how to use the invoice processing prebuilt model in Power Aut
 author: JoeFernandezMS
 ms.topic: how-to
 ms.custom: 
-ms.date: 06/23/2025
+ms.date: 01/14/2026
 ms.author: jofernan
 ms.reviewer: angieandrews
 ---

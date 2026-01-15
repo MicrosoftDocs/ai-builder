@@ -4,7 +4,7 @@ description: Describes the prebuilt text translation AI model in AI Builder.
 author: alanabrito
 ms.topic: article
 ms.custom: 
-ms.date: 09/08/2025
+ms.date: 01/14/2026
 ms.author: alanab
 ms.reviewer: angieandrews
 ---
