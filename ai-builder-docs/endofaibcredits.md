@@ -8,7 +8,7 @@ contributors:
 ms.topic: article
 ms.collection: 
     - bap-ai-copilot
-ms.date: 01/14/2026
+ms.date: 01/28/2026
 ms.update-cycle: 180-days
 ms.author: antode
 ms.reviewer: angieandrews
@@ -18,7 +18,8 @@ ms.reviewer: angieandrews
 
 In October 2025, Microsoft announced a progressive end of AI Builder credits. This article explains the change.
 
-The progressive end of AI Builder credits doesn't impact AI Builder features: they'll continue to be supported in all contexts, using Copilot Credits.  
+The progressive end of AI Builder credits doesn't impact AI Builder features; they continue to be supported in all contexts, using Copilot Credits.
+
 AI Builder credits were available as capacity packs (AI Builder capacity add-ons) which provided 1 million AI Builder credits, and as seeded capacity in Power Platform licenses, like Power Apps premium licenses, or Power Automate premium licenses.
 
 Both AI Builder capacity add-ons and seeded credits in premium licenses are impacted by this end of AI Builder credits, with different calendars.
@@ -45,10 +46,24 @@ Existing 'add-ons' customers will retain access to their AI Builder credits comi
 
 When using AI Builder features in Power Apps or Power Automate context, these AI Builder credits will be consumed first. If AI Builder credits are exhausted or unavailable, the system will attempt to use Copilot Studio Credits. If no Copilot Credits are available, usage will be blocked.
 
+### What happens if I have both AI Builder credits and Copilot Credits available in my environment?
+
+In this scenario, AI Builder features in Power Apps or Power Automate context first try to consume AI Builder credits. Then, if absent or exhausted, it tries to consume Copilot Credits. If both currencies are unavailable or exhausted, AI Builder features will fail.
+
+Consumption is reset every month. This means if both currencies are assigned to your environment, AI Builder features will restart consuming AI Builder credits at the beginning of the next month.
+
+### There's an overage in AI Builder credit consumption, and no fallback to Copilot Credit. What's going on?
+
+AI Builder credit consumption is computed regularly. Ideally, this is done on a daily basis, but it can be delayed up to five (5) or more days.
+
+The decision to fall back to Copilot Credits consumption, or block a feature, is based on this computation. In case this computation doesn't happen for multiple days, the last computation still holds, indicating that there's no overage, and AI Builder features will continue to consume AI Builder credits. This can lead to important overage. Such overage only affects the current environment, and is never billed.
+Once computation happens, the next AI Builder runs are blocked or licensed based on it.
+
 ### Will there be automatic conversion or migration of AI Builder credits to Copilot Studio Credits?
 
 There's no automatic conversion of AI Builder credits to Copilot Studio Credits. Instead, a dual-mode licensing model will apply: environments first consume AI Builder credits, then Copilot Studio Credits, if needed.
-In order to replace the AI Builder credits which will progressively end, customers are invited to purchase Copilot Credits.
+
+In order to replace the AI Builder credits that will progressively end, customers are invited to purchase Copilot Credits.
 
 ### What happens to AI Builder credits currently included in licenses such as Power Apps Premium, Power Automate Premium, and Dynamics 365 Finance, and others?
 
