@@ -32,7 +32,7 @@
   - name: Create a prompt
     href: /microsoft-copilot-studio/create-custom-prompt
   - name: Prompt assistant
-    href: /microsoft-copilot-studio/draft-with-copilot
+    href: /microsoft-copilot-studio/prompt-assistant
   - name: Get started with the prompt library
     href: /microsoft-copilot-studio/prompt-library
   - name: Add inputs to your prompt
