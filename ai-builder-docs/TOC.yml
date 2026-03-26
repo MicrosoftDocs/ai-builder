@@ -31,8 +31,8 @@
     href: /microsoft-copilot-studio/prompts-performance-execution  
   - name: Create a prompt
     href: /microsoft-copilot-studio/create-custom-prompt
-  - name: Create prompts with Copilot (preview)
-    href: /microsoft-copilot-studio/draft-with-copilot
+  - name: Prompt assistant
+    href: /microsoft-copilot-studio/prompt-assistant
   - name: Get started with the prompt library
     href: /microsoft-copilot-studio/prompt-library
   - name: Add inputs to your prompt
@@ -372,6 +372,7 @@
     href: responsible-ai-overview.md
   - name: FAQ for prompts
     href: /microsoft-copilot-studio/faq-prompts
+    
 
 
 
