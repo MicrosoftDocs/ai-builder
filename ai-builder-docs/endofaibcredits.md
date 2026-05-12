@@ -3,6 +3,7 @@ title: End of AI Builder credits
 description: Learn about the end of AI Builder credits 
 author: Antoine2F
 contributors:
+  - mainguy70
   - Antoine2F
   - v-aangie
 ms.topic: article
