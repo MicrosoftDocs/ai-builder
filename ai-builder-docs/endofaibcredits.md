@@ -3,12 +3,13 @@ title: End of AI Builder credits
 description: Learn about the end of AI Builder credits 
 author: Antoine2F
 contributors:
+  - mainguy70
   - Antoine2F
   - v-aangie
 ms.topic: article
 ms.collection: 
     - bap-ai-copilot
-ms.date: 01/28/2026
+ms.date: 05/12/2026
 ms.update-cycle: 180-days
 ms.author: antode
 ms.reviewer: angieandrews
@@ -42,7 +43,9 @@ Use the following FAQ to learn more about Copilot Credits based licensing for AI
 
 ### How will this transition affect our existing contracts and current license entitlements?
 
-Existing 'add-ons' customers will retain access to their AI Builder credits coming from AI Builder add-ons until their AI Builder add-ons contracts expire. Existing 'seeded' customers will retain access to their AI Builder credits coming from seeded premium licenses up to November 1, 2026.
+Microsoft will honor the terms of AI Builder (AIB) entitlements for contracts that started prior to November 1, 2025, including both AI Builder add-ons and seeded credits. This means customers will retain the AIB entitlement commitments defined in their agreement for the full duration of their contract.
+
+Existing *add-ons* customers will retain access to their AI Builder credits from AI Builder add-ons until their AI Builder add-on contracts expire. Existing *seeded* customers will retain access to their AI Builder credits from seeded premium licenses through November 1, 2026, unless covered under a contract that started prior to November 1, 2025. In this case, seeded entitlements are honored through the contract term.
 
 When using AI Builder features in Power Apps or Power Automate context, these AI Builder credits will be consumed first. If AI Builder credits are exhausted or unavailable, the system will attempt to use Copilot Studio Credits. If no Copilot Credits are available, usage will be blocked.
 
