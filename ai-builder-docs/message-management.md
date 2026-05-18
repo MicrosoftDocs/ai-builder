@@ -1,9 +1,9 @@
 ---
 title: Licensing and Copilot Credits
 description: Learn about licensing and Copilot Credits in AI tools in Microsoft Copilot Studio
-author: mainguy
+author: CATDAB
 contributors:
-  - mainguy
+  - CATDAB
   - Antoine2F
   - v-aangie
 ms.contributor:
@@ -11,9 +11,9 @@ ms.contributor:
 ms.topic: article
 ms.collection: 
     - bap-ai-copilot
-ms.date: 05/14/2026
+ms.date: 05/18/2026
 ms.update-cycle: 180-days
-ms.author: mainguy
+ms.author: dbellingeri
 ms.reviewer: angieandrews
 ---
 
@@ -71,7 +71,7 @@ The cost per unit is published in [Billing rates and management](/microsoft-copi
 The rate of each AI tools/AI Builder capability is detailed in [AI Builder capability rate table](administer-licensing.md#aibuildercapabilityrate-table).
 
 > [!NOTE]
-> When using the *bring your own model* functionality within a text and generative AI prompt tool, Copilot Studio considers it an agent action to invoke the text and generative AI prompt tool. No extra Copilot Credits are charged for the processing the Text and Generative AI Tool does, since the processing is being done by a *bring your own model* hosted in Microsoft Foundry. Cost for processing is dictated by the tokens consumed and cost per token within Foundry for the *bring your own model* selected in the text and generative AI prompt tool.
+> When using the *bring your own model* functionality within a text and generative AI tool, Copilot Studio considers it an agent action to invoke the text and generative AI tool. No extra Copilot Credits are charged for the processing the Text and Generative AI Tool does, since the processing is being done by a *bring your own model* hosted in Microsoft Foundry. Cost for processing is dictated by the tokens consumed and cost per token within Foundry for the *bring your own model* selected in the text and generative AI tool.
 
 
 ## Copilot Credit monitoring
