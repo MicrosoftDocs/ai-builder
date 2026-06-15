@@ -11,7 +11,7 @@ ms.contributor:
 ms.topic: article
 ms.collection: 
     - bap-ai-copilot
-ms.date: 05/18/2026
+ms.date: 06/16/2026
 ms.update-cycle: 180-days
 ms.author: dbellingeri
 ms.reviewer: angieandrews
@@ -20,6 +20,9 @@ ms.reviewer: angieandrews
 # Licensing and Copilot Credits
 
 This article focuses on the management of Copilot Credits to use AI tools/AI Builder capabilities in Microsoft Copilot Studio, Power Automate, and Power Apps.
+
+> [!IMPORTANT]
+> You can find the most complete and up-to-date Copilot Credit licensing and billing information in [Copilot Credits Guide](https://go.microsoft.com/fwlink/?linkid=2368800).
 
 Copilot Credits are mandatory to use AI tools/AI Builder capabilities in Copilot Studio agents and agent flows. In Power Automate and Power Apps, Copilot Credits can be used with AI Builder credits, or as the only licensing mechanism.
 
