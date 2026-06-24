@@ -70,34 +70,37 @@ Agents and agent flows only consume Copilot Credits. AI Builder features in apps
 
 As consumption is reset each month, the amount of Copilot Credits or AI Builder credits to purchase and/or allocate should only be enough to cover the maximum consumption you expect in a single month. Unused Copilot Credits or AI Builder credits don't roll over to the next month.  
 
-## AI Builder Capability Rate table
+## AI Builder Capability Rate Table
 
 | **AI Builder/ AI tool capability**                               | **Unit**       | **Copilot Studio feature**                | **Copilot Credit rate** | **Copilot Studio $ cost*** | **AI Builder credit rate** | **AI Builder $ cost** ** |
 |------------------------------------------------------|---------------|-------------------------------------------|--------------------------|-------------------------|-----------------------------|--------------------------|
-| Prompt (basic LLM model)                             | 1k tokens     | Text and generative AI tools (basic)     | 0.1                      | 0.001                   | 1.2<sup>2</sup>            | 0.0006                  |
-| Prompt (standard LLM model)                          | 1k tokens     | Text and generative AI tools (standard)  | 1.5                      | 0.015                   | 24<sup>2</sup>             | 0.012                   |
-| Prompt (premium LLM model)                           | 1k tokens     | Text and generative AI tools (premium)   | 10                       | 0.1                     | 182<sup>2</sup>            | 0.091                   |
-| Contract processing, health insurance card processing, image description<sup>1</sup> | 1 image       | Content processing tools                  | 8                        | 0.08                    | 32                          | 0.016                   |
-| Object detection                                     | 1 image       | Content processing tools                  | 8                        | 0.08                    | 8                           | 0.004                   |
-| Custom document processing                           | 1 page        | Content processing tools                  | 8                        | 0.08                    | 100                         | 0.05                    |
-| Receipt, invoice, identity document analysis         | 1 page        | Content processing tools                  | 8                        | 0.08                    | 32                          | 0.016                   |
-| Text recognition (OCR)                               | 1 page        | Text and generative AI tools (basic)      | 0.1                      | 0.001                   | 3                           | 0.0015                  |
-| Simple text analysis: sentiment, language detection, key phrase extraction | 1k chars      | Text and generative AI tools (basic)      | 0.1                      | 0.001                   | 2                           | 0.001                   |
-| Advanced text analysis: category classification, entity extraction | 1k chars      | Text and generative AI tools (standard)   | 1.5                      | 0.015                   | 20                          | 0.01                    |
-| Text translation                                     | 1k chars      | Text and generative AI tools (standard)   | 1.5                      | 0.015                   | 22                          | 0.011                   |
+| Prompt (basic LLM model)                             | 1k tokens     | Text and generative AI tools (basic)     | 0.1                      | 0.001                   | 1.2<sup>2</sup>            | 0.0006                  |
+| Prompt (standard LLM model)                          | 1k tokens     | Text and generative AI tools (standard)  | 1.5                      | 0.015                   | 24<sup>2</sup>             | 0.012                   |
+| Prompt (premium LLM model)                           | 1k tokens     | Text and generative AI tools (premium)   | 10                       | 0.1                     | 182<sup>2</sup>            | 0.091                   |
+| Contract processing, health insurance card processing, image description<sup>1</sup> | 1 image       | Content processing tools                  | 8                        | 0.08                    | 32                          | 0.016                   |
+| Object detection                                     | 1 image       | Content processing tools                  | 8                        | 0.08                    | 8                           | 0.004                   |
+| Custom document processing                           | 1 page        | Content processing tools                  | 8                        | 0.08                    | 100                         | 0.05                    |
+| Receipt, invoice, identity document analysis         | 1 page        | Content processing tools                  | 8                        | 0.08                    | 32                          | 0.016                   |
+| Text recognition (OCR)                               | 1 page        | Text and generative AI tools (basic)      | 0.1                      | 0.001                   | 3                           | 0.0015                  |
+| Simple text analysis: sentiment, language detection, key phrase extraction | 1k chars      | Text and generative AI tools (basic)      | 0.1                      | 0.001                   | 2                           | 0.001                   |
+| Advanced text analysis: category classification, entity extraction | 1k chars      | Text and generative AI tools (standard)   | 1.5                      | 0.015                   | 20                          | 0.01                    |
+| Text translation                                     | 1k chars      | Text and generative AI tools (standard)   | 1.5                      | 0.015                   | 22                          | 0.011                   |
 | Business card reader, prediction                     | n/a           | n/a                                       | free                     | n/a                     | free                        | n/a                     |
 
 \* Based on pay-as-you-go billing, 1 Copilot Credit = $0.01.  
 ** Based on yearly prepaid Tier 1 AI Builder add-on: Monthly capacity = 1 million AIBuilder credits, $500 per month.  
-<sup>1</sup> Free as long as in preview.
+<sup>1</sup> Free as long as in preview.\
 <sup>2</sup> Estimation per 1K tokens, based on average request where input represents 90% of consumed tokens, and output represents 10%.
-Here are exact rates:
 
-|AI Builder / AI tool capability                            | AI Builder credit per 1K tokens in input     | AI Builder credit per 1K tokens in output  | 
+## AI Builder LLM Prompt Rate Table
+
+| LLM Model Type<sup>3</sup>                   | Credits per 1K tokens in input               | Credits per 1K tokens in output            | 
 |----------------------------------------------|----------------------------------------------|--------------------------------------------|
-| Prompt (basic LLM model)                     |1                                             |3                                           |  
-| Prompt (standard LLM model)                  |20                                            |60                                          |
-| Prompt (premium LLM model)                   |140                                           |560                                         |
+| Basic                                        |1                                             |3                                           |  
+| Standard                                     |20                                            |60                                          |
+| Premium                                      |140                                           |560                                         |
+
+<sup>3</sup> Review AI Builder / Copilot [Model Types](https://learn.microsoft.com/en-us/microsoft-copilot-studio/prompt-model-settings#overview) to determine exact costs for each available model.
 
 ## Learn more
 
