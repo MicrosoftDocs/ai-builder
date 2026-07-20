@@ -23,6 +23,14 @@ From the **Classify and Extract** menu in your SharePoint library, you can apply
 Once an AI Builder model is applied to a library, every document added to the library is processed by the applied model. The results are displayed as new library columns.
 
 To learn about requirements and get step-by-step instructions on how to use this service, go to [Work with models](/microsoft-365/contentunderstanding/model-types-overview).
+> [!IMPORTANT]
+> Exporting and importing AI Builder
+> document processing models between environments—for example, migrating a trained
+> model to another environment through a Dataverse solution import/export—isn't a
+> supported scenario for the SharePoint/Syntex AI Builder integration.
+>
+> Some AI Builder document processing capabilities for SharePoint are being migrated into Copilot in SharePoint and is no longer under active
+> investment. For document metadata extraction, use [Autofill](/microsoft-365/documentprocessing/autofill-overview) and [Copilot in SharePoint](/sharepoint/copilot-in-sharepoint-get-started)
 
 ## Training data storage
 
