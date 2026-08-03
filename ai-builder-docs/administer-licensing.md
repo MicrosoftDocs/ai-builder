@@ -11,7 +11,7 @@ ms.topic: concept-article
 ms.collection: 
 - get-started
 - bap-ai-copilot
-ms.date: 01/14/2026
+ms.date: 08/03/2026
 ms.update-cycle: 180-days
 ms.author: antode
 ms.reviewer: angieandrews
@@ -20,6 +20,7 @@ ms.reviewer: angieandrews
 # Overview of licensing
 
 In Copilot Studio, AI Builder features always consume *Copilot Credits*. Learn more in [Licensing and Copilot Credits](message-management.md).
+
 In Power Apps and Power Automate, AI Builder features consume either *AI Builder credits* ([Licensing and AI Builder credits](credit-management.md)), or *Copilot Credits*  ([Licensing and Copilot Credits](message-management.md)).
 
 AI Builder is licensed on a capacity basis. Building custom and testing models (including prompts) doesn't require AI Builder credits or Copilot Credits. Running them in agents, agent flows, apps, or flows consume these credits.
@@ -38,7 +39,7 @@ Qualifying prerequisites include having a Microsoft Power Platform environment w
 
 ## Entitlement, allocation, and consumption of Copilot Credits and AI Builder credits
 
-Learn more about Copilot Credits and AI Builder credits.
+Learn more about [Copilot Credits](message-management.md) and [AI Builder credits](credit-management.md).
 
 ### Entitlement
 
@@ -72,6 +73,8 @@ As consumption is reset each month, the amount of Copilot Credits or AI Builder 
 
 ## AI Builder Capability Rate table
 
+AI Builder actions, including the business card reader, are premium connectors. A Power Automate flow that uses any AI Builder action is a premium flow. It requires Power Automate premium licensing. Under pay-as-you-go, each run is billed through the cloud flow run meter. This billing is separate from, and in addition to, AI Builder credit consumption, which is, as an example, zero for business card reader.
+
 | **AI Builder/ AI tool capability**                               | **Unit**       | **Copilot Studio feature**                | **Copilot Credit rate** | **Copilot Studio $ cost*** | **AI Builder credit rate** | **AI Builder $ cost** ** |
 |------------------------------------------------------|---------------|-------------------------------------------|--------------------------|-------------------------|-----------------------------|--------------------------|
 | Prompt (basic LLM model)                             | 1k tokens     | Text and generative AI tools (basic)     | 0.1                      | 0.001                   | 1.2<sup>2</sup>            | 0.0006                  |
@@ -89,8 +92,9 @@ As consumption is reset each month, the amount of Copilot Credits or AI Builder 
 
 \* Based on pay-as-you-go billing, 1 Copilot Credit = $0.01.  
 ** Based on yearly prepaid Tier 1 AI Builder add-on: Monthly capacity = 1 million AIBuilder credits, $500 per month.  
-<sup>1</sup> Free as long as in preview.
+<sup>1</sup> Free as long as in preview.</br>
 <sup>2</sup> Estimation per 1K tokens, based on average request where input represents 90% of consumed tokens, and output represents 10%.
+
 Here are exact rates:
 
 |AI Builder / AI tool capability                            | AI Builder credit per 1K tokens in input     | AI Builder credit per 1K tokens in output  | 
@@ -101,9 +105,11 @@ Here are exact rates:
 
 ## Learn more
 
-- Learn more about AI Builder licensing with Copilot Credits in [Licensing and Copilot Credits](message-management.md).
-- Learn more about AI Builder licensing with AI Builder credits in [Licensing and AI Builder credits](credit-management.md).
-- Learn more on the end of AI Builder capacity add-ons and AI Builder seeded credits in [End of AI Builder credits](endofaibcredits.md).
+Learn more about Copilot Credits, AI Builder credits, end of AI Builder capacity add-ons, and seeded credits.
+
+- [Licensing and Copilot Credits](message-management.md)
+- [Licensing and AI Builder credits](credit-management.md)
+- [End of AI Builder credits](endofaibcredits.md)
 
 ## Related information
 
