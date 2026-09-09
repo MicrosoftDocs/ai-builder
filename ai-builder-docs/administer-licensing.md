@@ -1,7 +1,7 @@
 ---
 title: Overview of licensing
 description: Learn about licensing in AI Builder.
-author: phil-cmd
+author: Eyalz
 contributors:
   - phil-cmd
   - Antoine2F
@@ -11,9 +11,9 @@ ms.topic: concept-article
 ms.collection: 
 - get-started
 - bap-ai-copilot
-ms.date: 08/03/2026
+ms.date: 09/08/2026
 ms.update-cycle: 180-days
-ms.author: antode
+ms.author: eyalzach
 ms.reviewer: angieandrews
 ---
 
@@ -30,8 +30,9 @@ AI Builder is licensed on a capacity basis. Building custom and testing models (
 > On November 1, 2025, there are major changes to AI Builder licensing. Starting on this date, AI Builder features in Power Apps and Power Automate can consume both AI Builder credits, or Copilot Credits if there are no available AI Builder credits.
 >
 > - AI Builder capacity add-ons can only be purchased as a renewal or true-up by existing customers. New customers must purchase Copilot Credits to run AI Builder features.
-> - AI Builder credits seeded in Power Platform or Dynamics licenses will be removed in November 2026.
+> - **Existing customers**: Starting *November 1, 2026, no new or renewed Power Platform or Dynamics 365 licenses will receive seeded AI Builder credits*. Customers who purchased or renewed eligible licenses *before November 1, 2026* will continue to receive their seeded AI Builder credits *through the end of the applicable contract term*.
 > - AI Builder trials are discontinued.
+> - Learn more in [End of AI Builder credits](endofaibcredits.md).
 
 ## Prerequisites
 
