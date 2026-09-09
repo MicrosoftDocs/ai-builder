@@ -9,9 +9,9 @@ contributors:
 ms.topic: article
 ms.collection: 
     - bap-ai-copilot
-ms.date: 05/14/2026
+ms.date: 09/01/2026
 ms.update-cycle: 180-days
-ms.author: mainguy
+ms.author: rupate
 ms.reviewer: angieandrews
 ---
 
@@ -25,7 +25,7 @@ AI Builder credits were available as capacity packs (AI Builder capacity add-ons
 
 Both AI Builder capacity add-ons and seeded credits in premium licenses are impacted by this end of AI Builder credits, with different calendars.
 
-## Detailed  calendar
+## Detailed calendar
 
 |Date                         |Event                                        | Who is involved                                                           | How are they impacted |
 |----------------------------|----------------------------------------------|---------------------------------------------------------------------------|-------------------------- |
@@ -33,8 +33,8 @@ Both AI Builder capacity add-ons and seeded credits in premium licenses are impa
 |11/01/2025                  |(no change)                                   | Existing 'add-on' customers with active AI Builder capacity add-ons                | Existing 'add-on' customers can still use their AI Builder credits linked to their AI Builder capacity add-ons, but also renew them, and purchase new ones. |
 |11/01/2025                  |(no change)                                   | New 'seeded' customers = customer without any active seeded AI Builder credits     | New 'seeded' customers can purchase premium licenses, which provide AI Builder seeded credits that they can use to run AI Builder features.  |
 |11/01/2025                  |(no change)                                   | Existing 'seeded' customers = customers with active seeded AI Builder credits      | Existing 'seeded' customers can  use their seeded AI Builder credits linked to their premium licenses, renew or add new premium licenses. |
-|11/01/2026                  | End of Life of AI Builder capacity add-ons   | Existing add-on customers with active AI Builder capacity add-ons                  | Existing 'add-on' customers can still use their credits linked to their active AI Builder capacity add-ons, but can't renew them, or purchase new ones. |
-|11/01/2026                  | End of seeded AI Builder credits             | Existing 'seeded' customers with active seeded AI Builder credits                  | Existing 'seeded' customers won't receive seeded AI Builder credits anymore. These seeded AI Builder credits will be removed from their premium licenses. |
+|11/01/2026                  | End of Life of AI Builder capacity add-ons   | Existing 'add-on' customers with active AI Builder capacity add-ons                  | Existing 'add-on' customers can still use their credits linked to their active AI Builder capacity add-ons, but can't renew them, or purchase new ones. |
+|11/01/2026                  | End of Life of AI Builder seeded credits             | Existing 'seeded' customers with active seeded AI Builder credits                  | Existing 'seeded' customers won't receive seeded AI Builder credits with future premium licenses. Existing seeded AI Builder credits will be honored through to end of contract term. |
 | after 11/01/2026           | (no change)                                  | Existing add-on customers with active AI Builder capacity add-ons                  | Customers with active AI Builder capacity add-ons continue using their AI Builder credits to run AI Builder features until their licenses expire|
 
 ## FAQ
@@ -43,9 +43,7 @@ Use the following FAQ to learn more about Copilot Credits based licensing for AI
 
 ### How will this transition affect our existing contracts and current license entitlements?
 
-Microsoft will honor the terms of AI Builder entitlements for contracts that started prior to November 1, 2025, including both AI Builder add-ons and seeded credits. This means customers will retain the AI Builder entitlement commitments defined in their agreement for the full duration of their contract.
-
-Existing *add-ons* customers will retain access to their AI Builder credits from AI Builder add-ons until their AI Builder add-on contracts expire. Existing *seeded* customers will retain access to their AI Builder credits from seeded premium licenses through November 1, 2026, unless covered under a contract that started prior to November 1, 2025. In this case, seeded entitlements are honored through the contract term.
+Existing 'add-ons' customers will retain access to their AI Builder credits coming from AI Builder add-ons until their AI Builder add-ons contracts expire. Existing 'seeded' customers will retain access to their AI Builder credits coming from seeded premium licenses through the end of their contract term.  
 
 When using AI Builder features in Power Apps or Power Automate context, these AI Builder credits will be consumed first. If AI Builder credits are exhausted or unavailable, the system will attempt to use Copilot Studio Credits. If no Copilot Credits are available, usage will be blocked.
 
@@ -71,13 +69,13 @@ In order to replace the AI Builder credits that will progressively end, customer
 
 ### What happens to AI Builder credits currently included in licenses such as Power Apps Premium, Power Automate Premium, and Dynamics 365 Finance, and others?
 
-The seeded AI Builder credits from licenses like Power Apps Premium or Dynamics 365 will remain usable (on a monthly basis) until November 1, 2026, based on the number of active licenses.
+The seeded AI Builder credits from licenses like Power Apps Premium or Dynamics 365 will remain usable (on a monthly basis) until the end of their contract term.
 
-After November 1, 2026, these seeded credits will be removed for all new and existing customers, including those with an Enterprise Agreement. Copilot Studio Credits will be required for continued access (or active AI Builder add-ons).
+Copilot Studio Credits will be required for continued access.
 
 ### How long do these credits remain available, and will they transition to Copilot Studio Credits after November 2026?
 
-Seeded credits are available to use until November 1, 2026. After that date, they're unavailable. There isn't a transition to Copilot Studio Credits.
+Seeded credits are available to use until the end of contract term. There isn't a transition to Copilot Studio Credits.
 
 Credits coming from AI Builder add-ons remain available until the end of contracts.
 
