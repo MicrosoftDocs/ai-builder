@@ -11,7 +11,7 @@ contributors:
 ms.topic: article
 ms.collection: 
     - bap-ai-copilot
-ms.date: 01/14/2026
+ms.date: 10/08/2026
 ms.update-cycle: 180-days
 ms.author: antode
 ms.reviewer: angieandrews
@@ -19,7 +19,8 @@ ms.reviewer: angieandrews
 
 # Licensing and AI Builder credits
 
-This article focuses on AI Builder credits management. 
+This article focuses on AI Builder credits management.
+
  - Get a global view of AI Builder licensing in [Overview of Licensing](administer-licensing.md).
  - Learn about Copilot Credits management in the context of AI Builder features in [Licensing and Copilot Credits](message-management.md).
 
@@ -43,9 +44,9 @@ In Power Automate, adding an AI Builder action to a flow doesn't transform it in
 
 First, you need to be entitled to some AI Builder capacity. Entitlement can happen through one of the following paid capacities.
 
-- Some Microsoft products like Power Apps per app plan, Power Apps per user plan, and Power Automate Premium (previously Power Automate per user with attended RPA) plan include AI Builder capacity. Your environment admin can check entitlement in Power Platform admin center by following the instructions in [Capacity add-ons](/power-platform/admin/capacity-add-on). These seeded AI Builder credits will be removed on November 1, 2026. When this number isn't enough, you need to complete it with one or more AI Builder capacity add-ons.
+- Some Microsoft products like Power Apps per app plan, Power Apps per user plan, and Power Automate Premium (previously Power Automate per user with attended RPA) plan include AI Builder capacity. Your environment admin can check entitlement in Power Platform admin center by following the instructions in [Capacity add-ons](/power-platform/admin/capacity-add-on).
 
-- The main source of AI Builder credits is the AI Builder credit add-on. If you're an existing customer, you can renew or get more credits in the Microsoft 365 admin center up to November 1, 2026. New customers can't purchase AI Builder capacity add-on anymore, and must purchase Copilot Credits. See [Licensing and Copilot Credits](message-management.md)
+- The main source of AI Builder credits is the AI Builder credit add-on. If you're an existing customer, you can renew or get more credits in the Microsoft 365 admin center up to November 1, 2026. New customers can't purchase AI Builder capacity add-on anymore, and must purchase Copilot Credits. Learn more in [Licensing and Copilot Credits](message-management.md).
 
 ### Number of AI Builder credits by license
 
@@ -63,7 +64,8 @@ The following table explains the rules for number of credits per license.
 | Dynamics 365 F&O|20,000| Maximum = 20,000 AI Builder credits per tenant. |
 | Power Apps for Cloud for Sustainability USL Plus | 25,000 AI Builder credits| None.|
 
-Post November 1, 2026, only AI Builder add-on credits remain active. All other ones are removed.
+> [!NOTE]
+> Existing 'seeded' customers won't receive seeded AI Builder credits with future premium licenses. Existing seeded AI Builder credits will be honored through the end of the contract term. Learn more in [End of AI Builder credits](endofaibcredits.md).
 
 ## Make AI Builder credits available for an environment: allocated and unallocated credits
 
@@ -169,8 +171,8 @@ Then [allocate more capacity](credit-management.md#make-ai-builder-credits-avail
 
 ### I have seeded AI Builder credits. How many add-ons should I buy to cover my need?
 
-AI Builder credits coming from the AI Builder add-on (1,000,000 credits per add-on) and AI Builder credits coming from licenses with seeded capacity (like Power Automate premium, which brings 5,000 credits) are gathered at the tenant level. They represent your entitlement.
-Seeded credits will be removed on November 1, 2026.  
+AI Builder credits coming from the AI Builder add-on (1,000,000 credits per add-on) and AI Builder credits coming from licenses with seeded capacity (like Power Automate premium, which brings 5,000 credits) are gathered at the tenant level. They represent your entitlement. Seeded credits will be removed on November 1, 2026.
+
 Example 1:
 
 One (1) add-on + 5 Power Automate premium licenses gives 1,000,000+5*5,000 = 1,025,000 AI Builder credits that you can assign and consume in any scenario.
@@ -278,8 +280,7 @@ Your prompt fails in any context (testing prompt in prompt builder, Power Apps, 
 
 ### What licensing applies to AI Builder's AI functions?
 
-These AI Builder AI functions&mdash;AISummarize, AIExtract, AIReply, AIClassify, and AISentiment&mdash;are prebuilt prompts available in AI prompts.
-They follow the same rates as AI Prompts in the basic category. See [AI Builder capability rate table](administer-licensing.md#aibuildercapabilityrate-table)
+These AI Builder AI functions&mdash;AISummarize, AIExtract, AIReply, AIClassify, and AISentiment&mdash;are prebuilt prompts available in AI prompts. They follow the same rates as AI Prompts in the basic category. Learn more in [AI Builder capability rate table](administer-licensing.md#aibuildercapabilityrate-table).
 
 ### Are all tests free?
 
@@ -294,6 +295,3 @@ Yes. By adding an AI Builder action to a flow inside your app, you turn your app
 - [Microsoft Power Platform Licensing Guide (pdf)](https://go.microsoft.com/fwlink/?LinkId=2085130)
 - [Licensing FAQ for AI Builder](/power-platform/admin/powerapps-flow-licensing-faq#ai-builder)
 - [Training: Get started with AI Builder licensing (module)](/training/modules/get-started-with-ai-builder-licensing/)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
