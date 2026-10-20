@@ -62,7 +62,7 @@ The report shows AI credits consumed by date for each environment and user.
 
 - **UserId**: The identifier visible in the Dataverse **User** table.
 - **UserEmail**: The UPN of the user.
-- **EnvironmentId**: The ID of the Environment that consumed the credits.
+- **EnvironmentId**: The identifier visible in your Power Apps or Power Automate URL (for example, https://make.powerapps.com/environments/%GUID%).
 - **IsTrial**: If the value is **TRUE**, credits that were consumed are AI Builder trial credits. Note, as of November 1, 2025, AI Builder trials are discontinued.
 - **StartDateTime**: The beginning of the consumption period for the specified user and environment.
 - **EndDateTime**: The end of the consumption period for the specified user and environment.
