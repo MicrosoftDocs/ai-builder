@@ -14,7 +14,7 @@ metadata:
   - bap-ai-copilot
   author: v-aangie
   ms.author: angieandrews
-  ms.date: 01/14/2026
+  ms.date: 11/10/2026
 
   ms.update-cycle: 180-days
 
@@ -124,13 +124,4 @@ landingContent:
             url: share-your-experience.md
           - text: Microsoft support
             url: support.md#microsoft-support
-
-  # Card
-  - title: What's new and planned?
-    linkLists:
-      - linkListType: whats-new
-        links:
-          - text: Release plans
-            url: https://releaseplans.microsoft.com/?app=AI+Builder
-          - text: Feature availability by region
-            url: availability-region.md         
+  
