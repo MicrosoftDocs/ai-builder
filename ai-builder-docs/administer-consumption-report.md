@@ -56,16 +56,16 @@ To download and view an Excel file showing your AI credit consumption report:
 
 ## Understand the consumption report
 
-The report shows AI credits consumed by date for each environment.
+The report shows AI credits consumed by date for each environment and user.
 
 :::image type="content" source="media/administer-consumption-report/credits-by-date.png" alt-text="Screenshot of AI credits consumed by date for each environment.":::
 
-- **Date**: The date of the AI credits consumption.
 - **UserId**: The identifier visible in the Dataverse **User** table.
+- **UserEmail**: The UPN of the user.
 - **EnvironmentId**: The identifier visible in your Power Apps or Power Automate URL (for example, https://make.powerapps.com/environments/%GUID%).
-- **EnvironmentName**: The name of the environment.
-- **AIConsumption**: Contains the number of credits consumed by the user and in the environment for a given date.
 - **IsTrial**: If the value is **TRUE**, credits that were consumed are AI Builder trial credits. Note, as of November 1, 2025, AI Builder trials are discontinued.
+- **StartDateTime**: The beginning of the consumption period for the specified user and environment.
+- **EndDateTime**: The end of the consumption period for the specified user and environment.
 
 You can compare the aggregated consumption for the current calendar month on each environment with what's allocated. Using this information, you can take action to allocate more credits to environments that are in overage. Remember, the number of allocated credits by environment is visible and can be changed in the Power Platform admin center [Add-ons](https://admin.powerplatform.microsoft.com/resources/capacity#add-ons) page.
 
