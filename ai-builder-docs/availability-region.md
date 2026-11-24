@@ -13,8 +13,8 @@ contributors:
   - jekom1
   - v-aangie
 ms.topic: article
-ms.date: 01/14/2026
-ms.author: antrod
+ms.date: 11/23/2026
+ms.author: jangebhardt
 ms.reviewer: angieandrews
 ---
 
@@ -50,7 +50,7 @@ You can find prompts availability in [Model availability by region](/microsoft-c
 | Feature                  | Asia    | Australia | Canada  | Europe  | France  | Germany | India   | Japan   | Korea   | Norway  | Singapore | South Africa | South America | Sweden  | Switzerland | United Arab Emirates | United Kingdom | United States |
 |--------------------------|---------|-----------|---------|---------|---------|---------|---------|---------|---------|---------|-----------|--------------|---------------|---------|-------------|----------------------|----------------|---------------|
 | Business card reader     | GA      | GA        | GA      | GA      | GA      | GA      | GA      | GA      | GA      | GA      | GA        | GA           | GA            | GA      | GA          | GA                   | GA             | GA            |
-| Category classification  | GA      | GA        | GA      | GA      | GA      | GA      | GA      | GA      | -       | -       | -         | -            | GA            | GA      | GA          | GA                   | GA             | GA            |
+| Category classification  | Preview      | Preview        | Preview      | Preview      | Preview      | Preview      | Preview      | Preview      | -       | -       | -         | -            | Preview            | Preview      | Preview          | Preview                   | Preview             | Preview            |
 | Entity extraction        | GA      | GA        | GA      | GA      | GA      | GA      | GA      | -       | -       | -       | -         | -            | GA            | GA      | GA          | GA                   | GA             | GA            |
 | Identity document reader | GA      | GA        | GA      | GA      | GA      | GA      | GA      | GA      | GA      | GA      | GA        | GA           | GA            | GA      | GA          | GA                   | GA             | GA            |
 | Image description        | Preview | Preview   | Preview | Preview | Preview | Preview | Preview | Preview | Preview | Preview | Preview   | Preview      | Preview       | Preview | Preview     | Preview              | Preview        | Preview       |
