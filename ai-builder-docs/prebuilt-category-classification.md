@@ -1,5 +1,5 @@
 ---
-title: Category classification prebuilt model - AI Builder
+title: Category classification prebuilt model - AI Builder (preview)
 description: Describes the prebuilt category classification AI Builder model.
 author: v-aangie
 contributors:
@@ -7,14 +7,18 @@ contributors:
   - v-aangie
 ms.topic: article
 ms.custom: 
-ms.date: 01/14/2026
-ms.author: plarrue
+ms.date: 11/19/2026
+ms.author: jangebhardt
 ms.reviewer: angieandrews
 ---
 
-# Category classification prebuilt model
+# Category classification prebuilt model (preview)
+
+[!INCLUDE [cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
 
 The prebuilt category classification model is a ready to use AI model that's configured to classify your text into categories that are useful for a specific business scenario. The first prebuilt category classification AI model is built around customer feedback uses.
+
+[!INCLUDE[cc_preview_features_definition](./includes/cc-preview-features-definition.md)]
 
 ## Use in Power Apps
 
