@@ -54,6 +54,18 @@ In Power Apps and Power Automate, prompt and model capabilities consume Copilot 
 
 Use prompts (custom or prebuilt), or AI functions within apps or cloud flows.
 
+> [!NOTE]
+> **Using a model hosted in Microsoft Foundry doesn't bypass Copilot Credit consumption for prompts.**
+>
+> When a prompt in Power Apps or Power Automate uses a model deployed in your Microsoft Foundry subscription, execution of the prompt can still consume Copilot Credits according to the applicable AI Builder/AI Tools consumption rate. The model inference is billed separately through the associated Microsoft Foundry resource.
+>
+> As a result, this scenario can incur two separate types of consumption:
+>
+> - **Copilot Credits** for using the prompt capability in Power Platform.
+> - **Microsoft Foundry consumption** for inference performed by the selected model.
+>
+> If an application or flow calls the Microsoft Foundry endpoint directly, for example through a custom connector, the request isn't executed through the AI Builder prompt capability. In that architecture, Microsoft Foundry inference charges still apply, while Power Platform licensing requirements for using a custom connector apply separately.
+
 Use AI models (such as *document processing* or *text recognition*) or prompts within cloud flows.
 
 ## Copilot Credit consumption rates
